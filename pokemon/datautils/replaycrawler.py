@@ -8,6 +8,8 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException
 import os 
+import time
+from datetime import datetime
 
 SEARCH_FORMAT = 'gen7randombattle'
 BASEURL = 'https://replay.pokemonshowdown.com/'
@@ -52,3 +54,13 @@ def crawl():
 				f.write(game + "\n")
 	except (urllib.error.HTTPError,urllib.error.URLError) as e:
 		print(e.fp.read())
+
+def spiderman():
+	while True:
+		print('Crawling-----------------------------------------------------------')
+		crawl()
+		print('Sleeping for 30 minutes--------------------------------------------')
+		print('Current Time: ' + str(datetime.now()))
+		time.sleep(30 * 60)
+		print('Woke up at: ' + str(datetime.now()))
+
