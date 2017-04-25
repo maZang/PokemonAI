@@ -1,15 +1,6 @@
-import cPickle as pickle
 import os, errno
 
 DATA_FOLDER = 'learners/'
-
-def loadLearner(filename):
-	try: 
-		with open(DATA_FOLDER + filename + ".p", 'rb') as f:
-			learner = pickle.load(f)
-	except:
-		learner = None 
-	return learner
 
 class Learner(object):
 	'''
@@ -42,19 +33,6 @@ class Learner(object):
 		'''
 		raise NotImplementedError('Learner should implement this')
 
-	def save(self, filename):
-		'''
-		Saves the learner as a pickle file
-		'''
-		filename = DATA_FOLDER + filename
-		if not os.path.exists(os.path.dirname(filename)):
-			try:
-				os.makedirs(os.path.dirname(filename))
-			except OSError as exc:
-				if exc.errno != errno.EEXIST:
-					raise 
-		with open(filename + ".p", 'wb') as f:
-			pickle.dump(self, f, pickle.HIGHEST_PROTOCOL)
 
 
 class UtilFunction(object):

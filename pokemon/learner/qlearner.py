@@ -1,5 +1,5 @@
-from learn import Learner
-from learn import UtilFunction
+from learner.learn import Learner
+from learner.learn import UtilFunction
 # lib imports
 import random as random
 

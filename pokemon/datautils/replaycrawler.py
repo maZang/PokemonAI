@@ -51,7 +51,7 @@ def crawl():
 				print("Page taking too long!")
 		with open(DATAFOLDER + SEEN_GAMES, 'w') as f:
 			for game in seen_games:
-				f.write(game + "\n")
+				f.write(game + "\n") 	
 	except (urllib.error.HTTPError,urllib.error.URLError) as e:
 		print(e.fp.read())
 

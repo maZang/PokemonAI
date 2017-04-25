@@ -1,5 +1,5 @@
-from qlearner import QLearner	
-from learn import UtilFunction
+from learner.qlearner import QLearner	
+from learner.learn import UtilFunction
 # lib imports
 import random as random
 
@@ -59,6 +59,14 @@ class BatchApproxQLearner(ApproxQLearner):
 
 	def __init__(self, environment, extractorArgs, replayArgs, **args):
 		ApproxQLearner.__init__(environment, **args)
+
+	def update(self, state, action, nextState, reward):
+		pass 
+
+class PokemonShowdownAI(BatchApproxQLearner):
+
+	def __init__(self, environment, extractorArgs, replayArgs, **args):
+		BatchApproxQLearner.__init__(environment, **args)
 
 	def update(self, state, action, nextState, reward):
 		pass 
