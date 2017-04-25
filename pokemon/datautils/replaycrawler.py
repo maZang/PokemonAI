@@ -23,7 +23,8 @@ def crawl():
 		for link in replays_soup.findAll('a', href=True):
 			if SEARCH_FORMAT not in link['href']:
 				continue
-			driver.get(BASEURL + link['href'])
+			driver.get(BASEURL + link['href'][1:])
+			print(BASEURL + link['href'][1:])
 
 			delay = 3 # 3 seconds wait
 
