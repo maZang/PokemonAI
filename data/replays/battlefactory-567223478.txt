@@ -1,0 +1,318 @@
+|j|chris meh
+|j|Jojo Meh
+|player|p1|chris meh|266
+|player|p2|Jojo Meh|262
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|38939,14454,27964,28967,58804,56602,44320,42751,40259,46308,29189,14408
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Basculin, M|item
+|poke|p1|Pawniard, M|item
+|poke|p1|Aurorus, M|item
+|poke|p1|Grumpig, M|item
+|poke|p1|Malamar, M|item
+|poke|p1|Torterra, M|item
+|poke|p2|Golurk|item
+|poke|p2|Regirock|item
+|poke|p2|Grumpig, M|item
+|poke|p2|Shiftry, M|item
+|poke|p2|Crustle, M|item
+|poke|p2|Primeape, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 3, team 2, team 1, team 4, team 5, team 6|team 5, team 2, team 3, team 4, team 1, team 6
+|
+|start
+|switch|p1a: Aurorus|Aurorus, M|100/100
+|switch|p2a: Crustle|Crustle, M|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Aurorus
+|turn|1
+|choice|move blizzard|move knockoff
+|
+|move|p1a: Aurorus|Blizzard|p2a: Crustle
+|-crit|p2a: Crustle
+|-ability|p2a: Crustle|Sturdy
+|-damage|p2a: Crustle|1/100
+|move|p2a: Crustle|Knock Off|p1a: Aurorus
+|-damage|p1a: Aurorus|65/100
+|-enditem|p1a: Aurorus|Focus Sash|[from] move: Knock Off|[of] p2a: Crustle
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Crustle|0 fnt|[from] hail
+|upkeep
+|faint|p2a: Crustle
+|choice||switch 6
+|
+|switch|p2a: Primeape|Primeape, M|100/100
+|turn|2
+|c|☆Jojo Meh|hem
+|c|☆Jojo Meh|ahem
+|c|☆Jojo Meh|ahem
+|c|☆Jojo Meh|ahem
+|c|☆Jojo Meh|ahem
+|c|☆Jojo Meh|ahem
+|c|☆Jojo Meh|ahem
+|c|☆Jojo Meh|ahem
+|c|☆Jojo Meh|ahem
+|c|☆Jojo Meh|ahem
+|l|chris meh
+|player|p1|
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Jojo Meh)
+|c|☆Jojo Meh|pls lose
+|j|chris meh
+|player|p1|chris meh|266
+|choice|move blizzard|move stoneedge
+|
+|move|p2a: Primeape|Stone Edge|p1a: Aurorus
+|-supereffective|p1a: Aurorus
+|-damage|p1a: Aurorus|0 fnt
+|faint|p1a: Aurorus
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Primeape|95/100|[from] hail
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Grumpig|Grumpig, M|100/100
+|turn|3
+|c|☆Jojo Meh|huuuuuu
+|choice|move calmmind|move uturn
+|
+|move|p2a: Primeape|U-turn|p1a: Grumpig
+|-supereffective|p1a: Grumpig
+|-damage|p1a: Grumpig|18/100
+|choice||switch 3
+|
+|switch|p2a: Grumpig|Grumpig, M|100/100
+|move|p1a: Grumpig|Calm Mind|p1a: Grumpig
+|-boost|p1a: Grumpig|spa|1
+|-boost|p1a: Grumpig|spd|1
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Grumpig|12/100|[from] hail
+|-damage|p2a: Grumpig|94/100|[from] hail
+|-heal|p1a: Grumpig|18/100|[from] item: Leftovers
+|-heal|p2a: Grumpig|100/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|choice|move focusblast|move whirlwind
+|
+|move|p1a: Grumpig|Focus Blast|p2a: Grumpig|[miss]
+|-miss|p1a: Grumpig|p2a: Grumpig
+|move|p2a: Grumpig|Whirlwind|p1a: Grumpig
+|drag|p1a: Basculin|Basculin, M|100/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Basculin|94/100|[from] hail
+|-damage|p2a: Grumpig|94/100|[from] hail
+|-heal|p2a: Grumpig|100/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|choice|switch 5|move psychic
+|
+|switch|p1a: Malamar|Malamar, M|100/100
+|move|p2a: Grumpig|Psychic|p1a: Malamar
+|-immune|p1a: Malamar|[msg]
+|
+|-weather|none
+|upkeep
+|turn|6
+|choice|move knockoff|move thunderwave
+|
+|move|p2a: Grumpig|Thunder Wave|p1a: Malamar
+|-status|p1a: Malamar|par
+|cant|p1a: Malamar|par
+|
+|upkeep
+|turn|7
+|choice|move knockoff|move whirlwind
+|
+|move|p1a: Malamar|Knock Off|p2a: Grumpig
+|-supereffective|p2a: Grumpig
+|-damage|p2a: Grumpig|25/100
+|-enditem|p2a: Grumpig|Leftovers|[from] move: Knock Off|[of] p1a: Malamar
+|move|p2a: Grumpig|Whirlwind|p1a: Malamar
+|drag|p1a: Basculin|Basculin, M|94/100
+|
+|upkeep
+|turn|8
+|choice|move superpower|move thunderwave
+|
+|move|p1a: Basculin|Superpower|p2a: Grumpig
+|-resisted|p2a: Grumpig
+|-damage|p2a: Grumpig|0 fnt
+|-unboost|p1a: Basculin|atk|1
+|-unboost|p1a: Basculin|def|1
+|faint|p2a: Grumpig
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Primeape|Primeape, M|95/100
+|turn|9
+|choice|switch 5|move encore
+|
+|switch|p1a: Malamar|Malamar, M|100/100 par
+|move|p2a: Primeape|Encore|p1a: Malamar
+|-fail|p1a: Malamar
+|
+|upkeep
+|turn|10
+|choice|move knockoff|move uturn
+|
+|move|p2a: Primeape|U-turn|p1a: Malamar
+|-supereffective|p1a: Malamar
+|-damage|p1a: Malamar|7/100 par
+|choice||switch 4
+|
+|switch|p2a: Shiftry|Shiftry, M|100/100
+|move|p1a: Malamar|Knock Off|p2a: Shiftry
+|-resisted|p2a: Shiftry
+|-damage|p2a: Shiftry|71/100
+|-enditem|p2a: Shiftry|Life Orb|[from] move: Knock Off|[of] p1a: Malamar
+|
+|-heal|p1a: Malamar|14/100 par|[from] item: Leftovers
+|upkeep
+|turn|11
+|choice|move superpower|move suckerpunch
+|
+|move|p2a: Shiftry|Sucker Punch|p1a: Malamar
+|-damage|p1a: Malamar|0 fnt
+|faint|p1a: Malamar
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Grumpig|Grumpig, M|18/100
+|turn|12
+|choice|move focusblast|move suckerpunch
+|
+|move|p2a: Shiftry|Sucker Punch|p1a: Grumpig
+|-supereffective|p1a: Grumpig
+|-damage|p1a: Grumpig|0 fnt
+|faint|p1a: Grumpig
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Pawniard|Pawniard, M|100/100
+|turn|13
+|choice|move swordsdance|switch 5
+|
+|switch|p2a: Golurk|Golurk|100/100
+|move|p1a: Pawniard|Swords Dance|p1a: Pawniard
+|-boost|p1a: Pawniard|atk|2
+|
+|upkeep
+|turn|14
+|choice|move suckerpunch|move earthquake
+|
+|move|p1a: Pawniard|Sucker Punch|p2a: Golurk
+|-supereffective|p2a: Golurk
+|-enditem|p2a: Golurk|Colbur Berry|[eat]
+|-enditem|p2a: Golurk|Colbur Berry|[weaken]
+|-damage|p2a: Golurk|6/100
+|move|p2a: Golurk|Earthquake|p1a: Pawniard
+|-supereffective|p1a: Pawniard
+|-damage|p1a: Pawniard|0 fnt
+|faint|p1a: Pawniard
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Torterra|Torterra, M|100/100
+|turn|15
+|choice|move earthquake|move stealthrock
+|
+|move|p1a: Torterra|Earthquake|p2a: Golurk
+|-crit|p2a: Golurk
+|-damage|p2a: Golurk|0 fnt
+|faint|p2a: Golurk
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Shiftry|Shiftry, M|71/100
+|turn|16
+|choice|move stoneedge|move explosion
+|
+|move|p2a: Shiftry|Explosion|p1a: Torterra
+|-damage|p1a: Torterra|20/100
+|faint|p2a: Shiftry
+|move|p1a: Torterra|Stone Edge|p2: Shiftry|[notarget]
+|-notarget
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Primeape|Primeape, M|95/100
+|turn|17
+|choice|move earthquake|move uturn
+|
+|move|p2a: Primeape|U-turn|p1a: Torterra
+|-supereffective|p1a: Torterra
+|-damage|p1a: Torterra|0 fnt
+|faint|p1a: Torterra
+|choice||switch 2
+|
+|switch|p2a: Regirock|Regirock|100/100
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Basculin|Basculin, M|94/100
+|turn|18
+|choice|move superpower|move toxic
+|
+|move|p1a: Basculin|Superpower|p2a: Regirock
+|-supereffective|p2a: Regirock
+|-crit|p2a: Regirock
+|-damage|p2a: Regirock|38/100
+|-unboost|p1a: Basculin|atk|1
+|-unboost|p1a: Basculin|def|1
+|move|p2a: Regirock|Toxic|p1a: Basculin
+|-status|p1a: Basculin|tox
+|
+|-heal|p2a: Regirock|44/100|[from] item: Leftovers
+|-damage|p1a: Basculin|88/100 tox|[from] psn
+|upkeep
+|turn|19
+|c|☆chris meh|gg
+|c|☆chris meh|wp
+|choice|move superpower|move rockslide
+|
+|move|p1a: Basculin|Superpower|p2a: Regirock
+|-supereffective|p2a: Regirock
+|-crit|p2a: Regirock
+|-damage|p2a: Regirock|0 fnt
+|-unboost|p1a: Basculin|atk|1
+|-unboost|p1a: Basculin|def|1
+|faint|p2a: Regirock
+|
+|-damage|p1a: Basculin|76/100 tox|[from] psn
+|upkeep
+|c|☆chris meh|twf
+|choice||switch 2
+|
+|switch|p2a: Primeape|Primeape, M|95/100
+|turn|20
+|choice|move superpower|move stoneedge
+|
+|move|p1a: Basculin|Superpower|p2a: Primeape
+|-damage|p2a: Primeape|51/100
+|-unboost|p1a: Basculin|atk|1
+|-unboost|p1a: Basculin|def|1
+|move|p2a: Primeape|Stone Edge|p1a: Basculin
+|-damage|p1a: Basculin|0 fnt
+|faint|p1a: Basculin
+|
+|win|Jojo Meh
+|c|☆chris meh|gg
+|c|☆chris meh|:)
+|c|☆Jojo Meh|landed stone edge
+|c|☆Jojo Meh|yay
+|c|☆chris meh|kappa
+|l|chris meh

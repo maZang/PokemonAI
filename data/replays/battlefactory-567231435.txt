@@ -1,0 +1,303 @@
+|j|AchtungFreud
+|j|dejejr
+|player|p1|AchtungFreud|244
+|player|p2|dejejr|23
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|60661,42913,19968,22501,19661,18541,717,54028,8186,60840,57735,18801
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Gorebyss, M|item
+|poke|p1|Clefairy, M|item
+|poke|p1|Rapidash, M|item
+|poke|p1|Kadabra, M|item
+|poke|p1|Monferno, M|item
+|poke|p1|Articuno|item
+|poke|p2|Monferno, M|item
+|poke|p2|Vibrava, M|item
+|poke|p2|Mightyena, M|item
+|poke|p2|Zebstrika, M|item
+|poke|p2|Lickilicky, M|item
+|poke|p2|Articuno|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 2, team 1, team 3, team 4, team 5, team 6|team 4, team 2, team 3, team 1, team 5, team 6
+|
+|start
+|switch|p1a: Clefairy|Clefairy, M|100/100
+|switch|p2a: Zebstrika|Zebstrika, M|100/100
+|turn|1
+|choice|move stealthrock|move voltswitch
+|
+|move|p2a: Zebstrika|Volt Switch|p1a: Clefairy
+|-damage|p1a: Clefairy|78/100
+|-damage|p2a: Zebstrika|91/100|[from] item: Life Orb
+|choice||switch 2
+|
+|switch|p2a: Vibrava|Vibrava, M|100/100
+|move|p1a: Clefairy|Stealth Rock|p2a: Vibrava
+|-sidestart|p2: dejejr|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|choice|move moonblast|move defog
+|
+|move|p2a: Vibrava|Defog|p1a: Clefairy
+|-unboost|p1a: Clefairy|evasion|1
+|-sideend|p2: dejejr|Stealth Rock|[from] move: Defog|[of] p2a: Vibrava
+|move|p1a: Clefairy|Moonblast|p2a: Vibrava
+|-supereffective|p2a: Vibrava
+|-damage|p2a: Vibrava|64/100
+|
+|upkeep
+|turn|3
+|choice|move stealthrock|switch 5
+|
+|switch|p2a: Lickilicky|Lickilicky, M|100/100
+|move|p1a: Clefairy|Stealth Rock|p2a: Lickilicky
+|-sidestart|p2: dejejr|move: Stealth Rock
+|
+|upkeep
+|turn|4
+|choice|switch 3|move knockoff
+|
+|switch|p1a: Rapidash|Rapidash, M|100/100
+|move|p2a: Lickilicky|Knock Off|p1a: Rapidash
+|-damage|p1a: Rapidash|66/100
+|-enditem|p1a: Rapidash|Leftovers|[from] move: Knock Off|[of] p2a: Lickilicky
+|
+|upkeep
+|turn|5
+|choice|move willowisp|move wish
+|
+|move|p1a: Rapidash|Will-O-Wisp|p2a: Lickilicky
+|-status|p2a: Lickilicky|brn
+|move|p2a: Lickilicky|Wish|p2a: Lickilicky
+|
+|-damage|p2a: Lickilicky|88/100 brn|[from] brn
+|upkeep
+|turn|6
+|choice|move willowisp|switch 5
+|
+|switch|p2a: Vibrava|Vibrava, M|64/100
+|-damage|p2a: Vibrava|58/100|[from] Stealth Rock
+|move|p1a: Rapidash|Will-O-Wisp|p2a: Vibrava
+|-status|p2a: Vibrava|brn
+|
+|-heal|p2a: Vibrava|100/100 brn|[from] move: Wish|[wisher] Lickilicky
+|-damage|p2a: Vibrava|88/100 brn|[from] brn
+|upkeep
+|turn|7
+|choice|switch 3|move defog
+|
+|switch|p1a: Clefairy|Clefairy, M|78/100
+|move|p2a: Vibrava|Defog|p1a: Clefairy
+|-unboost|p1a: Clefairy|evasion|1
+|-sideend|p2: dejejr|Stealth Rock|[from] move: Defog|[of] p2a: Vibrava
+|
+|-damage|p2a: Vibrava|76/100 brn|[from] brn
+|upkeep
+|turn|8
+|choice|move stealthrock|switch 4
+|
+|switch|p2a: Monferno|Monferno, M|100/100
+|move|p1a: Clefairy|Stealth Rock|p2a: Monferno
+|-sidestart|p2: dejejr|move: Stealth Rock
+|
+|upkeep
+|turn|9
+|choice|switch 4|move stealthrock
+|
+|switch|p1a: Kadabra|Kadabra, M|100/100
+|move|p2a: Monferno|Stealth Rock|p1a: Kadabra
+|-sidestart|p1: AchtungFreud|move: Stealth Rock
+|
+|upkeep
+|turn|10
+|choice|move substitute|switch 3
+|
+|switch|p2a: Mightyena|Mightyena, M|100/100
+|-damage|p2a: Mightyena|88/100|[from] Stealth Rock
+|move|p1a: Kadabra|Substitute|p1a: Kadabra
+|-start|p1a: Kadabra|Substitute
+|-damage|p1a: Kadabra|76/100
+|
+|upkeep
+|turn|11
+|choice|move hiddenpower|move crunch
+|
+|move|p1a: Kadabra|Hidden Power|p2a: Mightyena
+|-supereffective|p2a: Mightyena
+|-damage|p2a: Mightyena|0 fnt
+|faint|p2a: Mightyena
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Articuno|Articuno|100/100
+|-damage|p2a: Articuno|50/100|[from] Stealth Rock
+|-ability|p2a: Articuno|Pressure
+|turn|12
+|choice|move psychic|move agility
+|
+|move|p1a: Kadabra|Psychic|p2a: Articuno
+|-damage|p2a: Articuno|0 fnt
+|faint|p2a: Articuno
+|
+|upkeep
+|c|☆dejejr|how fuck
+|choice||switch 2
+|
+|switch|p2a: Zebstrika|Zebstrika, M|91/100
+|-damage|p2a: Zebstrika|78/100|[from] Stealth Rock
+|turn|13
+|c|☆dejejr|am i meant to win
+|choice|move psychic|move voltswitch
+|
+|move|p2a: Zebstrika|Volt Switch|p1a: Kadabra
+|-end|p1a: Kadabra|Substitute
+|-damage|p2a: Zebstrika|68/100|[from] item: Life Orb
+|choice||switch 4
+|
+|switch|p2a: Vibrava|Vibrava, M|76/100 brn
+|-damage|p2a: Vibrava|70/100 brn|[from] Stealth Rock
+|move|p1a: Kadabra|Psychic|p2a: Vibrava
+|-damage|p2a: Vibrava|26/100 brn
+|-unboost|p2a: Vibrava|spd|1
+|
+|-damage|p2a: Vibrava|14/100 brn|[from] brn
+|upkeep
+|turn|14
+|j|ragnarok97
+|l|ragnarok97
+|choice|move psychic|move earthquake
+|
+|move|p1a: Kadabra|Psychic|p2a: Vibrava
+|-damage|p2a: Vibrava|0 fnt
+|faint|p2a: Vibrava
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Zebstrika|Zebstrika, M|68/100
+|-damage|p2a: Zebstrika|56/100|[from] Stealth Rock
+|turn|15
+|choice|switch 4|move thunderbolt
+|
+|switch|p1a: Clefairy|Clefairy, M|78/100
+|move|p2a: Zebstrika|Thunderbolt|p1a: Clefairy
+|-damage|p1a: Clefairy|53/100
+|-damage|p2a: Zebstrika|46/100|[from] item: Life Orb
+|
+|upkeep
+|turn|16
+|choice|move softboiled|move voltswitch
+|
+|move|p2a: Zebstrika|Volt Switch|p1a: Clefairy
+|-damage|p1a: Clefairy|33/100
+|-damage|p2a: Zebstrika|36/100|[from] item: Life Orb
+|choice||switch 3
+|
+|switch|p2a: Monferno|Monferno, M|100/100
+|-damage|p2a: Monferno|88/100|[from] Stealth Rock
+|move|p1a: Clefairy|Soft-Boiled|p1a: Clefairy
+|-heal|p1a: Clefairy|83/100
+|
+|upkeep
+|turn|17
+|choice|move moonblast|move flareblitz
+|
+|move|p2a: Monferno|Flare Blitz|p1a: Clefairy
+|-damage|p1a: Clefairy|25/100
+|-damage|p2a: Monferno|64/100|[from] recoil|[of] p1a: Clefairy
+|move|p1a: Clefairy|Moonblast|p2a: Monferno
+|-damage|p2a: Monferno|32/100
+|
+|upkeep
+|turn|18
+|choice|move healingwish|move flareblitz
+|
+|move|p2a: Monferno|Flare Blitz|p1a: Clefairy
+|-damage|p1a: Clefairy|0 fnt
+|-damage|p2a: Monferno|22/100|[from] recoil|[of] p1a: Clefairy
+|faint|p1a: Clefairy
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Kadabra|Kadabra, M|76/100
+|turn|19
+|choice|move substitute|move machpunch
+|
+|move|p2a: Monferno|Mach Punch|p1a: Kadabra
+|-resisted|p1a: Kadabra
+|-damage|p1a: Kadabra|36/100
+|move|p1a: Kadabra|Substitute|p1a: Kadabra
+|-start|p1a: Kadabra|Substitute
+|-damage|p1a: Kadabra|11/100
+|
+|upkeep
+|turn|20
+|choice|move psychic|move machpunch
+|
+|move|p2a: Monferno|Mach Punch|p1a: Kadabra
+|-resisted|p1a: Kadabra
+|-end|p1a: Kadabra|Substitute
+|move|p1a: Kadabra|Psychic|p2a: Monferno
+|-supereffective|p2a: Monferno
+|-damage|p2a: Monferno|0 fnt
+|faint|p2a: Monferno
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Lickilicky|Lickilicky, M|88/100 brn
+|-damage|p2a: Lickilicky|76/100 brn|[from] Stealth Rock
+|turn|21
+|choice|move psychic|move knockoff
+|
+|move|p1a: Kadabra|Psychic|p2a: Lickilicky
+|-crit|p2a: Lickilicky
+|-damage|p2a: Lickilicky|21/100 brn
+|move|p2a: Lickilicky|Knock Off|p1a: Kadabra
+|-supereffective|p1a: Kadabra
+|-damage|p1a: Kadabra|0 fnt
+|-enditem|p1a: Kadabra|Life Orb|[from] move: Knock Off|[of] p2a: Lickilicky
+|faint|p1a: Kadabra
+|
+|-heal|p2a: Lickilicky|27/100 brn|[from] item: Leftovers
+|-damage|p2a: Lickilicky|14/100 brn|[from] brn
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Monferno|Monferno, M|100/100
+|-damage|p1a: Monferno|88/100|[from] Stealth Rock
+|turn|22
+|choice|move machpunch|move knockoff
+|
+|move|p1a: Monferno|Mach Punch|p2a: Lickilicky
+|-supereffective|p2a: Lickilicky
+|-damage|p2a: Lickilicky|0 fnt
+|faint|p2a: Lickilicky
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Zebstrika|Zebstrika, M|36/100
+|-damage|p2a: Zebstrika|24/100|[from] Stealth Rock
+|turn|23
+|c|☆dejejr|how many points do i loseto this shit
+|choice|move machpunch|move thunderbolt
+|
+|move|p1a: Monferno|Mach Punch|p2a: Zebstrika
+|-crit|p2a: Zebstrika
+|-damage|p2a: Zebstrika|0 fnt
+|faint|p2a: Zebstrika
+|
+|win|AchtungFreud
+|raw|AchtungFreud's rating: 1357 &rarr; <strong>1383</strong><br />(+26 for winning)
+|raw|dejejr's rating: 1460 &rarr; <strong>1434</strong><br />(-26 for losing)
+|l|dejejr

@@ -1,0 +1,426 @@
+|j|Platinum_Jacobs
+|j|Rio91
+|player|p1|Platinum_Jacobs|262
+|player|p2|Rio91|141
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|9320,15658,37818,64152,20897,61272,31361,30520,16984,36174,62362,29520
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Hitmonchan, M|item
+|poke|p1|Klinklang|item
+|poke|p1|Magmortar, M|item
+|poke|p1|Prinplup, M|item
+|poke|p1|Xatu, M|item
+|poke|p1|Ferroseed, M|item
+|poke|p2|Vivillon, M|item
+|poke|p2|Mantine, M|item
+|poke|p2|Crustle, M|item
+|poke|p2|Floatzel, M|item
+|poke|p2|Electivire, M|item
+|poke|p2|Weezing, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 6, team 2, team 3, team 4, team 5, team 1|team 3, team 2, team 1, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Ferroseed|Ferroseed, M|100/100
+|switch|p2a: Crustle|Crustle, M|100/100
+|turn|1
+|choice|move spikes|move stealthrock
+|
+|move|p2a: Crustle|Stealth Rock|p1a: Ferroseed
+|-sidestart|p1: Platinum_Jacobs|move: Stealth Rock
+|move|p1a: Ferroseed|Spikes|p2a: Crustle
+|-sidestart|p2: Rio91|Spikes
+|
+|upkeep
+|turn|2
+|choice|move spikes|move spikes
+|
+|move|p2a: Crustle|Spikes|p1a: Ferroseed
+|-sidestart|p1: Platinum_Jacobs|Spikes
+|move|p1a: Ferroseed|Spikes|p2a: Crustle
+|-sidestart|p2: Rio91|Spikes
+|
+|upkeep
+|turn|3
+|choice|move leechseed|move spikes
+|
+|move|p2a: Crustle|Spikes|p1a: Ferroseed
+|-sidestart|p1: Platinum_Jacobs|Spikes
+|move|p1a: Ferroseed|Leech Seed|p2a: Crustle|[miss]
+|-miss|p1a: Ferroseed|p2a: Crustle
+|
+|upkeep
+|turn|4
+|choice|move leechseed|move spikes
+|
+|move|p2a: Crustle|Spikes|p1a: Ferroseed
+|-sidestart|p1: Platinum_Jacobs|Spikes
+|move|p1a: Ferroseed|Leech Seed|p2a: Crustle
+|-start|p2a: Crustle|move: Leech Seed
+|
+|-damage|p2a: Crustle|88/100|[from] Leech Seed|[of] p1a: Ferroseed
+|upkeep
+|turn|5
+|choice|move protect|move rockblast
+|
+|move|p1a: Ferroseed|Protect|p1a: Ferroseed
+|-singleturn|p1a: Ferroseed|Protect
+|move|p2a: Crustle|Rock Blast|p1a: Ferroseed
+|-activate|p1a: Ferroseed|move: Protect
+|
+|-damage|p2a: Crustle|76/100|[from] Leech Seed|[of] p1a: Ferroseed
+|upkeep
+|turn|6
+|choice|move gyroball|move rockblast
+|
+|move|p2a: Crustle|Rock Blast|p1a: Ferroseed
+|-resisted|p1a: Ferroseed
+|-damage|p1a: Ferroseed|97/100
+|-resisted|p1a: Ferroseed
+|-damage|p1a: Ferroseed|94/100
+|-resisted|p1a: Ferroseed
+|-damage|p1a: Ferroseed|91/100
+|-resisted|p1a: Ferroseed
+|-damage|p1a: Ferroseed|88/100
+|-resisted|p1a: Ferroseed
+|-crit|p1a: Ferroseed
+|-damage|p1a: Ferroseed|83/100
+|-hitcount|p1a: Ferroseed|5
+|move|p1a: Ferroseed|Gyro Ball|p2a: Crustle
+|-supereffective|p2a: Crustle
+|-damage|p2a: Crustle|31/100
+|
+|-damage|p2a: Crustle|18/100|[from] Leech Seed|[of] p1a: Ferroseed
+|-heal|p1a: Ferroseed|95/100|[silent]
+|upkeep
+|turn|7
+|choice|move protect|switch 6
+|
+|switch|p2a: Weezing|Weezing, M|100/100
+|move|p1a: Ferroseed|Protect|p1a: Ferroseed
+|-fail|p1a: Ferroseed
+|
+|upkeep
+|turn|8
+|choice|move leechseed|move taunt
+|
+|move|p2a: Weezing|Taunt|p1a: Ferroseed
+|-start|p1a: Ferroseed|move: Taunt
+|cant|p1a: Ferroseed|move: Taunt|Leech Seed
+|
+|upkeep
+|turn|9
+|choice|move gyroball|move willowisp
+|
+|move|p2a: Weezing|Will-O-Wisp|p1a: Ferroseed
+|-status|p1a: Ferroseed|brn
+|move|p1a: Ferroseed|Gyro Ball|p2a: Weezing
+|-damage|p2a: Weezing|93/100
+|
+|-heal|p2a: Weezing|99/100|[from] item: Black Sludge
+|-damage|p1a: Ferroseed|82/100 brn|[from] brn
+|upkeep
+|turn|10
+|choice|move gyroball|switch 5
+|
+|switch|p2a: Electivire|Electivire, M|100/100
+|-damage|p2a: Electivire|84/100|[from] Spikes
+|move|p1a: Ferroseed|Gyro Ball|p2a: Electivire
+|-resisted|p2a: Electivire
+|-damage|p2a: Electivire|72/100
+|
+|-damage|p1a: Ferroseed|70/100 brn|[from] brn
+|-end|p1a: Ferroseed|move: Taunt
+|upkeep
+|turn|11
+|choice|move protect|move earthquake
+|
+|move|p1a: Ferroseed|Protect|p1a: Ferroseed
+|-singleturn|p1a: Ferroseed|Protect
+|move|p2a: Electivire|Earthquake|p1a: Ferroseed
+|-activate|p1a: Ferroseed|move: Protect
+|
+|-damage|p1a: Ferroseed|58/100 brn|[from] brn
+|upkeep
+|turn|12
+|choice|move leechseed|move earthquake
+|
+|move|p2a: Electivire|Earthquake|p1a: Ferroseed
+|-damage|p1a: Ferroseed|31/100 brn
+|-damage|p2a: Electivire|62/100|[from] item: Life Orb
+|move|p1a: Ferroseed|Leech Seed|p2a: Electivire
+|-start|p2a: Electivire|move: Leech Seed
+|
+|-damage|p2a: Electivire|50/100|[from] Leech Seed|[of] p1a: Ferroseed
+|-heal|p1a: Ferroseed|43/100 brn|[silent]
+|-damage|p1a: Ferroseed|31/100 brn|[from] brn
+|upkeep
+|turn|13
+|choice|move protect|switch 5
+|
+|switch|p2a: Weezing|Weezing, M|99/100
+|move|p1a: Ferroseed|Protect|p1a: Ferroseed
+|-fail|p1a: Ferroseed
+|
+|-heal|p2a: Weezing|100/100|[from] item: Black Sludge
+|-damage|p1a: Ferroseed|19/100 brn|[from] brn
+|upkeep
+|turn|14
+|choice|move leechseed|move taunt
+|
+|move|p2a: Weezing|Taunt|p1a: Ferroseed
+|-start|p1a: Ferroseed|move: Taunt
+|cant|p1a: Ferroseed|move: Taunt|Leech Seed
+|
+|-damage|p1a: Ferroseed|6/100 brn|[from] brn
+|upkeep
+|turn|15
+|choice|move gyroball|move willowisp
+|
+|move|p2a: Weezing|Will-O-Wisp|p1a: Ferroseed
+|-fail|p1a: Ferroseed|brn
+|move|p1a: Ferroseed|Gyro Ball|p2a: Weezing
+|-damage|p2a: Weezing|95/100
+|
+|-heal|p2a: Weezing|100/100|[from] item: Black Sludge
+|-damage|p1a: Ferroseed|0 fnt|[from] brn
+|upkeep
+|faint|p1a: Ferroseed
+|choice|switch 4|
+|
+|switch|p1a: Prinplup|Prinplup, M|100/100
+|-damage|p1a: Prinplup|75/100|[from] Spikes
+|-damage|p1a: Prinplup|63/100|[from] Stealth Rock
+|turn|16
+|choice|move defog|move sludgebomb
+|
+|move|p2a: Weezing|Sludge Bomb|p1a: Prinplup
+|-damage|p1a: Prinplup|40/100
+|move|p1a: Prinplup|Defog|p2a: Weezing
+|-unboost|p2a: Weezing|evasion|1
+|-sideend|p2: Rio91|Spikes|[from] move: Defog|[of] p2a: Weezing
+|-sideend|p1: Platinum_Jacobs|Spikes|[from] move: Defog|[of] p1a: Prinplup
+|-sideend|p1: Platinum_Jacobs|Stealth Rock|[from] move: Defog|[of] p1a: Prinplup
+|
+|upkeep
+|turn|17
+|choice|move stealthrock|move willowisp
+|
+|move|p2a: Weezing|Will-O-Wisp|p1a: Prinplup
+|-status|p1a: Prinplup|brn
+|move|p1a: Prinplup|Stealth Rock|p2a: Weezing
+|-sidestart|p2: Rio91|move: Stealth Rock
+|
+|-damage|p1a: Prinplup|28/100 brn|[from] brn
+|upkeep
+|turn|18
+|choice|move scald|move sludgebomb
+|
+|move|p2a: Weezing|Sludge Bomb|p1a: Prinplup
+|-damage|p1a: Prinplup|3/100 brn
+|move|p1a: Prinplup|Scald|p2a: Weezing
+|-damage|p2a: Weezing|50/100
+|
+|-heal|p2a: Weezing|56/100|[from] item: Black Sludge
+|-damage|p1a: Prinplup|0 fnt|[from] brn
+|upkeep
+|faint|p1a: Prinplup
+|choice|switch 3|
+|
+|switch|p1a: Magmortar|Magmortar, M|100/100
+|turn|19
+|choice|move thunderbolt|move painsplit
+|
+|move|p1a: Magmortar|Thunderbolt|p2a: Weezing
+|-damage|p2a: Weezing|0 fnt
+|-damage|p1a: Magmortar|91/100|[from] item: Life Orb
+|faint|p2a: Weezing
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Electivire|Electivire, M|50/100
+|-damage|p2a: Electivire|37/100|[from] Stealth Rock
+|turn|20
+|choice|move earthquake|move earthquake
+|
+|move|p2a: Electivire|Earthquake|p1a: Magmortar
+|-supereffective|p1a: Magmortar
+|-crit|p1a: Magmortar
+|-damage|p1a: Magmortar|0 fnt
+|-damage|p2a: Electivire|27/100|[from] item: Life Orb
+|faint|p1a: Magmortar
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Hitmonchan|Hitmonchan, M|100/100
+|turn|21
+|choice|move drainpunch|switch 2
+|
+|switch|p2a: Mantine|Mantine, M|100/100
+|-damage|p2a: Mantine|76/100|[from] Stealth Rock
+|move|p1a: Hitmonchan|Drain Punch|p2a: Mantine
+|-resisted|p2a: Mantine
+|-damage|p2a: Mantine|46/100
+|-damage|p1a: Hitmonchan|91/100|[from] item: Life Orb
+|
+|-heal|p2a: Mantine|52/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|choice|move drainpunch|move defog
+|
+|move|p1a: Hitmonchan|Drain Punch|p2a: Mantine
+|-resisted|p2a: Mantine
+|-damage|p2a: Mantine|23/100
+|-heal|p1a: Hitmonchan|100/100|[from] drain|[of] p2a: Mantine
+|-damage|p1a: Hitmonchan|91/100|[from] item: Life Orb
+|move|p2a: Mantine|Defog|p1a: Hitmonchan
+|-unboost|p1a: Hitmonchan|evasion|1
+|-sideend|p2: Rio91|Stealth Rock|[from] move: Defog|[of] p2a: Mantine
+|
+|-heal|p2a: Mantine|29/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|choice|move stoneedge|move airslash
+|
+|move|p1a: Hitmonchan|Stone Edge|p2a: Mantine
+|-supereffective|p2a: Mantine
+|-damage|p2a: Mantine|0 fnt
+|-damage|p1a: Hitmonchan|81/100|[from] item: Life Orb
+|faint|p2a: Mantine
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Electivire|Electivire, M|27/100
+|turn|24
+|choice|move machpunch|move wildcharge
+|
+|move|p1a: Hitmonchan|Mach Punch|p2a: Electivire
+|-damage|p2a: Electivire|0 fnt
+|-damage|p1a: Hitmonchan|71/100|[from] item: Life Orb
+|faint|p2a: Electivire
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Vivillon|Vivillon, M|100/100
+|turn|25
+|choice|move stoneedge|move sleeppowder
+|
+|move|p2a: Vivillon|Sleep Powder|p1a: Hitmonchan
+|-status|p1a: Hitmonchan|slp
+|cant|p1a: Hitmonchan|slp
+|
+|upkeep
+|turn|26
+|choice|move stoneedge|move quiverdance
+|
+|move|p2a: Vivillon|Quiver Dance|p2a: Vivillon
+|-boost|p2a: Vivillon|spa|1
+|-boost|p2a: Vivillon|spd|1
+|-boost|p2a: Vivillon|spe|1
+|cant|p1a: Hitmonchan|slp
+|
+|upkeep
+|turn|27
+|choice|move stoneedge|move hurricane
+|
+|move|p2a: Vivillon|Hurricane|p1a: Hitmonchan
+|-supereffective|p1a: Hitmonchan
+|-damage|p1a: Hitmonchan|0 fnt
+|faint|p1a: Hitmonchan
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Xatu|Xatu, M|100/100
+|turn|28
+|choice|move heatwave|move sleeppowder
+|
+|move|p2a: Vivillon|Sleep Powder|p1a: Xatu
+|move|p1a: Xatu|Sleep Powder|p2a: Vivillon|[from]Magic Bounce|[miss]
+|-miss|p1a: Xatu|p2a: Vivillon
+|move|p1a: Xatu|Heat Wave|p2a: Vivillon
+|-supereffective|p2a: Vivillon
+|-damage|p2a: Vivillon|44/100
+|-status|p2a: Vivillon|brn
+|
+|-heal|p2a: Vivillon|50/100 brn|[from] item: Leftovers
+|-damage|p2a: Vivillon|38/100 brn|[from] brn
+|upkeep
+|turn|29
+|choice|move heatwave|move substitute
+|
+|move|p2a: Vivillon|Substitute|p2a: Vivillon
+|-start|p2a: Vivillon|Substitute
+|-damage|p2a: Vivillon|13/100 brn
+|move|p1a: Xatu|Heat Wave|p2a: Vivillon
+|-supereffective|p2a: Vivillon
+|-end|p2a: Vivillon|Substitute
+|
+|-heal|p2a: Vivillon|19/100 brn|[from] item: Leftovers
+|-damage|p2a: Vivillon|6/100 brn|[from] brn
+|upkeep
+|turn|30
+|choice|move psyshock|move hurricane
+|
+|move|p2a: Vivillon|Hurricane|p1a: Xatu|[miss]
+|-miss|p2a: Vivillon|p1a: Xatu
+|move|p1a: Xatu|Psyshock|p2a: Vivillon
+|-damage|p2a: Vivillon|0 fnt
+|faint|p2a: Vivillon
+|
+|upkeep
+|l|Rio91
+|player|p2|
+|j|Rio91
+|player|p2|Rio91|141
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Platinum_Jacobs)
+|choice||switch 4
+|
+|switch|p2a: Floatzel|Floatzel, M|100/100
+|turn|31
+|choice|move psyshock|move icebeam
+|
+|move|p2a: Floatzel|Ice Beam|p1a: Xatu
+|-supereffective|p1a: Xatu
+|-damage|p1a: Xatu|17/100
+|-damage|p2a: Floatzel|91/100|[from] item: Life Orb
+|move|p1a: Xatu|Psyshock|p2a: Floatzel
+|-damage|p2a: Floatzel|43/100
+|
+|upkeep
+|turn|32
+|choice|move psyshock|move icebeam
+|
+|move|p2a: Floatzel|Ice Beam|p1a: Xatu
+|-supereffective|p1a: Xatu
+|-damage|p1a: Xatu|0 fnt
+|-damage|p2a: Floatzel|33/100|[from] item: Life Orb
+|faint|p1a: Xatu
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Klinklang|Klinklang|100/100
+|turn|33
+|choice|move return|move focusblast
+|
+|move|p2a: Floatzel|Focus Blast|p1a: Klinklang
+|-supereffective|p1a: Klinklang
+|-damage|p1a: Klinklang|0 fnt
+|-damage|p2a: Floatzel|23/100|[from] item: Life Orb
+|faint|p1a: Klinklang
+|
+|win|Rio91
+|raw|Platinum_Jacobs's rating: 1000 &rarr; <strong>1000</strong><br />(+0 for losing)
+|raw|Rio91's rating: 1115 &rarr; <strong>1132</strong><br />(+17 for winning)
+|l|Platinum_Jacobs
