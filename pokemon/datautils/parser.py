@@ -293,6 +293,9 @@ class FieldState(object):
 		self.p2EntryHazards = p2EntryHazards
 		self.weather = weather
 
+def encode(network_config, replay_file):
+	pass
+
 def main():
 	with open(DATAFOLDER + BATTLEFILE) as file:
 		data = file.read()
