@@ -1,0 +1,209 @@
+|j|Cocoon Evolution
+|j|Ash KetchumGamer
+|player|p1|Cocoon Evolution|153
+|player|p2|Ash KetchumGamer|168
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|13123,32233,53674,51870,60252,54293,63753,6119,9445,50394,54352,37163
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Seaking, M|item
+|poke|p1|Ninetales, M|item
+|poke|p1|Klang|item
+|poke|p1|Vibrava, M|item
+|poke|p1|Marowak, M|item
+|poke|p1|Rotom-Frost|item
+|poke|p2|Leavanny, M|item
+|poke|p2|Swanna, M|item
+|poke|p2|Marowak, M|item
+|poke|p2|Seaking, M|item
+|poke|p2|Regice|item
+|poke|p2|Stoutland, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|c|☆Cocoon Evolution|eai
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Cocoon Evolution)
+|c|☆Ash KetchumGamer|me deve uma
+|c|☆Cocoon Evolution|?
+|choice|team 6, team 2, team 3, team 4, team 5, team 1|team 6, team 2, team 3, team 4, team 5, team 1
+|
+|start
+|switch|p1a: Rotom|Rotom-Frost|100/100
+|switch|p2a: Stoutland|Stoutland, M|100/100
+|turn|1
+|c|☆Ash KetchumGamer|te arrumei uma mina
+|c|☆Cocoon Evolution|ela é negra mano
+|choice|move willowisp|move superpower
+|
+|move|p1a: Rotom|Will-O-Wisp|p2a: Stoutland|[miss]
+|-miss|p1a: Rotom|p2a: Stoutland
+|move|p2a: Stoutland|Superpower|p1a: Rotom
+|-supereffective|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|-unboost|p2a: Stoutland|atk|1
+|-unboost|p2a: Stoutland|def|1
+|faint|p1a: Rotom
+|
+|upkeep
+|c|☆Cocoon Evolution|ladrão
+|c|☆Ash KetchumGamer|isso foi pelo seu preconceito
+|c|☆Cocoon Evolution|kmjjkjkj
+|choice|switch 5|
+|
+|switch|p1a: Marowak|Marowak, M|100/100
+|turn|2
+|c|☆Ash KetchumGamer|ganhei porra
+|c|☆Ash KetchumGamer|trintinha
+|c|☆Cocoon Evolution|me deve 10
+|c|☆Ash KetchumGamer|n
+|choice|move stealthrock|switch 4
+|
+|switch|p2a: Seaking|Seaking, M|100/100
+|move|p1a: Marowak|Stealth Rock|p2a: Seaking
+|-sidestart|p2: Ash KetchumGamer|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|choice|switch 6|move waterfall
+|
+|switch|p1a: Seaking|Seaking, M|100/100
+|move|p2a: Seaking|Waterfall|p1a: Seaking
+|-resisted|p1a: Seaking
+|-damage|p1a: Seaking|73/100
+|
+|-heal|p1a: Seaking|79/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|choice|move knockoff|move knockoff
+|
+|move|p2a: Seaking|Knock Off|p1a: Seaking
+|-damage|p1a: Seaking|34/100
+|-enditem|p1a: Seaking|Leftovers|[from] move: Knock Off|[of] p2a: Seaking
+|move|p1a: Seaking|Knock Off|p2a: Seaking
+|-damage|p2a: Seaking|59/100
+|-enditem|p2a: Seaking|Leftovers|[from] move: Knock Off|[of] p1a: Seaking
+|
+|upkeep
+|turn|5
+|choice|move megahorn|move megahorn
+|
+|move|p1a: Seaking|Megahorn|p2a: Seaking
+|-damage|p2a: Seaking|6/100
+|move|p2a: Seaking|Megahorn|p1a: Seaking
+|-damage|p1a: Seaking|0 fnt
+|faint|p1a: Seaking
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Ninetales|Ninetales, M|100/100
+|turn|6
+|choice|move energyball|move waterfall
+|
+|move|p1a: Ninetales|Energy Ball|p2a: Seaking
+|-supereffective|p2a: Seaking
+|-crit|p2a: Seaking
+|-damage|p2a: Seaking|0 fnt
+|faint|p2a: Seaking
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Stoutland|Stoutland, M|100/100
+|-damage|p2a: Stoutland|88/100|[from] Stealth Rock
+|turn|7
+|c|☆Cocoon Evolution|a mina é feia e se acha
+|c|☆Cocoon Evolution|kkjkjkjk
+|choice|switch 4|move return
+|
+|switch|p1a: Vibrava|Vibrava, M|100/100
+|move|p2a: Stoutland|Return|p1a: Vibrava
+|-damage|p1a: Vibrava|6/100
+|
+|upkeep
+|turn|8
+|c|☆Ash KetchumGamer|kkkk
+|c|☆Ash KetchumGamer|counter
+|c|☆Cocoon Evolution|...
+|choice|move roost|switch 3
+|
+|switch|p2a: Marowak|Marowak, M|100/100
+|-damage|p2a: Marowak|94/100|[from] Stealth Rock
+|move|p1a: Vibrava|Roost|p1a: Vibrava
+|-heal|p1a: Vibrava|57/100
+|
+|upkeep
+|turn|9
+|choice|move roost|move stealthrock
+|
+|move|p2a: Marowak|Stealth Rock|p1a: Vibrava
+|-sidestart|p1: Cocoon Evolution|move: Stealth Rock
+|move|p1a: Vibrava|Roost|p1a: Vibrava
+|-heal|p1a: Vibrava|100/100
+|
+|upkeep
+|turn|10
+|choice|move toxic|move knockoff
+|
+|move|p2a: Marowak|Knock Off|p1a: Vibrava
+|-damage|p1a: Vibrava|36/100
+|-enditem|p1a: Vibrava|Eviolite|[from] move: Knock Off|[of] p2a: Marowak
+|move|p1a: Vibrava|Toxic|p2a: Marowak|[miss]
+|-miss|p1a: Vibrava|p2a: Marowak
+|
+|upkeep
+|turn|11
+|c|☆Cocoon Evolution|dmewmdoejdioejdioejdioewjdioewjdioej
+|c|☆Ash KetchumGamer|kkkkkkkkkkkkkkkkkkkkkkkkkk
+|c|☆Cocoon Evolution|que porra de eviolite heim
+|c|☆Ash KetchumGamer|G_G
+|c|☆Cocoon Evolution|toma 64 de knock
+|choice|move roost|move knockoff
+|
+|move|p2a: Marowak|Knock Off|p1a: Vibrava
+|-damage|p1a: Vibrava|0 fnt
+|faint|p1a: Vibrava
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Marowak|Marowak, M|100/100
+|-damage|p1a: Marowak|94/100|[from] Stealth Rock
+|turn|12
+|choice|move bonemerang|move bonemerang
+|
+|move|p2a: Marowak|Bonemerang|p1a: Marowak
+|-damage|p1a: Marowak|45/100
+|-damage|p1a: Marowak|0 fnt
+|-hitcount|p1a: Marowak|2
+|faint|p1a: Marowak
+|
+|upkeep
+|c|☆Ash KetchumGamer|?
+|c|☆Cocoon Evolution|......................
+|choice|switch 4|
+|
+|switch|p1a: Ninetales|Ninetales, M|100/100
+|-damage|p1a: Ninetales|76/100|[from] Stealth Rock
+|turn|13
+|c|☆Cocoon Evolution|corinthiano
+|c|☆Cocoon Evolution|ladrao
+|choice|move energyball|move bonemerang
+|
+|move|p1a: Ninetales|Energy Ball|p2a: Marowak
+|-supereffective|p2a: Marowak
+|-damage|p2a: Marowak|21/100
+|move|p2a: Marowak|Bonemerang|p1a: Ninetales
+|-supereffective|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|-hitcount|p1a: Ninetales|1
+|faint|p1a: Ninetales
+|
+|upkeep
+|c|☆Ash KetchumGamer|?
+|-message|Cocoon Evolution forfeited.
+|
+|win|Ash KetchumGamer
+|l|Cocoon Evolution

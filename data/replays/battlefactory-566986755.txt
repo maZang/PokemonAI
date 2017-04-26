@@ -1,0 +1,355 @@
+|j|ohkf-h
+|j|0000000o00000
+|player|p1|ohkf-h|52
+|player|p2|0000000o00000|51
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|55593,46285,13502,22401,20552,58037,29232,56087,40250,4641,27917,7115
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Golurk|item
+|poke|p1|Electivire, M|item
+|poke|p1|Abomasnow, M|item
+|poke|p1|Pelipper, M|item
+|poke|p1|Tangela, M|item
+|poke|p1|Pyroar, M|item
+|poke|p2|Abomasnow, M|item
+|poke|p2|Regirock|item
+|poke|p2|Audino, M|item
+|poke|p2|Electivire, M|item
+|poke|p2|Jynx, F|item
+|poke|p2|Ninetales, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 5, team 2, team 3, team 4, team 1, team 6|team 4, team 2, team 3, team 1, team 5, team 6
+|
+|start
+|switch|p1a: Tangela|Tangela, M|100/100
+|switch|p2a: Electivire|Electivire, M|100/100
+|turn|1
+|choice|move sleeppowder|move icepunch
+|
+|move|p2a: Electivire|Ice Punch|p1a: Tangela
+|-supereffective|p1a: Tangela
+|-damage|p1a: Tangela|65/100
+|-damage|p2a: Electivire|91/100|[from] item: Life Orb
+|move|p1a: Tangela|Sleep Powder|p2a: Electivire|[miss]
+|-miss|p1a: Tangela|p2a: Electivire
+|
+|upkeep
+|turn|2
+|choice|move sleeppowder|move icepunch
+|
+|move|p2a: Electivire|Ice Punch|p1a: Tangela
+|-supereffective|p1a: Tangela
+|-damage|p1a: Tangela|29/100
+|-damage|p2a: Electivire|81/100|[from] item: Life Orb
+|move|p1a: Tangela|Sleep Powder|p2a: Electivire
+|-status|p2a: Electivire|slp
+|
+|upkeep
+|turn|3
+|choice|move gigadrain|move earthquake
+|
+|cant|p2a: Electivire|slp
+|move|p1a: Tangela|Giga Drain|p2a: Electivire
+|-damage|p2a: Electivire|26/100 slp
+|-heal|p1a: Tangela|53/100|[from] drain|[of] p2a: Electivire
+|
+|upkeep
+|turn|4
+|choice|move gigadrain|switch 4
+|
+|switch|p2a: Abomasnow|Abomasnow, M|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Abomasnow
+|move|p1a: Tangela|Giga Drain|p2a: Abomasnow
+|-resisted|p2a: Abomasnow
+|-damage|p2a: Abomasnow|78/100
+|-heal|p1a: Tangela|64/100|[from] drain|[of] p2a: Abomasnow
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Tangela|58/100|[from] hail
+|upkeep
+|turn|5
+|choice|move hiddenpower|move iceshard
+|
+|move|p2a: Abomasnow|Ice Shard|p1a: Tangela
+|-supereffective|p1a: Tangela
+|-crit|p1a: Tangela
+|-damage|p1a: Tangela|20/100
+|-damage|p2a: Abomasnow|68/100|[from] item: Life Orb
+|move|p1a: Tangela|Hidden Power|p2a: Abomasnow
+|-supereffective|p2a: Abomasnow
+|-damage|p2a: Abomasnow|0 fnt
+|faint|p2a: Abomasnow
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Tangela|14/100|[from] hail
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Jynx|Jynx, F|100/100
+|turn|6
+|choice|move hiddenpower|move icebeam
+|
+|move|p2a: Jynx|Ice Beam|p1a: Tangela
+|-supereffective|p1a: Tangela
+|-damage|p1a: Tangela|0 fnt
+|faint|p1a: Tangela
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Pyroar|Pyroar, M|100/100
+|-ability|p1a: Pyroar|Unnerve|p2: 0000000o00000
+|turn|7
+|choice|move fireblast|move icebeam
+|
+|move|p2a: Jynx|Ice Beam|p1a: Pyroar
+|-resisted|p1a: Pyroar
+|-damage|p1a: Pyroar|67/100
+|move|p1a: Pyroar|Fire Blast|p2a: Jynx
+|-supereffective|p2a: Jynx
+|-damage|p2a: Jynx|0 fnt
+|faint|p2a: Jynx
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Pyroar|61/100|[from] hail
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Electivire|Electivire, M|26/100 slp
+|turn|8
+|choice|move fireblast|move earthquake
+|
+|move|p1a: Pyroar|Fire Blast|p2a: Electivire
+|-damage|p2a: Electivire|0 fnt
+|faint|p2a: Electivire
+|
+|-weather|none
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Ninetales|Ninetales, M|100/100
+|turn|9
+|choice|switch 4|move psyshock
+|
+|switch|p1a: Pelipper|Pelipper, M|100/100
+|move|p2a: Ninetales|Psyshock|p1a: Pelipper
+|-damage|p1a: Pelipper|82/100
+|-damage|p2a: Ninetales|91/100|[from] item: Life Orb
+|
+|-heal|p1a: Pelipper|88/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|choice|move scald|switch 3
+|
+|switch|p2a: Audino|Audino, M|100/100
+|move|p1a: Pelipper|Scald|p2a: Audino
+|-damage|p2a: Audino|81/100
+|
+|-heal|p1a: Pelipper|94/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|choice|move scald|move protect mega
+|
+|detailschange|p2a: Audino|Audino-Mega, M
+|-mega|p2a: Audino|Audino|Audinite
+|move|p2a: Audino|Protect|p2a: Audino
+|-singleturn|p2a: Audino|Protect
+|move|p1a: Pelipper|Scald|p2a: Audino
+|-activate|p2a: Audino|move: Protect
+|
+|-heal|p1a: Pelipper|100/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ohkf-h)
+|choice|move scald|move protect
+|
+|move|p2a: Audino|Protect|p2a: Audino
+|-fail|p2a: Audino
+|move|p1a: Pelipper|Scald|p2a: Audino
+|-damage|p2a: Audino|68/100
+|
+|upkeep
+|turn|13
+|choice|move scald|move dazzlinggleam
+|
+|move|p1a: Pelipper|Scald|p2a: Audino
+|-damage|p2a: Audino|55/100
+|move|p2a: Audino|Dazzling Gleam|p1a: Pelipper
+|-damage|p1a: Pelipper|65/100
+|
+|-heal|p1a: Pelipper|71/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|choice|move scald|move wish
+|
+|move|p1a: Pelipper|Scald|p2a: Audino
+|-damage|p2a: Audino|40/100
+|move|p2a: Audino|Wish|p2a: Audino
+|
+|-heal|p1a: Pelipper|78/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|choice|move scald|move protect
+|
+|move|p2a: Audino|Protect|p2a: Audino
+|-singleturn|p2a: Audino|Protect
+|move|p1a: Pelipper|Scald|p2a: Audino
+|-activate|p2a: Audino|move: Protect
+|
+|-heal|p2a: Audino|90/100|[from] move: Wish|[wisher] Audino
+|-heal|p1a: Pelipper|84/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|choice|move scald|move dazzlinggleam
+|
+|move|p1a: Pelipper|Scald|p2a: Audino
+|-damage|p2a: Audino|77/100
+|-status|p2a: Audino|brn
+|move|p2a: Audino|Dazzling Gleam|p1a: Pelipper
+|-damage|p1a: Pelipper|54/100
+|
+|-heal|p1a: Pelipper|60/100|[from] item: Leftovers
+|-damage|p2a: Audino|64/100 brn|[from] brn
+|upkeep
+|turn|17
+|choice|move hurricane|move dazzlinggleam
+|
+|move|p1a: Pelipper|Hurricane|p2a: Audino|[miss]
+|-miss|p1a: Pelipper|p2a: Audino
+|move|p2a: Audino|Dazzling Gleam|p1a: Pelipper
+|-damage|p1a: Pelipper|29/100
+|
+|-heal|p1a: Pelipper|35/100|[from] item: Leftovers
+|-damage|p2a: Audino|52/100 brn|[from] brn
+|upkeep
+|turn|18
+|choice|move roost|move wish
+|
+|move|p1a: Pelipper|Roost|p1a: Pelipper
+|-heal|p1a: Pelipper|85/100
+|move|p2a: Audino|Wish|p2a: Audino
+|
+|-heal|p1a: Pelipper|91/100|[from] item: Leftovers
+|-damage|p2a: Audino|39/100 brn|[from] brn
+|upkeep
+|turn|19
+|choice|switch 4|move protect
+|
+|switch|p1a: Pyroar|Pyroar, M|61/100
+|-ability|p1a: Pyroar|Unnerve|p2: 0000000o00000
+|move|p2a: Audino|Protect|p2a: Audino
+|-fail|p2a: Audino
+|
+|-heal|p2a: Audino|89/100 brn|[from] move: Wish|[wisher] Audino
+|-damage|p2a: Audino|77/100 brn|[from] brn
+|upkeep
+|turn|20
+|choice|move hypervoice|move protect
+|
+|move|p2a: Audino|Protect|p2a: Audino
+|-singleturn|p2a: Audino|Protect
+|move|p1a: Pyroar|Hyper Voice|p2a: Audino
+|-activate|p2a: Audino|move: Protect
+|
+|-damage|p2a: Audino|64/100 brn|[from] brn
+|upkeep
+|turn|21
+|choice|move hypervoice|move dazzlinggleam
+|
+|move|p1a: Pyroar|Hyper Voice|p2a: Audino
+|-damage|p2a: Audino|31/100 brn
+|move|p2a: Audino|Dazzling Gleam|p1a: Pyroar
+|-resisted|p1a: Pyroar
+|-damage|p1a: Pyroar|44/100
+|
+|-damage|p2a: Audino|19/100 brn|[from] brn
+|upkeep
+|turn|22
+|choice|move hypervoice|switch 3
+|
+|switch|p2a: Ninetales|Ninetales, M|91/100
+|move|p1a: Pyroar|Hyper Voice|p2a: Ninetales
+|-damage|p2a: Ninetales|15/100
+|
+|upkeep
+|turn|23
+|choice|move hypervoice|move psyshock
+|
+|move|p1a: Pyroar|Hyper Voice|p2a: Ninetales
+|-damage|p2a: Ninetales|0 fnt
+|faint|p2a: Ninetales
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Regirock|Regirock|100/100
+|turn|24
+|choice|switch 3|move stealthrock
+|
+|switch|p1a: Abomasnow|Abomasnow, M|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Abomasnow
+|move|p2a: Regirock|Stealth Rock|p1a: Abomasnow
+|-sidestart|p1: ohkf-h|move: Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Regirock|94/100|[from] hail
+|-heal|p2a: Regirock|100/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|choice|move gigadrain|move thunderwave
+|
+|move|p1a: Abomasnow|Giga Drain|p2a: Regirock
+|-supereffective|p2a: Regirock
+|-damage|p2a: Regirock|36/100
+|-damage|p1a: Abomasnow|91/100|[from] item: Life Orb
+|move|p2a: Regirock|Thunder Wave|p1a: Abomasnow
+|-status|p1a: Abomasnow|par
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Regirock|30/100|[from] hail
+|-heal|p2a: Regirock|36/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|choice|move gigadrain|move drainpunch
+|
+|move|p2a: Regirock|Drain Punch|p1a: Abomasnow
+|-supereffective|p1a: Abomasnow
+|-damage|p1a: Abomasnow|36/100 par
+|-heal|p2a: Regirock|60/100|[from] drain|[of] p1a: Abomasnow
+|move|p1a: Abomasnow|Giga Drain|p2a: Regirock
+|-supereffective|p2a: Regirock
+|-damage|p2a: Regirock|0 fnt
+|-heal|p1a: Abomasnow|70/100 par|[from] drain|[of] p2a: Regirock
+|-damage|p1a: Abomasnow|60/100 par|[from] item: Life Orb
+|faint|p2a: Regirock
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Audino|Audino-Mega, M|19/100 brn
+|turn|27
+|choice|move iceshard|move protect
+|
+|move|p2a: Audino|Protect|p2a: Audino
+|-singleturn|p2a: Audino|Protect
+|move|p1a: Abomasnow|Ice Shard|p2a: Audino
+|-activate|p2a: Audino|move: Protect
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Audino|13/100 brn|[from] hail
+|-damage|p2a: Audino|0 fnt|[from] brn
+|upkeep
+|faint|p2a: Audino
+|
+|win|ohkf-h
+|raw|ohkf-h's rating: 1000 &rarr; <strong>1040</strong><br />(+40 for winning)
+|raw|0000000o00000's rating: 1000 &rarr; <strong>1000</strong><br />(+0 for losing)
+|l|0000000o00000

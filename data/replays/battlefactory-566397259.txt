@@ -1,0 +1,304 @@
+|j|ragnarok97
+|j|SolAnima
+|player|p1|ragnarok97|266
+|player|p2|SolAnima|1
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|11821,9710,49257,458,29339,17502,48478,62451,49450,12167,29582,43064
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Houndoom, M|item
+|poke|p1|Banette, M|item
+|poke|p1|Absol, M|item
+|poke|p1|Fletchinder, M|
+|poke|p1|Aerodactyl, M|item
+|poke|p1|Escavalier, M|item
+|poke|p2|Hitmonlee, M|item
+|poke|p2|Delphox, M|item
+|poke|p2|Granbull, M|item
+|poke|p2|Aerodactyl, M|item
+|poke|p2|Druddigon, M|item
+|poke|p2|Jellicent, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 2, team 1, team 3, team 4, team 5, team 6|team 6, team 2, team 3, team 4, team 5, team 1
+|
+|start
+|switch|p1a: Banette|Banette, M|100/100
+|switch|p2a: Jellicent|Jellicent, M|100/100
+|turn|1
+|choice|move knockoff mega|move willowisp
+|
+|detailschange|p1a: Banette|Banette-Mega, M
+|-mega|p1a: Banette|Banette|Banettite
+|move|p1a: Banette|Knock Off|p2a: Jellicent
+|-supereffective|p2a: Jellicent
+|-damage|p2a: Jellicent|35/100
+|-enditem|p2a: Jellicent|Leftovers|[from] move: Knock Off|[of] p1a: Banette
+|move|p2a: Jellicent|Will-O-Wisp|p1a: Banette
+|-status|p1a: Banette|brn
+|
+|-damage|p1a: Banette|88/100 brn|[from] brn
+|upkeep
+|turn|2
+|choice|move knockoff|move hex
+|
+|move|p1a: Banette|Knock Off|p2a: Jellicent
+|-supereffective|p2a: Jellicent
+|-damage|p2a: Jellicent|12/100
+|move|p2a: Jellicent|Hex|p1a: Banette
+|-supereffective|p1a: Banette
+|-damage|p1a: Banette|0 fnt
+|faint|p1a: Banette
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Houndoom|Houndoom, M|100/100
+|turn|3
+|choice|move fireblast|move recover
+|
+|move|p1a: Houndoom|Fire Blast|p2a: Jellicent|[miss]
+|-miss|p1a: Houndoom|p2a: Jellicent
+|move|p2a: Jellicent|Recover|p2a: Jellicent
+|-heal|p2a: Jellicent|62/100
+|
+|upkeep
+|turn|4
+|c|☆SolAnima|So. Sorry.
+|choice|move darkpulse|move recover
+|
+|move|p1a: Houndoom|Dark Pulse|p2a: Jellicent
+|-supereffective|p2a: Jellicent
+|-damage|p2a: Jellicent|0 fnt
+|-damage|p1a: Houndoom|91/100|[from] item: Life Orb
+|faint|p2a: Jellicent
+|
+|upkeep
+|c|☆ragnarok97|it fine
+|choice||switch 3
+|
+|switch|p2a: Granbull|Granbull, M|100/100
+|-ability|p2a: Granbull|Intimidate|boost
+|-unboost|p1a: Houndoom|atk|1
+|turn|5
+|c|☆ragnarok97|not ur fault
+|choice|switch 6|move playrough
+|
+|switch|p1a: Escavalier|Escavalier, M|100/100
+|move|p2a: Granbull|Play Rough|p1a: Escavalier
+|-resisted|p1a: Escavalier
+|-damage|p1a: Escavalier|61/100
+|
+|upkeep
+|turn|6
+|choice|move ironhead|switch 5
+|
+|switch|p2a: Druddigon|Druddigon, M|100/100
+|move|p1a: Escavalier|Iron Head|p2a: Druddigon
+|-damage|p2a: Druddigon|48/100
+|-damage|p1a: Escavalier|49/100|[from] ability: Rough Skin|[of] p2a: Druddigon
+|-damage|p1a: Escavalier|32/100|[from] item: Rocky Helmet|[of] p2a: Druddigon
+|
+|upkeep
+|turn|7
+|choice|move ironhead|move firepunch
+|
+|move|p2a: Druddigon|Fire Punch|p1a: Escavalier
+|-supereffective|p1a: Escavalier
+|-damage|p1a: Escavalier|0 fnt
+|faint|p1a: Escavalier
+|
+|upkeep
+|c|☆SolAnima|GEEZ
+|c|☆SolAnima|Hits real hard
+|choice|switch 6|
+|
+|switch|p1a: Houndoom|Houndoom, M|91/100
+|turn|8
+|choice|move fireblast|move gunkshot
+|
+|move|p1a: Houndoom|Fire Blast|p2a: Druddigon
+|-resisted|p2a: Druddigon
+|-damage|p2a: Druddigon|13/100
+|-damage|p1a: Houndoom|81/100|[from] item: Life Orb
+|move|p2a: Druddigon|Gunk Shot|p1a: Houndoom
+|-damage|p1a: Houndoom|14/100
+|
+|upkeep
+|turn|9
+|choice|move darkpulse|move gunkshot
+|
+|move|p1a: Houndoom|Dark Pulse|p2a: Druddigon
+|-damage|p2a: Druddigon|0 fnt
+|-damage|p1a: Houndoom|4/100|[from] item: Life Orb
+|faint|p2a: Druddigon
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Aerodactyl|Aerodactyl, M|100/100
+|-ability|p2a: Aerodactyl|Unnerve|p1: ragnarok97
+|turn|10
+|choice|move suckerpunch|move aerialace
+|
+|move|p1a: Houndoom|Sucker Punch|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|43/100
+|-damage|p1a: Houndoom|0 fnt|[from] item: Life Orb
+|faint|p1a: Houndoom
+|move|p2a: Aerodactyl|Aerial Ace|p1: Houndoom|[notarget]
+|-notarget
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Aerodactyl|Aerodactyl, M|100/100
+|-ability|p1a: Aerodactyl|Unnerve|p2: SolAnima
+|turn|11
+|choice|move stoneedge|move stoneedge
+|
+|move|p1a: Aerodactyl|Stone Edge|p2a: Aerodactyl
+|-supereffective|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|0 fnt
+|-damage|p1a: Aerodactyl|91/100|[from] item: Life Orb
+|faint|p2a: Aerodactyl
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Granbull|Granbull, M|100/100
+|-ability|p2a: Granbull|Intimidate|boost
+|-unboost|p1a: Aerodactyl|atk|1
+|turn|12
+|choice|switch 3|move thunderpunch
+|
+|switch|p1a: Absol|Absol, M|100/100
+|move|p2a: Granbull|Thunder Punch|p1a: Absol
+|-damage|p1a: Absol|21/100
+|
+|upkeep
+|turn|13
+|choice|move knockoff|move thunderpunch
+|
+|move|p1a: Absol|Knock Off|p2a: Granbull
+|-resisted|p2a: Granbull
+|-damage|p2a: Granbull|56/100
+|-enditem|p2a: Granbull|Choice Band|[from] move: Knock Off|[of] p1a: Absol
+|-damage|p1a: Absol|11/100|[from] item: Life Orb
+|move|p2a: Granbull|Thunder Punch|p1a: Absol
+|-damage|p1a: Absol|0 fnt
+|faint|p1a: Absol
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Fletchinder|Fletchinder, M|100/100
+|turn|14
+|choice|move willowisp|move thunderpunch
+|
+|move|p1a: Fletchinder|Will-O-Wisp|p2a: Granbull
+|-status|p2a: Granbull|brn
+|move|p2a: Granbull|Thunder Punch|p1a: Fletchinder
+|-supereffective|p1a: Fletchinder
+|-damage|p1a: Fletchinder|60/100
+|
+|-damage|p2a: Granbull|43/100 brn|[from] brn
+|upkeep
+|turn|15
+|choice|move swordsdance|move thunderpunch
+|
+|move|p1a: Fletchinder|Swords Dance|p1a: Fletchinder
+|-boost|p1a: Fletchinder|atk|2
+|move|p2a: Granbull|Thunder Punch|p1a: Fletchinder
+|-supereffective|p1a: Fletchinder
+|-damage|p1a: Fletchinder|15/100
+|
+|-damage|p2a: Granbull|31/100 brn|[from] brn
+|upkeep
+|turn|16
+|choice|move roost|move thunderpunch
+|
+|move|p1a: Fletchinder|Roost|p1a: Fletchinder
+|-heal|p1a: Fletchinder|65/100
+|move|p2a: Granbull|Thunder Punch|p1a: Fletchinder
+|-damage|p1a: Fletchinder|42/100
+|-status|p1a: Fletchinder|par
+|
+|-damage|p2a: Granbull|19/100 brn|[from] brn
+|upkeep
+|turn|17
+|choice|move roost|move playrough
+|
+|move|p1a: Fletchinder|Roost|p1a: Fletchinder
+|-heal|p1a: Fletchinder|92/100 par
+|move|p2a: Granbull|Play Rough|p1a: Fletchinder
+|-resisted|p1a: Fletchinder
+|-damage|p1a: Fletchinder|73/100 par
+|
+|-damage|p2a: Granbull|6/100 brn|[from] brn
+|upkeep
+|turn|18
+|choice|move roost|move thunderpunch
+|
+|move|p1a: Fletchinder|Roost|p1a: Fletchinder
+|-heal|p1a: Fletchinder|100/100 par
+|move|p2a: Granbull|Thunder Punch|p1a: Fletchinder
+|-damage|p1a: Fletchinder|78/100 par
+|
+|-damage|p2a: Granbull|0 fnt|[from] brn
+|upkeep
+|faint|p2a: Granbull
+|choice||switch 2
+|
+|switch|p2a: Delphox|Delphox, M|100/100
+|turn|19
+|choice|move acrobatics|move calmmind
+|
+|cant|p1a: Fletchinder|par
+|move|p2a: Delphox|Calm Mind|p2a: Delphox
+|-boost|p2a: Delphox|spa|1
+|-boost|p2a: Delphox|spd|1
+|
+|upkeep
+|turn|20
+|choice|move acrobatics|move hiddenpower
+|
+|cant|p1a: Fletchinder|par
+|move|p2a: Delphox|Hidden Power|p1a: Fletchinder
+|-supereffective|p1a: Fletchinder
+|-damage|p1a: Fletchinder|0 fnt
+|-damage|p2a: Delphox|91/100|[from] item: Life Orb
+|faint|p1a: Fletchinder
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Aerodactyl|Aerodactyl, M|91/100
+|-ability|p1a: Aerodactyl|Unnerve|p2: SolAnima
+|turn|21
+|choice|move earthquake|move hiddenpower
+|
+|move|p1a: Aerodactyl|Earthquake|p2a: Delphox
+|-supereffective|p2a: Delphox
+|-damage|p2a: Delphox|0 fnt
+|-damage|p1a: Aerodactyl|81/100|[from] item: Life Orb
+|faint|p2a: Delphox
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Hitmonlee|Hitmonlee, M|100/100
+|turn|22
+|choice|move aerialace|move highjumpkick
+|
+|move|p2a: Hitmonlee|High Jump Kick|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|0 fnt
+|faint|p1a: Aerodactyl
+|
+|win|SolAnima
+|raw|ragnarok97's rating: 1355 &rarr; <strong>1332</strong><br />(-23 for losing)
+|raw|SolAnima's rating: 1295 &rarr; <strong>1324</strong><br />(+29 for winning)
+|l|ragnarok97

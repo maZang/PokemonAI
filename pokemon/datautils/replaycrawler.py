@@ -11,7 +11,7 @@ import os
 import time
 from datetime import datetime
 
-SEARCH_FORMAT = 'gen7randombattle'
+SEARCH_FORMAT = 'battlefactory'
 BASEURL = 'https://replay.pokemonshowdown.com/'
 SEARCHURL = BASEURL + 'search/?format=' + SEARCH_FORMAT
 DATAFOLDER = 'data/replays/'
@@ -25,33 +25,19 @@ def crawl():
 		req = urllib.request.Request(SEARCHURL, headers={'User-Agent' : 'Magic Browser'})
 		replays = urllib.request.urlopen(req)
 		replays_soup = BeautifulSoup(replays, 'html.parser')
-		# set up options to download into data folder
-		chromeOptions = webdriver.ChromeOptions()
-		prefs = {'download.default_directory' : os.path.abspath(DATAFOLDER), 
-				'directory_upgrade' : True,
-				'extensions_to_open': ""}
-		chromeOptions.add_experimental_option('prefs', prefs)
-		driver = webdriver.Chrome(executable_path=DRIVERFOLDER, chrome_options=chromeOptions)
 		for link in replays_soup.findAll('a', href=True):
-			if SEARCH_FORMAT not in link['href'] or link['href'] in seen_games:
+			if SEARCH_FORMAT not in link['href'] or link['href'][1:] in seen_games:
 				continue
-			driver.get(BASEURL + link['href'][1:])
-			print(BASEURL + link['href'][1:])
-
-			delay = 3 # 3 seconds wait
-
-			try:
-				element_present = EC.presence_of_element_located((By.CLASS_NAME, "replayDownloadButton"))
-				WebDriverWait(driver, delay).until(element_present)
-				dl_button = driver.find_elements_by_class_name('replayDownloadButton')
-				assert(len(dl_button) == 1)
-				dl_button[0].click()
-				seen_games.add(link['href'])
-			except TimeoutException:
-				print("Page taking too long!")
+			url = BASEURL + link['href'][1:] + '.log'
+			logreq =  urllib.request.Request(url, headers={'User-Agent' : 'Magic Browser'})
+			logpage = urllib.request.urlopen(logreq)
+			with open(DATAFOLDER + link['href'][1:] + '.txt', 'wb') as f:
+				f.write(logpage.read())
+			seen_games.add(link['href'][1:])
 		with open(DATAFOLDER + SEEN_GAMES, 'w') as f:
 			for game in seen_games:
-				f.write(game + "\n") 	
+				f.write(game + "\n")
+			
 	except (urllib.error.HTTPError,urllib.error.URLError) as e:
 		print(e.fp.read())
 

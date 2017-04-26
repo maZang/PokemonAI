@@ -1,0 +1,498 @@
+|j|camilas
+|j|villageidiotblarg
+|player|p1|camilas|39
+|player|p2|villageidiotblarg|163
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|30638,1118,23499,1511,35473,24292,3461,15274,7874,19043,81,60843
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Zapdos|item
+|poke|p1|Lopunny, M|item
+|poke|p1|Victini|item
+|poke|p1|Gengar, M|item
+|poke|p1|Crawdaunt, M|item
+|poke|p1|Mamoswine, M|item
+|poke|p2|Tyranitar, M|item
+|poke|p2|Zapdos|item
+|poke|p2|Latias, F|item
+|poke|p2|Jirachi|item
+|poke|p2|Bisharp, M|item
+|poke|p2|Rotom-Wash|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|c|☆camilas|aye
+|c|☆villageidiotblarg|was never
+|c|☆villageidiotblarg|a chall
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by villageidiotblarg)
+|choice|team 6, team 2, team 3, team 4, team 5, team 1|team 4, team 2, team 3, team 1, team 5, team 6
+|
+|start
+|switch|p1a: Mamoswine|Mamoswine, M|100/100
+|switch|p2a: Jirachi|Jirachi|100/100
+|turn|1
+|c|☆villageidiotblarg|bad
+|c|☆villageidiotblarg|stop calcing
+|c|☆villageidiotblarg|you idiot
+|choice|move stealthrock|move ironhead
+|
+|move|p2a: Jirachi|Iron Head|p1a: Mamoswine
+|-supereffective|p1a: Mamoswine
+|-damage|p1a: Mamoswine|21/100
+|cant|p1a: Mamoswine|flinch
+|
+|upkeep
+|turn|2
+|c|☆camilas|im fuckin your bitch
+|c|☆villageidiotblarg|you a nimrod?
+|choice|switch 3|move substitute
+|
+|switch|p1a: Victini|Victini|100/100
+|move|p2a: Jirachi|Substitute|p2a: Jirachi
+|-start|p2a: Jirachi|Substitute
+|-damage|p2a: Jirachi|75/100
+|
+|-heal|p2a: Jirachi|82/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|choice|move vcreate|move toxic
+|
+|move|p1a: Victini|V-create|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-end|p2a: Jirachi|Substitute
+|-unboost|p1a: Victini|spe|1
+|-unboost|p1a: Victini|def|1
+|-unboost|p1a: Victini|spd|1
+|move|p2a: Jirachi|Toxic|p1a: Victini
+|-status|p1a: Victini|tox
+|
+|-heal|p2a: Jirachi|88/100|[from] item: Leftovers
+|-damage|p1a: Victini|94/100 tox|[from] psn
+|upkeep
+|turn|4
+|choice|switch 3|move substitute
+|
+|switch|p1a: Mamoswine|Mamoswine, M|21/100
+|move|p2a: Jirachi|Substitute|p2a: Jirachi
+|-start|p2a: Jirachi|Substitute
+|-damage|p2a: Jirachi|63/100
+|
+|-heal|p2a: Jirachi|69/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|c|☆villageidiotblarg|idiot?
+|c|☆villageidiotblarg|is that you
+|c|☆camilas|lmfao
+|choice|switch 6|move ironhead
+|
+|switch|p1a: Zapdos|Zapdos|100/100
+|-ability|p1a: Zapdos|Pressure
+|move|p2a: Jirachi|Iron Head|p1a: Zapdos
+|-resisted|p1a: Zapdos
+|-damage|p1a: Zapdos|89/100
+|
+|-heal|p2a: Jirachi|75/100|[from] item: Leftovers
+|-heal|p1a: Zapdos|95/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|choice|move heatwave|move toxic
+|
+|move|p2a: Jirachi|Toxic|p1a: Zapdos
+|-status|p1a: Zapdos|tox
+|move|p1a: Zapdos|Heat Wave|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-end|p2a: Jirachi|Substitute
+|
+|-heal|p2a: Jirachi|81/100|[from] item: Leftovers
+|-heal|p1a: Zapdos|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Zapdos|94/100 tox|[from] psn
+|upkeep
+|turn|7
+|c|☆villageidiotblarg|how you let a jirachi
+|c|☆villageidiotblarg|tox 2 of your mons
+|c|☆villageidiotblarg|and nearly kill
+|c|☆villageidiotblarg|the other
+|choice|switch 6|switch 4
+|
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|switch|p1a: Mamoswine|Mamoswine, M|21/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|8
+|c|☆villageidiotblarg|OHOHOHO
+|choice|move stealthrock|move stealthrock
+|
+|move|p1a: Mamoswine|Stealth Rock|p2a: Tyranitar
+|-sidestart|p2: villageidiotblarg|move: Stealth Rock
+|move|p2a: Tyranitar|Stealth Rock|p1a: Mamoswine
+|-sidestart|p1: camilas|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|9
+|c|☆villageidiotblarg|looks like you were jased boo
+|c|☆villageidiotblarg|on that turn
+|choice|move endeavor|switch 6
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|-damage|p2a: Rotom|88/100|[from] Stealth Rock
+|move|p1a: Mamoswine|Endeavor|p2a: Rotom
+|-damage|p2a: Rotom|25/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom|19/100|[from] sandstorm
+|-heal|p2a: Rotom|25/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|choice|move iceshard|move hydropump
+|
+|move|p1a: Mamoswine|Ice Shard|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|17/100
+|move|p2a: Rotom|Hydro Pump|p1a: Mamoswine
+|-supereffective|p1a: Mamoswine
+|-damage|p1a: Mamoswine|0 fnt
+|faint|p1a: Mamoswine
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom|11/100|[from] sandstorm
+|-heal|p2a: Rotom|17/100|[from] item: Leftovers
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Lopunny|Lopunny, M|100/100
+|-damage|p1a: Lopunny|88/100|[from] Stealth Rock
+|turn|11
+|j|sedertz.
+|choice|move return mega|move willowisp
+|
+|detailschange|p1a: Lopunny|Lopunny-Mega, M
+|-mega|p1a: Lopunny|Lopunny|Lopunnite
+|move|p1a: Lopunny|Return|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|-weather|none
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Latias|Latias, F|100/100
+|-damage|p2a: Latias|88/100|[from] Stealth Rock
+|turn|12
+|c|☆villageidiotblarg|what in the fuck
+|c|☆villageidiotblarg|this is the most idiotic latias set
+|c|☆villageidiotblarg|ive ever seen
+|choice|move return|switch 2
+|
+|switch|p2a: Zapdos|Zapdos|100/100
+|-damage|p2a: Zapdos|75/100|[from] Stealth Rock
+|-ability|p2a: Zapdos|Pressure
+|move|p1a: Lopunny|Return|p2a: Zapdos
+|-damage|p2a: Zapdos|35/100
+|
+|-heal|p2a: Zapdos|41/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|c|☆villageidiotblarg|i cant hit
+|choice|move substitute|move roost
+|
+|move|p1a: Lopunny|Substitute|p1a: Lopunny
+|-start|p1a: Lopunny|Substitute
+|-damage|p1a: Lopunny|64/100
+|move|p2a: Zapdos|Roost|p2a: Zapdos
+|-heal|p2a: Zapdos|91/100
+|
+|-heal|p2a: Zapdos|97/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|choice|move encore|move thunderbolt
+|
+|move|p1a: Lopunny|Encore|p2a: Zapdos
+|-start|p2a: Zapdos|Encore
+|move|p2a: Zapdos|Roost|p2a: Zapdos
+|-heal|p2a: Zapdos|100/100
+|
+|upkeep
+|turn|15
+|c|☆villageidiotblarg|tf
+|c|☆villageidiotblarg|rofl
+|choice|move highjumpkick|move roost
+|
+|move|p1a: Lopunny|High Jump Kick|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|72/100
+|move|p2a: Zapdos|Roost|p2a: Zapdos
+|-heal|p2a: Zapdos|100/100
+|
+|upkeep
+|turn|16
+|choice|move return|move roost
+|
+|move|p1a: Lopunny|Return|p2a: Zapdos
+|-damage|p2a: Zapdos|56/100
+|move|p2a: Zapdos|Roost|p2a: Zapdos
+|-heal|p2a: Zapdos|100/100
+|
+|-end|p2a: Zapdos|Encore
+|upkeep
+|turn|17
+|choice|move encore|move thunderbolt
+|
+|move|p1a: Lopunny|Encore|p2a: Zapdos
+|-start|p2a: Zapdos|Encore
+|move|p2a: Zapdos|Roost|p2a: Zapdos
+|-fail|p2a: Zapdos
+|
+|upkeep
+|turn|18
+|choice|move return|move roost
+|
+|move|p1a: Lopunny|Return|p2a: Zapdos
+|-damage|p2a: Zapdos|61/100
+|move|p2a: Zapdos|Roost|p2a: Zapdos
+|-heal|p2a: Zapdos|100/100
+|
+|upkeep
+|turn|19
+|choice|move substitute|move roost
+|
+|move|p1a: Lopunny|Substitute|p1a: Lopunny
+|-fail|p1a: Lopunny|move: Substitute
+|move|p2a: Zapdos|Roost|p2a: Zapdos
+|-fail|p2a: Zapdos
+|
+|-end|p2a: Zapdos|Encore
+|upkeep
+|turn|20
+|choice|move encore|move thunderbolt
+|
+|move|p1a: Lopunny|Encore|p2a: Zapdos
+|-start|p2a: Zapdos|Encore
+|move|p2a: Zapdos|Roost|p2a: Zapdos
+|-fail|p2a: Zapdos
+|
+|upkeep
+|turn|21
+|c|☆villageidiotblarg|you idiot
+|c|☆villageidiotblarg|fuckn lag spiking like a poor nan
+|choice|move substitute|move roost
+|
+|move|p1a: Lopunny|Substitute|p1a: Lopunny
+|-fail|p1a: Lopunny|move: Substitute
+|move|p2a: Zapdos|Roost|p2a: Zapdos
+|-fail|p2a: Zapdos
+|
+|upkeep
+|turn|22
+|choice|move substitute|move roost
+|
+|move|p1a: Lopunny|Substitute|p1a: Lopunny
+|-fail|p1a: Lopunny|move: Substitute
+|move|p2a: Zapdos|Roost|p2a: Zapdos
+|-fail|p2a: Zapdos
+|
+|-end|p2a: Zapdos|Encore
+|upkeep
+|turn|23
+|choice|move encore|switch 4
+|
+|switch|p2a: Jirachi|Jirachi|81/100
+|-damage|p2a: Jirachi|75/100|[from] Stealth Rock
+|move|p1a: Lopunny|Encore|p2a: Jirachi
+|-fail|p2a: Jirachi
+|
+|-heal|p2a: Jirachi|81/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|choice|move highjumpkick|move ironhead
+|
+|move|p1a: Lopunny|High Jump Kick|p2a: Jirachi
+|-damage|p2a: Jirachi|18/100
+|move|p2a: Jirachi|Iron Head|p1a: Lopunny
+|-end|p1a: Lopunny|Substitute
+|
+|-heal|p2a: Jirachi|24/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|choice|move return|move ironhead
+|
+|move|p1a: Lopunny|Return|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|0 fnt
+|faint|p2a: Jirachi
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Zapdos|Zapdos|100/100
+|-damage|p2a: Zapdos|75/100|[from] Stealth Rock
+|-ability|p2a: Zapdos|Pressure
+|turn|26
+|choice|move return|move thunderbolt
+|
+|move|p1a: Lopunny|Return|p2a: Zapdos
+|-damage|p2a: Zapdos|31/100
+|move|p2a: Zapdos|Thunderbolt|p1a: Lopunny
+|-damage|p1a: Lopunny|15/100
+|
+|-heal|p2a: Zapdos|37/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|choice|move return|move thunderbolt
+|
+|move|p1a: Lopunny|Return|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|upkeep
+|c|☆villageidiotblarg|what the fuck
+|c|☆villageidiotblarg|i ahve 20 sec lag spikes
+|choice||switch 5
+|
+|switch|p2a: Bisharp|Bisharp, M|100/100
+|-damage|p2a: Bisharp|95/100|[from] Stealth Rock
+|turn|28
+|choice|move highjumpkick|move suckerpunch
+|
+|move|p2a: Bisharp|Sucker Punch|p1a: Lopunny
+|-resisted|p1a: Lopunny
+|-damage|p1a: Lopunny|0 fnt
+|faint|p1a: Lopunny
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Crawdaunt|Crawdaunt, M|100/100
+|-damage|p1a: Crawdaunt|88/100|[from] Stealth Rock
+|turn|29
+|choice|move crabhammer|move ironhead
+|
+|move|p2a: Bisharp|Iron Head|p1a: Crawdaunt
+|-resisted|p1a: Crawdaunt
+|-damage|p1a: Crawdaunt|55/100
+|move|p1a: Crawdaunt|Crabhammer|p2a: Bisharp
+|-crit|p2a: Bisharp
+|-damage|p2a: Bisharp|0 fnt
+|faint|p2a: Bisharp
+|
+|upkeep
+|c|☆villageidiotblarg|you some kinda
+|c|☆villageidiotblarg|idiot?
+|choice||switch 6
+|
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-damage|p2a: Tyranitar|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|30
+|choice|move crabhammer|move stoneedge
+|
+|move|p1a: Crawdaunt|Crabhammer|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Crawdaunt|49/100|[from] sandstorm
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Latias|Latias, F|88/100
+|-damage|p2a: Latias|76/100|[from] Stealth Rock
+|turn|31
+|choice|switch 6|move storedpower mega
+|
+|switch|p1a: Zapdos|Zapdos|94/100 tox
+|-damage|p1a: Zapdos|69/100 tox|[from] Stealth Rock
+|-ability|p1a: Zapdos|Pressure
+|detailschange|p2a: Latias|Latias-Mega, F
+|-mega|p2a: Latias|Latias|Latiasite
+|move|p2a: Latias|Stored Power|p1a: Zapdos
+|-crit|p1a: Zapdos
+|-damage|p1a: Zapdos|56/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latias|70/100|[from] sandstorm
+|-damage|p1a: Zapdos|50/100 tox|[from] sandstorm
+|-heal|p1a: Zapdos|56/100 tox|[from] item: Leftovers
+|-damage|p1a: Zapdos|50/100 tox|[from] psn
+|upkeep
+|turn|32
+|c|☆villageidiotblarg|mono stored power
+|c|☆villageidiotblarg|you idiot
+|c|☆villageidiotblarg|rofl
+|c|☆villageidiotblarg|i told you it was the worst
+|choice|move defog|move calmmind
+|
+|move|p2a: Latias|Calm Mind|p2a: Latias
+|-boost|p2a: Latias|spa|1
+|-boost|p2a: Latias|spd|1
+|move|p1a: Zapdos|Defog|p2a: Latias
+|-unboost|p2a: Latias|evasion|1
+|-sideend|p2: villageidiotblarg|Stealth Rock|[from] move: Defog|[of] p2a: Latias
+|-sideend|p1: camilas|Stealth Rock|[from] move: Defog|[of] p1a: Zapdos
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latias|64/100|[from] sandstorm
+|-damage|p1a: Zapdos|44/100 tox|[from] sandstorm
+|-heal|p1a: Zapdos|50/100 tox|[from] item: Leftovers
+|-damage|p1a: Zapdos|38/100 tox|[from] psn
+|upkeep
+|turn|33
+|choice|switch 4|move substitute
+|
+|switch|p1a: Gengar|Gengar, M|100/100
+|move|p2a: Latias|Substitute|p2a: Latias
+|-start|p2a: Latias|Substitute
+|-damage|p2a: Latias|39/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|94/100|[from] sandstorm
+|-damage|p2a: Latias|33/100|[from] sandstorm
+|upkeep
+|turn|34
+|choice|switch 4|move storedpower
+|
+|switch|p1a: Zapdos|Zapdos|38/100 tox
+|-ability|p1a: Zapdos|Pressure
+|move|p2a: Latias|Stored Power|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|-weather|none
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Victini|Victini|94/100 tox
+|turn|35
+|c|☆villageidiotblarg|are you a retarD?
+|choice|move uturn|move roost
+|
+|move|p1a: Victini|U-turn|p2a: Latias
+|-supereffective|p2a: Latias
+|-end|p2a: Latias|Substitute
+|choice|switch 6|
+|
+|switch|p1a: Crawdaunt|Crawdaunt, M|49/100
+|move|p2a: Latias|Roost|p2a: Latias
+|-heal|p2a: Latias|83/100
+|
+|upkeep
+|turn|36
+|choice|move crunch|move roost
+|
+|move|p2a: Latias|Roost|p2a: Latias
+|-heal|p2a: Latias|100/100
+|move|p1a: Crawdaunt|Crunch|p2a: Latias
+|-supereffective|p2a: Latias
+|-damage|p2a: Latias|0 fnt
+|faint|p2a: Latias
+|
+|win|camilas
+|c|☆camilas|GG
+|l|sedertz.
+|j|hot spicey meat
+|l|villageidiotblarg

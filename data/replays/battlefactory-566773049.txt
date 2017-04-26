@@ -1,0 +1,230 @@
+|j|HyperSinnoh600
+|j|lilliewantsadick
+|player|p1|HyperSinnoh600|238
+|player|p2|lilliewantsadick|29
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|23891,61234,5576,45274,23640,26367,6457,42205,4738,6497,49592,39099
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Rotom-Heat|item
+|poke|p1|Swampert, M|item
+|poke|p1|Suicune|item
+|poke|p1|Donphan, M|item
+|poke|p1|Haxorus, M|item
+|poke|p1|Infernape, M|item
+|poke|p2|Feraligatr, M|item
+|poke|p2|Krookodile, M|item
+|poke|p2|Forretress, M|item
+|poke|p2|Kingdra, M|item
+|poke|p2|Haxorus, M|item
+|poke|p2|Machamp, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 1, team 2, team 3, team 4, team 5, team 6|team 3, team 2, team 1, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Rotom|Rotom-Heat|100/100
+|switch|p2a: Forretress|Forretress, M|100/100
+|turn|1
+|choice|move voltswitch|switch 4
+|
+|switch|p2a: Kingdra|Kingdra, M|100/100
+|move|p1a: Rotom|Volt Switch|p2a: Kingdra
+|-damage|p2a: Kingdra|40/100
+|choice|switch 5|
+|
+|switch|p1a: Haxorus|Haxorus, M|100/100
+|-ability|p1a: Haxorus|Mold Breaker
+|
+|-heal|p2a: Kingdra|46/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|choice|move outrage|switch 4
+|
+|switch|p2a: Forretress|Forretress, M|100/100
+|move|p1a: Haxorus|Outrage|p2a: Forretress
+|-resisted|p2a: Forretress
+|-damage|p2a: Forretress|80/100
+|
+|-heal|p2a: Forretress|87/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|choice|move outrage|move spikes
+|
+|move|p1a: Haxorus|Outrage|p2a: Forretress|[from]lockedmove
+|-resisted|p2a: Forretress
+|-damage|p2a: Forretress|69/100
+|move|p2a: Forretress|Spikes|p1a: Haxorus
+|-sidestart|p1: HyperSinnoh600|Spikes
+|
+|-heal|p2a: Forretress|75/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|choice|move outrage|move spikes
+|
+|move|p1a: Haxorus|Outrage|p2a: Forretress|[from]lockedmove
+|-resisted|p2a: Forretress
+|-damage|p2a: Forretress|57/100
+|-start|p1a: Haxorus|confusion|[fatigue]
+|-enditem|p1a: Haxorus|Lum Berry|[eat]
+|-end|p1a: Haxorus|confusion
+|move|p2a: Forretress|Spikes|p1a: Haxorus
+|-sidestart|p1: HyperSinnoh600|Spikes
+|
+|-heal|p2a: Forretress|63/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|choice|switch 5|move gyroball
+|
+|switch|p1a: Rotom|Rotom-Heat|100/100
+|move|p2a: Forretress|Gyro Ball|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|90/100
+|
+|-heal|p2a: Forretress|69/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|choice|move overheat|switch 2
+|
+|switch|p2a: Krookodile|Krookodile, M|100/100
+|-ability|p2a: Krookodile|Intimidate|boost
+|-unboost|p1a: Rotom|atk|1
+|move|p1a: Rotom|Overheat|p2a: Krookodile
+|-crit|p2a: Krookodile
+|-damage|p2a: Krookodile|0 fnt
+|-unboost|p1a: Rotom|spa|2
+|faint|p2a: Krookodile
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Feraligatr|Feraligatr, M|100/100
+|turn|7
+|choice|switch 2|move crunch
+|
+|switch|p1a: Swampert|Swampert, M|100/100
+|-damage|p1a: Swampert|84/100|[from] Spikes
+|move|p2a: Feraligatr|Crunch|p1a: Swampert
+|-damage|p1a: Swampert|57/100
+|
+|-heal|p1a: Swampert|63/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|choice|move stealthrock|switch 4
+|
+|switch|p2a: Kingdra|Kingdra, M|46/100
+|move|p1a: Swampert|Stealth Rock|p2a: Kingdra
+|-sidestart|p2: lilliewantsadick|move: Stealth Rock
+|
+|-heal|p2a: Kingdra|52/100|[from] item: Leftovers
+|-heal|p1a: Swampert|69/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|choice|move earthquake|move dragondance
+|
+|move|p2a: Kingdra|Dragon Dance|p2a: Kingdra
+|-boost|p2a: Kingdra|atk|1
+|-boost|p2a: Kingdra|spe|1
+|move|p1a: Swampert|Earthquake|p2a: Kingdra
+|-damage|p2a: Kingdra|3/100
+|
+|-heal|p2a: Kingdra|9/100|[from] item: Leftovers
+|-heal|p1a: Swampert|75/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|c|☆lilliewantsadick|Man
+|c|☆lilliewantsadick|Just click the move
+|c|☆HyperSinnoh600|dude, wait
+|c|☆HyperSinnoh600|it's not that difficult
+|choice|move roar|move outrage
+|
+|move|p2a: Kingdra|Outrage|p1a: Swampert
+|-damage|p1a: Swampert|25/100
+|move|p1a: Swampert|Roar|p2a: Kingdra
+|drag|p2a: Feraligatr|Feraligatr, M|100/100
+|-damage|p2a: Feraligatr|88/100|[from] Stealth Rock
+|
+|-heal|p1a: Swampert|31/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|c|☆lilliewantsadick|For what
+|c|☆lilliewantsadick|If youre not even afk
+|choice|move earthquake|move icepunch
+|
+|move|p2a: Feraligatr|Ice Punch|p1a: Swampert
+|-damage|p1a: Swampert|4/100
+|move|p1a: Swampert|Earthquake|p2a: Feraligatr
+|-damage|p2a: Feraligatr|45/100
+|
+|-heal|p1a: Swampert|11/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|c|☆HyperSinnoh600|i was thinking competitively
+|choice|move earthquake|move waterfall
+|
+|move|p2a: Feraligatr|Waterfall|p1a: Swampert
+|-damage|p1a: Swampert|0 fnt
+|faint|p1a: Swampert
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Suicune|Suicune|100/100
+|-damage|p1a: Suicune|84/100|[from] Spikes
+|-ability|p1a: Suicune|Pressure
+|turn|13
+|c|☆lilliewantsadick|Its not that serious
+|choice|move calmmind|switch 4
+|
+|switch|p2a: Kingdra|Kingdra, M|9/100
+|-damage|p2a: Kingdra|0 fnt|[from] Stealth Rock
+|faint|p2a: Kingdra
+|move|p1a: Suicune|Calm Mind|p1a: Suicune
+|-boost|p1a: Suicune|spa|1
+|-boost|p1a: Suicune|spd|1
+|
+|-heal|p1a: Suicune|90/100|[from] item: Leftovers
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Forretress|Forretress, M|69/100
+|-damage|p2a: Forretress|57/100|[from] Stealth Rock
+|turn|14
+|c|☆HyperSinnoh600|whats the point saying that to me
+|c|☆HyperSinnoh600|i know pokemon for years
+|choice|move hydropump|move rapidspin
+|
+|move|p1a: Suicune|Hydro Pump|p2a: Forretress
+|-damage|p2a: Forretress|0 fnt
+|faint|p2a: Forretress
+|
+|-heal|p1a: Suicune|96/100|[from] item: Leftovers
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Haxorus|Haxorus, M|100/100
+|-damage|p2a: Haxorus|88/100|[from] Stealth Rock
+|-ability|p2a: Haxorus|Mold Breaker
+|turn|15
+|choice|move icebeam|move swordsdance
+|
+|move|p2a: Haxorus|Swords Dance|p2a: Haxorus
+|-boost|p2a: Haxorus|atk|2
+|move|p1a: Suicune|Ice Beam|p2a: Haxorus
+|-supereffective|p2a: Haxorus
+|-damage|p2a: Haxorus|0 fnt
+|faint|p2a: Haxorus
+|
+|-heal|p1a: Suicune|100/100|[from] item: Leftovers
+|upkeep
+|-message|lilliewantsadick forfeited.
+|
+|win|HyperSinnoh600
+|l|lilliewantsadick
+|raw|HyperSinnoh600's rating: 1122 &rarr; <strong>1144</strong><br />(+22 for winning)
+|raw|lilliewantsadick's rating: 1083 &rarr; <strong>1063</strong><br />(-20 for losing)
+|c|☆HyperSinnoh600|lol

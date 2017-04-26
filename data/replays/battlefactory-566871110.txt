@@ -1,0 +1,334 @@
+|j|Yourbadmate
+|j|arceus1117
+|player|p1|Yourbadmate|163
+|player|p2|arceus1117|99
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|23193,64247,7596,13476,31642,39856,4643,47670,57768,48803,14286,41740
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Crawdaunt, M|item
+|poke|p1|Latias, F|item
+|poke|p1|Staraptor, M|item
+|poke|p1|Zapdos|item
+|poke|p1|Gardevoir, M|item
+|poke|p1|Clefable, M|item
+|poke|p2|Tornadus-Therian, M|item
+|poke|p2|Dragonite, M|item
+|poke|p2|Magnezone|item
+|poke|p2|Ferrothorn, M|item
+|poke|p2|Manectric, M|item
+|poke|p2|Skarmory, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Yourbadmate)
+|choice|team 6, team 2, team 3, team 4, team 5, team 1|team 1, team 2, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Clefable|Clefable, M|100/100
+|switch|p2a: Tornadus|Tornadus-Therian, M|100/100
+|turn|1
+|choice|move thunderwave|move uturn
+|
+|move|p2a: Tornadus|U-turn|p1a: Clefable
+|-resisted|p1a: Clefable
+|-damage|p1a: Clefable|90/100
+|-damage|p2a: Tornadus|91/100|[from] item: Life Orb
+|choice||switch 5
+|
+|switch|p2a: Manectric|Manectric, M|100/100
+|move|p1a: Clefable|Thunder Wave|p2a: Manectric
+|-ability|p2a: Manectric|Lightning Rod|boost
+|-boost|p2a: Manectric|spa|1
+|
+|-heal|p1a: Clefable|96/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|choice|move stealthrock|move thunderbolt mega
+|
+|detailschange|p2a: Manectric|Manectric-Mega, M
+|-mega|p2a: Manectric|Manectric|Manectite
+|-ability|p2a: Manectric|Intimidate|boost
+|-unboost|p1a: Clefable|atk|1
+|move|p2a: Manectric|Thunderbolt|p1a: Clefable
+|-damage|p1a: Clefable|44/100
+|move|p1a: Clefable|Stealth Rock|p2a: Manectric
+|-sidestart|p2: arceus1117|move: Stealth Rock
+|
+|-heal|p1a: Clefable|50/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|choice|move moonblast|move thunderbolt
+|
+|move|p2a: Manectric|Thunderbolt|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|faint|p1a: Clefable
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Latias|Latias, F|100/100
+|turn|4
+|choice|move dracometeor|move voltswitch
+|
+|move|p2a: Manectric|Volt Switch|p1a: Latias
+|-resisted|p1a: Latias
+|-crit|p1a: Latias
+|-damage|p1a: Latias|66/100
+|choice||switch 4
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p2a: Ferrothorn|94/100|[from] Stealth Rock
+|move|p1a: Latias|Draco Meteor|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|67/100
+|-unboost|p1a: Latias|spa|2
+|-damage|p1a: Latias|56/100|[from] item: Life Orb
+|
+|-heal|p2a: Ferrothorn|74/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|choice|switch 6|move stealthrock
+|
+|switch|p1a: Crawdaunt|Crawdaunt, M|100/100
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Crawdaunt
+|-sidestart|p1: Yourbadmate|move: Stealth Rock
+|
+|-heal|p2a: Ferrothorn|80/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|choice|move knockoff|move leechseed
+|
+|move|p1a: Crawdaunt|Knock Off|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|17/100
+|-damage|p1a: Crawdaunt|88/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-enditem|p2a: Ferrothorn|Leftovers|[from] move: Knock Off|[of] p1a: Crawdaunt
+|move|p2a: Ferrothorn|Leech Seed|p1a: Crawdaunt
+|-start|p1a: Crawdaunt|move: Leech Seed
+|
+|-damage|p1a: Crawdaunt|76/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|26/100|[silent]
+|upkeep
+|turn|7
+|choice|move knockoff|move protect
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Crawdaunt|Knock Off|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|move: Protect
+|
+|-damage|p1a: Crawdaunt|63/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|35/100|[silent]
+|upkeep
+|turn|8
+|choice|move knockoff|switch 6
+|
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|-damage|p2a: Skarmory|88/100|[from] Stealth Rock
+|move|p1a: Crawdaunt|Knock Off|p2a: Skarmory
+|-damage|p2a: Skarmory|27/100
+|-enditem|p2a: Skarmory|Leftovers|[from] move: Knock Off|[of] p1a: Crawdaunt
+|
+|-damage|p1a: Crawdaunt|51/100|[from] Leech Seed|[of] p2a: Skarmory
+|-heal|p2a: Skarmory|37/100|[silent]
+|upkeep
+|turn|9
+|choice|move knockoff|move roost
+|
+|move|p1a: Crawdaunt|Knock Off|p2a: Skarmory
+|-damage|p2a: Skarmory|0 fnt
+|faint|p2a: Skarmory
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Manectric|Manectric-Mega, M|100/100
+|-damage|p2a: Manectric|88/100|[from] Stealth Rock
+|-ability|p2a: Manectric|Intimidate|boost
+|-unboost|p1a: Crawdaunt|atk|1
+|turn|10
+|choice|switch 6|move voltswitch
+|
+|switch|p1a: Latias|Latias, F|56/100
+|-damage|p1a: Latias|44/100|[from] Stealth Rock
+|move|p2a: Manectric|Volt Switch|p1a: Latias
+|-resisted|p1a: Latias
+|-damage|p1a: Latias|27/100
+|choice||switch 5
+|
+|switch|p2a: Tornadus|Tornadus-Therian, M|100/100
+|-damage|p2a: Tornadus|76/100|[from] Stealth Rock
+|
+|upkeep
+|turn|11
+|choice|move roost|move uturn
+|
+|move|p2a: Tornadus|U-turn|p1a: Latias
+|-supereffective|p1a: Latias
+|-damage|p1a: Latias|0 fnt
+|-damage|p2a: Tornadus|66/100|[from] item: Life Orb
+|faint|p1a: Latias
+|choice||switch 5
+|
+|switch|p2a: Manectric|Manectric-Mega, M|88/100
+|-damage|p2a: Manectric|76/100|[from] Stealth Rock
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Gardevoir|Gardevoir, M|100/100
+|-damage|p1a: Gardevoir|88/100|[from] Stealth Rock
+|-ability|p1a: Gardevoir|Intimidate|[from] ability: Trace|[of] p2a: Manectric
+|-ability|p1a: Gardevoir|Intimidate|boost
+|-unboost|p2a: Manectric|atk|1
+|turn|12
+|choice|move hypervoice mega|move voltswitch
+|
+|detailschange|p1a: Gardevoir|Gardevoir-Mega, M
+|-mega|p1a: Gardevoir|Gardevoir|Gardevoirite
+|move|p2a: Manectric|Volt Switch|p1a: Gardevoir
+|-damage|p1a: Gardevoir|52/100
+|choice||switch 3
+|
+|switch|p2a: Magnezone|Magnezone|100/100
+|-damage|p2a: Magnezone|94/100|[from] Stealth Rock
+|move|p1a: Gardevoir|Hyper Voice|p2a: Magnezone
+|-resisted|p2a: Magnezone
+|-crit|p2a: Magnezone
+|-damage|p2a: Magnezone|20/100
+|
+|upkeep
+|turn|13
+|choice|move hypervoice|move flashcannon
+|
+|move|p2a: Magnezone|Flash Cannon|p1a: Gardevoir
+|-supereffective|p1a: Gardevoir
+|-damage|p1a: Gardevoir|0 fnt
+|faint|p1a: Gardevoir
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Crawdaunt|Crawdaunt, M|51/100
+|-damage|p1a: Crawdaunt|39/100|[from] Stealth Rock
+|turn|14
+|choice|move knockoff|switch 6
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|35/100
+|-damage|p2a: Ferrothorn|29/100|[from] Stealth Rock
+|move|p1a: Crawdaunt|Knock Off|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|-damage|p1a: Crawdaunt|26/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|faint|p2a: Ferrothorn
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Manectric|Manectric-Mega, M|76/100
+|-damage|p2a: Manectric|63/100|[from] Stealth Rock
+|-ability|p2a: Manectric|Intimidate|boost
+|-unboost|p1a: Crawdaunt|atk|1
+|turn|15
+|choice|move knockoff|move voltswitch
+|
+|move|p2a: Manectric|Volt Switch|p1a: Crawdaunt
+|-supereffective|p1a: Crawdaunt
+|-damage|p1a: Crawdaunt|0 fnt
+|faint|p1a: Crawdaunt
+|choice||switch 6
+|
+|switch|p2a: Magnezone|Magnezone|20/100
+|-damage|p2a: Magnezone|14/100|[from] Stealth Rock
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Zapdos|Zapdos|100/100
+|-damage|p1a: Zapdos|75/100|[from] Stealth Rock
+|-ability|p1a: Zapdos|Pressure
+|turn|16
+|choice|move heatwave|move thunderbolt
+|
+|move|p2a: Magnezone|Thunderbolt|p1a: Zapdos
+|-damage|p1a: Zapdos|26/100
+|move|p1a: Zapdos|Heat Wave|p2a: Magnezone
+|-supereffective|p2a: Magnezone
+|-damage|p2a: Magnezone|0 fnt
+|faint|p2a: Magnezone
+|
+|-heal|p1a: Zapdos|32/100|[from] item: Leftovers
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Tornadus|Tornadus-Therian, M|99/100
+|-damage|p2a: Tornadus|74/100|[from] Stealth Rock
+|turn|17
+|choice|move thunderbolt|move uturn
+|
+|move|p2a: Tornadus|U-turn|p1a: Zapdos
+|-resisted|p1a: Zapdos
+|-damage|p1a: Zapdos|24/100
+|-damage|p2a: Tornadus|65/100|[from] item: Life Orb
+|choice||switch 6
+|
+|switch|p2a: Manectric|Manectric-Mega, M|63/100
+|-damage|p2a: Manectric|51/100|[from] Stealth Rock
+|-ability|p2a: Manectric|Intimidate|boost
+|-unboost|p1a: Zapdos|atk|1
+|move|p1a: Zapdos|Thunderbolt|p2a: Manectric
+|-resisted|p2a: Manectric
+|-damage|p2a: Manectric|21/100
+|
+|-heal|p1a: Zapdos|30/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|choice|move thunderbolt|move thunderbolt
+|
+|move|p2a: Manectric|Thunderbolt|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Staraptor|Staraptor, M|100/100
+|-damage|p1a: Staraptor|75/100|[from] Stealth Rock
+|turn|19
+|choice|move doubleedge|move voltswitch
+|
+|move|p1a: Staraptor|Double-Edge|p2a: Manectric
+|-damage|p2a: Manectric|0 fnt
+|-damage|p1a: Staraptor|69/100|[from] recoil|[of] p2a: Manectric
+|faint|p2a: Manectric
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Tornadus|Tornadus-Therian, M|98/100
+|-damage|p2a: Tornadus|73/100|[from] Stealth Rock
+|turn|20
+|choice|move doubleedge|move hurricane
+|
+|move|p1a: Staraptor|Double-Edge|p2a: Tornadus
+|-damage|p2a: Tornadus|0 fnt
+|-damage|p1a: Staraptor|46/100|[from] recoil|[of] p2a: Tornadus
+|faint|p2a: Tornadus
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Dragonite|Dragonite, M|100/100
+|-damage|p2a: Dragonite|76/100|[from] Stealth Rock
+|turn|21
+|choice|move doubleedge|move extremespeed
+|
+|move|p2a: Dragonite|Extreme Speed|p1a: Staraptor
+|-crit|p1a: Staraptor
+|-damage|p1a: Staraptor|0 fnt
+|faint|p1a: Staraptor
+|
+|win|arceus1117
+|c|☆arceus1117|gg

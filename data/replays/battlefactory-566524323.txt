@@ -1,0 +1,288 @@
+|j|DaxtheFaxMachine
+|j|ChoroCDI
+|player|p1|DaxtheFaxMachine|1
+|player|p2|ChoroCDI|234
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|63993,49681,49804,57354,34716,8769,32765,10808,64602,37474,5797,26622
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Aggron, M|item
+|poke|p1|Galvantula, M|item
+|poke|p1|Darmanitan, M|item
+|poke|p1|Sharpedo, M|item
+|poke|p1|Flygon, M|item
+|poke|p1|Infernape, M|item
+|poke|p2|Absol, M|item
+|poke|p2|Suicune|item
+|poke|p2|Aromatisse, M|item
+|poke|p2|Gligar, M|item
+|poke|p2|Galvantula, M|item
+|poke|p2|Dragalge, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 6, team 2, team 3, team 4, team 5, team 1|team 2, team 1, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Infernape|Infernape, M|100/100
+|switch|p2a: Suicune|Suicune|100/100
+|-ability|p2a: Suicune|Pressure
+|turn|1
+|choice|move flareblitz|move scald
+|
+|move|p1a: Infernape|Flare Blitz|p2a: Suicune
+|-resisted|p2a: Suicune
+|-damage|p2a: Suicune|79/100
+|-damage|p1a: Infernape|91/100|[from] recoil|[of] p2a: Suicune
+|move|p2a: Suicune|Scald|p1a: Infernape
+|-supereffective|p1a: Infernape
+|-damage|p1a: Infernape|6/100
+|
+|-heal|p2a: Suicune|86/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|choice|switch 4|move scald
+|
+|switch|p1a: Sharpedo|Sharpedo, M|100/100
+|move|p2a: Suicune|Scald|p1a: Sharpedo
+|-resisted|p1a: Sharpedo
+|-damage|p1a: Sharpedo|68/100
+|-status|p1a: Sharpedo|brn
+|
+|-heal|p2a: Suicune|92/100|[from] item: Leftovers
+|-damage|p1a: Sharpedo|55/100 brn|[from] brn
+|upkeep
+|turn|3
+|choice|move waterfall|switch 5
+|
+|switch|p2a: Galvantula|Galvantula, M|100/100
+|move|p1a: Sharpedo|Waterfall|p2a: Galvantula
+|-damage|p2a: Galvantula|52/100
+|-damage|p1a: Sharpedo|45/100 brn|[from] item: Life Orb
+|
+|-damage|p1a: Sharpedo|33/100 brn|[from] brn
+|-ability|p1a: Sharpedo|Speed Boost|boost
+|-boost|p1a: Sharpedo|spe|1
+|upkeep
+|turn|4
+|choice|move crunch|move voltswitch
+|
+|move|p1a: Sharpedo|Crunch|p2a: Galvantula
+|-damage|p2a: Galvantula|0 fnt
+|-damage|p1a: Sharpedo|23/100 brn|[from] item: Life Orb
+|faint|p2a: Galvantula
+|
+|-damage|p1a: Sharpedo|10/100 brn|[from] brn
+|-ability|p1a: Sharpedo|Speed Boost|boost
+|-boost|p1a: Sharpedo|spe|1
+|upkeep
+|j|NuttyRabbit
+|choice||switch 4
+|
+|switch|p2a: Gligar|Gligar, M|100/100
+|turn|5
+|choice|move waterfall|move stealthrock
+|
+|move|p1a: Sharpedo|Waterfall|p2a: Gligar
+|-supereffective|p2a: Gligar
+|-damage|p2a: Gligar|76/100
+|-damage|p1a: Sharpedo|0 fnt|[from] item: Life Orb
+|faint|p1a: Sharpedo
+|move|p2a: Gligar|Stealth Rock|p1: Sharpedo
+|-sidestart|p1: DaxtheFaxMachine|move: Stealth Rock
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Darmanitan|Darmanitan, M|100/100
+|-damage|p1a: Darmanitan|76/100|[from] Stealth Rock
+|turn|6
+|choice|move flareblitz|switch 5
+|
+|switch|p2a: Suicune|Suicune|92/100
+|-ability|p2a: Suicune|Pressure
+|move|p1a: Darmanitan|Flare Blitz|p2a: Suicune
+|-resisted|p2a: Suicune
+|-damage|p2a: Suicune|70/100
+|-damage|p1a: Darmanitan|67/100|[from] recoil|[of] p2a: Suicune
+|
+|-heal|p2a: Suicune|76/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|choice|move flareblitz|move scald
+|
+|move|p1a: Darmanitan|Flare Blitz|p2a: Suicune
+|-resisted|p2a: Suicune
+|-damage|p2a: Suicune|54/100
+|-damage|p1a: Darmanitan|59/100|[from] recoil|[of] p2a: Suicune
+|move|p2a: Suicune|Scald|p1a: Darmanitan
+|-supereffective|p1a: Darmanitan
+|-damage|p1a: Darmanitan|0 fnt
+|faint|p1a: Darmanitan
+|
+|-heal|p2a: Suicune|61/100|[from] item: Leftovers
+|upkeep
+|c| NuttyRabbit|Dax, try to predict what Choro will do in a given situation
+|choice|switch 5|
+|
+|switch|p1a: Flygon|Flygon, M|100/100
+|-damage|p1a: Flygon|94/100|[from] Stealth Rock
+|turn|8
+|choice|move earthquake|switch 2
+|
+|switch|p2a: Absol|Absol, M|100/100
+|move|p1a: Flygon|Earthquake|p2a: Absol
+|-damage|p2a: Absol|35/100
+|
+|-heal|p1a: Flygon|100/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|choice|move earthquake|move suckerpunch mega
+|
+|detailschange|p2a: Absol|Absol-Mega, M
+|-mega|p2a: Absol|Absol|Absolite
+|move|p2a: Absol|Sucker Punch|p1a: Flygon
+|-damage|p1a: Flygon|47/100
+|move|p1a: Flygon|Earthquake|p2a: Absol
+|-damage|p2a: Absol|0 fnt
+|faint|p2a: Absol
+|
+|-heal|p1a: Flygon|53/100|[from] item: Leftovers
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Aromatisse|Aromatisse, M|100/100
+|turn|10
+|choice|move roost|move moonblast
+|
+|move|p1a: Flygon|Roost|p1a: Flygon
+|-heal|p1a: Flygon|100/100
+|move|p2a: Aromatisse|Moonblast|p1a: Flygon
+|-supereffective|p1a: Flygon
+|-damage|p1a: Flygon|26/100
+|
+|-heal|p1a: Flygon|32/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|choice|move earthquake|move moonblast
+|
+|move|p1a: Flygon|Earthquake|p2a: Aromatisse
+|-damage|p2a: Aromatisse|64/100
+|move|p2a: Aromatisse|Moonblast|p1a: Flygon
+|-supereffective|p1a: Flygon
+|-damage|p1a: Flygon|0 fnt
+|faint|p1a: Flygon
+|
+|-heal|p2a: Aromatisse|70/100|[from] item: Leftovers
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Galvantula|Galvantula, M|100/100
+|-damage|p1a: Galvantula|76/100|[from] Stealth Rock
+|turn|12
+|choice|move thunder|move protect
+|
+|move|p2a: Aromatisse|Protect|p2a: Aromatisse
+|-singleturn|p2a: Aromatisse|Protect
+|move|p1a: Galvantula|Thunder|p2a: Aromatisse
+|-activate|p2a: Aromatisse|move: Protect
+|
+|-heal|p2a: Aromatisse|76/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|choice|move thunder|move moonblast
+|
+|move|p1a: Galvantula|Thunder|p2a: Aromatisse
+|-damage|p2a: Aromatisse|37/100
+|-status|p2a: Aromatisse|par
+|-damage|p1a: Galvantula|66/100|[from] item: Life Orb
+|move|p2a: Aromatisse|Moonblast|p1a: Galvantula
+|-damage|p1a: Galvantula|8/100
+|
+|-heal|p2a: Aromatisse|43/100 par|[from] item: Leftovers
+|upkeep
+|turn|14
+|choice|move voltswitch|move moonblast
+|
+|move|p1a: Galvantula|Volt Switch|p2a: Aromatisse
+|-damage|p2a: Aromatisse|16/100 par
+|-damage|p1a: Galvantula|0 fnt|[from] item: Life Orb
+|faint|p1a: Galvantula
+|move|p2a: Aromatisse|Moonblast|p1: Galvantula|[notarget]
+|-notarget
+|
+|-heal|p2a: Aromatisse|22/100 par|[from] item: Leftovers
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Infernape|Infernape, M|6/100
+|-damage|p1a: Infernape|0 fnt|[from] Stealth Rock
+|faint|p1a: Infernape
+|choice|switch 6|
+|
+|switch|p1a: Aggron|Aggron, M|100/100
+|-damage|p1a: Aggron|94/100|[from] Stealth Rock
+|turn|15
+|choice|move heavyslam|move protect
+|
+|cant|p2a: Aromatisse|par
+|move|p1a: Aggron|Heavy Slam|p2a: Aromatisse
+|-supereffective|p2a: Aromatisse
+|-damage|p2a: Aromatisse|0 fnt
+|faint|p2a: Aromatisse
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Dragalge|Dragalge, M|100/100
+|turn|16
+|choice|move heavyslam mega|move dracometeor
+|
+|detailschange|p1a: Aggron|Aggron-Mega, M
+|-mega|p1a: Aggron|Aggron|Aggronite
+|move|p2a: Dragalge|Draco Meteor|p1a: Aggron
+|-resisted|p1a: Aggron
+|-damage|p1a: Aggron|32/100
+|-unboost|p2a: Dragalge|spa|2
+|move|p1a: Aggron|Heavy Slam|p2a: Dragalge
+|-damage|p2a: Dragalge|49/100
+|
+|upkeep
+|turn|17
+|choice|move earthquake|move dracometeor
+|
+|move|p2a: Dragalge|Draco Meteor|p1a: Aggron
+|-resisted|p1a: Aggron
+|-damage|p1a: Aggron|2/100
+|-unboost|p2a: Dragalge|spa|2
+|move|p1a: Aggron|Earthquake|p2a: Dragalge
+|-supereffective|p2a: Dragalge
+|-damage|p2a: Dragalge|0 fnt
+|faint|p2a: Dragalge
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Gligar|Gligar, M|76/100
+|turn|18
+|choice|move earthquake|move stealthrock
+|
+|move|p2a: Gligar|Stealth Rock|p1a: Aggron
+|-fail|p1a: Aggron
+|move|p1a: Aggron|Earthquake|p2a: Gligar
+|-immune|p2a: Gligar|[msg]
+|
+|upkeep
+|turn|19
+|choice|move roar|move earthquake
+|
+|move|p2a: Gligar|Earthquake|p1a: Aggron
+|-supereffective|p1a: Aggron
+|-damage|p1a: Aggron|0 fnt
+|faint|p1a: Aggron
+|
+|win|ChoroCDI
+|l|DaxtheFaxMachine
+|l|ChoroCDI

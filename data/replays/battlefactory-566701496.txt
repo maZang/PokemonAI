@@ -1,0 +1,352 @@
+|j|ShupGuyz
+|j|Jackvince
+|player|p1|ShupGuyz|147
+|player|p2|Jackvince|102
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|32671,59965,26257,23321,8404,31209,28515,34665,27011,55688,36809,41377
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Giratina-Origin|item
+|poke|p1|Arceus-*|item
+|poke|p1|Landorus, M|item
+|poke|p1|Groudon|item
+|poke|p1|Diancie|item
+|poke|p1|Deoxys-Attack|item
+|poke|p2|Giratina-Origin|item
+|poke|p2|Yveltal|item
+|poke|p2|Arceus-*|item
+|poke|p2|Ferrothorn, M|item
+|poke|p2|Deoxys-Attack|item
+|poke|p2|Latias, F|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|c|☆ShupGuyz|lmao
+|c|☆ShupGuyz|full team of legends
+|c|☆ShupGuyz|seems legit
+|c|☆Jackvince|kill me
+|choice|team 4, team 2, team 3, team 1, team 5, team 6|team 4, team 2, team 3, team 1, team 5, team 6
+|
+|start
+|switch|p1a: Groudon|Groudon|100/100
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|detailschange|p1a: Groudon|Groudon-Primal
+|-primal|p1a: Groudon
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p1a: Groudon
+|turn|1
+|c|☆Jackvince|fuk
+|c|☆ShupGuyz|feelsbadman
+|choice|move stealthrock|move spikes
+|
+|move|p1a: Groudon|Stealth Rock|p2a: Ferrothorn
+|-sidestart|p2: Jackvince|move: Stealth Rock
+|move|p2a: Ferrothorn|Spikes|p1a: Groudon
+|-sidestart|p1: ShupGuyz|Spikes
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|2
+|c|☆Jackvince|WTH MAN
+|c|☆ShupGuyz|bish pls
+|choice|move lavaplume|move leechseed
+|
+|move|p1a: Groudon|Lava Plume|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|faint|p2a: Ferrothorn
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Latias|Latias, F|100/100
+|-damage|p2a: Latias|88/100|[from] Stealth Rock
+|turn|3
+|choice|move thunderwave|move calmmind
+|
+|move|p2a: Latias|Calm Mind|p2a: Latias
+|-boost|p2a: Latias|spa|1
+|-boost|p2a: Latias|spd|1
+|move|p1a: Groudon|Thunder Wave|p2a: Latias
+|-status|p2a: Latias|par
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|4
+|j|JamsGemini
+|c|☆ShupGuyz|nop
+|c|☆Jackvince|CNACNANCANCCNANCER
+|choice|move precipiceblades|move dracometeor
+|
+|move|p1a: Groudon|Precipice Blades|p2a: Latias
+|-immune|p2a: Latias|[msg]|[from] ability: Levitate
+|move|p2a: Latias|Draco Meteor|p1a: Groudon
+|-damage|p1a: Groudon|0 fnt
+|-unboost|p2a: Latias|spa|2
+|faint|p1a: Groudon
+|-weather|none
+|
+|upkeep
+|c|☆Jackvince|LOL
+|c|☆ShupGuyz|wait fak
+|c| JamsGemini|cen pls
+|c|☆ShupGuyz|that still doesn't work on flying does it
+|c| JamsGemini|don't let it happen
+|choice|switch 5|
+|
+|switch|p1a: Diancie|Diancie|100/100
+|-damage|p1a: Diancie|88/100|[from] Spikes
+|turn|5
+|choice|move moonblast mega|move calmmind
+|
+|detailschange|p1a: Diancie|Diancie-Mega
+|-mega|p1a: Diancie|Diancie|Diancite
+|move|p1a: Diancie|Moonblast|p2a: Latias
+|-supereffective|p2a: Latias
+|-damage|p2a: Latias|43/100 par
+|move|p2a: Latias|Calm Mind|p2a: Latias
+|-boost|p2a: Latias|spa|1
+|-boost|p2a: Latias|spd|1
+|
+|upkeep
+|turn|6
+|c|☆ShupGuyz|no sp atk for u
+|c|☆Jackvince|fuk u
+|choice|move moonblast|move dracometeor
+|
+|move|p1a: Diancie|Moonblast|p2a: Latias
+|-supereffective|p2a: Latias
+|-damage|p2a: Latias|9/100 par
+|-unboost|p2a: Latias|spa|1
+|cant|p2a: Latias|par
+|
+|upkeep
+|turn|7
+|c|☆ShupGuyz|i thought u were nice
+|c|☆Jackvince|saiidan
+|choice|move moonblast|move dracometeor
+|
+|move|p1a: Diancie|Moonblast|p2a: Latias
+|-supereffective|p2a: Latias
+|-crit|p2a: Latias
+|-damage|p2a: Latias|0 fnt
+|faint|p2a: Latias
+|
+|upkeep
+|c|☆Jackvince|sorry good friend
+|choice||switch 2
+|
+|switch|p2a: Yveltal|Yveltal|100/100
+|-damage|p2a: Yveltal|76/100|[from] Stealth Rock
+|-ability|p2a: Yveltal|Dark Aura
+|turn|8
+|choice|move diamondstorm|move suckerpunch
+|
+|move|p2a: Yveltal|Sucker Punch|p1a: Diancie
+|-resisted|p1a: Diancie
+|-damage|p1a: Diancie|57/100
+|move|p1a: Diancie|Diamond Storm|p2a: Yveltal
+|-supereffective|p2a: Yveltal
+|-damage|p2a: Yveltal|17/100
+|
+|-heal|p2a: Yveltal|23/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|c|☆ShupGuyz|wow
+|j|shalltearbloodfall
+|choice|move diamondstorm|move foulplay
+|
+|move|p1a: Diancie|Diamond Storm|p2a: Yveltal
+|-supereffective|p2a: Yveltal
+|-damage|p2a: Yveltal|0 fnt
+|-boost|p1a: Diancie|def|1
+|faint|p2a: Yveltal
+|
+|upkeep
+|c| JamsGemini|Thats it Cen
+|c|☆Jackvince|help he is abusing me
+|c| shalltearbloodfall|juck pls
+|c|☆Jackvince|call 9/11
+|c| shalltearbloodfall|u sucks
+|c| shalltearbloodfall|suck*
+|c|☆Jackvince|dont be a silly one kami
+|c| JamsGemini|Jack I thought you said you've improved
+|c| shalltearbloodfall|trash
+|c|☆Jackvince|i was just unlucky
+|choice||switch 3
+|
+|switch|p2a: Arceus|Arceus-Electric|100/100
+|-damage|p2a: Arceus|88/100|[from] Stealth Rock
+|turn|10
+|c|☆ShupGuyz|you sent out a poke weak to both rock and fairy
+|c|☆ShupGuyz|how is that unlucky
+|c| shalltearbloodfall|n00b
+|choice|move earthpower|move calmmind
+|
+|move|p2a: Arceus|Calm Mind|p2a: Arceus
+|-boost|p2a: Arceus|spa|1
+|-boost|p2a: Arceus|spd|1
+|move|p1a: Diancie|Earth Power|p2a: Arceus
+|-supereffective|p2a: Arceus
+|-damage|p2a: Arceus|54/100
+|
+|upkeep
+|turn|11
+|c| JamsGemini|ffs Jack
+|c|☆Jackvince|BECAUSE ALL MY POKES ARE WEAK TO DIANCE
+|c| JamsGemini|No excuses mr
+|c|☆Jackvince|EXCEPT FUKN DEOXYS AND ARCEUS
+|c|☆Jackvince|BUT THEY CANT coUNTER
+|c| JamsGemini|Then why stay in
+|choice|move earthpower|move judgment
+|
+|move|p2a: Arceus|Judgment|p1a: Diancie
+|-damage|p1a: Diancie|0 fnt
+|faint|p1a: Diancie
+|
+|upkeep
+|c|☆ShupGuyz|calm mind judgement
+|c|☆ShupGuyz|seems legit
+|c|☆Jackvince|what you want
+|choice|switch 3|
+|
+|switch|p1a: Landorus|Landorus, M|100/100
+|turn|12
+|c|☆Jackvince|judgement is speciak
+|choice|move earthpower|move icebeam
+|
+|move|p2a: Arceus|Ice Beam|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|upkeep
+|c| shalltearbloodfall|xC pls
+|c| JamsGemini|^
+|c| JamsGemini|Pls
+|c|☆Jackvince|u tarrd
+|c| JamsGemini|Don't let it happen
+|c|☆Jackvince|i mena
+|c|☆Jackvince|handsome man
+|choice|switch 2|
+|
+|switch|p1a: Arceus|Arceus-Ice|100/100
+|-damage|p1a: Arceus|88/100|[from] Spikes
+|turn|13
+|choice|move calmmind|move judgment
+|
+|move|p2a: Arceus|Judgment|p1a: Arceus
+|-crit|p1a: Arceus
+|-damage|p1a: Arceus|0 fnt
+|faint|p1a: Arceus
+|
+|upkeep
+|c|☆ShupGuyz|rlly
+|c| shalltearbloodfall|LOL
+|c| JamsGemini|CEN
+|c|☆ShupGuyz|HE CRITTED
+|c| JamsGemini|LAWL
+|c| shalltearbloodfall|CEN PLz
+|c|☆Jackvince|damn cen
+|c| JamsGemini|I have my money on you Cen
+|c|☆Jackvince|unlucky of you
+|c| JamsGemini|Don't make me lose this bet
+|c|☆Jackvince|but i think im just at a higher level of skill
+|c| JamsGemini|Omg
+|c| JamsGemini|He's talking big
+|c| JamsGemini|Kami pls put him in his palce
+|c|☆Jackvince|no
+|c| JamsGemini|place*
+|c|☆ShupGuyz|i literally can't kill it
+|c|☆Jackvince|i am just stating facts
+|c|☆Jackvince|one day
+|c|☆Jackvince|he might become better than me
+|c|☆Jackvince|but the handsome cat needs training in the art of pokemon
+|c|☆ShupGuyz|boi
+|c|☆Jackvince|practice makes perfect
+|c|☆ShupGuyz|you're the one with 30% win rate
+|c|☆ShupGuyz|stfu
+|c|☆Jackvince|LOLOLOLOLOLOL
+|c|☆Jackvince|lower than 30% in e4 btw
+|choice|switch 6|
+|
+|switch|p1a: Deoxys|Deoxys-Attack|100/100
+|-damage|p1a: Deoxys|88/100|[from] Spikes
+|-ability|p1a: Deoxys|Pressure
+|turn|14
+|choice|move psychoboost|move judgment
+|
+|move|p1a: Deoxys|Psycho Boost|p2a: Arceus
+|-damage|p2a: Arceus|7/100
+|-unboost|p1a: Deoxys|spa|2
+|move|p2a: Arceus|Judgment|p1a: Deoxys
+|-damage|p1a: Deoxys|0 fnt
+|faint|p1a: Deoxys
+|
+|upkeep
+|c| JamsGemini|no way
+|c|☆ShupGuyz|...
+|c| shalltearbloodfall|CENNNN
+|c| JamsGemini|Cen how could this happen
+|c| shalltearbloodfall|COME BACK TO US CENNN
+|c|☆ShupGuyz|HE JUST CRITS
+|c| JamsGemini|You had it
+|c| JamsGemini|You had him
+|choice|switch 4|
+|
+|switch|p1a: Giratina|Giratina-Origin|100/100
+|turn|15
+|c|☆ShupGuyz|dw
+|c| JamsGemini|Pls have shadow sneak
+|c|☆ShupGuyz|this ain't over yet
+|choice|move shadowsneak|move icebeam
+|
+|move|p1a: Giratina|Shadow Sneak|p2a: Arceus
+|-damage|p2a: Arceus|0 fnt
+|faint|p2a: Arceus
+|
+|upkeep
+|c|☆Jackvince|NONONONONONON
+|choice||switch 5
+|
+|switch|p2a: Deoxys|Deoxys-Attack|100/100
+|-damage|p2a: Deoxys|88/100|[from] Stealth Rock
+|-ability|p2a: Deoxys|Pressure
+|turn|16
+|c| JamsGemini|This dank comeback
+|c| shalltearbloodfall|CENN
+|c| JamsGemini|Totes gonna win
+|choice|move shadowsneak|move psychoboost
+|
+|move|p1a: Giratina|Shadow Sneak|p2a: Deoxys
+|-supereffective|p2a: Deoxys
+|-damage|p2a: Deoxys|0 fnt
+|faint|p2a: Deoxys
+|
+|upkeep
+|c|☆Jackvince|nononono
+|c| JamsGemini|GO ON
+|choice||switch 4
+|
+|switch|p2a: Giratina|Giratina-Origin|100/100
+|-damage|p2a: Giratina|88/100|[from] Stealth Rock
+|turn|17
+|c|☆ShupGuyz|SPEED TIE PLS
+|choice|move dracometeor|move shadowforce
+|
+|move|p1a: Giratina|Draco Meteor|p2a: Giratina
+|-supereffective|p2a: Giratina
+|-damage|p2a: Giratina|0 fnt
+|-unboost|p1a: Giratina|spa|2
+|faint|p2a: Giratina
+|
+|win|ShupGuyz
+|c| JamsGemini|LOLOLOL
+|c| JamsGemini|OMG
+|c|☆ShupGuyz|YAs
+|c|☆Jackvince|depression
+|c| JamsGemini|CENN
+|l|JamsGemini
+|l|Jackvince

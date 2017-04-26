@@ -1,0 +1,409 @@
+|j|kobnipb
+|j|guillem zapata
+|player|p1|kobnipb|266
+|player|p2|guillem zapata|293
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|57944,8357,3744,49781,64444,59371,764,21911,30232,53265,16312,63480
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Arcanine, M|item
+|poke|p1|Empoleon, M|item
+|poke|p1|Donphan, M|item
+|poke|p1|Galvantula, M|item
+|poke|p1|Honchkrow, M|item
+|poke|p1|Abomasnow, M|item
+|poke|p2|Gardevoir, M|item
+|poke|p2|Lucario, M|item
+|poke|p2|Bronzong|item
+|poke|p2|Nidoqueen, F|item
+|poke|p2|Beedrill, M|item
+|poke|p2|Kingdra, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 4, team 2, team 3, team 1, team 5, team 6|team 5, team 2, team 3, team 4, team 1, team 6
+|
+|start
+|switch|p1a: Galvantula|Galvantula, M|100/100
+|switch|p2a: Beedrill|Beedrill, M|100/100
+|turn|1
+|choice|move thunder|move drillrun mega
+|
+|detailschange|p2a: Beedrill|Beedrill-Mega, M
+|-mega|p2a: Beedrill|Beedrill|Beedrillite
+|move|p1a: Galvantula|Thunder|p2a: Beedrill
+|-damage|p2a: Beedrill|6/100
+|-damage|p1a: Galvantula|91/100|[from] item: Life Orb
+|move|p2a: Beedrill|Drill Run|p1a: Galvantula
+|-damage|p1a: Galvantula|30/100
+|
+|upkeep
+|turn|2
+|choice|move bugbuzz|move uturn
+|
+|move|p2a: Beedrill|U-turn|p1a: Galvantula
+|-damage|p1a: Galvantula|0 fnt
+|faint|p1a: Galvantula
+|choice||switch 3
+|
+|switch|p2a: Bronzong|Bronzong|100/100
+|
+|upkeep
+|c|☆kobnipb|good move
+|choice|switch 4|
+|
+|switch|p1a: Arcanine|Arcanine, M|100/100
+|turn|3
+|choice|move flareblitz|switch 6
+|
+|switch|p2a: Kingdra|Kingdra, M|100/100
+|move|p1a: Arcanine|Flare Blitz|p2a: Kingdra
+|-resisted|p2a: Kingdra
+|-damage|p2a: Kingdra|75/100
+|-status|p2a: Kingdra|brn
+|-damage|p1a: Arcanine|93/100|[from] recoil|[of] p2a: Kingdra
+|
+|-damage|p2a: Kingdra|62/100 brn|[from] brn
+|upkeep
+|turn|4
+|c|☆guillem zapata|rly
+|choice|switch 2|move dracometeor
+|
+|switch|p1a: Empoleon|Empoleon, M|100/100
+|move|p2a: Kingdra|Draco Meteor|p1a: Empoleon
+|-resisted|p1a: Empoleon
+|-crit|p1a: Empoleon
+|-damage|p1a: Empoleon|60/100
+|-unboost|p2a: Kingdra|spa|2
+|
+|-heal|p1a: Empoleon|66/100|[from] item: Leftovers
+|-damage|p2a: Kingdra|50/100 brn|[from] brn
+|upkeep
+|turn|5
+|choice|move stealthrock|switch 6
+|
+|switch|p2a: Bronzong|Bronzong|100/100
+|move|p1a: Empoleon|Stealth Rock|p2a: Bronzong
+|-sidestart|p2: guillem zapata|move: Stealth Rock
+|
+|-heal|p1a: Empoleon|72/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|choice|move scald|move stealthrock
+|
+|move|p1a: Empoleon|Scald|p2a: Bronzong
+|-damage|p2a: Bronzong|72/100
+|move|p2a: Bronzong|Stealth Rock|p1a: Empoleon
+|-sidestart|p1: kobnipb|move: Stealth Rock
+|
+|-heal|p1a: Empoleon|78/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|choice|move defog|move lightscreen
+|
+|move|p1a: Empoleon|Defog|p2a: Bronzong
+|-unboost|p2a: Bronzong|evasion|1
+|-sideend|p2: guillem zapata|Stealth Rock|[from] move: Defog|[of] p2a: Bronzong
+|-sideend|p1: kobnipb|Stealth Rock|[from] move: Defog|[of] p1a: Empoleon
+|move|p2a: Bronzong|Light Screen|p2a: Bronzong
+|-sidestart|p2: guillem zapata|move: Light Screen
+|
+|-heal|p1a: Empoleon|85/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|choice|switch 5|move reflect
+|
+|switch|p1a: Honchkrow|Honchkrow, M|100/100
+|move|p2a: Bronzong|Reflect|p2a: Bronzong
+|-sidestart|p2: guillem zapata|Reflect
+|
+|upkeep
+|turn|9
+|choice|move nightslash|move stealthrock
+|
+|move|p1a: Honchkrow|Night Slash|p2a: Bronzong
+|-supereffective|p2a: Bronzong
+|-damage|p2a: Bronzong|50/100
+|move|p2a: Bronzong|Stealth Rock|p1a: Honchkrow
+|-sidestart|p1: kobnipb|move: Stealth Rock
+|
+|upkeep
+|turn|10
+|choice|move nightslash|switch 4
+|
+|switch|p2a: Nidoqueen|Nidoqueen, F|100/100
+|move|p1a: Honchkrow|Night Slash|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|88/100
+|
+|-heal|p2a: Nidoqueen|94/100|[from] item: Black Sludge
+|upkeep
+|turn|11
+|choice|switch 5|move roar
+|
+|switch|p1a: Empoleon|Empoleon, M|85/100
+|-damage|p1a: Empoleon|78/100|[from] Stealth Rock
+|move|p2a: Nidoqueen|Roar|p1a: Empoleon
+|drag|p1a: Honchkrow|Honchkrow, M|100/100
+|-damage|p1a: Honchkrow|76/100|[from] Stealth Rock
+|
+|-heal|p2a: Nidoqueen|99/100|[from] item: Black Sludge
+|upkeep
+|turn|12
+|choice|move bravebird|move roar
+|
+|move|p1a: Honchkrow|Brave Bird|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|78/100
+|-damage|p1a: Honchkrow|67/100|[from] recoil|[of] p2a: Nidoqueen
+|move|p2a: Nidoqueen|Roar|p1a: Honchkrow
+|drag|p1a: Arcanine|Arcanine, M|93/100
+|-damage|p1a: Arcanine|68/100|[from] Stealth Rock
+|
+|-heal|p2a: Nidoqueen|84/100|[from] item: Black Sludge
+|upkeep
+|turn|13
+|choice|move extremespeed|move roar
+|
+|move|p1a: Arcanine|Extreme Speed|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|68/100
+|move|p2a: Nidoqueen|Roar|p1a: Arcanine
+|drag|p1a: Abomasnow|Abomasnow, M|100/100
+|-damage|p1a: Abomasnow|76/100|[from] Stealth Rock
+|
+|-heal|p2a: Nidoqueen|74/100|[from] item: Black Sludge
+|upkeep
+|turn|14
+|choice|move iceshard mega|move earthpower
+|
+|detailschange|p1a: Abomasnow|Abomasnow-Mega, M
+|-mega|p1a: Abomasnow|Abomasnow|Abomasite
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Abomasnow
+|move|p1a: Abomasnow|Ice Shard|p2a: Nidoqueen
+|-supereffective|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|57/100
+|move|p2a: Nidoqueen|Earth Power|p1a: Abomasnow
+|-resisted|p1a: Abomasnow
+|-damage|p1a: Abomasnow|60/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Nidoqueen|51/100|[from] hail
+|-heal|p2a: Nidoqueen|57/100|[from] item: Black Sludge
+|-sideend|p2: guillem zapata|move: Light Screen
+|upkeep
+|turn|15
+|choice|move swordsdance|move roar
+|
+|move|p1a: Abomasnow|Swords Dance|p1a: Abomasnow
+|-boost|p1a: Abomasnow|atk|2
+|move|p2a: Nidoqueen|Roar|p1a: Abomasnow
+|drag|p1a: Donphan|Donphan, M|100/100
+|-damage|p1a: Donphan|94/100|[from] Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Nidoqueen|51/100|[from] hail
+|-damage|p1a: Donphan|88/100|[from] hail
+|-heal|p2a: Nidoqueen|57/100|[from] item: Black Sludge
+|-sideend|p2: guillem zapata|Reflect
+|upkeep
+|turn|16
+|choice|move rapidspin|move icebeam
+|
+|move|p2a: Nidoqueen|Ice Beam|p1a: Donphan
+|-supereffective|p1a: Donphan
+|-damage|p1a: Donphan|50/100
+|move|p1a: Donphan|Rapid Spin|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|51/100
+|-sideend|p1: kobnipb|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Donphan
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Nidoqueen|45/100|[from] hail
+|-damage|p1a: Donphan|44/100|[from] hail
+|-heal|p2a: Nidoqueen|51/100|[from] item: Black Sludge
+|upkeep
+|turn|17
+|choice|move knockoff|move icebeam
+|
+|move|p2a: Nidoqueen|Ice Beam|p1a: Donphan
+|-supereffective|p1a: Donphan
+|-damage|p1a: Donphan|5/100
+|move|p1a: Donphan|Knock Off|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|28/100
+|-enditem|p2a: Nidoqueen|Black Sludge|[from] move: Knock Off|[of] p1a: Donphan
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Nidoqueen|22/100|[from] hail
+|-damage|p1a: Donphan|0 fnt|[from] hail
+|upkeep
+|faint|p1a: Donphan
+|choice|switch 5|
+|
+|switch|p1a: Empoleon|Empoleon, M|78/100
+|turn|18
+|choice|move scald|move stealthrock
+|
+|move|p2a: Nidoqueen|Stealth Rock|p1a: Empoleon
+|-sidestart|p1: kobnipb|move: Stealth Rock
+|move|p1a: Empoleon|Scald|p2a: Nidoqueen
+|-supereffective|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|0 fnt
+|faint|p2a: Nidoqueen
+|
+|-weather|none
+|-heal|p1a: Empoleon|85/100|[from] item: Leftovers
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Lucario|Lucario, M|100/100
+|turn|19
+|choice|move defog|move aurasphere
+|
+|move|p2a: Lucario|Aura Sphere|p1a: Empoleon
+|-supereffective|p1a: Empoleon
+|-damage|p1a: Empoleon|21/100
+|-damage|p2a: Lucario|91/100|[from] item: Life Orb
+|move|p1a: Empoleon|Defog|p2a: Lucario
+|-unboost|p2a: Lucario|evasion|1
+|-sideend|p1: kobnipb|Stealth Rock|[from] move: Defog|[of] p1a: Empoleon
+|
+|-heal|p1a: Empoleon|27/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|choice|move stealthrock|move nastyplot
+|
+|move|p2a: Lucario|Nasty Plot|p2a: Lucario
+|-boost|p2a: Lucario|spa|2
+|move|p1a: Empoleon|Stealth Rock|p2a: Lucario
+|-sidestart|p2: guillem zapata|move: Stealth Rock
+|
+|-heal|p1a: Empoleon|33/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|choice|move scald|move aurasphere
+|
+|move|p2a: Lucario|Aura Sphere|p1a: Empoleon
+|-supereffective|p1a: Empoleon
+|-damage|p1a: Empoleon|0 fnt
+|-damage|p2a: Lucario|81/100|[from] item: Life Orb
+|faint|p1a: Empoleon
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Honchkrow|Honchkrow, M|67/100
+|turn|22
+|choice|move superpower|move flashcannon
+|
+|move|p1a: Honchkrow|Superpower|p2a: Lucario
+|-supereffective|p2a: Lucario
+|-damage|p2a: Lucario|0 fnt
+|-unboost|p1a: Honchkrow|atk|1
+|-unboost|p1a: Honchkrow|def|1
+|faint|p2a: Lucario
+|-ability|p1a: Honchkrow|Moxie|boost
+|-boost|p1a: Honchkrow|atk|1
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Bronzong|Bronzong|50/100
+|-damage|p2a: Bronzong|44/100|[from] Stealth Rock
+|turn|23
+|choice|move superpower|move stealthrock
+|
+|move|p1a: Honchkrow|Superpower|p2a: Bronzong
+|-damage|p2a: Bronzong|17/100
+|-unboost|p1a: Honchkrow|atk|1
+|-unboost|p1a: Honchkrow|def|1
+|move|p2a: Bronzong|Stealth Rock|p1a: Honchkrow
+|-sidestart|p1: kobnipb|move: Stealth Rock
+|
+|upkeep
+|turn|24
+|choice|move superpower|move explosion
+|
+|move|p1a: Honchkrow|Superpower|p2a: Bronzong
+|-damage|p2a: Bronzong|0 fnt
+|-unboost|p1a: Honchkrow|atk|1
+|-unboost|p1a: Honchkrow|def|1
+|faint|p2a: Bronzong
+|-ability|p1a: Honchkrow|Moxie|boost
+|-boost|p1a: Honchkrow|atk|1
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Gardevoir|Gardevoir, M|100/100
+|-damage|p2a: Gardevoir|88/100|[from] Stealth Rock
+|-ability|p2a: Gardevoir|Moxie|[from] ability: Trace|[of] p1a: Honchkrow
+|turn|25
+|choice|switch 6|move moonblast
+|
+|switch|p1a: Arcanine|Arcanine, M|68/100
+|-damage|p1a: Arcanine|43/100|[from] Stealth Rock
+|move|p2a: Gardevoir|Moonblast|p1a: Arcanine
+|-resisted|p1a: Arcanine
+|-damage|p1a: Arcanine|0 fnt
+|faint|p1a: Arcanine
+|-ability|p2a: Gardevoir|Moxie|boost
+|-boost|p2a: Gardevoir|atk|1
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Abomasnow|Abomasnow-Mega, M|60/100
+|-damage|p1a: Abomasnow|35/100|[from] Stealth Rock
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Abomasnow
+|turn|26
+|choice|move earthquake|move moonblast
+|
+|move|p2a: Gardevoir|Moonblast|p1a: Abomasnow
+|-damage|p1a: Abomasnow|0 fnt
+|faint|p1a: Abomasnow
+|-ability|p2a: Gardevoir|Moxie|boost
+|-boost|p2a: Gardevoir|atk|1
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Gardevoir|82/100|[from] hail
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Honchkrow|Honchkrow, M|67/100
+|-damage|p1a: Honchkrow|42/100|[from] Stealth Rock
+|turn|27
+|choice|move bravebird|move moonblast
+|
+|move|p1a: Honchkrow|Brave Bird|p2a: Gardevoir
+|-damage|p2a: Gardevoir|0 fnt
+|-damage|p1a: Honchkrow|20/100|[from] recoil|[of] p2a: Gardevoir
+|faint|p2a: Gardevoir
+|-ability|p1a: Honchkrow|Moxie|boost
+|-boost|p1a: Honchkrow|atk|1
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Honchkrow|14/100|[from] hail
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Beedrill|Beedrill-Mega, M|6/100
+|-damage|p2a: Beedrill|0 fnt|[from] Stealth Rock
+|faint|p2a: Beedrill
+|choice||switch 6
+|
+|switch|p2a: Kingdra|Kingdra, M|50/100 brn
+|-damage|p2a: Kingdra|38/100 brn|[from] Stealth Rock
+|turn|28
+|choice|move bravebird|move waterfall
+|
+|move|p1a: Honchkrow|Brave Bird|p2a: Kingdra
+|-damage|p2a: Kingdra|0 fnt
+|-damage|p1a: Honchkrow|3/100|[from] recoil|[of] p2a: Kingdra
+|faint|p2a: Kingdra
+|
+|win|kobnipb
+|raw|kobnipb's rating: 1040 &rarr; <strong>1070</strong><br />(+30 for winning)
+|raw|guillem zapata's rating: 1000 &rarr; <strong>1000</strong><br />(+0 for losing)
+|c|☆kobnipb|gg
+|c|☆guillem zapata|so much luck
+|l|guillem zapata

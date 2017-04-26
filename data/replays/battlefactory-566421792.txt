@@ -1,0 +1,244 @@
+|j|arceus1117
+|j|Mortify
+|player|p1|arceus1117|99
+|player|p2|Mortify|260
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|5299,17055,7879,46244,842,53134,15384,10907,63912,40422,61378,5544
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Rhydon, M|item
+|poke|p1|Skuntank, M|item
+|poke|p1|Abomasnow, M|item
+|poke|p1|Jynx, F|item
+|poke|p1|Poliwrath, M|item
+|poke|p1|Roselia, M|item
+|poke|p2|Camerupt, M|item
+|poke|p2|Primeape, M|item
+|poke|p2|Mantine, M|item
+|poke|p2|Zangoose, M|item
+|poke|p2|Mesprit|item
+|poke|p2|Mismagius, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 4, team 2, team 3, team 1, team 5, team 6|team 2, team 1, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Jynx|Jynx, F|100/100
+|switch|p2a: Primeape|Primeape, M|100/100
+|turn|1
+|choice|move lovelykiss|move uturn
+|
+|move|p1a: Jynx|Lovely Kiss|p2a: Primeape
+|-status|p2a: Primeape|slp
+|cant|p2a: Primeape|slp
+|
+|upkeep
+|turn|2
+|choice|move nastyplot|move uturn
+|
+|move|p1a: Jynx|Nasty Plot|p1a: Jynx
+|-boost|p1a: Jynx|spa|2
+|cant|p2a: Primeape|slp
+|
+|upkeep
+|turn|3
+|choice|move psychic|switch 3
+|
+|switch|p2a: Mantine|Mantine, M|100/100
+|move|p1a: Jynx|Psychic|p2a: Mantine
+|-damage|p2a: Mantine|20/100
+|-damage|p1a: Jynx|91/100|[from] item: Life Orb
+|
+|-heal|p2a: Mantine|26/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|choice|move psychic|move scald
+|
+|move|p1a: Jynx|Psychic|p2a: Mantine
+|-damage|p2a: Mantine|0 fnt
+|-damage|p1a: Jynx|81/100|[from] item: Life Orb
+|faint|p2a: Mantine
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Mismagius|Mismagius, M|100/100
+|turn|5
+|choice|move psychic|move hex
+|
+|move|p2a: Mismagius|Hex|p1a: Jynx
+|-supereffective|p1a: Jynx
+|-damage|p1a: Jynx|21/100
+|move|p1a: Jynx|Psychic|p2a: Mismagius
+|-damage|p2a: Mismagius|0 fnt
+|-damage|p1a: Jynx|11/100|[from] item: Life Orb
+|faint|p2a: Mismagius
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Zangoose|Zangoose, M|100/100
+|turn|6
+|choice|move psychic|move quickattack
+|
+|move|p2a: Zangoose|Quick Attack|p1a: Jynx
+|-damage|p1a: Jynx|0 fnt
+|faint|p1a: Jynx
+|
+|-status|p2a: Zangoose|tox|[from] item: Toxic Orb
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Rhydon|Rhydon, M|100/100
+|turn|7
+|choice|move stealthrock|switch 5
+|
+|switch|p2a: Mesprit|Mesprit|100/100
+|move|p1a: Rhydon|Stealth Rock|p2a: Mesprit
+|-sidestart|p2: Mortify|move: Stealth Rock
+|
+|upkeep
+|turn|8
+|choice|move megahorn|move energyball
+|
+|move|p2a: Mesprit|Energy Ball|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-damage|p1a: Rhydon|0 fnt
+|-damage|p2a: Mesprit|91/100|[from] item: Life Orb
+|faint|p1a: Rhydon
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Skuntank|Skuntank, M|100/100
+|turn|9
+|choice|switch 6|switch 3
+|
+|switch|p1a: Roselia|Roselia, M|100/100
+|switch|p2a: Primeape|Primeape, M|100/100 slp
+|-damage|p2a: Primeape|95/100 slp|[from] Stealth Rock
+|
+|upkeep
+|turn|10
+|choice|move sludgebomb|move closecombat
+|
+|cant|p2a: Primeape|slp
+|move|p1a: Roselia|Sludge Bomb|p2a: Primeape
+|-damage|p2a: Primeape|27/100 slp
+|
+|upkeep
+|turn|11
+|choice|move sludgebomb|move uturn
+|
+|-curestatus|p2a: Primeape|slp|[msg]
+|move|p2a: Primeape|U-turn|p1a: Roselia
+|-damage|p1a: Roselia|50/100
+|choice||switch 3
+|
+|switch|p2a: Mesprit|Mesprit|91/100
+|-damage|p2a: Mesprit|78/100|[from] Stealth Rock
+|move|p1a: Roselia|Sludge Bomb|p2a: Mesprit
+|-damage|p2a: Mesprit|35/100
+|
+|upkeep
+|turn|12
+|choice|move sludgebomb|move calmmind
+|
+|move|p2a: Mesprit|Calm Mind|p2a: Mesprit
+|-boost|p2a: Mesprit|spa|1
+|-boost|p2a: Mesprit|spd|1
+|move|p1a: Roselia|Sludge Bomb|p2a: Mesprit
+|-crit|p2a: Mesprit
+|-damage|p2a: Mesprit|0 fnt
+|faint|p2a: Mesprit
+|
+|upkeep
+|c|☆Mortify|ofc
+|choice||switch 5
+|
+|switch|p2a: Zangoose|Zangoose, M|100/100 tox
+|-damage|p2a: Zangoose|88/100 tox|[from] Stealth Rock
+|turn|13
+|c|☆arceus1117|lol I didn't see that until you said something
+|choice|move leafstorm|move facade
+|
+|move|p2a: Zangoose|Facade|p1a: Roselia
+|-damage|p1a: Roselia|0 fnt
+|faint|p1a: Roselia
+|
+|-damage|p2a: Zangoose|82/100 tox|[from] psn
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Skuntank|Skuntank, M|100/100
+|turn|14
+|choice|move darkpulse|move facade
+|
+|move|p2a: Zangoose|Facade|p1a: Skuntank
+|-damage|p1a: Skuntank|0 fnt
+|-damage|p2a: Zangoose|58/100 tox|[from] ability: Aftermath|[of] p1a: Skuntank
+|faint|p1a: Skuntank
+|
+|-damage|p2a: Zangoose|46/100 tox|[from] psn
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Poliwrath|Poliwrath, M|100/100
+|turn|15
+|choice|move vacuumwave|move facade
+|
+|move|p1a: Poliwrath|Vacuum Wave|p2a: Zangoose
+|-supereffective|p2a: Zangoose
+|-damage|p2a: Zangoose|0 fnt
+|faint|p2a: Zangoose
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Primeape|Primeape, M|27/100
+|-damage|p2a: Primeape|21/100|[from] Stealth Rock
+|turn|16
+|choice|move vacuumwave|move closecombat
+|
+|move|p1a: Poliwrath|Vacuum Wave|p2a: Primeape
+|-damage|p2a: Primeape|0 fnt
+|faint|p2a: Primeape
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Camerupt|Camerupt, M|100/100
+|-damage|p2a: Camerupt|88/100|[from] Stealth Rock
+|turn|17
+|choice|move scald|move earthquake
+|
+|move|p1a: Poliwrath|Scald|p2a: Camerupt
+|-supereffective|p2a: Camerupt
+|-damage|p2a: Camerupt|4/100
+|move|p2a: Camerupt|Earthquake|p1a: Poliwrath
+|-damage|p1a: Poliwrath|65/100
+|
+|-heal|p1a: Poliwrath|71/100|[from] item: Leftovers
+|-heal|p2a: Camerupt|10/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|c|☆Mortify|gay ass fucking game
+|c|☆arceus1117|gg
+|choice|move scald|move earthquake
+|
+|move|p1a: Poliwrath|Scald|p2a: Camerupt
+|-supereffective|p2a: Camerupt
+|-crit|p2a: Camerupt
+|-damage|p2a: Camerupt|0 fnt
+|faint|p2a: Camerupt
+|
+|win|arceus1117
+|raw|arceus1117's rating: 1236 &rarr; <strong>1267</strong><br />(+31 for winning)
+|raw|Mortify's rating: 1316 &rarr; <strong>1291</strong><br />(-25 for losing)
+|c|☆arceus1117|yeah, it's awful
+|c|☆arceus1117|lol
+|l|Mortify

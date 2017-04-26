@@ -1,0 +1,230 @@
+|j|luisik
+|j|infamouskido
+|player|p1|luisik|291
+|player|p2|infamouskido|282
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|14704,28609,60833,23822,24374,43034,46700,39534,34947,7061,18115,62546
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Primeape, M|item
+|poke|p1|Haunter, M|item
+|poke|p1|Sliggoo, M|item
+|poke|p1|Lanturn, M|item
+|poke|p1|Roselia, M|item
+|poke|p1|Electivire, M|item
+|poke|p2|Jynx, F|item
+|poke|p2|Omastar, M|item
+|poke|p2|Electivire, M|item
+|poke|p2|Magmortar, M|item
+|poke|p2|Regirock|item
+|poke|p2|Clefairy, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|c|☆luisik|umm no fair i got such bad pokemon
+|choice|team 1, team 2, team 3, team 4, team 5, team 6|team 4, team 2, team 3, team 1, team 5, team 6
+|
+|start
+|switch|p1a: Primeape|Primeape, M|100/100
+|switch|p2a: Magmortar|Magmortar, M|100/100
+|turn|1
+|c|☆infamouskido|hey um can I have control of the timer
+|choice|move closecombat|move fireblast
+|
+|move|p1a: Primeape|Close Combat|p2a: Magmortar
+|-damage|p2a: Magmortar|0 fnt
+|-unboost|p1a: Primeape|def|1
+|-unboost|p1a: Primeape|spd|1
+|faint|p2a: Magmortar
+|
+|upkeep
+|c|☆infamouskido|hello?
+|choice||switch 3
+|
+|switch|p2a: Electivire|Electivire, M|100/100
+|turn|2
+|c|☆luisik|hi
+|c|☆luisik|what?
+|c|☆infamouskido|i said if I can have control of the timer
+|choice|move closecombat|move wildcharge
+|
+|move|p2a: Electivire|Wild Charge|p1a: Primeape
+|-damage|p1a: Primeape|0 fnt
+|-damage|p2a: Electivire|77/100|[from] recoil|[of] p1a: Primeape
+|-damage|p2a: Electivire|67/100|[from] item: Life Orb
+|faint|p1a: Primeape
+|
+|upkeep
+|c|☆luisik|why
+|choice|switch 4|
+|
+|switch|p1a: Lanturn|Lanturn, M|100/100
+|turn|3
+|c|☆infamouskido|ill let u win
+|c|☆infamouskido|if u give em the timer
+|c|☆luisik|go for it
+|c|☆infamouskido|yaya
+|c|☆luisik|idc
+|choice|move scald|switch 5
+|
+|switch|p2a: Regirock|Regirock|100/100
+|move|p1a: Lanturn|Scald|p2a: Regirock
+|-supereffective|p2a: Regirock
+|-damage|p2a: Regirock|65/100
+|
+|-heal|p2a: Regirock|71/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|c|☆luisik|i dont care
+|c|☆infamouskido|now I just hope that digital vaporean does not come to this room
+|choice|move scald|switch 6
+|
+|switch|p2a: Clefairy|Clefairy, M|100/100
+|move|p1a: Lanturn|Scald|p2a: Clefairy
+|-damage|p2a: Clefairy|87/100
+|
+|upkeep
+|turn|5
+|c|☆infamouskido|cause has been stalking me lately
+|c|☆infamouskido|hryyyy up
+|c|☆luisik|mhm...
+|choice|move thunderwave|move moonblast
+|
+|move|p1a: Lanturn|Thunder Wave|p2a: Clefairy
+|-status|p2a: Clefairy|par
+|move|p2a: Clefairy|Moonblast|p1a: Lanturn
+|-crit|p1a: Lanturn
+|-damage|p1a: Lanturn|74/100
+|
+|-heal|p1a: Lanturn|80/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|c|☆luisik|what are u doing
+|c|☆infamouskido|make u hrry up
+|choice|move scald|move moonblast
+|
+|move|p1a: Lanturn|Scald|p2a: Clefairy
+|-damage|p2a: Clefairy|73/100 par
+|cant|p2a: Clefairy|par
+|
+|-heal|p1a: Lanturn|87/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|choice|move scald|switch 6
+|
+|switch|p2a: Regirock|Regirock|71/100
+|move|p1a: Lanturn|Scald|p2a: Regirock
+|-supereffective|p2a: Regirock
+|-damage|p2a: Regirock|35/100
+|
+|-heal|p1a: Lanturn|93/100|[from] item: Leftovers
+|-heal|p2a: Regirock|41/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|c|☆luisik|ok
+|choice|move scald|move toxic
+|
+|move|p1a: Lanturn|Scald|p2a: Regirock
+|-supereffective|p2a: Regirock
+|-damage|p2a: Regirock|8/100
+|move|p2a: Regirock|Toxic|p1a: Lanturn|[miss]
+|-miss|p2a: Regirock|p1a: Lanturn
+|
+|-heal|p1a: Lanturn|99/100|[from] item: Leftovers
+|-heal|p2a: Regirock|14/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|choice|move scald|move toxic
+|
+|move|p1a: Lanturn|Scald|p2a: Regirock
+|-supereffective|p2a: Regirock
+|-damage|p2a: Regirock|0 fnt
+|faint|p2a: Regirock
+|
+|-heal|p1a: Lanturn|100/100|[from] item: Leftovers
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Omastar|Omastar, M|100/100
+|turn|10
+|choice|move thunderwave|move icebeam
+|
+|move|p2a: Omastar|Ice Beam|p1a: Lanturn
+|-resisted|p1a: Lanturn
+|-damage|p1a: Lanturn|89/100
+|move|p1a: Lanturn|Thunder Wave|p2a: Omastar
+|-status|p2a: Omastar|par
+|
+|-heal|p1a: Lanturn|95/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|choice|move scald|move stealthrock
+|
+|move|p1a: Lanturn|Scald|p2a: Omastar
+|-crit|p2a: Omastar
+|-damage|p2a: Omastar|50/100 par
+|move|p2a: Omastar|Stealth Rock|p1a: Lanturn
+|-sidestart|p1: luisik|move: Stealth Rock
+|
+|-heal|p1a: Lanturn|100/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|c|☆infamouskido|http://play.pokemonshowdown.com/battle-battlefactory-566609460
+|c|☆infamouskido|read the comments
+|c|☆luisik|why
+|choice|move scald|move spikes
+|
+|move|p1a: Lanturn|Scald|p2a: Omastar
+|-damage|p2a: Omastar|17/100 par
+|cant|p2a: Omastar|par
+|
+|upkeep
+|turn|13
+|c|☆infamouskido|I fought in the war against these guys
+|choice|move scald|move scald
+|
+|move|p1a: Lanturn|Scald|p2a: Omastar
+|-damage|p2a: Omastar|0 fnt
+|faint|p2a: Omastar
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Electivire|Electivire, M|67/100
+|turn|14
+|choice|move scald|move icepunch
+|
+|move|p2a: Electivire|Ice Punch|p1a: Lanturn
+|-resisted|p1a: Lanturn
+|-damage|p1a: Lanturn|85/100
+|-damage|p2a: Electivire|57/100|[from] item: Life Orb
+|move|p1a: Lanturn|Scald|p2a: Electivire
+|-damage|p2a: Electivire|22/100
+|
+|-heal|p1a: Lanturn|91/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|c|☆luisik|why are u not playing
+|c|☆infamouskido|cause im gay
+|choice|move scald|move hiddenpower
+|
+|move|p2a: Electivire|Hidden Power|p1a: Lanturn
+|-supereffective|p1a: Lanturn
+|-damage|p1a: Lanturn|63/100
+|-damage|p2a: Electivire|12/100|[from] item: Life Orb
+|move|p1a: Lanturn|Scald|p2a: Electivire
+|-damage|p2a: Electivire|0 fnt
+|faint|p2a: Electivire
+|
+|-heal|p1a: Lanturn|69/100|[from] item: Leftovers
+|upkeep
+|c|☆infamouskido|gg
+|-message|infamouskido forfeited.
+|
+|win|luisik
+|l|infamouskido
+|raw|luisik's rating: 1040 &rarr; <strong>1084</strong><br />(+44 for winning)
+|raw|infamouskido's rating: 1147 &rarr; <strong>1115</strong><br />(-32 for losing)

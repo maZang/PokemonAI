@@ -1,0 +1,161 @@
+|j|testin this shit
+|j|queen lucero<3
+|player|p1|testin this shit|2
+|player|p2|queen lucero<3|263
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|60022,17270,49648,40157,60910,7627,62288,56067,29431,32440,21276,50931
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Slurpuff, M|item
+|poke|p1|Sceptile, M|item
+|poke|p1|Haxorus, M|item
+|poke|p1|Cresselia, F|item
+|poke|p1|Cloyster, M|item
+|poke|p1|Shuckle, M|item
+|poke|p2|Nidoqueen, F|item
+|poke|p2|Cloyster, M|item
+|poke|p2|Tornadus, M|item
+|poke|p2|Yanmega, M|item
+|poke|p2|Haxorus, M|item
+|poke|p2|Umbreon, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 6, team 2, team 3, team 4, team 5, team 1|team 1, team 2, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Shuckle|Shuckle, M|100/100
+|switch|p2a: Nidoqueen|Nidoqueen, F|100/100
+|turn|1
+|choice|move stickyweb|move stealthrock
+|
+|move|p2a: Nidoqueen|Stealth Rock|p1a: Shuckle
+|-sidestart|p1: testin this shit|move: Stealth Rock
+|move|p1a: Shuckle|Sticky Web|p2a: Nidoqueen
+|-sidestart|p2: queen lucero<3|move: Sticky Web
+|
+|upkeep
+|turn|2
+|choice|move stealthrock|move earthpower
+|
+|move|p2a: Nidoqueen|Earth Power|p1a: Shuckle
+|-damage|p1a: Shuckle|66/100
+|move|p1a: Shuckle|Stealth Rock|p2a: Nidoqueen
+|-sidestart|p2: queen lucero<3|move: Stealth Rock
+|
+|-heal|p1a: Shuckle|73/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|choice|move knockoff|move earthpower
+|
+|move|p2a: Nidoqueen|Earth Power|p1a: Shuckle
+|-damage|p1a: Shuckle|42/100
+|move|p1a: Shuckle|Knock Off|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|94/100
+|-enditem|p2a: Nidoqueen|Life Orb|[from] move: Knock Off|[of] p1a: Shuckle
+|
+|-heal|p1a: Shuckle|48/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|choice|move encore|move earthpower
+|
+|move|p2a: Nidoqueen|Earth Power|p1a: Shuckle
+|-damage|p1a: Shuckle|22/100
+|move|p1a: Shuckle|Encore|p2a: Nidoqueen
+|-start|p2a: Nidoqueen|Encore
+|
+|-heal|p1a: Shuckle|28/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|choice|switch 2|switch 2
+|
+|switch|p2a: Cloyster|Cloyster, M|100/100
+|-activate|p2a: Cloyster|move: Sticky Web
+|-unboost|p2a: Cloyster|spe|1
+|-damage|p2a: Cloyster|76/100|[from] Stealth Rock
+|switch|p1a: Sceptile|Sceptile, M|100/100
+|-damage|p1a: Sceptile|88/100|[from] Stealth Rock
+|
+|upkeep
+|turn|6
+|choice|move swordsdance|move rapidspin
+|
+|move|p1a: Sceptile|Swords Dance|p1a: Sceptile
+|-boost|p1a: Sceptile|atk|2
+|move|p2a: Cloyster|Rapid Spin|p1a: Sceptile
+|-damage|p1a: Sceptile|79/100
+|-sideend|p2: queen lucero<3|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Cloyster
+|-sideend|p2: queen lucero<3|Sticky Web|[from] move: Rapid Spin|[of] p2a: Cloyster
+|
+|upkeep
+|turn|7
+|choice|move leafblade|move iciclespear
+|
+|move|p1a: Sceptile|Leaf Blade|p2a: Cloyster
+|-supereffective|p2a: Cloyster
+|-damage|p2a: Cloyster|0 fnt
+|faint|p2a: Cloyster
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Yanmega|Yanmega, M|100/100
+|turn|8
+|choice|move outrage mega|move airslash
+|
+|detailschange|p1a: Sceptile|Sceptile-Mega, M
+|-mega|p1a: Sceptile|Sceptile|Sceptilite
+|move|p1a: Sceptile|Outrage|p2a: Yanmega
+|-damage|p2a: Yanmega|0 fnt
+|faint|p2a: Yanmega
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Umbreon|Umbreon, M|100/100
+|turn|9
+|choice|move outrage|move foulplay
+|
+|move|p1a: Sceptile|Outrage|p2a: Umbreon|[from]lockedmove
+|-damage|p2a: Umbreon|5/100
+|-start|p1a: Sceptile|confusion|[fatigue]
+|move|p2a: Umbreon|Foul Play|p1a: Sceptile
+|-damage|p1a: Sceptile|0 fnt
+|faint|p1a: Sceptile
+|
+|-heal|p2a: Umbreon|11/100|[from] item: Leftovers
+|upkeep
+|c|☆testin this shit|You lucky sob!
+|choice|switch 6|
+|
+|switch|p1a: Slurpuff|Slurpuff, M|100/100
+|-damage|p1a: Slurpuff|88/100|[from] Stealth Rock
+|turn|10
+|choice|move bellydrum|move foulplay
+|
+|move|p1a: Slurpuff|Belly Drum|p1a: Slurpuff
+|-damage|p1a: Slurpuff|38/100
+|-setboost|p1a: Slurpuff|atk|6|[from] move: Belly Drum
+|-enditem|p1a: Slurpuff|Sitrus Berry|[eat]
+|-heal|p1a: Slurpuff|63/100|[from] item: Sitrus Berry
+|move|p2a: Umbreon|Foul Play|p1a: Slurpuff
+|-resisted|p1a: Slurpuff
+|-damage|p1a: Slurpuff|0 fnt
+|faint|p1a: Slurpuff
+|
+|-heal|p2a: Umbreon|17/100|[from] item: Leftovers
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Cresselia|Cresselia, F|100/100
+|-damage|p1a: Cresselia|88/100|[from] Stealth Rock
+|turn|11
+|-message|testin this shit forfeited.
+|
+|win|queen lucero<3
+|l|testin this shit
+|raw|testin this shit's rating: 1120 &rarr; <strong>1103</strong><br />(-17 for losing)
+|raw|queen lucero&lt;3's rating: 1239 &rarr; <strong>1256</strong><br />(+17 for winning)

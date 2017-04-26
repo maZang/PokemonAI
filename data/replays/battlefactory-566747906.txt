@@ -1,0 +1,586 @@
+|j|ShadowBlast
+|j|GeniusX
+|player|p1|ShadowBlast|141
+|player|p2|GeniusX|291
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|21723,19855,46427,48203,39047,37289,25597,40942,8291,31941,36070,57965
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Electivire, M|item
+|poke|p1|Crustle, M|item
+|poke|p1|Sliggoo, M|item
+|poke|p1|Claydol|item
+|poke|p1|Mesprit|item
+|poke|p1|Weezing, M|item
+|poke|p2|Skuntank, M|item
+|poke|p2|Garbodor, M|item
+|poke|p2|Scyther, M|item
+|poke|p2|Pawniard, M|item
+|poke|p2|Clefairy, M|item
+|poke|p2|Charizard, M|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|c|☆ShadowBlast|sigh we do we never get OU
+|j|StreetCredCookie
+|c|☆GeniusX|lmao
+|c| StreetCredCookie|we got it once
+|c|☆GeniusX|u actually
+|c|☆GeniusX|win
+|c|☆GeniusX|with every mon
+|c|☆GeniusX|on ur team
+|choice|team 2, team 1, team 3, team 4, team 5, team 6|team 4, team 2, team 3, team 1, team 5, team 6
+|
+|start
+|switch|p1a: Crustle|Crustle, M|100/100
+|switch|p2a: Pawniard|Pawniard, M|100/100
+|turn|1
+|c|☆ShadowBlast|lmao
+|choice|move stealthrock|move ironhead
+|
+|move|p2a: Pawniard|Iron Head|p1a: Crustle
+|-supereffective|p1a: Crustle
+|-damage|p1a: Crustle|36/100
+|cant|p1a: Crustle|flinch
+|
+|upkeep
+|turn|2
+|c|☆ShadowBlast|never lucky
+|c|☆GeniusX|ez
+|c|☆ShadowBlast|smh
+|choice|switch 6|move swordsdance
+|
+|switch|p1a: Weezing|Weezing, M|100/100
+|move|p2a: Pawniard|Swords Dance|p2a: Pawniard
+|-boost|p2a: Pawniard|atk|2
+|
+|upkeep
+|turn|3
+|c|☆GeniusX|ez
+|c|☆ShadowBlast|STUNTED
+|choice|move willowisp|switch 6
+|
+|switch|p2a: Charizard|Charizard, M|100/100
+|move|p1a: Weezing|Will-O-Wisp|p2a: Charizard
+|-immune|p2a: Charizard|[msg]
+|
+|upkeep
+|turn|4
+|choice|switch 3|move willowisp
+|
+|switch|p1a: Sliggoo|Sliggoo, M|100/100
+|move|p2a: Charizard|Will-O-Wisp|p1a: Sliggoo
+|-status|p1a: Sliggoo|brn
+|
+|-damage|p1a: Sliggoo|88/100 brn|[from] brn
+|upkeep
+|turn|5
+|choice|switch 6|move acrobatics
+|
+|switch|p1a: Crustle|Crustle, M|36/100
+|move|p2a: Charizard|Acrobatics|p1a: Crustle
+|-damage|p1a: Crustle|6/100
+|
+|upkeep
+|turn|6
+|choice|switch 6|move acrobatics
+|
+|switch|p1a: Sliggoo|Sliggoo, M|88/100 brn
+|move|p2a: Charizard|Acrobatics|p1a: Sliggoo
+|-damage|p1a: Sliggoo|60/100 brn
+|
+|-damage|p1a: Sliggoo|48/100 brn|[from] brn
+|upkeep
+|turn|7
+|choice|move rest|move swordsdance
+|
+|move|p2a: Charizard|Swords Dance|p2a: Charizard
+|-boost|p2a: Charizard|atk|2
+|move|p1a: Sliggoo|Rest|p1a: Sliggoo
+|-status|p1a: Sliggoo|slp
+|-heal|p1a: Sliggoo|100/100 slp|[silent]
+|-status|p1a: Sliggoo|slp|[from] move: Rest
+|
+|upkeep
+|turn|8
+|choice|move sleeptalk|move swordsdance
+|
+|move|p2a: Charizard|Swords Dance|p2a: Charizard
+|-boost|p2a: Charizard|atk|2
+|cant|p1a: Sliggoo|slp
+|move|p1a: Sliggoo|Sleep Talk|p1a: Sliggoo
+|move|p1a: Sliggoo|Outrage|p2a: Charizard|[from]Sleep Talk
+|-damage|p2a: Charizard|60/100
+|
+|upkeep
+|turn|9
+|choice|move sleeptalk|move acrobatics
+|
+|move|p2a: Charizard|Acrobatics|p1a: Sliggoo
+|-crit|p1a: Sliggoo
+|-damage|p1a: Sliggoo|0 fnt
+|faint|p1a: Sliggoo
+|
+|upkeep
+|c|☆ShadowBlast|ofc
+|c|☆GeniusX|did that matter
+|c|☆ShadowBlast|man so lucky
+|c|☆ShadowBlast|SO LUCKy
+|c|☆GeniusX|regular acro did 30
+|c|☆GeniusX|+4 probabyl killed
+|c|☆GeniusX|from full
+|c|☆ShadowBlast|do not know
+|c|☆ShadowBlast|ur times tables
+|c|☆GeniusX|huh
+|c|☆ShadowBlast|huh?
+|c|☆ShadowBlast|30 x 3
+|c| StreetCredCookie|plus you couldve gotten rest or curse on the talk
+|c|☆ShadowBlast|exactly
+|c|☆ShadowBlast|genius is like
+|c|☆ShadowBlast|30 x 3
+|c|☆GeniusX|:P
+|c|☆ShadowBlast|equals 100
+|choice|switch 5|
+|
+|switch|p1a: Mesprit|Mesprit|100/100
+|turn|10
+|c|☆GeniusX|how does getting
+|c|☆GeniusX|rest on the talk
+|c|☆GeniusX|help
+|choice|move healingwish|move roost
+|
+|move|p1a: Mesprit|Healing Wish|p1a: Mesprit
+|faint|p1a: Mesprit
+|move|p2a: Charizard|Roost|p2a: Charizard
+|-heal|p2a: Charizard|100/100
+|
+|upkeep
+|c|☆ShadowBlast|Outrage?
+|c|☆GeniusX|ok
+|c|☆ShadowBlast|for scarf mesprit?
+|c|☆ShadowBlast|maybe?
+|c|☆ShadowBlast|huh
+|c|☆ShadowBlast|huh
+|choice|switch 6|
+|
+|switch|p1a: Crustle|Crustle, M|6/100
+|-heal|p1a: Crustle|100/100|[from] move: Healing Wish
+|turn|11
+|choice|move rockblast|switch 6
+|
+|switch|p2a: Pawniard|Pawniard, M|100/100
+|move|p1a: Crustle|Rock Blast|p2a: Pawniard
+|-resisted|p2a: Pawniard
+|-damage|p2a: Pawniard|93/100
+|-resisted|p2a: Pawniard
+|-damage|p2a: Pawniard|87/100
+|-resisted|p2a: Pawniard
+|-damage|p2a: Pawniard|80/100
+|-hitcount|p2a: Pawniard|3
+|
+|upkeep
+|turn|12
+|choice|move stealthrock|move ironhead
+|
+|move|p2a: Pawniard|Iron Head|p1a: Crustle
+|-supereffective|p1a: Crustle
+|-damage|p1a: Crustle|30/100
+|move|p1a: Crustle|Stealth Rock|p2a: Pawniard
+|-sidestart|p2: GeniusX|move: Stealth Rock
+|
+|upkeep
+|turn|13
+|choice|switch 3|move knockoff
+|
+|switch|p1a: Weezing|Weezing, M|100/100
+|move|p2a: Pawniard|Knock Off|p1a: Weezing
+|-damage|p1a: Weezing|73/100
+|-enditem|p1a: Weezing|Black Sludge|[from] move: Knock Off|[of] p2a: Pawniard
+|
+|upkeep
+|turn|14
+|choice|move taunt|switch 4
+|
+|switch|p2a: Skuntank|Skuntank, M|100/100
+|-damage|p2a: Skuntank|88/100|[from] Stealth Rock
+|move|p1a: Weezing|Taunt|p2a: Skuntank
+|-start|p2a: Skuntank|move: Taunt
+|
+|upkeep
+|turn|15
+|choice|switch 2|move darkpulse
+|
+|switch|p1a: Electivire|Electivire, M|100/100
+|move|p2a: Skuntank|Dark Pulse|p1a: Electivire
+|-damage|p1a: Electivire|53/100
+|
+|upkeep
+|turn|16
+|c|☆GeniusX|clean play clean play
+|c|☆ShadowBlast|man like just hits whats in front of him
+|c|☆ShadowBlast|plus i thought
+|c|☆ShadowBlast|that skunktank was
+|c|☆ShadowBlast|psychical
+|choice|move earthquake|switch 2
+|
+|switch|p2a: Garbodor|Garbodor, M|100/100
+|-damage|p2a: Garbodor|88/100|[from] Stealth Rock
+|move|p1a: Electivire|Earthquake|p2a: Garbodor
+|-supereffective|p2a: Garbodor
+|-damage|p2a: Garbodor|13/100
+|-damage|p1a: Electivire|43/100|[from] item: Life Orb
+|
+|upkeep
+|turn|17
+|c|☆GeniusX|ok
+|c|☆GeniusX|that works
+|choice|switch 3|move drainpunch
+|
+|switch|p1a: Crustle|Crustle, M|30/100
+|move|p2a: Garbodor|Drain Punch|p1a: Crustle
+|-damage|p1a: Crustle|13/100
+|-heal|p2a: Garbodor|20/100|[from] drain|[of] p1a: Crustle
+|
+|upkeep
+|turn|18
+|choice|move spikes|move drainpunch
+|-enditem|p1a: Crustle|Custap Berry|[eat]
+|-activate|p1a: Crustle|item: Custap Berry
+|
+|move|p1a: Crustle|Spikes|p2a: Garbodor
+|-sidestart|p2: GeniusX|Spikes
+|move|p2a: Garbodor|Drain Punch|p1a: Crustle
+|-damage|p1a: Crustle|0 fnt
+|-heal|p2a: Garbodor|25/100|[from] drain|[of] p1a: Crustle
+|faint|p1a: Crustle
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Claydol|Claydol|100/100
+|turn|19
+|c|☆GeniusX|huh custap
+|choice|move earthpower|move gunkshot
+|
+|move|p1a: Claydol|Earth Power|p2a: Garbodor
+|-supereffective|p2a: Garbodor
+|-damage|p2a: Garbodor|0 fnt
+|faint|p2a: Garbodor
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Skuntank|Skuntank, M|88/100
+|-damage|p2a: Skuntank|76/100|[from] Stealth Rock
+|-damage|p2a: Skuntank|63/100|[from] Spikes
+|turn|20
+|choice|move earthpower|move defog
+|
+|move|p2a: Skuntank|Defog|p1a: Claydol
+|-unboost|p1a: Claydol|evasion|1
+|-sideend|p2: GeniusX|Spikes|[from] move: Defog|[of] p2a: Skuntank
+|-sideend|p2: GeniusX|Stealth Rock|[from] move: Defog|[of] p2a: Skuntank
+|move|p1a: Claydol|Earth Power|p2a: Skuntank
+|-supereffective|p2a: Skuntank
+|-damage|p2a: Skuntank|0 fnt
+|faint|p2a: Skuntank
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Pawniard|Pawniard, M|80/100
+|turn|21
+|choice|move earthpower|move knockoff
+|
+|move|p1a: Claydol|Earth Power|p2a: Pawniard
+|-supereffective|p2a: Pawniard
+|-damage|p2a: Pawniard|0 fnt
+|faint|p2a: Pawniard
+|
+|upkeep
+|c|☆GeniusX|wtf
+|c|☆ShadowBlast|oml
+|c| StreetCredCookie|claydol
+|c|☆GeniusX|this shit
+|c|☆ShadowBlast|claydol
+|c|☆ShadowBlast|the god
+|c| StreetCredCookie|calm yourself
+|c|☆GeniusX|is destoying me
+|choice||switch 3
+|
+|switch|p2a: Scyther|Scyther, M|100/100
+|turn|22
+|c|☆ShadowBlast|mans about to be 6-0ed
+|c|☆ShadowBlast|by claydol
+|choice|switch 2|move uturn
+|
+|switch|p1a: Weezing|Weezing, M|73/100
+|move|p2a: Scyther|U-turn|p1a: Weezing
+|-resisted|p1a: Weezing
+|-damage|p1a: Weezing|62/100
+|choice||switch 6
+|
+|switch|p2a: Charizard|Charizard, M|100/100
+|
+|upkeep
+|turn|23
+|choice|move painsplit|move swordsdance
+|
+|move|p2a: Charizard|Swords Dance|p2a: Charizard
+|-boost|p2a: Charizard|atk|2
+|move|p1a: Weezing|Pain Split|p2a: Charizard
+|-sethp|p2a: Charizard|79/100|p1a: Weezing|85/100|[from] move: Pain Split
+|
+|upkeep
+|turn|24
+|choice|move taunt|move swordsdance
+|
+|move|p2a: Charizard|Swords Dance|p2a: Charizard
+|-boost|p2a: Charizard|atk|2
+|move|p1a: Weezing|Taunt|p2a: Charizard
+|-start|p2a: Charizard|move: Taunt
+|
+|upkeep
+|turn|25
+|choice|move painsplit|move acrobatics
+|
+|move|p2a: Charizard|Acrobatics|p1a: Weezing
+|-damage|p1a: Weezing|21/100
+|move|p1a: Weezing|Pain Split|p2a: Charizard
+|-sethp|p2a: Charizard|49/100|p1a: Weezing|53/100|[from] move: Pain Split
+|
+|upkeep
+|turn|26
+|choice|switch 3|move acrobatics
+|
+|switch|p1a: Electivire|Electivire, M|43/100
+|move|p2a: Charizard|Acrobatics|p1a: Electivire
+|-resisted|p1a: Electivire
+|-damage|p1a: Electivire|0 fnt
+|faint|p1a: Electivire
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Claydol|Claydol|100/100
+|turn|27
+|choice|move psychic|switch 5
+|
+|switch|p2a: Clefairy|Clefairy, M|100/100
+|move|p1a: Claydol|Psychic|p2a: Clefairy
+|-damage|p2a: Clefairy|78/100
+|
+|upkeep
+|turn|28
+|c|☆ShadowBlast|well
+|c|☆ShadowBlast|thats GG
+|choice|move psychic|switch 5
+|
+|switch|p2a: Charizard|Charizard, M|49/100
+|move|p1a: Claydol|Psychic|p2a: Charizard
+|-damage|p2a: Charizard|12/100
+|
+|upkeep
+|turn|29
+|c|☆ShadowBlast|oml read
+|c|☆GeniusX|o
+|c|☆ShadowBlast|but claydol is asss
+|choice|move psychic|switch 5
+|
+|switch|p2a: Clefairy|Clefairy, M|78/100
+|move|p1a: Claydol|Psychic|p2a: Clefairy
+|-damage|p2a: Clefairy|56/100
+|-unboost|p2a: Clefairy|spd|1
+|
+|upkeep
+|turn|30
+|c|☆ShadowBlast|oml ez
+|choice|move psychic|move softboiled
+|
+|move|p1a: Claydol|Psychic|p2a: Clefairy
+|-damage|p2a: Clefairy|25/100
+|-unboost|p2a: Clefairy|spd|1
+|move|p2a: Clefairy|Soft-Boiled|p2a: Clefairy
+|-heal|p2a: Clefairy|75/100
+|
+|upkeep
+|turn|31
+|c|☆GeniusX|oml
+|c|☆ShadowBlast|omg
+|c|☆GeniusX|how
+|c|☆ShadowBlast|2 ez
+|c|☆ShadowBlast|man u flinched me
+|c|☆ShadowBlast|and crit
+|choice|move psychic|switch 6
+|
+|switch|p2a: Scyther|Scyther, M|100/100
+|move|p1a: Claydol|Psychic|p2a: Scyther
+|-damage|p2a: Scyther|48/100
+|
+|upkeep
+|turn|32
+|c| StreetCredCookie|claydol the god
+|c|☆ShadowBlast|1-0s
+|c|☆GeniusX|why is scarf claydol
+|c|☆ShadowBlast|everything
+|c|☆GeniusX|even a set
+|c|☆ShadowBlast|godgol
+|choice|move psychic|move uturn
+|
+|move|p2a: Scyther|U-turn|p1a: Claydol
+|-supereffective|p1a: Claydol
+|-damage|p1a: Claydol|24/100
+|choice||switch 6
+|
+|switch|p2a: Clefairy|Clefairy, M|75/100
+|move|p1a: Claydol|Psychic|p2a: Clefairy
+|-damage|p2a: Clefairy|54/100
+|
+|-heal|p1a: Claydol|30/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|c|☆GeniusX|its not even scarf
+|c|☆GeniusX|ffs
+|c|☆ShadowBlast|lmao
+|choice|move psychic|move softboiled
+|
+|move|p1a: Claydol|Psychic|p2a: Clefairy
+|-damage|p2a: Clefairy|32/100
+|move|p2a: Clefairy|Soft-Boiled|p2a: Clefairy
+|-heal|p2a: Clefairy|82/100
+|
+|-heal|p1a: Claydol|36/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|choice|move psychic|move moonblast
+|
+|move|p1a: Claydol|Psychic|p2a: Clefairy
+|-damage|p2a: Clefairy|61/100
+|-unboost|p2a: Clefairy|spd|1
+|move|p2a: Clefairy|Moonblast|p1a: Claydol
+|-damage|p1a: Claydol|11/100
+|
+|-heal|p1a: Claydol|17/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|choice|move psychic|move moonblast
+|
+|move|p1a: Claydol|Psychic|p2a: Clefairy
+|-damage|p2a: Clefairy|27/100
+|move|p2a: Clefairy|Moonblast|p1a: Claydol
+|-crit|p1a: Claydol
+|-damage|p1a: Claydol|0 fnt
+|faint|p1a: Claydol
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Weezing|Weezing, M|53/100
+|turn|36
+|c| StreetCredCookie|did you rly expect a scarf claydol
+|choice|move sludgebomb|move thunderwave
+|
+|move|p1a: Weezing|Sludge Bomb|p2a: Clefairy
+|-supereffective|p2a: Clefairy
+|-damage|p2a: Clefairy|0 fnt
+|faint|p2a: Clefairy
+|
+|upkeep
+|c|☆GeniusX|yea
+|choice||switch 5
+|
+|switch|p2a: Charizard|Charizard, M|12/100
+|turn|37
+|c| StreetCredCookie|lol
+|choice|move sludgebomb|move roost
+|
+|move|p2a: Charizard|Roost|p2a: Charizard
+|-heal|p2a: Charizard|62/100
+|move|p1a: Weezing|Sludge Bomb|p2a: Charizard
+|-damage|p2a: Charizard|31/100
+|
+|upkeep
+|turn|38
+|c| StreetCredCookie|thats not a thing
+|c|☆GeniusX|XD
+|c|☆ShadowBlast|yeah i still lose
+|c|☆ShadowBlast|unfort
+|c|☆GeniusX|gg
+|c|☆ShadowBlast|cant beat hax
+|c|☆GeniusX|even with the claydol god
+|c|☆ShadowBlast|and match up
+|c|☆GeniusX|u still lose
+|c| StreetCredCookie|claydol almost came back
+|choice|move sludgebomb|move roost
+|
+|move|p2a: Charizard|Roost|p2a: Charizard
+|-heal|p2a: Charizard|82/100
+|move|p1a: Weezing|Sludge Bomb|p2a: Charizard
+|-damage|p2a: Charizard|50/100
+|
+|upkeep
+|turn|39
+|c|☆ShadowBlast|ikr
+|c|☆ShadowBlast|the god
+|c|☆GeniusX|i'm trying not to choke
+|choice|move sludgebomb|move roost
+|
+|move|p2a: Charizard|Roost|p2a: Charizard
+|-heal|p2a: Charizard|100/100
+|move|p1a: Weezing|Sludge Bomb|p2a: Charizard
+|-damage|p2a: Charizard|69/100
+|
+|upkeep
+|turn|40
+|c|☆GeniusX|like the mienshao game
+|c|☆ShadowBlast|ur trying to be gay
+|choice|move sludgebomb|move swordsdance
+|
+|move|p2a: Charizard|Swords Dance|p2a: Charizard
+|-boost|p2a: Charizard|atk|2
+|move|p1a: Weezing|Sludge Bomb|p2a: Charizard
+|-damage|p2a: Charizard|39/100
+|
+|upkeep
+|turn|41
+|c| StreetCredCookie|wheres the poison
+|choice|move taunt|move roost
+|
+|move|p2a: Charizard|Roost|p2a: Charizard
+|-heal|p2a: Charizard|89/100
+|move|p1a: Weezing|Taunt|p2a: Charizard
+|-start|p2a: Charizard|move: Taunt
+|
+|upkeep
+|turn|42
+|choice|move painsplit|move acrobatics
+|
+|move|p2a: Charizard|Acrobatics|p1a: Weezing
+|-damage|p1a: Weezing|2/100
+|move|p1a: Weezing|Pain Split|p2a: Charizard
+|-sethp|p2a: Charizard|46/100|p1a: Weezing|49/100|[from] move: Pain Split
+|
+|upkeep
+|turn|43
+|c|☆GeniusX|"GG
+|choice|move sludgebomb|move acrobatics
+|
+|move|p2a: Charizard|Acrobatics|p1a: Weezing
+|-damage|p1a: Weezing|3/100
+|move|p1a: Weezing|Sludge Bomb|p2a: Charizard
+|-damage|p2a: Charizard|16/100
+|
+|upkeep
+|turn|44
+|c|☆ShadowBlast|bg bg
+|choice|move sludgebomb|move acrobatics
+|
+|move|p2a: Charizard|Acrobatics|p1a: Weezing
+|-damage|p1a: Weezing|0 fnt
+|faint|p1a: Weezing
+|
+|win|GeniusX
+|c|☆GeniusX|anyway kcrci
+|c|☆ShadowBlast|so lucky

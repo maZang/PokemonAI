@@ -1,0 +1,357 @@
+|j|arceus1117
+|j|demthighs
+|player|p1|arceus1117|99
+|player|p2|demthighs|101
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|58322,5744,59939,25102,34844,21355,27822,36774,26025,44881,4452,2028
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Tauros, M|item
+|poke|p1|Mismagius, M|item
+|poke|p1|Barbaracle, M|item
+|poke|p1|Chatot, M|item
+|poke|p1|Rhydon, M|item
+|poke|p1|Hitmonchan, M|item
+|poke|p2|Garbodor, M|item
+|poke|p2|Aurorus, M|item
+|poke|p2|Barbaracle, M|item
+|poke|p2|Mantine, M|item
+|poke|p2|Tangela, M|item
+|poke|p2|Grumpig, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 4, team 2, team 3, team 1, team 5, team 6|team 2, team 1, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Chatot|Chatot, M|100/100
+|switch|p2a: Aurorus|Aurorus, M|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Aurorus
+|turn|1
+|choice|move uturn|move stealthrock
+|
+|move|p1a: Chatot|U-turn|p2a: Aurorus
+|-damage|p2a: Aurorus|87/100
+|choice|switch 6|
+|
+|switch|p1a: Hitmonchan|Hitmonchan, M|100/100
+|move|p2a: Aurorus|Stealth Rock|p1a: Hitmonchan
+|-sidestart|p1: arceus1117|move: Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Hitmonchan|94/100|[from] hail
+|upkeep
+|turn|2
+|choice|move rapidspin|switch 2
+|
+|switch|p2a: Garbodor|Garbodor, M|100/100
+|move|p1a: Hitmonchan|Rapid Spin|p2a: Garbodor
+|-damage|p2a: Garbodor|89/100
+|-damage|p1a: Hitmonchan|78/100|[from] item: Rocky Helmet|[of] p2a: Garbodor
+|-sideend|p1: arceus1117|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Hitmonchan
+|-damage|p1a: Hitmonchan|68/100|[from] item: Life Orb
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Hitmonchan|62/100|[from] hail
+|-damage|p2a: Garbodor|83/100|[from] hail
+|upkeep
+|turn|3
+|choice|switch 5|move gunkshot
+|
+|switch|p1a: Rhydon|Rhydon, M|100/100
+|move|p2a: Garbodor|Gunk Shot|p1a: Rhydon
+|-resisted|p1a: Rhydon
+|-damage|p1a: Rhydon|94/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Garbodor|77/100|[from] hail
+|-damage|p1a: Rhydon|88/100|[from] hail
+|upkeep
+|turn|4
+|choice|move stealthrock|move seedbomb
+|
+|move|p2a: Garbodor|Seed Bomb|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-damage|p1a: Rhydon|44/100
+|move|p1a: Rhydon|Stealth Rock|p2a: Garbodor
+|-sidestart|p2: demthighs|move: Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Garbodor|71/100|[from] hail
+|-damage|p1a: Rhydon|38/100|[from] hail
+|upkeep
+|turn|5
+|choice|switch 4|move seedbomb
+|
+|switch|p1a: Tauros|Tauros, M|100/100
+|move|p2a: Garbodor|Seed Bomb|p1a: Tauros
+|-damage|p1a: Tauros|70/100
+|
+|-weather|none
+|upkeep
+|turn|6
+|choice|move earthquake|move drainpunch
+|
+|move|p1a: Tauros|Earthquake|p2a: Garbodor
+|-supereffective|p2a: Garbodor
+|-damage|p2a: Garbodor|0 fnt
+|-damage|p1a: Tauros|60/100|[from] item: Life Orb
+|faint|p2a: Garbodor
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Barbaracle|Barbaracle, M|100/100
+|-damage|p2a: Barbaracle|88/100|[from] Stealth Rock
+|turn|7
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by demthighs)
+|choice|move earthquake|move shellsmash
+|
+|move|p1a: Tauros|Earthquake|p2a: Barbaracle
+|-supereffective|p2a: Barbaracle
+|-enditem|p2a: Barbaracle|Shuca Berry|[eat]
+|-enditem|p2a: Barbaracle|Shuca Berry|[weaken]
+|-damage|p2a: Barbaracle|50/100
+|-damage|p1a: Tauros|50/100|[from] item: Life Orb
+|move|p2a: Barbaracle|Shell Smash|p2a: Barbaracle
+|-unboost|p2a: Barbaracle|def|1
+|-unboost|p2a: Barbaracle|spd|1
+|-boost|p2a: Barbaracle|atk|2
+|-boost|p2a: Barbaracle|spa|2
+|-boost|p2a: Barbaracle|spe|2
+|
+|upkeep
+|turn|8
+|choice|move earthquake|move return
+|
+|move|p2a: Barbaracle|Return|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Hitmonchan|Hitmonchan, M|62/100
+|turn|9
+|choice|move machpunch|move earthquake
+|
+|move|p1a: Hitmonchan|Mach Punch|p2a: Barbaracle
+|-supereffective|p2a: Barbaracle
+|-damage|p2a: Barbaracle|0 fnt
+|-damage|p1a: Hitmonchan|52/100|[from] item: Life Orb
+|faint|p2a: Barbaracle
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Mantine|Mantine, M|100/100
+|-damage|p2a: Mantine|76/100|[from] Stealth Rock
+|turn|10
+|choice|switch 2|move defog
+|
+|switch|p1a: Mismagius|Mismagius, M|100/100
+|move|p2a: Mantine|Defog|p1a: Mismagius
+|-unboost|p1a: Mismagius|evasion|1
+|-sideend|p2: demthighs|Stealth Rock|[from] move: Defog|[of] p2a: Mantine
+|
+|-heal|p2a: Mantine|82/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|choice|move taunt|move toxic
+|
+|move|p1a: Mismagius|Taunt|p2a: Mantine
+|-start|p2a: Mantine|move: Taunt
+|cant|p2a: Mantine|move: Taunt|Toxic
+|
+|-heal|p2a: Mantine|88/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|choice|move willowisp|move scald
+|
+|move|p1a: Mismagius|Will-O-Wisp|p2a: Mantine
+|-status|p2a: Mantine|brn
+|move|p2a: Mantine|Scald|p1a: Mismagius
+|-damage|p1a: Mismagius|76/100
+|
+|-heal|p1a: Mismagius|82/100|[from] item: Leftovers
+|-heal|p2a: Mantine|94/100 brn|[from] item: Leftovers
+|-damage|p2a: Mantine|81/100 brn|[from] brn
+|upkeep
+|turn|13
+|choice|move hex|move scald
+|
+|move|p1a: Mismagius|Hex|p2a: Mantine
+|-damage|p2a: Mantine|49/100 brn
+|move|p2a: Mantine|Scald|p1a: Mismagius
+|-damage|p1a: Mismagius|61/100
+|
+|-heal|p1a: Mismagius|67/100|[from] item: Leftovers
+|-heal|p2a: Mantine|55/100 brn|[from] item: Leftovers
+|-damage|p2a: Mantine|42/100 brn|[from] brn
+|-end|p2a: Mantine|move: Taunt
+|upkeep
+|turn|14
+|choice|move taunt|move scald
+|
+|move|p1a: Mismagius|Taunt|p2a: Mantine
+|-start|p2a: Mantine|move: Taunt
+|move|p2a: Mantine|Scald|p1a: Mismagius
+|-damage|p1a: Mismagius|43/100
+|
+|-heal|p1a: Mismagius|49/100|[from] item: Leftovers
+|-heal|p2a: Mantine|48/100 brn|[from] item: Leftovers
+|-damage|p2a: Mantine|36/100 brn|[from] brn
+|upkeep
+|turn|15
+|choice|move hex|move scald
+|
+|move|p1a: Mismagius|Hex|p2a: Mantine
+|-damage|p2a: Mantine|3/100 brn
+|move|p2a: Mantine|Scald|p1a: Mismagius
+|-damage|p1a: Mismagius|26/100
+|
+|-heal|p1a: Mismagius|32/100|[from] item: Leftovers
+|-heal|p2a: Mantine|9/100 brn|[from] item: Leftovers
+|-damage|p2a: Mantine|0 fnt|[from] brn
+|upkeep
+|faint|p2a: Mantine
+|choice||switch 2
+|
+|switch|p2a: Aurorus|Aurorus, M|87/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Aurorus
+|turn|16
+|choice|switch 2|move blizzard
+|
+|switch|p1a: Hitmonchan|Hitmonchan, M|52/100
+|move|p2a: Aurorus|Blizzard|p1a: Hitmonchan
+|-damage|p1a: Hitmonchan|0 fnt
+|faint|p1a: Hitmonchan
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Mismagius|Mismagius, M|32/100
+|turn|17
+|choice|move painsplit|move blizzard
+|
+|move|p1a: Mismagius|Pain Split|p2a: Aurorus
+|-sethp|p2a: Aurorus|57/100|p1a: Mismagius|68/100|[from] move: Pain Split
+|move|p2a: Aurorus|Blizzard|p1a: Mismagius
+|-damage|p1a: Mismagius|19/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Mismagius|13/100|[from] hail
+|-heal|p1a: Mismagius|19/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|choice|move painsplit|move rocktomb
+|
+|move|p1a: Mismagius|Pain Split|p2a: Aurorus
+|-sethp|p2a: Aurorus|36/100|p1a: Mismagius|43/100|[from] move: Pain Split
+|move|p2a: Aurorus|Rock Tomb|p1a: Mismagius
+|-damage|p1a: Mismagius|17/100
+|-unboost|p1a: Mismagius|spe|1
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Mismagius|11/100|[from] hail
+|-heal|p1a: Mismagius|17/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|choice|move painsplit|move blizzard
+|
+|move|p2a: Aurorus|Blizzard|p1a: Mismagius
+|-damage|p1a: Mismagius|0 fnt
+|faint|p1a: Mismagius
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Barbaracle|Barbaracle, M|100/100
+|turn|20
+|choice|move razorshell|move freezedry
+|
+|move|p2a: Aurorus|Freeze-Dry|p1a: Barbaracle
+|-supereffective|p1a: Barbaracle
+|-damage|p1a: Barbaracle|13/100
+|-status|p1a: Barbaracle|frz
+|-curestatus|p1a: Barbaracle|frz|[msg]
+|move|p1a: Barbaracle|Razor Shell|p2a: Aurorus
+|-supereffective|p2a: Aurorus
+|-damage|p2a: Aurorus|0 fnt
+|faint|p2a: Aurorus
+|
+|-weather|none
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Grumpig|Grumpig, M|100/100
+|turn|21
+|choice|switch 4|switch 5
+|
+|switch|p1a: Rhydon|Rhydon, M|38/100
+|switch|p2a: Tangela|Tangela, M|100/100
+|
+|upkeep
+|turn|22
+|choice|move megahorn|move gigadrain
+|
+|move|p2a: Tangela|Giga Drain|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-damage|p1a: Rhydon|0 fnt
+|faint|p1a: Rhydon
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Chatot|Chatot, M|100/100
+|turn|23
+|choice|move chatter|move sleeppowder
+|
+|move|p1a: Chatot|Chatter|p2a: Tangela
+|-supereffective|p2a: Tangela
+|-crit|p2a: Tangela
+|-damage|p2a: Tangela|0 fnt
+|faint|p2a: Tangela
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Grumpig|Grumpig, M|100/100
+|turn|24
+|choice|move chatter|move psyshock
+|
+|move|p1a: Chatot|Chatter|p2a: Grumpig
+|-damage|p2a: Grumpig|67/100
+|-start|p2a: Grumpig|confusion
+|-activate|p2a: Grumpig|confusion
+|move|p2a: Grumpig|Psyshock|p1a: Chatot
+|-damage|p1a: Chatot|32/100
+|
+|-heal|p2a: Grumpig|73/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|choice|move chatter|move psyshock
+|
+|move|p1a: Chatot|Chatter|p2a: Grumpig
+|-damage|p2a: Grumpig|41/100
+|-activate|p2a: Grumpig|confusion
+|-damage|p2a: Grumpig|35/100|[from] confusion
+|
+|-heal|p2a: Grumpig|41/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|c|☆arceus1117|gg
+|choice|move chatter|move psyshock
+|
+|move|p1a: Chatot|Chatter|p2a: Grumpig
+|-crit|p2a: Grumpig
+|-damage|p2a: Grumpig|0 fnt
+|faint|p2a: Grumpig
+|
+|win|arceus1117
+|l|demthighs

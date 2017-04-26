@@ -1,0 +1,355 @@
+|j|AHHRO
+|j|Ash-Greninja129
+|player|p1|AHHRO|37
+|player|p2|Ash-Greninja129|163
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|19205,63715,20259,25850,26153,50695,50934,34530,23154,21436,11771,27462
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Zygarde|item
+|poke|p1|Latios, M|item
+|poke|p1|Conkeldurr, M|item
+|poke|p1|Manectric, M|item
+|poke|p1|Magnezone|item
+|poke|p1|Ferrothorn, M|item
+|poke|p2|Alakazam, M|item
+|poke|p2|Klefki, M|item
+|poke|p2|Mandibuzz, F|item
+|poke|p2|Clefable, M|item
+|poke|p2|Chansey, F|item
+|poke|p2|Jirachi|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 6, team 2, team 3, team 4, team 5, team 1|team 1, team 2, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|switch|p2a: Alakazam|Alakazam, M|100/100
+|turn|1
+|choice|move stealthrock|move focusblast mega
+|
+|detailschange|p2a: Alakazam|Alakazam-Mega, M
+|-mega|p2a: Alakazam|Alakazam|Alakazite
+|-ability|p2a: Alakazam|Iron Barbs|[from] ability: Trace|[of] p1a: Ferrothorn
+|move|p2a: Alakazam|Focus Blast|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|29/100
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Alakazam
+|-sidestart|p2: Ash-Greninja129|move: Stealth Rock
+|
+|-heal|p1a: Ferrothorn|35/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|choice|move protect|move focusblast
+|
+|move|p1a: Ferrothorn|Protect|p1a: Ferrothorn
+|-singleturn|p1a: Ferrothorn|Protect
+|move|p2a: Alakazam|Focus Blast|p1a: Ferrothorn
+|-activate|p1a: Ferrothorn|move: Protect
+|
+|-heal|p1a: Ferrothorn|41/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|choice|switch 2|move psychic
+|
+|switch|p1a: Latios|Latios, M|100/100
+|move|p2a: Alakazam|Psychic|p1a: Latios
+|-resisted|p1a: Latios
+|-damage|p1a: Latios|69/100
+|
+|upkeep
+|turn|4
+|choice|switch 6|move focusblast
+|
+|switch|p1a: Zygarde|Zygarde|100/100
+|-ability|p1a: Zygarde|Aura Break
+|move|p2a: Alakazam|Focus Blast|p1a: Zygarde
+|-damage|p1a: Zygarde|46/100
+|
+|upkeep
+|turn|5
+|choice|switch 6|move focusblast
+|
+|switch|p1a: Latios|Latios, M|69/100
+|move|p2a: Alakazam|Focus Blast|p1a: Latios
+|-resisted|p1a: Latios
+|-crit|p1a: Latios
+|-damage|p1a: Latios|28/100
+|
+|upkeep
+|turn|6
+|choice|move dracometeor|move focusblast
+|
+|move|p1a: Latios|Draco Meteor|p2a: Alakazam|[miss]
+|-miss|p1a: Latios|p2a: Alakazam
+|move|p2a: Alakazam|Focus Blast|p1a: Latios
+|-resisted|p1a: Latios
+|-damage|p1a: Latios|2/100
+|-unboost|p1a: Latios|spd|1
+|
+|upkeep
+|turn|7
+|choice|move dracometeor|move shadowball
+|
+|move|p1a: Latios|Draco Meteor|p2a: Alakazam|[miss]
+|-miss|p1a: Latios|p2a: Alakazam
+|move|p2a: Alakazam|Shadow Ball|p1a: Latios
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|0 fnt
+|faint|p1a: Latios
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Magnezone|Magnezone|100/100
+|turn|8
+|choice|move thunderbolt|move psychic
+|
+|move|p2a: Alakazam|Psychic|p1a: Magnezone
+|-resisted|p1a: Magnezone
+|-damage|p1a: Magnezone|67/100
+|move|p1a: Magnezone|Thunderbolt|p2a: Alakazam
+|-damage|p2a: Alakazam|0 fnt
+|faint|p2a: Alakazam
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Klefki|Klefki, M|100/100
+|-damage|p2a: Klefki|95/100|[from] Stealth Rock
+|turn|9
+|choice|move thunderbolt|move playrough
+|
+|move|p2a: Klefki|Play Rough|p1a: Magnezone|[miss]
+|-miss|p2a: Klefki|p1a: Magnezone
+|move|p1a: Magnezone|Thunderbolt|p2a: Klefki
+|-damage|p2a: Klefki|25/100
+|
+|-heal|p2a: Klefki|31/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|choice|move thunderbolt|move thunderwave
+|
+|move|p2a: Klefki|Thunder Wave|p1a: Magnezone
+|-immune|p1a: Magnezone|[msg]
+|move|p1a: Magnezone|Thunderbolt|p2a: Klefki
+|-damage|p2a: Klefki|0 fnt
+|faint|p2a: Klefki
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Chansey|Chansey, F|100/100
+|-damage|p2a: Chansey|88/100|[from] Stealth Rock
+|turn|11
+|choice|switch 3|move toxic
+|
+|switch|p1a: Conkeldurr|Conkeldurr, M|100/100
+|move|p2a: Chansey|Toxic|p1a: Conkeldurr
+|-status|p1a: Conkeldurr|tox
+|
+|-damage|p1a: Conkeldurr|94/100 tox|[from] psn
+|upkeep
+|turn|12
+|choice|move drainpunch|move seismictoss
+|
+|move|p2a: Chansey|Seismic Toss|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|67/100 tox
+|move|p1a: Conkeldurr|Drain Punch|p2a: Chansey
+|-supereffective|p2a: Chansey
+|-damage|p2a: Chansey|6/100
+|-heal|p1a: Conkeldurr|100/100 tox|[from] drain|[of] p2a: Chansey
+|-damage|p1a: Conkeldurr|91/100 tox|[from] item: Life Orb
+|
+|-damage|p1a: Conkeldurr|78/100 tox|[from] psn
+|upkeep
+|turn|13
+|choice|move machpunch|move wish
+|
+|move|p1a: Conkeldurr|Mach Punch|p2a: Chansey
+|-supereffective|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|-damage|p1a: Conkeldurr|69/100 tox|[from] item: Life Orb
+|faint|p2a: Chansey
+|
+|-damage|p1a: Conkeldurr|50/100 tox|[from] psn
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Clefable|Clefable, M|100/100
+|turn|14
+|choice|switch 3|move thunderwave
+|
+|switch|p1a: Magnezone|Magnezone|67/100
+|move|p2a: Clefable|Thunder Wave|p1a: Magnezone
+|-immune|p1a: Magnezone|[msg]
+|
+|upkeep
+|turn|15
+|choice|move thunderbolt|move moonblast
+|
+|move|p1a: Magnezone|Thunderbolt|p2a: Clefable
+|-damage|p2a: Clefable|35/100
+|move|p2a: Clefable|Moonblast|p1a: Magnezone
+|-resisted|p1a: Magnezone
+|-damage|p1a: Magnezone|48/100
+|
+|-heal|p2a: Clefable|41/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|choice|move thunderbolt|move stealthrock
+|
+|move|p1a: Magnezone|Thunderbolt|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100
+|-damage|p2a: Mandibuzz|76/100|[from] Stealth Rock
+|turn|17
+|choice|move thunderbolt|move roost
+|
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|100/100
+|move|p1a: Magnezone|Thunderbolt|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|42/100
+|
+|-heal|p2a: Mandibuzz|48/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|choice|move thunderbolt|move roost
+|
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|98/100
+|move|p1a: Magnezone|Thunderbolt|p2a: Mandibuzz
+|-crit|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|9/100
+|
+|-heal|p2a: Mandibuzz|15/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|choice|move thunderbolt|move foulplay
+|
+|move|p2a: Mandibuzz|Foul Play|p1a: Magnezone
+|-damage|p1a: Magnezone|28/100
+|move|p1a: Magnezone|Thunderbolt|p2a: Mandibuzz
+|-supereffective|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|0 fnt
+|faint|p2a: Mandibuzz
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Jirachi|Jirachi|100/100
+|-damage|p2a: Jirachi|94/100|[from] Stealth Rock
+|turn|20
+|choice|move thunderbolt|move protect
+|
+|move|p2a: Jirachi|Protect|p2a: Jirachi
+|-singleturn|p2a: Jirachi|Protect
+|move|p1a: Magnezone|Thunderbolt|p2a: Jirachi
+|-activate|p2a: Jirachi|move: Protect
+|
+|-heal|p2a: Jirachi|100/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|choice|move thunderbolt|move ironhead
+|
+|move|p2a: Jirachi|Iron Head|p1a: Magnezone
+|-resisted|p1a: Magnezone
+|-damage|p1a: Magnezone|21/100
+|cant|p1a: Magnezone|flinch
+|
+|upkeep
+|turn|22
+|choice|move thunderbolt|move protect
+|
+|move|p2a: Jirachi|Protect|p2a: Jirachi
+|-singleturn|p2a: Jirachi|Protect
+|move|p1a: Magnezone|Thunderbolt|p2a: Jirachi
+|-activate|p2a: Jirachi|move: Protect
+|
+|upkeep
+|turn|23
+|choice|move thunderbolt|move bodyslam
+|
+|move|p2a: Jirachi|Body Slam|p1a: Magnezone
+|-resisted|p1a: Magnezone
+|-damage|p1a: Magnezone|13/100
+|move|p1a: Magnezone|Thunderbolt|p2a: Jirachi
+|-damage|p2a: Jirachi|54/100
+|
+|-heal|p2a: Jirachi|60/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|choice|move thunderbolt|move protect
+|
+|move|p2a: Jirachi|Protect|p2a: Jirachi
+|-singleturn|p2a: Jirachi|Protect
+|move|p1a: Magnezone|Thunderbolt|p2a: Jirachi
+|-activate|p2a: Jirachi|move: Protect
+|
+|-heal|p2a: Jirachi|66/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|choice|move thunderbolt|move wish
+|
+|move|p2a: Jirachi|Wish|p2a: Jirachi
+|move|p1a: Magnezone|Thunderbolt|p2a: Jirachi
+|-damage|p2a: Jirachi|19/100
+|
+|-heal|p2a: Jirachi|25/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|choice|switch 4|move protect
+|
+|switch|p1a: Manectric|Manectric, M|100/100
+|move|p2a: Jirachi|Protect|p2a: Jirachi
+|-fail|p2a: Jirachi
+|
+|-heal|p2a: Jirachi|75/100|[from] move: Wish|[wisher] Jirachi
+|-heal|p2a: Jirachi|82/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|choice|move flamethrower mega|move ironhead
+|
+|detailschange|p1a: Manectric|Manectric-Mega, M
+|-mega|p1a: Manectric|Manectric|Manectite
+|-ability|p1a: Manectric|Intimidate|boost
+|-unboost|p2a: Jirachi|atk|1
+|move|p1a: Manectric|Flamethrower|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-damage|p2a: Jirachi|42/100
+|move|p2a: Jirachi|Iron Head|p1a: Manectric
+|-resisted|p1a: Manectric
+|-damage|p1a: Manectric|88/100
+|
+|-heal|p2a: Jirachi|48/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|choice|move thunderbolt|move bodyslam
+|
+|move|p1a: Manectric|Thunderbolt|p2a: Jirachi
+|-damage|p2a: Jirachi|15/100
+|move|p2a: Jirachi|Body Slam|p1a: Manectric
+|-damage|p1a: Manectric|69/100
+|
+|-heal|p2a: Jirachi|21/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|choice|move thunderbolt|move bodyslam
+|
+|move|p1a: Manectric|Thunderbolt|p2a: Jirachi
+|-damage|p2a: Jirachi|0 fnt
+|faint|p2a: Jirachi
+|
+|win|AHHRO
+|c|☆AHHRO|gg
+|raw|AHHRO's rating: 1136 &rarr; <strong>1151</strong><br />(+15 for winning)
+|raw|Ash-Greninja129's rating: 1000 &rarr; <strong>1000</strong><br />(+0 for losing)

@@ -1,0 +1,256 @@
+|j|arceus1117
+|j|mikatrib
+|player|p1|arceus1117|99
+|player|p2|mikatrib|2
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|52558,28758,9043,36519,40967,20261,65396,49655,5093,58447,51427,40400
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Pelipper, M|item
+|poke|p1|Liepard, M|item
+|poke|p1|Hitmonchan, M|item
+|poke|p1|Rotom-Fan|item
+|poke|p1|Samurott, M|item
+|poke|p1|Manectric, M|item
+|poke|p2|Mismagius, M|item
+|poke|p2|Pyroar, M|item
+|poke|p2|Haunter, M|item
+|poke|p2|Exeggutor, M|item
+|poke|p2|Tauros, M|item
+|poke|p2|Pinsir, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 2, team 1, team 3, team 4, team 5, team 6|team 5, team 2, team 3, team 4, team 1, team 6
+|
+|start
+|switch|p1a: Liepard|Liepard, M|100/100
+|switch|p2a: Tauros|Tauros, M|100/100
+|turn|1
+|choice|switch 2|move rockclimb
+|
+|switch|p1a: Pelipper|Pelipper, M|100/100
+|move|p2a: Tauros|Rock Climb|p1a: Pelipper
+|-damage|p1a: Pelipper|46/100
+|
+|-heal|p1a: Pelipper|52/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|choice|move scald|move rockclimb
+|
+|move|p2a: Tauros|Rock Climb|p1a: Pelipper
+|-damage|p1a: Pelipper|4/100
+|move|p1a: Pelipper|Scald|p2a: Tauros
+|-damage|p2a: Tauros|55/100
+|
+|-heal|p1a: Pelipper|10/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|choice|switch 3|move rockclimb
+|
+|switch|p1a: Hitmonchan|Hitmonchan, M|100/100
+|move|p2a: Tauros|Rock Climb|p1a: Hitmonchan
+|-damage|p1a: Hitmonchan|0 fnt
+|faint|p1a: Hitmonchan
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Rotom|Rotom-Fan|100/100
+|turn|4
+|choice|move airslash|move rockclimb
+|
+|move|p1a: Rotom|Air Slash|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Mismagius|Mismagius, M|100/100
+|turn|5
+|choice|switch 5|move painsplit
+|
+|switch|p1a: Samurott|Samurott, M|100/100
+|move|p2a: Mismagius|Pain Split|p1a: Samurott
+|-sethp|p1a: Samurott|99/100|p2a: Mismagius|100/100|[from] move: Pain Split
+|
+|upkeep
+|turn|6
+|choice|move taunt|move willowisp
+|
+|move|p2a: Mismagius|Will-O-Wisp|p1a: Samurott
+|-status|p1a: Samurott|brn
+|move|p1a: Samurott|Taunt|p2a: Mismagius
+|-start|p2a: Mismagius|move: Taunt
+|
+|-damage|p1a: Samurott|87/100 brn|[from] brn
+|upkeep
+|turn|7
+|choice|switch 2|move hex
+|
+|switch|p1a: Liepard|Liepard, M|100/100
+|move|p2a: Mismagius|Hex|p1a: Liepard
+|-resisted|p1a: Liepard
+|-damage|p1a: Liepard|75/100
+|
+|upkeep
+|turn|8
+|choice|move copycat|switch 6
+|
+|switch|p2a: Pinsir|Pinsir, M|100/100
+|-ability|p2a: Pinsir|Mold Breaker
+|move|p1a: Liepard|Copycat|p1a: Liepard
+|move|p1a: Liepard|Hex|p2a: Pinsir|[from]Copycat
+|-damage|p2a: Pinsir|71/100
+|
+|upkeep
+|turn|9
+|choice|switch 5|move stealthrock
+|
+|switch|p1a: Rotom|Rotom-Fan|100/100
+|move|p2a: Pinsir|Stealth Rock|p1a: Rotom
+|-sidestart|p1: arceus1117|move: Stealth Rock
+|
+|upkeep
+|turn|10
+|choice|move trick|move rocktomb
+|
+|move|p1a: Rotom|Trick|p2a: Pinsir
+|-activate|p1a: Rotom|move: Trick|[of] p2a: Pinsir
+|-item|p2a: Pinsir|Choice Scarf|[from] move: Trick
+|-item|p1a: Rotom|Focus Sash|[from] move: Trick
+|move|p2a: Pinsir|Rock Tomb|p1a: Rotom
+|-supereffective|p1a: Rotom
+|-damage|p1a: Rotom|42/100
+|-unboost|p1a: Rotom|spe|1
+|
+|upkeep
+|turn|11
+|choice|switch 2|move rocktomb
+|
+|switch|p1a: Samurott|Samurott, M|87/100 brn
+|-damage|p1a: Samurott|75/100 brn|[from] Stealth Rock
+|move|p2a: Pinsir|Rock Tomb|p1a: Samurott
+|-damage|p1a: Samurott|49/100 brn
+|-unboost|p1a: Samurott|spe|1
+|
+|-damage|p1a: Samurott|36/100 brn|[from] brn
+|upkeep
+|turn|12
+|choice|move hydropump|move rocktomb
+|
+|move|p2a: Pinsir|Rock Tomb|p1a: Samurott
+|-damage|p1a: Samurott|8/100 brn
+|-unboost|p1a: Samurott|spe|1
+|move|p1a: Samurott|Hydro Pump|p2a: Pinsir
+|-damage|p2a: Pinsir|0 fnt
+|-damage|p1a: Samurott|0 fnt|[from] item: Life Orb
+|faint|p2a: Pinsir
+|faint|p1a: Samurott
+|
+|upkeep
+|choice|switch 5|switch 2
+|
+|switch|p1a: Liepard|Liepard, M|75/100
+|switch|p2a: Pyroar|Pyroar, M|100/100
+|-ability|p2a: Pyroar|Unnerve|p1: arceus1117
+|-damage|p1a: Liepard|63/100|[from] Stealth Rock
+|turn|13
+|choice|move copycat|move hypervoice
+|
+|move|p1a: Liepard|Copycat|p1a: Liepard
+|move|p1a: Liepard|Hydro Pump|p2a: Pyroar|[from]Copycat
+|-supereffective|p2a: Pyroar
+|-damage|p2a: Pyroar|11/100
+|move|p2a: Pyroar|Hyper Voice|p1a: Liepard
+|-damage|p1a: Liepard|0 fnt
+|-damage|p2a: Pyroar|1/100|[from] item: Life Orb
+|faint|p1a: Liepard
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Rotom|Rotom-Fan|42/100
+|-damage|p1a: Rotom|17/100|[from] Stealth Rock
+|turn|14
+|choice|move thunderbolt|move hypervoice
+|
+|move|p2a: Pyroar|Hyper Voice|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|-damage|p2a: Pyroar|0 fnt|[from] item: Life Orb
+|faint|p1a: Rotom
+|faint|p2a: Pyroar
+|
+|upkeep
+|choice|switch 6|switch 3
+|
+|switch|p1a: Manectric|Manectric, M|100/100
+|switch|p2a: Haunter|Haunter, M|100/100
+|-damage|p1a: Manectric|88/100|[from] Stealth Rock
+|turn|15
+|choice|move thunderbolt|move willowisp
+|
+|move|p1a: Manectric|Thunderbolt|p2a: Haunter
+|-damage|p2a: Haunter|0 fnt
+|-damage|p1a: Manectric|78/100|[from] item: Life Orb
+|faint|p2a: Haunter
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Exeggutor|Exeggutor, M|100/100
+|turn|16
+|choice|move overheat|move gigadrain
+|
+|move|p1a: Manectric|Overheat|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|0 fnt
+|-unboost|p1a: Manectric|spa|2
+|-damage|p1a: Manectric|68/100|[from] item: Life Orb
+|faint|p2a: Exeggutor
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Mismagius|Mismagius, M|100/100
+|turn|17
+|choice|switch 3|move hex
+|
+|switch|p1a: Pelipper|Pelipper, M|10/100
+|-damage|p1a: Pelipper|0 fnt|[from] Stealth Rock
+|faint|p1a: Pelipper
+|move|p2a: Mismagius|Hex|p1: Pelipper|[notarget]
+|-notarget
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Manectric|Manectric, M|68/100
+|-damage|p1a: Manectric|56/100|[from] Stealth Rock
+|turn|18
+|choice|move thunderbolt|move hex
+|
+|move|p1a: Manectric|Thunderbolt|p2a: Mismagius
+|-damage|p2a: Mismagius|46/100
+|-damage|p1a: Manectric|46/100|[from] item: Life Orb
+|move|p2a: Mismagius|Hex|p1a: Manectric
+|-damage|p1a: Manectric|6/100
+|
+|-heal|p2a: Mismagius|53/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|choice|move thunderbolt|move hex
+|
+|move|p2a: Mismagius|Hex|p1a: Manectric
+|-damage|p1a: Manectric|0 fnt
+|faint|p1a: Manectric
+|
+|win|mikatrib
+|raw|arceus1117's rating: 1196 &rarr; <strong>1162</strong><br />(-34 for losing)
+|raw|mikatrib's rating: 1068 &rarr; <strong>1108</strong><br />(+40 for winning)
+|l|mikatrib
+|c|☆arceus1117|Speed ties man

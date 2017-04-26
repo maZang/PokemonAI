@@ -1,0 +1,141 @@
+|j|AHHRO
+|j|SHOUTOUTGIANTS
+|player|p1|AHHRO|37
+|player|p2|SHOUTOUTGIANTS|30
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|57041,40315,43694,8541,36506,45432,27920,24217,46441,64285,20450,25944
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Grumpig, M|item
+|poke|p1|Cryogonal|item
+|poke|p1|Pinsir, M|item
+|poke|p1|Samurott, M|item
+|poke|p1|Camerupt, M|item
+|poke|p1|Omastar, M|item
+|poke|p2|Piloswine, M|item
+|poke|p2|Lanturn, M|item
+|poke|p2|Hitmonchan, M|item
+|poke|p2|Beheeyem, M|item
+|poke|p2|Miltank, F|item
+|poke|p2|Torterra, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 6, team 2, team 3, team 4, team 5, team 1|team 2, team 1, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Omastar|Omastar, M|100/100
+|switch|p2a: Lanturn|Lanturn, M|100/100
+|turn|1
+|choice|move stealthrock|move hiddenpower
+|
+|move|p2a: Lanturn|Hidden Power|p1a: Omastar
+|-supereffective|p1a: Omastar
+|-damage|p1a: Omastar|0 fnt
+|faint|p1a: Omastar
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Pinsir|Pinsir, M|100/100
+|-ability|p1a: Pinsir|Mold Breaker
+|turn|2
+|choice|move stealthrock|switch 3
+|
+|switch|p2a: Hitmonchan|Hitmonchan, M|100/100
+|move|p1a: Pinsir|Stealth Rock|p2a: Hitmonchan
+|-sidestart|p2: SHOUTOUTGIANTS|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|choice|move earthquake|move rapidspin
+|
+|move|p1a: Pinsir|Earthquake|p2a: Hitmonchan
+|-damage|p2a: Hitmonchan|34/100
+|move|p2a: Hitmonchan|Rapid Spin|p1a: Pinsir
+|-damage|p1a: Pinsir|89/100
+|-sideend|p2: SHOUTOUTGIANTS|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Hitmonchan
+|-damage|p2a: Hitmonchan|24/100|[from] item: Life Orb
+|
+|upkeep
+|turn|4
+|choice|move stealthrock|switch 2
+|
+|switch|p2a: Piloswine|Piloswine, M|100/100
+|move|p1a: Pinsir|Stealth Rock|p2a: Piloswine
+|-sidestart|p2: SHOUTOUTGIANTS|move: Stealth Rock
+|
+|upkeep
+|turn|5
+|choice|move earthquake|move iciclecrash
+|
+|move|p1a: Pinsir|Earthquake|p2a: Piloswine
+|-damage|p2a: Piloswine|76/100
+|move|p2a: Piloswine|Icicle Crash|p1a: Pinsir
+|-damage|p1a: Pinsir|37/100
+|
+|upkeep
+|turn|6
+|choice|move xscissor|move iciclecrash
+|
+|move|p1a: Pinsir|X-Scissor|p2a: Piloswine
+|-damage|p2a: Piloswine|44/100
+|move|p2a: Piloswine|Icicle Crash|p1a: Pinsir
+|-damage|p1a: Pinsir|0 fnt
+|faint|p1a: Pinsir
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Samurott|Samurott, M|100/100
+|turn|7
+|choice|move hydropump|move earthquake
+|
+|move|p1a: Samurott|Hydro Pump|p2a: Piloswine
+|-supereffective|p2a: Piloswine
+|-damage|p2a: Piloswine|0 fnt
+|-damage|p1a: Samurott|91/100|[from] item: Life Orb
+|faint|p2a: Piloswine
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Lanturn|Lanturn, M|100/100
+|-damage|p2a: Lanturn|88/100|[from] Stealth Rock
+|turn|8
+|choice|switch 2|move hydropump
+|
+|switch|p1a: Cryogonal|Cryogonal|100/100
+|move|p2a: Lanturn|Hydro Pump|p1a: Cryogonal|[miss]
+|-miss|p2a: Lanturn|p1a: Cryogonal
+|
+|upkeep
+|turn|9
+|choice|move freezedry|switch 5
+|
+|switch|p2a: Miltank|Miltank, F|100/100
+|-damage|p2a: Miltank|88/100|[from] Stealth Rock
+|move|p1a: Cryogonal|Freeze-Dry|p2a: Miltank
+|-damage|p2a: Miltank|46/100
+|-status|p2a: Miltank|frz
+|-damage|p1a: Cryogonal|91/100|[from] item: Life Orb
+|
+|-heal|p2a: Miltank|52/100 frz|[from] item: Leftovers
+|upkeep
+|turn|10
+|choice|move frostbreath|move thunderwave
+|
+|move|p1a: Cryogonal|Frost Breath|p2a: Miltank
+|-crit|p2a: Miltank
+|-damage|p2a: Miltank|0 fnt
+|-damage|p1a: Cryogonal|81/100|[from] item: Life Orb
+|faint|p2a: Miltank
+|
+|upkeep
+|-message|SHOUTOUTGIANTS forfeited.
+|
+|win|AHHRO
+|l|SHOUTOUTGIANTS

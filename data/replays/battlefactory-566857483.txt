@@ -1,0 +1,137 @@
+|j|sfsgsdg
+|j|ydnaAaA
+|player|p1|sfsgsdg|101
+|player|p2|ydnaAaA|266
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|38523,30036,20389,51283,16589,53066,30709,22230,56691,8611,23097,49315
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Rampardos, M|item
+|poke|p1|Relicanth, M|item
+|poke|p1|Drifblim, M|item
+|poke|p1|Marowak, M|item
+|poke|p1|Fraxure, M|item
+|poke|p1|Vullaby, F|item
+|poke|p2|Politoed, M|item
+|poke|p2|Electrode|item
+|poke|p2|Swanna, M|item
+|poke|p2|Drifblim, M|item
+|poke|p2|Monferno, M|item
+|poke|p2|Zweilous, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by sfsgsdg)
+|choice|team 1, team 2, team 3, team 4, team 5, team 6|team 5, team 2, team 3, team 4, team 1, team 6
+|
+|start
+|switch|p1a: Rampardos|Rampardos, M|100/100
+|switch|p2a: Monferno|Monferno, M|100/100
+|-ability|p1a: Rampardos|Mold Breaker
+|turn|1
+|choice|move stealthrock|move stealthrock
+|
+|move|p2a: Monferno|Stealth Rock|p1a: Rampardos
+|-sidestart|p1: sfsgsdg|move: Stealth Rock
+|move|p1a: Rampardos|Stealth Rock|p2a: Monferno
+|-sidestart|p2: ydnaAaA|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|choice|move headsmash|move machpunch
+|
+|move|p2a: Monferno|Mach Punch|p1a: Rampardos
+|-supereffective|p1a: Rampardos
+|-damage|p1a: Rampardos|40/100
+|move|p1a: Rampardos|Head Smash|p2a: Monferno
+|-damage|p2a: Monferno|0 fnt
+|-damage|p1a: Rampardos|0 fnt|[from] recoil|[of] p2a: Monferno
+|faint|p2a: Monferno
+|faint|p1a: Rampardos
+|
+|upkeep
+|choice|switch 5|switch 5
+|
+|switch|p1a: Fraxure|Fraxure, M|100/100
+|switch|p2a: Politoed|Politoed, M|100/100
+|-damage|p1a: Fraxure|88/100|[from] Stealth Rock
+|-ability|p1a: Fraxure|Mold Breaker
+|-damage|p2a: Politoed|88/100|[from] Stealth Rock
+|turn|3
+|choice|move dragondance|move icebeam
+|
+|move|p1a: Fraxure|Dragon Dance|p1a: Fraxure
+|-boost|p1a: Fraxure|atk|1
+|-boost|p1a: Fraxure|spe|1
+|move|p2a: Politoed|Ice Beam|p1a: Fraxure
+|-supereffective|p1a: Fraxure
+|-damage|p1a: Fraxure|8/100
+|
+|-heal|p2a: Politoed|94/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|choice|move outrage|move scald
+|
+|move|p1a: Fraxure|Outrage|p2a: Politoed
+|-damage|p2a: Politoed|0 fnt
+|faint|p2a: Politoed
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Swanna|Swanna, M|100/100
+|-damage|p2a: Swanna|76/100|[from] Stealth Rock
+|turn|5
+|choice|move outrage|move scald
+|
+|move|p1a: Fraxure|Outrage|p2a: Swanna|[from]lockedmove
+|-damage|p2a: Swanna|0 fnt
+|faint|p2a: Swanna
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Drifblim|Drifblim, M|100/100
+|-damage|p2a: Drifblim|75/100|[from] Stealth Rock
+|turn|6
+|choice|move outrage|move acrobatics
+|
+|move|p1a: Fraxure|Outrage|p2a: Drifblim|[from]lockedmove
+|-damage|p2a: Drifblim|0 fnt
+|-start|p1a: Fraxure|confusion|[fatigue]
+|faint|p2a: Drifblim
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Electrode|Electrode|100/100
+|-damage|p2a: Electrode|88/100|[from] Stealth Rock
+|turn|7
+|choice|move outrage|move hiddenpower
+|
+|-activate|p1a: Fraxure|confusion
+|move|p1a: Fraxure|Outrage|p2a: Electrode
+|-damage|p2a: Electrode|0 fnt
+|faint|p2a: Electrode
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Zweilous|Zweilous, M|100/100
+|-damage|p2a: Zweilous|88/100|[from] Stealth Rock
+|turn|8
+|choice|move outrage|move crunch
+|
+|-end|p1a: Fraxure|confusion
+|move|p1a: Fraxure|Outrage|p2a: Zweilous|[from]lockedmove
+|-supereffective|p2a: Zweilous
+|-damage|p2a: Zweilous|0 fnt
+|faint|p2a: Zweilous
+|
+|win|sfsgsdg
+|c|☆sfsgsdg|gg
+|raw|sfsgsdg's rating: 1000 &rarr; <strong>1060</strong><br />(+60 for winning)
+|raw|ydnaAaA's rating: 1187 &rarr; <strong>1149</strong><br />(-38 for losing)

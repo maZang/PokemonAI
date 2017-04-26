@@ -1,0 +1,242 @@
+|j|AHHRO
+|j|Redfoodjjk
+|player|p1|AHHRO|37
+|player|p2|Redfoodjjk|265
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|41510,12169,21214,63534,50627,2621,53889,16275,58664,5332,16149,34410
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Charizard, M|item
+|poke|p1|Mandibuzz, F|item
+|poke|p1|Volcarona, M|item
+|poke|p1|Azumarill, M|item
+|poke|p1|Clefable, M|item
+|poke|p1|Tyranitar, M|item
+|poke|p2|Metagross|item
+|poke|p2|Volcarona, M|item
+|poke|p2|Ferrothorn, M|item
+|poke|p2|Scolipede, M|item
+|poke|p2|Slowbro, M|item
+|poke|p2|Dragonite, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 1, team 2, team 3, team 4, team 5, team 6|team 4, team 2, team 3, team 1, team 5, team 6
+|
+|start
+|switch|p1a: Charizard|Charizard, M|100/100
+|switch|p2a: Scolipede|Scolipede, M|100/100
+|turn|1
+|choice|move fireblast mega|move protect
+|
+|detailschange|p1a: Charizard|Charizard-Mega-Y, M
+|-mega|p1a: Charizard|Charizard|Charizardite Y
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Charizard
+|move|p2a: Scolipede|Protect|p2a: Scolipede
+|-singleturn|p2a: Scolipede|Protect
+|move|p1a: Charizard|Fire Blast|p2a: Scolipede
+|-activate|p2a: Scolipede|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-ability|p2a: Scolipede|Speed Boost|boost
+|-boost|p2a: Scolipede|spe|1
+|upkeep
+|turn|2
+|choice|move fireblast|move protect
+|
+|move|p2a: Scolipede|Protect|p2a: Scolipede
+|-fail|p2a: Scolipede
+|move|p1a: Charizard|Fire Blast|p2a: Scolipede|[miss]
+|-miss|p1a: Charizard|p2a: Scolipede
+|
+|-weather|SunnyDay|[upkeep]
+|-ability|p2a: Scolipede|Speed Boost|boost
+|-boost|p2a: Scolipede|spe|1
+|upkeep
+|turn|3
+|choice|move fireblast|move poisonjab
+|
+|move|p2a: Scolipede|Poison Jab|p1a: Charizard
+|-crit|p1a: Charizard
+|-damage|p1a: Charizard|3/100
+|-damage|p2a: Scolipede|91/100|[from] item: Life Orb
+|move|p1a: Charizard|Fire Blast|p2a: Scolipede
+|-supereffective|p2a: Scolipede
+|-damage|p2a: Scolipede|0 fnt
+|faint|p2a: Scolipede
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|turn|4
+|choice|move fireblast|move leechseed
+|
+|move|p1a: Charizard|Fire Blast|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|faint|p2a: Ferrothorn
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Slowbro|Slowbro, M|100/100
+|turn|5
+|choice|move solarbeam|move psyshock
+|
+|move|p1a: Charizard|Solar Beam|p2a: Slowbro|[still]
+|-prepare|p1a: Charizard|Solar Beam|p2a: Slowbro
+|-anim|p1a: Charizard|Solar Beam|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|4/100
+|move|p2a: Slowbro|Psyshock|p1a: Charizard
+|-damage|p1a: Charizard|0 fnt
+|faint|p1a: Charizard
+|
+|-weather|none
+|-heal|p2a: Slowbro|10/100|[from] item: Leftovers
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Volcarona|Volcarona, M|100/100
+|turn|6
+|choice|move fierydance|move scald
+|
+|move|p1a: Volcarona|Fiery Dance|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|0 fnt
+|-boost|p1a: Volcarona|spa|1
+|faint|p2a: Slowbro
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Metagross|Metagross|100/100
+|turn|7
+|choice|move fierydance|move meteormash mega
+|
+|detailschange|p2a: Metagross|Metagross-Mega
+|-mega|p2a: Metagross|Metagross|Metagrossite
+|move|p1a: Volcarona|Fiery Dance|p2a: Metagross
+|-supereffective|p2a: Metagross
+|-damage|p2a: Metagross|0 fnt
+|-boost|p1a: Volcarona|spa|1
+|faint|p2a: Metagross
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Dragonite|Dragonite, M|100/100
+|turn|8
+|choice|move fierydance|move outrage
+|
+|move|p1a: Volcarona|Fiery Dance|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|82/100
+|-boost|p1a: Volcarona|spa|1
+|move|p2a: Dragonite|Outrage|p1a: Volcarona
+|-damage|p1a: Volcarona|0 fnt
+|faint|p1a: Volcarona
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Azumarill|Azumarill, M|100/100
+|turn|9
+|choice|move waterfall|move outrage
+|
+|move|p2a: Dragonite|Outrage|p1a: Azumarill|[from]lockedmove
+|-immune|p1a: Azumarill|[msg]
+|move|p1a: Azumarill|Waterfall|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|55/100
+|
+|upkeep
+|turn|10
+|choice|switch 5|switch 2
+|
+|switch|p2a: Volcarona|Volcarona, M|100/100
+|switch|p1a: Clefable|Clefable, M|100/100
+|
+|upkeep
+|turn|11
+|choice|move thunderwave|move gigadrain
+|
+|move|p2a: Volcarona|Giga Drain|p1a: Clefable
+|-damage|p1a: Clefable|82/100
+|move|p1a: Clefable|Thunder Wave|p2a: Volcarona
+|-status|p2a: Volcarona|par
+|
+|-heal|p1a: Clefable|89/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|choice|move stealthrock|move fierydance
+|
+|move|p1a: Clefable|Stealth Rock|p2a: Volcarona
+|-sidestart|p2: Redfoodjjk|move: Stealth Rock
+|move|p2a: Volcarona|Fiery Dance|p1a: Clefable
+|-damage|p1a: Clefable|62/100
+|-boost|p2a: Volcarona|spa|1
+|
+|-heal|p1a: Clefable|68/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|choice|switch 6|move fierydance
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Volcarona|Fiery Dance|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|84/100
+|-boost|p2a: Volcarona|spa|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Volcarona|94/100 par|[from] sandstorm
+|-heal|p2a: Volcarona|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|14
+|choice|move stoneedge|move gigadrain
+|
+|move|p1a: Tyranitar|Stone Edge|p2a: Volcarona
+|-supereffective|p2a: Volcarona
+|-damage|p2a: Volcarona|0 fnt
+|faint|p2a: Volcarona
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Dragonite|Dragonite, M|55/100
+|-damage|p2a: Dragonite|30/100|[from] Stealth Rock
+|turn|15
+|choice|move stoneedge|move outrage
+|
+|move|p2a: Dragonite|Outrage|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragonite|24/100|[from] sandstorm
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Clefable|Clefable, M|68/100
+|turn|16
+|choice|move moonblast|move outrage
+|
+|move|p2a: Dragonite|Outrage|p1a: Clefable|[from]lockedmove
+|-immune|p1a: Clefable|[msg]
+|move|p1a: Clefable|Moonblast|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|win|AHHRO
+|raw|AHHRO's rating: 1151 &rarr; <strong>1166</strong><br />(+15 for winning)
+|raw|Redfoodjjk's rating: 1000 &rarr; <strong>1000</strong><br />(+0 for losing)
+|l|Redfoodjjk

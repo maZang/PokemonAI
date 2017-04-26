@@ -1,0 +1,318 @@
+|j|Nidaki
+|j|Kamydaki
+|player|p1|Nidaki|101
+|player|p2|Kamydaki|92
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|30728,5124,20989,43424,9149,34881,18070,48443,26256,29988,42762,56573
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Huntail, M|item
+|poke|p1|Audino, M|item
+|poke|p1|Camerupt, M|item
+|poke|p1|Mr. Mime, M|item
+|poke|p1|Raichu, M|item
+|poke|p1|Swanna, M|item
+|poke|p2|Vibrava, M|item
+|poke|p2|Arbok, M|item
+|poke|p2|Quilladin, M|item
+|poke|p2|Clefairy, M|item
+|poke|p2|Drifblim, M|item
+|poke|p2|Rapidash, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 5, team 2, team 3, team 4, team 1, team 6|team 4, team 2, team 3, team 1, team 5, team 6
+|
+|start
+|switch|p1a: Raichu|Raichu, M|100/100
+|switch|p2a: Clefairy|Clefairy, M|100/100
+|turn|1
+|choice|move voltswitch|move stealthrock
+|
+|move|p1a: Raichu|Volt Switch|p2a: Clefairy
+|-damage|p2a: Clefairy|75/100
+|-damage|p1a: Raichu|91/100|[from] item: Life Orb
+|choice|switch 2|
+|
+|switch|p1a: Audino|Audino, M|100/100
+|move|p2a: Clefairy|Stealth Rock|p1a: Audino
+|-sidestart|p1: Nidaki|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|choice|move knockoff|move knockoff
+|
+|move|p1a: Audino|Knock Off|p2a: Clefairy
+|-resisted|p2a: Clefairy
+|-damage|p2a: Clefairy|66/100
+|-enditem|p2a: Clefairy|Eviolite|[from] move: Knock Off|[of] p1a: Audino
+|move|p2a: Clefairy|Knock Off|p1a: Audino
+|-damage|p1a: Audino|93/100
+|-enditem|p1a: Audino|Leftovers|[from] move: Knock Off|[of] p2a: Clefairy
+|
+|upkeep
+|turn|3
+|choice|move wish|move moonblast
+|
+|move|p1a: Audino|Wish|p1a: Audino
+|move|p2a: Clefairy|Moonblast|p1a: Audino
+|-damage|p1a: Audino|78/100
+|-unboost|p1a: Audino|spa|1
+|
+|upkeep
+|turn|4
+|choice|move doubleedge|move moonblast
+|
+|move|p1a: Audino|Double-Edge|p2a: Clefairy
+|-damage|p2a: Clefairy|22/100
+|-damage|p1a: Audino|65/100|[from] recoil|[of] p2a: Clefairy
+|move|p2a: Clefairy|Moonblast|p1a: Audino
+|-damage|p1a: Audino|50/100
+|-unboost|p1a: Audino|spa|1
+|
+|-heal|p1a: Audino|99/100|[from] move: Wish|[wisher] Audino
+|upkeep
+|turn|5
+|choice|move doubleedge|switch 5
+|
+|switch|p2a: Drifblim|Drifblim, M|100/100
+|move|p1a: Audino|Double-Edge|p2a: Drifblim
+|-immune|p2a: Drifblim|[msg]
+|
+|upkeep
+|turn|6
+|choice|move knockoff|move willowisp
+|
+|move|p2a: Drifblim|Will-O-Wisp|p1a: Audino|[miss]
+|-miss|p2a: Drifblim|p1a: Audino
+|move|p1a: Audino|Knock Off|p2a: Drifblim
+|-supereffective|p2a: Drifblim
+|-crit|p2a: Drifblim
+|-damage|p2a: Drifblim|40/100
+|-enditem|p2a: Drifblim|Liechi Berry|[from] move: Knock Off|[of] p1a: Audino
+|
+|upkeep
+|turn|7
+|choice|switch 3|move willowisp
+|
+|switch|p1a: Camerupt|Camerupt, M|100/100
+|-damage|p1a: Camerupt|88/100|[from] Stealth Rock
+|move|p2a: Drifblim|Will-O-Wisp|p1a: Camerupt
+|-immune|p1a: Camerupt|[msg]
+|
+|-heal|p1a: Camerupt|94/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|choice|move stealthrock|move knockoff
+|
+|move|p2a: Drifblim|Knock Off|p1a: Camerupt
+|-damage|p1a: Camerupt|56/100
+|-enditem|p1a: Camerupt|Leftovers|[from] move: Knock Off|[of] p2a: Drifblim
+|move|p1a: Camerupt|Stealth Rock|p2a: Drifblim
+|-sidestart|p2: Kamydaki|move: Stealth Rock
+|
+|upkeep
+|turn|9
+|choice|move toxic|move acrobatics
+|
+|move|p2a: Drifblim|Acrobatics|p1a: Camerupt
+|-damage|p1a: Camerupt|0 fnt
+|faint|p1a: Camerupt
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Mr. Mime|Mr. Mime, M|100/100
+|-damage|p1a: Mr. Mime|88/100|[from] Stealth Rock
+|turn|10
+|choice|move psychic|move knockoff
+|
+|move|p2a: Drifblim|Knock Off|p1a: Mr. Mime
+|-damage|p1a: Mr. Mime|30/100
+|-enditem|p1a: Mr. Mime|Choice Scarf|[from] move: Knock Off|[of] p2a: Drifblim
+|move|p1a: Mr. Mime|Psychic|p2a: Drifblim
+|-damage|p2a: Drifblim|0 fnt
+|faint|p2a: Drifblim
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Quilladin|Quilladin, M|100/100
+|-damage|p2a: Quilladin|88/100|[from] Stealth Rock
+|turn|11
+|choice|move psychic|move spikes
+|
+|move|p1a: Mr. Mime|Psychic|p2a: Quilladin
+|-damage|p2a: Quilladin|44/100
+|move|p2a: Quilladin|Spikes|p1a: Mr. Mime
+|-sidestart|p1: Nidaki|Spikes
+|
+|upkeep
+|turn|12
+|choice|move psychic|move synthesis
+|
+|move|p1a: Mr. Mime|Psychic|p2a: Quilladin
+|-damage|p2a: Quilladin|0 fnt
+|faint|p2a: Quilladin
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Rapidash|Rapidash, M|100/100
+|-damage|p2a: Rapidash|76/100|[from] Stealth Rock
+|turn|13
+|choice|move psychic|move wildcharge
+|
+|move|p2a: Rapidash|Wild Charge|p1a: Mr. Mime
+|-damage|p1a: Mr. Mime|0 fnt
+|-damage|p2a: Rapidash|70/100|[from] recoil|[of] p1a: Mr. Mime
+|faint|p1a: Mr. Mime
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Audino|Audino, M|100/100
+|-damage|p1a: Audino|88/100|[from] Spikes
+|-damage|p1a: Audino|76/100|[from] Stealth Rock
+|turn|14
+|choice|move wish|move flareblitz
+|
+|move|p2a: Rapidash|Flare Blitz|p1a: Audino
+|-damage|p1a: Audino|12/100
+|-damage|p2a: Rapidash|38/100|[from] recoil|[of] p1a: Audino
+|move|p1a: Audino|Wish|p1a: Audino
+|
+|upkeep
+|turn|15
+|choice|move protect|move wildcharge
+|
+|move|p1a: Audino|Protect|p1a: Audino
+|-singleturn|p1a: Audino|Protect
+|move|p2a: Rapidash|Wild Charge|p1a: Audino
+|-activate|p1a: Audino|move: Protect
+|
+|-heal|p1a: Audino|62/100|[from] move: Wish|[wisher] Audino
+|upkeep
+|turn|16
+|choice|move doubleedge|move morningsun
+|
+|move|p2a: Rapidash|Morning Sun|p2a: Rapidash
+|-heal|p2a: Rapidash|88/100
+|move|p1a: Audino|Double-Edge|p2a: Rapidash
+|-damage|p2a: Rapidash|45/100
+|-damage|p1a: Audino|52/100|[from] recoil|[of] p2a: Rapidash
+|
+|upkeep
+|turn|17
+|choice|move knockoff|move willowisp
+|
+|move|p2a: Rapidash|Will-O-Wisp|p1a: Audino
+|-status|p1a: Audino|brn
+|move|p1a: Audino|Knock Off|p2a: Rapidash
+|-damage|p2a: Rapidash|34/100
+|-enditem|p2a: Rapidash|Charcoal|[from] move: Knock Off|[of] p1a: Audino
+|
+|-damage|p1a: Audino|40/100 brn|[from] brn
+|upkeep
+|turn|18
+|choice|move wish|move morningsun
+|
+|move|p2a: Rapidash|Morning Sun|p2a: Rapidash
+|-heal|p2a: Rapidash|84/100
+|move|p1a: Audino|Wish|p1a: Audino
+|
+|-damage|p1a: Audino|28/100 brn|[from] brn
+|upkeep
+|turn|19
+|choice|move doubleedge|move wildcharge
+|
+|move|p2a: Rapidash|Wild Charge|p1a: Audino
+|-damage|p1a: Audino|4/100 brn
+|-damage|p2a: Rapidash|75/100|[from] recoil|[of] p1a: Audino
+|move|p1a: Audino|Double-Edge|p2a: Rapidash
+|-damage|p2a: Rapidash|53/100
+|-damage|p1a: Audino|0 fnt|[from] recoil|[of] p2a: Rapidash
+|faint|p1a: Audino
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Huntail|Huntail, M|100/100
+|-damage|p1a: Huntail|88/100|[from] Stealth Rock
+|-damage|p1a: Huntail|76/100|[from] Spikes
+|turn|20
+|choice|move shellsmash|move wildcharge
+|
+|move|p2a: Rapidash|Wild Charge|p1a: Huntail
+|-supereffective|p1a: Huntail
+|-damage|p1a: Huntail|11/100
+|-damage|p2a: Rapidash|38/100|[from] recoil|[of] p1a: Huntail
+|move|p1a: Huntail|Shell Smash|p1a: Huntail
+|-unboost|p1a: Huntail|def|1
+|-unboost|p1a: Huntail|spd|1
+|-boost|p1a: Huntail|atk|2
+|-boost|p1a: Huntail|spa|2
+|-boost|p1a: Huntail|spe|2
+|-enditem|p1a: Huntail|White Herb
+|-clearnegativeboost|p1a: Huntail|[silent]
+|
+|upkeep
+|turn|21
+|choice|move waterfall|move wildcharge
+|
+|move|p1a: Huntail|Waterfall|p2a: Rapidash
+|-supereffective|p2a: Rapidash
+|-damage|p2a: Rapidash|0 fnt
+|faint|p2a: Rapidash
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Arbok|Arbok, M|100/100
+|-damage|p2a: Arbok|88/100|[from] Stealth Rock
+|-ability|p2a: Arbok|Intimidate|boost
+|-unboost|p1a: Huntail|atk|1
+|turn|22
+|choice|move suckerpunch|move suckerpunch
+|
+|move|p1a: Huntail|Sucker Punch|p2a: Arbok
+|-damage|p2a: Arbok|24/100
+|move|p2a: Arbok|Sucker Punch|p1a: Huntail|[still]
+|-fail|p2a: Arbok
+|
+|-heal|p2a: Arbok|30/100|[from] item: Black Sludge
+|upkeep
+|turn|23
+|choice|move waterfall|move coil
+|
+|move|p1a: Huntail|Waterfall|p2a: Arbok
+|-damage|p2a: Arbok|0 fnt
+|faint|p2a: Arbok
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Clefairy|Clefairy, M|22/100
+|turn|24
+|choice|move waterfall|move softboiled
+|
+|move|p1a: Huntail|Waterfall|p2a: Clefairy
+|-damage|p2a: Clefairy|0 fnt
+|faint|p2a: Clefairy
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Vibrava|Vibrava, M|100/100
+|-damage|p2a: Vibrava|95/100|[from] Stealth Rock
+|turn|25
+|choice|move icebeam|move uturn
+|
+|move|p1a: Huntail|Ice Beam|p2a: Vibrava
+|-supereffective|p2a: Vibrava
+|-damage|p2a: Vibrava|0 fnt
+|faint|p2a: Vibrava
+|
+|win|Nidaki

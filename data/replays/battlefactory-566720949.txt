@@ -1,0 +1,328 @@
+|j|Beagle2eagle
+|j|Tequilo Ren
+|player|p1|Beagle2eagle|275
+|player|p2|Tequilo Ren|290
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|28779,52623,37984,7965,5706,17138,55099,4374,6378,48230,56850,54628
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Hitmonchan, M|item
+|poke|p1|Haunter, M|item
+|poke|p1|Omastar, M|item
+|poke|p1|Pelipper, M|item
+|poke|p1|Klinklang|item
+|poke|p1|Pyroar, M|item
+|poke|p2|Golurk|item
+|poke|p2|Poliwrath, M|item
+|poke|p2|Exeggutor, M|item
+|poke|p2|Cryogonal|item
+|poke|p2|Rotom-Fan|item
+|poke|p2|Pelipper, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 3, team 2, team 1, team 4, team 5, team 6|team 5, team 2, team 3, team 4, team 1, team 6
+|
+|start
+|switch|p1a: Omastar|Omastar, M|100/100
+|switch|p2a: Rotom|Rotom-Fan|100/100
+|turn|1
+|choice|move stealthrock|move voltswitch
+|
+|move|p2a: Rotom|Volt Switch|p1a: Omastar
+|-supereffective|p1a: Omastar
+|-enditem|p1a: Omastar|Focus Sash
+|-damage|p1a: Omastar|1/100
+|choice||switch 6
+|
+|switch|p2a: Pelipper|Pelipper, M|100/100
+|move|p1a: Omastar|Stealth Rock|p2a: Pelipper
+|-sidestart|p2: Tequilo Ren|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|choice|move icebeam|move uturn
+|
+|move|p1a: Omastar|Ice Beam|p2a: Pelipper
+|-crit|p2a: Pelipper
+|-damage|p2a: Pelipper|42/100
+|move|p2a: Pelipper|U-turn|p1a: Omastar
+|-damage|p1a: Omastar|0 fnt
+|faint|p1a: Omastar
+|choice||switch 2
+|
+|switch|p2a: Poliwrath|Poliwrath, M|100/100
+|-damage|p2a: Poliwrath|94/100|[from] Stealth Rock
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Hitmonchan|Hitmonchan, M|100/100
+|turn|3
+|choice|switch 4|switch 5
+|
+|switch|p1a: Pelipper|Pelipper, M|100/100
+|switch|p2a: Golurk|Golurk|100/100
+|-damage|p2a: Golurk|95/100|[from] Stealth Rock
+|
+|upkeep
+|turn|4
+|choice|move scald|switch 2
+|
+|switch|p2a: Pelipper|Pelipper, M|42/100
+|-damage|p2a: Pelipper|17/100|[from] Stealth Rock
+|move|p1a: Pelipper|Scald|p2a: Pelipper
+|-resisted|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|faint|p2a: Pelipper
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Rotom|Rotom-Fan|100/100
+|-damage|p2a: Rotom|76/100|[from] Stealth Rock
+|turn|5
+|choice|switch 5|move voltswitch
+|
+|switch|p1a: Klinklang|Klinklang|100/100
+|move|p2a: Rotom|Volt Switch|p1a: Klinklang
+|-damage|p1a: Klinklang|56/100
+|choice||switch 2
+|
+|switch|p2a: Golurk|Golurk|95/100
+|-damage|p2a: Golurk|89/100|[from] Stealth Rock
+|
+|-heal|p1a: Klinklang|62/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|choice|move geargrind|move stealthrock
+|
+|move|p1a: Klinklang|Gear Grind|p2a: Golurk
+|-damage|p2a: Golurk|60/100
+|-damage|p2a: Golurk|31/100
+|-hitcount|p2a: Golurk|2
+|move|p2a: Golurk|Stealth Rock|p1a: Klinklang
+|-sidestart|p1: Beagle2eagle|move: Stealth Rock
+|
+|-heal|p1a: Klinklang|68/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|choice|move geargrind|switch 5
+|
+|switch|p2a: Poliwrath|Poliwrath, M|94/100
+|-damage|p2a: Poliwrath|88/100|[from] Stealth Rock
+|move|p1a: Klinklang|Gear Grind|p2a: Poliwrath
+|-resisted|p2a: Poliwrath
+|-damage|p2a: Poliwrath|77/100
+|-resisted|p2a: Poliwrath
+|-crit|p2a: Poliwrath
+|-damage|p2a: Poliwrath|60/100
+|-hitcount|p2a: Poliwrath|2
+|
+|-heal|p1a: Klinklang|74/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|choice|switch 2|move hydropump
+|
+|switch|p1a: Haunter|Haunter, M|100/100
+|-damage|p1a: Haunter|88/100|[from] Stealth Rock
+|move|p2a: Poliwrath|Hydro Pump|p1a: Haunter|[miss]
+|-miss|p2a: Poliwrath|p1a: Haunter
+|
+|upkeep
+|turn|9
+|choice|move substitute|move hydropump
+|
+|move|p1a: Haunter|Substitute|p1a: Haunter
+|-start|p1a: Haunter|Substitute
+|-damage|p1a: Haunter|64/100
+|move|p2a: Poliwrath|Hydro Pump|p1a: Haunter
+|-end|p1a: Haunter|Substitute
+|
+|upkeep
+|turn|10
+|choice|move sludgebomb|move hydropump
+|
+|move|p1a: Haunter|Sludge Bomb|p2a: Poliwrath
+|-damage|p2a: Poliwrath|4/100
+|-damage|p1a: Haunter|54/100|[from] item: Life Orb
+|move|p2a: Poliwrath|Hydro Pump|p1a: Haunter
+|-damage|p1a: Haunter|0 fnt
+|faint|p1a: Haunter
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Pelipper|Pelipper, M|100/100
+|-damage|p1a: Pelipper|75/100|[from] Stealth Rock
+|turn|11
+|choice|move roost|move hydropump
+|
+|move|p2a: Poliwrath|Hydro Pump|p1a: Pelipper|[miss]
+|-miss|p2a: Poliwrath|p1a: Pelipper
+|move|p1a: Pelipper|Roost|p1a: Pelipper
+|-heal|p1a: Pelipper|100/100
+|
+|upkeep
+|turn|12
+|choice|move scald|move hydropump
+|
+|move|p2a: Poliwrath|Hydro Pump|p1a: Pelipper
+|-resisted|p1a: Pelipper
+|-damage|p1a: Pelipper|56/100
+|move|p1a: Pelipper|Scald|p2a: Poliwrath
+|-heal|p2a: Poliwrath|29/100|[from] ability: Water Absorb|[of] p1a: Pelipper
+|
+|-heal|p1a: Pelipper|62/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|choice|move uturn|move hydropump
+|
+|move|p2a: Poliwrath|Hydro Pump|p1a: Pelipper
+|-resisted|p1a: Pelipper
+|-damage|p1a: Pelipper|21/100
+|move|p1a: Pelipper|U-turn|p2a: Poliwrath
+|-resisted|p2a: Poliwrath
+|-damage|p2a: Poliwrath|25/100
+|choice|switch 4|
+|
+|switch|p1a: Hitmonchan|Hitmonchan, M|100/100
+|-damage|p1a: Hitmonchan|94/100|[from] Stealth Rock
+|
+|upkeep
+|turn|14
+|choice|move rapidspin|switch 5
+|
+|switch|p2a: Golurk|Golurk|31/100
+|-damage|p2a: Golurk|25/100|[from] Stealth Rock
+|move|p1a: Hitmonchan|Rapid Spin|p2a: Golurk
+|-immune|p2a: Golurk|[msg]
+|
+|upkeep
+|turn|15
+|choice|move stoneedge|move earthquake
+|
+|move|p1a: Hitmonchan|Stone Edge|p2a: Golurk
+|-resisted|p2a: Golurk
+|-damage|p2a: Golurk|0 fnt
+|-damage|p1a: Hitmonchan|84/100|[from] item: Life Orb
+|faint|p2a: Golurk
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Rotom|Rotom-Fan|76/100
+|-damage|p2a: Rotom|51/100|[from] Stealth Rock
+|turn|16
+|choice|move rapidspin|move airslash
+|
+|move|p2a: Rotom|Air Slash|p1a: Hitmonchan
+|-supereffective|p1a: Hitmonchan
+|-damage|p1a: Hitmonchan|0 fnt
+|faint|p1a: Hitmonchan
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Klinklang|Klinklang|74/100
+|-damage|p1a: Klinklang|68/100|[from] Stealth Rock
+|turn|17
+|choice|move shiftgear|move willowisp
+|
+|move|p2a: Rotom|Will-O-Wisp|p1a: Klinklang
+|-status|p1a: Klinklang|brn
+|move|p1a: Klinklang|Shift Gear|p1a: Klinklang
+|-boost|p1a: Klinklang|spe|2
+|-boost|p1a: Klinklang|atk|1
+|
+|-heal|p1a: Klinklang|74/100 brn|[from] item: Leftovers
+|-damage|p1a: Klinklang|61/100 brn|[from] brn
+|upkeep
+|turn|18
+|choice|move return|move airslash
+|
+|move|p1a: Klinklang|Return|p2a: Rotom
+|-damage|p2a: Rotom|18/100
+|move|p2a: Rotom|Air Slash|p1a: Klinklang
+|-resisted|p1a: Klinklang
+|-damage|p1a: Klinklang|38/100 brn
+|
+|-heal|p1a: Klinklang|44/100 brn|[from] item: Leftovers
+|-damage|p1a: Klinklang|31/100 brn|[from] brn
+|upkeep
+|turn|19
+|choice|move geargrind|move voltswitch
+|
+|move|p1a: Klinklang|Gear Grind|p2a: Rotom
+|-resisted|p2a: Rotom
+|-crit|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|-hitcount|p2a: Rotom|1
+|faint|p2a: Rotom
+|
+|-heal|p1a: Klinklang|37/100 brn|[from] item: Leftovers
+|-damage|p1a: Klinklang|25/100 brn|[from] brn
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Exeggutor|Exeggutor, M|100/100
+|-damage|p2a: Exeggutor|88/100|[from] Stealth Rock
+|turn|20
+|choice|move geargrind|move psychic
+|
+|move|p1a: Klinklang|Gear Grind|p2a: Exeggutor
+|-damage|p2a: Exeggutor|71/100
+|-crit|p2a: Exeggutor
+|-damage|p2a: Exeggutor|43/100
+|-hitcount|p2a: Exeggutor|2
+|move|p2a: Exeggutor|Psychic|p1a: Klinklang
+|-resisted|p1a: Klinklang
+|-damage|p1a: Klinklang|0 fnt
+|faint|p1a: Klinklang
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Pyroar|Pyroar, M|100/100
+|-ability|p1a: Pyroar|Unnerve|p2: Tequilo Ren
+|-damage|p1a: Pyroar|76/100|[from] Stealth Rock
+|turn|21
+|choice|move fireblast|move sleeppowder
+|
+|move|p1a: Pyroar|Fire Blast|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|0 fnt
+|faint|p2a: Exeggutor
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Poliwrath|Poliwrath, M|25/100
+|-damage|p2a: Poliwrath|19/100|[from] Stealth Rock
+|turn|22
+|choice|move fireblast|move vacuumwave
+|
+|move|p2a: Poliwrath|Vacuum Wave|p1a: Pyroar
+|-supereffective|p1a: Pyroar
+|-damage|p1a: Pyroar|1/100
+|move|p1a: Pyroar|Fire Blast|p2a: Poliwrath
+|-resisted|p2a: Poliwrath
+|-damage|p2a: Poliwrath|0 fnt
+|faint|p2a: Poliwrath
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Cryogonal|Cryogonal|100/100
+|-damage|p2a: Cryogonal|76/100|[from] Stealth Rock
+|turn|23
+|choice|move fireblast|move hiddenpower
+|
+|move|p1a: Pyroar|Fire Blast|p2a: Cryogonal
+|-supereffective|p2a: Cryogonal
+|-damage|p2a: Cryogonal|0 fnt
+|faint|p2a: Cryogonal
+|
+|win|Beagle2eagle

@@ -1,0 +1,420 @@
+|j|monnsuto
+|j|kelechi
+|player|p1|monnsuto|63
+|player|p2|kelechi|124
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|1700,26691,11498,1048,14090,21056,55897,8144,24127,21397,30489,2469
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Audino, M|item
+|poke|p1|Murkrow, M|item
+|poke|p1|Regice|item
+|poke|p1|Solrock|item
+|poke|p1|Seaking, M|item
+|poke|p1|Vibrava, M|item
+|poke|p2|Stunfisk, M|item
+|poke|p2|Seaking, M|item
+|poke|p2|Ninjask, M|item
+|poke|p2|Armaldo, M|item
+|poke|p2|Klang|item
+|poke|p2|Monferno, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 4, team 2, team 3, team 1, team 5, team 6|team 5, team 2, team 3, team 4, team 1, team 6
+|
+|start
+|switch|p1a: Solrock|Solrock|100/100
+|switch|p2a: Klang|Klang|100/100
+|turn|1
+|choice|move stealthrock|move shiftgear
+|
+|move|p1a: Solrock|Stealth Rock|p2a: Klang
+|-sidestart|p2: kelechi|move: Stealth Rock
+|move|p2a: Klang|Shift Gear|p2a: Klang
+|-boost|p2a: Klang|spe|2
+|-boost|p2a: Klang|atk|1
+|
+|upkeep
+|turn|2
+|choice|move willowisp|move geargrind
+|
+|move|p2a: Klang|Gear Grind|p1a: Solrock
+|-supereffective|p1a: Solrock
+|-damage|p1a: Solrock|66/100
+|-supereffective|p1a: Solrock
+|-damage|p1a: Solrock|34/100
+|-hitcount|p1a: Solrock|2
+|move|p1a: Solrock|Will-O-Wisp|p2a: Klang
+|-status|p2a: Klang|brn
+|
+|-heal|p1a: Solrock|40/100|[from] item: Leftovers
+|-damage|p2a: Klang|88/100 brn|[from] brn
+|upkeep
+|turn|3
+|choice|switch 4|move shiftgear
+|
+|switch|p1a: Audino|Audino, M|100/100
+|move|p2a: Klang|Shift Gear|p2a: Klang
+|-boost|p2a: Klang|spe|2
+|-boost|p2a: Klang|atk|1
+|
+|-damage|p2a: Klang|76/100 brn|[from] brn
+|upkeep
+|turn|4
+|choice|move wish|move geargrind
+|
+|move|p2a: Klang|Gear Grind|p1a: Audino
+|-damage|p1a: Audino|87/100
+|-damage|p1a: Audino|73/100
+|-hitcount|p1a: Audino|2
+|move|p1a: Audino|Wish|p1a: Audino
+|
+|-heal|p1a: Audino|80/100|[from] item: Leftovers
+|-damage|p2a: Klang|63/100 brn|[from] brn
+|upkeep
+|turn|5
+|choice|move knockoff|switch 6
+|
+|switch|p2a: Monferno|Monferno, M|100/100
+|-damage|p2a: Monferno|88/100|[from] Stealth Rock
+|move|p1a: Audino|Knock Off|p2a: Monferno
+|-resisted|p2a: Monferno
+|-damage|p2a: Monferno|79/100
+|-enditem|p2a: Monferno|Eviolite|[from] move: Knock Off|[of] p1a: Audino
+|
+|-heal|p1a: Audino|100/100|[from] move: Wish|[wisher] Audino
+|upkeep
+|turn|6
+|choice|switch 5|move closecombat
+|
+|switch|p1a: Seaking|Seaking, M|100/100
+|move|p2a: Monferno|Close Combat|p1a: Seaking
+|-crit|p1a: Seaking
+|-damage|p1a: Seaking|0 fnt
+|-unboost|p2a: Monferno|def|1
+|-unboost|p2a: Monferno|spd|1
+|faint|p1a: Seaking
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Murkrow|Murkrow, M|100/100
+|turn|7
+|choice|move bravebird|move uturn
+|
+|move|p1a: Murkrow|Brave Bird|p2a: Monferno
+|-supereffective|p2a: Monferno
+|-damage|p2a: Monferno|0 fnt
+|-damage|p1a: Murkrow|74/100|[from] recoil|[of] p2a: Monferno
+|-damage|p1a: Murkrow|64/100|[from] item: Life Orb
+|faint|p2a: Monferno
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Ninjask|Ninjask, M|100/100
+|-damage|p2a: Ninjask|51/100|[from] Stealth Rock
+|turn|8
+|choice|move suckerpunch|move uturn
+|
+|move|p1a: Murkrow|Sucker Punch|p2a: Ninjask
+|-damage|p2a: Ninjask|0 fnt
+|-damage|p1a: Murkrow|54/100|[from] item: Life Orb
+|faint|p2a: Ninjask
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Seaking|Seaking, M|100/100
+|-damage|p2a: Seaking|88/100|[from] Stealth Rock
+|turn|9
+|choice|switch 3|move megahorn
+|
+|switch|p1a: Regice|Regice|100/100
+|move|p2a: Seaking|Megahorn|p1a: Regice
+|-damage|p1a: Regice|64/100
+|
+|-heal|p2a: Seaking|94/100|[from] item: Leftovers
+|-heal|p1a: Regice|70/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|choice|move thunderwave|move knockoff
+|
+|move|p2a: Seaking|Knock Off|p1a: Regice
+|-damage|p1a: Regice|44/100
+|-enditem|p1a: Regice|Leftovers|[from] move: Knock Off|[of] p2a: Seaking
+|move|p1a: Regice|Thunder Wave|p2a: Seaking
+|-ability|p2a: Seaking|Lightning Rod|boost
+|-boost|p2a: Seaking|spa|1
+|
+|-heal|p2a: Seaking|100/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|choice|move focusblast|move waterfall
+|
+|move|p2a: Seaking|Waterfall|p1a: Regice
+|-damage|p1a: Regice|10/100
+|move|p1a: Regice|Focus Blast|p2a: Seaking
+|-damage|p2a: Seaking|55/100
+|
+|-heal|p2a: Seaking|61/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|choice|move icebeam|move waterfall
+|
+|move|p2a: Seaking|Waterfall|p1a: Regice
+|-damage|p1a: Regice|0 fnt
+|faint|p1a: Regice
+|
+|-heal|p2a: Seaking|67/100|[from] item: Leftovers
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Murkrow|Murkrow, M|54/100
+|turn|13
+|choice|move bravebird|move knockoff
+|
+|move|p1a: Murkrow|Brave Bird|p2a: Seaking
+|-damage|p2a: Seaking|0 fnt
+|-damage|p1a: Murkrow|27/100|[from] recoil|[of] p2a: Seaking
+|-damage|p1a: Murkrow|17/100|[from] item: Life Orb
+|faint|p2a: Seaking
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Armaldo|Armaldo, M|100/100
+|-damage|p2a: Armaldo|76/100|[from] Stealth Rock
+|turn|14
+|choice|switch 6|move stoneedge
+|
+|switch|p1a: Vibrava|Vibrava, M|100/100
+|move|p2a: Armaldo|Stone Edge|p1a: Vibrava
+|-resisted|p1a: Vibrava
+|-damage|p1a: Vibrava|67/100
+|
+|-heal|p2a: Armaldo|82/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|choice|move toxic|move stoneedge
+|
+|move|p1a: Vibrava|Toxic|p2a: Armaldo
+|-status|p2a: Armaldo|tox
+|move|p2a: Armaldo|Stone Edge|p1a: Vibrava
+|-resisted|p1a: Vibrava
+|-damage|p1a: Vibrava|32/100
+|
+|-heal|p2a: Armaldo|88/100 tox|[from] item: Leftovers
+|-damage|p2a: Armaldo|82/100 tox|[from] psn
+|upkeep
+|turn|16
+|choice|move roost|move stoneedge
+|
+|move|p1a: Vibrava|Roost|p1a: Vibrava
+|-heal|p1a: Vibrava|82/100
+|move|p2a: Armaldo|Stone Edge|p1a: Vibrava
+|-resisted|p1a: Vibrava
+|-damage|p1a: Vibrava|47/100
+|
+|-heal|p2a: Armaldo|88/100 tox|[from] item: Leftovers
+|-damage|p2a: Armaldo|76/100 tox|[from] psn
+|upkeep
+|turn|17
+|choice|move roost|move stoneedge
+|
+|move|p1a: Vibrava|Roost|p1a: Vibrava
+|-heal|p1a: Vibrava|98/100
+|move|p2a: Armaldo|Stone Edge|p1a: Vibrava
+|-resisted|p1a: Vibrava
+|-crit|p1a: Vibrava
+|-damage|p1a: Vibrava|46/100
+|
+|-heal|p2a: Armaldo|82/100 tox|[from] item: Leftovers
+|-damage|p2a: Armaldo|63/100 tox|[from] psn
+|upkeep
+|turn|18
+|choice|move roost|move stoneedge
+|
+|move|p1a: Vibrava|Roost|p1a: Vibrava
+|-heal|p1a: Vibrava|96/100
+|move|p2a: Armaldo|Stone Edge|p1a: Vibrava|[miss]
+|-miss|p2a: Armaldo|p1a: Vibrava
+|
+|-heal|p2a: Armaldo|69/100 tox|[from] item: Leftovers
+|-damage|p2a: Armaldo|44/100 tox|[from] psn
+|upkeep
+|turn|19
+|choice|move earthquake|move knockoff
+|
+|move|p1a: Vibrava|Earthquake|p2a: Armaldo
+|-damage|p2a: Armaldo|19/100 tox
+|move|p2a: Armaldo|Knock Off|p1a: Vibrava
+|-damage|p1a: Vibrava|53/100
+|-enditem|p1a: Vibrava|Eviolite|[from] move: Knock Off|[of] p2a: Armaldo
+|
+|-heal|p2a: Armaldo|25/100 tox|[from] item: Leftovers
+|-damage|p2a: Armaldo|0 fnt|[from] psn
+|upkeep
+|faint|p2a: Armaldo
+|choice||switch 5
+|
+|switch|p2a: Stunfisk|Stunfisk, M|100/100
+|-damage|p2a: Stunfisk|94/100|[from] Stealth Rock
+|turn|20
+|choice|move roost|switch 6
+|
+|switch|p2a: Klang|Klang|63/100 brn
+|-damage|p2a: Klang|57/100 brn|[from] Stealth Rock
+|move|p1a: Vibrava|Roost|p1a: Vibrava
+|-heal|p1a: Vibrava|100/100
+|
+|-damage|p2a: Klang|45/100 brn|[from] brn
+|upkeep
+|turn|21
+|choice|move earthquake|move rest
+|
+|move|p1a: Vibrava|Earthquake|p2a: Klang
+|-supereffective|p2a: Klang
+|-damage|p2a: Klang|11/100 brn
+|move|p2a: Klang|Rest|p2a: Klang
+|-status|p2a: Klang|slp
+|-heal|p2a: Klang|100/100 slp|[silent]
+|-status|p2a: Klang|slp|[from] move: Rest
+|
+|upkeep
+|turn|22
+|choice|move earthquake|move sleeptalk
+|
+|move|p1a: Vibrava|Earthquake|p2a: Klang
+|-supereffective|p2a: Klang
+|-damage|p2a: Klang|70/100 slp
+|cant|p2a: Klang|slp
+|move|p2a: Klang|Sleep Talk|p2a: Klang
+|move|p2a: Klang|Rest|p2a: Klang|[from]Sleep Talk
+|-fail|p2a: Klang
+|
+|upkeep
+|turn|23
+|choice|move earthquake|move sleeptalk
+|
+|move|p1a: Vibrava|Earthquake|p2a: Klang
+|-supereffective|p2a: Klang
+|-crit|p2a: Klang
+|-damage|p2a: Klang|22/100 slp
+|cant|p2a: Klang|slp
+|move|p2a: Klang|Sleep Talk|p2a: Klang
+|move|p2a: Klang|Gear Grind|p1a: Vibrava|[from]Sleep Talk
+|-damage|p1a: Vibrava|75/100
+|-damage|p1a: Vibrava|46/100
+|-hitcount|p1a: Vibrava|2
+|
+|upkeep
+|turn|24
+|choice|move earthquake|move geargrind
+|
+|move|p1a: Vibrava|Earthquake|p2a: Klang
+|-supereffective|p2a: Klang
+|-damage|p2a: Klang|0 fnt
+|faint|p2a: Klang
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Stunfisk|Stunfisk, M|94/100
+|-damage|p2a: Stunfisk|88/100|[from] Stealth Rock
+|turn|25
+|choice|move roost|move earthpower
+|
+|move|p1a: Vibrava|Roost|p1a: Vibrava
+|-heal|p1a: Vibrava|97/100
+|move|p2a: Stunfisk|Earth Power|p1a: Vibrava
+|-immune|p1a: Vibrava|[msg]|[from] ability: Levitate
+|
+|-heal|p2a: Stunfisk|94/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|c|☆kelechi|you are immune to both of my attacks hahaha
+|choice|move earthquake|move discharge
+|
+|move|p1a: Vibrava|Earthquake|p2a: Stunfisk
+|-supereffective|p2a: Stunfisk
+|-damage|p2a: Stunfisk|63/100
+|move|p2a: Stunfisk|Discharge|p1a: Vibrava
+|-immune|p1a: Vibrava|[msg]
+|
+|-heal|p2a: Stunfisk|69/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|choice|move toxic|move stealthrock
+|
+|move|p1a: Vibrava|Toxic|p2a: Stunfisk
+|-status|p2a: Stunfisk|tox
+|move|p2a: Stunfisk|Stealth Rock|p1a: Vibrava
+|-sidestart|p1: monnsuto|move: Stealth Rock
+|
+|-heal|p2a: Stunfisk|75/100 tox|[from] item: Leftovers
+|-damage|p2a: Stunfisk|69/100 tox|[from] psn
+|upkeep
+|turn|28
+|c|☆monnsuto|gg
+|c|☆kelechi|gg
+|choice|move defog|move earthpower
+|
+|move|p1a: Vibrava|Defog|p2a: Stunfisk
+|-unboost|p2a: Stunfisk|evasion|1
+|-sideend|p2: kelechi|Stealth Rock|[from] move: Defog|[of] p2a: Stunfisk
+|-sideend|p1: monnsuto|Stealth Rock|[from] move: Defog|[of] p1a: Vibrava
+|move|p2a: Stunfisk|Earth Power|p1a: Vibrava
+|-immune|p1a: Vibrava|[msg]|[from] ability: Levitate
+|
+|-heal|p2a: Stunfisk|75/100 tox|[from] item: Leftovers
+|-damage|p2a: Stunfisk|63/100 tox|[from] psn
+|upkeep
+|turn|29
+|choice|switch 5|move discharge
+|
+|switch|p1a: Audino|Audino, M|100/100
+|move|p2a: Stunfisk|Discharge|p1a: Audino
+|-damage|p1a: Audino|84/100
+|
+|-heal|p1a: Audino|90/100|[from] item: Leftovers
+|-heal|p2a: Stunfisk|69/100 tox|[from] item: Leftovers
+|-damage|p2a: Stunfisk|50/100 tox|[from] psn
+|upkeep
+|turn|30
+|choice|move wish|move earthpower
+|
+|move|p1a: Audino|Wish|p1a: Audino
+|move|p2a: Stunfisk|Earth Power|p1a: Audino
+|-damage|p1a: Audino|74/100
+|
+|-heal|p1a: Audino|80/100|[from] item: Leftovers
+|-heal|p2a: Stunfisk|56/100 tox|[from] item: Leftovers
+|-damage|p2a: Stunfisk|32/100 tox|[from] psn
+|upkeep
+|turn|31
+|choice|switch 6|move earthpower
+|
+|switch|p1a: Murkrow|Murkrow, M|17/100
+|move|p2a: Stunfisk|Earth Power|p1a: Murkrow
+|-immune|p1a: Murkrow|[msg]
+|
+|-heal|p1a: Murkrow|95/100|[from] move: Wish|[wisher] Audino
+|-heal|p2a: Stunfisk|38/100 tox|[from] item: Leftovers
+|-damage|p2a: Stunfisk|7/100 tox|[from] psn
+|upkeep
+|turn|32
+|choice|move suckerpunch|move discharge
+|
+|move|p1a: Murkrow|Sucker Punch|p2a: Stunfisk
+|-damage|p2a: Stunfisk|0 fnt
+|-damage|p1a: Murkrow|85/100|[from] item: Life Orb
+|faint|p2a: Stunfisk
+|
+|win|monnsuto
+|l|kelechi
+|l|monnsuto
+|j|monnsuto

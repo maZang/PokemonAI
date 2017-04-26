@@ -1,0 +1,373 @@
+|j|AnonymousCoward
+|j|AHHRO
+|player|p1|AnonymousCoward|170
+|player|p2|AHHRO|37
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|29702,8951,46029,5309,15712,4330,45728,64686,6769,10494,11046,4483
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Deoxys|item
+|poke|p1|Arceus-*|item
+|poke|p1|Groudon|item
+|poke|p1|Zekrom|item
+|poke|p1|Lucario, M|item
+|poke|p1|Latios, M|item
+|poke|p2|Arceus-*|item
+|poke|p2|Mawile, M|item
+|poke|p2|Latios, M|item
+|poke|p2|Deoxys-Speed|item
+|poke|p2|Xerneas|item
+|poke|p2|Darkrai|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 1, team 2, team 3, team 4, team 5, team 6|team 6, team 2, team 3, team 4, team 5, team 1
+|
+|start
+|switch|p1a: Deoxys|Deoxys|100/100
+|switch|p2a: Darkrai|Darkrai|100/100
+|-ability|p1a: Deoxys|Pressure
+|turn|1
+|choice|move taunt|move taunt
+|
+|move|p1a: Deoxys|Taunt|p2a: Darkrai
+|-start|p2a: Darkrai|move: Taunt
+|cant|p2a: Darkrai|move: Taunt|Taunt
+|
+|upkeep
+|turn|2
+|choice|move stealthrock|move darkpulse
+|
+|move|p1a: Deoxys|Stealth Rock|p2a: Darkrai
+|-sidestart|p2: AHHRO|move: Stealth Rock
+|move|p2a: Darkrai|Dark Pulse|p1a: Deoxys
+|-supereffective|p1a: Deoxys
+|-enditem|p1a: Deoxys|Focus Sash
+|-damage|p1a: Deoxys|1/100
+|-damage|p2a: Darkrai|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|3
+|choice|switch 5|switch 6
+|
+|switch|p1a: Lucario|Lucario, M|100/100
+|switch|p2a: Arceus|Arceus-Water|100/100
+|-damage|p2a: Arceus|88/100|[from] Stealth Rock
+|
+|upkeep
+|turn|4
+|choice|move stoneedge mega|move defog
+|
+|detailschange|p1a: Lucario|Lucario-Mega, M
+|-mega|p1a: Lucario|Lucario|Lucarionite
+|move|p1a: Lucario|Stone Edge|p2a: Arceus
+|-crit|p2a: Arceus
+|-damage|p2a: Arceus|61/100
+|move|p2a: Arceus|Defog|p1a: Lucario
+|-unboost|p1a: Lucario|evasion|1
+|-sideend|p2: AHHRO|Stealth Rock|[from] move: Defog|[of] p2a: Arceus
+|
+|upkeep
+|turn|5
+|choice|move closecombat|move recover
+|
+|move|p1a: Lucario|Close Combat|p2a: Arceus
+|-damage|p2a: Arceus|14/100
+|-unboost|p1a: Lucario|def|1
+|-unboost|p1a: Lucario|spd|1
+|move|p2a: Arceus|Recover|p2a: Arceus
+|-heal|p2a: Arceus|64/100
+|
+|upkeep
+|turn|6
+|choice|switch 3|switch 4
+|
+|switch|p1a: Groudon|Groudon|100/100
+|detailschange|p1a: Groudon|Groudon-Primal
+|-primal|p1a: Groudon
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p1a: Groudon
+|switch|p2a: Deoxys|Deoxys-Speed|100/100
+|-ability|p2a: Deoxys|Pressure
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|7
+|choice|move lavaplume|move stealthrock
+|
+|move|p2a: Deoxys|Stealth Rock|p1a: Groudon
+|-sidestart|p1: AnonymousCoward|move: Stealth Rock
+|move|p1a: Groudon|Lava Plume|p2a: Deoxys
+|-damage|p2a: Deoxys|13/100
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|8
+|choice|move lavaplume|move spikes
+|
+|move|p2a: Deoxys|Spikes|p1a: Groudon
+|-sidestart|p1: AnonymousCoward|Spikes
+|move|p1a: Groudon|Lava Plume|p2a: Deoxys
+|-damage|p2a: Deoxys|0 fnt
+|faint|p2a: Deoxys
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Latios|Latios, M|100/100
+|turn|9
+|choice|move lavaplume|move calmmind
+|
+|move|p2a: Latios|Calm Mind|p2a: Latios
+|-boost|p2a: Latios|spa|1
+|-boost|p2a: Latios|spd|1
+|move|p1a: Groudon|Lava Plume|p2a: Latios
+|-resisted|p2a: Latios
+|-damage|p2a: Latios|86/100
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|10
+|choice|move roar|move calmmind
+|
+|move|p2a: Latios|Calm Mind|p2a: Latios
+|-boost|p2a: Latios|spa|1
+|-boost|p2a: Latios|spd|1
+|move|p1a: Groudon|Roar|p2a: Latios
+|drag|p2a: Mawile|Mawile, M|100/100
+|-ability|p2a: Mawile|Intimidate|boost
+|-unboost|p1a: Groudon|atk|1
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|11
+|choice|move lavaplume|switch 4
+|
+|switch|p2a: Arceus|Arceus-Water|64/100
+|move|p1a: Groudon|Lava Plume|p2a: Arceus
+|-resisted|p2a: Arceus
+|-damage|p2a: Arceus|45/100
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|12
+|choice|switch 6|move toxic
+|
+|-weather|none
+|switch|p1a: Latios|Latios, M|100/100
+|-damage|p1a: Latios|88/100|[from] Stealth Rock
+|move|p2a: Arceus|Toxic|p1a: Latios
+|-status|p1a: Latios|tox
+|
+|-damage|p1a: Latios|82/100 tox|[from] psn
+|upkeep
+|turn|13
+|choice|move defog|switch 5
+|
+|switch|p2a: Xerneas|Xerneas|100/100
+|-ability|p2a: Xerneas|Fairy Aura
+|move|p1a: Latios|Defog|p2a: Xerneas
+|-unboost|p2a: Xerneas|evasion|1
+|-sideend|p1: AnonymousCoward|Spikes|[from] move: Defog|[of] p1a: Latios
+|-sideend|p1: AnonymousCoward|Stealth Rock|[from] move: Defog|[of] p1a: Latios
+|
+|-damage|p1a: Latios|70/100 tox|[from] psn
+|upkeep
+|turn|14
+|choice|switch 3|move moonblast
+|
+|switch|p1a: Lucario|Lucario-Mega, M|100/100
+|move|p2a: Xerneas|Moonblast|p1a: Lucario
+|-damage|p1a: Lucario|0 fnt
+|-damage|p2a: Xerneas|91/100|[from] item: Life Orb
+|faint|p1a: Lucario
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Arceus|Arceus-Fire|100/100
+|turn|15
+|choice|move calmmind|move rockslide
+|
+|move|p2a: Xerneas|Rock Slide|p1a: Arceus|[miss]
+|-miss|p2a: Xerneas|p1a: Arceus
+|move|p1a: Arceus|Calm Mind|p1a: Arceus
+|-boost|p1a: Arceus|spa|1
+|-boost|p1a: Arceus|spd|1
+|
+|upkeep
+|turn|16
+|choice|move fireblast|move rockslide
+|
+|move|p2a: Xerneas|Rock Slide|p1a: Arceus
+|-supereffective|p1a: Arceus
+|-damage|p1a: Arceus|61/100
+|-damage|p2a: Xerneas|81/100|[from] item: Life Orb
+|move|p1a: Arceus|Fire Blast|p2a: Xerneas
+|-damage|p2a: Xerneas|0 fnt
+|faint|p2a: Xerneas
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Latios|Latios, M|86/100
+|turn|17
+|choice|move calmmind|move psyshock
+|
+|move|p2a: Latios|Psyshock|p1a: Arceus
+|-crit|p1a: Arceus
+|-damage|p1a: Arceus|0 fnt
+|faint|p1a: Arceus
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Zekrom|Zekrom|100/100
+|-ability|p1a: Zekrom|Teravolt
+|turn|18
+|choice|move dragonclaw|move dracometeor
+|
+|move|p2a: Latios|Draco Meteor|p1a: Zekrom
+|-supereffective|p1a: Zekrom
+|-damage|p1a: Zekrom|0 fnt
+|-unboost|p2a: Latios|spa|2
+|faint|p1a: Zekrom
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Latios|Latios, M|70/100 tox
+|turn|19
+|choice|move psyshock|switch 4
+|
+|switch|p2a: Mawile|Mawile, M|100/100
+|-ability|p2a: Mawile|Intimidate|boost
+|-unboost|p1a: Latios|atk|1
+|move|p1a: Latios|Psyshock|p2a: Mawile
+|-resisted|p2a: Mawile
+|-damage|p2a: Mawile|62/100
+|
+|-damage|p1a: Latios|64/100 tox|[from] psn
+|upkeep
+|turn|20
+|choice|switch 6|move playrough mega
+|
+|switch|p1a: Groudon|Groudon-Primal|100/100
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p1a: Groudon
+|detailschange|p2a: Mawile|Mawile-Mega, M
+|-mega|p2a: Mawile|Mawile|Mawilite
+|move|p2a: Mawile|Play Rough|p1a: Groudon
+|-resisted|p1a: Groudon
+|-damage|p1a: Groudon|79/100
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|21
+|choice|move lavaplume|switch 5
+|
+|switch|p2a: Arceus|Arceus-Water|45/100
+|move|p1a: Groudon|Lava Plume|p2a: Arceus
+|-resisted|p2a: Arceus
+|-crit|p2a: Arceus
+|-damage|p2a: Arceus|16/100
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|22
+|choice|move lavaplume|move recover
+|
+|move|p2a: Arceus|Recover|p2a: Arceus
+|-heal|p2a: Arceus|66/100
+|move|p1a: Groudon|Lava Plume|p2a: Arceus
+|-resisted|p2a: Arceus
+|-damage|p2a: Arceus|48/100
+|-status|p2a: Arceus|brn
+|
+|-weather|DesolateLand|[upkeep]
+|-damage|p2a: Arceus|36/100 brn|[from] brn
+|upkeep
+|turn|23
+|choice|move roar|move toxic
+|
+|move|p2a: Arceus|Toxic|p1a: Groudon
+|-status|p1a: Groudon|tox
+|move|p1a: Groudon|Roar|p2a: Arceus
+|drag|p2a: Mawile|Mawile-Mega, M|62/100
+|
+|-weather|DesolateLand|[upkeep]
+|-damage|p1a: Groudon|73/100 tox|[from] psn
+|upkeep
+|turn|24
+|choice|move lavaplume|switch 5
+|
+|switch|p2a: Arceus|Arceus-Water|36/100 brn
+|move|p1a: Groudon|Lava Plume|p2a: Arceus
+|-resisted|p2a: Arceus
+|-damage|p2a: Arceus|16/100 brn
+|
+|-weather|DesolateLand|[upkeep]
+|-damage|p2a: Arceus|3/100 brn|[from] brn
+|-damage|p1a: Groudon|60/100 tox|[from] psn
+|upkeep
+|turn|25
+|choice|move lavaplume|move icebeam
+|
+|move|p2a: Arceus|Ice Beam|p1a: Groudon
+|-damage|p1a: Groudon|45/100 tox
+|move|p1a: Groudon|Lava Plume|p2a: Arceus
+|-resisted|p2a: Arceus
+|-damage|p2a: Arceus|0 fnt
+|faint|p2a: Arceus
+|
+|-weather|DesolateLand|[upkeep]
+|-damage|p1a: Groudon|26/100 tox|[from] psn
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Darkrai|Darkrai|91/100
+|turn|26
+|choice|move lavaplume|move darkpulse
+|
+|move|p2a: Darkrai|Dark Pulse|p1a: Groudon
+|-damage|p1a: Groudon|0 fnt
+|-damage|p2a: Darkrai|81/100|[from] item: Life Orb
+|faint|p1a: Groudon
+|-weather|none
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Latios|Latios, M|64/100 tox
+|turn|27
+|choice|move dracometeor|move darkpulse
+|
+|move|p2a: Darkrai|Dark Pulse|p1a: Latios
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|0 fnt
+|-damage|p2a: Darkrai|71/100|[from] item: Life Orb
+|faint|p1a: Latios
+|
+|upkeep
+|c|☆AnonymousCoward|gg wp
+|choice|switch 5|
+|
+|switch|p1a: Deoxys|Deoxys|1/100
+|-ability|p1a: Deoxys|Pressure
+|turn|28
+|choice|move psychoboost|move darkpulse
+|
+|move|p1a: Deoxys|Psycho Boost|p2a: Darkrai
+|-immune|p2a: Darkrai|[msg]
+|move|p2a: Darkrai|Dark Pulse|p1a: Deoxys
+|-supereffective|p1a: Deoxys
+|-damage|p1a: Deoxys|0 fnt
+|-damage|p2a: Darkrai|61/100|[from] item: Life Orb
+|faint|p1a: Deoxys
+|
+|win|AHHRO
+|raw|AnonymousCoward's rating: 1169 &rarr; <strong>1140</strong><br />(-29 for losing)
+|raw|AHHRO's rating: 1106 &rarr; <strong>1136</strong><br />(+30 for winning)
+|c|☆AHHRO|gg

@@ -1,0 +1,401 @@
+|j|IT 1 1
+|j|voltdarkrai
+|player|p1|IT 1 1|169
+|player|p2|voltdarkrai|80
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|61082,2517,17891,58058,64620,38231,29097,27380,18739,46401,12875,27472
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Golem, M|item
+|poke|p1|Mightyena, M|item
+|poke|p1|Lickilicky, M|item
+|poke|p1|Rotom-Frost|item
+|poke|p1|Cryogonal|item
+|poke|p1|Gothitelle, M|item
+|poke|p2|Simipour, M|item
+|poke|p2|Vibrava, M|item
+|poke|p2|Regice|item
+|poke|p2|Roselia, M|item
+|poke|p2|Camerupt, M|item
+|poke|p2|Probopass, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|c|☆voltdarkrai|Hf
+|c|☆IT 1 1|can we stop getting shit tiers
+|c|☆IT 1 1|holy fuck
+|c|☆IT 1 1|i used to only play this for ubers
+|c|☆IT 1 1|and the fun of matchups
+|c|☆voltdarkrai|lmao
+|c|☆IT 1 1|ou
+|c|☆IT 1 1|ou offense v offense games were fun but otherwise oh was bad
+|c|☆IT 1 1|uu was mediocre bcz if either side had blissey or cresselia that's guaranteed 50 turns
+|c|☆IT 1 1|ru was fun
+|c|☆IT 1 1|nu was usually bad
+|c|☆voltdarkrai|fuck fatmons
+|c|☆IT 1 1|pu was just plain shit
+|choice|team 6, team 2, team 3, team 4, team 5, team 1|team 4, team 2, team 3, team 1, team 5, team 6
+|
+|start
+|switch|p1a: Gothitelle|Gothitelle, M|100/100
+|switch|p2a: Roselia|Roselia, M|100/100
+|turn|1
+|c|☆IT 1 1|o
+|c|☆IT 1 1|not stag
+|choice|move meanlook|switch 3
+|
+|switch|p2a: Regice|Regice|100/100
+|move|p1a: Gothitelle|Mean Look|p2a: Regice
+|-activate|p2a: Regice|trapped
+|
+|upkeep
+|turn|2
+|c|☆IT 1 1|lol rip
+|choice|move calmmind|move thunderwave
+|
+|move|p1a: Gothitelle|Calm Mind|p1a: Gothitelle
+|-boost|p1a: Gothitelle|spa|1
+|-boost|p1a: Gothitelle|spd|1
+|move|p2a: Regice|Thunder Wave|p1a: Gothitelle
+|-status|p1a: Gothitelle|par
+|
+|upkeep
+|turn|3
+|c|☆IT 1 1|i really wanted to try specs goth
+|c|☆IT 1 1|in ou
+|c|☆voltdarkrai|F
+|c|☆IT 1 1|or mono
+|choice|move calmmind|move icebeam
+|
+|move|p2a: Regice|Ice Beam|p1a: Gothitelle
+|-crit|p1a: Gothitelle
+|-damage|p1a: Gothitelle|40/100 par
+|move|p1a: Gothitelle|Calm Mind|p1a: Gothitelle
+|-boost|p1a: Gothitelle|spa|1
+|-boost|p1a: Gothitelle|spd|1
+|
+|-heal|p1a: Gothitelle|46/100 par|[from] item: Leftovers
+|upkeep
+|turn|4
+|c|☆IT 1 1|...
+|c|☆voltdarkrai|ez
+|choice|move rest|move icebeam
+|
+|move|p2a: Regice|Ice Beam|p1a: Gothitelle
+|-damage|p1a: Gothitelle|26/100 par
+|cant|p1a: Gothitelle|par
+|
+|-heal|p1a: Gothitelle|32/100 par|[from] item: Leftovers
+|upkeep
+|turn|5
+|choice|move rest|move icebeam
+|
+|move|p2a: Regice|Ice Beam|p1a: Gothitelle
+|-damage|p1a: Gothitelle|13/100 par
+|move|p1a: Gothitelle|Rest|p1a: Gothitelle
+|-status|p1a: Gothitelle|slp
+|-heal|p1a: Gothitelle|100/100 slp|[silent]
+|-status|p1a: Gothitelle|slp|[from] move: Rest
+|
+|upkeep
+|turn|6
+|c|☆voltdarkrai|ezier
+|c|☆voltdarkrai|you
+|c|☆voltdarkrai|fucking
+|c|☆voltdarkrai|what
+|choice|move calmmind|move icebeam
+|
+|cant|p1a: Gothitelle|slp
+|move|p2a: Regice|Ice Beam|p1a: Gothitelle
+|-damage|p1a: Gothitelle|81/100 slp
+|
+|-heal|p1a: Gothitelle|87/100 slp|[from] item: Leftovers
+|upkeep
+|turn|7
+|c|☆IT 1 1|☆voltdarkrai: ezier
+|c|☆IT 1 1|☆voltdarkrai: ezier
+|c|☆IT 1 1|☆voltdarkrai: ezier
+|c|☆voltdarkrai|die
+|choice|move calmmind|move icebeam
+|
+|cant|p1a: Gothitelle|slp
+|move|p2a: Regice|Ice Beam|p1a: Gothitelle
+|-damage|p1a: Gothitelle|68/100 slp
+|
+|-heal|p1a: Gothitelle|74/100 slp|[from] item: Leftovers
+|upkeep
+|turn|8
+|choice|move calmmind|move icebeam
+|
+|-curestatus|p1a: Gothitelle|slp|[msg]
+|move|p1a: Gothitelle|Calm Mind|p1a: Gothitelle
+|-boost|p1a: Gothitelle|spa|1
+|-boost|p1a: Gothitelle|spd|1
+|move|p2a: Regice|Ice Beam|p1a: Gothitelle
+|-damage|p1a: Gothitelle|58/100
+|
+|-heal|p1a: Gothitelle|64/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|choice|move calmmind|move thunderwave
+|
+|move|p1a: Gothitelle|Calm Mind|p1a: Gothitelle
+|-boost|p1a: Gothitelle|spa|1
+|-boost|p1a: Gothitelle|spd|1
+|move|p2a: Regice|Thunder Wave|p1a: Gothitelle
+|-status|p1a: Gothitelle|par
+|
+|-heal|p1a: Gothitelle|70/100 par|[from] item: Leftovers
+|upkeep
+|turn|10
+|choice|move rest|move icebeam
+|
+|move|p2a: Regice|Ice Beam|p1a: Gothitelle
+|-damage|p1a: Gothitelle|56/100 par
+|move|p1a: Gothitelle|Rest|p1a: Gothitelle
+|-status|p1a: Gothitelle|slp
+|-heal|p1a: Gothitelle|100/100 slp|[silent]
+|-status|p1a: Gothitelle|slp|[from] move: Rest
+|
+|upkeep
+|turn|11
+|choice|move calmmind|move icebeam
+|
+|cant|p1a: Gothitelle|slp
+|move|p2a: Regice|Ice Beam|p1a: Gothitelle
+|-damage|p1a: Gothitelle|88/100 slp
+|
+|-heal|p1a: Gothitelle|94/100 slp|[from] item: Leftovers
+|upkeep
+|turn|12
+|choice|move calmmind|move icebeam
+|
+|cant|p1a: Gothitelle|slp
+|move|p2a: Regice|Ice Beam|p1a: Gothitelle
+|-damage|p1a: Gothitelle|80/100 slp
+|
+|-heal|p1a: Gothitelle|86/100 slp|[from] item: Leftovers
+|upkeep
+|turn|13
+|choice|move calmmind|move icebeam
+|
+|-curestatus|p1a: Gothitelle|slp|[msg]
+|move|p1a: Gothitelle|Calm Mind|p1a: Gothitelle
+|-boost|p1a: Gothitelle|spa|1
+|-boost|p1a: Gothitelle|spd|1
+|move|p2a: Regice|Ice Beam|p1a: Gothitelle
+|-damage|p1a: Gothitelle|75/100
+|
+|-heal|p1a: Gothitelle|81/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|choice|move calmmind|move thunderwave
+|
+|move|p1a: Gothitelle|Calm Mind|p1a: Gothitelle
+|-boost|p1a: Gothitelle|spa|1
+|-boost|p1a: Gothitelle|spd|1
+|move|p2a: Regice|Thunder Wave|p1a: Gothitelle
+|-status|p1a: Gothitelle|par
+|
+|-heal|p1a: Gothitelle|87/100 par|[from] item: Leftovers
+|upkeep
+|turn|15
+|choice|move rest|move icebeam
+|
+|move|p2a: Regice|Ice Beam|p1a: Gothitelle
+|-crit|p1a: Gothitelle
+|-damage|p1a: Gothitelle|25/100 par
+|move|p1a: Gothitelle|Rest|p1a: Gothitelle
+|-status|p1a: Gothitelle|slp
+|-heal|p1a: Gothitelle|100/100 slp|[silent]
+|-status|p1a: Gothitelle|slp|[from] move: Rest
+|
+|upkeep
+|turn|16
+|choice|move psychic|move icebeam
+|
+|cant|p1a: Gothitelle|slp
+|move|p2a: Regice|Ice Beam|p1a: Gothitelle
+|-damage|p1a: Gothitelle|91/100 slp
+|
+|-heal|p1a: Gothitelle|97/100 slp|[from] item: Leftovers
+|upkeep
+|turn|17
+|c|☆voltdarkrai|smh
+|choice|move psychic|move icebeam
+|
+|cant|p1a: Gothitelle|slp
+|move|p2a: Regice|Ice Beam|p1a: Gothitelle
+|-damage|p1a: Gothitelle|87/100 slp
+|
+|-heal|p1a: Gothitelle|93/100 slp|[from] item: Leftovers
+|upkeep
+|turn|18
+|choice|move psychic|move thunderwave
+|
+|-curestatus|p1a: Gothitelle|slp|[msg]
+|move|p1a: Gothitelle|Psychic|p2a: Regice
+|-damage|p2a: Regice|35/100
+|move|p2a: Regice|Thunder Wave|p1a: Gothitelle
+|-status|p1a: Gothitelle|par
+|
+|-heal|p2a: Regice|41/100|[from] item: Leftovers
+|-heal|p1a: Gothitelle|99/100 par|[from] item: Leftovers
+|upkeep
+|turn|19
+|choice|move rest|move icebeam
+|
+|move|p2a: Regice|Ice Beam|p1a: Gothitelle
+|-damage|p1a: Gothitelle|88/100 par
+|move|p1a: Gothitelle|Rest|p1a: Gothitelle
+|-status|p1a: Gothitelle|slp
+|-heal|p1a: Gothitelle|100/100 slp|[silent]
+|-status|p1a: Gothitelle|slp|[from] move: Rest
+|
+|-heal|p2a: Regice|47/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|c|☆voltdarkrai|this set is broke
+|c|☆voltdarkrai|wtf
+|choice|move psychic|move icebeam
+|
+|cant|p1a: Gothitelle|slp
+|move|p2a: Regice|Ice Beam|p1a: Gothitelle
+|-damage|p1a: Gothitelle|91/100 slp
+|
+|-heal|p1a: Gothitelle|97/100 slp|[from] item: Leftovers
+|-heal|p2a: Regice|53/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|choice|move psychic|move icebeam
+|
+|cant|p1a: Gothitelle|slp
+|move|p2a: Regice|Ice Beam|p1a: Gothitelle
+|-damage|p1a: Gothitelle|87/100 slp
+|
+|-heal|p1a: Gothitelle|94/100 slp|[from] item: Leftovers
+|-heal|p2a: Regice|59/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|c|☆IT 1 1|i think it assumes your opponent isn't stupid enough to let it set up
+|choice|move psychic|move thunderwave
+|
+|-curestatus|p1a: Gothitelle|slp|[msg]
+|move|p1a: Gothitelle|Psychic|p2a: Regice
+|-damage|p2a: Regice|0 fnt
+|faint|p2a: Regice
+|
+|-heal|p1a: Gothitelle|99/100|[from] item: Leftovers
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Probopass|Probopass, M|100/100
+|turn|23
+|choice|move psychic|move earthpower
+|
+|move|p1a: Gothitelle|Psychic|p2a: Probopass
+|-resisted|p2a: Probopass
+|-damage|p2a: Probopass|60/100
+|move|p2a: Probopass|Earth Power|p1a: Gothitelle
+|-damage|p1a: Gothitelle|94/100
+|
+|-heal|p1a: Gothitelle|99/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|choice|move psychic|move earthpower
+|
+|move|p1a: Gothitelle|Psychic|p2a: Probopass
+|-resisted|p2a: Probopass
+|-damage|p2a: Probopass|20/100
+|move|p2a: Probopass|Earth Power|p1a: Gothitelle
+|-damage|p1a: Gothitelle|94/100
+|
+|-heal|p1a: Gothitelle|100/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|c|☆voltdarkrai|i had no choice tbere nub
+|choice|move psychic|move earthpower
+|
+|move|p1a: Gothitelle|Psychic|p2a: Probopass
+|-resisted|p2a: Probopass
+|-damage|p2a: Probopass|0 fnt
+|faint|p2a: Probopass
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Camerupt|Camerupt, M|100/100
+|turn|26
+|choice|move psychic|move roar
+|
+|move|p1a: Gothitelle|Psychic|p2a: Camerupt
+|-damage|p2a: Camerupt|0 fnt
+|faint|p2a: Camerupt
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Vibrava|Vibrava, M|100/100
+|turn|27
+|choice|move psychic|move toxic
+|
+|move|p2a: Vibrava|Toxic|p1a: Gothitelle|[miss]
+|-miss|p2a: Vibrava|p1a: Gothitelle
+|move|p1a: Gothitelle|Psychic|p2a: Vibrava
+|-damage|p2a: Vibrava|12/100
+|-unboost|p2a: Vibrava|spd|1
+|
+|upkeep
+|turn|28
+|choice|move psychic|move toxic
+|
+|move|p2a: Vibrava|Toxic|p1a: Gothitelle
+|-status|p1a: Gothitelle|tox
+|move|p1a: Gothitelle|Psychic|p2a: Vibrava
+|-damage|p2a: Vibrava|0 fnt
+|faint|p2a: Vibrava
+|
+|-damage|p1a: Gothitelle|94/100 tox|[from] psn
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Simipour|Simipour, M|100/100
+|turn|29
+|c|☆IT 1 1|now ur thinking
+|choice|move psychic|move knockoff
+|
+|move|p2a: Simipour|Knock Off|p1a: Gothitelle
+|-supereffective|p1a: Gothitelle
+|-damage|p1a: Gothitelle|48/100 tox
+|-enditem|p1a: Gothitelle|Leftovers|[from] move: Knock Off|[of] p2a: Simipour
+|-damage|p2a: Simipour|91/100|[from] item: Life Orb
+|move|p1a: Gothitelle|Psychic|p2a: Simipour
+|-damage|p2a: Simipour|0 fnt
+|faint|p2a: Simipour
+|
+|-damage|p1a: Gothitelle|36/100 tox|[from] psn
+|upkeep
+|c|☆IT 1 1|nvm
+|c|☆voltdarkrai|i mean i lost regardless
+|choice||switch 3
+|
+|switch|p2a: Roselia|Roselia, M|100/100
+|turn|30
+|c|☆IT 1 1|thought you'd sub
+|choice|move psychic|move gigadrain
+|
+|move|p2a: Roselia|Giga Drain|p1a: Gothitelle
+|-damage|p1a: Gothitelle|27/100 tox
+|move|p1a: Gothitelle|Psychic|p2a: Roselia
+|-supereffective|p2a: Roselia
+|-damage|p2a: Roselia|0 fnt
+|faint|p2a: Roselia
+|
+|win|IT 1 1
+|c|☆IT 1 1|gg 2 ez
+|c|☆voltdarkrai|nub
+|l|voltdarkrai
+|c|☆IT 1 1|easiest 6-0
+|c|☆IT 1 1|of my life

@@ -1,0 +1,610 @@
+|j|monnsuto
+|j|kelechi
+|player|p1|monnsuto|63
+|player|p2|kelechi|124
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|63481,38939,56456,50443,62631,61401,40348,8728,17123,9234,30666,62691
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Ferrothorn, M|item
+|poke|p1|Greninja, M|item
+|poke|p1|Arceus-*|item
+|poke|p1|Latios, M|item
+|poke|p1|Tyranitar, M|item
+|poke|p1|Blaziken, M|item
+|poke|p2|Ho-Oh|item
+|poke|p2|Deoxys-Speed|item
+|poke|p2|Lugia|item
+|poke|p2|Scizor, M|item
+|poke|p2|Arceus-*|item
+|poke|p2|Kyogre|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|c|☆monnsuto|wow
+|c|☆kelechi|shii
+|choice|team 3, team 2, team 1, team 4, team 5, team 6|team 6, team 2, team 3, team 4, team 5, team 1
+|
+|start
+|switch|p1a: Arceus|Arceus-Ghost|100/100
+|switch|p2a: Kyogre|Kyogre|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|turn|1
+|choice|move swordsdance|move thunder
+|
+|move|p1a: Arceus|Swords Dance|p1a: Arceus
+|-boost|p1a: Arceus|atk|2
+|move|p2a: Kyogre|Thunder|p1a: Arceus
+|-damage|p1a: Arceus|53/100
+|-status|p1a: Arceus|par
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|choice|move extremespeed|move thunder
+|
+|move|p1a: Arceus|Extreme Speed|p2a: Kyogre
+|-damage|p2a: Kyogre|47/100
+|move|p2a: Kyogre|Thunder|p1a: Arceus
+|-damage|p1a: Arceus|5/100 par
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|choice|move extremespeed|move thunder
+|
+|cant|p1a: Arceus|par
+|move|p2a: Kyogre|Thunder|p1a: Arceus
+|-damage|p1a: Arceus|0 fnt
+|faint|p1a: Arceus
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Latios|Latios, M|100/100
+|turn|4
+|choice|move dracometeor|move thunder
+|
+|move|p1a: Latios|Draco Meteor|p2a: Kyogre
+|-damage|p2a: Kyogre|0 fnt
+|-unboost|p1a: Latios|spa|2
+|faint|p2a: Kyogre
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Arceus|Arceus-Water|100/100
+|turn|5
+|choice|switch 3|move icebeam
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|move|p2a: Arceus|Ice Beam|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|86/100
+|-status|p1a: Ferrothorn|frz
+|
+|-weather|none
+|-heal|p1a: Ferrothorn|92/100 frz|[from] item: Leftovers
+|upkeep
+|turn|6
+|c|☆monnsuto|oh
+|choice|switch 3|switch 6
+|
+|switch|p2a: Ho-Oh|Ho-Oh|100/100
+|switch|p1a: Latios|Latios, M|100/100
+|
+|upkeep
+|turn|7
+|choice|move dracometeor|move bravebird
+|
+|move|p1a: Latios|Draco Meteor|p2a: Ho-Oh
+|-damage|p2a: Ho-Oh|48/100
+|-unboost|p1a: Latios|spa|2
+|move|p2a: Ho-Oh|Brave Bird|p1a: Latios
+|-damage|p1a: Latios|0 fnt
+|-damage|p2a: Ho-Oh|25/100|[from] recoil|[of] p1a: Latios
+|-damage|p2a: Ho-Oh|15/100|[from] item: Life Orb
+|faint|p1a: Latios
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Blaziken|Blaziken, M|100/100
+|turn|8
+|choice|move protect|move recover
+|
+|move|p1a: Blaziken|Protect|p1a: Blaziken
+|-singleturn|p1a: Blaziken|Protect
+|move|p2a: Ho-Oh|Recover|p2a: Ho-Oh
+|-heal|p2a: Ho-Oh|65/100
+|
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|turn|9
+|choice|move flareblitz|move bravebird
+|
+|move|p1a: Blaziken|Flare Blitz|p2a: Ho-Oh
+|-resisted|p2a: Ho-Oh
+|-crit|p2a: Ho-Oh
+|-damage|p2a: Ho-Oh|15/100
+|-damage|p1a: Blaziken|78/100|[from] recoil|[of] p2a: Ho-Oh
+|-damage|p1a: Blaziken|68/100|[from] item: Life Orb
+|move|p2a: Ho-Oh|Brave Bird|p1a: Blaziken
+|-supereffective|p1a: Blaziken
+|-damage|p1a: Blaziken|0 fnt
+|-damage|p2a: Ho-Oh|0 fnt|[from] recoil|[of] p1a: Blaziken
+|faint|p1a: Blaziken
+|faint|p2a: Ho-Oh
+|
+|upkeep
+|c|☆monnsuto|oh
+|choice|switch 2|switch 6
+|
+|switch|p1a: Greninja|Greninja, M|100/100
+|switch|p2a: Arceus|Arceus-Water|100/100
+|turn|10
+|choice|move toxicspikes|move toxic
+|
+|move|p1a: Greninja|Toxic Spikes|p2a: Arceus
+|-start|p1a: Greninja|typechange|Poison|[from] Protean
+|-sidestart|p2: kelechi|move: Toxic Spikes
+|move|p2a: Arceus|Toxic|p1a: Greninja|[miss]
+|-miss|p2a: Arceus|p1a: Greninja
+|
+|upkeep
+|turn|11
+|choice|move taunt|move icebeam
+|
+|move|p1a: Greninja|Taunt|p2a: Arceus
+|-start|p1a: Greninja|typechange|Dark|[from] Protean
+|-start|p2a: Arceus|move: Taunt
+|move|p2a: Arceus|Ice Beam|p1a: Greninja
+|-damage|p1a: Greninja|59/100
+|
+|upkeep
+|turn|12
+|choice|move scald|move icebeam
+|
+|move|p1a: Greninja|Scald|p2a: Arceus
+|-start|p1a: Greninja|typechange|Water|[from] Protean
+|-resisted|p2a: Arceus
+|-damage|p2a: Arceus|92/100
+|move|p2a: Arceus|Ice Beam|p1a: Greninja
+|-resisted|p1a: Greninja
+|-damage|p1a: Greninja|41/100
+|
+|upkeep
+|turn|13
+|choice|switch 3|move icebeam
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|92/100 frz
+|move|p2a: Arceus|Ice Beam|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|76/100 frz
+|
+|-heal|p1a: Ferrothorn|82/100 frz|[from] item: Leftovers
+|-end|p2a: Arceus|move: Taunt
+|upkeep
+|turn|14
+|choice|move protect|move toxic
+|
+|cant|p1a: Ferrothorn|frz
+|move|p2a: Arceus|Toxic|p1a: Ferrothorn
+|-fail|p1a: Ferrothorn
+|
+|-heal|p1a: Ferrothorn|88/100 frz|[from] item: Leftovers
+|upkeep
+|turn|15
+|choice|move leechseed|move defog
+|
+|move|p2a: Arceus|Defog|p1a: Ferrothorn
+|-unboost|p1a: Ferrothorn|evasion|1
+|-sideend|p2: kelechi|Toxic Spikes|[from] move: Defog|[of] p2a: Arceus
+|cant|p1a: Ferrothorn|frz
+|
+|-heal|p1a: Ferrothorn|94/100 frz|[from] item: Leftovers
+|upkeep
+|turn|16
+|choice|move leechseed|switch 2
+|
+|switch|p2a: Deoxys|Deoxys-Speed|100/100
+|-ability|p2a: Deoxys|Pressure
+|cant|p1a: Ferrothorn|frz
+|
+|-heal|p1a: Ferrothorn|99/100 frz|[from] item: Leftovers
+|upkeep
+|turn|17
+|choice|switch 3|move stealthrock
+|
+|switch|p1a: Greninja|Greninja, M|41/100
+|move|p2a: Deoxys|Stealth Rock|p1a: Greninja
+|-sidestart|p1: monnsuto|move: Stealth Rock
+|
+|upkeep
+|turn|18
+|choice|move shadowsneak|move lightscreen
+|
+|move|p1a: Greninja|Shadow Sneak|p2a: Deoxys
+|-start|p1a: Greninja|typechange|Ghost|[from] Protean
+|-supereffective|p2a: Deoxys
+|-damage|p2a: Deoxys|61/100
+|move|p2a: Deoxys|Light Screen|p2a: Deoxys
+|-sidestart|p2: kelechi|move: Light Screen
+|
+|upkeep
+|turn|19
+|choice|move taunt|move taunt
+|
+|move|p2a: Deoxys|Taunt|p1a: Greninja
+|-start|p1a: Greninja|move: Taunt
+|cant|p1a: Greninja|move: Taunt|Taunt
+|
+|upkeep
+|turn|20
+|choice|switch 3|move reflect
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|99/100 frz
+|-damage|p1a: Ferrothorn|94/100 frz|[from] Stealth Rock
+|move|p2a: Deoxys|Reflect|p2a: Deoxys
+|-sidestart|p2: kelechi|Reflect
+|
+|-heal|p1a: Ferrothorn|99/100 frz|[from] item: Leftovers
+|upkeep
+|turn|21
+|choice|move protect|switch 4
+|
+|switch|p2a: Scizor|Scizor, M|100/100
+|-curestatus|p1a: Ferrothorn|frz|[msg]
+|move|p1a: Ferrothorn|Protect|p1a: Ferrothorn
+|-fail|p1a: Ferrothorn
+|
+|-heal|p1a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|choice|move leechseed|move bulletpunch mega
+|
+|detailschange|p2a: Scizor|Scizor-Mega, M
+|-mega|p2a: Scizor|Scizor|Scizorite
+|move|p2a: Scizor|Bullet Punch|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|88/100
+|-damage|p2a: Scizor|88/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|move|p1a: Ferrothorn|Leech Seed|p2a: Scizor|[miss]
+|-miss|p1a: Ferrothorn|p2a: Scizor
+|
+|-heal|p1a: Ferrothorn|94/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|choice|move leechseed|move bulletpunch
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|83/100
+|-damage|p2a: Scizor|76/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|move|p1a: Ferrothorn|Leech Seed|p2a: Scizor
+|-start|p2a: Scizor|move: Leech Seed
+|
+|-heal|p1a: Ferrothorn|89/100|[from] item: Leftovers
+|-damage|p2a: Scizor|64/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|100/100|[silent]
+|upkeep
+|turn|24
+|choice|move spikes|switch 3
+|
+|switch|p2a: Lugia|Lugia|100/100
+|move|p1a: Ferrothorn|Spikes|p2a: Lugia
+|-sidestart|p2: kelechi|Spikes
+|
+|upkeep
+|turn|25
+|choice|move leechseed|move icebeam
+|
+|move|p2a: Lugia|Ice Beam|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|88/100
+|move|p1a: Ferrothorn|Leech Seed|p2a: Lugia
+|-start|p2a: Lugia|move: Leech Seed
+|
+|-heal|p1a: Ferrothorn|94/100|[from] item: Leftovers
+|-damage|p2a: Lugia|88/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|100/100|[silent]
+|-sideend|p2: kelechi|move: Light Screen
+|upkeep
+|turn|26
+|choice|move spikes|move icebeam
+|
+|move|p2a: Lugia|Ice Beam|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|89/100
+|move|p1a: Ferrothorn|Spikes|p2a: Lugia
+|-sidestart|p2: kelechi|Spikes
+|
+|-heal|p2a: Lugia|94/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|95/100|[from] item: Leftovers
+|-damage|p2a: Lugia|82/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|100/100|[silent]
+|upkeep
+|turn|27
+|choice|move spikes|move icebeam
+|
+|move|p2a: Lugia|Ice Beam|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|88/100
+|move|p1a: Ferrothorn|Spikes|p2a: Lugia
+|-sidestart|p2: kelechi|Spikes
+|
+|-heal|p2a: Lugia|88/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|94/100|[from] item: Leftovers
+|-damage|p2a: Lugia|76/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|100/100|[silent]
+|-sideend|p2: kelechi|Reflect
+|upkeep
+|turn|28
+|c|☆kelechi|i have no attacking move that work on him :/
+|choice|move protect|move icebeam
+|
+|move|p1a: Ferrothorn|Protect|p1a: Ferrothorn
+|-singleturn|p1a: Ferrothorn|Protect
+|move|p2a: Lugia|Ice Beam|p1a: Ferrothorn
+|-activate|p1a: Ferrothorn|move: Protect
+|
+|-heal|p2a: Lugia|82/100|[from] item: Leftovers
+|-damage|p2a: Lugia|69/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|upkeep
+|turn|29
+|choice|move gyroball|move whirlwind
+|
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Lugia
+|-damage|p2a: Lugia|56/100
+|move|p2a: Lugia|Whirlwind|p1a: Ferrothorn
+|drag|p1a: Greninja|Greninja, M|41/100
+|-damage|p1a: Greninja|29/100|[from] Stealth Rock
+|
+|-heal|p2a: Lugia|62/100|[from] item: Leftovers
+|-damage|p2a: Lugia|49/100|[from] Leech Seed|[of] p1a: Greninja
+|-heal|p1a: Greninja|47/100|[silent]
+|upkeep
+|turn|30
+|choice|move shadowsneak|move icebeam
+|
+|move|p1a: Greninja|Shadow Sneak|p2a: Lugia
+|-start|p1a: Greninja|typechange|Ghost|[from] Protean
+|-supereffective|p2a: Lugia
+|-damage|p2a: Lugia|32/100
+|move|p2a: Lugia|Ice Beam|p1a: Greninja
+|-damage|p1a: Greninja|16/100
+|
+|-heal|p2a: Lugia|38/100|[from] item: Leftovers
+|-damage|p2a: Lugia|26/100|[from] Leech Seed|[of] p1a: Greninja
+|-heal|p1a: Greninja|34/100|[silent]
+|upkeep
+|turn|31
+|choice|move shadowsneak|move roost
+|
+|move|p1a: Greninja|Shadow Sneak|p2a: Lugia
+|-supereffective|p2a: Lugia
+|-damage|p2a: Lugia|8/100
+|move|p2a: Lugia|Roost|p2a: Lugia
+|-heal|p2a: Lugia|58/100
+|
+|-heal|p2a: Lugia|64/100|[from] item: Leftovers
+|-damage|p2a: Lugia|52/100|[from] Leech Seed|[of] p1a: Greninja
+|-heal|p1a: Greninja|52/100|[silent]
+|upkeep
+|turn|32
+|choice|move shadowsneak|move icebeam
+|
+|move|p1a: Greninja|Shadow Sneak|p2a: Lugia
+|-supereffective|p2a: Lugia
+|-damage|p2a: Lugia|34/100
+|move|p2a: Lugia|Ice Beam|p1a: Greninja
+|-damage|p1a: Greninja|24/100
+|-status|p1a: Greninja|frz
+|
+|-heal|p2a: Lugia|40/100|[from] item: Leftovers
+|-damage|p2a: Lugia|28/100|[from] Leech Seed|[of] p1a: Greninja
+|-heal|p1a: Greninja|42/100 frz|[silent]
+|upkeep
+|turn|33
+|c|☆monnsuto|wtf
+|choice|move shadowsneak|switch 2
+|
+|switch|p2a: Arceus|Arceus-Water|92/100
+|-damage|p2a: Arceus|68/100|[from] Spikes
+|cant|p1a: Greninja|frz
+|
+|upkeep
+|turn|34
+|choice|move taunt|move toxic
+|
+|-curestatus|p1a: Greninja|frz|[msg]
+|move|p1a: Greninja|Taunt|p2a: Arceus
+|-start|p1a: Greninja|typechange|Dark|[from] Protean
+|-start|p2a: Arceus|move: Taunt
+|cant|p2a: Arceus|move: Taunt|Toxic
+|
+|upkeep
+|turn|35
+|choice|switch 3|move icebeam
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p1a: Ferrothorn|95/100|[from] Stealth Rock
+|move|p2a: Arceus|Ice Beam|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|80/100
+|
+|-heal|p1a: Ferrothorn|86/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|choice|move leechseed|move icebeam
+|
+|move|p2a: Arceus|Ice Beam|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|72/100
+|move|p1a: Ferrothorn|Leech Seed|p2a: Arceus
+|-start|p2a: Arceus|move: Leech Seed
+|
+|-heal|p1a: Ferrothorn|78/100|[from] item: Leftovers
+|-damage|p2a: Arceus|55/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|93/100|[silent]
+|-end|p2a: Arceus|move: Taunt
+|upkeep
+|turn|37
+|choice|move gyroball|move icebeam
+|
+|move|p2a: Arceus|Ice Beam|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|79/100
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Arceus
+|-resisted|p2a: Arceus
+|-damage|p2a: Arceus|47/100
+|
+|-heal|p1a: Ferrothorn|85/100|[from] item: Leftovers
+|-damage|p2a: Arceus|35/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|100/100|[silent]
+|upkeep
+|turn|38
+|choice|move spikes|move icebeam
+|
+|move|p2a: Arceus|Ice Beam|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|85/100
+|-status|p1a: Ferrothorn|frz
+|cant|p1a: Ferrothorn|frz
+|
+|-heal|p1a: Ferrothorn|91/100 frz|[from] item: Leftovers
+|-damage|p2a: Arceus|22/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|100/100 frz|[silent]
+|upkeep
+|turn|39
+|c|☆monnsuto|wtf
+|choice|move protect|switch 2
+|
+|switch|p2a: Lugia|Lugia|28/100
+|-curestatus|p1a: Ferrothorn|frz|[msg]
+|move|p1a: Ferrothorn|Protect|p1a: Ferrothorn
+|-fail|p1a: Ferrothorn
+|
+|-heal|p2a: Lugia|34/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|c|☆monnsuto|wow
+|choice|move leechseed|move icebeam
+|
+|move|p2a: Lugia|Ice Beam|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|89/100
+|move|p1a: Ferrothorn|Leech Seed|p2a: Lugia
+|-start|p2a: Lugia|move: Leech Seed
+|
+|-heal|p2a: Lugia|40/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|95/100|[from] item: Leftovers
+|-damage|p2a: Lugia|28/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|100/100|[silent]
+|upkeep
+|turn|41
+|choice|switch 3|move icebeam
+|
+|switch|p1a: Greninja|Greninja, M|42/100
+|-damage|p1a: Greninja|29/100|[from] Stealth Rock
+|move|p2a: Lugia|Ice Beam|p1a: Greninja
+|-resisted|p1a: Greninja
+|-damage|p1a: Greninja|15/100
+|
+|-heal|p2a: Lugia|34/100|[from] item: Leftovers
+|-damage|p2a: Lugia|22/100|[from] Leech Seed|[of] p1a: Greninja
+|-heal|p1a: Greninja|33/100|[silent]
+|upkeep
+|turn|42
+|choice|move shadowsneak|move icebeam
+|
+|move|p1a: Greninja|Shadow Sneak|p2a: Lugia
+|-start|p1a: Greninja|typechange|Ghost|[from] Protean
+|-supereffective|p2a: Lugia
+|-damage|p2a: Lugia|4/100
+|move|p2a: Lugia|Ice Beam|p1a: Greninja
+|-crit|p1a: Greninja
+|-damage|p1a: Greninja|0 fnt
+|faint|p1a: Greninja
+|
+|-heal|p2a: Lugia|10/100|[from] item: Leftovers
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p1a: Ferrothorn|95/100|[from] Stealth Rock
+|turn|43
+|choice|move gyroball|move icebeam
+|
+|move|p2a: Lugia|Ice Beam|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|83/100
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Lugia
+|-damage|p2a: Lugia|0 fnt
+|faint|p2a: Lugia
+|
+|-heal|p1a: Ferrothorn|89/100|[from] item: Leftovers
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Scizor|Scizor-Mega, M|64/100
+|-damage|p2a: Scizor|39/100|[from] Spikes
+|turn|44
+|choice|move leechseed|move bulletpunch
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|77/100
+|-damage|p2a: Scizor|27/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|move|p1a: Ferrothorn|Leech Seed|p2a: Scizor
+|-start|p2a: Scizor|move: Leech Seed
+|
+|-heal|p1a: Ferrothorn|83/100|[from] item: Leftovers
+|-damage|p2a: Scizor|14/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|95/100|[silent]
+|upkeep
+|turn|45
+|choice|move protect|move bulletpunch
+|
+|move|p1a: Ferrothorn|Protect|p1a: Ferrothorn
+|-singleturn|p1a: Ferrothorn|Protect
+|move|p2a: Scizor|Bullet Punch|p1a: Ferrothorn
+|-activate|p1a: Ferrothorn|move: Protect
+|
+|-heal|p1a: Ferrothorn|100/100|[from] item: Leftovers
+|-damage|p2a: Scizor|2/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|upkeep
+|turn|46
+|c|☆kelechi|gg i got nothing
+|choice|move spikes|move bulletpunch
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|89/100
+|-damage|p2a: Scizor|0 fnt|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|faint|p2a: Scizor
+|move|p1a: Ferrothorn|Spikes|p2: Scizor
+|-fail|p2: Scizor
+|
+|-heal|p1a: Ferrothorn|95/100|[from] item: Leftovers
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Deoxys|Deoxys-Speed|61/100
+|-damage|p2a: Deoxys|36/100|[from] Spikes
+|-ability|p2a: Deoxys|Pressure
+|turn|47
+|choice|move gyroball|move stealthrock
+|
+|move|p2a: Deoxys|Stealth Rock|p1a: Ferrothorn
+|-fail|p1a: Ferrothorn
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Deoxys
+|-damage|p2a: Deoxys|0 fnt
+|faint|p2a: Deoxys
+|
+|-heal|p1a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Arceus|Arceus-Water|22/100
+|-damage|p2a: Arceus|0 fnt|[from] Spikes
+|faint|p2a: Arceus
+|
+|win|monnsuto
+|c|☆monnsuto|gg
+|c|☆kelechi|gg
+|l|kelechi

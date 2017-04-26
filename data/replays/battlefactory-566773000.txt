@@ -1,0 +1,370 @@
+|j|SolAnima
+|j|queen lucero<3
+|player|p1|SolAnima|266
+|player|p2|queen lucero<3|263
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|23543,59052,58977,57772,15953,45972,55853,49828,58645,60752,51,27298
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Beedrill, M|item
+|poke|p1|Donphan, M|item
+|poke|p1|Rhyperior, M|item
+|poke|p1|Arcanine, M|item
+|poke|p1|Milotic, M|item
+|poke|p1|Porygon-Z|item
+|poke|p2|Blissey, F|item
+|poke|p2|Gligar, M|item
+|poke|p2|Zoroark, M|item
+|poke|p2|Metagross|item
+|poke|p2|Honchkrow, M|item
+|poke|p2|Kyurem|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 2, team 1, team 3, team 4, team 5, team 6|team 4, team 1, team 3, team 6, team 5, team 2
+|
+|start
+|switch|p1a: Donphan|Donphan, M|100/100
+|switch|p2a: Metagross|Metagross|100/100
+|turn|1
+|choice|move earthquake|move stealthrock
+|
+|move|p2a: Metagross|Stealth Rock|p1a: Donphan
+|-sidestart|p1: SolAnima|move: Stealth Rock
+|move|p1a: Donphan|Earthquake|p2a: Metagross
+|-supereffective|p2a: Metagross
+|-enditem|p2a: Metagross|Shuca Berry|[eat]
+|-enditem|p2a: Metagross|Shuca Berry|[weaken]
+|-damage|p2a: Metagross|63/100
+|
+|upkeep
+|turn|2
+|choice|move earthquake|switch 6
+|
+|switch|p2a: Gligar|Gligar, M|100/100
+|move|p1a: Donphan|Earthquake|p2a: Gligar
+|-immune|p2a: Gligar|[msg]
+|
+|upkeep
+|turn|3
+|choice|move iceshard|move toxic
+|
+|move|p1a: Donphan|Ice Shard|p2a: Gligar
+|-supereffective|p2a: Gligar
+|-damage|p2a: Gligar|73/100
+|move|p2a: Gligar|Toxic|p1a: Donphan|[miss]
+|-miss|p2a: Gligar|p1a: Donphan
+|
+|upkeep
+|turn|4
+|c|☆SolAnima|That did absolutely nothing
+|choice|move stealthrock|move toxic
+|
+|move|p2a: Gligar|Toxic|p1a: Donphan
+|-status|p1a: Donphan|tox
+|move|p1a: Donphan|Stealth Rock|p2a: Gligar
+|-sidestart|p2: queen lucero<3|move: Stealth Rock
+|
+|-damage|p1a: Donphan|94/100 tox|[from] psn
+|upkeep
+|turn|5
+|choice|move iceshard|move defog
+|
+|move|p1a: Donphan|Ice Shard|p2a: Gligar
+|-supereffective|p2a: Gligar
+|-damage|p2a: Gligar|44/100
+|move|p2a: Gligar|Defog|p1a: Donphan
+|-unboost|p1a: Donphan|evasion|1
+|-sideend|p1: SolAnima|Stealth Rock|[from] move: Defog|[of] p1a: Donphan
+|-sideend|p2: queen lucero<3|Stealth Rock|[from] move: Defog|[of] p2a: Gligar
+|
+|-heal|p1a: Donphan|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Donphan|88/100 tox|[from] psn
+|upkeep
+|turn|6
+|choice|move iceshard|move roost
+|
+|move|p1a: Donphan|Ice Shard|p2a: Gligar
+|-supereffective|p2a: Gligar
+|-damage|p2a: Gligar|18/100
+|move|p2a: Gligar|Roost|p2a: Gligar
+|-heal|p2a: Gligar|68/100
+|
+|-heal|p1a: Donphan|94/100 tox|[from] item: Leftovers
+|-damage|p1a: Donphan|76/100 tox|[from] psn
+|upkeep
+|turn|7
+|choice|move iceshard|move roost
+|
+|move|p1a: Donphan|Ice Shard|p2a: Gligar
+|-supereffective|p2a: Gligar
+|-damage|p2a: Gligar|39/100
+|move|p2a: Gligar|Roost|p2a: Gligar
+|-heal|p2a: Gligar|89/100
+|
+|-heal|p1a: Donphan|82/100 tox|[from] item: Leftovers
+|-damage|p1a: Donphan|58/100 tox|[from] psn
+|upkeep
+|turn|8
+|choice|move stealthrock|move roost
+|
+|move|p2a: Gligar|Roost|p2a: Gligar
+|-heal|p2a: Gligar|100/100
+|move|p1a: Donphan|Stealth Rock|p2a: Gligar
+|-sidestart|p2: queen lucero<3|move: Stealth Rock
+|
+|-heal|p1a: Donphan|64/100 tox|[from] item: Leftovers
+|-damage|p1a: Donphan|34/100 tox|[from] psn
+|upkeep
+|turn|9
+|choice|switch 5|move defog
+|
+|switch|p1a: Milotic|Milotic, M|100/100
+|move|p2a: Gligar|Defog|p1a: Milotic
+|-unboost|p1a: Milotic|evasion|1
+|-ability|p1a: Milotic|Competitive|boost
+|-boost|p1a: Milotic|spa|2
+|-sideend|p2: queen lucero<3|Stealth Rock|[from] move: Defog|[of] p2a: Gligar
+|
+|upkeep
+|turn|10
+|choice|move icebeam|switch 2
+|
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: Milotic|Ice Beam|p2a: Blissey
+|-damage|p2a: Blissey|77/100
+|-damage|p1a: Milotic|91/100|[from] item: Life Orb
+|
+|-heal|p2a: Blissey|84/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|choice|move hydropump|move toxic
+|
+|move|p1a: Milotic|Hydro Pump|p2a: Blissey
+|-damage|p2a: Blissey|37/100
+|-damage|p1a: Milotic|81/100|[from] item: Life Orb
+|move|p2a: Blissey|Toxic|p1a: Milotic
+|-status|p1a: Milotic|tox
+|
+|-heal|p2a: Blissey|44/100|[from] item: Leftovers
+|-damage|p1a: Milotic|75/100 tox|[from] psn
+|upkeep
+|turn|12
+|choice|move hydropump|move softboiled
+|
+|move|p1a: Milotic|Hydro Pump|p2a: Blissey
+|-damage|p2a: Blissey|0 fnt
+|-damage|p1a: Milotic|65/100 tox|[from] item: Life Orb
+|faint|p2a: Blissey
+|
+|-damage|p1a: Milotic|52/100 tox|[from] psn
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Metagross|Metagross|63/100
+|turn|13
+|choice|switch 5|move stealthrock
+|
+|switch|p1a: Donphan|Donphan, M|34/100 tox
+|move|p2a: Metagross|Stealth Rock|p1a: Donphan
+|-sidestart|p1: SolAnima|move: Stealth Rock
+|
+|-heal|p1a: Donphan|40/100 tox|[from] item: Leftovers
+|-damage|p1a: Donphan|34/100 tox|[from] psn
+|upkeep
+|turn|14
+|choice|move earthquake|move zenheadbutt
+|
+|move|p2a: Metagross|Zen Headbutt|p1a: Donphan|[miss]
+|-miss|p2a: Metagross|p1a: Donphan
+|move|p1a: Donphan|Earthquake|p2a: Metagross
+|-supereffective|p2a: Metagross
+|-damage|p2a: Metagross|0 fnt
+|faint|p2a: Metagross
+|
+|-heal|p1a: Donphan|40/100 tox|[from] item: Leftovers
+|-damage|p1a: Donphan|28/100 tox|[from] psn
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Honchkrow|Honchkrow, M|100/100
+|turn|15
+|choice|move iceshard|move grassknot
+|
+|move|p1a: Donphan|Ice Shard|p2a: Honchkrow
+|replace|p2a: Zoroark|Zoroark, M
+|-end|p2a: Zoroark|Illusion
+|-damage|p2a: Zoroark|78/100
+|move|p2a: Zoroark|Grass Knot|p1a: Donphan
+|-supereffective|p1a: Donphan
+|-damage|p1a: Donphan|0 fnt
+|-damage|p2a: Zoroark|68/100|[from] item: Life Orb
+|faint|p1a: Donphan
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Rhyperior|Rhyperior, M|100/100
+|-damage|p1a: Rhyperior|94/100|[from] Stealth Rock
+|turn|16
+|choice|move megahorn|move grassknot
+|
+|move|p2a: Zoroark|Grass Knot|p1a: Rhyperior
+|-supereffective|p1a: Rhyperior
+|-damage|p1a: Rhyperior|0 fnt
+|-damage|p2a: Zoroark|58/100|[from] item: Life Orb
+|faint|p1a: Rhyperior
+|
+|upkeep
+|c|☆SolAnima|Wow
+|c|☆SolAnima|Okay
+|choice|switch 2|
+|
+|switch|p1a: Beedrill|Beedrill, M|100/100
+|-damage|p1a: Beedrill|76/100|[from] Stealth Rock
+|turn|17
+|choice|move uturn mega|switch 2
+|
+|switch|p2a: Gligar|Gligar, M|100/100
+|detailschange|p1a: Beedrill|Beedrill-Mega, M
+|-mega|p1a: Beedrill|Beedrill|Beedrillite
+|move|p1a: Beedrill|U-turn|p2a: Gligar
+|-resisted|p2a: Gligar
+|-damage|p2a: Gligar|84/100
+|choice|switch 6|
+|
+|switch|p1a: Porygon-Z|Porygon-Z|100/100
+|-damage|p1a: Porygon-Z|88/100|[from] Stealth Rock
+|
+|upkeep
+|turn|18
+|choice|move icebeam|move toxic
+|
+|move|p1a: Porygon-Z|Ice Beam|p2a: Gligar
+|-supereffective|p2a: Gligar
+|-crit|p2a: Gligar
+|-damage|p2a: Gligar|0 fnt
+|faint|p2a: Gligar
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Honchkrow|Honchkrow, M|58/100
+|turn|19
+|choice|move icebeam|move knockoff
+|
+|move|p2a: Honchkrow|Knock Off|p1a: Porygon-Z
+|-damage|p1a: Porygon-Z|12/100
+|-enditem|p1a: Porygon-Z|Choice Specs|[from] move: Knock Off|[of] p2a: Honchkrow
+|-damage|p2a: Honchkrow|48/100|[from] item: Life Orb
+|move|p1a: Porygon-Z|Ice Beam|p2a: Honchkrow
+|replace|p2a: Zoroark|Zoroark, M
+|-end|p2a: Zoroark|Illusion
+|-damage|p2a: Zoroark|0 fnt
+|faint|p2a: Zoroark
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Honchkrow|Honchkrow, M|100/100
+|turn|20
+|choice|move icebeam|move suckerpunch
+|
+|move|p2a: Honchkrow|Sucker Punch|p1a: Porygon-Z
+|-damage|p1a: Porygon-Z|0 fnt
+|-damage|p2a: Honchkrow|91/100|[from] item: Life Orb
+|faint|p1a: Porygon-Z
+|-ability|p2a: Honchkrow|Moxie|boost
+|-boost|p2a: Honchkrow|atk|1
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Milotic|Milotic, M|52/100 tox
+|-damage|p1a: Milotic|40/100 tox|[from] Stealth Rock
+|turn|21
+|choice|move recover|move suckerpunch
+|
+|move|p2a: Honchkrow|Sucker Punch|p1a: Milotic|[still]
+|-fail|p2a: Honchkrow
+|move|p1a: Milotic|Recover|p1a: Milotic
+|-heal|p1a: Milotic|90/100 tox
+|
+|-damage|p1a: Milotic|84/100 tox|[from] psn
+|upkeep
+|turn|22
+|choice|move icebeam|move bravebird
+|
+|move|p1a: Milotic|Ice Beam|p2a: Honchkrow
+|-supereffective|p2a: Honchkrow
+|-damage|p2a: Honchkrow|0 fnt
+|-damage|p1a: Milotic|74/100 tox|[from] item: Life Orb
+|faint|p2a: Honchkrow
+|
+|-damage|p1a: Milotic|62/100 tox|[from] psn
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Kyurem|Kyurem|100/100
+|-ability|p2a: Kyurem|Pressure
+|turn|23
+|choice|move hydropump|move earthpower
+|
+|move|p2a: Kyurem|Earth Power|p1a: Milotic
+|-damage|p1a: Milotic|34/100 tox
+|move|p1a: Milotic|Hydro Pump|p2a: Kyurem
+|-resisted|p2a: Kyurem
+|-damage|p2a: Kyurem|69/100
+|-damage|p1a: Milotic|24/100 tox|[from] item: Life Orb
+|
+|-damage|p1a: Milotic|6/100 tox|[from] psn
+|upkeep
+|turn|24
+|choice|move recover|move earthpower
+|
+|move|p2a: Kyurem|Earth Power|p1a: Milotic
+|-damage|p1a: Milotic|0 fnt
+|faint|p1a: Milotic
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Beedrill|Beedrill-Mega, M|76/100
+|-damage|p1a: Beedrill|51/100|[from] Stealth Rock
+|turn|25
+|choice|move poisonjab|move earthpower
+|
+|move|p2a: Kyurem|Earth Power|p1a: Beedrill
+|-crit|p1a: Beedrill
+|-damage|p1a: Beedrill|0 fnt
+|faint|p1a: Beedrill
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Arcanine|Arcanine, M|100/100
+|-damage|p1a: Arcanine|76/100|[from] Stealth Rock
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: Kyurem|atk|1
+|turn|26
+|choice|move flareblitz|move earthpower
+|
+|move|p2a: Kyurem|Earth Power|p1a: Arcanine
+|-supereffective|p1a: Arcanine
+|-damage|p1a: Arcanine|10/100
+|move|p1a: Arcanine|Flare Blitz|p2a: Kyurem
+|-damage|p2a: Kyurem|25/100
+|-status|p2a: Kyurem|brn
+|-damage|p1a: Arcanine|0 fnt|[from] recoil|[of] p2a: Kyurem
+|faint|p1a: Arcanine
+|
+|win|queen lucero<3
+|raw|SolAnima's rating: 1302 &rarr; <strong>1277</strong><br />(-25 for losing)
+|raw|queen lucero&lt;3's rating: 1207 &rarr; <strong>1239</strong><br />(+32 for winning)
+|c|☆SolAnima|ARE YOU SERIOUS
+|c|☆queen lucero<3|?
+|c|☆queen lucero<3|Estas usando traductor no??
+|l|SolAnima

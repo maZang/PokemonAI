@@ -45,7 +45,11 @@ def login(driver, showdown_config):
 	time.sleep(1)
 
 def challenge(driver1, driver2, showdown_config1, showdown_config2):
-	pass 
+	driver1.find_element(By.NAME, "finduser").click()
+	time.sleep(1)
+	driver1.find_element(By.NAME, "data").clear()
+	time.sleep(1)
+	driver1.find_element(By.NAME, "data").send_keys(showdown_config2.user)
 
 def runPokemonShowdown():
 	showdown_config = PokemonShowdownConfig()
@@ -54,7 +58,11 @@ def runPokemonShowdown():
 
 def runAgainstItself():
 	showdown_config1 = PokemonShowdownConfig()
-	showdown_config2 = PokemonShowdownConfig()
+	showdown_config2 = PokemonShowdownConfigSelfPlay()
 	driver1 = webdriver.Chrome(executable_path=DRIVERFOLDER)
 	driver2 = webdriver.Chrome(executable_path=DRIVERFOLDER)
+	login(driver1, showdown_config1)
+	login(driver2, showdown_config2)
+	challenge(driver1, driver2, showdown_config1, showdown_config2)
+
 	

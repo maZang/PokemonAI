@@ -1,0 +1,587 @@
+|j|ching bitang
+|j|vitormaia
+|player|p1|ching bitang|1
+|player|p2|vitormaia|290
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|25570,4437,24929,16137,12989,65357,39896,50506,24984,20192,14276,55210
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Hawlucha, M|item
+|poke|p1|Gliscor, M|item
+|poke|p1|Rotom-Wash|item
+|poke|p1|Manectric, M|item
+|poke|p1|Gengar, M|item
+|poke|p1|Keldeo|item
+|poke|p2|Ferrothorn, M|item
+|poke|p2|Mew|item
+|poke|p2|Lopunny, M|item
+|poke|p2|Mandibuzz, F|item
+|poke|p2|Kyurem-Black|item
+|poke|p2|Staraptor, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|c|☆vitormaia|gg
+|c|☆vitormaia|Hawlucha 6-0
+|c|☆ching bitang|esse mandibuzz...
+|choice|team 4, team 2, team 3, team 1, team 5, team 6|team 5, team 2, team 3, team 4, team 1, team 6
+|
+|start
+|switch|p1a: Manectric|Manectric, M|100/100
+|switch|p2a: Kyurem|Kyurem-Black|100/100
+|-ability|p2a: Kyurem|Teravolt
+|turn|1
+|c|☆vitormaia|eu tô com um pokémon bizarro aqui
+|choice|move voltswitch mega|move icebeam
+|
+|detailschange|p1a: Manectric|Manectric-Mega, M
+|-mega|p1a: Manectric|Manectric|Manectite
+|-ability|p1a: Manectric|Intimidate|boost
+|-unboost|p2a: Kyurem|atk|1
+|move|p1a: Manectric|Volt Switch|p2a: Kyurem
+|-resisted|p2a: Kyurem
+|-damage|p2a: Kyurem|82/100
+|c|☆ching bitang|meg aopunny com heaing wish?
+|choice|switch 3|
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|move|p2a: Kyurem|Ice Beam|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|68/100
+|-damage|p2a: Kyurem|72/100|[from] item: Life Orb
+|
+|-heal|p1a: Rotom|74/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|choice|move willowisp|move outrage
+|
+|move|p2a: Kyurem|Outrage|p1a: Rotom
+|-damage|p1a: Rotom|28/100
+|-damage|p2a: Kyurem|62/100|[from] item: Life Orb
+|move|p1a: Rotom|Will-O-Wisp|p2a: Kyurem|[miss]
+|-miss|p1a: Rotom|p2a: Kyurem
+|
+|-heal|p1a: Rotom|34/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|c|☆vitormaia|N I C E
+|choice|switch 2|move outrage
+|
+|switch|p1a: Gliscor|Gliscor, M|100/100
+|move|p2a: Kyurem|Outrage|p1a: Gliscor|[from]lockedmove
+|-damage|p1a: Gliscor|51/100
+|-damage|p2a: Kyurem|52/100|[from] item: Life Orb
+|-start|p2a: Kyurem|confusion|[fatigue]
+|
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|4
+|choice|switch 2|move icebeam
+|
+|switch|p1a: Rotom|Rotom-Wash|34/100
+|-activate|p2a: Kyurem|confusion
+|move|p2a: Kyurem|Ice Beam|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|2/100
+|-damage|p2a: Kyurem|42/100|[from] item: Life Orb
+|
+|-heal|p1a: Rotom|8/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|c|☆vitormaia|nossa
+|c|☆vitormaia|32%
+|choice|move painsplit|switch 2
+|
+|switch|p2a: Mew|Mew|100/100
+|move|p1a: Rotom|Pain Split|p2a: Mew
+|-sethp|p2a: Mew|53/100|p1a: Rotom|71/100|[from] move: Pain Split
+|
+|-heal|p2a: Mew|59/100|[from] item: Leftovers
+|-heal|p1a: Rotom|77/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|c|☆ching bitang|confusion me salve
+|c|☆ching bitang|ou não
+|c|☆vitormaia|aff
+|choice|move hydropump|move knockoff
+|
+|move|p2a: Mew|Knock Off|p1a: Rotom
+|-damage|p1a: Rotom|58/100
+|-enditem|p1a: Rotom|Leftovers|[from] move: Knock Off|[of] p2a: Mew
+|move|p1a: Rotom|Hydro Pump|p2a: Mew
+|-damage|p2a: Mew|24/100
+|
+|-heal|p2a: Mew|30/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|choice|move willowisp|move softboiled
+|
+|move|p2a: Mew|Soft-Boiled|p2a: Mew
+|-heal|p2a: Mew|80/100
+|move|p1a: Rotom|Will-O-Wisp|p2a: Mew
+|-status|p2a: Mew|brn
+|-activate|p2a: Mew|ability: Synchronize
+|-status|p1a: Rotom|brn
+|
+|-heal|p2a: Mew|86/100 brn|[from] item: Leftovers
+|-damage|p2a: Mew|74/100 brn|[from] brn
+|-damage|p1a: Rotom|46/100 brn|[from] brn
+|upkeep
+|turn|8
+|choice|move voltswitch|switch 5
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|move|p1a: Rotom|Volt Switch|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|90/100
+|choice|switch 3|
+|
+|switch|p1a: Manectric|Manectric-Mega, M|100/100
+|-ability|p1a: Manectric|Intimidate|boost
+|-unboost|p2a: Ferrothorn|atk|1
+|
+|-heal|p2a: Ferrothorn|97/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|choice|move flamethrower|move protect
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Manectric|Flamethrower|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|move: Protect
+|
+|-heal|p2a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|choice|move flamethrower|switch 2
+|
+|switch|p2a: Kyurem|Kyurem-Black|42/100
+|-ability|p2a: Kyurem|Teravolt
+|move|p1a: Manectric|Flamethrower|p2a: Kyurem
+|-damage|p2a: Kyurem|12/100
+|
+|upkeep
+|turn|11
+|choice|move flamethrower|move icebeam
+|
+|move|p1a: Manectric|Flamethrower|p2a: Kyurem
+|-damage|p2a: Kyurem|0 fnt
+|faint|p2a: Kyurem
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Lopunny|Lopunny, M|100/100
+|turn|12
+|choice|move voltswitch|move highjumpkick mega
+|
+|detailschange|p2a: Lopunny|Lopunny-Mega, M
+|-mega|p2a: Lopunny|Lopunny|Lopunnite
+|move|p1a: Manectric|Volt Switch|p2a: Lopunny
+|-damage|p2a: Lopunny|55/100
+|choice|switch 3|
+|
+|switch|p1a: Rotom|Rotom-Wash|46/100 brn
+|move|p2a: Lopunny|High Jump Kick|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Gliscor|Gliscor, M|51/100 tox
+|turn|13
+|c|☆vitormaia|legal como eu sempre perco no team preview
+|choice|move roost|move substitute
+|
+|move|p2a: Lopunny|Substitute|p2a: Lopunny
+|-start|p2a: Lopunny|Substitute
+|-damage|p2a: Lopunny|30/100
+|move|p1a: Gliscor|Roost|p1a: Gliscor
+|-heal|p1a: Gliscor|100/100 tox
+|
+|upkeep
+|turn|14
+|choice|move earthquake|move encore
+|
+|move|p2a: Lopunny|Encore|p1a: Gliscor
+|-start|p1a: Gliscor|Encore
+|move|p1a: Gliscor|Roost|p1a: Gliscor
+|-fail|p1a: Gliscor
+|
+|upkeep
+|turn|15
+|j|GreninjaNunes
+|c|☆vitormaia|falei q era bizarro :v
+|c| GreninjaNunes|Fala ae o/
+|c|☆vitormaia|\o
+|choice|move roost|move return
+|
+|move|p2a: Lopunny|Return|p1a: Gliscor
+|-damage|p1a: Gliscor|58/100 tox
+|move|p1a: Gliscor|Roost|p1a: Gliscor
+|-heal|p1a: Gliscor|100/100 tox
+|
+|upkeep
+|turn|16
+|c|☆ching bitang|aquele encore que vc respeita
+|choice|move roost|move return
+|
+|move|p2a: Lopunny|Return|p1a: Gliscor
+|-crit|p1a: Gliscor
+|-damage|p1a: Gliscor|31/100 tox
+|move|p1a: Gliscor|Roost|p1a: Gliscor
+|-heal|p1a: Gliscor|81/100 tox
+|
+|-heal|p1a: Gliscor|94/100 tox|[from] ability: Poison Heal
+|-end|p1a: Gliscor|Encore
+|upkeep
+|turn|17
+|c|☆vitormaia|eu não acredito q isso funcionou
+|choice|move earthquake|move return
+|
+|move|p2a: Lopunny|Return|p1a: Gliscor
+|-damage|p1a: Gliscor|51/100 tox
+|move|p1a: Gliscor|Earthquake|p2a: Lopunny
+|-end|p2a: Lopunny|Substitute
+|
+|-heal|p1a: Gliscor|64/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|18
+|c|☆ching bitang|não funcionou do melhor jeito  possível...
+|c|☆vitormaia|sdds trapper
+|choice|move earthquake|switch 6
+|
+|switch|p2a: Staraptor|Staraptor, M|100/100
+|move|p1a: Gliscor|Earthquake|p2a: Staraptor
+|-immune|p2a: Staraptor|[msg]
+|
+|-heal|p1a: Gliscor|76/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|19
+|c|☆ching bitang|sdds wobbuffet
+|c|☆vitormaia|agora VENHA
+|choice|move knockoff|move bravebird
+|
+|move|p2a: Staraptor|Brave Bird|p1a: Gliscor
+|-damage|p1a: Gliscor|0 fnt
+|-damage|p2a: Staraptor|72/100|[from] recoil|[of] p1a: Gliscor
+|faint|p1a: Gliscor
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Manectric|Manectric-Mega, M|100/100
+|-ability|p1a: Manectric|Intimidate|boost
+|-unboost|p2a: Staraptor|atk|1
+|turn|20
+|choice|move thunderbolt|switch 2
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|move|p1a: Manectric|Thunderbolt|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|83/100
+|
+|-heal|p2a: Ferrothorn|90/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|choice|move flamethrower|move protect
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Manectric|Flamethrower|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|move: Protect
+|
+|-heal|p2a: Ferrothorn|96/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|choice|move flamethrower|switch 5
+|
+|switch|p2a: Mew|Mew|74/100 brn
+|move|p1a: Manectric|Flamethrower|p2a: Mew
+|-damage|p2a: Mew|45/100 brn
+|
+|-heal|p2a: Mew|51/100 brn|[from] item: Leftovers
+|-damage|p2a: Mew|39/100 brn|[from] brn
+|upkeep
+|turn|23
+|choice|move thunderbolt|move softboiled
+|
+|move|p1a: Manectric|Thunderbolt|p2a: Mew
+|-damage|p2a: Mew|0 fnt
+|faint|p2a: Mew
+|
+|upkeep
+|c|☆vitormaia|gg
+|c|☆ching bitang|gg
+|choice||switch 4
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100
+|turn|24
+|choice|move thunderbolt|move foulplay
+|
+|move|p1a: Manectric|Thunderbolt|p2a: Mandibuzz
+|-supereffective|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|21/100
+|move|p2a: Mandibuzz|Foul Play|p1a: Manectric
+|-damage|p1a: Manectric|70/100
+|
+|-heal|p2a: Mandibuzz|27/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|choice|move thunderbolt|move roost
+|
+|move|p1a: Manectric|Thunderbolt|p2a: Mandibuzz
+|-supereffective|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|0 fnt
+|faint|p2a: Mandibuzz
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Lopunny|Lopunny-Mega, M|30/100
+|turn|26
+|choice|move thunderbolt|move highjumpkick
+|
+|move|p2a: Lopunny|High Jump Kick|p1a: Manectric
+|-damage|p1a: Manectric|0 fnt
+|faint|p1a: Manectric
+|
+|upkeep
+|c|☆vitormaia|Q
+|c|☆ching bitang|speed tie
+|choice|switch 4|
+|
+|switch|p1a: Hawlucha|Hawlucha, M|100/100
+|turn|27
+|c|☆vitormaia|lol achei q vc fosse mais rápido
+|choice|move substitute|move substitute
+|
+|move|p2a: Lopunny|Substitute|p2a: Lopunny
+|-start|p2a: Lopunny|Substitute
+|-damage|p2a: Lopunny|6/100
+|move|p1a: Hawlucha|Substitute|p1a: Hawlucha
+|-start|p1a: Hawlucha|Substitute
+|-damage|p1a: Hawlucha|75/100
+|
+|upkeep
+|turn|28
+|c|☆ching bitang|espera um pouco já volto
+|c|☆vitormaia|blz
+|c| GreninjaNunes|Ué :v
+|choice|move acrobatics|move encore
+|
+|move|p2a: Lopunny|Encore|p1a: Hawlucha
+|-start|p1a: Hawlucha|Encore
+|move|p1a: Hawlucha|Substitute|p1a: Hawlucha
+|-fail|p1a: Hawlucha|move: Substitute
+|
+|upkeep
+|turn|29
+|c| GreninjaNunes|É OU esse?
+|c|☆vitormaia|OU
+|c|☆vitormaia|(que delícia de Encore, nunca critiquei)
+|c| GreninjaNunes|Kkkkk
+|c| GreninjaNunes|Nunca tinha visto
+|c|☆vitormaia|nem eu
+|c| GreninjaNunes|:v
+|c|☆vitormaia|vi a set e fiquei "wtf? cadê o fake out?"
+|c| GreninjaNunes|Kkkk
+|c| GreninjaNunes|Tu viu o azar do carinha do internacional?
+|c|☆vitormaia|VI CARA PQP
+|c| GreninjaNunes|Mano fiquei com do na morla
+|c|☆vitormaia|na vida eu sou o Javier
+|c| GreninjaNunes|KKKKKKK
+|c| GreninjaNunes|Velho eu tava torcendo pra ele .-.
+|c|☆vitormaia|eu queria q o cara do Torkoal ganhasse
+|c|☆vitormaia|pelo time mais diferente
+|c|☆vitormaia|pena q o lado "diferente" do time dele não fez nada na final kkkkkkkkkkkk
+|c| GreninjaNunes|Kkkk
+|c|☆vitormaia|acha q a Lopunny vai precisar levar Fake Out na set quando chegar em SM?
+|c| GreninjaNunes|Não,encore >>>>>>>>>>>
+|c|☆vitormaia|lol sério
+|c|☆vitormaia|pq tipo, agora q a lógica existe e o ganho de Speed é imediato
+|c|☆vitormaia|Ela não precisa tanto desse "safe" pra mega evoluir
+|c|☆vitormaia|Fora q LELE EVERYWHERE
+|c| GreninjaNunes|~~Depende se encore vai dar espaço~~ Acho que sim mano,é um cheap de graça,sempre é bom
+|c|☆vitormaia|Ela pega U-turn?
+|c| GreninjaNunes|Me torna voice
+|c|☆vitormaia|q
+|c| GreninjaNunes|usa /roomvoice greninjanunes
+|c| GreninjaNunes|N pera
+|c| GreninjaNunes|In Gen 7, Lopunny can't learn U-turn
+|c|☆vitormaia|:\
+|c|☆vitormaia|seria bem útil
+|c| GreninjaNunes|Sim
+|c|☆vitormaia|Imagina Lopunny com U-turn + Tapu Koko
+|c| GreninjaNunes|In Gen 7, Lopunny can't learn Knock Off
+|c| GreninjaNunes|Poderia ser bem util tbbm
+|c|☆vitormaia|também
+|c|☆vitormaia|Sem U-turn e Knock Off
+|c|☆vitormaia|Mas ela pega Thunder
+|c|☆vitormaia|Thanks Gamefreak
+|c| GreninjaNunes|Kkkkkk
+|c| GreninjaNunes|O pior é que tirando os stabs só fica os socos elementais
+|c| GreninjaNunes|Nem pra ter um bom complemento
+|c|☆vitormaia|4 SpA Lopunny-Mega Ice Beam vs. 252 HP / 24 SpD Landorus-Therian: 188-224 (49.2 - 58.6%) -- guaranteed 2HKO after Stealth Rock
+|c|☆vitormaia|opa
+|c| GreninjaNunes|Mas ela tem ice punch
+|c| GreninjaNunes|.-.
+|c|☆vitormaia|tira 2% a menos
+|c|☆vitormaia|E Ice Beam não ativa o Rocky Helmet
+|c|☆vitormaia|:vvvvvvvvvvvvvvvvvv
+|c| GreninjaNunes|:vvvvvvvvvvvvvvvvv
+|c| GreninjaNunes|Vou te contar algo bem legal
+|c| GreninjaNunes|NÃO SEI PQ O JAVIER FICOU IMPRESSIONADO
+|c| GreninjaNunes|parece q nunca jogou gen 1 random battle :v
+|c|☆ching bitang|voltei
+|choice|move substitute|move return
+|
+|move|p2a: Lopunny|Return|p1a: Hawlucha
+|-end|p1a: Hawlucha|Substitute
+|move|p1a: Hawlucha|Substitute|p1a: Hawlucha
+|-start|p1a: Hawlucha|Substitute
+|-damage|p1a: Hawlucha|50/100
+|-enditem|p1a: Hawlucha|Sitrus Berry|[eat]
+|-heal|p1a: Hawlucha|75/100|[from] item: Sitrus Berry
+|
+|upkeep
+|turn|30
+|choice|move substitute|move encore
+|
+|move|p1a: Hawlucha|Substitute|p1a: Hawlucha
+|-fail|p1a: Hawlucha|move: Substitute
+|move|p2a: Lopunny|Encore|p1a: Hawlucha
+|-fail|p1a: Hawlucha
+|
+|-end|p1a: Hawlucha|Encore
+|upkeep
+|turn|31
+|choice|move acrobatics|move encore
+|
+|move|p1a: Hawlucha|Acrobatics|p2a: Lopunny
+|-supereffective|p2a: Lopunny
+|-end|p2a: Lopunny|Substitute
+|move|p2a: Lopunny|Encore|p1a: Hawlucha
+|-start|p1a: Hawlucha|Encore
+|
+|upkeep
+|turn|32
+|choice|move acrobatics|switch 5
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|96/100
+|move|p1a: Hawlucha|Acrobatics|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|65/100
+|-damage|p1a: Hawlucha|63/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|
+|-heal|p2a: Ferrothorn|71/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|choice|move acrobatics|move gyroball
+|
+|move|p1a: Hawlucha|Acrobatics|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|44/100
+|-damage|p1a: Hawlucha|51/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Hawlucha
+|-end|p1a: Hawlucha|Substitute
+|
+|-heal|p2a: Ferrothorn|50/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|choice|switch 6|move gyroball
+|
+|switch|p1a: Keldeo|Keldeo|100/100
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Keldeo
+|-resisted|p1a: Keldeo
+|-damage|p1a: Keldeo|77/100
+|
+|-heal|p2a: Ferrothorn|56/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|choice|move substitute|switch 2
+|
+|switch|p2a: Staraptor|Staraptor, M|72/100
+|move|p1a: Keldeo|Substitute|p1a: Keldeo
+|-start|p1a: Keldeo|Substitute
+|-damage|p1a: Keldeo|52/100
+|
+|upkeep
+|turn|36
+|choice|move hydropump|move bravebird
+|
+|move|p1a: Keldeo|Hydro Pump|p2a: Staraptor|[miss]
+|-miss|p1a: Keldeo|p2a: Staraptor
+|move|p2a: Staraptor|Brave Bird|p1a: Keldeo
+|-supereffective|p1a: Keldeo
+|-end|p1a: Keldeo|Substitute
+|-damage|p2a: Staraptor|64/100|[from] recoil|[of] p1a: Keldeo
+|
+|upkeep
+|turn|37
+|c|☆vitormaia|lol
+|c|☆ching bitang|lol
+|c|☆ching bitang|game changer
+|c|☆vitormaia|pior q nem em gen 1 tem esses críticos
+|c|☆ching bitang|e deveria ter dado hjk naquela hora
+|c|☆vitormaia|pq a base Speed do Snorlaz é minima
+|choice|move hydropump|move bravebird
+|
+|move|p1a: Keldeo|Hydro Pump|p2a: Staraptor
+|-damage|p2a: Staraptor|0 fnt
+|faint|p2a: Staraptor
+|
+|upkeep
+|c|☆vitormaia|HJK no Hawlucha?
+|choice||switch 5
+|
+|switch|p2a: Lopunny|Lopunny-Mega, M|6/100
+|turn|38
+|c|☆ching bitang|eu ter dado
+|c|☆vitormaia|mas Return tira mais
+|c|☆ching bitang|eu dar na loppuny
+|c|☆vitormaia|Acho q o Encore no Acrobatics foi missclick
+|c| GreninjaNunes|Nunca duvide dos criticos de gen 1
+|c|☆vitormaia|Shadow Claw seria crítico easy
+|c|☆ching bitang|nunca duvide de um flinch de rock slide :v
+|choice|move secretsword|move return
+|
+|move|p2a: Lopunny|Return|p1a: Keldeo
+|-damage|p1a: Keldeo|0 fnt
+|faint|p1a: Keldeo
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Gengar|Gengar, M|100/100
+|turn|39
+|c|☆vitormaia|Pq em R/B, golpes com high crit rate eram 100% pra Speed superior a uns 55
+|choice|move sludgewave|move return
+|
+|move|p2a: Lopunny|Return|p1a: Gengar
+|-damage|p1a: Gengar|0 fnt
+|faint|p1a: Gengar
+|
+|upkeep
+|c|☆ching bitang|gg
+|c|☆vitormaia|gg
+|c|☆vitormaia|que virada linda
+|c| GreninjaNunes|kkk
+|c|☆ching bitang|vacilei como mega manectric
+|choice|switch 6|
+|
+|switch|p1a: Hawlucha|Hawlucha, M|51/100
+|turn|40
+|c|☆vitormaia|eu achei q ele era mais rápido
+|choice|move highjumpkick|move return
+|
+|move|p2a: Lopunny|Return|p1a: Hawlucha
+|-damage|p1a: Hawlucha|0 fnt
+|faint|p1a: Hawlucha
+|
+|win|vitormaia
+|c|☆vitormaia|nossa
+|c|☆ching bitang|era só ter sacrificado alguém e era gg
+|c|☆vitormaia|essa batalha foi foda
+|c|☆ching bitang|muito

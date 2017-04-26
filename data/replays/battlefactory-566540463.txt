@@ -1,0 +1,384 @@
+|j|Randomu5
+|j|Zangetsu171
+|player|p1|Randomu5|102
+|player|p2|Zangetsu171|2
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|37135,56125,11514,62871,43987,49029,19042,44039,63155,39884,45422,23072
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Heatran, M|item
+|poke|p1|Staraptor, M|item
+|poke|p1|Mew|item
+|poke|p1|Medicham, M|item
+|poke|p1|Raikou|item
+|poke|p1|Sylveon, M|item
+|poke|p2|Hippowdon, M|item
+|poke|p2|Clefable, M|item
+|poke|p2|Altaria, M|item
+|poke|p2|Azumarill, M|item
+|poke|p2|Latias, F|item
+|poke|p2|Volcarona, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 4, team 2, team 3, team 1, team 5, team 6|team 1, team 2, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Medicham|Medicham, M|100/100
+|switch|p2a: Hippowdon|Hippowdon, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|turn|1
+|choice|move icepunch mega|move stealthrock
+|
+|detailschange|p1a: Medicham|Medicham-Mega, M
+|-mega|p1a: Medicham|Medicham|Medichamite
+|move|p1a: Medicham|Ice Punch|p2a: Hippowdon
+|-supereffective|p2a: Hippowdon
+|-damage|p2a: Hippowdon|46/100
+|move|p2a: Hippowdon|Stealth Rock|p1a: Medicham
+|-sidestart|p1: Randomu5|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Medicham|94/100|[from] sandstorm
+|-heal|p2a: Hippowdon|52/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|choice|move icepunch|switch 4
+|
+|switch|p2a: Azumarill|Azumarill, M|100/100
+|move|p1a: Medicham|Ice Punch|p2a: Azumarill
+|-resisted|p2a: Azumarill
+|-damage|p2a: Azumarill|78/100
+|-status|p2a: Azumarill|frz
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Medicham|88/100|[from] sandstorm
+|-damage|p2a: Azumarill|72/100 frz|[from] sandstorm
+|upkeep
+|turn|3
+|choice|move zenheadbutt|move playrough
+|
+|move|p1a: Medicham|Zen Headbutt|p2a: Azumarill
+|-damage|p2a: Azumarill|0 fnt
+|faint|p2a: Azumarill
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Medicham|82/100|[from] sandstorm
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Altaria|Altaria, M|100/100
+|turn|4
+|choice|move icepunch|move hypervoice mega
+|
+|detailschange|p2a: Altaria|Altaria-Mega, M
+|-mega|p2a: Altaria|Altaria|Altarianite
+|move|p1a: Medicham|Ice Punch|p2a: Altaria
+|-supereffective|p2a: Altaria
+|-damage|p2a: Altaria|34/100
+|-status|p2a: Altaria|frz
+|cant|p2a: Altaria|frz
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Medicham|76/100|[from] sandstorm
+|-damage|p2a: Altaria|27/100 frz|[from] sandstorm
+|upkeep
+|turn|5
+|choice|move icepunch|switch 2
+|
+|switch|p2a: Clefable|Clefable, M|100/100
+|move|p1a: Medicham|Ice Punch|p2a: Clefable
+|-damage|p2a: Clefable|59/100
+|
+|-weather|none
+|-heal|p2a: Clefable|65/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|choice|move zenheadbutt|move softboiled
+|
+|move|p1a: Medicham|Zen Headbutt|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Latias|Latias, F|100/100
+|turn|7
+|c|☆Randomu5|!Weakness latias
+|html|<div class="infobox">Latias (ignoring abilities):<br /><span class="message-effect-weak">Weaknesses</span>: Bug, Dark, Dragon, Fairy, Ghost, Ice<br /><span class="message-effect-resist">Resistances</span>: Electric, Fighting, Fire, Grass, Psychic, Water<br /><span class="message-effect-immune">Immunities</span>: <font color=#999999>None</font></div>
+|choice|move icepunch|move psyshock
+|
+|move|p2a: Latias|Psyshock|p1a: Medicham
+|-damage|p1a: Medicham|12/100
+|-damage|p2a: Latias|91/100|[from] item: Life Orb
+|move|p1a: Medicham|Ice Punch|p2a: Latias
+|-supereffective|p2a: Latias
+|-damage|p2a: Latias|0 fnt
+|faint|p2a: Latias
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Volcarona|Volcarona, M|100/100
+|turn|8
+|c|☆Randomu5|!Weakness volcarona
+|html|<div class="infobox">Volcarona (ignoring abilities):<br /><span class="message-effect-weak">Weaknesses</span>: Flying, <b>Rock</b>, Water<br /><span class="message-effect-resist">Resistances</span>: Bug, Fairy, Fighting, <b>Grass</b>, Ice, Steel<br /><span class="message-effect-immune">Immunities</span>: <font color=#999999>None</font></div>
+|c|☆Zangetsu171|wtaf
+|c|☆Zangetsu171|freeze saved you today
+|choice|switch 5|move fierydance
+|
+|switch|p1a: Raikou|Raikou|100/100
+|-damage|p1a: Raikou|88/100|[from] Stealth Rock
+|-ability|p1a: Raikou|Pressure
+|move|p2a: Volcarona|Fiery Dance|p1a: Raikou
+|-damage|p1a: Raikou|63/100
+|-boost|p2a: Volcarona|spa|1
+|
+|upkeep
+|turn|9
+|choice|move shadowball|move quiverdance
+|
+|move|p1a: Raikou|Shadow Ball|p2a: Volcarona
+|-damage|p2a: Volcarona|76/100
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|
+|-heal|p2a: Volcarona|82/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|choice|move thunderbolt|move gigadrain
+|
+|move|p2a: Volcarona|Giga Drain|p1a: Raikou
+|-damage|p1a: Raikou|34/100
+|-heal|p2a: Volcarona|95/100|[from] drain|[of] p1a: Raikou
+|move|p1a: Raikou|Thunderbolt|p2a: Volcarona
+|-crit|p2a: Volcarona
+|-damage|p2a: Volcarona|35/100
+|
+|-heal|p2a: Volcarona|41/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|choice|move thunderbolt|move gigadrain
+|
+|move|p2a: Volcarona|Giga Drain|p1a: Raikou
+|-damage|p1a: Raikou|1/100
+|-heal|p2a: Volcarona|55/100|[from] drain|[of] p1a: Raikou
+|move|p1a: Raikou|Thunderbolt|p2a: Volcarona
+|-damage|p2a: Volcarona|29/100
+|
+|-heal|p2a: Volcarona|35/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|choice|move voltswitch|move roost
+|
+|move|p2a: Volcarona|Roost|p2a: Volcarona
+|-heal|p2a: Volcarona|85/100
+|move|p1a: Raikou|Volt Switch|p2a: Volcarona
+|-damage|p2a: Volcarona|67/100
+|choice|switch 2|
+|
+|switch|p1a: Staraptor|Staraptor, M|100/100
+|-damage|p1a: Staraptor|75/100|[from] Stealth Rock
+|
+|-heal|p2a: Volcarona|73/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|choice|move bravebird|move fierydance
+|
+|move|p2a: Volcarona|Fiery Dance|p1a: Staraptor
+|-damage|p1a: Staraptor|0 fnt
+|-boost|p2a: Volcarona|spa|1
+|faint|p1a: Staraptor
+|
+|-heal|p2a: Volcarona|80/100|[from] item: Leftovers
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Heatran|Heatran, M|100/100
+|-damage|p1a: Heatran|88/100|[from] Stealth Rock
+|-item|p1a: Heatran|Air Balloon
+|turn|14
+|choice|move taunt|move gigadrain
+|
+|move|p2a: Volcarona|Giga Drain|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|75/100
+|-heal|p2a: Volcarona|85/100|[from] drain|[of] p1a: Heatran
+|-enditem|p1a: Heatran|Air Balloon
+|move|p1a: Heatran|Taunt|p2a: Volcarona
+|-start|p2a: Volcarona|move: Taunt
+|
+|-heal|p2a: Volcarona|92/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|choice|move earthpower|move gigadrain
+|
+|move|p2a: Volcarona|Giga Drain|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|61/100
+|-heal|p2a: Volcarona|98/100|[from] drain|[of] p1a: Heatran
+|move|p1a: Heatran|Earth Power|p2a: Volcarona
+|-damage|p2a: Volcarona|79/100
+|
+|-heal|p2a: Volcarona|85/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|choice|move fireblast|move gigadrain
+|
+|move|p2a: Volcarona|Giga Drain|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|47/100
+|-heal|p2a: Volcarona|91/100|[from] drain|[of] p1a: Heatran
+|move|p1a: Heatran|Fire Blast|p2a: Volcarona
+|-damage|p2a: Volcarona|56/100
+|
+|-heal|p2a: Volcarona|62/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|choice|move fireblast|move gigadrain
+|
+|move|p2a: Volcarona|Giga Drain|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|35/100
+|-heal|p2a: Volcarona|68/100|[from] drain|[of] p1a: Heatran
+|move|p1a: Heatran|Fire Blast|p2a: Volcarona
+|-damage|p2a: Volcarona|36/100
+|
+|-heal|p2a: Volcarona|42/100|[from] item: Leftovers
+|-end|p2a: Volcarona|move: Taunt
+|upkeep
+|turn|18
+|c|☆Randomu5|they didnt give me shit for him
+|choice|move taunt|move roost
+|
+|move|p2a: Volcarona|Roost|p2a: Volcarona
+|-heal|p2a: Volcarona|92/100
+|move|p1a: Heatran|Taunt|p2a: Volcarona
+|-start|p2a: Volcarona|move: Taunt
+|
+|-heal|p2a: Volcarona|98/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|c|☆Zangetsu171|:)
+|choice|move fireblast|move gigadrain
+|
+|move|p2a: Volcarona|Giga Drain|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|20/100
+|-heal|p2a: Volcarona|100/100|[from] drain|[of] p1a: Heatran
+|move|p1a: Heatran|Fire Blast|p2a: Volcarona
+|-damage|p2a: Volcarona|66/100
+|
+|-heal|p2a: Volcarona|72/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|choice|move fireblast|move gigadrain
+|
+|move|p2a: Volcarona|Giga Drain|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|7/100
+|-heal|p2a: Volcarona|78/100|[from] drain|[of] p1a: Heatran
+|move|p1a: Heatran|Fire Blast|p2a: Volcarona
+|-damage|p2a: Volcarona|42/100
+|
+|-heal|p2a: Volcarona|48/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|choice|move taunt|move gigadrain
+|
+|move|p2a: Volcarona|Giga Drain|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|-heal|p2a: Volcarona|51/100|[from] drain|[of] p1a: Heatran
+|faint|p1a: Heatran
+|
+|-heal|p2a: Volcarona|58/100|[from] item: Leftovers
+|-end|p2a: Volcarona|move: Taunt
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Sylveon|Sylveon, M|100/100
+|-damage|p1a: Sylveon|88/100|[from] Stealth Rock
+|turn|22
+|choice|move hypervoice|move gigadrain
+|
+|move|p2a: Volcarona|Giga Drain|p1a: Sylveon
+|-damage|p1a: Sylveon|48/100
+|-heal|p2a: Volcarona|79/100|[from] drain|[of] p1a: Sylveon
+|move|p1a: Sylveon|Hyper Voice|p2a: Volcarona
+|-resisted|p2a: Volcarona
+|-damage|p2a: Volcarona|51/100
+|
+|-heal|p2a: Volcarona|57/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|choice|switch 2|move fierydance
+|
+|switch|p1a: Raikou|Raikou|1/100
+|-damage|p1a: Raikou|0 fnt|[from] Stealth Rock
+|faint|p1a: Raikou
+|move|p2a: Volcarona|Fiery Dance|p1: Raikou|[notarget]
+|-notarget
+|
+|-heal|p2a: Volcarona|63/100|[from] item: Leftovers
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Mew|Mew|100/100
+|-damage|p1a: Mew|88/100|[from] Stealth Rock
+|turn|24
+|choice|move knockoff|move fierydance
+|
+|move|p2a: Volcarona|Fiery Dance|p1a: Mew
+|-damage|p1a: Mew|19/100
+|-boost|p2a: Volcarona|spa|1
+|move|p1a: Mew|Knock Off|p2a: Volcarona
+|-damage|p2a: Volcarona|40/100
+|-enditem|p2a: Volcarona|Leftovers|[from] move: Knock Off|[of] p1a: Mew
+|
+|-heal|p1a: Mew|25/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|choice|move willowisp|move fierydance
+|
+|move|p2a: Volcarona|Fiery Dance|p1a: Mew
+|-damage|p1a: Mew|0 fnt
+|faint|p1a: Mew
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Medicham|Medicham-Mega, M|12/100
+|-damage|p1a: Medicham|5/100|[from] Stealth Rock
+|turn|26
+|choice|move fakeout|move gigadrain
+|
+|move|p1a: Medicham|Fake Out|p2a: Volcarona
+|-damage|p2a: Volcarona|14/100
+|cant|p2a: Volcarona|flinch
+|
+|upkeep
+|turn|27
+|choice|switch 2|move gigadrain
+|
+|switch|p1a: Sylveon|Sylveon, M|48/100
+|-damage|p1a: Sylveon|36/100|[from] Stealth Rock
+|move|p2a: Volcarona|Giga Drain|p1a: Sylveon
+|-damage|p1a: Sylveon|0 fnt
+|-heal|p2a: Volcarona|32/100|[from] drain|[of] p1a: Sylveon
+|faint|p1a: Sylveon
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Medicham|Medicham-Mega, M|5/100
+|-damage|p1a: Medicham|0 fnt|[from] Stealth Rock
+|faint|p1a: Medicham
+|
+|win|Zangetsu171
+|l|Randomu5

@@ -1,0 +1,192 @@
+|j|damonsterAWS
+|j|zwoops
+|player|p1|damonsterAWS|92
+|player|p2|zwoops|wooper-small.png
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|12677,6179,45128,5885,37782,11278,40789,1456,62908,47593,51342,64405
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Golem, M|item
+|poke|p1|Raichu, M|item
+|poke|p1|Metang|item
+|poke|p1|Simipour, M|item
+|poke|p1|Venipede, M|item
+|poke|p1|Rotom-Frost|item
+|poke|p2|Seaking, M|item
+|poke|p2|Raichu, M|item
+|poke|p2|Lickilicky, M|item
+|poke|p2|Misdreavus, M|item
+|poke|p2|Zweilous, M|item
+|poke|p2|Metang|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|c|☆damonsterAWS|LOL
+|c|☆zwoops|fire squads
+|choice|team 5, team 2, team 3, team 4, team 1, team 6|team 6, team 2, team 3, team 4, team 5, team 1
+|
+|start
+|switch|p1a: Venipede|Venipede, M|100/100
+|switch|p2a: Metang|Metang|100/100
+|turn|1
+|choice|move toxicspikes|move stealthrock
+|
+|move|p1a: Venipede|Toxic Spikes|p2a: Metang
+|-sidestart|p2: zwoops|move: Toxic Spikes
+|move|p2a: Metang|Stealth Rock|p1a: Venipede
+|-sidestart|p1: damonsterAWS|move: Stealth Rock
+|
+|-ability|p1a: Venipede|Speed Boost|boost
+|-boost|p1a: Venipede|spe|1
+|upkeep
+|turn|2
+|choice|move toxicspikes|move meteormash
+|
+|move|p1a: Venipede|Toxic Spikes|p2a: Metang
+|-sidestart|p2: zwoops|move: Toxic Spikes
+|move|p2a: Metang|Meteor Mash|p1a: Venipede|[miss]
+|-miss|p2a: Metang|p1a: Venipede
+|
+|-ability|p1a: Venipede|Speed Boost|boost
+|-boost|p1a: Venipede|spe|1
+|upkeep
+|turn|3
+|choice|move spikes|move meteormash
+|
+|move|p1a: Venipede|Spikes|p2a: Metang
+|-sidestart|p2: zwoops|Spikes
+|move|p2a: Metang|Meteor Mash|p1a: Venipede|[miss]
+|-miss|p2a: Metang|p1a: Venipede
+|
+|-ability|p1a: Venipede|Speed Boost|boost
+|-boost|p1a: Venipede|spe|1
+|upkeep
+|turn|4
+|c|☆zwoops|.....
+|choice|move spikes|move meteormash
+|
+|move|p1a: Venipede|Spikes|p2a: Metang
+|-sidestart|p2: zwoops|Spikes
+|move|p2a: Metang|Meteor Mash|p1a: Venipede
+|-damage|p1a: Venipede|48/100
+|
+|-ability|p1a: Venipede|Speed Boost|boost
+|-boost|p1a: Venipede|spe|1
+|upkeep
+|turn|5
+|choice|switch 4|move meteormash
+|
+|switch|p1a: Simipour|Simipour, M|100/100
+|-damage|p1a: Simipour|88/100|[from] Stealth Rock
+|move|p2a: Metang|Meteor Mash|p1a: Simipour
+|-resisted|p1a: Simipour
+|-damage|p1a: Simipour|66/100
+|
+|upkeep
+|turn|6
+|choice|move substitute|move earthquake
+|
+|move|p1a: Simipour|Substitute|p1a: Simipour
+|-start|p1a: Simipour|Substitute
+|-damage|p1a: Simipour|41/100
+|move|p2a: Metang|Earthquake|p1a: Simipour
+|-end|p1a: Simipour|Substitute
+|
+|upkeep
+|turn|7
+|choice|move nastyplot|move earthquake
+|
+|move|p1a: Simipour|Nasty Plot|p1a: Simipour
+|-boost|p1a: Simipour|spa|2
+|move|p2a: Metang|Earthquake|p1a: Simipour
+|-damage|p1a: Simipour|9/100
+|-enditem|p1a: Simipour|Salac Berry|[eat]
+|-boost|p1a: Simipour|spe|1
+|
+|upkeep
+|turn|8
+|choice|move hydropump|move earthquake
+|
+|move|p1a: Simipour|Hydro Pump|p2a: Metang
+|-damage|p2a: Metang|0 fnt
+|faint|p2a: Metang
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Raichu|Raichu, M|100/100
+|-damage|p2a: Raichu|84/100|[from] Spikes
+|-status|p2a: Raichu|tox
+|turn|9
+|choice|move hydropump|move hiddenpower
+|
+|move|p1a: Simipour|Hydro Pump|p2a: Raichu
+|-damage|p2a: Raichu|0 fnt
+|faint|p2a: Raichu
+|
+|upkeep
+|c|☆damonsterAWS|im in torrent too
+|c|☆damonsterAWS|LOL
+|choice||switch 4
+|
+|switch|p2a: Misdreavus|Misdreavus, M|100/100
+|turn|10
+|choice|move hydropump|move thunderbolt
+|
+|move|p1a: Simipour|Hydro Pump|p2a: Misdreavus
+|-crit|p2a: Misdreavus
+|-damage|p2a: Misdreavus|0 fnt
+|faint|p2a: Misdreavus
+|
+|upkeep
+|c|☆zwoops|;-;
+|choice||switch 3
+|
+|switch|p2a: Lickilicky|Lickilicky, M|100/100
+|-status|p2a: Lickilicky|tox
+|-damage|p2a: Lickilicky|84/100 tox|[from] Spikes
+|turn|11
+|c|☆damonsterAWS|doubt the crit mattered
+|choice|move hydropump|move knockoff
+|
+|move|p1a: Simipour|Hydro Pump|p2a: Lickilicky
+|-damage|p2a: Lickilicky|0 fnt
+|faint|p2a: Lickilicky
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Zweilous|Zweilous, M|100/100
+|-status|p2a: Zweilous|tox
+|-damage|p2a: Zweilous|84/100 tox|[from] Spikes
+|turn|12
+|choice|move icebeam|move crunch
+|
+|move|p1a: Simipour|Ice Beam|p2a: Zweilous
+|-supereffective|p2a: Zweilous
+|-crit|p2a: Zweilous
+|-damage|p2a: Zweilous|0 fnt
+|faint|p2a: Zweilous
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Seaking|Seaking, M|100/100
+|-status|p2a: Seaking|tox
+|-damage|p2a: Seaking|84/100 tox|[from] Spikes
+|turn|13
+|c|☆zwoops|i coulda gone into this
+|c|☆zwoops|the whole time
+|choice|move hydropump|move knockoff
+|
+|move|p1a: Simipour|Hydro Pump|p2a: Seaking
+|-resisted|p2a: Seaking
+|-damage|p2a: Seaking|0 fnt
+|faint|p2a: Seaking
+|
+|win|damonsterAWS
+|c|☆zwoops|jk
+|c|☆damonsterAWS|NOPE
+|l|zwoops

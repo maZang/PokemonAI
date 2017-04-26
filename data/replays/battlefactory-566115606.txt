@@ -1,0 +1,458 @@
+|j|voltdarkrai
+|j|IT 1 1
+|player|p1|voltdarkrai|80
+|player|p2|IT 1 1|169
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|35280,60370,10018,13532,61678,37210,63425,20215,34929,41784,29607,13297
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Exploud, M|item
+|poke|p1|Granbull, M|item
+|poke|p1|Blastoise, M|item
+|poke|p1|Glalie, M|item
+|poke|p1|Braviary, M|item
+|poke|p1|Jolteon, M|item
+|poke|p2|Hitmonlee, M|item
+|poke|p2|Slowking, M|item
+|poke|p2|Audino, M|item
+|poke|p2|Samurott, M|item
+|poke|p2|Togetic, M|item
+|poke|p2|Diancie|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|c|☆voltdarkrai|hf
+|c|☆IT 1 1|u suck
+|c|☆voltdarkrai|jolteon_n
+|c|☆voltdarkrai|pls
+|c|☆voltdarkrai|you luv me
+|choice|team 2, team 1, team 3, team 4, team 5, team 6|team 6, team 2, team 3, team 4, team 5, team 1
+|
+|start
+|switch|p1a: Granbull|Granbull, M|100/100
+|switch|p2a: Diancie|Diancie|100/100
+|-ability|p1a: Granbull|Intimidate|boost
+|-fail|p2a: Diancie|unboost|[from] ability: Clear Body|[of] p2a: Diancie
+|turn|1
+|c|☆IT 1 1|lucky n bad
+|choice|move playrough|move stealthrock
+|
+|move|p1a: Granbull|Play Rough|p2a: Diancie
+|-damage|p2a: Diancie|38/100
+|move|p2a: Diancie|Stealth Rock|p1a: Granbull
+|-sidestart|p1: voltdarkrai|move: Stealth Rock
+|
+|-heal|p2a: Diancie|44/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|c|☆voltdarkrai|walls
+|c|☆voltdarkrai|??
+|choice|move playrough|move moonblast
+|
+|move|p1a: Granbull|Play Rough|p2a: Diancie
+|-damage|p2a: Diancie|0 fnt
+|faint|p2a: Diancie
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Togetic|Togetic, M|100/100
+|turn|3
+|choice|switch 3|move thunderwave
+|
+|switch|p1a: Blastoise|Blastoise, M|100/100
+|-damage|p1a: Blastoise|88/100|[from] Stealth Rock
+|move|p2a: Togetic|Thunder Wave|p1a: Blastoise
+|-status|p1a: Blastoise|par
+|
+|-heal|p1a: Blastoise|94/100 par|[from] item: Leftovers
+|upkeep
+|turn|4
+|c|☆voltdarkrai|oh god
+|choice|move refresh|move dazzlinggleam
+|
+|move|p2a: Togetic|Dazzling Gleam|p1a: Blastoise
+|-damage|p1a: Blastoise|73/100 par
+|move|p1a: Blastoise|Refresh|p1a: Blastoise
+|-curestatus|p1a: Blastoise|par|[msg]
+|
+|-heal|p1a: Blastoise|79/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|c|☆voltdarkrai|please no air slash
+|c|☆voltdarkrai|ok good
+|choice|move rapidspin|move thunderwave
+|
+|move|p1a: Blastoise|Rapid Spin|p2a: Togetic
+|-damage|p2a: Togetic|98/100
+|-sideend|p1: voltdarkrai|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Blastoise
+|move|p2a: Togetic|Thunder Wave|p1a: Blastoise
+|-status|p1a: Blastoise|par
+|
+|-heal|p1a: Blastoise|85/100 par|[from] item: Leftovers
+|upkeep
+|turn|6
+|choice|move toxic|switch 2
+|
+|switch|p2a: Slowking|Slowking, M|100/100
+|move|p1a: Blastoise|Toxic|p2a: Slowking
+|-status|p2a: Slowking|tox
+|
+|-heal|p1a: Blastoise|91/100 par|[from] item: Leftovers
+|-damage|p2a: Slowking|94/100 tox|[from] psn
+|upkeep
+|turn|7
+|choice|move refresh|move psyshock
+|
+|move|p2a: Slowking|Psyshock|p1a: Blastoise
+|-damage|p1a: Blastoise|71/100 par
+|cant|p1a: Blastoise|par
+|
+|-heal|p2a: Slowking|100/100 tox|[from] item: Leftovers
+|-heal|p1a: Blastoise|77/100 par|[from] item: Leftovers
+|-damage|p2a: Slowking|88/100 tox|[from] psn
+|upkeep
+|turn|8
+|choice|switch 2|move psyshock
+|
+|switch|p1a: Exploud|Exploud, M|100/100
+|move|p2a: Slowking|Psyshock|p1a: Exploud
+|-damage|p1a: Exploud|60/100
+|
+|-heal|p2a: Slowking|94/100 tox|[from] item: Leftovers
+|-damage|p2a: Slowking|76/100 tox|[from] psn
+|upkeep
+|turn|9
+|choice|move boomburst|move thunderwave
+|
+|move|p1a: Exploud|Boomburst|p2a: Slowking
+|-damage|p2a: Slowking|7/100 tox
+|-damage|p1a: Exploud|50/100|[from] item: Life Orb
+|move|p2a: Slowking|Thunder Wave|p1a: Exploud
+|-status|p1a: Exploud|par
+|
+|-heal|p2a: Slowking|13/100 tox|[from] item: Leftovers
+|-damage|p2a: Slowking|0 fnt|[from] psn
+|upkeep
+|faint|p2a: Slowking
+|choice||switch 6
+|
+|switch|p2a: Hitmonlee|Hitmonlee, M|100/100
+|turn|10
+|c|☆voltdarkrai|is this the
+|c|☆voltdarkrai|specially defensive one
+|c|☆voltdarkrai|slowking i mean
+|c|☆voltdarkrai|!dt slowking
+|c|~|/data-pokemon Slowking
+|raw|<font size="1"><font color="#686868">Dex#:</font> 199&nbsp;|&ThickSpace;<font color="#686868">Gen:</font> 2&nbsp;|&ThickSpace;<font color="#686868">Height:</font> 2 m&nbsp;|&ThickSpace;<font color="#686868">Weight:</font> 79.5 kg <em>(80 BP)</em>&nbsp;|&ThickSpace;<font color="#686868">Dex Colour:</font> Pink&nbsp;|&ThickSpace;<font color="#686868">Egg Group(s):</font> Monster, Water 1&nbsp;|&ThickSpace;<font color="#686868">Does Not Evolve</font></font>
+|c|☆voltdarkrai|o
+|c|☆IT 1 1|hes
+|choice|switch 3|move closecombat
+|
+|switch|p1a: Granbull|Granbull, M|100/100
+|-ability|p1a: Granbull|Intimidate|boost
+|-unboost|p2a: Hitmonlee|atk|1
+|move|p2a: Hitmonlee|Close Combat|p1a: Granbull
+|-resisted|p1a: Granbull
+|-damage|p1a: Granbull|78/100
+|-unboost|p2a: Hitmonlee|def|1
+|-unboost|p2a: Hitmonlee|spd|1
+|
+|upkeep
+|turn|11
+|c|☆IT 1 1|yes
+|choice|move playrough|switch 2
+|
+|switch|p2a: Togetic|Togetic, M|98/100
+|move|p1a: Granbull|Play Rough|p2a: Togetic
+|-damage|p2a: Togetic|57/100
+|
+|upkeep
+|turn|12
+|choice|switch 2|move dazzlinggleam
+|
+|switch|p1a: Blastoise|Blastoise, M|77/100 par
+|move|p2a: Togetic|Dazzling Gleam|p1a: Blastoise
+|-damage|p1a: Blastoise|55/100 par
+|
+|-heal|p1a: Blastoise|61/100 par|[from] item: Leftovers
+|upkeep
+|turn|13
+|choice|move refresh|move dazzlinggleam
+|
+|move|p2a: Togetic|Dazzling Gleam|p1a: Blastoise
+|-damage|p1a: Blastoise|39/100 par
+|move|p1a: Blastoise|Refresh|p1a: Blastoise
+|-curestatus|p1a: Blastoise|par|[msg]
+|
+|-heal|p1a: Blastoise|45/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|choice|move toxic|move thunderwave
+|
+|move|p1a: Blastoise|Toxic|p2a: Togetic
+|-status|p2a: Togetic|tox
+|move|p2a: Togetic|Thunder Wave|p1a: Blastoise
+|-status|p1a: Blastoise|par
+|
+|-heal|p1a: Blastoise|51/100 par|[from] item: Leftovers
+|-damage|p2a: Togetic|51/100 tox|[from] psn
+|upkeep
+|turn|15
+|choice|move refresh|move roost
+|
+|move|p2a: Togetic|Roost|p2a: Togetic
+|-heal|p2a: Togetic|100/100 tox
+|move|p1a: Blastoise|Refresh|p1a: Blastoise
+|-curestatus|p1a: Blastoise|par|[msg]
+|
+|-heal|p1a: Blastoise|58/100|[from] item: Leftovers
+|-damage|p2a: Togetic|88/100 tox|[from] psn
+|upkeep
+|turn|16
+|c|☆IT 1 1|bad
+|choice|move scald|move dazzlinggleam
+|
+|move|p1a: Blastoise|Scald|p2a: Togetic
+|-crit|p2a: Togetic
+|-damage|p2a: Togetic|62/100 tox
+|move|p2a: Togetic|Dazzling Gleam|p1a: Blastoise
+|-damage|p1a: Blastoise|37/100
+|
+|-heal|p1a: Blastoise|43/100|[from] item: Leftovers
+|-damage|p2a: Togetic|44/100 tox|[from] psn
+|upkeep
+|turn|17
+|c|☆voltdarkrai|u
+|choice|move scald|move dazzlinggleam
+|
+|move|p1a: Blastoise|Scald|p2a: Togetic
+|-damage|p2a: Togetic|27/100 tox
+|move|p2a: Togetic|Dazzling Gleam|p1a: Blastoise
+|-damage|p1a: Blastoise|23/100
+|
+|-heal|p1a: Blastoise|30/100|[from] item: Leftovers
+|-damage|p2a: Togetic|2/100 tox|[from] psn
+|upkeep
+|turn|18
+|choice|move scald|move dazzlinggleam
+|
+|move|p1a: Blastoise|Scald|p2a: Togetic
+|-damage|p2a: Togetic|0 fnt
+|faint|p2a: Togetic
+|
+|-heal|p1a: Blastoise|36/100|[from] item: Leftovers
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Hitmonlee|Hitmonlee, M|100/100
+|turn|19
+|choice|switch 2|move closecombat
+|
+|switch|p1a: Granbull|Granbull, M|78/100
+|-ability|p1a: Granbull|Intimidate|boost
+|-unboost|p2a: Hitmonlee|atk|1
+|move|p2a: Hitmonlee|Close Combat|p1a: Granbull
+|-resisted|p1a: Granbull
+|-damage|p1a: Granbull|55/100
+|-unboost|p2a: Hitmonlee|def|1
+|-unboost|p2a: Hitmonlee|spd|1
+|
+|upkeep
+|turn|20
+|choice|move playrough|switch 3
+|
+|switch|p2a: Audino|Audino, M|100/100
+|move|p1a: Granbull|Play Rough|p2a: Audino
+|-damage|p2a: Audino|32/100
+|
+|upkeep
+|turn|21
+|choice|move playrough|move dazzlinggleam mega
+|
+|detailschange|p2a: Audino|Audino-Mega, M
+|-mega|p2a: Audino|Audino|Audinite
+|move|p2a: Audino|Dazzling Gleam|p1a: Granbull
+|-damage|p1a: Granbull|13/100
+|move|p1a: Granbull|Play Rough|p2a: Audino
+|-damage|p2a: Audino|0 fnt
+|faint|p2a: Audino
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Hitmonlee|Hitmonlee, M|100/100
+|turn|22
+|choice|switch 5|move closecombat
+|
+|switch|p1a: Braviary|Braviary, M|100/100
+|move|p2a: Hitmonlee|Close Combat|p1a: Braviary
+|-damage|p1a: Braviary|23/100
+|-unboost|p2a: Hitmonlee|def|1
+|-unboost|p2a: Hitmonlee|spd|1
+|
+|upkeep
+|turn|23
+|choice|move roost|move closecombat
+|
+|move|p2a: Hitmonlee|Close Combat|p1a: Braviary
+|-damage|p1a: Braviary|0 fnt
+|-unboost|p2a: Hitmonlee|def|1
+|-unboost|p2a: Hitmonlee|spd|1
+|faint|p1a: Braviary
+|
+|upkeep
+|c|☆voltdarkrai|aw
+|c|☆voltdarkrai|no 6-0
+|c|☆voltdarkrai|J:
+|choice|switch 6|
+|
+|switch|p1a: Jolteon|Jolteon, M|100/100
+|turn|24
+|c|☆voltdarkrai|why the fuck is this hidden power water
+|choice|move thunderbolt|move closecombat
+|
+|move|p2a: Hitmonlee|Close Combat|p1a: Jolteon
+|-damage|p1a: Jolteon|0 fnt
+|-unboost|p2a: Hitmonlee|def|1
+|-unboost|p2a: Hitmonlee|spd|1
+|faint|p1a: Jolteon
+|
+|upkeep
+|c|☆voltdarkrai|you're
+|c|☆voltdarkrai|fucking
+|c|☆voltdarkrai|scarf
+|choice|switch 5|
+|
+|switch|p1a: Granbull|Granbull, M|13/100
+|-ability|p1a: Granbull|Intimidate|boost
+|-unboost|p2a: Hitmonlee|atk|1
+|turn|25
+|c|☆IT 1 1|rhyperior
+|choice|switch 3|move closecombat
+|
+|switch|p1a: Exploud|Exploud, M|50/100 par
+|move|p2a: Hitmonlee|Close Combat|p1a: Exploud
+|-supereffective|p1a: Exploud
+|-damage|p1a: Exploud|0 fnt
+|-unboost|p2a: Hitmonlee|def|1
+|-unboost|p2a: Hitmonlee|spd|1
+|faint|p1a: Exploud
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Glalie|Glalie, M|100/100
+|turn|26
+|choice|move iceshard mega|switch 4
+|
+|switch|p2a: Samurott|Samurott, M|100/100
+|detailschange|p1a: Glalie|Glalie-Mega, M
+|-mega|p1a: Glalie|Glalie|Glalitite
+|move|p1a: Glalie|Ice Shard|p2a: Samurott
+|-resisted|p2a: Samurott
+|-damage|p2a: Samurott|89/100
+|
+|upkeep
+|turn|27
+|j|bbvmn
+|choice|switch 2|move waterfall
+|
+|switch|p1a: Blastoise|Blastoise, M|36/100
+|move|p2a: Samurott|Waterfall|p1a: Blastoise
+|-resisted|p1a: Blastoise
+|-damage|p1a: Blastoise|22/100
+|
+|-heal|p1a: Blastoise|28/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|c| bbvmn|Kween.
+|choice|move toxic|move megahorn
+|
+|move|p2a: Samurott|Megahorn|p1a: Blastoise
+|-damage|p1a: Blastoise|4/100
+|move|p1a: Blastoise|Toxic|p2a: Samurott
+|-status|p2a: Samurott|tox
+|-enditem|p2a: Samurott|Lum Berry|[eat]
+|-curestatus|p2a: Samurott|tox|[msg]
+|
+|-heal|p1a: Blastoise|10/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|raw|<div class="broadcast-red"><strong>Moderated chat was set to +!</strong><br />Only users of rank + and higher can talk.</div>
+|c|☆voltdarkrai|stfu
+|c|☆voltdarkrai|you're so annoying
+|c|☆voltdarkrai|holy shit
+|choice|move toxic|move waterfall
+|
+|move|p2a: Samurott|Waterfall|p1a: Blastoise
+|-resisted|p1a: Blastoise
+|-damage|p1a: Blastoise|0 fnt
+|faint|p1a: Blastoise
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Granbull|Granbull, M|13/100
+|-ability|p1a: Granbull|Intimidate|boost
+|-unboost|p2a: Samurott|atk|1
+|turn|30
+|choice|move thunderpunch|move swordsdance
+|
+|move|p2a: Samurott|Swords Dance|p2a: Samurott
+|-boost|p2a: Samurott|atk|2
+|move|p1a: Granbull|Thunder Punch|p2a: Samurott
+|-supereffective|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|faint|p2a: Samurott
+|
+|upkeep
+|c|☆voltdarkrai|gg
+|c|☆voltdarkrai|rip me
+|choice||switch 4
+|
+|switch|p2a: Hitmonlee|Hitmonlee, M|100/100
+|turn|31
+|c|☆voltdarkrai|..
+|c|☆voltdarkrai|f
+|choice|move thunderpunch|move closecombat
+|
+|move|p2a: Hitmonlee|Close Combat|p1a: Granbull
+|-resisted|p1a: Granbull
+|-damage|p1a: Granbull|0 fnt
+|-unboost|p2a: Hitmonlee|def|1
+|-unboost|p2a: Hitmonlee|spd|1
+|faint|p1a: Granbull
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Glalie|Glalie-Mega, M|100/100
+|turn|32
+|choice|move iceshard|move closecombat
+|
+|move|p1a: Glalie|Ice Shard|p2a: Hitmonlee
+|-damage|p2a: Hitmonlee|35/100
+|move|p2a: Hitmonlee|Close Combat|p1a: Glalie
+|-supereffective|p1a: Glalie
+|-damage|p1a: Glalie|0 fnt
+|-unboost|p2a: Hitmonlee|def|1
+|-unboost|p2a: Hitmonlee|spd|1
+|faint|p1a: Glalie
+|
+|win|IT 1 1
+|c|☆IT 1 1|rekt
+|c|☆voltdarkrai|why tf are you scarf
+|c|☆voltdarkrai|just use
+|c|☆voltdarkrai|fake out unburden
+|c|☆voltdarkrai|:^(
+|c|☆voltdarkrai|smh
+|c|☆voltdarkrai|bg
+|l|voltdarkrai
+|l|IT 1 1
+|j|IT 1 1
+|c|☆IT 1 1|down 6-2
+|c|☆IT 1 1|wins
+|c|☆IT 1 1|ez af

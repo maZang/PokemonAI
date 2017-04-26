@@ -1,0 +1,215 @@
+|j|infamouskido
+|j|BOSSJUSTIN
+|player|p1|infamouskido|282
+|player|p2|BOSSJUSTIN|70
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|26545,7526,56972,21312,10277,242,34533,28349,10046,20393,41827,26903
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Gurdurr, M|item
+|poke|p1|Poliwrath, M|item
+|poke|p1|Granbull, M|item
+|poke|p1|Glalie, M|item
+|poke|p1|Delphox, M|item
+|poke|p1|Roselia, M|item
+|poke|p2|Sawk, M|item
+|poke|p2|Omastar, M|item
+|poke|p2|Houndoom, M|item
+|poke|p2|Jolteon, M|item
+|poke|p2|Braviary, M|item
+|poke|p2|Blastoise, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|c|☆infamouskido|sup caca
+|choice|team 5, team 2, team 3, team 4, team 1, team 6|team 4, team 2, team 3, team 1, team 5, team 6
+|
+|start
+|switch|p1a: Delphox|Delphox, M|100/100
+|switch|p2a: Jolteon|Jolteon, M|100/100
+|turn|1
+|c|☆infamouskido|hkbjnm
+|choice|move hiddenpower|move shadowball
+|
+|move|p2a: Jolteon|Shadow Ball|p1a: Delphox
+|-supereffective|p1a: Delphox
+|-damage|p1a: Delphox|8/100
+|move|p1a: Delphox|Hidden Power|p2a: Jolteon
+|-damage|p2a: Jolteon|68/100
+|-damage|p1a: Delphox|0 fnt|[from] item: Life Orb
+|faint|p1a: Delphox
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Gurdurr|Gurdurr, M|100/100
+|turn|2
+|c|☆BOSSJUSTIN|ur shit
+|choice|move drainpunch|switch 5
+|
+|switch|p2a: Braviary|Braviary, M|100/100
+|move|p1a: Gurdurr|Drain Punch|p2a: Braviary
+|-damage|p2a: Braviary|54/100
+|
+|upkeep
+|turn|3
+|c|☆infamouskido|why?
+|choice|move machpunch|move bravebird
+|
+|move|p1a: Gurdurr|Mach Punch|p2a: Braviary
+|-damage|p2a: Braviary|28/100
+|move|p2a: Braviary|Brave Bird|p1a: Gurdurr
+|-supereffective|p1a: Gurdurr
+|-damage|p1a: Gurdurr|0 fnt
+|-damage|p2a: Braviary|0 fnt|[from] recoil|[of] p1a: Gurdurr
+|faint|p1a: Gurdurr
+|faint|p2a: Braviary
+|
+|upkeep
+|c|☆BOSSJUSTIN|u called me caca
+|c|☆infamouskido|cause that's ur nickname
+|choice|switch 6|switch 5
+|
+|switch|p2a: Jolteon|Jolteon, M|68/100
+|switch|p1a: Roselia|Roselia, M|100/100
+|turn|4
+|c|☆BOSSJUSTIN|oh yaaaa
+|c|☆BOSSJUSTIN|totally
+|choice|move gigadrain|move voltswitch
+|
+|move|p2a: Jolteon|Volt Switch|p1a: Roselia
+|-resisted|p1a: Roselia
+|-damage|p1a: Roselia|83/100
+|choice||switch 3
+|
+|switch|p2a: Houndoom|Houndoom, M|100/100
+|move|p1a: Roselia|Giga Drain|p2a: Houndoom
+|-resisted|p2a: Houndoom
+|-damage|p2a: Houndoom|81/100
+|-heal|p1a: Roselia|92/100|[from] drain|[of] p2a: Houndoom
+|
+|upkeep
+|turn|5
+|choice|move gigadrain|move fireblast
+|
+|move|p2a: Houndoom|Fire Blast|p1a: Roselia
+|-supereffective|p1a: Roselia
+|-damage|p1a: Roselia|2/100
+|-damage|p2a: Houndoom|71/100|[from] item: Life Orb
+|move|p1a: Roselia|Giga Drain|p2a: Houndoom
+|-resisted|p2a: Houndoom
+|-damage|p2a: Houndoom|54/100
+|-heal|p1a: Roselia|10/100|[from] drain|[of] p2a: Houndoom
+|
+|upkeep
+|turn|6
+|c|☆infamouskido|why u gotta be dso mean
+|choice|move sludgebomb|move pursuit
+|
+|move|p2a: Houndoom|Pursuit|p1a: Roselia
+|-damage|p1a: Roselia|0 fnt
+|-damage|p2a: Houndoom|44/100|[from] item: Life Orb
+|faint|p1a: Roselia
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Glalie|Glalie, M|100/100
+|turn|7
+|choice|move explosion mega|move fireblast
+|
+|detailschange|p1a: Glalie|Glalie-Mega, M
+|-mega|p1a: Glalie|Glalie|Glalitite
+|move|p2a: Houndoom|Fire Blast|p1a: Glalie|[miss]
+|-miss|p2a: Houndoom|p1a: Glalie
+|move|p1a: Glalie|Explosion|p2a: Houndoom
+|-resisted|p2a: Houndoom
+|-damage|p2a: Houndoom|0 fnt
+|faint|p1a: Glalie
+|faint|p2a: Houndoom
+|
+|upkeep
+|c|☆BOSSJUSTIN|my ass
+|c|☆BOSSJUSTIN|lol
+|c|☆BOSSJUSTIN|ok
+|choice|switch 3|switch 6
+|
+|switch|p2a: Blastoise|Blastoise, M|100/100
+|switch|p1a: Granbull|Granbull, M|100/100
+|-ability|p1a: Granbull|Intimidate|boost
+|-unboost|p2a: Blastoise|atk|1
+|turn|8
+|choice|move thunderpunch|move scald
+|
+|move|p2a: Blastoise|Scald|p1a: Granbull
+|-damage|p1a: Granbull|68/100
+|move|p1a: Granbull|Thunder Punch|p2a: Blastoise
+|-supereffective|p2a: Blastoise
+|-crit|p2a: Blastoise
+|-damage|p2a: Blastoise|16/100
+|
+|-heal|p2a: Blastoise|22/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|choice|move thunderpunch|move scald
+|
+|move|p2a: Blastoise|Scald|p1a: Granbull
+|-damage|p1a: Granbull|20/100
+|-status|p1a: Granbull|brn
+|move|p1a: Granbull|Thunder Punch|p2a: Blastoise
+|-supereffective|p2a: Blastoise
+|-damage|p2a: Blastoise|0 fnt
+|faint|p2a: Blastoise
+|
+|-damage|p1a: Granbull|8/100 brn|[from] brn
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Sawk|Sawk, M|100/100
+|turn|10
+|c|☆BOSSJUSTIN|gg tho
+|choice|move thunderpunch|move zenheadbutt
+|
+|move|p2a: Sawk|Zen Headbutt|p1a: Granbull
+|-crit|p1a: Granbull
+|-damage|p1a: Granbull|0 fnt
+|faint|p1a: Granbull
+|
+|upkeep
+|c|☆infamouskido|why u goota be an ass
+|choice|switch 2|
+|
+|switch|p1a: Poliwrath|Poliwrath, M|100/100
+|turn|11
+|c|☆BOSSJUSTIN|wtf
+|c|☆infamouskido|now for that
+|c|☆infamouskido|im not letting you win
+|c|☆infamouskido|hahahahaha
+|c|☆infamouskido|im incvincble
+|choice|move scald|move zenheadbutt
+|
+|move|p2a: Sawk|Zen Headbutt|p1a: Poliwrath
+|-supereffective|p1a: Poliwrath
+|-damage|p1a: Poliwrath|15/100
+|move|p1a: Poliwrath|Scald|p2a: Sawk
+|-damage|p2a: Sawk|58/100
+|
+|-heal|p1a: Poliwrath|21/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|choice|move scald|move zenheadbutt
+|
+|move|p2a: Sawk|Zen Headbutt|p1a: Poliwrath
+|-supereffective|p1a: Poliwrath
+|-damage|p1a: Poliwrath|0 fnt
+|faint|p1a: Poliwrath
+|
+|win|BOSSJUSTIN
+|raw|infamouskido's rating: 1115 &rarr; <strong>1098</strong><br />(-17 for losing)
+|raw|BOSSJUSTIN's rating: 1237 &rarr; <strong>1253</strong><br />(+16 for winning)
+|l|BOSSJUSTIN
+|c|☆infamouskido|fucllllllllllllllllll'
+|l|infamouskido

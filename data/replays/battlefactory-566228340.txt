@@ -1,0 +1,58 @@
+|j|Overdragoon
+|j|realjdc
+|player|p1|Overdragoon|290
+|player|p2|realjdc|265
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|29825,32780,59188,4859,57902,23539,26885,23566,61636,13830,29286,9789
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Magnezone|item
+|poke|p1|Celebi|item
+|poke|p1|Gliscor, M|item
+|poke|p1|Azumarill, M|item
+|poke|p1|Altaria, M|item
+|poke|p1|Latias, F|item
+|poke|p2|Magnezone|item
+|poke|p2|Gyarados, M|item
+|poke|p2|Terrakion|item
+|poke|p2|Serperior, M|item
+|poke|p2|Skarmory, M|item
+|poke|p2|Breloom, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 5, team 2, team 3, team 4, team 1, team 6|team 3, team 2, team 1, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Altaria|Altaria, M|100/100
+|switch|p2a: Terrakion|Terrakion|100/100
+|turn|1
+|choice|move hypervoice mega|move stealthrock
+|
+|detailschange|p1a: Altaria|Altaria-Mega, M
+|-mega|p1a: Altaria|Altaria|Altarianite
+|move|p2a: Terrakion|Stealth Rock|p1a: Altaria
+|-sidestart|p1: Overdragoon|move: Stealth Rock
+|move|p1a: Altaria|Hyper Voice|p2a: Terrakion
+|-supereffective|p2a: Terrakion
+|-enditem|p2a: Terrakion|Focus Sash
+|-damage|p2a: Terrakion|1/100
+|
+|upkeep
+|turn|2
+|choice|move flamethrower|switch 5
+|
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|move|p1a: Altaria|Flamethrower|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-damage|p2a: Skarmory|38/100
+|
+|-heal|p2a: Skarmory|44/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|-message|realjdc forfeited.
+|
+|win|Overdragoon
+|l|realjdc

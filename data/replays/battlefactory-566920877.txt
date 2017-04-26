@@ -1,0 +1,266 @@
+|j|dejejr
+|j|SolAnima
+|player|p1|dejejr|23
+|player|p2|SolAnima|265
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|28838,10473,16831,9508,19308,64646,11422,60583,35403,15271,23866,51486
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Samurott, M|item
+|poke|p1|Braviary, M|item
+|poke|p1|Qwilfish, M|item
+|poke|p1|Sigilyph, M|item
+|poke|p1|Rhyperior, M|item
+|poke|p1|Rotom-Mow|item
+|poke|p2|Fletchinder, M|
+|poke|p2|Hitmonlee, M|item
+|poke|p2|Clawitzer, M|item
+|poke|p2|Audino, M|item
+|poke|p2|Absol, M|item
+|poke|p2|Drapion, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by SolAnima)
+|choice|team 3, team 2, team 1, team 4, team 5, team 6|team 5, team 2, team 3, team 4, team 1, team 6
+|
+|start
+|switch|p1a: Qwilfish|Qwilfish, M|100/100
+|switch|p2a: Absol|Absol, M|100/100
+|-ability|p1a: Qwilfish|Intimidate|boost
+|-unboost|p2a: Absol|atk|1
+|turn|1
+|choice|move spikes|switch 2
+|
+|switch|p2a: Hitmonlee|Hitmonlee, M|100/100
+|move|p1a: Qwilfish|Spikes|p2a: Hitmonlee
+|-sidestart|p2: SolAnima|Spikes
+|
+|upkeep
+|turn|2
+|choice|move explosion|move knockoff
+|
+|move|p2a: Hitmonlee|Knock Off|p1a: Qwilfish
+|-damage|p1a: Qwilfish|49/100
+|-enditem|p1a: Qwilfish|Focus Sash|[from] move: Knock Off|[of] p2a: Hitmonlee
+|move|p1a: Qwilfish|Explosion|p2a: Hitmonlee
+|-damage|p2a: Hitmonlee|0 fnt
+|faint|p1a: Qwilfish
+|faint|p2a: Hitmonlee
+|
+|upkeep
+|choice|switch 6|switch 3
+|
+|switch|p1a: Rotom|Rotom-Mow|100/100
+|switch|p2a: Clawitzer|Clawitzer, M|100/100
+|-damage|p2a: Clawitzer|88/100|[from] Spikes
+|turn|3
+|choice|move voltswitch|move icebeam
+|
+|move|p1a: Rotom|Volt Switch|p2a: Clawitzer
+|-supereffective|p2a: Clawitzer
+|-damage|p2a: Clawitzer|0 fnt
+|faint|p2a: Clawitzer
+|choice|switch 5|
+|
+|switch|p1a: Rhyperior|Rhyperior, M|100/100
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Absol|Absol, M|100/100
+|-damage|p2a: Absol|88/100|[from] Spikes
+|turn|4
+|choice|move stealthrock|move swordsdance
+|
+|move|p2a: Absol|Swords Dance|p2a: Absol
+|-boost|p2a: Absol|atk|2
+|move|p1a: Rhyperior|Stealth Rock|p2a: Absol
+|-sidestart|p2: SolAnima|move: Stealth Rock
+|
+|upkeep
+|turn|5
+|choice|move earthquake|move superpower
+|
+|move|p2a: Absol|Superpower|p1a: Rhyperior
+|-supereffective|p1a: Rhyperior
+|-damage|p1a: Rhyperior|0 fnt
+|-unboost|p2a: Absol|atk|1
+|-unboost|p2a: Absol|def|1
+|-damage|p2a: Absol|78/100|[from] item: Life Orb
+|faint|p1a: Rhyperior
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Sigilyph|Sigilyph, M|100/100
+|turn|6
+|choice|move calmmind|move knockoff
+|
+|move|p1a: Sigilyph|Calm Mind|p1a: Sigilyph
+|-boost|p1a: Sigilyph|spa|1
+|-boost|p1a: Sigilyph|spd|1
+|move|p2a: Absol|Knock Off|p1a: Sigilyph
+|-supereffective|p1a: Sigilyph
+|-damage|p1a: Sigilyph|0 fnt
+|-enditem|p1a: Sigilyph|Flame Orb|[from] move: Knock Off|[of] p2a: Absol
+|-damage|p2a: Absol|68/100|[from] item: Life Orb
+|faint|p1a: Sigilyph
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Samurott|Samurott, M|100/100
+|turn|7
+|choice|move aquajet|move suckerpunch
+|
+|move|p2a: Absol|Sucker Punch|p1a: Samurott
+|-damage|p1a: Samurott|1/100
+|-damage|p2a: Absol|58/100|[from] item: Life Orb
+|move|p1a: Samurott|Aqua Jet|p2a: Absol
+|-damage|p2a: Absol|8/100
+|
+|upkeep
+|turn|8
+|choice|move swordsdance|move suckerpunch
+|
+|move|p2a: Absol|Sucker Punch|p1a: Samurott|[still]
+|-fail|p2a: Absol
+|move|p1a: Samurott|Swords Dance|p1a: Samurott
+|-boost|p1a: Samurott|atk|2
+|
+|upkeep
+|turn|9
+|choice|move swordsdance|move suckerpunch
+|
+|move|p2a: Absol|Sucker Punch|p1a: Samurott|[still]
+|-fail|p2a: Absol
+|move|p1a: Samurott|Swords Dance|p1a: Samurott
+|-boost|p1a: Samurott|atk|2
+|
+|upkeep
+|turn|10
+|choice|move aquajet|move suckerpunch
+|
+|move|p2a: Absol|Sucker Punch|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|-damage|p2a: Absol|0 fnt|[from] item: Life Orb
+|faint|p1a: Samurott
+|faint|p2a: Absol
+|
+|upkeep
+|choice|switch 2|switch 6
+|
+|switch|p2a: Drapion|Drapion, M|100/100
+|switch|p1a: Braviary|Braviary, M|100/100
+|-damage|p2a: Drapion|88/100|[from] Stealth Rock
+|-damage|p2a: Drapion|76/100|[from] Spikes
+|turn|11
+|choice|move bravebird|move swordsdance
+|
+|move|p1a: Braviary|Brave Bird|p2a: Drapion
+|-damage|p2a: Drapion|3/100
+|-damage|p1a: Braviary|81/100|[from] recoil|[of] p2a: Drapion
+|move|p2a: Drapion|Swords Dance|p2a: Drapion
+|-boost|p2a: Drapion|atk|2
+|
+|upkeep
+|turn|12
+|choice|move bravebird|move poisonjab
+|
+|move|p1a: Braviary|Brave Bird|p2a: Drapion
+|-damage|p2a: Drapion|0 fnt
+|-damage|p1a: Braviary|80/100|[from] recoil|[of] p2a: Drapion
+|faint|p2a: Drapion
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Audino|Audino, M|100/100
+|-damage|p2a: Audino|88/100|[from] Spikes
+|-damage|p2a: Audino|76/100|[from] Stealth Rock
+|turn|13
+|choice|switch 5|move fireblast mega
+|
+|switch|p1a: Rotom|Rotom-Mow|100/100
+|detailschange|p2a: Audino|Audino-Mega, M
+|-mega|p2a: Audino|Audino|Audinite
+|move|p2a: Audino|Fire Blast|p1a: Rotom
+|-supereffective|p1a: Rotom
+|-damage|p1a: Rotom|24/100
+|-status|p1a: Rotom|brn
+|
+|-damage|p1a: Rotom|12/100 brn|[from] brn
+|upkeep
+|turn|14
+|choice|move leafstorm|move fireblast
+|
+|move|p1a: Rotom|Leaf Storm|p2a: Audino|[miss]
+|-miss|p1a: Rotom|p2a: Audino
+|move|p2a: Audino|Fire Blast|p1a: Rotom
+|-supereffective|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Braviary|Braviary, M|80/100
+|turn|15
+|choice|move bravebird|move fireblast
+|
+|move|p1a: Braviary|Brave Bird|p2a: Audino
+|-damage|p2a: Audino|32/100
+|-damage|p1a: Braviary|63/100|[from] recoil|[of] p2a: Audino
+|move|p2a: Audino|Fire Blast|p1a: Braviary
+|-damage|p1a: Braviary|24/100
+|
+|upkeep
+|turn|16
+|choice|move bravebird|move fireblast
+|
+|move|p1a: Braviary|Brave Bird|p2a: Audino
+|-damage|p2a: Audino|0 fnt
+|-damage|p1a: Braviary|11/100|[from] recoil|[of] p2a: Audino
+|faint|p2a: Audino
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Fletchinder|Fletchinder, M|100/100
+|-damage|p2a: Fletchinder|51/100|[from] Stealth Rock
+|turn|17
+|choice|move bravebird|move roost
+|
+|move|p2a: Fletchinder|Roost|p2a: Fletchinder
+|-heal|p2a: Fletchinder|100/100
+|move|p1a: Braviary|Brave Bird|p2a: Fletchinder
+|-damage|p2a: Fletchinder|0 fnt
+|-damage|p1a: Braviary|0 fnt|[from] recoil|[of] p2a: Fletchinder
+|faint|p2a: Fletchinder
+|faint|p1a: Braviary
+|
+|win|dejejr
+|raw|dejejr's rating: 1505 &rarr; <strong>1514</strong><br />(+9 for winning)
+|raw|SolAnima's rating: 1277 &rarr; <strong>1266</strong><br />(-11 for losing)
+|c|☆dejejr|ur so bad
+|c|☆dejejr|oml
+|c|☆SolAnima|WHAT?
+|c|☆dejejr|ive never won a worse matchup
+|c|☆SolAnima|Hello?
+|c|☆SolAnima|Bruh
+|c|☆SolAnima|It took everything you had to take me dow
+|c|☆dejejr|i made two mistakes and got hax when you had such a good team
+|c|☆SolAnima|n
+|c|☆SolAnima|Not really
+|c|☆dejejr|exactly bcus your team was lethal
+|c|☆SolAnima|Pretty even
+|c|☆dejejr|bruh
+|c|☆dejejr|did you see absol
+|c|☆SolAnima|Your team checks a lot of things I had
+|c|☆dejejr|the only reason i had a chance was because of a roll
+|c|☆dejejr|pls evaulate the ratings then talk to me
+|l|dejejr

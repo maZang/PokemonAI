@@ -1,0 +1,246 @@
+|j|mikatrib
+|j|infamouskido
+|player|p1|mikatrib|2
+|player|p2|infamouskido|282
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|24777,36299,63259,44303,30518,41317,44402,34409,19391,30695,7578,6226
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Piloswine, M|item
+|poke|p1|Aromatisse, M|item
+|poke|p1|Camerupt, M|item
+|poke|p1|Emboar, M|item
+|poke|p1|Alomomola, M|item
+|poke|p1|Omastar, M|item
+|poke|p2|Sigilyph, M|item
+|poke|p2|Alomomola, M|item
+|poke|p2|Slowking, M|item
+|poke|p2|Flygon, M|item
+|poke|p2|Smeargle, M|item
+|poke|p2|Emboar, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|c|☆infamouskido|hey.....
+|c|☆infamouskido|hey...
+|choice|team 6, team 2, team 3, team 4, team 5, team 1|team 4, team 2, team 3, team 1, team 5, team 6
+|
+|start
+|switch|p1a: Omastar|Omastar, M|100/100
+|switch|p2a: Flygon|Flygon, M|100/100
+|turn|1
+|c|☆infamouskido|hey.....
+|c|☆infamouskido|hey...
+|choice|move icebeam|move earthquake
+|
+|move|p2a: Flygon|Earthquake|p1a: Omastar
+|-supereffective|p1a: Omastar
+|-damage|p1a: Omastar|31/100
+|-ability|p1a: Omastar|Weak Armor|boost
+|-unboost|p1a: Omastar|def|1
+|-boost|p1a: Omastar|spe|1
+|move|p1a: Omastar|Ice Beam|p2a: Flygon
+|-supereffective|p2a: Flygon
+|-damage|p2a: Flygon|0 fnt
+|faint|p2a: Flygon
+|
+|upkeep
+|c|☆infamouskido|hey..
+|choice||switch 5
+|
+|switch|p2a: Smeargle|Smeargle, M|100/100
+|turn|2
+|c|☆infamouskido|hey...
+|c|☆infamouskido|hey...
+|choice|move stealthrock|move explosion
+|
+|move|p1a: Omastar|Stealth Rock|p2a: Smeargle
+|-sidestart|p2: infamouskido|move: Stealth Rock
+|move|p2a: Smeargle|Explosion|p1a: Omastar
+|-resisted|p1a: Omastar
+|-damage|p1a: Omastar|10/100
+|-ability|p1a: Omastar|Weak Armor|boost
+|-unboost|p1a: Omastar|def|1
+|-boost|p1a: Omastar|spe|1
+|faint|p2a: Smeargle
+|
+|upkeep
+|c|☆infamouskido|hey.....
+|c|☆infamouskido|he......
+|choice||switch 6
+|
+|switch|p2a: Emboar|Emboar, M|100/100
+|-damage|p2a: Emboar|88/100|[from] Stealth Rock
+|turn|3
+|c|☆infamouskido|hey...
+|choice|move scald|move suckerpunch
+|
+|move|p2a: Emboar|Sucker Punch|p1a: Omastar
+|-damage|p1a: Omastar|0 fnt
+|faint|p1a: Omastar
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Alomomola|Alomomola, M|100/100
+|turn|4
+|c|☆infamouskido|hey....
+|choice|move wish|move wildcharge
+|
+|move|p2a: Emboar|Wild Charge|p1a: Alomomola
+|-supereffective|p1a: Alomomola
+|-damage|p1a: Alomomola|33/100
+|-damage|p2a: Emboar|64/100|[from] recoil|[of] p1a: Alomomola
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|-heal|p1a: Alomomola|39/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|c|☆infamouskido|hey....
+|choice|move protect|move wildcharge
+|
+|move|p1a: Alomomola|Protect|p1a: Alomomola
+|-singleturn|p1a: Alomomola|Protect
+|move|p2a: Emboar|Wild Charge|p1a: Alomomola
+|-activate|p1a: Alomomola|move: Protect
+|
+|-heal|p1a: Alomomola|89/100|[from] move: Wish|[wisher] Alomomola
+|-heal|p1a: Alomomola|95/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|c|☆infamouskido|hey....
+|c|☆infamouskido|hey......
+|c|☆infamouskido|hey.....
+|c|☆infamouskido|hey...
+|c|☆infamouskido|hry...
+|choice|switch 3|move wildcharge
+|
+|switch|p1a: Camerupt|Camerupt, M|100/100
+|move|p2a: Emboar|Wild Charge|p1a: Camerupt
+|-immune|p1a: Camerupt|[msg]
+|
+|upkeep
+|turn|7
+|c|☆infamouskido|he.....
+|choice|move earthpower mega|move wildcharge
+|
+|detailschange|p1a: Camerupt|Camerupt-Mega, M
+|-mega|p1a: Camerupt|Camerupt|Cameruptite
+|move|p2a: Emboar|Wild Charge|p1a: Camerupt
+|-immune|p1a: Camerupt|[msg]
+|move|p1a: Camerupt|Earth Power|p2a: Emboar
+|-supereffective|p2a: Emboar
+|-damage|p2a: Emboar|0 fnt
+|faint|p2a: Emboar
+|
+|upkeep
+|c|☆infamouskido|heyl....
+|c|☆infamouskido|hey...
+|j|DigitalVaporeon
+|choice||switch 2
+|
+|switch|p2a: Alomomola|Alomomola, M|100/100
+|-damage|p2a: Alomomola|88/100|[from] Stealth Rock
+|turn|8
+|c|☆infamouskido|hey....
+|choice|switch 3|move scald
+|
+|switch|p1a: Alomomola|Alomomola, M|100/100
+|move|p2a: Alomomola|Scald|p1a: Alomomola
+|-resisted|p1a: Alomomola
+|-damage|p1a: Alomomola|95/100
+|-status|p1a: Alomomola|brn
+|
+|-heal|p2a: Alomomola|94/100|[from] item: Leftovers
+|-heal|p1a: Alomomola|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Alomomola|88/100 brn|[from] brn
+|upkeep
+|turn|9
+|c|☆infamouskido|hey.....
+|c|☆infamouskido|hey.........
+|c|☆infamouskido|hey....
+|choice|move toxic|move scald
+|
+|move|p1a: Alomomola|Toxic|p2a: Alomomola
+|-status|p2a: Alomomola|tox
+|move|p2a: Alomomola|Scald|p1a: Alomomola
+|-resisted|p1a: Alomomola
+|-damage|p1a: Alomomola|83/100 brn
+|
+|-heal|p2a: Alomomola|100/100 tox|[from] item: Leftovers
+|-heal|p1a: Alomomola|90/100 brn|[from] item: Leftovers
+|-damage|p2a: Alomomola|94/100 tox|[from] psn
+|-damage|p1a: Alomomola|77/100 brn|[from] brn
+|upkeep
+|turn|10
+|c|☆infamouskido|hey,,,
+|c|☆infamouskido|hey......
+|c|☆infamouskido|hey.....
+|c|☆infamouskido|het.....
+|c|☆infamouskido|hey...
+|choice|move wish|move wish
+|
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|-heal|p2a: Alomomola|100/100 tox|[from] item: Leftovers
+|-heal|p1a: Alomomola|83/100 brn|[from] item: Leftovers
+|-damage|p1a: Alomomola|71/100 brn|[from] brn
+|-damage|p2a: Alomomola|88/100 tox|[from] psn
+|upkeep
+|turn|11
+|c|☆infamouskido|hey.....
+|c|☆infamouskido|can u fuckin answer me
+|choice|move scald|switch 4
+|
+|switch|p2a: Sigilyph|Sigilyph, M|100/100
+|move|p1a: Alomomola|Scald|p2a: Sigilyph
+|-damage|p2a: Sigilyph|84/100
+|-status|p2a: Sigilyph|brn
+|
+|-heal|p1a: Alomomola|100/100 brn|[from] move: Wish|[wisher] Alomomola
+|-heal|p2a: Sigilyph|100/100 brn|[from] move: Wish|[wisher] Alomomola
+|-damage|p1a: Alomomola|88/100 brn|[from] brn
+|upkeep
+|turn|12
+|c|☆infamouskido|digital vaporean get the fuck t of ere
+|choice|switch 6|move airslash
+|
+|switch|p1a: Piloswine|Piloswine, M|100/100
+|move|p2a: Sigilyph|Air Slash|p1a: Piloswine
+|-damage|p1a: Piloswine|77/100
+|
+|upkeep
+|turn|13
+|choice|move iciclecrash|move psychoshift
+|
+|move|p2a: Sigilyph|Psycho Shift|p1a: Piloswine
+|-status|p1a: Piloswine|brn
+|-curestatus|p2a: Sigilyph|brn|[msg]
+|move|p1a: Piloswine|Icicle Crash|p2a: Sigilyph|[miss]
+|-miss|p1a: Piloswine|p2a: Sigilyph
+|
+|-damage|p1a: Piloswine|65/100 brn|[from] brn
+|-status|p2a: Sigilyph|brn|[from] item: Flame Orb
+|upkeep
+|turn|14
+|choice|move iciclecrash|move psychoshift
+|
+|move|p2a: Sigilyph|Psycho Shift|p1a: Piloswine
+|-fail|p1a: Piloswine
+|move|p1a: Piloswine|Icicle Crash|p2a: Sigilyph|[miss]
+|-miss|p1a: Piloswine|p2a: Sigilyph
+|
+|-damage|p1a: Piloswine|52/100 brn|[from] brn
+|upkeep
+|turn|15
+|-message|infamouskido forfeited.
+|
+|win|mikatrib
+|l|infamouskido
+|raw|mikatrib's rating: 1000 &rarr; <strong>1059</strong><br />(+59 for winning)
+|raw|infamouskido's rating: 1184 &rarr; <strong>1147</strong><br />(-37 for losing)
+|l|mikatrib

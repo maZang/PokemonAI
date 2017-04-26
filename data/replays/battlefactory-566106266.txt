@@ -1,0 +1,319 @@
+|j|Eclipse
+|j|Fish~18
+|player|p1|Eclipse|188
+|player|p2|Fish~18|12
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|20111,6179,36876,49674,22082,33789,43811,19981,19339,54552,61542,36735
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Haxorus, M|item
+|poke|p1|Tentacruel, M|item
+|poke|p1|Abomasnow, M|item
+|poke|p1|Infernape, M|item
+|poke|p1|Gligar, M|item
+|poke|p1|Froslass, F|item
+|poke|p2|Pangoro, M|item
+|poke|p2|Nidoqueen, F|item
+|poke|p2|Forretress, M|item
+|poke|p2|Rotom-Heat|item
+|poke|p2|Mienshao, M|item
+|poke|p2|Tornadus, M|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|c|☆Eclipse|rotom stays broken
+|c|☆Fish~18|yes
+|c|☆Fish~18|mienshao
+|c|☆Eclipse|gg
+|choice|team 6, team 2, team 3, team 4, team 5, team 1|team 3, team 2, team 1, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Froslass|Froslass, F|100/100
+|switch|p2a: Forretress|Forretress, M|100/100
+|turn|1
+|c|☆Eclipse|oh come on
+|choice|move taunt|move gyroball
+|
+|move|p1a: Froslass|Taunt|p2a: Forretress
+|-start|p2a: Forretress|move: Taunt
+|move|p2a: Forretress|Gyro Ball|p1a: Froslass
+|-supereffective|p1a: Froslass
+|-damage|p1a: Froslass|10/100
+|-start|p2a: Forretress|Disable|Gyro Ball|[from] ability: Cursed Body|[of] p1a: Froslass
+|
+|upkeep
+|turn|2
+|c|☆Eclipse|good
+|choice|move spikes|move voltswitch
+|
+|move|p1a: Froslass|Spikes|p2a: Forretress
+|-sidestart|p2: Fish~18|Spikes
+|move|p2a: Forretress|Volt Switch|p1a: Froslass
+|-damage|p1a: Froslass|0 fnt
+|faint|p1a: Froslass
+|c|☆Fish~18|rude
+|c|☆Eclipse|oh
+|choice||switch 6
+|
+|switch|p2a: Tornadus|Tornadus, M|100/100
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Abomasnow|Abomasnow, M|100/100
+|turn|3
+|choice|move iceshard mega|move acrobatics
+|
+|detailschange|p1a: Abomasnow|Abomasnow-Mega, M
+|-mega|p1a: Abomasnow|Abomasnow|Abomasite
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Abomasnow
+|move|p1a: Abomasnow|Ice Shard|p2a: Tornadus
+|-supereffective|p2a: Tornadus
+|-damage|p2a: Tornadus|32/100
+|move|p2a: Tornadus|Acrobatics|p1a: Abomasnow
+|-supereffective|p1a: Abomasnow
+|-damage|p1a: Abomasnow|0 fnt
+|faint|p1a: Abomasnow
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Tornadus|26/100|[from] hail
+|upkeep
+|c|☆Eclipse|it died
+|choice|switch 4|
+|
+|switch|p1a: Infernape|Infernape, M|100/100
+|turn|4
+|choice|move fakeout|switch 4
+|
+|switch|p2a: Rotom|Rotom-Heat|100/100
+|move|p1a: Infernape|Fake Out|p2a: Rotom
+|-crit|p2a: Rotom
+|-damage|p2a: Rotom|87/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Infernape|94/100|[from] hail
+|-damage|p2a: Rotom|81/100|[from] hail
+|-heal|p2a: Rotom|87/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|choice|move stealthrock|move voltswitch
+|
+|move|p1a: Infernape|Stealth Rock|p2a: Rotom
+|-sidestart|p2: Fish~18|move: Stealth Rock
+|move|p2a: Rotom|Volt Switch|p1a: Infernape
+|-damage|p1a: Infernape|47/100
+|choice||switch 2
+|
+|switch|p2a: Nidoqueen|Nidoqueen, F|100/100
+|-damage|p2a: Nidoqueen|94/100|[from] Stealth Rock
+|-damage|p2a: Nidoqueen|82/100|[from] Spikes
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Infernape|41/100|[from] hail
+|-damage|p2a: Nidoqueen|76/100|[from] hail
+|-heal|p2a: Nidoqueen|82/100|[from] item: Black Sludge
+|upkeep
+|turn|6
+|choice|switch 6|move icebeam
+|
+|switch|p1a: Haxorus|Haxorus, M|100/100
+|-ability|p1a: Haxorus|Mold Breaker
+|move|p2a: Nidoqueen|Ice Beam|p1a: Haxorus
+|-supereffective|p1a: Haxorus
+|-damage|p1a: Haxorus|31/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Haxorus|25/100|[from] hail
+|-damage|p2a: Nidoqueen|76/100|[from] hail
+|-heal|p2a: Nidoqueen|82/100|[from] item: Black Sludge
+|upkeep
+|turn|7
+|choice|move outrage|move icebeam
+|
+|move|p1a: Haxorus|Outrage|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|13/100
+|move|p2a: Nidoqueen|Ice Beam|p1a: Haxorus
+|-supereffective|p1a: Haxorus
+|-damage|p1a: Haxorus|0 fnt
+|faint|p1a: Haxorus
+|
+|-weather|none
+|-heal|p2a: Nidoqueen|19/100|[from] item: Black Sludge
+|upkeep
+|c|☆Eclipse|oh
+|choice|switch 6|
+|
+|switch|p1a: Infernape|Infernape, M|41/100
+|turn|8
+|c|☆Fish~18|i should have let u kill me
+|choice|move closecombat|move icebeam
+|
+|move|p1a: Infernape|Close Combat|p2a: Nidoqueen
+|-resisted|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|0 fnt
+|-unboost|p1a: Infernape|def|1
+|-unboost|p1a: Infernape|spd|1
+|faint|p2a: Nidoqueen
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Rotom|Rotom-Heat|87/100
+|-damage|p2a: Rotom|62/100|[from] Stealth Rock
+|turn|9
+|choice|switch 5|move voltswitch
+|
+|switch|p1a: Gligar|Gligar, M|100/100
+|move|p2a: Rotom|Volt Switch|p1a: Gligar
+|-immune|p1a: Gligar|[msg]
+|
+|-heal|p2a: Rotom|68/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|choice|switch 5|switch 6
+|
+|switch|p2a: Forretress|Forretress, M|100/100
+|-damage|p2a: Forretress|88/100|[from] Spikes
+|-damage|p2a: Forretress|76/100|[from] Stealth Rock
+|switch|p1a: Infernape|Infernape, M|41/100
+|
+|-heal|p2a: Forretress|82/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|c|☆Fish~18|how
+|choice|move overheat|move rapidspin
+|
+|move|p1a: Infernape|Overheat|p2a: Forretress
+|-supereffective|p2a: Forretress
+|-damage|p2a: Forretress|0 fnt
+|-unboost|p1a: Infernape|spa|2
+|faint|p2a: Forretress
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Mienshao|Mienshao, M|100/100
+|-damage|p2a: Mienshao|88/100|[from] Spikes
+|-damage|p2a: Mienshao|82/100|[from] Stealth Rock
+|turn|12
+|c|☆Eclipse|gg
+|choice|switch 2|move knockoff
+|
+|switch|p1a: Tentacruel|Tentacruel, M|100/100
+|move|p2a: Mienshao|Knock Off|p1a: Tentacruel
+|-damage|p1a: Tentacruel|73/100
+|-enditem|p1a: Tentacruel|Black Sludge|[from] move: Knock Off|[of] p2a: Mienshao
+|
+|upkeep
+|turn|13
+|choice|switch 2|switch 6
+|
+|switch|p2a: Rotom|Rotom-Heat|68/100
+|-damage|p2a: Rotom|43/100|[from] Stealth Rock
+|switch|p1a: Infernape|Infernape, M|41/100
+|
+|-heal|p2a: Rotom|49/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|choice|move fakeout|move voltswitch
+|
+|move|p1a: Infernape|Fake Out|p2a: Rotom
+|-damage|p2a: Rotom|39/100
+|cant|p2a: Rotom|flinch
+|
+|-heal|p2a: Rotom|45/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|choice|switch 2|move willowisp
+|
+|switch|p1a: Tentacruel|Tentacruel, M|73/100
+|move|p2a: Rotom|Will-O-Wisp|p1a: Tentacruel
+|-status|p1a: Tentacruel|brn
+|
+|-heal|p2a: Rotom|51/100|[from] item: Leftovers
+|-damage|p1a: Tentacruel|61/100 brn|[from] brn
+|upkeep
+|turn|16
+|choice|move toxicspikes|switch 4
+|
+|switch|p2a: Tornadus|Tornadus, M|26/100
+|-damage|p2a: Tornadus|1/100|[from] Stealth Rock
+|move|p1a: Tentacruel|Toxic Spikes|p2a: Tornadus
+|-sidestart|p2: Fish~18|move: Toxic Spikes
+|
+|-damage|p1a: Tentacruel|48/100 brn|[from] brn
+|upkeep
+|turn|17
+|c|☆Fish~18|clean
+|choice|move rapidspin|move acrobatics
+|
+|move|p2a: Tornadus|Acrobatics|p1a: Tentacruel
+|-damage|p1a: Tentacruel|0 fnt
+|faint|p1a: Tentacruel
+|
+|upkeep
+|c|☆Eclipse|it dies
+|choice|switch 2|
+|
+|switch|p1a: Infernape|Infernape, M|41/100
+|turn|18
+|c|☆Fish~18|ofc it dies
+|choice|move fakeout|move acrobatics
+|
+|move|p1a: Infernape|Fake Out|p2a: Tornadus
+|-damage|p2a: Tornadus|0 fnt
+|faint|p2a: Tornadus
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Mienshao|Mienshao, M|82/100
+|-status|p2a: Mienshao|psn
+|-damage|p2a: Mienshao|77/100 psn|[from] Stealth Rock
+|-damage|p2a: Mienshao|64/100 psn|[from] Spikes
+|turn|19
+|choice|switch 5|move highjumpkick
+|
+|switch|p1a: Gligar|Gligar, M|100/100
+|move|p2a: Mienshao|High Jump Kick|p1a: Gligar
+|-resisted|p1a: Gligar
+|-damage|p1a: Gligar|83/100
+|
+|-damage|p2a: Mienshao|52/100 psn|[from] psn
+|upkeep
+|turn|20
+|choice|move batonpass|switch 3
+|
+|switch|p2a: Pangoro|Pangoro, M|100/100
+|-damage|p2a: Pangoro|94/100|[from] Stealth Rock
+|-damage|p2a: Pangoro|82/100|[from] Spikes
+|-status|p2a: Pangoro|psn
+|move|p1a: Gligar|Baton Pass|p1a: Gligar
+|c|☆Fish~18|omg
+|choice|switch 5|
+|
+|switch|p1a: Infernape|Infernape, M|41/100
+|
+|-damage|p2a: Pangoro|70/100 psn|[from] psn
+|upkeep
+|turn|21
+|c|☆Fish~18|how are u this good
+|choice|move closecombat|move drainpunch
+|
+|move|p1a: Infernape|Close Combat|p2a: Pangoro
+|-supereffective|p2a: Pangoro
+|-damage|p2a: Pangoro|0 fnt
+|-unboost|p1a: Infernape|def|1
+|-unboost|p1a: Infernape|spd|1
+|faint|p2a: Pangoro
+|
+|upkeep
+|c|☆Fish~18|GG
+|c|☆Eclipse|idk man
+|c|☆Eclipse|GG
+|-message|Fish~18 forfeited.
+|
+|win|Eclipse
+|l|Fish~18
