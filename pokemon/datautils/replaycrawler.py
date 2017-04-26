@@ -7,7 +7,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException
-import os 
+import os
 import time
 from datetime import datetime
 
@@ -19,7 +19,7 @@ SEEN_GAMES = 'replay_games.txt'
 DRIVERFOLDER = 'driver/chromedriver.exe'
 
 def crawl():
-	try: 
+	try:
 		with open(DATAFOLDER + SEEN_GAMES, 'r') as f:
 			seen_games = set([line.strip() for line in f])
 		req = urllib.request.Request(SEARCHURL, headers={'User-Agent' : 'Magic Browser'})
@@ -37,7 +37,7 @@ def crawl():
 		with open(DATAFOLDER + SEEN_GAMES, 'w') as f:
 			for game in seen_games:
 				f.write(game + "\n")
-			
+
 	except (urllib.error.HTTPError,urllib.error.URLError) as e:
 		print(e.fp.read())
 
