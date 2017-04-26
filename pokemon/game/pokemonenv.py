@@ -44,6 +44,9 @@ def login(driver, showdown_config):
 	driver.find_element(By.CSS_SELECTOR, 'button[type="submit"]').click()
 	time.sleep(1)
 
+def challenge(driver1, driver2, showdown_config1, showdown_config2):
+	pass 
+
 def runPokemonShowdown():
 	showdown_config = PokemonShowdownConfig()
 	driver = webdriver.Chrome(executable_path=DRIVERFOLDER)
