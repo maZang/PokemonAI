@@ -1,22 +1,16 @@
-from bs4 import BeautifulSoup
-import urllib
-import urllib.request
-import urllib.error
+import re
 
 DATAFOLDER = '../../data/replays/'
-#BATTLEFILE = 'Gen7RandomBattle-2017-04-24-420slayer-davih318.html'
+BATTLEFILE = 'gen7randombattle-567041326.log'
 
 class PokemonShowdownReplayParser(object):
-	self.log = ""
-	self.players = {}
-
-	def init(log):
+	def __init__(self, log="", players={}):
 		self.log = log
-		self.players["p1"] = new Player("p1")
-		self.players["p2"] = new Player("p2")
+		self.players = players
+		self.players["p1"] = Player("p1")
+		self.players["p2"] = Player("p2")
 
-	def run(log):
-		self.init(log)
+	def run(self):
 		self.parse()
 
 		output = ""
@@ -25,324 +19,258 @@ class PokemonShowdownReplayParser(object):
 
 		return output
 
-	def parse():
+	def parse(self):
 		lines = self.log.split('\n')
-		for i in range(len(lines)):
-			line = lines[i]
-			if(line.startsWith("|player|") )
-			{
-				this.processPlayer(line);
-			} 
-			else if (line.startsWith("|poke|")) 
-			{
-				this.processPoke(line);
-			} 
-			else if (line.startsWith("|move|"))
-			{
-				this.processMove(line);
-			} 
-			else if (line.startsWith("|-ability|"))
-			{
-				this.processAbility(line);
-			}
-			else if (line.startsWith("|switch|"))
-			{
-				this.processSwitch(line);
-			} else if (line.startsWith("|drag|"))
-			{
-				this.processDrag(line);
-			} 
-			else if (line.startsWith("|-mega|"))
-			{
-				this.processMega(line);
-			}  
-			else if(line.startsWith("|detailschange|"))
-			{
-				this.processDetailsChange(line);
-			}
-			//else if(line.startsWith("|-item|"))
-			//{
-			//		this.processItem(line);
-			//		} 			
-			else if(line.startsWith("|-enditem|"))
-			{
-				this.processEndItem(line);
-			} 
-			else if(line.includes("|[from] move:"))
-			{
-				if(line.startsWith("|-item|"))
-				{
-					this.processItemFromMove(line);
-				}
-			}
-			else if(line.includes("|[from] item:"))
-			{
-				// Leftovers
-				if(line.startsWith("|-heal|"))
-				{
-					this.processHealFromItem(line);
-				}	
-			}
-			else if(line.includes("[from] ability: "))
-			{
-				if(line.startsWith("|-weather|"))
-				{
-					this.processWeatherFromAbility(line);
-				}
-			}
-			else
-			{
-				if(line.startsWith("|J|")
-					|| line.startsWith("|j|")
-					|| line.startsWith("|L|")
-					|| line.startsWith("|l|")
-					|| line.startsWith("|inactive|")
-					|| line.startsWith("|choice|")
-					|| line.startsWith("|seed|")
-					|| line.startsWith("|rated")
-					|| line.startsWith("|upkeep")
-					|| line.startsWith("|-resisted|")
-					|| line.startsWith("|gametype|")
-					|| line.startsWith("|gen|")
-					|| line.startsWith("|tier|")
-					|| line.startsWith("|-miss|")
-					|| line.startsWith("|clearpoke")
-					|| line.startsWith("|teampreview")
-					|| line.startsWith("|c|")
-					|| line.startsWith("|rule|")
-					|| line.startsWith("|turn|")
-					|| line.startsWith("|-sidestart|")
-					|| line.startsWith("|-start|")
-					|| line.startsWith("|-damage|")
-					|| line.startsWith("|-fail|")
-					|| line.startsWith("|-activate|")
-					|| line.startsWith("|-boost|")
-					|| line.startsWith("|start")
-					|| line.startsWith("|faint|")
-					|| line.startsWith("|win|")
-					|| line.startsWith("|-supereffective|")
-					|| line.startsWith("|-crit|")
-					|| line.startsWith("|-end|")
-					|| line.startsWith("|-singleturn|")
-					|| line.startsWith("|-message|")
-					|| line.startsWith("|cant|")
-					|| line.startsWith("|-status|")
-					|| line.startsWith("|-unboost|")
-					|| line == "|"
-					) {
-				} else {
-					console.log(line);
-				}
-			}
-		}
-	}
+		print(lines)
+		for line in lines:
+			if line.startswith("|player|"):
+				self.processPlayer(line)
+			elif line.startswith("|poke|"): 
+				self.processPoke(line)
+			elif line.startswith("|move|"):
+				self.processMove(line)
+			elif line.startswith("|-ability|"):
+				self.processAbility(line)
+			elif line.startswith("|switch|"):
+				self.processSwitch(line)
+			elif line.startswith("|drag|"):
+				self.processDrag(line)
+			elif line.startswith("|-mega|"):
+				self.processMega(line)
+			elif line.startswith("|detailschange|"):
+				self.processDetailsChange(line)
+			# elif line.startswith("|-item|"):
+			# 
+			#		self.processItem(line)
+			#		 			
+			elif line.startswith("|-enditem|"):
+				self.processEndItem(line) 
+			elif "|[from] move:" in line:
+				if line.startswith("|-item|"):
+					self.processItemFromMove(line)
+			elif "|[from] item:" in line:
+				if line.startswith("|-heal|"):
+					self.processHealFromItem(line)
+			elif "[from] ability: " in line:
+				if line.startswith("|-weather|"):
+					self.processWeatherFromAbility(line)	
+			else:
+				if (line.startswith("|J|") 
+					or line.startswith("|j|")
+					or line.startswith("|L|")
+					or line.startswith("|l|")
+					or line.startswith("|inactive|")
+					or line.startswith("|choice|")
+					or line.startswith("|seed|")
+					or line.startswith("|rated")
+					or line.startswith("|upkeep")
+					or line.startswith("|-resisted|")
+					or line.startswith("|gametype|")
+					or line.startswith("|gen|")
+					or line.startswith("|tier|")
+					or line.startswith("|-miss|")
+					or line.startswith("|clearpoke")
+					or line.startswith("|teampreview")
+					or line.startswith("|c|")
+					or line.startswith("|rule|")
+					or line.startswith("|turn|")
+					or line.startswith("|-sidestart|")
+					or line.startswith("|-start|")
+					or line.startswith("|-damage|")
+					or line.startswith("|-fail|")
+					or line.startswith("|-activate|")
+					or line.startswith("|-boost|")
+					or line.startswith("|start")
+					or line.startswith("|faint|")
+					or line.startswith("|win|")
+					or line.startswith("|-supereffective|")
+					or line.startswith("|-crit|")
+					or line.startswith("|-end|")
+					or line.startswith("|-singleturn|")
+					or line.startswith("|-message|")
+					or line.startswith("|cant|")
+					or line.startswith("|-status|")
+					or line.startswith("|-unboost|")
+					or line == "|"):
+					pass
+				else:
+					print(line)
 
-	this.processPlayer = function(line) 
-	{
-		var fields = line.split("|");
+	def processPlayer(self, line):
+		fields = line.split("|")
 
-		if(fields.length >= 4)
-		{
-			this.players[fields[2]].username = fields[3];
-		}
-	}
-
-	this.processPoke = function(line)
-	{
-		var fields = line.split("|");
-
-		var pokemon = new Pokemon();
-		pokemon.species = fields[3].replace(/,.*$/, "");
-		this.players[fields[2]].pokemon.push(pokemon);
-	}
-
-
-	this.processSwitch = function(line)
-	{
-		var matches = line.match(/\|switch\|(p[12])a:\s+([^|]+)\|([^,|]+)/);
-		var player = matches[1];
-		var nickname = matches[2];
-		var species = matches[3];
-
-		console.log("###"+line);
-		console.log( this.players[player]);
-		var pokemon = this.players[player].getPokemonBySpecies(species);	
-		if(pokemon == null)
-		{
-			pokemon = new Pokemon();
-			pokemon.species = species;
-			this.players[player].pokemon.push(pokemon);
-		}	
-		pokemon.nickname = nickname;
-		this.players[player].currentPokemon = pokemon;
-
-	}
-
-	// |move|PLAYER: NICKNAME|MOVE|PLAYER: NICKNAME
-	// |move|p1a: Greninja|Ice Beam|p2a: Azumarill
-	this.processMove = function(line)
-	{
-		var matches = line.match(/\|move\|(p[12])a:\s+([^|]+)\|([^|]+)/);
-		var player = matches[1];
-		var nickname = matches[2];
-		var move = matches[3];
-
-		var pokemon = this.players[player].getPokemonByNickname(nickname);
-		pokemon.moves[move] = 1;
-	}
-
-	// |-ability|p1a: Landorus|Intimidate|boost
-	this.processAbility = function(line)
-	{
-		var matches = line.match(/\|-ability\|(p[12])a:\s+([^|]+)\|([^|]+)/);	
-		var player = matches[1];
-		var nickname = matches[2];
-		var ability = matches[3];
-
-		var pokemon = this.players[player].getPokemonByNickname(nickname);
-		pokemon.ability = ability;
-	}
-
-	// |-mega|p2a: Venusaur|Venusaur|Venusaurite
-	this.processMega = function(line)
-	{
-		var matches = line.match(/\|-mega\|(p[12])a:\s+([^|]+)\|([^|]+)\|(.+)/);
-		var player = matches[1];
-		var nickname = matches[2];
-		//var species = matches[3];
-		var megastone = matches[4];
-
-		var pokemon = this.players[player].getPokemonByNickname(nickname);
-		pokemon.item = megastone;
-	}
-
-	// |detailschange|p1a: Sagittarius|Charizard-Mega-Y, M
-	this.processDetailsChange = function(line)
-	{
-		var matches = line.match(/\|detailschange\|(p[12])a:\s+([^|]+)\|([^,]+)/);
-		var player = matches[1];
-		var nickname = matches[2];
-		var species = matches[3];
-
-		var pokemon = this.players[player].getPokemonByNickname(nickname);
-		pokemon.species = species;
-	}
+		if len(fields) >= 4:
+			self.players[fields[2]].username = fields[3]
 	
-	//|-item|p2a: Landorus|Choice Scarf|[from] move: Trick
-	this.processItemFromMove = function(line)
-	{
-		var matches = line.match(/\|-item\|(p[12])a:\s+([^|]+)\|([^|]+)/);
-		var player = matches[1];
-		var nickname = matches[2];
-		var item = matches[3]
 
-		var otherPlayer = (player == "p1") ? "p2" : "p1";
-		var otherPokemon = this.players[otherPlayer].currentPokemon;
+	def processPoke(self, line):
+		fields = line.split("|")
 
-		if(otherPokemon.item == "") otherPokemon.item = item;
-	}
+		pokemon = Pokemon()
+		pokemon.species = fields[3].replace("/,.*$/", "")
+		self.players[fields[2]].pokemon.push(pokemon)
+	
 
-	//|-enditem|p1a: Greninja|Focus Sash
-	this.processEndItem = function(line)
-	{
-		var matches = line.match(/\|-enditem\|(p[12])a:\s+([^|]+)\|([^|]+)/);
-		var player = matches[1];
-		var nickname = matches[2];
-		var item = matches[3];
+	def processSwitch(self, line):
+		print(line)
+		matches = re.search("/\|switch\|(p[12])a:\s+([^|]+)\|([^,|]+)/", line)
+		print(matches)
+		player = matches[1]
+		nickname = matches[2]
+		species = matches[3]
 
-		var pokemon = this.players[player].getPokemonByNickname(nickname);
-		if(pokemon.item == "") pokemon.item = item;
-	}
+		print("###"+line)
+		print(self.players[player])
+		pokemon = self.players[player].getPokemonBySpecies(species)	
+		if pokemon == null:
+			pokemon = Pokemon()
+			pokemon.species = species
+			self.players[player].pokemon.push(pokemon)
+		pokemon.nickname = nickname
+		self.players[player].currentPokemon = pokemon
 
 
-	//-heal|p1a: Gothitelle|135/343|[from] item: Leftovers
-	this.processHealFromItem = function(line)
-	{
-		var matches = line.match(/-heal\|(p[12])a:\s+([^|]+)\|[^|]+\|\[from\] item: (.+)/);
-		var player = matches[1];
-		var nickname = matches[2];
-		var item = matches[3]
+	def processMove(self, line):
+	
+		matches = re.search("/\|move\|(p[12])a:\s+([^|]+)\|([^|]+)/", line)
+		player = matches[1]
+		nickname = matches[2]
+		move = matches[3]
 
-		var pokemon = this.players[player].getPokemonByNickname(nickname);
-		pokemon.item = item;
-	}
+		pokemon = self.players[player].getPokemonByNickname(nickname)
+		pokemon.moves[move] = 1
+	
 
-	//|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Sagittarius
-	this.processWeatherFromAbility = function(line)
-	{
-		var matches = line.match(/\|-weather\|[^|]+\|\[from\] ability: ([^|]+)\|\[of\] (p[12])a: (.+)/);
-		var ability = matches[1];
-		var player = matches[2];
-		var nickname = matches[3];
+	def processAbility(self, line):
+		matches = re.search("/\|-ability\|(p[12])a:\s+([^|]+)\|([^|]+)/", line)	
+		player = matches[1]
+		nickname = matches[2]
+		ability = matches[3]
+
+		pokemon = self.players[player].getPokemonByNickname(nickname)
+		pokemon.ability = ability
+	
+
+	def processMega(self, line):
+		matches = re.search("/\|-mega\|(p[12])a:\s+([^|]+)\|([^|]+)\|(.+)/", line)
+		player = matches[1]
+		nickname = matches[2]
+		# var species = matches[3]
+		megastone = matches[4]
+
+		pokemon = self.players[player].getPokemonByNickname(nickname)
+		pokemon.item = megastone
+	
+
+	def processDetailsChange(self, line):
+		matches = re.search("/\|detailschange\|(p[12])a:\s+([^|]+)\|([^,]+)/", line)
+		player = matches[1]
+		nickname = matches[2]
+		species = matches[3]
+
+		pokemon = self.players[player].getPokemonByNickname(nickname)
+		pokemon.species = species
+	
+	
+	def processItemFromMove(self, line):
+		matches = re.search("/\|-item\|(p[12])a:\s+([^|]+)\|([^|]+)/", line)
+		player = matches[1]
+		nickname = matches[2]
+		item = matches[3]
+
+		otherPlayer = "p2" if player == "p1" else "p1"
+		otherPokemon = self.players[otherPlayer].currentPokemon
+
+		if otherPokemon.item == "":
+			otherPokemon.item = item
+	
+
+	def processEndItem(self, line):
+		matches = re.search("/\|-enditem\|(p[12])a:\s+([^|]+)\|([^|]+)/", line)
+		player = matches[1]
+		nickname = matches[2]
+		item = matches[3]
+
+		pokemon = self.players[player].getPokemonByNickname(nickname)
+		if pokemon.item == "":
+			pokemon.item = item
+	
+
+	def processHealFromItem(self, line):
+		matches = re.search("/-heal\|(p[12])a:\s+([^|]+)\|[^|]+\|\[from\] item: (.+)/", line)
+		player = matches[1]
+		nickname = matches[2]
+		item = matches[3]
+
+		pokemon = self.players[player].getPokemonByNickname(nickname)
+		pokemon.item = item
+	
+
+	def processWeatherFromAbility(self, line):
+		matches = re.search("/\|-weather\|[^|]+\|\[from\] ability: ([^|]+)\|\[of\] (p[12])a: (.+)/", line)
+		ability = matches[1]
+		player = matches[2]
+		nickname = matches[3]
 		
-		var pokemon = this.players[player].getPokemonByNickname(nickname);
-		pokemon.ability = ability;
-	}
-}
+		pokemon = self.players[player].getPokemonByNickname(nickname)
+		pokemon.ability = ability
+	
 
-function Player(name)
-{
-	this.name = name;
-	this.username = "";
-	this.pokemon = [];
-	this.currentPokemon = null;
 
-	// TODO: Can't handle duplicates..
-	this.getPokemonBySpecies = function(species)
-	{
-		for(var i=0; i<this.pokemon.length; i++)
-		{
-			if(this.pokemon[i].species == species)
-			{
-				return this.pokemon[i];
-			}
-		}
-		return null;
-	}
+class Player(object):
+	def __init__(self, name="", username="", pokemon=[], currentPokemon=None):
+		self.name = name
+		self.username = username
+		self.pokemon = pokemon
+		self.currentPokemon = currentPokemon
 
-	this.getPokemonByNickname = function(nickname)
-	{
-		for(var i=0; i<this.pokemon.length; i++)
-		{
-			if(this.pokemon[i].nickname == nickname)
-			{
-				return this.pokemon[i];
-			}
-		}
-		return null;
-	}
+	def getPokemonBySpecies(self, species):
+		for i in range(len(self.pokemon)):
+			if self.pokemon[i].species == species:
+				return self.pokemon[i]
+		return None
 
-	this.getTeamFormatString = function()
-	{
-		var output = "-------------------------\n";
-		output += "Player: "+this.username+"\n";
-		output += "-------------------------\n";
-		for(var i=0; i<this.pokemon.length; i++)
-		{
-			output+=this.pokemon[i].getTeamFormatString()+"\n";
-		}
-		return output;
-	}
-}
 
-function Pokemon()
-{
-	this.species = "";
-	this.nickname = "";
-	this.item = "";
-	//this.nature = "";
-	this.ability = "";
-	this.moves = {};
+	def getPokemonByNickname(self, nickname):
+		for i in range(len(self.pokemon)):
+			if self.pokemon[i].nickname == nickname:
+				return self.pokemon[i]
+		return None
 
-	this.getTeamFormatString = function()
-	{
-		var s = "";
-		s += this.species + " @ " + this.item +"\n";
-		s += "Ability: "+ this.ability + "\n";
-		for(var move in this.moves)
-		{
-			s+= "- "+move+"\n";
-		}
-		return s;
-	}
-}
+
+	def getTeamFormatString(self):
+		output = "-------------------------\n"
+		output += "Player: "+self.username+"\n"
+		output += "-------------------------\n"
+		for i in range(len(self.pokemon)):
+			output += self.pokemon[i].getTeamFormatString() + "\n"
+		return output
+
+
+class Pokemon(object):
+	def __init__(self, species="", nickname="", item="", ability="", moves={}):
+		self.species = species
+		self.nickname = nickname
+		self.item = item
+		self.ability = ability
+		self.moves = moves
+
+	def getTeamFormatString(self):
+		s = ""
+		s += self.species + " @ " + self.item +"\n"
+		s += "Ability: "+ self.ability + "\n"
+		for move in self.moves:
+			s += "- " + move + "\n"
+		return s
+
+def main():
+	with open(DATAFOLDER + BATTLEFILE) as file:
+		data = file.read()
+
+	parser = PokemonShowdownReplayParser(data)
+	parser.run()
+
+if __name__ == "__main__":
+	main()
+	
+
