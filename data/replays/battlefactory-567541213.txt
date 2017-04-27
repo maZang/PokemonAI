@@ -1,0 +1,578 @@
+|j|sciencepanda
+|j|le fat kid
+|player|p1|sciencepanda|138
+|player|p2|le fat kid|237
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|13429,13732,41207,28186,56629,3517,51252,51745,28115,62812,16367,8954
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Hippowdon, M|item
+|poke|p1|Scolipede, M|item
+|poke|p1|Terrakion|item
+|poke|p1|Sylveon, M|item
+|poke|p1|Gallade, M|item
+|poke|p1|Manaphy|item
+|poke|p2|Zapdos|item
+|poke|p2|Hippowdon, M|item
+|poke|p2|Hawlucha, M|item
+|poke|p2|Medicham, M|item
+|poke|p2|Rotom-Wash|item
+|poke|p2|Azumarill, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|j|samjo♥
+|c|☆le fat kid|ew samjo
+|c|%samjo♥|__**hi le fat kid !!!!!!!!!!!!!!!!!!!!!!!!!!**__
+|c|☆sciencepanda|gl hf
+|c|%samjo♥|/announce :D
+|c|☆le fat kid|its 17 exclamation marks to avoid monita
+|c|☆le fat kid|...
+|c|%samjo♥|oops
+|j|QuadsCoat
+|j|thewinner64
+|choice|team 3, team 2, team 1, team 4, team 5, team 6|team 4, team 2, team 3, team 1, team 5, team 6
+|
+|start
+|switch|p1a: Terrakion|Terrakion|100/100
+|switch|p2a: Medicham|Medicham, M|100/100
+|turn|1
+|c|%samjo♥|le fat kid meets sciencepanda
+|c|☆sciencepanda|idk who this is
+|c|%samjo♥|sciencepanda, le fat kid
+|c|☆le fat kid|idk u
+|c|%samjo♥|sciencepanda is a bad meme
+|c|☆sciencepanda|:(
+|choice|switch 3|move zenheadbutt mega
+|
+|switch|p1a: Hippowdon|Hippowdon, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|detailschange|p2a: Medicham|Medicham-Mega, M
+|-mega|p2a: Medicham|Medicham|Medichamite
+|move|p2a: Medicham|Zen Headbutt|p1a: Hippowdon
+|-damage|p1a: Hippowdon|62/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Medicham|94/100|[from] sandstorm
+|-heal|p1a: Hippowdon|69/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|c|☆sciencepanda|no
+|c|☆sciencepanda|i am a good user now
+|c|%samjo♥|le fat kid is also a bad meme
+|c|☆sciencepanda|samjo listen to me
+|c|☆sciencepanda|listen to
+|c|☆sciencepanda|me
+|c|%samjo♥|no
+|c|☆sciencepanda|i am a good user now
+|c|☆sciencepanda|n_n
+|c|%samjo♥|no
+|c|☆sciencepanda|:<
+|c| thewinner64|what's with all the fighting types lmao
+|choice|move stealthrock|switch 5
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|move|p1a: Hippowdon|Stealth Rock|p2a: Rotom
+|-sidestart|p2: le fat kid|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom|95/100|[from] sandstorm
+|-heal|p2a: Rotom|100/100|[from] item: Leftovers
+|-heal|p1a: Hippowdon|75/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|c|☆le fat kid|samjo watch an expert guide on how to get past sns
+|c|☆sciencepanda|SAMJO
+|choice|switch 6|move willowisp
+|
+|switch|p1a: Manaphy|Manaphy|100/100
+|move|p2a: Rotom|Will-O-Wisp|p1a: Manaphy
+|-status|p1a: Manaphy|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Manaphy|94/100 brn|[from] sandstorm
+|-damage|p2a: Rotom|95/100|[from] sandstorm
+|-heal|p1a: Manaphy|100/100 brn|[from] item: Leftovers
+|-heal|p2a: Rotom|100/100|[from] item: Leftovers
+|-damage|p1a: Manaphy|88/100 brn|[from] brn
+|upkeep
+|turn|4
+|c|☆sciencepanda|i am a good user :<
+|c|☆sciencepanda|samjo if i win this tournament you have to say i am a good user samjo
+|c|☆sciencepanda|deal or no deal
+|choice|move raindance|move voltswitch
+|
+|move|p1a: Manaphy|Rain Dance|p1a: Manaphy
+|-weather|RainDance
+|move|p2a: Rotom|Volt Switch|p1a: Manaphy
+|-supereffective|p1a: Manaphy
+|-damage|p1a: Manaphy|47/100 brn
+|c|☆sciencepanda|oof
+|c|%samjo♥|don't trigger me pls
+|c|☆sciencepanda|:<
+|c|☆sciencepanda|>:
+|c|☆sciencepanda|:<
+|c|☆sciencepanda|>:
+|c|☆sciencepanda|:<
+|c|☆sciencepanda|>:
+|c|☆sciencepanda|:<
+|c|☆sciencepanda|>:
+|choice||switch 5
+|
+|switch|p2a: Medicham|Medicham-Mega, M|94/100
+|-damage|p2a: Medicham|88/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-activate|p1a: Manaphy|ability: Hydration
+|-curestatus|p1a: Manaphy|brn|[msg]
+|-heal|p1a: Manaphy|53/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|c|☆sciencepanda|okay done
+|c|%samjo♥|jesus
+|choice|switch 6|move zenheadbutt
+|
+|switch|p1a: Hippowdon|Hippowdon, M|75/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|move|p2a: Medicham|Zen Headbutt|p1a: Hippowdon
+|-damage|p1a: Hippowdon|33/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Medicham|82/100|[from] sandstorm
+|-heal|p1a: Hippowdon|39/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|choice|move slackoff|move icepunch
+|
+|move|p2a: Medicham|Ice Punch|p1a: Hippowdon
+|-supereffective|p1a: Hippowdon
+|-crit|p1a: Hippowdon
+|-damage|p1a: Hippowdon|0 fnt
+|faint|p1a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Medicham|76/100|[from] sandstorm
+|upkeep
+|c|☆sciencepanda|no........
+|choice|switch 4|
+|
+|switch|p1a: Sylveon|Sylveon, M|100/100
+|turn|7
+|c|☆le fat kid|samjo pls ghost me
+|j|Kill Bill Pandey
+|c| thewinner64|yeah medicham just ruins the team
+|choice|move hypervoice|move zenheadbutt
+|
+|move|p2a: Medicham|Zen Headbutt|p1a: Sylveon
+|-damage|p1a: Sylveon|11/100
+|move|p1a: Sylveon|Hyper Voice|p2a: Medicham
+|-supereffective|p2a: Medicham
+|-damage|p2a: Medicham|0 fnt
+|faint|p2a: Medicham
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Sylveon|5/100|[from] sandstorm
+|upkeep
+|c|%samjo♥|nice ruining
+|c| thewinner64|annnnnnnnnd he just let it die
+|l|Kill Bill Pandey
+|choice||switch 6
+|
+|switch|p2a: Azumarill|Azumarill, M|100/100
+|-damage|p2a: Azumarill|88/100|[from] Stealth Rock
+|turn|8
+|c|☆sciencepanda|well i mean
+|c|☆sciencepanda|there is this trusty tool
+|c|☆sciencepanda|that i always negate
+|c|☆sciencepanda|when battling
+|c|☆sciencepanda|!calc
+|html|<div class="infobox">Pok&eacute;mon Showdown! damage calculator. (Courtesy of Honko)<br />- <a href="https://pokemonshowdown.com/damagecalc/">Damage Calculator</a></div>
+|c|☆sciencepanda|this is why i lose a lot
+|c|☆sciencepanda|/me laughs
+|c|☆sciencepanda|/me cries
+|c|☆sciencepanda|/me laughs
+|c|☆sciencepanda|/me cries
+|c|☆le fat kid|whos like a star
+|c|☆sciencepanda|/me laughs
+|c|☆le fat kid|samjo
+|c|☆sciencepanda|/me stops showing emotion
+|c|☆sciencepanda|/me is happy
+|c|☆sciencepanda|okay done
+|j|Kill Bill Pandey
+|c| thewinner64|this turn decides the rest of the game
+|choice|move hypervoice|move aquajet
+|
+|move|p2a: Azumarill|Aqua Jet|p1a: Sylveon
+|-damage|p1a: Sylveon|0 fnt
+|faint|p1a: Sylveon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Azumarill|82/100|[from] sandstorm
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Scolipede|Scolipede, M|100/100
+|turn|9
+|choice|move protect|switch 2
+|
+|switch|p2a: Hippowdon|Hippowdon, M|100/100
+|-damage|p2a: Hippowdon|94/100|[from] Stealth Rock
+|move|p1a: Scolipede|Protect|p1a: Scolipede
+|-fail|p1a: Scolipede
+|
+|-weather|none
+|-heal|p2a: Hippowdon|100/100|[from] item: Leftovers
+|-ability|p1a: Scolipede|Speed Boost|boost
+|-boost|p1a: Scolipede|spe|1
+|upkeep
+|turn|10
+|j|Like A Star
+|c| Like A Star|:ooo
+|c|☆sciencepanda|hi Like A Star
+|c|%samjo♥|who is Like A Star?
+|c|☆sciencepanda|o/
+|c| Like A Star|GOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+|c| Like A Star|sciencepanda
+|c|☆sciencepanda|Like A Star am i a good user
+|choice|move megahorn|move stealthrock
+|
+|move|p1a: Scolipede|Megahorn|p2a: Hippowdon
+|-damage|p2a: Hippowdon|50/100
+|-damage|p1a: Scolipede|91/100|[from] item: Life Orb
+|move|p2a: Hippowdon|Stealth Rock|p1a: Scolipede
+|-sidestart|p1: sciencepanda|move: Stealth Rock
+|
+|-heal|p2a: Hippowdon|56/100|[from] item: Leftovers
+|-ability|p1a: Scolipede|Speed Boost|boost
+|-boost|p1a: Scolipede|spe|1
+|upkeep
+|turn|11
+|c|%samjo♥|no
+|c| Like A Star|yes
+|c| thewinner64|that did 50
+|c|☆sciencepanda|tell samjo that pls Like A Star
+|c| Like A Star|dont listen to samjo
+|c|☆le fat kid|why is this hippo full sp def
+|c|☆le fat kid|what the fuck
+|c| thewinner64|why did that do 50
+|choice|move megahorn|move slackoff
+|
+|move|p1a: Scolipede|Megahorn|p2a: Hippowdon
+|-damage|p2a: Hippowdon|3/100
+|-damage|p1a: Scolipede|81/100|[from] item: Life Orb
+|move|p2a: Hippowdon|Slack Off|p2a: Hippowdon
+|-heal|p2a: Hippowdon|53/100
+|
+|-heal|p2a: Hippowdon|59/100|[from] item: Leftovers
+|-ability|p1a: Scolipede|Speed Boost|boost
+|-boost|p1a: Scolipede|spe|1
+|upkeep
+|turn|12
+|c| Like A Star|he's a terrible listener
+|c| Kill Bill Pandey|dance
+|choice|move megahorn|move slackoff
+|
+|move|p1a: Scolipede|Megahorn|p2a: Hippowdon|[miss]
+|-miss|p1a: Scolipede|p2a: Hippowdon
+|move|p2a: Hippowdon|Slack Off|p2a: Hippowdon
+|-heal|p2a: Hippowdon|100/100
+|
+|-ability|p1a: Scolipede|Speed Boost|boost
+|-boost|p1a: Scolipede|spe|1
+|upkeep
+|turn|13
+|c| Kill Bill Pandey|baby dane
+|c|☆le fat kid|hew
+|c|☆sciencepanda|thx
+|c| Kill Bill Pandey|awh
+|choice|move megahorn|move stoneedge
+|
+|move|p1a: Scolipede|Megahorn|p2a: Hippowdon
+|-damage|p2a: Hippowdon|50/100
+|-damage|p1a: Scolipede|71/100|[from] item: Life Orb
+|move|p2a: Hippowdon|Stone Edge|p1a: Scolipede
+|-supereffective|p1a: Scolipede
+|-damage|p1a: Scolipede|5/100
+|
+|-heal|p2a: Hippowdon|56/100|[from] item: Leftovers
+|-ability|p1a: Scolipede|Speed Boost|boost
+|-boost|p1a: Scolipede|spe|1
+|upkeep
+|turn|14
+|c|%samjo♥|I'm a great listener
+|c| Kill Bill Pandey|sciencepanda pms]=
+|c|%samjo♥|to my ghosters
+|c|☆sciencepanda|Kill Bill Pandey am i a good user
+|c|%samjo♥|no
+|choice|move megahorn|move slackoff
+|
+|move|p1a: Scolipede|Megahorn|p2a: Hippowdon
+|-damage|p2a: Hippowdon|4/100
+|-damage|p1a: Scolipede|0 fnt|[from] item: Life Orb
+|faint|p1a: Scolipede
+|move|p2a: Hippowdon|Slack Off|p2a: Hippowdon
+|-heal|p2a: Hippowdon|54/100
+|
+|-heal|p2a: Hippowdon|60/100|[from] item: Leftovers
+|upkeep
+|c| Kill Bill Pandey|erm
+|choice|switch 6|
+|
+|switch|p1a: Manaphy|Manaphy|53/100
+|-damage|p1a: Manaphy|40/100|[from] Stealth Rock
+|turn|15
+|c|%samjo♥|lfk luckE + bad
+|c| Kill Bill Pandey|as long as you are not emilybauer
+|c| Kill Bill Pandey|yes
+|c| thewinner64|zapdos cleans up now i think
+|choice|move raindance|move earthquake
+|
+|move|p1a: Manaphy|Rain Dance|p1a: Manaphy
+|-weather|RainDance
+|move|p2a: Hippowdon|Earthquake|p1a: Manaphy
+|-damage|p1a: Manaphy|17/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Manaphy|23/100|[from] item: Leftovers
+|-heal|p2a: Hippowdon|67/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|c|☆sciencepanda|samjo
+|c| thewinner64|oh no
+|c|☆sciencepanda|that's 3-1
+|c|☆sciencepanda|i am good user
+|choice|move rest|move earthquake
+|
+|move|p1a: Manaphy|Rest|p1a: Manaphy
+|-status|p1a: Manaphy|slp
+|-heal|p1a: Manaphy|100/100 slp|[silent]
+|-status|p1a: Manaphy|slp|[from] move: Rest
+|move|p2a: Hippowdon|Earthquake|p1a: Manaphy
+|-damage|p1a: Manaphy|75/100 slp
+|
+|-weather|RainDance|[upkeep]
+|-activate|p1a: Manaphy|ability: Hydration
+|-curestatus|p1a: Manaphy|slp|[msg]
+|-heal|p1a: Manaphy|81/100|[from] item: Leftovers
+|-heal|p2a: Hippowdon|73/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|choice|move calmmind|switch 2
+|
+|switch|p2a: Azumarill|Azumarill, M|82/100
+|-damage|p2a: Azumarill|69/100|[from] Stealth Rock
+|move|p1a: Manaphy|Calm Mind|p1a: Manaphy
+|-boost|p1a: Manaphy|spa|1
+|-boost|p1a: Manaphy|spd|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Manaphy|88/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|c| thewinner64|BE TAIL GLOW PLS
+|c|%samjo♥|good users win this battle
+|choice|move scald|move playrough
+|
+|move|p1a: Manaphy|Scald|p2a: Azumarill
+|-resisted|p2a: Azumarill
+|-damage|p2a: Azumarill|50/100
+|move|p2a: Azumarill|Play Rough|p1a: Manaphy
+|-damage|p1a: Manaphy|53/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Manaphy|59/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|c|☆sciencepanda|aka me samjo
+|c| thewinner64|THAT WORKS TOO
+|c| Kill Bill Pandey|MEME BATTLE FACTORY SET
+|choice|move scald|move knockoff
+|
+|move|p1a: Manaphy|Scald|p2a: Azumarill
+|-resisted|p2a: Azumarill
+|-damage|p2a: Azumarill|28/100
+|-status|p2a: Azumarill|brn
+|move|p2a: Azumarill|Knock Off|p1a: Manaphy
+|-damage|p1a: Manaphy|46/100
+|-enditem|p1a: Manaphy|Leftovers|[from] move: Knock Off|[of] p2a: Azumarill
+|
+|-weather|none
+|-damage|p2a: Azumarill|15/100 brn|[from] brn
+|upkeep
+|turn|20
+|c|%samjo♥|we'll see panda
+|c|☆le fat kid|thats gay
+|c|☆sciencepanda|gottem
+|c| thewinner64|TEH BURN
+|choice|move raindance|switch 4
+|
+|switch|p2a: Zapdos|Zapdos|100/100
+|-damage|p2a: Zapdos|75/100|[from] Stealth Rock
+|-ability|p2a: Zapdos|Pressure
+|move|p1a: Manaphy|Rain Dance|p1a: Manaphy
+|-weather|RainDance
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Zapdos|82/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|choice|move rest|move thunderbolt
+|
+|move|p2a: Zapdos|Thunderbolt|p1a: Manaphy
+|-supereffective|p1a: Manaphy
+|-damage|p1a: Manaphy|1/100
+|move|p1a: Manaphy|Rest|p1a: Manaphy
+|-status|p1a: Manaphy|slp
+|-heal|p1a: Manaphy|100/100 slp|[silent]
+|-status|p1a: Manaphy|slp|[from] move: Rest
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Zapdos|88/100|[from] item: Leftovers
+|-activate|p1a: Manaphy|ability: Hydration
+|-curestatus|p1a: Manaphy|slp|[msg]
+|upkeep
+|turn|22
+|c| thewinner64|nice read fat kid
+|c| thewinner64|HOLT SHIT WHAT
+|c|☆sciencepanda|lmfao
+|c|%samjo♥|cwl
+|choice|move calmmind|move thunderbolt
+|
+|move|p2a: Zapdos|Thunderbolt|p1a: Manaphy
+|-supereffective|p1a: Manaphy
+|-crit|p1a: Manaphy
+|-damage|p1a: Manaphy|3/100
+|move|p1a: Manaphy|Calm Mind|p1a: Manaphy
+|-boost|p1a: Manaphy|spa|1
+|-boost|p1a: Manaphy|spd|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Zapdos|94/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|c|☆le fat kid|woah
+|c|☆sciencepanda|>_>
+|c|☆le fat kid|sick outPLAY
+|c| Kill Bill Pandey|LOL
+|c| thewinner64|and lol
+|c|☆sciencepanda|that sucks
+|c|%samjo♥|/announce cwl
+|choice|move rest|move thunderbolt
+|
+|move|p2a: Zapdos|Thunderbolt|p1a: Manaphy
+|-supereffective|p1a: Manaphy
+|-damage|p1a: Manaphy|0 fnt
+|faint|p1a: Manaphy
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Zapdos|100/100|[from] item: Leftovers
+|upkeep
+|c| thewinner64|GEN 1 MISS LETS GO
+|choice|switch 3|
+|
+|switch|p1a: Terrakion|Terrakion|100/100
+|-damage|p1a: Terrakion|94/100|[from] Stealth Rock
+|turn|24
+|c|%samjo♥|looks like bad user after all
+|c|☆sciencepanda|:<
+|c|☆le fat kid|wew
+|c|☆sciencepanda|very well
+|choice|move rockpolish|switch 4
+|
+|switch|p2a: Azumarill|Azumarill, M|15/100 brn
+|-damage|p2a: Azumarill|3/100 brn|[from] Stealth Rock
+|move|p1a: Terrakion|Rock Polish|p1a: Terrakion
+|-boost|p1a: Terrakion|spe|2
+|
+|-weather|none
+|-damage|p2a: Azumarill|0 fnt|[from] brn
+|upkeep
+|faint|p2a: Azumarill
+|choice||switch 5
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|-damage|p2a: Rotom|88/100|[from] Stealth Rock
+|turn|25
+|c| thewinner64|OHHHHHHHHHHHH
+|c| Kill Bill Pandey|.................................................
+|c| thewinner64|SHIT
+|c|%samjo♥|?
+|c| Kill Bill Pandey|s dance
+|c|☆sciencepanda|but it's not over yet
+|c| Kill Bill Pandey|s dance
+|c|☆sciencepanda|it's wisp
+|c|☆sciencepanda|+ water type
+|c|%samjo♥|i hope it's double dance lum
+|c|☆sciencepanda|it's not
+|c|☆le fat kid|since its bf it has to be double dance right
+|c|☆sciencepanda|or is it
+|c| Kill Bill Pandey|hey spamjo
+|c|☆sciencepanda|idk
+|c|%samjo♥|that's what i would say
+|choice|move swordsdance|move willowisp
+|
+|move|p1a: Terrakion|Swords Dance|p1a: Terrakion
+|-boost|p1a: Terrakion|atk|2
+|move|p2a: Rotom|Will-O-Wisp|p1a: Terrakion
+|-status|p1a: Terrakion|brn
+|-enditem|p1a: Terrakion|Lum Berry|[eat]
+|-curestatus|p1a: Terrakion|brn|[msg]
+|
+|-heal|p2a: Rotom|94/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|c|%samjo♥|if it was
+|j|Hero Archetype
+|c|☆sciencepanda|gottem
+|c|%samjo♥|LOL
+|c| thewinner64|GAME
+|c| thewinner64|SET
+|c| thewinner64|MATCH\
+|choice|move closecombat|move willowisp
+|
+|move|p1a: Terrakion|Close Combat|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|-unboost|p1a: Terrakion|def|1
+|-unboost|p1a: Terrakion|spd|1
+|faint|p2a: Rotom
+|
+|upkeep
+|c| Kill Bill Pandey|what are you doing in this party of innocent bystanders
+|c|☆sciencepanda|samjo
+|c|☆sciencepanda|samjo
+|c|☆le fat kid|get me out
+|choice||switch 3
+|
+|switch|p2a: Hawlucha|Hawlucha, M|100/100
+|-damage|p2a: Hawlucha|88/100|[from] Stealth Rock
+|turn|27
+|c|☆sciencepanda|am i a good user yet
+|c| Kill Bill Pandey|LOL
+|c|%samjo♥|no
+|c|☆sciencepanda|sigh
+|c|%samjo♥|you will miss
+|c|☆sciencepanda|here comes the part
+|c|☆sciencepanda|where i miss
+|c| Kill Bill Pandey|YOU WONT
+|choice|move stoneedge|move highjumpkick
+|
+|move|p1a: Terrakion|Stone Edge|p2a: Hawlucha|[miss]
+|-miss|p1a: Terrakion|p2a: Hawlucha
+|move|p2a: Hawlucha|High Jump Kick|p1a: Terrakion
+|-supereffective|p1a: Terrakion
+|-damage|p1a: Terrakion|0 fnt
+|faint|p1a: Terrakion
+|
+|upkeep
+|c|%samjo♥|snack
+|c| Kill Bill Pandey|......
+|c|☆le fat kid|wew
+|c| Kill Bill Pandey|nvm
+|c|%samjo♥|i rest my case
+|-message|sciencepanda forfeited.
+|
+|win|le fat kid
+|l|sciencepanda
+|l|le fat kid
