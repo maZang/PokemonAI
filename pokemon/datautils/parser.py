@@ -13,6 +13,8 @@ class PokemonShowdownReplayParser(object):
 	def run(self):
 		self.parse()
 
+		self.stripGenders()
+
 		output = ""
 		output += self.players["p1"].getTeamFormatString()
 		output += self.players["p2"].getTeamFormatString()
@@ -135,7 +137,6 @@ class PokemonShowdownReplayParser(object):
 
 	def processSwitch(self, line):
 		matches = re.search("\|switch\|(p[12])a:\s+([^|]+)\|([^|]+)", line).groups()
-		print(line)
 		player = matches[0]
 		nickname = matches[1]
 		species = matches[2]
@@ -238,6 +239,17 @@ class PokemonShowdownReplayParser(object):
 		pokemon = self.players[player].getPokemonByNickname(nickname)
 		pokemon.ability = ability
 
+	def stripGenders(self):
+		p1 = self.players["p1"]
+		p2 = self.players["p2"]
+
+		for poke in p1.pokemon:
+			if ',' in poke.species:
+				poke.species = poke.species.split(',')[0]
+
+		for poke in p2.pokemon:
+			if ',' in poke.species:
+				poke.species = poke.species.split(',')[0]
 
 
 class Player(object):
