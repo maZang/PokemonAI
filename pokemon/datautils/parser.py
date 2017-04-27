@@ -154,8 +154,14 @@ class PokemonShowdownReplayParser(object):
 		nickname = matches[1]
 		move = matches[2]
 
+		print("Player: " + player)
+		print("Nickname: " + nickname)
+		print("Move: " + move)
+
 		pokemon = self.players[player].getPokemonByNickname(nickname)
+		print("Pokemon nickname: " + pokemon.nickname)
 		pokemon.moves[move] = 1
+		print(pokemon.moves)
 
 
 	def processAbility(self, line):
@@ -242,16 +248,16 @@ class Player(object):
 		self.currentPokemon = currentPokemon
 
 	def getPokemonBySpecies(self, species):
-		for i in range(len(self.pokemon)):
-			if self.pokemon[i].species == species:
-				return self.pokemon[i]
+		for poke in self.pokemon:
+			if poke.species == species:
+				return poke
 		return None
 
 
 	def getPokemonByNickname(self, nickname):
-		for i in range(len(self.pokemon)):
-			if self.pokemon[i].nickname == nickname:
-				return self.pokemon[i]
+		for poke in self.pokemon:
+			if poke.nickname == nickname:
+				return poke
 		return None
 
 
@@ -301,7 +307,8 @@ def main():
 		data = file.read()
 
 	parser = PokemonShowdownReplayParser(data)
-	parser.run()
+	output = parser.run()
+	# print(output)
 
 if __name__ == "__main__":
 	main()
