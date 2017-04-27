@@ -1,0 +1,430 @@
+|j|u44151
+|j|trollface.jpg
+|player|p1|u44151|266
+|player|p2|trollface.jpg|163
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|48225,47300,43629,5377,33327,54440,45338,13570,39688,14088,60444,42517
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Rapidash, M|item
+|poke|p1|Mightyena, M|item
+|poke|p1|Swanna, M|item
+|poke|p1|Stunfisk, M|item
+|poke|p1|Murkrow, M|item
+|poke|p1|Bouffalant, M|item
+|poke|p2|Mr. Mime, M|item
+|poke|p2|Venipede, M|item
+|poke|p2|Mightyena, M|item
+|poke|p2|Clefairy, M|item
+|poke|p2|Gourgeist-*, M|item
+|poke|p2|Probopass, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|c|☆trollface.jpg|nu?
+|c|☆trollface.jpg|pu
+|choice|team 2, team 1, team 3, team 4, team 5, team 6|team 2, team 1, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Mightyena|Mightyena, M|100/100
+|switch|p2a: Venipede|Venipede, M|100/100
+|turn|1
+|choice|switch 5|switch 4
+|
+|switch|p1a: Murkrow|Murkrow, M|100/100
+|switch|p2a: Clefairy|Clefairy, M|100/100
+|
+|upkeep
+|turn|2
+|choice|move thunderwave|move stealthrock
+|
+|move|p1a: Murkrow|Thunder Wave|p2a: Clefairy
+|-status|p2a: Clefairy|par
+|move|p2a: Clefairy|Stealth Rock|p1a: Murkrow
+|-sidestart|p1: u44151|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|choice|move bravebird|switch 6
+|
+|switch|p2a: Probopass|Probopass, M|100/100
+|move|p1a: Murkrow|Brave Bird|p2a: Probopass
+|-resisted|p2a: Probopass
+|-damage|p2a: Probopass|88/100
+|-damage|p1a: Murkrow|96/100|[from] recoil|[of] p2a: Probopass
+|-damage|p1a: Murkrow|86/100|[from] item: Life Orb
+|
+|upkeep
+|turn|4
+|choice|switch 3|move flashcannon
+|
+|switch|p1a: Swanna|Swanna, M|100/100
+|-damage|p1a: Swanna|76/100|[from] Stealth Rock
+|move|p2a: Probopass|Flash Cannon|p1a: Swanna
+|-resisted|p1a: Swanna
+|-damage|p1a: Swanna|50/100
+|
+|upkeep
+|turn|5
+|choice|move roost|move voltswitch
+|
+|move|p1a: Swanna|Roost|p1a: Swanna
+|-heal|p1a: Swanna|99/100
+|move|p2a: Probopass|Volt Switch|p1a: Swanna
+|-supereffective|p1a: Swanna
+|-crit|p1a: Swanna
+|-damage|p1a: Swanna|12/100
+|c|☆u44151|?
+|c|☆trollface.jpg|thinking man
+|choice||switch 2
+|
+|switch|p2a: Mr. Mime|Mr. Mime, M|100/100
+|
+|upkeep
+|turn|6
+|choice|move roost|move psychic
+|
+|move|p1a: Swanna|Roost|p1a: Swanna
+|-heal|p1a: Swanna|62/100
+|move|p2a: Mr. Mime|Psychic|p1a: Swanna
+|-damage|p1a: Swanna|0 fnt
+|-damage|p2a: Mr. Mime|91/100|[from] item: Life Orb
+|faint|p1a: Swanna
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Mightyena|Mightyena, M|100/100
+|-damage|p1a: Mightyena|88/100|[from] Stealth Rock
+|turn|7
+|choice|move irontail|move dazzlinggleam
+|
+|move|p2a: Mr. Mime|Dazzling Gleam|p1a: Mightyena
+|-supereffective|p1a: Mightyena
+|-damage|p1a: Mightyena|0 fnt
+|-damage|p2a: Mr. Mime|81/100|[from] item: Life Orb
+|faint|p1a: Mightyena
+|
+|upkeep
+|c|☆u44151|psychic/fairy
+|c|☆u44151|broken combo
+|choice|switch 6|
+|
+|switch|p1a: Bouffalant|Bouffalant, M|100/100
+|-damage|p1a: Bouffalant|88/100|[from] Stealth Rock
+|turn|8
+|choice|move swordsdance|move focusblast
+|
+|move|p2a: Mr. Mime|Focus Blast|p1a: Bouffalant
+|-supereffective|p1a: Bouffalant
+|-damage|p1a: Bouffalant|0 fnt
+|-damage|p2a: Mr. Mime|72/100|[from] item: Life Orb
+|faint|p1a: Bouffalant
+|
+|upkeep
+|c|☆trollface.jpg|xD
+|choice|switch 4|
+|
+|switch|p1a: Stunfisk|Stunfisk, M|100/100
+|-damage|p1a: Stunfisk|94/100|[from] Stealth Rock
+|turn|9
+|c|☆u44151|why is that thing with mons like clefairy and venipede?
+|c|☆u44151|!dt mr mime
+|c|~|/data-pokemon Mr. Mime
+|raw|<font size="1"><font color="#686868">Dex#:</font> 122&nbsp;|&ThickSpace;<font color="#686868">Gen:</font> 1&nbsp;|&ThickSpace;<font color="#686868">Height:</font> 1.3 m&nbsp;|&ThickSpace;<font color="#686868">Weight:</font> 54.5 kg <em>(80 BP)</em>&nbsp;|&ThickSpace;<font color="#686868">Dex Colour:</font> Pink&nbsp;|&ThickSpace;<font color="#686868">Egg Group(s):</font> Human-Like&nbsp;|&ThickSpace;<font color="#686868">Does Not Evolve</font></font>
+|c|☆u44151|fucks sake
+|c|☆u44151|100 spA and 120 spD,90 spe
+|choice|move earthpower|move psychic
+|
+|move|p2a: Mr. Mime|Psychic|p1a: Stunfisk
+|-damage|p1a: Stunfisk|55/100
+|-damage|p2a: Mr. Mime|62/100|[from] item: Life Orb
+|move|p1a: Stunfisk|Earth Power|p2a: Mr. Mime
+|-damage|p2a: Mr. Mime|28/100
+|
+|-heal|p1a: Stunfisk|61/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|choice|move earthpower|switch 5
+|
+|switch|p2a: Gourgeist|Gourgeist-Super, M|100/100
+|-item|p1a: Stunfisk|Leftovers|[from] ability: Frisk|[of] p2a: Gourgeist|[identify]
+|move|p1a: Stunfisk|Earth Power|p2a: Gourgeist
+|-resisted|p2a: Gourgeist
+|-damage|p2a: Gourgeist|87/100
+|
+|-heal|p2a: Gourgeist|93/100|[from] item: Leftovers
+|-heal|p1a: Stunfisk|68/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|choice|move hiddenpower|switch 3
+|
+|switch|p2a: Mightyena|Mightyena, M|100/100
+|move|p1a: Stunfisk|Hidden Power|p2a: Mightyena
+|-supereffective|p2a: Mightyena
+|-damage|p2a: Mightyena|55/100
+|
+|-heal|p1a: Stunfisk|74/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|c|☆trollface.jpg|u bitch
+|choice|move hiddenpower|switch 6
+|
+|switch|p2a: Clefairy|Clefairy, M|100/100 par
+|move|p1a: Stunfisk|Hidden Power|p2a: Clefairy
+|-resisted|p2a: Clefairy
+|-damage|p2a: Clefairy|97/100 par
+|
+|-heal|p1a: Stunfisk|80/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|choice|move stealthrock|move moonblast
+|
+|move|p1a: Stunfisk|Stealth Rock|p2a: Clefairy
+|-sidestart|p2: trollface.jpg|move: Stealth Rock
+|move|p2a: Clefairy|Moonblast|p1a: Stunfisk
+|-damage|p1a: Stunfisk|64/100
+|
+|-heal|p1a: Stunfisk|70/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|choice|move earthpower|switch 3
+|
+|switch|p2a: Gourgeist|Gourgeist-Super, M|93/100
+|-damage|p2a: Gourgeist|81/100|[from] Stealth Rock
+|-item|p1a: Stunfisk|Leftovers|[from] ability: Frisk|[of] p2a: Gourgeist|[identify]
+|move|p1a: Stunfisk|Earth Power|p2a: Gourgeist
+|-resisted|p2a: Gourgeist
+|-damage|p2a: Gourgeist|67/100
+|
+|-heal|p2a: Gourgeist|73/100|[from] item: Leftovers
+|-heal|p1a: Stunfisk|76/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|choice|move hiddenpower|move seedbomb
+|
+|move|p2a: Gourgeist|Seed Bomb|p1a: Stunfisk
+|-supereffective|p1a: Stunfisk
+|-damage|p1a: Stunfisk|41/100
+|move|p1a: Stunfisk|Hidden Power|p2a: Gourgeist
+|-crit|p2a: Gourgeist
+|-damage|p2a: Gourgeist|54/100
+|
+|-heal|p2a: Gourgeist|60/100|[from] item: Leftovers
+|-heal|p1a: Stunfisk|47/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|choice|switch 3|move synthesis
+|
+|switch|p1a: Murkrow|Murkrow, M|86/100
+|-damage|p1a: Murkrow|61/100|[from] Stealth Rock
+|move|p2a: Gourgeist|Synthesis|p2a: Gourgeist
+|-heal|p2a: Gourgeist|100/100
+|
+|upkeep
+|turn|17
+|choice|move pursuit|move willowisp
+|
+|move|p1a: Murkrow|Pursuit|p2a: Gourgeist
+|-supereffective|p2a: Gourgeist
+|-damage|p2a: Gourgeist|77/100
+|-damage|p1a: Murkrow|51/100|[from] item: Life Orb
+|move|p2a: Gourgeist|Will-O-Wisp|p1a: Murkrow|[miss]
+|-miss|p2a: Gourgeist|p1a: Murkrow
+|
+|-heal|p2a: Gourgeist|83/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|c|☆trollface.jpg|ffs
+|choice|move bravebird|switch 2
+|
+|switch|p2a: Probopass|Probopass, M|88/100
+|-damage|p2a: Probopass|82/100|[from] Stealth Rock
+|move|p1a: Murkrow|Brave Bird|p2a: Probopass
+|-resisted|p2a: Probopass
+|-damage|p2a: Probopass|71/100
+|-damage|p1a: Murkrow|46/100|[from] recoil|[of] p2a: Probopass
+|-damage|p1a: Murkrow|36/100|[from] item: Life Orb
+|
+|upkeep
+|turn|19
+|choice|switch 3|switch 2
+|
+|switch|p1a: Stunfisk|Stunfisk, M|47/100
+|-damage|p1a: Stunfisk|41/100|[from] Stealth Rock
+|switch|p2a: Gourgeist|Gourgeist-Super, M|83/100
+|-damage|p2a: Gourgeist|71/100|[from] Stealth Rock
+|-item|p1a: Stunfisk|Leftovers|[from] ability: Frisk|[of] p2a: Gourgeist|[identify]
+|
+|-heal|p2a: Gourgeist|77/100|[from] item: Leftovers
+|-heal|p1a: Stunfisk|47/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|choice|switch 2|move seedbomb
+|
+|switch|p1a: Rapidash|Rapidash, M|100/100
+|-damage|p1a: Rapidash|76/100|[from] Stealth Rock
+|move|p2a: Gourgeist|Seed Bomb|p1a: Rapidash
+|-resisted|p1a: Rapidash
+|-damage|p1a: Rapidash|53/100
+|
+|-heal|p1a: Rapidash|59/100|[from] item: Leftovers
+|-heal|p2a: Gourgeist|83/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|choice|move morningsun|switch 3
+|
+|switch|p2a: Clefairy|Clefairy, M|97/100 par
+|move|p1a: Rapidash|Morning Sun|p1a: Rapidash
+|-heal|p1a: Rapidash|100/100
+|
+|upkeep
+|turn|22
+|choice|move flareblitz|move healingwish
+|
+|move|p1a: Rapidash|Flare Blitz|p2a: Clefairy
+|-damage|p2a: Clefairy|31/100 par
+|-damage|p1a: Rapidash|73/100|[from] recoil|[of] p2a: Clefairy
+|move|p2a: Clefairy|Healing Wish|p2a: Clefairy
+|faint|p2a: Clefairy
+|
+|-heal|p1a: Rapidash|79/100|[from] item: Leftovers
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Mr. Mime|Mr. Mime, M|28/100
+|-heal|p2a: Mr. Mime|100/100|[from] move: Healing Wish
+|-damage|p2a: Mr. Mime|88/100|[from] Stealth Rock
+|turn|23
+|choice|move flareblitz|switch 2
+|
+|switch|p2a: Probopass|Probopass, M|71/100
+|-damage|p2a: Probopass|65/100|[from] Stealth Rock
+|move|p1a: Rapidash|Flare Blitz|p2a: Probopass
+|-damage|p2a: Probopass|23/100
+|-damage|p1a: Rapidash|62/100|[from] recoil|[of] p2a: Probopass
+|
+|-heal|p1a: Rapidash|68/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|choice|move flareblitz|move thunderwave
+|
+|move|p1a: Rapidash|Flare Blitz|p2a: Probopass
+|-damage|p2a: Probopass|0 fnt
+|-damage|p1a: Rapidash|59/100|[from] recoil|[of] p2a: Probopass
+|faint|p2a: Probopass
+|
+|-heal|p1a: Rapidash|65/100|[from] item: Leftovers
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Mightyena|Mightyena, M|55/100
+|-damage|p2a: Mightyena|43/100|[from] Stealth Rock
+|turn|25
+|choice|move flareblitz|move crunch
+|
+|move|p1a: Rapidash|Flare Blitz|p2a: Mightyena
+|-crit|p2a: Mightyena
+|-damage|p2a: Mightyena|0 fnt
+|-damage|p1a: Rapidash|51/100|[from] recoil|[of] p2a: Mightyena
+|faint|p2a: Mightyena
+|
+|-heal|p1a: Rapidash|57/100|[from] item: Leftovers
+|upkeep
+|c|☆trollface.jpg|i had sucker
+|choice||switch 2
+|
+|switch|p2a: Mr. Mime|Mr. Mime, M|88/100
+|-damage|p2a: Mr. Mime|76/100|[from] Stealth Rock
+|turn|26
+|c|☆u44151|okay?
+|choice|move flareblitz|move psychic
+|
+|move|p1a: Rapidash|Flare Blitz|p2a: Mr. Mime
+|-damage|p2a: Mr. Mime|0 fnt
+|-damage|p1a: Rapidash|37/100|[from] recoil|[of] p2a: Mr. Mime
+|faint|p2a: Mr. Mime
+|
+|-heal|p1a: Rapidash|43/100|[from] item: Leftovers
+|upkeep
+|c|☆trollface.jpg|ok
+|choice||switch 4
+|
+|switch|p2a: Venipede|Venipede, M|100/100
+|-damage|p2a: Venipede|75/100|[from] Stealth Rock
+|turn|27
+|choice|move morningsun|move endeavor
+|
+|move|p1a: Rapidash|Morning Sun|p1a: Rapidash
+|-heal|p1a: Rapidash|92/100
+|move|p2a: Venipede|Endeavor|p1a: Rapidash
+|-damage|p1a: Rapidash|74/100
+|
+|-heal|p1a: Rapidash|79/100|[from] item: Leftovers
+|-ability|p2a: Venipede|Speed Boost|boost
+|-boost|p2a: Venipede|spe|1
+|upkeep
+|turn|28
+|choice|move flareblitz|move toxicspikes
+|
+|move|p2a: Venipede|Toxic Spikes|p1a: Rapidash
+|-sidestart|p1: u44151|move: Toxic Spikes
+|move|p1a: Rapidash|Flare Blitz|p2a: Venipede
+|-supereffective|p2a: Venipede
+|-damage|p2a: Venipede|0 fnt
+|-damage|p1a: Rapidash|55/100|[from] recoil|[of] p2a: Venipede
+|faint|p2a: Venipede
+|
+|-heal|p1a: Rapidash|61/100|[from] item: Leftovers
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Gourgeist|Gourgeist-Super, M|83/100
+|-damage|p2a: Gourgeist|71/100|[from] Stealth Rock
+|-item|p1a: Rapidash|Leftovers|[from] ability: Frisk|[of] p2a: Gourgeist|[identify]
+|turn|29
+|choice|move willowisp|move foulplay
+|
+|move|p1a: Rapidash|Will-O-Wisp|p2a: Gourgeist|[miss]
+|-miss|p1a: Rapidash|p2a: Gourgeist
+|move|p2a: Gourgeist|Foul Play|p1a: Rapidash
+|-damage|p1a: Rapidash|19/100
+|
+|-heal|p1a: Rapidash|24/100|[from] item: Leftovers
+|-heal|p2a: Gourgeist|77/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|choice|move flareblitz|move foulplay
+|
+|move|p1a: Rapidash|Flare Blitz|p2a: Gourgeist
+|-supereffective|p2a: Gourgeist
+|-damage|p2a: Gourgeist|17/100
+|-damage|p1a: Rapidash|0 fnt|[from] recoil|[of] p2a: Gourgeist
+|faint|p1a: Rapidash
+|move|p2a: Gourgeist|Foul Play|p1: Rapidash|[notarget]
+|-notarget
+|
+|-heal|p2a: Gourgeist|24/100|[from] item: Leftovers
+|upkeep
+|c|☆u44151|WAT
+|choice|switch 3|
+|
+|switch|p1a: Murkrow|Murkrow, M|36/100
+|-damage|p1a: Murkrow|11/100|[from] Stealth Rock
+|turn|31
+|c|☆trollface.jpg|and wasted so many mons
+|choice|move bravebird|move synthesis
+|
+|move|p1a: Murkrow|Brave Bird|p2a: Gourgeist
+|-supereffective|p2a: Gourgeist
+|-damage|p2a: Gourgeist|0 fnt
+|-damage|p1a: Murkrow|0 fnt|[from] recoil|[of] p2a: Gourgeist
+|faint|p2a: Gourgeist
+|faint|p1a: Murkrow
+|
+|win|u44151
+|c|☆trollface.jpg|fml
+|c|☆u44151|gg
+|l|trollface.jpg

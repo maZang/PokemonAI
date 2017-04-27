@@ -1,0 +1,306 @@
+|j|jackofspadesman
+|j|trreecko
+|player|p1|jackofspadesman|1
+|player|p2|trreecko|169
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|65127,10654,44164,3971,30256,7207,35255,41840,57368,36536,27536,41968
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Exeggutor, M|item
+|poke|p1|Cryogonal|item
+|poke|p1|Chatot, M|item
+|poke|p1|Golurk|item
+|poke|p1|Samurott, M|item
+|poke|p1|Carracosta, M|item
+|poke|p2|Crustle, M|item
+|poke|p2|Torterra, M|item
+|poke|p2|Musharna, M|item
+|poke|p2|Muk, M|item
+|poke|p2|Tangela, M|item
+|poke|p2|Skuntank, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 5, team 2, team 3, team 4, team 1, team 6|team 1, team 2, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Samurott|Samurott, M|100/100
+|switch|p2a: Crustle|Crustle, M|100/100
+|turn|1
+|choice|move hydropump|move stealthrock
+|
+|move|p1a: Samurott|Hydro Pump|p2a: Crustle
+|-supereffective|p2a: Crustle
+|-ability|p2a: Crustle|Sturdy
+|-damage|p2a: Crustle|1/100
+|-damage|p1a: Samurott|91/100|[from] item: Life Orb
+|move|p2a: Crustle|Stealth Rock|p1a: Samurott
+|-sidestart|p1: jackofspadesman|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|choice|move icebeam|move spikes
+|-enditem|p2a: Crustle|Custap Berry|[eat]
+|-activate|p2a: Crustle|item: Custap Berry
+|
+|move|p2a: Crustle|Spikes|p1a: Samurott
+|-sidestart|p1: jackofspadesman|Spikes
+|move|p1a: Samurott|Ice Beam|p2a: Crustle
+|-damage|p2a: Crustle|0 fnt
+|-damage|p1a: Samurott|81/100|[from] item: Life Orb
+|faint|p2a: Crustle
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Muk|Muk, M|100/100
+|turn|3
+|choice|move hydropump|move gunkshot
+|
+|move|p1a: Samurott|Hydro Pump|p2a: Muk
+|-damage|p2a: Muk|65/100
+|-damage|p1a: Samurott|71/100|[from] item: Life Orb
+|move|p2a: Muk|Gunk Shot|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|faint|p1a: Samurott
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Cryogonal|Cryogonal|100/100
+|-damage|p1a: Cryogonal|76/100|[from] Stealth Rock
+|turn|4
+|choice|move rapidspin|move firepunch
+|
+|move|p1a: Cryogonal|Rapid Spin|p2a: Muk
+|-damage|p2a: Muk|61/100
+|-sideend|p1: jackofspadesman|Spikes|[from] move: Rapid Spin|[of] p1a: Cryogonal
+|-sideend|p1: jackofspadesman|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Cryogonal
+|-damage|p1a: Cryogonal|66/100|[from] item: Life Orb
+|move|p2a: Muk|Fire Punch|p1a: Cryogonal
+|-supereffective|p1a: Cryogonal
+|-damage|p1a: Cryogonal|0 fnt
+|faint|p1a: Cryogonal
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Golurk|Golurk|100/100
+|turn|5
+|choice|move stealthrock|move icepunch
+|
+|move|p1a: Golurk|Stealth Rock|p2a: Muk
+|-sidestart|p2: trreecko|move: Stealth Rock
+|move|p2a: Muk|Ice Punch|p1a: Golurk
+|-supereffective|p1a: Golurk
+|-damage|p1a: Golurk|32/100
+|
+|upkeep
+|turn|6
+|choice|move earthquake|move icepunch
+|
+|move|p1a: Golurk|Earthquake|p2a: Muk
+|-supereffective|p2a: Muk
+|-damage|p2a: Muk|0 fnt
+|faint|p2a: Muk
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Tangela|Tangela, M|100/100
+|-damage|p2a: Tangela|88/100|[from] Stealth Rock
+|turn|7
+|choice|switch 5|move gigadrain
+|
+|switch|p1a: Exeggutor|Exeggutor, M|100/100
+|move|p2a: Tangela|Giga Drain|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|84/100
+|-heal|p2a: Tangela|98/100|[from] drain|[of] p1a: Exeggutor
+|
+|upkeep
+|turn|8
+|choice|switch 3|switch 2
+|
+|switch|p1a: Chatot|Chatot, M|100/100
+|switch|p2a: Torterra|Torterra, M|100/100
+|-damage|p2a: Torterra|94/100|[from] Stealth Rock
+|
+|upkeep
+|turn|9
+|choice|move chatter|move rockpolish
+|
+|move|p1a: Chatot|Chatter|p2a: Torterra
+|-supereffective|p2a: Torterra
+|-damage|p2a: Torterra|27/100
+|-start|p2a: Torterra|confusion
+|-activate|p2a: Torterra|confusion
+|-damage|p2a: Torterra|15/100|[from] confusion
+|
+|upkeep
+|turn|10
+|choice|move chatter|move stoneedge
+|
+|move|p1a: Chatot|Chatter|p2a: Torterra
+|-supereffective|p2a: Torterra
+|-damage|p2a: Torterra|0 fnt
+|faint|p2a: Torterra
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Musharna|Musharna, M|100/100
+|-damage|p2a: Musharna|88/100|[from] Stealth Rock
+|turn|11
+|choice|switch 5|move calmmind
+|
+|switch|p1a: Golurk|Golurk|32/100
+|move|p2a: Musharna|Calm Mind|p2a: Musharna
+|-boost|p2a: Musharna|spa|1
+|-boost|p2a: Musharna|spd|1
+|
+|-heal|p2a: Musharna|94/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|choice|move shadowpunch|move barrier
+|
+|move|p1a: Golurk|Shadow Punch|p2a: Musharna
+|-supereffective|p2a: Musharna
+|-damage|p2a: Musharna|50/100
+|move|p2a: Musharna|Barrier|p2a: Musharna
+|-boost|p2a: Musharna|def|2
+|
+|-heal|p2a: Musharna|56/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|choice|move shadowpunch|move moonlight
+|
+|move|p1a: Golurk|Shadow Punch|p2a: Musharna
+|-supereffective|p2a: Musharna
+|-damage|p2a: Musharna|35/100
+|move|p2a: Musharna|Moonlight|p2a: Musharna
+|-heal|p2a: Musharna|85/100
+|
+|-heal|p2a: Musharna|91/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|choice|move shadowpunch|move calmmind
+|
+|move|p1a: Golurk|Shadow Punch|p2a: Musharna
+|-supereffective|p2a: Musharna
+|-damage|p2a: Musharna|70/100
+|move|p2a: Musharna|Calm Mind|p2a: Musharna
+|-boost|p2a: Musharna|spa|1
+|-boost|p2a: Musharna|spd|1
+|
+|-heal|p2a: Musharna|76/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|choice|move shadowpunch|move calmmind
+|
+|move|p1a: Golurk|Shadow Punch|p2a: Musharna
+|-supereffective|p2a: Musharna
+|-damage|p2a: Musharna|55/100
+|move|p2a: Musharna|Calm Mind|p2a: Musharna
+|-boost|p2a: Musharna|spa|1
+|-boost|p2a: Musharna|spd|1
+|
+|-heal|p2a: Musharna|61/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|choice|move dynamicpunch|move moonlight
+|
+|move|p1a: Golurk|Dynamic Punch|p2a: Musharna
+|-resisted|p2a: Musharna
+|-damage|p2a: Musharna|56/100
+|-start|p2a: Musharna|confusion
+|-activate|p2a: Musharna|confusion
+|-damage|p2a: Musharna|54/100|[from] confusion
+|
+|-heal|p2a: Musharna|60/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|choice|move shadowpunch|move moonlight
+|
+|move|p1a: Golurk|Shadow Punch|p2a: Musharna
+|-supereffective|p2a: Musharna
+|-damage|p2a: Musharna|39/100
+|-end|p2a: Musharna|confusion
+|move|p2a: Musharna|Moonlight|p2a: Musharna
+|-heal|p2a: Musharna|89/100
+|
+|-heal|p2a: Musharna|95/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|choice|move shadowpunch|move storedpower
+|
+|move|p1a: Golurk|Shadow Punch|p2a: Musharna
+|-supereffective|p2a: Musharna
+|-damage|p2a: Musharna|75/100
+|move|p2a: Musharna|Stored Power|p1a: Golurk
+|-damage|p1a: Golurk|0 fnt
+|faint|p1a: Golurk
+|
+|-heal|p2a: Musharna|81/100|[from] item: Leftovers
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Carracosta|Carracosta, M|100/100
+|turn|19
+|choice|move stoneedge|move storedpower
+|
+|move|p1a: Carracosta|Stone Edge|p2a: Musharna
+|-damage|p2a: Musharna|65/100
+|-damage|p1a: Carracosta|91/100|[from] item: Life Orb
+|move|p2a: Musharna|Stored Power|p1a: Carracosta
+|-damage|p1a: Carracosta|0 fnt
+|faint|p1a: Carracosta
+|
+|-heal|p2a: Musharna|71/100|[from] item: Leftovers
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Exeggutor|Exeggutor, M|84/100
+|turn|20
+|choice|move sleeppowder|move storedpower
+|
+|move|p1a: Exeggutor|Sleep Powder|p2a: Musharna
+|-status|p2a: Musharna|slp
+|cant|p2a: Musharna|slp
+|
+|-heal|p2a: Musharna|77/100 slp|[from] item: Leftovers
+|upkeep
+|turn|21
+|choice|move gigadrain|move storedpower
+|
+|move|p1a: Exeggutor|Giga Drain|p2a: Musharna
+|-damage|p2a: Musharna|64/100 slp
+|-heal|p1a: Exeggutor|91/100|[from] drain|[of] p2a: Musharna
+|-curestatus|p2a: Musharna|slp|[msg]
+|move|p2a: Musharna|Stored Power|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-crit|p1a: Exeggutor
+|-damage|p1a: Exeggutor|0 fnt
+|faint|p1a: Exeggutor
+|
+|-heal|p2a: Musharna|70/100|[from] item: Leftovers
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Chatot|Chatot, M|100/100
+|turn|22
+|choice|move boomburst|move storedpower
+|
+|move|p1a: Chatot|Boomburst|p2a: Musharna
+|-damage|p2a: Musharna|52/100
+|move|p2a: Musharna|Stored Power|p1a: Chatot
+|-crit|p1a: Chatot
+|-damage|p1a: Chatot|0 fnt
+|faint|p1a: Chatot
+|
+|win|trreecko
+|raw|jackofspadesman's rating: 1429 &rarr; <strong>1406</strong><br />(-23 for losing)
+|raw|trreecko's rating: 1370 &rarr; <strong>1393</strong><br />(+23 for winning)

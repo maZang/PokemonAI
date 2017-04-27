@@ -1,0 +1,370 @@
+|j|Vcrooks
+|j|idk1k2k3
+|player|p1|Vcrooks|2
+|player|p2|idk1k2k3|143
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|18735,26121,19139,9364,34236,46697,62338,17984,32586,44458,58618,40000
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Houndoom, M|item
+|poke|p1|Uxie|item
+|poke|p1|Hitmonlee, M|item
+|poke|p1|Delphox, M|item
+|poke|p1|Poliwrath, M|item
+|poke|p1|Drapion, M|item
+|poke|p2|Granbull, M|item
+|poke|p2|Roselia, M|item
+|poke|p2|Hitmonlee, M|item
+|poke|p2|Alomomola, M|item
+|poke|p2|Uxie|item
+|poke|p2|Glalie, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 2, team 1, team 3, team 4, team 5, team 6|team 5, team 2, team 3, team 4, team 1, team 6
+|
+|start
+|switch|p1a: Uxie|Uxie|100/100
+|switch|p2a: Uxie|Uxie|100/100
+|turn|1
+|choice|move stealthrock|move thunderwave
+|
+|move|p2a: Uxie|Thunder Wave|p1a: Uxie
+|-status|p1a: Uxie|par
+|move|p1a: Uxie|Stealth Rock|p2a: Uxie
+|-sidestart|p2: idk1k2k3|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|choice|move thunderwave|move stealthrock
+|
+|move|p2a: Uxie|Stealth Rock|p1a: Uxie
+|-sidestart|p1: Vcrooks|move: Stealth Rock
+|move|p1a: Uxie|Thunder Wave|p2a: Uxie
+|-status|p2a: Uxie|par
+|
+|upkeep
+|turn|3
+|choice|move uturn|move uturn
+|
+|cant|p1a: Uxie|par
+|move|p2a: Uxie|U-turn|p1a: Uxie
+|-supereffective|p1a: Uxie
+|-damage|p1a: Uxie|86/100 par
+|choice||switch 3
+|
+|switch|p2a: Hitmonlee|Hitmonlee, M|100/100
+|-damage|p2a: Hitmonlee|94/100|[from] Stealth Rock
+|
+|-heal|p1a: Uxie|92/100 par|[from] item: Leftovers
+|upkeep
+|turn|4
+|choice|move psyshock|move knockoff
+|
+|move|p2a: Hitmonlee|Knock Off|p1a: Uxie
+|-supereffective|p1a: Uxie
+|-damage|p1a: Uxie|32/100 par
+|-enditem|p1a: Uxie|Leftovers|[from] move: Knock Off|[of] p2a: Hitmonlee
+|-damage|p2a: Hitmonlee|84/100|[from] item: Life Orb
+|move|p1a: Uxie|Psyshock|p2a: Hitmonlee
+|-supereffective|p2a: Hitmonlee
+|-damage|p2a: Hitmonlee|0 fnt
+|faint|p2a: Hitmonlee
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Roselia|Roselia, M|100/100
+|-damage|p2a: Roselia|88/100|[from] Stealth Rock
+|turn|5
+|choice|move psyshock|move spikes
+|
+|move|p2a: Roselia|Spikes|p1a: Uxie
+|-sidestart|p1: Vcrooks|Spikes
+|move|p1a: Uxie|Psyshock|p2a: Roselia
+|-supereffective|p2a: Roselia
+|-damage|p2a: Roselia|46/100
+|
+|upkeep
+|turn|6
+|choice|move psyshock|move synthesis
+|
+|move|p2a: Roselia|Synthesis|p2a: Roselia
+|-heal|p2a: Roselia|96/100
+|move|p1a: Uxie|Psyshock|p2a: Roselia
+|-supereffective|p2a: Roselia
+|-damage|p2a: Roselia|52/100
+|
+|upkeep
+|turn|7
+|choice|move psyshock|move synthesis
+|
+|move|p2a: Roselia|Synthesis|p2a: Roselia
+|-heal|p2a: Roselia|100/100
+|move|p1a: Uxie|Psyshock|p2a: Roselia
+|-supereffective|p2a: Roselia
+|-damage|p2a: Roselia|53/100
+|
+|upkeep
+|turn|8
+|choice|move psyshock|move synthesis
+|
+|move|p2a: Roselia|Synthesis|p2a: Roselia
+|-heal|p2a: Roselia|100/100
+|move|p1a: Uxie|Psyshock|p2a: Roselia
+|-supereffective|p2a: Roselia
+|-damage|p2a: Roselia|55/100
+|
+|upkeep
+|turn|9
+|choice|move psyshock|move synthesis
+|
+|move|p2a: Roselia|Synthesis|p2a: Roselia
+|-heal|p2a: Roselia|100/100
+|move|p1a: Uxie|Psyshock|p2a: Roselia
+|-supereffective|p2a: Roselia
+|-damage|p2a: Roselia|56/100
+|
+|upkeep
+|turn|10
+|choice|move thunderwave|move synthesis
+|
+|move|p2a: Roselia|Synthesis|p2a: Roselia
+|-heal|p2a: Roselia|100/100
+|move|p1a: Uxie|Thunder Wave|p2a: Roselia
+|-status|p2a: Roselia|par
+|
+|upkeep
+|turn|11
+|choice|move psyshock|move spikes
+|
+|move|p1a: Uxie|Psyshock|p2a: Roselia
+|-supereffective|p2a: Roselia
+|-crit|p2a: Roselia
+|-damage|p2a: Roselia|29/100 par
+|cant|p2a: Roselia|par
+|
+|upkeep
+|turn|12
+|c|☆idk1k2k3|noooo
+|choice|move psyshock|switch 3
+|
+|-curestatus|p2a: Roselia|par|[from] ability: Natural Cure
+|switch|p2a: Uxie|Uxie|100/100 par
+|-damage|p2a: Uxie|88/100 par|[from] Stealth Rock
+|move|p1a: Uxie|Psyshock|p2a: Uxie
+|-resisted|p2a: Uxie
+|-damage|p2a: Uxie|81/100 par
+|
+|-heal|p2a: Uxie|88/100 par|[from] item: Leftovers
+|upkeep
+|turn|13
+|choice|move uturn|move uturn
+|
+|move|p1a: Uxie|U-turn|p2a: Uxie
+|-supereffective|p2a: Uxie
+|-damage|p2a: Uxie|72/100 par
+|choice|switch 2|
+|
+|switch|p1a: Houndoom|Houndoom, M|100/100
+|-damage|p1a: Houndoom|76/100|[from] Stealth Rock
+|-damage|p1a: Houndoom|63/100|[from] Spikes
+|move|p2a: Uxie|U-turn|p1a: Houndoom
+|-damage|p1a: Houndoom|39/100
+|choice||switch 4
+|
+|switch|p2a: Alomomola|Alomomola, M|100/100
+|-damage|p2a: Alomomola|88/100|[from] Stealth Rock
+|
+|-heal|p2a: Alomomola|94/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|choice|switch 5|move toxic
+|
+|switch|p1a: Poliwrath|Poliwrath, M|100/100
+|-damage|p1a: Poliwrath|94/100|[from] Stealth Rock
+|-damage|p1a: Poliwrath|82/100|[from] Spikes
+|move|p2a: Alomomola|Toxic|p1a: Poliwrath
+|-status|p1a: Poliwrath|tox
+|
+|-heal|p1a: Poliwrath|88/100 tox|[from] item: Leftovers
+|-heal|p2a: Alomomola|100/100|[from] item: Leftovers
+|-damage|p1a: Poliwrath|82/100 tox|[from] psn
+|upkeep
+|turn|15
+|choice|move scald|move protect
+|
+|move|p2a: Alomomola|Protect|p2a: Alomomola
+|-singleturn|p2a: Alomomola|Protect
+|move|p1a: Poliwrath|Scald|p2a: Alomomola
+|-activate|p2a: Alomomola|move: Protect
+|
+|-heal|p1a: Poliwrath|88/100 tox|[from] item: Leftovers
+|-damage|p1a: Poliwrath|76/100 tox|[from] psn
+|upkeep
+|turn|16
+|choice|move scald|move wish
+|
+|move|p1a: Poliwrath|Scald|p2a: Alomomola
+|-resisted|p2a: Alomomola
+|-damage|p2a: Alomomola|90/100
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|
+|-heal|p1a: Poliwrath|82/100 tox|[from] item: Leftovers
+|-heal|p2a: Alomomola|96/100|[from] item: Leftovers
+|-damage|p1a: Poliwrath|64/100 tox|[from] psn
+|upkeep
+|turn|17
+|choice|switch 6|switch 3
+|
+|switch|p1a: Drapion|Drapion, M|100/100
+|-damage|p1a: Drapion|88/100|[from] Stealth Rock
+|-damage|p1a: Drapion|76/100|[from] Spikes
+|switch|p2a: Roselia|Roselia, M|29/100
+|-damage|p2a: Roselia|17/100|[from] Stealth Rock
+|
+|-heal|p2a: Roselia|99/100|[from] move: Wish|[wisher] Alomomola
+|upkeep
+|turn|18
+|choice|move poisonjab|move spikes
+|
+|move|p1a: Drapion|Poison Jab|p2a: Roselia
+|-damage|p2a: Roselia|60/100
+|move|p2a: Roselia|Spikes|p1a: Drapion
+|-sidestart|p1: Vcrooks|Spikes
+|
+|upkeep
+|turn|19
+|choice|move poisonjab|move spikes
+|
+|move|p1a: Drapion|Poison Jab|p2a: Roselia
+|-damage|p2a: Roselia|20/100
+|move|p2a: Roselia|Spikes|p1a: Drapion
+|-sidestart|p1: Vcrooks|Spikes
+|
+|upkeep
+|turn|20
+|choice|move poisonjab|move synthesis
+|
+|move|p1a: Drapion|Poison Jab|p2a: Roselia
+|-damage|p2a: Roselia|0 fnt
+|faint|p2a: Roselia
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Alomomola|Alomomola, M|100/100
+|-damage|p2a: Alomomola|88/100|[from] Stealth Rock
+|turn|21
+|choice|move swordsdance|move scald
+|
+|move|p1a: Drapion|Swords Dance|p1a: Drapion
+|-boost|p1a: Drapion|atk|2
+|move|p2a: Alomomola|Scald|p1a: Drapion
+|-damage|p1a: Drapion|54/100
+|
+|-heal|p2a: Alomomola|94/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|choice|move knockoff|move scald
+|
+|move|p1a: Drapion|Knock Off|p2a: Alomomola
+|-damage|p2a: Alomomola|34/100
+|-enditem|p2a: Alomomola|Leftovers|[from] move: Knock Off|[of] p1a: Drapion
+|move|p2a: Alomomola|Scald|p1a: Drapion
+|-damage|p1a: Drapion|33/100
+|
+|upkeep
+|turn|23
+|choice|move poisonjab|move protect
+|
+|move|p2a: Alomomola|Protect|p2a: Alomomola
+|-singleturn|p2a: Alomomola|Protect
+|move|p1a: Drapion|Poison Jab|p2a: Alomomola
+|-activate|p2a: Alomomola|move: Protect
+|
+|upkeep
+|turn|24
+|choice|move poisonjab|move wish
+|
+|move|p1a: Drapion|Poison Jab|p2a: Alomomola
+|-damage|p2a: Alomomola|0 fnt
+|faint|p2a: Alomomola
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Uxie|Uxie|72/100 par
+|-damage|p2a: Uxie|60/100 par|[from] Stealth Rock
+|turn|25
+|choice|move knockoff|move uturn
+|
+|move|p1a: Drapion|Knock Off|p2a: Uxie
+|-supereffective|p2a: Uxie
+|-damage|p2a: Uxie|0 fnt
+|-enditem|p2a: Uxie|Leftovers|[from] move: Knock Off|[of] p1a: Drapion
+|faint|p2a: Uxie
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Granbull|Granbull, M|100/100
+|-damage|p2a: Granbull|88/100|[from] Stealth Rock
+|-ability|p2a: Granbull|Intimidate|boost
+|-unboost|p1a: Drapion|atk|1
+|turn|26
+|choice|move poisonjab|move earthquake
+|
+|move|p1a: Drapion|Poison Jab|p2a: Granbull
+|-supereffective|p2a: Granbull
+|-damage|p2a: Granbull|8/100
+|move|p2a: Granbull|Earthquake|p1a: Drapion
+|-supereffective|p1a: Drapion
+|-enditem|p1a: Drapion|Shuca Berry|[eat]
+|-enditem|p1a: Drapion|Shuca Berry|[weaken]
+|-damage|p1a: Drapion|2/100
+|
+|-heal|p2a: Granbull|15/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|choice|move poisonjab|move playrough
+|
+|move|p1a: Drapion|Poison Jab|p2a: Granbull
+|-supereffective|p2a: Granbull
+|-damage|p2a: Granbull|0 fnt
+|faint|p2a: Granbull
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Glalie|Glalie, M|100/100
+|-damage|p2a: Glalie|76/100|[from] Stealth Rock
+|turn|28
+|choice|move knockoff|move freezedry mega
+|
+|detailschange|p2a: Glalie|Glalie-Mega, M
+|-mega|p2a: Glalie|Glalie|Glalitite
+|move|p1a: Drapion|Knock Off|p2a: Glalie
+|-damage|p2a: Glalie|19/100
+|move|p2a: Glalie|Freeze-Dry|p1a: Drapion
+|-damage|p1a: Drapion|0 fnt
+|faint|p1a: Drapion
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Delphox|Delphox, M|100/100
+|-damage|p1a: Delphox|76/100|[from] Spikes
+|-damage|p1a: Delphox|51/100|[from] Stealth Rock
+|turn|29
+|choice|move fireblast|move earthquake
+|
+|move|p1a: Delphox|Fire Blast|p2a: Glalie
+|-supereffective|p2a: Glalie
+|-damage|p2a: Glalie|0 fnt
+|faint|p2a: Glalie
+|
+|win|Vcrooks
+|l|Vcrooks

@@ -1,0 +1,437 @@
+|j|SolAnima
+|j|Ciastolek
+|player|p1|SolAnima|265
+|player|p2|Ciastolek|269
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|58226,4325,7122,1999,29775,17086,26313,61230,24932,23541,25304,18926
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Drapion, M|item
+|poke|p1|Bronzong|item
+|poke|p1|Roselia, M|item
+|poke|p1|Malamar, M|item
+|poke|p1|Hitmontop, M|item
+|poke|p1|Manectric, M|item
+|poke|p2|Absol, M|item
+|poke|p2|Venusaur, M|item
+|poke|p2|Gurdurr, M|item
+|poke|p2|Bronzong|item
+|poke|p2|Spiritomb, M|item
+|poke|p2|Smeargle, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by SolAnima)
+|choice|team 5, team 2, team 3, team 4, team 1, team 6|team 6, team 2, team 3, team 4, team 5, team 1
+|
+|start
+|switch|p1a: Hitmontop|Hitmontop, M|100/100
+|switch|p2a: Smeargle|Smeargle, M|100/100
+|-ability|p1a: Hitmontop|Intimidate|boost
+|-unboost|p2a: Smeargle|atk|1
+|turn|1
+|choice|move toxic|move spore
+|
+|move|p2a: Smeargle|Spore|p1a: Hitmontop
+|-status|p1a: Hitmontop|slp
+|cant|p1a: Hitmontop|slp
+|
+|upkeep
+|turn|2
+|choice|switch 2|move stickyweb
+|
+|switch|p1a: Bronzong|Bronzong|100/100
+|move|p2a: Smeargle|Sticky Web|p1a: Bronzong
+|-sidestart|p1: SolAnima|move: Sticky Web
+|
+|upkeep
+|turn|3
+|choice|move trickroom|move stealthrock
+|
+|move|p2a: Smeargle|Stealth Rock|p1a: Bronzong
+|-sidestart|p1: SolAnima|move: Stealth Rock
+|move|p1a: Bronzong|Trick Room|p1a: Bronzong
+|-fieldstart|move: Trick Room|[of] p1a: Bronzong
+|
+|upkeep
+|turn|4
+|choice|move stealthrock|move explosion
+|
+|move|p1a: Bronzong|Stealth Rock|p2a: Smeargle
+|-sidestart|p2: Ciastolek|move: Stealth Rock
+|move|p2a: Smeargle|Explosion|p1a: Bronzong
+|-resisted|p1a: Bronzong
+|-damage|p1a: Bronzong|92/100
+|faint|p2a: Smeargle
+|
+|-heal|p1a: Bronzong|98/100|[from] item: Leftovers
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Absol|Absol, M|100/100
+|-damage|p2a: Absol|88/100|[from] Stealth Rock
+|turn|5
+|c|☆Ciastolek|!weakness bronzong
+|html|<div class="infobox">Bronzong (ignoring abilities):<br /><span class="message-effect-weak">Weaknesses</span>: Dark, Fire, Ghost, Ground<br /><span class="message-effect-resist">Resistances</span>: Dragon, Fairy, Flying, Grass, Ice, Normal, <b>Psychic</b>, Rock, Steel<br /><span class="message-effect-immune">Immunities</span>: Poison</div>
+|choice|move earthquake|move knockoff
+|
+|move|p1a: Bronzong|Earthquake|p2a: Absol
+|-damage|p2a: Absol|28/100
+|move|p2a: Absol|Knock Off|p1a: Bronzong
+|-supereffective|p1a: Bronzong
+|-crit|p1a: Bronzong
+|-damage|p1a: Bronzong|0 fnt
+|-enditem|p1a: Bronzong|Leftovers|[from] move: Knock Off|[of] p2a: Absol
+|-damage|p2a: Absol|18/100|[from] item: Life Orb
+|faint|p1a: Bronzong
+|
+|upkeep
+|c|☆SolAnima|OH WOW
+|c|☆SolAnima|Okay
+|c|☆Ciastolek|that life orb
+|c|☆SolAnima|More like that Crit
+|c|☆Ciastolek|maybe
+|c|☆SolAnima|Probably
+|choice|switch 3|
+|
+|switch|p1a: Roselia|Roselia, M|100/100
+|-activate|p1a: Roselia|move: Sticky Web
+|-unboost|p1a: Roselia|spe|1
+|-damage|p1a: Roselia|88/100|[from] Stealth Rock
+|turn|6
+|choice|move gigadrain|move knockoff
+|
+|move|p1a: Roselia|Giga Drain|p2a: Absol
+|-damage|p2a: Absol|0 fnt
+|-heal|p1a: Roselia|96/100|[from] drain|[of] p2a: Absol
+|faint|p2a: Absol
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Venusaur|Venusaur, M|100/100
+|-damage|p2a: Venusaur|88/100|[from] Stealth Rock
+|turn|7
+|choice|move sludgebomb|move sludgebomb
+|
+|move|p1a: Roselia|Sludge Bomb|p2a: Venusaur
+|-crit|p2a: Venusaur
+|-damage|p2a: Venusaur|48/100
+|move|p2a: Venusaur|Sludge Bomb|p1a: Roselia
+|-damage|p1a: Roselia|69/100
+|
+|-heal|p2a: Venusaur|54/100|[from] item: Black Sludge
+|-fieldend|move: Trick Room
+|upkeep
+|turn|8
+|choice|move sludgebomb|move hiddenpower
+|
+|move|p2a: Venusaur|Hidden Power|p1a: Roselia
+|-supereffective|p1a: Roselia
+|-damage|p1a: Roselia|46/100
+|move|p1a: Roselia|Sludge Bomb|p2a: Venusaur
+|-damage|p2a: Venusaur|24/100
+|
+|-heal|p2a: Venusaur|30/100|[from] item: Black Sludge
+|upkeep
+|turn|9
+|choice|move synthesis|move synthesis
+|
+|move|p2a: Venusaur|Synthesis|p2a: Venusaur
+|-heal|p2a: Venusaur|80/100
+|move|p1a: Roselia|Synthesis|p1a: Roselia
+|-heal|p1a: Roselia|96/100
+|
+|-heal|p2a: Venusaur|86/100|[from] item: Black Sludge
+|upkeep
+|turn|10
+|c|☆SolAnima|Well this is gonna be a while
+|choice|move spikes|switch 3
+|
+|switch|p2a: Gurdurr|Gurdurr, M|100/100
+|-damage|p2a: Gurdurr|94/100|[from] Stealth Rock
+|move|p1a: Roselia|Spikes|p2a: Gurdurr
+|-sidestart|p2: Ciastolek|Spikes
+|
+|upkeep
+|turn|11
+|choice|move sludgebomb|move knockoff
+|
+|move|p2a: Gurdurr|Knock Off|p1a: Roselia
+|-damage|p1a: Roselia|61/100
+|-enditem|p1a: Roselia|Eviolite|[from] move: Knock Off|[of] p2a: Gurdurr
+|move|p1a: Roselia|Sludge Bomb|p2a: Gurdurr
+|-damage|p2a: Gurdurr|61/100
+|-status|p2a: Gurdurr|psn
+|
+|-damage|p2a: Gurdurr|49/100 psn|[from] psn
+|upkeep
+|turn|12
+|choice|move gigadrain|move knockoff
+|
+|move|p2a: Gurdurr|Knock Off|p1a: Roselia
+|-damage|p1a: Roselia|6/100
+|move|p1a: Roselia|Giga Drain|p2a: Gurdurr
+|-damage|p2a: Gurdurr|21/100 psn
+|-heal|p1a: Roselia|24/100|[from] drain|[of] p2a: Gurdurr
+|
+|-damage|p2a: Gurdurr|9/100 psn|[from] psn
+|upkeep
+|turn|13
+|choice|move synthesis|move knockoff
+|
+|move|p2a: Gurdurr|Knock Off|p1a: Roselia
+|-damage|p1a: Roselia|0 fnt
+|faint|p1a: Roselia
+|
+|-damage|p2a: Gurdurr|0 fnt|[from] psn
+|upkeep
+|faint|p2a: Gurdurr
+|choice|switch 2|switch 4
+|
+|switch|p1a: Hitmontop|Hitmontop, M|100/100 slp
+|switch|p2a: Bronzong|Bronzong|100/100
+|-activate|p1a: Hitmontop|move: Sticky Web
+|-unboost|p1a: Hitmontop|spe|1
+|-damage|p1a: Hitmontop|94/100 slp|[from] Stealth Rock
+|-ability|p1a: Hitmontop|Intimidate|boost
+|-unboost|p2a: Bronzong|atk|1
+|-damage|p2a: Bronzong|94/100|[from] Stealth Rock
+|turn|14
+|choice|move rapidspin|move earthquake
+|
+|cant|p1a: Hitmontop|slp
+|move|p2a: Bronzong|Earthquake|p1a: Hitmontop
+|-damage|p1a: Hitmontop|78/100 slp
+|
+|-heal|p1a: Hitmontop|84/100 slp|[from] item: Leftovers
+|-heal|p2a: Bronzong|100/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|choice|move rapidspin|move earthquake
+|
+|-curestatus|p1a: Hitmontop|slp|[msg]
+|move|p1a: Hitmontop|Rapid Spin|p2a: Bronzong
+|-resisted|p2a: Bronzong
+|-damage|p2a: Bronzong|98/100
+|-sideend|p1: SolAnima|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Hitmontop
+|-sideend|p1: SolAnima|Sticky Web|[from] move: Rapid Spin|[of] p1a: Hitmontop
+|move|p2a: Bronzong|Earthquake|p1a: Hitmontop
+|-crit|p1a: Hitmontop
+|-damage|p1a: Hitmontop|48/100
+|
+|-heal|p1a: Hitmontop|54/100|[from] item: Leftovers
+|-heal|p2a: Bronzong|100/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|choice|move closecombat|move earthquake
+|
+|move|p1a: Hitmontop|Close Combat|p2a: Bronzong
+|-damage|p2a: Bronzong|66/100
+|-unboost|p1a: Hitmontop|def|1
+|-unboost|p1a: Hitmontop|spd|1
+|move|p2a: Bronzong|Earthquake|p1a: Hitmontop
+|-damage|p1a: Hitmontop|28/100
+|
+|-heal|p1a: Hitmontop|34/100|[from] item: Leftovers
+|-heal|p2a: Bronzong|72/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|choice|move closecombat|move earthquake
+|
+|move|p1a: Hitmontop|Close Combat|p2a: Bronzong
+|-damage|p2a: Bronzong|35/100
+|-unboost|p1a: Hitmontop|def|1
+|-unboost|p1a: Hitmontop|spd|1
+|move|p2a: Bronzong|Earthquake|p1a: Hitmontop
+|-damage|p1a: Hitmontop|0 fnt
+|faint|p1a: Hitmontop
+|
+|-heal|p2a: Bronzong|42/100|[from] item: Leftovers
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Manectric|Manectric, M|100/100
+|turn|18
+|choice|move flamethrower|move stealthrock
+|
+|move|p1a: Manectric|Flamethrower|p2a: Bronzong
+|-supereffective|p2a: Bronzong
+|-damage|p2a: Bronzong|0 fnt
+|-damage|p1a: Manectric|91/100|[from] item: Life Orb
+|faint|p2a: Bronzong
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Spiritomb|Spiritomb, M|100/100
+|-damage|p2a: Spiritomb|88/100|[from] Spikes
+|-damage|p2a: Spiritomb|75/100|[from] Stealth Rock
+|turn|19
+|choice|move voltswitch|move foulplay
+|
+|move|p1a: Manectric|Volt Switch|p2a: Spiritomb
+|-damage|p2a: Spiritomb|32/100
+|-damage|p1a: Manectric|81/100|[from] item: Life Orb
+|choice|switch 5|
+|
+|switch|p1a: Drapion|Drapion, M|100/100
+|move|p2a: Spiritomb|Foul Play|p1a: Drapion
+|-resisted|p1a: Drapion
+|-damage|p1a: Drapion|80/100
+|
+|-heal|p2a: Spiritomb|38/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|choice|move swordsdance|move willowisp
+|
+|move|p1a: Drapion|Swords Dance|p1a: Drapion
+|-boost|p1a: Drapion|atk|2
+|move|p2a: Spiritomb|Will-O-Wisp|p1a: Drapion
+|-status|p1a: Drapion|brn
+|
+|-heal|p2a: Spiritomb|44/100|[from] item: Leftovers
+|-damage|p1a: Drapion|68/100 brn|[from] brn
+|upkeep
+|turn|21
+|choice|move swordsdance|move foulplay
+|
+|move|p1a: Drapion|Swords Dance|p1a: Drapion
+|-boost|p1a: Drapion|atk|2
+|move|p2a: Spiritomb|Foul Play|p1a: Drapion
+|-resisted|p1a: Drapion
+|-damage|p1a: Drapion|9/100 brn
+|
+|-heal|p2a: Spiritomb|50/100|[from] item: Leftovers
+|-damage|p1a: Drapion|0 fnt|[from] brn
+|upkeep
+|faint|p1a: Drapion
+|choice|switch 5|
+|
+|switch|p1a: Manectric|Manectric, M|81/100
+|turn|22
+|choice|move voltswitch|move foulplay
+|
+|move|p1a: Manectric|Volt Switch|p2a: Spiritomb
+|-damage|p2a: Spiritomb|9/100
+|-damage|p1a: Manectric|71/100|[from] item: Life Orb
+|choice|switch 4|
+|
+|switch|p1a: Malamar|Malamar, M|100/100
+|move|p2a: Spiritomb|Foul Play|p1a: Malamar
+|-damage|p1a: Malamar|69/100
+|
+|-heal|p1a: Malamar|75/100|[from] item: Leftovers
+|-heal|p2a: Spiritomb|16/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|choice|move superpower|move willowisp
+|
+|move|p1a: Malamar|Superpower|p2a: Spiritomb
+|-immune|p2a: Spiritomb|[msg]
+|move|p2a: Spiritomb|Will-O-Wisp|p1a: Malamar|[miss]
+|-miss|p2a: Spiritomb|p1a: Malamar
+|
+|-heal|p1a: Malamar|82/100|[from] item: Leftovers
+|-heal|p2a: Spiritomb|22/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|choice|move knockoff|move willowisp
+|
+|move|p1a: Malamar|Knock Off|p2a: Spiritomb
+|-crit|p2a: Spiritomb
+|-damage|p2a: Spiritomb|0 fnt
+|-enditem|p2a: Spiritomb|Leftovers|[from] move: Knock Off|[of] p1a: Malamar
+|faint|p2a: Spiritomb
+|
+|-heal|p1a: Malamar|88/100|[from] item: Leftovers
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Venusaur|Venusaur, M|86/100
+|-damage|p2a: Venusaur|74/100|[from] Spikes
+|-damage|p2a: Venusaur|62/100|[from] Stealth Rock
+|turn|25
+|choice|move knockoff|move gigadrain
+|
+|move|p1a: Malamar|Knock Off|p2a: Venusaur
+|-damage|p2a: Venusaur|25/100
+|-enditem|p2a: Venusaur|Black Sludge|[from] move: Knock Off|[of] p1a: Malamar
+|move|p2a: Venusaur|Giga Drain|p1a: Malamar
+|-damage|p1a: Malamar|40/100
+|-heal|p2a: Venusaur|50/100|[from] drain|[of] p1a: Malamar
+|
+|-heal|p1a: Malamar|47/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|choice|move rest|move gigadrain
+|
+|move|p1a: Malamar|Rest|p1a: Malamar
+|-status|p1a: Malamar|slp
+|-heal|p1a: Malamar|100/100 slp|[silent]
+|-status|p1a: Malamar|slp|[from] move: Rest
+|move|p2a: Venusaur|Giga Drain|p1a: Malamar
+|-damage|p1a: Malamar|71/100 slp
+|-heal|p2a: Venusaur|65/100|[from] drain|[of] p1a: Malamar
+|
+|-heal|p1a: Malamar|77/100 slp|[from] item: Leftovers
+|upkeep
+|turn|27
+|choice|move sleeptalk|move sludgebomb
+|
+|cant|p1a: Malamar|slp
+|move|p1a: Malamar|Sleep Talk|p1a: Malamar
+|move|p1a: Malamar|Superpower|p2a: Venusaur|[from]Sleep Talk
+|-resisted|p2a: Venusaur
+|-damage|p2a: Venusaur|52/100
+|-boost|p1a: Malamar|atk|1
+|-boost|p1a: Malamar|def|1
+|move|p2a: Venusaur|Sludge Bomb|p1a: Malamar
+|-damage|p1a: Malamar|41/100 slp
+|
+|-heal|p1a: Malamar|47/100 slp|[from] item: Leftovers
+|upkeep
+|turn|28
+|choice|move sleeptalk|move sludgebomb
+|
+|cant|p1a: Malamar|slp
+|move|p1a: Malamar|Sleep Talk|p1a: Malamar
+|move|p1a: Malamar|Superpower|p2a: Venusaur|[from]Sleep Talk
+|-resisted|p2a: Venusaur
+|-damage|p2a: Venusaur|30/100
+|-boost|p1a: Malamar|atk|1
+|-boost|p1a: Malamar|def|1
+|move|p2a: Venusaur|Sludge Bomb|p1a: Malamar
+|-damage|p1a: Malamar|9/100 slp
+|
+|-heal|p1a: Malamar|15/100 slp|[from] item: Leftovers
+|upkeep
+|turn|29
+|choice|move rest|move sludgebomb
+|
+|-curestatus|p1a: Malamar|slp|[msg]
+|move|p1a: Malamar|Rest|p1a: Malamar
+|-status|p1a: Malamar|slp
+|-heal|p1a: Malamar|100/100 slp|[silent]
+|-status|p1a: Malamar|slp|[from] move: Rest
+|move|p2a: Venusaur|Sludge Bomb|p1a: Malamar
+|-damage|p1a: Malamar|60/100 slp
+|
+|-heal|p1a: Malamar|67/100 slp|[from] item: Leftovers
+|upkeep
+|turn|30
+|choice|move sleeptalk|move sludgebomb
+|
+|cant|p1a: Malamar|slp
+|move|p1a: Malamar|Sleep Talk|p1a: Malamar
+|move|p1a: Malamar|Knock Off|p2a: Venusaur|[from]Sleep Talk
+|-damage|p2a: Venusaur|0 fnt
+|faint|p2a: Venusaur
+|
+|win|SolAnima
+|raw|SolAnima's rating: 1289 &rarr; <strong>1306</strong><br />(+17 for winning)
+|raw|Ciastolek's rating: 1175 &rarr; <strong>1158</strong><br />(-17 for losing)
+|l|Ciastolek

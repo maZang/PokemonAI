@@ -1,0 +1,184 @@
+|j|arceus1117
+|j|Seananiganz
+|player|p1|arceus1117|99
+|player|p2|Seananiganz|1
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|27342,11839,34511,46263,37996,45768,25814,25651,1951,3175,35453,25054
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Kyurem-Black|item
+|poke|p1|Weavile, M|item
+|poke|p1|Tyranitar, M|item
+|poke|p1|Latias, F|item
+|poke|p1|Gyarados, M|item
+|poke|p1|Ferrothorn, M|item
+|poke|p2|Thundurus, M|item
+|poke|p2|Medicham, M|item
+|poke|p2|Gyarados, M|item
+|poke|p2|Staraptor, M|item
+|poke|p2|Jirachi|item
+|poke|p2|Serperior, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|c|☆Seananiganz|gl :)
+|c|☆arceus1117|hf :)
+|choice|team 3, team 2, team 1, team 4, team 5, team 6|team 4, team 2, team 3, team 1, team 5, team 6
+|
+|start
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|switch|p2a: Staraptor|Staraptor, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|1
+|choice|move stealthrock|move closecombat
+|
+|move|p2a: Staraptor|Close Combat|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|-unboost|p2a: Staraptor|def|1
+|-unboost|p2a: Staraptor|spd|1
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Staraptor|94/100|[from] sandstorm
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Weavile|Weavile, M|100/100
+|-ability|p1a: Weavile|Pressure
+|turn|2
+|choice|move iceshard|move closecombat
+|
+|move|p1a: Weavile|Ice Shard|p2a: Staraptor
+|-supereffective|p2a: Staraptor
+|-damage|p2a: Staraptor|0 fnt
+|-damage|p1a: Weavile|91/100|[from] item: Life Orb
+|faint|p2a: Staraptor
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Weavile|84/100|[from] sandstorm
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Medicham|Medicham, M|100/100
+|turn|3
+|choice|switch 6|move fakeout mega
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|detailschange|p2a: Medicham|Medicham-Mega, M
+|-mega|p2a: Medicham|Medicham|Medichamite
+|move|p2a: Medicham|Fake Out|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|92/100
+|-damage|p2a: Medicham|88/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Medicham|82/100|[from] sandstorm
+|-heal|p1a: Ferrothorn|98/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|choice|move leechseed|move highjumpkick
+|
+|move|p2a: Medicham|High Jump Kick|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|-damage|p2a: Medicham|70/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|faint|p1a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Medicham|64/100|[from] sandstorm
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Latias|Latias, F|100/100
+|turn|5
+|choice|move psyshock|move icepunch
+|
+|move|p1a: Latias|Psyshock|p2a: Medicham
+|-damage|p2a: Medicham|0 fnt
+|-damage|p1a: Latias|91/100|[from] item: Life Orb
+|faint|p2a: Medicham
+|
+|-weather|none
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Jirachi|Jirachi|100/100
+|turn|6
+|choice|switch 5|move uturn
+|
+|switch|p1a: Gyarados|Gyarados, M|100/100
+|-ability|p1a: Gyarados|Intimidate|boost
+|-unboost|p2a: Jirachi|atk|1
+|move|p2a: Jirachi|U-turn|p1a: Gyarados
+|-resisted|p1a: Gyarados
+|-damage|p1a: Gyarados|91/100
+|choice||switch 4
+|
+|switch|p2a: Thundurus|Thundurus, M|100/100
+|
+|upkeep
+|turn|7
+|choice|move dragondance mega|move focusblast
+|
+|detailschange|p1a: Gyarados|Gyarados-Mega, M
+|-mega|p1a: Gyarados|Gyarados|Gyaradosite
+|-ability|p1a: Gyarados|Mold Breaker
+|move|p2a: Thundurus|Focus Blast|p1a: Gyarados
+|-supereffective|p1a: Gyarados
+|-damage|p1a: Gyarados|5/100
+|-damage|p2a: Thundurus|91/100|[from] item: Life Orb
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|
+|upkeep
+|turn|8
+|choice|move waterfall|move thunderbolt
+|
+|move|p1a: Gyarados|Waterfall|p2a: Thundurus
+|-damage|p2a: Thundurus|0 fnt
+|faint|p2a: Thundurus
+|
+|upkeep
+|c|☆Seananiganz|uh oh
+|choice||switch 4
+|
+|switch|p2a: Jirachi|Jirachi|100/100
+|turn|9
+|choice|switch 3|move uturn
+|
+|switch|p1a: Kyurem|Kyurem-Black|100/100
+|-ability|p1a: Kyurem|Teravolt
+|move|p2a: Jirachi|U-turn|p1a: Kyurem
+|-damage|p1a: Kyurem|83/100
+|choice||switch 6
+|
+|switch|p2a: Serperior|Serperior, M|100/100
+|
+|-heal|p1a: Kyurem|89/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|choice|move icebeam|move dragonpulse
+|
+|move|p2a: Serperior|Dragon Pulse|p1a: Kyurem
+|-supereffective|p1a: Kyurem
+|-damage|p1a: Kyurem|51/100
+|move|p1a: Kyurem|Ice Beam|p2a: Serperior
+|-supereffective|p2a: Serperior
+|-damage|p2a: Serperior|0 fnt
+|faint|p2a: Serperior
+|
+|-heal|p1a: Kyurem|57/100|[from] item: Leftovers
+|upkeep
+|c|☆Seananiganz|gg I think
+|c|☆arceus1117|yeah maybe lol
+|c|☆Seananiganz|I have nothing to kill this :P
+|c|☆Seananiganz|g2g :)
+|-message|Seananiganz forfeited.
+|
+|win|arceus1117
+|c|☆arceus1117|gg

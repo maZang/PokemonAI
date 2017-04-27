@@ -1,0 +1,139 @@
+|j|FelipeRT
+|j|trovao101
+|player|p1|FelipeRT|164
+|player|p2|trovao101|1
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|20604,32503,32416,184,1503,5943,54037,31035,44624,45567,57931,11410
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Camerupt, M|item
+|poke|p1|Glalie, M|item
+|poke|p1|Electrode|item
+|poke|p1|Ninetales, M|item
+|poke|p1|Dodrio, M|item
+|poke|p1|Simipour, M|item
+|poke|p2|Pawniard, M|item
+|poke|p2|Probopass, M|item
+|poke|p2|Armaldo, M|item
+|poke|p2|Stoutland, M|item
+|poke|p2|Arbok, M|item
+|poke|p2|Quilladin, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|c|☆FelipeRT|NAU VOU NAU
+|c|☆trovao101|XIM
+|c|☆trovao101|VAI XIM
+|c|☆trovao101|VHS
+|c|☆trovao101|*VHS*
+|c|☆trovao101|fail
+|c|☆FelipeRT|QUEM É O ESCRAVINHO
+|c|☆trovao101|=;
+|c|☆FelipeRT|?
+|c|☆trovao101|vc
+|choice|team 5, team 2, team 3, team 4, team 1, team 6|team 1, team 2, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Dodrio|Dodrio, M|100/100
+|switch|p2a: Pawniard|Pawniard, M|100/100
+|turn|1
+|choice|move knockoff|move swordsdance
+|
+|move|p1a: Dodrio|Knock Off|p2a: Pawniard
+|-resisted|p2a: Pawniard
+|-damage|p2a: Pawniard|80/100
+|-enditem|p2a: Pawniard|Eviolite|[from] move: Knock Off|[of] p1a: Dodrio
+|move|p2a: Pawniard|Swords Dance|p2a: Pawniard
+|-boost|p2a: Pawniard|atk|2
+|
+|upkeep
+|turn|2
+|c|☆trovao101|VUCE É O ESCRAVINHU
+|choice|switch 5|move suckerpunch
+|
+|switch|p1a: Camerupt|Camerupt, M|100/100
+|move|p2a: Pawniard|Sucker Punch|p1a: Camerupt|[still]
+|-fail|p2a: Pawniard
+|
+|upkeep
+|turn|3
+|c|☆FelipeRT|VUCE QUE É
+|c|☆FelipeRT|MEU ESCRAVINHO PESSOAL
+|choice|move roar|move knockoff
+|
+|move|p2a: Pawniard|Knock Off|p1a: Camerupt
+|-damage|p1a: Camerupt|0 fnt
+|-enditem|p1a: Camerupt|Leftovers|[from] move: Knock Off|[of] p2a: Pawniard
+|faint|p1a: Camerupt
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Glalie|Glalie, M|100/100
+|turn|4
+|choice|move explosion|move ironhead
+|
+|move|p1a: Glalie|Explosion|p2a: Pawniard
+|-resisted|p2a: Pawniard
+|-damage|p2a: Pawniard|22/100
+|faint|p1a: Glalie
+|move|p2a: Pawniard|Iron Head|p1: Glalie|[notarget]
+|-notarget
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Ninetales|Ninetales, M|100/100
+|turn|5
+|choice|move nastyplot|move suckerpunch
+|
+|move|p2a: Pawniard|Sucker Punch|p1a: Ninetales|[still]
+|-fail|p2a: Pawniard
+|move|p1a: Ninetales|Nasty Plot|p1a: Ninetales
+|-boost|p1a: Ninetales|spa|2
+|
+|upkeep
+|turn|6
+|choice|move hiddenpower|move suckerpunch
+|
+|move|p2a: Pawniard|Sucker Punch|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|faint|p1a: Ninetales
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Dodrio|Dodrio, M|100/100
+|turn|7
+|choice|move return|move suckerpunch
+|
+|move|p2a: Pawniard|Sucker Punch|p1a: Dodrio
+|-damage|p1a: Dodrio|0 fnt
+|faint|p1a: Dodrio
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Simipour|Simipour, M|100/100
+|turn|8
+|choice|move hydropump|move suckerpunch
+|
+|move|p2a: Pawniard|Sucker Punch|p1a: Simipour
+|-damage|p1a: Simipour|0 fnt
+|faint|p1a: Simipour
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Electrode|Electrode|100/100
+|turn|9
+|choice|move thunderbolt|move suckerpunch
+|
+|move|p2a: Pawniard|Sucker Punch|p1a: Electrode
+|-damage|p1a: Electrode|0 fnt
+|faint|p1a: Electrode
+|
+|win|trovao101
+|l|FelipeRT
