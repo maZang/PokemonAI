@@ -134,7 +134,8 @@ class PokemonShowdownReplayParser(object):
 
 
 	def processSwitch(self, line):
-		matches = re.search("\|switch\|(p[12])a:\s+([^|]+)\|([^,|]+)", line).groups()
+		matches = re.search("\|switch\|(p[12])a:\s+([^|]+)\|([^|]+)", line).groups()
+		print(line)
 		player = matches[0]
 		nickname = matches[1]
 		species = matches[2]
@@ -142,9 +143,12 @@ class PokemonShowdownReplayParser(object):
 		pokemon = self.players[player].getPokemonBySpecies(species)
 		if pokemon == None:
 			pokemon = Pokemon()
+			pokemon.nickname = nickname
 			pokemon.species = species
 			self.players[player].pokemon.append(pokemon)
-		pokemon.nickname = nickname
+			assert(len(self.players[player].pokemon) <= 6)
+		elif pokemon.nickname == "":
+			pokemon.nickname = nickname
 		self.players[player].currentPokemon = pokemon
 
 
@@ -154,14 +158,9 @@ class PokemonShowdownReplayParser(object):
 		nickname = matches[1]
 		move = matches[2]
 
-		print("Player: " + player)
-		print("Nickname: " + nickname)
-		print("Move: " + move)
-
 		pokemon = self.players[player].getPokemonByNickname(nickname)
-		print("Pokemon nickname: " + pokemon.nickname)
-		pokemon.moves[move] = 1
-		print(pokemon.moves)
+		pokemon.moves.add(move)
+		assert(len(pokemon.moves) <= 4)
 
 
 	def processAbility(self, line):
@@ -178,7 +177,7 @@ class PokemonShowdownReplayParser(object):
 		matches = re.search("\|-mega\|(p[12])a:\s+([^|]+)\|([^|]+)\|(.+)", line).groups()
 		player = matches[0]
 		nickname = matches[1]
-		# var species = matches[2]
+		# species = matches[2]
 		megastone = matches[3]
 
 		pokemon = self.players[player].getPokemonByNickname(nickname)
@@ -186,13 +185,14 @@ class PokemonShowdownReplayParser(object):
 
 
 	def processDetailsChange(self, line):
-		matches = re.search("\|detailschange\|(p[12])a:\s+([^|]+)\|([^,]+)", line).groups()
+		matches = re.search("\|detailschange\|(p[12])a:\s+([^|]+)\|([^\n]+)", line).groups()
 		player = matches[0]
 		nickname = matches[1]
 		species = matches[2]
 
 		pokemon = self.players[player].getPokemonByNickname(nickname)
 		pokemon.species = species
+		print("Species: " + pokemon.species)
 
 
 	def processItemFromMove(self, line):
@@ -241,10 +241,10 @@ class PokemonShowdownReplayParser(object):
 
 
 class Player(object):
-	def __init__(self, name="", username="", pokemon=[], currentPokemon=None):
+	def __init__(self, name="", username="", currentPokemon=None):
 		self.name = name
 		self.username = username
-		self.pokemon = pokemon
+		self.pokemon = []
 		self.currentPokemon = currentPokemon
 
 	def getPokemonBySpecies(self, species):
@@ -271,12 +271,12 @@ class Player(object):
 
 
 class Pokemon(object):
-	def __init__(self, species="", nickname="", item="", ability="", moves={}):
+	def __init__(self, species="", nickname="", item="", ability=""):
 		self.species = species
 		self.nickname = nickname
 		self.item = item
 		self.ability = ability
-		self.moves = moves
+		self.moves = set()
 
 	def getTeamFormatString(self):
 		s = ""
@@ -292,11 +292,11 @@ class Turn(object):
 		self.action2 = action2
 
 class FieldState(object):
-	def __init__(self, p1Pokemon, p2Pokemon, p1EntryHazards=[], p2EntryHazards=[], weather="none"):
+	def __init__(self, p1Pokemon, p2Pokemon, weather="none"):
 		self.p1Pokemon = p1Pokemon
 		self.p2Pokemon = p2Pokemon
-		self.p1EntryHazards = p1EntryHazards
-		self.p2EntryHazards = p2EntryHazards
+		self.p1EntryHazards = []
+		self.p2EntryHazards = []
 		self.weather = weather
 
 def encode(network_config, replay_file):
@@ -308,7 +308,7 @@ def main():
 
 	parser = PokemonShowdownReplayParser(data)
 	output = parser.run()
-	# print(output)
+	print(output)
 
 if __name__ == "__main__":
 	main()
