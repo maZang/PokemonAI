@@ -1,0 +1,111 @@
+|j|Overdragoon
+|j|TriHarderCx
+|player|p1|Overdragoon|290
+|player|p2|TriHarderCx|73
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|41783,56034,37898,8169,3479,42638,55503,65134,156,56188,12261,32972
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Heatran, M|item
+|poke|p1|Hawlucha, M|item
+|poke|p1|Scizor, M|item
+|poke|p1|Mamoswine, M|item
+|poke|p1|Azumarill, M|item
+|poke|p1|Celebi|item
+|poke|p2|Zapdos|item
+|poke|p2|Feraligatr, M|item
+|poke|p2|Jirachi|item
+|poke|p2|Tyranitar, M|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Garchomp, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|j|Like A Star
+|l|Like A Star
+|choice|team 1, team 2, team 3, team 4, team 5, team 6|team 5, team 2, team 3, team 4, team 1, team 6
+|
+|start
+|switch|p1a: Heatran|Heatran, M|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-item|p1a: Heatran|Air Balloon
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Heatran|atk|1
+|turn|1
+|j|Meny_13_
+|l|Meny_13_
+|choice|move fireblast|switch 2
+|
+|switch|p2a: Feraligatr|Feraligatr, M|100/100
+|move|p1a: Heatran|Fire Blast|p2a: Feraligatr
+|-resisted|p2a: Feraligatr
+|-damage|p2a: Feraligatr|62/100
+|-status|p2a: Feraligatr|brn
+|
+|-damage|p2a: Feraligatr|50/100 brn|[from] brn
+|upkeep
+|turn|2
+|choice|switch 6|move dragondance
+|
+|switch|p1a: Celebi|Celebi|100/100
+|move|p2a: Feraligatr|Dragon Dance|p2a: Feraligatr
+|-boost|p2a: Feraligatr|atk|1
+|-boost|p2a: Feraligatr|spe|1
+|
+|-damage|p2a: Feraligatr|37/100 brn|[from] brn
+|upkeep
+|turn|3
+|choice|move gigadrain|move crunch
+|
+|move|p2a: Feraligatr|Crunch|p1a: Celebi
+|-supereffective|p1a: Celebi
+|-damage|p1a: Celebi|51/100
+|move|p1a: Celebi|Giga Drain|p2a: Feraligatr
+|-supereffective|p2a: Feraligatr
+|-damage|p2a: Feraligatr|0 fnt
+|-heal|p1a: Celebi|65/100|[from] drain|[of] p2a: Feraligatr
+|faint|p2a: Feraligatr
+|
+|-heal|p1a: Celebi|71/100|[from] item: Leftovers
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Zapdos|Zapdos|100/100
+|-ability|p2a: Zapdos|Pressure
+|turn|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by TriHarderCx)
+|choice|move batonpass|move thunderbolt
+|
+|move|p1a: Celebi|Baton Pass|p1a: Celebi
+|choice|switch 4|
+|
+|switch|p1a: Mamoswine|Mamoswine, M|100/100
+|move|p2a: Zapdos|Thunderbolt|p1a: Mamoswine
+|-immune|p1a: Mamoswine|[msg]
+|
+|upkeep
+|turn|5
+|choice|move earthquake|switch 3
+|
+|switch|p2a: Jirachi|Jirachi|100/100
+|move|p1a: Mamoswine|Earthquake|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-crit|p2a: Jirachi
+|-damage|p2a: Jirachi|0 fnt
+|-damage|p1a: Mamoswine|91/100|[from] item: Life Orb
+|faint|p2a: Jirachi
+|
+|upkeep
+|-message|TriHarderCx forfeited.
+|
+|win|Overdragoon
+|l|TriHarderCx
+|j|Superman2017
+|j|Lieparite ☆
+|j|Drago34
+|l|Lieparite ☆
+|j|Lederp James
+|l|Lederp James
+|j|lelified

@@ -1,0 +1,231 @@
+|J|Kingler12345
+|J|We Three Kings
+|player|p1|Kingler12345|170
+|player|p2|We Three Kings|249
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|61308,41006,2758,21428,65051,42824,20123,14357,19194,2364,12132,11142
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Ferrothorn, M|item
+|poke|p1|Zapdos|item
+|poke|p1|Dragonite, M|item
+|poke|p1|Bisharp, M|item
+|poke|p1|Heracross, M|item
+|poke|p1|Clefable, M|item
+|poke|p2|Latias, F|item
+|poke|p2|Excadrill, M|item
+|poke|p2|Dragonite, M|item
+|poke|p2|Tyranitar, M|item
+|poke|p2|Rotom-Wash|item
+|poke|p2|Sylveon, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|c|☆We Three Kings|OMFG
+|c|☆We Three Kings|this is my tier
+|c|☆Kingler12345|LOLOL
+|c|☆Kingler12345|prepare to die kiddo
+|choice|team 1, team 2, team 3, team 4, team 5, team 6|team 6, team 2, team 3, team 4, team 5, team 1
+|
+|start
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|switch|p2a: Sylveon|Sylveon, M|100/100
+|turn|1
+|choice|move stealthrock|move batonpass
+|
+|move|p2a: Sylveon|Baton Pass|p2a: Sylveon
+|choice||switch 4
+|
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Tyranitar
+|-sidestart|p2: We Three Kings|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|2
+|c|☆We Three Kings|free rocks
+|c|☆We Three Kings|BAKRI
+|choice|move protect|move stealthrock
+|
+|move|p1a: Ferrothorn|Protect|p1a: Ferrothorn
+|-singleturn|p1a: Ferrothorn|Protect
+|move|p2a: Tyranitar|Stealth Rock|p1a: Ferrothorn
+|-sidestart|p1: Kingler12345|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|3
+|c|☆Kingler12345|,,,,
+|c|☆Kingler12345|fuck u
+|choice|move leechseed|move pursuit
+|
+|move|p2a: Tyranitar|Pursuit|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|88/100
+|-damage|p2a: Tyranitar|88/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|move|p1a: Ferrothorn|Leech Seed|p2a: Tyranitar
+|-start|p2a: Tyranitar|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Tyranitar|94/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|95/100|[from] item: Leftovers
+|-damage|p2a: Tyranitar|82/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|100/100|[silent]
+|upkeep
+|turn|4
+|c|☆We Three Kings|eff
+|c|☆Kingler12345|cute
+|choice|move gyroball|switch 3
+|
+|switch|p2a: Dragonite|Dragonite, M|100/100
+|-damage|p2a: Dragonite|76/100|[from] Stealth Rock
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Dragonite
+|-damage|p2a: Dragonite|41/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragonite|35/100|[from] sandstorm
+|upkeep
+|turn|5
+|choice|move leechseed|move firepunch
+|
+|move|p2a: Dragonite|Fire Punch|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|19/100
+|-damage|p2a: Dragonite|23/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|move|p1a: Ferrothorn|Leech Seed|p2a: Dragonite
+|-start|p2a: Dragonite|move: Leech Seed
+|
+|-weather|none
+|-heal|p1a: Ferrothorn|25/100|[from] item: Leftovers
+|-damage|p2a: Dragonite|10/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|36/100|[silent]
+|upkeep
+|turn|6
+|choice|move protect|switch 2
+|
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|-damage|p2a: Excadrill|97/100|[from] Stealth Rock
+|-ability|p2a: Excadrill|Mold Breaker
+|move|p1a: Ferrothorn|Protect|p1a: Ferrothorn
+|-fail|p1a: Ferrothorn
+|
+|-heal|p1a: Ferrothorn|43/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|choice|switch 2|move earthquake
+|
+|switch|p1a: Zapdos|Zapdos|100/100
+|-damage|p1a: Zapdos|75/100|[from] Stealth Rock
+|-ability|p1a: Zapdos|Pressure
+|move|p2a: Excadrill|Earthquake|p1a: Zapdos
+|-immune|p1a: Zapdos|[msg]
+|
+|-heal|p1a: Zapdos|82/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|choice|move defog|switch 6
+|
+|switch|p2a: Latias|Latias, F|100/100
+|-damage|p2a: Latias|88/100|[from] Stealth Rock
+|move|p1a: Zapdos|Defog|p2a: Latias
+|-unboost|p2a: Latias|evasion|1
+|-sideend|p2: We Three Kings|Stealth Rock|[from] move: Defog|[of] p2a: Latias
+|-sideend|p1: Kingler12345|Stealth Rock|[from] move: Defog|[of] p1a: Zapdos
+|
+|-heal|p1a: Zapdos|88/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|choice|switch 6|switch 4
+|
+|switch|p2a: Sylveon|Sylveon, M|100/100
+|switch|p1a: Clefable|Clefable, M|100/100
+|
+|upkeep
+|turn|10
+|choice|move wish|move hypervoice
+|
+|move|p2a: Sylveon|Hyper Voice|p1a: Clefable
+|-damage|p1a: Clefable|13/100
+|move|p1a: Clefable|Wish|p1a: Clefable
+|
+|-heal|p1a: Clefable|19/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|c|☆We Three Kings|?
+|choice|switch 2|move hypervoice
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|43/100
+|move|p2a: Sylveon|Hyper Voice|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|7/100
+|
+|-heal|p1a: Ferrothorn|63/100|[from] move: Wish|[wisher] Clefable
+|-heal|p1a: Ferrothorn|70/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|c|☆We Three Kings|F
+|choice|move leechseed|switch 5
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|move|p1a: Ferrothorn|Leech Seed|p2a: Rotom
+|-start|p2a: Rotom|move: Leech Seed
+|
+|-heal|p1a: Ferrothorn|76/100|[from] item: Leftovers
+|-damage|p2a: Rotom|88/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|86/100|[silent]
+|upkeep
+|turn|13
+|choice|move protect|move willowisp
+|
+|move|p1a: Ferrothorn|Protect|p1a: Ferrothorn
+|-singleturn|p1a: Ferrothorn|Protect
+|move|p2a: Rotom|Will-O-Wisp|p1a: Ferrothorn
+|-activate|p1a: Ferrothorn|move: Protect
+|
+|-heal|p2a: Rotom|94/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|93/100|[from] item: Leftovers
+|-damage|p2a: Rotom|82/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|100/100|[silent]
+|upkeep
+|turn|14
+|choice|switch 5|move willowisp
+|
+|switch|p1a: Heracross|Heracross, M|100/100
+|move|p2a: Rotom|Will-O-Wisp|p1a: Heracross
+|-status|p1a: Heracross|brn
+|
+|-heal|p2a: Rotom|88/100|[from] item: Leftovers
+|-damage|p2a: Rotom|76/100|[from] Leech Seed|[of] p1a: Heracross
+|-damage|p1a: Heracross|88/100 brn|[from] brn
+|upkeep
+|turn|15
+|choice|move facade|switch 2
+|
+|switch|p2a: Dragonite|Dragonite, M|10/100
+|move|p1a: Heracross|Facade|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|-damage|p1a: Heracross|76/100 brn|[from] brn
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Sylveon|Sylveon, M|100/100
+|turn|16
+|choice|switch 5|move hypervoice
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|move|p2a: Sylveon|Hyper Voice|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|68/100
+|
+|-heal|p1a: Ferrothorn|74/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|c|☆We Three Kings|i cant beat this
+|c|☆We Three Kings|hm
+|-message|We Three Kings forfeited.
+|
+|win|Kingler12345

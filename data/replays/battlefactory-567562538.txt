@@ -1,0 +1,298 @@
+|j|blackbox6500
+|j|Netro1
+|player|p1|blackbox6500|108
+|player|p2|Netro1|183
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|23378,26006,10057,15936,39964,34218,50776,65380,11628,10087,1218,26182
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Volcarona, M|item
+|poke|p1|Slowbro, M|item
+|poke|p1|Terrakion|item
+|poke|p1|Gyarados, M|item
+|poke|p1|Excadrill, M|item
+|poke|p1|Talonflame, M|item
+|poke|p2|Thundurus, M|item
+|poke|p2|Mew|item
+|poke|p2|Azumarill, M|item
+|poke|p2|Breloom, M|item
+|poke|p2|Metagross|item
+|poke|p2|Chansey, F|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|c|☆blackbox6500|eh,tengo tu waifu
+|c|☆blackbox6500|(?)
+|c|☆Netro1|esa era Latias (?
+|choice|team 2, team 1, team 3, team 4, team 5, team 6|team 3, team 2, team 1, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Slowbro|Slowbro, M|100/100
+|switch|p2a: Azumarill|Azumarill, M|100/100
+|turn|1
+|c|☆blackbox6500|ah,waifus legendarias
+|c|☆blackbox6500|ya quisieras
+|c|☆blackbox6500|(?
+|choice|move calmmind mega|move playrough
+|
+|detailschange|p1a: Slowbro|Slowbro-Mega, M
+|-mega|p1a: Slowbro|Slowbro|Slowbronite
+|move|p2a: Azumarill|Play Rough|p1a: Slowbro
+|-damage|p1a: Slowbro|62/100
+|move|p1a: Slowbro|Calm Mind|p1a: Slowbro
+|-boost|p1a: Slowbro|spa|1
+|-boost|p1a: Slowbro|spd|1
+|
+|upkeep
+|turn|2
+|choice|move slackoff|move playrough
+|
+|move|p2a: Azumarill|Play Rough|p1a: Slowbro
+|-damage|p1a: Slowbro|23/100
+|move|p1a: Slowbro|Slack Off|p1a: Slowbro
+|-heal|p1a: Slowbro|73/100
+|
+|upkeep
+|turn|3
+|choice|move calmmind|switch 6
+|
+|switch|p2a: Chansey|Chansey, F|100/100
+|move|p1a: Slowbro|Calm Mind|p1a: Slowbro
+|-boost|p1a: Slowbro|spa|1
+|-boost|p1a: Slowbro|spd|1
+|
+|upkeep
+|turn|4
+|c|☆blackbox6500|espero que ese azumarill...
+|c|☆blackbox6500|ah,deja
+|c|☆blackbox6500|8?
+|choice|move calmmind|move stealthrock
+|
+|move|p2a: Chansey|Stealth Rock|p1a: Slowbro
+|-sidestart|p1: blackbox6500|move: Stealth Rock
+|move|p1a: Slowbro|Calm Mind|p1a: Slowbro
+|-boost|p1a: Slowbro|spa|1
+|-boost|p1a: Slowbro|spd|1
+|
+|upkeep
+|turn|5
+|choice|move calmmind|switch 4
+|
+|switch|p2a: Breloom|Breloom, M|100/100
+|move|p1a: Slowbro|Calm Mind|p1a: Slowbro
+|-boost|p1a: Slowbro|spa|1
+|-boost|p1a: Slowbro|spd|1
+|
+|upkeep
+|turn|6
+|choice|move psyshock|move spore
+|
+|move|p2a: Breloom|Spore|p1a: Slowbro
+|-status|p1a: Slowbro|slp
+|cant|p1a: Slowbro|slp
+|
+|upkeep
+|turn|7
+|c|☆blackbox6500|fruta vida
+|choice|move psyshock|move swordsdance
+|
+|move|p2a: Breloom|Swords Dance|p2a: Breloom
+|-boost|p2a: Breloom|atk|2
+|-curestatus|p1a: Slowbro|slp|[msg]
+|move|p1a: Slowbro|Psyshock|p2a: Breloom
+|-supereffective|p2a: Breloom
+|-damage|p2a: Breloom|0 fnt
+|faint|p2a: Breloom
+|
+|upkeep
+|c|☆blackbox6500|egg
+|choice||switch 5
+|
+|switch|p2a: Metagross|Metagross|100/100
+|turn|8
+|choice|move scald|move pursuit mega
+|
+|detailschange|p2a: Metagross|Metagross-Mega
+|-mega|p2a: Metagross|Metagross|Metagrossite
+|move|p2a: Metagross|Pursuit|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|53/100
+|move|p1a: Slowbro|Scald|p2a: Metagross
+|-damage|p2a: Metagross|0 fnt
+|faint|p2a: Metagross
+|
+|upkeep
+|c|☆blackbox6500|tanks eslouvrto
+|c|☆blackbox6500|netro
+|c|☆blackbox6500|esto me anima
+|choice||switch 3
+|
+|switch|p2a: Thundurus|Thundurus, M|100/100
+|turn|9
+|c|☆blackbox6500|si funciona
+|c|☆blackbox6500|(?
+|choice|move scald|move thunderwave
+|
+|move|p2a: Thundurus|Thunder Wave|p1a: Slowbro
+|-status|p1a: Slowbro|par
+|move|p1a: Slowbro|Scald|p2a: Thundurus
+|-damage|p2a: Thundurus|0 fnt
+|faint|p2a: Thundurus
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Chansey|Chansey, F|100/100
+|turn|10
+|choice|move slackoff|move seismictoss
+|
+|move|p2a: Chansey|Seismic Toss|p1a: Slowbro
+|-damage|p1a: Slowbro|28/100 par
+|move|p1a: Slowbro|Slack Off|p1a: Slowbro
+|-heal|p1a: Slowbro|78/100 par
+|
+|upkeep
+|turn|11
+|choice|move psyshock|move seismictoss
+|
+|move|p2a: Chansey|Seismic Toss|p1a: Slowbro
+|-damage|p1a: Slowbro|52/100 par
+|move|p1a: Slowbro|Psyshock|p2a: Chansey
+|-damage|p2a: Chansey|29/100
+|
+|upkeep
+|turn|12
+|choice|move slackoff|move softboiled
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|79/100
+|move|p1a: Slowbro|Slack Off|p1a: Slowbro
+|-heal|p1a: Slowbro|100/100 par
+|
+|upkeep
+|turn|13
+|choice|move scald|move seismictoss
+|
+|move|p2a: Chansey|Seismic Toss|p1a: Slowbro
+|-damage|p1a: Slowbro|75/100 par
+|move|p1a: Slowbro|Scald|p2a: Chansey
+|-damage|p2a: Chansey|50/100
+|-status|p2a: Chansey|brn
+|
+|-damage|p2a: Chansey|38/100 brn|[from] brn
+|upkeep
+|turn|14
+|choice|move calmmind|move softboiled
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|88/100 brn
+|move|p1a: Slowbro|Calm Mind|p1a: Slowbro
+|-boost|p1a: Slowbro|spa|1
+|-boost|p1a: Slowbro|spd|1
+|
+|-damage|p2a: Chansey|76/100 brn|[from] brn
+|upkeep
+|turn|15
+|choice|move calmmind|move healbell
+|
+|move|p2a: Chansey|Heal Bell|p2a: Chansey
+|-activate|p2a: Chansey|move: Heal Bell
+|-curestatus|p2a: Chansey|brn|[msg]
+|move|p1a: Slowbro|Calm Mind|p1a: Slowbro
+|-boost|p1a: Slowbro|spa|1
+|-boost|p1a: Slowbro|spd|1
+|
+|upkeep
+|turn|16
+|choice|move scald|move seismictoss
+|
+|move|p2a: Chansey|Seismic Toss|p1a: Slowbro
+|-damage|p1a: Slowbro|50/100 par
+|cant|p1a: Slowbro|par
+|
+|upkeep
+|turn|17
+|choice|move slackoff|move seismictoss
+|
+|move|p2a: Chansey|Seismic Toss|p1a: Slowbro
+|-damage|p1a: Slowbro|24/100 par
+|move|p1a: Slowbro|Slack Off|p1a: Slowbro
+|-heal|p1a: Slowbro|74/100 par
+|
+|upkeep
+|turn|18
+|choice|move slackoff|switch 2
+|
+|switch|p2a: Mew|Mew|100/100
+|cant|p1a: Slowbro|par
+|
+|upkeep
+|turn|19
+|choice|move scald|move willowisp
+|
+|move|p2a: Mew|Will-O-Wisp|p1a: Slowbro
+|-fail|p1a: Slowbro
+|move|p1a: Slowbro|Scald|p2a: Mew
+|-damage|p2a: Mew|0 fnt
+|faint|p2a: Mew
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Azumarill|Azumarill, M|100/100
+|turn|20
+|choice|move psyshock|move playrough
+|
+|move|p2a: Azumarill|Play Rough|p1a: Slowbro
+|-damage|p1a: Slowbro|32/100 par
+|move|p1a: Slowbro|Psyshock|p2a: Azumarill
+|-damage|p2a: Azumarill|0 fnt
+|faint|p2a: Azumarill
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Chansey|Chansey, F|76/100
+|turn|21
+|choice|move slackoff|move seismictoss
+|
+|move|p2a: Chansey|Seismic Toss|p1a: Slowbro
+|-damage|p1a: Slowbro|7/100 par
+|move|p1a: Slowbro|Slack Off|p1a: Slowbro
+|-heal|p1a: Slowbro|57/100 par
+|
+|upkeep
+|turn|22
+|choice|move slackoff|move seismictoss
+|
+|move|p2a: Chansey|Seismic Toss|p1a: Slowbro
+|-damage|p1a: Slowbro|32/100 par
+|move|p1a: Slowbro|Slack Off|p1a: Slowbro
+|-heal|p1a: Slowbro|82/100 par
+|
+|upkeep
+|turn|23
+|choice|move slackoff|move seismictoss
+|
+|move|p2a: Chansey|Seismic Toss|p1a: Slowbro
+|-damage|p1a: Slowbro|56/100 par
+|move|p1a: Slowbro|Slack Off|p1a: Slowbro
+|-heal|p1a: Slowbro|100/100 par
+|
+|upkeep
+|turn|24
+|choice|move psyshock|move seismictoss
+|
+|move|p2a: Chansey|Seismic Toss|p1a: Slowbro
+|-damage|p1a: Slowbro|75/100 par
+|move|p1a: Slowbro|Psyshock|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|
+|win|blackbox6500
+|c|☆blackbox6500|gracias men
+|c|☆blackbox6500|me anime mucho
+|c|☆blackbox6500|(?
