@@ -1,7 +1,11 @@
 import re
+import json
+from pprint import pprint
 
 DATAFOLDER = '../../data/replays/'
 BATTLEFILE = 'battlefactory-566090815.txt'
+
+FACTORYSETS = '../../data/factory-sets.json'
 
 class PokemonShowdownReplayParser(object):
 	def __init__(self, log="", players={}):
@@ -15,6 +19,8 @@ class PokemonShowdownReplayParser(object):
 
 		self.stripGenders()
 
+		self.parseJSON()
+
 		output = ""
 		output += self.players["p1"].getTeamFormatString()
 		output += self.players["p2"].getTeamFormatString()
@@ -22,6 +28,9 @@ class PokemonShowdownReplayParser(object):
 		return output
 
 	def parse(self):
+		''' 
+		Parses the log file line by line.
+		'''
 		lines = self.log.split('\n')
 		for line in lines:
 			if line.startswith("|player|"):
@@ -98,6 +107,115 @@ class PokemonShowdownReplayParser(object):
 					pass
 				else:
 					print(line)
+
+	def parseJSON(self):
+		'''
+		Parses the factory sets JSON file to fill in all the missing information.
+		'''
+		with open(FACTORYSETS) as f:
+			data = json.load(f)
+
+		for pokemon in self.players["p1"].pokemon:
+			self.parsePokemonWithJSON(pokemon, data)
+		for pokemon in self.players["p2"].pokemon:
+			self.parsePokemonWithJSON(pokemon, data)
+
+	def parsePokemonWithJSON(self, pokemon, data):
+		'''
+		Parses a pokemon using Battle Factory JSON data.
+
+		Inputs:
+		Pokemon - The pokemon to be filled in.
+		Data - The Battle Factory JSON data object.
+		'''
+		# Takes only the beginning part if pokemon is Mega
+		if "-Mega" in pokemon.species:
+			speciesKey = pokemon.species.split("-")[0]
+		# Removes dash
+		elif "-" in pokemon.species:
+			speciesKey = pokemon.species.replace("-", "")
+		else:
+			speciesKey = pokemon.species
+		speciesKey = speciesKey.lower()
+
+		if speciesKey in data["Uber"]:
+			pokemon = self.fillInPokemon(pokemon, data["Uber"][speciesKey])
+		elif speciesKey in data["OU"]:
+			pokemon = self.fillInPokemon(pokemon, data["OU"][speciesKey])
+		elif speciesKey in data["UU"]:
+			pokemon = self.fillInPokemon(pokemon, data["UU"][speciesKey])
+		elif speciesKey in data["RU"]:
+			pokemon = self.fillInPokemon(pokemon, data["RU"][speciesKey])
+		elif speciesKey in data["NU"]:
+			pokemon = self.fillInPokemon(pokemon, data["NU"][speciesKey])
+		elif speciesKey in data["PU"]:
+			pokemon = self.fillInPokemon(pokemon, data["PU"][speciesKey])
+		else:
+			raise Exception("Pokemon not found in JSON!")
+
+	def fillInPokemon(self, pokemon, data):
+		'''
+		Fills in pokemon based on set from Battle Factory JSON.
+
+		Inputs:
+		Pokemon - The pokemon to be filled in.
+		Data - The JSON pokemon sub-object with tier and species key already specified, ex. data["Uber"]["klefki"]
+
+		Output:
+		Pokemon - The pokemon with moves, items, ability filled in.
+		'''
+		for pokeSet in data["sets"]:
+			validSet = True
+
+			setMoves = pokeSet["moves"]
+			setAbility = pokeSet["ability"]
+			setItem = pokeSet["item"]
+			setSpecies = pokeSet["species"]
+
+			# This usually means pokemon is mega evolved and set is not, or vice versa.
+			if pokemon.species != setSpecies:
+				print("Pokemon species: " + pokemon.species)
+				print("Set species: " + setSpecies)
+				pass
+
+			if pokemon.item != None and pokemon.item != setItem:
+				print("Pokemon item: " + pokemon.item)
+				print("Set item: " + setItem)
+				pass
+
+			assert(len(setMoves) == 4)
+
+			# setMoves is a list of a list of strings. One move slot can have 2 possible moves that are chosen randomly.
+
+			flattenedSetMoves = [item for sublist in setMoves for item in sublist]
+
+			for move in pokemon.moves:
+				if move not in flattenedSetMoves:
+					validSet = False
+					pass
+
+			# This is a valid set.
+			if validSet == True:
+				finalSet = pokeSet
+				break
+
+		assert(finalSet != None)
+
+		pokemon.ability = finalSet["ability"]
+		pokemon.item = finalSet["item"]
+
+		for moveSlot in finalSet["moves"]:
+			for move in moveSlot:
+				if move in pokemon.moves:
+					pass
+				else:
+					pokemon.moves.add(move)
+				if len(pokemon.moves) == 4:
+					break
+			if len(pokemon.moves) == 4:
+				break
+		return pokemon
+
 
 	def processPlayer(self, line):
 		fields = line.split("|")
