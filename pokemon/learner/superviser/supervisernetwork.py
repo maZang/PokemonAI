@@ -1,6 +1,7 @@
 from datautils.replaydataiter import ReplayDataIter
 from datautils.parser import encode
 import tensorflow as tf
+import datautils.const as const
 import os, pickle
 
 DATA_FOLDER = 'data/parsed_replays/'
@@ -11,10 +12,8 @@ TEST = DATA_FOLDER + 'test'
 class PokemonNetworkConfig(object):
 
 	embedding_size = 100
-	poke_descriptor_size = 7 # poke id, 4 move ids, item id, status id
-	poke_meta_size 1 # current health percentage
-	field_meta_size = 0 # number of field status (e.g. weather) -- 0 for now
-	number_non_embedding = 12 * poke_meta_size + field_meta_size
+	poke_descriptor_size = const.POKE_DESCRIPTOR_SIZE # poke id, 4 move ids, item id, status id
+	number_non_embedding = const.NON_EMBEDDING_DATA
 	number_classes = 11 # 4 options for each move, +6 options to switch Pokemon, +1 mega-evolve -- ALTERNATIVE, number_moves + number_pokemon + 1 (mega-evolve)
 	learning_rate = 1e-3
 	max_epochs = 10

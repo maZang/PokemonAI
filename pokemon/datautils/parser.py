@@ -1,7 +1,32 @@
 import re
+import numpy as np 
+import const
+import pickle
 
-DATAFOLDER = '../../data/replays/'
+DATAFOLDER = 'data/replays/'
 BATTLEFILE = 'battlefactory-566090815.txt'
+PARSED_FOLDER = 'data/parsed_replays/'
+
+class PokemonShowdownEncoding(object):
+
+	def __init__(self, name, num_turns, type):
+		'''
+		type is either test,train,or val
+		'''
+		self.name = name 
+		self.type = type 
+		self.pokemon = [np.zeros((num_turns, const.POKE_DESCRIPTOR_SIZE)) for _ in range(12)]
+		self.other_data = np.zeros((num_turns, const.NON_EMBEDDING_DATA))
+		self.labels = np.zeros((num_turns, const.NUMBER_CLASSES)) 
+
+	@classmethod
+	def load(self, filename):
+		with open(filename, 'rb') as f:
+			pickle.load(f)
+
+	def save(self):
+		with open(PARSED_FOLDER + self.type + '/' + self.name + '.p', 'wb') as f:
+			pickle.dump(self, f)
 
 class PokemonShowdownReplayParser(object):
 	def __init__(self, log="", players={}):
