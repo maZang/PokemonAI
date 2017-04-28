@@ -33,9 +33,9 @@ class PokemonShowdownEncoding(object):
 			pickle.dump(self, f)
 
 class PokemonShowdownReplayParser(object):
-	def __init__(self, log="", players={}):
+	def __init__(self, log=""):
 		self.log = log
-		self.players = players
+		self.players = {}
 		self.players["p1"] = Player("p1")
 		self.players["p2"] = Player("p2")
 		self.turnNumber = 0
