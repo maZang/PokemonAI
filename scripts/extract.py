@@ -17,9 +17,15 @@ with open(DATAFILE, 'r') as datafile:
 
 for tier in data:
 	for poke in data[tier]:
-		pokemon.add(poke)
 		for set in data[tier][poke]['sets']:
+			if 'species' in set:
+				pokemon.add(set['species'])
 			if 'item' in set:
+				if 'ite' in set['item'][-3:] and set['item'] != 'Eviolite':
+					pokemon.add(set['species'] + '-Mega')
+				if 'ite X' in set['item'][-5:] or 'ite Y' in set['item'][-5:]:
+					pokemon.add(set['species'] + '-MegaX')
+					pokemon.add(set['species'] + '-MegaY')
 				items.add(set['item'])
 			if 'moves' in set:
 				for move in set['moves']:
