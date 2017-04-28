@@ -1,11 +1,36 @@
 import re
 import json
 from pprint import pprint
+import numpy as np
+import const
+import pickle
 
-DATAFOLDER = '../../data/replays/'
 BATTLEFILE = 'battlefactory-566090815.txt'
+DATAFOLDER = 'data/replays/'
+PARSED_FOLDER = 'data/parsed_replays/'
+FACTORYSETS = 'data/factory-sets.json'
 
-FACTORYSETS = '../../data/factory-sets.json'
+
+class PokemonShowdownEncoding(object):
+
+	def __init__(self, name, num_turns, type):
+		'''
+		type is either test,train,or val
+		'''
+		self.name = name
+		self.type = type
+		self.pokemon = [np.zeros((num_turns, const.POKE_DESCRIPTOR_SIZE)) for _ in range(12)]
+		self.other_data = np.zeros((num_turns, const.NON_EMBEDDING_DATA))
+		self.labels = np.zeros((num_turns, const.NUMBER_CLASSES))
+
+	@classmethod
+	def load(self, filename):
+		with open(filename, 'rb') as f:
+			pickle.load(f)
+
+	def save(self):
+		with open(PARSED_FOLDER + self.type + '/' + self.name + '.p', 'wb') as f:
+			pickle.dump(self, f)
 
 class PokemonShowdownReplayParser(object):
 	def __init__(self, log="", players={}):
@@ -13,6 +38,8 @@ class PokemonShowdownReplayParser(object):
 		self.players = players
 		self.players["p1"] = Player("p1")
 		self.players["p2"] = Player("p2")
+		self.turnNumber = 0
+		self.turnList = {0: []}
 
 	def run(self):
 		self.parse()
@@ -24,7 +51,8 @@ class PokemonShowdownReplayParser(object):
 		output = ""
 		output += self.players["p1"].getTeamFormatString()
 		output += self.players["p2"].getTeamFormatString()
-
+		for item in self.turnList.iteritems():
+			print(item)
 		return output
 
 	def parse(self):
@@ -248,10 +276,9 @@ class PokemonShowdownReplayParser(object):
 
 		assert(len(fields) >= 2)
 
-		turnNumber = fields[2]
-
-		# TODO: Process previous lines and consolidate them as a turn object with turnNumber
-
+		# New turn, create a new turn list
+		self.turnNumber = int(fields[-1])
+		self.turnList[self.turnNumber] = []
 
 	def processSwitch(self, line):
 		matches = re.search("\|switch\|(p[12])a:\s+([^|]+)\|([^|]+)", line).groups()
@@ -270,6 +297,9 @@ class PokemonShowdownReplayParser(object):
 			pokemon.nickname = nickname
 		self.players[player].currentPokemon = pokemon
 
+		# Append to turn object list
+		turn = Turn(turnNumber=self.turnNumber, player=player, action="switch", pokemon=pokemon)
+		self.turnList[self.turnNumber].append(turn)
 
 	def processMove(self, line):
 		matches = re.search("\|move\|(p[12])a:\s+([^|]+)\|([^|]+)", line).groups()
@@ -281,6 +311,9 @@ class PokemonShowdownReplayParser(object):
 		pokemon.moves.add(move)
 		assert(len(pokemon.moves) <= 4)
 
+		# Append to turn object list
+		turn = Turn(turnNumber=self.turnNumber, player=player, action=move, pokemon=pokemon)
+		self.turnList[self.turnNumber].append(turn)
 
 	def processAbility(self, line):
 		matches = re.search("\|-ability\|(p[12])a:\s+([^|]+)\|([^|]+)", line).groups()
@@ -302,6 +335,9 @@ class PokemonShowdownReplayParser(object):
 		pokemon = self.players[player].getPokemonByNickname(nickname)
 		pokemon.item = megastone
 
+		# Append to turn object list
+		turn = Turn(turnNumber=self.turnNumber, player=player, action="mega", pokemon=pokemon)
+		self.turnList[self.turnNumber].append(turn)
 
 	def processDetailsChange(self, line):
 		matches = re.search("\|detailschange\|(p[12])a:\s+([^|]+)\|([^\n]+)", line).groups()
@@ -408,6 +444,9 @@ class Pokemon(object):
 		self.ability = ability
 		self.moves = set()
 
+	def __repr__(self):
+		return "(Pokemon: (species={}, nickname={}, item={}, ability={}))".format(self.species, self.nickname, self.item, self.ability)
+
 	def getTeamFormatString(self):
 		s = ""
 		s += self.species + " @ " + self.item +"\n"
@@ -416,18 +455,27 @@ class Pokemon(object):
 			s += "- " + move + "\n"
 		return s
 
+
 class Turn(object):
-	def __init__(self, action1="", action2=""):
-		self.action1 = action1
-		self.action2 = action2
+	def __init__(self, turnNumber=None, player=None, action=None, pokemon=None, state=None):
+		self.turnNumber = turnNumber
+		self.player = player
+		self.action = action
+		self.pokemon = pokemon
+		self.state = state
+
+	def __repr__(self):
+		return "(Turn {}: (player={}, action={}, pokemon={}, state={})".format(self.turnNumber, self.player, self.action, self.pokemon, self.state)
+
 
 class FieldState(object):
-	def __init__(self, p1Pokemon, p2Pokemon, weather="none"):
+	def __init__(self, p1Pokemon, p2Pokemon, weather=None):
 		self.p1Pokemon = p1Pokemon
 		self.p2Pokemon = p2Pokemon
 		self.p1EntryHazards = []
 		self.p2EntryHazards = []
 		self.weather = weather
+
 
 def encode(network_config, replay_file):
 	pass
