@@ -206,7 +206,8 @@ class PokemonShowdownReplayParser(object):
 				print("Set species: " + setSpecies)
 				pass
 
-			if pokemon.item != None and pokemon.item != setItem:
+			# This means the held item is different from the set item.
+			if pokemon.item != None and pokemon.item != "" and pokemon.item != setItem:
 				print("Pokemon item: " + pokemon.item)
 				print("Set item: " + setItem)
 				pass
