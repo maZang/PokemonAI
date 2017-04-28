@@ -1,0 +1,249 @@
+|j|Dark knight99
+|j|Mishiimono)⊙﹏⊙✿(
+|player|p1|Dark knight99|153
+|player|p2|Mishiimono)⊙﹏⊙✿(|128
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|33336,46716,56814,28120,30313,6055,58985,44272,35302,4446,41096,7915
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Forretress, M|item
+|poke|p1|Gardevoir, M|item
+|poke|p1|Cloyster, M|item
+|poke|p1|Metagross|item
+|poke|p1|Mienshao, M|item
+|poke|p1|Houndoom, M|item
+|poke|p2|Heliolisk, M|item
+|poke|p2|Toxicroak, M|item
+|poke|p2|Zoroark, M|item
+|poke|p2|Aggron, M|item
+|poke|p2|Crobat, M|item
+|poke|p2|Rotom-Heat|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 5, team 2, team 3, team 4, team 1, team 6|team 6, team 2, team 3, team 4, team 5, team 1
+|
+|start
+|switch|p1a: Mienshao|Mienshao, M|100/100
+|switch|p2a: Rotom|Rotom-Heat|100/100
+|turn|1
+|choice|move uturn|move overheat
+|
+|move|p1a: Mienshao|U-turn|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|85/100
+|j|GWShark101
+|choice|switch 6|
+|
+|switch|p1a: Houndoom|Houndoom, M|100/100
+|move|p2a: Rotom|Overheat|p1a: Houndoom
+|-start|p1a: Houndoom|ability: Flash Fire
+|
+|upkeep
+|turn|2
+|l|GWShark101
+|choice|move fireblast mega|switch 5
+|
+|switch|p2a: Crobat|Crobat, M|100/100
+|detailschange|p1a: Houndoom|Houndoom-Mega, M
+|-mega|p1a: Houndoom|Houndoom|Houndoominite
+|-end|p1a: Houndoom|ability: Flash Fire|[silent]
+|move|p1a: Houndoom|Fire Blast|p2a: Crobat
+|-damage|p2a: Crobat|35/100
+|
+|-heal|p2a: Crobat|42/100|[from] item: Black Sludge
+|upkeep
+|turn|3
+|choice|move darkpulse|move bravebird
+|
+|move|p2a: Crobat|Brave Bird|p1a: Houndoom
+|-crit|p1a: Houndoom
+|-damage|p1a: Houndoom|24/100
+|-damage|p2a: Crobat|22/100|[from] recoil|[of] p1a: Houndoom
+|move|p1a: Houndoom|Dark Pulse|p2a: Crobat
+|-damage|p2a: Crobat|0 fnt
+|faint|p2a: Crobat
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Toxicroak|Toxicroak, M|100/100
+|turn|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Mishiimono)⊙﹏⊙✿()
+|choice|switch 5|move suckerpunch
+|
+|switch|p1a: Forretress|Forretress, M|100/100
+|move|p2a: Toxicroak|Sucker Punch|p1a: Forretress|[still]
+|-fail|p2a: Toxicroak
+|
+|upkeep
+|turn|5
+|choice|move gyroball|move swordsdance
+|
+|move|p2a: Toxicroak|Swords Dance|p2a: Toxicroak
+|-boost|p2a: Toxicroak|atk|2
+|move|p1a: Forretress|Gyro Ball|p2a: Toxicroak
+|-damage|p2a: Toxicroak|56/100
+|
+|upkeep
+|turn|6
+|choice|move gyroball|move drainpunch
+|
+|move|p2a: Toxicroak|Drain Punch|p1a: Forretress
+|-damage|p1a: Forretress|50/100
+|-heal|p2a: Toxicroak|85/100|[from] drain|[of] p1a: Forretress
+|-damage|p2a: Toxicroak|75/100|[from] item: Life Orb
+|move|p1a: Forretress|Gyro Ball|p2a: Toxicroak
+|-damage|p2a: Toxicroak|28/100
+|
+|-heal|p1a: Forretress|57/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|choice|move gyroball|switch 5
+|
+|switch|p2a: Rotom|Rotom-Heat|85/100
+|move|p1a: Forretress|Gyro Ball|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|75/100
+|
+|-heal|p1a: Forretress|63/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|choice|move spikes|move voltswitch
+|
+|move|p2a: Rotom|Volt Switch|p1a: Forretress
+|-damage|p1a: Forretress|0 fnt
+|faint|p1a: Forretress
+|choice||switch 5
+|
+|switch|p2a: Toxicroak|Toxicroak, M|28/100
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Metagross|Metagross|100/100
+|turn|9
+|choice|move bulletpunch|move suckerpunch
+|
+|move|p2a: Toxicroak|Sucker Punch|p1a: Metagross
+|-supereffective|p1a: Metagross
+|-damage|p1a: Metagross|45/100
+|-damage|p2a: Toxicroak|18/100|[from] item: Life Orb
+|move|p1a: Metagross|Bullet Punch|p2a: Toxicroak
+|-damage|p2a: Toxicroak|0 fnt
+|faint|p2a: Toxicroak
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Heliolisk|Heliolisk, M|100/100
+|turn|10
+|choice|move bulletpunch|move suckerpunch
+|
+|move|p2a: Heliolisk|Sucker Punch|p1a: Metagross
+|-supereffective|p1a: Metagross
+|-damage|p1a: Metagross|0 fnt
+|-damage|p2a: Heliolisk|91/100|[from] item: Life Orb
+|faint|p1a: Metagross
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Mienshao|Mienshao, M|100/100
+|turn|11
+|choice|move highjumpkick|move flamethrower
+|
+|move|p1a: Mienshao|High Jump Kick|p2a: Heliolisk
+|-supereffective|p2a: Heliolisk
+|replace|p2a: Zoroark|Zoroark, M
+|-end|p2a: Zoroark|Illusion
+|-damage|p2a: Zoroark|0 fnt
+|faint|p2a: Zoroark
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Aggron|Aggron, M|100/100
+|turn|12
+|choice|switch 5|move stealthrock mega
+|
+|switch|p1a: Houndoom|Houndoom-Mega, M|24/100
+|detailschange|p2a: Aggron|Aggron-Mega, M
+|-mega|p2a: Aggron|Aggron|Aggronite
+|move|p2a: Aggron|Stealth Rock|p1a: Houndoom
+|-sidestart|p1: Dark knight99|move: Stealth Rock
+|
+|upkeep
+|turn|13
+|choice|move fireblast|move earthquake
+|
+|move|p1a: Houndoom|Fire Blast|p2a: Aggron
+|-supereffective|p2a: Aggron
+|-damage|p2a: Aggron|14/100
+|move|p2a: Aggron|Earthquake|p1a: Houndoom
+|-supereffective|p1a: Houndoom
+|-damage|p1a: Houndoom|0 fnt
+|faint|p1a: Houndoom
+|
+|upkeep
+|c|☆Mishiimono)⊙﹏⊙✿(|TANKED
+|c|☆Mishiimono)⊙﹏⊙✿(|we in this
+|c|☆Mishiimono)⊙﹏⊙✿(|prolly not but w/e
+|c|☆Mishiimono)⊙﹏⊙✿(|i got a shit team
+|c|☆Mishiimono)⊙﹏⊙✿(|that just lost to houndoom
+|c|☆Mishiimono)⊙﹏⊙✿(|and mienshao
+|choice|switch 5|
+|
+|switch|p1a: Mienshao|Mienshao, M|100/100
+|-damage|p1a: Mienshao|95/100|[from] Stealth Rock
+|turn|14
+|c|☆Dark knight99|i can still miss
+|c|☆Dark knight99|hope i dont
+|c|☆Mishiimono)⊙﹏⊙✿(|hope u u do
+|choice|move highjumpkick|move heavyslam
+|
+|move|p1a: Mienshao|High Jump Kick|p2a: Aggron
+|-supereffective|p2a: Aggron
+|-damage|p2a: Aggron|0 fnt
+|faint|p2a: Aggron
+|
+|upkeep
+|c|☆Mishiimono)⊙﹏⊙✿(|dude
+|c|☆Mishiimono)⊙﹏⊙✿(|i got haxed out of a tour earlier
+|c|☆Mishiimono)⊙﹏⊙✿(|i need the points to qual for a tour
+|c|☆Mishiimono)⊙﹏⊙✿(|toss me the win y/n/y/n
+|choice||switch 6
+|
+|switch|p2a: Heliolisk|Heliolisk, M|100/100
+|turn|15
+|c|☆Mishiimono)⊙﹏⊙✿(|shoot
+|c|☆Mishiimono)⊙﹏⊙✿(|if i suckered earlier
+|c|☆Mishiimono)⊙﹏⊙✿(|id have chip on this
+|c|☆Mishiimono)⊙﹏⊙✿(|and itd be in tbolt range
+|c|☆Mishiimono)⊙﹏⊙✿(|nuts
+|choice|move highjumpkick|move thunderbolt
+|
+|move|p1a: Mienshao|High Jump Kick|p2a: Heliolisk
+|-supereffective|p2a: Heliolisk
+|-damage|p2a: Heliolisk|0 fnt
+|faint|p2a: Heliolisk
+|
+|upkeep
+|c|☆Mishiimono)⊙﹏⊙✿(|oh sacrf
+|c|☆Mishiimono)⊙﹏⊙✿(|gay
+|choice||switch 5
+|
+|switch|p2a: Rotom|Rotom-Heat|75/100
+|turn|16
+|choice|move highjumpkick|move voltswitch
+|
+|move|p1a: Mienshao|High Jump Kick|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|win|Dark knight99
+|c|☆Mishiimono)⊙﹏⊙✿(|bg fuckign cunt
+|c|☆Mishiimono)⊙﹏⊙✿(|why do you gusy never respond
+|l|Mishiimono)⊙﹏⊙✿(

@@ -1,0 +1,275 @@
+|j|PokemonIsBorring
+|j|Rellanik
+|player|p1|PokemonIsBorring|124
+|player|p2|Rellanik|58
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|36410,56151,15112,28305,5428,48535,5908,5938,25695,55911,29560,24376
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Manectric, M|item
+|poke|p1|Abomasnow, M|item
+|poke|p1|Torterra, M|item
+|poke|p1|Golurk|item
+|poke|p1|Omastar, M|item
+|poke|p1|Haunter, M|item
+|poke|p2|Tauros, M|item
+|poke|p2|Malamar, M|item
+|poke|p2|Electivire, M|item
+|poke|p2|Garbodor, M|item
+|poke|p2|Rhydon, M|item
+|poke|p2|Mawile, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 6, team 2, team 3, team 4, team 5, team 1|team 5, team 2, team 3, team 4, team 1, team 6
+|
+|start
+|switch|p1a: Haunter|Haunter, M|100/100
+|switch|p2a: Rhydon|Rhydon, M|100/100
+|turn|1
+|choice|move willowisp|move rockblast
+|
+|move|p1a: Haunter|Will-O-Wisp|p2a: Rhydon|[miss]
+|-miss|p1a: Haunter|p2a: Rhydon
+|move|p2a: Rhydon|Rock Blast|p1a: Haunter
+|-damage|p1a: Haunter|64/100
+|-damage|p1a: Haunter|31/100
+|-hitcount|p1a: Haunter|2
+|
+|upkeep
+|turn|2
+|choice|switch 3|move rockblast
+|
+|switch|p1a: Torterra|Torterra, M|100/100
+|move|p2a: Rhydon|Rock Blast|p1a: Torterra
+|-resisted|p1a: Torterra
+|-damage|p1a: Torterra|96/100
+|-resisted|p1a: Torterra
+|-damage|p1a: Torterra|92/100
+|-resisted|p1a: Torterra
+|-crit|p1a: Torterra
+|-damage|p1a: Torterra|85/100
+|-hitcount|p1a: Torterra|3
+|
+|-heal|p1a: Torterra|91/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|choice|move stealthrock|move earthquake
+|
+|move|p1a: Torterra|Stealth Rock|p2a: Rhydon
+|-sidestart|p2: Rellanik|move: Stealth Rock
+|move|p2a: Rhydon|Earthquake|p1a: Torterra
+|-resisted|p1a: Torterra
+|-damage|p1a: Torterra|72/100
+|
+|-heal|p1a: Torterra|78/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|choice|move woodhammer|move megahorn
+|
+|move|p1a: Torterra|Wood Hammer|p2a: Rhydon
+|-supereffective|p2a: Rhydon
+|-damage|p2a: Rhydon|0 fnt
+|-damage|p1a: Torterra|43/100|[from] recoil|[of] p2a: Rhydon
+|faint|p2a: Rhydon
+|
+|-heal|p1a: Torterra|49/100|[from] item: Leftovers
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Tauros|Tauros, M|100/100
+|-damage|p2a: Tauros|88/100|[from] Stealth Rock
+|turn|5
+|choice|move earthquake|move rockclimb
+|
+|move|p2a: Tauros|Rock Climb|p1a: Torterra
+|-damage|p1a: Torterra|0 fnt
+|faint|p1a: Torterra
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Haunter|Haunter, M|31/100
+|turn|6
+|choice|move willowisp|move rockclimb
+|
+|move|p2a: Tauros|Rock Climb|p1a: Haunter
+|-immune|p1a: Haunter|[msg]
+|move|p1a: Haunter|Will-O-Wisp|p2a: Tauros
+|-status|p2a: Tauros|brn
+|
+|-damage|p2a: Tauros|76/100 brn|[from] brn
+|upkeep
+|turn|7
+|choice|move taunt|move zenheadbutt
+|
+|move|p2a: Tauros|Zen Headbutt|p1a: Haunter|[miss]
+|-miss|p2a: Tauros|p1a: Haunter
+|move|p1a: Haunter|Taunt|p2a: Tauros
+|-start|p2a: Tauros|move: Taunt
+|
+|-damage|p2a: Tauros|63/100 brn|[from] brn
+|upkeep
+|turn|8
+|choice|switch 4|move zenheadbutt
+|
+|switch|p1a: Golurk|Golurk|100/100
+|move|p2a: Tauros|Zen Headbutt|p1a: Golurk
+|-damage|p1a: Golurk|75/100
+|
+|-damage|p2a: Tauros|51/100 brn|[from] brn
+|upkeep
+|turn|9
+|choice|move rockpolish|move rockclimb
+|
+|move|p2a: Tauros|Rock Climb|p1a: Golurk
+|-immune|p1a: Golurk|[msg]
+|move|p1a: Golurk|Rock Polish|p1a: Golurk
+|-boost|p1a: Golurk|spe|2
+|
+|-damage|p2a: Tauros|39/100 brn|[from] brn
+|upkeep
+|turn|10
+|choice|move rockpolish|move fireblast
+|
+|move|p1a: Golurk|Rock Polish|p1a: Golurk
+|-boost|p1a: Golurk|spe|2
+|move|p2a: Tauros|Fire Blast|p1a: Golurk
+|-damage|p1a: Golurk|45/100
+|
+|-damage|p2a: Tauros|26/100 brn|[from] brn
+|-end|p2a: Tauros|move: Taunt
+|upkeep
+|turn|11
+|l|Rellanik
+|player|p2|
+|j|Rellanik
+|player|p2|Rellanik|58
+|choice|move rockpolish|move fireblast
+|
+|move|p1a: Golurk|Rock Polish|p1a: Golurk
+|-boost|p1a: Golurk|spe|2
+|move|p2a: Tauros|Fire Blast|p1a: Golurk
+|-damage|p1a: Golurk|20/100
+|
+|-damage|p2a: Tauros|14/100 brn|[from] brn
+|upkeep
+|turn|12
+|choice|move earthquake|move zenheadbutt
+|
+|move|p1a: Golurk|Earthquake|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|-damage|p1a: Golurk|10/100|[from] item: Life Orb
+|faint|p2a: Tauros
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Electivire|Electivire, M|100/100
+|-damage|p2a: Electivire|88/100|[from] Stealth Rock
+|turn|13
+|choice|move earthquake|move icepunch
+|
+|move|p1a: Golurk|Earthquake|p2a: Electivire
+|-supereffective|p2a: Electivire
+|-damage|p2a: Electivire|0 fnt
+|-damage|p1a: Golurk|0 fnt|[from] item: Life Orb
+|faint|p2a: Electivire
+|faint|p1a: Golurk
+|
+|upkeep
+|choice|switch 4|switch 6
+|
+|switch|p1a: Haunter|Haunter, M|31/100
+|switch|p2a: Mawile|Mawile, M|100/100
+|-damage|p2a: Mawile|94/100|[from] Stealth Rock
+|turn|14
+|choice|move willowisp|move ironhead
+|
+|move|p1a: Haunter|Will-O-Wisp|p2a: Mawile
+|-status|p2a: Mawile|brn
+|move|p2a: Mawile|Iron Head|p1a: Haunter
+|-damage|p1a: Haunter|0 fnt
+|faint|p1a: Haunter
+|
+|-damage|p2a: Mawile|82/100 brn|[from] brn
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Manectric|Manectric, M|100/100
+|turn|15
+|choice|move thunderbolt|move playrough
+|
+|move|p1a: Manectric|Thunderbolt|p2a: Mawile
+|-damage|p2a: Mawile|0 fnt
+|-damage|p1a: Manectric|91/100|[from] item: Life Orb
+|faint|p2a: Mawile
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Garbodor|Garbodor, M|100/100
+|-damage|p2a: Garbodor|88/100|[from] Stealth Rock
+|turn|16
+|choice|move thunderbolt|move drainpunch
+|
+|move|p1a: Manectric|Thunderbolt|p2a: Garbodor
+|-damage|p2a: Garbodor|19/100
+|-damage|p1a: Manectric|81/100|[from] item: Life Orb
+|move|p2a: Garbodor|Drain Punch|p1a: Manectric
+|-damage|p1a: Manectric|35/100
+|-heal|p2a: Garbodor|41/100|[from] drain|[of] p1a: Manectric
+|
+|upkeep
+|turn|17
+|choice|move thunderbolt|move gunkshot
+|
+|move|p1a: Manectric|Thunderbolt|p2a: Garbodor
+|-damage|p2a: Garbodor|0 fnt
+|-damage|p1a: Manectric|25/100|[from] item: Life Orb
+|faint|p2a: Garbodor
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Malamar|Malamar, M|100/100
+|-damage|p2a: Malamar|88/100|[from] Stealth Rock
+|turn|18
+|choice|move overheat|move knockoff
+|
+|move|p1a: Manectric|Overheat|p2a: Malamar
+|-damage|p2a: Malamar|48/100
+|-unboost|p1a: Manectric|spa|2
+|-damage|p1a: Manectric|15/100|[from] item: Life Orb
+|move|p2a: Malamar|Knock Off|p1a: Manectric
+|-damage|p1a: Manectric|0 fnt
+|-enditem|p1a: Manectric|Life Orb|[from] move: Knock Off|[of] p2a: Malamar
+|faint|p1a: Manectric
+|
+|-heal|p2a: Malamar|54/100|[from] item: Leftovers
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Abomasnow|Abomasnow, M|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Abomasnow
+|turn|19
+|choice|move blizzard|move superpower
+|
+|move|p1a: Abomasnow|Blizzard|p2a: Malamar
+|-damage|p2a: Malamar|4/100
+|-damage|p1a: Abomasnow|91/100|[from] item: Life Orb
+|move|p2a: Malamar|Superpower|p1a: Abomasnow
+|-supereffective|p1a: Abomasnow
+|-damage|p1a: Abomasnow|10/100
+|-boost|p2a: Malamar|atk|1
+|-boost|p2a: Malamar|def|1
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Malamar|0 fnt|[from] hail
+|upkeep
+|faint|p2a: Malamar
+|
+|win|PokemonIsBorring
+|l|Rellanik

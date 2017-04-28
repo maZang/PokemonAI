@@ -24,12 +24,15 @@ class ReplayDataIter(object):
 		self.validation = np.array(sets[1])
 		self.testing = np.array(sets[2])
 
+	def number_batches(self, batch_size):
+		return math.ceil(self.training.shape[0] / batch_size)
+
 	def sample(self, batch_size):
 		'''
 		Generator that passes in data until complete
 		'''
 		trainData = np.random.permutation(self.training)
-		numBatches = math.ceil(trainData.shape[0] / batch_size)
+		numBatches = self.number_batches(batch_size)
 		currBatch = 0
 		while currBatch < numBatches:
 			yield trainData[currBatch * batch_size : (currBatch + 1) * batch_size, :]

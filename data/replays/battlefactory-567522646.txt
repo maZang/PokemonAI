@@ -1,0 +1,208 @@
+|j|Rellanik
+|j|PokemonIsBorring
+|player|p1|Rellanik|58
+|player|p2|PokemonIsBorring|124
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|45235,10399,1871,7024,28614,16770,40858,31048,21441,15584,6767,28604
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Malamar, M|item
+|poke|p1|Mawile, M|item
+|poke|p1|Primeape, M|item
+|poke|p1|Mantine, M|item
+|poke|p1|Samurott, M|item
+|poke|p1|Lanturn, M|item
+|poke|p2|Musharna, M|item
+|poke|p2|Garbodor, M|item
+|poke|p2|Cryogonal|item
+|poke|p2|Miltank, F|item
+|poke|p2|Klinklang|item
+|poke|p2|Aurorus, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 2, team 1, team 3, team 4, team 5, team 6|team 1, team 2, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Mawile|Mawile, M|100/100
+|switch|p2a: Musharna|Musharna, M|100/100
+|turn|1
+|choice|move playrough|switch 2
+|
+|switch|p2a: Garbodor|Garbodor, M|100/100
+|move|p1a: Mawile|Play Rough|p2a: Garbodor
+|-resisted|p2a: Garbodor
+|-damage|p2a: Garbodor|55/100
+|-damage|p1a: Mawile|84/100|[from] item: Rocky Helmet|[of] p2a: Garbodor
+|
+|upkeep
+|turn|2
+|choice|move ironhead|move drainpunch
+|
+|move|p2a: Garbodor|Drain Punch|p1a: Mawile
+|-damage|p1a: Mawile|45/100
+|-heal|p2a: Garbodor|71/100|[from] drain|[of] p1a: Mawile
+|move|p1a: Mawile|Iron Head|p2a: Garbodor
+|-damage|p2a: Garbodor|0 fnt
+|-damage|p1a: Mawile|20/100|[from] ability: Aftermath|[of] p2a: Garbodor
+|-damage|p1a: Mawile|3/100|[from] item: Rocky Helmet|[of] p2a: Garbodor
+|faint|p2a: Garbodor
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Klinklang|Klinklang|100/100
+|turn|3
+|choice|move playrough|move shiftgear
+|
+|move|p2a: Klinklang|Shift Gear|p2a: Klinklang
+|-boost|p2a: Klinklang|spe|2
+|-boost|p2a: Klinklang|atk|1
+|move|p1a: Mawile|Play Rough|p2a: Klinklang|[miss]
+|-miss|p1a: Mawile|p2a: Klinklang
+|
+|upkeep
+|turn|4
+|choice|move playrough|move shiftgear
+|
+|move|p2a: Klinklang|Shift Gear|p2a: Klinklang
+|-boost|p2a: Klinklang|spe|2
+|-boost|p2a: Klinklang|atk|1
+|move|p1a: Mawile|Play Rough|p2a: Klinklang
+|-resisted|p2a: Klinklang
+|-damage|p2a: Klinklang|67/100
+|
+|-heal|p2a: Klinklang|73/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|choice|move fireblast|move shiftgear
+|
+|move|p2a: Klinklang|Shift Gear|p2a: Klinklang
+|-boost|p2a: Klinklang|spe|2
+|-boost|p2a: Klinklang|atk|1
+|move|p1a: Mawile|Fire Blast|p2a: Klinklang|[miss]
+|-miss|p1a: Mawile|p2a: Klinklang
+|
+|-heal|p2a: Klinklang|79/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|choice|move playrough|move substitute
+|
+|move|p2a: Klinklang|Substitute|p2a: Klinklang
+|-start|p2a: Klinklang|Substitute
+|-damage|p2a: Klinklang|54/100
+|move|p1a: Mawile|Play Rough|p2a: Klinklang
+|-resisted|p2a: Klinklang
+|-end|p2a: Klinklang|Substitute
+|
+|-heal|p2a: Klinklang|60/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|choice|move playrough|move geargrind
+|
+|move|p2a: Klinklang|Gear Grind|p1a: Mawile
+|-damage|p1a: Mawile|0 fnt
+|-hitcount|p1a: Mawile|1
+|faint|p1a: Mawile
+|
+|-heal|p2a: Klinklang|66/100|[from] item: Leftovers
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Samurott|Samurott, M|100/100
+|turn|8
+|choice|move aquajet|move return
+|
+|move|p1a: Samurott|Aqua Jet|p2a: Klinklang
+|-damage|p2a: Klinklang|48/100
+|-damage|p1a: Samurott|91/100|[from] item: Life Orb
+|move|p2a: Klinklang|Return|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|faint|p1a: Samurott
+|
+|-heal|p2a: Klinklang|54/100|[from] item: Leftovers
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Primeape|Primeape, M|100/100
+|turn|9
+|c|☆PokemonIsBorring|!weakness fighting
+|html|<div class="infobox">Fighting:<br /><span class="message-effect-weak">Weaknesses</span>: Fairy, Flying, Psychic<br /><span class="message-effect-resist">Resistances</span>: Bug, Dark, Rock<br /><span class="message-effect-immune">Immunities</span>: <font color=#999999>None</font></div>
+|choice|move closecombat|move geargrind
+|
+|move|p2a: Klinklang|Gear Grind|p1a: Primeape
+|-damage|p1a: Primeape|0 fnt
+|-hitcount|p1a: Primeape|1
+|faint|p1a: Primeape
+|
+|-heal|p2a: Klinklang|60/100|[from] item: Leftovers
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Mantine|Mantine, M|100/100
+|turn|10
+|choice|move airslash|move geargrind
+|
+|move|p2a: Klinklang|Gear Grind|p1a: Mantine
+|-resisted|p1a: Mantine
+|-damage|p1a: Mantine|72/100
+|-resisted|p1a: Mantine
+|-damage|p1a: Mantine|40/100
+|-hitcount|p1a: Mantine|2
+|move|p1a: Mantine|Air Slash|p2a: Klinklang
+|-resisted|p2a: Klinklang
+|-crit|p2a: Klinklang
+|-damage|p2a: Klinklang|40/100
+|
+|-heal|p2a: Klinklang|46/100|[from] item: Leftovers
+|-heal|p1a: Mantine|46/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|choice|move scald|move substitute
+|
+|move|p2a: Klinklang|Substitute|p2a: Klinklang
+|-start|p2a: Klinklang|Substitute
+|-damage|p2a: Klinklang|21/100
+|move|p1a: Mantine|Scald|p2a: Klinklang
+|-crit|p2a: Klinklang
+|-end|p2a: Klinklang|Substitute
+|
+|-heal|p2a: Klinklang|27/100|[from] item: Leftovers
+|-heal|p1a: Mantine|52/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|choice|move scald|move return
+|
+|move|p2a: Klinklang|Return|p1a: Mantine
+|-damage|p1a: Mantine|0 fnt
+|faint|p1a: Mantine
+|
+|-heal|p2a: Klinklang|33/100|[from] item: Leftovers
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Lanturn|Lanturn, M|100/100
+|turn|13
+|choice|move hydropump|move return
+|
+|move|p2a: Klinklang|Return|p1a: Lanturn
+|-damage|p1a: Lanturn|0 fnt
+|faint|p1a: Lanturn
+|
+|-heal|p2a: Klinklang|39/100|[from] item: Leftovers
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Malamar|Malamar, M|100/100
+|turn|14
+|choice|move knockoff|move geargrind
+|
+|move|p2a: Klinklang|Gear Grind|p1a: Malamar
+|-crit|p1a: Malamar
+|-damage|p1a: Malamar|0 fnt
+|-hitcount|p1a: Malamar|1
+|faint|p1a: Malamar
+|
+|win|PokemonIsBorring

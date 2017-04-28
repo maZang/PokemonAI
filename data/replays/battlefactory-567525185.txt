@@ -1,0 +1,260 @@
+|j|Rellanik
+|j|PokemonIsBorring
+|player|p1|Rellanik|58
+|player|p2|PokemonIsBorring|124
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|31612,6002,53597,832,14878,8411,54135,60299,58768,58434,20132,9819
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Exeggutor, M|item
+|poke|p1|Mantine, M|item
+|poke|p1|Mismagius, M|item
+|poke|p1|Clefairy, M|item
+|poke|p1|Regirock|item
+|poke|p1|Electivire, M|item
+|poke|p2|Chatot, M|item
+|poke|p2|Malamar, M|item
+|poke|p2|Pelipper, M|item
+|poke|p2|Cacturne, M|item
+|poke|p2|Kabutops, M|item
+|poke|p2|Piloswine, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 3, team 2, team 1, team 4, team 5, team 6|team 1, team 2, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Mismagius|Mismagius, M|100/100
+|switch|p2a: Chatot|Chatot, M|100/100
+|turn|1
+|choice|move shadowball|move chatter
+|
+|move|p1a: Mismagius|Shadow Ball|p2a: Chatot
+|-immune|p2a: Chatot|[msg]
+|move|p2a: Chatot|Chatter|p1a: Mismagius
+|-damage|p1a: Mismagius|55/100
+|-start|p1a: Mismagius|confusion
+|
+|upkeep
+|turn|2
+|choice|move dazzlinggleam|switch 5
+|
+|switch|p2a: Kabutops|Kabutops, M|100/100
+|-activate|p1a: Mismagius|confusion
+|-damage|p1a: Mismagius|41/100|[from] confusion
+|
+|upkeep
+|turn|3
+|choice|move shadowball|move swordsdance
+|
+|-activate|p1a: Mismagius|confusion
+|move|p1a: Mismagius|Shadow Ball|p2a: Kabutops
+|-damage|p2a: Kabutops|24/100
+|-damage|p1a: Mismagius|31/100|[from] item: Life Orb
+|move|p2a: Kabutops|Swords Dance|p2a: Kabutops
+|-boost|p2a: Kabutops|atk|2
+|
+|upkeep
+|turn|4
+|choice|move shadowball|move aquajet
+|
+|move|p2a: Kabutops|Aqua Jet|p1a: Mismagius
+|-damage|p1a: Mismagius|0 fnt
+|-damage|p2a: Kabutops|14/100|[from] item: Life Orb
+|faint|p1a: Mismagius
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Regirock|Regirock|100/100
+|turn|5
+|c|☆PokemonIsBorring|!weakness rock
+|html|<div class="infobox">Rock:<br /><span class="message-effect-weak">Weaknesses</span>: Fighting, Grass, Ground, Steel, Water<br /><span class="message-effect-resist">Resistances</span>: Fire, Flying, Normal, Poison<br /><span class="message-effect-immune">Immunities</span>: <font color=#999999>None</font></div>
+|choice|move stealthrock|move stoneedge
+|
+|move|p2a: Kabutops|Stone Edge|p1a: Regirock
+|-damage|p1a: Regirock|43/100
+|-damage|p2a: Kabutops|4/100|[from] item: Life Orb
+|move|p1a: Regirock|Stealth Rock|p2a: Kabutops
+|-sidestart|p2: PokemonIsBorring|move: Stealth Rock
+|
+|-heal|p1a: Regirock|49/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|choice|move drainpunch|move stoneedge
+|
+|move|p2a: Kabutops|Stone Edge|p1a: Regirock
+|-damage|p1a: Regirock|0 fnt
+|-damage|p2a: Kabutops|0 fnt|[from] item: Life Orb
+|faint|p1a: Regirock
+|faint|p2a: Kabutops
+|
+|upkeep
+|choice|switch 3|switch 3
+|
+|switch|p1a: Exeggutor|Exeggutor, M|100/100
+|switch|p2a: Pelipper|Pelipper, M|100/100
+|-damage|p2a: Pelipper|75/100|[from] Stealth Rock
+|turn|7
+|choice|move psychic|move defog
+|
+|move|p1a: Exeggutor|Psychic|p2a: Pelipper
+|-damage|p2a: Pelipper|11/100
+|move|p2a: Pelipper|Defog|p1a: Exeggutor
+|-unboost|p1a: Exeggutor|evasion|1
+|-sideend|p2: PokemonIsBorring|Stealth Rock|[from] move: Defog|[of] p2a: Pelipper
+|
+|-heal|p2a: Pelipper|17/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|choice|move gigadrain|switch 4
+|
+|switch|p2a: Cacturne|Cacturne, M|100/100
+|move|p1a: Exeggutor|Giga Drain|p2a: Cacturne
+|-resisted|p2a: Cacturne
+|-damage|p2a: Cacturne|59/100
+|
+|upkeep
+|turn|9
+|choice|move psychic|move suckerpunch
+|
+|move|p2a: Cacturne|Sucker Punch|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-crit|p1a: Exeggutor
+|-damage|p1a: Exeggutor|0 fnt
+|-damage|p2a: Cacturne|49/100|[from] item: Life Orb
+|faint|p1a: Exeggutor
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Electivire|Electivire, M|100/100
+|turn|10
+|choice|move earthquake|switch 6
+|
+|switch|p2a: Piloswine|Piloswine, M|100/100
+|move|p1a: Electivire|Earthquake|p2a: Piloswine
+|-damage|p2a: Piloswine|69/100
+|-damage|p1a: Electivire|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|11
+|choice|move wildcharge|switch 4
+|
+|switch|p2a: Pelipper|Pelipper, M|17/100
+|move|p1a: Electivire|Wild Charge|p2a: Pelipper
+|-supereffective|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|-damage|p1a: Electivire|86/100|[from] recoil|[of] p2a: Pelipper
+|-damage|p1a: Electivire|76/100|[from] item: Life Orb
+|faint|p2a: Pelipper
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Cacturne|Cacturne, M|49/100
+|turn|12
+|choice|move wildcharge|move gigadrain
+|
+|move|p1a: Electivire|Wild Charge|p2a: Cacturne
+|-resisted|p2a: Cacturne
+|-damage|p2a: Cacturne|0 fnt
+|-damage|p1a: Electivire|64/100|[from] recoil|[of] p2a: Cacturne
+|-damage|p1a: Electivire|54/100|[from] item: Life Orb
+|faint|p2a: Cacturne
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Malamar|Malamar, M|100/100
+|turn|13
+|choice|move wildcharge|move superpower
+|
+|move|p2a: Malamar|Superpower|p1a: Electivire
+|-damage|p1a: Electivire|0 fnt
+|-boost|p2a: Malamar|atk|1
+|-boost|p2a: Malamar|def|1
+|faint|p1a: Electivire
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Clefairy|Clefairy, M|100/100
+|turn|14
+|choice|move moonblast|switch 4
+|
+|switch|p2a: Piloswine|Piloswine, M|69/100
+|move|p1a: Clefairy|Moonblast|p2a: Piloswine
+|-damage|p2a: Piloswine|51/100
+|
+|upkeep
+|turn|15
+|choice|move thunderwave|move iciclecrash
+|
+|move|p2a: Piloswine|Icicle Crash|p1a: Clefairy
+|-damage|p1a: Clefairy|53/100
+|cant|p1a: Clefairy|flinch
+|
+|upkeep
+|turn|16
+|choice|move thunderwave|move iciclecrash
+|
+|move|p2a: Piloswine|Icicle Crash|p1a: Clefairy
+|-damage|p1a: Clefairy|3/100
+|move|p1a: Clefairy|Thunder Wave|p2a: Piloswine
+|-immune|p2a: Piloswine|[msg]
+|
+|upkeep
+|turn|17
+|choice|switch 2|move iceshard
+|
+|switch|p1a: Mantine|Mantine, M|100/100
+|move|p2a: Piloswine|Ice Shard|p1a: Mantine
+|-damage|p1a: Mantine|83/100
+|
+|-heal|p1a: Mantine|89/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|choice|move airslash|move iciclecrash
+|
+|move|p1a: Mantine|Air Slash|p2a: Piloswine
+|-damage|p2a: Piloswine|32/100
+|move|p2a: Piloswine|Icicle Crash|p1a: Mantine
+|-damage|p1a: Mantine|50/100
+|
+|-heal|p1a: Mantine|56/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|choice|move scald|move iciclecrash
+|
+|move|p1a: Mantine|Scald|p2a: Piloswine
+|-supereffective|p2a: Piloswine
+|-damage|p2a: Piloswine|0 fnt
+|faint|p2a: Piloswine
+|
+|-heal|p1a: Mantine|62/100|[from] item: Leftovers
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Chatot|Chatot, M|100/100
+|turn|20
+|choice|move scald|move boomburst
+|
+|move|p2a: Chatot|Boomburst|p1a: Mantine
+|-damage|p1a: Mantine|0 fnt
+|faint|p1a: Mantine
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Clefairy|Clefairy, M|3/100
+|turn|21
+|choice|move moonblast|move boomburst
+|
+|move|p2a: Chatot|Boomburst|p1a: Clefairy
+|-damage|p1a: Clefairy|0 fnt
+|faint|p1a: Clefairy
+|
+|win|PokemonIsBorring

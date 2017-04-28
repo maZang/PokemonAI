@@ -1,0 +1,239 @@
+|j|duckarino
+|j|josetbg
+|player|p1|duckarino|266
+|player|p2|josetbg|169
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|16419,60106,36669,24472,40901,39897,20604,35581,18979,58237,479,11840
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Rhydon, M|item
+|poke|p1|Lanturn, M|item
+|poke|p1|Dodrio, M|item
+|poke|p1|Hitmonchan, M|item
+|poke|p1|Vivillon, M|item
+|poke|p1|Vileplume, M|item
+|poke|p2|Claydol|item
+|poke|p2|Prinplup, M|item
+|poke|p2|Golurk|item
+|poke|p2|Sliggoo, M|item
+|poke|p2|Pinsir, M|item
+|poke|p2|Garbodor, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 5, team 2, team 3, team 4, team 1, team 6|team 2, team 1, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Vivillon|Vivillon, M|100/100
+|switch|p2a: Prinplup|Prinplup, M|100/100
+|turn|1
+|choice|move sleeppowder|move stealthrock
+|
+|move|p1a: Vivillon|Sleep Powder|p2a: Prinplup
+|-status|p2a: Prinplup|slp
+|cant|p2a: Prinplup|slp
+|
+|upkeep
+|turn|2
+|choice|move quiverdance|move stealthrock
+|
+|move|p1a: Vivillon|Quiver Dance|p1a: Vivillon
+|-boost|p1a: Vivillon|spa|1
+|-boost|p1a: Vivillon|spd|1
+|-boost|p1a: Vivillon|spe|1
+|cant|p2a: Prinplup|slp
+|
+|upkeep
+|turn|3
+|choice|move quiverdance|move stealthrock
+|
+|move|p1a: Vivillon|Quiver Dance|p1a: Vivillon
+|-boost|p1a: Vivillon|spa|1
+|-boost|p1a: Vivillon|spd|1
+|-boost|p1a: Vivillon|spe|1
+|cant|p2a: Prinplup|slp
+|
+|upkeep
+|turn|4
+|choice|move quiverdance|move stealthrock
+|
+|move|p1a: Vivillon|Quiver Dance|p1a: Vivillon
+|-boost|p1a: Vivillon|spa|1
+|-boost|p1a: Vivillon|spd|1
+|-boost|p1a: Vivillon|spe|1
+|-curestatus|p2a: Prinplup|slp|[msg]
+|move|p2a: Prinplup|Stealth Rock|p1a: Vivillon
+|-sidestart|p1: duckarino|move: Stealth Rock
+|
+|upkeep
+|turn|5
+|choice|move sleeppowder|move toxic
+|
+|move|p1a: Vivillon|Sleep Powder|p2a: Prinplup
+|-status|p2a: Prinplup|slp
+|cant|p2a: Prinplup|slp
+|
+|upkeep
+|turn|6
+|choice|move substitute|move toxic
+|
+|move|p1a: Vivillon|Substitute|p1a: Vivillon
+|-start|p1a: Vivillon|Substitute
+|-damage|p1a: Vivillon|76/100
+|-curestatus|p2a: Prinplup|slp|[msg]
+|move|p2a: Prinplup|Toxic|p1a: Vivillon
+|-fail|p1a: Vivillon
+|
+|-heal|p1a: Vivillon|82/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|choice|move sleeppowder|move scald
+|
+|move|p1a: Vivillon|Sleep Powder|p2a: Prinplup
+|-status|p2a: Prinplup|slp
+|cant|p2a: Prinplup|slp
+|
+|-heal|p1a: Vivillon|88/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|choice|move quiverdance|move scald
+|
+|move|p1a: Vivillon|Quiver Dance|p1a: Vivillon
+|-boost|p1a: Vivillon|spa|1
+|-boost|p1a: Vivillon|spd|1
+|-boost|p1a: Vivillon|spe|1
+|cant|p2a: Prinplup|slp
+|
+|-heal|p1a: Vivillon|94/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|choice|move quiverdance|move scald
+|
+|move|p1a: Vivillon|Quiver Dance|p1a: Vivillon
+|-boost|p1a: Vivillon|spa|1
+|-boost|p1a: Vivillon|spd|1
+|-boost|p1a: Vivillon|spe|1
+|-curestatus|p2a: Prinplup|slp|[msg]
+|move|p2a: Prinplup|Scald|p1a: Vivillon
+|-activate|p1a: Vivillon|move: Substitute|[damage]
+|
+|-heal|p1a: Vivillon|99/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|c|☆duckarino|hurry upo
+|c|☆duckarino|up
+|choice|move quiverdance|move scald
+|
+|move|p1a: Vivillon|Quiver Dance|p1a: Vivillon
+|-boost|p1a: Vivillon|spa|1
+|-boost|p1a: Vivillon|spd|1
+|-boost|p1a: Vivillon|spe|1
+|move|p2a: Prinplup|Scald|p1a: Vivillon
+|-activate|p1a: Vivillon|move: Substitute|[damage]
+|
+|-heal|p1a: Vivillon|100/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|choice|move hurricane|move scald
+|
+|move|p1a: Vivillon|Hurricane|p2a: Prinplup|[miss]
+|-miss|p1a: Vivillon|p2a: Prinplup
+|move|p2a: Prinplup|Scald|p1a: Vivillon
+|-end|p1a: Vivillon|Substitute
+|
+|upkeep
+|turn|12
+|choice|move substitute|move scald
+|
+|move|p1a: Vivillon|Substitute|p1a: Vivillon
+|-start|p1a: Vivillon|Substitute
+|-damage|p1a: Vivillon|76/100
+|move|p2a: Prinplup|Scald|p1a: Vivillon
+|-activate|p1a: Vivillon|move: Substitute|[damage]
+|
+|-heal|p1a: Vivillon|82/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|choice|move hurricane|move scald
+|
+|move|p1a: Vivillon|Hurricane|p2a: Prinplup
+|-crit|p2a: Prinplup
+|-damage|p2a: Prinplup|0 fnt
+|faint|p2a: Prinplup
+|
+|-heal|p1a: Vivillon|88/100|[from] item: Leftovers
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Garbodor|Garbodor, M|100/100
+|turn|14
+|choice|move hurricane|move gunkshot
+|
+|move|p1a: Vivillon|Hurricane|p2a: Garbodor
+|-crit|p2a: Garbodor
+|-damage|p2a: Garbodor|0 fnt
+|faint|p2a: Garbodor
+|
+|-heal|p1a: Vivillon|94/100|[from] item: Leftovers
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Golurk|Golurk|100/100
+|turn|15
+|choice|move hurricane|move icepunch
+|
+|move|p1a: Vivillon|Hurricane|p2a: Golurk
+|-damage|p2a: Golurk|0 fnt
+|faint|p2a: Golurk
+|
+|-heal|p1a: Vivillon|99/100|[from] item: Leftovers
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Sliggoo|Sliggoo, M|100/100
+|turn|16
+|choice|move hurricane|move thunderbolt
+|
+|move|p1a: Vivillon|Hurricane|p2a: Sliggoo
+|-damage|p2a: Sliggoo|0 fnt
+|faint|p2a: Sliggoo
+|
+|-heal|p1a: Vivillon|100/100|[from] item: Leftovers
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Claydol|Claydol|100/100
+|turn|17
+|choice|move hurricane|move psyshock
+|
+|move|p1a: Vivillon|Hurricane|p2a: Claydol
+|-damage|p2a: Claydol|0 fnt
+|faint|p2a: Claydol
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Pinsir|Pinsir, M|100/100
+|-ability|p2a: Pinsir|Mold Breaker
+|turn|18
+|choice|move hurricane|move stoneedge
+|
+|move|p1a: Vivillon|Hurricane|p2a: Pinsir|[miss]
+|-miss|p1a: Vivillon|p2a: Pinsir
+|move|p2a: Pinsir|Stone Edge|p1a: Vivillon
+|-supereffective|p1a: Vivillon
+|-end|p1a: Vivillon|Substitute
+|
+|upkeep
+|turn|19
+|choice|move hurricane|move stoneedge
+|
+|move|p1a: Vivillon|Hurricane|p2a: Pinsir
+|-supereffective|p2a: Pinsir
+|-damage|p2a: Pinsir|0 fnt
+|faint|p2a: Pinsir
+|
+|win|duckarino
+|l|josetbg

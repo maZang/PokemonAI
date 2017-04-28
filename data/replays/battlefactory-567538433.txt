@@ -1,0 +1,412 @@
+|j|Rellanik
+|j|PokemonIsBorring
+|player|p1|Rellanik|58
+|player|p2|PokemonIsBorring|124
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|45029,64160,28927,39951,56640,44461,42450,60462,58886,50542,39374,60760
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Haunter, M|item
+|poke|p1|Hitmonchan, M|item
+|poke|p1|Charizard, M|
+|poke|p1|Magmortar, M|item
+|poke|p1|Omastar, M|item
+|poke|p1|Zangoose, M|item
+|poke|p2|Torterra, M|item
+|poke|p2|Miltank, F|item
+|poke|p2|Pelipper, M|item
+|poke|p2|Mesprit|item
+|poke|p2|Skuntank, M|item
+|poke|p2|Weezing, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 3, team 2, team 1, team 4, team 5, team 6|team 6, team 2, team 3, team 4, team 5, team 1
+|
+|start
+|switch|p1a: Charizard|Charizard, M|100/100
+|switch|p2a: Weezing|Weezing, M|100/100
+|turn|1
+|choice|move willowisp|switch 3
+|
+|switch|p2a: Pelipper|Pelipper, M|100/100
+|move|p1a: Charizard|Will-O-Wisp|p2a: Pelipper
+|-status|p2a: Pelipper|brn
+|
+|-damage|p2a: Pelipper|88/100 brn|[from] brn
+|upkeep
+|turn|2
+|choice|move acrobatics|move scald
+|
+|move|p1a: Charizard|Acrobatics|p2a: Pelipper
+|-damage|p2a: Pelipper|61/100 brn
+|move|p2a: Pelipper|Scald|p1a: Charizard
+|-supereffective|p1a: Charizard
+|-crit|p1a: Charizard
+|-damage|p1a: Charizard|21/100
+|
+|-heal|p2a: Pelipper|67/100 brn|[from] item: Leftovers
+|-damage|p2a: Pelipper|55/100 brn|[from] brn
+|upkeep
+|turn|3
+|choice|move roost|move roost
+|
+|move|p1a: Charizard|Roost|p1a: Charizard
+|-heal|p1a: Charizard|72/100
+|move|p2a: Pelipper|Roost|p2a: Pelipper
+|-heal|p2a: Pelipper|100/100 brn
+|
+|-damage|p2a: Pelipper|88/100 brn|[from] brn
+|upkeep
+|turn|4
+|choice|move roost|move scald
+|
+|move|p1a: Charizard|Roost|p1a: Charizard
+|-heal|p1a: Charizard|100/100
+|move|p2a: Pelipper|Scald|p1a: Charizard
+|-supereffective|p1a: Charizard
+|-damage|p1a: Charizard|46/100
+|
+|-heal|p2a: Pelipper|94/100 brn|[from] item: Leftovers
+|-damage|p2a: Pelipper|82/100 brn|[from] brn
+|upkeep
+|turn|5
+|choice|move roost|move scald
+|
+|move|p1a: Charizard|Roost|p1a: Charizard
+|-heal|p1a: Charizard|97/100
+|move|p2a: Pelipper|Scald|p1a: Charizard
+|-supereffective|p1a: Charizard
+|-damage|p1a: Charizard|48/100
+|
+|-heal|p2a: Pelipper|88/100 brn|[from] item: Leftovers
+|-damage|p2a: Pelipper|76/100 brn|[from] brn
+|upkeep
+|turn|6
+|choice|move roost|move scald
+|
+|move|p1a: Charizard|Roost|p1a: Charizard
+|-heal|p1a: Charizard|98/100
+|move|p2a: Pelipper|Scald|p1a: Charizard
+|-supereffective|p1a: Charizard
+|-damage|p1a: Charizard|46/100
+|
+|-heal|p2a: Pelipper|82/100 brn|[from] item: Leftovers
+|-damage|p2a: Pelipper|70/100 brn|[from] brn
+|upkeep
+|turn|7
+|choice|move swordsdance|move scald
+|
+|move|p1a: Charizard|Swords Dance|p1a: Charizard
+|-boost|p1a: Charizard|atk|2
+|move|p2a: Pelipper|Scald|p1a: Charizard
+|-supereffective|p1a: Charizard
+|-damage|p1a: Charizard|0 fnt
+|faint|p1a: Charizard
+|
+|-heal|p2a: Pelipper|76/100 brn|[from] item: Leftovers
+|-damage|p2a: Pelipper|63/100 brn|[from] brn
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Hitmonchan|Hitmonchan, M|100/100
+|turn|8
+|choice|move drainpunch|move roost
+|
+|move|p1a: Hitmonchan|Drain Punch|p2a: Pelipper
+|-resisted|p2a: Pelipper
+|-damage|p2a: Pelipper|41/100 brn
+|-damage|p1a: Hitmonchan|91/100|[from] item: Life Orb
+|move|p2a: Pelipper|Roost|p2a: Pelipper
+|-heal|p2a: Pelipper|91/100 brn
+|
+|-heal|p2a: Pelipper|97/100 brn|[from] item: Leftovers
+|-damage|p2a: Pelipper|85/100 brn|[from] brn
+|upkeep
+|turn|9
+|choice|move machpunch|switch 3
+|
+|switch|p2a: Weezing|Weezing, M|100/100
+|move|p1a: Hitmonchan|Mach Punch|p2a: Weezing
+|-resisted|p2a: Weezing
+|-damage|p2a: Weezing|89/100
+|-damage|p1a: Hitmonchan|81/100|[from] item: Life Orb
+|
+|-heal|p2a: Weezing|95/100|[from] item: Black Sludge
+|upkeep
+|turn|10
+|choice|move rapidspin|move willowisp
+|
+|move|p1a: Hitmonchan|Rapid Spin|p2a: Weezing
+|-crit|p2a: Weezing
+|-damage|p2a: Weezing|86/100
+|-damage|p1a: Hitmonchan|71/100|[from] item: Life Orb
+|move|p2a: Weezing|Will-O-Wisp|p1a: Hitmonchan
+|-status|p1a: Hitmonchan|brn
+|
+|-heal|p2a: Weezing|92/100|[from] item: Black Sludge
+|-damage|p1a: Hitmonchan|58/100 brn|[from] brn
+|upkeep
+|turn|11
+|choice|switch 4|switch 6
+|
+|switch|p1a: Magmortar|Magmortar, M|100/100
+|switch|p2a: Torterra|Torterra, M|100/100
+|
+|upkeep
+|turn|12
+|choice|move fireblast|switch 3
+|
+|switch|p2a: Pelipper|Pelipper, M|85/100 brn
+|move|p1a: Magmortar|Fire Blast|p2a: Pelipper
+|-resisted|p2a: Pelipper
+|-damage|p2a: Pelipper|25/100 brn
+|-damage|p1a: Magmortar|91/100|[from] item: Life Orb
+|
+|-heal|p2a: Pelipper|32/100 brn|[from] item: Leftovers
+|-damage|p2a: Pelipper|19/100 brn|[from] brn
+|upkeep
+|turn|13
+|choice|move focusblast|move scald
+|
+|move|p1a: Magmortar|Focus Blast|p2a: Pelipper|[miss]
+|-miss|p1a: Magmortar|p2a: Pelipper
+|move|p2a: Pelipper|Scald|p1a: Magmortar
+|-supereffective|p1a: Magmortar
+|-damage|p1a: Magmortar|33/100
+|
+|-heal|p2a: Pelipper|25/100 brn|[from] item: Leftovers
+|-damage|p2a: Pelipper|13/100 brn|[from] brn
+|upkeep
+|turn|14
+|choice|move fireblast|move scald
+|
+|move|p1a: Magmortar|Fire Blast|p2a: Pelipper
+|-resisted|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|-damage|p1a: Magmortar|23/100|[from] item: Life Orb
+|faint|p2a: Pelipper
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Skuntank|Skuntank, M|100/100
+|turn|15
+|choice|move fireblast|move suckerpunch
+|
+|move|p2a: Skuntank|Sucker Punch|p1a: Magmortar
+|-damage|p1a: Magmortar|0 fnt
+|faint|p1a: Magmortar
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Zangoose|Zangoose, M|100/100
+|turn|16
+|choice|move facade|move poisonjab
+|
+|move|p1a: Zangoose|Facade|p2a: Skuntank
+|-damage|p2a: Skuntank|51/100
+|move|p2a: Skuntank|Poison Jab|p1a: Zangoose
+|-damage|p1a: Zangoose|39/100
+|
+|-status|p1a: Zangoose|tox|[from] item: Toxic Orb
+|upkeep
+|turn|17
+|choice|move quickattack|move suckerpunch
+|
+|move|p1a: Zangoose|Quick Attack|p2a: Skuntank
+|-damage|p2a: Skuntank|10/100
+|move|p2a: Skuntank|Sucker Punch|p1a: Zangoose|[still]
+|-fail|p2a: Skuntank
+|
+|-damage|p1a: Zangoose|33/100 tox|[from] psn
+|upkeep
+|turn|18
+|choice|move knockoff|switch 4
+|
+|switch|p2a: Mesprit|Mesprit|100/100
+|move|p1a: Zangoose|Knock Off|p2a: Mesprit
+|-supereffective|p2a: Mesprit
+|-damage|p2a: Mesprit|0 fnt
+|-enditem|p2a: Mesprit|Life Orb|[from] move: Knock Off|[of] p1a: Zangoose
+|faint|p2a: Mesprit
+|
+|-damage|p1a: Zangoose|21/100 tox|[from] psn
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Torterra|Torterra, M|100/100
+|turn|19
+|choice|move knockoff|move synthesis
+|
+|move|p1a: Zangoose|Knock Off|p2a: Torterra
+|-damage|p2a: Torterra|68/100
+|-enditem|p2a: Torterra|Leftovers|[from] move: Knock Off|[of] p1a: Zangoose
+|move|p2a: Torterra|Synthesis|p2a: Torterra
+|-heal|p2a: Torterra|100/100
+|
+|-damage|p1a: Zangoose|3/100 tox|[from] psn
+|upkeep
+|turn|20
+|choice|move facade|move stealthrock
+|
+|move|p1a: Zangoose|Facade|p2a: Torterra
+|-damage|p2a: Torterra|26/100
+|move|p2a: Torterra|Stealth Rock|p1a: Zangoose
+|-sidestart|p1: Rellanik|move: Stealth Rock
+|
+|-damage|p1a: Zangoose|0 fnt|[from] psn
+|upkeep
+|faint|p1a: Zangoose
+|choice|switch 3|
+|
+|switch|p1a: Haunter|Haunter, M|100/100
+|-damage|p1a: Haunter|88/100|[from] Stealth Rock
+|turn|21
+|choice|move shadowball|switch 6
+|
+|switch|p2a: Weezing|Weezing, M|92/100
+|move|p1a: Haunter|Shadow Ball|p2a: Weezing
+|-damage|p2a: Weezing|27/100
+|-damage|p1a: Haunter|78/100|[from] item: Life Orb
+|
+|-heal|p2a: Weezing|33/100|[from] item: Black Sludge
+|upkeep
+|turn|22
+|choice|move sludgebomb|switch 2
+|
+|switch|p2a: Miltank|Miltank, F|100/100
+|move|p1a: Haunter|Sludge Bomb|p2a: Miltank
+|-damage|p2a: Miltank|39/100
+|-damage|p1a: Haunter|68/100|[from] item: Life Orb
+|
+|-heal|p2a: Miltank|45/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|choice|move sludgebomb|switch 2
+|
+|switch|p2a: Weezing|Weezing, M|33/100
+|move|p1a: Haunter|Sludge Bomb|p2a: Weezing
+|-resisted|p2a: Weezing
+|-damage|p2a: Weezing|0 fnt
+|-damage|p1a: Haunter|59/100|[from] item: Life Orb
+|faint|p2a: Weezing
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Skuntank|Skuntank, M|10/100
+|turn|24
+|choice|move shadowball|move suckerpunch
+|
+|move|p2a: Skuntank|Sucker Punch|p1a: Haunter
+|-supereffective|p1a: Haunter
+|-damage|p1a: Haunter|0 fnt
+|faint|p1a: Haunter
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Omastar|Omastar, M|100/100
+|-damage|p1a: Omastar|88/100|[from] Stealth Rock
+|turn|25
+|choice|move scald|move taunt
+|
+|move|p2a: Skuntank|Taunt|p1a: Omastar
+|-start|p1a: Omastar|move: Taunt
+|move|p1a: Omastar|Scald|p2a: Skuntank
+|-damage|p2a: Skuntank|0 fnt
+|faint|p2a: Skuntank
+|
+|-heal|p1a: Omastar|94/100|[from] item: Leftovers
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Torterra|Torterra, M|26/100
+|turn|26
+|choice|move scald|move woodhammer
+|
+|move|p2a: Torterra|Wood Hammer|p1a: Omastar
+|-supereffective|p1a: Omastar
+|-damage|p1a: Omastar|0 fnt
+|-damage|p2a: Torterra|0 fnt|[from] recoil|[of] p1a: Omastar
+|faint|p1a: Omastar
+|faint|p2a: Torterra
+|
+|upkeep
+|choice|switch 4|switch 2
+|
+|switch|p1a: Hitmonchan|Hitmonchan, M|58/100 brn
+|switch|p2a: Miltank|Miltank, F|45/100
+|-damage|p1a: Hitmonchan|52/100 brn|[from] Stealth Rock
+|turn|27
+|choice|move drainpunch|move milkdrink
+|
+|move|p1a: Hitmonchan|Drain Punch|p2a: Miltank
+|-supereffective|p2a: Miltank
+|-damage|p2a: Miltank|10/100
+|-heal|p1a: Hitmonchan|81/100 brn|[from] drain|[of] p2a: Miltank
+|-damage|p1a: Hitmonchan|71/100 brn|[from] item: Life Orb
+|move|p2a: Miltank|Milk Drink|p2a: Miltank
+|-heal|p2a: Miltank|60/100
+|
+|-heal|p2a: Miltank|66/100|[from] item: Leftovers
+|-damage|p1a: Hitmonchan|58/100 brn|[from] brn
+|upkeep
+|turn|28
+|choice|move machpunch|move milkdrink
+|
+|move|p1a: Hitmonchan|Mach Punch|p2a: Miltank
+|-supereffective|p2a: Miltank
+|-damage|p2a: Miltank|48/100
+|-damage|p1a: Hitmonchan|48/100 brn|[from] item: Life Orb
+|move|p2a: Miltank|Milk Drink|p2a: Miltank
+|-heal|p2a: Miltank|98/100
+|
+|-heal|p2a: Miltank|100/100|[from] item: Leftovers
+|-damage|p1a: Hitmonchan|36/100 brn|[from] brn
+|upkeep
+|turn|29
+|choice|move drainpunch|move bodyslam
+|
+|move|p1a: Hitmonchan|Drain Punch|p2a: Miltank
+|-supereffective|p2a: Miltank
+|-damage|p2a: Miltank|62/100
+|-heal|p1a: Hitmonchan|67/100 brn|[from] drain|[of] p2a: Miltank
+|-damage|p1a: Hitmonchan|58/100 brn|[from] item: Life Orb
+|move|p2a: Miltank|Body Slam|p1a: Hitmonchan
+|-damage|p1a: Hitmonchan|15/100 brn
+|
+|-heal|p2a: Miltank|68/100|[from] item: Leftovers
+|-damage|p1a: Hitmonchan|3/100 brn|[from] brn
+|upkeep
+|turn|30
+|choice|move drainpunch|move milkdrink
+|
+|move|p1a: Hitmonchan|Drain Punch|p2a: Miltank
+|-supereffective|p2a: Miltank
+|-damage|p2a: Miltank|31/100
+|-heal|p1a: Hitmonchan|32/100 brn|[from] drain|[of] p2a: Miltank
+|-damage|p1a: Hitmonchan|22/100 brn|[from] item: Life Orb
+|move|p2a: Miltank|Milk Drink|p2a: Miltank
+|-heal|p2a: Miltank|81/100
+|
+|-heal|p2a: Miltank|88/100|[from] item: Leftovers
+|-damage|p1a: Hitmonchan|10/100 brn|[from] brn
+|upkeep
+|turn|31
+|choice|move drainpunch|move bodyslam
+|
+|move|p1a: Hitmonchan|Drain Punch|p2a: Miltank
+|-supereffective|p2a: Miltank
+|-damage|p2a: Miltank|50/100
+|-heal|p1a: Hitmonchan|41/100 brn|[from] drain|[of] p2a: Miltank
+|-damage|p1a: Hitmonchan|31/100 brn|[from] item: Life Orb
+|move|p2a: Miltank|Body Slam|p1a: Hitmonchan
+|-damage|p1a: Hitmonchan|0 fnt
+|faint|p1a: Hitmonchan
+|
+|win|PokemonIsBorring

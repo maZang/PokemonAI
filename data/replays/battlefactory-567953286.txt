@@ -1,0 +1,410 @@
+|j|VinhSolo
+|j|treeofchaos
+|player|p1|VinhSolo|266
+|player|p2|treeofchaos|101
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|45938,2869,62092,61479,59338,10929,24724,54184,31467,52796,18928,32694
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Umbreon, M|item
+|poke|p1|Aromatisse, M|item
+|poke|p1|Gyarados, M|item
+|poke|p1|Machamp, M|item
+|poke|p1|Gardevoir, M|item
+|poke|p1|Espeon, M|item
+|poke|p2|Espeon, M|item
+|poke|p2|Feraligatr, M|item
+|poke|p2|Mienshao, M|item
+|poke|p2|Haxorus, M|item
+|poke|p2|Swampert, M|item
+|poke|p2|Aggron, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 4, team 2, team 3, team 1, team 5, team 6|team 4, team 2, team 3, team 1, team 5, team 6
+|
+|start
+|switch|p1a: Machamp|Machamp, M|100/100
+|switch|p2a: Haxorus|Haxorus, M|100/100
+|-ability|p2a: Haxorus|Mold Breaker
+|turn|1
+|choice|move icepunch|move outrage
+|
+|move|p2a: Haxorus|Outrage|p1a: Machamp
+|-damage|p1a: Machamp|0 fnt
+|faint|p1a: Machamp
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Gardevoir|Gardevoir, M|100/100
+|-ability|p1a: Gardevoir|Mold Breaker|[from] ability: Trace|[of] p2a: Haxorus
+|-ability|p1a: Gardevoir|Mold Breaker
+|turn|2
+|choice|move moonblast|move outrage
+|
+|move|p2a: Haxorus|Outrage|p1a: Gardevoir|[from]lockedmove
+|-immune|p1a: Gardevoir|[msg]
+|-start|p2a: Haxorus|confusion|[fatigue]
+|move|p1a: Gardevoir|Moonblast|p2a: Haxorus
+|-supereffective|p2a: Haxorus
+|-damage|p2a: Haxorus|0 fnt
+|faint|p2a: Haxorus
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Feraligatr|Feraligatr, M|100/100
+|turn|3
+|choice|move psyshock|move waterfall
+|
+|move|p1a: Gardevoir|Psyshock|p2a: Feraligatr
+|-damage|p2a: Feraligatr|59/100
+|move|p2a: Feraligatr|Waterfall|p1a: Gardevoir
+|-damage|p1a: Gardevoir|0 fnt
+|faint|p1a: Gardevoir
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Aromatisse|Aromatisse, M|100/100
+|turn|4
+|choice|move moonblast|move dragondance
+|
+|move|p2a: Feraligatr|Dragon Dance|p2a: Feraligatr
+|-boost|p2a: Feraligatr|atk|1
+|-boost|p2a: Feraligatr|spe|1
+|move|p1a: Aromatisse|Moonblast|p2a: Feraligatr
+|-damage|p2a: Feraligatr|22/100
+|-unboost|p2a: Feraligatr|spa|1
+|
+|upkeep
+|turn|5
+|choice|move protect|move waterfall
+|
+|move|p1a: Aromatisse|Protect|p1a: Aromatisse
+|-singleturn|p1a: Aromatisse|Protect
+|move|p2a: Feraligatr|Waterfall|p1a: Aromatisse
+|-activate|p1a: Aromatisse|move: Protect
+|
+|upkeep
+|turn|6
+|choice|move moonblast|move waterfall
+|
+|move|p2a: Feraligatr|Waterfall|p1a: Aromatisse
+|-damage|p1a: Aromatisse|9/100
+|move|p1a: Aromatisse|Moonblast|p2a: Feraligatr
+|-damage|p2a: Feraligatr|0 fnt
+|faint|p2a: Feraligatr
+|
+|-heal|p1a: Aromatisse|15/100|[from] item: Leftovers
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Espeon|Espeon, M|100/100
+|turn|7
+|choice|switch 4|move calmmind
+|
+|switch|p1a: Umbreon|Umbreon, M|100/100
+|move|p2a: Espeon|Calm Mind|p2a: Espeon
+|-boost|p2a: Espeon|spa|1
+|-boost|p2a: Espeon|spd|1
+|
+|upkeep
+|turn|8
+|choice|move foulplay|move batonpass
+|
+|move|p2a: Espeon|Baton Pass|p2a: Espeon
+|choice||switch 5
+|
+|switch|p2a: Swampert|Swampert, M|100/100
+|move|p1a: Umbreon|Foul Play|p2a: Swampert
+|-damage|p2a: Swampert|77/100
+|
+|-heal|p2a: Swampert|84/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|choice|switch 3|move scald
+|
+|switch|p1a: Gyarados|Gyarados, M|100/100
+|-ability|p1a: Gyarados|Intimidate|boost
+|-unboost|p2a: Swampert|atk|1
+|move|p2a: Swampert|Scald|p1a: Gyarados
+|-resisted|p1a: Gyarados
+|-damage|p1a: Gyarados|83/100
+|
+|-heal|p1a: Gyarados|90/100|[from] item: Leftovers
+|-heal|p2a: Swampert|90/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|choice|move toxic|move roar
+|
+|move|p1a: Gyarados|Toxic|p2a: Swampert
+|-status|p2a: Swampert|tox
+|move|p2a: Swampert|Roar|p1a: Gyarados
+|drag|p1a: Aromatisse|Aromatisse, M|15/100
+|
+|-heal|p2a: Swampert|96/100 tox|[from] item: Leftovers
+|-heal|p1a: Aromatisse|21/100|[from] item: Leftovers
+|-damage|p2a: Swampert|90/100 tox|[from] psn
+|upkeep
+|turn|11
+|choice|move protect|move stealthrock
+|
+|move|p1a: Aromatisse|Protect|p1a: Aromatisse
+|-singleturn|p1a: Aromatisse|Protect
+|move|p2a: Swampert|Stealth Rock|p1a: Aromatisse
+|-sidestart|p1: VinhSolo|move: Stealth Rock
+|
+|-heal|p2a: Swampert|96/100 tox|[from] item: Leftovers
+|-heal|p1a: Aromatisse|27/100|[from] item: Leftovers
+|-damage|p2a: Swampert|84/100 tox|[from] psn
+|upkeep
+|turn|12
+|choice|move moonblast|move scald
+|
+|move|p2a: Swampert|Scald|p1a: Aromatisse
+|-damage|p1a: Aromatisse|3/100
+|-status|p1a: Aromatisse|brn
+|move|p1a: Aromatisse|Moonblast|p2a: Swampert
+|-damage|p2a: Swampert|63/100 tox
+|
+|-heal|p2a: Swampert|69/100 tox|[from] item: Leftovers
+|-heal|p1a: Aromatisse|9/100 brn|[from] item: Leftovers
+|-damage|p2a: Swampert|50/100 tox|[from] psn
+|-damage|p1a: Aromatisse|0 fnt|[from] brn
+|upkeep
+|faint|p1a: Aromatisse
+|choice|switch 6|
+|
+|switch|p1a: Espeon|Espeon, M|100/100
+|-damage|p1a: Espeon|88/100|[from] Stealth Rock
+|turn|13
+|choice|move psyshock|move scald
+|
+|move|p1a: Espeon|Psyshock|p2a: Swampert
+|-damage|p2a: Swampert|17/100 tox
+|-damage|p1a: Espeon|78/100|[from] item: Life Orb
+|move|p2a: Swampert|Scald|p1a: Espeon
+|-damage|p1a: Espeon|13/100
+|-status|p1a: Espeon|brn
+|
+|-heal|p2a: Swampert|23/100 tox|[from] item: Leftovers
+|-damage|p1a: Espeon|0 fnt|[from] brn
+|-damage|p2a: Swampert|0 fnt|[from] psn
+|upkeep
+|faint|p1a: Espeon
+|faint|p2a: Swampert
+|choice|switch 4|switch 6
+|
+|switch|p1a: Gyarados|Gyarados, M|90/100
+|switch|p2a: Aggron|Aggron, M|100/100
+|-damage|p1a: Gyarados|65/100|[from] Stealth Rock
+|-ability|p1a: Gyarados|Intimidate|boost
+|-unboost|p2a: Aggron|atk|1
+|turn|14
+|choice|move waterfall|switch 5
+|
+|switch|p2a: Espeon|Espeon, M|100/100
+|move|p1a: Gyarados|Waterfall|p2a: Espeon
+|-damage|p2a: Espeon|43/100
+|
+|-heal|p2a: Espeon|49/100|[from] item: Leftovers
+|-heal|p1a: Gyarados|71/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|choice|move waterfall|move batonpass
+|
+|move|p2a: Espeon|Baton Pass|p2a: Espeon
+|choice||switch 3
+|
+|switch|p2a: Mienshao|Mienshao, M|100/100
+|move|p1a: Gyarados|Waterfall|p2a: Mienshao
+|-damage|p2a: Mienshao|31/100
+|
+|-heal|p1a: Gyarados|77/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|choice|move waterfall|move fakeout
+|
+|move|p2a: Mienshao|Fake Out|p1a: Gyarados
+|-damage|p1a: Gyarados|64/100
+|-damage|p2a: Mienshao|22/100|[from] item: Life Orb
+|cant|p1a: Gyarados|flinch
+|
+|-heal|p1a: Gyarados|70/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|choice|move waterfall|move knockoff
+|
+|move|p2a: Mienshao|Knock Off|p1a: Gyarados
+|-crit|p1a: Gyarados
+|-damage|p1a: Gyarados|22/100
+|-enditem|p1a: Gyarados|Leftovers|[from] move: Knock Off|[of] p2a: Mienshao
+|-damage|p2a: Mienshao|12/100|[from] item: Life Orb
+|move|p1a: Gyarados|Waterfall|p2a: Mienshao
+|-damage|p2a: Mienshao|0 fnt
+|faint|p2a: Mienshao
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Espeon|Espeon, M|49/100
+|turn|18
+|choice|move rest|move storedpower
+|
+|move|p2a: Espeon|Stored Power|p1a: Gyarados
+|-damage|p1a: Gyarados|14/100
+|move|p1a: Gyarados|Rest|p1a: Gyarados
+|-status|p1a: Gyarados|slp
+|-heal|p1a: Gyarados|100/100 slp|[silent]
+|-status|p1a: Gyarados|slp|[from] move: Rest
+|
+|-heal|p2a: Espeon|55/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|choice|move sleeptalk|move calmmind
+|
+|move|p2a: Espeon|Calm Mind|p2a: Espeon
+|-boost|p2a: Espeon|spa|1
+|-boost|p2a: Espeon|spd|1
+|cant|p1a: Gyarados|slp
+|move|p1a: Gyarados|Sleep Talk|p1a: Gyarados
+|move|p1a: Gyarados|Waterfall|p2a: Espeon|[from]Sleep Talk
+|-damage|p2a: Espeon|0 fnt
+|faint|p2a: Espeon
+|
+|upkeep
+|c|☆VinhSolo|HAHAHA
+|choice||switch 5
+|
+|switch|p2a: Aggron|Aggron, M|100/100
+|turn|20
+|choice|move sleeptalk|move heavyslam mega
+|
+|detailschange|p2a: Aggron|Aggron-Mega, M
+|-mega|p2a: Aggron|Aggron|Aggronite
+|cant|p1a: Gyarados|slp
+|move|p1a: Gyarados|Sleep Talk|p1a: Gyarados
+|move|p1a: Gyarados|Waterfall|p2a: Aggron|[from]Sleep Talk
+|-damage|p2a: Aggron|84/100
+|move|p2a: Aggron|Heavy Slam|p1a: Gyarados
+|-resisted|p1a: Gyarados
+|-damage|p1a: Gyarados|93/100 slp
+|
+|upkeep
+|turn|21
+|choice|move waterfall|move heavyslam
+|
+|-curestatus|p1a: Gyarados|slp|[msg]
+|move|p1a: Gyarados|Waterfall|p2a: Aggron
+|-damage|p2a: Aggron|70/100
+|move|p2a: Aggron|Heavy Slam|p1a: Gyarados
+|-resisted|p1a: Gyarados
+|-damage|p1a: Gyarados|85/100
+|
+|upkeep
+|turn|22
+|choice|move waterfall|move heavyslam
+|
+|move|p1a: Gyarados|Waterfall|p2a: Aggron
+|-damage|p2a: Aggron|56/100
+|move|p2a: Aggron|Heavy Slam|p1a: Gyarados
+|-resisted|p1a: Gyarados
+|-damage|p1a: Gyarados|78/100
+|
+|upkeep
+|turn|23
+|choice|move waterfall|move heavyslam
+|
+|move|p1a: Gyarados|Waterfall|p2a: Aggron
+|-damage|p2a: Aggron|40/100
+|move|p2a: Aggron|Heavy Slam|p1a: Gyarados
+|-resisted|p1a: Gyarados
+|-damage|p1a: Gyarados|71/100
+|
+|upkeep
+|turn|24
+|choice|move waterfall|move rest
+|
+|move|p1a: Gyarados|Waterfall|p2a: Aggron
+|-damage|p2a: Aggron|24/100
+|move|p2a: Aggron|Rest|p2a: Aggron
+|-status|p2a: Aggron|slp
+|-heal|p2a: Aggron|100/100 slp|[silent]
+|-status|p2a: Aggron|slp|[from] move: Rest
+|
+|upkeep
+|turn|25
+|choice|move waterfall|move sleeptalk
+|
+|move|p1a: Gyarados|Waterfall|p2a: Aggron
+|-damage|p2a: Aggron|86/100 slp
+|cant|p2a: Aggron|slp
+|move|p2a: Aggron|Sleep Talk|p2a: Aggron
+|move|p2a: Aggron|Rest|p2a: Aggron|[from]Sleep Talk
+|-fail|p2a: Aggron
+|
+|upkeep
+|turn|26
+|c|☆VinhSolo|lol
+|choice|move waterfall|move sleeptalk
+|
+|move|p1a: Gyarados|Waterfall|p2a: Aggron
+|-damage|p2a: Aggron|70/100 slp
+|cant|p2a: Aggron|slp
+|move|p2a: Aggron|Sleep Talk|p2a: Aggron
+|move|p2a: Aggron|Heavy Slam|p1a: Gyarados|[from]Sleep Talk
+|-resisted|p1a: Gyarados
+|-damage|p1a: Gyarados|64/100
+|
+|upkeep
+|turn|27
+|choice|move waterfall|move heavyslam
+|
+|move|p1a: Gyarados|Waterfall|p2a: Aggron
+|-damage|p2a: Aggron|56/100 slp
+|-curestatus|p2a: Aggron|slp|[msg]
+|move|p2a: Aggron|Heavy Slam|p1a: Gyarados
+|-resisted|p1a: Gyarados
+|-damage|p1a: Gyarados|56/100
+|
+|upkeep
+|turn|28
+|choice|move waterfall|move heavyslam
+|
+|move|p1a: Gyarados|Waterfall|p2a: Aggron
+|-crit|p2a: Aggron
+|-damage|p2a: Aggron|34/100
+|move|p2a: Aggron|Heavy Slam|p1a: Gyarados
+|-resisted|p1a: Gyarados
+|-damage|p1a: Gyarados|49/100
+|
+|upkeep
+|turn|29
+|choice|move waterfall|move rest
+|
+|move|p1a: Gyarados|Waterfall|p2a: Aggron
+|-damage|p2a: Aggron|19/100
+|cant|p2a: Aggron|flinch
+|
+|upkeep
+|turn|30
+|choice|move waterfall|move rest
+|
+|move|p1a: Gyarados|Waterfall|p2a: Aggron
+|-damage|p2a: Aggron|5/100
+|cant|p2a: Aggron|flinch
+|
+|upkeep
+|turn|31
+|choice|move waterfall|move rest
+|
+|move|p1a: Gyarados|Waterfall|p2a: Aggron
+|-damage|p2a: Aggron|0 fnt
+|faint|p2a: Aggron
+|
+|win|VinhSolo
+|l|treeofchaos
