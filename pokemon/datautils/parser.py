@@ -1,5 +1,5 @@
 import re
-import numpy as np 
+import numpy as np
 import const
 import pickle
 
@@ -13,11 +13,11 @@ class PokemonShowdownEncoding(object):
 		'''
 		type is either test,train,or val
 		'''
-		self.name = name 
-		self.type = type 
+		self.name = name
+		self.type = type
 		self.pokemon = [np.zeros((num_turns, const.POKE_DESCRIPTOR_SIZE)) for _ in range(12)]
 		self.other_data = np.zeros((num_turns, const.NON_EMBEDDING_DATA))
-		self.labels = np.zeros((num_turns, const.NUMBER_CLASSES)) 
+		self.labels = np.zeros((num_turns, const.NUMBER_CLASSES))
 
 	@classmethod
 	def load(self, filename):
@@ -45,7 +45,8 @@ class PokemonShowdownReplayParser(object):
 		output = ""
 		output += self.players["p1"].getTeamFormatString()
 		output += self.players["p2"].getTeamFormatString()
-		print(self.turnList[1])
+		for item in self.turnList.iteritems():
+			print(item + "\n")
 		return output
 
 	def parse(self):
@@ -216,6 +217,9 @@ class PokemonShowdownReplayParser(object):
 		pokemon = self.players[player].getPokemonByNickname(nickname)
 		pokemon.item = megastone
 
+		# Append to turn object list
+		turn = Turn(turnNumber=self.turnNumber, player=player, action="mega", pokemon=pokemon)
+		self.turnList[self.turnNumber].append(turn)
 
 	def processDetailsChange(self, line):
 		matches = re.search("\|detailschange\|(p[12])a:\s+([^|]+)\|([^\n]+)", line).groups()
