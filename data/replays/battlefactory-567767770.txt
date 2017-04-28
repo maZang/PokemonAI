@@ -1,0 +1,277 @@
+|j|VinceCarterPoster1
+|j|memeganoob
+|player|p1|VinceCarterPoster1|39
+|player|p2|memeganoob|23
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|5198,61235,50006,53459,52641,40956,18745,2754,55349,56111,57079,19871
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Empoleon, M|item
+|poke|p1|Noivern, M|item
+|poke|p1|Gardevoir, M|item
+|poke|p1|Froslass, F|item
+|poke|p1|Feraligatr, M|item
+|poke|p1|Lucario, M|item
+|poke|p2|Yanmega, M|item
+|poke|p2|Tentacruel, M|item
+|poke|p2|Noivern, M|item
+|poke|p2|Aggron, M|item
+|poke|p2|Kingdra, M|item
+|poke|p2|Porygon-Z|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 4, team 2, team 3, team 1, team 5, team 6|team 2, team 1, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Froslass|Froslass, F|100/100
+|switch|p2a: Tentacruel|Tentacruel, M|100/100
+|turn|1
+|choice|move spikes|move knockoff
+|
+|move|p1a: Froslass|Spikes|p2a: Tentacruel
+|-sidestart|p2: memeganoob|Spikes
+|move|p2a: Tentacruel|Knock Off|p1a: Froslass
+|-supereffective|p1a: Froslass
+|-damage|p1a: Froslass|58/100
+|-enditem|p1a: Froslass|Focus Sash|[from] move: Knock Off|[of] p2a: Tentacruel
+|
+|upkeep
+|turn|2
+|choice|move spikes|move toxicspikes
+|
+|move|p1a: Froslass|Spikes|p2a: Tentacruel
+|-sidestart|p2: memeganoob|Spikes
+|move|p2a: Tentacruel|Toxic Spikes|p1a: Froslass
+|-sidestart|p1: VinceCarterPoster1|move: Toxic Spikes
+|
+|upkeep
+|turn|3
+|choice|move spikes|move toxicspikes
+|
+|move|p1a: Froslass|Spikes|p2a: Tentacruel
+|-sidestart|p2: memeganoob|Spikes
+|move|p2a: Tentacruel|Toxic Spikes|p1a: Froslass
+|-sidestart|p1: VinceCarterPoster1|move: Toxic Spikes
+|
+|upkeep
+|turn|4
+|choice|move icywind|move knockoff
+|
+|move|p1a: Froslass|Icy Wind|p2a: Tentacruel
+|-resisted|p2a: Tentacruel
+|-damage|p2a: Tentacruel|94/100
+|-unboost|p2a: Tentacruel|spe|1
+|move|p2a: Tentacruel|Knock Off|p1a: Froslass
+|-supereffective|p1a: Froslass
+|-damage|p1a: Froslass|30/100
+|-start|p2a: Tentacruel|Disable|Knock Off|[from] ability: Cursed Body|[of] p1a: Froslass
+|
+|-heal|p2a: Tentacruel|99/100|[from] item: Black Sludge
+|upkeep
+|turn|5
+|choice|move icywind|move scald
+|
+|move|p1a: Froslass|Icy Wind|p2a: Tentacruel
+|-resisted|p2a: Tentacruel
+|-damage|p2a: Tentacruel|94/100
+|-unboost|p2a: Tentacruel|spe|1
+|move|p2a: Tentacruel|Scald|p1a: Froslass
+|-damage|p1a: Froslass|1/100
+|
+|-heal|p2a: Tentacruel|99/100|[from] item: Black Sludge
+|upkeep
+|turn|6
+|choice|move destinybond|move scald
+|
+|move|p1a: Froslass|Destiny Bond|p1a: Froslass
+|-singlemove|p1a: Froslass|Destiny Bond
+|move|p2a: Tentacruel|Scald|p1a: Froslass
+|-damage|p1a: Froslass|0 fnt
+|faint|p1a: Froslass
+|-activate|p1a: Froslass|move: Destiny Bond
+|faint|p2a: Tentacruel
+|
+|upkeep
+|choice|switch 4|switch 4
+|
+|switch|p1a: Empoleon|Empoleon, M|100/100
+|switch|p2a: Aggron|Aggron, M|100/100
+|-damage|p2a: Aggron|76/100|[from] Spikes
+|turn|7
+|choice|move stealthrock|move stealthrock mega
+|
+|detailschange|p2a: Aggron|Aggron-Mega, M
+|-mega|p2a: Aggron|Aggron|Aggronite
+|move|p1a: Empoleon|Stealth Rock|p2a: Aggron
+|-sidestart|p2: memeganoob|move: Stealth Rock
+|move|p2a: Aggron|Stealth Rock|p1a: Empoleon
+|-sidestart|p1: VinceCarterPoster1|move: Stealth Rock
+|
+|upkeep
+|turn|8
+|choice|move roar|move heavyslam
+|
+|move|p2a: Aggron|Heavy Slam|p1a: Empoleon
+|-resisted|p1a: Empoleon
+|-damage|p1a: Empoleon|88/100
+|move|p1a: Empoleon|Roar|p2a: Aggron
+|drag|p2a: Noivern|Noivern, M|100/100
+|-damage|p2a: Noivern|76/100|[from] Stealth Rock
+|
+|-heal|p2a: Noivern|82/100|[from] item: Leftovers
+|-heal|p1a: Empoleon|94/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|choice|move roar|move dracometeor
+|
+|move|p2a: Noivern|Draco Meteor|p1a: Empoleon
+|-resisted|p1a: Empoleon
+|-damage|p1a: Empoleon|76/100
+|-unboost|p2a: Noivern|spa|2
+|move|p1a: Empoleon|Roar|p2a: Noivern
+|drag|p2a: Yanmega|Yanmega, M|100/100
+|-damage|p2a: Yanmega|51/100|[from] Stealth Rock
+|
+|-heal|p1a: Empoleon|82/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|choice|move scald|move gigadrain
+|
+|move|p2a: Yanmega|Giga Drain|p1a: Empoleon
+|-damage|p1a: Empoleon|59/100
+|-heal|p2a: Yanmega|65/100|[from] drain|[of] p1a: Empoleon
+|move|p1a: Empoleon|Scald|p2a: Yanmega
+|-damage|p2a: Yanmega|15/100
+|-status|p2a: Yanmega|brn
+|
+|-heal|p1a: Empoleon|65/100|[from] item: Leftovers
+|-damage|p2a: Yanmega|2/100 brn|[from] brn
+|upkeep
+|turn|11
+|choice|move scald|move gigadrain
+|
+|move|p2a: Yanmega|Giga Drain|p1a: Empoleon
+|-damage|p1a: Empoleon|41/100
+|-heal|p2a: Yanmega|16/100 brn|[from] drain|[of] p1a: Empoleon
+|move|p1a: Empoleon|Scald|p2a: Yanmega
+|-damage|p2a: Yanmega|0 fnt
+|faint|p2a: Yanmega
+|
+|-heal|p1a: Empoleon|48/100|[from] item: Leftovers
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Porygon-Z|Porygon-Z|100/100
+|-damage|p2a: Porygon-Z|76/100|[from] Spikes
+|-damage|p2a: Porygon-Z|64/100|[from] Stealth Rock
+|turn|12
+|choice|move scald|move hiddenpower
+|
+|move|p2a: Porygon-Z|Hidden Power|p1a: Empoleon
+|-supereffective|p1a: Empoleon
+|-damage|p1a: Empoleon|8/100
+|-damage|p2a: Porygon-Z|54/100|[from] item: Life Orb
+|move|p1a: Empoleon|Scald|p2a: Porygon-Z
+|-damage|p2a: Porygon-Z|0 fnt
+|faint|p2a: Porygon-Z
+|
+|-heal|p1a: Empoleon|15/100|[from] item: Leftovers
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Aggron|Aggron-Mega, M|76/100
+|-damage|p2a: Aggron|70/100|[from] Stealth Rock
+|-damage|p2a: Aggron|45/100|[from] Spikes
+|turn|13
+|choice|move scald|move roar
+|
+|move|p1a: Empoleon|Scald|p2a: Aggron
+|-damage|p2a: Aggron|0 fnt
+|faint|p2a: Aggron
+|
+|-heal|p1a: Empoleon|21/100|[from] item: Leftovers
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Kingdra|Kingdra, M|100/100
+|-damage|p2a: Kingdra|76/100|[from] Spikes
+|-damage|p2a: Kingdra|63/100|[from] Stealth Rock
+|turn|14
+|choice|move roar|move waterfall
+|
+|move|p2a: Kingdra|Waterfall|p1a: Empoleon
+|-resisted|p1a: Empoleon
+|-damage|p1a: Empoleon|7/100
+|move|p1a: Empoleon|Roar|p2a: Kingdra
+|drag|p2a: Noivern|Noivern, M|82/100
+|-damage|p2a: Noivern|57/100|[from] Stealth Rock
+|
+|-heal|p2a: Noivern|63/100|[from] item: Leftovers
+|-heal|p1a: Empoleon|13/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|choice|move roar|move dracometeor
+|
+|move|p2a: Noivern|Draco Meteor|p1a: Empoleon
+|-resisted|p1a: Empoleon
+|-damage|p1a: Empoleon|0 fnt
+|-unboost|p2a: Noivern|spa|2
+|faint|p1a: Empoleon
+|
+|-heal|p2a: Noivern|69/100|[from] item: Leftovers
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Lucario|Lucario, M|100/100
+|-damage|p1a: Lucario|98/100|[from] Stealth Rock
+|turn|16
+|choice|move flashcannon|move airslash
+|
+|move|p2a: Noivern|Air Slash|p1a: Lucario
+|-damage|p1a: Lucario|72/100
+|-ability|p1a: Lucario|Steadfast|boost
+|-boost|p1a: Lucario|spe|1
+|cant|p1a: Lucario|flinch
+|
+|-heal|p2a: Noivern|75/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|choice|move nastyplot|move airslash
+|
+|move|p1a: Lucario|Nasty Plot|p1a: Lucario
+|-boost|p1a: Lucario|spa|2
+|move|p2a: Noivern|Air Slash|p1a: Lucario
+|-damage|p1a: Lucario|45/100
+|
+|-heal|p2a: Noivern|82/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|choice|move flashcannon|move taunt
+|
+|move|p1a: Lucario|Flash Cannon|p2a: Noivern
+|-damage|p2a: Noivern|0 fnt
+|-damage|p1a: Lucario|35/100|[from] item: Life Orb
+|faint|p2a: Noivern
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Kingdra|Kingdra, M|63/100
+|-damage|p2a: Kingdra|39/100|[from] Spikes
+|-damage|p2a: Kingdra|26/100|[from] Stealth Rock
+|turn|19
+|c|☆VinceCarterPoster1|gg
+|choice|move vacuumwave|move dracometeor
+|
+|move|p1a: Lucario|Vacuum Wave|p2a: Kingdra
+|-damage|p2a: Kingdra|0 fnt
+|-damage|p1a: Lucario|25/100|[from] item: Life Orb
+|faint|p2a: Kingdra
+|
+|win|VinceCarterPoster1
+|raw|VinceCarterPoster1's rating: 1309 &rarr; <strong>1317</strong><br />(+8 for winning)
+|raw|memeganoob's rating: 1091 &rarr; <strong>1081</strong><br />(-10 for losing)

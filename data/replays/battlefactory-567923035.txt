@@ -1,0 +1,37 @@
+|j|mind your bees hax
+|j|Joaomarchi
+|player|p1|mind your bees hax|209
+|player|p2|Joaomarchi|107
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|37133,7865,62825,25353,59120,52409,25535,48511,16756,19973,40060,2226
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Roselia, M|item
+|poke|p1|Blastoise, M|item
+|poke|p1|Spiritomb, M|item
+|poke|p1|Bronzong|item
+|poke|p1|Poliwrath, M|item
+|poke|p1|Sawk, M|item
+|poke|p2|Gallade, M|item
+|poke|p2|Delphox, M|item
+|poke|p2|Spiritomb, M|item
+|poke|p2|Roselia, M|item
+|poke|p2|Houndoom, M|item
+|poke|p2|Poliwrath, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Joaomarchi)
+|choice|team 6, team 2, team 3, team 4, team 5, team 1|team 6, team 2, team 3, team 4, team 5, team 1
+|
+|start
+|switch|p1a: Sawk|Sawk, M|100/100
+|switch|p2a: Poliwrath|Poliwrath, M|100/100
+|turn|1
+|-message|mind your bees hax forfeited.
+|
+|win|Joaomarchi
+|l|mind your bees hax

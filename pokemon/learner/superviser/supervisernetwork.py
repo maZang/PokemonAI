@@ -1,6 +1,7 @@
 from datautils.replaydataiter import ReplayDataIter
 from datautils.parser import encode
 import tensorflow as tf
+import os, pickle
 
 DATA_FOLDER = 'data/parsed_replays/'
 TRAIN = DATA_FOLDER + 'train'
@@ -32,6 +33,8 @@ class PokemonNetworkConfig(object):
 	kernels_team=[1,2,3,4,5,6]
 	feature_maps_team=[50,60,70,80,90,100,110]
 	num_steps = 8
+	save_folder = 'data/models/'
+	model_name = 'supervised_network/'
 
 class PokemonNetwork(object):
 
@@ -148,4 +151,53 @@ class PokemonNetwork(object):
 		self.data_iter = ReplayDataIter(TRAIN, VALIDATION, TEST, lambda x: encode(config, x))
 		self.config = config
 		self._build_graph()
+
+	def run_epoch(self, epoch_num, session, train_op = None):
+		dp = self.config.dropout
+		total_batches = self.data_iter.number_batches(self.config.batch_size)
+		total_loss = []
+		if not train_op:
+			train_op = tf.no_op()
+			dp = 1.
+
+		for i,sample in enumerate(self.data_iter.sample(self.config.batch_size)):
+			# sample is a list of [poke1matrix, poke2matrix, ..., poke12matrix, other_x_state, y]
+			feed_dict1 = {self.poke_placeholders[i] : sample[i] for i in range(12)} 
+			feed_dict_rest = {self.x_data_placeholder: sample[13], self.y_placeholder: sample[14],
+							self.dropout_placeholder: dp}
+			feed_dict = {**feed_dict1, **feed_dict_rest}
+			loss, _ = session.run([self.loss, train_op])
+			total_loss.append(loss)
+
+			if (i % 100) == 0:
+				print("epoch: [%d] iter: [%d/%d] loss: [%2.5f]" % (epoch_num, i, total_batches, loss))
+		return total_loss 
+
+def trainNetwork():
+	config = PokemonNetworkConfig()
+	with tf.variable_scope('PokemonNetwork'):
+		model = PokemonNetwork(config)
+	total_losses = []
+	init = tf.initialize_all_variables()
+	saver = tf.train.Saver()
+
+	with tf.Session() as sess:
+		sess.run(init)
+		for epoch_num in range(config.max_epochs):
+			epoch_losses = model.run_epoch(epoch_num, sess, model.train_op)
+			total_losses.extend(epoch_losses)
+
+			if not os.path.exists(config.save_folder + config.model_name):
+				os.makedirs(config.save_folder + model_name)
+			if not os.path.exists(config.save_folder + config.model_name + 'weights'):
+				os.makedirs(config.save_folder + config.model_name + 'weights')
+			saver.save(sess, config.save_folder + model_name + 'weights/model', global_step=epoch)
+
+			if not os.path.exists(config.save_folder + config.model_name + 'loss'):
+				os.makedirs(config.save_folder + config.model_name + 'loss')
+			with open(config.save_folder + config.model_name + 'loss' + '/total_losses.p', 'wb') as f:
+				pickle.dump(total_losses, f)
+			
+			# TODO, evaluate on validation set 
+
 
