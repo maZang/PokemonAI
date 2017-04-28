@@ -7,6 +7,7 @@ DATAFOLDER = 'data/replays/'
 BATTLEFILE = 'battlefactory-566090815.txt'
 PARSED_FOLDER = 'data/parsed_replays/'
 
+
 class PokemonShowdownEncoding(object):
 
 	def __init__(self, name, num_turns, type):
@@ -28,6 +29,7 @@ class PokemonShowdownEncoding(object):
 		with open(PARSED_FOLDER + self.type + '/' + self.name + '.p', 'wb') as f:
 			pickle.dump(self, f)
 
+
 class PokemonShowdownReplayParser(object):
 	def __init__(self, log="", players={}):
 		self.log = log
@@ -46,7 +48,7 @@ class PokemonShowdownReplayParser(object):
 		output += self.players["p1"].getTeamFormatString()
 		output += self.players["p2"].getTeamFormatString()
 		for item in self.turnList.iteritems():
-			print(item + "\n")
+			print(item)
 		return output
 
 	def parse(self):
