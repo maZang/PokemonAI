@@ -1,0 +1,284 @@
+|j|Torterraman456
+|j|MemeMaker420
+|player|p1|Torterraman456|294
+|player|p2|MemeMaker420|261
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|41873,26018,30665,52215,58940,58772,32226,61095,54686,24424,51480,59413
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Golduck, M|item
+|poke|p1|Roselia, M|item
+|poke|p1|Ampharos, M|item
+|poke|p1|Rampardos, M|item
+|poke|p1|Dodrio, M|item
+|poke|p1|Vibrava, M|item
+|poke|p2|Roselia, M|item
+|poke|p2|Gabite, M|item
+|poke|p2|Swanna, M|item
+|poke|p2|Klang|item
+|poke|p2|Seaking, M|item
+|poke|p2|Ninjask, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|j|Dank Smoothie
+|c|☆Torterraman456|Can u post the link here so I can post it in wifi?
+|c| Dank Smoothie|how does ur asshole feel Torterraman456?
+|c|☆Torterraman456|Shut up!
+|c|☆MemeMaker420|LOL
+|c| Dank Smoothie|xD
+|c|☆MemeMaker420|http://play.pokemonshowdown.com/battle-battlefactory-567899816
+|choice|team 6, team 2, team 3, team 4, team 5, team 1|team 1, team 2, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Vibrava|Vibrava, M|100/100
+|switch|p2a: Roselia|Roselia, M|100/100
+|turn|1
+|c| Dank Smoothie|ur asshole got rekt Torterraman45
+|c| Dank Smoothie|i see u like ur ass bloody
+|c|☆MemeMaker420|can you just stfu please
+|c| Dank Smoothie|fuck u
+|c|☆Torterraman456|I will report u next time
+|choice|move toxic|move toxicspikes
+|
+|move|p2a: Roselia|Toxic Spikes|p1a: Vibrava
+|-sidestart|p1: Torterraman456|move: Toxic Spikes
+|move|p1a: Vibrava|Toxic|p2a: Roselia
+|-immune|p2a: Roselia|[msg]
+|
+|upkeep
+|turn|2
+|c| Dank Smoothie|for what?
+|c|☆MemeMaker420|nice
+|choice|move defog|move toxicspikes
+|
+|move|p2a: Roselia|Toxic Spikes|p1a: Vibrava
+|-sidestart|p1: Torterraman456|move: Toxic Spikes
+|move|p1a: Vibrava|Defog|p2a: Roselia
+|-unboost|p2a: Roselia|evasion|1
+|-sideend|p1: Torterraman456|Toxic Spikes|[from] move: Defog|[of] p1a: Vibrava
+|
+|upkeep
+|turn|3
+|c|☆Torterraman456|For bothering me
+|c|☆MemeMaker420|y tho
+|c| Dank Smoothie|sexual assault ?
+|c|☆Torterraman456|And yes
+|choice|move earthquake|switch 5
+|
+|switch|p2a: Seaking|Seaking, M|100/100
+|move|p1a: Vibrava|Earthquake|p2a: Seaking
+|-damage|p2a: Seaking|63/100
+|
+|-heal|p2a: Seaking|69/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|c|☆Torterraman456|Or maybe modchat...
+|choice|move earthquake|move knockoff
+|
+|move|p2a: Seaking|Knock Off|p1a: Vibrava
+|-damage|p1a: Vibrava|66/100
+|-enditem|p1a: Vibrava|Eviolite|[from] move: Knock Off|[of] p2a: Seaking
+|move|p1a: Vibrava|Earthquake|p2a: Seaking
+|-damage|p2a: Seaking|31/100
+|
+|-heal|p2a: Seaking|37/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|c| Dank Smoothie|at least my asshole is fine :P
+|c|☆MemeMaker420|WHAT IS THIS NINJASK
+|raw|<div class="broadcast-red"><strong>Moderated chat was set to +!</strong><br />Only users of rank + and higher can talk.</div>
+|c|☆MemeMaker420|BANDED WITH TOXIC
+|c|☆MemeMaker420|OML
+|raw|<div class="broadcast-blue"><strong>Moderated chat was disabled!</strong><br />Anyone may talk now.</div>
+|choice|move earthquake|move waterfall
+|
+|move|p2a: Seaking|Waterfall|p1a: Vibrava
+|-damage|p1a: Vibrava|0 fnt
+|faint|p1a: Vibrava
+|
+|-heal|p2a: Seaking|43/100|[from] item: Leftovers
+|upkeep
+|c| Dank Smoothie|xD
+|choice|switch 3|
+|
+|switch|p1a: Ampharos|Ampharos, M|100/100
+|turn|6
+|choice|move thunderbolt|move knockoff
+|
+|move|p1a: Ampharos|Thunderbolt|p2a: Seaking
+|-ability|p2a: Seaking|Lightning Rod|boost
+|-boost|p2a: Seaking|spa|1
+|move|p2a: Seaking|Knock Off|p1a: Ampharos
+|-damage|p1a: Ampharos|63/100
+|-enditem|p1a: Ampharos|Life Orb|[from] move: Knock Off|[of] p2a: Seaking
+|
+|-heal|p2a: Seaking|49/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|c|☆MemeMaker420|thanks scrub
+|c|☆Torterraman456|XD
+|choice|move agility|switch 2
+|
+|switch|p2a: Gabite|Gabite, M|100/100
+|move|p1a: Ampharos|Agility|p1a: Ampharos
+|-boost|p1a: Ampharos|spe|2
+|
+|upkeep
+|turn|8
+|c|☆Torterraman456|!dt seaking
+|c|~|/data-pokemon Seaking
+|raw|<font size="1"><font color="#686868">Dex#:</font> 119&nbsp;|&ThickSpace;<font color="#686868">Gen:</font> 1&nbsp;|&ThickSpace;<font color="#686868">Height:</font> 1.3 m&nbsp;|&ThickSpace;<font color="#686868">Weight:</font> 39 kg <em>(60 BP)</em>&nbsp;|&ThickSpace;<font color="#686868">Dex Colour:</font> Red&nbsp;|&ThickSpace;<font color="#686868">Egg Group(s):</font> Water 2&nbsp;|&ThickSpace;<font color="#686868">Does Not Evolve</font></font>
+|choice|switch 5|move stealthrock
+|
+|switch|p1a: Dodrio|Dodrio, M|100/100
+|move|p2a: Gabite|Stealth Rock|p1a: Dodrio
+|-sidestart|p1: Torterraman456|move: Stealth Rock
+|
+|upkeep
+|turn|9
+|choice|move knockoff|move stoneedge
+|
+|move|p1a: Dodrio|Knock Off|p2a: Gabite
+|-damage|p2a: Gabite|48/100
+|-damage|p1a: Dodrio|88/100|[from] ability: Rough Skin|[of] p2a: Gabite
+|-enditem|p2a: Gabite|Eviolite|[from] move: Knock Off|[of] p1a: Dodrio
+|move|p2a: Gabite|Stone Edge|p1a: Dodrio
+|-supereffective|p1a: Dodrio
+|-damage|p1a: Dodrio|0 fnt
+|faint|p1a: Dodrio
+|
+|upkeep
+|c|☆Torterraman456|What the..
+|c|☆MemeMaker420|get outta here
+|choice|switch 4|
+|
+|switch|p1a: Rampardos|Rampardos, M|100/100
+|-damage|p1a: Rampardos|88/100|[from] Stealth Rock
+|-ability|p1a: Rampardos|Mold Breaker
+|turn|10
+|choice|move stealthrock|move earthquake
+|
+|move|p2a: Gabite|Earthquake|p1a: Rampardos
+|-supereffective|p1a: Rampardos
+|-damage|p1a: Rampardos|0 fnt
+|faint|p1a: Rampardos
+|
+|upkeep
+|c|☆MemeMaker420|GET OUTTA HERE
+|c|☆Torterraman456|So rematch after this?
+|choice|switch 6|
+|
+|switch|p1a: Golduck|Golduck, M|100/100
+|-damage|p1a: Golduck|88/100|[from] Stealth Rock
+|turn|11
+|c|☆MemeMaker420|sure
+|c| Dank Smoothie|xD
+|choice|move hydropump|move earthquake
+|
+|move|p2a: Gabite|Earthquake|p1a: Golduck
+|-damage|p1a: Golduck|28/100
+|move|p1a: Golduck|Hydro Pump|p2a: Gabite
+|-crit|p2a: Gabite
+|-damage|p2a: Gabite|0 fnt
+|-damage|p1a: Golduck|18/100|[from] item: Life Orb
+|faint|p2a: Gabite
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Ninjask|Ninjask, M|100/100
+|turn|12
+|choice|move icebeam|move uturn
+|
+|move|p2a: Ninjask|U-turn|p1a: Golduck
+|-damage|p1a: Golduck|0 fnt
+|faint|p1a: Golduck
+|choice||switch 3
+|
+|switch|p2a: Swanna|Swanna, M|100/100
+|
+|upkeep
+|c| Dank Smoothie|ouch!! my asshole is hurting and it's not even me
+|choice|switch 5|
+|
+|switch|p1a: Ampharos|Ampharos, M|63/100
+|-damage|p1a: Ampharos|51/100|[from] Stealth Rock
+|turn|13
+|c|☆Torterraman456|Wait, give me a sec, Mememaker420.
+|c|☆MemeMaker420|im just facepalming to the extreme rn
+|c| Dank Smoothie|kek
+|l|Dank Smoothie
+|c|☆MemeMaker420|hes probably reporting you rn lol
+|j|Nirinbo
+|l|Nirinbo
+|J|yyyyyyyyyi
+|j|Dank Smoothie
+|choice|move focusblast|switch 2
+|
+|switch|p2a: Seaking|Seaking, M|49/100
+|move|p1a: Ampharos|Focus Blast|p2a: Seaking
+|-crit|p2a: Seaking
+|-damage|p2a: Seaking|0 fnt
+|faint|p2a: Seaking
+|
+|upkeep
+|c|☆MemeMaker420|nice job
+|c| Dank Smoothie|i know
+|j|MasterAmpharos
+|c|☆MemeMaker420|i thought you would be noob to the extreme right there
+|choice||switch 3
+|
+|switch|p2a: Ninjask|Ninjask, M|100/100
+|turn|14
+|choice|move thunderbolt|move uturn
+|
+|move|p2a: Ninjask|U-turn|p1a: Ampharos
+|-damage|p1a: Ampharos|0 fnt
+|faint|p1a: Ampharos
+|choice||switch 2
+|
+|switch|p2a: Swanna|Swanna, M|100/100
+|
+|upkeep
+|c|☆MemeMaker420|oh shit
+|j|v0lca
+|choice|switch 2|
+|
+|switch|p1a: Roselia|Roselia, M|100/100
+|-damage|p1a: Roselia|88/100|[from] Stealth Rock
+|turn|15
+|c|☆MemeMaker420|banded nijask does a lot of damage...
+|c|☆Torterraman456|So, rematch?
+|choice|move spikes|move hurricane
+|
+|move|p2a: Swanna|Hurricane|p1a: Roselia
+|-supereffective|p1a: Roselia
+|-damage|p1a: Roselia|8/100
+|-damage|p2a: Swanna|91/100|[from] item: Life Orb
+|move|p1a: Roselia|Spikes|p2a: Swanna
+|-sidestart|p2: MemeMaker420|Spikes
+|
+|upkeep
+|turn|16
+|j|Mr. Throh
+|l|MasterAmpharos
+|c|☆MemeMaker420|youve said that like 3 times now
+|c|☆MemeMaker420|YES
+|choice|move gigadrain|move scald
+|
+|move|p2a: Swanna|Scald|p1a: Roselia
+|-resisted|p1a: Roselia
+|-damage|p1a: Roselia|0 fnt
+|-damage|p2a: Swanna|81/100|[from] item: Life Orb
+|faint|p1a: Roselia
+|
+|win|MemeMaker420
+|l|v0lca
+|c|☆Torterraman456|ok
+|c|☆MemeMaker420|gg
+|l|MemeMaker420
+|l|Dank Smoothie
+|l|Torterraman456

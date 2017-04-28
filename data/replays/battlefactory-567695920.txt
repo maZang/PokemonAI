@@ -1,0 +1,740 @@
+|j|SolAnima
+|j|unknowndestination
+|player|p1|SolAnima|101
+|player|p2|unknowndestination|60
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|11501,19658,46893,64372,13125,16133,15905,26296,21014,44126,13877,16650
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Shaymin-Sky|item
+|poke|p1|Arceus-*|item
+|poke|p1|Deoxys-Speed|item
+|poke|p1|Scizor, M|item
+|poke|p1|Kyogre|item
+|poke|p1|Landorus, M|item
+|poke|p2|Groudon|item
+|poke|p2|Ferrothorn, M|item
+|poke|p2|Genesect-*|item
+|poke|p2|Arceus-*|item
+|poke|p2|Latios, M|item
+|poke|p2|Sableye, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by SolAnima)
+|choice|team 5, team 2, team 3, team 4, team 1, team 6|team 6, team 2, team 3, team 4, team 5, team 1
+|
+|start
+|switch|p1a: Kyogre|Kyogre|100/100
+|switch|p2a: Sableye|Sableye, M|100/100
+|detailschange|p1a: Kyogre|Kyogre-Primal
+|-primal|p1a: Kyogre
+|-weather|PrimordialSea|[from] ability: Primordial Sea|[of] p1a: Kyogre
+|turn|1
+|choice|move scald|move protect mega
+|
+|detailschange|p2a: Sableye|Sableye-Mega, M
+|-mega|p2a: Sableye|Sableye|Sablenite
+|move|p2a: Sableye|Protect|p2a: Sableye
+|-singleturn|p2a: Sableye|Protect
+|move|p1a: Kyogre|Scald|p2a: Sableye
+|-activate|p2a: Sableye|move: Protect
+|
+|-weather|PrimordialSea|[upkeep]
+|upkeep
+|turn|2
+|choice|move scald|switch 2
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|move|p1a: Kyogre|Scald|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|77/100
+|
+|-weather|PrimordialSea|[upkeep]
+|-heal|p2a: Ferrothorn|83/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|choice|move roar|move spikes
+|
+|move|p2a: Ferrothorn|Spikes|p1a: Kyogre
+|-sidestart|p1: SolAnima|Spikes
+|move|p1a: Kyogre|Roar|p2a: Ferrothorn
+|drag|p2a: Genesect|Genesect|100/100
+|-ability|p2a: Genesect|Download|boost
+|-boost|p2a: Genesect|atk|1
+|
+|-weather|PrimordialSea|[upkeep]
+|upkeep
+|turn|4
+|choice|move scald|move uturn
+|
+|move|p2a: Genesect|U-turn|p1a: Kyogre
+|-damage|p1a: Kyogre|65/100
+|choice||switch 3
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|83/100
+|move|p1a: Kyogre|Scald|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|62/100
+|-status|p2a: Ferrothorn|brn
+|
+|-weather|PrimordialSea|[upkeep]
+|-heal|p2a: Ferrothorn|68/100 brn|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|56/100 brn|[from] brn
+|upkeep
+|turn|5
+|choice|move rest|move leechseed
+|
+|move|p1a: Kyogre|Rest|p1a: Kyogre
+|-status|p1a: Kyogre|slp
+|-heal|p1a: Kyogre|100/100 slp|[silent]
+|-status|p1a: Kyogre|slp|[from] move: Rest
+|move|p2a: Ferrothorn|Leech Seed|p1a: Kyogre
+|-start|p1a: Kyogre|move: Leech Seed
+|
+|-weather|PrimordialSea|[upkeep]
+|-heal|p2a: Ferrothorn|62/100 brn|[from] item: Leftovers
+|-damage|p1a: Kyogre|88/100 slp|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|76/100 brn|[silent]
+|-damage|p2a: Ferrothorn|64/100 brn|[from] brn
+|upkeep
+|turn|6
+|choice|switch 3|move spikes
+|
+|-weather|none
+|switch|p1a: Deoxys|Deoxys-Speed|100/100
+|-damage|p1a: Deoxys|88/100|[from] Spikes
+|-ability|p1a: Deoxys|Pressure
+|move|p2a: Ferrothorn|Spikes|p1a: Deoxys
+|-sidestart|p1: SolAnima|Spikes
+|
+|-heal|p2a: Ferrothorn|70/100 brn|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|57/100 brn|[from] brn
+|upkeep
+|turn|7
+|choice|move taunt|switch 2
+|
+|switch|p2a: Sableye|Sableye-Mega, M|100/100
+|move|p1a: Deoxys|Taunt|p2a: Sableye
+|move|p2a: Sableye|Taunt|p1a: Deoxys|[from]Magic Bounce
+|-start|p1a: Deoxys|move: Taunt
+|
+|upkeep
+|turn|8
+|choice|switch 3|move willowisp
+|
+|switch|p1a: Kyogre|Kyogre-Primal|88/100 slp
+|-damage|p1a: Kyogre|71/100 slp|[from] Spikes
+|-weather|PrimordialSea|[from] ability: Primordial Sea|[of] p1a: Kyogre
+|move|p2a: Sableye|Will-O-Wisp|p1a: Kyogre
+|-fail|p1a: Kyogre
+|
+|-weather|PrimordialSea|[upkeep]
+|upkeep
+|turn|9
+|choice|move sleeptalk|switch 6
+|
+|switch|p2a: Groudon|Groudon|100/100
+|detailschange|p2a: Groudon|Groudon-Primal
+|-primal|p2a: Groudon
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p2a: Groudon
+|cant|p1a: Kyogre|slp
+|move|p1a: Kyogre|Sleep Talk|p1a: Kyogre
+|move|p1a: Kyogre|Scald|p2a: Groudon|[from]Sleep Talk
+|-fail|p2a: Groudon|Scald|[from] Desolate Land
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|10
+|choice|switch 3|move stealthrock
+|
+|switch|p1a: Deoxys|Deoxys-Speed|88/100
+|-damage|p1a: Deoxys|72/100|[from] Spikes
+|-ability|p1a: Deoxys|Pressure
+|move|p2a: Groudon|Stealth Rock|p1a: Deoxys
+|-sidestart|p1: SolAnima|move: Stealth Rock
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|11
+|choice|move reflect|switch 6
+|
+|-weather|none
+|switch|p2a: Sableye|Sableye-Mega, M|100/100
+|move|p1a: Deoxys|Reflect|p1a: Deoxys
+|-sidestart|p1: SolAnima|Reflect
+|
+|upkeep
+|turn|12
+|choice|move lightscreen|move willowisp
+|
+|move|p1a: Deoxys|Light Screen|p1a: Deoxys
+|-sidestart|p1: SolAnima|move: Light Screen
+|move|p2a: Sableye|Will-O-Wisp|p1a: Deoxys
+|-status|p1a: Deoxys|brn
+|
+|-damage|p1a: Deoxys|59/100 brn|[from] brn
+|upkeep
+|turn|13
+|choice|move stealthrock|move willowisp
+|
+|move|p1a: Deoxys|Stealth Rock|p2a: Sableye
+|move|p2a: Sableye|Stealth Rock|p1a: Deoxys|[from]Magic Bounce
+|-fail|p1a: Deoxys
+|move|p2a: Sableye|Will-O-Wisp|p1a: Deoxys
+|-fail|p1a: Deoxys|brn
+|
+|-damage|p1a: Deoxys|47/100 brn|[from] brn
+|upkeep
+|turn|14
+|choice|switch 3|move willowisp
+|
+|switch|p1a: Kyogre|Kyogre-Primal|71/100 slp
+|-damage|p1a: Kyogre|55/100 slp|[from] Spikes
+|-damage|p1a: Kyogre|42/100 slp|[from] Stealth Rock
+|-weather|PrimordialSea|[from] ability: Primordial Sea|[of] p1a: Kyogre
+|move|p2a: Sableye|Will-O-Wisp|p1a: Kyogre
+|-fail|p1a: Kyogre
+|
+|-weather|PrimordialSea|[upkeep]
+|upkeep
+|turn|15
+|choice|move rest|switch 6
+|
+|switch|p2a: Groudon|Groudon-Primal|100/100
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p2a: Groudon
+|cant|p1a: Kyogre|slp
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|16
+|choice|move rest|move thunderwave
+|
+|move|p2a: Groudon|Thunder Wave|p1a: Kyogre
+|-fail|p1a: Kyogre
+|-curestatus|p1a: Kyogre|slp|[msg]
+|move|p1a: Kyogre|Rest|p1a: Kyogre
+|-status|p1a: Kyogre|slp
+|-heal|p1a: Kyogre|100/100 slp|[silent]
+|-status|p1a: Kyogre|slp|[from] move: Rest
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|17
+|c|☆SolAnima|Bruh
+|choice|move scald|move thunderwave
+|
+|move|p2a: Groudon|Thunder Wave|p1a: Kyogre
+|-fail|p1a: Kyogre
+|cant|p1a: Kyogre|slp
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|18
+|choice|move sleeptalk|move thunderwave
+|
+|move|p2a: Groudon|Thunder Wave|p1a: Kyogre
+|-fail|p1a: Kyogre
+|cant|p1a: Kyogre|slp
+|move|p1a: Kyogre|Sleep Talk|p1a: Kyogre
+|move|p1a: Kyogre|Roar|p2a: Groudon|[from]Sleep Talk
+|-weather|none
+|drag|p2a: Ferrothorn|Ferrothorn, M|57/100 brn
+|
+|-heal|p2a: Ferrothorn|63/100 brn|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|51/100 brn|[from] brn
+|-sideend|p1: SolAnima|Reflect
+|upkeep
+|turn|19
+|choice|switch 3|move spikes
+|
+|switch|p1a: Deoxys|Deoxys-Speed|47/100 brn
+|-damage|p1a: Deoxys|30/100 brn|[from] Spikes
+|-damage|p1a: Deoxys|18/100 brn|[from] Stealth Rock
+|-ability|p1a: Deoxys|Pressure
+|move|p2a: Ferrothorn|Spikes|p1a: Deoxys
+|-sidestart|p1: SolAnima|Spikes
+|
+|-heal|p2a: Ferrothorn|57/100 brn|[from] item: Leftovers
+|-damage|p1a: Deoxys|5/100 brn|[from] brn
+|-damage|p2a: Ferrothorn|45/100 brn|[from] brn
+|-sideend|p1: SolAnima|move: Light Screen
+|upkeep
+|turn|20
+|choice|move stealthrock|switch 3
+|
+|switch|p2a: Genesect|Genesect|100/100
+|-ability|p2a: Genesect|Download|boost
+|-boost|p2a: Genesect|spa|1
+|move|p1a: Deoxys|Stealth Rock|p2a: Genesect
+|-sidestart|p2: unknowndestination|move: Stealth Rock
+|
+|-damage|p1a: Deoxys|0 fnt|[from] brn
+|upkeep
+|faint|p1a: Deoxys
+|choice|switch 4|
+|
+|switch|p1a: Scizor|Scizor, M|100/100
+|-damage|p1a: Scizor|88/100|[from] Stealth Rock
+|-damage|p1a: Scizor|63/100|[from] Spikes
+|turn|21
+|choice|move defog mega|move explosion
+|
+|detailschange|p1a: Scizor|Scizor-Mega, M
+|-mega|p1a: Scizor|Scizor|Scizorite
+|move|p2a: Genesect|Explosion|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|36/100
+|faint|p2a: Genesect
+|move|p1a: Scizor|Defog|p2: Genesect|[notarget]
+|-notarget
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Latios|Latios, M|100/100
+|-damage|p2a: Latios|88/100|[from] Stealth Rock
+|turn|22
+|choice|move bulletpunch|move hiddenpower
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Latios
+|-damage|p2a: Latios|47/100
+|move|p2a: Latios|Hidden Power|p1a: Scizor
+|-supereffective|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|faint|p1a: Scizor
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Landorus|Landorus, M|100/100
+|-damage|p1a: Landorus|88/100|[from] Stealth Rock
+|turn|23
+|choice|move knockoff|move dracometeor
+|
+|move|p2a: Latios|Draco Meteor|p1a: Landorus|[miss]
+|-miss|p2a: Latios|p1a: Landorus
+|move|p1a: Landorus|Knock Off|p2a: Latios
+|-supereffective|p2a: Latios
+|-damage|p2a: Latios|0 fnt
+|-enditem|p2a: Latios|Soul Dew|[from] move: Knock Off|[of] p1a: Landorus
+|-damage|p1a: Landorus|79/100|[from] item: Life Orb
+|faint|p2a: Latios
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Arceus|Arceus-Dragon|100/100
+|-damage|p2a: Arceus|88/100|[from] Stealth Rock
+|turn|24
+|c|☆unknowndestination|that really happend
+|c|☆unknowndestination|when you just won but
+|c|☆SolAnima|I've been haxed much worse
+|choice|move sludgewave|move judgment
+|
+|move|p1a: Landorus|Sludge Wave|p2a: Arceus
+|-damage|p2a: Arceus|53/100
+|move|p2a: Arceus|Judgment|p1a: Landorus
+|-damage|p1a: Landorus|18/100
+|
+|upkeep
+|turn|25
+|c|☆unknowndestination|well doesnt change the situation does it
+|choice|move knockoff|move judgment
+|
+|move|p1a: Landorus|Knock Off|p2a: Arceus
+|-damage|p2a: Arceus|42/100
+|-damage|p1a: Landorus|9/100|[from] item: Life Orb
+|move|p2a: Arceus|Judgment|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Kyogre|Kyogre-Primal|100/100 slp
+|-damage|p1a: Kyogre|88/100 slp|[from] Stealth Rock
+|-damage|p1a: Kyogre|63/100 slp|[from] Spikes
+|-weather|PrimordialSea|[from] ability: Primordial Sea|[of] p1a: Kyogre
+|turn|26
+|choice|move sleeptalk|move recover
+|
+|move|p2a: Arceus|Recover|p2a: Arceus
+|-heal|p2a: Arceus|92/100
+|-curestatus|p1a: Kyogre|slp|[msg]
+|move|p1a: Kyogre|Sleep Talk|p1a: Kyogre
+|-fail|p1a: Kyogre
+|
+|-weather|PrimordialSea|[upkeep]
+|upkeep
+|turn|27
+|choice|move rest|switch 3
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|45/100 brn
+|-damage|p2a: Ferrothorn|39/100 brn|[from] Stealth Rock
+|move|p1a: Kyogre|Rest|p1a: Kyogre
+|-status|p1a: Kyogre|slp
+|-heal|p1a: Kyogre|100/100 slp|[silent]
+|-status|p1a: Kyogre|slp|[from] move: Rest
+|
+|-weather|PrimordialSea|[upkeep]
+|-heal|p2a: Ferrothorn|45/100 brn|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|33/100 brn|[from] brn
+|upkeep
+|turn|28
+|choice|move sleeptalk|move leechseed
+|
+|cant|p1a: Kyogre|slp
+|move|p1a: Kyogre|Sleep Talk|p1a: Kyogre
+|move|p1a: Kyogre|Rest|p1a: Kyogre|[from]Sleep Talk
+|-fail|p1a: Kyogre
+|move|p2a: Ferrothorn|Leech Seed|p1a: Kyogre
+|-start|p1a: Kyogre|move: Leech Seed
+|
+|-weather|PrimordialSea|[upkeep]
+|-heal|p2a: Ferrothorn|39/100 brn|[from] item: Leftovers
+|-damage|p1a: Kyogre|88/100 slp|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|53/100 brn|[silent]
+|-damage|p2a: Ferrothorn|41/100 brn|[from] brn
+|upkeep
+|turn|29
+|choice|move sleeptalk|move powerwhip
+|
+|cant|p1a: Kyogre|slp
+|move|p1a: Kyogre|Sleep Talk|p1a: Kyogre
+|move|p1a: Kyogre|Rest|p1a: Kyogre|[from]Sleep Talk
+|-fail|p1a: Kyogre
+|move|p2a: Ferrothorn|Power Whip|p1a: Kyogre
+|-supereffective|p1a: Kyogre
+|-damage|p1a: Kyogre|64/100 slp
+|
+|-weather|PrimordialSea|[upkeep]
+|-heal|p2a: Ferrothorn|47/100 brn|[from] item: Leftovers
+|-damage|p1a: Kyogre|51/100 slp|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|61/100 brn|[silent]
+|-damage|p2a: Ferrothorn|49/100 brn|[from] brn
+|upkeep
+|turn|30
+|choice|move rest|move powerwhip
+|
+|-curestatus|p1a: Kyogre|slp|[msg]
+|move|p1a: Kyogre|Rest|p1a: Kyogre
+|-status|p1a: Kyogre|slp
+|-heal|p1a: Kyogre|100/100 slp|[silent]
+|-status|p1a: Kyogre|slp|[from] move: Rest
+|move|p2a: Ferrothorn|Power Whip|p1a: Kyogre
+|-supereffective|p1a: Kyogre
+|-damage|p1a: Kyogre|74/100 slp
+|
+|-weather|PrimordialSea|[upkeep]
+|-heal|p2a: Ferrothorn|55/100 brn|[from] item: Leftovers
+|-damage|p1a: Kyogre|61/100 slp|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|69/100 brn|[silent]
+|-damage|p2a: Ferrothorn|57/100 brn|[from] brn
+|upkeep
+|turn|31
+|choice|switch 2|move powerwhip
+|
+|-weather|none
+|switch|p1a: Arceus|Arceus-Fire|100/100
+|-damage|p1a: Arceus|76/100|[from] Stealth Rock
+|-damage|p1a: Arceus|51/100|[from] Spikes
+|move|p2a: Ferrothorn|Power Whip|p1a: Arceus
+|-resisted|p1a: Arceus
+|-crit|p1a: Arceus
+|-damage|p1a: Arceus|41/100
+|
+|-heal|p2a: Ferrothorn|63/100 brn|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|50/100 brn|[from] brn
+|upkeep
+|turn|32
+|choice|move calmmind|move leechseed
+|
+|move|p1a: Arceus|Calm Mind|p1a: Arceus
+|-boost|p1a: Arceus|spa|1
+|-boost|p1a: Arceus|spd|1
+|move|p2a: Ferrothorn|Leech Seed|p1a: Arceus|[miss]
+|-miss|p2a: Ferrothorn|p1a: Arceus
+|
+|-heal|p2a: Ferrothorn|56/100 brn|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|44/100 brn|[from] brn
+|upkeep
+|turn|33
+|c|☆unknowndestination|ofc
+|choice|move fireblast|move leechseed
+|
+|move|p1a: Arceus|Fire Blast|p2a: Ferrothorn|[miss]
+|-miss|p1a: Arceus|p2a: Ferrothorn
+|move|p2a: Ferrothorn|Leech Seed|p1a: Arceus
+|-start|p1a: Arceus|move: Leech Seed
+|
+|-heal|p2a: Ferrothorn|50/100 brn|[from] item: Leftovers
+|-damage|p1a: Arceus|29/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|65/100 brn|[silent]
+|-damage|p2a: Ferrothorn|53/100 brn|[from] brn
+|upkeep
+|turn|34
+|c|☆unknowndestination|fair enough
+|c|☆SolAnima|OH MY GOSH
+|choice|move fireblast|move protect
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Arceus|Fire Blast|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|move: Protect
+|
+|-heal|p2a: Ferrothorn|59/100 brn|[from] item: Leftovers
+|-damage|p1a: Arceus|16/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|74/100 brn|[silent]
+|-damage|p2a: Ferrothorn|62/100 brn|[from] brn
+|upkeep
+|turn|35
+|choice|move fireblast|switch 3
+|
+|switch|p2a: Arceus|Arceus-Dragon|92/100
+|-damage|p2a: Arceus|80/100|[from] Stealth Rock
+|move|p1a: Arceus|Fire Blast|p2a: Arceus
+|-resisted|p2a: Arceus
+|-damage|p2a: Arceus|43/100
+|
+|-damage|p1a: Arceus|4/100|[from] Leech Seed|[of] p2a: Arceus
+|-heal|p2a: Arceus|55/100|[silent]
+|upkeep
+|turn|36
+|choice|move thunder|move recover
+|
+|move|p1a: Arceus|Thunder|p2a: Arceus
+|-resisted|p2a: Arceus
+|-crit|p2a: Arceus
+|-damage|p2a: Arceus|25/100
+|move|p2a: Arceus|Recover|p2a: Arceus
+|-heal|p2a: Arceus|75/100
+|
+|-damage|p1a: Arceus|0 fnt|[from] Leech Seed|[of] p2a: Arceus
+|-heal|p2a: Arceus|78/100|[silent]
+|upkeep
+|faint|p1a: Arceus
+|c|☆SolAnima|Bruh
+|c|☆SolAnima|Lowkey
+|c|☆SolAnima|My team is super disadvantaged agaiinst yours
+|c|☆unknowndestination|tell me about hax
+|c|☆unknowndestination|pls
+|c|☆SolAnima|Primal Groudon kinda kills my whole team
+|c|☆unknowndestination|well if you know off an arceus
+|c|☆unknowndestination|then yeah
+|c|☆unknowndestination|primal ogre and scizor both wall it
+|c|☆unknowndestination|js
+|c|☆SolAnima|No
+|c|☆unknowndestination|and landorus ohkos
+|c|☆SolAnima|No they don't
+|c|☆unknowndestination|yes they do
+|c|☆unknowndestination|i have no fire move
+|c|☆SolAnima|No they
+|c|☆SolAnima|If I switch in with them they die
+|c|☆SolAnima|And then you have ferrothorn and your magic bouncer keeping me occupied
+|choice|switch 2|
+|
+|switch|p1a: Kyogre|Kyogre-Primal|61/100 slp
+|-damage|p1a: Kyogre|49/100 slp|[from] Stealth Rock
+|-damage|p1a: Kyogre|24/100 slp|[from] Spikes
+|-weather|PrimordialSea|[from] ability: Primordial Sea|[of] p1a: Kyogre
+|turn|37
+|c|☆unknowndestination|it is a roll at best
+|choice|move rest|switch 3
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|62/100 brn
+|-damage|p2a: Ferrothorn|56/100 brn|[from] Stealth Rock
+|cant|p1a: Kyogre|slp
+|
+|-weather|PrimordialSea|[upkeep]
+|-heal|p2a: Ferrothorn|62/100 brn|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|50/100 brn|[from] brn
+|upkeep
+|turn|38
+|choice|move rest|move leechseed
+|
+|cant|p1a: Kyogre|slp
+|move|p2a: Ferrothorn|Leech Seed|p1a: Kyogre
+|-start|p1a: Kyogre|move: Leech Seed
+|
+|-weather|PrimordialSea|[upkeep]
+|-heal|p2a: Ferrothorn|55/100 brn|[from] item: Leftovers
+|-damage|p1a: Kyogre|12/100 slp|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|70/100 brn|[silent]
+|-damage|p2a: Ferrothorn|57/100 brn|[from] brn
+|upkeep
+|turn|39
+|choice|move rest|move powerwhip
+|
+|-curestatus|p1a: Kyogre|slp|[msg]
+|move|p1a: Kyogre|Rest|p1a: Kyogre
+|-status|p1a: Kyogre|slp
+|-heal|p1a: Kyogre|100/100 slp|[silent]
+|-status|p1a: Kyogre|slp|[from] move: Rest
+|move|p2a: Ferrothorn|Power Whip|p1a: Kyogre
+|-supereffective|p1a: Kyogre
+|-damage|p1a: Kyogre|76/100 slp
+|
+|-weather|PrimordialSea|[upkeep]
+|-heal|p2a: Ferrothorn|63/100 brn|[from] item: Leftovers
+|-damage|p1a: Kyogre|64/100 slp|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|78/100 brn|[silent]
+|-damage|p2a: Ferrothorn|65/100 brn|[from] brn
+|upkeep
+|turn|40
+|c|☆SolAnima|I just lost this game
+|c|☆SolAnima|Because of a mis
+|c|☆unknowndestination|are you kiding
+|c|☆SolAnima|Yeah
+|c|☆unknowndestination|you would have lost 20 turns ago
+|c|☆unknowndestination|if you didnt doge a draco
+|c|☆SolAnima|Mean to say miss
+|choice|move roar|move powerwhip
+|
+|move|p2a: Ferrothorn|Power Whip|p1a: Kyogre
+|-supereffective|p1a: Kyogre
+|-damage|p1a: Kyogre|39/100 slp
+|cant|p1a: Kyogre|slp
+|
+|-weather|PrimordialSea|[upkeep]
+|-heal|p2a: Ferrothorn|71/100 brn|[from] item: Leftovers
+|-damage|p1a: Kyogre|27/100 slp|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|86/100 brn|[silent]
+|-damage|p2a: Ferrothorn|73/100 brn|[from] brn
+|upkeep
+|turn|41
+|c|☆SolAnima|I might've lived that
+|c|☆SolAnima|I believe so
+|choice|move roar|move powerwhip
+|
+|move|p2a: Ferrothorn|Power Whip|p1a: Kyogre
+|-supereffective|p1a: Kyogre
+|-crit|p1a: Kyogre
+|-damage|p1a: Kyogre|0 fnt
+|faint|p1a: Kyogre
+|-weather|none
+|
+|-heal|p2a: Ferrothorn|79/100 brn|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|67/100 brn|[from] brn
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Shaymin|Shaymin-Sky|100/100
+|-damage|p1a: Shaymin|76/100|[from] Stealth Rock
+|turn|42
+|c|☆unknowndestination|252 SpA Soul Dew Latias Draco Meteor vs. 0 HP / 0- SpD Landorus: 304-358 (95.2 - 112.2%) -- 68.8% chance to OHKO
+|c|☆unknowndestination|nope
+|c|☆unknowndestination|you took rocks damage
+|c|☆SolAnima|not a 100%
+|c|☆SolAnima|Chance
+|c|☆unknowndestination|so you died 100%
+|c|☆SolAnima|I could've live that
+|choice|move airslash|move powerwhip
+|
+|move|p1a: Shaymin|Air Slash|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|35/100 brn
+|-damage|p1a: Shaymin|66/100|[from] item: Life Orb
+|cant|p2a: Ferrothorn|flinch
+|
+|-heal|p2a: Ferrothorn|41/100 brn|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|28/100 brn|[from] brn
+|upkeep
+|turn|43
+|c|☆unknowndestination|you were at 88%....
+|c|☆unknowndestination|are you retarded
+|choice|move airslash|move powerwhip
+|
+|move|p1a: Shaymin|Air Slash|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|-damage|p1a: Shaymin|56/100|[from] item: Life Orb
+|faint|p2a: Ferrothorn
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Sableye|Sableye-Mega, M|100/100
+|-damage|p2a: Sableye|88/100|[from] Stealth Rock
+|turn|44
+|c|☆SolAnima|You might be
+|c|☆unknowndestination|i mean you cant even count
+|c|☆SolAnima|Trying to throw insults over a game
+|choice|move airslash|move foulplay
+|
+|move|p1a: Shaymin|Air Slash|p2a: Sableye
+|-damage|p2a: Sableye|36/100
+|-damage|p1a: Shaymin|46/100|[from] item: Life Orb
+|cant|p2a: Sableye|flinch
+|
+|upkeep
+|turn|45
+|choice|move airslash|move foulplay
+|
+|move|p1a: Shaymin|Air Slash|p2a: Sableye
+|-damage|p2a: Sableye|0 fnt
+|-damage|p1a: Shaymin|36/100|[from] item: Life Orb
+|faint|p2a: Sableye
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Arceus|Arceus-Dragon|78/100
+|-damage|p2a: Arceus|66/100|[from] Stealth Rock
+|turn|46
+|choice|move airslash|move judgment
+|
+|move|p1a: Shaymin|Air Slash|p2a: Arceus
+|-damage|p2a: Arceus|33/100
+|-damage|p1a: Shaymin|26/100|[from] item: Life Orb
+|cant|p2a: Arceus|flinch
+|
+|upkeep
+|turn|47
+|choice|move airslash|move judgment
+|
+|move|p1a: Shaymin|Air Slash|p2a: Arceus
+|-crit|p2a: Arceus
+|-damage|p2a: Arceus|0 fnt
+|-damage|p1a: Shaymin|16/100|[from] item: Life Orb
+|faint|p2a: Arceus
+|
+|upkeep
+|c|☆unknowndestination|nvm this ass will hax his way to win
+|c|☆unknowndestination|like before
+|choice||switch 2
+|
+|switch|p2a: Groudon|Groudon-Primal|100/100
+|-damage|p2a: Groudon|88/100|[from] Stealth Rock
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p2a: Groudon
+|turn|48
+|choice|move earthpower|move thunderwave
+|
+|move|p1a: Shaymin|Earth Power|p2a: Groudon
+|-supereffective|p2a: Groudon
+|-damage|p2a: Groudon|29/100
+|-damage|p1a: Shaymin|6/100|[from] item: Life Orb
+|move|p2a: Groudon|Thunder Wave|p1a: Shaymin
+|-status|p1a: Shaymin|par
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|49
+|choice|move earthpower|move stoneedge
+|
+|move|p2a: Groudon|Stone Edge|p1a: Shaymin|[miss]
+|-miss|p2a: Groudon|p1a: Shaymin
+|move|p1a: Shaymin|Earth Power|p2a: Groudon
+|-supereffective|p2a: Groudon
+|-damage|p2a: Groudon|0 fnt
+|-damage|p1a: Shaymin|0 fnt|[from] item: Life Orb
+|faint|p2a: Groudon
+|-weather|none
+|faint|p1a: Shaymin
+|
+|win|SolAnima
+|raw|SolAnima's rating: 1338 &rarr; <strong>1354</strong><br />(+16 for winning)
+|raw|unknowndestination's rating: 1257 &rarr; <strong>1238</strong><br />(-19 for losing)
+|c|☆SolAnima|This is amazing karma
+|l|unknowndestination

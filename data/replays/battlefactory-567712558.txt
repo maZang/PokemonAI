@@ -1,0 +1,305 @@
+|j|clutchfans
+|j|jedi until
+|player|p1|clutchfans|129
+|player|p2|jedi until|266
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|50639,19018,35386,20575,23859,59516,54278,50830,28286,7740,42676,15866
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Rotom-Fan|item
+|poke|p1|Miltank, F|item
+|poke|p1|Muk, M|item
+|poke|p1|Skuntank, M|item
+|poke|p1|Malamar, M|item
+|poke|p1|Sliggoo, M|item
+|poke|p2|Exeggutor, M|item
+|poke|p2|Mesprit|item
+|poke|p2|Prinplup, M|item
+|poke|p2|Aurorus, M|item
+|poke|p2|Zangoose, M|item
+|poke|p2|Vileplume, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by jedi until)
+|choice|team 4, team 2, team 3, team 1, team 5, team 6|team 2, team 1, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Skuntank|Skuntank, M|100/100
+|switch|p2a: Mesprit|Mesprit|100/100
+|turn|1
+|choice|move darkpulse|move uturn
+|
+|move|p1a: Skuntank|Dark Pulse|p2a: Mesprit
+|-supereffective|p2a: Mesprit
+|-damage|p2a: Mesprit|39/100
+|move|p2a: Mesprit|U-turn|p1a: Skuntank
+|-damage|p1a: Skuntank|79/100
+|choice||switch 4
+|
+|switch|p2a: Aurorus|Aurorus, M|100/100
+|
+|upkeep
+|turn|2
+|choice|switch 3|move hypervoice
+|
+|switch|p1a: Muk|Muk, M|100/100
+|move|p2a: Aurorus|Hyper Voice|p1a: Muk
+|-damage|p1a: Muk|63/100
+|
+|upkeep
+|turn|3
+|choice|move gunkshot|switch 3
+|
+|switch|p2a: Prinplup|Prinplup, M|100/100
+|move|p1a: Muk|Gunk Shot|p2a: Prinplup
+|-damage|p2a: Prinplup|61/100
+|
+|upkeep
+|turn|4
+|choice|switch 4|move scald
+|
+|switch|p1a: Rotom|Rotom-Fan|100/100
+|move|p2a: Prinplup|Scald|p1a: Rotom
+|-damage|p1a: Rotom|69/100
+|
+|upkeep
+|turn|5
+|choice|move voltswitch|switch 3
+|
+|switch|p2a: Aurorus|Aurorus, M|100/100
+|move|p1a: Rotom|Volt Switch|p2a: Aurorus
+|-damage|p2a: Aurorus|71/100
+|choice|switch 5|
+|
+|switch|p1a: Malamar|Malamar, M|100/100
+|
+|upkeep
+|turn|6
+|choice|move superpower|move hypervoice
+|
+|move|p2a: Aurorus|Hyper Voice|p1a: Malamar
+|-damage|p1a: Malamar|41/100
+|move|p1a: Malamar|Superpower|p2a: Aurorus
+|-supereffective|p2a: Aurorus
+|-damage|p2a: Aurorus|0 fnt
+|-boost|p1a: Malamar|atk|1
+|-boost|p1a: Malamar|def|1
+|faint|p2a: Aurorus
+|
+|-heal|p1a: Malamar|47/100|[from] item: Leftovers
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Mesprit|Mesprit|39/100
+|turn|7
+|choice|switch 4|move uturn
+|
+|switch|p1a: Muk|Muk, M|63/100
+|move|p2a: Mesprit|U-turn|p1a: Muk
+|-resisted|p1a: Muk
+|-crit|p1a: Muk
+|-damage|p1a: Muk|50/100
+|choice||switch 5
+|
+|switch|p2a: Zangoose|Zangoose, M|100/100
+|
+|-status|p2a: Zangoose|tox|[from] item: Toxic Orb
+|upkeep
+|turn|8
+|choice|move poisonjab|move facade
+|
+|move|p2a: Zangoose|Facade|p1a: Muk
+|-damage|p1a: Muk|0 fnt
+|faint|p1a: Muk
+|
+|-damage|p2a: Zangoose|95/100 tox|[from] psn
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Miltank|Miltank, F|100/100
+|turn|9
+|choice|move bodyslam|move closecombat
+|
+|move|p2a: Zangoose|Close Combat|p1a: Miltank
+|-supereffective|p1a: Miltank
+|-damage|p1a: Miltank|35/100
+|-unboost|p2a: Zangoose|def|1
+|-unboost|p2a: Zangoose|spd|1
+|move|p1a: Miltank|Body Slam|p2a: Zangoose
+|-damage|p2a: Zangoose|23/100 tox
+|
+|-heal|p1a: Miltank|41/100|[from] item: Leftovers
+|-damage|p2a: Zangoose|12/100 tox|[from] psn
+|upkeep
+|turn|10
+|choice|move stealthrock|switch 6
+|
+|switch|p2a: Vileplume|Vileplume, M|100/100
+|move|p1a: Miltank|Stealth Rock|p2a: Vileplume
+|-sidestart|p2: jedi until|move: Stealth Rock
+|
+|-heal|p1a: Miltank|47/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|choice|move milkdrink|move sludgebomb
+|
+|move|p1a: Miltank|Milk Drink|p1a: Miltank
+|-heal|p1a: Miltank|97/100
+|move|p2a: Vileplume|Sludge Bomb|p1a: Miltank
+|-damage|p1a: Miltank|42/100
+|
+|-heal|p1a: Miltank|48/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|choice|switch 6|move sludgebomb
+|
+|switch|p1a: Sliggoo|Sliggoo, M|100/100
+|move|p2a: Vileplume|Sludge Bomb|p1a: Sliggoo
+|-damage|p1a: Sliggoo|69/100
+|
+|upkeep
+|turn|13
+|choice|move dracometeor|move sludgebomb
+|
+|move|p1a: Sliggoo|Draco Meteor|p2a: Vileplume
+|-damage|p2a: Vileplume|33/100
+|-unboost|p1a: Sliggoo|spa|2
+|move|p2a: Vileplume|Sludge Bomb|p1a: Sliggoo
+|-damage|p1a: Sliggoo|38/100
+|
+|-heal|p2a: Vileplume|39/100|[from] item: Black Sludge
+|upkeep
+|turn|14
+|choice|switch 3|move sludgebomb
+|
+|switch|p1a: Skuntank|Skuntank, M|79/100
+|move|p2a: Vileplume|Sludge Bomb|p1a: Skuntank
+|-resisted|p1a: Skuntank
+|-damage|p1a: Skuntank|44/100
+|
+|-heal|p2a: Vileplume|45/100|[from] item: Black Sludge
+|upkeep
+|turn|15
+|choice|move fireblast|move synthesis
+|
+|move|p1a: Skuntank|Fire Blast|p2a: Vileplume
+|-supereffective|p2a: Vileplume
+|-damage|p2a: Vileplume|0 fnt
+|faint|p2a: Vileplume
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Prinplup|Prinplup, M|61/100
+|-damage|p2a: Prinplup|49/100|[from] Stealth Rock
+|turn|16
+|choice|move hiddenpower|move scald
+|
+|move|p1a: Skuntank|Hidden Power|p2a: Prinplup
+|-supereffective|p2a: Prinplup
+|-damage|p2a: Prinplup|16/100
+|move|p2a: Prinplup|Scald|p1a: Skuntank
+|-damage|p1a: Skuntank|0 fnt
+|faint|p1a: Skuntank
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Rotom|Rotom-Fan|69/100
+|turn|17
+|choice|move voltswitch|move stealthrock
+|
+|move|p1a: Rotom|Volt Switch|p2a: Prinplup
+|-supereffective|p2a: Prinplup
+|-damage|p2a: Prinplup|0 fnt
+|faint|p2a: Prinplup
+|choice|switch 4|
+|
+|switch|p1a: Malamar|Malamar, M|47/100
+|
+|-heal|p1a: Malamar|53/100|[from] item: Leftovers
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Mesprit|Mesprit|39/100
+|-damage|p2a: Mesprit|27/100|[from] Stealth Rock
+|turn|18
+|choice|switch 3|move uturn
+|
+|switch|p1a: Sliggoo|Sliggoo, M|38/100
+|move|p2a: Mesprit|U-turn|p1a: Sliggoo
+|-damage|p1a: Sliggoo|18/100
+|choice||switch 2
+|
+|switch|p2a: Exeggutor|Exeggutor, M|100/100
+|-damage|p2a: Exeggutor|88/100|[from] Stealth Rock
+|
+|upkeep
+|turn|19
+|choice|move sludgebomb|move psychic
+|
+|move|p1a: Sliggoo|Sludge Bomb|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|22/100
+|-status|p2a: Exeggutor|psn
+|-enditem|p2a: Exeggutor|Lum Berry|[eat]
+|-curestatus|p2a: Exeggutor|psn|[msg]
+|move|p2a: Exeggutor|Psychic|p1a: Sliggoo
+|-damage|p1a: Sliggoo|0 fnt
+|faint|p1a: Sliggoo
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Malamar|Malamar, M|53/100
+|turn|20
+|choice|move knockoff|move gigadrain
+|
+|move|p1a: Malamar|Knock Off|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|0 fnt
+|faint|p2a: Exeggutor
+|
+|-heal|p1a: Malamar|59/100|[from] item: Leftovers
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Mesprit|Mesprit|27/100
+|-damage|p2a: Mesprit|15/100|[from] Stealth Rock
+|turn|21
+|choice|move knockoff|move healingwish
+|
+|move|p2a: Mesprit|Healing Wish|p2a: Mesprit
+|faint|p2a: Mesprit
+|move|p1a: Malamar|Knock Off|p2: Mesprit|[notarget]
+|-notarget
+|
+|-heal|p1a: Malamar|65/100|[from] item: Leftovers
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Zangoose|Zangoose, M|12/100 tox
+|-heal|p2a: Zangoose|100/100|[from] move: Healing Wish
+|-damage|p2a: Zangoose|88/100|[from] Stealth Rock
+|turn|22
+|choice|move knockoff|move facade
+|
+|move|p2a: Zangoose|Facade|p1a: Malamar
+|-damage|p1a: Malamar|30/100
+|move|p1a: Malamar|Knock Off|p2a: Zangoose
+|-damage|p2a: Zangoose|36/100
+|-enditem|p2a: Zangoose|Toxic Orb|[from] move: Knock Off|[of] p1a: Malamar
+|
+|-heal|p1a: Malamar|36/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|-message|jedi until forfeited.
+|
+|win|clutchfans
+|l|jedi until
+|raw|clutchfans's rating: 1228 &rarr; <strong>1260</strong><br />(+32 for winning)
+|raw|jedi until's rating: 1328 &rarr; <strong>1303</strong><br />(-25 for losing)

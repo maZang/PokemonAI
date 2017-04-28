@@ -1,0 +1,601 @@
+|j|lcezasfuck
+|j|Lxckyyyy
+|player|p1|lcezasfuck|#teamrocket
+|player|p2|Lxckyyyy|196
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|38824,34890,56519,18941,8646,13735,8703,934,43073,59149,27408,23658
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Zangoose, M|item
+|poke|p1|Ferroseed, M|item
+|poke|p1|Lanturn, M|item
+|poke|p1|Claydol|item
+|poke|p1|Swellow, M|item
+|poke|p1|Weezing, M|item
+|poke|p2|Jynx, F|item
+|poke|p2|Archeops, M|
+|poke|p2|Charizard, M|item
+|poke|p2|Hitmonchan, M|item
+|poke|p2|Rhydon, M|item
+|poke|p2|Audino, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 3, team 2, team 1, team 4, team 5, team 6|team 1, team 2, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Lanturn|Lanturn, M|100/100
+|switch|p2a: Jynx|Jynx, F|100/100
+|turn|1
+|choice|switch 5|switch 6
+|
+|switch|p2a: Audino|Audino, M|100/100
+|switch|p1a: Swellow|Swellow, M|100/100
+|
+|upkeep
+|turn|2
+|choice|move uturn|move dazzlinggleam mega
+|
+|detailschange|p2a: Audino|Audino-Mega, M
+|-mega|p2a: Audino|Audino|Audinite
+|move|p1a: Swellow|U-turn|p2a: Audino
+|-resisted|p2a: Audino
+|-damage|p2a: Audino|97/100
+|choice|switch 6|
+|
+|switch|p1a: Weezing|Weezing, M|100/100
+|move|p2a: Audino|Dazzling Gleam|p1a: Weezing
+|-resisted|p1a: Weezing
+|-damage|p1a: Weezing|84/100
+|
+|-heal|p1a: Weezing|90/100|[from] item: Black Sludge
+|upkeep
+|turn|3
+|choice|move sludgebomb|switch 5
+|
+|switch|p2a: Rhydon|Rhydon, M|100/100
+|move|p1a: Weezing|Sludge Bomb|p2a: Rhydon
+|-resisted|p2a: Rhydon
+|-damage|p2a: Rhydon|96/100
+|
+|-heal|p1a: Weezing|96/100|[from] item: Black Sludge
+|upkeep
+|turn|4
+|choice|move taunt|move stealthrock
+|
+|move|p1a: Weezing|Taunt|p2a: Rhydon
+|-start|p2a: Rhydon|move: Taunt
+|cant|p2a: Rhydon|move: Taunt|Stealth Rock
+|
+|-heal|p1a: Weezing|100/100|[from] item: Black Sludge
+|upkeep
+|turn|5
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by lcezasfuck)
+|choice|move willowisp|move rockblast
+|
+|move|p1a: Weezing|Will-O-Wisp|p2a: Rhydon
+|-status|p2a: Rhydon|brn
+|move|p2a: Rhydon|Rock Blast|p1a: Weezing
+|-damage|p1a: Weezing|96/100
+|-damage|p1a: Weezing|92/100
+|-damage|p1a: Weezing|87/100
+|-damage|p1a: Weezing|83/100
+|-hitcount|p1a: Weezing|4
+|
+|-heal|p1a: Weezing|89/100|[from] item: Black Sludge
+|-damage|p2a: Rhydon|83/100 brn|[from] brn
+|upkeep
+|turn|6
+|choice|move sludgebomb|move rockblast
+|
+|move|p1a: Weezing|Sludge Bomb|p2a: Rhydon
+|-resisted|p2a: Rhydon
+|-damage|p2a: Rhydon|79/100 brn
+|move|p2a: Rhydon|Rock Blast|p1a: Weezing
+|-damage|p1a: Weezing|85/100
+|-crit|p1a: Weezing
+|-damage|p1a: Weezing|79/100
+|-damage|p1a: Weezing|74/100
+|-damage|p1a: Weezing|70/100
+|-damage|p1a: Weezing|65/100
+|-hitcount|p1a: Weezing|5
+|
+|-heal|p1a: Weezing|71/100|[from] item: Black Sludge
+|-damage|p2a: Rhydon|67/100 brn|[from] brn
+|-end|p2a: Rhydon|move: Taunt
+|upkeep
+|turn|7
+|choice|move taunt|move rockblast
+|
+|move|p1a: Weezing|Taunt|p2a: Rhydon
+|-start|p2a: Rhydon|move: Taunt
+|move|p2a: Rhydon|Rock Blast|p1a: Weezing
+|-damage|p1a: Weezing|67/100
+|-damage|p1a: Weezing|63/100
+|-damage|p1a: Weezing|59/100
+|-damage|p1a: Weezing|54/100
+|-hitcount|p1a: Weezing|4
+|
+|-heal|p1a: Weezing|60/100|[from] item: Black Sludge
+|-damage|p2a: Rhydon|54/100 brn|[from] brn
+|upkeep
+|turn|8
+|choice|switch 4|move rockblast
+|
+|switch|p1a: Claydol|Claydol|100/100
+|move|p2a: Rhydon|Rock Blast|p1a: Claydol
+|-resisted|p1a: Claydol
+|-damage|p1a: Claydol|97/100
+|-resisted|p1a: Claydol
+|-damage|p1a: Claydol|93/100
+|-hitcount|p1a: Claydol|2
+|
+|-heal|p1a: Claydol|99/100|[from] item: Leftovers
+|-damage|p2a: Rhydon|42/100 brn|[from] brn
+|upkeep
+|turn|9
+|choice|move earthpower|switch 3
+|
+|switch|p2a: Charizard|Charizard, M|100/100
+|move|p1a: Claydol|Earth Power|p2a: Charizard
+|-immune|p2a: Charizard|[msg]
+|
+|-heal|p1a: Claydol|100/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|choice|switch 5|move fireblast
+|
+|switch|p1a: Lanturn|Lanturn, M|100/100
+|move|p2a: Charizard|Fire Blast|p1a: Lanturn|[miss]
+|-miss|p2a: Charizard|p1a: Lanturn
+|
+|upkeep
+|turn|11
+|choice|move voltswitch|switch 5
+|
+|switch|p2a: Audino|Audino-Mega, M|97/100
+|move|p1a: Lanturn|Volt Switch|p2a: Audino
+|-damage|p2a: Audino|83/100
+|choice|switch 4|
+|
+|switch|p1a: Weezing|Weezing, M|60/100
+|
+|-heal|p1a: Weezing|66/100|[from] item: Black Sludge
+|upkeep
+|turn|12
+|choice|move painsplit|move protect
+|
+|move|p2a: Audino|Protect|p2a: Audino
+|-singleturn|p2a: Audino|Protect
+|move|p1a: Weezing|Pain Split|p2a: Audino
+|-activate|p2a: Audino|move: Protect
+|
+|-heal|p1a: Weezing|72/100|[from] item: Black Sludge
+|upkeep
+|turn|13
+|choice|move taunt|switch 5
+|
+|switch|p2a: Charizard|Charizard, M|100/100
+|move|p1a: Weezing|Taunt|p2a: Charizard
+|-start|p2a: Charizard|move: Taunt
+|
+|-heal|p1a: Weezing|78/100|[from] item: Black Sludge
+|upkeep
+|turn|14
+|choice|move painsplit|switch 6
+|
+|switch|p2a: Jynx|Jynx, F|100/100
+|move|p1a: Weezing|Pain Split|p2a: Jynx
+|-sethp|p2a: Jynx|98/100|p1a: Weezing|80/100|[from] move: Pain Split
+|
+|-heal|p1a: Weezing|86/100|[from] item: Black Sludge
+|upkeep
+|turn|15
+|choice|switch 4|move psychic
+|
+|switch|p1a: Lanturn|Lanturn, M|100/100
+|move|p2a: Jynx|Psychic|p1a: Lanturn
+|-damage|p1a: Lanturn|65/100
+|
+|-heal|p1a: Lanturn|71/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|choice|move scald|move psychic
+|
+|move|p2a: Jynx|Psychic|p1a: Lanturn
+|-damage|p1a: Lanturn|38/100
+|move|p1a: Lanturn|Scald|p2a: Jynx
+|-heal|p2a: Jynx|100/100|[from] ability: Dry Skin|[of] p1a: Lanturn
+|
+|-heal|p1a: Lanturn|45/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|choice|move protect|move psychic
+|
+|move|p1a: Lanturn|Protect|p1a: Lanturn
+|-singleturn|p1a: Lanturn|Protect
+|move|p2a: Jynx|Psychic|p1a: Lanturn
+|-activate|p1a: Lanturn|move: Protect
+|
+|-heal|p1a: Lanturn|51/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|choice|switch 5|switch 6
+|
+|switch|p2a: Charizard|Charizard, M|100/100
+|switch|p1a: Claydol|Claydol|100/100
+|
+|upkeep
+|turn|19
+|choice|move psychic|move fireblast
+|
+|move|p2a: Charizard|Fire Blast|p1a: Claydol
+|-crit|p1a: Claydol
+|-damage|p1a: Claydol|0 fnt
+|-damage|p2a: Charizard|91/100|[from] item: Life Orb
+|faint|p1a: Claydol
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Swellow|Swellow, M|100/100
+|turn|20
+|choice|move boomburst|switch 3
+|
+|switch|p2a: Rhydon|Rhydon, M|42/100 brn
+|move|p1a: Swellow|Boomburst|p2a: Rhydon
+|-resisted|p2a: Rhydon
+|-damage|p2a: Rhydon|21/100 brn
+|
+|-damage|p2a: Rhydon|9/100 brn|[from] brn
+|upkeep
+|turn|21
+|choice|move boomburst|move rockblast
+|
+|move|p1a: Swellow|Boomburst|p2a: Rhydon
+|-resisted|p2a: Rhydon
+|-damage|p2a: Rhydon|0 fnt
+|faint|p2a: Rhydon
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Audino|Audino-Mega, M|83/100
+|turn|22
+|choice|move boomburst|switch 6
+|
+|switch|p2a: Jynx|Jynx, F|100/100
+|move|p1a: Swellow|Boomburst|p2a: Jynx
+|-damage|p2a: Jynx|25/100
+|
+|upkeep
+|turn|23
+|choice|switch 2|move icebeam
+|
+|switch|p1a: Ferroseed|Ferroseed, M|100/100
+|move|p2a: Jynx|Ice Beam|p1a: Ferroseed
+|-damage|p1a: Ferroseed|69/100
+|
+|upkeep
+|turn|24
+|choice|move thunderwave|switch 3
+|
+|switch|p2a: Charizard|Charizard, M|91/100
+|move|p1a: Ferroseed|Thunder Wave|p2a: Charizard
+|-status|p2a: Charizard|par
+|
+|upkeep
+|turn|25
+|choice|switch 5|move focusblast
+|
+|switch|p1a: Lanturn|Lanturn, M|51/100
+|move|p2a: Charizard|Focus Blast|p1a: Lanturn|[miss]
+|-miss|p2a: Charizard|p1a: Lanturn
+|
+|-heal|p1a: Lanturn|57/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|choice|move voltswitch|switch 6
+|
+|switch|p2a: Audino|Audino-Mega, M|83/100
+|move|p1a: Lanturn|Volt Switch|p2a: Audino
+|-damage|p2a: Audino|70/100
+|choice|switch 3|
+|
+|switch|p1a: Zangoose|Zangoose, M|100/100
+|
+|-status|p1a: Zangoose|tox|[from] item: Toxic Orb
+|upkeep
+|turn|27
+|choice|move facade|move protect
+|
+|move|p2a: Audino|Protect|p2a: Audino
+|-singleturn|p2a: Audino|Protect
+|move|p1a: Zangoose|Facade|p2a: Audino
+|-activate|p2a: Audino|move: Protect
+|
+|-damage|p1a: Zangoose|95/100 tox|[from] psn
+|upkeep
+|turn|28
+|choice|move facade|switch 2
+|
+|switch|p2a: Archeops|Archeops, M|100/100
+|move|p1a: Zangoose|Facade|p2a: Archeops
+|-resisted|p2a: Archeops
+|-damage|p2a: Archeops|36/100
+|
+|-damage|p1a: Zangoose|83/100 tox|[from] psn
+|upkeep
+|turn|29
+|choice|switch 4|move acrobatics
+|
+|switch|p1a: Weezing|Weezing, M|86/100
+|move|p2a: Archeops|Acrobatics|p1a: Weezing
+|-damage|p1a: Weezing|69/100
+|
+|-heal|p1a: Weezing|75/100|[from] item: Black Sludge
+|upkeep
+|turn|30
+|choice|move sludgebomb|move roost
+|
+|move|p2a: Archeops|Roost|p2a: Archeops
+|-heal|p2a: Archeops|86/100
+|move|p1a: Weezing|Sludge Bomb|p2a: Archeops
+|-resisted|p2a: Archeops
+|-damage|p2a: Archeops|68/100
+|-status|p2a: Archeops|psn
+|
+|-heal|p1a: Weezing|81/100|[from] item: Black Sludge
+|-damage|p2a: Archeops|55/100 psn|[from] psn
+|upkeep
+|turn|31
+|choice|switch 5|move roost
+|
+|switch|p1a: Ferroseed|Ferroseed, M|69/100
+|move|p2a: Archeops|Roost|p2a: Archeops
+|-heal|p2a: Archeops|100/100 psn
+|
+|-damage|p2a: Archeops|88/100 psn|[from] psn
+|upkeep
+|turn|32
+|choice|move stealthrock|move earthpower
+|
+|move|p2a: Archeops|Earth Power|p1a: Ferroseed
+|-damage|p1a: Ferroseed|52/100
+|move|p1a: Ferroseed|Stealth Rock|p2a: Archeops
+|-sidestart|p2: Lxckyyyy|move: Stealth Rock
+|
+|-damage|p2a: Archeops|76/100 psn|[from] psn
+|upkeep
+|turn|33
+|choice|move leechseed|move defog
+|
+|move|p2a: Archeops|Defog|p1a: Ferroseed
+|-unboost|p1a: Ferroseed|evasion|1
+|-sideend|p2: Lxckyyyy|Stealth Rock|[from] move: Defog|[of] p2a: Archeops
+|move|p1a: Ferroseed|Leech Seed|p2a: Archeops
+|-start|p2a: Archeops|move: Leech Seed
+|
+|-damage|p2a: Archeops|63/100 psn|[from] Leech Seed|[of] p1a: Ferroseed
+|-heal|p1a: Ferroseed|67/100|[silent]
+|-damage|p2a: Archeops|51/100 psn|[from] psn
+|upkeep
+|turn|34
+|choice|move seedbomb|switch 4
+|
+|switch|p2a: Hitmonchan|Hitmonchan, M|100/100
+|move|p1a: Ferroseed|Seed Bomb|p2a: Hitmonchan
+|-damage|p2a: Hitmonchan|73/100
+|
+|upkeep
+|turn|35
+|choice|switch 5|move drainpunch
+|
+|switch|p1a: Weezing|Weezing, M|81/100
+|move|p2a: Hitmonchan|Drain Punch|p1a: Weezing
+|-resisted|p1a: Weezing
+|-damage|p1a: Weezing|62/100
+|-heal|p2a: Hitmonchan|86/100|[from] drain|[of] p1a: Weezing
+|-damage|p2a: Hitmonchan|77/100|[from] item: Life Orb
+|
+|-heal|p1a: Weezing|68/100|[from] item: Black Sludge
+|upkeep
+|turn|36
+|choice|move sludgebomb|switch 6
+|
+|switch|p2a: Charizard|Charizard, M|91/100 par
+|move|p1a: Weezing|Sludge Bomb|p2a: Charizard
+|-damage|p2a: Charizard|56/100 par
+|
+|-heal|p1a: Weezing|74/100|[from] item: Black Sludge
+|upkeep
+|turn|37
+|choice|switch 3|move fireblast
+|
+|switch|p1a: Lanturn|Lanturn, M|57/100
+|move|p2a: Charizard|Fire Blast|p1a: Lanturn
+|-resisted|p1a: Lanturn
+|-damage|p1a: Lanturn|33/100
+|-damage|p2a: Charizard|47/100 par|[from] item: Life Orb
+|
+|-heal|p1a: Lanturn|40/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|choice|move voltswitch|switch 2
+|
+|switch|p2a: Audino|Audino-Mega, M|70/100
+|move|p1a: Lanturn|Volt Switch|p2a: Audino
+|-damage|p2a: Audino|57/100
+|choice|switch 3|
+|
+|switch|p1a: Weezing|Weezing, M|74/100
+|
+|-heal|p1a: Weezing|80/100|[from] item: Black Sludge
+|upkeep
+|turn|39
+|choice|move taunt|move calmmind
+|
+|move|p1a: Weezing|Taunt|p2a: Audino
+|-start|p2a: Audino|move: Taunt
+|cant|p2a: Audino|move: Taunt|Calm Mind
+|
+|-heal|p1a: Weezing|86/100|[from] item: Black Sludge
+|upkeep
+|turn|40
+|choice|move sludgebomb|switch 4
+|
+|switch|p2a: Archeops|Archeops, M|51/100 psn
+|move|p1a: Weezing|Sludge Bomb|p2a: Archeops
+|-resisted|p2a: Archeops
+|-damage|p2a: Archeops|32/100 psn
+|
+|-heal|p1a: Weezing|92/100|[from] item: Black Sludge
+|-damage|p2a: Archeops|19/100 psn|[from] psn
+|upkeep
+|turn|41
+|choice|move taunt|move roost
+|
+|move|p2a: Archeops|Roost|p2a: Archeops
+|-heal|p2a: Archeops|70/100 psn
+|move|p1a: Weezing|Taunt|p2a: Archeops
+|-start|p2a: Archeops|move: Taunt
+|
+|-heal|p1a: Weezing|98/100|[from] item: Black Sludge
+|-damage|p2a: Archeops|57/100 psn|[from] psn
+|upkeep
+|turn|42
+|choice|move sludgebomb|move acrobatics
+|
+|move|p2a: Archeops|Acrobatics|p1a: Weezing
+|-damage|p1a: Weezing|60/100
+|move|p1a: Weezing|Sludge Bomb|p2a: Archeops
+|-resisted|p2a: Archeops
+|-damage|p2a: Archeops|39/100 psn
+|
+|-heal|p1a: Weezing|66/100|[from] item: Black Sludge
+|-damage|p2a: Archeops|27/100 psn|[from] psn
+|upkeep
+|turn|43
+|choice|move sludgebomb|switch 6
+|
+|switch|p2a: Hitmonchan|Hitmonchan, M|77/100
+|move|p1a: Weezing|Sludge Bomb|p2a: Hitmonchan
+|-damage|p2a: Hitmonchan|41/100
+|
+|-heal|p1a: Weezing|72/100|[from] item: Black Sludge
+|upkeep
+|turn|44
+|choice|move willowisp|move drainpunch
+|
+|move|p2a: Hitmonchan|Drain Punch|p1a: Weezing
+|-resisted|p1a: Weezing
+|-damage|p1a: Weezing|50/100
+|-heal|p2a: Hitmonchan|56/100|[from] drain|[of] p1a: Weezing
+|-damage|p2a: Hitmonchan|46/100|[from] item: Life Orb
+|move|p1a: Weezing|Will-O-Wisp|p2a: Hitmonchan
+|-status|p2a: Hitmonchan|brn
+|
+|-heal|p1a: Weezing|56/100|[from] item: Black Sludge
+|-damage|p2a: Hitmonchan|34/100 brn|[from] brn
+|upkeep
+|turn|45
+|choice|move sludgebomb|move drainpunch
+|
+|move|p2a: Hitmonchan|Drain Punch|p1a: Weezing
+|-resisted|p1a: Weezing
+|-damage|p1a: Weezing|46/100
+|-heal|p2a: Hitmonchan|41/100 brn|[from] drain|[of] p1a: Weezing
+|-damage|p2a: Hitmonchan|31/100 brn|[from] item: Life Orb
+|move|p1a: Weezing|Sludge Bomb|p2a: Hitmonchan
+|-damage|p2a: Hitmonchan|0 fnt
+|faint|p2a: Hitmonchan
+|
+|-heal|p1a: Weezing|52/100|[from] item: Black Sludge
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Jynx|Jynx, F|25/100
+|turn|46
+|choice|switch 5|move trick
+|
+|switch|p1a: Ferroseed|Ferroseed, M|67/100
+|move|p2a: Jynx|Trick|p1a: Ferroseed
+|-activate|p2a: Jynx|move: Trick|[of] p1a: Ferroseed
+|-item|p1a: Ferroseed|Choice Scarf|[from] move: Trick
+|-item|p2a: Jynx|Eviolite|[from] move: Trick
+|
+|upkeep
+|turn|47
+|choice|move stealthrock|move focusblast
+|
+|move|p2a: Jynx|Focus Blast|p1a: Ferroseed|[miss]
+|-miss|p2a: Jynx|p1a: Ferroseed
+|move|p1a: Ferroseed|Stealth Rock|p2a: Jynx
+|-sidestart|p2: Lxckyyyy|move: Stealth Rock
+|
+|upkeep
+|turn|48
+|choice|switch 3|move focusblast
+|
+|switch|p1a: Lanturn|Lanturn, M|40/100
+|move|p2a: Jynx|Focus Blast|p1a: Lanturn
+|-damage|p1a: Lanturn|12/100
+|
+|-heal|p1a: Lanturn|18/100|[from] item: Leftovers
+|upkeep
+|turn|49
+|choice|move voltswitch|move psychic
+|
+|move|p2a: Jynx|Psychic|p1a: Lanturn
+|-damage|p1a: Lanturn|0 fnt
+|faint|p1a: Lanturn
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Swellow|Swellow, M|100/100
+|turn|50
+|choice|move boomburst|switch 2
+|
+|switch|p2a: Charizard|Charizard, M|47/100 par
+|-damage|p2a: Charizard|0 fnt|[from] Stealth Rock
+|faint|p2a: Charizard
+|move|p1a: Swellow|Boomburst|p2: Charizard|[notarget]
+|-notarget
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Audino|Audino-Mega, M|57/100
+|-damage|p2a: Audino|45/100|[from] Stealth Rock
+|turn|51
+|choice|move boomburst|move dazzlinggleam
+|
+|move|p1a: Swellow|Boomburst|p2a: Audino
+|-crit|p2a: Audino
+|-damage|p2a: Audino|0 fnt
+|faint|p2a: Audino
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Archeops|Archeops, M|27/100 psn
+|-damage|p2a: Archeops|2/100 psn|[from] Stealth Rock
+|turn|52
+|choice|move boomburst|move acrobatics
+|
+|move|p1a: Swellow|Boomburst|p2a: Archeops
+|-resisted|p2a: Archeops
+|-damage|p2a: Archeops|0 fnt
+|faint|p2a: Archeops
+|
+|upkeep
+|-message|Lxckyyyy forfeited.
+|
+|win|lcezasfuck
+|l|Lxckyyyy
+|raw|lcezasfuck's rating: 1405 &rarr; <strong>1414</strong><br />(+9 for winning)
+|raw|Lxckyyyy's rating: 1189 &rarr; <strong>1178</strong><br />(-11 for losing)

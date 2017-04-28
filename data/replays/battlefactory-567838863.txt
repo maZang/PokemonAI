@@ -1,0 +1,223 @@
+|j|Abandonedjajaja
+|j|AlolanJames
+|player|p1|Abandonedjajaja|170
+|player|p2|AlolanJames|266
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|1268,28456,33035,52188,17460,48012,38697,1199,53116,38263,10875,43209
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Hoopa|item
+|poke|p1|Diancie|item
+|poke|p1|Blastoise, M|item
+|poke|p1|Meloetta|item
+|poke|p1|Roselia, M|item
+|poke|p1|Aromatisse, M|item
+|poke|p2|Piloswine, M|item
+|poke|p2|Meloetta|item
+|poke|p2|Uxie|item
+|poke|p2|Braviary, M|item
+|poke|p2|Aggron, M|item
+|poke|p2|Alomomola, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|c|☆Abandonedjajaja|ni gger ni gger ni gger ni gger ni gger
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Abandonedjajaja)
+|choice|team 4, team 2, team 3, team 1, team 5, team 6|team 5, team 2, team 3, team 4, team 1, team 6
+|
+|start
+|switch|p1a: Meloetta|Meloetta|100/100
+|switch|p2a: Aggron|Aggron, M|100/100
+|turn|1
+|c|☆Abandonedjajaja|!weak aggron
+|html|<div class="infobox">Aggron (ignoring abilities):<br /><span class="message-effect-weak">Weaknesses</span>: <b>Fighting</b>, <b>Ground</b>, Water<br /><span class="message-effect-resist">Resistances</span>: Bug, Dragon, Fairy, <b>Flying</b>, Ice, <b>Normal</b>, Psychic, Rock<br /><span class="message-effect-immune">Immunities</span>: Poison</div>
+|choice|switch 3|move heavyslam
+|
+|switch|p1a: Blastoise|Blastoise, M|100/100
+|move|p2a: Aggron|Heavy Slam|p1a: Blastoise
+|-resisted|p1a: Blastoise
+|-damage|p1a: Blastoise|76/100
+|
+|-heal|p1a: Blastoise|82/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|choice|move scald|switch 2
+|
+|switch|p2a: Meloetta|Meloetta|100/100
+|move|p1a: Blastoise|Scald|p2a: Meloetta
+|-damage|p2a: Meloetta|83/100
+|
+|-heal|p2a: Meloetta|89/100|[from] item: Leftovers
+|-heal|p1a: Blastoise|88/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|c|☆Abandonedjajaja|!weak meloetta
+|html|<div class="infobox">Meloetta (ignoring abilities):<br /><span class="message-effect-weak">Weaknesses</span>: Bug, Dark<br /><span class="message-effect-resist">Resistances</span>: Psychic<br /><span class="message-effect-immune">Immunities</span>: Ghost</div>
+|choice|switch 5|move substitute
+|
+|switch|p1a: Roselia|Roselia, M|100/100
+|move|p2a: Meloetta|Substitute|p2a: Meloetta
+|-start|p2a: Meloetta|Substitute
+|-damage|p2a: Meloetta|64/100
+|
+|-heal|p2a: Meloetta|70/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|choice|move sludgebomb|move calmmind
+|
+|move|p2a: Meloetta|Calm Mind|p2a: Meloetta
+|-boost|p2a: Meloetta|spa|1
+|-boost|p2a: Meloetta|spd|1
+|move|p1a: Roselia|Sludge Bomb|p2a: Meloetta
+|-activate|p2a: Meloetta|move: Substitute|[damage]
+|
+|-heal|p2a: Meloetta|76/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|choice|move gigadrain|move calmmind
+|
+|move|p2a: Meloetta|Calm Mind|p2a: Meloetta
+|-boost|p2a: Meloetta|spa|1
+|-boost|p2a: Meloetta|spd|1
+|move|p1a: Roselia|Giga Drain|p2a: Meloetta
+|-activate|p2a: Meloetta|move: Substitute|[damage]
+|
+|-heal|p2a: Meloetta|82/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|choice|switch 4|move calmmind
+|
+|switch|p1a: Hoopa|Hoopa|100/100
+|move|p2a: Meloetta|Calm Mind|p2a: Meloetta
+|-boost|p2a: Meloetta|spa|1
+|-boost|p2a: Meloetta|spd|1
+|
+|-heal|p2a: Meloetta|89/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|choice|move nastyplot|move calmmind
+|
+|move|p1a: Hoopa|Nasty Plot|p1a: Hoopa
+|-boost|p1a: Hoopa|spa|2
+|move|p2a: Meloetta|Calm Mind|p2a: Meloetta
+|-boost|p2a: Meloetta|spa|1
+|-boost|p2a: Meloetta|spd|1
+|
+|-heal|p2a: Meloetta|95/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|choice|move nastyplot|move shadowball
+|
+|move|p1a: Hoopa|Nasty Plot|p1a: Hoopa
+|-boost|p1a: Hoopa|spa|2
+|move|p2a: Meloetta|Shadow Ball|p1a: Hoopa
+|-supereffective|p1a: Hoopa
+|-damage|p1a: Hoopa|0 fnt
+|faint|p1a: Hoopa
+|
+|-heal|p2a: Meloetta|100/100|[from] item: Leftovers
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Blastoise|Blastoise, M|88/100
+|turn|9
+|choice|move toxic|move calmmind
+|
+|move|p2a: Meloetta|Calm Mind|p2a: Meloetta
+|-boost|p2a: Meloetta|spa|1
+|-boost|p2a: Meloetta|spd|1
+|move|p1a: Blastoise|Toxic|p2a: Meloetta
+|-fail|p2a: Meloetta
+|
+|-heal|p1a: Blastoise|94/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|choice|move scald|move calmmind
+|
+|move|p2a: Meloetta|Calm Mind|p2a: Meloetta
+|-boost|p2a: Meloetta|spa|1
+|-boost|p2a: Meloetta|spd|1
+|move|p1a: Blastoise|Scald|p2a: Meloetta
+|-end|p2a: Meloetta|Substitute
+|
+|-heal|p1a: Blastoise|99/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|choice|move scald|move hypervoice
+|
+|move|p2a: Meloetta|Hyper Voice|p1a: Blastoise
+|-crit|p1a: Blastoise
+|-damage|p1a: Blastoise|0 fnt
+|faint|p1a: Blastoise
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Diancie|Diancie|100/100
+|turn|12
+|choice|move moonblast|move shadowball
+|
+|move|p2a: Meloetta|Shadow Ball|p1a: Diancie
+|-damage|p1a: Diancie|43/100
+|move|p1a: Diancie|Moonblast|p2a: Meloetta
+|-damage|p2a: Meloetta|94/100
+|
+|-heal|p2a: Meloetta|99/100|[from] item: Leftovers
+|-heal|p1a: Diancie|50/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|choice|move diamondstorm|move shadowball
+|
+|move|p2a: Meloetta|Shadow Ball|p1a: Diancie
+|-damage|p1a: Diancie|0 fnt
+|faint|p1a: Diancie
+|
+|-heal|p2a: Meloetta|100/100|[from] item: Leftovers
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Meloetta|Meloetta|100/100
+|turn|14
+|choice|move knockoff|move hypervoice
+|
+|move|p2a: Meloetta|Hyper Voice|p1a: Meloetta
+|-damage|p1a: Meloetta|11/100
+|move|p1a: Meloetta|Knock Off|p2a: Meloetta
+|-supereffective|p2a: Meloetta
+|-damage|p2a: Meloetta|71/100
+|-enditem|p2a: Meloetta|Leftovers|[from] move: Knock Off|[of] p1a: Meloetta
+|
+|-heal|p1a: Meloetta|17/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|choice|move knockoff|move hypervoice
+|
+|move|p2a: Meloetta|Hyper Voice|p1a: Meloetta
+|-damage|p1a: Meloetta|0 fnt
+|faint|p1a: Meloetta
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Roselia|Roselia, M|100/100
+|turn|16
+|choice|move gigadrain|move hypervoice
+|
+|move|p2a: Meloetta|Hyper Voice|p1a: Roselia
+|-damage|p1a: Roselia|0 fnt
+|faint|p1a: Roselia
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Aromatisse|Aromatisse, M|100/100
+|turn|17
+|choice|move aromatherapy|move hypervoice
+|
+|move|p2a: Meloetta|Hyper Voice|p1a: Aromatisse
+|-damage|p1a: Aromatisse|0 fnt
+|faint|p1a: Aromatisse
+|
+|win|AlolanJames

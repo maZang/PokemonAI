@@ -1,0 +1,238 @@
+|j|hahagoodmeme
+|j|deinomachine
+|player|p1|hahagoodmeme|169
+|player|p2|deinomachine|170
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|574,33322,10810,19788,57404,17091,72,46558,37792,3145,20995,35669
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Sneasel, M|item
+|poke|p1|Dugtrio, M|item
+|poke|p1|Audino, M|item
+|poke|p1|Piloswine, M|item
+|poke|p1|Venusaur, M|item
+|poke|p1|Escavalier, M|item
+|poke|p2|Exploud, M|item
+|poke|p2|Eelektross, M|item
+|poke|p2|Escavalier, M|item
+|poke|p2|Clawitzer, M|item
+|poke|p2|Emboar, M|item
+|poke|p2|Flygon, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by hahagoodmeme)
+|choice|team 4, team 2, team 3, team 1, team 5, team 6|team 5, team 2, team 3, team 4, team 1, team 6
+|
+|start
+|switch|p1a: Piloswine|Piloswine, M|100/100
+|switch|p2a: Emboar|Emboar, M|100/100
+|turn|1
+|choice|move stealthrock|move flareblitz
+|
+|move|p2a: Emboar|Flare Blitz|p1a: Piloswine
+|-supereffective|p1a: Piloswine
+|-crit|p1a: Piloswine
+|-damage|p1a: Piloswine|23/100
+|-damage|p2a: Emboar|72/100|[from] recoil|[of] p1a: Piloswine
+|move|p1a: Piloswine|Stealth Rock|p2a: Emboar
+|-sidestart|p2: deinomachine|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|choice|move earthquake|move flareblitz
+|
+|move|p2a: Emboar|Flare Blitz|p1a: Piloswine
+|-supereffective|p1a: Piloswine
+|-damage|p1a: Piloswine|0 fnt
+|-damage|p2a: Emboar|64/100|[from] recoil|[of] p1a: Piloswine
+|faint|p1a: Piloswine
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Dugtrio|Dugtrio, M|100/100
+|turn|3
+|choice|move earthquake|move flareblitz
+|
+|move|p2a: Emboar|Flare Blitz|p1a: Dugtrio
+|-damage|p1a: Dugtrio|0 fnt
+|-damage|p2a: Emboar|45/100|[from] recoil|[of] p1a: Dugtrio
+|faint|p1a: Dugtrio
+|
+|upkeep
+|c|☆deinomachine|gg lol
+|choice|switch 3|
+|
+|switch|p1a: Audino|Audino, M|100/100
+|turn|4
+|choice|move surf mega|move flareblitz
+|
+|detailschange|p1a: Audino|Audino-Mega, M
+|-mega|p1a: Audino|Audino|Audinite
+|move|p2a: Emboar|Flare Blitz|p1a: Audino
+|-damage|p1a: Audino|50/100
+|-damage|p2a: Emboar|26/100|[from] recoil|[of] p1a: Audino
+|move|p1a: Audino|Surf|p2a: Emboar
+|-supereffective|p2a: Emboar
+|-damage|p2a: Emboar|0 fnt
+|faint|p2a: Emboar
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Escavalier|Escavalier, M|100/100
+|-damage|p2a: Escavalier|88/100|[from] Stealth Rock
+|turn|5
+|choice|move fireblast|move ironhead
+|
+|move|p1a: Audino|Fire Blast|p2a: Escavalier
+|-supereffective|p2a: Escavalier
+|-damage|p2a: Escavalier|0 fnt
+|faint|p2a: Escavalier
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Clawitzer|Clawitzer, M|100/100
+|-damage|p2a: Clawitzer|88/100|[from] Stealth Rock
+|turn|6
+|choice|switch 5|move scald
+|
+|switch|p1a: Venusaur|Venusaur, M|100/100
+|move|p2a: Clawitzer|Scald|p1a: Venusaur
+|-resisted|p1a: Venusaur
+|-damage|p1a: Venusaur|69/100
+|-damage|p2a: Clawitzer|78/100|[from] item: Life Orb
+|
+|upkeep
+|turn|7
+|choice|move leafstorm|move icebeam
+|
+|move|p1a: Venusaur|Leaf Storm|p2a: Clawitzer
+|-supereffective|p2a: Clawitzer
+|-damage|p2a: Clawitzer|0 fnt
+|-unboost|p1a: Venusaur|spa|2
+|-damage|p1a: Venusaur|59/100|[from] item: Life Orb
+|faint|p2a: Clawitzer
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Eelektross|Eelektross, M|100/100
+|-damage|p2a: Eelektross|88/100|[from] Stealth Rock
+|turn|8
+|choice|move sludgebomb|move flamethrower
+|
+|move|p1a: Venusaur|Sludge Bomb|p2a: Eelektross
+|-damage|p2a: Eelektross|68/100
+|-damage|p1a: Venusaur|49/100|[from] item: Life Orb
+|move|p2a: Eelektross|Flamethrower|p1a: Venusaur
+|-supereffective|p1a: Venusaur
+|-damage|p1a: Venusaur|0 fnt
+|faint|p1a: Venusaur
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Escavalier|Escavalier, M|100/100
+|turn|9
+|choice|move knockoff|move flamethrower
+|
+|move|p2a: Eelektross|Flamethrower|p1a: Escavalier
+|-supereffective|p1a: Escavalier
+|-damage|p1a: Escavalier|14/100
+|move|p1a: Escavalier|Knock Off|p2a: Eelektross
+|-damage|p2a: Eelektross|27/100
+|-enditem|p2a: Eelektross|Assault Vest|[from] move: Knock Off|[of] p1a: Escavalier
+|
+|upkeep
+|turn|10
+|choice|move knockoff|move flamethrower
+|
+|move|p2a: Eelektross|Flamethrower|p1a: Escavalier
+|-supereffective|p1a: Escavalier
+|-damage|p1a: Escavalier|0 fnt
+|faint|p1a: Escavalier
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Audino|Audino-Mega, M|50/100
+|turn|11
+|choice|move dazzlinggleam|move flamethrower
+|
+|move|p1a: Audino|Dazzling Gleam|p2a: Eelektross
+|-damage|p2a: Eelektross|0 fnt
+|faint|p2a: Eelektross
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Flygon|Flygon, M|100/100
+|-damage|p2a: Flygon|94/100|[from] Stealth Rock
+|turn|12
+|choice|move dazzlinggleam|move earthquake
+|
+|move|p2a: Flygon|Earthquake|p1a: Audino
+|-damage|p1a: Audino|26/100
+|move|p1a: Audino|Dazzling Gleam|p2a: Flygon
+|-supereffective|p2a: Flygon
+|-damage|p2a: Flygon|33/100
+|
+|-heal|p2a: Flygon|39/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|choice|move dazzlinggleam|move earthquake
+|
+|move|p2a: Flygon|Earthquake|p1a: Audino
+|-damage|p1a: Audino|0 fnt
+|faint|p1a: Audino
+|
+|-heal|p2a: Flygon|45/100|[from] item: Leftovers
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Sneasel|Sneasel, M|100/100
+|turn|14
+|choice|move iciclecrash|move uturn
+|
+|move|p1a: Sneasel|Icicle Crash|p2a: Flygon
+|-supereffective|p2a: Flygon
+|-damage|p2a: Flygon|0 fnt
+|-damage|p1a: Sneasel|91/100|[from] item: Life Orb
+|faint|p2a: Flygon
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Exploud|Exploud, M|100/100
+|-damage|p2a: Exploud|88/100|[from] Stealth Rock
+|turn|15
+|choice|move knockoff|move fireblast
+|
+|move|p1a: Sneasel|Knock Off|p2a: Exploud
+|-damage|p2a: Exploud|17/100
+|-enditem|p2a: Exploud|Choice Specs|[from] move: Knock Off|[of] p1a: Sneasel
+|-damage|p1a: Sneasel|81/100|[from] item: Life Orb
+|move|p2a: Exploud|Fire Blast|p1a: Sneasel|[miss]
+|-miss|p2a: Exploud|p1a: Sneasel
+|
+|upkeep
+|turn|16
+|c|☆deinomachine|uggggg
+|choice|move knockoff|move focusblast
+|
+|move|p1a: Sneasel|Knock Off|p2a: Exploud
+|-damage|p2a: Exploud|0 fnt
+|-damage|p1a: Sneasel|71/100|[from] item: Life Orb
+|faint|p2a: Exploud
+|
+|win|hahagoodmeme
+|c|☆hahagoodmeme|gg lol
+|raw|hahagoodmeme's rating: 1073 &rarr; <strong>1096</strong><br />(+23 for winning)
+|raw|deinomachine's rating: 1000 &rarr; <strong>1000</strong><br />(+0 for losing)
+|l|deinomachine

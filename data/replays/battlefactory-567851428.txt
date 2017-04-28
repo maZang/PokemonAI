@@ -1,0 +1,34 @@
+|j|punset007
+|j|wwe bro
+|player|p1|punset007|101
+|player|p2|wwe bro|101
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|56368,3800,14054,60679,59043,40780,45184,40716,62977,10724,27739,5255
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Liepard, M|item
+|poke|p1|Ludicolo, M|item
+|poke|p1|Basculin, M|item
+|poke|p1|Garbodor, M|item
+|poke|p1|Claydol|item
+|poke|p1|Lilligant, F|item
+|poke|p2|Tauros, M|item
+|poke|p2|Ninetales, M|item
+|poke|p2|Charizard, M|item
+|poke|p2|Prinplup, M|item
+|poke|p2|Poliwrath, M|item
+|poke|p2|Abomasnow, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|-message|punset007 forfeited.
+|
+|win|wwe bro
+|l|punset007
+|raw|punset007's rating: 1147 &rarr; <strong>1112</strong><br />(-35 for losing)
+|raw|wwe bro's rating: 1000 &rarr; <strong>1056</strong><br />(+56 for winning)
+|c|☆wwe bro|sup
+|c|☆wwe bro|start

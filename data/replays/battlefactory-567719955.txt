@@ -1,0 +1,338 @@
+|j|mewtoobaws
+|j|clutchfans
+|player|p1|mewtoobaws|265
+|player|p2|clutchfans|129
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|63004,54452,19486,21578,10740,62752,2816,34288,64685,37857,43034,9208
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Hitmonchan, M|item
+|poke|p1|Musharna, M|item
+|poke|p1|Tauros, M|item
+|poke|p1|Golurk|item
+|poke|p1|Mantine, M|item
+|poke|p1|Poliwrath, M|item
+|poke|p2|Dodrio, M|item
+|poke|p2|Miltank, F|item
+|poke|p2|Lanturn, M|item
+|poke|p2|Mantine, M|item
+|poke|p2|Weezing, M|item
+|poke|p2|Klinklang|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by mewtoobaws)
+|choice|team 4, team 2, team 3, team 1, team 5, team 6|team 5, team 2, team 3, team 4, team 1, team 6
+|
+|start
+|switch|p1a: Golurk|Golurk|100/100
+|switch|p2a: Weezing|Weezing, M|100/100
+|turn|1
+|choice|move stealthrock|move willowisp
+|
+|move|p1a: Golurk|Stealth Rock|p2a: Weezing
+|-sidestart|p2: clutchfans|move: Stealth Rock
+|move|p2a: Weezing|Will-O-Wisp|p1a: Golurk
+|-status|p1a: Golurk|brn
+|
+|-damage|p1a: Golurk|88/100 brn|[from] brn
+|upkeep
+|turn|2
+|choice|move shadowpunch|move toxicspikes
+|
+|move|p1a: Golurk|Shadow Punch|p2a: Weezing
+|-damage|p2a: Weezing|90/100
+|move|p2a: Weezing|Toxic Spikes|p1a: Golurk
+|-sidestart|p1: mewtoobaws|move: Toxic Spikes
+|
+|-heal|p2a: Weezing|96/100|[from] item: Black Sludge
+|-damage|p1a: Golurk|76/100 brn|[from] brn
+|upkeep
+|turn|3
+|choice|switch 2|move willowisp
+|
+|switch|p1a: Musharna|Musharna, M|100/100
+|-status|p1a: Musharna|psn
+|move|p2a: Weezing|Will-O-Wisp|p1a: Musharna
+|-fail|p1a: Musharna
+|
+|-heal|p2a: Weezing|100/100|[from] item: Black Sludge
+|-damage|p1a: Musharna|88/100 psn|[from] psn
+|upkeep
+|turn|4
+|choice|move calmmind|move toxicspikes
+|
+|move|p2a: Weezing|Toxic Spikes|p1a: Musharna
+|-sidestart|p1: mewtoobaws|move: Toxic Spikes
+|move|p1a: Musharna|Calm Mind|p1a: Musharna
+|-boost|p1a: Musharna|spa|1
+|-boost|p1a: Musharna|spd|1
+|
+|-heal|p1a: Musharna|94/100 psn|[from] item: Leftovers
+|-damage|p1a: Musharna|82/100 psn|[from] psn
+|upkeep
+|turn|5
+|choice|move psychic|switch 6
+|
+|switch|p2a: Klinklang|Klinklang|100/100
+|-damage|p2a: Klinklang|95/100|[from] Stealth Rock
+|move|p1a: Musharna|Psychic|p2a: Klinklang
+|-resisted|p2a: Klinklang
+|-damage|p2a: Klinklang|60/100
+|
+|-heal|p2a: Klinklang|66/100|[from] item: Leftovers
+|-heal|p1a: Musharna|88/100 psn|[from] item: Leftovers
+|-damage|p1a: Musharna|76/100 psn|[from] psn
+|upkeep
+|turn|6
+|choice|move batonpass|move geargrind
+|
+|move|p2a: Klinklang|Gear Grind|p1a: Musharna
+|-damage|p1a: Musharna|59/100 psn
+|-damage|p1a: Musharna|44/100 psn
+|-hitcount|p1a: Musharna|2
+|move|p1a: Musharna|Baton Pass|p1a: Musharna
+|choice|switch 6|
+|
+|switch|p1a: Poliwrath|Poliwrath, M|100/100
+|-status|p1a: Poliwrath|tox
+|
+|-heal|p2a: Klinklang|72/100|[from] item: Leftovers
+|-damage|p1a: Poliwrath|94/100 tox|[from] psn
+|upkeep
+|turn|7
+|choice|move focusblast|move return
+|
+|move|p2a: Klinklang|Return|p1a: Poliwrath
+|-damage|p1a: Poliwrath|60/100 tox
+|move|p1a: Poliwrath|Focus Blast|p2a: Klinklang|[miss]
+|-miss|p1a: Poliwrath|p2a: Klinklang
+|
+|-heal|p2a: Klinklang|78/100|[from] item: Leftovers
+|-heal|p1a: Poliwrath|66/100 tox|[from] item: Leftovers
+|-damage|p1a: Poliwrath|54/100 tox|[from] psn
+|upkeep
+|turn|8
+|choice|move focusblast|move return
+|
+|move|p2a: Klinklang|Return|p1a: Poliwrath
+|-damage|p1a: Poliwrath|19/100 tox
+|move|p1a: Poliwrath|Focus Blast|p2a: Klinklang
+|-supereffective|p2a: Klinklang
+|-damage|p2a: Klinklang|0 fnt
+|faint|p2a: Klinklang
+|
+|-heal|p1a: Poliwrath|25/100 tox|[from] item: Leftovers
+|-damage|p1a: Poliwrath|7/100 tox|[from] psn
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Dodrio|Dodrio, M|100/100
+|-damage|p2a: Dodrio|76/100|[from] Stealth Rock
+|turn|9
+|choice|move icebeam|move knockoff
+|
+|move|p2a: Dodrio|Knock Off|p1a: Poliwrath
+|-resisted|p1a: Poliwrath
+|-damage|p1a: Poliwrath|0 fnt
+|-enditem|p1a: Poliwrath|Leftovers|[from] move: Knock Off|[of] p2a: Dodrio
+|faint|p1a: Poliwrath
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Mantine|Mantine, M|100/100
+|turn|10
+|choice|move defog|switch 4
+|
+|switch|p2a: Mantine|Mantine, M|100/100
+|-damage|p2a: Mantine|76/100|[from] Stealth Rock
+|move|p1a: Mantine|Defog|p2a: Mantine
+|-unboost|p2a: Mantine|evasion|1
+|-sideend|p2: clutchfans|Stealth Rock|[from] move: Defog|[of] p2a: Mantine
+|-sideend|p1: mewtoobaws|Toxic Spikes|[from] move: Defog|[of] p1a: Mantine
+|
+|-heal|p2a: Mantine|82/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|choice|move toxic|move toxic
+|
+|move|p2a: Mantine|Toxic|p1a: Mantine
+|-status|p1a: Mantine|tox
+|move|p1a: Mantine|Toxic|p2a: Mantine
+|-status|p2a: Mantine|tox
+|
+|-heal|p2a: Mantine|88/100 tox|[from] item: Leftovers
+|-damage|p1a: Mantine|95/100 tox|[from] psn
+|-damage|p2a: Mantine|82/100 tox|[from] psn
+|upkeep
+|turn|12
+|choice|move airslash|switch 3
+|
+|switch|p2a: Lanturn|Lanturn, M|100/100
+|move|p1a: Mantine|Air Slash|p2a: Lanturn
+|-resisted|p2a: Lanturn
+|-damage|p2a: Lanturn|94/100
+|
+|-heal|p1a: Mantine|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Mantine|89/100 tox|[from] psn
+|upkeep
+|turn|13
+|choice|switch 2|move scald
+|
+|switch|p1a: Golurk|Golurk|76/100 brn
+|move|p2a: Lanturn|Scald|p1a: Golurk
+|-supereffective|p1a: Golurk
+|-damage|p1a: Golurk|0 fnt
+|faint|p1a: Golurk
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Tauros|Tauros, M|100/100
+|turn|14
+|choice|move rockclimb|switch 2
+|
+|switch|p2a: Miltank|Miltank, F|100/100
+|move|p1a: Tauros|Rock Climb|p2a: Miltank
+|-damage|p2a: Miltank|62/100
+|
+|-heal|p2a: Miltank|68/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|choice|move rockclimb|move thunderwave
+|
+|move|p1a: Tauros|Rock Climb|p2a: Miltank
+|-damage|p2a: Miltank|25/100
+|move|p2a: Miltank|Thunder Wave|p1a: Tauros
+|-status|p1a: Tauros|par
+|
+|-heal|p2a: Miltank|31/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|choice|move rockclimb|move milkdrink
+|
+|move|p2a: Miltank|Milk Drink|p2a: Miltank
+|-heal|p2a: Miltank|81/100
+|move|p1a: Tauros|Rock Climb|p2a: Miltank
+|-damage|p2a: Miltank|43/100
+|
+|-heal|p2a: Miltank|49/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|choice|move irontail|move milkdrink
+|
+|move|p2a: Miltank|Milk Drink|p2a: Miltank
+|-heal|p2a: Miltank|99/100
+|move|p1a: Tauros|Iron Tail|p2a: Miltank
+|-damage|p2a: Miltank|69/100
+|
+|-heal|p2a: Miltank|75/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|choice|move rockclimb|move stealthrock
+|
+|move|p2a: Miltank|Stealth Rock|p1a: Tauros
+|-sidestart|p1: mewtoobaws|move: Stealth Rock
+|cant|p1a: Tauros|par
+|
+|-heal|p2a: Miltank|81/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|choice|switch 2|move bodyslam
+|
+|switch|p1a: Mantine|Mantine, M|89/100 tox
+|-damage|p1a: Mantine|64/100 tox|[from] Stealth Rock
+|move|p2a: Miltank|Body Slam|p1a: Mantine
+|-damage|p1a: Mantine|39/100 tox
+|
+|-heal|p2a: Miltank|87/100|[from] item: Leftovers
+|-heal|p1a: Mantine|45/100 tox|[from] item: Leftovers
+|-damage|p1a: Mantine|39/100 tox|[from] psn
+|upkeep
+|turn|20
+|choice|move toxic|move bodyslam
+|
+|move|p2a: Miltank|Body Slam|p1a: Mantine
+|-damage|p1a: Mantine|12/100 tox
+|move|p1a: Mantine|Toxic|p2a: Miltank
+|-status|p2a: Miltank|tox
+|
+|-heal|p2a: Miltank|93/100 tox|[from] item: Leftovers
+|-heal|p1a: Mantine|18/100 tox|[from] item: Leftovers
+|-damage|p2a: Miltank|87/100 tox|[from] psn
+|-damage|p1a: Mantine|6/100 tox|[from] psn
+|upkeep
+|turn|21
+|choice|move defog|move bodyslam
+|
+|move|p2a: Miltank|Body Slam|p1a: Mantine
+|-damage|p1a: Mantine|0 fnt
+|faint|p1a: Mantine
+|
+|-heal|p2a: Miltank|93/100 tox|[from] item: Leftovers
+|-damage|p2a: Miltank|81/100 tox|[from] psn
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Hitmonchan|Hitmonchan, M|100/100
+|-damage|p1a: Hitmonchan|94/100|[from] Stealth Rock
+|turn|22
+|choice|move closecombat|move bodyslam
+|
+|move|p1a: Hitmonchan|Close Combat|p2a: Miltank
+|-supereffective|p2a: Miltank
+|-damage|p2a: Miltank|0 fnt
+|-unboost|p1a: Hitmonchan|def|1
+|-unboost|p1a: Hitmonchan|spd|1
+|-damage|p1a: Hitmonchan|84/100|[from] item: Life Orb
+|faint|p2a: Miltank
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Dodrio|Dodrio, M|76/100
+|turn|23
+|choice|switch 2|move bravebird
+|
+|switch|p1a: Tauros|Tauros, M|100/100 par
+|-damage|p1a: Tauros|88/100 par|[from] Stealth Rock
+|move|p2a: Dodrio|Brave Bird|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|-damage|p2a: Dodrio|43/100|[from] recoil|[of] p1a: Tauros
+|faint|p1a: Tauros
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Musharna|Musharna, M|44/100 psn
+|-damage|p1a: Musharna|32/100 psn|[from] Stealth Rock
+|turn|24
+|choice|move moonlight|move bravebird
+|
+|move|p2a: Dodrio|Brave Bird|p1a: Musharna
+|-damage|p1a: Musharna|0 fnt
+|-damage|p2a: Dodrio|26/100|[from] recoil|[of] p1a: Musharna
+|faint|p1a: Musharna
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Hitmonchan|Hitmonchan, M|84/100
+|-damage|p1a: Hitmonchan|78/100|[from] Stealth Rock
+|turn|25
+|choice|move stoneedge|move bravebird
+|
+|move|p2a: Dodrio|Brave Bird|p1a: Hitmonchan
+|-supereffective|p1a: Hitmonchan
+|-damage|p1a: Hitmonchan|0 fnt
+|-damage|p2a: Dodrio|2/100|[from] recoil|[of] p1a: Hitmonchan
+|faint|p1a: Hitmonchan
+|
+|win|clutchfans
+|raw|mewtoobaws's rating: 1362 &rarr; <strong>1340</strong><br />(-22 for losing)
+|raw|clutchfans's rating: 1313 &rarr; <strong>1336</strong><br />(+23 for winning)
+|l|mewtoobaws

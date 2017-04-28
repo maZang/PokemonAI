@@ -1,0 +1,595 @@
+|j|PD ♔
+|j|Overdragoon
+|player|p1|PD ♔|235
+|player|p2|Overdragoon|290
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|24587,8973,6306,16327,21973,48818,63143,29223,53225,4103,16515,46608
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Braviary, M|item
+|poke|p1|Jellicent, M|item
+|poke|p1|Omastar, M|item
+|poke|p1|Emboar, M|item
+|poke|p1|Hitmontop, M|item
+|poke|p1|Dugtrio, M|item
+|poke|p2|Smeargle, M|item
+|poke|p2|Granbull, M|item
+|poke|p2|Aerodactyl, M|item
+|poke|p2|Hitmontop, M|item
+|poke|p2|Jolteon, M|item
+|poke|p2|Togetic, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|j|thewinner64
+|j|QuadsCoat
+|j|Snowblind l
+|j|Hero Archetype
+|j|brawlion
+|j|Dosa16
+|c| thewinner64|gl to both sides
+|j|Meny_13_
+|c| brawlion|Aye
+|j|SunGodVolcarona
+|c|☆Overdragoon|hf
+|c| brawlion|Nice teams
+|j|Dark knight99
+|j|Dartz9
+|c|☆PD ♔|hf
+|j|Like A Star
+|c| SunGodVolcarona|RU?
+|c| brawlion|Ou teams
+|c|☆Overdragoon|how is jellicent RU? lol
+|c| Hero Archetype|gl
+|c| SunGodVolcarona|idfk
+|c|☆PD ♔|!dt dugtrio
+|c|~|/data-pokemon Dugtrio
+|raw|<font size="1"><font color="#686868">Dex#:</font> 51&nbsp;|&ThickSpace;<font color="#686868">Gen:</font> 1&nbsp;|&ThickSpace;<font color="#686868">Height:</font> 0.7 m&nbsp;|&ThickSpace;<font color="#686868">Weight:</font> 33.3 kg <em>(60 BP)</em>&nbsp;|&ThickSpace;<font color="#686868">Dex Colour:</font> Brown&nbsp;|&ThickSpace;<font color="#686868">Egg Group(s):</font> Field&nbsp;|&ThickSpace;<font color="#686868">Does Not Evolve</font></font>
+|c|☆PD ♔|!dt jolteon
+|c|~|/data-pokemon Jolteon
+|raw|<font size="1"><font color="#686868">Dex#:</font> 135&nbsp;|&ThickSpace;<font color="#686868">Gen:</font> 1&nbsp;|&ThickSpace;<font color="#686868">Height:</font> 0.8 m&nbsp;|&ThickSpace;<font color="#686868">Weight:</font> 24.5 kg <em>(40 BP)</em>&nbsp;|&ThickSpace;<font color="#686868">Dex Colour:</font> Yellow&nbsp;|&ThickSpace;<font color="#686868">Egg Group(s):</font> Field&nbsp;|&ThickSpace;<font color="#686868">Does Not Evolve</font></font>
+|c| brawlion|Dugtio is in ou
+|j|maverick1507
+|c| SunGodVolcarona|they're all new
+|j|Kzap8
+|c| Kzap8|oh wow
+|c| SunGodVolcarona|not really tiered
+|c|☆Overdragoon|this is gen 6
+|c|☆Overdragoon|battle factory
+|c| SunGodVolcarona|oh
+|c| brawlion|Kl
+|c| SunGodVolcarona|nvm then I'll shut up
+|c|☆Overdragoon|so 80 base att for dugtrio
+|c| SunGodVolcarona|I thought this was gen 7 for some reason
+|c| brawlion|Lol
+|c| thewinner64|dugtrio is ou in gen 7 meta because of all the new shit dying to arena trap
+|j|BigFish LilFish
+|c| Kzap8|the guy with a full pseudo legends and legendaries didnt get here
+|choice|team 2, team 1, team 3, team 4, team 5, team 6|team 2, team 1, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Jellicent|Jellicent, M|100/100
+|switch|p2a: Granbull|Granbull, M|100/100
+|-ability|p2a: Granbull|Intimidate|boost
+|-unboost|p1a: Jellicent|atk|1
+|turn|1
+|c| SunGodVolcarona|and atk boost
+|j|TonyGuerra1
+|c| Kzap8|does anyone remember that guy
+|c| Kzap8|lolz
+|l|TonyGuerra1
+|c| brawlion|PD win this your for me
+|choice|move taunt|move thunderpunch
+|
+|move|p1a: Jellicent|Taunt|p2a: Granbull
+|-start|p2a: Granbull|move: Taunt
+|move|p2a: Granbull|Thunder Punch|p1a: Jellicent
+|-supereffective|p1a: Jellicent
+|-damage|p1a: Jellicent|40/100
+|
+|-heal|p1a: Jellicent|46/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|l|brawlion
+|choice|move willowisp|switch 5
+|
+|switch|p2a: Jolteon|Jolteon, M|100/100
+|move|p1a: Jellicent|Will-O-Wisp|p2a: Jolteon
+|-status|p2a: Jolteon|brn
+|
+|-heal|p1a: Jellicent|52/100|[from] item: Leftovers
+|-damage|p2a: Jolteon|88/100 brn|[from] brn
+|upkeep
+|turn|3
+|c| thewinner64|reads
+|j|Haha Rin boy
+|choice|switch 2|move shadowball
+|
+|switch|p1a: Braviary|Braviary, M|100/100
+|move|p2a: Jolteon|Shadow Ball|p1a: Braviary
+|-immune|p1a: Braviary|[msg]
+|
+|-damage|p2a: Jolteon|76/100 brn|[from] brn
+|upkeep
+|turn|4
+|c|☆PD ♔|HOW
+|c| thewinner64|WHAT
+|c|☆PD ♔|top 1
+|j|eugenethegreat
+|c| Kzap8|WOW
+|j|brawlion
+|choice|switch 6|move thunderbolt
+|
+|switch|p1a: Dugtrio|Dugtrio, M|100/100
+|move|p2a: Jolteon|Thunderbolt|p1a: Dugtrio
+|-immune|p1a: Dugtrio|[msg]
+|
+|-damage|p2a: Jolteon|64/100 brn|[from] brn
+|upkeep
+|turn|5
+|c| SunGodVolcarona|expecting a trap
+|c| brawlion|Lol
+|c|☆PD ♔|HOW
+|c| SunGodVolcarona|from dugtrio
+|c|☆PD ♔|top 1
+|c| Kzap8|LOL}
+|c| thewinner64|THAT READ MADE EVERY ENGLISH TEACHER IN AMERICA HAPPY
+|c| Kzap8|OMG
+|c| SunGodVolcarona|now you're fucked
+|c| Kzap8|LOLZ
+|choice|move earthquake|move hiddenpower
+|
+|move|p2a: Jolteon|Hidden Power|p1a: Dugtrio
+|-supereffective|p1a: Dugtrio
+|-damage|p1a: Dugtrio|0 fnt
+|-damage|p2a: Jolteon|54/100 brn|[from] item: Life Orb
+|faint|p1a: Dugtrio
+|
+|-damage|p2a: Jolteon|42/100 brn|[from] brn
+|upkeep
+|c|☆PD ♔|rip
+|c| brawlion|Drd
+|c| SunGodVolcarona|NOT SASH
+|c|☆Overdragoon|lol no sash
+|c| SunGodVolcarona|RIP
+|c| Kzap8|rip
+|c| brawlion|Uh
+|c| Kzap8|hp ground?
+|c|☆PD ♔|you gotta admit though
+|c|☆PD ♔|that was
+|c| thewinner64|jotleon 1v1's his team lmao
+|c| brawlion|Leftovers
+|c|☆PD ♔|fucking lord
+|c|☆PD ♔|plays
+|l|Meny_13_
+|c| Kzap8|yea
+|c| thewinner64|not sash AND the jolt isn't specced
+|c|☆PD ♔|i could've suckered but i didnt feel like calcing hp ice
+|j|nightning ∯
+|c|☆PD ♔|rip
+|c| Kzap8|burn won thelp
+|c| brawlion|Hitmontol
+|c| brawlion|P dosent die to jolter
+|choice|switch 4|
+|
+|switch|p1a: Emboar|Emboar, M|100/100
+|turn|6
+|l|brawlion
+|c| thewinner64|yeah that was the only play lol
+|choice|move suckerpunch|move voltswitch
+|
+|move|p1a: Emboar|Sucker Punch|p2a: Jolteon
+|-damage|p2a: Jolteon|0 fnt
+|faint|p2a: Jolteon
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Smeargle|Smeargle, M|100/100
+|turn|7
+|j|gatogatogato
+|c| Kzap8|did any of u fight that guy with a kyurem white, volcarona, victini, cheeky lando and garchomp by any chance?
+|choice|switch 2|move spore
+|
+|switch|p1a: Jellicent|Jellicent, M|52/100
+|move|p2a: Smeargle|Spore|p1a: Jellicent
+|-status|p1a: Jellicent|slp
+|
+|-heal|p1a: Jellicent|58/100 slp|[from] item: Leftovers
+|upkeep
+|turn|8
+|j|dontpunchim
+|choice|switch 5|move stealthrock
+|
+|switch|p1a: Hitmontop|Hitmontop, M|100/100
+|-ability|p1a: Hitmontop|Intimidate|boost
+|-unboost|p2a: Smeargle|atk|1
+|move|p2a: Smeargle|Stealth Rock|p1a: Hitmontop
+|-sidestart|p1: PD ♔|move: Stealth Rock
+|
+|upkeep
+|turn|9
+|c| BigFish LilFish|I DID
+|c| Kzap8|how was it
+|c| SunGodVolcarona|cheeky lando?
+|c| Kzap8|XD
+|choice|move rapidspin|switch 3
+|
+|switch|p2a: Aerodactyl|Aerodactyl, M|100/100
+|-ability|p2a: Aerodactyl|Unnerve|p1: PD ♔
+|move|p1a: Hitmontop|Rapid Spin|p2a: Aerodactyl
+|-resisted|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|97/100
+|-sideend|p1: PD ♔|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Hitmontop
+|
+|upkeep
+|turn|10
+|c| BigFish LilFish|it was fun
+|c| Kzap8|duncan's way of saying lanorous therian
+|j|Angoori bhabhi
+|c| Kzap8|i dont get how he didnt reach to the finals
+|c| Kzap8|.-.
+|c| SunGodVolcarona|lol
+|choice|switch 3|move aerialace
+|
+|switch|p1a: Omastar|Omastar, M|100/100
+|move|p2a: Aerodactyl|Aerial Ace|p1a: Omastar
+|-resisted|p1a: Omastar
+|-damage|p1a: Omastar|82/100
+|-ability|p1a: Omastar|Weak Armor|boost
+|-unboost|p1a: Omastar|def|1
+|-boost|p1a: Omastar|spe|1
+|-damage|p2a: Aerodactyl|87/100|[from] item: Life Orb
+|
+|upkeep
+|turn|11
+|c| SunGodVolcarona|for this tourney or?
+|c| thewinner64|PLAYS
+|c|☆PD ♔|yes i outspeed
+|c|☆PD ♔|perfect
+|choice|move scald|move earthquake
+|
+|move|p2a: Aerodactyl|Earthquake|p1a: Omastar
+|-supereffective|p1a: Omastar
+|-damage|p1a: Omastar|0 fnt
+|-damage|p2a: Aerodactyl|77/100|[from] item: Life Orb
+|faint|p1a: Omastar
+|
+|upkeep
+|c| thewinner64|lmao
+|c|☆PD ♔|fuck i bluffed
+|c|☆Overdragoon|nice bluff
+|c|☆PD ♔|you found out
+|c| Kzap8|no you dont
+|c|☆PD ♔|shouldve have said anything
+|c|☆PD ♔|that was mi wincon D:
+|l|Dosa16
+|c|☆Overdragoon|scarfed Omastar?? Not even in Smogon
+|choice|switch 3|
+|
+|switch|p1a: Hitmontop|Hitmontop, M|100/100
+|-ability|p1a: Hitmontop|Intimidate|boost
+|-unboost|p2a: Aerodactyl|atk|1
+|turn|12
+|c| Kzap8|lolz
+|j|Boaz222
+|choice|move toxic|switch 5
+|
+|switch|p2a: Granbull|Granbull, M|100/100
+|-ability|p2a: Granbull|Intimidate|boost
+|-unboost|p1a: Hitmontop|atk|1
+|move|p1a: Hitmontop|Toxic|p2a: Granbull
+|-status|p2a: Granbull|tox
+|
+|-damage|p2a: Granbull|94/100 tox|[from] psn
+|upkeep
+|turn|13
+|c| Kzap8|o sht
+|j|JakeMurasaki
+|choice|switch 5|move playrough
+|
+|switch|p1a: Jellicent|Jellicent, M|58/100 slp
+|move|p2a: Granbull|Play Rough|p1a: Jellicent
+|-damage|p1a: Jellicent|0 fnt
+|faint|p1a: Jellicent
+|
+|-damage|p2a: Granbull|82/100 tox|[from] psn
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Emboar|Emboar, M|100/100
+|turn|14
+|c| Kzap8|imagine this granbull having facade
+|c| thewinner64|claim your kill
+|c| Kzap8|that wouldve been perfect
+|c|☆PD ♔|and being normal type
+|choice|move flareblitz|switch 4
+|
+|switch|p2a: Hitmontop|Hitmontop, M|100/100
+|-ability|p2a: Hitmontop|Intimidate|boost
+|-unboost|p1a: Emboar|atk|1
+|move|p1a: Emboar|Flare Blitz|p2a: Hitmontop
+|-damage|p2a: Hitmontop|34/100
+|-damage|p1a: Emboar|82/100|[from] recoil|[of] p2a: Hitmontop
+|
+|-heal|p2a: Hitmontop|41/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|j|ikilluforfun
+|choice|move flareblitz|move toxic
+|
+|move|p1a: Emboar|Flare Blitz|p2a: Hitmontop
+|-damage|p2a: Hitmontop|0 fnt
+|-damage|p1a: Emboar|71/100|[from] recoil|[of] p2a: Hitmontop
+|faint|p2a: Hitmontop
+|
+|upkeep
+|c| ikilluforfun|my name is program
+|l|JakeMurasaki
+|choice||switch 3
+|
+|switch|p2a: Smeargle|Smeargle, M|100/100
+|turn|16
+|choice|move flareblitz|move spore
+|
+|move|p2a: Smeargle|Spore|p1a: Emboar
+|-status|p1a: Emboar|slp
+|cant|p1a: Emboar|slp
+|
+|upkeep
+|turn|17
+|choice|switch 5|move stealthrock
+|
+|switch|p1a: Hitmontop|Hitmontop, M|100/100
+|-ability|p1a: Hitmontop|Intimidate|boost
+|-unboost|p2a: Smeargle|atk|1
+|move|p2a: Smeargle|Stealth Rock|p1a: Hitmontop
+|-sidestart|p1: PD ♔|move: Stealth Rock
+|
+|upkeep
+|turn|18
+|choice|move rapidspin|switch 4
+|
+|switch|p2a: Granbull|Granbull, M|82/100 tox
+|-ability|p2a: Granbull|Intimidate|boost
+|-unboost|p1a: Hitmontop|atk|1
+|move|p1a: Hitmontop|Rapid Spin|p2a: Granbull
+|-damage|p2a: Granbull|79/100 tox
+|-sideend|p1: PD ♔|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Hitmontop
+|
+|-damage|p2a: Granbull|72/100 tox|[from] psn
+|upkeep
+|turn|19
+|choice|switch 5|move playrough
+|
+|switch|p1a: Emboar|Emboar, M|71/100 slp
+|move|p2a: Granbull|Play Rough|p1a: Emboar
+|-damage|p1a: Emboar|0 fnt
+|faint|p1a: Emboar
+|
+|-damage|p2a: Granbull|60/100 tox|[from] psn
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Braviary|Braviary, M|100/100
+|turn|20
+|j|JakeMurasaki
+|c| ikilluforfun|play rough
+|choice|move bravebird|move playrough
+|
+|move|p1a: Braviary|Brave Bird|p2a: Granbull
+|-damage|p2a: Granbull|0 fnt
+|-damage|p1a: Braviary|79/100|[from] recoil|[of] p2a: Granbull
+|-damage|p1a: Braviary|69/100|[from] item: Life Orb
+|faint|p2a: Granbull
+|
+|upkeep
+|c| ikilluforfun|u could also play nice
+|choice||switch 4
+|
+|switch|p2a: Smeargle|Smeargle, M|100/100
+|turn|21
+|choice|move return|move spore
+|
+|move|p2a: Smeargle|Spore|p1a: Braviary
+|-status|p1a: Braviary|slp
+|cant|p1a: Braviary|slp
+|
+|upkeep
+|turn|22
+|c| Kzap8|rip
+|choice|move superpower|switch 5
+|
+|switch|p2a: Aerodactyl|Aerodactyl, M|77/100
+|-ability|p2a: Aerodactyl|Unnerve|p1: PD ♔
+|cant|p1a: Braviary|slp
+|
+|upkeep
+|turn|23
+|c|☆PD ♔|NO
+|c| SunGodVolcarona|play neutral tbh
+|c|☆PD ♔|I DIDNT WAKE UP
+|c| ikilluforfun|gg
+|c|☆PD ♔|honestly
+|c|☆PD ♔|that was a bad play
+|c|☆PD ♔|if i woke
+|c|☆PD ♔|you got bopped
+|c|☆PD ♔|gg though dude
+|c| Kzap8|"play"
+|c|☆PD ♔|superpower'd
+|choice|move superpower|move stoneedge
+|
+|move|p2a: Aerodactyl|Stone Edge|p1a: Braviary|[miss]
+|-miss|p2a: Aerodactyl|p1a: Braviary
+|cant|p1a: Braviary|slp
+|
+|upkeep
+|turn|24
+|c| SunGodVolcarona|that's not a play
+|c|☆PD ♔|lmao
+|c| Kzap8|OH
+|c| SunGodVolcarona|that's just luck
+|choice|switch 5|switch 6
+|
+|switch|p2a: Togetic|Togetic, M|100/100
+|switch|p1a: Hitmontop|Hitmontop, M|100/100
+|-ability|p1a: Hitmontop|Intimidate|boost
+|-unboost|p2a: Togetic|atk|1
+|
+|upkeep
+|turn|25
+|c| Kzap8|OMG
+|c| ikilluforfun|u cant win
+|choice|move toxic|move dazzlinggleam
+|
+|move|p1a: Hitmontop|Toxic|p2a: Togetic
+|-status|p2a: Togetic|tox
+|move|p2a: Togetic|Dazzling Gleam|p1a: Hitmontop
+|-supereffective|p1a: Hitmontop
+|-damage|p1a: Hitmontop|52/100
+|
+|-heal|p1a: Hitmontop|59/100|[from] item: Leftovers
+|-damage|p2a: Togetic|94/100 tox|[from] psn
+|upkeep
+|turn|26
+|j|steel ball
+|c| ikilluforfun|u needed rock slide
+|c| Kzap8|im stressing out
+|c| thewinner64|WAKE UP
+|c| thewinner64|WAKE
+|c| thewinner64|UP
+|choice|switch 5|move dazzlinggleam
+|
+|switch|p1a: Braviary|Braviary, M|69/100 slp
+|move|p2a: Togetic|Dazzling Gleam|p1a: Braviary
+|-damage|p1a: Braviary|42/100 slp
+|
+|-damage|p2a: Togetic|82/100 tox|[from] psn
+|upkeep
+|turn|27
+|l|Like A Star
+|c| ikilluforfun|roost
+|choice|move roost|switch 5
+|
+|switch|p2a: Smeargle|Smeargle, M|100/100
+|-curestatus|p1a: Braviary|slp|[msg]
+|move|p1a: Braviary|Roost|p1a: Braviary
+|-heal|p1a: Braviary|92/100
+|
+|upkeep
+|turn|28
+|j|brawlion
+|c| steel ball|is it
+|c| steel ball|sub bu
+|c| Kzap8|YAS
+|choice|move return|move spore
+|
+|move|p2a: Smeargle|Spore|p1a: Braviary
+|-status|p1a: Braviary|slp
+|cant|p1a: Braviary|slp
+|
+|upkeep
+|turn|29
+|l|brawlion
+|c| thewinner64|IT'S LIT FAM
+|c| dontpunchim|lmaoo
+|c| thewinner64|NOOOOOOOOOO
+|c| Kzap8|LOL
+|c| ikilluforfun|switch was the play
+|c| nightning ∯|ok
+|c| nightning ∯|so pd that's game
+|c| Angoori bhabhi|Just double aerial ace
+|c|☆PD ♔|"play"
+|c| Kzap8|smeargle
+|c| thewinner64|if he switches he loses cuz he needed mach punch to kill aero
+|c| Kzap8|set up rocks
+|c|☆PD ♔|either way i lose momentum
+|c|☆PD ♔|zzz
+|c|☆Overdragoon|lets just gtfo of here
+|raw|<div class="broadcast-red"><strong>Moderated chat was set to +!</strong><br />Only users of rank + and higher can talk.</div>
+|choice|move superpower|move explosion
+|
+|move|p2a: Smeargle|Explosion|p1a: Braviary
+|-damage|p1a: Braviary|56/100 slp
+|faint|p2a: Smeargle
+|-curestatus|p1a: Braviary|slp|[msg]
+|move|p1a: Braviary|Superpower|p2: Smeargle|[notarget]
+|-notarget
+|
+|upkeep
+|c|☆PD ♔|lol
+|c|☆PD ♔|i woke doe
+|choice||switch 6
+|
+|switch|p2a: Aerodactyl|Aerodactyl, M|77/100
+|-ability|p2a: Aerodactyl|Unnerve|p1: PD ♔
+|turn|30
+|c|☆PD ♔|that was a good play
+|choice|move superpower|move aerialace
+|
+|move|p2a: Aerodactyl|Aerial Ace|p1a: Braviary
+|-damage|p1a: Braviary|10/100
+|-damage|p2a: Aerodactyl|67/100|[from] item: Life Orb
+|move|p1a: Braviary|Superpower|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|0 fnt
+|-unboost|p1a: Braviary|atk|1
+|-unboost|p1a: Braviary|def|1
+|-damage|p1a: Braviary|0 fnt|[from] item: Life Orb
+|faint|p2a: Aerodactyl
+|faint|p1a: Braviary
+|
+|upkeep
+|c|☆PD ♔|rip
+|c|☆PD ♔|GG
+|choice|switch 5|switch 5
+|
+|switch|p1a: Hitmontop|Hitmontop, M|59/100
+|switch|p2a: Togetic|Togetic, M|82/100 tox
+|-ability|p1a: Hitmontop|Intimidate|boost
+|-unboost|p2a: Togetic|atk|1
+|turn|31
+|l|steel ball
+|c|☆Overdragoon|gg
+|j|steel ball
+|choice|move foresight|move dazzlinggleam
+|
+|move|p1a: Hitmontop|Foresight|p2a: Togetic
+|-start|p2a: Togetic|Foresight
+|move|p2a: Togetic|Dazzling Gleam|p1a: Hitmontop
+|-supereffective|p1a: Hitmontop
+|-damage|p1a: Hitmontop|9/100
+|
+|-heal|p1a: Hitmontop|15/100|[from] item: Leftovers
+|-damage|p2a: Togetic|76/100 tox|[from] psn
+|upkeep
+|turn|32
+|choice|move closecombat|move dazzlinggleam
+|
+|move|p1a: Hitmontop|Close Combat|p2a: Togetic
+|-resisted|p2a: Togetic
+|-damage|p2a: Togetic|70/100 tox
+|-unboost|p1a: Hitmontop|def|1
+|-unboost|p1a: Hitmontop|spd|1
+|move|p2a: Togetic|Dazzling Gleam|p1a: Hitmontop
+|-supereffective|p1a: Hitmontop
+|-damage|p1a: Hitmontop|0 fnt
+|faint|p1a: Hitmontop
+|
+|win|Overdragoon
+|l|PD ♔
+|l|eugenethegreat
+|l|steel ball
+|l|SunGodVolcarona
+|l|QuadsCoat
+|l|maverick1507
+|l|thewinner64
+|c|☆Overdragoon|blowing smeargle new meta
+|l|JakeMurasaki
+|l|dontpunchim
+|l|Angoori bhabhi
+|l|Dark knight99
+|l|nightning ∯
+|l|Snowblind l
+|l|ikilluforfun

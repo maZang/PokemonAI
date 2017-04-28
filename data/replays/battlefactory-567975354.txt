@@ -1,0 +1,553 @@
+|j|Gulk
+|j|Lederp James
+|player|p1|Gulk|258
+|player|p2|Lederp James|180
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|2539,32942,30201,31051,16658,46257,33665,24292,495,19950,53919,34737
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Landorus, M|item
+|poke|p1|Arceus-*|item
+|poke|p1|Kyurem-White|item
+|poke|p1|Yveltal|item
+|poke|p1|Tyranitar, M|item
+|poke|p1|Genesect-*|item
+|poke|p2|Kyurem-White|item
+|poke|p2|Gengar, M|item
+|poke|p2|Deoxys-Speed|item
+|poke|p2|Arceus-*|item
+|poke|p2|Dialga|item
+|poke|p2|Lugia|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 6, team 2, team 3, team 4, team 5, team 1|team 3, team 2, team 1, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Genesect|Genesect|100/100
+|switch|p2a: Deoxys|Deoxys-Speed|100/100
+|-ability|p2a: Deoxys|Pressure
+|-ability|p1a: Genesect|Download|boost
+|-boost|p1a: Genesect|spa|1
+|turn|1
+|choice|move uturn|move reflect
+|
+|move|p2a: Deoxys|Reflect|p2a: Deoxys
+|-sidestart|p2: Lederp James|Reflect
+|move|p1a: Genesect|U-turn|p2a: Deoxys
+|-supereffective|p2a: Deoxys
+|-damage|p2a: Deoxys|57/100
+|choice|switch 5|
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Deoxys|51/100|[from] sandstorm
+|upkeep
+|turn|2
+|choice|move stealthrock|move lightscreen
+|
+|move|p2a: Deoxys|Light Screen|p2a: Deoxys
+|-sidestart|p2: Lederp James|move: Light Screen
+|move|p1a: Tyranitar|Stealth Rock|p2a: Deoxys
+|-sidestart|p2: Lederp James|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Deoxys|45/100|[from] sandstorm
+|upkeep
+|turn|3
+|choice|switch 2|move stealthrock
+|
+|switch|p1a: Arceus|Arceus-Fairy|100/100
+|move|p2a: Deoxys|Stealth Rock|p1a: Arceus
+|-sidestart|p1: Gulk|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Deoxys|38/100|[from] sandstorm
+|-damage|p1a: Arceus|94/100|[from] sandstorm
+|upkeep
+|turn|4
+|choice|move defog|move taunt
+|
+|move|p2a: Deoxys|Taunt|p1a: Arceus
+|-start|p1a: Arceus|move: Taunt
+|cant|p1a: Arceus|move: Taunt|Defog
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Deoxys|32/100|[from] sandstorm
+|-damage|p1a: Arceus|88/100|[from] sandstorm
+|upkeep
+|turn|5
+|choice|switch 2|switch 5
+|
+|switch|p2a: Dialga|Dialga|100/100
+|-damage|p2a: Dialga|94/100|[from] Stealth Rock
+|-ability|p2a: Dialga|Pressure
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-damage|p1a: Tyranitar|88/100|[from] Stealth Rock
+|
+|-weather|none
+|upkeep
+|turn|6
+|choice|switch 4|move flashcannon
+|
+|switch|p1a: Yveltal|Yveltal|100/100
+|-damage|p1a: Yveltal|76/100|[from] Stealth Rock
+|-ability|p1a: Yveltal|Dark Aura
+|move|p2a: Dialga|Flash Cannon|p1a: Yveltal
+|-damage|p1a: Yveltal|38/100
+|
+|-heal|p1a: Yveltal|44/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|choice|move roost|move dracometeor
+|
+|move|p2a: Dialga|Draco Meteor|p1a: Yveltal
+|-damage|p1a: Yveltal|0 fnt
+|-unboost|p2a: Dialga|spa|2
+|faint|p1a: Yveltal
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Arceus|Arceus-Fairy|88/100
+|-damage|p1a: Arceus|76/100|[from] Stealth Rock
+|turn|8
+|choice|move defog|move flashcannon
+|
+|move|p1a: Arceus|Defog|p2a: Dialga
+|-unboost|p2a: Dialga|evasion|1
+|-sideend|p2: Lederp James|Reflect
+|-sideend|p2: Lederp James|move: Light Screen
+|-sideend|p2: Lederp James|Stealth Rock|[from] move: Defog|[of] p2a: Dialga
+|-sideend|p1: Gulk|Stealth Rock|[from] move: Defog|[of] p1a: Arceus
+|move|p2a: Dialga|Flash Cannon|p1a: Arceus
+|-supereffective|p1a: Arceus
+|-damage|p1a: Arceus|45/100
+|
+|upkeep
+|turn|9
+|choice|move recover|switch 5
+|
+|switch|p2a: Deoxys|Deoxys-Speed|32/100
+|-ability|p2a: Deoxys|Pressure
+|move|p1a: Arceus|Recover|p1a: Arceus
+|-heal|p1a: Arceus|95/100
+|
+|upkeep
+|turn|10
+|choice|move defog|move lightscreen
+|
+|move|p2a: Deoxys|Light Screen|p2a: Deoxys
+|-sidestart|p2: Lederp James|move: Light Screen
+|move|p1a: Arceus|Defog|p2a: Deoxys
+|-unboost|p2a: Deoxys|evasion|1
+|-sideend|p2: Lederp James|move: Light Screen
+|
+|upkeep
+|turn|11
+|choice|move judgment|move taunt
+|
+|move|p2a: Deoxys|Taunt|p1a: Arceus
+|-start|p1a: Arceus|move: Taunt
+|move|p1a: Arceus|Judgment|p2a: Deoxys
+|-damage|p2a: Deoxys|0 fnt
+|faint|p2a: Deoxys
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Dialga|Dialga|94/100
+|-ability|p2a: Dialga|Pressure
+|turn|12
+|choice|switch 5|move flashcannon
+|
+|switch|p1a: Genesect|Genesect|100/100
+|-ability|p1a: Genesect|Download|boost
+|-boost|p1a: Genesect|spa|1
+|move|p2a: Dialga|Flash Cannon|p1a: Genesect
+|-resisted|p1a: Genesect
+|-damage|p1a: Genesect|70/100
+|
+|upkeep
+|turn|13
+|choice|move uturn|move fireblast
+|
+|move|p1a: Genesect|U-turn|p2a: Dialga
+|-resisted|p2a: Dialga
+|-damage|p2a: Dialga|81/100
+|choice|switch 6|
+|
+|switch|p1a: Landorus|Landorus, M|100/100
+|move|p2a: Dialga|Fire Blast|p1a: Landorus
+|-damage|p1a: Landorus|37/100
+|
+|upkeep
+|turn|14
+|choice|move knockoff|move dracometeor
+|
+|move|p1a: Landorus|Knock Off|p2a: Dialga
+|-crit|p2a: Dialga
+|-damage|p2a: Dialga|40/100
+|-enditem|p2a: Dialga|Shuca Berry|[from] move: Knock Off|[of] p1a: Landorus
+|-damage|p1a: Landorus|27/100|[from] item: Life Orb
+|move|p2a: Dialga|Draco Meteor|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|-unboost|p2a: Dialga|spa|2
+|faint|p1a: Landorus
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Kyurem|Kyurem-White|100/100
+|-ability|p1a: Kyurem|Turboblaze
+|turn|15
+|choice|move fusionflare|switch 6
+|
+|switch|p2a: Lugia|Lugia|100/100
+|move|p1a: Kyurem|Fusion Flare|p2a: Lugia
+|-damage|p2a: Lugia|70/100
+|-damage|p1a: Kyurem|91/100|[from] item: Life Orb
+|
+|-heal|p2a: Lugia|76/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|choice|switch 4|move toxic
+|
+|switch|p1a: Tyranitar|Tyranitar, M|88/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Lugia|Toxic|p1a: Tyranitar
+|-status|p1a: Tyranitar|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Lugia|70/100|[from] sandstorm
+|-heal|p2a: Lugia|76/100|[from] item: Leftovers
+|-damage|p1a: Tyranitar|82/100 tox|[from] psn
+|upkeep
+|turn|17
+|choice|move stealthrock|move whirlwind
+|
+|move|p1a: Tyranitar|Stealth Rock|p2a: Lugia
+|-sidestart|p2: Lederp James|move: Stealth Rock
+|move|p2a: Lugia|Whirlwind|p1a: Tyranitar
+|drag|p1a: Arceus|Arceus-Fairy|95/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Arceus|89/100|[from] sandstorm
+|-damage|p2a: Lugia|70/100|[from] sandstorm
+|-heal|p2a: Lugia|76/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|choice|switch 5|move toxic
+|
+|switch|p1a: Tyranitar|Tyranitar, M|82/100 tox
+|move|p2a: Lugia|Toxic|p1a: Tyranitar
+|-fail|p1a: Tyranitar|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Lugia|70/100|[from] sandstorm
+|-heal|p2a: Lugia|76/100|[from] item: Leftovers
+|-damage|p1a: Tyranitar|76/100 tox|[from] psn
+|upkeep
+|turn|19
+|choice|move roar|switch 4
+|
+|switch|p2a: Arceus|Arceus-Fairy|100/100
+|-damage|p2a: Arceus|88/100|[from] Stealth Rock
+|move|p1a: Tyranitar|Roar|p2a: Arceus
+|drag|p2a: Gengar|Gengar, M|100/100
+|-damage|p2a: Gengar|88/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|82/100|[from] sandstorm
+|-damage|p1a: Tyranitar|63/100 tox|[from] psn
+|upkeep
+|turn|20
+|choice|move rockslide|move protect mega
+|
+|detailschange|p2a: Gengar|Gengar-Mega, M
+|-mega|p2a: Gengar|Gengar|Gengarite
+|move|p2a: Gengar|Protect|p2a: Gengar
+|-singleturn|p2a: Gengar|Protect
+|move|p1a: Tyranitar|Rock Slide|p2a: Gengar
+|-activate|p2a: Gengar|move: Protect
+|
+|-weather|none
+|-damage|p1a: Tyranitar|45/100 tox|[from] psn
+|upkeep
+|turn|21
+|choice|move rockslide|move disable
+|
+|move|p2a: Gengar|Disable|p1a: Tyranitar
+|-start|p1a: Tyranitar|Disable|Rock Slide
+|cant|p1a: Tyranitar|Disable|Rock Slide
+|
+|-damage|p1a: Tyranitar|20/100 tox|[from] psn
+|upkeep
+|turn|22
+|choice|move roar|move protect
+|
+|move|p2a: Gengar|Protect|p2a: Gengar
+|-singleturn|p2a: Gengar|Protect
+|move|p1a: Tyranitar|Roar|p2a: Gengar
+|drag|p2a: Dialga|Dialga|40/100
+|-damage|p2a: Dialga|34/100|[from] Stealth Rock
+|-ability|p2a: Dialga|Pressure
+|
+|-damage|p1a: Tyranitar|0 fnt|[from] psn
+|upkeep
+|faint|p1a: Tyranitar
+|choice|switch 4|
+|
+|switch|p1a: Kyurem|Kyurem-White|91/100
+|-ability|p1a: Kyurem|Turboblaze
+|turn|23
+|choice|move icebeam|move dracometeor
+|
+|move|p1a: Kyurem|Ice Beam|p2a: Dialga
+|-damage|p2a: Dialga|0 fnt
+|-damage|p1a: Kyurem|81/100|[from] item: Life Orb
+|faint|p2a: Dialga
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Kyurem|Kyurem-White|100/100
+|-damage|p2a: Kyurem|76/100|[from] Stealth Rock
+|-ability|p2a: Kyurem|Turboblaze
+|turn|24
+|choice|switch 5|move fusionflare
+|
+|switch|p1a: Arceus|Arceus-Fairy|89/100
+|move|p2a: Kyurem|Fusion Flare|p1a: Arceus
+|-damage|p1a: Arceus|53/100
+|-damage|p2a: Kyurem|66/100|[from] item: Life Orb
+|
+|upkeep
+|turn|25
+|choice|switch 6|switch 2
+|
+|switch|p2a: Arceus|Arceus-Fairy|88/100
+|-damage|p2a: Arceus|76/100|[from] Stealth Rock
+|switch|p1a: Genesect|Genesect|70/100
+|-ability|p1a: Genesect|Download|boost
+|-boost|p1a: Genesect|spa|1
+|
+|upkeep
+|turn|26
+|choice|move ironhead|move defog
+|
+|move|p1a: Genesect|Iron Head|p2a: Arceus
+|-supereffective|p2a: Arceus
+|-damage|p2a: Arceus|35/100
+|cant|p2a: Arceus|flinch
+|
+|upkeep
+|turn|27
+|choice|move ironhead|move defog
+|
+|move|p1a: Genesect|Iron Head|p2a: Arceus
+|-supereffective|p2a: Arceus
+|-damage|p2a: Arceus|0 fnt
+|faint|p2a: Arceus
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Gengar|Gengar-Mega, M|82/100
+|-damage|p2a: Gengar|70/100|[from] Stealth Rock
+|turn|28
+|choice|move ironhead|move protect
+|
+|move|p2a: Gengar|Protect|p2a: Gengar
+|-singleturn|p2a: Gengar|Protect
+|move|p1a: Genesect|Iron Head|p2a: Gengar
+|-activate|p2a: Gengar|move: Protect
+|
+|upkeep
+|turn|29
+|choice|move ironhead|move perishsong
+|
+|move|p1a: Genesect|Iron Head|p2a: Gengar
+|-damage|p2a: Gengar|15/100
+|move|p2a: Gengar|Perish Song|p2a: Gengar
+|-start|p1a: Genesect|perish3|[silent]
+|-start|p2a: Gengar|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|
+|-start|p1a: Genesect|perish3
+|-start|p2a: Gengar|perish3
+|upkeep
+|turn|30
+|choice|move ironhead|move protect
+|
+|move|p2a: Gengar|Protect|p2a: Gengar
+|-singleturn|p2a: Gengar|Protect
+|move|p1a: Genesect|Iron Head|p2a: Gengar
+|-activate|p2a: Gengar|move: Protect
+|
+|-start|p1a: Genesect|perish2
+|-start|p2a: Gengar|perish2
+|upkeep
+|turn|31
+|choice|move ironhead|switch 4
+|
+|switch|p2a: Lugia|Lugia|76/100
+|-damage|p2a: Lugia|51/100|[from] Stealth Rock
+|move|p1a: Genesect|Iron Head|p2a: Lugia
+|-damage|p2a: Lugia|31/100
+|
+|-heal|p2a: Lugia|37/100|[from] item: Leftovers
+|-start|p1a: Genesect|perish1
+|upkeep
+|turn|32
+|choice|switch 6|move roost
+|
+|switch|p1a: Arceus|Arceus-Fairy|53/100
+|move|p2a: Lugia|Roost|p2a: Lugia
+|-heal|p2a: Lugia|87/100
+|
+|-heal|p2a: Lugia|93/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|choice|switch 6|move toxic
+|
+|switch|p1a: Genesect|Genesect|70/100
+|-ability|p1a: Genesect|Download|boost
+|-boost|p1a: Genesect|spa|1
+|move|p2a: Lugia|Toxic|p1a: Genesect
+|-immune|p1a: Genesect|[msg]
+|
+|-heal|p2a: Lugia|99/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|choice|move ironhead|move whirlwind
+|
+|move|p1a: Genesect|Iron Head|p2a: Lugia
+|-damage|p2a: Lugia|78/100
+|move|p2a: Lugia|Whirlwind|p1a: Genesect
+|drag|p1a: Kyurem|Kyurem-White|81/100
+|-ability|p1a: Kyurem|Turboblaze
+|
+|-heal|p2a: Lugia|84/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|choice|move icebeam|switch 4
+|
+|switch|p2a: Gengar|Gengar-Mega, M|15/100
+|-damage|p2a: Gengar|3/100|[from] Stealth Rock
+|move|p1a: Kyurem|Ice Beam|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|-damage|p1a: Kyurem|71/100|[from] item: Life Orb
+|faint|p2a: Gengar
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Kyurem|Kyurem-White|66/100
+|-damage|p2a: Kyurem|41/100|[from] Stealth Rock
+|-ability|p2a: Kyurem|Turboblaze
+|turn|36
+|choice|move dracometeor|move fusionflare
+|
+|move|p2a: Kyurem|Fusion Flare|p1a: Kyurem
+|-damage|p1a: Kyurem|26/100
+|-damage|p2a: Kyurem|31/100|[from] item: Life Orb
+|move|p1a: Kyurem|Draco Meteor|p2a: Kyurem
+|-supereffective|p2a: Kyurem
+|-damage|p2a: Kyurem|0 fnt
+|-unboost|p1a: Kyurem|spa|2
+|-damage|p1a: Kyurem|16/100|[from] item: Life Orb
+|faint|p2a: Kyurem
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Lugia|Lugia|84/100
+|-damage|p2a: Lugia|60/100|[from] Stealth Rock
+|turn|37
+|choice|move icebeam|move roost
+|
+|move|p1a: Kyurem|Ice Beam|p2a: Lugia
+|-supereffective|p2a: Lugia
+|-damage|p2a: Lugia|16/100
+|-damage|p1a: Kyurem|6/100|[from] item: Life Orb
+|move|p2a: Lugia|Roost|p2a: Lugia
+|-heal|p2a: Lugia|66/100
+|
+|-heal|p2a: Lugia|72/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|choice|switch 6|move roost
+|
+|switch|p1a: Arceus|Arceus-Fairy|53/100
+|move|p2a: Lugia|Roost|p2a: Lugia
+|-heal|p2a: Lugia|100/100
+|
+|upkeep
+|turn|39
+|choice|move toxic|move toxic
+|
+|move|p1a: Arceus|Toxic|p2a: Lugia
+|-status|p2a: Lugia|tox
+|move|p2a: Lugia|Toxic|p1a: Arceus
+|-status|p1a: Arceus|tox
+|
+|-damage|p1a: Arceus|47/100 tox|[from] psn
+|-damage|p2a: Lugia|94/100 tox|[from] psn
+|upkeep
+|turn|40
+|choice|move recover|move icebeam
+|
+|move|p1a: Arceus|Recover|p1a: Arceus
+|-heal|p1a: Arceus|97/100 tox
+|move|p2a: Lugia|Ice Beam|p1a: Arceus
+|-damage|p1a: Arceus|85/100 tox
+|
+|-heal|p2a: Lugia|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Arceus|73/100 tox|[from] psn
+|-damage|p2a: Lugia|88/100 tox|[from] psn
+|upkeep
+|turn|41
+|choice|switch 5|move whirlwind
+|
+|switch|p1a: Genesect|Genesect|70/100
+|-ability|p1a: Genesect|Download|boost
+|-boost|p1a: Genesect|spa|1
+|move|p2a: Lugia|Whirlwind|p1a: Genesect
+|drag|p1a: Arceus|Arceus-Fairy|73/100 tox
+|
+|-heal|p2a: Lugia|94/100 tox|[from] item: Leftovers
+|-damage|p1a: Arceus|67/100 tox|[from] psn
+|-damage|p2a: Lugia|76/100 tox|[from] psn
+|upkeep
+|turn|42
+|choice|switch 5|move icebeam
+|
+|switch|p1a: Genesect|Genesect|70/100
+|-ability|p1a: Genesect|Download|boost
+|-boost|p1a: Genesect|spa|1
+|move|p2a: Lugia|Ice Beam|p1a: Genesect
+|-resisted|p1a: Genesect
+|-damage|p1a: Genesect|59/100
+|
+|-heal|p2a: Lugia|82/100 tox|[from] item: Leftovers
+|-damage|p2a: Lugia|58/100 tox|[from] psn
+|upkeep
+|turn|43
+|choice|move icebeam|move icebeam
+|
+|move|p1a: Genesect|Ice Beam|p2a: Lugia
+|-supereffective|p2a: Lugia
+|-crit|p2a: Lugia
+|-damage|p2a: Lugia|0 fnt
+|faint|p2a: Lugia
+|
+|win|Gulk
+|raw|Gulk's rating: 1319 &rarr; <strong>1334</strong><br />(+15 for winning)
+|raw|Lederp James's rating: 1240 &rarr; <strong>1220</strong><br />(-20 for losing)
+|l|Lederp James

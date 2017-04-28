@@ -1,0 +1,274 @@
+|j|PokemonIsBorring
+|j|Rellanik
+|player|p1|PokemonIsBorring|124
+|player|p2|Rellanik|58
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|56725,59380,64306,30831,46101,21054,41749,21272,3082,47321,15695,18887
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Espeon, M|item
+|poke|p1|Suicune|item
+|poke|p1|Tentacruel, M|item
+|poke|p1|Absol, M|item
+|poke|p1|Mienshao, M|item
+|poke|p1|Rhyperior, M|item
+|poke|p2|Crobat, M|item
+|poke|p2|Lucario, M|item
+|poke|p2|Tornadus, M|
+|poke|p2|Swampert, M|item
+|poke|p2|Darmanitan, M|item
+|poke|p2|Shaymin|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 3, team 2, team 1, team 4, team 5, team 6|team 1, team 2, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Tentacruel|Tentacruel, M|100/100
+|switch|p2a: Crobat|Crobat, M|100/100
+|turn|1
+|choice|move toxicspikes|move bravebird
+|
+|move|p2a: Crobat|Brave Bird|p1a: Tentacruel
+|-damage|p1a: Tentacruel|65/100
+|-damage|p2a: Crobat|89/100|[from] recoil|[of] p1a: Tentacruel
+|move|p1a: Tentacruel|Toxic Spikes|p2a: Crobat
+|-sidestart|p2: Rellanik|move: Toxic Spikes
+|
+|-heal|p2a: Crobat|95/100|[from] item: Black Sludge
+|-heal|p1a: Tentacruel|71/100|[from] item: Black Sludge
+|upkeep
+|turn|2
+|choice|move toxicspikes|move roost
+|
+|move|p2a: Crobat|Roost|p2a: Crobat
+|-heal|p2a: Crobat|100/100
+|move|p1a: Tentacruel|Toxic Spikes|p2a: Crobat
+|-sidestart|p2: Rellanik|move: Toxic Spikes
+|
+|-heal|p1a: Tentacruel|77/100|[from] item: Black Sludge
+|upkeep
+|turn|3
+|choice|move knockoff|move defog
+|
+|move|p2a: Crobat|Defog|p1a: Tentacruel
+|-unboost|p1a: Tentacruel|evasion|1
+|-sideend|p2: Rellanik|Toxic Spikes|[from] move: Defog|[of] p2a: Crobat
+|move|p1a: Tentacruel|Knock Off|p2a: Crobat
+|-crit|p2a: Crobat
+|-damage|p2a: Crobat|76/100
+|-enditem|p2a: Crobat|Black Sludge|[from] move: Knock Off|[of] p1a: Tentacruel
+|
+|-heal|p1a: Tentacruel|83/100|[from] item: Black Sludge
+|upkeep
+|turn|4
+|choice|move scald|move defog
+|
+|move|p2a: Crobat|Defog|p1a: Tentacruel
+|-unboost|p1a: Tentacruel|evasion|1
+|move|p1a: Tentacruel|Scald|p2a: Crobat
+|-damage|p2a: Crobat|50/100
+|
+|-heal|p1a: Tentacruel|89/100|[from] item: Black Sludge
+|upkeep
+|turn|5
+|choice|move scald|move bravebird
+|
+|move|p2a: Crobat|Brave Bird|p1a: Tentacruel
+|-crit|p1a: Tentacruel
+|-damage|p1a: Tentacruel|41/100
+|-damage|p2a: Crobat|34/100|[from] recoil|[of] p1a: Tentacruel
+|move|p1a: Tentacruel|Scald|p2a: Crobat
+|-damage|p2a: Crobat|10/100
+|
+|-heal|p1a: Tentacruel|47/100|[from] item: Black Sludge
+|upkeep
+|turn|6
+|choice|move toxicspikes|move taunt
+|
+|move|p2a: Crobat|Taunt|p1a: Tentacruel
+|-start|p1a: Tentacruel|move: Taunt
+|cant|p1a: Tentacruel|move: Taunt|Toxic Spikes
+|
+|-heal|p1a: Tentacruel|53/100|[from] item: Black Sludge
+|upkeep
+|turn|7
+|choice|switch 5|move bravebird
+|
+|switch|p1a: Mienshao|Mienshao, M|100/100
+|move|p2a: Crobat|Brave Bird|p1a: Mienshao
+|-supereffective|p1a: Mienshao
+|-damage|p1a: Mienshao|0 fnt
+|-damage|p2a: Crobat|0 fnt|[from] recoil|[of] p1a: Mienshao
+|faint|p1a: Mienshao
+|faint|p2a: Crobat
+|
+|upkeep
+|choice|switch 5|switch 2
+|
+|switch|p2a: Lucario|Lucario, M|100/100
+|switch|p1a: Tentacruel|Tentacruel, M|53/100
+|turn|8
+|choice|move toxicspikes|switch 6
+|
+|switch|p2a: Shaymin|Shaymin|100/100
+|move|p1a: Tentacruel|Toxic Spikes|p2a: Shaymin
+|-sidestart|p2: Rellanik|move: Toxic Spikes
+|
+|-heal|p1a: Tentacruel|59/100|[from] item: Black Sludge
+|upkeep
+|turn|9
+|choice|move toxicspikes|move seedflare
+|
+|move|p2a: Shaymin|Seed Flare|p1a: Tentacruel
+|-damage|p1a: Tentacruel|0 fnt
+|-damage|p2a: Shaymin|91/100|[from] item: Life Orb
+|faint|p1a: Tentacruel
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Absol|Absol, M|100/100
+|turn|10
+|choice|move swordsdance mega|move seedflare
+|
+|detailschange|p1a: Absol|Absol-Mega, M
+|-mega|p1a: Absol|Absol|Absolite
+|move|p2a: Shaymin|Seed Flare|p1a: Absol
+|-damage|p1a: Absol|0 fnt
+|-damage|p2a: Shaymin|81/100|[from] item: Life Orb
+|faint|p1a: Absol
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Espeon|Espeon, M|100/100
+|turn|11
+|choice|move psyshock|move seedflare
+|
+|move|p1a: Espeon|Psyshock|p2a: Shaymin
+|-damage|p2a: Shaymin|13/100
+|move|p2a: Shaymin|Seed Flare|p1a: Espeon
+|-damage|p1a: Espeon|13/100
+|-damage|p2a: Shaymin|3/100|[from] item: Life Orb
+|
+|upkeep
+|turn|12
+|choice|move psyshock|switch 5
+|
+|switch|p2a: Darmanitan|Darmanitan, M|100/100
+|-status|p2a: Darmanitan|psn
+|move|p1a: Espeon|Psyshock|p2a: Darmanitan
+|-crit|p2a: Darmanitan
+|-damage|p2a: Darmanitan|0 fnt
+|faint|p2a: Darmanitan
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Lucario|Lucario, M|100/100
+|turn|13
+|choice|switch 6|move closecombat
+|
+|switch|p1a: Rhyperior|Rhyperior, M|100/100
+|move|p2a: Lucario|Close Combat|p1a: Rhyperior
+|-supereffective|p1a: Rhyperior
+|-crit|p1a: Rhyperior
+|-damage|p1a: Rhyperior|9/100
+|-unboost|p2a: Lucario|def|1
+|-unboost|p2a: Lucario|spd|1
+|-damage|p2a: Lucario|91/100|[from] item: Life Orb
+|
+|-heal|p1a: Rhyperior|15/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|choice|move earthquake|move swordsdance
+|
+|move|p2a: Lucario|Swords Dance|p2a: Lucario
+|-boost|p2a: Lucario|atk|2
+|move|p1a: Rhyperior|Earthquake|p2a: Lucario
+|-supereffective|p2a: Lucario
+|-damage|p2a: Lucario|0 fnt
+|faint|p2a: Lucario
+|
+|-heal|p1a: Rhyperior|21/100|[from] item: Leftovers
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Tornadus|Tornadus, M|100/100
+|turn|15
+|choice|move rockblast|move knockoff
+|
+|move|p2a: Tornadus|Knock Off|p1a: Rhyperior
+|-damage|p1a: Rhyperior|4/100
+|-enditem|p1a: Rhyperior|Leftovers|[from] move: Knock Off|[of] p2a: Tornadus
+|move|p1a: Rhyperior|Rock Blast|p2a: Tornadus
+|-supereffective|p2a: Tornadus
+|-crit|p2a: Tornadus
+|-damage|p2a: Tornadus|40/100
+|-supereffective|p2a: Tornadus
+|-damage|p2a: Tornadus|0 fnt
+|-hitcount|p2a: Tornadus|2
+|faint|p2a: Tornadus
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Shaymin|Shaymin|3/100
+|-status|p2a: Shaymin|psn
+|turn|16
+|choice|move rockblast|move seedflare
+|
+|move|p2a: Shaymin|Seed Flare|p1a: Rhyperior
+|-supereffective|p1a: Rhyperior
+|-damage|p1a: Rhyperior|0 fnt
+|-damage|p2a: Shaymin|0 fnt|[from] item: Life Orb
+|faint|p1a: Rhyperior
+|faint|p2a: Shaymin
+|
+|upkeep
+|choice|switch 6|switch 4
+|
+|switch|p1a: Espeon|Espeon, M|13/100
+|switch|p2a: Swampert|Swampert, M|100/100
+|-status|p2a: Swampert|psn
+|turn|17
+|choice|move trick|move earthquake
+|
+|move|p1a: Espeon|Trick|p2a: Swampert
+|-activate|p1a: Espeon|move: Trick|[of] p2a: Swampert
+|-item|p2a: Swampert|Choice Specs|[from] move: Trick
+|-item|p1a: Espeon|Leftovers|[from] move: Trick
+|move|p2a: Swampert|Earthquake|p1a: Espeon
+|-damage|p1a: Espeon|0 fnt
+|faint|p1a: Espeon
+|
+|-damage|p2a: Swampert|88/100 psn|[from] psn
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Suicune|Suicune|100/100
+|-ability|p1a: Suicune|Pressure
+|turn|18
+|choice|move calmmind|move earthquake
+|
+|move|p1a: Suicune|Calm Mind|p1a: Suicune
+|-boost|p1a: Suicune|spa|1
+|-boost|p1a: Suicune|spd|1
+|move|p2a: Swampert|Earthquake|p1a: Suicune
+|-damage|p1a: Suicune|66/100
+|
+|-heal|p1a: Suicune|72/100|[from] item: Leftovers
+|-damage|p2a: Swampert|76/100 psn|[from] psn
+|upkeep
+|turn|19
+|choice|move hiddenpower|move earthquake
+|
+|move|p1a: Suicune|Hidden Power|p2a: Swampert
+|-supereffective|p2a: Swampert
+|-damage|p2a: Swampert|0 fnt
+|faint|p2a: Swampert
+|
+|win|PokemonIsBorring
