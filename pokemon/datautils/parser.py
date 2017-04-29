@@ -37,9 +37,9 @@ class PokemonShowdownEncoding(object):
 			pickle.dump(self, f)
 
 class PokemonShowdownReplayParser(object):
-	def __init__(self, log="", players={}):
+	def __init__(self, log=""):
 		self.log = log
-		self.players = players
+		self.players = {}
 		self.players["p1"] = Player("p1")
 		self.players["p2"] = Player("p2")
 		self.turnNumber = 0
@@ -171,17 +171,17 @@ class PokemonShowdownReplayParser(object):
 		speciesKey = speciesKey.lower()
 
 		if speciesKey in data["Uber"]:
-			pokemon = self.fillInPokemon(pokemon, data["Uber"][speciesKey])
+			self.fillInPokemon(pokemon, data["Uber"][speciesKey])
 		elif speciesKey in data["OU"]:
-			pokemon = self.fillInPokemon(pokemon, data["OU"][speciesKey])
+			self.fillInPokemon(pokemon, data["OU"][speciesKey])
 		elif speciesKey in data["UU"]:
-			pokemon = self.fillInPokemon(pokemon, data["UU"][speciesKey])
+			self.fillInPokemon(pokemon, data["UU"][speciesKey])
 		elif speciesKey in data["RU"]:
-			pokemon = self.fillInPokemon(pokemon, data["RU"][speciesKey])
+			self.fillInPokemon(pokemon, data["RU"][speciesKey])
 		elif speciesKey in data["NU"]:
-			pokemon = self.fillInPokemon(pokemon, data["NU"][speciesKey])
+			self.fillInPokemon(pokemon, data["NU"][speciesKey])
 		elif speciesKey in data["PU"]:
-			pokemon = self.fillInPokemon(pokemon, data["PU"][speciesKey])
+			self.fillInPokemon(pokemon, data["PU"][speciesKey])
 		else:
 			raise Exception("Pokemon not found in JSON!")
 
@@ -192,9 +192,6 @@ class PokemonShowdownReplayParser(object):
 		Inputs:
 		Pokemon - The pokemon to be filled in.
 		Data - The JSON pokemon sub-object with tier and species key already specified, ex. data["Uber"]["klefki"]
-
-		Output:
-		Pokemon - The pokemon with moves, items, ability filled in.
 		'''
 		for pokeSet in data["sets"]:
 			validSet = True
@@ -247,7 +244,6 @@ class PokemonShowdownReplayParser(object):
 					break
 			if len(pokemon.moves) == 4:
 				break
-		return pokemon
 
 
 	def processPlayer(self, line):
