@@ -1,0 +1,226 @@
+|j|Mees19
+|j|Masayuki Murata
+|player|p1|Mees19|80
+|player|p2|Masayuki Murata|211
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|20796,54807,27009,48120,52859,35648,14924,18629,42628,26140,60888,59255
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Empoleon, M|item
+|poke|p1|Ampharos, M|item
+|poke|p1|Kingdra, M|item
+|poke|p1|Gligar, M|item
+|poke|p1|Umbreon, M|item
+|poke|p1|Porygon-Z|item
+|poke|p2|Empoleon, M|item
+|poke|p2|Infernape, M|item
+|poke|p2|Scrafty, M|item
+|poke|p2|Gardevoir, M|item
+|poke|p2|Swampert, M|item
+|poke|p2|Krookodile, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|j|Zachness1
+|j|Cats Cab
+|j|FireGMG
+|choice|team 3, team 2, team 1, team 4, team 5, team 6|team 1, team 2, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Kingdra|Kingdra, M|100/100
+|switch|p2a: Empoleon|Empoleon, M|100/100
+|turn|1
+|choice|move focusenergy|move stealthrock
+|
+|move|p1a: Kingdra|Focus Energy|p1a: Kingdra
+|-start|p1a: Kingdra|move: Focus Energy
+|move|p2a: Empoleon|Stealth Rock|p1a: Kingdra
+|-sidestart|p1: Mees19|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|choice|move agility|move defog
+|
+|move|p1a: Kingdra|Agility|p1a: Kingdra
+|-boost|p1a: Kingdra|spe|2
+|move|p2a: Empoleon|Defog|p1a: Kingdra
+|-unboost|p1a: Kingdra|evasion|1
+|-sideend|p1: Mees19|Stealth Rock|[from] move: Defog|[of] p1a: Kingdra
+|
+|upkeep
+|turn|3
+|c|☆Mees19|BRUH
+|c|☆Mees19|lmaaaooo
+|c| Cats Cab|:U
+|choice|move waterfall|move roar
+|
+|move|p1a: Kingdra|Waterfall|p2a: Empoleon
+|-resisted|p2a: Empoleon
+|-crit|p2a: Empoleon
+|-damage|p2a: Empoleon|70/100
+|cant|p2a: Empoleon|flinch
+|
+|-heal|p2a: Empoleon|77/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|choice|move waterfall|switch 2
+|
+|switch|p2a: Infernape|Infernape, M|100/100
+|move|p1a: Kingdra|Waterfall|p2a: Infernape
+|-supereffective|p2a: Infernape
+|-crit|p2a: Infernape
+|-damage|p2a: Infernape|0 fnt
+|faint|p2a: Infernape
+|
+|upkeep
+|c|☆Mees19|LOLOL
+|c|☆Mees19|xDDD
+|c|☆Masayuki Murata|nevermind
+|choice||switch 4
+|
+|switch|p2a: Gardevoir|Gardevoir, M|100/100
+|-ability|p2a: Gardevoir|Sniper|[from] ability: Trace|[of] p1a: Kingdra
+|turn|5
+|choice|move waterfall|move focusblast
+|
+|move|p1a: Kingdra|Waterfall|p2a: Gardevoir
+|-crit|p2a: Gardevoir
+|-damage|p2a: Gardevoir|0 fnt
+|faint|p2a: Gardevoir
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Swampert|Swampert, M|100/100
+|turn|6
+|choice|move dracometeor|move icebeam
+|
+|move|p1a: Kingdra|Draco Meteor|p2a: Swampert
+|-crit|p2a: Swampert
+|-damage|p2a: Swampert|6/100
+|-unboost|p1a: Kingdra|spa|2
+|move|p2a: Swampert|Ice Beam|p1a: Kingdra
+|-damage|p1a: Kingdra|80/100
+|
+|upkeep
+|turn|7
+|choice|move waterfall|move earthquake
+|
+|move|p1a: Kingdra|Waterfall|p2a: Swampert
+|-crit|p2a: Swampert
+|-damage|p2a: Swampert|0 fnt
+|faint|p2a: Swampert
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Krookodile|Krookodile, M|100/100
+|-ability|p2a: Krookodile|Intimidate|boost
+|-unboost|p1a: Kingdra|atk|1
+|turn|8
+|choice|move waterfall|move superpower
+|
+|move|p1a: Kingdra|Waterfall|p2a: Krookodile
+|-supereffective|p2a: Krookodile
+|-crit|p2a: Krookodile
+|-damage|p2a: Krookodile|0 fnt
+|faint|p2a: Krookodile
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Scrafty|Scrafty, M|100/100
+|turn|9
+|choice|move waterfall|move drainpunch
+|
+|move|p1a: Kingdra|Waterfall|p2a: Scrafty
+|-crit|p2a: Scrafty
+|-damage|p2a: Scrafty|42/100
+|move|p2a: Scrafty|Drain Punch|p1a: Kingdra
+|-damage|p1a: Kingdra|53/100
+|-heal|p2a: Scrafty|54/100|[from] drain|[of] p1a: Kingdra
+|
+|-heal|p2a: Scrafty|60/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|choice|move waterfall|move drainpunch
+|
+|move|p1a: Kingdra|Waterfall|p2a: Scrafty
+|-crit|p2a: Scrafty
+|-damage|p2a: Scrafty|0 fnt
+|faint|p2a: Scrafty
+|
+|upkeep
+|l|FireGMG
+|choice||switch 2
+|
+|switch|p2a: Empoleon|Empoleon, M|77/100
+|turn|11
+|choice|move waterfall|move scald
+|
+|move|p1a: Kingdra|Waterfall|p2a: Empoleon
+|-resisted|p2a: Empoleon
+|-crit|p2a: Empoleon
+|-damage|p2a: Empoleon|47/100
+|move|p2a: Empoleon|Scald|p1a: Kingdra
+|-resisted|p1a: Kingdra
+|-damage|p1a: Kingdra|42/100
+|-status|p1a: Kingdra|brn
+|
+|-heal|p2a: Empoleon|53/100|[from] item: Leftovers
+|-damage|p1a: Kingdra|30/100 brn|[from] brn
+|upkeep
+|turn|12
+|c| Cats Cab|rip
+|choice|move waterfall|move scald
+|
+|move|p1a: Kingdra|Waterfall|p2a: Empoleon
+|-resisted|p2a: Empoleon
+|-crit|p2a: Empoleon
+|-damage|p2a: Empoleon|38/100
+|move|p2a: Empoleon|Scald|p1a: Kingdra
+|-resisted|p1a: Kingdra
+|-damage|p1a: Kingdra|19/100 brn
+|
+|-heal|p2a: Empoleon|44/100|[from] item: Leftovers
+|-damage|p1a: Kingdra|7/100 brn|[from] brn
+|upkeep
+|turn|13
+|choice|move waterfall|move scald
+|
+|move|p1a: Kingdra|Waterfall|p2a: Empoleon
+|-resisted|p2a: Empoleon
+|-crit|p2a: Empoleon
+|-damage|p2a: Empoleon|29/100
+|move|p2a: Empoleon|Scald|p1a: Kingdra
+|-resisted|p1a: Kingdra
+|-damage|p1a: Kingdra|0 fnt
+|faint|p1a: Kingdra
+|
+|-heal|p2a: Empoleon|35/100|[from] item: Leftovers
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Masayuki Murata)
+|choice|switch 2|
+|
+|switch|p1a: Ampharos|Ampharos, M|100/100
+|turn|14
+|choice|move voltswitch mega|move scald
+|
+|detailschange|p1a: Ampharos|Ampharos-Mega, M
+|-mega|p1a: Ampharos|Ampharos|Ampharosite
+|-ability|p1a: Ampharos|Mold Breaker
+|move|p2a: Empoleon|Scald|p1a: Ampharos
+|-resisted|p1a: Ampharos
+|-damage|p1a: Ampharos|89/100
+|move|p1a: Ampharos|Volt Switch|p2a: Empoleon
+|-supereffective|p2a: Empoleon
+|-damage|p2a: Empoleon|0 fnt
+|faint|p2a: Empoleon
+|
+|win|Mees19
+|l|Cats Cab
+|l|Zachness1
+|l|Masayuki Murata
+|j|Masayuki Murata

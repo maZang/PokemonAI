@@ -10,6 +10,10 @@ DATAFOLDER = 'data/replays/'
 PARSED_FOLDER = 'data/parsed_replays/'
 FACTORYSETS = 'data/factory-sets.json'
 
+def encode(network_config, replay_file):
+	encoding = PokemonShowdownEncoding.load(replay_file)
+	return [encoding.pokemon + [encoding.other_data, encoding.labels]]
+
 
 class PokemonShowdownEncoding(object):
 
@@ -476,10 +480,6 @@ class FieldState(object):
 		self.p1EntryHazards = []
 		self.p2EntryHazards = []
 		self.weather = weather
-
-
-def encode(network_config, replay_file):
-	pass
 
 def main():
 	with open(DATAFOLDER + BATTLEFILE) as file:

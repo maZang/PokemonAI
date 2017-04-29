@@ -1,0 +1,97 @@
+|j|Hugobou
+|j|gghackerhackertest
+|player|p1|Hugobou|138
+|player|p2|gghackerhackertest|290
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|57554,12894,49228,12340,19690,44360,31967,33421,52088,8005,231,60198
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Drifblim, M|item
+|poke|p1|Altaria, M|item
+|poke|p1|Lickilicky, M|item
+|poke|p1|Probopass, M|item
+|poke|p1|Glalie, M|item
+|poke|p1|Armaldo, M|item
+|poke|p2|Duosion, M|item
+|poke|p2|Articuno|item
+|poke|p2|Simipour, M|item
+|poke|p2|Vibrava, M|item
+|poke|p2|Leafeon, M|item
+|poke|p2|Arbok, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Hugobou)
+|choice|team 6, team 2, team 3, team 4, team 5, team 1|team 2, team 1, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Armaldo|Armaldo, M|100/100
+|switch|p2a: Articuno|Articuno|100/100
+|-ability|p2a: Articuno|Pressure
+|turn|1
+|choice|move stoneedge|move icebeam
+|
+|move|p2a: Articuno|Ice Beam|p1a: Armaldo
+|-damage|p1a: Armaldo|44/100
+|-damage|p2a: Articuno|91/100|[from] item: Life Orb
+|move|p1a: Armaldo|Stone Edge|p2a: Articuno
+|-supereffective|p2a: Articuno
+|-damage|p2a: Articuno|0 fnt
+|faint|p2a: Articuno
+|
+|-heal|p1a: Armaldo|50/100|[from] item: Leftovers
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Duosion|Duosion, M|100/100
+|turn|2
+|choice|move knockoff|move psyshock
+|
+|move|p1a: Armaldo|Knock Off|p2a: Duosion
+|-supereffective|p2a: Duosion
+|-damage|p2a: Duosion|43/100
+|-enditem|p2a: Duosion|Eviolite|[from] move: Knock Off|[of] p1a: Armaldo
+|move|p2a: Duosion|Psyshock|p1a: Armaldo
+|-damage|p1a: Armaldo|19/100
+|
+|-heal|p1a: Armaldo|25/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|choice|move knockoff|switch 6
+|
+|switch|p2a: Arbok|Arbok, M|100/100
+|-ability|p2a: Arbok|Intimidate|boost
+|-unboost|p1a: Armaldo|atk|1
+|move|p1a: Armaldo|Knock Off|p2a: Arbok
+|-damage|p2a: Arbok|57/100
+|-enditem|p2a: Arbok|Black Sludge|[from] move: Knock Off|[of] p1a: Armaldo
+|
+|-heal|p1a: Armaldo|31/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|choice|move earthquake|move gunkshot
+|
+|move|p2a: Arbok|Gunk Shot|p1a: Armaldo
+|-resisted|p1a: Armaldo
+|-damage|p1a: Armaldo|6/100
+|-status|p1a: Armaldo|psn
+|move|p1a: Armaldo|Earthquake|p2a: Arbok
+|-supereffective|p2a: Arbok
+|-damage|p2a: Arbok|0 fnt
+|faint|p2a: Arbok
+|
+|-heal|p1a: Armaldo|13/100 psn|[from] item: Leftovers
+|-damage|p1a: Armaldo|0 fnt|[from] psn
+|upkeep
+|faint|p1a: Armaldo
+|l|gghackerhackertest
+|player|p2|
+|j|HeartyPersian
+|-message|gghackerhackertest lost due to inactivity.
+|
+|win|Hugobou
+|raw|Hugobou's rating: 1042 &rarr; <strong>1082</strong><br />(+40 for winning)
+|raw|gghackerhackertest's rating: 1105 &rarr; <strong>1076</strong><br />(-29 for losing)

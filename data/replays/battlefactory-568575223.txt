@@ -1,0 +1,322 @@
+|j|Furry Squirrel
+|j|Capitom
+|player|p1|Furry Squirrel|1
+|player|p2|Capitom|153
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|32307,56721,28468,62141,62004,12315,52885,37769,1151,45504,48938,5577
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Carracosta, M|item
+|poke|p1|Tangela, M|item
+|poke|p1|Claydol|item
+|poke|p1|Audino, M|item
+|poke|p1|Mesprit|item
+|poke|p1|Manectric, M|item
+|poke|p2|Primeape, M|item
+|poke|p2|Mismagius, M|item
+|poke|p2|Rotom|item
+|poke|p2|Skuntank, M|item
+|poke|p2|Omastar, M|item
+|poke|p2|Lilligant, F|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|j|Ashgreninjagaming2
+|choice|team 3, team 2, team 1, team 4, team 5, team 6|team 5, team 2, team 3, team 4, team 1, team 6
+|
+|start
+|switch|p1a: Claydol|Claydol|100/100
+|switch|p2a: Omastar|Omastar, M|100/100
+|turn|1
+|choice|switch 6|move stealthrock
+|
+|switch|p1a: Manectric|Manectric, M|100/100
+|move|p2a: Omastar|Stealth Rock|p1a: Manectric
+|-sidestart|p1: Furry Squirrel|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|l|Ashgreninjagaming2
+|choice|move overheat|move spikes
+|
+|move|p1a: Manectric|Overheat|p2a: Omastar
+|-resisted|p2a: Omastar
+|-damage|p2a: Omastar|79/100
+|-unboost|p1a: Manectric|spa|2
+|-damage|p1a: Manectric|91/100|[from] item: Life Orb
+|move|p2a: Omastar|Spikes|p1a: Manectric
+|-sidestart|p1: Furry Squirrel|Spikes
+|
+|upkeep
+|turn|3
+|choice|move voltswitch|move spikes
+|
+|move|p1a: Manectric|Volt Switch|p2a: Omastar
+|-supereffective|p2a: Omastar
+|-damage|p2a: Omastar|17/100
+|-damage|p1a: Manectric|81/100|[from] item: Life Orb
+|choice|switch 2|
+|
+|switch|p1a: Tangela|Tangela, M|100/100
+|-damage|p1a: Tangela|88/100|[from] Stealth Rock
+|-damage|p1a: Tangela|76/100|[from] Spikes
+|move|p2a: Omastar|Spikes|p1a: Tangela
+|-sidestart|p1: Furry Squirrel|Spikes
+|
+|upkeep
+|turn|4
+|choice|move sleeppowder|move spikes
+|
+|move|p2a: Omastar|Spikes|p1a: Tangela
+|-sidestart|p1: Furry Squirrel|Spikes
+|move|p1a: Tangela|Sleep Powder|p2a: Omastar|[miss]
+|-miss|p1a: Tangela|p2a: Omastar
+|
+|upkeep
+|turn|5
+|choice|move leafstorm|move icebeam
+|
+|move|p2a: Omastar|Ice Beam|p1a: Tangela
+|-supereffective|p1a: Tangela
+|-damage|p1a: Tangela|0 fnt
+|faint|p1a: Tangela
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Mesprit|Mesprit|100/100
+|-damage|p1a: Mesprit|88/100|[from] Stealth Rock
+|turn|6
+|choice|move psychic|move scald
+|
+|move|p1a: Mesprit|Psychic|p2a: Omastar
+|-damage|p2a: Omastar|0 fnt
+|faint|p2a: Omastar
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Skuntank|Skuntank, M|100/100
+|turn|7
+|choice|switch 2|move darkpulse
+|
+|switch|p1a: Manectric|Manectric, M|81/100
+|-damage|p1a: Manectric|56/100|[from] Spikes
+|-damage|p1a: Manectric|43/100|[from] Stealth Rock
+|move|p2a: Skuntank|Dark Pulse|p1a: Manectric
+|-damage|p1a: Manectric|0 fnt
+|faint|p1a: Manectric
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Claydol|Claydol|100/100
+|-damage|p1a: Claydol|94/100|[from] Stealth Rock
+|turn|8
+|choice|move rapidspin|move darkpulse
+|
+|move|p2a: Skuntank|Dark Pulse|p1a: Claydol
+|-supereffective|p1a: Claydol
+|-damage|p1a: Claydol|12/100
+|move|p1a: Claydol|Rapid Spin|p2a: Skuntank
+|-damage|p2a: Skuntank|96/100
+|-sideend|p1: Furry Squirrel|Spikes|[from] move: Rapid Spin|[of] p1a: Claydol
+|-sideend|p1: Furry Squirrel|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Claydol
+|
+|-heal|p1a: Claydol|18/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|choice|move earthpower|move darkpulse
+|
+|move|p2a: Skuntank|Dark Pulse|p1a: Claydol
+|-supereffective|p1a: Claydol
+|-damage|p1a: Claydol|0 fnt
+|faint|p1a: Claydol
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Audino|Audino, M|100/100
+|turn|10
+|choice|move dazzlinggleam mega|switch 2
+|
+|switch|p2a: Mismagius|Mismagius, M|100/100
+|detailschange|p1a: Audino|Audino-Mega, M
+|-mega|p1a: Audino|Audino|Audinite
+|move|p1a: Audino|Dazzling Gleam|p2a: Mismagius
+|-damage|p2a: Mismagius|73/100
+|
+|upkeep
+|turn|11
+|choice|switch 3|move taunt
+|
+|switch|p1a: Carracosta|Carracosta, M|100/100
+|move|p2a: Mismagius|Taunt|p1a: Carracosta
+|-start|p1a: Carracosta|move: Taunt
+|
+|upkeep
+|turn|12
+|choice|move rockslide|switch 6
+|
+|switch|p2a: Lilligant|Lilligant, F|100/100
+|move|p1a: Carracosta|Rock Slide|p2a: Lilligant
+|-damage|p2a: Lilligant|60/100
+|
+|upkeep
+|turn|13
+|choice|switch 3|move leafstorm
+|
+|switch|p1a: Audino|Audino-Mega, M|100/100
+|move|p2a: Lilligant|Leaf Storm|p1a: Audino
+|-crit|p1a: Audino
+|-damage|p1a: Audino|37/100
+|-unboost|p2a: Lilligant|spa|2
+|
+|upkeep
+|turn|14
+|choice|move calmmind|switch 6
+|
+|switch|p2a: Mismagius|Mismagius, M|73/100
+|move|p1a: Audino|Calm Mind|p1a: Audino
+|-boost|p1a: Audino|spa|1
+|-boost|p1a: Audino|spd|1
+|
+|upkeep
+|turn|15
+|choice|move rest|move destinybond
+|
+|move|p2a: Mismagius|Destiny Bond|p2a: Mismagius
+|-singlemove|p2a: Mismagius|Destiny Bond
+|move|p1a: Audino|Rest|p1a: Audino
+|-status|p1a: Audino|slp
+|-heal|p1a: Audino|100/100 slp|[silent]
+|-status|p1a: Audino|slp|[from] move: Rest
+|
+|upkeep
+|turn|16
+|choice|move sleeptalk|switch 5
+|
+|switch|p2a: Primeape|Primeape, M|100/100
+|cant|p1a: Audino|slp
+|move|p1a: Audino|Sleep Talk|p1a: Audino
+|move|p1a: Audino|Calm Mind|p1a: Audino|[from]Sleep Talk
+|-boost|p1a: Audino|spa|1
+|-boost|p1a: Audino|spd|1
+|
+|upkeep
+|turn|17
+|choice|move sleeptalk|move encore
+|
+|move|p2a: Primeape|Encore|p1a: Audino
+|-start|p1a: Audino|Encore
+|cant|p1a: Audino|slp
+|move|p1a: Audino|Sleep Talk|p1a: Audino
+|move|p1a: Audino|Rest|p1a: Audino|[from]Sleep Talk
+|-fail|p1a: Audino
+|
+|upkeep
+|turn|18
+|choice|move sleeptalk|move stoneedge
+|
+|move|p2a: Primeape|Stone Edge|p1a: Audino
+|-damage|p1a: Audino|84/100 slp
+|-curestatus|p1a: Audino|slp|[msg]
+|move|p1a: Audino|Sleep Talk|p1a: Audino
+|-fail|p1a: Audino
+|
+|upkeep
+|turn|19
+|choice|move sleeptalk|move closecombat
+|
+|move|p2a: Primeape|Close Combat|p1a: Audino
+|-damage|p1a: Audino|56/100
+|-unboost|p2a: Primeape|def|1
+|-unboost|p2a: Primeape|spd|1
+|move|p1a: Audino|Sleep Talk|p1a: Audino
+|-fail|p1a: Audino
+|
+|-end|p1a: Audino|Encore
+|upkeep
+|turn|20
+|choice|move dazzlinggleam|move encore
+|
+|move|p2a: Primeape|Encore|p1a: Audino
+|-start|p1a: Audino|Encore
+|move|p1a: Audino|Sleep Talk|p1a: Audino
+|-fail|p1a: Audino
+|
+|upkeep
+|turn|21
+|choice|switch 2|move closecombat
+|
+|switch|p1a: Mesprit|Mesprit|88/100
+|move|p2a: Primeape|Close Combat|p1a: Mesprit
+|-resisted|p1a: Mesprit
+|-damage|p1a: Mesprit|61/100
+|-unboost|p2a: Primeape|def|1
+|-unboost|p2a: Primeape|spd|1
+|
+|upkeep
+|turn|22
+|choice|move uturn|move uturn
+|
+|move|p1a: Mesprit|U-turn|p2a: Primeape
+|-resisted|p2a: Primeape
+|-damage|p2a: Primeape|70/100
+|choice|switch 2|
+|
+|switch|p1a: Audino|Audino-Mega, M|56/100
+|move|p2a: Primeape|U-turn|p1a: Audino
+|-resisted|p1a: Audino
+|-damage|p1a: Audino|51/100
+|choice||switch 2
+|
+|switch|p2a: Skuntank|Skuntank, M|96/100
+|
+|upkeep
+|turn|23
+|choice|move dazzlinggleam|move fireblast
+|
+|move|p2a: Skuntank|Fire Blast|p1a: Audino
+|-damage|p1a: Audino|33/100
+|move|p1a: Audino|Dazzling Gleam|p2a: Skuntank
+|-damage|p2a: Skuntank|63/100
+|
+|upkeep
+|turn|24
+|choice|move dazzlinggleam|switch 3
+|
+|switch|p2a: Rotom|Rotom|100/100
+|move|p1a: Audino|Dazzling Gleam|p2a: Rotom
+|-damage|p2a: Rotom|58/100
+|
+|upkeep
+|turn|25
+|choice|move dazzlinggleam|move thunderbolt
+|
+|move|p2a: Rotom|Thunderbolt|p1a: Audino
+|-damage|p1a: Audino|0 fnt
+|faint|p1a: Audino
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Mesprit|Mesprit|61/100
+|turn|26
+|choice|move psychic|switch 3
+|
+|switch|p2a: Skuntank|Skuntank, M|63/100
+|move|p1a: Mesprit|Psychic|p2a: Skuntank
+|-immune|p2a: Skuntank|[msg]
+|
+|upkeep
+|turn|27
+|-message|Furry Squirrel forfeited.
+|
+|win|Capitom
+|l|Furry Squirrel
+|raw|Furry Squirrel's rating: 1142 &rarr; <strong>1117</strong><br />(-25 for losing)
+|raw|Capitom's rating: 1132 &rarr; <strong>1158</strong><br />(+26 for winning)

@@ -1,0 +1,242 @@
+|j|mams1999
+|j|Paidefamiliazuado
+|player|p1|mams1999|96
+|player|p2|Paidefamiliazuado|1
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|6411,19831,26589,31998,27479,20212,48682,35090,12440,36315,2891,8729
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Scolipede, M|item
+|poke|p1|Feraligatr, M|item
+|poke|p1|Terrakion|item
+|poke|p1|Mamoswine, M|item
+|poke|p1|Garchomp, M|item
+|poke|p1|Zapdos|item
+|poke|p2|Staraptor, M|item
+|poke|p2|Mamoswine, M|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Scizor, M|item
+|poke|p2|Scolipede, M|item
+|poke|p2|Feraligatr, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 2, team 1, team 3, team 4, team 5, team 6|team 6, team 2, team 3, team 4, team 5, team 1
+|
+|start
+|switch|p1a: Feraligatr|Feraligatr, M|100/100
+|switch|p2a: Feraligatr|Feraligatr, M|100/100
+|turn|1
+|choice|switch 6|move icepunch
+|
+|switch|p1a: Zapdos|Zapdos|100/100
+|-ability|p1a: Zapdos|Pressure
+|move|p2a: Feraligatr|Ice Punch|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|35/100
+|
+|-heal|p1a: Zapdos|42/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|choice|move roost|move icepunch
+|
+|move|p2a: Feraligatr|Ice Punch|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Scolipede|Scolipede, M|100/100
+|turn|3
+|choice|move poisonjab|move icepunch
+|
+|move|p1a: Scolipede|Poison Jab|p2a: Feraligatr
+|-damage|p2a: Feraligatr|45/100
+|-damage|p1a: Scolipede|91/100|[from] item: Life Orb
+|move|p2a: Feraligatr|Ice Punch|p1a: Scolipede
+|-damage|p1a: Scolipede|36/100
+|
+|-ability|p1a: Scolipede|Speed Boost|boost
+|-boost|p1a: Scolipede|spe|1
+|upkeep
+|turn|4
+|choice|move poisonjab|switch 6
+|
+|switch|p2a: Staraptor|Staraptor, M|100/100
+|move|p1a: Scolipede|Poison Jab|p2a: Staraptor
+|-damage|p2a: Staraptor|21/100
+|-damage|p1a: Scolipede|27/100|[from] item: Life Orb
+|
+|-ability|p1a: Scolipede|Speed Boost|boost
+|-boost|p1a: Scolipede|spe|1
+|upkeep
+|turn|5
+|choice|move poisonjab|move bravebird
+|
+|move|p1a: Scolipede|Poison Jab|p2a: Staraptor
+|-damage|p2a: Staraptor|0 fnt
+|-damage|p1a: Scolipede|17/100|[from] item: Life Orb
+|faint|p2a: Staraptor
+|
+|-ability|p1a: Scolipede|Speed Boost|boost
+|-boost|p1a: Scolipede|spe|1
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Scolipede|atk|1
+|turn|6
+|choice|move poisonjab|move stoneedge
+|
+|move|p1a: Scolipede|Poison Jab|p2a: Landorus
+|-resisted|p2a: Landorus
+|-damage|p2a: Landorus|82/100
+|-damage|p1a: Scolipede|7/100|[from] item: Life Orb
+|move|p2a: Landorus|Stone Edge|p1a: Scolipede
+|-supereffective|p1a: Scolipede
+|-damage|p1a: Scolipede|0 fnt
+|faint|p1a: Scolipede
+|
+|-heal|p2a: Landorus|88/100|[from] item: Leftovers
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Mamoswine|Mamoswine, M|100/100
+|turn|7
+|choice|move iciclecrash|move earthquake
+|
+|move|p1a: Mamoswine|Icicle Crash|p2a: Landorus|[miss]
+|-miss|p1a: Mamoswine|p2a: Landorus
+|move|p2a: Landorus|Earthquake|p1a: Mamoswine
+|-damage|p1a: Mamoswine|28/100
+|
+|-heal|p2a: Landorus|94/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|choice|move earthquake|move earthquake
+|
+|move|p1a: Mamoswine|Earthquake|p2a: Landorus
+|-immune|p2a: Landorus|[msg]
+|move|p2a: Landorus|Earthquake|p1a: Mamoswine
+|-damage|p1a: Mamoswine|0 fnt
+|faint|p1a: Mamoswine
+|
+|-heal|p2a: Landorus|100/100|[from] item: Leftovers
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Garchomp|Garchomp, M|100/100
+|turn|9
+|choice|move outrage|move earthquake
+|
+|move|p1a: Garchomp|Outrage|p2a: Landorus
+|-damage|p2a: Landorus|27/100
+|move|p2a: Landorus|Earthquake|p1a: Garchomp
+|-damage|p1a: Garchomp|39/100
+|
+|-heal|p2a: Landorus|33/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|choice|move outrage|move earthquake
+|
+|move|p1a: Garchomp|Outrage|p2a: Landorus|[from]lockedmove
+|-damage|p2a: Landorus|0 fnt
+|-start|p1a: Garchomp|confusion|[fatigue]
+|faint|p2a: Landorus
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Feraligatr|Feraligatr, M|45/100
+|turn|11
+|choice|switch 6|move icepunch
+|
+|switch|p1a: Feraligatr|Feraligatr, M|100/100
+|move|p2a: Feraligatr|Ice Punch|p1a: Feraligatr
+|-resisted|p1a: Feraligatr
+|-damage|p1a: Feraligatr|78/100
+|
+|upkeep
+|turn|12
+|choice|move dragondance|switch 4
+|
+|switch|p2a: Scizor|Scizor, M|100/100
+|move|p1a: Feraligatr|Dragon Dance|p1a: Feraligatr
+|-boost|p1a: Feraligatr|atk|1
+|-boost|p1a: Feraligatr|spe|1
+|
+|upkeep
+|turn|13
+|choice|move waterfall|move knockoff mega
+|
+|detailschange|p2a: Scizor|Scizor-Mega, M
+|-mega|p2a: Scizor|Scizor|Scizorite
+|move|p1a: Feraligatr|Waterfall|p2a: Scizor
+|-damage|p2a: Scizor|40/100
+|move|p2a: Scizor|Knock Off|p1a: Feraligatr
+|-damage|p1a: Feraligatr|42/100
+|-enditem|p1a: Feraligatr|Life Orb|[from] move: Knock Off|[of] p2a: Scizor
+|
+|upkeep
+|turn|14
+|choice|move waterfall|move bulletpunch
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Feraligatr
+|-resisted|p1a: Feraligatr
+|-damage|p1a: Feraligatr|25/100
+|move|p1a: Feraligatr|Waterfall|p2a: Scizor
+|-damage|p2a: Scizor|0 fnt
+|faint|p2a: Scizor
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Feraligatr|Feraligatr, M|45/100
+|turn|15
+|choice|move crunch|move crunch
+|
+|move|p1a: Feraligatr|Crunch|p2a: Feraligatr
+|-damage|p2a: Feraligatr|0 fnt
+|faint|p2a: Feraligatr
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Scolipede|Scolipede, M|100/100
+|turn|16
+|choice|move waterfall|move earthquake
+|
+|move|p1a: Feraligatr|Waterfall|p2a: Scolipede
+|-damage|p2a: Scolipede|0 fnt
+|faint|p2a: Scolipede
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Mamoswine|Mamoswine, M|100/100
+|turn|17
+|choice|move waterfall|move endeavor
+|
+|move|p1a: Feraligatr|Waterfall|p2a: Mamoswine
+|-supereffective|p2a: Mamoswine
+|-enditem|p2a: Mamoswine|Focus Sash
+|-damage|p2a: Mamoswine|1/100
+|move|p2a: Mamoswine|Endeavor|p1a: Feraligatr
+|-damage|p1a: Feraligatr|1/100
+|
+|upkeep
+|turn|18
+|choice|move icepunch|move stealthrock
+|
+|move|p1a: Feraligatr|Ice Punch|p2a: Mamoswine
+|-damage|p2a: Mamoswine|0 fnt
+|faint|p2a: Mamoswine
+|
+|win|mams1999
+|c|☆mams1999|gg

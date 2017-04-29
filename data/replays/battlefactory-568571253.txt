@@ -1,0 +1,179 @@
+|j|Capitom
+|j|Emblem_Kassos
+|player|p1|Capitom|153
+|player|p2|Emblem_Kassos|100
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|18556,313,46121,20421,40652,15524,44996,43577,49716,6248,10703,13383
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Azelf|item
+|poke|p1|Gardevoir, M|item
+|poke|p1|Crobat, M|item
+|poke|p1|Feraligatr, M|item
+|poke|p1|Whimsicott, M|item
+|poke|p1|Sceptile, M|item
+|poke|p2|Reuniclus, M|item
+|poke|p2|Ampharos, M|item
+|poke|p2|Kyurem|item
+|poke|p2|Shuckle, M|item
+|poke|p2|Mienshao, M|item
+|poke|p2|Crobat, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 1, team 2, team 3, team 4, team 5, team 6|team 2, team 1, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Azelf|Azelf|100/100
+|switch|p2a: Ampharos|Ampharos, M|100/100
+|turn|1
+|choice|move stealthrock|move agility mega
+|
+|detailschange|p2a: Ampharos|Ampharos-Mega, M
+|-mega|p2a: Ampharos|Ampharos|Ampharosite
+|-ability|p2a: Ampharos|Mold Breaker
+|move|p1a: Azelf|Stealth Rock|p2a: Ampharos
+|-sidestart|p2: Emblem_Kassos|move: Stealth Rock
+|move|p2a: Ampharos|Agility|p2a: Ampharos
+|-boost|p2a: Ampharos|spe|2
+|
+|upkeep
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Emblem_Kassos)
+|choice|move explosion|move thunderbolt
+|
+|move|p2a: Ampharos|Thunderbolt|p1a: Azelf
+|-enditem|p1a: Azelf|Focus Sash
+|-damage|p1a: Azelf|1/100
+|move|p1a: Azelf|Explosion|p2a: Ampharos
+|-crit|p2a: Ampharos
+|-damage|p2a: Ampharos|0 fnt
+|faint|p1a: Azelf
+|faint|p2a: Ampharos
+|
+|upkeep
+|choice|switch 4|switch 4
+|
+|switch|p1a: Feraligatr|Feraligatr, M|100/100
+|switch|p2a: Shuckle|Shuckle, M|100/100
+|-damage|p2a: Shuckle|76/100|[from] Stealth Rock
+|turn|3
+|choice|move dragondance|move stickyweb
+|
+|move|p1a: Feraligatr|Dragon Dance|p1a: Feraligatr
+|-boost|p1a: Feraligatr|atk|1
+|-boost|p1a: Feraligatr|spe|1
+|move|p2a: Shuckle|Sticky Web|p1a: Feraligatr
+|-sidestart|p1: Capitom|move: Sticky Web
+|
+|-heal|p2a: Shuckle|82/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|choice|move dragondance|move encore
+|
+|move|p1a: Feraligatr|Dragon Dance|p1a: Feraligatr
+|-boost|p1a: Feraligatr|atk|1
+|-boost|p1a: Feraligatr|spe|1
+|move|p2a: Shuckle|Encore|p1a: Feraligatr
+|-start|p1a: Feraligatr|Encore
+|
+|-heal|p2a: Shuckle|88/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|choice|move dragondance|move knockoff
+|
+|move|p1a: Feraligatr|Dragon Dance|p1a: Feraligatr
+|-boost|p1a: Feraligatr|atk|1
+|-boost|p1a: Feraligatr|spe|1
+|move|p2a: Shuckle|Knock Off|p1a: Feraligatr
+|-damage|p1a: Feraligatr|94/100
+|-enditem|p1a: Feraligatr|Life Orb|[from] move: Knock Off|[of] p2a: Shuckle
+|
+|-heal|p2a: Shuckle|94/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|choice|move dragondance|move stealthrock
+|
+|move|p1a: Feraligatr|Dragon Dance|p1a: Feraligatr
+|-boost|p1a: Feraligatr|atk|1
+|-boost|p1a: Feraligatr|spe|1
+|move|p2a: Shuckle|Stealth Rock|p1a: Feraligatr
+|-sidestart|p1: Capitom|move: Stealth Rock
+|
+|-heal|p2a: Shuckle|100/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|choice|move dragondance|switch 5
+|
+|switch|p2a: Mienshao|Mienshao, M|100/100
+|-damage|p2a: Mienshao|95/100|[from] Stealth Rock
+|move|p1a: Feraligatr|Dragon Dance|p1a: Feraligatr
+|-boost|p1a: Feraligatr|atk|1
+|-boost|p1a: Feraligatr|spe|1
+|
+|-end|p1a: Feraligatr|Encore
+|upkeep
+|turn|8
+|choice|move waterfall|move highjumpkick
+|
+|move|p1a: Feraligatr|Waterfall|p2a: Mienshao
+|-damage|p2a: Mienshao|0 fnt
+|faint|p2a: Mienshao
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Reuniclus|Reuniclus, M|100/100
+|turn|9
+|choice|move waterfall|move psyshock
+|
+|move|p1a: Feraligatr|Waterfall|p2a: Reuniclus
+|-damage|p2a: Reuniclus|0 fnt
+|faint|p2a: Reuniclus
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Crobat|Crobat, M|100/100
+|-damage|p2a: Crobat|76/100|[from] Stealth Rock
+|turn|10
+|choice|move icepunch|move bravebird
+|
+|move|p1a: Feraligatr|Ice Punch|p2a: Crobat
+|-supereffective|p2a: Crobat
+|-damage|p2a: Crobat|0 fnt
+|faint|p2a: Crobat
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Kyurem|Kyurem|100/100
+|-damage|p2a: Kyurem|76/100|[from] Stealth Rock
+|-ability|p2a: Kyurem|Pressure
+|turn|11
+|choice|move icepunch|move dracometeor
+|
+|move|p1a: Feraligatr|Ice Punch|p2a: Kyurem
+|-damage|p2a: Kyurem|0 fnt
+|faint|p2a: Kyurem
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Shuckle|Shuckle, M|100/100
+|-damage|p2a: Shuckle|76/100|[from] Stealth Rock
+|turn|12
+|choice|move waterfall|move encore
+|
+|move|p1a: Feraligatr|Waterfall|p2a: Shuckle
+|-supereffective|p2a: Shuckle
+|-damage|p2a: Shuckle|0 fnt
+|faint|p2a: Shuckle
+|
+|win|Capitom
+|raw|Capitom's rating: 1065 &rarr; <strong>1112</strong><br />(+47 for winning)
+|raw|Emblem_Kassos's rating: 1276 &rarr; <strong>1238</strong><br />(-38 for losing)
+|l|Emblem_Kassos

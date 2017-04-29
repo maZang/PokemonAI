@@ -1,0 +1,452 @@
+|j|To Sirius
+|j|dragonmasterlancel
+|player|p1|To Sirius|167
+|player|p2|dragonmasterlancel|266
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|10756,22773,39917,23057,47937,8957,49785,27169,38006,45591,12070,35851
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Chatot, M|item
+|poke|p1|Seaking, M|item
+|poke|p1|Gourgeist-*, M|item
+|poke|p1|Cryogonal|item
+|poke|p1|Marowak, M|item
+|poke|p1|Drifblim, M|item
+|poke|p2|Kadabra, M|item
+|poke|p2|Electrode|item
+|poke|p2|Articuno|item
+|poke|p2|Audino, M|item
+|poke|p2|Leafeon, M|item
+|poke|p2|Pawniard, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|j|Mees19
+|c|☆dragonmasterlancel|glhf bud
+|c|☆To Sirius|same
+|j|dess3000
+|choice|team 5, team 2, team 3, team 4, team 1, team 6|team 4, team 2, team 3, team 1, team 5, team 6
+|
+|start
+|switch|p1a: Marowak|Marowak, M|100/100
+|switch|p2a: Audino|Audino, M|100/100
+|turn|1
+|c|☆To Sirius|horrible match up
+|c| dess3000|LETS DED BATTLEEEEEEEEEEEEEEEE
+|choice|move stealthrock|move knockoff
+|
+|move|p1a: Marowak|Stealth Rock|p2a: Audino
+|-sidestart|p2: dragonmasterlancel|move: Stealth Rock
+|move|p2a: Audino|Knock Off|p1a: Marowak
+|-damage|p1a: Marowak|83/100
+|-enditem|p1a: Marowak|Thick Club|[from] move: Knock Off|[of] p2a: Audino
+|
+|upkeep
+|turn|2
+|j|beatsbynav
+|choice|move knockoff|move toxic
+|
+|move|p1a: Marowak|Knock Off|p2a: Audino
+|-damage|p2a: Audino|77/100
+|-enditem|p2a: Audino|Leftovers|[from] move: Knock Off|[of] p1a: Marowak
+|move|p2a: Audino|Toxic|p1a: Marowak|[miss]
+|-miss|p2a: Audino|p1a: Marowak
+|
+|upkeep
+|turn|3
+|choice|move bonemerang|move toxic
+|
+|move|p1a: Marowak|Bonemerang|p2a: Audino
+|-damage|p2a: Audino|56/100
+|-damage|p2a: Audino|36/100
+|-hitcount|p2a: Audino|2
+|move|p2a: Audino|Toxic|p1a: Marowak
+|-status|p1a: Marowak|tox
+|
+|-damage|p1a: Marowak|77/100 tox|[from] psn
+|upkeep
+|turn|4
+|choice|move bonemerang|move wish
+|
+|move|p1a: Marowak|Bonemerang|p2a: Audino|[miss]
+|-miss|p1a: Marowak|p2a: Audino
+|move|p2a: Audino|Wish|p2a: Audino
+|
+|-damage|p1a: Marowak|65/100 tox|[from] psn
+|upkeep
+|turn|5
+|choice|move stoneedge|switch 3
+|
+|switch|p2a: Articuno|Articuno|100/100
+|-damage|p2a: Articuno|51/100|[from] Stealth Rock
+|-ability|p2a: Articuno|Pressure
+|move|p1a: Marowak|Stone Edge|p2a: Articuno
+|-supereffective|p2a: Articuno
+|-damage|p2a: Articuno|0 fnt
+|faint|p2a: Articuno
+|
+|-damage|p1a: Marowak|46/100 tox|[from] psn
+|upkeep
+|c| dess3000|lol kkkkkkkkkkk
+|choice||switch 4
+|
+|switch|p2a: Kadabra|Kadabra, M|100/100
+|turn|6
+|choice|move knockoff|move psychic
+|
+|move|p2a: Kadabra|Psychic|p1a: Marowak
+|-damage|p1a: Marowak|0 fnt
+|faint|p1a: Marowak
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Drifblim|Drifblim, M|100/100
+|turn|7
+|choice|move substitute|move thunderwave
+|
+|move|p2a: Kadabra|Thunder Wave|p1a: Drifblim
+|-status|p1a: Drifblim|par
+|move|p1a: Drifblim|Substitute|p1a: Drifblim
+|-start|p1a: Drifblim|Substitute
+|-damage|p1a: Drifblim|75/100 par
+|
+|upkeep
+|turn|8
+|choice|move knockoff|switch 3
+|
+|switch|p2a: Audino|Audino, M|69/100
+|-damage|p2a: Audino|57/100|[from] Stealth Rock
+|move|p1a: Drifblim|Knock Off|p2a: Audino
+|-damage|p2a: Audino|41/100
+|
+|upkeep
+|turn|9
+|choice|move willowisp|move wish
+|
+|move|p2a: Audino|Wish|p2a: Audino
+|move|p1a: Drifblim|Will-O-Wisp|p2a: Audino
+|-status|p2a: Audino|brn
+|
+|-damage|p2a: Audino|29/100 brn|[from] brn
+|upkeep
+|turn|10
+|choice|move acrobatics|move knockoff
+|
+|move|p2a: Audino|Knock Off|p1a: Drifblim
+|-supereffective|p1a: Drifblim
+|-activate|p1a: Drifblim|move: Substitute|[damage]
+|move|p1a: Drifblim|Acrobatics|p2a: Audino
+|-damage|p2a: Audino|8/100 brn
+|
+|-heal|p2a: Audino|58/100 brn|[from] move: Wish|[wisher] Audino
+|-damage|p2a: Audino|46/100 brn|[from] brn
+|upkeep
+|turn|11
+|choice|move acrobatics|move wish
+|
+|move|p2a: Audino|Wish|p2a: Audino
+|move|p1a: Drifblim|Acrobatics|p2a: Audino
+|-damage|p2a: Audino|23/100 brn
+|
+|-damage|p2a: Audino|10/100 brn|[from] brn
+|upkeep
+|turn|12
+|choice|move acrobatics|move protect
+|
+|move|p2a: Audino|Protect|p2a: Audino
+|-singleturn|p2a: Audino|Protect
+|move|p1a: Drifblim|Acrobatics|p2a: Audino
+|-activate|p2a: Audino|move: Protect
+|
+|-heal|p2a: Audino|60/100 brn|[from] move: Wish|[wisher] Audino
+|-damage|p2a: Audino|48/100 brn|[from] brn
+|upkeep
+|turn|13
+|choice|move acrobatics|switch 2
+|
+|switch|p2a: Electrode|Electrode|100/100
+|-damage|p2a: Electrode|88/100|[from] Stealth Rock
+|cant|p1a: Drifblim|par
+|
+|upkeep
+|turn|14
+|choice|move knockoff|move hiddenpower
+|
+|move|p2a: Electrode|Hidden Power|p1a: Drifblim
+|-supereffective|p1a: Drifblim
+|-end|p1a: Drifblim|Substitute
+|-damage|p2a: Electrode|78/100|[from] item: Life Orb
+|move|p1a: Drifblim|Knock Off|p2a: Electrode
+|-damage|p2a: Electrode|33/100
+|-enditem|p2a: Electrode|Life Orb|[from] move: Knock Off|[of] p1a: Drifblim
+|
+|upkeep
+|turn|15
+|choice|switch 3|move thunderbolt
+|
+|switch|p1a: Gourgeist|Gourgeist-Super, M|100/100
+|move|p2a: Electrode|Thunderbolt|p1a: Gourgeist
+|-resisted|p1a: Gourgeist
+|-damage|p1a: Gourgeist|79/100
+|
+|-heal|p1a: Gourgeist|85/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|choice|move willowisp|move voltswitch
+|
+|move|p2a: Electrode|Volt Switch|p1a: Gourgeist
+|-resisted|p1a: Gourgeist
+|-damage|p1a: Gourgeist|69/100
+|choice||switch 2
+|
+|switch|p2a: Audino|Audino, M|81/100 brn
+|-damage|p2a: Audino|69/100 brn|[from] Stealth Rock
+|move|p1a: Gourgeist|Will-O-Wisp|p2a: Audino
+|-fail|p2a: Audino|brn
+|
+|-heal|p1a: Gourgeist|76/100|[from] item: Leftovers
+|-damage|p2a: Audino|56/100 brn|[from] brn
+|upkeep
+|turn|17
+|j|NinjaSkillzez
+|choice|switch 3|move toxic
+|
+|switch|p1a: Drifblim|Drifblim, M|75/100 par
+|move|p2a: Audino|Toxic|p1a: Drifblim
+|-fail|p1a: Drifblim
+|
+|-damage|p2a: Audino|44/100 brn|[from] brn
+|upkeep
+|turn|18
+|choice|move substitute|move wish
+|
+|move|p2a: Audino|Wish|p2a: Audino
+|cant|p1a: Drifblim|par
+|
+|-damage|p2a: Audino|31/100 brn|[from] brn
+|upkeep
+|turn|19
+|choice|move knockoff|move knockoff
+|
+|move|p2a: Audino|Knock Off|p1a: Drifblim
+|-supereffective|p1a: Drifblim
+|-damage|p1a: Drifblim|53/100 par
+|-enditem|p1a: Drifblim|Liechi Berry|[from] move: Knock Off|[of] p2a: Audino
+|cant|p1a: Drifblim|par
+|
+|-heal|p2a: Audino|81/100 brn|[from] move: Wish|[wisher] Audino
+|-damage|p2a: Audino|69/100 brn|[from] brn
+|upkeep
+|turn|20
+|c| beatsbynav|so who's gonna win
+|choice|move acrobatics|move wish
+|
+|move|p2a: Audino|Wish|p2a: Audino
+|move|p1a: Drifblim|Acrobatics|p2a: Audino
+|-damage|p2a: Audino|25/100 brn
+|
+|-damage|p2a: Audino|13/100 brn|[from] brn
+|upkeep
+|turn|21
+|choice|move willowisp|move protect
+|
+|move|p2a: Audino|Protect|p2a: Audino
+|-singleturn|p2a: Audino|Protect
+|cant|p1a: Drifblim|par
+|
+|-heal|p2a: Audino|63/100 brn|[from] move: Wish|[wisher] Audino
+|-damage|p2a: Audino|50/100 brn|[from] brn
+|upkeep
+|turn|22
+|choice|move acrobatics|switch 3
+|
+|switch|p2a: Kadabra|Kadabra, M|100/100
+|cant|p1a: Drifblim|par
+|
+|upkeep
+|turn|23
+|c|☆To Sirius|sighg
+|choice|move acrobatics|move psychic
+|
+|move|p2a: Kadabra|Psychic|p1a: Drifblim
+|-damage|p1a: Drifblim|0 fnt
+|faint|p1a: Drifblim
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Seaking|Seaking, M|100/100
+|turn|24
+|c| dess3000|lol
+|c|☆dragonmasterlancel|its all calculated
+|choice|move knockoff|move psychic
+|
+|move|p2a: Kadabra|Psychic|p1a: Seaking
+|-damage|p1a: Seaking|41/100
+|move|p1a: Seaking|Knock Off|p2a: Kadabra
+|-supereffective|p2a: Kadabra
+|-enditem|p2a: Kadabra|Focus Sash
+|-damage|p2a: Kadabra|1/100
+|
+|-heal|p1a: Seaking|48/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|choice|move protect|move psychic
+|
+|move|p1a: Seaking|Protect|p1a: Seaking
+|-singleturn|p1a: Seaking|Protect
+|move|p2a: Kadabra|Psychic|p1a: Seaking
+|-activate|p1a: Seaking|move: Protect
+|
+|-heal|p1a: Seaking|54/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|choice|move knockoff|move psychic
+|
+|move|p2a: Kadabra|Psychic|p1a: Seaking
+|-damage|p1a: Seaking|0 fnt
+|faint|p1a: Seaking
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Gourgeist|Gourgeist-Super, M|76/100
+|turn|27
+|c|☆To Sirius|you dont say
+|choice|move seedbomb|switch 3
+|
+|switch|p2a: Audino|Audino, M|83/100 brn
+|-damage|p2a: Audino|71/100 brn|[from] Stealth Rock
+|move|p1a: Gourgeist|Seed Bomb|p2a: Audino
+|-damage|p2a: Audino|45/100 brn
+|
+|-heal|p1a: Gourgeist|82/100|[from] item: Leftovers
+|-damage|p2a: Audino|33/100 brn|[from] brn
+|upkeep
+|turn|28
+|choice|move seedbomb|move toxic
+|
+|move|p1a: Gourgeist|Seed Bomb|p2a: Audino
+|-damage|p2a: Audino|7/100 brn
+|move|p2a: Audino|Toxic|p1a: Gourgeist
+|-status|p1a: Gourgeist|tox
+|
+|-heal|p1a: Gourgeist|88/100 tox|[from] item: Leftovers
+|-damage|p1a: Gourgeist|82/100 tox|[from] psn
+|-damage|p2a: Audino|0 fnt|[from] brn
+|upkeep
+|faint|p2a: Audino
+|c| dess3000|what?
+|c|☆To Sirius|"all calculated" haha
+|c| dess3000|lol
+|choice||switch 5
+|
+|switch|p2a: Leafeon|Leafeon, M|100/100
+|-damage|p2a: Leafeon|88/100|[from] Stealth Rock
+|turn|29
+|choice|move foulplay|move swordsdance
+|
+|move|p2a: Leafeon|Swords Dance|p2a: Leafeon
+|-boost|p2a: Leafeon|atk|2
+|move|p1a: Gourgeist|Foul Play|p2a: Leafeon
+|-damage|p2a: Leafeon|30/100
+|
+|-heal|p1a: Gourgeist|88/100 tox|[from] item: Leftovers
+|-damage|p1a: Gourgeist|76/100 tox|[from] psn
+|upkeep
+|turn|30
+|choice|move foulplay|move knockoff
+|
+|move|p2a: Leafeon|Knock Off|p1a: Gourgeist
+|-supereffective|p1a: Gourgeist
+|-damage|p1a: Gourgeist|0 fnt
+|-enditem|p1a: Gourgeist|Leftovers|[from] move: Knock Off|[of] p2a: Leafeon
+|-damage|p2a: Leafeon|20/100|[from] item: Life Orb
+|faint|p1a: Gourgeist
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Cryogonal|Cryogonal|100/100
+|turn|31
+|choice|move freezedry|move leafblade
+|
+|move|p1a: Cryogonal|Freeze-Dry|p2a: Leafeon
+|-supereffective|p2a: Leafeon
+|-damage|p2a: Leafeon|0 fnt
+|-damage|p1a: Cryogonal|91/100|[from] item: Life Orb
+|faint|p2a: Leafeon
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Pawniard|Pawniard, M|100/100
+|-damage|p2a: Pawniard|94/100|[from] Stealth Rock
+|turn|32
+|choice|move hiddenpower|move ironhead
+|
+|move|p1a: Cryogonal|Hidden Power|p2a: Pawniard
+|-supereffective|p2a: Pawniard
+|-damage|p2a: Pawniard|0 fnt
+|-damage|p1a: Cryogonal|81/100|[from] item: Life Orb
+|faint|p2a: Pawniard
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Kadabra|Kadabra, M|1/100
+|turn|33
+|choice|move freezedry|move psychic
+|
+|move|p2a: Kadabra|Psychic|p1a: Cryogonal
+|-damage|p1a: Cryogonal|39/100
+|-unboost|p1a: Cryogonal|spd|1
+|move|p1a: Cryogonal|Freeze-Dry|p2a: Kadabra
+|-damage|p2a: Kadabra|0 fnt
+|-damage|p1a: Cryogonal|29/100|[from] item: Life Orb
+|faint|p2a: Kadabra
+|
+|upkeep
+|c| dess3000|H.P fight?
+|choice||switch 2
+|
+|switch|p2a: Electrode|Electrode|33/100
+|-damage|p2a: Electrode|21/100|[from] Stealth Rock
+|turn|34
+|c|☆To Sirius|yes
+|choice|switch 5|move thunderbolt
+|
+|switch|p1a: Chatot|Chatot, M|100/100
+|move|p2a: Electrode|Thunderbolt|p1a: Chatot
+|-supereffective|p1a: Chatot
+|-damage|p1a: Chatot|0 fnt
+|faint|p1a: Chatot
+|
+|upkeep
+|c| dess3000|gg
+|choice|switch 5|
+|
+|switch|p1a: Cryogonal|Cryogonal|29/100
+|turn|35
+|c|☆dragonmasterlancel|gg
+|choice|move recover|move thunderbolt
+|
+|move|p2a: Electrode|Thunderbolt|p1a: Cryogonal
+|-damage|p1a: Cryogonal|0 fnt
+|faint|p1a: Cryogonal
+|
+|win|dragonmasterlancel
+|c| beatsbynav|gg
+|l|beatsbynav
+|c|☆dragonmasterlancel|calculated tho
+|l|To Sirius
+|c| dess3000|kkk
+|c| dess3000|electrode is bets fast pokemon!
+|c|☆dragonmasterlancel|the pheramosa check
+|c| dess3000|I checked super faster
+|c| dess3000|pheramosa
+|l|NinjaSkillzez
+|l|dess3000

@@ -1,0 +1,324 @@
+|j|Ruby Genseki
+|j|Sebh_z
+|player|p1|Ruby Genseki|239
+|player|p2|Sebh_z|13
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|41670,49032,43542,5978,14132,61349,40303,55104,4820,55469,53922,48582
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Registeel|item
+|poke|p1|Poliwrath, M|item
+|poke|p1|Escavalier, M|item
+|poke|p1|Flygon, M|item
+|poke|p1|Piloswine, M|item
+|poke|p1|Meloetta|item
+|poke|p2|Emboar, M|item
+|poke|p2|Eelektross, M|item
+|poke|p2|Granbull, M|item
+|poke|p2|Exploud, M|item
+|poke|p2|Abomasnow, M|item
+|poke|p2|Rotom-Mow|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 5, team 2, team 3, team 4, team 1, team 6|team 1, team 2, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Piloswine|Piloswine, M|100/100
+|switch|p2a: Emboar|Emboar, M|100/100
+|turn|1
+|choice|move stealthrock|move superpower
+|
+|move|p2a: Emboar|Superpower|p1a: Piloswine
+|-supereffective|p1a: Piloswine
+|-damage|p1a: Piloswine|0 fnt
+|-unboost|p2a: Emboar|atk|1
+|-unboost|p2a: Emboar|def|1
+|faint|p1a: Piloswine
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Poliwrath|Poliwrath, M|100/100
+|turn|2
+|choice|move scald|move superpower
+|
+|move|p2a: Emboar|Superpower|p1a: Poliwrath
+|-damage|p1a: Poliwrath|59/100
+|-unboost|p2a: Emboar|atk|1
+|-unboost|p2a: Emboar|def|1
+|move|p1a: Poliwrath|Scald|p2a: Emboar
+|-supereffective|p2a: Emboar
+|-damage|p2a: Emboar|41/100
+|
+|-heal|p1a: Poliwrath|65/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|choice|move scald|move superpower
+|
+|move|p2a: Emboar|Superpower|p1a: Poliwrath
+|-damage|p1a: Poliwrath|33/100
+|-unboost|p2a: Emboar|atk|1
+|-unboost|p2a: Emboar|def|1
+|move|p1a: Poliwrath|Scald|p2a: Emboar
+|-supereffective|p2a: Emboar
+|-damage|p2a: Emboar|0 fnt
+|faint|p2a: Emboar
+|
+|-heal|p1a: Poliwrath|39/100|[from] item: Leftovers
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Eelektross|Eelektross, M|100/100
+|turn|4
+|choice|move rest|move gigadrain
+|
+|move|p1a: Poliwrath|Rest|p1a: Poliwrath
+|-status|p1a: Poliwrath|slp
+|-heal|p1a: Poliwrath|100/100 slp|[silent]
+|-status|p1a: Poliwrath|slp|[from] move: Rest
+|move|p2a: Eelektross|Giga Drain|p1a: Poliwrath
+|-supereffective|p1a: Poliwrath
+|-damage|p1a: Poliwrath|53/100 slp
+|
+|-heal|p1a: Poliwrath|59/100 slp|[from] item: Leftovers
+|upkeep
+|turn|5
+|choice|move sleeptalk|move gigadrain
+|
+|cant|p1a: Poliwrath|slp
+|move|p1a: Poliwrath|Sleep Talk|p1a: Poliwrath
+|move|p1a: Poliwrath|Scald|p2a: Eelektross|[from]Sleep Talk
+|-damage|p2a: Eelektross|84/100
+|move|p2a: Eelektross|Giga Drain|p1a: Poliwrath
+|-supereffective|p1a: Poliwrath
+|-damage|p1a: Poliwrath|8/100 slp
+|-heal|p2a: Eelektross|100/100|[from] drain|[of] p1a: Poliwrath
+|
+|-heal|p1a: Poliwrath|14/100 slp|[from] item: Leftovers
+|upkeep
+|turn|6
+|choice|move sleeptalk|move gigadrain
+|
+|cant|p1a: Poliwrath|slp
+|move|p1a: Poliwrath|Sleep Talk|p1a: Poliwrath
+|move|p1a: Poliwrath|Circle Throw|p2a: Eelektross|[from]Sleep Talk|[miss]
+|-miss|p1a: Poliwrath|p2a: Eelektross
+|move|p2a: Eelektross|Giga Drain|p1a: Poliwrath
+|-supereffective|p1a: Poliwrath
+|-damage|p1a: Poliwrath|0 fnt
+|faint|p1a: Poliwrath
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Registeel|Registeel|100/100
+|turn|7
+|choice|move stealthrock|move flamethrower
+|
+|move|p1a: Registeel|Stealth Rock|p2a: Eelektross
+|-sidestart|p2: Sebh_z|move: Stealth Rock
+|move|p2a: Eelektross|Flamethrower|p1a: Registeel
+|-supereffective|p1a: Registeel
+|-damage|p1a: Registeel|72/100
+|
+|-heal|p1a: Registeel|79/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|choice|switch 3|move flamethrower
+|
+|switch|p1a: Escavalier|Escavalier, M|100/100
+|move|p2a: Eelektross|Flamethrower|p1a: Escavalier
+|-supereffective|p1a: Escavalier
+|-damage|p1a: Escavalier|0 fnt
+|faint|p1a: Escavalier
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Meloetta|Meloetta|100/100
+|turn|9
+|choice|move perishsong|move knockoff
+|
+|move|p1a: Meloetta|Perish Song|p1a: Meloetta
+|-start|p1a: Meloetta|perish3|[silent]
+|-start|p2a: Eelektross|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|move|p2a: Eelektross|Knock Off|p1a: Meloetta
+|-supereffective|p1a: Meloetta
+|-damage|p1a: Meloetta|56/100
+|-enditem|p1a: Meloetta|Leftovers|[from] move: Knock Off|[of] p2a: Eelektross
+|
+|-start|p1a: Meloetta|perish3
+|-start|p2a: Eelektross|perish3
+|upkeep
+|turn|10
+|choice|move knockoff|move flamethrower
+|
+|move|p1a: Meloetta|Knock Off|p2a: Eelektross
+|-damage|p2a: Eelektross|82/100
+|-enditem|p2a: Eelektross|Assault Vest|[from] move: Knock Off|[of] p1a: Meloetta
+|move|p2a: Eelektross|Flamethrower|p1a: Meloetta
+|-crit|p1a: Meloetta
+|-damage|p1a: Meloetta|35/100
+|
+|-start|p1a: Meloetta|perish2
+|-start|p2a: Eelektross|perish2
+|upkeep
+|turn|11
+|choice|switch 4|move voltswitch
+|
+|switch|p1a: Flygon|Flygon, M|100/100
+|move|p2a: Eelektross|Volt Switch|p1a: Flygon
+|-immune|p1a: Flygon|[msg]
+|
+|-start|p2a: Eelektross|perish1
+|upkeep
+|turn|12
+|choice|move uturn|switch 5
+|
+|switch|p2a: Abomasnow|Abomasnow, M|100/100
+|-damage|p2a: Abomasnow|76/100|[from] Stealth Rock
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Abomasnow
+|move|p1a: Flygon|U-turn|p2a: Abomasnow
+|-supereffective|p2a: Abomasnow
+|-damage|p2a: Abomasnow|28/100
+|choice|switch 4|
+|
+|switch|p1a: Meloetta|Meloetta|35/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Meloetta|29/100|[from] hail
+|upkeep
+|turn|13
+|choice|move thunderwave|move blizzard
+|
+|move|p1a: Meloetta|Thunder Wave|p2a: Abomasnow
+|-status|p2a: Abomasnow|par
+|move|p2a: Abomasnow|Blizzard|p1a: Meloetta
+|-damage|p1a: Meloetta|0 fnt
+|-damage|p2a: Abomasnow|18/100 par|[from] item: Life Orb
+|faint|p1a: Meloetta
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Registeel|Registeel|79/100
+|turn|14
+|choice|move seismictoss|move focusblast
+|
+|move|p1a: Registeel|Seismic Toss|p2a: Abomasnow
+|-damage|p2a: Abomasnow|0 fnt
+|faint|p2a: Abomasnow
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Registeel|72/100|[from] hail
+|-heal|p1a: Registeel|79/100|[from] item: Leftovers
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Eelektross|Eelektross, M|82/100
+|-damage|p2a: Eelektross|69/100|[from] Stealth Rock
+|turn|15
+|choice|move seismictoss|move flamethrower
+|
+|move|p1a: Registeel|Seismic Toss|p2a: Eelektross
+|-damage|p2a: Eelektross|43/100
+|move|p2a: Eelektross|Flamethrower|p1a: Registeel
+|-supereffective|p1a: Registeel
+|-damage|p1a: Registeel|46/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Registeel|40/100|[from] hail
+|-damage|p2a: Eelektross|37/100|[from] hail
+|-heal|p1a: Registeel|46/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|choice|move seismictoss|move flamethrower
+|
+|move|p2a: Eelektross|Flamethrower|p1a: Registeel
+|-supereffective|p1a: Registeel
+|-damage|p1a: Registeel|16/100
+|move|p1a: Registeel|Seismic Toss|p2a: Eelektross
+|-damage|p2a: Eelektross|10/100
+|
+|-weather|none
+|-heal|p1a: Registeel|22/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|choice|move seismictoss|move flamethrower
+|
+|move|p1a: Registeel|Seismic Toss|p2a: Eelektross
+|-damage|p2a: Eelektross|0 fnt
+|faint|p2a: Eelektross
+|
+|-heal|p1a: Registeel|28/100|[from] item: Leftovers
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Exploud|Exploud, M|100/100
+|-damage|p2a: Exploud|88/100|[from] Stealth Rock
+|turn|18
+|choice|move protect|move focusblast
+|
+|move|p1a: Registeel|Protect|p1a: Registeel
+|-singleturn|p1a: Registeel|Protect
+|move|p2a: Exploud|Focus Blast|p1a: Registeel
+|-activate|p1a: Registeel|move: Protect
+|
+|-heal|p1a: Registeel|34/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|choice|move thunderwave|move fireblast
+|
+|move|p2a: Exploud|Fire Blast|p1a: Registeel
+|-supereffective|p1a: Registeel
+|-damage|p1a: Registeel|0 fnt
+|-damage|p2a: Exploud|78/100|[from] item: Life Orb
+|faint|p1a: Registeel
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Flygon|Flygon, M|100/100
+|turn|20
+|choice|move earthquake|move boomburst
+|
+|move|p1a: Flygon|Earthquake|p2a: Exploud
+|-damage|p2a: Exploud|34/100
+|move|p2a: Exploud|Boomburst|p1a: Flygon
+|-damage|p1a: Flygon|32/100
+|-damage|p2a: Exploud|24/100|[from] item: Life Orb
+|
+|-heal|p1a: Flygon|38/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|choice|move earthquake|move boomburst
+|
+|move|p1a: Flygon|Earthquake|p2a: Exploud
+|-damage|p2a: Exploud|0 fnt
+|faint|p2a: Exploud
+|
+|-heal|p1a: Flygon|44/100|[from] item: Leftovers
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Granbull|Granbull, M|100/100
+|-damage|p2a: Granbull|88/100|[from] Stealth Rock
+|-ability|p2a: Granbull|Intimidate|boost
+|-unboost|p1a: Flygon|atk|1
+|turn|22
+|choice|move earthquake|move playrough
+|
+|move|p1a: Flygon|Earthquake|p2a: Granbull
+|-damage|p2a: Granbull|68/100
+|move|p2a: Granbull|Play Rough|p1a: Flygon
+|-supereffective|p1a: Flygon
+|-damage|p1a: Flygon|0 fnt
+|faint|p1a: Flygon
+|
+|win|Sebh_z
+|l|Ruby Genseki

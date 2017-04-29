@@ -1,0 +1,188 @@
+|j|pepsi is the worst
+|j|Mees19
+|player|p1|pepsi is the worst|246
+|player|p2|Mees19|80
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|17519,1147,18271,34402,48971,2126,18086,43807,20312,36038,32488,60182
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Conkeldurr, M|item
+|poke|p1|Zygarde|item
+|poke|p1|Breloom, M|item
+|poke|p1|Togekiss, M|item
+|poke|p1|Victini|item
+|poke|p1|Heatran, M|item
+|poke|p2|Hawlucha, M|item
+|poke|p2|Gengar, M|item
+|poke|p2|Mew|item
+|poke|p2|Chansey, F|item
+|poke|p2|Garchomp, M|item
+|poke|p2|Bisharp, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|j|HugeEpicalife
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by pepsi is the worst)
+|choice|team 1, team 2, team 3, team 4, team 5, team 6|team 5, team 2, team 3, team 4, team 1, team 6
+|
+|start
+|switch|p1a: Conkeldurr|Conkeldurr, M|100/100
+|switch|p2a: Garchomp|Garchomp, M|100/100
+|turn|1
+|choice|move icepunch|switch 3
+|
+|switch|p2a: Mew|Mew|100/100
+|move|p1a: Conkeldurr|Ice Punch|p2a: Mew
+|-damage|p2a: Mew|78/100
+|
+|-heal|p2a: Mew|84/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|choice|move poisonjab|move willowisp
+|
+|move|p2a: Mew|Will-O-Wisp|p1a: Conkeldurr
+|-status|p1a: Conkeldurr|brn
+|move|p1a: Conkeldurr|Poison Jab|p2a: Mew
+|-damage|p2a: Mew|53/100
+|-status|p2a: Mew|psn
+|-activate|p2a: Mew|ability: Synchronize
+|-fail|p1a: Conkeldurr
+|
+|-heal|p2a: Mew|59/100 psn|[from] item: Leftovers
+|-damage|p2a: Mew|47/100 psn|[from] psn
+|-damage|p1a: Conkeldurr|88/100 brn|[from] brn
+|upkeep
+|turn|3
+|c|☆Mees19|FUCK
+|c|☆Mees19|FORGOT
+|c|☆pepsi is the worst|lol
+|choice|move icepunch|move knockoff
+|
+|move|p2a: Mew|Knock Off|p1a: Conkeldurr
+|-resisted|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|77/100 brn
+|-enditem|p1a: Conkeldurr|Assault Vest|[from] move: Knock Off|[of] p2a: Mew
+|move|p1a: Conkeldurr|Ice Punch|p2a: Mew
+|-damage|p2a: Mew|15/100 psn
+|
+|-heal|p2a: Mew|21/100 psn|[from] item: Leftovers
+|-damage|p2a: Mew|8/100 psn|[from] psn
+|-damage|p1a: Conkeldurr|64/100 brn|[from] brn
+|upkeep
+|turn|4
+|choice|move icepunch|move knockoff
+|
+|move|p2a: Mew|Knock Off|p1a: Conkeldurr
+|-resisted|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|57/100 brn
+|move|p1a: Conkeldurr|Ice Punch|p2a: Mew
+|-damage|p2a: Mew|0 fnt
+|faint|p2a: Mew
+|
+|-damage|p1a: Conkeldurr|44/100 brn|[from] brn
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Hawlucha|Hawlucha, M|100/100
+|turn|5
+|choice|move icepunch|move skyattack
+|
+|move|p2a: Hawlucha|Sky Attack|p1a: Conkeldurr|[still]
+|-prepare|p2a: Hawlucha|Sky Attack|p1a: Conkeldurr
+|-enditem|p2a: Hawlucha|Power Herb
+|-anim|p2a: Hawlucha|Sky Attack|p1a: Conkeldurr
+|-supereffective|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|0 fnt
+|faint|p1a: Conkeldurr
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Victini|Victini|100/100
+|turn|6
+|choice|move boltstrike|switch 3
+|
+|switch|p2a: Garchomp|Garchomp, M|100/100
+|move|p1a: Victini|Bolt Strike|p2a: Garchomp
+|-immune|p2a: Garchomp|[msg]
+|
+|upkeep
+|turn|7
+|choice|switch 4|move stoneedge mega
+|
+|switch|p1a: Togekiss|Togekiss, M|100/100
+|detailschange|p2a: Garchomp|Garchomp-Mega, M
+|-mega|p2a: Garchomp|Garchomp|Garchompite
+|move|p2a: Garchomp|Stone Edge|p1a: Togekiss
+|-supereffective|p1a: Togekiss
+|-damage|p1a: Togekiss|32/100
+|
+|-heal|p1a: Togekiss|38/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|choice|move airslash|move stoneedge
+|
+|move|p2a: Garchomp|Stone Edge|p1a: Togekiss
+|-supereffective|p1a: Togekiss
+|-crit|p1a: Togekiss
+|-damage|p1a: Togekiss|0 fnt
+|faint|p1a: Togekiss
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Victini|Victini|100/100
+|turn|9
+|choice|move brickbreak|move earthquake
+|
+|move|p2a: Garchomp|Earthquake|p1a: Victini
+|-supereffective|p1a: Victini
+|-damage|p1a: Victini|0 fnt
+|faint|p1a: Victini
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Breloom|Breloom, M|100/100
+|turn|10
+|choice|move seedbomb|move fireblast
+|
+|move|p2a: Garchomp|Fire Blast|p1a: Breloom
+|-supereffective|p1a: Breloom
+|-damage|p1a: Breloom|0 fnt
+|faint|p1a: Breloom
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Zygarde|Zygarde|100/100
+|-ability|p1a: Zygarde|Aura Break
+|turn|11
+|c|☆pepsi is the worst|fuck
+|l|HugeEpicalife
+|choice|move dragondance|move dracometeor
+|
+|move|p2a: Garchomp|Draco Meteor|p1a: Zygarde
+|-supereffective|p1a: Zygarde
+|-damage|p1a: Zygarde|0 fnt
+|-unboost|p2a: Garchomp|spa|2
+|faint|p1a: Zygarde
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Heatran|Heatran, M|100/100
+|turn|12
+|c|☆pepsi is the worst|gg
+|c|☆Mees19|gg
+|choice|move lavaplume|move earthquake
+|
+|move|p2a: Garchomp|Earthquake|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|
+|win|Mees19
+|l|pepsi is the worst

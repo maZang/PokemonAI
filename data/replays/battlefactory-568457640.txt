@@ -1,0 +1,313 @@
+|j|Starvingbox
+|j|migul12
+|player|p1|Starvingbox|102
+|player|p2|migul12|101
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|39500,36350,7309,26337,36925,35022,37697,16544,42954,43839,24043,8157
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Sigilyph, M|item
+|poke|p1|Blastoise, M|item
+|poke|p1|Scrafty, M|item
+|poke|p1|Registeel|item
+|poke|p1|Poliwrath, M|item
+|poke|p1|Druddigon, M|item
+|poke|p2|Flygon, M|item
+|poke|p2|Abomasnow, M|item
+|poke|p2|Houndoom, M|item
+|poke|p2|Banette, M|item
+|poke|p2|Piloswine, M|item
+|poke|p2|Rotom-Mow|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 4, team 2, team 3, team 1, team 5, team 6|team 2, team 1, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Registeel|Registeel|100/100
+|switch|p2a: Abomasnow|Abomasnow, M|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Abomasnow
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Starvingbox)
+|choice|move stealthrock|move blizzard
+|
+|move|p2a: Abomasnow|Blizzard|p1a: Registeel
+|-resisted|p1a: Registeel
+|-damage|p1a: Registeel|83/100
+|-damage|p2a: Abomasnow|91/100|[from] item: Life Orb
+|move|p1a: Registeel|Stealth Rock|p2a: Abomasnow
+|-sidestart|p2: migul12|move: Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Registeel|77/100|[from] hail
+|-heal|p1a: Registeel|83/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|choice|move thunderwave|move focusblast
+|
+|move|p2a: Abomasnow|Focus Blast|p1a: Registeel
+|-supereffective|p1a: Registeel
+|-damage|p1a: Registeel|37/100
+|-damage|p2a: Abomasnow|81/100|[from] item: Life Orb
+|move|p1a: Registeel|Thunder Wave|p2a: Abomasnow
+|-status|p2a: Abomasnow|par
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Registeel|31/100|[from] hail
+|-heal|p1a: Registeel|37/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|choice|switch 4|move focusblast
+|
+|switch|p1a: Sigilyph|Sigilyph, M|100/100
+|move|p2a: Abomasnow|Focus Blast|p1a: Sigilyph|[miss]
+|-miss|p2a: Abomasnow|p1a: Sigilyph
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|turn|4
+|choice|move heatwave|move blizzard
+|
+|move|p1a: Sigilyph|Heat Wave|p2a: Abomasnow|[miss]
+|-miss|p1a: Sigilyph|p2a: Abomasnow
+|move|p2a: Abomasnow|Blizzard|p1a: Sigilyph
+|-supereffective|p1a: Sigilyph
+|-damage|p1a: Sigilyph|0 fnt
+|-damage|p2a: Abomasnow|71/100 par|[from] item: Life Orb
+|faint|p1a: Sigilyph
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Scrafty|Scrafty, M|100/100
+|-ability|p1a: Scrafty|Intimidate|boost
+|-unboost|p2a: Abomasnow|atk|1
+|turn|5
+|choice|move dragondance|move focusblast
+|
+|move|p1a: Scrafty|Dragon Dance|p1a: Scrafty
+|-boost|p1a: Scrafty|atk|1
+|-boost|p1a: Scrafty|spe|1
+|move|p2a: Abomasnow|Focus Blast|p1a: Scrafty
+|-supereffective|p1a: Scrafty
+|-enditem|p1a: Scrafty|Chople Berry|[eat]
+|-enditem|p1a: Scrafty|Chople Berry|[weaken]
+|-damage|p1a: Scrafty|46/100
+|-damage|p2a: Abomasnow|61/100 par|[from] item: Life Orb
+|
+|-weather|none
+|upkeep
+|turn|6
+|choice|move highjumpkick|move focusblast
+|
+|move|p1a: Scrafty|High Jump Kick|p2a: Abomasnow
+|-supereffective|p2a: Abomasnow
+|-damage|p2a: Abomasnow|0 fnt
+|faint|p2a: Abomasnow
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Flygon|Flygon, M|100/100
+|-damage|p2a: Flygon|95/100|[from] Stealth Rock
+|turn|7
+|choice|move knockoff|move dracometeor
+|
+|move|p1a: Scrafty|Knock Off|p2a: Flygon
+|-damage|p2a: Flygon|16/100
+|-enditem|p2a: Flygon|Life Orb|[from] move: Knock Off|[of] p1a: Scrafty
+|move|p2a: Flygon|Draco Meteor|p1a: Scrafty
+|-damage|p1a: Scrafty|0 fnt
+|-unboost|p2a: Flygon|spa|2
+|faint|p1a: Scrafty
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Blastoise|Blastoise, M|100/100
+|turn|8
+|choice|move scald|move dracometeor
+|
+|move|p2a: Flygon|Draco Meteor|p1a: Blastoise
+|-damage|p1a: Blastoise|79/100
+|-unboost|p2a: Flygon|spa|2
+|move|p1a: Blastoise|Scald|p2a: Flygon
+|-damage|p2a: Flygon|0 fnt
+|faint|p2a: Flygon
+|
+|-heal|p1a: Blastoise|86/100|[from] item: Leftovers
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Rotom|Rotom-Mow|100/100
+|-damage|p2a: Rotom|88/100|[from] Stealth Rock
+|turn|9
+|choice|switch 4|move thunderbolt
+|
+|switch|p1a: Registeel|Registeel|37/100
+|move|p2a: Rotom|Thunderbolt|p1a: Registeel
+|-damage|p1a: Registeel|8/100
+|-status|p1a: Registeel|par
+|
+|-heal|p1a: Registeel|14/100 par|[from] item: Leftovers
+|upkeep
+|turn|10
+|choice|move thunderwave|switch 5
+|
+|switch|p2a: Piloswine|Piloswine, M|100/100
+|-damage|p2a: Piloswine|88/100|[from] Stealth Rock
+|move|p1a: Registeel|Thunder Wave|p2a: Piloswine
+|-immune|p2a: Piloswine|[msg]
+|
+|-heal|p1a: Registeel|20/100 par|[from] item: Leftovers
+|upkeep
+|turn|11
+|choice|move seismictoss|move earthquake
+|
+|move|p2a: Piloswine|Earthquake|p1a: Registeel
+|-supereffective|p1a: Registeel
+|-damage|p1a: Registeel|0 fnt
+|faint|p1a: Registeel
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Blastoise|Blastoise, M|86/100
+|turn|12
+|choice|move scald|move earthquake
+|
+|move|p1a: Blastoise|Scald|p2a: Piloswine
+|-supereffective|p2a: Piloswine
+|-damage|p2a: Piloswine|48/100
+|move|p2a: Piloswine|Earthquake|p1a: Blastoise
+|-damage|p1a: Blastoise|51/100
+|
+|-heal|p1a: Blastoise|57/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|choice|move scald|switch 5
+|
+|switch|p2a: Rotom|Rotom-Mow|88/100
+|-damage|p2a: Rotom|76/100|[from] Stealth Rock
+|move|p1a: Blastoise|Scald|p2a: Rotom
+|-resisted|p2a: Rotom
+|-crit|p2a: Rotom
+|-damage|p2a: Rotom|55/100
+|
+|-heal|p1a: Blastoise|63/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|choice|move toxic|move thunderbolt
+|
+|move|p2a: Rotom|Thunderbolt|p1a: Blastoise
+|-supereffective|p1a: Blastoise
+|-damage|p1a: Blastoise|0 fnt
+|faint|p1a: Blastoise
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Druddigon|Druddigon, M|100/100
+|turn|15
+|choice|move firepunch|switch 3
+|
+|switch|p2a: Houndoom|Houndoom, M|100/100
+|-damage|p2a: Houndoom|76/100|[from] Stealth Rock
+|move|p1a: Druddigon|Fire Punch|p2a: Houndoom
+|-start|p2a: Houndoom|ability: Flash Fire
+|
+|upkeep
+|turn|16
+|choice|switch 5|move fireblast
+|
+|switch|p1a: Poliwrath|Poliwrath, M|100/100
+|move|p2a: Houndoom|Fire Blast|p1a: Poliwrath
+|-resisted|p1a: Poliwrath
+|-damage|p1a: Poliwrath|52/100
+|-damage|p2a: Houndoom|66/100|[from] item: Life Orb
+|
+|-heal|p1a: Poliwrath|58/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|choice|move scald|switch 5
+|
+|-end|p2a: Houndoom|ability: Flash Fire|[silent]
+|switch|p2a: Piloswine|Piloswine, M|48/100
+|-damage|p2a: Piloswine|35/100|[from] Stealth Rock
+|move|p1a: Poliwrath|Scald|p2a: Piloswine
+|-supereffective|p2a: Piloswine
+|-damage|p2a: Piloswine|0 fnt
+|faint|p2a: Piloswine
+|
+|-heal|p1a: Poliwrath|64/100|[from] item: Leftovers
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Rotom|Rotom-Mow|55/100
+|-damage|p2a: Rotom|42/100|[from] Stealth Rock
+|turn|18
+|choice|move circlethrow|move voltswitch
+|
+|move|p2a: Rotom|Volt Switch|p1a: Poliwrath
+|-supereffective|p1a: Poliwrath
+|-damage|p1a: Poliwrath|0 fnt
+|faint|p1a: Poliwrath
+|choice||switch 5
+|
+|switch|p2a: Houndoom|Houndoom, M|66/100
+|-damage|p2a: Houndoom|41/100|[from] Stealth Rock
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Druddigon|Druddigon, M|100/100
+|turn|19
+|choice|move dragonclaw|move fireblast
+|
+|move|p2a: Houndoom|Fire Blast|p1a: Druddigon
+|-resisted|p1a: Druddigon
+|-damage|p1a: Druddigon|63/100
+|-damage|p2a: Houndoom|31/100|[from] item: Life Orb
+|move|p1a: Druddigon|Dragon Claw|p2a: Houndoom
+|-damage|p2a: Houndoom|0 fnt
+|-damage|p1a: Druddigon|54/100|[from] item: Life Orb
+|faint|p2a: Houndoom
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Banette|Banette, M|100/100
+|-damage|p2a: Banette|88/100|[from] Stealth Rock
+|turn|20
+|choice|move suckerpunch|move gunkshot mega
+|
+|detailschange|p2a: Banette|Banette-Mega, M
+|-mega|p2a: Banette|Banette|Banettite
+|move|p1a: Druddigon|Sucker Punch|p2a: Banette
+|-supereffective|p2a: Banette
+|-damage|p2a: Banette|0 fnt
+|-damage|p1a: Druddigon|44/100|[from] item: Life Orb
+|faint|p2a: Banette
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Rotom|Rotom-Mow|42/100
+|-damage|p2a: Rotom|30/100|[from] Stealth Rock
+|turn|21
+|choice|move suckerpunch|move leafstorm
+|
+|move|p1a: Druddigon|Sucker Punch|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|-damage|p1a: Druddigon|34/100|[from] item: Life Orb
+|faint|p2a: Rotom
+|
+|win|Starvingbox
+|raw|Starvingbox's rating: 1000 &rarr; <strong>1040</strong><br />(+40 for winning)
+|raw|migul12's rating: 1000 &rarr; <strong>1000</strong><br />(+0 for losing)
+|c|☆Starvingbox|gg
+|l|migul12

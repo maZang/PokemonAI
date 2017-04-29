@@ -1,0 +1,386 @@
+|j|dfijh34tgjh95jfv
+|j|ThomasMauMH
+|player|p1|dfijh34tgjh95jfv|101
+|player|p2|ThomasMauMH|192
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|38594,30532,47224,53315,2602,7498,11714,54802,8308,64842,30240,58424
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Uxie|item
+|poke|p1|Hitmonlee, M|item
+|poke|p1|Jellicent, M|item
+|poke|p1|Clawitzer, M|item
+|poke|p1|Houndoom, M|item
+|poke|p1|Venusaur, M|item
+|poke|p2|Golbat, M|item
+|poke|p2|Malamar, M|item
+|poke|p2|Archeops, M|item
+|poke|p2|Rotom-Mow|item
+|poke|p2|Slowking, M|item
+|poke|p2|Gastrodon, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 1, team 2, team 3, team 4, team 5, team 6|team 1, team 2, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Uxie|Uxie|100/100
+|switch|p2a: Golbat|Golbat, M|100/100
+|turn|1
+|choice|move stealthrock|move taunt
+|
+|move|p1a: Uxie|Stealth Rock|p2a: Golbat
+|-sidestart|p2: ThomasMauMH|move: Stealth Rock
+|move|p2a: Golbat|Taunt|p1a: Uxie
+|-start|p1a: Uxie|move: Taunt
+|
+|upkeep
+|turn|2
+|choice|move psyshock|move superfang
+|
+|move|p1a: Uxie|Psyshock|p2a: Golbat
+|-supereffective|p2a: Golbat
+|-damage|p2a: Golbat|71/100
+|move|p2a: Golbat|Super Fang|p1a: Uxie
+|-damage|p1a: Uxie|50/100
+|
+|-heal|p1a: Uxie|57/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|choice|move psyshock|move superfang
+|
+|move|p1a: Uxie|Psyshock|p2a: Golbat
+|-supereffective|p2a: Golbat
+|-damage|p2a: Golbat|43/100
+|move|p2a: Golbat|Super Fang|p1a: Uxie
+|-damage|p1a: Uxie|29/100
+|
+|-heal|p1a: Uxie|35/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|choice|move psyshock|move bravebird
+|
+|move|p1a: Uxie|Psyshock|p2a: Golbat
+|-supereffective|p2a: Golbat
+|-damage|p2a: Golbat|18/100
+|move|p2a: Golbat|Brave Bird|p1a: Uxie
+|-damage|p1a: Uxie|10/100
+|-damage|p2a: Golbat|10/100|[from] recoil|[of] p1a: Uxie
+|
+|-heal|p1a: Uxie|17/100|[from] item: Leftovers
+|-end|p1a: Uxie|move: Taunt
+|upkeep
+|turn|5
+|choice|move psyshock|move roost
+|
+|move|p1a: Uxie|Psyshock|p2a: Golbat
+|-supereffective|p2a: Golbat
+|-damage|p2a: Golbat|0 fnt
+|faint|p2a: Golbat
+|
+|-heal|p1a: Uxie|23/100|[from] item: Leftovers
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Malamar|Malamar, M|100/100
+|-damage|p2a: Malamar|88/100|[from] Stealth Rock
+|turn|6
+|choice|move uturn|move superpower
+|
+|move|p1a: Uxie|U-turn|p2a: Malamar
+|-supereffective|p2a: Malamar
+|-damage|p2a: Malamar|42/100
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ThomasMauMH)
+|choice|switch 6|
+|
+|switch|p1a: Venusaur|Venusaur, M|100/100
+|move|p2a: Malamar|Superpower|p1a: Venusaur
+|-resisted|p1a: Venusaur
+|-damage|p1a: Venusaur|85/100
+|-boost|p2a: Malamar|atk|1
+|-boost|p2a: Malamar|def|1
+|
+|-heal|p2a: Malamar|48/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|choice|move sludgebomb|move knockoff
+|
+|move|p1a: Venusaur|Sludge Bomb|p2a: Malamar
+|-damage|p2a: Malamar|1/100
+|-damage|p1a: Venusaur|75/100|[from] item: Life Orb
+|move|p2a: Malamar|Knock Off|p1a: Venusaur
+|-damage|p1a: Venusaur|17/100
+|-enditem|p1a: Venusaur|Life Orb|[from] move: Knock Off|[of] p2a: Malamar
+|
+|-heal|p2a: Malamar|7/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|choice|move synthesis|move knockoff
+|
+|move|p1a: Venusaur|Synthesis|p1a: Venusaur
+|-heal|p1a: Venusaur|67/100
+|move|p2a: Malamar|Knock Off|p1a: Venusaur
+|-damage|p1a: Venusaur|22/100
+|
+|-heal|p2a: Malamar|13/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|choice|move synthesis|move rest
+|
+|move|p1a: Venusaur|Synthesis|p1a: Venusaur
+|-heal|p1a: Venusaur|72/100
+|move|p2a: Malamar|Rest|p2a: Malamar
+|-status|p2a: Malamar|slp
+|-heal|p2a: Malamar|100/100 slp|[silent]
+|-status|p2a: Malamar|slp|[from] move: Rest
+|
+|upkeep
+|turn|10
+|choice|move sludgebomb|move sleeptalk
+|
+|move|p1a: Venusaur|Sludge Bomb|p2a: Malamar
+|-damage|p2a: Malamar|64/100 slp
+|cant|p2a: Malamar|slp
+|move|p2a: Malamar|Sleep Talk|p2a: Malamar
+|move|p2a: Malamar|Superpower|p1a: Venusaur|[from]Sleep Talk
+|-resisted|p1a: Venusaur
+|-crit|p1a: Venusaur
+|-damage|p1a: Venusaur|36/100
+|-boost|p2a: Malamar|atk|1
+|-boost|p2a: Malamar|def|1
+|
+|-heal|p2a: Malamar|70/100 slp|[from] item: Leftovers
+|upkeep
+|turn|11
+|choice|move synthesis|move sleeptalk
+|
+|move|p1a: Venusaur|Synthesis|p1a: Venusaur
+|-heal|p1a: Venusaur|86/100
+|cant|p2a: Malamar|slp
+|move|p2a: Malamar|Sleep Talk|p2a: Malamar
+|move|p2a: Malamar|Knock Off|p1a: Venusaur|[from]Sleep Talk
+|-damage|p1a: Venusaur|31/100
+|
+|-heal|p2a: Malamar|76/100 slp|[from] item: Leftovers
+|upkeep
+|turn|12
+|choice|move sludgebomb|move sleeptalk
+|
+|move|p1a: Venusaur|Sludge Bomb|p2a: Malamar
+|-damage|p2a: Malamar|34/100 slp
+|-curestatus|p2a: Malamar|slp|[msg]
+|move|p2a: Malamar|Sleep Talk|p2a: Malamar
+|-fail|p2a: Malamar
+|
+|-heal|p2a: Malamar|40/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|choice|move leafstorm|move knockoff
+|
+|move|p1a: Venusaur|Leaf Storm|p2a: Malamar|[miss]
+|-miss|p1a: Venusaur|p2a: Malamar
+|move|p2a: Malamar|Knock Off|p1a: Venusaur
+|-damage|p1a: Venusaur|0 fnt
+|faint|p1a: Venusaur
+|
+|-heal|p2a: Malamar|46/100|[from] item: Leftovers
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Houndoom|Houndoom, M|100/100
+|turn|14
+|choice|move fireblast|move superpower
+|
+|move|p1a: Houndoom|Fire Blast|p2a: Malamar
+|-damage|p2a: Malamar|0 fnt
+|-damage|p1a: Houndoom|91/100|[from] item: Life Orb
+|faint|p2a: Malamar
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Archeops|Archeops, M|100/100
+|-damage|p2a: Archeops|76/100|[from] Stealth Rock
+|turn|15
+|choice|switch 3|move headsmash
+|
+|switch|p1a: Jellicent|Jellicent, M|100/100
+|move|p2a: Archeops|Head Smash|p1a: Jellicent
+|-damage|p1a: Jellicent|33/100
+|-damage|p2a: Archeops|29/100|[from] recoil|[of] p1a: Jellicent
+|
+|-heal|p1a: Jellicent|39/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|choice|move recover|move headsmash
+|
+|move|p2a: Archeops|Head Smash|p1a: Jellicent
+|-damage|p1a: Jellicent|8/100
+|-damage|p2a: Archeops|7/100|[from] recoil|[of] p1a: Jellicent
+|move|p1a: Jellicent|Recover|p1a: Jellicent
+|-heal|p1a: Jellicent|58/100
+|
+|-heal|p1a: Jellicent|64/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|choice|move recover|move taunt
+|
+|move|p2a: Archeops|Taunt|p1a: Jellicent
+|-start|p1a: Jellicent|move: Taunt
+|cant|p1a: Jellicent|move: Taunt|Recover
+|
+|-heal|p1a: Jellicent|70/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|choice|move hex|move stealthrock
+|
+|move|p2a: Archeops|Stealth Rock|p1a: Jellicent
+|-sidestart|p1: dfijh34tgjh95jfv|move: Stealth Rock
+|move|p1a: Jellicent|Hex|p2a: Archeops
+|-damage|p2a: Archeops|0 fnt
+|faint|p2a: Archeops
+|
+|-heal|p1a: Jellicent|76/100|[from] item: Leftovers
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Rotom|Rotom-Mow|100/100
+|-damage|p2a: Rotom|88/100|[from] Stealth Rock
+|turn|19
+|choice|switch 2|move thunderbolt
+|
+|switch|p1a: Hitmonlee|Hitmonlee, M|100/100
+|-damage|p1a: Hitmonlee|94/100|[from] Stealth Rock
+|move|p2a: Rotom|Thunderbolt|p1a: Hitmonlee
+|-damage|p1a: Hitmonlee|8/100
+|
+|upkeep
+|turn|20
+|choice|move rapidspin|move thunderbolt
+|
+|move|p1a: Hitmonlee|Rapid Spin|p2a: Rotom
+|-damage|p2a: Rotom|80/100
+|-sideend|p1: dfijh34tgjh95jfv|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Hitmonlee
+|move|p2a: Rotom|Thunderbolt|p1a: Hitmonlee
+|-damage|p1a: Hitmonlee|0 fnt
+|faint|p1a: Hitmonlee
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Houndoom|Houndoom, M|91/100
+|turn|21
+|choice|move fireblast|switch 5
+|
+|switch|p2a: Slowking|Slowking, M|100/100
+|-damage|p2a: Slowking|88/100|[from] Stealth Rock
+|move|p1a: Houndoom|Fire Blast|p2a: Slowking
+|-resisted|p2a: Slowking
+|-crit|p2a: Slowking
+|-damage|p2a: Slowking|50/100
+|-damage|p1a: Houndoom|81/100|[from] item: Life Orb
+|
+|upkeep
+|turn|22
+|choice|move crunch|move thunderwave
+|
+|move|p1a: Houndoom|Crunch|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-enditem|p2a: Slowking|Colbur Berry|[eat]
+|-enditem|p2a: Slowking|Colbur Berry|[weaken]
+|-damage|p2a: Slowking|9/100
+|-damage|p1a: Houndoom|71/100|[from] item: Life Orb
+|move|p2a: Slowking|Thunder Wave|p1a: Houndoom
+|-status|p1a: Houndoom|par
+|
+|upkeep
+|turn|23
+|choice|move suckerpunch|switch 6
+|
+|switch|p2a: Gastrodon|Gastrodon, M|100/100
+|-damage|p2a: Gastrodon|94/100|[from] Stealth Rock
+|cant|p1a: Houndoom|par
+|
+|-heal|p2a: Gastrodon|100/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|choice|switch 2|move earthpower
+|
+|switch|p1a: Jellicent|Jellicent, M|76/100
+|move|p2a: Gastrodon|Earth Power|p1a: Jellicent
+|-damage|p1a: Jellicent|51/100
+|-unboost|p1a: Jellicent|spd|1
+|
+|-heal|p1a: Jellicent|57/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|choice|move willowisp|move toxic
+|
+|move|p1a: Jellicent|Will-O-Wisp|p2a: Gastrodon
+|-status|p2a: Gastrodon|brn
+|move|p2a: Gastrodon|Toxic|p1a: Jellicent
+|-status|p1a: Jellicent|tox
+|
+|-heal|p1a: Jellicent|63/100 tox|[from] item: Leftovers
+|-damage|p1a: Jellicent|57/100 tox|[from] psn
+|-damage|p2a: Gastrodon|88/100 brn|[from] brn
+|upkeep
+|turn|26
+|choice|move recover|switch 5
+|
+|switch|p2a: Rotom|Rotom-Mow|80/100
+|-damage|p2a: Rotom|67/100|[from] Stealth Rock
+|move|p1a: Jellicent|Recover|p1a: Jellicent
+|-heal|p1a: Jellicent|100/100 tox
+|
+|-damage|p1a: Jellicent|88/100 tox|[from] psn
+|upkeep
+|turn|27
+|choice|move willowisp|move thunderbolt
+|
+|move|p2a: Rotom|Thunderbolt|p1a: Jellicent
+|-supereffective|p1a: Jellicent
+|-damage|p1a: Jellicent|0 fnt
+|faint|p1a: Jellicent
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Houndoom|Houndoom, M|71/100 par
+|turn|28
+|choice|move fireblast|move thunderbolt
+|
+|move|p2a: Rotom|Thunderbolt|p1a: Houndoom
+|-damage|p1a: Houndoom|0 fnt
+|faint|p1a: Houndoom
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Uxie|Uxie|23/100
+|turn|29
+|choice|move uturn|move thunderbolt
+|
+|move|p2a: Rotom|Thunderbolt|p1a: Uxie
+|-crit|p1a: Uxie
+|-damage|p1a: Uxie|0 fnt
+|faint|p1a: Uxie
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Clawitzer|Clawitzer, M|100/100
+|turn|30
+|choice|move icebeam|move thunderbolt
+|
+|move|p2a: Rotom|Thunderbolt|p1a: Clawitzer
+|-supereffective|p1a: Clawitzer
+|-damage|p1a: Clawitzer|0 fnt
+|faint|p1a: Clawitzer
+|
+|win|ThomasMauMH
+|raw|dfijh34tgjh95jfv's rating: 1000 &rarr; <strong>1000</strong><br />(+0 for losing)
+|raw|ThomasMauMH's rating: 1000 &rarr; <strong>1040</strong><br />(+40 for winning)

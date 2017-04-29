@@ -14,7 +14,7 @@ class PokemonNetworkConfig(object):
 	embedding_size = 100
 	poke_descriptor_size = const.POKE_DESCRIPTOR_SIZE # poke id, 4 move ids, item id, status id
 	number_non_embedding = const.NON_EMBEDDING_DATA
-	number_classes = 11 # 4 options for each move, +6 options to switch Pokemon, +1 mega-evolve -- ALTERNATIVE, number_moves + number_pokemon + 1 (mega-evolve)
+	number_classes = const.NUMBER_CLASSES # 4 options for each move, +6 options to switch Pokemon, +1 mega-evolve -- ALTERNATIVE, number_moves + number_pokemon + 1 (mega-evolve)
 	learning_rate = 1e-3
 	max_epochs = 10
 	early_stop = 2

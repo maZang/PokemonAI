@@ -1,0 +1,349 @@
+|J|Century Express
+|J|a heros destiny
+|player|p1|Century Express|282
+|player|p2|a heros destiny|1
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|30123,6692,39729,65484,35635,561,37165,12876,26156,5466,37454,65166
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Chatot, M|item
+|poke|p1|Rapidash, M|item
+|poke|p1|Golem, M|item
+|poke|p1|Altaria, M|item
+|poke|p1|Zebstrika, M|item
+|poke|p1|Avalugg, M|item
+|poke|p2|Bouffalant, M|item
+|poke|p2|Rapidash, M|item
+|poke|p2|Chatot, M|item
+|poke|p2|Tangela, M|item
+|poke|p2|Clefairy, M|item
+|poke|p2|Basculin, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|c|☆Century Express|gl
+|c|☆a heros destiny|=
+|J|Sunchipps
+|c|☆a heros destiny|quase peguei semis
+|L|Sunchipps
+|J|Bluxio
+|c|☆a heros destiny|francês pior raça nesse jogo
+|c|☆Century Express|meus pêsames
+|c|☆Century Express|fui bsado R2
+|choice|team 1, team 2, team 3, team 4, team 5, team 6|team 1, team 2, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Chatot|Chatot, M|100/100
+|switch|p2a: Bouffalant|Bouffalant, M|100/100
+|turn|1
+|choice|move boomburst|move headcharge
+|
+|move|p1a: Chatot|Boomburst|p2a: Bouffalant
+|-damage|p2a: Bouffalant|66/100
+|move|p2a: Bouffalant|Head Charge|p1a: Chatot
+|-damage|p1a: Chatot|0 fnt
+|-damage|p2a: Bouffalant|47/100|[from] recoil|[of] p1a: Chatot
+|faint|p1a: Chatot
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Golem|Golem, M|100/100
+|turn|2
+|c|☆a heros destiny|deu dano
+|c|☆Century Express|cadê meu pássaro
+|c|☆Century Express|ele tava aqui
+|c|☆Century Express|1seg atrás
+|c|☆Century Express|.-.
+|choice|move stealthrock|switch 4
+|
+|switch|p2a: Tangela|Tangela, M|100/100
+|move|p1a: Golem|Stealth Rock|p2a: Tangela
+|-sidestart|p2: a heros destiny|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|choice|switch 4|move sleeppowder
+|
+|switch|p1a: Altaria|Altaria, M|100/100
+|move|p2a: Tangela|Sleep Powder|p1a: Altaria
+|-status|p1a: Altaria|slp
+|
+|upkeep
+|turn|4
+|choice|move dracometeor|switch 5
+|
+|switch|p2a: Clefairy|Clefairy, M|100/100
+|cant|p1a: Altaria|slp
+|
+|upkeep
+|turn|5
+|choice|switch 2|move stealthrock
+|
+|-curestatus|p1a: Altaria|slp|[from] ability: Natural Cure
+|switch|p1a: Rapidash|Rapidash, M|100/100
+|move|p2a: Clefairy|Stealth Rock|p1a: Rapidash
+|-sidestart|p1: Century Express|move: Stealth Rock
+|
+|upkeep
+|turn|6
+|c|☆a heros destiny|será que resiste
+|choice|move flareblitz|move thunderwave
+|
+|move|p1a: Rapidash|Flare Blitz|p2a: Clefairy
+|-damage|p2a: Clefairy|32/100
+|-damage|p1a: Rapidash|72/100|[from] recoil|[of] p2a: Clefairy
+|move|p2a: Clefairy|Thunder Wave|p1a: Rapidash
+|-status|p1a: Rapidash|par
+|
+|upkeep
+|turn|7
+|c|☆Century Express|broken
+|choice|move flareblitz|move softboiled
+|
+|move|p2a: Clefairy|Soft-Boiled|p2a: Clefairy
+|-heal|p2a: Clefairy|82/100
+|move|p1a: Rapidash|Flare Blitz|p2a: Clefairy
+|-damage|p2a: Clefairy|12/100
+|-damage|p1a: Rapidash|42/100 par|[from] recoil|[of] p2a: Clefairy
+|
+|upkeep
+|turn|8
+|choice|move morningsun|move softboiled
+|
+|move|p2a: Clefairy|Soft-Boiled|p2a: Clefairy
+|-heal|p2a: Clefairy|62/100
+|move|p1a: Rapidash|Morning Sun|p1a: Rapidash
+|-heal|p1a: Rapidash|92/100 par
+|
+|upkeep
+|turn|9
+|c|☆a heros destiny|lol
+|c|☆a heros destiny|achei que era band
+|c|☆a heros destiny|me pegou
+|choice|move flareblitz|switch 6
+|
+|switch|p2a: Basculin|Basculin, M|100/100
+|-damage|p2a: Basculin|88/100|[from] Stealth Rock
+|move|p1a: Rapidash|Flare Blitz|p2a: Basculin
+|-resisted|p2a: Basculin
+|-damage|p2a: Basculin|35/100
+|-damage|p1a: Rapidash|74/100 par|[from] recoil|[of] p2a: Basculin
+|
+|upkeep
+|turn|10
+|c|☆Century Express|quem me dera
+|J|Nintendi
+|choice|switch 6|move aquatail
+|
+|switch|p1a: Avalugg|Avalugg, M|100/100
+|-damage|p1a: Avalugg|76/100|[from] Stealth Rock
+|move|p2a: Basculin|Aqua Tail|p1a: Avalugg
+|-damage|p1a: Avalugg|37/100
+|
+|-heal|p1a: Avalugg|43/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|choice|move rapidspin|move aquatail
+|
+|move|p2a: Basculin|Aqua Tail|p1a: Avalugg
+|-damage|p1a: Avalugg|6/100
+|move|p1a: Avalugg|Rapid Spin|p2a: Basculin
+|-damage|p2a: Basculin|25/100
+|-sideend|p1: Century Express|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Avalugg
+|
+|-heal|p1a: Avalugg|12/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|choice|move avalanche|move aquatail
+|
+|move|p2a: Basculin|Aqua Tail|p1a: Avalugg
+|-damage|p1a: Avalugg|0 fnt
+|faint|p1a: Avalugg
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Zebstrika|Zebstrika, M|100/100
+|turn|13
+|choice|move voltswitch|move aquatail
+|
+|move|p1a: Zebstrika|Volt Switch|p2a: Basculin
+|-supereffective|p2a: Basculin
+|-damage|p2a: Basculin|0 fnt
+|-damage|p1a: Zebstrika|91/100|[from] item: Life Orb
+|faint|p2a: Basculin
+|choice|switch 6|
+|
+|switch|p1a: Rapidash|Rapidash, M|74/100 par
+|
+|upkeep
+|J|Ban❄️Manaphy
+|choice||switch 4
+|
+|switch|p2a: Bouffalant|Bouffalant, M|47/100
+|-damage|p2a: Bouffalant|35/100|[from] Stealth Rock
+|turn|14
+|choice|switch 4|move earthquake
+|
+|switch|p1a: Golem|Golem, M|100/100
+|move|p2a: Bouffalant|Earthquake|p1a: Golem
+|-supereffective|p1a: Golem
+|-crit|p1a: Golem
+|-damage|p1a: Golem|15/100
+|
+|upkeep
+|turn|15
+|L|Ban❄️Manaphy
+|c|☆Century Express|calma
+|c|☆a heros destiny|custap
+|c|☆a heros destiny|sem blefe
+|c|☆a heros destiny|.x
+|c|☆Century Express|...
+|c|☆a heros destiny|quem não arrisca não petisca
+|choice|move stoneedge|move earthquake
+|-enditem|p1a: Golem|Custap Berry|[eat]
+|-activate|p1a: Golem|item: Custap Berry
+|
+|move|p1a: Golem|Stone Edge|p2a: Bouffalant
+|-damage|p2a: Bouffalant|0 fnt
+|faint|p2a: Bouffalant
+|
+|upkeep
+|c|☆a heros destiny|af
+|choice||switch 5
+|
+|switch|p2a: Tangela|Tangela, M|100/100
+|-damage|p2a: Tangela|88/100|[from] Stealth Rock
+|turn|16
+|c|☆Century Express|toma
+|choice|switch 4|move gigadrain
+|
+|switch|p1a: Rapidash|Rapidash, M|74/100 par
+|move|p2a: Tangela|Giga Drain|p1a: Rapidash
+|-resisted|p1a: Rapidash
+|-damage|p1a: Rapidash|47/100 par
+|-heal|p2a: Tangela|99/100|[from] drain|[of] p1a: Rapidash
+|
+|upkeep
+|turn|17
+|J|rozes
+|L|rozes
+|choice|move morningsun|move leafstorm
+|
+|move|p2a: Tangela|Leaf Storm|p1a: Rapidash|[miss]
+|-miss|p2a: Tangela|p1a: Rapidash
+|move|p1a: Rapidash|Morning Sun|p1a: Rapidash
+|-heal|p1a: Rapidash|96/100 par
+|
+|upkeep
+|turn|18
+|choice|move willowisp|switch 6
+|
+|switch|p2a: Clefairy|Clefairy, M|62/100
+|move|p1a: Rapidash|Will-O-Wisp|p2a: Clefairy
+|-status|p2a: Clefairy|brn
+|
+|upkeep
+|turn|19
+|choice|move flareblitz|move stealthrock
+|
+|move|p2a: Clefairy|Stealth Rock|p1a: Rapidash
+|-sidestart|p1: Century Express|move: Stealth Rock
+|move|p1a: Rapidash|Flare Blitz|p2a: Clefairy
+|-damage|p2a: Clefairy|0 fnt
+|-damage|p1a: Rapidash|71/100 par|[from] recoil|[of] p2a: Clefairy
+|faint|p2a: Clefairy
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Chatot|Chatot, M|100/100
+|-damage|p2a: Chatot|76/100|[from] Stealth Rock
+|turn|20
+|c|☆Century Express|pereça
+|c|☆Century Express|Clef maldita
+|choice|switch 4|move boomburst
+|
+|switch|p1a: Golem|Golem, M|15/100
+|-damage|p1a: Golem|9/100|[from] Stealth Rock
+|move|p2a: Chatot|Boomburst|p1a: Golem
+|-resisted|p1a: Golem
+|-damage|p1a: Golem|0 fnt
+|faint|p1a: Golem
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Zebstrika|Zebstrika, M|91/100
+|-damage|p1a: Zebstrika|78/100|[from] Stealth Rock
+|turn|21
+|choice|move overheat|switch 6
+|
+|switch|p2a: Tangela|Tangela, M|100/100
+|-damage|p2a: Tangela|88/100|[from] Stealth Rock
+|move|p1a: Zebstrika|Overheat|p2a: Tangela
+|-supereffective|p2a: Tangela
+|-damage|p2a: Tangela|0 fnt
+|-unboost|p1a: Zebstrika|spa|2
+|-damage|p1a: Zebstrika|68/100|[from] item: Life Orb
+|faint|p2a: Tangela
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Chatot|Chatot, M|76/100
+|-damage|p2a: Chatot|51/100|[from] Stealth Rock
+|turn|22
+|c|☆a heros destiny|how
+|choice|move thunderbolt|move boomburst
+|
+|move|p2a: Chatot|Boomburst|p1a: Zebstrika
+|-damage|p1a: Zebstrika|0 fnt
+|faint|p1a: Zebstrika
+|
+|upkeep
+|c|☆Century Express|...
+|choice|switch 2|
+|
+|switch|p1a: Altaria|Altaria, M|100/100
+|-damage|p1a: Altaria|75/100|[from] Stealth Rock
+|turn|23
+|choice|move fireblast|move boomburst
+|
+|move|p2a: Chatot|Boomburst|p1a: Altaria
+|-damage|p1a: Altaria|11/100
+|move|p1a: Altaria|Fire Blast|p2a: Chatot
+|-damage|p2a: Chatot|0 fnt
+|-damage|p1a: Altaria|1/100|[from] item: Life Orb
+|faint|p2a: Chatot
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Rapidash|Rapidash, M|100/100
+|-damage|p2a: Rapidash|76/100|[from] Stealth Rock
+|turn|24
+|choice|move dracometeor|move wildcharge
+|
+|move|p2a: Rapidash|Wild Charge|p1a: Altaria
+|-damage|p1a: Altaria|0 fnt
+|-damage|p2a: Rapidash|75/100|[from] recoil|[of] p1a: Altaria
+|faint|p1a: Altaria
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Rapidash|Rapidash, M|71/100 par
+|-damage|p1a: Rapidash|46/100 par|[from] Stealth Rock
+|turn|25
+|choice|move wildcharge|move wildcharge
+|
+|move|p2a: Rapidash|Wild Charge|p1a: Rapidash
+|-damage|p1a: Rapidash|0 fnt
+|-damage|p2a: Rapidash|64/100|[from] recoil|[of] p1a: Rapidash
+|faint|p1a: Rapidash
+|
+|win|a heros destiny

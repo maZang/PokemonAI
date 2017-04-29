@@ -1,0 +1,354 @@
+|j|Deox7
+|j|queen lucero<3
+|player|p1|Deox7|163
+|player|p2|queen lucero<3|263
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|53769,54704,64898,47558,24829,12130,38668,11221,52545,21494,56490,40309
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Hawlucha, M|item
+|poke|p1|Diancie|item
+|poke|p1|Weavile, M|item
+|poke|p1|Excadrill, M|item
+|poke|p1|Serperior, M|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p2|Gyarados, M|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Bisharp, M|item
+|poke|p2|Latias, F|item
+|poke|p2|Clefable, M|item
+|poke|p2|Chansey, F|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|c|☆Deox7|Aca creo q si perdere
+|choice|team 6, team 2, team 3, team 4, team 5, team 1|team 1, team 2, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: Gyarados|Gyarados, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Gyarados|atk|1
+|-ability|p2a: Gyarados|Intimidate|boost
+|-unboost|p1a: Landorus|atk|1
+|turn|1
+|choice|move stoneedge|switch 2
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Landorus|atk|1
+|move|p1a: Landorus|Stone Edge|p2a: Landorus
+|-crit|p2a: Landorus
+|-damage|p2a: Landorus|36/100
+|
+|upkeep
+|turn|2
+|c|☆queen lucero<3|Me cago en la puta madre no solo acierta me hace crítico
+|choice|switch 6|move stealthrock
+|
+|switch|p1a: Hawlucha|Hawlucha, M|100/100
+|move|p2a: Landorus|Stealth Rock|p1a: Hawlucha
+|-sidestart|p1: Deox7|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|choice|move skyattack|move uturn
+|
+|move|p1a: Hawlucha|Sky Attack|p2a: Landorus|[still]
+|-prepare|p1a: Hawlucha|Sky Attack|p2a: Landorus
+|-enditem|p1a: Hawlucha|Power Herb
+|-anim|p1a: Hawlucha|Sky Attack|p2a: Landorus
+|-crit|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Clefable|Clefable, M|100/100
+|turn|4
+|choice|move acrobatics|move wish
+|
+|move|p1a: Hawlucha|Acrobatics|p2a: Clefable
+|-damage|p2a: Clefable|64/100
+|move|p2a: Clefable|Wish|p2a: Clefable
+|
+|-heal|p2a: Clefable|71/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|choice|move swordsdance|move moonblast
+|
+|move|p1a: Hawlucha|Swords Dance|p1a: Hawlucha
+|-boost|p1a: Hawlucha|atk|2
+|move|p2a: Clefable|Moonblast|p1a: Hawlucha
+|-supereffective|p1a: Hawlucha
+|-damage|p1a: Hawlucha|0 fnt
+|faint|p1a: Hawlucha
+|
+|-heal|p2a: Clefable|100/100|[from] move: Wish|[wisher] Clefable
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|-damage|p1a: Excadrill|97/100|[from] Stealth Rock
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|6
+|choice|move rapidspin|switch 2
+|
+|switch|p2a: Gyarados|Gyarados, M|100/100
+|-ability|p2a: Gyarados|Intimidate|boost
+|-unboost|p1a: Excadrill|atk|1
+|move|p1a: Excadrill|Rapid Spin|p2a: Gyarados
+|-damage|p2a: Gyarados|96/100
+|-sideend|p1: Deox7|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Excadrill
+|
+|-heal|p1a: Excadrill|100/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|choice|switch 6|move dragondance mega
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Gyarados|atk|1
+|detailschange|p2a: Gyarados|Gyarados-Mega, M
+|-mega|p2a: Gyarados|Gyarados|Gyaradosite
+|-ability|p2a: Gyarados|Mold Breaker
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|
+|upkeep
+|turn|8
+|choice|move uturn|move dragondance
+|
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|move|p1a: Landorus|U-turn|p2a: Gyarados
+|-supereffective|p2a: Gyarados
+|-damage|p2a: Gyarados|45/100
+|choice|switch 5|
+|
+|switch|p1a: Serperior|Serperior, M|100/100
+|
+|upkeep
+|turn|9
+|choice|move glare|switch 6
+|
+|switch|p2a: Chansey|Chansey, F|100/100
+|move|p1a: Serperior|Glare|p2a: Chansey
+|-status|p2a: Chansey|par
+|
+|upkeep
+|turn|10
+|choice|switch 5|move toxic
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Chansey|atk|1
+|cant|p2a: Chansey|par
+|
+|upkeep
+|turn|11
+|choice|move stealthrock|switch 4
+|
+|-curestatus|p2a: Chansey|par|[from] ability: Natural Cure
+|switch|p2a: Latias|Latias, F|100/100
+|move|p1a: Landorus|Stealth Rock|p2a: Latias
+|-sidestart|p2: queen lucero<3|move: Stealth Rock
+|
+|upkeep
+|turn|12
+|choice|move uturn|move dracometeor
+|
+|move|p2a: Latias|Draco Meteor|p1a: Landorus
+|-damage|p1a: Landorus|12/100
+|-unboost|p2a: Latias|spa|2
+|-damage|p2a: Latias|91/100|[from] item: Life Orb
+|move|p1a: Landorus|U-turn|p2a: Latias
+|-supereffective|p2a: Latias
+|-damage|p2a: Latias|29/100
+|choice|switch 3|
+|
+|switch|p1a: Weavile|Weavile, M|100/100
+|-ability|p1a: Weavile|Pressure
+|
+|upkeep
+|turn|13
+|choice|move knockoff|move defog
+|
+|move|p1a: Weavile|Knock Off|p2a: Latias
+|-supereffective|p2a: Latias
+|-damage|p2a: Latias|0 fnt
+|-enditem|p2a: Latias|Life Orb|[from] move: Knock Off|[of] p1a: Weavile
+|-damage|p1a: Weavile|91/100|[from] item: Life Orb
+|faint|p2a: Latias
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Clefable|Clefable, M|100/100
+|-damage|p2a: Clefable|88/100|[from] Stealth Rock
+|turn|14
+|choice|move knockoff|move wish
+|
+|move|p1a: Weavile|Knock Off|p2a: Clefable
+|-resisted|p2a: Clefable
+|-damage|p2a: Clefable|64/100
+|-enditem|p2a: Clefable|Leftovers|[from] move: Knock Off|[of] p1a: Weavile
+|-damage|p1a: Weavile|81/100|[from] item: Life Orb
+|move|p2a: Clefable|Wish|p2a: Clefable
+|
+|upkeep
+|turn|15
+|choice|move iciclecrash|move moonblast
+|
+|move|p1a: Weavile|Icicle Crash|p2a: Clefable|[miss]
+|-miss|p1a: Weavile|p2a: Clefable
+|move|p2a: Clefable|Moonblast|p1a: Weavile
+|-supereffective|p1a: Weavile
+|-damage|p1a: Weavile|0 fnt
+|faint|p1a: Weavile
+|
+|-heal|p2a: Clefable|100/100|[from] move: Wish|[wisher] Clefable
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|16
+|choice|move toxic|move protect
+|
+|move|p2a: Clefable|Protect|p2a: Clefable
+|-singleturn|p2a: Clefable|Protect
+|move|p1a: Excadrill|Toxic|p2a: Clefable
+|-activate|p2a: Clefable|move: Protect
+|
+|upkeep
+|turn|17
+|choice|move ironhead|switch 3
+|
+|switch|p2a: Bisharp|Bisharp, M|100/100
+|-damage|p2a: Bisharp|95/100|[from] Stealth Rock
+|move|p1a: Excadrill|Iron Head|p2a: Bisharp
+|-resisted|p2a: Bisharp
+|-damage|p2a: Bisharp|73/100
+|
+|upkeep
+|turn|18
+|choice|move earthquake|move knockoff
+|
+|move|p2a: Bisharp|Knock Off|p1a: Excadrill
+|-damage|p1a: Excadrill|15/100
+|-enditem|p1a: Excadrill|Leftovers|[from] move: Knock Off|[of] p2a: Bisharp
+|move|p1a: Excadrill|Earthquake|p2a: Bisharp
+|-supereffective|p2a: Bisharp
+|-damage|p2a: Bisharp|0 fnt
+|faint|p2a: Bisharp
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Gyarados|Gyarados-Mega, M|45/100
+|-damage|p2a: Gyarados|33/100|[from] Stealth Rock
+|-ability|p2a: Gyarados|Mold Breaker
+|turn|19
+|c|☆Deox7|Si el combate esta tornando a tu favor
+|c|☆Deox7|Pero aun no tirare la toalla
+|c|☆Deox7|:"v
+|choice|move ironhead|move crunch
+|
+|move|p2a: Gyarados|Crunch|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Landorus|Landorus-Therian, M|12/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Gyarados|atk|1
+|turn|20
+|choice|move uturn|move waterfall
+|
+|move|p1a: Landorus|U-turn|p2a: Gyarados
+|-supereffective|p2a: Gyarados
+|-damage|p2a: Gyarados|0 fnt
+|faint|p2a: Gyarados
+|choice|switch 5|
+|
+|switch|p1a: Serperior|Serperior, M|100/100
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Clefable|Clefable, M|100/100
+|-damage|p2a: Clefable|88/100|[from] Stealth Rock
+|turn|21
+|choice|move glare|move wish
+|
+|move|p1a: Serperior|Glare|p2a: Clefable
+|-status|p2a: Clefable|par
+|cant|p2a: Clefable|par
+|
+|upkeep
+|turn|22
+|choice|move leafstorm|move healbell
+|
+|move|p1a: Serperior|Leaf Storm|p2a: Clefable
+|-damage|p2a: Clefable|35/100 par
+|-boost|p1a: Serperior|spa|2
+|-damage|p1a: Serperior|91/100|[from] item: Life Orb
+|move|p2a: Clefable|Heal Bell|p2a: Clefable
+|-activate|p2a: Clefable|move: Heal Bell
+|-curestatus|p2a: Clefable|par|[msg]
+|
+|upkeep
+|turn|23
+|choice|move leafstorm|switch 4
+|
+|switch|p2a: Chansey|Chansey, F|100/100
+|-damage|p2a: Chansey|88/100|[from] Stealth Rock
+|move|p1a: Serperior|Leaf Storm|p2a: Chansey
+|-damage|p2a: Chansey|58/100
+|-boost|p1a: Serperior|spa|2
+|-damage|p1a: Serperior|81/100|[from] item: Life Orb
+|
+|upkeep
+|turn|24
+|choice|move dragonpulse|move toxic
+|
+|move|p1a: Serperior|Dragon Pulse|p2a: Chansey
+|-damage|p2a: Chansey|36/100
+|-damage|p1a: Serperior|71/100|[from] item: Life Orb
+|move|p2a: Chansey|Toxic|p1a: Serperior
+|-status|p1a: Serperior|tox
+|
+|-damage|p1a: Serperior|64/100 tox|[from] psn
+|upkeep
+|turn|25
+|choice|move glare|move softboiled
+|
+|move|p1a: Serperior|Glare|p2a: Chansey
+|-status|p2a: Chansey|par
+|cant|p2a: Chansey|par
+|
+|-damage|p1a: Serperior|52/100 tox|[from] psn
+|upkeep
+|turn|26
+|choice|move leafstorm|move softboiled
+|
+|move|p1a: Serperior|Leaf Storm|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|-boost|p1a: Serperior|spa|2
+|-damage|p1a: Serperior|42/100 tox|[from] item: Life Orb
+|faint|p2a: Chansey
+|
+|-damage|p1a: Serperior|24/100 tox|[from] psn
+|upkeep
+|-message|queen lucero<3 forfeited.
+|
+|win|Deox7
+|l|queen lucero<3

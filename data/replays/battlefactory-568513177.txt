@@ -1,0 +1,287 @@
+|j|Lady sparkles
+|j|Carlos De La Torre
+|player|p1|Lady sparkles|170
+|player|p2|Carlos De La Torre|264
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|26149,10464,30164,19340,35835,62874,59378,9993,38651,36550,59551,32538
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Mismagius, M|item
+|poke|p1|Cryogonal|item
+|poke|p1|Rotom|item
+|poke|p1|Carracosta, M|item
+|poke|p1|Pyroar, M|item
+|poke|p1|Klinklang|item
+|poke|p2|Golurk|item
+|poke|p2|Skuntank, M|item
+|poke|p2|Primeape, M|item
+|poke|p2|Haunter, M|item
+|poke|p2|Grumpig, M|item
+|poke|p2|Rotom-Fan|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 5, team 2, team 3, team 4, team 1, team 6|team 1, team 2, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Pyroar|Pyroar, M|100/100
+|switch|p2a: Golurk|Golurk|100/100
+|-ability|p1a: Pyroar|Unnerve|p2: Carlos De La Torre
+|turn|1
+|choice|move willowisp|move dynamicpunch
+|
+|move|p1a: Pyroar|Will-O-Wisp|p2a: Golurk
+|-status|p2a: Golurk|brn
+|move|p2a: Golurk|Dynamic Punch|p1a: Pyroar
+|-supereffective|p1a: Pyroar
+|-damage|p1a: Pyroar|49/100
+|-start|p1a: Pyroar|confusion
+|
+|-damage|p2a: Golurk|88/100 brn|[from] brn
+|upkeep
+|turn|2
+|choice|move hypervoice|move earthquake
+|
+|-activate|p1a: Pyroar|confusion
+|-damage|p1a: Pyroar|38/100|[from] confusion
+|move|p2a: Golurk|Earthquake|p1a: Pyroar
+|-supereffective|p1a: Pyroar
+|-damage|p1a: Pyroar|0 fnt
+|faint|p1a: Pyroar
+|
+|-damage|p2a: Golurk|76/100 brn|[from] brn
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Carracosta|Carracosta, M|100/100
+|turn|3
+|choice|move scald|move dynamicpunch
+|
+|move|p2a: Golurk|Dynamic Punch|p1a: Carracosta
+|-supereffective|p1a: Carracosta
+|-damage|p1a: Carracosta|85/100
+|-start|p1a: Carracosta|confusion
+|-activate|p1a: Carracosta|confusion
+|-damage|p1a: Carracosta|79/100|[from] confusion
+|
+|-heal|p1a: Carracosta|85/100|[from] item: Leftovers
+|-damage|p2a: Golurk|64/100 brn|[from] brn
+|upkeep
+|turn|4
+|choice|move scald|move earthquake
+|
+|move|p2a: Golurk|Earthquake|p1a: Carracosta
+|-supereffective|p1a: Carracosta
+|-damage|p1a: Carracosta|64/100
+|-end|p1a: Carracosta|confusion
+|move|p1a: Carracosta|Scald|p2a: Golurk
+|-supereffective|p2a: Golurk
+|-damage|p2a: Golurk|0 fnt
+|faint|p2a: Golurk
+|
+|-heal|p1a: Carracosta|70/100|[from] item: Leftovers
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Primeape|Primeape, M|100/100
+|turn|5
+|choice|move stealthrock|move closecombat
+|
+|move|p2a: Primeape|Close Combat|p1a: Carracosta
+|-supereffective|p1a: Carracosta
+|-damage|p1a: Carracosta|10/100
+|-unboost|p2a: Primeape|def|1
+|-unboost|p2a: Primeape|spd|1
+|move|p1a: Carracosta|Stealth Rock|p2a: Primeape
+|-sidestart|p2: Carlos De La Torre|move: Stealth Rock
+|
+|-heal|p1a: Carracosta|16/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|choice|move toxic|move stoneedge
+|
+|move|p2a: Primeape|Stone Edge|p1a: Carracosta
+|-damage|p1a: Carracosta|0 fnt
+|faint|p1a: Carracosta
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Mismagius|Mismagius, M|100/100
+|turn|7
+|choice|move willowisp|move uturn
+|
+|move|p1a: Mismagius|Will-O-Wisp|p2a: Primeape
+|-status|p2a: Primeape|brn
+|move|p2a: Primeape|U-turn|p1a: Mismagius
+|-resisted|p1a: Mismagius
+|-damage|p1a: Mismagius|92/100
+|choice||switch 2
+|
+|switch|p2a: Skuntank|Skuntank, M|100/100
+|-damage|p2a: Skuntank|88/100|[from] Stealth Rock
+|
+|-heal|p1a: Mismagius|98/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|choice|move willowisp|move darkpulse
+|
+|move|p1a: Mismagius|Will-O-Wisp|p2a: Skuntank
+|-status|p2a: Skuntank|brn
+|move|p2a: Skuntank|Dark Pulse|p1a: Mismagius
+|-supereffective|p1a: Mismagius
+|-damage|p1a: Mismagius|27/100
+|
+|-heal|p1a: Mismagius|34/100|[from] item: Leftovers
+|-damage|p2a: Skuntank|76/100 brn|[from] brn
+|upkeep
+|turn|9
+|choice|move painsplit|move darkpulse
+|
+|move|p1a: Mismagius|Pain Split|p2a: Skuntank
+|-sethp|p2a: Skuntank|54/100 brn|p1a: Mismagius|57/100|[from] move: Pain Split
+|move|p2a: Skuntank|Dark Pulse|p1a: Mismagius
+|-supereffective|p1a: Mismagius
+|-damage|p1a: Mismagius|0 fnt
+|faint|p1a: Mismagius
+|
+|-damage|p2a: Skuntank|41/100 brn|[from] brn
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Cryogonal|Cryogonal|100/100
+|turn|10
+|choice|move frostbreath|move fireblast
+|
+|move|p1a: Cryogonal|Frost Breath|p2a: Skuntank
+|-crit|p2a: Skuntank
+|-damage|p2a: Skuntank|0 fnt
+|-damage|p1a: Cryogonal|91/100|[from] item: Life Orb
+|faint|p2a: Skuntank
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Primeape|Primeape, M|100/100 brn
+|-damage|p2a: Primeape|95/100 brn|[from] Stealth Rock
+|turn|11
+|choice|move freezedry|move closecombat
+|
+|move|p1a: Cryogonal|Freeze-Dry|p2a: Primeape
+|-damage|p2a: Primeape|31/100 brn
+|-damage|p1a: Cryogonal|81/100|[from] item: Life Orb
+|move|p2a: Primeape|Close Combat|p1a: Cryogonal
+|-supereffective|p1a: Cryogonal
+|-damage|p1a: Cryogonal|0 fnt
+|-unboost|p2a: Primeape|def|1
+|-unboost|p2a: Primeape|spd|1
+|faint|p1a: Cryogonal
+|
+|-damage|p2a: Primeape|19/100 brn|[from] brn
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Rotom|Rotom|100/100
+|turn|12
+|choice|move thunderbolt|move stoneedge
+|
+|move|p1a: Rotom|Thunderbolt|p2a: Primeape
+|-damage|p2a: Primeape|0 fnt
+|faint|p2a: Primeape
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Grumpig|Grumpig, M|100/100
+|-damage|p2a: Grumpig|88/100|[from] Stealth Rock
+|turn|13
+|choice|move thunderbolt|move psychic
+|
+|move|p1a: Rotom|Thunderbolt|p2a: Grumpig
+|-damage|p2a: Grumpig|63/100
+|move|p2a: Grumpig|Psychic|p1a: Rotom
+|-damage|p1a: Rotom|48/100
+|
+|-heal|p2a: Grumpig|69/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|choice|move thunderbolt|move psychic
+|
+|move|p1a: Rotom|Thunderbolt|p2a: Grumpig
+|-damage|p2a: Grumpig|43/100
+|move|p2a: Grumpig|Psychic|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|-heal|p2a: Grumpig|49/100|[from] item: Leftovers
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Klinklang|Klinklang|100/100
+|turn|15
+|choice|move geargrind|move psychic
+|
+|move|p1a: Klinklang|Gear Grind|p2a: Grumpig
+|-damage|p2a: Grumpig|19/100
+|-damage|p2a: Grumpig|0 fnt
+|-hitcount|p2a: Grumpig|2
+|faint|p2a: Grumpig
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Haunter|Haunter, M|100/100
+|-damage|p2a: Haunter|88/100|[from] Stealth Rock
+|turn|16
+|choice|move shiftgear|move shadowball
+|
+|move|p2a: Haunter|Shadow Ball|p1a: Klinklang
+|-damage|p1a: Klinklang|31/100
+|-damage|p2a: Haunter|78/100|[from] item: Life Orb
+|move|p1a: Klinklang|Shift Gear|p1a: Klinklang
+|-boost|p1a: Klinklang|spe|2
+|-boost|p1a: Klinklang|atk|1
+|
+|-heal|p1a: Klinklang|37/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|choice|move geargrind|move shadowball
+|
+|move|p1a: Klinklang|Gear Grind|p2a: Haunter
+|-crit|p2a: Haunter
+|-damage|p2a: Haunter|0 fnt
+|-hitcount|p2a: Haunter|1
+|faint|p2a: Haunter
+|
+|-heal|p1a: Klinklang|43/100|[from] item: Leftovers
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Rotom|Rotom-Fan|100/100
+|-damage|p2a: Rotom|76/100|[from] Stealth Rock
+|turn|18
+|choice|move geargrind|move airslash
+|
+|move|p1a: Klinklang|Gear Grind|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|51/100
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|27/100
+|-hitcount|p2a: Rotom|2
+|move|p2a: Rotom|Air Slash|p1a: Klinklang
+|-resisted|p1a: Klinklang
+|-damage|p1a: Klinklang|19/100
+|
+|-heal|p1a: Klinklang|25/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|choice|move return|move airslash
+|
+|move|p1a: Klinklang|Return|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|win|Lady sparkles
+|l|Carlos De La Torre

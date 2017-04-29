@@ -1,0 +1,379 @@
+|j|Rio91
+|j|Copopo
+|player|p1|Rio91|141
+|player|p2|Copopo|167
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|847,37479,57009,26763,54326,18783,35447,21898,23243,14167,27940,38244
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Landorus, M|item
+|poke|p1|Deoxys|item
+|poke|p1|Latias, F|item
+|poke|p1|Giratina|item
+|poke|p1|Gengar, M|item
+|poke|p1|Arceus-*|item
+|poke|p2|Klefki, M|item
+|poke|p2|Arceus-*|item
+|poke|p2|Deoxys|item
+|poke|p2|Scizor, M|item
+|poke|p2|Giratina-Origin|item
+|poke|p2|Groudon|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Copopo)
+|choice|team 3, team 2, team 1, team 4, team 5, team 6|team 1, team 2, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Latias|Latias, F|100/100
+|switch|p2a: Klefki|Klefki, M|100/100
+|turn|1
+|choice|switch 3|move spikes
+|
+|switch|p1a: Landorus|Landorus, M|100/100
+|move|p2a: Klefki|Spikes|p1a: Landorus
+|-sidestart|p1: Rio91|Spikes
+|
+|upkeep
+|turn|2
+|choice|move earthpower|move toxic
+|
+|move|p2a: Klefki|Toxic|p1a: Landorus
+|-status|p1a: Landorus|tox
+|move|p1a: Landorus|Earth Power|p2a: Klefki
+|-supereffective|p2a: Klefki
+|-damage|p2a: Klefki|0 fnt
+|faint|p2a: Klefki
+|
+|-damage|p1a: Landorus|95/100 tox|[from] psn
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Groudon|Groudon|100/100
+|detailschange|p2a: Groudon|Groudon-Primal
+|-primal|p2a: Groudon
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p2a: Groudon
+|turn|3
+|choice|move earthpower|move rockpolish
+|
+|move|p1a: Landorus|Earth Power|p2a: Groudon
+|-supereffective|p2a: Groudon
+|-damage|p2a: Groudon|0 fnt
+|faint|p2a: Groudon
+|-weather|none
+|
+|-damage|p1a: Landorus|83/100 tox|[from] psn
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Scizor|Scizor, M|100/100
+|turn|4
+|choice|move hiddenpower|move bulletpunch mega
+|
+|detailschange|p2a: Scizor|Scizor-Mega, M
+|-mega|p2a: Scizor|Scizor|Scizorite
+|move|p2a: Scizor|Bullet Punch|p1a: Landorus
+|-damage|p1a: Landorus|48/100 tox
+|move|p1a: Landorus|Hidden Power|p2a: Scizor
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|89/100
+|-damage|p1a: Landorus|38/100 tox|[from] item: Life Orb
+|
+|-damage|p1a: Landorus|20/100 tox|[from] psn
+|upkeep
+|turn|5
+|choice|move earthpower|move bulletpunch
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Gengar|Gengar, M|100/100
+|turn|6
+|choice|move focusblast|move bulletpunch
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Gengar
+|-damage|p1a: Gengar|40/100
+|move|p1a: Gengar|Focus Blast|p2a: Scizor
+|-damage|p2a: Scizor|47/100
+|
+|upkeep
+|turn|7
+|choice|move destinybond mega|move bulletpunch
+|
+|detailschange|p1a: Gengar|Gengar-Mega, M
+|-mega|p1a: Gengar|Gengar|Gengarite
+|move|p2a: Scizor|Bullet Punch|p1a: Gengar
+|-damage|p1a: Gengar|0 fnt
+|faint|p1a: Gengar
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Deoxys|Deoxys|100/100
+|-damage|p1a: Deoxys|88/100|[from] Spikes
+|-ability|p1a: Deoxys|Pressure
+|turn|8
+|choice|move stealthrock|move bulletpunch
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Deoxys
+|-damage|p1a: Deoxys|15/100
+|move|p1a: Deoxys|Stealth Rock|p2a: Scizor
+|-sidestart|p2: Copopo|move: Stealth Rock
+|
+|upkeep
+|turn|9
+|choice|move psychoboost|move bulletpunch
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Deoxys
+|-damage|p1a: Deoxys|0 fnt
+|faint|p1a: Deoxys
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Arceus|Arceus-Water|100/100
+|-damage|p1a: Arceus|88/100|[from] Spikes
+|turn|10
+|choice|move judgment|move roost
+|
+|move|p1a: Arceus|Judgment|p2a: Scizor
+|-damage|p2a: Scizor|0 fnt
+|faint|p2a: Scizor
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Arceus|Arceus-Poison|100/100
+|-damage|p2a: Arceus|88/100|[from] Stealth Rock
+|turn|11
+|choice|move judgment|move thunderwave
+|
+|move|p1a: Arceus|Judgment|p2a: Arceus
+|-damage|p2a: Arceus|54/100
+|move|p2a: Arceus|Thunder Wave|p1a: Arceus
+|-status|p1a: Arceus|par
+|
+|upkeep
+|turn|12
+|choice|move judgment|move recover
+|
+|move|p2a: Arceus|Recover|p2a: Arceus
+|-heal|p2a: Arceus|100/100
+|move|p1a: Arceus|Judgment|p2a: Arceus
+|-damage|p2a: Arceus|70/100
+|
+|upkeep
+|turn|13
+|choice|switch 3|move poisonjab
+|
+|switch|p1a: Latias|Latias, F|100/100
+|move|p2a: Arceus|Poison Jab|p1a: Latias
+|-damage|p1a: Latias|62/100
+|
+|upkeep
+|turn|14
+|choice|move psyshock|move thunderwave
+|
+|move|p1a: Latias|Psyshock|p2a: Arceus
+|-supereffective|p2a: Arceus
+|-damage|p2a: Arceus|15/100
+|move|p2a: Arceus|Thunder Wave|p1a: Latias
+|-status|p1a: Latias|par
+|
+|upkeep
+|turn|15
+|choice|move psyshock|move recover
+|
+|move|p2a: Arceus|Recover|p2a: Arceus
+|-heal|p2a: Arceus|65/100
+|move|p1a: Latias|Psyshock|p2a: Arceus
+|-supereffective|p2a: Arceus
+|-damage|p2a: Arceus|15/100
+|
+|upkeep
+|turn|16
+|choice|move psyshock|move recover
+|
+|move|p2a: Arceus|Recover|p2a: Arceus
+|-heal|p2a: Arceus|65/100
+|move|p1a: Latias|Psyshock|p2a: Arceus
+|-supereffective|p2a: Arceus
+|-damage|p2a: Arceus|10/100
+|
+|upkeep
+|turn|17
+|choice|move psyshock|move recover
+|
+|move|p2a: Arceus|Recover|p2a: Arceus
+|-heal|p2a: Arceus|61/100
+|move|p1a: Latias|Psyshock|p2a: Arceus
+|-supereffective|p2a: Arceus
+|-damage|p2a: Arceus|10/100
+|
+|upkeep
+|turn|18
+|choice|move psyshock|move recover
+|
+|move|p2a: Arceus|Recover|p2a: Arceus
+|-heal|p2a: Arceus|60/100
+|move|p1a: Latias|Psyshock|p2a: Arceus
+|-supereffective|p2a: Arceus
+|-damage|p2a: Arceus|6/100
+|
+|upkeep
+|turn|19
+|choice|move psyshock|move recover
+|
+|move|p2a: Arceus|Recover|p2a: Arceus
+|-heal|p2a: Arceus|56/100
+|move|p1a: Latias|Psyshock|p2a: Arceus
+|-supereffective|p2a: Arceus
+|-damage|p2a: Arceus|4/100
+|
+|upkeep
+|turn|20
+|choice|move psyshock|move recover
+|
+|move|p2a: Arceus|Recover|p2a: Arceus
+|-heal|p2a: Arceus|54/100
+|move|p1a: Latias|Psyshock|p2a: Arceus
+|-supereffective|p2a: Arceus
+|-damage|p2a: Arceus|0 fnt
+|faint|p2a: Arceus
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Giratina|Giratina-Origin|100/100
+|-damage|p2a: Giratina|88/100|[from] Stealth Rock
+|turn|21
+|choice|move dracometeor|move dragontail
+|
+|cant|p1a: Latias|par
+|move|p2a: Giratina|Dragon Tail|p1a: Latias
+|-supereffective|p1a: Latias
+|-damage|p1a: Latias|0 fnt
+|faint|p1a: Latias
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Giratina|Giratina|100/100
+|-damage|p1a: Giratina|88/100|[from] Spikes
+|-ability|p1a: Giratina|Pressure
+|turn|22
+|choice|move roar|move dragontail
+|
+|move|p2a: Giratina|Dragon Tail|p1a: Giratina|[miss]
+|-miss|p2a: Giratina|p1a: Giratina
+|move|p1a: Giratina|Roar|p2a: Giratina
+|drag|p2a: Deoxys|Deoxys|100/100
+|-damage|p2a: Deoxys|88/100|[from] Stealth Rock
+|-ability|p2a: Deoxys|Pressure
+|
+|-heal|p1a: Giratina|94/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|choice|move willowisp|move stealthrock
+|
+|move|p2a: Deoxys|Stealth Rock|p1a: Giratina
+|-sidestart|p1: Rio91|move: Stealth Rock
+|move|p1a: Giratina|Will-O-Wisp|p2a: Deoxys
+|-status|p2a: Deoxys|brn
+|
+|-heal|p1a: Giratina|100/100|[from] item: Leftovers
+|-damage|p2a: Deoxys|76/100 brn|[from] brn
+|upkeep
+|turn|24
+|choice|move roar|move spikes
+|
+|move|p2a: Deoxys|Spikes|p1a: Giratina
+|-sidestart|p1: Rio91|Spikes
+|move|p1a: Giratina|Roar|p2a: Deoxys
+|drag|p2a: Giratina|Giratina-Origin|88/100
+|-damage|p2a: Giratina|76/100|[from] Stealth Rock
+|
+|upkeep
+|turn|25
+|choice|move willowisp|move dragontail
+|
+|move|p1a: Giratina|Will-O-Wisp|p2a: Giratina
+|-status|p2a: Giratina|brn
+|move|p2a: Giratina|Dragon Tail|p1a: Giratina
+|-supereffective|p1a: Giratina
+|-damage|p1a: Giratina|81/100
+|drag|p1a: Arceus|Arceus-Water|88/100 par
+|-damage|p1a: Arceus|72/100 par|[from] Spikes
+|-damage|p1a: Arceus|59/100 par|[from] Stealth Rock
+|
+|-damage|p2a: Giratina|63/100 brn|[from] brn
+|upkeep
+|turn|26
+|choice|move judgment|move dragontail
+|
+|move|p1a: Arceus|Judgment|p2a: Giratina
+|-resisted|p2a: Giratina
+|-crit|p2a: Giratina
+|-damage|p2a: Giratina|33/100 brn
+|move|p2a: Giratina|Dragon Tail|p1a: Arceus
+|-damage|p1a: Arceus|50/100 par
+|drag|p1a: Giratina|Giratina|81/100
+|-damage|p1a: Giratina|65/100|[from] Spikes
+|-damage|p1a: Giratina|52/100|[from] Stealth Rock
+|-ability|p1a: Giratina|Pressure
+|
+|-heal|p1a: Giratina|59/100|[from] item: Leftovers
+|-damage|p2a: Giratina|20/100 brn|[from] brn
+|upkeep
+|turn|27
+|choice|move roar|move dracometeor
+|
+|move|p2a: Giratina|Draco Meteor|p1a: Giratina
+|-supereffective|p1a: Giratina
+|-damage|p1a: Giratina|0 fnt
+|-unboost|p2a: Giratina|spa|2
+|faint|p1a: Giratina
+|
+|-damage|p2a: Giratina|8/100 brn|[from] brn
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Arceus|Arceus-Water|50/100 par
+|-damage|p1a: Arceus|34/100 par|[from] Spikes
+|-damage|p1a: Arceus|21/100 par|[from] Stealth Rock
+|turn|28
+|choice|move recover|move shadowsneak
+|
+|move|p2a: Giratina|Shadow Sneak|p1a: Arceus
+|-damage|p1a: Arceus|16/100 par
+|move|p1a: Arceus|Recover|p1a: Arceus
+|-heal|p1a: Arceus|66/100 par
+|
+|-damage|p2a: Giratina|0 fnt|[from] brn
+|upkeep
+|faint|p2a: Giratina
+|choice||switch 3
+|
+|switch|p2a: Deoxys|Deoxys|76/100 brn
+|-damage|p2a: Deoxys|63/100 brn|[from] Stealth Rock
+|-ability|p2a: Deoxys|Pressure
+|turn|29
+|choice|move judgment|move taunt
+|
+|move|p2a: Deoxys|Taunt|p1a: Arceus
+|-start|p1a: Arceus|move: Taunt
+|move|p1a: Arceus|Judgment|p2a: Deoxys
+|-damage|p2a: Deoxys|0 fnt
+|faint|p2a: Deoxys
+|
+|win|Rio91
+|raw|Rio91's rating: 1125 &rarr; <strong>1156</strong><br />(+31 for winning)
+|raw|Copopo's rating: 1213 &rarr; <strong>1182</strong><br />(-31 for losing)
+|l|Copopo

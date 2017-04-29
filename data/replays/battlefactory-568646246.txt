@@ -1,0 +1,468 @@
+|j|Sev_Henry
+|j|MemeMaker420
+|player|p1|Sev_Henry|161
+|player|p2|MemeMaker420|165
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|33234,53376,27045,58039,57584,49923,55695,32146,14481,40584,26360,36748
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Crobat, M|item
+|poke|p1|Goodra, M|item
+|poke|p1|Noivern, M|item
+|poke|p1|Blissey, F|item
+|poke|p1|Sceptile, M|item
+|poke|p1|Donphan, M|item
+|poke|p2|Sceptile, M|item
+|poke|p2|Forretress, M|item
+|poke|p2|Shuckle, M|item
+|poke|p2|Espeon, M|item
+|poke|p2|Pangoro, M|item
+|poke|p2|Flygon, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|c|☆Sev_Henry|dude, we both got sceptile. That's awesome
+|c|☆MemeMaker420|too many wings
+|choice|team 3, team 2, team 1, team 4, team 5, team 6|team 3, team 2, team 1, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Noivern|Noivern, M|100/100
+|switch|p2a: Shuckle|Shuckle, M|100/100
+|turn|1
+|c|☆Sev_Henry|AND Noivern. Hell yeah, I'm digging this team
+|choice|move switcheroo|move stealthrock
+|
+|move|p1a: Noivern|Switcheroo|p2a: Shuckle
+|-activate|p1a: Noivern|move: Trick|[of] p2a: Shuckle
+|-item|p2a: Shuckle|Choice Specs|[from] move: Switcheroo
+|-item|p1a: Noivern|Leftovers|[from] move: Switcheroo
+|move|p2a: Shuckle|Stealth Rock|p1a: Noivern
+|-sidestart|p1: Sev_Henry|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|c|☆MemeMaker420|oh fuck
+|c|☆Sev_Henry|bite me lol
+|c|☆MemeMaker420|//me bites
+|choice|move hurricane|switch 3
+|
+|switch|p2a: Sceptile|Sceptile, M|100/100
+|move|p1a: Noivern|Hurricane|p2a: Sceptile
+|-supereffective|p2a: Sceptile
+|-damage|p2a: Sceptile|0 fnt
+|faint|p2a: Sceptile
+|
+|upkeep
+|c|☆MemeMaker420|OW
+|c|☆Sev_Henry|buh bye
+|choice||switch 4
+|
+|switch|p2a: Espeon|Espeon, M|100/100
+|turn|3
+|c|☆MemeMaker420|i really dont know what to do here
+|choice|switch 6|move calmmind
+|
+|switch|p1a: Donphan|Donphan, M|100/100
+|-damage|p1a: Donphan|94/100|[from] Stealth Rock
+|move|p2a: Espeon|Calm Mind|p2a: Espeon
+|-boost|p2a: Espeon|spa|1
+|-boost|p2a: Espeon|spd|1
+|
+|-heal|p1a: Donphan|100/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|c|☆Sev_Henry|lose, mostly
+|c|☆MemeMaker420|thanks for reassuring me
+|choice|move earthquake|move calmmind
+|
+|move|p2a: Espeon|Calm Mind|p2a: Espeon
+|-boost|p2a: Espeon|spa|1
+|-boost|p2a: Espeon|spd|1
+|move|p1a: Donphan|Earthquake|p2a: Espeon
+|-damage|p2a: Espeon|37/100
+|
+|-heal|p2a: Espeon|43/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|c|☆Sev_Henry|Haha say what you will about me, but I AM damn good at this game
+|c|☆MemeMaker420|noivern just kicks ass
+|c|☆MemeMaker420|and my team is so damn slow
+|c|☆Sev_Henry|Noivern is fucking amazing
+|c|☆MemeMaker420|besides flygon and espeon
+|choice|move earthquake|move storedpower
+|
+|move|p2a: Espeon|Stored Power|p1a: Donphan
+|-ability|p1a: Donphan|Sturdy
+|-damage|p1a: Donphan|1/100
+|move|p1a: Donphan|Earthquake|p2a: Espeon
+|-damage|p2a: Espeon|0 fnt
+|faint|p2a: Espeon
+|
+|-heal|p1a: Donphan|7/100|[from] item: Leftovers
+|upkeep
+|c|☆Sev_Henry|like, legit, the only poke on my team I don't love is blissey
+|choice||switch 5
+|
+|switch|p2a: Pangoro|Pangoro, M|100/100
+|turn|6
+|c|☆MemeMaker420|gtfo blissey
+|c|☆MemeMaker420|no one wants you
+|choice|move iceshard|move knockoff
+|
+|move|p1a: Donphan|Ice Shard|p2a: Pangoro
+|-damage|p2a: Pangoro|87/100
+|move|p2a: Pangoro|Knock Off|p1a: Donphan
+|-damage|p1a: Donphan|0 fnt
+|-enditem|p1a: Donphan|Leftovers|[from] move: Knock Off|[of] p2a: Pangoro
+|-damage|p2a: Pangoro|77/100|[from] item: Life Orb
+|faint|p1a: Donphan
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Crobat|Crobat, M|100/100
+|-damage|p1a: Crobat|76/100|[from] Stealth Rock
+|turn|7
+|choice|move bravebird|switch 3
+|
+|switch|p2a: Shuckle|Shuckle, M|100/100
+|move|p1a: Crobat|Brave Bird|p2a: Shuckle
+|-damage|p2a: Shuckle|73/100
+|-damage|p1a: Crobat|70/100|[from] recoil|[of] p2a: Shuckle
+|
+|-heal|p1a: Crobat|76/100|[from] item: Black Sludge
+|upkeep
+|turn|8
+|choice|move defog|move stickyweb
+|
+|move|p1a: Crobat|Defog|p2a: Shuckle
+|-unboost|p2a: Shuckle|evasion|1
+|-sideend|p1: Sev_Henry|Stealth Rock|[from] move: Defog|[of] p1a: Crobat
+|move|p2a: Shuckle|Sticky Web|p1a: Crobat
+|-sidestart|p1: Sev_Henry|move: Sticky Web
+|
+|-heal|p1a: Crobat|82/100|[from] item: Black Sludge
+|upkeep
+|turn|9
+|c|☆MemeMaker420|nuuu
+|choice|move defog|move stickyweb
+|
+|move|p1a: Crobat|Defog|p2a: Shuckle
+|-unboost|p2a: Shuckle|evasion|1
+|-sideend|p1: Sev_Henry|Sticky Web|[from] move: Defog|[of] p1a: Crobat
+|move|p2a: Shuckle|Sticky Web|p1a: Crobat
+|-sidestart|p1: Sev_Henry|move: Sticky Web
+|
+|-heal|p1a: Crobat|88/100|[from] item: Black Sludge
+|upkeep
+|turn|10
+|c|☆MemeMaker420|lol
+|choice|move bravebird|switch 2
+|
+|switch|p2a: Forretress|Forretress, M|100/100
+|move|p1a: Crobat|Brave Bird|p2a: Forretress
+|-damage|p2a: Forretress|79/100
+|-damage|p1a: Crobat|81/100|[from] recoil|[of] p2a: Forretress
+|
+|-heal|p1a: Crobat|88/100|[from] item: Black Sludge
+|-heal|p2a: Forretress|85/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|choice|move taunt|move voltswitch
+|
+|move|p1a: Crobat|Taunt|p2a: Forretress
+|-start|p2a: Forretress|move: Taunt
+|move|p2a: Forretress|Volt Switch|p1a: Crobat
+|-supereffective|p1a: Crobat
+|-damage|p1a: Crobat|65/100
+|choice||switch 6
+|
+|switch|p2a: Flygon|Flygon, M|100/100
+|
+|-heal|p1a: Crobat|71/100|[from] item: Black Sludge
+|upkeep
+|turn|12
+|c|☆Sev_Henry|Eh, my noivern will fuck both of those bugs up, I'm not worried
+|choice|move taunt|move outrage
+|
+|move|p2a: Flygon|Outrage|p1a: Crobat
+|-crit|p1a: Crobat
+|-damage|p1a: Crobat|0 fnt
+|faint|p1a: Crobat
+|
+|upkeep
+|c|☆MemeMaker420|probably
+|choice|switch 4|
+|
+|switch|p1a: Blissey|Blissey, F|100/100
+|-activate|p1a: Blissey|move: Sticky Web
+|-unboost|p1a: Blissey|spe|1
+|turn|13
+|c|☆MemeMaker420|unless shuckle somejpw knock offs you to death
+|c|☆MemeMaker420|somehow*
+|choice|move wish|move outrage
+|
+|move|p2a: Flygon|Outrage|p1a: Blissey|[from]lockedmove
+|-damage|p1a: Blissey|58/100
+|-start|p2a: Flygon|confusion|[fatigue]
+|move|p1a: Blissey|Wish|p1a: Blissey
+|
+|-heal|p1a: Blissey|64/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|c|☆Sev_Henry|>shuckle somehow knocks off to death. Okay
+|c|☆MemeMaker420|key word
+|c|☆MemeMaker420|somehow
+|c|☆MemeMaker420|meaning unless you miss like 300 hurricanes
+|c|☆MemeMaker420|and i crit everytime
+|c|☆MemeMaker420|then i win
+|choice|move seismictoss|switch 3
+|
+|switch|p2a: Pangoro|Pangoro, M|77/100
+|move|p1a: Blissey|Seismic Toss|p2a: Pangoro
+|-damage|p2a: Pangoro|46/100
+|
+|-heal|p1a: Blissey|100/100|[from] move: Wish|[wisher] Blissey
+|upkeep
+|turn|15
+|c|☆Sev_Henry|don't hold your breath lol
+|c|☆MemeMaker420|lol
+|choice|switch 2|move drainpunch
+|
+|switch|p1a: Goodra|Goodra, M|100/100
+|-activate|p1a: Goodra|move: Sticky Web
+|-unboost|p1a: Goodra|spe|1
+|move|p2a: Pangoro|Drain Punch|p1a: Goodra
+|-damage|p1a: Goodra|29/100
+|-heal|p2a: Pangoro|88/100|[from] drain|[of] p1a: Goodra
+|-damage|p2a: Pangoro|78/100|[from] item: Life Orb
+|
+|upkeep
+|turn|16
+|choice|move dracometeor|move drainpunch
+|
+|move|p2a: Pangoro|Drain Punch|p1a: Goodra
+|-damage|p1a: Goodra|0 fnt
+|-heal|p2a: Pangoro|94/100|[from] drain|[of] p1a: Goodra
+|-damage|p2a: Pangoro|84/100|[from] item: Life Orb
+|faint|p1a: Goodra
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Noivern|Noivern, M|100/100
+|turn|17
+|choice|move hurricane|switch 2
+|
+|switch|p2a: Shuckle|Shuckle, M|73/100
+|move|p1a: Noivern|Hurricane|p2a: Shuckle
+|-damage|p2a: Shuckle|45/100
+|
+|upkeep
+|turn|18
+|c|☆MemeMaker420|SACRIFICE
+|choice|move hurricane|move stealthrock
+|
+|move|p1a: Noivern|Hurricane|p2a: Shuckle|[miss]
+|-miss|p1a: Noivern|p2a: Shuckle
+|move|p2a: Shuckle|Stealth Rock|p1a: Noivern
+|-sidestart|p1: Sev_Henry|move: Stealth Rock
+|
+|upkeep
+|turn|19
+|choice|move hurricane|switch 6
+|
+|switch|p2a: Forretress|Forretress, M|85/100
+|move|p1a: Noivern|Hurricane|p2a: Forretress
+|-damage|p2a: Forretress|22/100
+|
+|-heal|p2a: Forretress|29/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|choice|move flamethrower|move spikes
+|
+|move|p1a: Noivern|Flamethrower|p2a: Forretress
+|-supereffective|p2a: Forretress
+|-damage|p2a: Forretress|0 fnt
+|faint|p2a: Forretress
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Flygon|Flygon, M|100/100
+|turn|21
+|choice|move dracometeor|move uturn
+|
+|move|p2a: Flygon|U-turn|p1a: Noivern
+|-resisted|p1a: Noivern
+|-damage|p1a: Noivern|87/100
+|choice||switch 6
+|
+|switch|p2a: Shuckle|Shuckle, M|45/100
+|move|p1a: Noivern|Draco Meteor|p2a: Shuckle
+|-damage|p2a: Shuckle|13/100
+|-unboost|p1a: Noivern|spa|2
+|
+|-heal|p1a: Noivern|93/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|c|☆MemeMaker420|whoo
+|c|☆MemeMaker420|thank you shuckle
+|choice|move switcheroo|move knockoff
+|
+|move|p1a: Noivern|Switcheroo|p2a: Shuckle
+|-activate|p1a: Noivern|move: Trick|[of] p2a: Shuckle
+|-item|p2a: Shuckle|Leftovers|[from] move: Switcheroo
+|-item|p1a: Noivern|Choice Specs|[from] move: Switcheroo
+|move|p2a: Shuckle|Knock Off|p1a: Noivern
+|-crit|p1a: Noivern
+|-damage|p1a: Noivern|82/100
+|-enditem|p1a: Noivern|Choice Specs|[from] move: Knock Off|[of] p2a: Shuckle
+|
+|-heal|p2a: Shuckle|19/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|c|☆MemeMaker420|t-thanks?
+|choice|move switcheroo|move encore
+|
+|move|p1a: Noivern|Switcheroo|p2a: Shuckle
+|-activate|p1a: Noivern|move: Trick|[of] p2a: Shuckle
+|-enditem|p2a: Shuckle|Leftovers|[silent]|[from] move: Switcheroo
+|-item|p1a: Noivern|Leftovers|[from] move: Switcheroo
+|move|p2a: Shuckle|Encore|p1a: Noivern
+|-start|p1a: Noivern|Encore
+|
+|-heal|p1a: Noivern|89/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|choice|switch 5|switch 2
+|
+|switch|p1a: Sceptile|Sceptile, M|100/100
+|-damage|p1a: Sceptile|88/100|[from] Stealth Rock
+|-activate|p1a: Sceptile|move: Sticky Web
+|-unboost|p1a: Sceptile|spe|1
+|switch|p2a: Pangoro|Pangoro, M|84/100
+|
+|upkeep
+|turn|25
+|c|☆Sev_Henry|Wanted my specs back
+|choice|move leafstorm mega|move gunkshot
+|
+|detailschange|p1a: Sceptile|Sceptile-Mega, M
+|-mega|p1a: Sceptile|Sceptile|Sceptilite
+|move|p1a: Sceptile|Leaf Storm|p2a: Pangoro
+|-damage|p2a: Pangoro|0 fnt
+|-unboost|p1a: Sceptile|spa|2
+|faint|p2a: Pangoro
+|
+|upkeep
+|c|☆MemeMaker420|2fest4me
+|choice||switch 6
+|
+|switch|p2a: Flygon|Flygon, M|100/100
+|turn|26
+|choice|move dragonpulse|move uturn
+|
+|move|p2a: Flygon|U-turn|p1a: Sceptile
+|-supereffective|p1a: Sceptile
+|-crit|p1a: Sceptile
+|-damage|p1a: Sceptile|0 fnt
+|faint|p1a: Sceptile
+|c|☆Sev_Henry|this has to be a scarfed flygon
+|c|☆MemeMaker420|oh lord
+|c|☆MemeMaker420|maaaaaaaybe
+|choice||switch 2
+|
+|switch|p2a: Shuckle|Shuckle, M|19/100
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Blissey|Blissey, F|100/100
+|-activate|p1a: Blissey|move: Sticky Web
+|-unboost|p1a: Blissey|spe|1
+|-damage|p1a: Blissey|88/100|[from] Stealth Rock
+|turn|27
+|choice|move seismictoss|move knockoff
+|
+|move|p1a: Blissey|Seismic Toss|p2a: Shuckle
+|-damage|p2a: Shuckle|0 fnt
+|faint|p2a: Shuckle
+|
+|-heal|p1a: Blissey|94/100|[from] item: Leftovers
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Flygon|Flygon, M|100/100
+|turn|28
+|choice|move wish|move outrage
+|
+|move|p2a: Flygon|Outrage|p1a: Blissey
+|-damage|p1a: Blissey|50/100
+|move|p1a: Blissey|Wish|p1a: Blissey
+|
+|-heal|p1a: Blissey|56/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|choice|move seismictoss|move outrage
+|
+|move|p2a: Flygon|Outrage|p1a: Blissey|[from]lockedmove
+|-damage|p1a: Blissey|8/100
+|move|p1a: Blissey|Seismic Toss|p2a: Flygon
+|-damage|p2a: Flygon|67/100
+|
+|-heal|p1a: Blissey|57/100|[from] move: Wish|[wisher] Blissey
+|-heal|p1a: Blissey|64/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|c|☆MemeMaker420|gg me thinks
+|choice|move protect|move outrage
+|
+|move|p1a: Blissey|Protect|p1a: Blissey
+|-singleturn|p1a: Blissey|Protect
+|move|p2a: Flygon|Outrage|p1a: Blissey|[from]lockedmove
+|-activate|p1a: Blissey|move: Protect
+|-start|p2a: Flygon|confusion|[fatigue]
+|
+|-heal|p1a: Blissey|70/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|choice|move wish|move outrage
+|
+|-activate|p2a: Flygon|confusion
+|-damage|p2a: Flygon|50/100|[from] confusion
+|move|p1a: Blissey|Wish|p1a: Blissey
+|
+|-heal|p1a: Blissey|76/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|choice|move seismictoss|move outrage
+|
+|-activate|p2a: Flygon|confusion
+|move|p2a: Flygon|Outrage|p1a: Blissey
+|-damage|p1a: Blissey|27/100
+|move|p1a: Blissey|Seismic Toss|p2a: Flygon
+|-damage|p2a: Flygon|17/100
+|
+|-heal|p1a: Blissey|77/100|[from] move: Wish|[wisher] Blissey
+|-heal|p1a: Blissey|83/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|c|☆Sev_Henry|you thinks right
+|c|☆Sev_Henry|unless crit
+|c|☆MemeMaker420|and you said blissey was the only one you hated
+|choice|move seismictoss|move outrage
+|
+|-activate|p2a: Flygon|confusion
+|move|p2a: Flygon|Outrage|p1a: Blissey|[from]lockedmove
+|-damage|p1a: Blissey|39/100
+|move|p1a: Blissey|Seismic Toss|p2a: Flygon
+|-damage|p2a: Flygon|0 fnt
+|faint|p2a: Flygon
+|
+|win|Sev_Henry
+|c|☆Sev_Henry|Just because I didn't like it doesn't mean it's not good
+|c|☆Sev_Henry|gg lol
+|c|☆MemeMaker420|i kid

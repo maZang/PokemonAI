@@ -1,0 +1,237 @@
+|j|Rio91
+|j|CrispyCombo
+|player|p1|Rio91|141
+|player|p2|CrispyCombo|250
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|25829,57046,57583,264,27827,35980,44921,60131,33710,35910,46388,14554
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Piloswine, M|item
+|poke|p1|Primeape, M|item
+|poke|p1|Aurorus, M|item
+|poke|p1|Roselia, M|item
+|poke|p1|Weezing, M|item
+|poke|p1|Torterra, M|item
+|poke|p2|Mismagius, M|item
+|poke|p2|Hitmonchan, M|item
+|poke|p2|Sliggoo, M|item
+|poke|p2|Exeggutor, M|item
+|poke|p2|Samurott, M|item
+|poke|p2|Archeops, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 5, team 2, team 3, team 4, team 1, team 6|team 6, team 2, team 3, team 4, team 5, team 1
+|
+|start
+|switch|p1a: Weezing|Weezing, M|100/100
+|switch|p2a: Archeops|Archeops, M|100/100
+|turn|1
+|choice|move toxicspikes|move stealthrock
+|
+|move|p2a: Archeops|Stealth Rock|p1a: Weezing
+|-sidestart|p1: Rio91|move: Stealth Rock
+|move|p1a: Weezing|Toxic Spikes|p2a: Archeops
+|-sidestart|p2: CrispyCombo|move: Toxic Spikes
+|
+|upkeep
+|turn|2
+|choice|move willowisp|move taunt
+|
+|move|p2a: Archeops|Taunt|p1a: Weezing
+|-start|p1a: Weezing|move: Taunt
+|cant|p1a: Weezing|move: Taunt|Will-O-Wisp
+|
+|upkeep
+|turn|3
+|choice|move sludgebomb|move headsmash
+|
+|move|p2a: Archeops|Head Smash|p1a: Weezing
+|-damage|p1a: Weezing|40/100
+|-damage|p2a: Archeops|66/100|[from] recoil|[of] p1a: Weezing
+|move|p1a: Weezing|Sludge Bomb|p2a: Archeops
+|-resisted|p2a: Archeops
+|-damage|p2a: Archeops|43/100
+|-status|p2a: Archeops|psn
+|
+|-heal|p1a: Weezing|46/100|[from] item: Black Sludge
+|-damage|p2a: Archeops|31/100 psn|[from] psn
+|upkeep
+|turn|4
+|choice|move sludgebomb|move headsmash
+|
+|move|p2a: Archeops|Head Smash|p1a: Weezing
+|-damage|p1a: Weezing|15/100
+|-damage|p2a: Archeops|13/100 psn|[from] recoil|[of] p1a: Weezing
+|move|p1a: Weezing|Sludge Bomb|p2a: Archeops
+|-resisted|p2a: Archeops
+|-damage|p2a: Archeops|0 fnt
+|faint|p2a: Archeops
+|
+|-heal|p1a: Weezing|21/100|[from] item: Black Sludge
+|-end|p1a: Weezing|move: Taunt
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Samurott|Samurott, M|100/100
+|-status|p2a: Samurott|psn
+|-enditem|p2a: Samurott|Lum Berry|[eat]
+|-curestatus|p2a: Samurott|psn|[msg]
+|turn|5
+|choice|move willowisp|move waterfall
+|
+|move|p2a: Samurott|Waterfall|p1a: Weezing
+|-damage|p1a: Weezing|0 fnt
+|faint|p1a: Weezing
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Roselia|Roselia, M|100/100
+|-damage|p1a: Roselia|88/100|[from] Stealth Rock
+|turn|6
+|choice|move gigadrain|move megahorn
+|
+|move|p2a: Samurott|Megahorn|p1a: Roselia
+|-damage|p1a: Roselia|34/100
+|move|p1a: Roselia|Giga Drain|p2a: Samurott
+|-supereffective|p2a: Samurott
+|-damage|p2a: Samurott|37/100
+|-heal|p1a: Roselia|72/100|[from] drain|[of] p2a: Samurott
+|
+|upkeep
+|turn|7
+|choice|move gigadrain|switch 2
+|
+|switch|p2a: Hitmonchan|Hitmonchan, M|100/100
+|-status|p2a: Hitmonchan|psn
+|move|p1a: Roselia|Giga Drain|p2a: Hitmonchan
+|-damage|p2a: Hitmonchan|65/100 psn
+|-heal|p1a: Roselia|86/100|[from] drain|[of] p2a: Hitmonchan
+|
+|-damage|p2a: Hitmonchan|53/100 psn|[from] psn
+|upkeep
+|turn|8
+|choice|move spikes|move rapidspin
+|
+|move|p2a: Hitmonchan|Rapid Spin|p1a: Roselia
+|-damage|p1a: Roselia|74/100
+|-sideend|p2: CrispyCombo|Toxic Spikes|[from] move: Rapid Spin|[of] p2a: Hitmonchan
+|-damage|p2a: Hitmonchan|43/100 psn|[from] item: Life Orb
+|move|p1a: Roselia|Spikes|p2a: Hitmonchan
+|-sidestart|p2: CrispyCombo|Spikes
+|
+|-damage|p2a: Hitmonchan|31/100 psn|[from] psn
+|upkeep
+|turn|9
+|choice|move spikes|move stoneedge
+|
+|move|p2a: Hitmonchan|Stone Edge|p1a: Roselia
+|-damage|p1a: Roselia|13/100
+|-damage|p2a: Hitmonchan|21/100 psn|[from] item: Life Orb
+|move|p1a: Roselia|Spikes|p2a: Hitmonchan
+|-sidestart|p2: CrispyCombo|Spikes
+|
+|-damage|p2a: Hitmonchan|8/100 psn|[from] psn
+|upkeep
+|turn|10
+|choice|switch 6|move rapidspin
+|
+|switch|p1a: Torterra|Torterra, M|100/100
+|-damage|p1a: Torterra|94/100|[from] Stealth Rock
+|move|p2a: Hitmonchan|Rapid Spin|p1a: Torterra
+|-damage|p1a: Torterra|85/100
+|-sideend|p2: CrispyCombo|Spikes|[from] move: Rapid Spin|[of] p2a: Hitmonchan
+|-damage|p2a: Hitmonchan|0 fnt|[from] item: Life Orb
+|faint|p2a: Hitmonchan
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Samurott|Samurott, M|37/100
+|turn|11
+|choice|move rockpolish|move megahorn
+|
+|move|p1a: Torterra|Rock Polish|p1a: Torterra
+|-boost|p1a: Torterra|spe|2
+|move|p2a: Samurott|Megahorn|p1a: Torterra|[miss]
+|-miss|p2a: Samurott|p1a: Torterra
+|
+|upkeep
+|turn|12
+|choice|move earthquake|move megahorn
+|
+|move|p1a: Torterra|Earthquake|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|faint|p2a: Samurott
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Exeggutor|Exeggutor, M|100/100
+|turn|13
+|choice|move stoneedge|move psychic
+|
+|move|p1a: Torterra|Stone Edge|p2a: Exeggutor
+|-damage|p2a: Exeggutor|71/100
+|move|p2a: Exeggutor|Psychic|p1a: Torterra
+|-damage|p1a: Torterra|26/100
+|
+|upkeep
+|turn|14
+|choice|move earthquake|move psychic
+|
+|move|p1a: Torterra|Earthquake|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|45/100
+|move|p2a: Exeggutor|Psychic|p1a: Torterra
+|-damage|p1a: Torterra|0 fnt
+|faint|p1a: Torterra
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Aurorus|Aurorus, M|100/100
+|-damage|p1a: Aurorus|76/100|[from] Stealth Rock
+|turn|15
+|choice|move hypervoice|move sleeppowder
+|
+|move|p1a: Aurorus|Hyper Voice|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|0 fnt
+|faint|p2a: Exeggutor
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Mismagius|Mismagius, M|100/100
+|turn|16
+|choice|move hypervoice|move shadowball
+|
+|move|p2a: Mismagius|Shadow Ball|p1a: Aurorus
+|-damage|p1a: Aurorus|31/100
+|-damage|p2a: Mismagius|91/100|[from] item: Life Orb
+|move|p1a: Aurorus|Hyper Voice|p2a: Mismagius
+|-damage|p2a: Mismagius|0 fnt
+|faint|p2a: Mismagius
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Sliggoo|Sliggoo, M|100/100
+|turn|17
+|choice|move hypervoice|move muddywater
+|
+|move|p1a: Aurorus|Hyper Voice|p2a: Sliggoo
+|-supereffective|p2a: Sliggoo
+|-damage|p2a: Sliggoo|0 fnt
+|faint|p2a: Sliggoo
+|
+|win|Rio91
+|raw|Rio91's rating: 1087 &rarr; <strong>1122</strong><br />(+35 for winning)
+|raw|CrispyCombo's rating: 1185 &rarr; <strong>1153</strong><br />(-32 for losing)
+|c|☆CrispyCombo|gg
+|l|CrispyCombo

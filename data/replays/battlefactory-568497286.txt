@@ -1,0 +1,150 @@
+|j|monnsuto
+|j|Rio91
+|player|p1|monnsuto|63
+|player|p2|Rio91|141
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|65337,35138,40022,21761,17444,10040,1343,49447,29666,5230,25478,15834
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Talonflame, M|
+|poke|p1|Serperior, M|item
+|poke|p1|Thundurus-Therian, M|item
+|poke|p1|Manectric, M|item
+|poke|p1|Tyranitar, M|item
+|poke|p1|Mew|item
+|poke|p2|Diancie|item
+|poke|p2|Feraligatr, M|item
+|poke|p2|Kyurem-Black|item
+|poke|p2|Weavile, M|item
+|poke|p2|Terrakion|item
+|poke|p2|Skarmory, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 4, team 2, team 3, team 1, team 5, team 6|team 3, team 2, team 1, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Manectric|Manectric, M|100/100
+|switch|p2a: Kyurem|Kyurem-Black|100/100
+|-ability|p2a: Kyurem|Teravolt
+|turn|1
+|choice|move voltswitch mega|move earthpower
+|
+|detailschange|p1a: Manectric|Manectric-Mega, M
+|-mega|p1a: Manectric|Manectric|Manectite
+|-ability|p1a: Manectric|Intimidate|boost
+|-unboost|p2a: Kyurem|atk|1
+|move|p1a: Manectric|Volt Switch|p2a: Kyurem
+|-resisted|p2a: Kyurem
+|-damage|p2a: Kyurem|82/100
+|choice|switch 6|
+|
+|switch|p1a: Mew|Mew|100/100
+|move|p2a: Kyurem|Earth Power|p1a: Mew
+|-damage|p1a: Mew|64/100
+|-damage|p2a: Kyurem|72/100|[from] item: Life Orb
+|
+|-heal|p1a: Mew|70/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|choice|move softboiled|switch 4
+|
+|switch|p2a: Weavile|Weavile, M|100/100
+|-ability|p2a: Weavile|Pressure
+|move|p1a: Mew|Soft-Boiled|p1a: Mew
+|-heal|p1a: Mew|100/100
+|
+|upkeep
+|turn|3
+|choice|switch 3|move pursuit
+|
+|-activate|p1a: Mew|move: Pursuit
+|move|p2a: Weavile|Pursuit|p1a: Mew|[from]Pursuit
+|-supereffective|p1a: Mew
+|-crit|p1a: Mew
+|-damage|p1a: Mew|2/100
+|-damage|p2a: Weavile|91/100|[from] item: Life Orb
+|switch|p1a: Thundurus|Thundurus-Therian, M|100/100
+|
+|upkeep
+|turn|4
+|choice|move focusblast|move iciclecrash
+|
+|move|p2a: Weavile|Icicle Crash|p1a: Thundurus
+|-supereffective|p1a: Thundurus
+|-damage|p1a: Thundurus|0 fnt
+|-damage|p2a: Weavile|81/100|[from] item: Life Orb
+|faint|p1a: Thundurus
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Talonflame|Talonflame, M|100/100
+|turn|5
+|choice|move acrobatics|switch 4
+|
+|switch|p2a: Kyurem|Kyurem-Black|72/100
+|-ability|p2a: Kyurem|Teravolt
+|move|p1a: Talonflame|Acrobatics|p2a: Kyurem
+|-damage|p2a: Kyurem|42/100
+|
+|upkeep
+|turn|6
+|choice|move acrobatics|move fusionbolt
+|
+|move|p1a: Talonflame|Acrobatics|p2a: Kyurem
+|-damage|p2a: Kyurem|11/100
+|move|p2a: Kyurem|Fusion Bolt|p1a: Talonflame
+|-supereffective|p1a: Talonflame
+|-damage|p1a: Talonflame|0 fnt
+|-damage|p2a: Kyurem|2/100|[from] item: Life Orb
+|faint|p1a: Talonflame
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Serperior|Serperior, M|100/100
+|turn|7
+|choice|move leafstorm|move icebeam
+|
+|move|p1a: Serperior|Leaf Storm|p2a: Kyurem|[miss]
+|-miss|p1a: Serperior|p2a: Kyurem
+|move|p2a: Kyurem|Ice Beam|p1a: Serperior
+|-supereffective|p1a: Serperior
+|-damage|p1a: Serperior|0 fnt
+|-damage|p2a: Kyurem|0 fnt|[from] item: Life Orb
+|faint|p1a: Serperior
+|faint|p2a: Kyurem
+|
+|upkeep
+|c|☆monnsuto|wtf
+|choice|switch 6|switch 3
+|
+|switch|p1a: Manectric|Manectric-Mega, M|100/100
+|switch|p2a: Diancie|Diancie|100/100
+|-ability|p1a: Manectric|Intimidate|boost
+|-fail|p2a: Diancie|unboost|[from] ability: Clear Body|[of] p2a: Diancie
+|turn|8
+|choice|move hiddenpower|move earthpower mega
+|
+|detailschange|p2a: Diancie|Diancie-Mega
+|-mega|p2a: Diancie|Diancie|Diancite
+|move|p1a: Manectric|Hidden Power|p2a: Diancie
+|-damage|p2a: Diancie|72/100
+|move|p2a: Diancie|Earth Power|p1a: Manectric
+|-supereffective|p1a: Manectric
+|-crit|p1a: Manectric
+|-damage|p1a: Manectric|0 fnt
+|faint|p1a: Manectric
+|
+|upkeep
+|c|☆monnsuto|you are lucky
+|-message|monnsuto forfeited.
+|
+|win|Rio91
+|l|monnsuto
+|raw|monnsuto's rating: 1249 &rarr; <strong>1216</strong><br />(-33 for losing)
+|raw|Rio91's rating: 1131 &rarr; <strong>1165</strong><br />(+34 for winning)

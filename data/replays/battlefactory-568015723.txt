@@ -1,0 +1,517 @@
+|j|RoboticDemo
+|j|CloudNimbus
+|player|p1|RoboticDemo|156
+|player|p2|CloudNimbus|285
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|37869,14050,3493,23386,47112,43153,35491,47969,63229,6174,32978,7372
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Kingdra, M|item
+|poke|p1|Gardevoir, M|item
+|poke|p1|Cobalion|item
+|poke|p1|Tentacruel, M|item
+|poke|p1|Roserade, M|item
+|poke|p1|Honchkrow, M|item
+|poke|p2|Gardevoir, M|item
+|poke|p2|Cloyster, M|item
+|poke|p2|Vaporeon, M|item
+|poke|p2|Aromatisse, M|item
+|poke|p2|Kyurem|item
+|poke|p2|Nidoqueen, F|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|c|☆RoboticDemo|o
+|choice|team 5, team 2, team 3, team 4, team 1, team 6|team 6, team 2, team 3, team 4, team 5, team 1
+|
+|start
+|switch|p1a: Roserade|Roserade, M|100/100
+|switch|p2a: Nidoqueen|Nidoqueen, F|100/100
+|turn|1
+|choice|move spikes|move icebeam
+|
+|move|p1a: Roserade|Spikes|p2a: Nidoqueen
+|-sidestart|p2: CloudNimbus|Spikes
+|move|p2a: Nidoqueen|Ice Beam|p1a: Roserade
+|-supereffective|p1a: Roserade
+|-damage|p1a: Roserade|3/100
+|
+|upkeep
+|turn|2
+|choice|move spikes|move icebeam
+|
+|move|p1a: Roserade|Spikes|p2a: Nidoqueen
+|-sidestart|p2: CloudNimbus|Spikes
+|move|p2a: Nidoqueen|Ice Beam|p1a: Roserade
+|-supereffective|p1a: Roserade
+|-damage|p1a: Roserade|0 fnt
+|faint|p1a: Roserade
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Tentacruel|Tentacruel, M|100/100
+|turn|3
+|choice|move toxicspikes|switch 3
+|
+|switch|p2a: Vaporeon|Vaporeon, M|100/100
+|-damage|p2a: Vaporeon|84/100|[from] Spikes
+|move|p1a: Tentacruel|Toxic Spikes|p2a: Vaporeon
+|-sidestart|p2: CloudNimbus|move: Toxic Spikes
+|
+|-heal|p2a: Vaporeon|90/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|choice|move knockoff|move scald
+|
+|move|p1a: Tentacruel|Knock Off|p2a: Vaporeon
+|-damage|p2a: Vaporeon|78/100
+|-enditem|p2a: Vaporeon|Leftovers|[from] move: Knock Off|[of] p1a: Tentacruel
+|move|p2a: Vaporeon|Scald|p1a: Tentacruel
+|-resisted|p1a: Tentacruel
+|-damage|p1a: Tentacruel|89/100
+|-status|p1a: Tentacruel|brn
+|
+|-heal|p1a: Tentacruel|95/100 brn|[from] item: Black Sludge
+|-damage|p1a: Tentacruel|82/100 brn|[from] brn
+|upkeep
+|turn|5
+|choice|move toxicspikes|move wish
+|
+|move|p1a: Tentacruel|Toxic Spikes|p2a: Vaporeon
+|-sidestart|p2: CloudNimbus|move: Toxic Spikes
+|move|p2a: Vaporeon|Wish|p2a: Vaporeon
+|
+|-heal|p1a: Tentacruel|89/100 brn|[from] item: Black Sludge
+|-damage|p1a: Tentacruel|76/100 brn|[from] brn
+|upkeep
+|turn|6
+|choice|switch 6|move scald
+|
+|switch|p1a: Honchkrow|Honchkrow, M|100/100
+|move|p2a: Vaporeon|Scald|p1a: Honchkrow
+|-damage|p1a: Honchkrow|47/100
+|
+|-heal|p2a: Vaporeon|100/100|[from] move: Wish|[wisher] Vaporeon
+|upkeep
+|turn|7
+|choice|move bravebird|move protect
+|
+|move|p2a: Vaporeon|Protect|p2a: Vaporeon
+|-singleturn|p2a: Vaporeon|Protect
+|move|p1a: Honchkrow|Brave Bird|p2a: Vaporeon
+|-activate|p2a: Vaporeon|move: Protect
+|
+|upkeep
+|turn|8
+|choice|move bravebird|move wish
+|
+|move|p1a: Honchkrow|Brave Bird|p2a: Vaporeon
+|-damage|p2a: Vaporeon|30/100
+|-damage|p1a: Honchkrow|16/100|[from] recoil|[of] p2a: Vaporeon
+|-damage|p1a: Honchkrow|6/100|[from] item: Life Orb
+|move|p2a: Vaporeon|Wish|p2a: Vaporeon
+|
+|upkeep
+|turn|9
+|choice|move roost|move protect
+|
+|move|p2a: Vaporeon|Protect|p2a: Vaporeon
+|-singleturn|p2a: Vaporeon|Protect
+|move|p1a: Honchkrow|Roost|p1a: Honchkrow
+|-heal|p1a: Honchkrow|56/100
+|
+|-heal|p2a: Vaporeon|80/100|[from] move: Wish|[wisher] Vaporeon
+|upkeep
+|turn|10
+|choice|move roost|move scald
+|
+|move|p1a: Honchkrow|Roost|p1a: Honchkrow
+|-heal|p1a: Honchkrow|100/100
+|move|p2a: Vaporeon|Scald|p1a: Honchkrow
+|-damage|p1a: Honchkrow|54/100
+|-status|p1a: Honchkrow|brn
+|
+|-damage|p1a: Honchkrow|42/100 brn|[from] brn
+|upkeep
+|turn|11
+|choice|move superpower|move wish
+|
+|move|p1a: Honchkrow|Superpower|p2a: Vaporeon
+|-damage|p2a: Vaporeon|55/100
+|-unboost|p1a: Honchkrow|atk|1
+|-unboost|p1a: Honchkrow|def|1
+|-damage|p1a: Honchkrow|32/100 brn|[from] item: Life Orb
+|move|p2a: Vaporeon|Wish|p2a: Vaporeon
+|
+|-damage|p1a: Honchkrow|20/100 brn|[from] brn
+|upkeep
+|turn|12
+|choice|switch 3|move protect
+|
+|switch|p1a: Cobalion|Cobalion|100/100
+|move|p2a: Vaporeon|Protect|p2a: Vaporeon
+|-fail|p2a: Vaporeon
+|
+|-heal|p2a: Vaporeon|100/100|[from] move: Wish|[wisher] Vaporeon
+|upkeep
+|turn|13
+|choice|move taunt|move scald
+|
+|move|p1a: Cobalion|Taunt|p2a: Vaporeon
+|-start|p2a: Vaporeon|move: Taunt
+|move|p2a: Vaporeon|Scald|p1a: Cobalion
+|-damage|p1a: Cobalion|61/100
+|
+|-heal|p1a: Cobalion|67/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|choice|move stealthrock|move scald
+|
+|move|p1a: Cobalion|Stealth Rock|p2a: Vaporeon
+|-sidestart|p2: CloudNimbus|move: Stealth Rock
+|move|p2a: Vaporeon|Scald|p1a: Cobalion
+|-damage|p1a: Cobalion|23/100
+|
+|-heal|p1a: Cobalion|29/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|choice|move closecombat|move scald
+|
+|move|p1a: Cobalion|Close Combat|p2a: Vaporeon
+|-damage|p2a: Vaporeon|63/100
+|-unboost|p1a: Cobalion|def|1
+|-unboost|p1a: Cobalion|spd|1
+|move|p2a: Vaporeon|Scald|p1a: Cobalion
+|-damage|p1a: Cobalion|0 fnt
+|faint|p1a: Cobalion
+|
+|-end|p2a: Vaporeon|move: Taunt
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Kingdra|Kingdra, M|100/100
+|turn|16
+|choice|move dragondance|move wish
+|
+|move|p1a: Kingdra|Dragon Dance|p1a: Kingdra
+|-boost|p1a: Kingdra|atk|1
+|-boost|p1a: Kingdra|spe|1
+|move|p2a: Vaporeon|Wish|p2a: Vaporeon
+|
+|upkeep
+|turn|17
+|choice|move dragondance|move scald
+|
+|move|p1a: Kingdra|Dragon Dance|p1a: Kingdra
+|-boost|p1a: Kingdra|atk|1
+|-boost|p1a: Kingdra|spe|1
+|move|p2a: Vaporeon|Scald|p1a: Kingdra
+|-resisted|p1a: Kingdra
+|-damage|p1a: Kingdra|91/100
+|-status|p1a: Kingdra|brn
+|
+|-heal|p2a: Vaporeon|100/100|[from] move: Wish|[wisher] Vaporeon
+|-heal|p1a: Kingdra|97/100 brn|[from] item: Leftovers
+|-damage|p1a: Kingdra|85/100 brn|[from] brn
+|upkeep
+|turn|18
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by RoboticDemo)
+|choice|move dragondance|move scald
+|
+|move|p1a: Kingdra|Dragon Dance|p1a: Kingdra
+|-boost|p1a: Kingdra|atk|1
+|-boost|p1a: Kingdra|spe|1
+|move|p2a: Vaporeon|Scald|p1a: Kingdra
+|-resisted|p1a: Kingdra
+|-damage|p1a: Kingdra|77/100 brn
+|
+|-heal|p1a: Kingdra|83/100 brn|[from] item: Leftovers
+|-damage|p1a: Kingdra|70/100 brn|[from] brn
+|upkeep
+|turn|19
+|choice|move waterfall|move protect
+|
+|move|p2a: Vaporeon|Protect|p2a: Vaporeon
+|-singleturn|p2a: Vaporeon|Protect
+|move|p1a: Kingdra|Waterfall|p2a: Vaporeon
+|-activate|p2a: Vaporeon|move: Protect
+|
+|-heal|p1a: Kingdra|76/100 brn|[from] item: Leftovers
+|-damage|p1a: Kingdra|64/100 brn|[from] brn
+|upkeep
+|turn|20
+|choice|move waterfall|move scald
+|
+|move|p1a: Kingdra|Waterfall|p2a: Vaporeon
+|-immune|p2a: Vaporeon|[msg]|[from] ability: Water Absorb
+|move|p2a: Vaporeon|Scald|p1a: Kingdra
+|-resisted|p1a: Kingdra
+|-damage|p1a: Kingdra|55/100 brn
+|
+|-heal|p1a: Kingdra|61/100 brn|[from] item: Leftovers
+|-damage|p1a: Kingdra|48/100 brn|[from] brn
+|upkeep
+|turn|21
+|choice|move dragondance|move protect
+|
+|move|p2a: Vaporeon|Protect|p2a: Vaporeon
+|-singleturn|p2a: Vaporeon|Protect
+|move|p1a: Kingdra|Dragon Dance|p1a: Kingdra
+|-boost|p1a: Kingdra|atk|1
+|-boost|p1a: Kingdra|spe|1
+|
+|-heal|p1a: Kingdra|54/100 brn|[from] item: Leftovers
+|-damage|p1a: Kingdra|42/100 brn|[from] brn
+|upkeep
+|turn|22
+|choice|move outrage|move protect
+|
+|move|p2a: Vaporeon|Protect|p2a: Vaporeon
+|-singleturn|p2a: Vaporeon|Protect
+|move|p1a: Kingdra|Outrage|p2a: Vaporeon
+|-activate|p2a: Vaporeon|move: Protect
+|
+|-heal|p1a: Kingdra|48/100 brn|[from] item: Leftovers
+|-damage|p1a: Kingdra|36/100 brn|[from] brn
+|upkeep
+|turn|23
+|choice|move outrage|move wish
+|
+|move|p1a: Kingdra|Outrage|p2a: Vaporeon
+|-damage|p2a: Vaporeon|28/100
+|move|p2a: Vaporeon|Wish|p2a: Vaporeon
+|
+|-heal|p1a: Kingdra|42/100 brn|[from] item: Leftovers
+|-damage|p1a: Kingdra|29/100 brn|[from] brn
+|upkeep
+|turn|24
+|choice|move outrage|move protect
+|
+|move|p2a: Vaporeon|Protect|p2a: Vaporeon
+|-singleturn|p2a: Vaporeon|Protect
+|move|p1a: Kingdra|Outrage|p2a: Vaporeon|[from]lockedmove
+|-activate|p2a: Vaporeon|move: Protect
+|
+|-heal|p2a: Vaporeon|77/100|[from] move: Wish|[wisher] Vaporeon
+|-heal|p1a: Kingdra|35/100 brn|[from] item: Leftovers
+|-damage|p1a: Kingdra|23/100 brn|[from] brn
+|upkeep
+|turn|25
+|choice|move outrage|move wish
+|
+|move|p1a: Kingdra|Outrage|p2a: Vaporeon
+|-damage|p2a: Vaporeon|8/100
+|move|p2a: Vaporeon|Wish|p2a: Vaporeon
+|
+|-heal|p1a: Kingdra|29/100 brn|[from] item: Leftovers
+|-damage|p1a: Kingdra|16/100 brn|[from] brn
+|upkeep
+|turn|26
+|choice|move outrage|move protect
+|
+|move|p2a: Vaporeon|Protect|p2a: Vaporeon
+|-singleturn|p2a: Vaporeon|Protect
+|move|p1a: Kingdra|Outrage|p2a: Vaporeon|[from]lockedmove
+|-activate|p2a: Vaporeon|move: Protect
+|-start|p1a: Kingdra|confusion|[fatigue]
+|
+|-heal|p2a: Vaporeon|57/100|[from] move: Wish|[wisher] Vaporeon
+|-heal|p1a: Kingdra|22/100 brn|[from] item: Leftovers
+|-damage|p1a: Kingdra|10/100 brn|[from] brn
+|upkeep
+|turn|27
+|choice|move outrage|move wish
+|
+|-activate|p1a: Kingdra|confusion
+|-damage|p1a: Kingdra|0 fnt|[from] confusion
+|faint|p1a: Kingdra
+|move|p2a: Vaporeon|Wish|p2a: Vaporeon
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Gardevoir|Gardevoir, M|100/100
+|-ability|p1a: Gardevoir|Water Absorb|[from] ability: Trace|[of] p2a: Vaporeon
+|turn|28
+|choice|move substitute|switch 3
+|
+|switch|p2a: Nidoqueen|Nidoqueen, F|100/100
+|-sideend|p2: CloudNimbus|move: Toxic Spikes|[of] p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|94/100|[from] Stealth Rock
+|-damage|p2a: Nidoqueen|78/100|[from] Spikes
+|move|p1a: Gardevoir|Substitute|p1a: Gardevoir
+|-start|p1a: Gardevoir|Substitute
+|-damage|p1a: Gardevoir|76/100
+|
+|-heal|p2a: Nidoqueen|100/100|[from] move: Wish|[wisher] Vaporeon
+|-heal|p1a: Gardevoir|82/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|choice|move calmmind|move sludgewave
+|
+|move|p1a: Gardevoir|Calm Mind|p1a: Gardevoir
+|-boost|p1a: Gardevoir|spa|1
+|-boost|p1a: Gardevoir|spd|1
+|move|p2a: Nidoqueen|Sludge Wave|p1a: Gardevoir
+|-supereffective|p1a: Gardevoir
+|-end|p1a: Gardevoir|Substitute
+|
+|-heal|p1a: Gardevoir|88/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|choice|move psyshock|move sludgewave
+|
+|move|p1a: Gardevoir|Psyshock|p2a: Nidoqueen
+|-supereffective|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|0 fnt
+|faint|p2a: Nidoqueen
+|
+|-heal|p1a: Gardevoir|94/100|[from] item: Leftovers
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Gardevoir|Gardevoir, M|100/100
+|-damage|p2a: Gardevoir|84/100|[from] Spikes
+|-damage|p2a: Gardevoir|72/100|[from] Stealth Rock
+|-ability|p2a: Gardevoir|Water Absorb|[from] ability: Trace|[of] p1a: Gardevoir
+|turn|31
+|choice|move psyshock|move moonblast
+|
+|move|p1a: Gardevoir|Psyshock|p2a: Gardevoir
+|-resisted|p2a: Gardevoir
+|-damage|p2a: Gardevoir|15/100
+|move|p2a: Gardevoir|Moonblast|p1a: Gardevoir
+|-damage|p1a: Gardevoir|39/100
+|
+|-heal|p1a: Gardevoir|45/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|choice|move psyshock|move moonblast
+|
+|move|p1a: Gardevoir|Psyshock|p2a: Gardevoir
+|-resisted|p2a: Gardevoir
+|-damage|p2a: Gardevoir|0 fnt
+|faint|p2a: Gardevoir
+|
+|-heal|p1a: Gardevoir|51/100|[from] item: Leftovers
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Aromatisse|Aromatisse, M|100/100
+|-damage|p2a: Aromatisse|84/100|[from] Spikes
+|-damage|p2a: Aromatisse|72/100|[from] Stealth Rock
+|turn|33
+|choice|move psyshock|move moonblast
+|
+|move|p1a: Gardevoir|Psyshock|p2a: Aromatisse
+|-damage|p2a: Aromatisse|29/100
+|move|p2a: Aromatisse|Moonblast|p1a: Gardevoir
+|-damage|p1a: Gardevoir|26/100
+|-unboost|p1a: Gardevoir|spa|1
+|
+|-heal|p1a: Gardevoir|32/100|[from] item: Leftovers
+|-heal|p2a: Aromatisse|35/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|choice|move psyshock|move protect
+|
+|move|p2a: Aromatisse|Protect|p2a: Aromatisse
+|-singleturn|p2a: Aromatisse|Protect
+|move|p1a: Gardevoir|Psyshock|p2a: Aromatisse
+|-activate|p2a: Aromatisse|move: Protect
+|
+|-heal|p1a: Gardevoir|38/100|[from] item: Leftovers
+|-heal|p2a: Aromatisse|41/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|choice|move psyshock|move moonblast
+|
+|move|p1a: Gardevoir|Psyshock|p2a: Aromatisse
+|-damage|p2a: Aromatisse|10/100
+|move|p2a: Aromatisse|Moonblast|p1a: Gardevoir
+|-damage|p1a: Gardevoir|12/100
+|
+|-heal|p1a: Gardevoir|19/100|[from] item: Leftovers
+|-heal|p2a: Aromatisse|16/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|choice|move calmmind|move moonblast
+|
+|move|p1a: Gardevoir|Calm Mind|p1a: Gardevoir
+|-boost|p1a: Gardevoir|spa|1
+|-boost|p1a: Gardevoir|spd|1
+|move|p2a: Aromatisse|Moonblast|p1a: Gardevoir
+|-damage|p1a: Gardevoir|2/100
+|-unboost|p1a: Gardevoir|spa|1
+|
+|-heal|p1a: Gardevoir|8/100|[from] item: Leftovers
+|-heal|p2a: Aromatisse|22/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|choice|move psyshock|move moonblast
+|
+|move|p1a: Gardevoir|Psyshock|p2a: Aromatisse
+|-damage|p2a: Aromatisse|0 fnt
+|faint|p2a: Aromatisse
+|
+|-heal|p1a: Gardevoir|14/100|[from] item: Leftovers
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Kyurem|Kyurem|100/100
+|-damage|p2a: Kyurem|76/100|[from] Stealth Rock
+|-damage|p2a: Kyurem|59/100|[from] Spikes
+|-ability|p2a: Kyurem|Pressure
+|turn|38
+|choice|move moonblast|move icebeam
+|
+|move|p2a: Kyurem|Ice Beam|p1a: Gardevoir
+|-damage|p1a: Gardevoir|0 fnt
+|-damage|p2a: Kyurem|49/100|[from] item: Life Orb
+|faint|p1a: Gardevoir
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Honchkrow|Honchkrow, M|20/100 brn
+|turn|39
+|choice|move superpower|move icebeam
+|
+|move|p2a: Kyurem|Ice Beam|p1a: Honchkrow
+|-supereffective|p1a: Honchkrow
+|-damage|p1a: Honchkrow|0 fnt
+|-damage|p2a: Kyurem|39/100|[from] item: Life Orb
+|faint|p1a: Honchkrow
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Tentacruel|Tentacruel, M|76/100 brn
+|turn|40
+|choice|move scald|move roost
+|
+|move|p2a: Kyurem|Roost|p2a: Kyurem
+|-heal|p2a: Kyurem|89/100
+|move|p1a: Tentacruel|Scald|p2a: Kyurem
+|-resisted|p2a: Kyurem
+|-damage|p2a: Kyurem|78/100
+|
+|-heal|p1a: Tentacruel|82/100 brn|[from] item: Black Sludge
+|-damage|p1a: Tentacruel|70/100 brn|[from] brn
+|upkeep
+|turn|41
+|choice|move knockoff|move earthpower
+|
+|move|p2a: Kyurem|Earth Power|p1a: Tentacruel
+|-supereffective|p1a: Tentacruel
+|-damage|p1a: Tentacruel|0 fnt
+|-damage|p2a: Kyurem|68/100|[from] item: Life Orb
+|faint|p1a: Tentacruel
+|
+|win|CloudNimbus
+|raw|RoboticDemo's rating: 1065 &rarr; <strong>1046</strong><br />(-19 for losing)
+|raw|CloudNimbus's rating: 1077 &rarr; <strong>1105</strong><br />(+28 for winning)

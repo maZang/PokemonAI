@@ -1,0 +1,317 @@
+|j|monnsuto
+|j|zmair
+|player|p1|monnsuto|63
+|player|p2|zmair|260
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|45054,21171,12641,3979,52393,37525,48869,61669,51100,38994,10229,27924
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Venipede, M|item
+|poke|p1|Cryogonal|item
+|poke|p1|Golem, M|item
+|poke|p1|Roselia, M|item
+|poke|p1|Clefairy, M|item
+|poke|p1|Klang|item
+|poke|p2|Swanna, M|item
+|poke|p2|Purugly, M|item
+|poke|p2|Altaria, M|item
+|poke|p2|Fraxure, M|item
+|poke|p2|Marowak, M|item
+|poke|p2|Grumpig, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 1, team 2, team 3, team 4, team 5, team 6|team 3, team 2, team 1, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Venipede|Venipede, M|100/100
+|switch|p2a: Altaria|Altaria, M|100/100
+|turn|1
+|choice|move protect|move dracometeor
+|
+|move|p1a: Venipede|Protect|p1a: Venipede
+|-singleturn|p1a: Venipede|Protect
+|move|p2a: Altaria|Draco Meteor|p1a: Venipede
+|-activate|p1a: Venipede|move: Protect
+|
+|-ability|p1a: Venipede|Speed Boost|boost
+|-boost|p1a: Venipede|spe|1
+|upkeep
+|turn|2
+|choice|move toxicspikes|move dracometeor
+|
+|move|p1a: Venipede|Toxic Spikes|p2a: Altaria
+|-sidestart|p2: zmair|move: Toxic Spikes
+|move|p2a: Altaria|Draco Meteor|p1a: Venipede
+|-enditem|p1a: Venipede|Focus Sash
+|-damage|p1a: Venipede|1/100
+|-unboost|p2a: Altaria|spa|2
+|-damage|p2a: Altaria|90/100|[from] item: Life Orb
+|
+|-ability|p1a: Venipede|Speed Boost|boost
+|-boost|p1a: Venipede|spe|1
+|upkeep
+|turn|3
+|choice|switch 6|move roost
+|
+|switch|p1a: Klang|Klang|100/100
+|move|p2a: Altaria|Roost|p2a: Altaria
+|-heal|p2a: Altaria|100/100
+|
+|upkeep
+|turn|4
+|choice|move shiftgear|move fireblast
+|
+|move|p2a: Altaria|Fire Blast|p1a: Klang
+|-supereffective|p1a: Klang
+|-crit|p1a: Klang
+|-damage|p1a: Klang|23/100
+|-damage|p2a: Altaria|90/100|[from] item: Life Orb
+|move|p1a: Klang|Shift Gear|p1a: Klang
+|-boost|p1a: Klang|spe|2
+|-boost|p1a: Klang|atk|1
+|
+|upkeep
+|turn|5
+|choice|switch 5|move hiddenpower
+|
+|switch|p1a: Clefairy|Clefairy, M|100/100
+|move|p2a: Altaria|Hidden Power|p1a: Clefairy
+|-resisted|p1a: Clefairy
+|-damage|p1a: Clefairy|96/100
+|-damage|p2a: Altaria|80/100|[from] item: Life Orb
+|
+|upkeep
+|turn|6
+|choice|move knockoff|move dracometeor
+|
+|move|p2a: Altaria|Draco Meteor|p1a: Clefairy
+|-immune|p1a: Clefairy|[msg]
+|move|p1a: Clefairy|Knock Off|p2a: Altaria
+|-damage|p2a: Altaria|70/100
+|-enditem|p2a: Altaria|Life Orb|[from] move: Knock Off|[of] p1a: Clefairy
+|
+|upkeep
+|turn|7
+|choice|move calmmind|move fireblast
+|
+|move|p2a: Altaria|Fire Blast|p1a: Clefairy
+|-damage|p1a: Clefairy|82/100
+|-status|p1a: Clefairy|brn
+|move|p1a: Clefairy|Calm Mind|p1a: Clefairy
+|-boost|p1a: Clefairy|spa|1
+|-boost|p1a: Clefairy|spd|1
+|
+|upkeep
+|turn|8
+|choice|move calmmind|move roost
+|
+|move|p2a: Altaria|Roost|p2a: Altaria
+|-heal|p2a: Altaria|100/100
+|move|p1a: Clefairy|Calm Mind|p1a: Clefairy
+|-boost|p1a: Clefairy|spa|1
+|-boost|p1a: Clefairy|spd|1
+|
+|upkeep
+|turn|9
+|choice|move calmmind|switch 6
+|
+|switch|p2a: Grumpig|Grumpig, M|100/100
+|-status|p2a: Grumpig|psn
+|move|p1a: Clefairy|Calm Mind|p1a: Clefairy
+|-boost|p1a: Clefairy|spa|1
+|-boost|p1a: Clefairy|spd|1
+|
+|-damage|p2a: Grumpig|88/100 psn|[from] psn
+|upkeep
+|turn|10
+|choice|move moonblast|move shadowball
+|
+|move|p2a: Grumpig|Shadow Ball|p1a: Clefairy
+|-damage|p1a: Clefairy|73/100 brn
+|move|p1a: Clefairy|Moonblast|p2a: Grumpig
+|-damage|p2a: Grumpig|34/100 psn
+|
+|-heal|p2a: Grumpig|40/100 psn|[from] item: Leftovers
+|-damage|p2a: Grumpig|27/100 psn|[from] psn
+|upkeep
+|turn|11
+|choice|move calmmind|move thunderwave
+|
+|move|p2a: Grumpig|Thunder Wave|p1a: Clefairy
+|-fail|p1a: Clefairy
+|move|p1a: Clefairy|Calm Mind|p1a: Clefairy
+|-boost|p1a: Clefairy|spa|1
+|-boost|p1a: Clefairy|spd|1
+|
+|-heal|p2a: Grumpig|34/100 psn|[from] item: Leftovers
+|-damage|p2a: Grumpig|21/100 psn|[from] psn
+|upkeep
+|turn|12
+|choice|move calmmind|move psychic
+|
+|move|p2a: Grumpig|Psychic|p1a: Clefairy
+|-damage|p1a: Clefairy|60/100 brn
+|move|p1a: Clefairy|Calm Mind|p1a: Clefairy
+|-boost|p1a: Clefairy|spa|1
+|-boost|p1a: Clefairy|spd|1
+|
+|-heal|p2a: Grumpig|27/100 psn|[from] item: Leftovers
+|-damage|p2a: Grumpig|15/100 psn|[from] psn
+|upkeep
+|turn|13
+|choice|move softboiled|move focusblast
+|
+|move|p2a: Grumpig|Focus Blast|p1a: Clefairy
+|-resisted|p1a: Clefairy
+|-crit|p1a: Clefairy
+|-damage|p1a: Clefairy|35/100 brn
+|move|p1a: Clefairy|Soft-Boiled|p1a: Clefairy
+|-heal|p1a: Clefairy|85/100 brn
+|
+|-heal|p2a: Grumpig|21/100 psn|[from] item: Leftovers
+|-damage|p2a: Grumpig|9/100 psn|[from] psn
+|upkeep
+|turn|14
+|choice|move calmmind|move focusblast
+|
+|move|p2a: Grumpig|Focus Blast|p1a: Clefairy
+|-resisted|p1a: Clefairy
+|-damage|p1a: Clefairy|81/100 brn
+|move|p1a: Clefairy|Calm Mind|p1a: Clefairy
+|-boost|p1a: Clefairy|spa|1
+|-boost|p1a: Clefairy|spd|1
+|
+|-heal|p2a: Grumpig|15/100 psn|[from] item: Leftovers
+|-damage|p2a: Grumpig|3/100 psn|[from] psn
+|upkeep
+|turn|15
+|choice|move softboiled|move shadowball
+|
+|move|p2a: Grumpig|Shadow Ball|p1a: Clefairy
+|-damage|p1a: Clefairy|75/100 brn
+|-unboost|p1a: Clefairy|spd|1
+|move|p1a: Clefairy|Soft-Boiled|p1a: Clefairy
+|-heal|p1a: Clefairy|100/100 brn
+|
+|-heal|p2a: Grumpig|9/100 psn|[from] item: Leftovers
+|-damage|p2a: Grumpig|0 fnt|[from] psn
+|upkeep
+|faint|p2a: Grumpig
+|choice||switch 4
+|
+|switch|p2a: Fraxure|Fraxure, M|100/100
+|-status|p2a: Fraxure|psn
+|-ability|p2a: Fraxure|Mold Breaker
+|turn|16
+|choice|move moonblast|move lowkick
+|
+|move|p2a: Fraxure|Low Kick|p1a: Clefairy
+|-resisted|p1a: Clefairy
+|-damage|p1a: Clefairy|98/100 brn
+|move|p1a: Clefairy|Moonblast|p2a: Fraxure
+|-supereffective|p2a: Fraxure
+|-crit|p2a: Fraxure
+|-damage|p2a: Fraxure|0 fnt
+|faint|p2a: Fraxure
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Marowak|Marowak, M|100/100
+|-status|p2a: Marowak|psn
+|turn|17
+|c|☆monnsuto|;)
+|choice|move moonblast|move stoneedge
+|
+|move|p2a: Marowak|Stone Edge|p1a: Clefairy
+|-damage|p1a: Clefairy|57/100 brn
+|move|p1a: Clefairy|Moonblast|p2a: Marowak
+|-damage|p2a: Marowak|0 fnt
+|faint|p2a: Marowak
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Swanna|Swanna, M|100/100
+|turn|18
+|choice|move softboiled|move hurricane
+|
+|move|p2a: Swanna|Hurricane|p1a: Clefairy|[miss]
+|-miss|p2a: Swanna|p1a: Clefairy
+|move|p1a: Clefairy|Soft-Boiled|p1a: Clefairy
+|-heal|p1a: Clefairy|100/100 brn
+|
+|upkeep
+|turn|19
+|choice|move moonblast|move hurricane
+|
+|move|p2a: Swanna|Hurricane|p1a: Clefairy
+|-damage|p1a: Clefairy|85/100 brn
+|-damage|p2a: Swanna|91/100|[from] item: Life Orb
+|move|p1a: Clefairy|Moonblast|p2a: Swanna
+|-crit|p2a: Swanna
+|-damage|p2a: Swanna|0 fnt
+|faint|p2a: Swanna
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Purugly|Purugly, M|100/100
+|-status|p2a: Purugly|psn
+|turn|20
+|choice|move softboiled|move uturn
+|
+|move|p2a: Purugly|U-turn|p1a: Clefairy
+|-resisted|p1a: Clefairy
+|-crit|p1a: Clefairy
+|-damage|p1a: Clefairy|73/100 brn
+|-damage|p2a: Purugly|91/100 psn|[from] item: Life Orb
+|choice||switch 6
+|
+|switch|p2a: Altaria|Altaria, M|100/100
+|move|p1a: Clefairy|Soft-Boiled|p1a: Clefairy
+|-heal|p1a: Clefairy|100/100 brn
+|
+|upkeep
+|turn|21
+|choice|move moonblast|move hiddenpower
+|
+|move|p2a: Altaria|Hidden Power|p1a: Clefairy
+|-resisted|p1a: Clefairy
+|-damage|p1a: Clefairy|98/100 brn
+|move|p1a: Clefairy|Moonblast|p2a: Altaria
+|-supereffective|p2a: Altaria
+|-damage|p2a: Altaria|0 fnt
+|faint|p2a: Altaria
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Purugly|Purugly, M|91/100 psn
+|turn|22
+|choice|move moonblast|move fakeout
+|
+|move|p2a: Purugly|Fake Out|p1a: Clefairy
+|-damage|p1a: Clefairy|85/100 brn
+|-damage|p2a: Purugly|81/100 psn|[from] item: Life Orb
+|cant|p1a: Clefairy|flinch
+|
+|-damage|p2a: Purugly|68/100 psn|[from] psn
+|upkeep
+|turn|23
+|choice|move moonblast|move return
+|
+|move|p2a: Purugly|Return|p1a: Clefairy
+|-damage|p1a: Clefairy|45/100 brn
+|-damage|p2a: Purugly|58/100 psn|[from] item: Life Orb
+|move|p1a: Clefairy|Moonblast|p2a: Purugly
+|-damage|p2a: Purugly|0 fnt
+|faint|p2a: Purugly
+|
+|win|monnsuto
+|raw|monnsuto's rating: 1274 &rarr; <strong>1282</strong><br />(+8 for winning)
+|raw|zmair's rating: 1000 &rarr; <strong>1000</strong><br />(+0 for losing)

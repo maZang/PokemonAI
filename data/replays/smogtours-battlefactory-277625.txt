@@ -1,0 +1,28 @@
+|J|papai noel
+|J|hsa
+|player|p1|papai noel|51
+|player|p2|hsa|25
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|59554,43023,36170,18128,16587,37713,21193,53349,33384,38821,7369,52944
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Gyarados, M|item
+|poke|p1|Lucario, M|item
+|poke|p1|Metagross|item
+|poke|p1|Umbreon, M|item
+|poke|p1|Reuniclus, M|item
+|poke|p1|Blastoise, M|item
+|poke|p2|Gligar, M|item
+|poke|p2|Hoopa|item
+|poke|p2|Entei, shiny|item
+|poke|p2|Aggron, M|item
+|poke|p2|Kyurem|item
+|poke|p2|Honchkrow, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|-message|papai noel forfeited.
+|
+|win|hsa

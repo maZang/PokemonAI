@@ -1,0 +1,309 @@
+|j|Ghostmay
+|j|monnsuto
+|player|p1|Ghostmay|101
+|player|p2|monnsuto|63
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|46908,58472,61584,12627,27503,44866,57884,10601,4067,49477,60068,37400
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Deoxys-Attack|item
+|poke|p1|Tyranitar, M|item
+|poke|p1|Arceus-*|item
+|poke|p1|Shaymin-Sky|item
+|poke|p1|Scizor, M|item
+|poke|p1|Ho-Oh|item
+|poke|p2|Arceus-*|item
+|poke|p2|Yveltal|item
+|poke|p2|Groudon|item
+|poke|p2|Sableye, M|item
+|poke|p2|Zekrom|item
+|poke|p2|Genesect-*|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 2, team 1, team 3, team 4, team 5, team 6|team 6, team 2, team 3, team 4, team 5, team 1
+|
+|start
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|switch|p2a: Genesect|Genesect|100/100
+|-ability|p2a: Genesect|Download|boost
+|-boost|p2a: Genesect|atk|1
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by monnsuto)
+|choice|move rockslide|move ironhead
+|
+|move|p2a: Genesect|Iron Head|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|9/100
+|cant|p1a: Tyranitar|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Tyranitar|15/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|choice|move rockslide|move ironhead
+|
+|move|p2a: Genesect|Iron Head|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Ho-Oh|Ho-Oh|100/100
+|turn|3
+|choice|move sacredfire|switch 5
+|
+|switch|p2a: Zekrom|Zekrom|100/100
+|-ability|p2a: Zekrom|Teravolt
+|move|p1a: Ho-Oh|Sacred Fire|p2a: Zekrom
+|-resisted|p2a: Zekrom
+|-damage|p2a: Zekrom|62/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zekrom|56/100|[from] sandstorm
+|-damage|p1a: Ho-Oh|94/100|[from] sandstorm
+|upkeep
+|turn|4
+|choice|move sacredfire|move tailwind
+|
+|move|p2a: Zekrom|Tailwind|p2a: Zekrom
+|-sidestart|p2: monnsuto|move: Tailwind
+|move|p1a: Ho-Oh|Sacred Fire|p2a: Zekrom
+|-resisted|p2a: Zekrom
+|-damage|p2a: Zekrom|16/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zekrom|10/100|[from] sandstorm
+|-damage|p1a: Ho-Oh|88/100|[from] sandstorm
+|upkeep
+|turn|5
+|choice|move sacredfire|move boltstrike
+|
+|move|p2a: Zekrom|Bolt Strike|p1a: Ho-Oh
+|-supereffective|p1a: Ho-Oh
+|-damage|p1a: Ho-Oh|0 fnt
+|-damage|p2a: Zekrom|0 fnt|[from] item: Life Orb
+|faint|p1a: Ho-Oh
+|faint|p2a: Zekrom
+|
+|-weather|none
+|upkeep
+|choice|switch 5|switch 4
+|
+|switch|p2a: Sableye|Sableye, M|100/100
+|switch|p1a: Scizor|Scizor, M|100/100
+|turn|6
+|choice|move bulletpunch mega|move willowisp mega
+|
+|detailschange|p2a: Sableye|Sableye-Mega, M
+|-mega|p2a: Sableye|Sableye|Sablenite
+|detailschange|p1a: Scizor|Scizor-Mega, M
+|-mega|p1a: Scizor|Scizor|Scizorite
+|move|p2a: Sableye|Will-O-Wisp|p1a: Scizor
+|-status|p1a: Scizor|brn
+|move|p1a: Scizor|Bullet Punch|p2a: Sableye
+|-damage|p2a: Sableye|90/100
+|
+|-damage|p1a: Scizor|88/100 brn|[from] brn
+|upkeep
+|turn|7
+|choice|switch 3|move foulplay
+|
+|switch|p1a: Arceus|Arceus-Dark|100/100
+|move|p2a: Sableye|Foul Play|p1a: Arceus
+|-resisted|p1a: Arceus
+|-damage|p1a: Arceus|89/100
+|
+|-sideend|p2: monnsuto|move: Tailwind
+|upkeep
+|turn|8
+|choice|move calmmind|switch 5
+|
+|switch|p2a: Genesect|Genesect|100/100
+|-ability|p2a: Genesect|Download|boost
+|-boost|p2a: Genesect|atk|1
+|move|p1a: Arceus|Calm Mind|p1a: Arceus
+|-boost|p1a: Arceus|spa|1
+|-boost|p1a: Arceus|spd|1
+|
+|upkeep
+|turn|9
+|choice|move judgment|move uturn
+|
+|move|p2a: Genesect|U-turn|p1a: Arceus
+|-supereffective|p1a: Arceus
+|-damage|p1a: Arceus|22/100
+|choice||switch 5
+|
+|switch|p2a: Sableye|Sableye-Mega, M|90/100
+|move|p1a: Arceus|Judgment|p2a: Sableye
+|-damage|p2a: Sableye|18/100
+|
+|upkeep
+|turn|10
+|choice|move recover|switch 5
+|
+|switch|p2a: Genesect|Genesect|100/100
+|-ability|p2a: Genesect|Download|boost
+|-boost|p2a: Genesect|atk|1
+|move|p1a: Arceus|Recover|p1a: Arceus
+|-heal|p1a: Arceus|72/100
+|
+|upkeep
+|turn|11
+|choice|switch 3|move ironhead
+|
+|switch|p1a: Scizor|Scizor-Mega, M|88/100 brn
+|move|p2a: Genesect|Iron Head|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|71/100 brn
+|
+|-damage|p1a: Scizor|59/100 brn|[from] brn
+|upkeep
+|turn|12
+|choice|move roost|switch 3
+|
+|switch|p2a: Groudon|Groudon|100/100
+|detailschange|p2a: Groudon|Groudon-Primal
+|-primal|p2a: Groudon
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p2a: Groudon
+|move|p1a: Scizor|Roost|p1a: Scizor
+|-heal|p1a: Scizor|100/100 brn
+|
+|-weather|DesolateLand|[upkeep]
+|-damage|p1a: Scizor|88/100 brn|[from] brn
+|upkeep
+|turn|13
+|choice|move toxic|move stealthrock
+|
+|move|p2a: Groudon|Stealth Rock|p1a: Scizor
+|-sidestart|p1: Ghostmay|move: Stealth Rock
+|move|p1a: Scizor|Toxic|p2a: Groudon
+|-status|p2a: Groudon|tox
+|
+|-weather|DesolateLand|[upkeep]
+|-damage|p2a: Groudon|94/100 tox|[from] psn
+|-damage|p1a: Scizor|76/100 brn|[from] brn
+|upkeep
+|turn|14
+|choice|move defog|move lavaplume
+|
+|move|p2a: Groudon|Lava Plume|p1a: Scizor
+|-supereffective|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|faint|p1a: Scizor
+|
+|-weather|DesolateLand|[upkeep]
+|-damage|p2a: Groudon|82/100 tox|[from] psn
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Shaymin|Shaymin-Sky|100/100
+|-damage|p1a: Shaymin|76/100|[from] Stealth Rock
+|turn|15
+|choice|move seedflare|move lavaplume
+|
+|move|p1a: Shaymin|Seed Flare|p2a: Groudon
+|-damage|p2a: Groudon|40/100 tox
+|-unboost|p2a: Groudon|spd|2
+|move|p2a: Groudon|Lava Plume|p1a: Shaymin
+|-supereffective|p1a: Shaymin
+|-damage|p1a: Shaymin|0 fnt
+|faint|p1a: Shaymin
+|
+|-weather|DesolateLand|[upkeep]
+|-damage|p2a: Groudon|22/100 tox|[from] psn
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Deoxys|Deoxys-Attack|100/100
+|-damage|p1a: Deoxys|88/100|[from] Stealth Rock
+|-ability|p1a: Deoxys|Pressure
+|turn|16
+|choice|move extremespeed|switch 5
+|
+|-weather|none
+|switch|p2a: Sableye|Sableye-Mega, M|18/100
+|move|p1a: Deoxys|Extreme Speed|p2a: Sableye
+|-immune|p2a: Sableye|[msg]
+|
+|upkeep
+|turn|17
+|choice|move psychoboost|move recover
+|
+|move|p1a: Deoxys|Psycho Boost|p2a: Sableye
+|-immune|p2a: Sableye|[msg]
+|move|p2a: Sableye|Recover|p2a: Sableye
+|-heal|p2a: Sableye|68/100
+|
+|upkeep
+|turn|18
+|choice|move knockoff|switch 2
+|
+|switch|p2a: Yveltal|Yveltal|100/100
+|-ability|p2a: Yveltal|Dark Aura
+|move|p1a: Deoxys|Knock Off|p2a: Yveltal
+|-resisted|p2a: Yveltal
+|-damage|p2a: Yveltal|86/100
+|-enditem|p2a: Yveltal|Leftovers|[from] move: Knock Off|[of] p1a: Deoxys
+|
+|upkeep
+|turn|19
+|choice|move spikes|move toxic
+|
+|move|p1a: Deoxys|Spikes|p2a: Yveltal
+|-sidestart|p2: monnsuto|Spikes
+|move|p2a: Yveltal|Toxic|p1a: Deoxys|[miss]
+|-miss|p2a: Yveltal|p1a: Deoxys
+|
+|upkeep
+|turn|20
+|choice|move psychoboost|move foulplay
+|
+|move|p1a: Deoxys|Psycho Boost|p2a: Yveltal
+|-immune|p2a: Yveltal|[msg]
+|move|p2a: Yveltal|Foul Play|p1a: Deoxys
+|-supereffective|p1a: Deoxys
+|-damage|p1a: Deoxys|0 fnt
+|faint|p1a: Deoxys
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Arceus|Arceus-Dark|72/100
+|-damage|p1a: Arceus|60/100|[from] Stealth Rock
+|turn|21
+|choice|move judgment|move taunt
+|
+|move|p1a: Arceus|Judgment|p2a: Yveltal
+|-resisted|p2a: Yveltal
+|-damage|p2a: Yveltal|63/100
+|move|p2a: Yveltal|Taunt|p1a: Arceus
+|-start|p1a: Arceus|move: Taunt
+|
+|upkeep
+|turn|22
+|choice|move judgment|move toxic
+|
+|move|p1a: Arceus|Judgment|p2a: Yveltal
+|-resisted|p2a: Yveltal
+|-damage|p2a: Yveltal|40/100
+|move|p2a: Yveltal|Toxic|p1a: Arceus
+|-status|p1a: Arceus|tox
+|
+|-damage|p1a: Arceus|54/100 tox|[from] psn
+|upkeep
+|turn|23
+|-message|Ghostmay forfeited.
+|
+|win|monnsuto
+|l|Ghostmay
+|raw|Ghostmay's rating: 1102 &rarr; <strong>1081</strong><br />(-21 for losing)
+|raw|monnsuto's rating: 1155 &rarr; <strong>1177</strong><br />(+22 for winning)

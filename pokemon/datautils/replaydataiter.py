@@ -17,24 +17,38 @@ class ReplayDataIter(object):
 					for sample_folder in [train_folder, val_folder, test_folder]]
 		def load_data(all_files, samples):
 			for file in all_files:
-				samples.extend(sample_encoder(file))
+				samples.add(sample_encoder(file))
 		sets = [[],[],[]]
 		map(zip(files,sets), lambda x: load_data(x[0], x[1]))
-		self.training = np.array(sets[0])
-		self.validation = np.array(sets[1])
-		self.testing = np.array(sets[2])
+		self.training = sets[0]
+		self.validation = sets[1]
+		self.testing = sets[2]
 
-	def number_batches(self, batch_size):
-		return math.ceil(self.training.shape[0] / batch_size)
+	def number_batches(self, batch_size, num_steps):
+		return np.sum([train[-1].shape[0] - num_steps + 1 for train in self.training])
 
-	def sample(self, batch_size):
+	def get_data(self, type):
+		if type=='train':
+			data = self.training 
+		elif type=='val':
+			data = self.validation
+		else:
+			data = self.testing
+
+	def get_idxs(self, num_steps, type):
+		data = self.get_data(type)
+		return np.random.permutation([(i,j) for i in range(self.training) 
+					for j in range(self.training[i][-1].shape[0] - num_steps + 1)])
+
+	def sample(self, batch_size, num_steps, type='train'):
 		'''
-		Generator that passes in data until complete
+		Generator that passes in data until complete # TODO
 		'''
-		trainData = np.random.permutation(self.training)
-		numBatches = self.number_batches(batch_size)
+		idxs = self.get_idxs(num_steps, type)
+		data = self.get_data(type)
 		currBatch = 0
-		while currBatch < numBatches:
-			yield trainData[currBatch * batch_size : (currBatch + 1) * batch_size, :]
+		while currBatch < idxs.shape[0]:
+			eps,seq = idxs[currBatch]
+			yield [set[seq:seq+num_steps] for set in data[eps]]
 			currBatch += 1
 

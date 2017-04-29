@@ -1,0 +1,224 @@
+|j|snow1027
+|j|tngkrwkalswo
+|player|p1|snow1027|101
+|player|p2|tngkrwkalswo|101
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|25062,47336,52806,11106,10526,57792,13777,57662,49423,17134,13412,48508
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Arceus-*|item
+|poke|p1|Blaziken, M|item
+|poke|p1|Ho-Oh|item
+|poke|p1|Diancie|item
+|poke|p1|Lugia|item
+|poke|p1|Deoxys-Attack|item
+|poke|p2|Arceus-*|item
+|poke|p2|Giratina-Origin|item
+|poke|p2|Tyranitar, M|item
+|poke|p2|Rayquaza|item
+|poke|p2|Deoxys-Attack|item
+|poke|p2|Greninja, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 6, team 2, team 3, team 4, team 5, team 1|team 4, team 2, team 3, team 1, team 5, team 6
+|
+|start
+|switch|p1a: Deoxys|Deoxys-Attack|100/100
+|switch|p2a: Rayquaza|Rayquaza|100/100
+|-ability|p1a: Deoxys|Pressure
+|-ability|p2a: Rayquaza|Air Lock
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by snow1027)
+|choice|move icebeam|switch 3
+|
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Deoxys|Ice Beam|p2a: Tyranitar
+|-damage|p2a: Tyranitar|78/100
+|-damage|p1a: Deoxys|91/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Deoxys|84/100|[from] sandstorm
+|upkeep
+|turn|2
+|choice|move lowkick|move stealthrock
+|
+|move|p1a: Deoxys|Low Kick|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|-damage|p1a: Deoxys|74/100|[from] item: Life Orb
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Deoxys|68/100|[from] sandstorm
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Giratina|Giratina-Origin|100/100
+|turn|3
+|choice|move psychoboost|move shadowsneak
+|
+|move|p2a: Giratina|Shadow Sneak|p1a: Deoxys
+|-supereffective|p1a: Deoxys
+|-damage|p1a: Deoxys|0 fnt
+|faint|p1a: Deoxys
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Giratina|94/100|[from] sandstorm
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Arceus|Arceus-Dragon|100/100
+|turn|4
+|choice|move judgment|move dragontail
+|
+|move|p1a: Arceus|Judgment|p2a: Giratina
+|-supereffective|p2a: Giratina
+|-damage|p2a: Giratina|22/100
+|move|p2a: Giratina|Dragon Tail|p1a: Arceus
+|-supereffective|p1a: Arceus
+|-damage|p1a: Arceus|61/100
+|drag|p1a: Diancie|Diancie|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Giratina|16/100|[from] sandstorm
+|upkeep
+|turn|5
+|choice|move moonblast mega|move shadowsneak
+|
+|detailschange|p1a: Diancie|Diancie-Mega
+|-mega|p1a: Diancie|Diancie|Diancite
+|move|p2a: Giratina|Shadow Sneak|p1a: Diancie
+|-damage|p1a: Diancie|63/100
+|move|p1a: Diancie|Moonblast|p2a: Giratina
+|-supereffective|p2a: Giratina
+|-damage|p2a: Giratina|0 fnt
+|faint|p2a: Giratina
+|
+|-weather|none
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Deoxys|Deoxys-Attack|100/100
+|-ability|p2a: Deoxys|Pressure
+|turn|6
+|choice|switch 5|move psychoboost
+|
+|switch|p1a: Lugia|Lugia|100/100
+|move|p2a: Deoxys|Psycho Boost|p1a: Lugia
+|-resisted|p1a: Lugia
+|-crit|p1a: Lugia
+|-damage|p1a: Lugia|81/100
+|-unboost|p2a: Deoxys|spa|2
+|
+|-heal|p1a: Lugia|87/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|choice|move icebeam|switch 4
+|
+|switch|p2a: Arceus|Arceus-Ghost|100/100
+|move|p1a: Lugia|Ice Beam|p2a: Arceus
+|-damage|p2a: Arceus|88/100
+|
+|-heal|p1a: Lugia|94/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|choice|switch 3|move calmmind
+|
+|switch|p1a: Ho-Oh|Ho-Oh|100/100
+|move|p2a: Arceus|Calm Mind|p2a: Arceus
+|-boost|p2a: Arceus|spa|1
+|-boost|p2a: Arceus|spd|1
+|
+|upkeep
+|turn|9
+|choice|move bravebird|move judgment
+|
+|move|p2a: Arceus|Judgment|p1a: Ho-Oh
+|-damage|p1a: Ho-Oh|60/100
+|move|p1a: Ho-Oh|Brave Bird|p2a: Arceus
+|-damage|p2a: Arceus|27/100
+|-damage|p1a: Ho-Oh|38/100|[from] recoil|[of] p2a: Arceus
+|-damage|p1a: Ho-Oh|28/100|[from] item: Life Orb
+|
+|upkeep
+|turn|10
+|choice|move recover|move judgment
+|
+|move|p2a: Arceus|Judgment|p1a: Ho-Oh
+|-damage|p1a: Ho-Oh|0 fnt
+|faint|p1a: Ho-Oh
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Diancie|Diancie-Mega|63/100
+|turn|11
+|choice|move diamondstorm|move judgment
+|
+|move|p2a: Arceus|Judgment|p1a: Diancie
+|-damage|p1a: Diancie|0 fnt
+|faint|p1a: Diancie
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Blaziken|Blaziken, M|100/100
+|turn|12
+|choice|move protect|move recover
+|
+|move|p1a: Blaziken|Protect|p1a: Blaziken
+|-singleturn|p1a: Blaziken|Protect
+|move|p2a: Arceus|Recover|p2a: Arceus
+|-heal|p2a: Arceus|77/100
+|
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|turn|13
+|choice|move swordsdance|move judgment
+|
+|move|p1a: Blaziken|Swords Dance|p1a: Blaziken
+|-boost|p1a: Blaziken|atk|2
+|move|p2a: Arceus|Judgment|p1a: Blaziken
+|-damage|p1a: Blaziken|0 fnt
+|faint|p1a: Blaziken
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Arceus|Arceus-Dragon|61/100
+|turn|14
+|choice|move judgment|move judgment
+|
+|move|p2a: Arceus|Judgment|p1a: Arceus
+|-damage|p1a: Arceus|12/100
+|move|p1a: Arceus|Judgment|p2a: Arceus
+|-damage|p2a: Arceus|57/100
+|
+|upkeep
+|turn|15
+|choice|move judgment|move judgment
+|
+|move|p2a: Arceus|Judgment|p1a: Arceus
+|-damage|p1a: Arceus|0 fnt
+|faint|p1a: Arceus
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Lugia|Lugia|94/100
+|turn|16
+|choice|move toxic|move judgment
+|
+|move|p2a: Arceus|Judgment|p1a: Lugia
+|-supereffective|p1a: Lugia
+|-crit|p1a: Lugia
+|-damage|p1a: Lugia|0 fnt
+|faint|p1a: Lugia
+|
+|win|tngkrwkalswo
+|l|snow1027

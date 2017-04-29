@@ -1,0 +1,175 @@
+|j|Capitom
+|j|genpixgaming
+|player|p1|Capitom|153
+|player|p2|genpixgaming|170
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|7324,62543,41733,58964,52650,38642,7295,17088,27376,18932,34239,2962
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Hariyama, M|item
+|poke|p1|Prinplup, M|item
+|poke|p1|Lanturn, M|item
+|poke|p1|Zangoose, M|item
+|poke|p1|Lilligant, F|item
+|poke|p1|Claydol|item
+|poke|p2|Exeggutor, M|item
+|poke|p2|Pawniard, M|item
+|poke|p2|Dodrio, M|item
+|poke|p2|Grumpig, M|item
+|poke|p2|Prinplup, M|item
+|poke|p2|Audino, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by genpixgaming)
+|choice|team 2, team 1, team 3, team 4, team 5, team 6|team 3, team 2, team 1, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Prinplup|Prinplup, M|100/100
+|switch|p2a: Dodrio|Dodrio, M|100/100
+|turn|1
+|choice|move stealthrock|move knockoff
+|
+|move|p2a: Dodrio|Knock Off|p1a: Prinplup
+|-damage|p1a: Prinplup|73/100
+|-enditem|p1a: Prinplup|Eviolite|[from] move: Knock Off|[of] p2a: Dodrio
+|move|p1a: Prinplup|Stealth Rock|p2a: Dodrio
+|-sidestart|p2: genpixgaming|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|choice|move scald|move knockoff
+|
+|move|p2a: Dodrio|Knock Off|p1a: Prinplup
+|-damage|p1a: Prinplup|43/100
+|move|p1a: Prinplup|Scald|p2a: Dodrio
+|-damage|p2a: Dodrio|56/100
+|
+|upkeep
+|turn|3
+|choice|move scald|move knockoff
+|
+|move|p2a: Dodrio|Knock Off|p1a: Prinplup
+|-damage|p1a: Prinplup|12/100
+|move|p1a: Prinplup|Scald|p2a: Dodrio
+|-damage|p2a: Dodrio|0 fnt
+|faint|p2a: Dodrio
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Pawniard|Pawniard, M|100/100
+|-damage|p2a: Pawniard|94/100|[from] Stealth Rock
+|turn|4
+|choice|move scald|move suckerpunch
+|
+|move|p2a: Pawniard|Sucker Punch|p1a: Prinplup
+|-damage|p1a: Prinplup|0 fnt
+|faint|p1a: Prinplup
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Lanturn|Lanturn, M|100/100
+|turn|5
+|choice|move hiddenpower|move swordsdance
+|
+|move|p2a: Pawniard|Swords Dance|p2a: Pawniard
+|-boost|p2a: Pawniard|atk|2
+|move|p1a: Lanturn|Hidden Power|p2a: Pawniard
+|-supereffective|p2a: Pawniard
+|-damage|p2a: Pawniard|3/100
+|
+|upkeep
+|turn|6
+|choice|move hiddenpower|move ironhead
+|
+|move|p2a: Pawniard|Iron Head|p1a: Lanturn
+|-resisted|p1a: Lanturn
+|-damage|p1a: Lanturn|79/100
+|move|p1a: Lanturn|Hidden Power|p2a: Pawniard
+|-supereffective|p2a: Pawniard
+|-damage|p2a: Pawniard|0 fnt
+|faint|p2a: Pawniard
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Exeggutor|Exeggutor, M|100/100
+|-damage|p2a: Exeggutor|88/100|[from] Stealth Rock
+|turn|7
+|choice|switch 5|move gigadrain
+|
+|switch|p1a: Lilligant|Lilligant, F|100/100
+|move|p2a: Exeggutor|Giga Drain|p1a: Lilligant
+|-resisted|p1a: Lilligant
+|-damage|p1a: Lilligant|72/100
+|-heal|p2a: Exeggutor|98/100|[from] drain|[of] p1a: Lilligant
+|
+|upkeep
+|turn|8
+|choice|move quiverdance|move psychic
+|
+|move|p1a: Lilligant|Quiver Dance|p1a: Lilligant
+|-boost|p1a: Lilligant|spa|1
+|-boost|p1a: Lilligant|spd|1
+|-boost|p1a: Lilligant|spe|1
+|move|p2a: Exeggutor|Psychic|p1a: Lilligant
+|-damage|p1a: Lilligant|21/100
+|
+|upkeep
+|turn|9
+|choice|move hiddenpower|move psychic
+|
+|move|p1a: Lilligant|Hidden Power|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|8/100
+|-damage|p1a: Lilligant|11/100|[from] item: Life Orb
+|move|p2a: Exeggutor|Psychic|p1a: Lilligant
+|-damage|p1a: Lilligant|0 fnt
+|faint|p1a: Lilligant
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Zangoose|Zangoose, M|100/100
+|turn|10
+|choice|move knockoff|move gigadrain
+|
+|move|p1a: Zangoose|Knock Off|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|0 fnt
+|-enditem|p2a: Exeggutor|Lum Berry|[from] move: Knock Off|[of] p1a: Zangoose
+|faint|p2a: Exeggutor
+|
+|-status|p1a: Zangoose|tox|[from] item: Toxic Orb
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Grumpig|Grumpig, M|100/100
+|-damage|p2a: Grumpig|88/100|[from] Stealth Rock
+|turn|11
+|choice|move knockoff|move focusblast
+|
+|move|p1a: Zangoose|Knock Off|p2a: Grumpig
+|-supereffective|p2a: Grumpig
+|-damage|p2a: Grumpig|0 fnt
+|-enditem|p2a: Grumpig|Leftovers|[from] move: Knock Off|[of] p1a: Zangoose
+|faint|p2a: Grumpig
+|
+|-damage|p1a: Zangoose|95/100 tox|[from] psn
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Prinplup|Prinplup, M|100/100
+|-damage|p2a: Prinplup|88/100|[from] Stealth Rock
+|turn|12
+|-message|genpixgaming forfeited.
+|
+|win|Capitom
+|l|genpixgaming
+|raw|Capitom's rating: 1112 &rarr; <strong>1129</strong><br />(+17 for winning)
+|raw|genpixgaming's rating: 1000 &rarr; <strong>1000</strong><br />(+0 for losing)

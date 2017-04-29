@@ -1,0 +1,328 @@
+|j|C0SM1C
+|j|PulsarFlare
+|player|p1|C0SM1C|48
+|player|p2|PulsarFlare|128
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|53099,50011,51319,12221,41370,17196,31219,48279,56395,51291,1876,257
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Gengar, M|item
+|poke|p1|Arceus-*|item
+|poke|p1|Blissey, F|item
+|poke|p1|Kyogre|item
+|poke|p1|Greninja, M|item
+|poke|p1|Deoxys-Speed|item
+|poke|p2|Deoxys-Speed|item
+|poke|p2|Kyurem-White|item
+|poke|p2|Genesect-*|item
+|poke|p2|Arceus-*|item
+|poke|p2|Sableye, M|item
+|poke|p2|Reshiram|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|j|effqqqqqq
+|l|effqqqqqq
+|choice|team 2, team 1, team 3, team 4, team 5, team 6|team 1, team 2, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Arceus|Arceus-Rock|100/100
+|switch|p2a: Deoxys|Deoxys-Speed|100/100
+|-ability|p2a: Deoxys|Pressure
+|turn|1
+|choice|move willowisp|move stealthrock
+|
+|move|p2a: Deoxys|Stealth Rock|p1a: Arceus
+|-sidestart|p1: C0SM1C|move: Stealth Rock
+|move|p1a: Arceus|Will-O-Wisp|p2a: Deoxys
+|-status|p2a: Deoxys|brn
+|
+|-damage|p2a: Deoxys|88/100 brn|[from] brn
+|upkeep
+|turn|2
+|choice|move judgment|move knockoff
+|
+|move|p2a: Deoxys|Knock Off|p1a: Arceus
+|-damage|p1a: Arceus|94/100
+|move|p1a: Arceus|Judgment|p2a: Deoxys
+|-damage|p2a: Deoxys|13/100 brn
+|
+|-damage|p2a: Deoxys|0 fnt|[from] brn
+|upkeep
+|faint|p2a: Deoxys
+|choice||switch 4
+|
+|switch|p2a: Arceus|Arceus-Grass|100/100
+|turn|3
+|choice|switch 4|move grassknot
+|
+|switch|p1a: Kyogre|Kyogre|100/100
+|-damage|p1a: Kyogre|88/100|[from] Stealth Rock
+|detailschange|p1a: Kyogre|Kyogre-Primal
+|-primal|p1a: Kyogre
+|-weather|PrimordialSea|[from] ability: Primordial Sea|[of] p1a: Kyogre
+|move|p2a: Arceus|Grass Knot|p1a: Kyogre
+|-supereffective|p1a: Kyogre
+|-damage|p1a: Kyogre|20/100
+|
+|-weather|PrimordialSea|[upkeep]
+|upkeep
+|turn|4
+|choice|switch 2|move grassknot
+|
+|-weather|none
+|switch|p1a: Gengar|Gengar, M|100/100
+|-damage|p1a: Gengar|88/100|[from] Stealth Rock
+|move|p2a: Arceus|Grass Knot|p1a: Gengar
+|-resisted|p1a: Gengar
+|-damage|p1a: Gengar|69/100
+|
+|upkeep
+|turn|5
+|choice|move perishsong mega|move icebeam
+|
+|detailschange|p1a: Gengar|Gengar-Mega, M
+|-mega|p1a: Gengar|Gengar|Gengarite
+|move|p2a: Arceus|Ice Beam|p1a: Gengar
+|-damage|p1a: Gengar|43/100
+|move|p1a: Gengar|Perish Song|p1a: Gengar
+|-start|p1a: Gengar|perish3|[silent]
+|-start|p2a: Arceus|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|
+|-start|p1a: Gengar|perish3
+|-start|p2a: Arceus|perish3
+|upkeep
+|turn|6
+|choice|move taunt|move icebeam
+|
+|move|p1a: Gengar|Taunt|p2a: Arceus
+|-start|p2a: Arceus|move: Taunt
+|move|p2a: Arceus|Ice Beam|p1a: Gengar
+|-damage|p1a: Gengar|18/100
+|
+|-start|p1a: Gengar|perish2
+|-start|p2a: Arceus|perish2
+|upkeep
+|turn|7
+|choice|move protect|move icebeam
+|
+|move|p1a: Gengar|Protect|p1a: Gengar
+|-singleturn|p1a: Gengar|Protect
+|move|p2a: Arceus|Ice Beam|p1a: Gengar
+|-activate|p1a: Gengar|move: Protect
+|
+|-start|p1a: Gengar|perish1
+|-start|p2a: Arceus|perish1
+|upkeep
+|turn|8
+|choice|move disable|move icebeam
+|
+|move|p1a: Gengar|Disable|p2a: Arceus
+|-start|p2a: Arceus|Disable|Ice Beam
+|cant|p2a: Arceus|Disable|Ice Beam
+|
+|-end|p2a: Arceus|move: Taunt
+|-start|p1a: Gengar|perish0
+|-start|p2a: Arceus|perish0
+|upkeep
+|faint|p1a: Gengar
+|faint|p2a: Arceus
+|choice|switch 4|switch 5
+|
+|switch|p1a: Arceus|Arceus-Rock|94/100
+|switch|p2a: Sableye|Sableye, M|100/100
+|-damage|p1a: Arceus|82/100|[from] Stealth Rock
+|turn|9
+|choice|move willowisp|move willowisp
+|
+|move|p2a: Sableye|Will-O-Wisp|p1a: Arceus|[miss]
+|-miss|p2a: Sableye|p1a: Arceus
+|move|p1a: Arceus|Will-O-Wisp|p2a: Sableye
+|-status|p2a: Sableye|brn
+|
+|-damage|p2a: Sableye|88/100 brn|[from] brn
+|upkeep
+|turn|10
+|choice|switch 6|move willowisp
+|
+|switch|p1a: Deoxys|Deoxys-Speed|100/100
+|-damage|p1a: Deoxys|88/100|[from] Stealth Rock
+|-ability|p1a: Deoxys|Pressure
+|move|p2a: Sableye|Will-O-Wisp|p1a: Deoxys
+|-status|p1a: Deoxys|brn
+|
+|-damage|p1a: Deoxys|75/100 brn|[from] brn
+|-damage|p2a: Sableye|76/100 brn|[from] brn
+|upkeep
+|turn|11
+|choice|move lightscreen|move foulplay mega
+|
+|detailschange|p2a: Sableye|Sableye-Mega, M
+|-mega|p2a: Sableye|Sableye|Sablenite
+|move|p1a: Deoxys|Light Screen|p1a: Deoxys
+|-sidestart|p1: C0SM1C|move: Light Screen
+|move|p2a: Sableye|Foul Play|p1a: Deoxys
+|-supereffective|p1a: Deoxys
+|-damage|p1a: Deoxys|43/100 brn
+|
+|-damage|p1a: Deoxys|30/100 brn|[from] brn
+|-damage|p2a: Sableye|64/100 brn|[from] brn
+|upkeep
+|turn|12
+|choice|move stealthrock|move recover
+|
+|move|p1a: Deoxys|Stealth Rock|p2a: Sableye
+|move|p2a: Sableye|Stealth Rock|p1a: Deoxys|[from]Magic Bounce
+|-fail|p1a: Deoxys
+|move|p2a: Sableye|Recover|p2a: Sableye
+|-heal|p2a: Sableye|100/100 brn
+|
+|-damage|p1a: Deoxys|18/100 brn|[from] brn
+|-damage|p2a: Sableye|88/100 brn|[from] brn
+|upkeep
+|turn|13
+|choice|move reflect|move foulplay
+|
+|move|p1a: Deoxys|Reflect|p1a: Deoxys
+|-sidestart|p1: C0SM1C|Reflect
+|move|p2a: Sableye|Foul Play|p1a: Deoxys
+|-supereffective|p1a: Deoxys
+|-damage|p1a: Deoxys|1/100 brn
+|
+|-damage|p1a: Deoxys|0 fnt|[from] brn
+|-damage|p2a: Sableye|76/100 brn|[from] brn
+|upkeep
+|faint|p1a: Deoxys
+|choice|switch 5|
+|
+|switch|p1a: Greninja|Greninja, M|100/100
+|-damage|p1a: Greninja|88/100|[from] Stealth Rock
+|turn|14
+|choice|move toxicspikes|switch 2
+|
+|switch|p2a: Kyurem|Kyurem-White|100/100
+|-ability|p2a: Kyurem|Turboblaze
+|move|p1a: Greninja|Toxic Spikes|p2a: Kyurem
+|-start|p1a: Greninja|typechange|Poison|[from] Protean
+|-sidestart|p2: PulsarFlare|move: Toxic Spikes
+|
+|upkeep
+|turn|15
+|choice|move taunt|move stoneedge
+|
+|move|p1a: Greninja|Taunt|p2a: Kyurem
+|-start|p1a: Greninja|typechange|Dark|[from] Protean
+|-start|p2a: Kyurem|move: Taunt
+|move|p2a: Kyurem|Stone Edge|p1a: Greninja
+|-damage|p1a: Greninja|64/100
+|-damage|p2a: Kyurem|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|16
+|choice|move spikes|move fusionflare
+|
+|move|p1a: Greninja|Spikes|p2a: Kyurem
+|-start|p1a: Greninja|typechange|Ground|[from] Protean
+|-sidestart|p2: PulsarFlare|Spikes
+|move|p2a: Kyurem|Fusion Flare|p1a: Greninja
+|-damage|p1a: Greninja|18/100
+|-damage|p2a: Kyurem|81/100|[from] item: Life Orb
+|
+|upkeep
+|turn|17
+|choice|move toxicspikes|move icebeam
+|
+|move|p1a: Greninja|Toxic Spikes|p2a: Kyurem
+|-start|p1a: Greninja|typechange|Poison|[from] Protean
+|-sidestart|p2: PulsarFlare|move: Toxic Spikes
+|move|p2a: Kyurem|Ice Beam|p1a: Greninja
+|-damage|p1a: Greninja|0 fnt
+|-damage|p2a: Kyurem|71/100|[from] item: Life Orb
+|faint|p1a: Greninja
+|
+|-end|p2a: Kyurem|move: Taunt
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Blissey|Blissey, F|100/100
+|-damage|p1a: Blissey|88/100|[from] Stealth Rock
+|turn|18
+|choice|move toxic|move fusionflare
+|
+|move|p2a: Kyurem|Fusion Flare|p1a: Blissey
+|-damage|p1a: Blissey|78/100
+|-damage|p2a: Kyurem|61/100|[from] item: Life Orb
+|move|p1a: Blissey|Toxic|p2a: Kyurem
+|-status|p2a: Kyurem|tox
+|
+|-damage|p2a: Kyurem|54/100 tox|[from] psn
+|-sideend|p1: C0SM1C|move: Light Screen
+|upkeep
+|turn|19
+|choice|move seismictoss|move fusionflare
+|
+|move|p2a: Kyurem|Fusion Flare|p1a: Blissey
+|-damage|p1a: Blissey|60/100
+|-damage|p2a: Kyurem|44/100 tox|[from] item: Life Orb
+|move|p1a: Blissey|Seismic Toss|p2a: Kyurem
+|-damage|p2a: Kyurem|19/100 tox
+|
+|-damage|p2a: Kyurem|7/100 tox|[from] psn
+|upkeep
+|turn|20
+|choice|move protect|move dracometeor
+|
+|move|p1a: Blissey|Protect|p1a: Blissey
+|-singleturn|p1a: Blissey|Protect
+|move|p2a: Kyurem|Draco Meteor|p1a: Blissey
+|-activate|p1a: Blissey|move: Protect
+|
+|-damage|p2a: Kyurem|0 fnt|[from] psn
+|-sideend|p1: C0SM1C|Reflect
+|upkeep
+|faint|p2a: Kyurem
+|choice||switch 3
+|
+|switch|p2a: Genesect|Genesect|100/100
+|-damage|p2a: Genesect|88/100|[from] Spikes
+|-ability|p2a: Genesect|Download|boost
+|-boost|p2a: Genesect|atk|1
+|turn|21
+|choice|move seismictoss|move ironhead
+|
+|move|p2a: Genesect|Iron Head|p1a: Blissey
+|-damage|p1a: Blissey|0 fnt
+|faint|p1a: Blissey
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Kyogre|Kyogre-Primal|20/100
+|-damage|p1a: Kyogre|7/100|[from] Stealth Rock
+|-weather|PrimordialSea|[from] ability: Primordial Sea|[of] p1a: Kyogre
+|turn|22
+|choice|move scald|move ironhead
+|
+|move|p2a: Genesect|Iron Head|p1a: Kyogre
+|-resisted|p1a: Kyogre
+|-damage|p1a: Kyogre|0 fnt
+|faint|p1a: Kyogre
+|-weather|none
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Arceus|Arceus-Rock|82/100
+|-damage|p1a: Arceus|69/100|[from] Stealth Rock
+|turn|23
+|choice|move willowisp|move ironhead
+|
+|move|p2a: Genesect|Iron Head|p1a: Arceus
+|-supereffective|p1a: Arceus
+|-damage|p1a: Arceus|0 fnt
+|faint|p1a: Arceus
+|
+|win|PulsarFlare

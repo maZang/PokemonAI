@@ -1,0 +1,233 @@
+|j|KokoBoT
+|j|ComeJamoncetes
+|player|p1|KokoBoT|1
+|player|p2|ComeJamoncetes|32
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|225,4271,1828,9048,60320,41739,56165,58304,23653,37780,46020,26785
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Feraligatr, M|item
+|poke|p1|Raikou|item
+|poke|p1|Togekiss, M|item
+|poke|p1|Scizor, M|item
+|poke|p1|Ferrothorn, M|item
+|poke|p1|Garchomp, M|item
+|poke|p2|Alakazam, M|item
+|poke|p2|Rotom-Wash|item
+|poke|p2|Latias, F|item
+|poke|p2|Thundurus, M|item
+|poke|p2|Lopunny, M|item
+|poke|p2|Skarmory, F|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|c|☆KokoBoT|Suerte n-n
+|choice|team 3, team 1, team 2, team 4, team 5, team 6|team 1, team 2, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Togekiss|Togekiss, M|100/100
+|switch|p2a: Alakazam|Alakazam, M|100/100
+|turn|1
+|choice|switch 4|move hiddenpower
+|
+|switch|p1a: Scizor|Scizor, M|100/100
+|move|p2a: Alakazam|Hidden Power|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|88/100
+|
+|upkeep
+|turn|2
+|choice|move knockoff|move thunderwave
+|
+|move|p2a: Alakazam|Thunder Wave|p1a: Scizor
+|-status|p1a: Scizor|par
+|move|p1a: Scizor|Knock Off|p2a: Alakazam
+|-supereffective|p2a: Alakazam
+|-crit|p2a: Alakazam
+|-enditem|p2a: Alakazam|Focus Sash
+|-damage|p2a: Alakazam|1/100
+|
+|upkeep
+|turn|3
+|choice|move knockoff|move shadowball
+|
+|move|p2a: Alakazam|Shadow Ball|p1a: Scizor
+|-damage|p1a: Scizor|57/100 par
+|-unboost|p1a: Scizor|spd|1
+|cant|p1a: Scizor|par
+|
+|upkeep
+|turn|4
+|choice|move knockoff|move shadowball
+|
+|move|p2a: Alakazam|Shadow Ball|p1a: Scizor
+|-damage|p1a: Scizor|7/100 par
+|cant|p1a: Scizor|par
+|
+|upkeep
+|turn|5
+|choice|move knockoff|move shadowball
+|
+|move|p2a: Alakazam|Shadow Ball|p1a: Scizor
+|-crit|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|faint|p1a: Scizor
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|turn|6
+|choice|move gyroball|move thunderwave
+|
+|move|p2a: Alakazam|Thunder Wave|p1a: Ferrothorn
+|-status|p1a: Ferrothorn|par
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Alakazam
+|-damage|p2a: Alakazam|0 fnt
+|faint|p2a: Alakazam
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Lopunny|Lopunny, M|100/100
+|turn|7
+|choice|move stealthrock|move fakeout mega
+|
+|detailschange|p2a: Lopunny|Lopunny-Mega, M
+|-mega|p2a: Lopunny|Lopunny|Lopunnite
+|move|p2a: Lopunny|Fake Out|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|93/100 par
+|-damage|p2a: Lopunny|88/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|cant|p1a: Ferrothorn|flinch
+|
+|-heal|p1a: Ferrothorn|99/100 par|[from] item: Leftovers
+|upkeep
+|turn|8
+|choice|switch 4|move highjumpkick
+|
+|switch|p1a: Togekiss|Togekiss, M|100/100
+|move|p2a: Lopunny|High Jump Kick|p1a: Togekiss
+|-resisted|p1a: Togekiss
+|-damage|p1a: Togekiss|85/100
+|
+|-heal|p1a: Togekiss|91/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|choice|move airslash|move icepunch
+|
+|move|p2a: Lopunny|Ice Punch|p1a: Togekiss
+|-supereffective|p1a: Togekiss
+|-damage|p1a: Togekiss|43/100
+|-status|p1a: Togekiss|frz
+|cant|p1a: Togekiss|frz
+|
+|-heal|p1a: Togekiss|49/100 frz|[from] item: Leftovers
+|upkeep
+|turn|10
+|choice|move airslash|move icepunch
+|
+|move|p2a: Lopunny|Ice Punch|p1a: Togekiss
+|-supereffective|p1a: Togekiss
+|-damage|p1a: Togekiss|0 fnt
+|faint|p1a: Togekiss
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Garchomp|Garchomp, M|100/100
+|turn|11
+|choice|move dracometeor mega|move icepunch
+|
+|detailschange|p1a: Garchomp|Garchomp-Mega, M
+|-mega|p1a: Garchomp|Garchomp|Garchompite
+|move|p2a: Lopunny|Ice Punch|p1a: Garchomp
+|-supereffective|p1a: Garchomp
+|-damage|p1a: Garchomp|5/100
+|move|p1a: Garchomp|Draco Meteor|p2a: Lopunny|[miss]
+|-miss|p1a: Garchomp|p2a: Lopunny
+|
+|upkeep
+|turn|12
+|choice|move dracometeor|move icepunch
+|
+|move|p2a: Lopunny|Ice Punch|p1a: Garchomp
+|-supereffective|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|faint|p1a: Garchomp
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Feraligatr|Feraligatr, M|100/100
+|turn|13
+|choice|move dragondance|move return
+|
+|move|p2a: Lopunny|Return|p1a: Feraligatr
+|-damage|p1a: Feraligatr|36/100
+|move|p1a: Feraligatr|Dragon Dance|p1a: Feraligatr
+|-boost|p1a: Feraligatr|atk|1
+|-boost|p1a: Feraligatr|spe|1
+|
+|upkeep
+|turn|14
+|choice|move waterfall|move return
+|
+|move|p2a: Lopunny|Return|p1a: Feraligatr
+|-damage|p1a: Feraligatr|0 fnt
+|faint|p1a: Feraligatr
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Raikou|Raikou|100/100
+|-ability|p1a: Raikou|Pressure
+|turn|15
+|choice|move voltswitch|move highjumpkick
+|
+|move|p2a: Lopunny|High Jump Kick|p1a: Raikou
+|-damage|p1a: Raikou|11/100
+|move|p1a: Raikou|Volt Switch|p2a: Lopunny
+|-damage|p2a: Lopunny|42/100
+|choice|switch 4|
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|99/100 par
+|
+|-heal|p1a: Ferrothorn|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|16
+|choice|move stealthrock|move highjumpkick
+|
+|move|p2a: Lopunny|High Jump Kick|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|8/100 par
+|-damage|p2a: Lopunny|30/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|cant|p1a: Ferrothorn|par
+|
+|-heal|p1a: Ferrothorn|15/100 par|[from] item: Leftovers
+|upkeep
+|turn|17
+|choice|move gyroball|move icepunch
+|
+|move|p2a: Lopunny|Ice Punch|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|-damage|p2a: Lopunny|17/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|faint|p1a: Ferrothorn
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Raikou|Raikou|11/100
+|-ability|p1a: Raikou|Pressure
+|turn|18
+|choice|move hiddenpower|move return
+|
+|move|p2a: Lopunny|Return|p1a: Raikou
+|-damage|p1a: Raikou|0 fnt
+|faint|p1a: Raikou
+|
+|win|ComeJamoncetes
+|c|☆KokoBoT|gg
+|l|KokoBoT
