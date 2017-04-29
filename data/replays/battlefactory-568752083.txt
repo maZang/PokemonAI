@@ -1,0 +1,308 @@
+|j|Liam Nee-san
+|j|Raidx
+|player|p1|Liam Nee-san|248
+|player|p2|Raidx|148
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|29385,32234,32795,40494,40852,43364,36620,8097,17482,1525,38024,60680
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Huntail, M|item
+|poke|p1|Arbok, M|item
+|poke|p1|Gabite, M|item
+|poke|p1|Marowak, M|item
+|poke|p1|Purugly, M|item
+|poke|p1|Gourgeist-*, M|item
+|poke|p2|Articuno|item
+|poke|p2|Seaking, M|item
+|poke|p2|Pawniard, M|item
+|poke|p2|Rampardos, M|item
+|poke|p2|Misdreavus, M|item
+|poke|p2|Swanna, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 3, team 2, team 1, team 4, team 5, team 6|team 1, team 2, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Gabite|Gabite, M|100/100
+|switch|p2a: Articuno|Articuno|100/100
+|-ability|p2a: Articuno|Pressure
+|turn|1
+|j|Lando345670
+|choice|switch 2|switch 2
+|
+|switch|p2a: Seaking|Seaking, M|100/100
+|switch|p1a: Arbok|Arbok, M|100/100
+|
+|upkeep
+|turn|2
+|choice|move coil|move knockoff
+|
+|move|p2a: Seaking|Knock Off|p1a: Arbok
+|-damage|p1a: Arbok|58/100
+|-enditem|p1a: Arbok|Black Sludge|[from] move: Knock Off|[of] p2a: Seaking
+|move|p1a: Arbok|Coil|p1a: Arbok
+|-boost|p1a: Arbok|atk|1
+|-boost|p1a: Arbok|def|1
+|-boost|p1a: Arbok|accuracy|1
+|
+|upkeep
+|turn|3
+|choice|move gunkshot|move haze
+|
+|move|p2a: Seaking|Haze|p2a: Seaking
+|-clearallboost
+|move|p1a: Arbok|Gunk Shot|p2a: Seaking|[miss]
+|-miss|p1a: Arbok|p2a: Seaking
+|
+|upkeep
+|turn|4
+|choice|move gunkshot|move waterfall
+|
+|move|p2a: Seaking|Waterfall|p1a: Arbok
+|-damage|p1a: Arbok|7/100
+|move|p1a: Arbok|Gunk Shot|p2a: Seaking|[miss]
+|-miss|p1a: Arbok|p2a: Seaking
+|
+|upkeep
+|turn|5
+|c|☆Liam Nee-san|yup yup yup
+|choice|move gunkshot|move knockoff
+|
+|move|p2a: Seaking|Knock Off|p1a: Arbok
+|-damage|p1a: Arbok|0 fnt
+|faint|p1a: Arbok
+|
+|upkeep
+|c|☆Raidx|happens
+|choice|switch 5|
+|
+|switch|p1a: Purugly|Purugly, M|100/100
+|turn|6
+|choice|move fakeout|move knockoff
+|
+|move|p1a: Purugly|Fake Out|p2a: Seaking
+|-damage|p2a: Seaking|68/100
+|-damage|p1a: Purugly|91/100|[from] item: Life Orb
+|cant|p2a: Seaking|flinch
+|
+|-heal|p2a: Seaking|75/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|c|☆Liam Nee-san|suspiciously often
+|choice|move knockoff|switch 3
+|
+|switch|p2a: Pawniard|Pawniard, M|100/100
+|move|p1a: Purugly|Knock Off|p2a: Pawniard
+|-resisted|p2a: Pawniard
+|-damage|p2a: Pawniard|78/100
+|-enditem|p2a: Pawniard|Eviolite|[from] move: Knock Off|[of] p1a: Purugly
+|-damage|p1a: Purugly|81/100|[from] item: Life Orb
+|
+|upkeep
+|turn|8
+|choice|switch 2|move knockoff
+|
+|switch|p1a: Gabite|Gabite, M|100/100
+|move|p2a: Pawniard|Knock Off|p1a: Gabite
+|-damage|p1a: Gabite|61/100
+|-damage|p2a: Pawniard|66/100|[from] ability: Rough Skin|[of] p1a: Gabite
+|-enditem|p1a: Gabite|Eviolite|[from] move: Knock Off|[of] p2a: Pawniard
+|
+|upkeep
+|turn|9
+|choice|move stealthrock|switch 6
+|
+|switch|p2a: Swanna|Swanna, M|100/100
+|move|p1a: Gabite|Stealth Rock|p2a: Swanna
+|-sidestart|p2: Raidx|move: Stealth Rock
+|
+|upkeep
+|turn|10
+|choice|move toxic|move scald
+|
+|move|p2a: Swanna|Scald|p1a: Gabite
+|-damage|p1a: Gabite|0 fnt
+|-damage|p2a: Swanna|91/100|[from] item: Life Orb
+|faint|p1a: Gabite
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Purugly|Purugly, M|81/100
+|turn|11
+|choice|move fakeout|switch 6
+|
+|switch|p2a: Pawniard|Pawniard, M|66/100
+|-damage|p2a: Pawniard|60/100|[from] Stealth Rock
+|move|p1a: Purugly|Fake Out|p2a: Pawniard
+|-resisted|p2a: Pawniard
+|-damage|p2a: Pawniard|38/100
+|-damage|p1a: Purugly|71/100|[from] item: Life Orb
+|
+|upkeep
+|turn|12
+|choice|move uturn|move knockoff
+|
+|move|p1a: Purugly|U-turn|p2a: Pawniard
+|-damage|p2a: Pawniard|0 fnt
+|-damage|p1a: Purugly|61/100|[from] item: Life Orb
+|faint|p2a: Pawniard
+|c| Lando345670|Hi
+|choice|switch 3|
+|
+|switch|p1a: Huntail|Huntail, M|100/100
+|
+|upkeep
+|c|☆Liam Nee-san|hi hi
+|choice||switch 5
+|
+|switch|p2a: Misdreavus|Misdreavus, M|100/100
+|-damage|p2a: Misdreavus|88/100|[from] Stealth Rock
+|turn|13
+|choice|move shellsmash|move taunt
+|
+|move|p2a: Misdreavus|Taunt|p1a: Huntail
+|-start|p1a: Huntail|move: Taunt
+|cant|p1a: Huntail|move: Taunt|Shell Smash
+|
+|upkeep
+|turn|14
+|c| Lando345670|Ay
+|choice|switch 3|move shadowball
+|
+|switch|p1a: Purugly|Purugly, M|61/100
+|move|p2a: Misdreavus|Shadow Ball|p1a: Purugly
+|-immune|p1a: Purugly|[msg]
+|
+|upkeep
+|turn|15
+|choice|move knockoff|switch 4
+|
+|switch|p2a: Rampardos|Rampardos, M|100/100
+|-damage|p2a: Rampardos|88/100|[from] Stealth Rock
+|-ability|p2a: Rampardos|Mold Breaker
+|move|p1a: Purugly|Knock Off|p2a: Rampardos
+|-damage|p2a: Rampardos|41/100
+|-enditem|p2a: Rampardos|Focus Sash|[from] move: Knock Off|[of] p1a: Purugly
+|-damage|p1a: Purugly|51/100|[from] item: Life Orb
+|
+|upkeep
+|turn|16
+|l|Lando345670
+|choice|move uturn|move superpower
+|
+|move|p1a: Purugly|U-turn|p2a: Rampardos
+|-damage|p2a: Rampardos|5/100
+|-damage|p1a: Purugly|41/100|[from] item: Life Orb
+|choice|switch 6|
+|
+|switch|p1a: Gourgeist|Gourgeist-Super, M|100/100
+|move|p2a: Rampardos|Superpower|p1a: Gourgeist
+|-immune|p1a: Gourgeist|[msg]
+|
+|upkeep
+|turn|17
+|choice|move seedbomb|move stealthrock
+|
+|move|p2a: Rampardos|Stealth Rock|p1a: Gourgeist
+|-sidestart|p1: Liam Nee-san|move: Stealth Rock
+|move|p1a: Gourgeist|Seed Bomb|p2a: Rampardos
+|-supereffective|p2a: Rampardos
+|-damage|p2a: Rampardos|0 fnt
+|faint|p2a: Rampardos
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Swanna|Swanna, M|91/100
+|-damage|p2a: Swanna|66/100|[from] Stealth Rock
+|turn|18
+|choice|move seedbomb|move hurricane
+|
+|move|p2a: Swanna|Hurricane|p1a: Gourgeist
+|-supereffective|p1a: Gourgeist
+|-damage|p1a: Gourgeist|0 fnt
+|-damage|p2a: Swanna|56/100|[from] item: Life Orb
+|faint|p1a: Gourgeist
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Purugly|Purugly, M|41/100
+|-damage|p1a: Purugly|29/100|[from] Stealth Rock
+|turn|19
+|choice|move knockoff|switch 4
+|
+|switch|p2a: Misdreavus|Misdreavus, M|88/100
+|-damage|p2a: Misdreavus|76/100|[from] Stealth Rock
+|move|p1a: Purugly|Knock Off|p2a: Misdreavus
+|-supereffective|p2a: Misdreavus
+|-damage|p2a: Misdreavus|0 fnt
+|-enditem|p2a: Misdreavus|Eviolite|[from] move: Knock Off|[of] p1a: Purugly
+|-damage|p1a: Purugly|19/100|[from] item: Life Orb
+|faint|p2a: Misdreavus
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Seaking|Seaking, M|75/100
+|-damage|p2a: Seaking|62/100|[from] Stealth Rock
+|turn|20
+|choice|move return|move knockoff
+|
+|move|p1a: Purugly|Return|p2a: Seaking
+|-damage|p2a: Seaking|0 fnt
+|-damage|p1a: Purugly|9/100|[from] item: Life Orb
+|faint|p2a: Seaking
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Swanna|Swanna, M|56/100
+|-damage|p2a: Swanna|31/100|[from] Stealth Rock
+|turn|21
+|choice|move return|move roost
+|
+|move|p1a: Purugly|Return|p2a: Swanna
+|-damage|p2a: Swanna|0 fnt
+|-damage|p1a: Purugly|0 fnt|[from] item: Life Orb
+|faint|p2a: Swanna
+|faint|p1a: Purugly
+|
+|upkeep
+|choice|switch 3|switch 2
+|
+|switch|p2a: Articuno|Articuno|100/100
+|switch|p1a: Huntail|Huntail, M|100/100
+|-damage|p2a: Articuno|50/100|[from] Stealth Rock
+|-ability|p2a: Articuno|Pressure
+|-damage|p1a: Huntail|88/100|[from] Stealth Rock
+|turn|22
+|choice|move shellsmash|move freezedry
+|
+|move|p2a: Articuno|Freeze-Dry|p1a: Huntail
+|-supereffective|p1a: Huntail
+|-damage|p1a: Huntail|0 fnt
+|-damage|p2a: Articuno|40/100|[from] item: Life Orb
+|faint|p1a: Huntail
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Marowak|Marowak, M|100/100
+|-damage|p1a: Marowak|94/100|[from] Stealth Rock
+|turn|23
+|choice|move doubleedge|move freezedry
+|
+|move|p2a: Articuno|Freeze-Dry|p1a: Marowak
+|-supereffective|p1a: Marowak
+|-damage|p1a: Marowak|0 fnt
+|-damage|p2a: Articuno|30/100|[from] item: Life Orb
+|faint|p1a: Marowak
+|
+|win|Raidx
+|l|Liam Nee-san
+|c|☆Raidx|gg

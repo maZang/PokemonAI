@@ -1,0 +1,696 @@
+|j|haryunyang
+|j|Aquos_stormfront
+|player|p1|haryunyang|50
+|player|p2|Aquos_stormfront|101
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|60186,57005,25216,9897,24345,46078,46157,54877,23420,64559,18572,16308
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Uxie|item
+|poke|p1|Alomomola, M|item
+|poke|p1|Jellicent, M|item
+|poke|p1|Houndoom, M|item
+|poke|p1|Absol, M|item
+|poke|p1|Escavalier, M|item
+|poke|p2|Hitmonlee, M|item
+|poke|p2|Venusaur, M|item
+|poke|p2|Dugtrio, M|item
+|poke|p2|Gastrodon, M|item
+|poke|p2|Bronzong|item
+|poke|p2|Slowking, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by haryunyang)
+|c|☆haryunyang|gl hf
+|c|☆Aquos_stormfront|Gl Hf
+|choice|team 1, team 2, team 3, team 4, team 5, team 6|team 5, team 2, team 3, team 4, team 1, team 6
+|
+|start
+|switch|p1a: Uxie|Uxie|100/100
+|switch|p2a: Bronzong|Bronzong|100/100
+|turn|1
+|j|djonko dpsdz
+|choice|move stealthrock|move stealthrock
+|
+|move|p1a: Uxie|Stealth Rock|p2a: Bronzong
+|-sidestart|p2: Aquos_stormfront|move: Stealth Rock
+|move|p2a: Bronzong|Stealth Rock|p1a: Uxie
+|-sidestart|p1: haryunyang|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|choice|move thunderwave|switch 3
+|
+|switch|p2a: Dugtrio|Dugtrio, M|100/100
+|-damage|p2a: Dugtrio|94/100|[from] Stealth Rock
+|move|p1a: Uxie|Thunder Wave|p2a: Dugtrio
+|-immune|p2a: Dugtrio|[msg]
+|
+|upkeep
+|turn|3
+|choice|move uturn|move suckerpunch
+|
+|move|p2a: Dugtrio|Sucker Punch|p1a: Uxie
+|-supereffective|p1a: Uxie
+|-damage|p1a: Uxie|67/100
+|-damage|p2a: Dugtrio|84/100|[from] item: Life Orb
+|move|p1a: Uxie|U-turn|p2a: Dugtrio
+|-crit|p2a: Dugtrio
+|-damage|p2a: Dugtrio|37/100
+|choice|switch 3|
+|
+|switch|p1a: Jellicent|Jellicent, M|100/100
+|-damage|p1a: Jellicent|88/100|[from] Stealth Rock
+|
+|-heal|p1a: Jellicent|94/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|choice|move willowisp|move memento
+|
+|move|p2a: Dugtrio|Memento|p1a: Jellicent
+|-unboost|p1a: Jellicent|atk|2
+|-unboost|p1a: Jellicent|spa|2
+|faint|p2a: Dugtrio
+|move|p1a: Jellicent|Will-O-Wisp|p2: Dugtrio|[notarget]
+|-notarget
+|
+|-heal|p1a: Jellicent|100/100|[from] item: Leftovers
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Gastrodon|Gastrodon, M|100/100
+|-damage|p2a: Gastrodon|94/100|[from] Stealth Rock
+|turn|5
+|choice|move willowisp|move toxic
+|
+|move|p1a: Jellicent|Will-O-Wisp|p2a: Gastrodon
+|-status|p2a: Gastrodon|brn
+|move|p2a: Gastrodon|Toxic|p1a: Jellicent
+|-status|p1a: Jellicent|tox
+|
+|-heal|p2a: Gastrodon|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Jellicent|94/100 tox|[from] psn
+|-damage|p2a: Gastrodon|88/100 brn|[from] brn
+|upkeep
+|turn|6
+|choice|switch 6|move earthpower
+|
+|switch|p1a: Escavalier|Escavalier, M|100/100
+|-damage|p1a: Escavalier|88/100|[from] Stealth Rock
+|move|p2a: Gastrodon|Earth Power|p1a: Escavalier
+|-damage|p1a: Escavalier|68/100
+|
+|-heal|p2a: Gastrodon|94/100 brn|[from] item: Leftovers
+|-damage|p2a: Gastrodon|82/100 brn|[from] brn
+|upkeep
+|turn|7
+|choice|move knockoff|switch 5
+|
+|switch|p2a: Hitmonlee|Hitmonlee, M|100/100
+|-damage|p2a: Hitmonlee|94/100|[from] Stealth Rock
+|move|p1a: Escavalier|Knock Off|p2a: Hitmonlee
+|-resisted|p2a: Hitmonlee
+|-damage|p2a: Hitmonlee|50/100
+|-enditem|p2a: Hitmonlee|Life Orb|[from] move: Knock Off|[of] p1a: Escavalier
+|
+|upkeep
+|turn|8
+|choice|move drillrun|move highjumpkick
+|
+|move|p2a: Hitmonlee|High Jump Kick|p1a: Escavalier
+|-damage|p1a: Escavalier|0 fnt
+|faint|p1a: Escavalier
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Uxie|Uxie|67/100
+|-damage|p1a: Uxie|54/100|[from] Stealth Rock
+|turn|9
+|choice|move psyshock|move knockoff
+|
+|move|p1a: Uxie|Psyshock|p2a: Hitmonlee
+|-supereffective|p2a: Hitmonlee
+|-damage|p2a: Hitmonlee|0 fnt
+|faint|p2a: Hitmonlee
+|
+|-heal|p1a: Uxie|60/100|[from] item: Leftovers
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Gastrodon|Gastrodon, M|82/100 brn
+|-damage|p2a: Gastrodon|76/100 brn|[from] Stealth Rock
+|turn|10
+|choice|move psyshock|move recover
+|
+|move|p1a: Uxie|Psyshock|p2a: Gastrodon
+|-damage|p2a: Gastrodon|58/100 brn
+|move|p2a: Gastrodon|Recover|p2a: Gastrodon
+|-heal|p2a: Gastrodon|100/100 brn
+|
+|-heal|p1a: Uxie|67/100|[from] item: Leftovers
+|-damage|p2a: Gastrodon|88/100 brn|[from] brn
+|upkeep
+|turn|11
+|choice|move uturn|move scald
+|
+|move|p1a: Uxie|U-turn|p2a: Gastrodon
+|-damage|p2a: Gastrodon|79/100 brn
+|choice|switch 5|
+|
+|switch|p1a: Absol|Absol, M|100/100
+|-damage|p1a: Absol|88/100|[from] Stealth Rock
+|move|p2a: Gastrodon|Scald|p1a: Absol
+|-damage|p1a: Absol|43/100
+|
+|-heal|p2a: Gastrodon|85/100 brn|[from] item: Leftovers
+|-damage|p2a: Gastrodon|73/100 brn|[from] brn
+|upkeep
+|turn|12
+|choice|move knockoff|move scald
+|
+|move|p1a: Absol|Knock Off|p2a: Gastrodon
+|-damage|p2a: Gastrodon|17/100 brn
+|-enditem|p2a: Gastrodon|Leftovers|[from] move: Knock Off|[of] p1a: Absol
+|-damage|p1a: Absol|33/100|[from] item: Life Orb
+|move|p2a: Gastrodon|Scald|p1a: Absol
+|-damage|p1a: Absol|0 fnt
+|faint|p1a: Absol
+|
+|-damage|p2a: Gastrodon|5/100 brn|[from] brn
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Uxie|Uxie|67/100
+|-damage|p1a: Uxie|54/100|[from] Stealth Rock
+|turn|13
+|choice|move psyshock|move toxic
+|
+|move|p1a: Uxie|Psyshock|p2a: Gastrodon
+|-crit|p2a: Gastrodon
+|-damage|p2a: Gastrodon|0 fnt
+|faint|p2a: Gastrodon
+|
+|-heal|p1a: Uxie|60/100|[from] item: Leftovers
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Slowking|Slowking, M|100/100
+|-damage|p2a: Slowking|88/100|[from] Stealth Rock
+|turn|14
+|choice|move uturn|move scald
+|
+|move|p1a: Uxie|U-turn|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|64/100
+|choice|switch 6|
+|
+|switch|p1a: Jellicent|Jellicent, M|94/100 tox
+|-damage|p1a: Jellicent|82/100 tox|[from] Stealth Rock
+|move|p2a: Slowking|Scald|p1a: Jellicent
+|-heal|p1a: Jellicent|100/100 tox|[from] ability: Water Absorb|[of] p2a: Slowking
+|
+|-damage|p1a: Jellicent|94/100 tox|[from] psn
+|upkeep
+|turn|15
+|choice|move willowisp|switch 2
+|
+|switch|p2a: Venusaur|Venusaur, M|100/100
+|-damage|p2a: Venusaur|88/100|[from] Stealth Rock
+|move|p1a: Jellicent|Will-O-Wisp|p2a: Venusaur
+|-status|p2a: Venusaur|brn
+|
+|-heal|p2a: Venusaur|94/100 brn|[from] item: Black Sludge
+|-heal|p1a: Jellicent|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Venusaur|82/100 brn|[from] brn
+|-damage|p1a: Jellicent|88/100 tox|[from] psn
+|upkeep
+|turn|16
+|choice|switch 4|move gigadrain
+|
+|switch|p1a: Houndoom|Houndoom, M|100/100
+|-damage|p1a: Houndoom|76/100|[from] Stealth Rock
+|move|p2a: Venusaur|Giga Drain|p1a: Houndoom
+|-resisted|p1a: Houndoom
+|-damage|p1a: Houndoom|54/100
+|-heal|p2a: Venusaur|91/100 brn|[from] drain|[of] p1a: Houndoom
+|
+|-heal|p2a: Venusaur|97/100 brn|[from] item: Black Sludge
+|-damage|p2a: Venusaur|84/100 brn|[from] brn
+|upkeep
+|turn|17
+|choice|move fireblast|switch 2
+|
+|switch|p2a: Slowking|Slowking, M|97/100
+|-damage|p2a: Slowking|84/100|[from] Stealth Rock
+|move|p1a: Houndoom|Fire Blast|p2a: Slowking|[miss]
+|-miss|p1a: Houndoom|p2a: Slowking
+|
+|upkeep
+|turn|18
+|choice|move darkpulse|move scald
+|
+|move|p1a: Houndoom|Dark Pulse|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|10/100
+|-damage|p1a: Houndoom|44/100|[from] item: Life Orb
+|move|p2a: Slowking|Scald|p1a: Houndoom
+|-supereffective|p1a: Houndoom
+|-crit|p1a: Houndoom
+|-damage|p1a: Houndoom|0 fnt
+|faint|p1a: Houndoom
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Uxie|Uxie|60/100
+|-damage|p1a: Uxie|48/100|[from] Stealth Rock
+|turn|19
+|choice|move psyshock|switch 3
+|
+|switch|p2a: Bronzong|Bronzong|100/100
+|-damage|p2a: Bronzong|94/100|[from] Stealth Rock
+|move|p1a: Uxie|Psyshock|p2a: Bronzong
+|-resisted|p2a: Bronzong
+|-damage|p2a: Bronzong|89/100
+|
+|-heal|p1a: Uxie|54/100|[from] item: Leftovers
+|-heal|p2a: Bronzong|95/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|choice|move thunderwave|move stealthrock
+|
+|move|p1a: Uxie|Thunder Wave|p2a: Bronzong
+|-status|p2a: Bronzong|par
+|cant|p2a: Bronzong|par
+|
+|-heal|p1a: Uxie|60/100|[from] item: Leftovers
+|-heal|p2a: Bronzong|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|21
+|choice|move uturn|move stealthrock
+|
+|move|p1a: Uxie|U-turn|p2a: Bronzong
+|-damage|p2a: Bronzong|90/100 par
+|choice|switch 2|
+|
+|switch|p1a: Alomomola|Alomomola, M|100/100
+|-damage|p1a: Alomomola|88/100|[from] Stealth Rock
+|move|p2a: Bronzong|Stealth Rock|p1a: Alomomola
+|-fail|p1a: Alomomola
+|
+|-heal|p1a: Alomomola|94/100|[from] item: Leftovers
+|-heal|p2a: Bronzong|96/100 par|[from] item: Leftovers
+|upkeep
+|turn|22
+|choice|move scald|move trickroom
+|
+|move|p1a: Alomomola|Scald|p2a: Bronzong
+|-damage|p2a: Bronzong|83/100 par
+|cant|p2a: Bronzong|par
+|
+|-heal|p1a: Alomomola|100/100|[from] item: Leftovers
+|-heal|p2a: Bronzong|89/100 par|[from] item: Leftovers
+|upkeep
+|turn|23
+|choice|move scald|move trickroom
+|
+|move|p1a: Alomomola|Scald|p2a: Bronzong
+|-damage|p2a: Bronzong|76/100 par
+|move|p2a: Bronzong|Trick Room|p2a: Bronzong
+|-fieldstart|move: Trick Room|[of] p2a: Bronzong
+|
+|-heal|p2a: Bronzong|82/100 par|[from] item: Leftovers
+|upkeep
+|turn|24
+|choice|move protect|move earthquake
+|
+|move|p1a: Alomomola|Protect|p1a: Alomomola
+|-singleturn|p1a: Alomomola|Protect
+|move|p2a: Bronzong|Earthquake|p1a: Alomomola
+|-activate|p1a: Alomomola|move: Protect
+|
+|-heal|p2a: Bronzong|88/100 par|[from] item: Leftovers
+|upkeep
+|turn|25
+|choice|move scald|move earthquake
+|
+|move|p2a: Bronzong|Earthquake|p1a: Alomomola
+|-damage|p1a: Alomomola|78/100
+|move|p1a: Alomomola|Scald|p2a: Bronzong
+|-damage|p2a: Bronzong|75/100 par
+|
+|-heal|p2a: Bronzong|81/100 par|[from] item: Leftovers
+|-heal|p1a: Alomomola|84/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|choice|move scald|move earthquake
+|
+|move|p2a: Bronzong|Earthquake|p1a: Alomomola
+|-damage|p1a: Alomomola|64/100
+|move|p1a: Alomomola|Scald|p2a: Bronzong
+|-damage|p2a: Bronzong|69/100 par
+|
+|-heal|p2a: Bronzong|75/100 par|[from] item: Leftovers
+|-heal|p1a: Alomomola|71/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|choice|move scald|move earthquake
+|
+|cant|p2a: Bronzong|par
+|move|p1a: Alomomola|Scald|p2a: Bronzong
+|-damage|p2a: Bronzong|63/100 par
+|
+|-heal|p2a: Bronzong|69/100 par|[from] item: Leftovers
+|-heal|p1a: Alomomola|77/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|28
+|choice|move scald|move earthquake
+|
+|move|p1a: Alomomola|Scald|p2a: Bronzong
+|-damage|p2a: Bronzong|56/100 par
+|move|p2a: Bronzong|Earthquake|p1a: Alomomola
+|-damage|p1a: Alomomola|57/100
+|
+|-heal|p1a: Alomomola|63/100|[from] item: Leftovers
+|-heal|p2a: Bronzong|62/100 par|[from] item: Leftovers
+|upkeep
+|turn|29
+|choice|move scald|move earthquake
+|
+|move|p1a: Alomomola|Scald|p2a: Bronzong
+|-damage|p2a: Bronzong|48/100 par
+|move|p2a: Bronzong|Earthquake|p1a: Alomomola
+|-damage|p1a: Alomomola|43/100
+|
+|-heal|p1a: Alomomola|49/100|[from] item: Leftovers
+|-heal|p2a: Bronzong|55/100 par|[from] item: Leftovers
+|upkeep
+|turn|30
+|choice|move scald|move earthquake
+|
+|move|p1a: Alomomola|Scald|p2a: Bronzong
+|-damage|p2a: Bronzong|43/100 par
+|cant|p2a: Bronzong|par
+|
+|-heal|p1a: Alomomola|55/100|[from] item: Leftovers
+|-heal|p2a: Bronzong|49/100 par|[from] item: Leftovers
+|upkeep
+|turn|31
+|choice|switch 2|switch 2
+|
+|switch|p1a: Uxie|Uxie|60/100
+|-damage|p1a: Uxie|48/100|[from] Stealth Rock
+|switch|p2a: Venusaur|Venusaur, M|84/100 brn
+|-damage|p2a: Venusaur|72/100 brn|[from] Stealth Rock
+|
+|-heal|p1a: Uxie|54/100|[from] item: Leftovers
+|-heal|p2a: Venusaur|78/100 brn|[from] item: Black Sludge
+|-damage|p2a: Venusaur|66/100 brn|[from] brn
+|upkeep
+|turn|32
+|choice|move psyshock|switch 2
+|
+|switch|p2a: Bronzong|Bronzong|49/100 par
+|-damage|p2a: Bronzong|43/100 par|[from] Stealth Rock
+|move|p1a: Uxie|Psyshock|p2a: Bronzong
+|-resisted|p2a: Bronzong
+|-damage|p2a: Bronzong|39/100 par
+|
+|-heal|p1a: Uxie|60/100|[from] item: Leftovers
+|-heal|p2a: Bronzong|45/100 par|[from] item: Leftovers
+|upkeep
+|turn|33
+|choice|move uturn|move trickroom
+|
+|move|p1a: Uxie|U-turn|p2a: Bronzong
+|-damage|p2a: Bronzong|35/100 par
+|choice|switch 4|
+|
+|switch|p1a: Jellicent|Jellicent, M|88/100 tox
+|-damage|p1a: Jellicent|76/100 tox|[from] Stealth Rock
+|move|p2a: Bronzong|Trick Room|p2a: Bronzong
+|-fieldstart|move: Trick Room|[of] p2a: Bronzong
+|
+|-heal|p2a: Bronzong|41/100 par|[from] item: Leftovers
+|-heal|p1a: Jellicent|82/100 tox|[from] item: Leftovers
+|-damage|p1a: Jellicent|76/100 tox|[from] psn
+|upkeep
+|turn|34
+|choice|move scald|move earthquake
+|
+|move|p2a: Bronzong|Earthquake|p1a: Jellicent
+|-damage|p1a: Jellicent|53/100 tox
+|move|p1a: Jellicent|Scald|p2a: Bronzong
+|-damage|p2a: Bronzong|19/100 par
+|
+|-heal|p2a: Bronzong|26/100 par|[from] item: Leftovers
+|-heal|p1a: Jellicent|59/100 tox|[from] item: Leftovers
+|-damage|p1a: Jellicent|47/100 tox|[from] psn
+|upkeep
+|turn|35
+|choice|move scald|move earthquake
+|
+|move|p2a: Bronzong|Earthquake|p1a: Jellicent
+|-damage|p1a: Jellicent|22/100 tox
+|move|p1a: Jellicent|Scald|p2a: Bronzong
+|-damage|p2a: Bronzong|3/100 par
+|
+|-heal|p2a: Bronzong|9/100 par|[from] item: Leftovers
+|-heal|p1a: Jellicent|28/100 tox|[from] item: Leftovers
+|-damage|p1a: Jellicent|10/100 tox|[from] psn
+|upkeep
+|turn|36
+|choice|move scald|move earthquake
+|
+|move|p2a: Bronzong|Earthquake|p1a: Jellicent
+|-damage|p1a: Jellicent|0 fnt
+|faint|p1a: Jellicent
+|
+|-heal|p2a: Bronzong|16/100 par|[from] item: Leftovers
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Alomomola|Alomomola, M|89/100
+|-damage|p1a: Alomomola|76/100|[from] Stealth Rock
+|turn|37
+|choice|move scald|move earthquake
+|
+|move|p2a: Bronzong|Earthquake|p1a: Alomomola
+|-damage|p1a: Alomomola|56/100
+|move|p1a: Alomomola|Scald|p2a: Bronzong
+|-damage|p2a: Bronzong|2/100 par
+|
+|-heal|p2a: Bronzong|8/100 par|[from] item: Leftovers
+|-heal|p1a: Alomomola|62/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|38
+|c|☆haryunyang|this fucking bronzong
+|choice|move scald|switch 3
+|
+|switch|p2a: Slowking|Slowking, M|44/100
+|-damage|p2a: Slowking|31/100|[from] Stealth Rock
+|move|p1a: Alomomola|Scald|p2a: Slowking
+|-resisted|p2a: Slowking
+|-damage|p2a: Slowking|26/100
+|
+|-heal|p1a: Alomomola|68/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|choice|move toxic|switch 2
+|
+|switch|p2a: Venusaur|Venusaur, M|66/100 brn
+|-damage|p2a: Venusaur|53/100 brn|[from] Stealth Rock
+|move|p1a: Alomomola|Toxic|p2a: Venusaur
+|-fail|p2a: Venusaur
+|
+|-heal|p2a: Venusaur|59/100 brn|[from] item: Black Sludge
+|-heal|p1a: Alomomola|74/100|[from] item: Leftovers
+|-damage|p2a: Venusaur|47/100 brn|[from] brn
+|upkeep
+|turn|40
+|choice|move protect|move gigadrain
+|
+|move|p1a: Alomomola|Protect|p1a: Alomomola
+|-singleturn|p1a: Alomomola|Protect
+|move|p2a: Venusaur|Giga Drain|p1a: Alomomola
+|-activate|p1a: Alomomola|move: Protect
+|
+|-heal|p2a: Venusaur|53/100 brn|[from] item: Black Sludge
+|-heal|p1a: Alomomola|80/100|[from] item: Leftovers
+|-damage|p2a: Venusaur|41/100 brn|[from] brn
+|upkeep
+|turn|41
+|choice|switch 4|move synthesis
+|
+|switch|p1a: Uxie|Uxie|60/100
+|-damage|p1a: Uxie|48/100|[from] Stealth Rock
+|move|p2a: Venusaur|Synthesis|p2a: Venusaur
+|-heal|p2a: Venusaur|91/100 brn
+|
+|-heal|p1a: Uxie|54/100|[from] item: Leftovers
+|-heal|p2a: Venusaur|97/100 brn|[from] item: Black Sludge
+|-damage|p2a: Venusaur|84/100 brn|[from] brn
+|upkeep
+|turn|42
+|choice|move psyshock|switch 2
+|
+|switch|p2a: Slowking|Slowking, M|59/100
+|-damage|p2a: Slowking|47/100|[from] Stealth Rock
+|move|p1a: Uxie|Psyshock|p2a: Slowking
+|-resisted|p2a: Slowking
+|-damage|p2a: Slowking|36/100
+|
+|-heal|p1a: Uxie|60/100|[from] item: Leftovers
+|upkeep
+|turn|43
+|choice|move uturn|move trick
+|
+|move|p1a: Uxie|U-turn|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|11/100
+|choice|switch 4|
+|
+|switch|p1a: Alomomola|Alomomola, M|100/100
+|-damage|p1a: Alomomola|88/100|[from] Stealth Rock
+|move|p2a: Slowking|Trick|p1a: Alomomola
+|-activate|p2a: Slowking|move: Trick|[of] p1a: Alomomola
+|-item|p1a: Alomomola|Choice Specs|[from] move: Trick
+|-item|p2a: Slowking|Leftovers|[from] move: Trick
+|
+|-heal|p2a: Slowking|18/100|[from] item: Leftovers
+|upkeep
+|turn|44
+|choice|move toxic|switch 2
+|
+|switch|p2a: Venusaur|Venusaur, M|84/100 brn
+|-damage|p2a: Venusaur|72/100 brn|[from] Stealth Rock
+|move|p1a: Alomomola|Toxic|p2a: Venusaur
+|-fail|p2a: Venusaur
+|
+|-heal|p2a: Venusaur|78/100 brn|[from] item: Black Sludge
+|-damage|p2a: Venusaur|66/100 brn|[from] brn
+|upkeep
+|turn|45
+|choice|switch 4|move gigadrain
+|
+|switch|p1a: Uxie|Uxie|60/100
+|-damage|p1a: Uxie|48/100|[from] Stealth Rock
+|move|p2a: Venusaur|Giga Drain|p1a: Uxie
+|-damage|p1a: Uxie|23/100
+|-heal|p2a: Venusaur|78/100 brn|[from] drain|[of] p1a: Uxie
+|
+|-heal|p1a: Uxie|29/100|[from] item: Leftovers
+|-heal|p2a: Venusaur|84/100 brn|[from] item: Black Sludge
+|-damage|p2a: Venusaur|72/100 brn|[from] brn
+|upkeep
+|turn|46
+|j|Naphen
+|c| Naphen|hurry up
+|choice|move psyshock|switch 2
+|
+|switch|p2a: Slowking|Slowking, M|51/100
+|-damage|p2a: Slowking|38/100|[from] Stealth Rock
+|move|p1a: Uxie|Psyshock|p2a: Slowking
+|-resisted|p2a: Slowking
+|-damage|p2a: Slowking|27/100
+|
+|-heal|p1a: Uxie|35/100|[from] item: Leftovers
+|-heal|p2a: Slowking|33/100|[from] item: Leftovers
+|upkeep
+|turn|47
+|choice|move uturn|switch 2
+|
+|switch|p2a: Venusaur|Venusaur, M|72/100 brn
+|-damage|p2a: Venusaur|59/100 brn|[from] Stealth Rock
+|move|p1a: Uxie|U-turn|p2a: Venusaur
+|-damage|p2a: Venusaur|46/100 brn
+|choice|switch 4|
+|
+|switch|p1a: Alomomola|Alomomola, M|100/100
+|-damage|p1a: Alomomola|88/100|[from] Stealth Rock
+|
+|-heal|p2a: Venusaur|52/100 brn|[from] item: Black Sludge
+|-damage|p2a: Venusaur|40/100 brn|[from] brn
+|upkeep
+|turn|48
+|choice|move protect|move gigadrain
+|
+|move|p1a: Alomomola|Protect|p1a: Alomomola
+|-singleturn|p1a: Alomomola|Protect
+|move|p2a: Venusaur|Giga Drain|p1a: Alomomola
+|-activate|p1a: Alomomola|move: Protect
+|
+|-heal|p2a: Venusaur|46/100 brn|[from] item: Black Sludge
+|-damage|p2a: Venusaur|33/100 brn|[from] brn
+|upkeep
+|turn|49
+|choice|switch 4|move gigadrain
+|
+|switch|p1a: Uxie|Uxie|35/100
+|-damage|p1a: Uxie|23/100|[from] Stealth Rock
+|move|p2a: Venusaur|Giga Drain|p1a: Uxie
+|-damage|p1a: Uxie|0 fnt
+|-heal|p2a: Venusaur|44/100 brn|[from] drain|[of] p1a: Uxie
+|faint|p1a: Uxie
+|
+|-heal|p2a: Venusaur|50/100 brn|[from] item: Black Sludge
+|-damage|p2a: Venusaur|38/100 brn|[from] brn
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Alomomola|Alomomola, M|100/100
+|-damage|p1a: Alomomola|88/100|[from] Stealth Rock
+|turn|50
+|choice|move wish|move synthesis
+|
+|move|p2a: Venusaur|Synthesis|p2a: Venusaur
+|-heal|p2a: Venusaur|88/100 brn
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|-heal|p2a: Venusaur|94/100 brn|[from] item: Black Sludge
+|-damage|p2a: Venusaur|82/100 brn|[from] brn
+|upkeep
+|turn|51
+|choice|move wish|move gigadrain
+|
+|move|p2a: Venusaur|Giga Drain|p1a: Alomomola
+|-supereffective|p1a: Alomomola
+|-damage|p1a: Alomomola|39/100
+|-heal|p2a: Venusaur|100/100 brn|[from] drain|[of] p1a: Alomomola
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|-fail|p1a: Alomomola
+|
+|-heal|p1a: Alomomola|89/100|[from] move: Wish|[wisher] Alomomola
+|-damage|p2a: Venusaur|88/100 brn|[from] brn
+|upkeep
+|turn|52
+|c|☆haryunyang|gg
+|c|☆Aquos_stormfront|Gg
+|choice|move wish|move gigadrain
+|
+|move|p2a: Venusaur|Giga Drain|p1a: Alomomola
+|-supereffective|p1a: Alomomola
+|-damage|p1a: Alomomola|44/100
+|-heal|p2a: Venusaur|100/100 brn|[from] drain|[of] p1a: Alomomola
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|-damage|p2a: Venusaur|88/100 brn|[from] brn
+|upkeep
+|turn|53
+|choice|move wish|move gigadrain
+|
+|move|p2a: Venusaur|Giga Drain|p1a: Alomomola
+|-supereffective|p1a: Alomomola
+|-crit|p1a: Alomomola
+|-damage|p1a: Alomomola|0 fnt
+|-heal|p2a: Venusaur|100/100 brn|[from] drain|[of] p1a: Alomomola
+|faint|p1a: Alomomola
+|
+|win|Aquos_stormfront
+|l|haryunyang

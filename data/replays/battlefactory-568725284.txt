@@ -1,0 +1,379 @@
+|j|Corky4299
+|j|Lagilash
+|player|p1|Corky4299|101
+|player|p2|Lagilash|170
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|46548,24456,34024,13144,54101,37424,31325,52102,18537,59935,40081,2666
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Beedrill, M|item
+|poke|p1|Froslass, F|item
+|poke|p1|Blissey, F|item
+|poke|p1|Sharpedo, M|item
+|poke|p1|Galvantula, M|item
+|poke|p1|Donphan, M|item
+|poke|p2|Swampert, M|item
+|poke|p2|Kyurem|item
+|poke|p2|Cloyster, M|item
+|poke|p2|Houndoom, M|item
+|poke|p2|Chandelure, M|item
+|poke|p2|Suicune|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 5, team 2, team 3, team 4, team 1, team 6|team 6, team 2, team 3, team 4, team 5, team 1
+|
+|start
+|switch|p1a: Galvantula|Galvantula, M|100/100
+|switch|p2a: Suicune|Suicune|100/100
+|-ability|p2a: Suicune|Pressure
+|turn|1
+|choice|move voltswitch|switch 5
+|
+|switch|p2a: Chandelure|Chandelure, M|100/100
+|move|p1a: Galvantula|Volt Switch|p2a: Chandelure
+|-damage|p2a: Chandelure|35/100
+|choice|switch 4|
+|
+|switch|p1a: Sharpedo|Sharpedo, M|100/100
+|
+|upkeep
+|turn|2
+|choice|move crunch|move energyball
+|
+|move|p2a: Chandelure|Energy Ball|p1a: Sharpedo
+|-supereffective|p1a: Sharpedo
+|-damage|p1a: Sharpedo|0 fnt
+|faint|p1a: Sharpedo
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Donphan|Donphan, M|100/100
+|turn|3
+|choice|move iceshard|move energyball
+|
+|move|p1a: Donphan|Ice Shard|p2a: Chandelure
+|-resisted|p2a: Chandelure
+|-damage|p2a: Chandelure|26/100
+|move|p2a: Chandelure|Energy Ball|p1a: Donphan
+|-supereffective|p1a: Donphan
+|-damage|p1a: Donphan|11/100
+|
+|-heal|p1a: Donphan|17/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|choice|move rapidspin|move energyball
+|
+|move|p2a: Chandelure|Energy Ball|p1a: Donphan
+|-supereffective|p1a: Donphan
+|-damage|p1a: Donphan|0 fnt
+|faint|p1a: Donphan
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Galvantula|Galvantula, M|100/100
+|turn|5
+|choice|move voltswitch|switch 6
+|
+|switch|p2a: Swampert|Swampert, M|100/100
+|move|p1a: Galvantula|Volt Switch|p2a: Swampert
+|-immune|p2a: Swampert|[msg]
+|
+|upkeep
+|turn|6
+|choice|switch 5|move stealthrock
+|
+|switch|p1a: Beedrill|Beedrill, M|100/100
+|move|p2a: Swampert|Stealth Rock|p1a: Beedrill
+|-sidestart|p1: Corky4299|move: Stealth Rock
+|
+|upkeep
+|turn|7
+|choice|move poisonjab|move earthquake
+|
+|move|p1a: Beedrill|Poison Jab|p2a: Swampert
+|-resisted|p2a: Swampert
+|-damage|p2a: Swampert|90/100
+|move|p2a: Swampert|Earthquake|p1a: Beedrill
+|-damage|p1a: Beedrill|3/100
+|
+|-heal|p2a: Swampert|96/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|choice|switch 2|move scald
+|
+|switch|p1a: Froslass|Froslass, F|100/100
+|-damage|p1a: Froslass|75/100|[from] Stealth Rock
+|move|p2a: Swampert|Scald|p1a: Froslass
+|-damage|p1a: Froslass|43/100
+|
+|-heal|p2a: Swampert|100/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|choice|move destinybond|move scald
+|
+|move|p1a: Froslass|Destiny Bond|p1a: Froslass
+|-singlemove|p1a: Froslass|Destiny Bond
+|move|p2a: Swampert|Scald|p1a: Froslass
+|-damage|p1a: Froslass|12/100
+|-start|p2a: Swampert|Disable|Scald|[from] ability: Cursed Body|[of] p1a: Froslass
+|
+|upkeep
+|turn|10
+|choice|move spikes|move roar
+|
+|move|p1a: Froslass|Spikes|p2a: Swampert
+|-sidestart|p2: Lagilash|Spikes
+|move|p2a: Swampert|Roar|p1a: Froslass
+|drag|p1a: Blissey|Blissey, F|100/100
+|-damage|p1a: Blissey|88/100|[from] Stealth Rock
+|
+|-heal|p1a: Blissey|94/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|choice|move toxic|move earthquake
+|
+|move|p1a: Blissey|Toxic|p2a: Swampert
+|-status|p2a: Swampert|tox
+|move|p2a: Swampert|Earthquake|p1a: Blissey
+|-damage|p1a: Blissey|63/100
+|
+|-heal|p1a: Blissey|70/100|[from] item: Leftovers
+|-damage|p2a: Swampert|94/100 tox|[from] psn
+|upkeep
+|turn|12
+|choice|move seismictoss|move roar
+|
+|move|p1a: Blissey|Seismic Toss|p2a: Swampert
+|-damage|p2a: Swampert|69/100 tox
+|move|p2a: Swampert|Roar|p1a: Blissey
+|drag|p1a: Beedrill|Beedrill, M|3/100
+|-damage|p1a: Beedrill|0 fnt|[from] Stealth Rock
+|faint|p1a: Beedrill
+|
+|-heal|p2a: Swampert|76/100 tox|[from] item: Leftovers
+|-damage|p2a: Swampert|63/100 tox|[from] psn
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Blissey|Blissey, F|70/100
+|-damage|p1a: Blissey|57/100|[from] Stealth Rock
+|turn|13
+|choice|move seismictoss|move roar
+|
+|move|p1a: Blissey|Seismic Toss|p2a: Swampert
+|-damage|p2a: Swampert|38/100 tox
+|move|p2a: Swampert|Roar|p1a: Blissey
+|drag|p1a: Galvantula|Galvantula, M|100/100
+|-damage|p1a: Galvantula|76/100|[from] Stealth Rock
+|
+|-heal|p2a: Swampert|44/100 tox|[from] item: Leftovers
+|-damage|p2a: Swampert|26/100 tox|[from] psn
+|-end|p2a: Swampert|Disable
+|upkeep
+|turn|14
+|choice|move voltswitch|move scald
+|
+|move|p1a: Galvantula|Volt Switch|p2a: Swampert
+|-immune|p2a: Swampert|[msg]
+|move|p2a: Swampert|Scald|p1a: Galvantula
+|-damage|p1a: Galvantula|9/100
+|-status|p1a: Galvantula|brn
+|
+|-heal|p2a: Swampert|32/100 tox|[from] item: Leftovers
+|-damage|p1a: Galvantula|0 fnt|[from] brn
+|-damage|p2a: Swampert|7/100 tox|[from] psn
+|upkeep
+|faint|p1a: Galvantula
+|choice|switch 5|
+|
+|switch|p1a: Blissey|Blissey, F|57/100
+|-damage|p1a: Blissey|45/100|[from] Stealth Rock
+|turn|15
+|choice|move seismictoss|switch 2
+|
+|switch|p2a: Kyurem|Kyurem|100/100
+|-damage|p2a: Kyurem|88/100|[from] Spikes
+|-ability|p2a: Kyurem|Pressure
+|move|p1a: Blissey|Seismic Toss|p2a: Kyurem
+|-damage|p2a: Kyurem|63/100
+|
+|-heal|p2a: Kyurem|70/100|[from] item: Leftovers
+|-heal|p1a: Blissey|51/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|choice|move seismictoss|move icebeam
+|
+|move|p2a: Kyurem|Ice Beam|p1a: Blissey
+|-damage|p1a: Blissey|34/100
+|move|p1a: Blissey|Seismic Toss|p2a: Kyurem
+|-damage|p2a: Kyurem|45/100
+|
+|-heal|p2a: Kyurem|51/100|[from] item: Leftovers
+|-heal|p1a: Blissey|40/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|choice|move seismictoss|move icebeam
+|
+|move|p2a: Kyurem|Ice Beam|p1a: Blissey
+|-damage|p1a: Blissey|24/100
+|move|p1a: Blissey|Seismic Toss|p2a: Kyurem
+|-damage|p2a: Kyurem|26/100
+|
+|-heal|p2a: Kyurem|33/100|[from] item: Leftovers
+|-heal|p1a: Blissey|31/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|choice|move softboiled|move icebeam
+|
+|move|p2a: Kyurem|Ice Beam|p1a: Blissey
+|-damage|p1a: Blissey|15/100
+|-status|p1a: Blissey|frz
+|-curestatus|p1a: Blissey|frz|[msg]
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|65/100
+|
+|-heal|p2a: Kyurem|39/100|[from] item: Leftovers
+|-heal|p1a: Blissey|71/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|choice|move seismictoss|move roost
+|
+|move|p2a: Kyurem|Roost|p2a: Kyurem
+|-heal|p2a: Kyurem|89/100
+|move|p1a: Blissey|Seismic Toss|p2a: Kyurem
+|-damage|p2a: Kyurem|64/100
+|
+|-heal|p2a: Kyurem|70/100|[from] item: Leftovers
+|-heal|p1a: Blissey|77/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|choice|move seismictoss|move earthpower
+|
+|move|p2a: Kyurem|Earth Power|p1a: Blissey
+|-damage|p1a: Blissey|66/100
+|move|p1a: Blissey|Seismic Toss|p2a: Kyurem
+|-damage|p2a: Kyurem|46/100
+|
+|-heal|p2a: Kyurem|52/100|[from] item: Leftovers
+|-heal|p1a: Blissey|72/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|choice|move toxic|move earthpower
+|
+|move|p2a: Kyurem|Earth Power|p1a: Blissey
+|-damage|p1a: Blissey|61/100
+|move|p1a: Blissey|Toxic|p2a: Kyurem
+|-status|p2a: Kyurem|tox
+|
+|-heal|p2a: Kyurem|58/100 tox|[from] item: Leftovers
+|-heal|p1a: Blissey|68/100|[from] item: Leftovers
+|-damage|p2a: Kyurem|52/100 tox|[from] psn
+|upkeep
+|turn|22
+|choice|move seismictoss|move icebeam
+|
+|move|p2a: Kyurem|Ice Beam|p1a: Blissey
+|-damage|p1a: Blissey|52/100
+|move|p1a: Blissey|Seismic Toss|p2a: Kyurem
+|-damage|p2a: Kyurem|27/100 tox
+|
+|-heal|p2a: Kyurem|33/100 tox|[from] item: Leftovers
+|-heal|p1a: Blissey|58/100|[from] item: Leftovers
+|-damage|p2a: Kyurem|21/100 tox|[from] psn
+|upkeep
+|turn|23
+|choice|move seismictoss|move icebeam
+|
+|move|p2a: Kyurem|Ice Beam|p1a: Blissey
+|-damage|p1a: Blissey|42/100
+|move|p1a: Blissey|Seismic Toss|p2a: Kyurem
+|-damage|p2a: Kyurem|0 fnt
+|faint|p2a: Kyurem
+|
+|-heal|p1a: Blissey|48/100|[from] item: Leftovers
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Chandelure|Chandelure, M|26/100
+|-damage|p2a: Chandelure|14/100|[from] Spikes
+|turn|24
+|choice|move softboiled|move trick
+|
+|move|p2a: Chandelure|Trick|p1a: Blissey
+|-activate|p2a: Chandelure|move: Trick|[of] p1a: Blissey
+|-item|p1a: Blissey|Choice Scarf|[from] move: Trick
+|-item|p2a: Chandelure|Leftovers|[from] move: Trick
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|98/100
+|
+|-heal|p2a: Chandelure|20/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|choice|switch 3|move fireblast
+|
+|switch|p1a: Froslass|Froslass, F|12/100
+|-damage|p1a: Froslass|0 fnt|[from] Stealth Rock
+|faint|p1a: Froslass
+|move|p2a: Chandelure|Fire Blast|p1: Froslass|[notarget]
+|-notarget
+|
+|-heal|p2a: Chandelure|26/100|[from] item: Leftovers
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Blissey|Blissey, F|98/100
+|-damage|p1a: Blissey|85/100|[from] Stealth Rock
+|turn|26
+|choice|move seismictoss|move fireblast
+|
+|move|p2a: Chandelure|Fire Blast|p1a: Blissey|[miss]
+|-miss|p2a: Chandelure|p1a: Blissey
+|move|p1a: Blissey|Seismic Toss|p2a: Chandelure
+|-immune|p2a: Chandelure|[msg]
+|
+|-heal|p2a: Chandelure|32/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|choice|move seismictoss|move fireblast
+|
+|move|p2a: Chandelure|Fire Blast|p1a: Blissey
+|-damage|p1a: Blissey|62/100
+|move|p1a: Blissey|Seismic Toss|p2a: Chandelure
+|-immune|p2a: Chandelure|[msg]
+|
+|-heal|p2a: Chandelure|38/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|choice|move seismictoss|move fireblast
+|
+|move|p2a: Chandelure|Fire Blast|p1a: Blissey
+|-damage|p1a: Blissey|40/100
+|-status|p1a: Blissey|brn
+|move|p1a: Blissey|Seismic Toss|p2a: Chandelure
+|-immune|p2a: Chandelure|[msg]
+|
+|-heal|p2a: Chandelure|45/100|[from] item: Leftovers
+|-damage|p1a: Blissey|27/100 brn|[from] brn
+|upkeep
+|turn|29
+|choice|move seismictoss|move fireblast
+|
+|move|p2a: Chandelure|Fire Blast|p1a: Blissey
+|-damage|p1a: Blissey|6/100 brn
+|move|p1a: Blissey|Seismic Toss|p2a: Chandelure
+|-immune|p2a: Chandelure|[msg]
+|
+|-heal|p2a: Chandelure|51/100|[from] item: Leftovers
+|-damage|p1a: Blissey|0 fnt|[from] brn
+|upkeep
+|faint|p1a: Blissey
+|
+|win|Lagilash
+|l|Corky4299
+|l|Lagilash
+|j|Lagilash

@@ -1,0 +1,29 @@
+|J|pass you by
+|J|Wh1te Death
+|player|p1|pass you by|211
+|player|p2|Wh1te Death|266
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|6506,20679,17514,2380,35876,53632,12543,25007,21142,45902,8366,12428
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Sawsbuck, M|item
+|poke|p1|Fraxure, M|item
+|poke|p1|Seaking, M|item
+|poke|p1|Vibrava, M|item
+|poke|p1|Stoutland, M|item
+|poke|p1|Metang|item
+|poke|p2|Swanna, M|item
+|poke|p2|Relicanth, M|item
+|poke|p2|Audino, M|item
+|poke|p2|Altaria, M|item
+|poke|p2|Zweilous, M|item
+|poke|p2|Monferno, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|J|R!cardo
+|-message|pass you by forfeited.
+|
+|win|Wh1te Death

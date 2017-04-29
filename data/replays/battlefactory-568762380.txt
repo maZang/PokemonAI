@@ -1,0 +1,697 @@
+|j|Aquos_stormfront
+|j|Raidx
+|player|p1|Aquos_stormfront|101
+|player|p2|Raidx|148
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|5099,49529,27994,5410,38741,42704,9805,2459,30531,53656,53159,59712
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Ampharos, M|item
+|poke|p1|Arcanine, M|item
+|poke|p1|Chandelure, M|item
+|poke|p1|Umbreon, M|item
+|poke|p1|Forretress, M|item
+|poke|p1|Cobalion|item
+|poke|p2|Aromatisse, M|item
+|poke|p2|Rotom-Heat|item
+|poke|p2|Empoleon, M|item
+|poke|p2|Shaymin|item
+|poke|p2|Toxicroak, M|item
+|poke|p2|Houndoom, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|c|☆Aquos_stormfront|Gl hf
+|c|☆Raidx|u2
+|j|djonko dpsdz
+|choice|team 2, team 1, team 3, team 4, team 5, team 6|team 3, team 2, team 1, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Arcanine|Arcanine, M|100/100
+|switch|p2a: Empoleon|Empoleon, M|100/100
+|turn|1
+|choice|move closecombat|switch 2
+|
+|switch|p2a: Rotom|Rotom-Heat|100/100
+|move|p1a: Arcanine|Close Combat|p2a: Rotom
+|-damage|p2a: Rotom|23/100
+|-unboost|p1a: Arcanine|def|1
+|-unboost|p1a: Arcanine|spd|1
+|
+|upkeep
+|turn|2
+|choice|switch 4|move voltswitch
+|
+|switch|p1a: Umbreon|Umbreon, M|100/100
+|move|p2a: Rotom|Volt Switch|p1a: Umbreon
+|-damage|p1a: Umbreon|79/100
+|choice||switch 4
+|
+|switch|p2a: Shaymin|Shaymin|100/100
+|
+|-heal|p1a: Umbreon|85/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|choice|move protect|move substitute
+|
+|move|p1a: Umbreon|Protect|p1a: Umbreon
+|-singleturn|p1a: Umbreon|Protect
+|move|p2a: Shaymin|Substitute|p2a: Shaymin
+|-start|p2a: Shaymin|Substitute
+|-damage|p2a: Shaymin|76/100
+|
+|-heal|p2a: Shaymin|82/100|[from] item: Leftovers
+|-heal|p1a: Umbreon|91/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|choice|switch 5|move leechseed
+|
+|switch|p1a: Forretress|Forretress, M|100/100
+|move|p2a: Shaymin|Leech Seed|p1a: Forretress
+|-start|p1a: Forretress|move: Leech Seed
+|
+|-heal|p2a: Shaymin|88/100|[from] item: Leftovers
+|-damage|p1a: Forretress|88/100|[from] Leech Seed|[of] p2a: Shaymin
+|-heal|p2a: Shaymin|100/100|[silent]
+|upkeep
+|turn|5
+|choice|move spikes|switch 2
+|
+|switch|p2a: Empoleon|Empoleon, M|100/100
+|move|p1a: Forretress|Spikes|p2a: Empoleon
+|-sidestart|p2: Raidx|Spikes
+|
+|-heal|p1a: Forretress|94/100|[from] item: Leftovers
+|-damage|p1a: Forretress|82/100|[from] Leech Seed|[of] p2a: Empoleon
+|upkeep
+|turn|6
+|choice|move voltswitch|move defog
+|
+|move|p2a: Empoleon|Defog|p1a: Forretress
+|-unboost|p1a: Forretress|evasion|1
+|-sideend|p2: Raidx|Spikes|[from] move: Defog|[of] p2a: Empoleon
+|move|p1a: Forretress|Volt Switch|p2a: Empoleon
+|-supereffective|p2a: Empoleon
+|-damage|p2a: Empoleon|88/100
+|choice|switch 6|
+|
+|switch|p1a: Cobalion|Cobalion|100/100
+|
+|-heal|p2a: Empoleon|94/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|choice|move closecombat|switch 2
+|
+|switch|p2a: Shaymin|Shaymin|100/100
+|move|p1a: Cobalion|Close Combat|p2a: Shaymin
+|-damage|p2a: Shaymin|52/100
+|-unboost|p1a: Cobalion|def|1
+|-unboost|p1a: Cobalion|spd|1
+|
+|-heal|p2a: Shaymin|58/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|choice|switch 4|move leechseed
+|
+|switch|p1a: Arcanine|Arcanine, M|100/100
+|move|p2a: Shaymin|Leech Seed|p1a: Arcanine
+|-start|p1a: Arcanine|move: Leech Seed
+|
+|-heal|p2a: Shaymin|64/100|[from] item: Leftovers
+|-damage|p1a: Arcanine|88/100|[from] Leech Seed|[of] p2a: Shaymin
+|-heal|p2a: Shaymin|76/100|[silent]
+|upkeep
+|turn|9
+|choice|move extremespeed|switch 4
+|
+|switch|p2a: Rotom|Rotom-Heat|23/100
+|move|p1a: Arcanine|Extreme Speed|p2a: Rotom
+|-crit|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Houndoom|Houndoom, M|100/100
+|turn|10
+|choice|switch 2|switch 5
+|
+|switch|p2a: Toxicroak|Toxicroak, M|100/100
+|switch|p1a: Ampharos|Ampharos, M|100/100
+|
+|upkeep
+|turn|11
+|choice|move voltswitch mega|switch 4
+|
+|switch|p2a: Shaymin|Shaymin|76/100
+|detailschange|p1a: Ampharos|Ampharos-Mega, M
+|-mega|p1a: Ampharos|Ampharos|Ampharosite
+|-ability|p1a: Ampharos|Mold Breaker
+|move|p1a: Ampharos|Volt Switch|p2a: Shaymin
+|-resisted|p2a: Shaymin
+|-damage|p2a: Shaymin|56/100
+|choice|switch 2|
+|
+|switch|p1a: Arcanine|Arcanine, M|88/100
+|
+|-heal|p2a: Shaymin|62/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|j|haryunyang
+|l|haryunyang
+|choice|move closecombat|move substitute
+|
+|move|p2a: Shaymin|Substitute|p2a: Shaymin
+|-start|p2a: Shaymin|Substitute
+|-damage|p2a: Shaymin|37/100
+|move|p1a: Arcanine|Close Combat|p2a: Shaymin
+|-end|p2a: Shaymin|Substitute
+|-unboost|p1a: Arcanine|def|1
+|-unboost|p1a: Arcanine|spd|1
+|
+|-heal|p2a: Shaymin|43/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|choice|switch 3|move substitute
+|
+|switch|p1a: Chandelure|Chandelure, M|100/100
+|move|p2a: Shaymin|Substitute|p2a: Shaymin
+|-start|p2a: Shaymin|Substitute
+|-damage|p2a: Shaymin|18/100
+|
+|-heal|p2a: Shaymin|25/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|choice|move overheat|move leechseed
+|
+|move|p2a: Shaymin|Leech Seed|p1a: Chandelure
+|-start|p1a: Chandelure|move: Leech Seed
+|move|p1a: Chandelure|Overheat|p2a: Shaymin
+|-supereffective|p2a: Shaymin
+|-end|p2a: Shaymin|Substitute
+|-unboost|p1a: Chandelure|spa|2
+|
+|-heal|p2a: Shaymin|31/100|[from] item: Leftovers
+|-damage|p1a: Chandelure|88/100|[from] Leech Seed|[of] p2a: Shaymin
+|-heal|p2a: Shaymin|40/100|[silent]
+|upkeep
+|turn|15
+|choice|switch 3|move substitute
+|
+|switch|p1a: Arcanine|Arcanine, M|88/100
+|move|p2a: Shaymin|Substitute|p2a: Shaymin
+|-start|p2a: Shaymin|Substitute
+|-damage|p2a: Shaymin|15/100
+|
+|-heal|p2a: Shaymin|21/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|choice|move extremespeed|move leechseed
+|
+|move|p1a: Arcanine|Extreme Speed|p2a: Shaymin
+|-end|p2a: Shaymin|Substitute
+|move|p2a: Shaymin|Leech Seed|p1a: Arcanine
+|-start|p1a: Arcanine|move: Leech Seed
+|
+|-heal|p2a: Shaymin|27/100|[from] item: Leftovers
+|-damage|p1a: Arcanine|76/100|[from] Leech Seed|[of] p2a: Shaymin
+|-heal|p2a: Shaymin|39/100|[silent]
+|upkeep
+|turn|17
+|choice|switch 4|move airslash
+|
+|switch|p1a: Cobalion|Cobalion|100/100
+|move|p2a: Shaymin|Air Slash|p1a: Cobalion
+|-damage|p1a: Cobalion|72/100
+|
+|-heal|p1a: Cobalion|78/100|[from] item: Leftovers
+|-heal|p2a: Shaymin|45/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|choice|move stealthrock|switch 4
+|
+|switch|p2a: Toxicroak|Toxicroak, M|100/100
+|move|p1a: Cobalion|Stealth Rock|p2a: Toxicroak
+|-sidestart|p2: Raidx|move: Stealth Rock
+|
+|-heal|p1a: Cobalion|84/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|choice|switch 3|move bulkup
+|
+|switch|p1a: Chandelure|Chandelure, M|88/100
+|move|p2a: Toxicroak|Bulk Up|p2a: Toxicroak
+|-boost|p2a: Toxicroak|atk|1
+|-boost|p2a: Toxicroak|def|1
+|
+|upkeep
+|turn|20
+|choice|move shadowball|move suckerpunch
+|
+|move|p2a: Toxicroak|Sucker Punch|p1a: Chandelure
+|-supereffective|p1a: Chandelure
+|-damage|p1a: Chandelure|0 fnt
+|faint|p1a: Chandelure
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Forretress|Forretress, M|82/100
+|turn|21
+|l|Aquos_stormfront
+|player|p1|
+|j|Aquos_stormfront
+|player|p1|Aquos_stormfront|101
+|c|☆Aquos_stormfront|Sorry, got laggy in the tab, had to refresh
+|c|☆Raidx|its cool
+|choice|move spikes|move substitute
+|
+|move|p2a: Toxicroak|Substitute|p2a: Toxicroak
+|-start|p2a: Toxicroak|Substitute
+|-damage|p2a: Toxicroak|76/100
+|move|p1a: Forretress|Spikes|p2a: Toxicroak
+|-sidestart|p2: Raidx|Spikes
+|
+|-heal|p2a: Toxicroak|82/100|[from] item: Black Sludge
+|-heal|p1a: Forretress|88/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|choice|move gyroball|move bulkup
+|
+|move|p2a: Toxicroak|Bulk Up|p2a: Toxicroak
+|-boost|p2a: Toxicroak|atk|1
+|-boost|p2a: Toxicroak|def|1
+|move|p1a: Forretress|Gyro Ball|p2a: Toxicroak
+|-activate|p2a: Toxicroak|move: Substitute|[damage]
+|
+|-heal|p2a: Toxicroak|88/100|[from] item: Black Sludge
+|-heal|p1a: Forretress|94/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|choice|move voltswitch|move drainpunch
+|
+|move|p2a: Toxicroak|Drain Punch|p1a: Forretress
+|-damage|p1a: Forretress|59/100
+|-heal|p2a: Toxicroak|100/100|[from] drain|[of] p1a: Forretress
+|move|p1a: Forretress|Volt Switch|p2a: Toxicroak
+|-end|p2a: Toxicroak|Substitute
+|choice|switch 2|
+|
+|switch|p1a: Ampharos|Ampharos-Mega, M|100/100
+|-ability|p1a: Ampharos|Mold Breaker
+|
+|upkeep
+|turn|24
+|choice|move dragonpulse|move substitute
+|
+|move|p2a: Toxicroak|Substitute|p2a: Toxicroak
+|-start|p2a: Toxicroak|Substitute
+|-damage|p2a: Toxicroak|76/100
+|move|p1a: Ampharos|Dragon Pulse|p2a: Toxicroak
+|-end|p2a: Toxicroak|Substitute
+|
+|-heal|p2a: Toxicroak|82/100|[from] item: Black Sludge
+|upkeep
+|turn|25
+|choice|move dragonpulse|move drainpunch
+|
+|move|p2a: Toxicroak|Drain Punch|p1a: Ampharos
+|-damage|p1a: Ampharos|60/100
+|-heal|p2a: Toxicroak|100/100|[from] drain|[of] p1a: Ampharos
+|move|p1a: Ampharos|Dragon Pulse|p2a: Toxicroak
+|-damage|p2a: Toxicroak|41/100
+|
+|-heal|p2a: Toxicroak|47/100|[from] item: Black Sludge
+|upkeep
+|turn|26
+|choice|move dragonpulse|switch 3
+|
+|switch|p2a: Aromatisse|Aromatisse, M|100/100
+|-damage|p2a: Aromatisse|88/100|[from] Spikes
+|-damage|p2a: Aromatisse|76/100|[from] Stealth Rock
+|move|p1a: Ampharos|Dragon Pulse|p2a: Aromatisse
+|-immune|p2a: Aromatisse|[msg]
+|
+|-heal|p2a: Aromatisse|82/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|choice|move voltswitch|move wish
+|
+|move|p1a: Ampharos|Volt Switch|p2a: Aromatisse
+|-damage|p2a: Aromatisse|59/100
+|choice|switch 2|
+|
+|switch|p1a: Forretress|Forretress, M|59/100
+|move|p2a: Aromatisse|Wish|p2a: Aromatisse
+|
+|-heal|p2a: Aromatisse|65/100|[from] item: Leftovers
+|-heal|p1a: Forretress|65/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|choice|move gyroball|switch 3
+|
+|switch|p2a: Toxicroak|Toxicroak, M|47/100
+|-damage|p2a: Toxicroak|35/100|[from] Spikes
+|-damage|p2a: Toxicroak|29/100|[from] Stealth Rock
+|move|p1a: Forretress|Gyro Ball|p2a: Toxicroak
+|-damage|p2a: Toxicroak|5/100
+|
+|-heal|p2a: Toxicroak|60/100|[from] move: Wish|[wisher] Aromatisse
+|-heal|p2a: Toxicroak|66/100|[from] item: Black Sludge
+|-heal|p1a: Forretress|72/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|choice|move voltswitch|move substitute
+|
+|move|p2a: Toxicroak|Substitute|p2a: Toxicroak
+|-start|p2a: Toxicroak|Substitute
+|-damage|p2a: Toxicroak|41/100
+|move|p1a: Forretress|Volt Switch|p2a: Toxicroak
+|-activate|p2a: Toxicroak|move: Substitute|[damage]
+|choice|switch 4|
+|
+|switch|p1a: Arcanine|Arcanine, M|76/100
+|
+|-heal|p2a: Toxicroak|47/100|[from] item: Black Sludge
+|upkeep
+|turn|30
+|choice|move extremespeed|move drainpunch
+|
+|move|p1a: Arcanine|Extreme Speed|p2a: Toxicroak
+|-end|p2a: Toxicroak|Substitute
+|move|p2a: Toxicroak|Drain Punch|p1a: Arcanine
+|-damage|p1a: Arcanine|35/100
+|-heal|p2a: Toxicroak|65/100|[from] drain|[of] p1a: Arcanine
+|
+|-heal|p2a: Toxicroak|71/100|[from] item: Black Sludge
+|upkeep
+|turn|31
+|choice|move extremespeed|switch 2
+|
+|switch|p2a: Empoleon|Empoleon, M|94/100
+|-damage|p2a: Empoleon|81/100|[from] Spikes
+|-damage|p2a: Empoleon|75/100|[from] Stealth Rock
+|move|p1a: Arcanine|Extreme Speed|p2a: Empoleon
+|-resisted|p2a: Empoleon
+|-damage|p2a: Empoleon|54/100
+|
+|-heal|p2a: Empoleon|60/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|choice|switch 2|move defog
+|
+|switch|p1a: Ampharos|Ampharos-Mega, M|60/100
+|-ability|p1a: Ampharos|Mold Breaker
+|move|p2a: Empoleon|Defog|p1a: Ampharos
+|-unboost|p1a: Ampharos|evasion|1
+|-sideend|p2: Raidx|Spikes|[from] move: Defog|[of] p2a: Empoleon
+|-sideend|p2: Raidx|Stealth Rock|[from] move: Defog|[of] p2a: Empoleon
+|
+|-heal|p2a: Empoleon|66/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|choice|move rest|move stealthrock
+|
+|move|p2a: Empoleon|Stealth Rock|p1a: Ampharos
+|-sidestart|p1: Aquos_stormfront|move: Stealth Rock
+|move|p1a: Ampharos|Rest|p1a: Ampharos
+|-status|p1a: Ampharos|slp
+|-heal|p1a: Ampharos|100/100 slp|[silent]
+|-status|p1a: Ampharos|slp|[from] move: Rest
+|
+|-heal|p2a: Empoleon|72/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|choice|move sleeptalk|move roar
+|
+|cant|p1a: Ampharos|slp
+|move|p1a: Ampharos|Sleep Talk|p1a: Ampharos
+|move|p1a: Ampharos|Rest|p1a: Ampharos|[from]Sleep Talk
+|-fail|p1a: Ampharos
+|move|p2a: Empoleon|Roar|p1a: Ampharos
+|drag|p1a: Forretress|Forretress, M|72/100
+|-damage|p1a: Forretress|59/100|[from] Stealth Rock
+|
+|-heal|p2a: Empoleon|79/100|[from] item: Leftovers
+|-heal|p1a: Forretress|65/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|choice|move rapidspin|move scald
+|
+|move|p2a: Empoleon|Scald|p1a: Forretress
+|-damage|p1a: Forretress|25/100
+|move|p1a: Forretress|Rapid Spin|p2a: Empoleon
+|-resisted|p2a: Empoleon
+|-damage|p2a: Empoleon|77/100
+|-sideend|p1: Aquos_stormfront|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Forretress
+|
+|-heal|p2a: Empoleon|83/100|[from] item: Leftovers
+|-heal|p1a: Forretress|32/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|choice|switch 5|move stealthrock
+|
+|switch|p1a: Umbreon|Umbreon, M|91/100
+|move|p2a: Empoleon|Stealth Rock|p1a: Umbreon
+|-sidestart|p1: Aquos_stormfront|move: Stealth Rock
+|
+|-heal|p1a: Umbreon|97/100|[from] item: Leftovers
+|-heal|p2a: Empoleon|89/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|choice|move wish|switch 2
+|
+|switch|p2a: Toxicroak|Toxicroak, M|71/100
+|move|p1a: Umbreon|Wish|p1a: Umbreon
+|
+|-heal|p2a: Toxicroak|77/100|[from] item: Black Sludge
+|-heal|p1a: Umbreon|100/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|choice|switch 4|move drainpunch
+|
+|switch|p1a: Ampharos|Ampharos-Mega, M|100/100 slp
+|-damage|p1a: Ampharos|88/100 slp|[from] Stealth Rock
+|-ability|p1a: Ampharos|Mold Breaker
+|move|p2a: Toxicroak|Drain Punch|p1a: Ampharos
+|-damage|p1a: Ampharos|69/100 slp
+|-heal|p2a: Toxicroak|87/100|[from] drain|[of] p1a: Ampharos
+|
+|-heal|p1a: Ampharos|100/100 slp|[from] move: Wish|[wisher] Umbreon
+|-heal|p2a: Toxicroak|94/100|[from] item: Black Sludge
+|upkeep
+|turn|39
+|choice|move sleeptalk|switch 3
+|
+|switch|p2a: Aromatisse|Aromatisse, M|65/100
+|cant|p1a: Ampharos|slp
+|move|p1a: Ampharos|Sleep Talk|p1a: Ampharos
+|move|p1a: Ampharos|Dragon Pulse|p2a: Aromatisse|[from]Sleep Talk
+|-immune|p2a: Aromatisse|[msg]
+|
+|-heal|p2a: Aromatisse|71/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|choice|switch 3|move moonblast
+|
+|switch|p1a: Cobalion|Cobalion|84/100
+|-damage|p1a: Cobalion|81/100|[from] Stealth Rock
+|move|p2a: Aromatisse|Moonblast|p1a: Cobalion
+|-damage|p1a: Cobalion|38/100
+|
+|-heal|p1a: Cobalion|44/100|[from] item: Leftovers
+|-heal|p2a: Aromatisse|78/100|[from] item: Leftovers
+|upkeep
+|turn|41
+|choice|move ironhead|switch 4
+|
+|switch|p2a: Shaymin|Shaymin|45/100
+|move|p1a: Cobalion|Iron Head|p2a: Shaymin
+|-damage|p2a: Shaymin|13/100
+|
+|-heal|p1a: Cobalion|51/100|[from] item: Leftovers
+|-heal|p2a: Shaymin|19/100|[from] item: Leftovers
+|upkeep
+|turn|42
+|choice|move ironhead|move airslash
+|
+|move|p1a: Cobalion|Iron Head|p2a: Shaymin
+|-damage|p2a: Shaymin|0 fnt
+|faint|p2a: Shaymin
+|
+|-heal|p1a: Cobalion|57/100|[from] item: Leftovers
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Houndoom|Houndoom, M|100/100
+|turn|43
+|c|☆Raidx|oh shit wait
+|c|☆Aquos_stormfront|?
+|c|☆Raidx|since this is oras the mega boost isnt in effect the turn i mega D:
+|choice|switch 4|switch 4
+|
+|switch|p1a: Umbreon|Umbreon, M|100/100
+|-damage|p1a: Umbreon|88/100|[from] Stealth Rock
+|switch|p2a: Aromatisse|Aromatisse, M|78/100
+|
+|-heal|p1a: Umbreon|94/100|[from] item: Leftovers
+|-heal|p2a: Aromatisse|84/100|[from] item: Leftovers
+|upkeep
+|turn|44
+|choice|move wish|move moonblast
+|
+|move|p1a: Umbreon|Wish|p1a: Umbreon
+|move|p2a: Aromatisse|Moonblast|p1a: Umbreon
+|-supereffective|p1a: Umbreon
+|-damage|p1a: Umbreon|52/100
+|
+|-heal|p1a: Umbreon|59/100|[from] item: Leftovers
+|-heal|p2a: Aromatisse|90/100|[from] item: Leftovers
+|upkeep
+|turn|45
+|choice|switch 4|move moonblast
+|
+|switch|p1a: Cobalion|Cobalion|57/100
+|-damage|p1a: Cobalion|54/100|[from] Stealth Rock
+|move|p2a: Aromatisse|Moonblast|p1a: Cobalion
+|-damage|p1a: Cobalion|7/100
+|
+|-heal|p1a: Cobalion|68/100|[from] move: Wish|[wisher] Umbreon
+|-heal|p1a: Cobalion|74/100|[from] item: Leftovers
+|-heal|p2a: Aromatisse|96/100|[from] item: Leftovers
+|upkeep
+|turn|46
+|choice|move ironhead|move moonblast
+|
+|move|p1a: Cobalion|Iron Head|p2a: Aromatisse
+|-supereffective|p2a: Aromatisse
+|-crit|p2a: Aromatisse
+|-damage|p2a: Aromatisse|0 fnt
+|faint|p2a: Aromatisse
+|
+|-heal|p1a: Cobalion|80/100|[from] item: Leftovers
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Toxicroak|Toxicroak, M|94/100
+|turn|47
+|choice|switch 3|move drainpunch
+|
+|switch|p1a: Ampharos|Ampharos-Mega, M|100/100 slp
+|-damage|p1a: Ampharos|88/100 slp|[from] Stealth Rock
+|-ability|p1a: Ampharos|Mold Breaker
+|move|p2a: Toxicroak|Drain Punch|p1a: Ampharos
+|-damage|p1a: Ampharos|68/100 slp
+|-heal|p2a: Toxicroak|100/100|[from] drain|[of] p1a: Ampharos
+|
+|upkeep
+|turn|48
+|choice|move dragonpulse|move bulkup
+|
+|move|p2a: Toxicroak|Bulk Up|p2a: Toxicroak
+|-boost|p2a: Toxicroak|atk|1
+|-boost|p2a: Toxicroak|def|1
+|-curestatus|p1a: Ampharos|slp|[msg]
+|move|p1a: Ampharos|Dragon Pulse|p2a: Toxicroak
+|-crit|p2a: Toxicroak
+|-damage|p2a: Toxicroak|6/100
+|
+|-heal|p2a: Toxicroak|12/100|[from] item: Black Sludge
+|upkeep
+|turn|49
+|choice|move dragonpulse|move drainpunch
+|
+|move|p2a: Toxicroak|Drain Punch|p1a: Ampharos
+|-damage|p1a: Ampharos|36/100
+|-heal|p2a: Toxicroak|29/100|[from] drain|[of] p1a: Ampharos
+|move|p1a: Ampharos|Dragon Pulse|p2a: Toxicroak
+|-damage|p2a: Toxicroak|0 fnt
+|faint|p2a: Toxicroak
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Houndoom|Houndoom, M|100/100
+|turn|50
+|j|Lysandre
+|c| Lysandre|ok
+|choice|switch 4|move darkpulse mega
+|
+|switch|p1a: Umbreon|Umbreon, M|59/100
+|-damage|p1a: Umbreon|46/100|[from] Stealth Rock
+|detailschange|p2a: Houndoom|Houndoom-Mega, M
+|-mega|p2a: Houndoom|Houndoom|Houndoominite
+|move|p2a: Houndoom|Dark Pulse|p1a: Umbreon
+|-resisted|p1a: Umbreon
+|-damage|p1a: Umbreon|30/100
+|
+|-heal|p1a: Umbreon|36/100|[from] item: Leftovers
+|upkeep
+|turn|51
+|choice|move wish|move fireblast
+|
+|move|p2a: Houndoom|Fire Blast|p1a: Umbreon
+|-damage|p1a: Umbreon|0 fnt
+|faint|p1a: Umbreon
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Forretress|Forretress, M|32/100
+|-damage|p1a: Forretress|19/100|[from] Stealth Rock
+|turn|52
+|choice|move rapidspin|move darkpulse
+|
+|move|p2a: Houndoom|Dark Pulse|p1a: Forretress
+|-damage|p1a: Forretress|0 fnt
+|faint|p1a: Forretress
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Arcanine|Arcanine, M|35/100
+|-damage|p1a: Arcanine|10/100|[from] Stealth Rock
+|turn|53
+|choice|move extremespeed|move darkpulse
+|
+|move|p1a: Arcanine|Extreme Speed|p2a: Houndoom
+|-damage|p2a: Houndoom|44/100
+|move|p2a: Houndoom|Dark Pulse|p1a: Arcanine
+|-damage|p1a: Arcanine|0 fnt
+|faint|p1a: Arcanine
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Ampharos|Ampharos-Mega, M|36/100
+|-damage|p1a: Ampharos|24/100|[from] Stealth Rock
+|-ability|p1a: Ampharos|Mold Breaker
+|turn|54
+|choice|move rest|move darkpulse
+|
+|move|p2a: Houndoom|Dark Pulse|p1a: Ampharos
+|-damage|p1a: Ampharos|0 fnt
+|faint|p1a: Ampharos
+|
+|upkeep
+|c|☆Aquos_stormfront|Gg, thought I had you there
+|choice|switch 3|
+|
+|switch|p1a: Cobalion|Cobalion|80/100
+|-damage|p1a: Cobalion|77/100|[from] Stealth Rock
+|turn|55
+|c|☆Raidx|it depends if i hit fire blast
+|c|☆Raidx|if i miss im pretty sure you win lol
+|choice|move closecombat|move fireblast
+|
+|move|p2a: Houndoom|Fire Blast|p1a: Cobalion
+|-supereffective|p1a: Cobalion
+|-damage|p1a: Cobalion|0 fnt
+|faint|p1a: Cobalion
+|
+|win|Raidx
+|c|☆Raidx|gg
+|c|☆Raidx|was close

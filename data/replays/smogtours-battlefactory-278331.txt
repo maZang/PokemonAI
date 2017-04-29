@@ -1,0 +1,488 @@
+|J|camilas
+|J|Wh1te Death
+|player|p1|camilas|39
+|player|p2|Wh1te Death|266
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|36495,8239,4054,19579,40290,52969,31350,8306,53451,59463,40715,16797
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Greninja, M|item
+|poke|p1|Blaziken, M|item
+|poke|p1|Arceus-*|item
+|poke|p1|Deoxys-Attack|item
+|poke|p1|Yveltal|item
+|poke|p1|Dialga|item
+|poke|p2|Deoxys|item
+|poke|p2|Kangaskhan, F|item
+|poke|p2|Arceus-*|item
+|poke|p2|Latias, F|item
+|poke|p2|Reshiram|item
+|poke|p2|Kyogre|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|c|☆Wh1te Death|L
+|c|☆Wh1te Death|lit
+|J|pass you by
+|c|☆camilas|lmfao
+|choice|team 1, team 2, team 3, team 4, team 5, team 6|team 1, team 2, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Greninja|Greninja, M|100/100
+|switch|p2a: Deoxys|Deoxys|100/100
+|-ability|p2a: Deoxys|Pressure
+|turn|1
+|c|☆Wh1te Death|hello
+|c|☆Wh1te Death|time to win
+|c|☆camilas|your losin to 
+|c|+Parameter|alas
+|c|☆camilas|lead gren
+|c|☆camilas|krauershit lookin ass
+|c|+Parameter|needing to switch names
+|c|☆camilas|KEK
+|c|☆Wh1te Death|ye
+|c|☆Wh1te Death|rip
+|c|☆Wh1te Death|camilas rmr when 
+|c|☆Wh1te Death|you lost to scarf rai
+|c|☆Wh1te Death|????????????
+|c|☆camilas|???
+|c|☆camilas|never did 
+|c|☆Wh1te Death|,
+|c|☆Wh1te Death|the lies
+|c|☆Wh1te Death|help
+|choice|move shadowsneak|move spikes
+|
+|move|p1a: Greninja|Shadow Sneak|p2a: Deoxys
+|-start|p1a: Greninja|typechange|Ghost|[from] Protean
+|-supereffective|p2a: Deoxys
+|-damage|p2a: Deoxys|13/100
+|move|p2a: Deoxys|Spikes|p1a: Greninja
+|-sidestart|p1: camilas|Spikes
+|
+|upkeep
+|turn|2
+|c|☆Wh1te Death|so ez
+|c|☆Wh1te Death|lol
+|choice|move shadowsneak|move taunt
+|
+|move|p1a: Greninja|Shadow Sneak|p2a: Deoxys
+|-supereffective|p2a: Deoxys
+|-damage|p2a: Deoxys|0 fnt
+|faint|p2a: Deoxys
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Reshiram|Reshiram|100/100
+|-ability|p2a: Reshiram|Turboblaze
+|turn|3
+|c|☆Wh1te Death|wait are those things sashed
+|c|☆Wh1te Death|idr
+|c|☆Wh1te Death|haven't played in forever 
+|choice|move toxicspikes|move blueflare
+|
+|move|p2a: Reshiram|Blue Flare|p1a: Greninja
+|-enditem|p1a: Greninja|Focus Sash
+|-damage|p1a: Greninja|1/100
+|-status|p1a: Greninja|brn
+|move|p1a: Greninja|Toxic Spikes|p2a: Reshiram
+|-start|p1a: Greninja|typechange|Poison|[from] Protean
+|-sidestart|p2: Wh1te Death|move: Toxic Spikes
+|
+|-damage|p1a: Greninja|0 fnt|[from] brn
+|upkeep
+|faint|p1a: Greninja
+|J|famalamadingdong
+|c|☆Wh1te Death|LOOOOOOOOOOL
+|choice|switch 6|
+|
+|switch|p1a: Dialga|Dialga|100/100
+|-damage|p1a: Dialga|88/100|[from] Spikes
+|-ability|p1a: Dialga|Pressure
+|turn|4
+|c|☆Wh1te Death|!dt blue flare
+|c|~|/data-move Blue Flare
+|raw|<font size="1"><font color="#686868">Priority:</font> 0&nbsp;|&ThickSpace;<font color="#686868">Gen:</font> 5&nbsp;|&ThickSpace;&#10003; Secondary effect&nbsp;|&ThickSpace;<font color="#686868">Z-Power:</font> 195&nbsp;|&ThickSpace;<font color="#686868">Target:</font> One Adjacent Pokémon</font>
+|c|☆Wh1te Death|20% nb
+|choice|move dracometeor|move blueflare
+|
+|move|p2a: Reshiram|Blue Flare|p1a: Dialga|[miss]
+|-miss|p2a: Reshiram|p1a: Dialga
+|move|p1a: Dialga|Draco Meteor|p2a: Reshiram
+|-supereffective|p2a: Reshiram
+|-damage|p2a: Reshiram|0 fnt
+|-unboost|p1a: Dialga|spa|2
+|faint|p2a: Reshiram
+|
+|upkeep
+|c|☆Wh1te Death|ofc
+|c|☆camilas|a real nigga hard latias here
+|choice||switch 4
+|
+|switch|p2a: Latias|Latias, F|100/100
+|turn|5
+|c|☆camilas|ok 
+|c|☆Wh1te Death|hax
+|c|+Parameter|latias is good
+|c|☆Wh1te Death|typical
+|c|☆Wh1te Death|yy
+|c|☆camilas|not hax if predicted
+|choice|move stealthrock|move dracometeor
+|
+|move|p2a: Latias|Draco Meteor|p1a: Dialga
+|-damage|p1a: Dialga|2/100
+|-unboost|p2a: Latias|spa|2
+|move|p1a: Dialga|Stealth Rock|p2a: Latias
+|-sidestart|p2: Wh1te Death|move: Stealth Rock
+|
+|upkeep
+|turn|6
+|c|☆camilas|._.
+|c|+Parameter|why does blaziken just win
+|c|☆Wh1te Death|,
+|c|☆camilas|yo fam
+|c|☆camilas|real shit
+|c|+Parameter|nice late game sr
+|c|☆camilas|lmfao
+|choice|move dracometeor|move defog
+|
+|move|p2a: Latias|Defog|p1a: Dialga
+|-unboost|p1a: Dialga|evasion|1
+|-sideend|p1: camilas|Spikes|[from] move: Defog|[of] p1a: Dialga
+|-sideend|p2: Wh1te Death|Toxic Spikes|[from] move: Defog|[of] p2a: Latias
+|-sideend|p2: Wh1te Death|Stealth Rock|[from] move: Defog|[of] p2a: Latias
+|move|p1a: Dialga|Draco Meteor|p2a: Latias
+|-supereffective|p2a: Latias
+|-damage|p2a: Latias|58/100
+|-unboost|p1a: Dialga|spa|2
+|
+|upkeep
+|turn|7
+|c|☆camilas|.
+|c|☆camilas|yo dat does a lot
+|c|☆camilas|god DAMN
+|c|+Parameter|thats a dialga
+|c|☆Wh1te Death|at -2
+|c|☆Wh1te Death|tf
+|choice|switch 3|move psyshock
+|
+|switch|p1a: Arceus|Arceus-Fairy|100/100
+|move|p2a: Latias|Psyshock|p1a: Arceus
+|-damage|p1a: Arceus|88/100
+|
+|upkeep
+|turn|8
+|c|+Parameter|LOL
+|c|☆Wh1te Death|that
+|c|☆Wh1te Death|wins
+|c|☆camilas|**GG.**
+|c|☆Wh1te Death|..
+|c|+Parameter|random tiers SUCK
+|c|☆Wh1te Death|my ogre is not even cm
+|c|+Parameter|err random mons
+|c|☆Wh1te Death|F CAMILAS
+|choice|switch 3|switch 6
+|
+|switch|p2a: Kyogre|Kyogre|100/100
+|detailschange|p2a: Kyogre|Kyogre-Primal
+|-primal|p2a: Kyogre
+|-weather|PrimordialSea|[from] ability: Primordial Sea|[of] p2a: Kyogre
+|switch|p1a: Dialga|Dialga|2/100
+|-ability|p1a: Dialga|Pressure
+|
+|-weather|PrimordialSea|[upkeep]
+|upkeep
+|turn|9
+|c|+Parameter|7 mins till game
+|c|☆camilas|o 
+|c|☆Wh1te Death|o
+|c|☆camilas|shutup bitch
+|c|☆Wh1te Death|camilas
+|c|☆camilas|das **MY LINE**
+|c|☆camilas|lmfao gettin dem up
+|c|☆Wh1te Death|stop 
+|c|☆camilas|ez as FUCK
+|c|☆Wh1te Death|stealing
+|c|☆camilas|OML
+|c|☆Wh1te Death|my lines
+|c|☆Wh1te Death|fgt
+|c|☆camilas|who scrapin zane 
+|c|☆camilas|?
+|choice|move stealthrock|switch 3
+|
+|-weather|none
+|switch|p2a: Arceus|Arceus-Dark|100/100
+|move|p1a: Dialga|Stealth Rock|p2a: Arceus
+|-sidestart|p2: Wh1te Death|move: Stealth Rock
+|
+|upkeep
+|turn|10
+|c|☆camilas|alice 
+|c|+Parameter|outrage vs cranham
+|c|☆camilas|rite 
+|c|☆camilas|you mean
+|c|☆camilas|goatrage vs goatjis
+|c|☆camilas|lol.
+|choice|switch 3|move calmmind
+|
+|switch|p1a: Arceus|Arceus-Fairy|88/100
+|move|p2a: Arceus|Calm Mind|p2a: Arceus
+|-boost|p2a: Arceus|spa|1
+|-boost|p2a: Arceus|spd|1
+|
+|upkeep
+|turn|11
+|c|☆Wh1te Death|ok I can tank
+|c|☆Wh1te Death|at +6
+|c|☆Wh1te Death|p sure
+|choice|move toxic|move calmmind
+|
+|move|p2a: Arceus|Calm Mind|p2a: Arceus
+|-boost|p2a: Arceus|spa|1
+|-boost|p2a: Arceus|spd|1
+|move|p1a: Arceus|Toxic|p2a: Arceus
+|-status|p2a: Arceus|tox
+|
+|-damage|p2a: Arceus|94/100 tox|[from] psn
+|upkeep
+|turn|12
+|c|☆Wh1te Death|die
+|c|+Parameter|it takes 3 turns to know if ghosting is happenin
+|choice|switch 4|move refresh
+|
+|switch|p1a: Deoxys|Deoxys-Attack|100/100
+|-ability|p1a: Deoxys|Pressure
+|move|p2a: Arceus|Refresh|p2a: Arceus
+|-curestatus|p2a: Arceus|tox|[msg]
+|
+|upkeep
+|turn|13
+|c|+Parameter|unless the ghosters are bad
+|c|+Parameter|in which case lmao
+|c|☆Wh1te Death|if you're sash
+|c|☆camilas|im not
+|c|☆Wh1te Death|gu
+|c|☆camilas|lo in dis nigga
+|c|☆Wh1te Death|d
+|choice|move lowkick|move judgment
+|
+|move|p1a: Deoxys|Low Kick|p2a: Arceus
+|-supereffective|p2a: Arceus
+|-damage|p2a: Arceus|21/100
+|-damage|p1a: Deoxys|91/100|[from] item: Life Orb
+|move|p2a: Arceus|Judgment|p1a: Deoxys
+|-supereffective|p1a: Deoxys
+|-damage|p1a: Deoxys|0 fnt
+|faint|p1a: Deoxys
+|
+|upkeep
+|c|☆camilas|but blaze wins
+|c|☆camilas|kek
+|c|☆Wh1te Death|n
+|choice|switch 2|
+|
+|switch|p1a: Blaziken|Blaziken, M|100/100
+|turn|14
+|c|☆Wh1te Death|blaze loses to my physdef ogre
+|c|☆Wh1te Death|L
+|c|+Parameter|hard ogre here
+|choice|move protect|move judgment
+|
+|move|p1a: Blaziken|Protect|p1a: Blaziken
+|-singleturn|p1a: Blaziken|Protect
+|move|p2a: Arceus|Judgment|p1a: Blaziken
+|-activate|p1a: Blaziken|move: Protect
+|
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|turn|15
+|c|☆Wh1te Death|WHO
+|c|☆Wh1te Death|TECTS
+|c|☆camilas|<
+|c|☆Wh1te Death|WHEN I CAN RECOVER AND LIVE
+|c|☆Wh1te Death|ERH
+|c|+Parameter|told u to hard ogre
+|c|☆Wh1te Death|DRJ
+|c|☆Wh1te Death|RYJW
+|c|☆Wh1te Death|JW
+|c|☆Wh1te Death|WRJ
+|c|☆Wh1te Death|J
+|c|☆camilas|always listen to your ghoster
+|choice|move lowkick|move recover
+|
+|move|p1a: Blaziken|Low Kick|p2a: Arceus
+|-supereffective|p2a: Arceus
+|-damage|p2a: Arceus|0 fnt
+|-damage|p1a: Blaziken|91/100|[from] item: Life Orb
+|faint|p2a: Arceus
+|
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|c|☆camilas|alice is da truth
+|choice||switch 6
+|
+|switch|p2a: Latias|Latias, F|58/100
+|-damage|p2a: Latias|45/100|[from] Stealth Rock
+|turn|16
+|c|☆Wh1te Death|sigh
+|c|☆Wh1te Death|if you're knock
+|c|☆Wh1te Death|you will die a horrible death
+|c|☆Wh1te Death|rl
+|c|☆Wh1te Death|:D
+|c|+Parameter|edge kills from here on a roll
+|c|☆Wh1te Death|yh but it's edge
+|choice|move flareblitz|move psyshock
+|
+|move|p1a: Blaziken|Flare Blitz|p2a: Latias
+|-resisted|p2a: Latias
+|-damage|p2a: Latias|6/100
+|-damage|p1a: Blaziken|75/100|[from] recoil|[of] p2a: Latias
+|-damage|p1a: Blaziken|65/100|[from] item: Life Orb
+|move|p2a: Latias|Psyshock|p1a: Blaziken
+|-supereffective|p1a: Blaziken
+|-damage|p1a: Blaziken|0 fnt
+|faint|p1a: Blaziken
+|
+|upkeep
+|c|☆Wh1te Death|gud
+|choice|switch 4|
+|
+|switch|p1a: Arceus|Arceus-Fairy|88/100
+|turn|17
+|c|+Parameter|yeah the roll is 80% 20% depending on if it hits LOL
+|choice|move judgment|move healingwish
+|
+|move|p2a: Latias|Healing Wish|p2a: Latias
+|faint|p2a: Latias
+|move|p1a: Arceus|Judgment|p2: Latias|[notarget]
+|-notarget
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Kyogre|Kyogre-Primal|100/100
+|-heal|p2a: Kyogre|100/100|[from] move: Healing Wish
+|-damage|p2a: Kyogre|88/100|[from] Stealth Rock
+|-weather|PrimordialSea|[from] ability: Primordial Sea|[of] p2a: Kyogre
+|turn|18
+|c|☆Wh1te Death|p sure i win
+|c|+Parameter|scout tox
+|c|+Parameter|with dialga
+|c|+Parameter|u wont
+|c|☆Wh1te Death|unless ridic hax
+|c|+Parameter|and now stay int o cm after the suggestion
+|c|☆Wh1te Death|rmr when dialga had no business being alive
+|c|+Parameter|keepo
+|L|Parameter
+|J|Parameter
+|choice|move toxic|move scald
+|
+|move|p1a: Arceus|Toxic|p2a: Kyogre
+|-status|p2a: Kyogre|tox
+|move|p2a: Kyogre|Scald|p1a: Arceus
+|-damage|p1a: Arceus|43/100
+|
+|-weather|PrimordialSea|[upkeep]
+|-damage|p2a: Kyogre|82/100 tox|[from] psn
+|upkeep
+|turn|19
+|choice|move recover|move scald
+|
+|move|p1a: Arceus|Recover|p1a: Arceus
+|-heal|p1a: Arceus|93/100
+|move|p2a: Kyogre|Scald|p1a: Arceus
+|-damage|p1a: Arceus|50/100
+|
+|-weather|PrimordialSea|[upkeep]
+|-damage|p2a: Kyogre|69/100 tox|[from] psn
+|upkeep
+|turn|20
+|choice|move judgment|move scald
+|
+|move|p1a: Arceus|Judgment|p2a: Kyogre
+|-damage|p2a: Kyogre|41/100 tox
+|move|p2a: Kyogre|Scald|p1a: Arceus
+|-damage|p1a: Arceus|6/100
+|
+|-weather|PrimordialSea|[upkeep]
+|-damage|p2a: Kyogre|23/100 tox|[from] psn
+|upkeep
+|turn|21
+|c|+Parameter|-
+|c|☆Wh1te Death|,
+|choice|move judgment|move rest
+|
+|move|p1a: Arceus|Judgment|p2a: Kyogre
+|-damage|p2a: Kyogre|0 fnt
+|faint|p2a: Kyogre
+|-weather|none
+|
+|upkeep
+|c|☆Wh1te Death|why does
+|c|☆camilas|nice one
+|c|☆Wh1te Death|cancel not work
+|c|☆camilas|lmfao
+|choice||switch 2
+|
+|switch|p2a: Kangaskhan|Kangaskhan, F|100/100
+|-damage|p2a: Kangaskhan|88/100|[from] Stealth Rock
+|turn|22
+|c|+Parameter|pup here
+|c|+Parameter|u wont
+|c|☆Wh1te Death|I will
+|c|☆Wh1te Death|dw
+|c|☆Wh1te Death|I clicked cancel twice 
+|c|☆Wh1te Death|after I saw judge dmg 
+|choice|move toxic|move fakeout mega
+|
+|detailschange|p2a: Kangaskhan|Kangaskhan-Mega, F
+|-mega|p2a: Kangaskhan|Kangaskhan|Kangaskhanite
+|move|p2a: Kangaskhan|Fake Out|p1a: Arceus
+|-damage|p1a: Arceus|0 fnt
+|-hitcount|p1a: Arceus|1
+|faint|p1a: Arceus
+|
+|upkeep
+|c|☆Wh1te Death|but ps hates me 
+|choice|switch 5|
+|
+|switch|p1a: Yveltal|Yveltal|100/100
+|-ability|p1a: Yveltal|Dark Aura
+|turn|23
+|choice|move foulplay|move return
+|
+|move|p2a: Kangaskhan|Return|p1a: Yveltal
+|-damage|p1a: Yveltal|70/100
+|-damage|p1a: Yveltal|55/100
+|-hitcount|p1a: Yveltal|2
+|move|p1a: Yveltal|Foul Play|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|26/100
+|
+|-heal|p1a: Yveltal|61/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|c|☆camilas|**GG.**
+|c|☆Wh1te Death|sigh
+|c|☆Wh1te Death|>gg
+|c|☆Wh1te Death|>gg
+|c|☆Wh1te Death|>gg
+|c|+Parameter|you can dual crit
+|c|☆Wh1te Death|THE NERVE
+|c|+Parameter|chil
+|c|+Parameter|l
+|c|☆Wh1te Death|oh ye
+|choice|move foulplay|move return
+|
+|move|p2a: Kangaskhan|Return|p1a: Yveltal
+|-damage|p1a: Yveltal|28/100
+|-damage|p1a: Yveltal|12/100
+|-hitcount|p1a: Yveltal|2
+|move|p1a: Yveltal|Foul Play|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|0 fnt
+|faint|p2a: Kangaskhan
+|
+|win|camilas

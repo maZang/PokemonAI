@@ -22,11 +22,10 @@ class PokemonNetworkConfig(object):
 	batch_size = 64
 	memory_layer_size = 300
 	memory_layer_depth = 3
-	rnn_layers = 2
-	number_pokemon = 0 # TODO 
-	number_moves = 0 # TODO 
-	number_items = 0 # TODO 
-	number_status = 0 # TODO 
+	number_pokemon = const.NUMBER_POKEMON
+	number_moves = const.NUMBER_MOVES
+	number_items = const.NUMBER_ITEMS
+	number_status = len(const.STATUS_EFFECTS) 
 	kernels_poke=[1,2,3,4,5,6,7]
 	feature_maps_poke=[50,60,70,80,90,100,110,120]
 	kernels_team=[1,2,3,4,5,6]
@@ -120,7 +119,7 @@ class PokemonNetwork(object):
 				output_keep_prob=self.dropout_placeholder)
 			stacked_cell = tf.nn.rnn_cell.MultiRnnCell([dropout_cell] * self.config.memory_layer_depth)
 			lstm_input = tf.reshape(highway_output, (self.config.batch_size, self.config.num_steps, highway_size))
-			initial_state = stacked_cell.zero_state(self.config.batch_size, tf.float32)
+			self.initial_state = stacked_cell.zero_state(self.config.batch_size, tf.float32)
 			rnn_output, self.final_rnn_state = tf.nn.dynamic_rnn(stacked_cell,lstm_input,initial_state=initial_state)
 			rnn_output = tf.reshape(rnn_output,shape=(-1,slf.config.memory_layer_size))
 		with tf.variable_scope('OutputScores'):
@@ -171,6 +170,16 @@ class PokemonNetwork(object):
 			if (i % 100) == 0 and to_print:
 				print("epoch: [%d] iter: [%d/%d] loss: [%2.5f]" % (epoch_num, i, total_batches, loss))
 		return total_loss 
+
+	def run_network(self, sess, sample, initial_state=None):
+		if not initial_state:
+			initial_state = np.zeros((self.config.memory_layer_depth, 2, self.config.batch_size, self.config.memory_layer_size))
+		l = tf.unpack(initial_state, axis=0)
+		feed_dict1 = {self.poke_placeholders[i] :  sample[i] for i in range(12)} 
+		feed_dict_rest = {self.x_data_placeholder: sample[13], self.dropout_placeholder: dp}
+		feed_dict = {**feed_dict1, **feed_dict_rest}
+		pred, next_state = sess.run([self.predictions, self.final_rnn_state])
+		return pred, next_state
 
 def trainNetwork():
 	config = PokemonNetworkConfig()
