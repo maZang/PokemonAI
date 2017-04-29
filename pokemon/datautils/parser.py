@@ -2,10 +2,10 @@ import re
 import json
 from pprint import pprint
 import numpy as np
-import const
+#import const
 import pickle
 
-BATTLEFILE = 'battlefactory-566090815.txt'
+BATTLEFILE = 'battlefactory-566251336.txt'
 DATAFOLDER = 'data/replays/'
 PARSED_FOLDER = 'data/parsed_replays/'
 FACTORYSETS = 'data/factory-sets.json'
@@ -47,9 +47,7 @@ class PokemonShowdownReplayParser(object):
 
 	def run(self):
 		self.parse()
-
 		self.stripGenders()
-
 		self.parseJSON()
 
 		output = ""
@@ -79,8 +77,8 @@ class PokemonShowdownReplayParser(object):
 				self.processAbility(line)
 			elif line.startswith("|switch|"):
 				self.processSwitch(line)
-			# elif line.startswith("|drag|"):
-			# 	self.processDrag(line)
+			elif line.startswith("|drag|"):
+			 	self.processDrag(line)
 			elif line.startswith("|-mega|"):
 				self.processMega(line)
 			elif line.startswith("|detailschange|"):
@@ -163,11 +161,14 @@ class PokemonShowdownReplayParser(object):
 		# Takes only the beginning part if pokemon is Mega
 		if "-Mega" in pokemon.species:
 			speciesKey = pokemon.species.split("-")[0]
-		# Removes dash
+		else:
+			speciesKey = ''.join(e for e in pokemon.species if e.isalnum())
+		'''
 		elif "-" in pokemon.species:
 			speciesKey = pokemon.species.replace("-", "")
 		else:
 			speciesKey = pokemon.species
+		'''
 		speciesKey = speciesKey.lower()
 
 		if speciesKey in data["Uber"]:
@@ -193,16 +194,20 @@ class PokemonShowdownReplayParser(object):
 		Pokemon - The pokemon to be filled in.
 		Data - The JSON pokemon sub-object with tier and species key already specified, ex. data["Uber"]["klefki"]
 		'''
+		finalSet = None
+
 		for pokeSet in data["sets"]:
 			validSet = True
 
 			setMoves = pokeSet["moves"]
 			setAbility = pokeSet["ability"]
-			setItem = pokeSet["item"]
+			# In some cases, the pokemon set does not have an item.
+			if "item" in pokeSet:
+				setItem = pokeSet["item"]
 			setSpecies = pokeSet["species"]
 
-			# This usually means pokemon is mega evolved and set is not, or vice versa.
-			if pokemon.species != setSpecies:
+			# If pokemon name is "POKENAME-Mega", this slices off the "-Mega" 
+			if "-Mega" in pokemon.species and pokemon.species.split("-")[0] != setSpecies:
 				print("Pokemon species: " + pokemon.species)
 				print("Set species: " + setSpecies)
 				pass
@@ -220,6 +225,9 @@ class PokemonShowdownReplayParser(object):
 			flattenedSetMoves = [item for sublist in setMoves for item in sublist]
 
 			for move in pokemon.moves:
+				# Battle log has "Hidden Power" while JSON file has "Hidden Power [TYPE]"
+				if move == "Hidden Power":
+					pass
 				if move not in flattenedSetMoves:
 					validSet = False
 					pass
@@ -229,21 +237,32 @@ class PokemonShowdownReplayParser(object):
 				finalSet = pokeSet
 				break
 
+		if finalSet == None:
+			print("No matching pokemon set!")
+			print("Assigning random pokemon set!")
+			finalSet = data["sets"][0]
+
 		assert(finalSet != None)
 
-		pokemon.ability = finalSet["ability"]
-		pokemon.item = finalSet["item"]
+		if pokemon.ability == "":
+			pokemon.ability = finalSet["ability"]
+
+		if pokemon.item == "" and "item" in finalSet:
+			pokemon.item = finalSet["item"]
 
 		for moveSlot in finalSet["moves"]:
-			for move in moveSlot:
-				if move in pokemon.moves:
-					pass
-				else:
-					pokemon.moves.add(move)
-				if len(pokemon.moves) == 4:
-					break
 			if len(pokemon.moves) == 4:
 				break
+
+			moves = set(moveSlot)
+
+			# TODO: Account for "Hidden Power" vs. "Hidden Power Ice"
+
+			# The move is already in the pokemon's moves.
+			if moves.intersection(pokemon.moves):
+				pass
+			else:
+				pokemon.moves.add(moveSlot[0])
 
 
 	def processPlayer(self, line):
@@ -281,11 +300,37 @@ class PokemonShowdownReplayParser(object):
 		self.turnNumber = int(fields[-1])
 		self.turnList[self.turnNumber] = []
 
+	def prefixHandler(self, pokePrefix, species, player):
+		'''
+		Handles prefix edge cases. When pokemon are listed at the top of a battle log, 
+		their name is "Arceus-*". When they are switched in, they are listed as "Arceus-Ghost".
+		This function sets the pokemon species to the specific species.
+
+		Inputs:
+		pokePrefix - Pokemon prefix.
+		species - Pokemon species.
+		player - Player string ("p1" or "p2")
+		'''
+		pokemon = self.players[player].getPokemonBySpecies(pokePrefix + "-*")
+		if pokemon == None:
+			pokemon = self.players[player].getPokemonBySpecies(pokePrefix + "-*, M")
+		if pokemon == None:
+			pokemon = self.players[player].getPokemonBySpecies(pokePrefix + "-*, F")
+
+		if pokemon != None:
+			pokemon.species = species
+
 	def processSwitch(self, line):
 		matches = re.search("\|switch\|(p[12])a:\s+([^|]+)\|([^|]+)", line).groups()
 		player = matches[0]
 		nickname = matches[1]
 		species = matches[2]
+
+		# Special prefix edge case.
+		if "Arceus" in species:
+			self.prefixHandler("Arceus", species, player)
+		if "Gourgeist" in species:
+			self.prefixHandler("Gourgeist", species, player)
 
 		pokemon = self.players[player].getPokemonBySpecies(species)
 		if pokemon == None:
@@ -302,14 +347,34 @@ class PokemonShowdownReplayParser(object):
 		turn = Turn(turnNumber=self.turnNumber, player=player, action="switch", pokemon=pokemon)
 		self.turnList[self.turnNumber].append(turn)
 
+	def processDrag(self, line):
+		matches = re.search("\|drag\|(p[12])a:\s+([^|]+)\|([^|]+)", line).groups()
+		player = matches[0]
+		nickname = matches[1]
+		species = matches[2]
+
+		pokemon = self.players[player].getPokemonBySpecies(species)
+		if pokemon == None:
+			pokemon = Pokemon()
+			pokemon.nickname = nickname
+			pokemon.species = species
+			self.players[player].pokemon.append(pokemon)
+			assert(len(self.players[player].pokemon) <= 6)
+		elif pokemon.nickname == "":
+			pokemon.nickname = nickname
+		self.players[player].currentPokemon = pokemon
+
 	def processMove(self, line):
 		matches = re.search("\|move\|(p[12])a:\s+([^|]+)\|([^|]+)", line).groups()
 		player = matches[0]
 		nickname = matches[1]
 		move = matches[2]
 
+		print(line)
 		pokemon = self.players[player].getPokemonByNickname(nickname)
-		pokemon.moves.add(move)
+		# This is so that moves from Magic Bounce don't get added to moveset.
+		if "[from]" not in line:
+			pokemon.moves.add(move)
 		assert(len(pokemon.moves) <= 4)
 
 		# Append to turn object list
