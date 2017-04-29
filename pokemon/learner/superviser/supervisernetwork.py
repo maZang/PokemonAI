@@ -151,7 +151,7 @@ class PokemonNetwork(object):
 		self.config = config
 		self._build_graph()
 
-	def run_epoch(self, epoch_num, session, train_op = None):
+	def run_epoch(self, epoch_num, session, sample_set, train_op = None, to_print=False):
 		dp = self.config.dropout
 		total_batches = self.data_iter.number_batches(self.config.batch_size)
 		total_loss = []
@@ -159,7 +159,7 @@ class PokemonNetwork(object):
 			train_op = tf.no_op()
 			dp = 1.
 
-		for i,sample in enumerate(self.data_iter.sample(self.config.batch_size)):
+		for i,sample in enumerate(self.data_iter.sample(self.config.batch_size, self.config.num_steps, sample_set)):
 			# sample is a list of [poke1matrix, poke2matrix, ..., poke12matrix, other_x_state, y]
 			feed_dict1 = {self.poke_placeholders[i] : sample[i] for i in range(12)} 
 			feed_dict_rest = {self.x_data_placeholder: sample[13], self.y_placeholder: sample[14],
@@ -168,7 +168,7 @@ class PokemonNetwork(object):
 			loss, _ = session.run([self.loss, train_op])
 			total_loss.append(loss)
 
-			if (i % 100) == 0:
+			if (i % 100) == 0 and to_print:
 				print("epoch: [%d] iter: [%d/%d] loss: [%2.5f]" % (epoch_num, i, total_batches, loss))
 		return total_loss 
 
@@ -179,24 +179,37 @@ def trainNetwork():
 	total_losses = []
 	init = tf.initialize_all_variables()
 	saver = tf.train.Saver()
+	best_validation_loss = float('inf')
+	best_validation_epoch = 0
 
 	with tf.Session() as sess:
+		start = time.time()
 		sess.run(init)
 		for epoch_num in range(config.max_epochs):
-			epoch_losses = model.run_epoch(epoch_num, sess, model.train_op)
+			epoch_losses = model.run_epoch(epoch_num, sess, 'train', model.train_op, True)
 			total_losses.extend(epoch_losses)
 
 			if not os.path.exists(config.save_folder + config.model_name):
 				os.makedirs(config.save_folder + model_name)
 			if not os.path.exists(config.save_folder + config.model_name + 'weights'):
 				os.makedirs(config.save_folder + config.model_name + 'weights')
-			saver.save(sess, config.save_folder + model_name + 'weights/model', global_step=epoch)
+			saver.save(sess, config.save_folder + model_name + 'weights/model', global_step=epoch_num)
 
 			if not os.path.exists(config.save_folder + config.model_name + 'loss'):
 				os.makedirs(config.save_folder + config.model_name + 'loss')
 			with open(config.save_folder + config.model_name + 'loss' + '/total_losses.p', 'wb') as f:
 				pickle.dump(total_losses, f)
 			
-			# TODO, evaluate on validation set 
+			validation_loss = np.mean(model.run_epoch(epoch_num, sess, 'val'))
+			if validation_loss < best_validation_loss:
+				best_validation_epoch = epoch_num
+				best_validation_loss = validation_loss
+				print('Best epcoh number: %d' % best_validation_epoch)
+			if epoch_num - best_validation_epoch > config.early_stop:
+				break
+			print('Total time: %d' % time.time() - start)
+		# get final test accuraccy
+		test_loss = np.mean(model.run_epoch(epoch_num, sess, 'test'))
+		print('Final test set loss: %d' % test_loss)
 
 
