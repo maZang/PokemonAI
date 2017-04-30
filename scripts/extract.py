@@ -7,6 +7,10 @@ OUTPUT_POKE_DICT = 'data/info/pokemon.p'
 OUTPUT_MOVE_DICT = 'data/info/move.p'
 OUTPUT_ITEM_DICT = 'data/info/item.p'
 
+OUTPUT_POKE_DICT2 = 'data/info/pokemon2.p'
+OUTPUT_MOVE_DICT2 = 'data/info/move2.p'
+OUTPUT_ITEM_DICT2 = 'data/info/item2.p'
+
 
 pokemon = set([])
 moves = set([])
@@ -42,3 +46,10 @@ with open(OUTPUT_MOVE_DICT, 'wb') as f:
 	pickle.dump(move_dict, f)
 with open(OUTPUT_ITEM_DICT, 'wb') as f:
 	pickle.dump(item_dict, f)
+# for python 2
+with open(OUTPUT_POKE_DICT2, 'wb') as f:
+	pickle.dump(pokemon_dict, f, protocol=2)
+with open(OUTPUT_MOVE_DICT2, 'wb') as f:
+	pickle.dump(move_dict, f, protocol=2)
+with open(OUTPUT_ITEM_DICT2, 'wb') as f:
+	pickle.dump(item_dict, f, protocol=2)
