@@ -10,6 +10,6 @@ NON_EMBEDDING_DATA = 12 * POKE_META_SIZE + FIELD_META_SIZE
 NUMBER_POKEMON = len(pickle.load(open(POKEMON_FILE, 'rb')))
 NUMBER_ITEMS = len(pickle.load(open(ITEM_FILE, 'rb')))
 NUMBER_MOVES = len(pickle.load(open(MOVE_FILE, 'rb')))
-NUMBER_CLASSES = NUMBER_POKEMON + NUMBER_MOVES + 1 # number moves, number pokemon, megaevovle
+NUMBER_CLASSES = NUMBER_POKEMON + NUMBER_MOVES + 1 # number moves, number pokemon, megaevolve
 STATUS_EFFECTS = set(['PARALYZED', 'POISONED', 'BADLY POISONED', 'BURNED', 'FROZEN', 'SLEEP'])
 UNK = '<UNK>'
