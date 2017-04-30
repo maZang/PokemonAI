@@ -1,0 +1,280 @@
+|j|yeeta fayeeta
+|j|flamejester
+|player|p1|yeeta fayeeta|95
+|player|p2|flamejester|265
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|22967,6528,6667,23091,45564,58398,21024,32197,49033,25996,44123,10862
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Froslass, F|item
+|poke|p1|Nidoqueen, F|item
+|poke|p1|Mienshao, M|item
+|poke|p1|Shuckle, M|item
+|poke|p1|Tentacruel, M|item
+|poke|p1|Haxorus, M|item
+|poke|p2|Bronzong|item
+|poke|p2|Suicune|item
+|poke|p2|Florges, F|item
+|poke|p2|Machamp, M|item
+|poke|p2|Porygon2|item
+|poke|p2|Sceptile, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by yeeta fayeeta)
+|choice|team 4, team 2, team 3, team 1, team 5, team 6|team 5, team 2, team 3, team 4, team 1, team 6
+|
+|start
+|switch|p1a: Shuckle|Shuckle, M|100/100
+|switch|p2a: Porygon2|Porygon2|100/100
+|-ability|p2a: Porygon2|Sturdy|[from] ability: Trace|[of] p1a: Shuckle
+|turn|1
+|choice|move stickyweb|move thunderwave
+|
+|move|p2a: Porygon2|Thunder Wave|p1a: Shuckle
+|-status|p1a: Shuckle|par
+|move|p1a: Shuckle|Sticky Web|p2a: Porygon2
+|-sidestart|p2: flamejester|move: Sticky Web
+|
+|upkeep
+|turn|2
+|choice|move stealthrock|move icebeam
+|
+|move|p2a: Porygon2|Ice Beam|p1a: Shuckle
+|-damage|p1a: Shuckle|89/100 par
+|move|p1a: Shuckle|Stealth Rock|p2a: Porygon2
+|-sidestart|p2: flamejester|move: Stealth Rock
+|
+|-heal|p1a: Shuckle|95/100 par|[from] item: Leftovers
+|upkeep
+|turn|3
+|choice|move knockoff|move thunderbolt
+|
+|move|p2a: Porygon2|Thunderbolt|p1a: Shuckle
+|-crit|p1a: Shuckle
+|-damage|p1a: Shuckle|77/100 par
+|move|p1a: Shuckle|Knock Off|p2a: Porygon2
+|-damage|p2a: Porygon2|96/100
+|-enditem|p2a: Porygon2|Eviolite|[from] move: Knock Off|[of] p1a: Shuckle
+|
+|-heal|p1a: Shuckle|83/100 par|[from] item: Leftovers
+|upkeep
+|turn|4
+|choice|move encore|move thunderbolt
+|
+|move|p2a: Porygon2|Thunderbolt|p1a: Shuckle
+|-damage|p1a: Shuckle|71/100 par
+|move|p1a: Shuckle|Encore|p2a: Porygon2
+|-start|p2a: Porygon2|Encore
+|
+|-heal|p1a: Shuckle|77/100 par|[from] item: Leftovers
+|upkeep
+|turn|5
+|choice|switch 4|move thunderbolt
+|
+|switch|p1a: Froslass|Froslass, F|100/100
+|move|p2a: Porygon2|Thunderbolt|p1a: Froslass
+|-damage|p1a: Froslass|73/100
+|
+|upkeep
+|turn|6
+|choice|move spikes|move thunderbolt
+|
+|move|p1a: Froslass|Spikes|p2a: Porygon2
+|-sidestart|p2: flamejester|Spikes
+|move|p2a: Porygon2|Thunderbolt|p1a: Froslass
+|-damage|p1a: Froslass|44/100
+|-start|p2a: Porygon2|Disable|Thunderbolt|[from] ability: Cursed Body|[of] p1a: Froslass
+|
+|upkeep
+|turn|7
+|choice|move spikes|move struggle
+|
+|move|p1a: Froslass|Spikes|p2a: Porygon2
+|-sidestart|p2: flamejester|Spikes
+|-activate|p2a: Porygon2|move: Struggle
+|move|p2a: Porygon2|Struggle|p1a: Froslass
+|-damage|p1a: Froslass|33/100
+|-damage|p2a: Porygon2|72/100|[from] recoil
+|
+|-end|p2a: Porygon2|Encore
+|upkeep
+|turn|8
+|c|☆yeeta fayeeta|nice encore cursed body ech
+|c|☆yeeta fayeeta|tech
+|choice|move spikes|move thunderwave
+|
+|move|p1a: Froslass|Spikes|p2a: Porygon2
+|-sidestart|p2: flamejester|Spikes
+|move|p2a: Porygon2|Thunder Wave|p1a: Froslass
+|-status|p1a: Froslass|par
+|
+|upkeep
+|turn|9
+|choice|move destinybond|move icebeam
+|
+|move|p2a: Porygon2|Ice Beam|p1a: Froslass
+|-resisted|p1a: Froslass
+|-damage|p1a: Froslass|18/100 par
+|move|p1a: Froslass|Destiny Bond|p1a: Froslass
+|-singlemove|p1a: Froslass|Destiny Bond
+|
+|upkeep
+|turn|10
+|choice|move destinybond|move recover
+|
+|move|p2a: Porygon2|Recover|p2a: Porygon2
+|-heal|p2a: Porygon2|100/100
+|move|p1a: Froslass|Destiny Bond|p1a: Froslass
+|-singlemove|p1a: Froslass|Destiny Bond
+|
+|-end|p2a: Porygon2|Disable
+|upkeep
+|turn|11
+|choice|move taunt|move recover
+|
+|move|p2a: Porygon2|Recover|p2a: Porygon2
+|-fail|p2a: Porygon2
+|cant|p1a: Froslass|par
+|
+|upkeep
+|turn|12
+|choice|move taunt|move icebeam
+|
+|move|p2a: Porygon2|Ice Beam|p1a: Froslass
+|-resisted|p1a: Froslass
+|-damage|p1a: Froslass|4/100 par
+|move|p1a: Froslass|Taunt|p2a: Porygon2
+|-start|p2a: Porygon2|move: Taunt
+|
+|upkeep
+|turn|13
+|choice|move destinybond|move icebeam
+|
+|move|p2a: Porygon2|Ice Beam|p1a: Froslass
+|-resisted|p1a: Froslass
+|-damage|p1a: Froslass|0 fnt
+|-start|p2a: Porygon2|Disable|Ice Beam|[from] ability: Cursed Body|[of] p1a: Froslass
+|faint|p1a: Froslass
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Mienshao|Mienshao, M|100/100
+|turn|14
+|choice|move highjumpkick|move thunderbolt
+|
+|move|p1a: Mienshao|High Jump Kick|p2a: Porygon2
+|-supereffective|p2a: Porygon2
+|-ability|p2a: Porygon2|Sturdy
+|-damage|p2a: Porygon2|1/100
+|-damage|p1a: Mienshao|91/100|[from] item: Life Orb
+|move|p2a: Porygon2|Thunderbolt|p1a: Mienshao
+|-damage|p1a: Mienshao|47/100
+|
+|upkeep
+|turn|15
+|choice|move uturn|move thunderbolt
+|
+|move|p1a: Mienshao|U-turn|p2a: Porygon2
+|-damage|p2a: Porygon2|0 fnt
+|-damage|p1a: Mienshao|37/100|[from] item: Life Orb
+|faint|p2a: Porygon2
+|choice|switch 5|
+|
+|switch|p1a: Tentacruel|Tentacruel, M|100/100
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Sceptile|Sceptile, M|100/100
+|-damage|p2a: Sceptile|88/100|[from] Stealth Rock
+|-activate|p2a: Sceptile|move: Sticky Web
+|-unboost|p2a: Sceptile|spe|1
+|-damage|p2a: Sceptile|63/100|[from] Spikes
+|turn|16
+|choice|move toxicspikes|move gigadrain mega
+|
+|detailschange|p2a: Sceptile|Sceptile-Mega, M
+|-mega|p2a: Sceptile|Sceptile|Sceptilite
+|move|p2a: Sceptile|Giga Drain|p1a: Tentacruel
+|-damage|p1a: Tentacruel|69/100
+|-damage|p2a: Sceptile|43/100|[from] ability: Liquid Ooze|[of] p1a: Tentacruel
+|move|p1a: Tentacruel|Toxic Spikes|p2a: Sceptile
+|-sidestart|p2: flamejester|move: Toxic Spikes
+|
+|-heal|p1a: Tentacruel|75/100|[from] item: Black Sludge
+|upkeep
+|turn|17
+|c|☆yeeta fayeeta|nice and all hazards up
+|c|☆yeeta fayeeta|:]
+|choice|move toxicspikes|move dragonpulse
+|
+|move|p2a: Sceptile|Dragon Pulse|p1a: Tentacruel
+|-damage|p1a: Tentacruel|39/100
+|move|p1a: Tentacruel|Toxic Spikes|p2a: Sceptile
+|-sidestart|p2: flamejester|move: Toxic Spikes
+|
+|-heal|p1a: Tentacruel|45/100|[from] item: Black Sludge
+|upkeep
+|turn|18
+|choice|move scald|move dragonpulse
+|
+|move|p2a: Sceptile|Dragon Pulse|p1a: Tentacruel
+|-crit|p1a: Tentacruel
+|-damage|p1a: Tentacruel|0 fnt
+|faint|p1a: Tentacruel
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Mienshao|Mienshao, M|70/100
+|turn|19
+|choice|move uturn|move gigadrain
+|
+|move|p1a: Mienshao|U-turn|p2a: Sceptile
+|-supereffective|p2a: Sceptile
+|-damage|p2a: Sceptile|0 fnt
+|-damage|p1a: Mienshao|60/100|[from] item: Life Orb
+|faint|p2a: Sceptile
+|choice|switch 2|
+|
+|switch|p1a: Nidoqueen|Nidoqueen, F|100/100
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Florges|Florges, F|100/100
+|-damage|p2a: Florges|88/100|[from] Stealth Rock
+|-damage|p2a: Florges|63/100|[from] Spikes
+|-activate|p2a: Florges|move: Sticky Web
+|-unboost|p2a: Florges|spe|1
+|-status|p2a: Florges|tox
+|turn|20
+|choice|move roar|move aromatherapy
+|
+|move|p2a: Florges|Aromatherapy|p2a: Florges
+|-activate|p2a: Florges|move: Aromatherapy
+|-curestatus|p2a: Florges|tox|[msg]
+|move|p1a: Nidoqueen|Roar|p2a: Florges
+|drag|p2a: Suicune|Suicune|100/100
+|-damage|p2a: Suicune|88/100|[from] Stealth Rock
+|-status|p2a: Suicune|tox
+|-activate|p2a: Suicune|move: Sticky Web
+|-unboost|p2a: Suicune|spe|1
+|-damage|p2a: Suicune|63/100 tox|[from] Spikes
+|-ability|p2a: Suicune|Pressure
+|
+|-heal|p2a: Suicune|69/100 tox|[from] item: Leftovers
+|-damage|p2a: Suicune|63/100 tox|[from] psn
+|upkeep
+|turn|21
+|-message|flamejester forfeited.
+|
+|win|yeeta fayeeta
+|l|flamejester
+|raw|yeeta fayeeta's rating: 1054 &rarr; <strong>1089</strong><br />(+35 for winning)
+|raw|flamejester's rating: 1088 &rarr; <strong>1062</strong><br />(-26 for losing)

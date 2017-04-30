@@ -31,10 +31,11 @@ for tier in data:
 				for move in set['moves']:
 					moves.add(move[0])
 pokemon_dict = {poke:(i+1) for i,poke in enumerate(pokemon)}
-move_dict = {move:(i+1) for i,move in enumerate(moves)}
-item_dict = {item:(i+1) for i,item in enumerate(items)}
-for dict in [pokemon_dict,move_dict,item_dict]:
-	dict['<UNK>'] = 0
+pokemon_dict['<UNK>'] = 0
+move_dict = {move:(i+1+len(pokemon_dict)) for i,move in enumerate(moves)}
+move_dict['<UNK>'] = len(pokemon_dict)
+item_dict = {item:(i+1+len(pokemon_dict)+len(move_dict)) for i,item in enumerate(items)}
+item_dict['<UNK>'] = len(pokemon_dict) + len(move_dict)
 with open(OUTPUT_POKE_DICT, 'wb') as f:
 	pickle.dump(pokemon_dict, f)
 with open(OUTPUT_MOVE_DICT, 'wb') as f:
