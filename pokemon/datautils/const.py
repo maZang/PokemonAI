@@ -12,3 +12,4 @@ NUMBER_ITEMS = len(pickle.load(open(ITEM_FILE, 'rb')))
 NUMBER_MOVES = len(pickle.load(open(MOVE_FILE, 'rb')))
 NUMBER_CLASSES = NUMBER_POKEMON + NUMBER_MOVES + 1 # number moves, number pokemon, megaevovle
 STATUS_EFFECTS = set(['PARALYZED', 'POISONED', 'BADLY POISONED', 'BURNED', 'FROZEN', 'SLEEP'])
+UNK = '<UNK>'
