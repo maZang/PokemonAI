@@ -1,0 +1,290 @@
+|j|phmbarcellos
+|j|SNK4-ITA 458
+|player|p1|phmbarcellos|169
+|player|p2|SNK4-ITA 458|1
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|48289,56616,4839,33894,63314,17559,14219,46803,57623,8502,47269,60035
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Sigilyph, M|item
+|poke|p1|Flygon, M|item
+|poke|p1|Slowking, M|item
+|poke|p1|Diancie|item
+|poke|p1|Roselia, M|item
+|poke|p1|Hitmonlee, M|item
+|poke|p2|Virizion|item
+|poke|p2|Emboar, M|item
+|poke|p2|Golbat, M|item
+|poke|p2|Aggron, M|item
+|poke|p2|Banette, M|item
+|poke|p2|Abomasnow, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by phmbarcellos)
+|choice|team 4, team 2, team 3, team 1, team 5, team 6|team 1, team 2, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Diancie|Diancie|100/100
+|switch|p2a: Virizion|Virizion|100/100
+|turn|1
+|choice|move stealthrock|move swordsdance
+|
+|move|p2a: Virizion|Swords Dance|p2a: Virizion
+|-boost|p2a: Virizion|atk|2
+|move|p1a: Diancie|Stealth Rock|p2a: Virizion
+|-sidestart|p2: SNK4-ITA 458|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|choice|move moonblast|move leafblade
+|
+|move|p2a: Virizion|Leaf Blade|p1a: Diancie
+|-supereffective|p1a: Diancie
+|-damage|p1a: Diancie|0 fnt
+|faint|p1a: Diancie
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Sigilyph|Sigilyph, M|100/100
+|turn|3
+|choice|move psychic|switch 5
+|
+|switch|p2a: Banette|Banette, M|100/100
+|-damage|p2a: Banette|88/100|[from] Stealth Rock
+|move|p1a: Sigilyph|Psychic|p2a: Banette
+|-damage|p2a: Banette|12/100
+|
+|upkeep
+|turn|4
+|choice|move psychic|move suckerpunch
+|
+|move|p2a: Banette|Sucker Punch|p1a: Sigilyph
+|-supereffective|p1a: Sigilyph
+|-damage|p1a: Sigilyph|13/100
+|move|p1a: Sigilyph|Psychic|p2a: Banette
+|-damage|p2a: Banette|0 fnt
+|faint|p2a: Banette
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Emboar|Emboar, M|100/100
+|-damage|p2a: Emboar|88/100|[from] Stealth Rock
+|turn|5
+|choice|move psychic|move suckerpunch
+|
+|move|p2a: Emboar|Sucker Punch|p1a: Sigilyph
+|-supereffective|p1a: Sigilyph
+|-damage|p1a: Sigilyph|0 fnt
+|faint|p1a: Sigilyph
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Flygon|Flygon, M|100/100
+|turn|6
+|choice|move earthquake|switch 3
+|
+|switch|p2a: Golbat|Golbat, M|100/100
+|-damage|p2a: Golbat|76/100|[from] Stealth Rock
+|move|p1a: Flygon|Earthquake|p2a: Golbat
+|-immune|p2a: Golbat|[msg]
+|
+|upkeep
+|turn|7
+|choice|move uturn|move superfang
+|
+|move|p1a: Flygon|U-turn|p2a: Golbat
+|-resisted|p2a: Golbat
+|-damage|p2a: Golbat|73/100
+|choice|switch 3|
+|
+|switch|p1a: Slowking|Slowking, M|100/100
+|move|p2a: Golbat|Super Fang|p1a: Slowking
+|-damage|p1a: Slowking|51/100
+|
+|upkeep
+|turn|8
+|choice|move psyshock|move taunt
+|
+|move|p2a: Golbat|Taunt|p1a: Slowking
+|-start|p1a: Slowking|move: Taunt
+|move|p1a: Slowking|Psyshock|p2a: Golbat
+|-supereffective|p2a: Golbat
+|-crit|p2a: Golbat
+|-damage|p2a: Golbat|25/100
+|
+|upkeep
+|turn|9
+|choice|move psyshock|move bravebird
+|
+|move|p2a: Golbat|Brave Bird|p1a: Slowking
+|-damage|p1a: Slowking|13/100
+|-damage|p2a: Golbat|12/100|[from] recoil|[of] p1a: Slowking
+|move|p1a: Slowking|Psyshock|p2a: Golbat
+|-supereffective|p2a: Golbat
+|-damage|p2a: Golbat|0 fnt
+|faint|p2a: Golbat
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Virizion|Virizion|100/100
+|-damage|p2a: Virizion|94/100|[from] Stealth Rock
+|turn|10
+|choice|switch 5|move leafblade
+|
+|switch|p1a: Roselia|Roselia, M|100/100
+|move|p2a: Virizion|Leaf Blade|p1a: Roselia
+|-resisted|p1a: Roselia
+|-damage|p1a: Roselia|90/100
+|
+|upkeep
+|turn|11
+|choice|move sludgebomb|move zenheadbutt
+|
+|move|p2a: Virizion|Zen Headbutt|p1a: Roselia
+|-supereffective|p1a: Roselia
+|-damage|p1a: Roselia|48/100
+|move|p1a: Roselia|Sludge Bomb|p2a: Virizion
+|-supereffective|p2a: Virizion
+|-damage|p2a: Virizion|39/100
+|
+|upkeep
+|turn|12
+|choice|move sludgebomb|move closecombat
+|
+|move|p2a: Virizion|Close Combat|p1a: Roselia
+|-resisted|p1a: Roselia
+|-damage|p1a: Roselia|23/100
+|-unboost|p2a: Virizion|def|1
+|-unboost|p2a: Virizion|spd|1
+|move|p1a: Roselia|Sludge Bomb|p2a: Virizion
+|-supereffective|p2a: Virizion
+|-damage|p2a: Virizion|0 fnt
+|faint|p2a: Virizion
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Emboar|Emboar, M|88/100
+|-damage|p2a: Emboar|76/100|[from] Stealth Rock
+|turn|13
+|choice|move spikes|move suckerpunch
+|
+|move|p2a: Emboar|Sucker Punch|p1a: Roselia|[still]
+|-fail|p2a: Emboar
+|move|p1a: Roselia|Spikes|p2a: Emboar
+|-sidestart|p2: SNK4-ITA 458|Spikes
+|
+|upkeep
+|turn|14
+|choice|move synthesis|move flareblitz
+|
+|move|p2a: Emboar|Flare Blitz|p1a: Roselia
+|-supereffective|p1a: Roselia
+|-damage|p1a: Roselia|0 fnt
+|-damage|p2a: Emboar|69/100|[from] recoil|[of] p1a: Roselia
+|faint|p1a: Roselia
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Flygon|Flygon, M|100/100
+|turn|15
+|choice|move earthquake|move suckerpunch
+|
+|move|p2a: Emboar|Sucker Punch|p1a: Flygon
+|-damage|p1a: Flygon|74/100
+|move|p1a: Flygon|Earthquake|p2a: Emboar
+|-supereffective|p2a: Emboar
+|-damage|p2a: Emboar|0 fnt
+|faint|p2a: Emboar
+|
+|-heal|p1a: Flygon|80/100|[from] item: Leftovers
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Abomasnow|Abomasnow, M|100/100
+|-damage|p2a: Abomasnow|76/100|[from] Stealth Rock
+|-damage|p2a: Abomasnow|63/100|[from] Spikes
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Abomasnow
+|turn|16
+|choice|move uturn|move iceshard
+|
+|move|p2a: Abomasnow|Ice Shard|p1a: Flygon
+|-supereffective|p1a: Flygon
+|-damage|p1a: Flygon|5/100
+|-damage|p2a: Abomasnow|53/100|[from] item: Life Orb
+|move|p1a: Flygon|U-turn|p2a: Abomasnow
+|-supereffective|p2a: Abomasnow
+|-damage|p2a: Abomasnow|8/100
+|choice|switch 6|
+|
+|switch|p1a: Hitmonlee|Hitmonlee, M|100/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Hitmonlee|94/100|[from] hail
+|upkeep
+|turn|17
+|choice|move knockoff|move iceshard
+|
+|move|p2a: Abomasnow|Ice Shard|p1a: Hitmonlee
+|-damage|p1a: Hitmonlee|51/100
+|-damage|p2a: Abomasnow|0 fnt|[from] item: Life Orb
+|faint|p2a: Abomasnow
+|move|p1a: Hitmonlee|Knock Off|p2: Abomasnow|[notarget]
+|-notarget
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Hitmonlee|44/100|[from] hail
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Aggron|Aggron, M|100/100
+|-damage|p2a: Aggron|88/100|[from] Spikes
+|-damage|p2a: Aggron|82/100|[from] Stealth Rock
+|turn|18
+|choice|switch 5|move heavyslam
+|
+|switch|p1a: Slowking|Slowking, M|46/100
+|move|p2a: Aggron|Heavy Slam|p1a: Slowking
+|-resisted|p1a: Slowking
+|-damage|p1a: Slowking|10/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Aggron|76/100|[from] hail
+|-damage|p1a: Slowking|4/100|[from] hail
+|upkeep
+|turn|19
+|choice|move scald|move heavyslam
+|
+|move|p2a: Aggron|Heavy Slam|p1a: Slowking
+|-resisted|p1a: Slowking
+|-crit|p1a: Slowking
+|-damage|p1a: Slowking|0 fnt
+|faint|p1a: Slowking
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Aggron|70/100|[from] hail
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Hitmonlee|Hitmonlee, M|44/100
+|turn|20
+|choice|move highjumpkick|move heavyslam
+|
+|move|p1a: Hitmonlee|High Jump Kick|p2a: Aggron
+|-supereffective|p2a: Aggron
+|-damage|p2a: Aggron|0 fnt
+|faint|p2a: Aggron
+|
+|win|phmbarcellos
+|raw|phmbarcellos's rating: 1124 &rarr; <strong>1144</strong><br />(+20 for winning)
+|raw|SNK4-ITA 458's rating: 1057 &rarr; <strong>1042</strong><br />(-15 for losing)
+|l|phmbarcellos

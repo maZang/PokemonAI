@@ -1,0 +1,252 @@
+|j|KokoBoT
+|j|ComeJamoncetes
+|player|p1|KokoBoT|1
+|player|p2|ComeJamoncetes|32
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|17082,4052,24394,28543,30680,46719,6340,39842,29693,59226,34792,62752
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Dodrio, M|item
+|poke|p1|Clefairy, M|item
+|poke|p1|Malamar, M|item
+|poke|p1|Cacturne, M|item
+|poke|p1|Hitmonchan, M|item
+|poke|p1|Garbodor, M|item
+|poke|p2|Omastar, M|item
+|poke|p2|Lanturn, M|item
+|poke|p2|Rotom-Fan|item
+|poke|p2|Ninetales, M|item
+|poke|p2|Articuno|item
+|poke|p2|Lilligant, F|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|c|☆KokoBoT|Suerte n-n
+|choice|team 5, team 1, team 2, team 3, team 4, team 6|team 5, team 2, team 3, team 4, team 1, team 6
+|
+|start
+|switch|p1a: Hitmonchan|Hitmonchan, M|100/100
+|switch|p2a: Articuno|Articuno|100/100
+|-ability|p2a: Articuno|Pressure
+|turn|1
+|choice|move stoneedge|move hurricane
+|
+|move|p2a: Articuno|Hurricane|p1a: Hitmonchan
+|-supereffective|p1a: Hitmonchan
+|-damage|p1a: Hitmonchan|0 fnt
+|faint|p1a: Hitmonchan
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Garbodor|Garbodor, M|100/100
+|turn|2
+|choice|move gunkshot|move hurricane
+|
+|move|p2a: Articuno|Hurricane|p1a: Garbodor
+|-damage|p1a: Garbodor|46/100
+|move|p1a: Garbodor|Gunk Shot|p2a: Articuno
+|-damage|p2a: Articuno|59/100
+|
+|-heal|p2a: Articuno|65/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|choice|move gunkshot|move hurricane
+|
+|move|p2a: Articuno|Hurricane|p1a: Garbodor
+|-damage|p1a: Garbodor|0 fnt
+|faint|p1a: Garbodor
+|
+|-heal|p2a: Articuno|72/100|[from] item: Leftovers
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Malamar|Malamar, M|100/100
+|turn|4
+|choice|move knockoff|move hurricane
+|
+|move|p2a: Articuno|Hurricane|p1a: Malamar
+|-damage|p1a: Malamar|61/100
+|-start|p1a: Malamar|confusion
+|-activate|p1a: Malamar|confusion
+|-damage|p1a: Malamar|53/100|[from] confusion
+|
+|-heal|p2a: Articuno|78/100|[from] item: Leftovers
+|-heal|p1a: Malamar|59/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|choice|move rest|move hurricane
+|
+|move|p2a: Articuno|Hurricane|p1a: Malamar|[miss]
+|-miss|p2a: Articuno|p1a: Malamar
+|-activate|p1a: Malamar|confusion
+|-damage|p1a: Malamar|49/100|[from] confusion
+|
+|-heal|p2a: Articuno|84/100|[from] item: Leftovers
+|-heal|p1a: Malamar|56/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|choice|move superpower|move hurricane
+|
+|move|p2a: Articuno|Hurricane|p1a: Malamar
+|-damage|p1a: Malamar|19/100
+|-activate|p1a: Malamar|confusion
+|move|p1a: Malamar|Superpower|p2a: Articuno
+|-damage|p2a: Articuno|58/100
+|-boost|p1a: Malamar|atk|1
+|-boost|p1a: Malamar|def|1
+|
+|-heal|p2a: Articuno|64/100|[from] item: Leftovers
+|-heal|p1a: Malamar|25/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|choice|move rest|move hurricane
+|
+|move|p2a: Articuno|Hurricane|p1a: Malamar
+|-damage|p1a: Malamar|0 fnt
+|faint|p1a: Malamar
+|
+|-heal|p2a: Articuno|71/100|[from] item: Leftovers
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Clefairy|Clefairy, M|100/100
+|turn|8
+|choice|move thunderwave|move hurricane
+|
+|move|p2a: Articuno|Hurricane|p1a: Clefairy|[miss]
+|-miss|p2a: Articuno|p1a: Clefairy
+|move|p1a: Clefairy|Thunder Wave|p2a: Articuno
+|-status|p2a: Articuno|par
+|
+|-heal|p2a: Articuno|77/100 par|[from] item: Leftovers
+|upkeep
+|turn|9
+|choice|move moonblast|move hurricane
+|
+|move|p1a: Clefairy|Moonblast|p2a: Articuno
+|-damage|p2a: Articuno|59/100 par
+|move|p2a: Articuno|Hurricane|p1a: Clefairy
+|-damage|p1a: Clefairy|73/100
+|-start|p1a: Clefairy|confusion
+|
+|-heal|p2a: Articuno|65/100 par|[from] item: Leftovers
+|upkeep
+|turn|10
+|choice|move stealthrock|move hurricane
+|
+|-activate|p1a: Clefairy|confusion
+|-damage|p1a: Clefairy|67/100|[from] confusion
+|move|p2a: Articuno|Hurricane|p1a: Clefairy
+|-damage|p1a: Clefairy|38/100
+|
+|-heal|p2a: Articuno|71/100 par|[from] item: Leftovers
+|upkeep
+|turn|11
+|choice|move moonblast|move hurricane
+|
+|-activate|p1a: Clefairy|confusion
+|-damage|p1a: Clefairy|32/100|[from] confusion
+|move|p2a: Articuno|Hurricane|p1a: Clefairy|[miss]
+|-miss|p2a: Articuno|p1a: Clefairy
+|
+|-heal|p2a: Articuno|77/100 par|[from] item: Leftovers
+|upkeep
+|turn|12
+|choice|move softboiled|move hurricane
+|
+|-activate|p1a: Clefairy|confusion
+|-damage|p1a: Clefairy|27/100|[from] confusion
+|move|p2a: Articuno|Hurricane|p1a: Clefairy
+|-damage|p1a: Clefairy|0 fnt
+|faint|p1a: Clefairy
+|
+|-heal|p2a: Articuno|84/100 par|[from] item: Leftovers
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Dodrio|Dodrio, M|100/100
+|turn|13
+|choice|move return|move freezedry
+|
+|move|p1a: Dodrio|Return|p2a: Articuno
+|-damage|p2a: Articuno|5/100 par
+|move|p2a: Articuno|Freeze-Dry|p1a: Dodrio
+|-supereffective|p1a: Dodrio
+|-damage|p1a: Dodrio|0 fnt
+|faint|p1a: Dodrio
+|
+|-heal|p2a: Articuno|11/100 par|[from] item: Leftovers
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Cacturne|Cacturne, M|100/100
+|turn|14
+|choice|move gigadrain|move hurricane
+|
+|move|p1a: Cacturne|Giga Drain|p2a: Articuno
+|-resisted|p2a: Articuno
+|-damage|p2a: Articuno|0 fnt
+|-damage|p1a: Cacturne|91/100|[from] item: Life Orb
+|faint|p2a: Articuno
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Lanturn|Lanturn, M|100/100
+|turn|15
+|choice|move gigadrain|move hiddenpower
+|
+|move|p2a: Lanturn|Hidden Power|p1a: Cacturne
+|-resisted|p1a: Cacturne
+|-damage|p1a: Cacturne|66/100
+|move|p1a: Cacturne|Giga Drain|p2a: Lanturn
+|-supereffective|p2a: Lanturn
+|-damage|p2a: Lanturn|3/100
+|-heal|p1a: Cacturne|100/100|[from] drain|[of] p2a: Lanturn
+|-damage|p1a: Cacturne|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|16
+|choice|move darkpulse|move hiddenpower
+|
+|move|p2a: Lanturn|Hidden Power|p1a: Cacturne
+|-resisted|p1a: Cacturne
+|-damage|p1a: Cacturne|66/100
+|move|p1a: Cacturne|Dark Pulse|p2a: Lanturn
+|-damage|p2a: Lanturn|0 fnt
+|-damage|p1a: Cacturne|56/100|[from] item: Life Orb
+|faint|p2a: Lanturn
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Omastar|Omastar, M|100/100
+|turn|17
+|choice|move gigadrain|move scald
+|
+|move|p1a: Cacturne|Giga Drain|p2a: Omastar
+|-supereffective|p2a: Omastar
+|-damage|p2a: Omastar|0 fnt
+|-heal|p1a: Cacturne|100/100|[from] drain|[of] p2a: Omastar
+|-damage|p1a: Cacturne|91/100|[from] item: Life Orb
+|faint|p2a: Omastar
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Ninetales|Ninetales, M|100/100
+|turn|18
+|choice|move darkpulse|move fireblast
+|
+|move|p2a: Ninetales|Fire Blast|p1a: Cacturne
+|-supereffective|p1a: Cacturne
+|-damage|p1a: Cacturne|0 fnt
+|-damage|p2a: Ninetales|91/100|[from] item: Life Orb
+|faint|p1a: Cacturne
+|
+|win|ComeJamoncetes
+|c|☆KokoBoT|gg
+|l|KokoBoT

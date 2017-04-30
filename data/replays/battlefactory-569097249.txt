@@ -1,0 +1,34 @@
+|j|pawel12xd
+|j|kemamonn
+|player|p1|pawel12xd|266
+|player|p2|kemamonn|170
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|46170,37853,9163,56038,6944,41001,31673,17945,14239,45474,20230,9291
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Camerupt, M|item
+|poke|p1|Eelektross, M|item
+|poke|p1|Diancie|item
+|poke|p1|Virizion|item
+|poke|p1|Drapion, M|item
+|poke|p1|Hitmontop, M|item
+|poke|p2|Golbat, M|item
+|poke|p2|Bronzong|item
+|poke|p2|Scrafty, M|item
+|poke|p2|Hitmonlee, M|item
+|poke|p2|Roselia, M|item
+|poke|p2|Togetic, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|-message|pawel12xd forfeited.
+|
+|win|kemamonn
+|l|pawel12xd
+|raw|pawel12xd's rating: 1000 &rarr; <strong>1000</strong><br />(+0 for losing)
+|raw|kemamonn's rating: 1214 &rarr; <strong>1225</strong><br />(+11 for winning)
+|l|kemamonn
+|j|pawel12xd

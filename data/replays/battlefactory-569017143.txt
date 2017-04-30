@@ -1,0 +1,220 @@
+|j|Rainarohith
+|j|Bommie21CL
+|player|p1|Rainarohith|92
+|player|p2|Bommie21CL|76
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|43072,30050,28534,43261,6010,10589,32178,49866,57527,24022,4952,17709
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Excadrill, M|item
+|poke|p1|Crawdaunt, M|item
+|poke|p1|Keldeo|item
+|poke|p1|Clefable, M|item
+|poke|p1|Talonflame, M|
+|poke|p1|Klefki, M|item
+|poke|p2|Staraptor, M|item
+|poke|p2|Togekiss, M|item
+|poke|p2|Conkeldurr, M|item
+|poke|p2|Diggersby, M|item
+|poke|p2|Jirachi|item
+|poke|p2|Keldeo|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|j|joeyski10
+|c| joeyski10|stalk
+|c|☆Bommie21CL|pranay so long
+|c|☆Bommie21CL|come on
+|c|☆Bommie21CL|join
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Rainarohith)
+|c| joeyski10|Mas nauna pa ko haha
+|c|☆Bommie21CL|omg im dead
+|j|BewearPranay
+|j|55ya
+|c| 55ya|BOMMIE!!!
+|choice|team 1, team 2, team 3, team 4, team 5, team 6|team 1, team 2, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|switch|p2a: Staraptor|Staraptor, M|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|1
+|c| 55ya|:P
+|c| BewearPranay|ok start\
+|j|Aftaab
+|c|☆Bommie21CL|fuck mym heart beat
+|c| 55ya|I will kill u if u lose bommie XD
+|c| joeyski10|Go Bommie panget ><
+|c|☆Bommie21CL|im high blood
+|c|☆Bommie21CL|i think
+|c|☆Bommie21CL|lol
+|choice|move ironhead|move closecombat
+|
+|move|p2a: Staraptor|Close Combat|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|-unboost|p2a: Staraptor|def|1
+|-unboost|p2a: Staraptor|spd|1
+|faint|p1a: Excadrill
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Clefable|Clefable, M|100/100
+|turn|2
+|j|labloblola
+|c| 55ya|:P no sturdy lolll
+|c| 55ya|Wait
+|c| 55ya|I dun think exca can get sturdy :V
+|choice|move moonblast|switch 4
+|
+|switch|p2a: Diggersby|Diggersby, M|100/100
+|move|p1a: Clefable|Moonblast|p2a: Diggersby
+|-damage|p2a: Diggersby|59/100
+|
+|upkeep
+|turn|3
+|c| 55ya|Whatever xD
+|c| 55ya|.-.
+|c|☆Rainarohith|He got good team
+|choice|switch 3|move earthquake
+|
+|switch|p1a: Keldeo|Keldeo|100/100
+|move|p2a: Diggersby|Earthquake|p1a: Keldeo
+|-damage|p1a: Keldeo|0 fnt
+|-damage|p2a: Diggersby|49/100|[from] item: Life Orb
+|faint|p1a: Keldeo
+|
+|upkeep
+|c| BewearPranay|hmm both have good team
+|c| 55ya|Idk what switch was that :V
+|c| BewearPranay|wth
+|c| 55ya|O damn
+|c| BewearPranay|lol one hit
+|choice|switch 2|
+|
+|switch|p1a: Crawdaunt|Crawdaunt, M|100/100
+|turn|4
+|c| joeyski10|Pa humble pa si bommie :3
+|c| 55ya|Aqua jet craw calling it
+|choice|move crabhammer|move earthquake
+|
+|move|p2a: Diggersby|Earthquake|p1a: Crawdaunt
+|-damage|p1a: Crawdaunt|0 fnt
+|-damage|p2a: Diggersby|39/100|[from] item: Life Orb
+|faint|p1a: Crawdaunt
+|
+|upkeep
+|c| 55ya|:V
+|c|☆Bommie21CL|OMG
+|c| BewearPranay|wew
+|choice|switch 6|
+|
+|switch|p1a: Klefki|Klefki, M|100/100
+|turn|5
+|c|☆Bommie21CL|im fucking newvous
+|c| 55ya|EQ AGAIN :P
+|choice|move foulplay|move return
+|
+|move|p2a: Diggersby|Return|p1a: Klefki
+|-resisted|p1a: Klefki
+|-crit|p1a: Klefki
+|-damage|p1a: Klefki|35/100
+|-damage|p2a: Diggersby|29/100|[from] item: Life Orb
+|move|p1a: Klefki|Foul Play|p2a: Diggersby
+|-damage|p2a: Diggersby|1/100
+|
+|upkeep
+|turn|6
+|c| BewearPranay|now thats we call bullying lol
+|c| 55ya|......
+|c| 55ya|........
+|c| 55ya|..........
+|c| 55ya|..........
+|c| 55ya|Why bommie
+|choice|move foulplay|move return
+|
+|move|p2a: Diggersby|Return|p1a: Klefki
+|-resisted|p1a: Klefki
+|-damage|p1a: Klefki|0 fnt
+|-damage|p2a: Diggersby|0 fnt|[from] item: Life Orb
+|faint|p1a: Klefki
+|faint|p2a: Diggersby
+|
+|upkeep
+|c| 55ya|U had 1 job
+|c| joeyski10|^
+|c| BewearPranay|ahaha
+|c|☆Bommie21CL|i thought klefki had levitate
+|choice|switch 3|switch 4
+|
+|switch|p2a: Staraptor|Staraptor, M|100/100
+|switch|p1a: Clefable|Clefable, M|100/100
+|turn|7
+|c| 55ya|Klefki dun have levitate :V
+|choice|move moonblast|move doubleedge
+|
+|move|p2a: Staraptor|Double-Edge|p1a: Clefable
+|-damage|p1a: Clefable|2/100
+|-damage|p2a: Staraptor|59/100|[from] recoil|[of] p1a: Clefable
+|move|p1a: Clefable|Moonblast|p2a: Staraptor
+|-damage|p2a: Staraptor|4/100
+|
+|-heal|p1a: Clefable|8/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|c|☆Bommie21CL|idk lol
+|c| BewearPranay|o.0
+|choice|move moonblast|move doubleedge
+|
+|move|p2a: Staraptor|Double-Edge|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|-damage|p2a: Staraptor|1/100|[from] recoil|[of] p1a: Clefable
+|faint|p1a: Clefable
+|
+|upkeep
+|c| joeyski10|1%
+|choice|switch 5|
+|
+|switch|p1a: Talonflame|Talonflame, M|100/100
+|turn|9
+|c|☆Bommie21CL|omg
+|c| BewearPranay|omg last poke
+|choice|move acrobatics|move doubleedge
+|
+|move|p1a: Talonflame|Acrobatics|p2a: Staraptor
+|-damage|p2a: Staraptor|0 fnt
+|faint|p2a: Staraptor
+|
+|upkeep
+|c| 55ya|Hmmm
+|choice||switch 6
+|
+|switch|p2a: Keldeo|Keldeo|100/100
+|turn|10
+|c| 55ya|Thisll be painful tbh
+|choice|move acrobatics|move hydropump
+|
+|move|p1a: Talonflame|Acrobatics|p2a: Keldeo
+|-supereffective|p2a: Keldeo
+|-damage|p2a: Keldeo|21/100
+|move|p2a: Keldeo|Hydro Pump|p1a: Talonflame
+|-supereffective|p1a: Talonflame
+|-damage|p1a: Talonflame|0 fnt
+|faint|p1a: Talonflame
+|
+|win|Bommie21CL
+|c| 55ya|Nvm
+|c| 55ya|gg
+|c| Aftaab|gg
+|c| BewearPranay|wew
+|c|☆Bommie21CL|omg
+|c|☆Bommie21CL|omg
+|c| joeyski10|Brave bird?
+|c|☆Bommie21CL|gg
+|c|☆Bommie21CL|gg
+|c| 55ya|Yeah where da brave at XD
+|l|Aftaab
+|l|Rainarohith

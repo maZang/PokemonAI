@@ -1,0 +1,509 @@
+|j|Niatar
+|j|X good88888
+|player|p1|Niatar|7
+|player|p2|X good88888|262
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|38507,16268,40004,32741,43909,26766,20137,54446,57852,64859,7893,11150
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Banette, M|item
+|poke|p1|Smeargle, M|item
+|poke|p1|Flygon, M|item
+|poke|p1|Eelektross, M|item
+|poke|p1|Gallade, M|item
+|poke|p1|Alomomola, M|item
+|poke|p2|Gallade, M|item
+|poke|p2|Sawk, M|item
+|poke|p2|Golbat, M|item
+|poke|p2|Jellicent, M|item
+|poke|p2|Registeel|item
+|poke|p2|Granbull, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 2, team 1, team 3, team 4, team 5, team 6|team 3, team 2, team 1, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Smeargle|Smeargle, M|100/100
+|switch|p2a: Golbat|Golbat, M|100/100
+|turn|1
+|choice|switch 4|move taunt
+|
+|switch|p1a: Eelektross|Eelektross, M|100/100
+|move|p2a: Golbat|Taunt|p1a: Eelektross
+|-start|p1a: Eelektross|move: Taunt
+|
+|upkeep
+|turn|2
+|choice|move voltswitch|switch 5
+|
+|switch|p2a: Registeel|Registeel|100/100
+|move|p1a: Eelektross|Volt Switch|p2a: Registeel
+|-damage|p2a: Registeel|82/100
+|choice|switch 5|
+|
+|switch|p1a: Gallade|Gallade, M|100/100
+|
+|-heal|p2a: Registeel|88/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|choice|move knockoff|move thunderwave
+|
+|move|p1a: Gallade|Knock Off|p2a: Registeel
+|-damage|p2a: Registeel|53/100
+|-enditem|p2a: Registeel|Leftovers|[from] move: Knock Off|[of] p1a: Gallade
+|move|p2a: Registeel|Thunder Wave|p1a: Gallade
+|-status|p1a: Gallade|par
+|
+|upkeep
+|turn|4
+|choice|switch 3|move stealthrock
+|
+|switch|p1a: Flygon|Flygon, M|100/100
+|move|p2a: Registeel|Stealth Rock|p1a: Flygon
+|-sidestart|p1: Niatar|move: Stealth Rock
+|
+|upkeep
+|turn|5
+|choice|move defog|move seismictoss
+|
+|move|p1a: Flygon|Defog|p2a: Registeel
+|-fail|p2a: Registeel|unboost|[from] ability: Clear Body|[of] p2a: Registeel
+|-sideend|p1: Niatar|Stealth Rock|[from] move: Defog|[of] p1a: Flygon
+|move|p2a: Registeel|Seismic Toss|p1a: Flygon
+|-damage|p1a: Flygon|67/100
+|
+|upkeep
+|turn|6
+|choice|move earthpower|switch 5
+|
+|switch|p2a: Golbat|Golbat, M|100/100
+|move|p1a: Flygon|Earth Power|p2a: Golbat
+|-immune|p2a: Golbat|[msg]
+|
+|upkeep
+|turn|7
+|choice|move dracometeor|move bravebird
+|
+|move|p1a: Flygon|Draco Meteor|p2a: Golbat
+|-damage|p2a: Golbat|46/100
+|-unboost|p1a: Flygon|spa|2
+|-damage|p1a: Flygon|57/100|[from] item: Life Orb
+|move|p2a: Golbat|Brave Bird|p1a: Flygon
+|-damage|p1a: Flygon|10/100
+|-damage|p2a: Golbat|33/100|[from] recoil|[of] p1a: Flygon
+|
+|upkeep
+|turn|8
+|choice|switch 5|move roost
+|
+|switch|p1a: Eelektross|Eelektross, M|100/100
+|move|p2a: Golbat|Roost|p2a: Golbat
+|-heal|p2a: Golbat|83/100
+|
+|upkeep
+|turn|9
+|choice|move knockoff|switch 3
+|
+|switch|p2a: Gallade|Gallade, M|100/100
+|move|p1a: Eelektross|Knock Off|p2a: Gallade
+|-damage|p2a: Gallade|58/100
+|-ability|p2a: Gallade|Justified|boost
+|-boost|p2a: Gallade|atk|1
+|-enditem|p2a: Gallade|Life Orb|[from] move: Knock Off|[of] p1a: Eelektross
+|
+|upkeep
+|turn|10
+|choice|switch 6|move zenheadbutt
+|
+|switch|p1a: Alomomola|Alomomola, M|100/100
+|move|p2a: Gallade|Zen Headbutt|p1a: Alomomola
+|-crit|p1a: Alomomola
+|-damage|p1a: Alomomola|35/100
+|
+|-heal|p1a: Alomomola|41/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|choice|move protect|move knockoff
+|
+|move|p1a: Alomomola|Protect|p1a: Alomomola
+|-singleturn|p1a: Alomomola|Protect
+|move|p2a: Gallade|Knock Off|p1a: Alomomola
+|-activate|p1a: Alomomola|move: Protect
+|
+|-heal|p1a: Alomomola|47/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|choice|move wish|move knockoff
+|
+|move|p2a: Gallade|Knock Off|p1a: Alomomola
+|-damage|p1a: Alomomola|7/100
+|-enditem|p1a: Alomomola|Leftovers|[from] move: Knock Off|[of] p2a: Gallade
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|upkeep
+|turn|13
+|choice|move protect|move swordsdance
+|
+|move|p1a: Alomomola|Protect|p1a: Alomomola
+|-singleturn|p1a: Alomomola|Protect
+|move|p2a: Gallade|Swords Dance|p2a: Gallade
+|-boost|p2a: Gallade|atk|2
+|
+|-heal|p1a: Alomomola|57/100|[from] move: Wish|[wisher] Alomomola
+|upkeep
+|turn|14
+|choice|move scald|move zenheadbutt
+|
+|move|p2a: Gallade|Zen Headbutt|p1a: Alomomola
+|-damage|p1a: Alomomola|0 fnt
+|faint|p1a: Alomomola
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Banette|Banette, M|100/100
+|turn|15
+|choice|move suckerpunch mega|move knockoff
+|
+|detailschange|p1a: Banette|Banette-Mega, M
+|-mega|p1a: Banette|Banette|Banettite
+|move|p1a: Banette|Sucker Punch|p2a: Gallade
+|-damage|p2a: Gallade|0 fnt
+|faint|p2a: Gallade
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Sawk|Sawk, M|100/100
+|-ability|p2a: Sawk|Mold Breaker
+|turn|16
+|choice|move willowisp|move knockoff
+|
+|move|p1a: Banette|Will-O-Wisp|p2a: Sawk
+|-status|p2a: Sawk|brn
+|-enditem|p2a: Sawk|Lum Berry|[eat]
+|-curestatus|p2a: Sawk|brn|[msg]
+|move|p2a: Sawk|Knock Off|p1a: Banette
+|-supereffective|p1a: Banette
+|-damage|p1a: Banette|36/100
+|
+|upkeep
+|turn|17
+|choice|move willowisp|switch 5
+|
+|switch|p2a: Registeel|Registeel|53/100
+|move|p1a: Banette|Will-O-Wisp|p2a: Registeel|[miss]
+|-miss|p1a: Banette|p2a: Registeel
+|
+|upkeep
+|turn|18
+|choice|switch 5|move stealthrock
+|
+|switch|p1a: Flygon|Flygon, M|10/100
+|move|p2a: Registeel|Stealth Rock|p1a: Flygon
+|-sidestart|p1: Niatar|move: Stealth Rock
+|
+|upkeep
+|turn|19
+|choice|move roost|move seismictoss
+|
+|move|p1a: Flygon|Roost|p1a: Flygon
+|-heal|p1a: Flygon|61/100
+|move|p2a: Registeel|Seismic Toss|p1a: Flygon
+|-damage|p1a: Flygon|27/100
+|
+|upkeep
+|turn|20
+|choice|move roost|move seismictoss
+|
+|move|p1a: Flygon|Roost|p1a: Flygon
+|-heal|p1a: Flygon|78/100
+|move|p2a: Registeel|Seismic Toss|p1a: Flygon
+|-damage|p1a: Flygon|44/100
+|
+|upkeep
+|turn|21
+|choice|move defog|move seismictoss
+|
+|move|p1a: Flygon|Defog|p2a: Registeel
+|-fail|p2a: Registeel|unboost|[from] ability: Clear Body|[of] p2a: Registeel
+|-sideend|p1: Niatar|Stealth Rock|[from] move: Defog|[of] p1a: Flygon
+|move|p2a: Registeel|Seismic Toss|p1a: Flygon
+|-damage|p1a: Flygon|11/100
+|
+|upkeep
+|turn|22
+|choice|move roost|move seismictoss
+|
+|move|p1a: Flygon|Roost|p1a: Flygon
+|-heal|p1a: Flygon|61/100
+|move|p2a: Registeel|Seismic Toss|p1a: Flygon
+|-damage|p1a: Flygon|28/100
+|
+|upkeep
+|turn|23
+|choice|move roost|move seismictoss
+|
+|move|p1a: Flygon|Roost|p1a: Flygon
+|-heal|p1a: Flygon|78/100
+|move|p2a: Registeel|Seismic Toss|p1a: Flygon
+|-damage|p1a: Flygon|45/100
+|
+|upkeep
+|turn|24
+|choice|move earthpower|switch 6
+|
+|switch|p2a: Granbull|Granbull, M|100/100
+|-ability|p2a: Granbull|Intimidate|boost
+|-unboost|p1a: Flygon|atk|1
+|move|p1a: Flygon|Earth Power|p2a: Granbull
+|-damage|p2a: Granbull|38/100
+|-damage|p1a: Flygon|35/100|[from] item: Life Orb
+|
+|-heal|p2a: Granbull|45/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|choice|move earthpower|switch 3
+|
+|switch|p2a: Golbat|Golbat, M|83/100
+|move|p1a: Flygon|Earth Power|p2a: Golbat
+|-immune|p2a: Golbat|[msg]
+|
+|upkeep
+|turn|26
+|choice|move roost|move superfang
+|
+|move|p1a: Flygon|Roost|p1a: Flygon
+|-heal|p1a: Flygon|85/100
+|move|p2a: Golbat|Super Fang|p1a: Flygon
+|-damage|p1a: Flygon|43/100
+|
+|upkeep
+|turn|27
+|choice|switch 6|move bravebird
+|
+|switch|p1a: Eelektross|Eelektross, M|100/100
+|move|p2a: Golbat|Brave Bird|p1a: Eelektross
+|-resisted|p1a: Eelektross
+|-damage|p1a: Eelektross|83/100
+|-damage|p2a: Golbat|77/100|[from] recoil|[of] p1a: Eelektross
+|
+|upkeep
+|turn|28
+|choice|move voltswitch|move superfang
+|
+|move|p2a: Golbat|Super Fang|p1a: Eelektross|[miss]
+|-miss|p2a: Golbat|p1a: Eelektross
+|move|p1a: Eelektross|Volt Switch|p2a: Golbat
+|-supereffective|p2a: Golbat
+|-damage|p2a: Golbat|22/100
+|c|☆X good88888|О_О
+|c|☆X good88888|офигел?
+|c|☆Niatar|будешь БМить - не буду с тобой играть
+|c|☆X good88888|ты всегда меня хаксишь :(
+|choice|switch 6|
+|
+|switch|p1a: Flygon|Flygon, M|43/100
+|
+|upkeep
+|turn|29
+|choice|move dracometeor|move roost
+|
+|move|p1a: Flygon|Draco Meteor|p2a: Golbat
+|-damage|p2a: Golbat|0 fnt
+|-unboost|p1a: Flygon|spa|2
+|-damage|p1a: Flygon|33/100|[from] item: Life Orb
+|faint|p2a: Golbat
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Granbull|Granbull, M|45/100
+|-ability|p2a: Granbull|Intimidate|boost
+|-unboost|p1a: Flygon|atk|1
+|turn|30
+|choice|switch 4|move playrough
+|
+|switch|p1a: Smeargle|Smeargle, M|100/100
+|move|p2a: Granbull|Play Rough|p1a: Smeargle
+|-damage|p1a: Smeargle|16/100
+|
+|-heal|p2a: Granbull|51/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|choice|move spore|switch 6
+|
+|switch|p2a: Registeel|Registeel|53/100
+|move|p1a: Smeargle|Spore|p2a: Registeel
+|-status|p2a: Registeel|slp
+|
+|upkeep
+|turn|32
+|choice|move stickyweb|move stealthrock
+|
+|move|p1a: Smeargle|Sticky Web|p2a: Registeel
+|-sidestart|p2: X good88888|move: Sticky Web
+|cant|p2a: Registeel|slp
+|
+|upkeep
+|turn|33
+|choice|move stealthrock|move stealthrock
+|
+|move|p1a: Smeargle|Stealth Rock|p2a: Registeel
+|-sidestart|p2: X good88888|move: Stealth Rock
+|cant|p2a: Registeel|slp
+|
+|upkeep
+|turn|34
+|choice|switch 4|move stealthrock
+|
+|switch|p1a: Flygon|Flygon, M|33/100
+|-curestatus|p2a: Registeel|slp|[msg]
+|move|p2a: Registeel|Stealth Rock|p1a: Flygon
+|-sidestart|p1: Niatar|move: Stealth Rock
+|
+|upkeep
+|turn|35
+|c|☆X good88888|верните мне хакс зинкс
+|choice|move roost|move seismictoss
+|
+|move|p1a: Flygon|Roost|p1a: Flygon
+|-heal|p1a: Flygon|83/100
+|move|p2a: Registeel|Seismic Toss|p1a: Flygon
+|-damage|p1a: Flygon|50/100
+|
+|upkeep
+|turn|36
+|choice|move roost|move seismictoss
+|
+|move|p1a: Flygon|Roost|p1a: Flygon
+|-heal|p1a: Flygon|99/100
+|move|p2a: Registeel|Seismic Toss|p1a: Flygon
+|-damage|p1a: Flygon|67/100
+|
+|upkeep
+|turn|37
+|choice|move earthpower|move seismictoss
+|
+|move|p1a: Flygon|Earth Power|p2a: Registeel
+|-supereffective|p2a: Registeel
+|-damage|p2a: Registeel|10/100
+|-damage|p1a: Flygon|57/100|[from] item: Life Orb
+|move|p2a: Registeel|Seismic Toss|p1a: Flygon
+|-damage|p1a: Flygon|24/100
+|
+|upkeep
+|turn|38
+|choice|move roost|move seismictoss
+|
+|move|p1a: Flygon|Roost|p1a: Flygon
+|-heal|p1a: Flygon|74/100
+|move|p2a: Registeel|Seismic Toss|p1a: Flygon
+|-damage|p1a: Flygon|41/100
+|
+|upkeep
+|turn|39
+|choice|move roost|move seismictoss
+|
+|move|p1a: Flygon|Roost|p1a: Flygon
+|-heal|p1a: Flygon|91/100
+|move|p2a: Registeel|Seismic Toss|p1a: Flygon
+|-damage|p1a: Flygon|58/100
+|
+|upkeep
+|turn|40
+|choice|move earthpower|move seismictoss
+|
+|move|p1a: Flygon|Earth Power|p2a: Registeel
+|-supereffective|p2a: Registeel
+|-damage|p2a: Registeel|0 fnt
+|-damage|p1a: Flygon|48/100|[from] item: Life Orb
+|faint|p2a: Registeel
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Sawk|Sawk, M|100/100
+|-activate|p2a: Sawk|move: Sticky Web
+|-unboost|p2a: Sawk|spe|1
+|-damage|p2a: Sawk|94/100|[from] Stealth Rock
+|-ability|p2a: Sawk|Mold Breaker
+|turn|41
+|choice|move dracometeor|move knockoff
+|
+|move|p1a: Flygon|Draco Meteor|p2a: Sawk
+|-damage|p2a: Sawk|3/100
+|-unboost|p1a: Flygon|spa|2
+|-damage|p1a: Flygon|38/100|[from] item: Life Orb
+|move|p2a: Sawk|Knock Off|p1a: Flygon
+|-damage|p1a: Flygon|0 fnt
+|-enditem|p1a: Flygon|Life Orb|[from] move: Knock Off|[of] p2a: Sawk
+|faint|p1a: Flygon
+|
+|upkeep
+|c|☆X good88888|наконец
+|choice|switch 6|
+|
+|switch|p1a: Eelektross|Eelektross, M|83/100
+|-damage|p1a: Eelektross|70/100|[from] Stealth Rock
+|turn|42
+|choice|move gigadrain|move knockoff
+|
+|move|p2a: Sawk|Knock Off|p1a: Eelektross
+|-damage|p1a: Eelektross|30/100
+|-enditem|p1a: Eelektross|Assault Vest|[from] move: Knock Off|[of] p2a: Sawk
+|move|p1a: Eelektross|Giga Drain|p2a: Sawk
+|-damage|p2a: Sawk|0 fnt
+|-heal|p1a: Eelektross|31/100|[from] drain|[of] p2a: Sawk
+|faint|p2a: Sawk
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Jellicent|Jellicent, M|100/100
+|-damage|p2a: Jellicent|88/100|[from] Stealth Rock
+|-activate|p2a: Jellicent|move: Sticky Web
+|-unboost|p2a: Jellicent|spe|1
+|turn|43
+|choice|move gigadrain|move willowisp
+|
+|move|p1a: Eelektross|Giga Drain|p2a: Jellicent
+|-supereffective|p2a: Jellicent
+|-damage|p2a: Jellicent|45/100
+|-heal|p1a: Eelektross|54/100|[from] drain|[of] p2a: Jellicent
+|move|p2a: Jellicent|Will-O-Wisp|p1a: Eelektross|[miss]
+|-miss|p2a: Jellicent|p1a: Eelektross
+|
+|-heal|p2a: Jellicent|51/100|[from] item: Leftovers
+|upkeep
+|turn|44
+|c|☆X good88888|.______________.
+|choice|move knockoff|move recover
+|
+|move|p1a: Eelektross|Knock Off|p2a: Jellicent
+|-supereffective|p2a: Jellicent
+|-damage|p2a: Jellicent|16/100
+|-enditem|p2a: Jellicent|Leftovers|[from] move: Knock Off|[of] p1a: Eelektross
+|move|p2a: Jellicent|Recover|p2a: Jellicent
+|-heal|p2a: Jellicent|66/100
+|
+|upkeep
+|turn|45
+|choice|move gigadrain|move willowisp
+|
+|move|p1a: Eelektross|Giga Drain|p2a: Jellicent
+|-supereffective|p2a: Jellicent
+|-damage|p2a: Jellicent|24/100
+|-heal|p1a: Eelektross|77/100|[from] drain|[of] p2a: Jellicent
+|move|p2a: Jellicent|Will-O-Wisp|p1a: Eelektross|[miss]
+|-miss|p2a: Jellicent|p1a: Eelektross
+|
+|upkeep
+|turn|46
+|-message|X good88888 forfeited.
+|
+|win|Niatar
+|l|X good88888

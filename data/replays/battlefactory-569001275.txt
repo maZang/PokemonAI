@@ -1,0 +1,393 @@
+|j|johnbonn
+|j|SinisterResolute
+|player|p1|johnbonn|25
+|player|p2|SinisterResolute|56
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|11267,43926,48276,9947,42042,49472,51144,54971,31881,38852,21124,12640
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Darmanitan, M|item
+|poke|p1|Blastoise, M|item
+|poke|p1|Shuckle, M|item
+|poke|p1|Cresselia, F|item
+|poke|p1|Whimsicott, M|item
+|poke|p1|Goodra, M|item
+|poke|p2|Sableye, M|item
+|poke|p2|Donphan, M|item
+|poke|p2|Chandelure, M|item
+|poke|p2|Galvantula, M|item
+|poke|p2|Mienshao, M|item
+|poke|p2|Toxicroak, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|j|Brawlion
+|c|☆johnbonn|good luck man
+|l|Brawlion
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by SinisterResolute)
+|c|☆SinisterResolute|Thanks
+|choice|team 1, team 2, team 3, team 4, team 5, team 6|team 2, team 1, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Darmanitan|Darmanitan, M|100/100
+|switch|p2a: Donphan|Donphan, M|100/100
+|turn|1
+|choice|move uturn|move stealthrock
+|
+|move|p1a: Darmanitan|U-turn|p2a: Donphan
+|-damage|p2a: Donphan|86/100
+|choice|switch 2|
+|
+|switch|p1a: Blastoise|Blastoise, M|100/100
+|move|p2a: Donphan|Stealth Rock|p1a: Blastoise
+|-sidestart|p1: johnbonn|move: Stealth Rock
+|
+|-heal|p2a: Donphan|92/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|j|BigFish LilFish
+|j|Snowblind l
+|choice|move icebeam mega|switch 6
+|
+|switch|p2a: Toxicroak|Toxicroak, M|100/100
+|detailschange|p1a: Blastoise|Blastoise-Mega, M
+|-mega|p1a: Blastoise|Blastoise|Blastoisinite
+|move|p1a: Blastoise|Ice Beam|p2a: Toxicroak
+|-damage|p2a: Toxicroak|61/100
+|
+|-heal|p2a: Toxicroak|67/100|[from] item: Black Sludge
+|upkeep
+|turn|3
+|choice|switch 4|move drainpunch
+|
+|switch|p1a: Cresselia|Cresselia, F|100/100
+|-damage|p1a: Cresselia|88/100|[from] Stealth Rock
+|move|p2a: Toxicroak|Drain Punch|p1a: Cresselia
+|-resisted|p1a: Cresselia
+|-damage|p1a: Cresselia|80/100
+|-heal|p2a: Toxicroak|72/100|[from] drain|[of] p1a: Cresselia
+|
+|-heal|p2a: Toxicroak|79/100|[from] item: Black Sludge
+|-heal|p1a: Cresselia|86/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|choice|move thunderwave|move substitute
+|
+|move|p2a: Toxicroak|Substitute|p2a: Toxicroak
+|-start|p2a: Toxicroak|Substitute
+|-damage|p2a: Toxicroak|54/100
+|move|p1a: Cresselia|Thunder Wave|p2a: Toxicroak
+|-fail|p2a: Toxicroak
+|
+|-heal|p2a: Toxicroak|60/100|[from] item: Black Sludge
+|-heal|p1a: Cresselia|92/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|j|Stars and light
+|c|☆johnbonn|got me
+|choice|move psyshock|move suckerpunch
+|
+|move|p2a: Toxicroak|Sucker Punch|p1a: Cresselia
+|-supereffective|p1a: Cresselia
+|-damage|p1a: Cresselia|66/100
+|move|p1a: Cresselia|Psyshock|p2a: Toxicroak
+|-supereffective|p2a: Toxicroak
+|-end|p2a: Toxicroak|Substitute
+|
+|-heal|p2a: Toxicroak|66/100|[from] item: Black Sludge
+|-heal|p1a: Cresselia|73/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|choice|move moonlight|switch 4
+|
+|switch|p2a: Galvantula|Galvantula, M|100/100
+|move|p1a: Cresselia|Moonlight|p1a: Cresselia
+|-heal|p1a: Cresselia|100/100
+|
+|upkeep
+|turn|7
+|j|Xbcj
+|choice|switch 6|move bugbuzz
+|
+|switch|p1a: Goodra|Goodra, M|100/100
+|-damage|p1a: Goodra|88/100|[from] Stealth Rock
+|move|p2a: Galvantula|Bug Buzz|p1a: Goodra
+|-damage|p1a: Goodra|69/100
+|-damage|p2a: Galvantula|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|8
+|l|BigFish LilFish
+|choice|move dracometeor|switch 6
+|
+|switch|p2a: Donphan|Donphan, M|92/100
+|move|p1a: Goodra|Draco Meteor|p2a: Donphan
+|-damage|p2a: Donphan|5/100
+|-unboost|p1a: Goodra|spa|2
+|
+|-heal|p2a: Donphan|11/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|choice|switch 4|move iceshard
+|
+|switch|p1a: Blastoise|Blastoise-Mega, M|100/100
+|-damage|p1a: Blastoise|88/100|[from] Stealth Rock
+|move|p2a: Donphan|Ice Shard|p1a: Blastoise
+|-resisted|p1a: Blastoise
+|-damage|p1a: Blastoise|84/100
+|
+|-heal|p2a: Donphan|17/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|choice|move icebeam|move earthquake
+|
+|move|p1a: Blastoise|Ice Beam|p2a: Donphan
+|-supereffective|p2a: Donphan
+|-damage|p2a: Donphan|0 fnt
+|faint|p2a: Donphan
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Galvantula|Galvantula, M|91/100
+|turn|11
+|choice|switch 4|move voltswitch
+|
+|switch|p1a: Goodra|Goodra, M|69/100
+|-damage|p1a: Goodra|57/100|[from] Stealth Rock
+|move|p2a: Galvantula|Volt Switch|p1a: Goodra
+|-resisted|p1a: Goodra
+|-damage|p1a: Goodra|48/100
+|-damage|p2a: Galvantula|81/100|[from] item: Life Orb
+|j|chundermunch
+|choice||switch 5
+|
+|switch|p2a: Mienshao|Mienshao, M|100/100
+|
+|upkeep
+|turn|12
+|choice|switch 5|move substitute
+|
+|switch|p1a: Whimsicott|Whimsicott, M|100/100
+|-damage|p1a: Whimsicott|88/100|[from] Stealth Rock
+|move|p2a: Mienshao|Substitute|p2a: Mienshao
+|-start|p2a: Mienshao|Substitute
+|-damage|p2a: Mienshao|76/100
+|
+|upkeep
+|turn|13
+|choice|move encore|move batonpass
+|
+|move|p1a: Whimsicott|Encore|p2a: Mienshao
+|-start|p2a: Mienshao|Encore
+|move|p2a: Mienshao|Substitute|p2a: Mienshao
+|-fail|p2a: Mienshao|move: Substitute
+|
+|upkeep
+|turn|14
+|choice|switch 4|switch 2
+|
+|switch|p1a: Blastoise|Blastoise-Mega, M|84/100
+|-damage|p1a: Blastoise|72/100|[from] Stealth Rock
+|switch|p2a: Sableye|Sableye, M|100/100
+|
+|upkeep
+|turn|15
+|choice|move darkpulse|switch 4
+|
+|switch|p2a: Toxicroak|Toxicroak, M|66/100
+|move|p1a: Blastoise|Dark Pulse|p2a: Toxicroak
+|-resisted|p2a: Toxicroak
+|-damage|p2a: Toxicroak|41/100
+|
+|-heal|p2a: Toxicroak|47/100|[from] item: Black Sludge
+|upkeep
+|turn|16
+|choice|move rapidspin|move drainpunch
+|
+|move|p2a: Toxicroak|Drain Punch|p1a: Blastoise
+|-damage|p1a: Blastoise|49/100
+|-heal|p2a: Toxicroak|58/100|[from] drain|[of] p1a: Blastoise
+|move|p1a: Blastoise|Rapid Spin|p2a: Toxicroak
+|-damage|p2a: Toxicroak|54/100
+|-sideend|p1: johnbonn|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Blastoise
+|
+|-heal|p2a: Toxicroak|60/100|[from] item: Black Sludge
+|upkeep
+|turn|17
+|choice|move icebeam|switch 5
+|
+|switch|p2a: Galvantula|Galvantula, M|81/100
+|move|p1a: Blastoise|Ice Beam|p2a: Galvantula
+|-damage|p2a: Galvantula|33/100
+|
+|upkeep
+|turn|18
+|j|BigFish LilFish
+|j|Fuhrer Don Trump
+|choice|switch 5|move thunder
+|
+|switch|p1a: Goodra|Goodra, M|48/100
+|move|p2a: Galvantula|Thunder|p1a: Goodra
+|-resisted|p1a: Goodra
+|-damage|p1a: Goodra|35/100
+|-damage|p2a: Galvantula|23/100|[from] item: Life Orb
+|
+|upkeep
+|turn|19
+|choice|move dragontail|switch 5
+|
+|switch|p2a: Toxicroak|Toxicroak, M|60/100
+|move|p1a: Goodra|Dragon Tail|p2a: Toxicroak
+|-damage|p2a: Toxicroak|39/100
+|drag|p2a: Chandelure|Chandelure, M|100/100
+|
+|upkeep
+|turn|20
+|choice|move dracometeor|move shadowball
+|
+|move|p2a: Chandelure|Shadow Ball|p1a: Goodra
+|-damage|p1a: Goodra|17/100
+|-unboost|p1a: Goodra|spd|1
+|move|p1a: Goodra|Draco Meteor|p2a: Chandelure
+|-damage|p2a: Chandelure|2/100
+|-unboost|p1a: Goodra|spa|2
+|
+|upkeep
+|turn|21
+|choice|move sludgebomb|move shadowball
+|
+|move|p2a: Chandelure|Shadow Ball|p1a: Goodra
+|-crit|p1a: Goodra
+|-damage|p1a: Goodra|0 fnt
+|faint|p1a: Goodra
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Shuckle|Shuckle, M|100/100
+|turn|22
+|choice|move stickyweb|switch 2
+|
+|switch|p2a: Mienshao|Mienshao, M|100/100
+|move|p1a: Shuckle|Sticky Web|p2a: Mienshao
+|-sidestart|p2: SinisterResolute|move: Sticky Web
+|
+|upkeep
+|turn|23
+|choice|move stealthrock|move substitute
+|
+|move|p2a: Mienshao|Substitute|p2a: Mienshao
+|-start|p2a: Mienshao|Substitute
+|-damage|p2a: Mienshao|76/100
+|move|p1a: Shuckle|Stealth Rock|p2a: Mienshao
+|-sidestart|p2: SinisterResolute|move: Stealth Rock
+|
+|upkeep
+|turn|24
+|choice|switch 4|move knockoff
+|
+|switch|p1a: Whimsicott|Whimsicott, M|88/100
+|move|p2a: Mienshao|Knock Off|p1a: Whimsicott
+|-resisted|p1a: Whimsicott
+|-damage|p1a: Whimsicott|59/100
+|-enditem|p1a: Whimsicott|Life Orb|[from] move: Knock Off|[of] p2a: Mienshao
+|-damage|p2a: Mienshao|66/100|[from] item: Life Orb
+|
+|upkeep
+|turn|25
+|choice|move encore|move highjumpkick
+|
+|move|p1a: Whimsicott|Encore|p2a: Mienshao
+|-start|p2a: Mienshao|Encore
+|move|p2a: Mienshao|Knock Off|p1a: Whimsicott
+|-resisted|p1a: Whimsicott
+|-damage|p1a: Whimsicott|38/100
+|-damage|p2a: Mienshao|56/100|[from] item: Life Orb
+|
+|upkeep
+|turn|26
+|choice|move gigadrain|move knockoff
+|
+|move|p1a: Whimsicott|Giga Drain|p2a: Mienshao
+|-end|p2a: Mienshao|Substitute
+|-heal|p1a: Whimsicott|51/100|[from] drain|[of] p2a: Mienshao
+|move|p2a: Mienshao|Knock Off|p1a: Whimsicott
+|-resisted|p1a: Whimsicott
+|-damage|p1a: Whimsicott|28/100
+|-damage|p2a: Mienshao|46/100|[from] item: Life Orb
+|
+|upkeep
+|turn|27
+|choice|move moonblast|switch 4
+|
+|switch|p2a: Sableye|Sableye, M|100/100
+|-damage|p2a: Sableye|88/100|[from] Stealth Rock
+|-activate|p2a: Sableye|move: Sticky Web
+|-unboost|p2a: Sableye|spe|1
+|move|p1a: Whimsicott|Moonblast|p2a: Sableye
+|-supereffective|p2a: Sableye
+|-damage|p2a: Sableye|18/100
+|
+|-heal|p2a: Sableye|25/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|choice|move moonblast|move recover
+|
+|move|p2a: Sableye|Recover|p2a: Sableye
+|-heal|p2a: Sableye|75/100
+|move|p1a: Whimsicott|Moonblast|p2a: Sableye
+|-supereffective|p2a: Sableye
+|-damage|p2a: Sableye|0 fnt
+|faint|p2a: Sableye
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Toxicroak|Toxicroak, M|39/100
+|-activate|p2a: Toxicroak|move: Sticky Web
+|-unboost|p2a: Toxicroak|spe|1
+|-damage|p2a: Toxicroak|32/100|[from] Stealth Rock
+|turn|29
+|choice|move moonblast|move substitute
+|
+|move|p1a: Whimsicott|Moonblast|p2a: Toxicroak
+|-damage|p2a: Toxicroak|0 fnt
+|faint|p2a: Toxicroak
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Chandelure|Chandelure, M|2/100
+|-activate|p2a: Chandelure|move: Sticky Web
+|-unboost|p2a: Chandelure|spe|1
+|-damage|p2a: Chandelure|0 fnt|[from] Stealth Rock
+|faint|p2a: Chandelure
+|choice||switch 5
+|
+|switch|p2a: Galvantula|Galvantula, M|23/100
+|-damage|p2a: Galvantula|0 fnt|[from] Stealth Rock
+|-activate|p2a: Galvantula|move: Sticky Web
+|faint|p2a: Galvantula
+|choice||switch 4
+|
+|switch|p2a: Mienshao|Mienshao, M|79/100
+|-activate|p2a: Mienshao|move: Sticky Web
+|-unboost|p2a: Mienshao|spe|1
+|-damage|p2a: Mienshao|73/100|[from] Stealth Rock
+|turn|30
+|choice|move moonblast|move highjumpkick
+|
+|move|p1a: Whimsicott|Moonblast|p2a: Mienshao
+|-supereffective|p2a: Mienshao
+|-damage|p2a: Mienshao|0 fnt
+|faint|p2a: Mienshao
+|
+|win|johnbonn
+|c|☆johnbonn|gg
+|l|Snowblind l
+|l|Xbcj
+|l|SinisterResolute
+|l|chundermunch

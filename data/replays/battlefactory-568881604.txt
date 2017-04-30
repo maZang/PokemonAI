@@ -1,0 +1,211 @@
+|j|Switchy17
+|j|Lederp James
+|player|p1|Switchy17|1
+|player|p2|Lederp James|270
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|30926,45674,55421,36380,40884,28629,8518,4476,21066,43307,10752,46013
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Abomasnow, M|item
+|poke|p1|Vileplume, M|item
+|poke|p1|Cryogonal|item
+|poke|p1|Charizard, M|item
+|poke|p1|Miltank, F|item
+|poke|p1|Rhydon, M|item
+|poke|p2|Exeggutor, M|item
+|poke|p2|Garbodor, M|item
+|poke|p2|Pawniard, M|item
+|poke|p2|Lilligant, F|item
+|poke|p2|Prinplup, M|item
+|poke|p2|Carracosta, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Lederp James)
+|choice|team 6, team 2, team 3, team 4, team 5, team 1|team 3, team 2, team 1, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Rhydon|Rhydon, M|100/100
+|switch|p2a: Pawniard|Pawniard, M|100/100
+|turn|1
+|choice|move earthquake|move ironhead
+|
+|move|p2a: Pawniard|Iron Head|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-damage|p1a: Rhydon|62/100
+|move|p1a: Rhydon|Earthquake|p2a: Pawniard
+|-supereffective|p2a: Pawniard
+|-damage|p2a: Pawniard|0 fnt
+|faint|p2a: Pawniard
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Lilligant|Lilligant, F|100/100
+|turn|2
+|choice|move earthquake|move sleeppowder
+|
+|move|p2a: Lilligant|Sleep Powder|p1a: Rhydon
+|-status|p1a: Rhydon|slp
+|cant|p1a: Rhydon|slp
+|
+|upkeep
+|turn|3
+|choice|move earthquake|move quiverdance
+|
+|move|p2a: Lilligant|Quiver Dance|p2a: Lilligant
+|-boost|p2a: Lilligant|spa|1
+|-boost|p2a: Lilligant|spd|1
+|-boost|p2a: Lilligant|spe|1
+|-curestatus|p1a: Rhydon|slp|[msg]
+|move|p1a: Rhydon|Earthquake|p2a: Lilligant
+|-resisted|p2a: Lilligant
+|-damage|p2a: Lilligant|56/100
+|
+|upkeep
+|turn|4
+|choice|switch 2|move sleeppowder
+|
+|switch|p1a: Vileplume|Vileplume, M|100/100
+|move|p2a: Lilligant|Sleep Powder|p1a: Vileplume
+|-immune|p1a: Vileplume|[msg]
+|
+|upkeep
+|turn|5
+|choice|move sludgebomb|move hiddenpower
+|
+|move|p2a: Lilligant|Hidden Power|p1a: Vileplume
+|-supereffective|p1a: Vileplume
+|-damage|p1a: Vileplume|18/100
+|-damage|p2a: Lilligant|46/100|[from] item: Life Orb
+|move|p1a: Vileplume|Sludge Bomb|p2a: Lilligant
+|-supereffective|p2a: Lilligant
+|-damage|p2a: Lilligant|0 fnt
+|faint|p2a: Lilligant
+|
+|-heal|p1a: Vileplume|24/100|[from] item: Black Sludge
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Garbodor|Garbodor, M|100/100
+|turn|6
+|choice|move synthesis|move spikes
+|
+|move|p2a: Garbodor|Spikes|p1a: Vileplume
+|-sidestart|p1: Switchy17|Spikes
+|move|p1a: Vileplume|Synthesis|p1a: Vileplume
+|-heal|p1a: Vileplume|74/100
+|
+|-heal|p1a: Vileplume|80/100|[from] item: Black Sludge
+|upkeep
+|turn|7
+|choice|move gigadrain|move spikes
+|
+|move|p2a: Garbodor|Spikes|p1a: Vileplume
+|-sidestart|p1: Switchy17|Spikes
+|move|p1a: Vileplume|Giga Drain|p2a: Garbodor
+|-resisted|p2a: Garbodor
+|-damage|p2a: Garbodor|75/100
+|-heal|p1a: Vileplume|92/100|[from] drain|[of] p2a: Garbodor
+|
+|-heal|p1a: Vileplume|98/100|[from] item: Black Sludge
+|upkeep
+|turn|8
+|choice|move hiddenpower|move spikes
+|
+|move|p2a: Garbodor|Spikes|p1a: Vileplume
+|-sidestart|p1: Switchy17|Spikes
+|move|p1a: Vileplume|Hidden Power|p2a: Garbodor
+|-supereffective|p2a: Garbodor
+|-damage|p2a: Garbodor|23/100
+|
+|-heal|p1a: Vileplume|100/100|[from] item: Black Sludge
+|upkeep
+|turn|9
+|choice|move hiddenpower|move gunkshot
+|
+|move|p2a: Garbodor|Gunk Shot|p1a: Vileplume
+|-damage|p1a: Vileplume|35/100
+|move|p1a: Vileplume|Hidden Power|p2a: Garbodor
+|-supereffective|p2a: Garbodor
+|-damage|p2a: Garbodor|0 fnt
+|faint|p2a: Garbodor
+|
+|-heal|p1a: Vileplume|41/100|[from] item: Black Sludge
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Exeggutor|Exeggutor, M|100/100
+|turn|10
+|choice|move sludgebomb|move psychic
+|
+|move|p1a: Vileplume|Sludge Bomb|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|0 fnt
+|faint|p2a: Exeggutor
+|
+|-heal|p1a: Vileplume|47/100|[from] item: Black Sludge
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Carracosta|Carracosta, M|100/100
+|turn|11
+|choice|move gigadrain|move icebeam
+|
+|move|p2a: Carracosta|Ice Beam|p1a: Vileplume
+|-supereffective|p1a: Vileplume
+|-damage|p1a: Vileplume|0 fnt
+|-damage|p2a: Carracosta|91/100|[from] item: Life Orb
+|faint|p1a: Vileplume
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Abomasnow|Abomasnow, M|100/100
+|-damage|p1a: Abomasnow|76/100|[from] Spikes
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Abomasnow
+|turn|12
+|choice|move seedbomb|move stoneedge
+|
+|move|p1a: Abomasnow|Seed Bomb|p2a: Carracosta
+|-supereffective|p2a: Carracosta
+|-damage|p2a: Carracosta|0 fnt
+|-damage|p1a: Abomasnow|66/100|[from] item: Life Orb
+|faint|p2a: Carracosta
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Prinplup|Prinplup, M|100/100
+|turn|13
+|choice|move seedbomb|move toxic
+|
+|move|p1a: Abomasnow|Seed Bomb|p2a: Prinplup
+|-supereffective|p2a: Prinplup
+|-damage|p2a: Prinplup|46/100
+|-damage|p1a: Abomasnow|56/100|[from] item: Life Orb
+|move|p2a: Prinplup|Toxic|p1a: Abomasnow
+|-status|p1a: Abomasnow|tox
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Prinplup|40/100|[from] hail
+|-damage|p1a: Abomasnow|49/100 tox|[from] psn
+|upkeep
+|turn|14
+|choice|move seedbomb|move scald
+|
+|move|p1a: Abomasnow|Seed Bomb|p2a: Prinplup
+|-supereffective|p2a: Prinplup
+|-damage|p2a: Prinplup|0 fnt
+|-damage|p1a: Abomasnow|39/100 tox|[from] item: Life Orb
+|faint|p2a: Prinplup
+|
+|win|Switchy17
+|raw|Switchy17's rating: 1000 &rarr; <strong>1064</strong><br />(+64 for winning)
+|raw|Lederp James's rating: 1235 &rarr; <strong>1195</strong><br />(-40 for losing)
+|c|☆Switchy17|gg dude
+|l|Lederp James

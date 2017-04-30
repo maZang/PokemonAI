@@ -1,0 +1,427 @@
+|j|JRK_GETTING_GOOD
+|j|Gengar1912
+|player|p1|JRK_GETTING_GOOD|92
+|player|p2|Gengar1912|152
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|39879,47532,6261,11498,55315,14313,16416,30697,48593,16518,54967,22908
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Crawdaunt, M|item
+|poke|p1|Excadrill, M|item
+|poke|p1|Thundurus-Therian, M|item
+|poke|p1|Clefable, M|item
+|poke|p1|Medicham, M|item
+|poke|p1|Conkeldurr, M|item
+|poke|p2|Celebi|item
+|poke|p2|Zygarde|item
+|poke|p2|Mamoswine, M|item
+|poke|p2|Scizor, M|item
+|poke|p2|Volcarona, M|item
+|poke|p2|Skarmory, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by JRK_GETTING_GOOD)
+|choice|team 5, team 2, team 3, team 4, team 1, team 6|team 1, team 2, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Medicham|Medicham, M|100/100
+|switch|p2a: Celebi|Celebi|100/100
+|turn|1
+|choice|move fakeout mega|move thunderwave
+|
+|detailschange|p1a: Medicham|Medicham-Mega, M
+|-mega|p1a: Medicham|Medicham|Medichamite
+|move|p1a: Medicham|Fake Out|p2a: Celebi
+|-damage|p2a: Celebi|79/100
+|cant|p2a: Celebi|flinch
+|
+|-heal|p2a: Celebi|85/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|choice|switch 5|move thunderwave
+|
+|switch|p1a: Crawdaunt|Crawdaunt, M|100/100
+|move|p2a: Celebi|Thunder Wave|p1a: Crawdaunt
+|-status|p1a: Crawdaunt|par
+|
+|-heal|p2a: Celebi|91/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|choice|switch 4|move gigadrain
+|
+|switch|p1a: Clefable|Clefable, M|100/100
+|move|p2a: Celebi|Giga Drain|p1a: Clefable
+|-damage|p1a: Clefable|80/100
+|-heal|p2a: Celebi|100/100|[from] drain|[of] p1a: Clefable
+|
+|-heal|p1a: Clefable|86/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|choice|move stealthrock|move stealthrock
+|
+|move|p2a: Celebi|Stealth Rock|p1a: Clefable
+|-sidestart|p1: JRK_GETTING_GOOD|move: Stealth Rock
+|move|p1a: Clefable|Stealth Rock|p2a: Celebi
+|-sidestart|p2: Gengar1912|move: Stealth Rock
+|
+|-heal|p1a: Clefable|92/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|choice|move thunderwave|move thunderwave
+|
+|move|p2a: Celebi|Thunder Wave|p1a: Clefable
+|-status|p1a: Clefable|par
+|cant|p1a: Clefable|par
+|
+|-heal|p1a: Clefable|98/100 par|[from] item: Leftovers
+|upkeep
+|turn|6
+|choice|move thunderwave|move gigadrain
+|
+|move|p2a: Celebi|Giga Drain|p1a: Clefable
+|-damage|p1a: Clefable|79/100 par
+|cant|p1a: Clefable|par
+|
+|-heal|p1a: Clefable|85/100 par|[from] item: Leftovers
+|upkeep
+|turn|7
+|choice|move thunderwave|move gigadrain
+|
+|move|p2a: Celebi|Giga Drain|p1a: Clefable
+|-damage|p1a: Clefable|64/100 par
+|cant|p1a: Clefable|par
+|
+|-heal|p1a: Clefable|71/100 par|[from] item: Leftovers
+|upkeep
+|turn|8
+|choice|move thunderwave|move gigadrain
+|
+|move|p2a: Celebi|Giga Drain|p1a: Clefable
+|-damage|p1a: Clefable|52/100 par
+|move|p1a: Clefable|Thunder Wave|p2a: Celebi
+|-status|p2a: Celebi|par
+|
+|-heal|p1a: Clefable|58/100 par|[from] item: Leftovers
+|upkeep
+|turn|9
+|choice|switch 2|switch 6
+|
+|-curestatus|p2a: Celebi|par|[from] ability: Natural Cure
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|-damage|p2a: Skarmory|88/100|[from] Stealth Rock
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|-damage|p1a: Excadrill|97/100|[from] Stealth Rock
+|-ability|p1a: Excadrill|Mold Breaker
+|
+|-heal|p1a: Excadrill|100/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|94/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|choice|switch 3|move whirlwind
+|
+|switch|p1a: Thundurus|Thundurus-Therian, M|100/100
+|-damage|p1a: Thundurus|76/100|[from] Stealth Rock
+|move|p2a: Skarmory|Whirlwind|p1a: Thundurus
+|drag|p1a: Conkeldurr|Conkeldurr, M|100/100
+|-damage|p1a: Conkeldurr|95/100|[from] Stealth Rock
+|
+|-heal|p2a: Skarmory|99/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|choice|move drainpunch|move spikes
+|
+|move|p2a: Skarmory|Spikes|p1a: Conkeldurr
+|-sidestart|p1: JRK_GETTING_GOOD|Spikes
+|move|p1a: Conkeldurr|Drain Punch|p2a: Skarmory
+|-damage|p2a: Skarmory|67/100
+|-heal|p1a: Conkeldurr|100/100|[from] drain|[of] p2a: Skarmory
+|
+|-heal|p2a: Skarmory|73/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|choice|move drainpunch|move whirlwind
+|
+|move|p1a: Conkeldurr|Drain Punch|p2a: Skarmory
+|-damage|p2a: Skarmory|36/100
+|move|p2a: Skarmory|Whirlwind|p1a: Conkeldurr
+|drag|p1a: Thundurus|Thundurus-Therian, M|76/100
+|-damage|p1a: Thundurus|51/100|[from] Stealth Rock
+|
+|-heal|p2a: Skarmory|42/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|choice|move focusblast|move whirlwind
+|
+|move|p1a: Thundurus|Focus Blast|p2a: Skarmory|[miss]
+|-miss|p1a: Thundurus|p2a: Skarmory
+|move|p2a: Skarmory|Whirlwind|p1a: Thundurus
+|drag|p1a: Crawdaunt|Crawdaunt, M|100/100 par
+|-damage|p1a: Crawdaunt|88/100 par|[from] Spikes
+|-damage|p1a: Crawdaunt|76/100 par|[from] Stealth Rock
+|
+|-heal|p2a: Skarmory|48/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|choice|move knockoff|move roost
+|
+|move|p2a: Skarmory|Roost|p2a: Skarmory
+|-heal|p2a: Skarmory|98/100
+|move|p1a: Crawdaunt|Knock Off|p2a: Skarmory
+|-damage|p2a: Skarmory|17/100
+|-enditem|p2a: Skarmory|Leftovers|[from] move: Knock Off|[of] p1a: Crawdaunt
+|
+|upkeep
+|turn|15
+|choice|move knockoff|move roost
+|
+|move|p2a: Skarmory|Roost|p2a: Skarmory
+|-heal|p2a: Skarmory|67/100
+|cant|p1a: Crawdaunt|par
+|
+|upkeep
+|turn|16
+|choice|switch 5|move spikes
+|
+|switch|p1a: Medicham|Medicham-Mega, M|100/100
+|-damage|p1a: Medicham|88/100|[from] Spikes
+|-damage|p1a: Medicham|82/100|[from] Stealth Rock
+|move|p2a: Skarmory|Spikes|p1a: Medicham
+|-sidestart|p1: JRK_GETTING_GOOD|Spikes
+|
+|upkeep
+|turn|17
+|choice|move fakeout|move whirlwind
+|
+|move|p1a: Medicham|Fake Out|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|56/100
+|cant|p2a: Skarmory|flinch
+|
+|upkeep
+|turn|18
+|choice|move highjumpkick|move whirlwind
+|
+|move|p1a: Medicham|High Jump Kick|p2a: Skarmory|[miss]
+|-miss|p1a: Medicham|p2a: Skarmory
+|-damage|p1a: Medicham|32/100|[from] highjumpkick
+|move|p2a: Skarmory|Whirlwind|p1a: Medicham
+|drag|p1a: Crawdaunt|Crawdaunt, M|76/100 par
+|-damage|p1a: Crawdaunt|63/100 par|[from] Stealth Rock
+|-damage|p1a: Crawdaunt|47/100 par|[from] Spikes
+|
+|upkeep
+|turn|19
+|choice|move aquajet|move roost
+|
+|move|p1a: Crawdaunt|Aqua Jet|p2a: Skarmory
+|-damage|p2a: Skarmory|25/100
+|move|p2a: Skarmory|Roost|p2a: Skarmory
+|-heal|p2a: Skarmory|75/100
+|
+|upkeep
+|turn|20
+|choice|move aquajet|move spikes
+|
+|cant|p1a: Crawdaunt|par
+|move|p2a: Skarmory|Spikes|p1a: Crawdaunt
+|-sidestart|p1: JRK_GETTING_GOOD|Spikes
+|
+|upkeep
+|turn|21
+|choice|move aquajet|move ironhead
+|
+|move|p1a: Crawdaunt|Aqua Jet|p2a: Skarmory
+|-damage|p2a: Skarmory|40/100
+|move|p2a: Skarmory|Iron Head|p1a: Crawdaunt
+|-resisted|p1a: Crawdaunt
+|-damage|p1a: Crawdaunt|29/100 par
+|
+|upkeep
+|turn|22
+|choice|move aquajet|move roost
+|
+|move|p1a: Crawdaunt|Aqua Jet|p2a: Skarmory
+|-damage|p2a: Skarmory|6/100
+|move|p2a: Skarmory|Roost|p2a: Skarmory
+|-heal|p2a: Skarmory|56/100
+|
+|upkeep
+|turn|23
+|choice|move aquajet|move roost
+|
+|move|p1a: Crawdaunt|Aqua Jet|p2a: Skarmory
+|-damage|p2a: Skarmory|23/100
+|move|p2a: Skarmory|Roost|p2a: Skarmory
+|-heal|p2a: Skarmory|73/100
+|
+|upkeep
+|turn|24
+|choice|switch 4|move roost
+|
+|switch|p1a: Thundurus|Thundurus-Therian, M|51/100
+|-damage|p1a: Thundurus|26/100|[from] Stealth Rock
+|move|p2a: Skarmory|Roost|p2a: Skarmory
+|-heal|p2a: Skarmory|100/100
+|
+|upkeep
+|turn|25
+|choice|move thunderbolt|move whirlwind
+|
+|move|p1a: Thundurus|Thunderbolt|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-damage|p2a: Skarmory|10/100
+|move|p2a: Skarmory|Whirlwind|p1a: Thundurus
+|drag|p1a: Conkeldurr|Conkeldurr, M|100/100
+|-damage|p1a: Conkeldurr|95/100|[from] Stealth Rock
+|-damage|p1a: Conkeldurr|70/100|[from] Spikes
+|
+|upkeep
+|turn|26
+|choice|move machpunch|move roost
+|
+|move|p1a: Conkeldurr|Mach Punch|p2a: Skarmory
+|-damage|p2a: Skarmory|0 fnt
+|faint|p2a: Skarmory
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Celebi|Celebi|100/100
+|-damage|p2a: Celebi|88/100|[from] Stealth Rock
+|turn|27
+|choice|move icepunch|move thunderwave
+|
+|move|p2a: Celebi|Thunder Wave|p1a: Conkeldurr
+|-status|p1a: Conkeldurr|par
+|move|p1a: Conkeldurr|Ice Punch|p2a: Celebi
+|-supereffective|p2a: Celebi
+|-damage|p2a: Celebi|13/100
+|
+|-heal|p2a: Celebi|19/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|choice|move machpunch|move recover
+|
+|move|p1a: Conkeldurr|Mach Punch|p2a: Celebi
+|-resisted|p2a: Celebi
+|-damage|p2a: Celebi|4/100
+|move|p2a: Celebi|Recover|p2a: Celebi
+|-heal|p2a: Celebi|54/100
+|
+|-heal|p2a: Celebi|61/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|choice|move icepunch|move recover
+|
+|move|p2a: Celebi|Recover|p2a: Celebi
+|-heal|p2a: Celebi|100/100
+|cant|p1a: Conkeldurr|par
+|
+|upkeep
+|turn|30
+|choice|move poisonjab|move gigadrain
+|
+|move|p2a: Celebi|Giga Drain|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|53/100 par
+|move|p1a: Conkeldurr|Poison Jab|p2a: Celebi
+|-supereffective|p2a: Celebi
+|-crit|p2a: Celebi
+|-damage|p2a: Celebi|0 fnt
+|faint|p2a: Celebi
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Volcarona|Volcarona, M|100/100
+|-damage|p2a: Volcarona|51/100|[from] Stealth Rock
+|turn|31
+|choice|move poisonjab|move roost
+|
+|move|p2a: Volcarona|Roost|p2a: Volcarona
+|-heal|p2a: Volcarona|100/100
+|move|p1a: Conkeldurr|Poison Jab|p2a: Volcarona
+|-damage|p2a: Volcarona|54/100
+|
+|-heal|p2a: Volcarona|60/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|choice|move poisonjab|move quiverdance
+|
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|move|p1a: Conkeldurr|Poison Jab|p2a: Volcarona
+|-damage|p2a: Volcarona|9/100
+|
+|-heal|p2a: Volcarona|15/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|choice|move machpunch|move roost
+|
+|move|p1a: Conkeldurr|Mach Punch|p2a: Volcarona
+|-resisted|p2a: Volcarona
+|-damage|p2a: Volcarona|0 fnt
+|faint|p2a: Volcarona
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Zygarde|Zygarde|100/100
+|-damage|p2a: Zygarde|94/100|[from] Stealth Rock
+|-ability|p2a: Zygarde|Aura Break
+|turn|34
+|choice|move icepunch|move dragontail
+|
+|move|p1a: Conkeldurr|Ice Punch|p2a: Zygarde
+|-supereffective|p2a: Zygarde
+|-damage|p2a: Zygarde|0 fnt
+|faint|p2a: Zygarde
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Scizor|Scizor, M|100/100
+|-damage|p2a: Scizor|88/100|[from] Stealth Rock
+|turn|35
+|choice|move drainpunch|move knockoff mega
+|
+|detailschange|p2a: Scizor|Scizor-Mega, M
+|-mega|p2a: Scizor|Scizor|Scizorite
+|move|p2a: Scizor|Knock Off|p1a: Conkeldurr
+|-resisted|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|37/100 par
+|-enditem|p1a: Conkeldurr|Assault Vest|[from] move: Knock Off|[of] p2a: Scizor
+|move|p1a: Conkeldurr|Drain Punch|p2a: Scizor
+|-damage|p2a: Scizor|53/100
+|-heal|p1a: Conkeldurr|54/100 par|[from] drain|[of] p2a: Scizor
+|
+|upkeep
+|turn|36
+|choice|move drainpunch|move bulletpunch
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|22/100 par
+|move|p1a: Conkeldurr|Drain Punch|p2a: Scizor
+|-damage|p2a: Scizor|13/100
+|-heal|p1a: Conkeldurr|41/100 par|[from] drain|[of] p2a: Scizor
+|
+|upkeep
+|turn|37
+|choice|move machpunch|move roost
+|
+|move|p1a: Conkeldurr|Mach Punch|p2a: Scizor
+|-damage|p2a: Scizor|0 fnt
+|faint|p2a: Scizor
+|
+|upkeep
+|-message|Gengar1912 forfeited.
+|
+|win|JRK_GETTING_GOOD
+|l|Gengar1912
+|raw|JRK_GETTING_GOOD's rating: 1045 &rarr; <strong>1078</strong><br />(+33 for winning)
+|raw|Gengar1912's rating: 1039 &rarr; <strong>1024</strong><br />(-15 for losing)
