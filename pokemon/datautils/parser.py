@@ -6,7 +6,7 @@ import pickle
 import os
 
 from pprint import pprint
-from pokemon.datautils.const import *
+from const import *
 
 BATTLEFILE = 'battlefactory-566172293.txt'
 DATAFOLDER = 'data/replays/'
@@ -29,6 +29,9 @@ class PokemonShowdownEncoding(object):
 		self.pokemon = [np.zeros((num_turns, const.POKE_DESCRIPTOR_SIZE)) for _ in range(12)]
 		self.other_data = np.zeros((num_turns, const.NON_EMBEDDING_DATA))
 		self.labels = np.zeros((num_turns, const.NUMBER_CLASSES))
+		self.pokemon_dict = pickle.load(open('data/info/pokemon.p','rb'))
+		self.move_dict = pickle.load(open('data/info/move.p','rb'))
+		self.item_dict = pickle.load(open('data/info/item.p', 'rb'))
 
 	@classmethod
 	def load(self, filename):
@@ -40,7 +43,8 @@ class PokemonShowdownEncoding(object):
 			pickle.dump(self, f)
 
 	def encodePokemonObject(self, pokemon):
-		pass
+		pokemon_encoding = np.zeros((1, const.POKE_DESCRIPTOR_SIZE))
+
 
 	def encodeLabels(self):
 		pass
@@ -244,11 +248,9 @@ class PokemonShowdownReplayParser(object):
 
 			assert(len(setMoves) == 4)
 
-			# Battle log has "Hidden Power" while JSON file has "Hidden Power [TYPE]". This replaces "Hidden Power [TYPE]" in the set with "Hidden Power".
-			for i in range(len(setMoves)):
-				for j in range(len(setMoves[i])):
-					if "Hidden Power" in setMoves[i][j]:
-						setMoves[i][j] = "Hidden Power"
+			# Removes "Hidden Power" from pokemon moveset so "Hidden Power [TYPE]" can be added.
+			if "Hidden Power" in pokemon.moves:
+				pokemon.moves.remove("Hidden Power")
 
 			flattenedSetMoves = [item for sublist in setMoves for item in sublist]
 
@@ -437,7 +439,7 @@ class PokemonShowdownReplayParser(object):
 		pokemon = self.players[player].getPokemonByNickname(nickname)
 
 		# This is so that moves from Magic Bounce don't get added to moveset.
-		if "[from]" not in line:
+		if "[from]" not in line and "Struggle" not in line:
 			pokemon.moves.add(move)
 		assert(len(pokemon.moves) <= 4)
 
