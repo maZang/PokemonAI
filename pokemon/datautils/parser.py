@@ -1,9 +1,11 @@
+# -*- coding: utf-8 -*-
 import re
 import json
 from pprint import pprint
 import numpy as np
 #import const
 import pickle
+import os
 
 BATTLEFILE = 'battlefactory-566172293.txt'
 DATAFOLDER = 'data/replays/'
@@ -51,17 +53,20 @@ class PokemonShowdownReplayParser(object):
 
 	def run(self):
 		self.parse()
+
 		assert(self.winner == "p1" or self.winner == "p2")
 		
 		self.stripGenders()
 		self.parseJSON()
 
+		'''
 		output = ""
 		output += self.players["p1"].getTeamFormatString()
 		output += self.players["p2"].getTeamFormatString()
 		for item in self.turnList.iteritems():
 			print(item)
 		return output
+		'''
 
 	def parse(self):
 		''' 
@@ -89,6 +94,8 @@ class PokemonShowdownReplayParser(object):
 				self.processMega(line)
 			elif line.startswith("|detailschange|"):
 				self.processDetailsChange(line)
+			elif line.startswith("|replace|"):
+				self.processReplace(line)
 			# elif line.startswith("|-item|"):
 			#
 			#		self.processItem(line)
@@ -141,8 +148,6 @@ class PokemonShowdownReplayParser(object):
 					or line.startswith("|-unboost|")
 					or line == "|"):
 					pass
-				else:
-					print(line)
 
 	def parseJSON(self):
 		'''
@@ -169,40 +174,43 @@ class PokemonShowdownReplayParser(object):
 			speciesKey = pokemon.species.split("-")[0]
 		else:
 			speciesKey = ''.join(e for e in pokemon.species if e.isalnum())
-		'''
-		elif "-" in pokemon.species:
-			speciesKey = pokemon.species.replace("-", "")
-		else:
-			speciesKey = pokemon.species
-		'''
 		speciesKey = speciesKey.lower()
 
+		if speciesKey == "groudonprimal":
+			speciesKey = "groudon"
+		if speciesKey == "kyogreprimal":
+			speciesKey = "kyogre"
+
+		pokeSets = []
 		if speciesKey in data["Uber"]:
-			self.fillInPokemon(pokemon, data["Uber"][speciesKey])
-		elif speciesKey in data["OU"]:
-			self.fillInPokemon(pokemon, data["OU"][speciesKey])
-		elif speciesKey in data["UU"]:
-			self.fillInPokemon(pokemon, data["UU"][speciesKey])
-		elif speciesKey in data["RU"]:
-			self.fillInPokemon(pokemon, data["RU"][speciesKey])
-		elif speciesKey in data["NU"]:
-			self.fillInPokemon(pokemon, data["NU"][speciesKey])
-		elif speciesKey in data["PU"]:
-			self.fillInPokemon(pokemon, data["PU"][speciesKey])
-		else:
+			pokeSets.extend(data["Uber"][speciesKey]["sets"])
+		if speciesKey in data["OU"]:
+			pokeSets.extend(data["OU"][speciesKey]["sets"])
+		if speciesKey in data["UU"]:
+			pokeSets.extend(data["UU"][speciesKey]["sets"])
+		if speciesKey in data["RU"]:
+			pokeSets.extend(data["RU"][speciesKey]["sets"])
+		if speciesKey in data["NU"]:
+			pokeSets.extend(data["NU"][speciesKey]["sets"])
+		if speciesKey in data["PU"]:
+			pokeSets.extend(data["PU"][speciesKey]["sets"])
+		
+		if len(pokeSets) == 0:
 			raise Exception("Pokemon not found in JSON!")
 
-	def fillInPokemon(self, pokemon, data):
+		self.fillInPokemon(pokemon, pokeSets)
+
+	def fillInPokemon(self, pokemon, pokeSets):
 		'''
 		Fills in pokemon based on set from Battle Factory JSON.
 
 		Inputs:
-		Pokemon - The pokemon to be filled in.
-		Data - The JSON pokemon sub-object with tier and species key already specified, ex. data["Uber"]["klefki"]
+		pokemon - The pokemon to be filled in.
+		pokeSets - A list of pokemon sets specific to the specified pokemon.
 		'''
 		finalSet = None
 
-		for pokeSet in data["sets"]:
+		for pokeSet in pokeSets:
 			validSet = True
 
 			setMoves = pokeSet["moves"]
@@ -214,39 +222,40 @@ class PokemonShowdownReplayParser(object):
 
 			# If pokemon name is "POKENAME-Mega", this slices off the "-Mega" 
 			if "-Mega" in pokemon.species and pokemon.species.split("-")[0] != setSpecies:
-				print("Pokemon species: " + pokemon.species)
-				print("Set species: " + setSpecies)
 				pass
 
 			# This means the held item is different from the set item.
-			if pokemon.item != None and pokemon.item != "" and pokemon.item != setItem:
-				print("Pokemon item: " + pokemon.item)
-				print("Set item: " + setItem)
+			if pokemon.item != "" and pokemon.item != setItem:
 				pass
 
 			assert(len(setMoves) == 4)
 
-			# setMoves is a list of a list of strings. One move slot can have 2 possible moves that are chosen randomly.
+			# Battle log has "Hidden Power" while JSON file has "Hidden Power [TYPE]". This replaces "Hidden Power [TYPE]" in the set with "Hidden Power".
+			for i in range(len(setMoves)):
+				for j in range(len(setMoves[i])):
+					if "Hidden Power" in setMoves[i][j]:
+						setMoves[i][j] = "Hidden Power"
 
 			flattenedSetMoves = [item for sublist in setMoves for item in sublist]
 
 			for move in pokemon.moves:
-				# Battle log has "Hidden Power" while JSON file has "Hidden Power [TYPE]"
-				if move == "Hidden Power":
-					pass
 				if move not in flattenedSetMoves:
 					validSet = False
 					pass
 
 			# This is a valid set.
-			if validSet == True:
+			if validSet:
 				finalSet = pokeSet
 				break
 
 		if finalSet == None:
+			print("Species with no matching pokemon set: " + pokemon.species)
+			print("Item: " + pokemon.item)
+			print("Ability: " + pokemon.ability)
+			print(pokemon.moves)
 			print("No matching pokemon set!")
 			print("Assigning random pokemon set!")
-			finalSet = data["sets"][0]
+			finalSet = pokeSets[0]
 
 		assert(finalSet != None)
 
@@ -282,8 +291,10 @@ class PokemonShowdownReplayParser(object):
 		fields = line.split("|")
 
 		pokemon = Pokemon()
-		pokemon.species = fields[3].replace("/,.*$/", "")
-		print("Pokemon species: " + pokemon.species)
+		species = fields[3].replace("/,.*$/", "")
+		if species == "Arceus-*":
+			species = "Arceus"
+		pokemon.species = species
 		self.players[fields[2]].pokemon.append(pokemon)
 
 	def processWinner(self, line):
@@ -319,7 +330,9 @@ class PokemonShowdownReplayParser(object):
 		species - Pokemon species.
 		player - Player string ("p1" or "p2")
 		'''
-		pokemon = self.players[player].getPokemonBySpecies(pokePrefix + "-*")
+		pokemon = self.players[player].getPokemonBySpecies(pokePrefix)
+		if pokemon == None:
+			pokemon = self.players[player].getPokemonBySpecies(pokePrefix + "-*")
 		if pokemon == None:
 			pokemon = self.players[player].getPokemonBySpecies(pokePrefix + "-*, M")
 		if pokemon == None:
@@ -337,8 +350,10 @@ class PokemonShowdownReplayParser(object):
 		# Special prefix edge case.
 		if "Arceus" in species:
 			self.prefixHandler("Arceus", species, player)
-		if "Gourgeist" in species:
+		elif "Gourgeist" in species:
 			self.prefixHandler("Gourgeist", species, player)
+		elif "Genesect" in species:
+			self.prefixHandler("Genesect", species, player)
 
 		pokemon = self.players[player].getPokemonBySpecies(species)
 		if pokemon == None:
@@ -361,6 +376,14 @@ class PokemonShowdownReplayParser(object):
 		nickname = matches[1]
 		species = matches[2]
 
+		# Special prefix edge case.
+		if "Arceus" in species:
+			self.prefixHandler("Arceus", species, player)
+		elif "Gourgeist" in species:
+			self.prefixHandler("Gourgeist", species, player)
+		elif "Genesect" in species:
+			self.prefixHandler("Genesect", species, player)
+
 		pokemon = self.players[player].getPokemonBySpecies(species)
 		if pokemon == None:
 			pokemon = Pokemon()
@@ -372,14 +395,41 @@ class PokemonShowdownReplayParser(object):
 			pokemon.nickname = nickname
 		self.players[player].currentPokemon = pokemon
 
+
+	def processReplace(self, line):
+		matches = re.search("\|replace\|(p[12])a:\s+([^|]+)\|([^|]+)", line).groups()
+		player = matches[0]
+		nickname = matches[1]
+		species = matches[2]
+
+		# Special prefix edge case.
+		if "Arceus" in species:
+			self.prefixHandler("Arceus", species, player)
+		elif "Gourgeist" in species:
+			self.prefixHandler("Gourgeist", species, player)
+		elif "Genesect" in species:
+			self.prefixHandler("Genesect", species, player)
+
+		pokemon = self.players[player].getPokemonBySpecies(species)
+		if pokemon == None:
+			pokemon = Pokemon()
+			pokemon.nickname = nickname
+			pokemon.species = species
+			self.players[player].pokemon.append(pokemon)
+			assert(len(self.players[player].pokemon) <= 6)
+		elif pokemon.nickname == "":
+			pokemon.nickname = nickname
+		self.players[player].currentPokemon = pokemon
+
+
 	def processMove(self, line):
 		matches = re.search("\|move\|(p[12])a:\s+([^|]+)\|([^|]+)", line).groups()
 		player = matches[0]
 		nickname = matches[1]
 		move = matches[2]
 
-		print(line)
 		pokemon = self.players[player].getPokemonByNickname(nickname)
+
 		# This is so that moves from Magic Bounce don't get added to moveset.
 		if "[from]" not in line:
 			pokemon.moves.add(move)
@@ -421,7 +471,6 @@ class PokemonShowdownReplayParser(object):
 
 		pokemon = self.players[player].getPokemonByNickname(nickname)
 		pokemon.species = species
-		print("Species: " + pokemon.species)
 
 
 	def processItemFromMove(self, line):
@@ -505,8 +554,9 @@ class Player(object):
 		output = "-------------------------\n"
 		output += "Player: "+self.username+"\n"
 		output += "-------------------------\n"
-		for i in range(len(self.pokemon)):
-			output += self.pokemon[i].getTeamFormatString() + "\n"
+		for pokemon in self.pokemon:
+			print(pokemon)
+			output += pokemon.getTeamFormatString() + "\n"
 		return output
 
 
@@ -524,9 +574,10 @@ class Pokemon(object):
 	def getTeamFormatString(self):
 		s = ""
 		s += self.species + " @ " + self.item +"\n"
-		s += "Ability: "+ self.ability + "\n"
+		s += "Ability: " + self.ability + "\n"
 		for move in self.moves:
 			s += "- " + move + "\n"
+		print(s + "\n")
 		return s
 
 
@@ -551,12 +602,19 @@ class FieldState(object):
 		self.weather = weather
 
 def main():
-	with open(DATAFOLDER + BATTLEFILE) as file:
-		data = file.read()
-
-	parser = PokemonShowdownReplayParser(data)
-	output = parser.run()
-	print(output)
+	# with open(DATAFOLDER + BATTLEFILE) as file:
+		# data = file.read()
+	counter = 0
+	for filename in os.listdir(DATAFOLDER):
+		print("Counter: " + str(counter))
+		if filename.endswith(".txt") and "battlefactory" in filename:
+			print(filename)
+			file = os.path.join(DATAFOLDER, filename)
+			data = open(file).read()
+			parser = PokemonShowdownReplayParser(data)
+			parser.run()
+			# print(output)
+		counter += 1
 
 if __name__ == "__main__":
 	main()
