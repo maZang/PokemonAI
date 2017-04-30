@@ -26,12 +26,12 @@ class PokemonShowdownEncoding(object):
 		'''
 		self.name = name
 		self.data_type = data_type
-		self.pokemon = [np.zeros((num_turns, const.POKE_DESCRIPTOR_SIZE)) for _ in range(12)]
-		self.other_data = np.zeros((num_turns, const.NON_EMBEDDING_DATA))
-		self.labels = np.zeros((num_turns, const.NUMBER_CLASSES))
-		self.pokemon_dict = pickle.load(open('data/info/pokemon.p','rb'))
-		self.move_dict = pickle.load(open('data/info/move.p','rb'))
-		self.item_dict = pickle.load(open('data/info/item.p', 'rb'))
+		self.pokemon = [np.zeros((num_turns, POKE_DESCRIPTOR_SIZE)) for _ in range(12)]
+		self.other_data = np.zeros((num_turns, NON_EMBEDDING_DATA))
+		self.labels = np.zeros((num_turns, NUMBER_CLASSES))
+		self.pokemon_dict = pickle.load(open('data/info/pokemon2.p','rb'))
+		self.move_dict = pickle.load(open('data/info/move2.p','rb'))
+		self.item_dict = pickle.load(open('data/info/item2.p', 'rb'))
 
 	@classmethod
 	def load(self, filename):
@@ -43,8 +43,47 @@ class PokemonShowdownEncoding(object):
 			pickle.dump(self, f)
 
 	def encodePokemonObject(self, pokemon):
-		pokemon_encoding = np.zeros((1, const.POKE_DESCRIPTOR_SIZE))
+		'''
+		Encodes a pokemon object. Fills in any unknown moves/items with an unknown token.
 
+		Input: Pokemon object
+		Output: Pokemon encoding object with shape (1, POKE_DESCRIPTOR_SIZE)
+		'''
+		pokemon_encoding = np.zeros((1, POKE_DESCRIPTOR_SIZE))
+
+		pokemon_id = self.pokemon_dict[pokemon.species]
+
+		move_ids = []
+
+		# Encodes pokemon item
+		if pokemon.item in self.item_dict:
+			item_id = self.item_dict[pokemon.item]
+		else:
+			item_id = self.item_dict['<UNK>']
+
+		for move in pokemon.moves:
+			if move in self.move_dict:
+				move_ids.append(self.move_dict[move])
+			else:
+				move_ids.append(self.move_dict['<UNK>'])
+
+		if len(move_ids) < 4:
+			num_unk_moves = 4 - len(move_ids)
+			for i in range(num_unk_moves):
+				move_ids.append(self.move_dict['<UNK>'])
+
+		assert(len(move_ids) == 4)
+
+		# TODO: implement status effects
+		status_id = 0
+
+		pokemon_encoding[:, 0] = pokemon_id
+		for i in range(len(move_ids)):
+			pokemon_encoding[:, i+1] = move_ids[i]
+		pokemon_encoding[:, 5] = item_id
+		pokemon_encoding[:, 6] = status_id
+
+		return pokemon_encoding
 
 	def encodeLabels(self):
 		pass
@@ -70,6 +109,14 @@ class PokemonShowdownReplayParser(object):
 
 		self.stripGenders()
 		self.parseJSON()
+
+		'''
+		encoding = PokemonShowdownEncoding()
+		for pokemon in self.players["p1"].pokemon:
+			print(encoding.encodePokemonObject(pokemon))
+		for pokemon in self.players["p2"].pokemon:
+			print(encoding.encodePokemonObject(pokemon))
+		'''
 
 		'''
 		output = ""
