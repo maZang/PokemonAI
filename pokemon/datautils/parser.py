@@ -5,7 +5,7 @@ import numpy as np
 #import const
 import pickle
 
-BATTLEFILE = 'battlefactory-566251336.txt'
+BATTLEFILE = 'battlefactory-566172293.txt'
 DATAFOLDER = 'data/replays/'
 PARSED_FOLDER = 'data/parsed_replays/'
 FACTORYSETS = 'data/factory-sets.json'
@@ -37,16 +37,22 @@ class PokemonShowdownEncoding(object):
 			pickle.dump(self, f)
 
 class PokemonShowdownReplayParser(object):
-	def __init__(self, log=""):
+	def __init__(self, log="", winner = ""):
 		self.log = log
 		self.players = {}
 		self.players["p1"] = Player("p1")
 		self.players["p2"] = Player("p2")
+
+		# self.winner is either "p1" or "p2".
+		self.winner = winner
+
 		self.turnNumber = 0
 		self.turnList = {0: []}
 
 	def run(self):
 		self.parse()
+		assert(self.winner == "p1" or self.winner == "p2")
+		
 		self.stripGenders()
 		self.parseJSON()
 
@@ -287,9 +293,11 @@ class PokemonShowdownReplayParser(object):
 
 		# Assigns username of winner
 		winnerUsername = fields[2]
-		print("Winner username: " + winnerUsername)
 
-		# TODO: Swap everything here based on winner username
+		if self.players["p1"].username == winnerUsername:
+			self.winner = "p1"
+		else:
+			self.winner = "p2"
 
 	def processTurn(self, line):
 		fields = line.split("|")
