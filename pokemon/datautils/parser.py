@@ -12,6 +12,7 @@ DATAFOLDER = 'data/replays/'
 PARSED_FOLDER = 'data/parsed_replays/'
 FACTORYSETS = 'data/factory-sets.json'
 
+
 def encode(network_config, replay_file):
 	encoding = PokemonShowdownEncoding.load(replay_file)
 	return [encoding.pokemon + [encoding.other_data, encoding.labels]]
@@ -37,6 +38,7 @@ class PokemonShowdownEncoding(object):
 	def save(self):
 		with open(PARSED_FOLDER + self.type + '/' + self.name + '.p', 'wb') as f:
 			pickle.dump(self, f)
+
 
 class PokemonShowdownReplayParser(object):
 	def __init__(self, log="", winner = ""):
@@ -271,21 +273,17 @@ class PokemonShowdownReplayParser(object):
 
 			moves = set(moveSlot)
 
-			# TODO: Account for "Hidden Power" vs. "Hidden Power Ice"
-
 			# The move is already in the pokemon's moves.
 			if moves.intersection(pokemon.moves):
 				pass
 			else:
 				pokemon.moves.add(moveSlot[0])
 
-
 	def processPlayer(self, line):
 		fields = line.split("|")
 
 		if len(fields) >= 4:
 			self.players[fields[2]].username = fields[3]
-
 
 	def processPoke(self, line):
 		fields = line.split("|")
@@ -393,7 +391,6 @@ class PokemonShowdownReplayParser(object):
 			pokemon.nickname = nickname
 		self.players[player].currentPokemon = pokemon
 
-
 	def processReplace(self, line):
 		matches = re.search("\|replace\|(p[12])a:\s+([^|]+)\|([^|]+)", line).groups()
 		player = matches[0]
@@ -418,7 +415,6 @@ class PokemonShowdownReplayParser(object):
 		elif pokemon.nickname == "":
 			pokemon.nickname = nickname
 		self.players[player].currentPokemon = pokemon
-
 
 	def processMove(self, line):
 		matches = re.search("\|move\|(p[12])a:\s+([^|]+)\|([^|]+)", line).groups()
@@ -446,7 +442,6 @@ class PokemonShowdownReplayParser(object):
 		pokemon = self.players[player].getPokemonByNickname(nickname)
 		pokemon.ability = ability
 
-
 	def processMega(self, line):
 		matches = re.search("\|-mega\|(p[12])a:\s+([^|]+)\|([^|]+)\|(.+)", line).groups()
 		player = matches[0]
@@ -470,7 +465,6 @@ class PokemonShowdownReplayParser(object):
 		pokemon = self.players[player].getPokemonByNickname(nickname)
 		pokemon.species = species
 
-
 	def processItemFromMove(self, line):
 		matches = re.search("\|-item\|(p[12])a:\s+([^|]+)\|([^|]+)", line).groups()
 		player = matches[0]
@@ -483,7 +477,6 @@ class PokemonShowdownReplayParser(object):
 		if otherPokemon.item == "":
 			otherPokemon.item = item
 
-
 	def processEndItem(self, line):
 		matches = re.search("\|-enditem\|(p[12])a:\s+([^|]+)\|([^|]+)", line).groups()
 		player = matches[0]
@@ -494,7 +487,6 @@ class PokemonShowdownReplayParser(object):
 		if pokemon.item == "":
 			pokemon.item = item
 
-
 	def processHealFromItem(self, line):
 		matches = re.search("-heal\|(p[12])a:\s+([^|]+)\|[^|]+\|\[from\] item: (.+)", line).groups()
 		player = matches[0]
@@ -503,7 +495,6 @@ class PokemonShowdownReplayParser(object):
 
 		pokemon = self.players[player].getPokemonByNickname(nickname)
 		pokemon.item = item
-
 
 	def processWeatherFromAbility(self, line):
 		matches = re.search("\|-weather\|[^|]+\|\[from\] ability: ([^|]+)\|\[of\] (p[12])a: (.+)", line).groups()
@@ -540,13 +531,11 @@ class Player(object):
 				return poke
 		return None
 
-
 	def getPokemonByNickname(self, nickname):
 		for poke in self.pokemon:
 			if poke.nickname == nickname:
 				return poke
 		return None
-
 
 	def getTeamFormatString(self):
 		output = "-------------------------\n"
