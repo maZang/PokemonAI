@@ -1,9 +1,10 @@
 import re
 import json
-from pprint import pprint
 import numpy as np
-#import const
 import pickle
+
+from pprint import pprint
+from pokemon.datautils.const import *
 
 BATTLEFILE = 'battlefactory-566172293.txt'
 DATAFOLDER = 'data/replays/'
@@ -16,13 +17,12 @@ def encode(network_config, replay_file):
 
 
 class PokemonShowdownEncoding(object):
-
-	def __init__(self, name, num_turns, type):
+	def __init__(self, name=None, num_turns=None, data_type=None):
 		'''
-		type is either test,train,or val
+		data_type is either test,train,or val
 		'''
 		self.name = name
-		self.type = type
+		self.data_type = data_type
 		self.pokemon = [np.zeros((num_turns, const.POKE_DESCRIPTOR_SIZE)) for _ in range(12)]
 		self.other_data = np.zeros((num_turns, const.NON_EMBEDDING_DATA))
 		self.labels = np.zeros((num_turns, const.NUMBER_CLASSES))
@@ -35,6 +35,13 @@ class PokemonShowdownEncoding(object):
 	def save(self):
 		with open(PARSED_FOLDER + self.type + '/' + self.name + '.p', 'wb') as f:
 			pickle.dump(self, f)
+
+	def encodePokemonObject(self, pokemon):
+		pass
+
+	def encodeLabels(self):
+		pass
+
 
 class PokemonShowdownReplayParser(object):
 	def __init__(self, log="", winner = ""):
@@ -52,7 +59,7 @@ class PokemonShowdownReplayParser(object):
 	def run(self):
 		self.parse()
 		assert(self.winner == "p1" or self.winner == "p2")
-		
+
 		self.stripGenders()
 		self.parseJSON()
 
@@ -61,10 +68,16 @@ class PokemonShowdownReplayParser(object):
 		output += self.players["p2"].getTeamFormatString()
 		for item in self.turnList.iteritems():
 			print(item)
+
+
 		return output
 
+	def generateEncodingObject(self):
+		obj = PokemonShowdownEncoding()
+		return obj
+
 	def parse(self):
-		''' 
+		'''
 		Parses the log file line by line.
 		'''
 		lines = self.log.split('\n')
@@ -212,7 +225,7 @@ class PokemonShowdownReplayParser(object):
 				setItem = pokeSet["item"]
 			setSpecies = pokeSet["species"]
 
-			# If pokemon name is "POKENAME-Mega", this slices off the "-Mega" 
+			# If pokemon name is "POKENAME-Mega", this slices off the "-Mega"
 			if "-Mega" in pokemon.species and pokemon.species.split("-")[0] != setSpecies:
 				print("Pokemon species: " + pokemon.species)
 				print("Set species: " + setSpecies)
@@ -310,7 +323,7 @@ class PokemonShowdownReplayParser(object):
 
 	def prefixHandler(self, pokePrefix, species, player):
 		'''
-		Handles prefix edge cases. When pokemon are listed at the top of a battle log, 
+		Handles prefix edge cases. When pokemon are listed at the top of a battle log,
 		their name is "Arceus-*". When they are switched in, they are listed as "Arceus-Ghost".
 		This function sets the pokemon species to the specific species.
 
