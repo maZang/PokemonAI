@@ -292,8 +292,6 @@ class PokemonShowdownReplayParser(object):
 
 		pokemon = Pokemon()
 		species = fields[3].replace("/,.*$/", "")
-		if species == "Arceus-*":
-			species = "Arceus"
 		pokemon.species = species
 		self.players[fields[2]].pokemon.append(pokemon)
 
