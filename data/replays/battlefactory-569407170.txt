@@ -1,0 +1,194 @@
+|j|DartrixPokemixOFC
+|j|juanroca
+|player|p1|DartrixPokemixOFC|171
+|player|p2|juanroca|266
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|64321,63591,61196,33945,9432,3270,52296,60819,20974,5536,50535,27869
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Scrafty, M|item
+|poke|p1|Piloswine, M|item
+|poke|p1|Delphox, M|item
+|poke|p1|Sneasel, M|item
+|poke|p1|Blastoise, M|item
+|poke|p1|Registeel|item
+|poke|p2|Blastoise, M|item
+|poke|p2|Aggron, M|item
+|poke|p2|Dugtrio, M|item
+|poke|p2|Druddigon, M|item
+|poke|p2|Banette, M|item
+|poke|p2|Houndoom, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 2, team 1, team 3, team 4, team 5, team 6|team 3, team 2, team 1, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Piloswine|Piloswine, M|100/100
+|switch|p2a: Dugtrio|Dugtrio, M|100/100
+|turn|1
+|choice|move stealthrock|switch 3
+|
+|switch|p2a: Blastoise|Blastoise, M|100/100
+|move|p1a: Piloswine|Stealth Rock|p2a: Blastoise
+|-sidestart|p2: juanroca|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by DartrixPokemixOFC)
+|choice|switch 2|move toxic
+|
+|switch|p1a: Scrafty|Scrafty, M|100/100
+|-ability|p1a: Scrafty|Intimidate|boost
+|-unboost|p2a: Blastoise|atk|1
+|move|p2a: Blastoise|Toxic|p1a: Scrafty
+|-status|p1a: Scrafty|tox
+|
+|-damage|p1a: Scrafty|94/100 tox|[from] psn
+|upkeep
+|turn|3
+|choice|move knockoff|switch 5
+|
+|switch|p2a: Banette|Banette, M|100/100
+|-damage|p2a: Banette|88/100|[from] Stealth Rock
+|move|p1a: Scrafty|Knock Off|p2a: Banette
+|-supereffective|p2a: Banette
+|-damage|p2a: Banette|0 fnt
+|faint|p2a: Banette
+|
+|-damage|p1a: Scrafty|82/100 tox|[from] psn
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Blastoise|Blastoise, M|100/100
+|-damage|p2a: Blastoise|88/100|[from] Stealth Rock
+|turn|4
+|choice|move knockoff|move scald
+|
+|move|p2a: Blastoise|Scald|p1a: Scrafty
+|-damage|p1a: Scrafty|57/100 tox
+|move|p1a: Scrafty|Knock Off|p2a: Blastoise
+|-damage|p2a: Blastoise|45/100
+|-enditem|p2a: Blastoise|Leftovers|[from] move: Knock Off|[of] p1a: Scrafty
+|
+|-damage|p1a: Scrafty|38/100 tox|[from] psn
+|upkeep
+|turn|5
+|choice|move knockoff|move scald
+|
+|move|p2a: Blastoise|Scald|p1a: Scrafty
+|-damage|p1a: Scrafty|15/100 tox
+|move|p1a: Scrafty|Knock Off|p2a: Blastoise
+|-damage|p2a: Blastoise|15/100
+|
+|-damage|p1a: Scrafty|0 fnt|[from] psn
+|upkeep
+|faint|p1a: Scrafty
+|choice|switch 2|
+|
+|switch|p1a: Piloswine|Piloswine, M|100/100
+|turn|6
+|choice|move iciclecrash|switch 4
+|
+|switch|p2a: Druddigon|Druddigon, M|100/100
+|-damage|p2a: Druddigon|88/100|[from] Stealth Rock
+|move|p1a: Piloswine|Icicle Crash|p2a: Druddigon
+|-supereffective|p2a: Druddigon
+|-damage|p2a: Druddigon|32/100
+|
+|upkeep
+|turn|7
+|choice|move iciclecrash|move stealthrock
+|
+|move|p1a: Piloswine|Icicle Crash|p2a: Druddigon
+|-supereffective|p2a: Druddigon
+|-crit|p2a: Druddigon
+|-damage|p2a: Druddigon|0 fnt
+|faint|p2a: Druddigon
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Houndoom|Houndoom, M|100/100
+|-damage|p2a: Houndoom|76/100|[from] Stealth Rock
+|turn|8
+|choice|move earthquake|move fireblast
+|
+|move|p2a: Houndoom|Fire Blast|p1a: Piloswine|[miss]
+|-miss|p2a: Houndoom|p1a: Piloswine
+|move|p1a: Piloswine|Earthquake|p2a: Houndoom
+|-supereffective|p2a: Houndoom
+|-damage|p2a: Houndoom|0 fnt
+|faint|p2a: Houndoom
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Blastoise|Blastoise, M|15/100
+|-damage|p2a: Blastoise|2/100|[from] Stealth Rock
+|turn|9
+|choice|move iceshard|move scald
+|
+|move|p1a: Piloswine|Ice Shard|p2a: Blastoise
+|-resisted|p2a: Blastoise
+|-damage|p2a: Blastoise|0 fnt
+|faint|p2a: Blastoise
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Dugtrio|Dugtrio, M|100/100
+|-damage|p2a: Dugtrio|94/100|[from] Stealth Rock
+|turn|10
+|choice|move iciclecrash|move memento
+|
+|move|p2a: Dugtrio|Memento|p1a: Piloswine
+|-unboost|p1a: Piloswine|atk|2
+|-unboost|p1a: Piloswine|spa|2
+|faint|p2a: Dugtrio
+|move|p1a: Piloswine|Icicle Crash|p2: Dugtrio|[notarget]
+|-notarget
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Aggron|Aggron, M|100/100
+|-damage|p2a: Aggron|94/100|[from] Stealth Rock
+|turn|11
+|choice|move earthquake|move headsmash
+|
+|move|p2a: Aggron|Head Smash|p1a: Piloswine
+|-damage|p1a: Piloswine|29/100
+|move|p1a: Piloswine|Earthquake|p2a: Aggron
+|-supereffective|p2a: Aggron
+|-damage|p2a: Aggron|26/100
+|
+|upkeep
+|turn|12
+|choice|move iceshard|move headsmash
+|
+|move|p1a: Piloswine|Ice Shard|p2a: Aggron
+|-resisted|p2a: Aggron
+|-damage|p2a: Aggron|23/100
+|move|p2a: Aggron|Head Smash|p1a: Piloswine
+|-crit|p1a: Piloswine
+|-damage|p1a: Piloswine|0 fnt
+|faint|p1a: Piloswine
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Delphox|Delphox, M|100/100
+|turn|13
+|choice|move fireblast|move headsmash
+|
+|move|p1a: Delphox|Fire Blast|p2a: Aggron
+|-damage|p2a: Aggron|0 fnt
+|faint|p2a: Aggron
+|
+|win|DartrixPokemixOFC
+|raw|DartrixPokemixOFC's rating: 1028 &rarr; <strong>1069</strong><br />(+41 for winning)
+|raw|juanroca's rating: 1085 &rarr; <strong>1058</strong><br />(-27 for losing)

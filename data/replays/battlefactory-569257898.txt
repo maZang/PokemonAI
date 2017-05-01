@@ -1,0 +1,310 @@
+|j|ghchris
+|j|PraydenCharsen
+|player|p1|ghchris|101
+|player|p2|PraydenCharsen|150
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|57710,22810,57486,45945,39480,3437,6036,43352,12170,28746,35762,18284
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Sableye, M|item
+|poke|p1|Cloyster, M|item
+|poke|p1|Swampert, M|item
+|poke|p1|Sharpedo, M|item
+|poke|p1|Reuniclus, M|item
+|poke|p1|Arcanine, M|item
+|poke|p2|Cobalion|item
+|poke|p2|Crobat, M|item
+|poke|p2|Vaporeon, M|item
+|poke|p2|Whimsicott, M|item
+|poke|p2|Hoopa|item
+|poke|p2|Gligar, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ghchris)
+|choice|team 1, team 2, team 3, team 4, team 5, team 6|team 1, team 2, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Sableye|Sableye, M|100/100
+|switch|p2a: Cobalion|Cobalion|100/100
+|turn|1
+|choice|move willowisp|move stealthrock
+|
+|move|p1a: Sableye|Will-O-Wisp|p2a: Cobalion
+|-status|p2a: Cobalion|brn
+|move|p2a: Cobalion|Stealth Rock|p1a: Sableye
+|-sidestart|p1: ghchris|move: Stealth Rock
+|
+|-damage|p2a: Cobalion|88/100 brn|[from] brn
+|upkeep
+|turn|2
+|choice|move knockoff|move ironhead
+|
+|move|p2a: Cobalion|Iron Head|p1a: Sableye
+|-damage|p1a: Sableye|79/100
+|move|p1a: Sableye|Knock Off|p2a: Cobalion
+|-resisted|p2a: Cobalion
+|-damage|p2a: Cobalion|77/100 brn
+|-ability|p2a: Cobalion|Justified|boost
+|-boost|p2a: Cobalion|atk|1
+|-enditem|p2a: Cobalion|Leftovers|[from] move: Knock Off|[of] p1a: Sableye
+|
+|-heal|p1a: Sableye|85/100|[from] item: Leftovers
+|-damage|p2a: Cobalion|65/100 brn|[from] brn
+|upkeep
+|turn|3
+|choice|switch 3|move ironhead
+|
+|switch|p1a: Swampert|Swampert, M|100/100
+|-damage|p1a: Swampert|94/100|[from] Stealth Rock
+|move|p2a: Cobalion|Iron Head|p1a: Swampert
+|-resisted|p1a: Swampert
+|-damage|p1a: Swampert|87/100
+|
+|-heal|p1a: Swampert|93/100|[from] item: Leftovers
+|-damage|p2a: Cobalion|53/100 brn|[from] brn
+|upkeep
+|turn|4
+|choice|move stealthrock|move closecombat
+|
+|move|p2a: Cobalion|Close Combat|p1a: Swampert
+|-damage|p1a: Swampert|70/100
+|-unboost|p2a: Cobalion|def|1
+|-unboost|p2a: Cobalion|spd|1
+|move|p1a: Swampert|Stealth Rock|p2a: Cobalion
+|-sidestart|p2: PraydenCharsen|move: Stealth Rock
+|
+|-heal|p1a: Swampert|76/100|[from] item: Leftovers
+|-damage|p2a: Cobalion|40/100 brn|[from] brn
+|upkeep
+|turn|5
+|choice|move roar|move closecombat
+|
+|move|p2a: Cobalion|Close Combat|p1a: Swampert
+|-damage|p1a: Swampert|51/100
+|-unboost|p2a: Cobalion|def|1
+|-unboost|p2a: Cobalion|spd|1
+|move|p1a: Swampert|Roar|p2a: Cobalion
+|drag|p2a: Gligar|Gligar, M|100/100
+|-damage|p2a: Gligar|88/100|[from] Stealth Rock
+|
+|-heal|p1a: Swampert|57/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|choice|move scald|move swordsdance
+|
+|move|p2a: Gligar|Swords Dance|p2a: Gligar
+|-boost|p2a: Gligar|atk|2
+|move|p1a: Swampert|Scald|p2a: Gligar
+|-supereffective|p2a: Gligar
+|-damage|p2a: Gligar|39/100
+|
+|-heal|p1a: Swampert|64/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|choice|move roar|move batonpass
+|
+|move|p2a: Gligar|Baton Pass|p2a: Gligar
+|choice||switch 2
+|
+|switch|p2a: Crobat|Crobat, M|100/100
+|-damage|p2a: Crobat|76/100|[from] Stealth Rock
+|move|p1a: Swampert|Roar|p2a: Crobat
+|drag|p2a: Vaporeon|Vaporeon, M|100/100
+|-damage|p2a: Vaporeon|88/100|[from] Stealth Rock
+|
+|-heal|p2a: Vaporeon|94/100|[from] item: Leftovers
+|-heal|p1a: Swampert|70/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|choice|move roar|move scald
+|
+|move|p2a: Vaporeon|Scald|p1a: Swampert
+|-damage|p1a: Swampert|43/100
+|move|p1a: Swampert|Roar|p2a: Vaporeon
+|drag|p2a: Gligar|Gligar, M|39/100
+|-damage|p2a: Gligar|27/100|[from] Stealth Rock
+|
+|-heal|p1a: Swampert|49/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|choice|move scald|move roost
+|
+|move|p2a: Gligar|Roost|p2a: Gligar
+|-heal|p2a: Gligar|77/100
+|move|p1a: Swampert|Scald|p2a: Gligar
+|-supereffective|p2a: Gligar
+|-damage|p2a: Gligar|28/100
+|-status|p2a: Gligar|brn
+|
+|-heal|p1a: Swampert|55/100|[from] item: Leftovers
+|-damage|p2a: Gligar|16/100 brn|[from] brn
+|upkeep
+|turn|10
+|choice|move roar|move earthquake
+|
+|move|p2a: Gligar|Earthquake|p1a: Swampert
+|-damage|p1a: Swampert|47/100
+|move|p1a: Swampert|Roar|p2a: Gligar
+|drag|p2a: Vaporeon|Vaporeon, M|94/100
+|-damage|p2a: Vaporeon|82/100|[from] Stealth Rock
+|
+|-heal|p2a: Vaporeon|88/100|[from] item: Leftovers
+|-heal|p1a: Swampert|53/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|choice|move roar|move healbell
+|
+|move|p2a: Vaporeon|Heal Bell|p2a: Vaporeon
+|-activate|p2a: Vaporeon|move: Heal Bell
+|-curestatus|p2: Gligar|brn|[msg]
+|-curestatus|p2: Cobalion|brn|[msg]
+|move|p1a: Swampert|Roar|p2a: Vaporeon
+|drag|p2a: Gligar|Gligar, M|16/100
+|-damage|p2a: Gligar|4/100|[from] Stealth Rock
+|
+|-heal|p1a: Swampert|59/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|choice|move roar|move roost
+|
+|move|p2a: Gligar|Roost|p2a: Gligar
+|-heal|p2a: Gligar|54/100
+|move|p1a: Swampert|Roar|p2a: Gligar
+|drag|p2a: Whimsicott|Whimsicott, M|100/100
+|-damage|p2a: Whimsicott|88/100|[from] Stealth Rock
+|
+|-heal|p2a: Whimsicott|94/100|[from] item: Leftovers
+|-heal|p1a: Swampert|66/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|choice|switch 5|move leechseed
+|
+|switch|p1a: Reuniclus|Reuniclus, M|100/100
+|move|p2a: Whimsicott|Leech Seed|p1a: Reuniclus
+|-start|p1a: Reuniclus|move: Leech Seed
+|
+|-heal|p2a: Whimsicott|100/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|choice|switch 3|move moonblast
+|
+|switch|p1a: Sableye|Sableye, M|85/100
+|-damage|p1a: Sableye|73/100|[from] Stealth Rock
+|move|p2a: Whimsicott|Moonblast|p1a: Sableye
+|-supereffective|p1a: Sableye
+|-damage|p1a: Sableye|21/100
+|
+|-heal|p1a: Sableye|27/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|choice|move recover|move moonblast
+|
+|move|p1a: Sableye|Recover|p1a: Sableye
+|-heal|p1a: Sableye|77/100
+|move|p2a: Whimsicott|Moonblast|p1a: Sableye
+|-supereffective|p1a: Sableye
+|-damage|p1a: Sableye|23/100
+|
+|-heal|p1a: Sableye|29/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|choice|switch 6|move moonblast
+|
+|switch|p1a: Arcanine|Arcanine, M|100/100
+|-damage|p1a: Arcanine|76/100|[from] Stealth Rock
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: Whimsicott|atk|1
+|move|p2a: Whimsicott|Moonblast|p1a: Arcanine
+|-resisted|p1a: Arcanine
+|-damage|p1a: Arcanine|61/100
+|
+|-heal|p1a: Arcanine|67/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|choice|move willowisp|switch 2
+|
+|switch|p2a: Vaporeon|Vaporeon, M|88/100
+|-damage|p2a: Vaporeon|76/100|[from] Stealth Rock
+|move|p1a: Arcanine|Will-O-Wisp|p2a: Vaporeon
+|-status|p2a: Vaporeon|brn
+|
+|-heal|p1a: Arcanine|73/100|[from] item: Leftovers
+|-heal|p2a: Vaporeon|82/100 brn|[from] item: Leftovers
+|-damage|p2a: Vaporeon|69/100 brn|[from] brn
+|upkeep
+|turn|18
+|choice|switch 2|move scald
+|
+|switch|p1a: Cloyster|Cloyster, M|100/100
+|-damage|p1a: Cloyster|76/100|[from] Stealth Rock
+|move|p2a: Vaporeon|Scald|p1a: Cloyster
+|-resisted|p1a: Cloyster
+|-damage|p1a: Cloyster|38/100
+|
+|-heal|p2a: Vaporeon|76/100 brn|[from] item: Leftovers
+|-damage|p2a: Vaporeon|63/100 brn|[from] brn
+|upkeep
+|turn|19
+|choice|move rapidspin|move healbell
+|
+|move|p1a: Cloyster|Rapid Spin|p2a: Vaporeon
+|-damage|p2a: Vaporeon|59/100 brn
+|-sideend|p1: ghchris|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Cloyster
+|move|p2a: Vaporeon|Heal Bell|p2a: Vaporeon
+|-activate|p2a: Vaporeon|move: Heal Bell
+|-curestatus|p2a: Vaporeon|brn|[msg]
+|
+|-heal|p2a: Vaporeon|65/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|choice|move explosion|move wish
+|
+|move|p1a: Cloyster|Explosion|p2a: Vaporeon
+|-crit|p2a: Vaporeon
+|-damage|p2a: Vaporeon|0 fnt
+|faint|p1a: Cloyster
+|faint|p2a: Vaporeon
+|
+|upkeep
+|choice|switch 6|switch 3
+|
+|switch|p2a: Crobat|Crobat, M|76/100
+|switch|p1a: Sableye|Sableye, M|29/100
+|-damage|p2a: Crobat|51/100|[from] Stealth Rock
+|turn|21
+|choice|move willowisp|move bravebird
+|
+|move|p1a: Sableye|Will-O-Wisp|p2a: Crobat
+|-status|p2a: Crobat|brn
+|move|p2a: Crobat|Brave Bird|p1a: Sableye
+|-damage|p1a: Sableye|1/100
+|-damage|p2a: Crobat|43/100 brn|[from] recoil|[of] p1a: Sableye
+|
+|-heal|p2a: Crobat|49/100 brn|[from] item: Black Sludge
+|-heal|p1a: Sableye|7/100|[from] item: Leftovers
+|-damage|p2a: Crobat|37/100 brn|[from] brn
+|upkeep
+|turn|22
+|choice|move recover|move bravebird
+|
+|move|p1a: Sableye|Recover|p1a: Sableye
+|-heal|p1a: Sableye|57/100
+|move|p2a: Crobat|Brave Bird|p1a: Sableye
+|-damage|p1a: Sableye|31/100
+|-damage|p2a: Crobat|30/100 brn|[from] recoil|[of] p1a: Sableye
+|
+|-heal|p2a: Crobat|36/100 brn|[from] item: Black Sludge
+|-heal|p1a: Sableye|37/100|[from] item: Leftovers
+|-damage|p2a: Crobat|24/100 brn|[from] brn
+|upkeep
+|turn|23
+|-message|PraydenCharsen forfeited.
+|
+|win|ghchris
+|l|PraydenCharsen
+|raw|ghchris's rating: 1289 &rarr; <strong>1299</strong><br />(+10 for winning)
+|raw|PraydenCharsen's rating: 1046 &rarr; <strong>1040</strong><br />(-6 for losing)

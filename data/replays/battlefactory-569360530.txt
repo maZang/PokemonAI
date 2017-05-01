@@ -1,0 +1,189 @@
+|j|Tangent Phi²
+|j|fxdghd
+|player|p1|Tangent Phi²|167
+|player|p2|fxdghd|266
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|57703,22613,1020,46268,61724,63293,21152,57792,24858,14142,43738,8665
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Exploud, M|item
+|poke|p1|Escavalier, M|item
+|poke|p1|Fletchinder, M|
+|poke|p1|Manectric, M|item
+|poke|p1|Scrafty, M|item
+|poke|p1|Slowking, M|item
+|poke|p2|Dugtrio, M|item
+|poke|p2|Omastar, M|item
+|poke|p2|Jolteon, M|item
+|poke|p2|Jellicent, M|item
+|poke|p2|Togetic, M|item
+|poke|p2|Flygon, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|c|☆Tangent Phi²|have fun !
+|c|☆fxdghd|u2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by fxdghd)
+|c|☆Tangent Phi²|ok
+|c|☆Tangent Phi²|I don't have entry hazards in my team lol
+|c|☆Tangent Phi²|^^^^
+|choice|team 5, team 2, team 3, team 4, team 1, team 6|team 2, team 1, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Scrafty|Scrafty, M|100/100
+|switch|p2a: Omastar|Omastar, M|100/100
+|-ability|p1a: Scrafty|Intimidate|boost
+|-unboost|p2a: Omastar|atk|1
+|turn|1
+|choice|move knockoff|move stealthrock
+|
+|move|p1a: Scrafty|Knock Off|p2a: Omastar
+|-damage|p2a: Omastar|64/100
+|-ability|p2a: Omastar|Weak Armor|boost
+|-unboost|p2a: Omastar|def|1
+|-boost|p2a: Omastar|spe|1
+|-enditem|p2a: Omastar|Focus Sash|[from] move: Knock Off|[of] p1a: Scrafty
+|move|p2a: Omastar|Stealth Rock|p1a: Scrafty
+|-sidestart|p1: Tangent Phi²|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|choice|move highjumpkick|move spikes
+|
+|move|p2a: Omastar|Spikes|p1a: Scrafty
+|-sidestart|p1: Tangent Phi²|Spikes
+|move|p1a: Scrafty|High Jump Kick|p2a: Omastar
+|-supereffective|p2a: Omastar
+|-damage|p2a: Omastar|0 fnt
+|faint|p2a: Omastar
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Togetic|Togetic, M|100/100
+|turn|3
+|choice|switch 2|move dazzlinggleam
+|
+|switch|p1a: Escavalier|Escavalier, M|100/100
+|-damage|p1a: Escavalier|88/100|[from] Spikes
+|-damage|p1a: Escavalier|76/100|[from] Stealth Rock
+|move|p2a: Togetic|Dazzling Gleam|p1a: Escavalier
+|-resisted|p1a: Escavalier
+|-damage|p1a: Escavalier|67/100
+|
+|upkeep
+|turn|4
+|choice|move knockoff|switch 4
+|
+|switch|p2a: Jellicent|Jellicent, M|100/100
+|move|p1a: Escavalier|Knock Off|p2a: Jellicent
+|-supereffective|p2a: Jellicent
+|-damage|p2a: Jellicent|40/100
+|-enditem|p2a: Jellicent|Leftovers|[from] move: Knock Off|[of] p1a: Escavalier
+|
+|upkeep
+|turn|5
+|choice|move knockoff|move willowisp
+|
+|move|p2a: Jellicent|Will-O-Wisp|p1a: Escavalier|[miss]
+|-miss|p2a: Jellicent|p1a: Escavalier
+|move|p1a: Escavalier|Knock Off|p2a: Jellicent
+|-supereffective|p2a: Jellicent
+|-damage|p2a: Jellicent|0 fnt
+|faint|p2a: Jellicent
+|
+|upkeep
+|c|☆Tangent Phi²|sorry
+|choice||switch 3
+|
+|switch|p2a: Jolteon|Jolteon, M|100/100
+|turn|6
+|choice|move drillrun|move thunderbolt
+|
+|move|p2a: Jolteon|Thunderbolt|p1a: Escavalier
+|-damage|p1a: Escavalier|38/100
+|move|p1a: Escavalier|Drill Run|p2a: Jolteon
+|-supereffective|p2a: Jolteon
+|-crit|p2a: Jolteon
+|-damage|p2a: Jolteon|0 fnt
+|faint|p2a: Jolteon
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Flygon|Flygon, M|100/100
+|turn|7
+|choice|move knockoff|move earthquake
+|
+|move|p2a: Flygon|Earthquake|p1a: Escavalier
+|-damage|p1a: Escavalier|3/100
+|move|p1a: Escavalier|Knock Off|p2a: Flygon
+|-damage|p2a: Flygon|64/100
+|-enditem|p2a: Flygon|Leftovers|[from] move: Knock Off|[of] p1a: Escavalier
+|
+|upkeep
+|turn|8
+|choice|move ironhead|move earthquake
+|
+|move|p2a: Flygon|Earthquake|p1a: Escavalier
+|-damage|p1a: Escavalier|0 fnt
+|faint|p1a: Escavalier
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Manectric|Manectric, M|100/100
+|-damage|p1a: Manectric|88/100|[from] Spikes
+|-damage|p1a: Manectric|76/100|[from] Stealth Rock
+|turn|9
+|choice|move hiddenpower|move earthquake
+|
+|move|p1a: Manectric|Hidden Power|p2a: Flygon
+|-supereffective|p2a: Flygon
+|-damage|p2a: Flygon|4/100
+|move|p2a: Flygon|Earthquake|p1a: Manectric
+|-supereffective|p1a: Manectric
+|-damage|p1a: Manectric|0 fnt
+|faint|p1a: Manectric
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Fletchinder|Fletchinder, M|100/100
+|-damage|p1a: Fletchinder|51/100|[from] Stealth Rock
+|turn|10
+|choice|move acrobatics|move roost
+|
+|move|p1a: Fletchinder|Acrobatics|p2a: Flygon
+|-damage|p2a: Flygon|0 fnt
+|faint|p2a: Flygon
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Dugtrio|Dugtrio, M|100/100
+|turn|11
+|choice|move acrobatics|move suckerpunch
+|
+|move|p2a: Dugtrio|Sucker Punch|p1a: Fletchinder
+|-damage|p1a: Fletchinder|8/100
+|-damage|p2a: Dugtrio|91/100|[from] item: Life Orb
+|move|p1a: Fletchinder|Acrobatics|p2a: Dugtrio
+|-crit|p2a: Dugtrio
+|-damage|p2a: Dugtrio|0 fnt
+|faint|p2a: Dugtrio
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Togetic|Togetic, M|100/100
+|turn|12
+|-message|fxdghd forfeited.
+|
+|win|Tangent Phi²
+|l|fxdghd
+|raw|Tangent Phi²'s rating: 1107 &rarr; <strong>1134</strong><br />(+27 for winning)
+|raw|fxdghd's rating: 1144 &rarr; <strong>1116</strong><br />(-28 for losing)

@@ -1,0 +1,433 @@
+|j|dedic
+|j|ke⚠️ktus
+|player|p1|dedic|184
+|player|p2|ke⚠️ktus|5
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|1912,50169,11051,12957,53398,43997,54831,59661,26049,51260,54733,48127
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Flygon, M|item
+|poke|p1|Gallade, M|item
+|poke|p1|Registeel|item
+|poke|p1|Bronzong|item
+|poke|p1|Sneasel, M|item
+|poke|p1|Sawk, M|item
+|poke|p2|Bronzong|item
+|poke|p2|Meloetta|item
+|poke|p2|Houndoom, M|item
+|poke|p2|Exploud, M|item
+|poke|p2|Gastrodon, M|item
+|poke|p2|Piloswine, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|c|☆ke⚠️ktus|fucked dedic so hard made him eat a plan b
+|c|☆ke⚠️ktus|-drose
+|j|Peachy Energy
+|choice|team 6, team 2, team 3, team 4, team 5, team 1|team 2, team 1, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Sawk|Sawk, M|100/100
+|switch|p2a: Meloetta|Meloetta|100/100
+|-ability|p1a: Sawk|Mold Breaker
+|turn|1
+|j|c0mp's 401k
+|c|☆ke⚠️ktus|sigh
+|c|☆ke⚠️ktus|i cant kill sawk
+|choice|move knockoff|move hypervoice
+|
+|move|p1a: Sawk|Knock Off|p2a: Meloetta
+|-supereffective|p2a: Meloetta
+|-crit|p2a: Meloetta
+|-damage|p2a: Meloetta|7/100
+|-enditem|p2a: Meloetta|Leftovers|[from] move: Knock Off|[of] p1a: Sawk
+|move|p2a: Meloetta|Hyper Voice|p1a: Sawk
+|-damage|p1a: Sawk|36/100
+|
+|upkeep
+|turn|2
+|c| Peachy Energy|easiest KO of dedic's life
+|choice|move closecombat|move hypervoice
+|
+|move|p1a: Sawk|Close Combat|p2a: Meloetta
+|-damage|p2a: Meloetta|0 fnt
+|-unboost|p1a: Sawk|def|1
+|-unboost|p1a: Sawk|spd|1
+|faint|p2a: Meloetta
+|
+|upkeep
+|c|☆ke⚠️ktus|sigh
+|c|☆ke⚠️ktus|sawk is broken
+|c| Peachy Energy|the fuck dedic?
+|c|☆dedic|?
+|choice||switch 3
+|
+|switch|p2a: Houndoom|Houndoom, M|100/100
+|turn|3
+|c| Peachy Energy|why not ko again?
+|c|☆dedic|cause if he went gastrodont..
+|c|☆ke⚠️ktus|L
+|c|☆ke⚠️ktus|U trippin
+|c| Peachy Energy|then he'd lose leftovers...
+|c| Peachy Energy|and you cc after ?_?
+|choice|switch 3|move darkpulse
+|
+|switch|p1a: Registeel|Registeel|100/100
+|move|p2a: Houndoom|Dark Pulse|p1a: Registeel
+|-damage|p1a: Registeel|77/100
+|-damage|p2a: Houndoom|91/100|[from] item: Life Orb
+|
+|-heal|p1a: Registeel|83/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|c|☆dedic|it doesnt 2hko tho..
+|c|☆ke⚠️ktus|who doesnt go flygon
+|c|☆ke⚠️ktus|pussy
+|choice|move stealthrock|switch 5
+|
+|switch|p2a: Gastrodon|Gastrodon, M|100/100
+|move|p1a: Registeel|Stealth Rock|p2a: Gastrodon
+|-sidestart|p2: ke⚠️ktus|move: Stealth Rock
+|
+|-heal|p1a: Registeel|89/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|c| c0mp's 401k|kektus gets read like a fucking pamphlet
+|c|☆dedic|pussy
+|choice|move toxic|move scald
+|
+|move|p1a: Registeel|Toxic|p2a: Gastrodon
+|-status|p2a: Gastrodon|tox
+|move|p2a: Gastrodon|Scald|p1a: Registeel
+|-damage|p1a: Registeel|76/100
+|
+|-heal|p1a: Registeel|82/100|[from] item: Leftovers
+|-damage|p2a: Gastrodon|94/100 tox|[from] psn
+|upkeep
+|turn|6
+|c| Peachy Energy|gg
+|c| Peachy Energy|gg
+|c|☆dedic|lol
+|c|☆dedic|kektus
+|c| Peachy Energy|gg
+|c|☆dedic|gg
+|c|☆ke⚠️ktus|sigh
+|choice|move protect|switch 2
+|
+|switch|p2a: Bronzong|Bronzong|100/100
+|-damage|p2a: Bronzong|94/100|[from] Stealth Rock
+|move|p1a: Registeel|Protect|p1a: Registeel
+|-fail|p1a: Registeel
+|
+|-heal|p1a: Registeel|88/100|[from] item: Leftovers
+|-heal|p2a: Bronzong|100/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|c|☆ke⚠️ktus|sawk is a cteam btw
+|choice|move seismictoss|move stealthrock
+|
+|move|p1a: Registeel|Seismic Toss|p2a: Bronzong
+|-damage|p2a: Bronzong|71/100
+|move|p2a: Bronzong|Stealth Rock|p1a: Registeel
+|-sidestart|p1: dedic|move: Stealth Rock
+|
+|-heal|p1a: Registeel|94/100|[from] item: Leftovers
+|-heal|p2a: Bronzong|77/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|c| c0mp's 401k|you have a psychic type??
+|c|☆ke⚠️ktus|doesnt have a psychic move.
+|c|☆dedic|excuses
+|c|☆ke⚠️ktus|except this
+|choice|move seismictoss|move psywave
+|
+|move|p1a: Registeel|Seismic Toss|p2a: Bronzong
+|-damage|p2a: Bronzong|48/100
+|move|p2a: Bronzong|Psywave|p1a: Registeel
+|-damage|p1a: Registeel|80/100
+|
+|-heal|p1a: Registeel|86/100|[from] item: Leftovers
+|-heal|p2a: Bronzong|54/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|c|☆dedic|lmfao
+|c|☆dedic|who uses psywave
+|c|☆dedic|are you stupid
+|c|☆ke⚠️ktus|zarel.
+|choice|move seismictoss|switch 6
+|
+|switch|p2a: Piloswine|Piloswine, M|100/100
+|-damage|p2a: Piloswine|88/100|[from] Stealth Rock
+|move|p1a: Registeel|Seismic Toss|p2a: Piloswine
+|-damage|p2a: Piloswine|63/100
+|
+|-heal|p1a: Registeel|92/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|choice|move protect|move earthquake
+|
+|move|p1a: Registeel|Protect|p1a: Registeel
+|-singleturn|p1a: Registeel|Protect
+|move|p2a: Piloswine|Earthquake|p1a: Registeel
+|-activate|p1a: Registeel|move: Protect
+|
+|-heal|p1a: Registeel|98/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|c|☆ke⚠️ktus|i have 2 sr mons
+|c|☆ke⚠️ktus|u salty?
+|choice|move toxic|move earthquake
+|
+|move|p2a: Piloswine|Earthquake|p1a: Registeel
+|-supereffective|p1a: Registeel
+|-damage|p1a: Registeel|34/100
+|move|p1a: Registeel|Toxic|p2a: Piloswine
+|-status|p2a: Piloswine|tox
+|
+|-heal|p1a: Registeel|40/100|[from] item: Leftovers
+|-damage|p2a: Piloswine|57/100 tox|[from] psn
+|upkeep
+|turn|12
+|c|☆ke⚠️ktus|yummy
+|choice|move protect|switch 5
+|
+|switch|p2a: Houndoom|Houndoom, M|91/100
+|-damage|p2a: Houndoom|66/100|[from] Stealth Rock
+|move|p1a: Registeel|Protect|p1a: Registeel
+|-fail|p1a: Registeel
+|
+|-heal|p1a: Registeel|46/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|c|☆ke⚠️ktus|who doesnt go bronzong
+|c|☆ke⚠️ktus|pussy
+|choice|move protect|move fireblast
+|
+|move|p1a: Registeel|Protect|p1a: Registeel
+|-singleturn|p1a: Registeel|Protect
+|move|p2a: Houndoom|Fire Blast|p1a: Registeel
+|-activate|p1a: Registeel|move: Protect
+|
+|-heal|p1a: Registeel|52/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|l|c0mp's 401k
+|c|☆dedic|lmfao
+|c|☆dedic|he fire blast
+|c|☆ke⚠️ktus|stfu and eat this fire move nigga
+|choice|switch 6|move fireblast
+|
+|switch|p1a: Flygon|Flygon, M|100/100
+|-damage|p1a: Flygon|95/100|[from] Stealth Rock
+|move|p2a: Houndoom|Fire Blast|p1a: Flygon|[miss]
+|-miss|p2a: Houndoom|p1a: Flygon
+|
+|upkeep
+|turn|15
+|c|☆dedic|lmaooo
+|c|☆ke⚠️ktus|sigh.
+|c|☆ke⚠️ktus|ofcc.
+|c|☆ke⚠️ktus|d pulse wouldve killed after tht
+|c|☆dedic|you dicks
+|choice|switch 5|switch 6
+|
+|switch|p1a: Sneasel|Sneasel, M|100/100
+|-damage|p1a: Sneasel|76/100|[from] Stealth Rock
+|switch|p2a: Bronzong|Bronzong|54/100
+|-damage|p2a: Bronzong|48/100|[from] Stealth Rock
+|
+|-heal|p2a: Bronzong|54/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|c|☆dedic|lmfaoooo
+|c|☆ke⚠️ktus|sigh
+|choice|move knockoff|switch 2
+|
+|switch|p2a: Gastrodon|Gastrodon, M|94/100 tox
+|-damage|p2a: Gastrodon|88/100 tox|[from] Stealth Rock
+|move|p1a: Sneasel|Knock Off|p2a: Gastrodon
+|-damage|p2a: Gastrodon|51/100 tox
+|-enditem|p2a: Gastrodon|Leftovers|[from] move: Knock Off|[of] p1a: Sneasel
+|-damage|p1a: Sneasel|66/100|[from] item: Life Orb
+|
+|-damage|p2a: Gastrodon|45/100 tox|[from] psn
+|upkeep
+|turn|17
+|c|☆ke⚠️ktus|ur team is a cteam
+|choice|switch 2|move recover
+|
+|switch|p1a: Gallade|Gallade, M|100/100
+|-damage|p1a: Gallade|94/100|[from] Stealth Rock
+|move|p2a: Gastrodon|Recover|p2a: Gastrodon
+|-heal|p2a: Gastrodon|95/100 tox
+|
+|-damage|p2a: Gastrodon|83/100 tox|[from] psn
+|upkeep
+|turn|18
+|choice|move swordsdance|move scald
+|
+|move|p1a: Gallade|Swords Dance|p1a: Gallade
+|-boost|p1a: Gallade|atk|2
+|move|p2a: Gastrodon|Scald|p1a: Gallade
+|-damage|p1a: Gallade|67/100
+|
+|-damage|p2a: Gastrodon|65/100 tox|[from] psn
+|upkeep
+|turn|19
+|c|☆dedic|gg
+|c|☆ke⚠️ktus|no burn
+|c|☆ke⚠️ktus|ofc
+|c|☆ke⚠️ktus|*sigh*
+|choice|move closecombat|move scald
+|
+|move|p1a: Gallade|Close Combat|p2a: Gastrodon
+|-damage|p2a: Gastrodon|0 fnt
+|-unboost|p1a: Gallade|def|1
+|-unboost|p1a: Gallade|spd|1
+|-damage|p1a: Gallade|58/100|[from] item: Life Orb
+|faint|p2a: Gastrodon
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Houndoom|Houndoom, M|66/100
+|-damage|p2a: Houndoom|41/100|[from] Stealth Rock
+|turn|20
+|choice|switch 5|move fireblast
+|
+|switch|p1a: Flygon|Flygon, M|95/100
+|-damage|p1a: Flygon|89/100|[from] Stealth Rock
+|move|p2a: Houndoom|Fire Blast|p1a: Flygon
+|-resisted|p1a: Flygon
+|-damage|p1a: Flygon|44/100
+|-damage|p2a: Houndoom|31/100|[from] item: Life Orb
+|
+|upkeep
+|turn|21
+|c|☆ke⚠️ktus|lucky nigga
+|choice|move earthpower|move darkpulse
+|
+|move|p1a: Flygon|Earth Power|p2a: Houndoom
+|-supereffective|p2a: Houndoom
+|-damage|p2a: Houndoom|0 fnt
+|-damage|p1a: Flygon|34/100|[from] item: Life Orb
+|faint|p2a: Houndoom
+|
+|upkeep
+|c|☆ke⚠️ktus|*sigh*
+|c|☆ke⚠️ktus|ofc
+|choice||switch 4
+|
+|switch|p2a: Exploud|Exploud, M|100/100
+|-damage|p2a: Exploud|88/100|[from] Stealth Rock
+|turn|22
+|c|☆dedic|you suckkk
+|c|☆ke⚠️ktus|nigga
+|c|☆ke⚠️ktus|check this set
+|choice|switch 6|move sleeptalk
+|
+|switch|p1a: Registeel|Registeel|52/100
+|-damage|p1a: Registeel|46/100|[from] Stealth Rock
+|move|p2a: Exploud|Sleep Talk|p2a: Exploud
+|-fail|p2a: Exploud
+|
+|-heal|p1a: Registeel|52/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|c| Peachy Energy|preserve
+|c|☆ke⚠️ktus|im specs
+|c|☆ke⚠️ktus|sleep talk.
+|c|☆ke⚠️ktus|sigh.
+|choice|move protect|switch 5
+|
+|switch|p2a: Piloswine|Piloswine, M|57/100 tox
+|-damage|p2a: Piloswine|44/100 tox|[from] Stealth Rock
+|move|p1a: Registeel|Protect|p1a: Registeel
+|-fail|p1a: Registeel
+|
+|-heal|p1a: Registeel|58/100|[from] item: Leftovers
+|-damage|p2a: Piloswine|38/100 tox|[from] psn
+|upkeep
+|turn|24
+|choice|move protect|move earthquake
+|
+|move|p1a: Registeel|Protect|p1a: Registeel
+|-singleturn|p1a: Registeel|Protect
+|move|p2a: Piloswine|Earthquake|p1a: Registeel
+|-activate|p1a: Registeel|move: Protect
+|
+|-heal|p1a: Registeel|64/100|[from] item: Leftovers
+|-damage|p2a: Piloswine|26/100 tox|[from] psn
+|upkeep
+|turn|25
+|choice|switch 4|move earthquake
+|
+|switch|p1a: Bronzong|Bronzong|100/100
+|-damage|p1a: Bronzong|94/100|[from] Stealth Rock
+|move|p2a: Piloswine|Earthquake|p1a: Bronzong
+|-immune|p1a: Bronzong|[msg]|[from] ability: Levitate
+|
+|-heal|p1a: Bronzong|100/100|[from] item: Leftovers
+|-damage|p2a: Piloswine|7/100 tox|[from] psn
+|upkeep
+|turn|26
+|c|☆dedic|lmaoo
+|choice|move gyroball|move earthquake
+|
+|move|p2a: Piloswine|Earthquake|p1a: Bronzong
+|-immune|p1a: Bronzong|[msg]|[from] ability: Levitate
+|move|p1a: Bronzong|Gyro Ball|p2a: Piloswine
+|-supereffective|p2a: Piloswine
+|-damage|p2a: Piloswine|0 fnt
+|faint|p2a: Piloswine
+|
+|upkeep
+|c|☆ke⚠️ktus|nigga u had the cteam
+|c|☆ke⚠️ktus|sigh.
+|choice||switch 5
+|
+|switch|p2a: Exploud|Exploud, M|88/100
+|-damage|p2a: Exploud|76/100|[from] Stealth Rock
+|turn|27
+|choice|move toxic|move fireblast
+|
+|move|p2a: Exploud|Fire Blast|p1a: Bronzong
+|-supereffective|p1a: Bronzong
+|-damage|p1a: Bronzong|39/100
+|move|p1a: Bronzong|Toxic|p2a: Exploud
+|-status|p2a: Exploud|tox
+|
+|-heal|p1a: Bronzong|45/100|[from] item: Leftovers
+|-damage|p2a: Exploud|70/100 tox|[from] psn
+|upkeep
+|turn|28
+|c|☆ke⚠️ktus|eat this dick
+|c|☆ke⚠️ktus|yum.
+|choice|switch 6|move fireblast
+|
+|switch|p1a: Flygon|Flygon, M|34/100
+|-damage|p1a: Flygon|28/100|[from] Stealth Rock
+|move|p2a: Exploud|Fire Blast|p1a: Flygon|[miss]
+|-miss|p2a: Exploud|p1a: Flygon
+|
+|-damage|p2a: Exploud|58/100 tox|[from] psn
+|upkeep
+|turn|29
+|c|☆dedic|lmaoooo
+|player|p2|
+|c|+ke⚠️ktus|sigh.
+|c|+ke⚠️ktus|u ddose dme
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by dedic)
+|c|+ke⚠️ktus|Sigh.
+|l|ke⚠️ktus
+|j|Farewell Rilo!
+|l|Farewell Rilo!
+|j|Cuatr/o/Quattr/o/
+|l|Cuatr/o/Quattr/o/
+|-message|ke⚠️ktus lost due to inactivity.
+|
+|win|dedic
+|l|dedic
+|j|dedic

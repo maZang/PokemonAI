@@ -1,0 +1,349 @@
+|j|AIFreak
+|j|gymleader -umi 10
+|player|p1|AIFreak|267
+|player|p2|gymleader -umi 10|92
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|16781,38879,3509,8696,35401,33598,33597,61075,34602,1260,32771,12044
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Sliggoo, M|item
+|poke|p1|Articuno|item
+|poke|p1|Tangela, M|item
+|poke|p1|Claydol|item
+|poke|p1|Pawniard, M|item
+|poke|p1|Mesprit|item
+|poke|p2|Vivillon, M|item
+|poke|p2|Rotom|item
+|poke|p2|Jynx, F|item
+|poke|p2|Golurk|item
+|poke|p2|Audino, M|item
+|poke|p2|Kabutops, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 5, team 2, team 3, team 4, team 1, team 6|team 4, team 2, team 3, team 1, team 5, team 6
+|
+|start
+|switch|p1a: Pawniard|Pawniard, M|100/100
+|switch|p2a: Golurk|Golurk|100/100
+|turn|1
+|choice|move swordsdance|move earthquake
+|
+|move|p1a: Pawniard|Swords Dance|p1a: Pawniard
+|-boost|p1a: Pawniard|atk|2
+|move|p2a: Golurk|Earthquake|p1a: Pawniard
+|-supereffective|p1a: Pawniard
+|-damage|p1a: Pawniard|0 fnt
+|faint|p1a: Pawniard
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Claydol|Claydol|100/100
+|turn|2
+|choice|move shadowball|move shadowpunch
+|
+|move|p1a: Claydol|Shadow Ball|p2a: Golurk
+|-supereffective|p2a: Golurk
+|-damage|p2a: Golurk|50/100
+|move|p2a: Golurk|Shadow Punch|p1a: Claydol
+|-supereffective|p1a: Claydol
+|-damage|p1a: Claydol|11/100
+|
+|-heal|p1a: Claydol|17/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|choice|move shadowball|move stealthrock
+|
+|move|p1a: Claydol|Shadow Ball|p2a: Golurk
+|-supereffective|p2a: Golurk
+|-damage|p2a: Golurk|0 fnt
+|faint|p2a: Golurk
+|
+|-heal|p1a: Claydol|23/100|[from] item: Leftovers
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Vivillon|Vivillon, M|100/100
+|turn|4
+|choice|move shadowball|move hurricane
+|
+|move|p2a: Vivillon|Hurricane|p1a: Claydol
+|-damage|p1a: Claydol|0 fnt
+|faint|p1a: Claydol
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Sliggoo|Sliggoo, M|100/100
+|turn|5
+|choice|move thunderbolt|move sleeppowder
+|
+|move|p2a: Vivillon|Sleep Powder|p1a: Sliggoo
+|-ability|p1a: Sliggoo|Sap Sipper|boost
+|-boost|p1a: Sliggoo|atk|1
+|move|p1a: Sliggoo|Thunderbolt|p2a: Vivillon
+|-supereffective|p2a: Vivillon
+|-damage|p2a: Vivillon|7/100
+|
+|-heal|p2a: Vivillon|13/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|choice|move sludgebomb|move hurricane
+|
+|move|p2a: Vivillon|Hurricane|p1a: Sliggoo
+|-damage|p1a: Sliggoo|70/100
+|move|p1a: Sliggoo|Sludge Bomb|p2a: Vivillon
+|-damage|p2a: Vivillon|0 fnt
+|faint|p2a: Vivillon
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Jynx|Jynx, F|100/100
+|turn|7
+|choice|move thunderbolt|move icebeam
+|
+|move|p2a: Jynx|Ice Beam|p1a: Sliggoo
+|-supereffective|p1a: Sliggoo
+|-damage|p1a: Sliggoo|0 fnt
+|-damage|p2a: Jynx|91/100|[from] item: Life Orb
+|faint|p1a: Sliggoo
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Mesprit|Mesprit|100/100
+|turn|8
+|choice|move thunderwave|move lovelykiss
+|
+|move|p2a: Jynx|Lovely Kiss|p1a: Mesprit
+|-status|p1a: Mesprit|slp
+|cant|p1a: Mesprit|slp
+|
+|upkeep
+|turn|9
+|choice|move thunderwave|move psychic
+|
+|move|p2a: Jynx|Psychic|p1a: Mesprit
+|-resisted|p1a: Mesprit
+|-damage|p1a: Mesprit|75/100 slp
+|-damage|p2a: Jynx|81/100|[from] item: Life Orb
+|-curestatus|p1a: Mesprit|slp|[msg]
+|move|p1a: Mesprit|Thunder Wave|p2a: Jynx
+|-status|p2a: Jynx|par
+|
+|-heal|p1a: Mesprit|81/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|choice|move stealthrock|move icebeam
+|
+|move|p1a: Mesprit|Stealth Rock|p2a: Jynx
+|-sidestart|p2: gymleader -umi 10|move: Stealth Rock
+|move|p2a: Jynx|Ice Beam|p1a: Mesprit
+|-damage|p1a: Mesprit|29/100
+|-damage|p2a: Jynx|71/100 par|[from] item: Life Orb
+|
+|-heal|p1a: Mesprit|35/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|choice|move uturn|move icebeam
+|
+|move|p1a: Mesprit|U-turn|p2a: Jynx
+|-supereffective|p2a: Jynx
+|-damage|p2a: Jynx|0 fnt
+|faint|p2a: Jynx
+|choice|switch 2|
+|
+|switch|p1a: Articuno|Articuno|100/100
+|-ability|p1a: Articuno|Pressure
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Rotom|Rotom|100/100
+|-damage|p2a: Rotom|88/100|[from] Stealth Rock
+|turn|12
+|choice|move icebeam|move voltswitch
+|
+|move|p2a: Rotom|Volt Switch|p1a: Articuno
+|-supereffective|p1a: Articuno
+|-damage|p1a: Articuno|20/100
+|choice||switch 5
+|
+|switch|p2a: Audino|Audino, M|100/100
+|-damage|p2a: Audino|88/100|[from] Stealth Rock
+|move|p1a: Articuno|Ice Beam|p2a: Audino
+|-damage|p2a: Audino|39/100
+|-damage|p1a: Articuno|10/100|[from] item: Life Orb
+|
+|upkeep
+|turn|13
+|choice|move roost|move dazzlinggleam mega
+|
+|detailschange|p2a: Audino|Audino-Mega, M
+|-mega|p2a: Audino|Audino|Audinite
+|move|p1a: Articuno|Roost|p1a: Articuno
+|-heal|p1a: Articuno|60/100
+|move|p2a: Audino|Dazzling Gleam|p1a: Articuno
+|-damage|p1a: Articuno|38/100
+|
+|upkeep
+|turn|14
+|choice|move roost|move rest
+|
+|move|p1a: Articuno|Roost|p1a: Articuno
+|-heal|p1a: Articuno|88/100
+|move|p2a: Audino|Rest|p2a: Audino
+|-status|p2a: Audino|slp
+|-heal|p2a: Audino|100/100 slp|[silent]
+|-status|p2a: Audino|slp|[from] move: Rest
+|
+|upkeep
+|turn|15
+|choice|move icebeam|move sleeptalk
+|
+|move|p1a: Articuno|Ice Beam|p2a: Audino
+|-damage|p2a: Audino|66/100 slp
+|-damage|p1a: Articuno|78/100|[from] item: Life Orb
+|cant|p2a: Audino|slp
+|move|p2a: Audino|Sleep Talk|p2a: Audino
+|move|p2a: Audino|Rest|p2a: Audino|[from]Sleep Talk
+|-fail|p2a: Audino
+|
+|upkeep
+|turn|16
+|choice|move icebeam|move sleeptalk
+|
+|move|p1a: Articuno|Ice Beam|p2a: Audino
+|-damage|p2a: Audino|32/100 slp
+|-damage|p1a: Articuno|68/100|[from] item: Life Orb
+|cant|p2a: Audino|slp
+|move|p2a: Audino|Sleep Talk|p2a: Audino
+|move|p2a: Audino|Calm Mind|p2a: Audino|[from]Sleep Talk
+|-boost|p2a: Audino|spa|1
+|-boost|p2a: Audino|spd|1
+|
+|upkeep
+|turn|17
+|choice|move icebeam|move rest
+|
+|move|p1a: Articuno|Ice Beam|p2a: Audino
+|-damage|p2a: Audino|8/100 slp
+|-damage|p1a: Articuno|58/100|[from] item: Life Orb
+|-curestatus|p2a: Audino|slp|[msg]
+|move|p2a: Audino|Rest|p2a: Audino
+|-status|p2a: Audino|slp
+|-heal|p2a: Audino|100/100 slp|[silent]
+|-status|p2a: Audino|slp|[from] move: Rest
+|
+|upkeep
+|turn|18
+|choice|move hurricane|move sleeptalk
+|
+|move|p1a: Articuno|Hurricane|p2a: Audino
+|-damage|p2a: Audino|72/100 slp
+|-damage|p1a: Articuno|48/100|[from] item: Life Orb
+|cant|p2a: Audino|slp
+|move|p2a: Audino|Sleep Talk|p2a: Audino
+|move|p2a: Audino|Rest|p2a: Audino|[from]Sleep Talk
+|-fail|p2a: Audino
+|
+|upkeep
+|turn|19
+|choice|move hurricane|move sleeptalk
+|
+|move|p1a: Articuno|Hurricane|p2a: Audino
+|-crit|p2a: Audino
+|-damage|p2a: Audino|12/100 slp
+|-damage|p1a: Articuno|38/100|[from] item: Life Orb
+|cant|p2a: Audino|slp
+|move|p2a: Audino|Sleep Talk|p2a: Audino
+|move|p2a: Audino|Rest|p2a: Audino|[from]Sleep Talk
+|-fail|p2a: Audino
+|
+|upkeep
+|turn|20
+|choice|move icebeam|move rest
+|
+|move|p1a: Articuno|Ice Beam|p2a: Audino
+|-damage|p2a: Audino|0 fnt
+|-damage|p1a: Articuno|28/100|[from] item: Life Orb
+|faint|p2a: Audino
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Rotom|Rotom|88/100
+|-damage|p2a: Rotom|76/100|[from] Stealth Rock
+|turn|21
+|choice|move icebeam|move thunderbolt
+|
+|move|p2a: Rotom|Thunderbolt|p1a: Articuno
+|-supereffective|p1a: Articuno
+|-damage|p1a: Articuno|0 fnt
+|faint|p1a: Articuno
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Tangela|Tangela, M|100/100
+|turn|22
+|choice|move sleeppowder|switch 6
+|
+|switch|p2a: Kabutops|Kabutops, M|100/100
+|-damage|p2a: Kabutops|88/100|[from] Stealth Rock
+|move|p1a: Tangela|Sleep Powder|p2a: Kabutops
+|-status|p2a: Kabutops|slp
+|
+|upkeep
+|turn|23
+|choice|move gigadrain|move rapidspin
+|
+|cant|p2a: Kabutops|slp
+|move|p1a: Tangela|Giga Drain|p2a: Kabutops
+|-supereffective|p2a: Kabutops
+|-damage|p2a: Kabutops|0 fnt
+|faint|p2a: Kabutops
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Rotom|Rotom|76/100
+|-damage|p2a: Rotom|63/100|[from] Stealth Rock
+|turn|24
+|choice|move sleeppowder|move shadowball
+|
+|move|p2a: Rotom|Shadow Ball|p1a: Tangela
+|-damage|p1a: Tangela|36/100
+|move|p1a: Tangela|Sleep Powder|p2a: Rotom|[miss]
+|-miss|p1a: Tangela|p2a: Rotom
+|
+|upkeep
+|turn|25
+|choice|move gigadrain|move shadowball
+|
+|move|p2a: Rotom|Shadow Ball|p1a: Tangela
+|-damage|p1a: Tangela|0 fnt
+|faint|p1a: Tangela
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Mesprit|Mesprit|35/100
+|turn|26
+|choice|move uturn|move shadowball
+|
+|move|p2a: Rotom|Shadow Ball|p1a: Mesprit
+|-supereffective|p1a: Mesprit
+|-damage|p1a: Mesprit|0 fnt
+|faint|p1a: Mesprit
+|
+|win|gymleader -umi 10
+|c|☆AIFreak|gg
+|l|AIFreak
+|raw|AIFreak's rating: 1042 &rarr; <strong>1026</strong><br />(-16 for losing)
+|raw|gymleader -umi 10's rating: 1045 &rarr; <strong>1078</strong><br />(+33 for winning)

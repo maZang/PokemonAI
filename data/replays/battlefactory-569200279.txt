@@ -1,0 +1,251 @@
+|j|PikachuGreninja
+|j|54hio65161
+|player|p1|PikachuGreninja|8
+|player|p2|54hio65161|32
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|52987,21453,14420,15061,12987,3233,31224,46489,4841,22119,54250,1526
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Chatot, M|item
+|poke|p1|Electivire, M|item
+|poke|p1|Roselia, M|item
+|poke|p1|Scyther, M|item
+|poke|p1|Hariyama, M|item
+|poke|p1|Prinplup, M|item
+|poke|p2|Cryogonal|item
+|poke|p2|Camerupt, M|item
+|poke|p2|Exeggutor, M|item
+|poke|p2|Skuntank, M|item
+|poke|p2|Musharna, M|item
+|poke|p2|Pyroar, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by PikachuGreninja)
+|choice|team 1, team 2, team 3, team 4, team 5, team 6|team 5, team 2, team 3, team 4, team 1, team 6
+|
+|start
+|switch|p1a: Chatot|Chatot, M|100/100
+|switch|p2a: Musharna|Musharna, M|100/100
+|turn|1
+|choice|move boomburst|move thunderwave
+|
+|move|p1a: Chatot|Boomburst|p2a: Musharna
+|-damage|p2a: Musharna|30/100
+|move|p2a: Musharna|Thunder Wave|p1a: Chatot
+|-status|p1a: Chatot|par
+|
+|-heal|p2a: Musharna|36/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|choice|move boomburst|move moonlight
+|
+|move|p2a: Musharna|Moonlight|p2a: Musharna
+|-heal|p2a: Musharna|86/100
+|move|p1a: Chatot|Boomburst|p2a: Musharna
+|-damage|p2a: Musharna|20/100
+|
+|-heal|p2a: Musharna|26/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|choice|move boomburst|switch 5
+|
+|switch|p2a: Cryogonal|Cryogonal|100/100
+|cant|p1a: Chatot|par
+|
+|upkeep
+|turn|4
+|choice|switch 5|move freezedry
+|
+|switch|p1a: Hariyama|Hariyama, M|100/100
+|move|p2a: Cryogonal|Freeze-Dry|p1a: Hariyama
+|-damage|p1a: Hariyama|61/100
+|-damage|p2a: Cryogonal|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|5
+|choice|move closecombat|switch 5
+|
+|switch|p2a: Musharna|Musharna, M|26/100
+|move|p1a: Hariyama|Close Combat|p2a: Musharna
+|-resisted|p2a: Musharna
+|-damage|p2a: Musharna|0 fnt
+|-unboost|p1a: Hariyama|def|1
+|-unboost|p1a: Hariyama|spd|1
+|faint|p2a: Musharna
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Exeggutor|Exeggutor, M|100/100
+|turn|6
+|choice|switch 4|move sleeppowder
+|
+|switch|p1a: Scyther|Scyther, M|100/100
+|move|p2a: Exeggutor|Sleep Powder|p1a: Scyther
+|-status|p1a: Scyther|slp
+|
+|upkeep
+|turn|7
+|choice|move aerialace|switch 2
+|
+|switch|p2a: Camerupt|Camerupt, M|100/100
+|cant|p1a: Scyther|slp
+|
+|upkeep
+|turn|8
+|choice|switch 6|move lavaplume
+|
+|switch|p1a: Prinplup|Prinplup, M|100/100
+|move|p2a: Camerupt|Lava Plume|p1a: Prinplup
+|-resisted|p1a: Prinplup
+|-damage|p1a: Prinplup|89/100
+|
+|upkeep
+|turn|9
+|choice|move scald|switch 5
+|
+|switch|p2a: Cryogonal|Cryogonal|91/100
+|move|p1a: Prinplup|Scald|p2a: Cryogonal
+|-damage|p2a: Cryogonal|67/100
+|
+|upkeep
+|turn|10
+|choice|move stealthrock|move freezedry
+|
+|move|p2a: Cryogonal|Freeze-Dry|p1a: Prinplup
+|-supereffective|p1a: Prinplup
+|-damage|p1a: Prinplup|25/100
+|-damage|p2a: Cryogonal|57/100|[from] item: Life Orb
+|move|p1a: Prinplup|Stealth Rock|p2a: Cryogonal
+|-sidestart|p2: 54hio65161|move: Stealth Rock
+|
+|upkeep
+|turn|11
+|choice|switch 4|move recover
+|
+|switch|p1a: Hariyama|Hariyama, M|61/100
+|move|p2a: Cryogonal|Recover|p2a: Cryogonal
+|-heal|p2a: Cryogonal|100/100
+|
+|upkeep
+|turn|12
+|choice|move closecombat|switch 2
+|
+|switch|p2a: Exeggutor|Exeggutor, M|100/100
+|-damage|p2a: Exeggutor|88/100|[from] Stealth Rock
+|move|p1a: Hariyama|Close Combat|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|36/100
+|-unboost|p1a: Hariyama|def|1
+|-unboost|p1a: Hariyama|spd|1
+|
+|upkeep
+|turn|13
+|choice|move closecombat|move psychic
+|
+|move|p2a: Exeggutor|Psychic|p1a: Hariyama
+|-supereffective|p1a: Hariyama
+|-damage|p1a: Hariyama|0 fnt
+|faint|p1a: Hariyama
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Electivire|Electivire, M|100/100
+|turn|14
+|choice|move icepunch|switch 5
+|
+|switch|p2a: Camerupt|Camerupt, M|100/100
+|-damage|p2a: Camerupt|88/100|[from] Stealth Rock
+|move|p1a: Electivire|Ice Punch|p2a: Camerupt
+|-damage|p2a: Camerupt|47/100
+|-damage|p1a: Electivire|91/100|[from] item: Life Orb
+|
+|-heal|p2a: Camerupt|53/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|choice|move earthquake|move earthquake
+|
+|move|p1a: Electivire|Earthquake|p2a: Camerupt
+|-supereffective|p2a: Camerupt
+|-damage|p2a: Camerupt|0 fnt
+|-damage|p1a: Electivire|81/100|[from] item: Life Orb
+|faint|p2a: Camerupt
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Skuntank|Skuntank, M|100/100
+|-damage|p2a: Skuntank|88/100|[from] Stealth Rock
+|turn|16
+|choice|move earthquake|move darkpulse
+|
+|move|p1a: Electivire|Earthquake|p2a: Skuntank
+|-supereffective|p2a: Skuntank
+|-damage|p2a: Skuntank|0 fnt
+|-damage|p1a: Electivire|71/100|[from] item: Life Orb
+|faint|p2a: Skuntank
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Cryogonal|Cryogonal|100/100
+|-damage|p2a: Cryogonal|76/100|[from] Stealth Rock
+|turn|17
+|choice|move wildcharge|move hiddenpower
+|
+|move|p2a: Cryogonal|Hidden Power|p1a: Electivire
+|-supereffective|p1a: Electivire
+|-damage|p1a: Electivire|4/100
+|-damage|p2a: Cryogonal|66/100|[from] item: Life Orb
+|move|p1a: Electivire|Wild Charge|p2a: Cryogonal
+|-damage|p2a: Cryogonal|0 fnt
+|-damage|p1a: Electivire|0 fnt|[from] recoil|[of] p2a: Cryogonal
+|faint|p2a: Cryogonal
+|faint|p1a: Electivire
+|
+|upkeep
+|choice|switch 6|switch 5
+|
+|switch|p1a: Scyther|Scyther, M|100/100 slp
+|switch|p2a: Exeggutor|Exeggutor, M|36/100
+|-damage|p2a: Exeggutor|23/100|[from] Stealth Rock
+|turn|18
+|choice|move aerialace|move rest
+|
+|-curestatus|p1a: Scyther|slp|[msg]
+|move|p1a: Scyther|Aerial Ace|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|0 fnt
+|faint|p2a: Exeggutor
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Pyroar|Pyroar, M|100/100
+|-ability|p2a: Pyroar|Unnerve|p1: PikachuGreninja
+|-damage|p2a: Pyroar|76/100|[from] Stealth Rock
+|turn|19
+|choice|move aerialace|move willowisp
+|
+|move|p1a: Scyther|Aerial Ace|p2a: Pyroar
+|-damage|p2a: Pyroar|20/100
+|move|p2a: Pyroar|Will-O-Wisp|p1a: Scyther|[miss]
+|-miss|p2a: Pyroar|p1a: Scyther
+|
+|upkeep
+|turn|20
+|choice|move aerialace|move fireblast
+|
+|move|p1a: Scyther|Aerial Ace|p2a: Pyroar
+|-damage|p2a: Pyroar|0 fnt
+|faint|p2a: Pyroar
+|
+|win|PikachuGreninja
+|l|54hio65161
+|raw|PikachuGreninja's rating: 1070 &rarr; <strong>1094</strong><br />(+24 for winning)
+|raw|54hio65161's rating: 1000 &rarr; <strong>1000</strong><br />(+0 for losing)

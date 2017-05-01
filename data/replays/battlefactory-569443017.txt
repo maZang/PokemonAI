@@ -1,0 +1,404 @@
+|j|arceus1117
+|j|MememasterHuntsman
+|player|p1|arceus1117|99
+|player|p2|MememasterHuntsman|265
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|31748,20826,47917,34690,47741,45207,17324,17491,57280,17856,54328,32701
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Cresselia, F|item
+|poke|p1|Haxorus, M|item
+|poke|p1|Tentacruel, M|item
+|poke|p1|Diancie|item
+|poke|p1|Aerodactyl, M|item
+|poke|p1|Infernape, M|item
+|poke|p2|Goodra, M|item
+|poke|p2|Milotic, M|item
+|poke|p2|Honchkrow, M|item
+|poke|p2|Froslass, F|item
+|poke|p2|Rhyperior, M|item
+|poke|p2|Kingdra, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 3, team 2, team 1, team 4, team 5, team 6|team 2, team 1, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Tentacruel|Tentacruel, M|100/100
+|switch|p2a: Milotic|Milotic, M|100/100
+|turn|1
+|choice|move knockoff|switch 5
+|
+|switch|p2a: Rhyperior|Rhyperior, M|100/100
+|move|p1a: Tentacruel|Knock Off|p2a: Rhyperior
+|-damage|p2a: Rhyperior|92/100
+|-enditem|p2a: Rhyperior|Leftovers|[from] move: Knock Off|[of] p1a: Tentacruel
+|
+|upkeep
+|turn|2
+|choice|move scald|move earthquake
+|
+|move|p1a: Tentacruel|Scald|p2a: Rhyperior
+|-supereffective|p2a: Rhyperior
+|-damage|p2a: Rhyperior|37/100
+|move|p2a: Rhyperior|Earthquake|p1a: Tentacruel
+|-supereffective|p1a: Tentacruel
+|-damage|p1a: Tentacruel|19/100
+|
+|-heal|p1a: Tentacruel|25/100|[from] item: Black Sludge
+|upkeep
+|turn|3
+|choice|move scald|move earthquake
+|
+|move|p1a: Tentacruel|Scald|p2a: Rhyperior
+|-supereffective|p2a: Rhyperior
+|-damage|p2a: Rhyperior|0 fnt
+|faint|p2a: Rhyperior
+|
+|-heal|p1a: Tentacruel|31/100|[from] item: Black Sludge
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Froslass|Froslass, F|100/100
+|turn|4
+|choice|move knockoff|move icywind
+|
+|move|p2a: Froslass|Icy Wind|p1a: Tentacruel
+|-resisted|p1a: Tentacruel
+|-damage|p1a: Tentacruel|25/100
+|-unboost|p1a: Tentacruel|spe|1
+|move|p1a: Tentacruel|Knock Off|p2a: Froslass
+|-supereffective|p2a: Froslass
+|-damage|p2a: Froslass|60/100
+|-enditem|p2a: Froslass|Focus Sash|[from] move: Knock Off|[of] p1a: Tentacruel
+|
+|-heal|p1a: Tentacruel|32/100|[from] item: Black Sludge
+|upkeep
+|turn|5
+|choice|move toxicspikes|move icywind
+|
+|move|p2a: Froslass|Icy Wind|p1a: Tentacruel
+|-resisted|p1a: Tentacruel
+|-damage|p1a: Tentacruel|25/100
+|-unboost|p1a: Tentacruel|spe|1
+|move|p1a: Tentacruel|Toxic Spikes|p2a: Froslass
+|-sidestart|p2: MememasterHuntsman|move: Toxic Spikes
+|
+|-heal|p1a: Tentacruel|31/100|[from] item: Black Sludge
+|upkeep
+|turn|6
+|choice|move scald|switch 6
+|
+|switch|p2a: Kingdra|Kingdra, M|100/100
+|-status|p2a: Kingdra|psn
+|move|p1a: Tentacruel|Scald|p2a: Kingdra
+|-resisted|p2a: Kingdra
+|-damage|p2a: Kingdra|92/100 psn
+|
+|-heal|p1a: Tentacruel|37/100|[from] item: Black Sludge
+|-damage|p2a: Kingdra|80/100 psn|[from] psn
+|upkeep
+|turn|7
+|choice|move knockoff|move waterfall
+|
+|move|p2a: Kingdra|Waterfall|p1a: Tentacruel
+|-resisted|p1a: Tentacruel
+|-damage|p1a: Tentacruel|26/100
+|move|p1a: Tentacruel|Knock Off|p2a: Kingdra
+|-damage|p2a: Kingdra|62/100 psn
+|-enditem|p2a: Kingdra|Scope Lens|[from] move: Knock Off|[of] p1a: Tentacruel
+|
+|-heal|p1a: Tentacruel|32/100|[from] item: Black Sludge
+|-damage|p2a: Kingdra|50/100 psn|[from] psn
+|upkeep
+|turn|8
+|choice|move scald|move dracometeor
+|
+|move|p2a: Kingdra|Draco Meteor|p1a: Tentacruel
+|-damage|p1a: Tentacruel|0 fnt
+|-unboost|p2a: Kingdra|spa|2
+|faint|p1a: Tentacruel
+|
+|-damage|p2a: Kingdra|38/100 psn|[from] psn
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Haxorus|Haxorus, M|100/100
+|-ability|p1a: Haxorus|Mold Breaker
+|turn|9
+|choice|move dragondance|move dracometeor
+|
+|move|p1a: Haxorus|Dragon Dance|p1a: Haxorus
+|-boost|p1a: Haxorus|atk|1
+|-boost|p1a: Haxorus|spe|1
+|move|p2a: Kingdra|Draco Meteor|p1a: Haxorus
+|-supereffective|p1a: Haxorus
+|-crit|p1a: Haxorus
+|-damage|p1a: Haxorus|0 fnt
+|-unboost|p2a: Kingdra|spa|2
+|faint|p1a: Haxorus
+|
+|-damage|p2a: Kingdra|25/100 psn|[from] psn
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Aerodactyl|Aerodactyl, M|100/100
+|-ability|p1a: Aerodactyl|Pressure
+|turn|10
+|choice|move honeclaws mega|move waterfall
+|
+|detailschange|p1a: Aerodactyl|Aerodactyl-Mega, M
+|-mega|p1a: Aerodactyl|Aerodactyl|Aerodactylite
+|move|p1a: Aerodactyl|Hone Claws|p1a: Aerodactyl
+|-boost|p1a: Aerodactyl|atk|1
+|-boost|p1a: Aerodactyl|accuracy|1
+|move|p2a: Kingdra|Waterfall|p1a: Aerodactyl
+|-supereffective|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|32/100
+|
+|-damage|p2a: Kingdra|13/100 psn|[from] psn
+|upkeep
+|turn|11
+|choice|move aerialace|move waterfall
+|
+|move|p1a: Aerodactyl|Aerial Ace|p2a: Kingdra
+|-damage|p2a: Kingdra|0 fnt
+|faint|p2a: Kingdra
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Froslass|Froslass, F|60/100
+|-status|p2a: Froslass|psn
+|turn|12
+|choice|move aquatail|move icywind
+|
+|move|p1a: Aerodactyl|Aqua Tail|p2a: Froslass
+|-damage|p2a: Froslass|0 fnt
+|faint|p2a: Froslass
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Milotic|Milotic, M|100/100
+|-status|p2a: Milotic|psn
+|turn|13
+|choice|move stoneedge|move scald
+|
+|move|p1a: Aerodactyl|Stone Edge|p2a: Milotic
+|-damage|p2a: Milotic|49/100 psn
+|move|p2a: Milotic|Scald|p1a: Aerodactyl
+|-supereffective|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|0 fnt
+|faint|p1a: Aerodactyl
+|
+|-heal|p2a: Milotic|55/100 psn|[from] item: Leftovers
+|-damage|p2a: Milotic|42/100 psn|[from] psn
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Cresselia|Cresselia, F|100/100
+|turn|14
+|choice|move moonblast|move scald
+|
+|move|p1a: Cresselia|Moonblast|p2a: Milotic
+|-damage|p2a: Milotic|32/100 psn
+|move|p2a: Milotic|Scald|p1a: Cresselia
+|-damage|p1a: Cresselia|84/100
+|-status|p1a: Cresselia|brn
+|
+|-heal|p1a: Cresselia|90/100 brn|[from] item: Leftovers
+|-heal|p2a: Milotic|38/100 psn|[from] item: Leftovers
+|-damage|p1a: Cresselia|78/100 brn|[from] brn
+|-damage|p2a: Milotic|26/100 psn|[from] psn
+|upkeep
+|turn|15
+|choice|move moonblast|move recover
+|
+|move|p1a: Cresselia|Moonblast|p2a: Milotic
+|-damage|p2a: Milotic|17/100 psn
+|move|p2a: Milotic|Recover|p2a: Milotic
+|-heal|p2a: Milotic|67/100 psn
+|
+|-heal|p1a: Cresselia|84/100 brn|[from] item: Leftovers
+|-heal|p2a: Milotic|73/100 psn|[from] item: Leftovers
+|-damage|p1a: Cresselia|72/100 brn|[from] brn
+|-damage|p2a: Milotic|60/100 psn|[from] psn
+|upkeep
+|turn|16
+|choice|move moonblast|move scald
+|
+|move|p1a: Cresselia|Moonblast|p2a: Milotic
+|-damage|p2a: Milotic|51/100 psn
+|-unboost|p2a: Milotic|spa|1
+|move|p2a: Milotic|Scald|p1a: Cresselia
+|-damage|p1a: Cresselia|60/100 brn
+|
+|-heal|p1a: Cresselia|66/100 brn|[from] item: Leftovers
+|-heal|p2a: Milotic|57/100 psn|[from] item: Leftovers
+|-damage|p1a: Cresselia|54/100 brn|[from] brn
+|-damage|p2a: Milotic|45/100 psn|[from] psn
+|upkeep
+|turn|17
+|choice|move moonblast|switch 3
+|
+|switch|p2a: Honchkrow|Honchkrow, M|100/100
+|move|p1a: Cresselia|Moonblast|p2a: Honchkrow
+|-supereffective|p2a: Honchkrow
+|-damage|p2a: Honchkrow|32/100
+|
+|-heal|p1a: Cresselia|60/100 brn|[from] item: Leftovers
+|-damage|p1a: Cresselia|47/100 brn|[from] brn
+|upkeep
+|turn|18
+|choice|move moonblast|move nightslash
+|
+|move|p2a: Honchkrow|Night Slash|p1a: Cresselia
+|-supereffective|p1a: Cresselia
+|-crit|p1a: Cresselia
+|-damage|p1a: Cresselia|0 fnt
+|faint|p1a: Cresselia
+|-ability|p2a: Honchkrow|Moxie|boost
+|-boost|p2a: Honchkrow|atk|1
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Diancie|Diancie|100/100
+|turn|19
+|choice|move diamondstorm|switch 3
+|
+|switch|p2a: Milotic|Milotic, M|45/100 psn
+|move|p1a: Diancie|Diamond Storm|p2a: Milotic
+|-damage|p2a: Milotic|22/100 psn
+|
+|-heal|p2a: Milotic|28/100 psn|[from] item: Leftovers
+|-damage|p2a: Milotic|16/100 psn|[from] psn
+|upkeep
+|turn|20
+|choice|move diamondstorm|move recover
+|
+|move|p2a: Milotic|Recover|p2a: Milotic
+|-heal|p2a: Milotic|66/100 psn
+|move|p1a: Diancie|Diamond Storm|p2a: Milotic
+|-damage|p2a: Milotic|44/100 psn
+|
+|-heal|p2a: Milotic|50/100 psn|[from] item: Leftovers
+|-damage|p2a: Milotic|37/100 psn|[from] psn
+|upkeep
+|turn|21
+|choice|move diamondstorm|move icebeam
+|
+|move|p2a: Milotic|Ice Beam|p1a: Diancie
+|-damage|p1a: Diancie|83/100
+|move|p1a: Diancie|Diamond Storm|p2a: Milotic
+|-damage|p2a: Milotic|12/100 psn
+|-boost|p1a: Diancie|def|1
+|
+|-heal|p2a: Milotic|18/100 psn|[from] item: Leftovers
+|-heal|p1a: Diancie|89/100|[from] item: Leftovers
+|-damage|p2a: Milotic|5/100 psn|[from] psn
+|upkeep
+|turn|22
+|choice|move moonblast|move recover
+|
+|move|p2a: Milotic|Recover|p2a: Milotic
+|-heal|p2a: Milotic|55/100 psn
+|move|p1a: Diancie|Moonblast|p2a: Milotic
+|-damage|p2a: Milotic|29/100 psn
+|
+|-heal|p2a: Milotic|35/100 psn|[from] item: Leftovers
+|-heal|p1a: Diancie|96/100|[from] item: Leftovers
+|-damage|p2a: Milotic|22/100 psn|[from] psn
+|upkeep
+|turn|23
+|choice|move diamondstorm|move scald
+|
+|move|p2a: Milotic|Scald|p1a: Diancie
+|-supereffective|p1a: Diancie
+|-damage|p1a: Diancie|54/100
+|move|p1a: Diancie|Diamond Storm|p2a: Milotic
+|-damage|p2a: Milotic|0 fnt
+|faint|p2a: Milotic
+|
+|-heal|p1a: Diancie|60/100|[from] item: Leftovers
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Goodra|Goodra, M|100/100
+|-status|p2a: Goodra|psn
+|turn|24
+|choice|move stealthrock|move sludgebomb
+|
+|move|p2a: Goodra|Sludge Bomb|p1a: Diancie
+|-damage|p1a: Diancie|29/100
+|-damage|p2a: Goodra|91/100 psn|[from] item: Life Orb
+|move|p1a: Diancie|Stealth Rock|p2a: Goodra
+|-sidestart|p2: MememasterHuntsman|move: Stealth Rock
+|
+|-heal|p1a: Diancie|36/100|[from] item: Leftovers
+|-damage|p2a: Goodra|78/100 psn|[from] psn
+|upkeep
+|turn|25
+|choice|move protect|move sludgebomb
+|
+|move|p1a: Diancie|Protect|p1a: Diancie
+|-singleturn|p1a: Diancie|Protect
+|move|p2a: Goodra|Sludge Bomb|p1a: Diancie
+|-activate|p1a: Diancie|move: Protect
+|
+|-heal|p1a: Diancie|42/100|[from] item: Leftovers
+|-damage|p2a: Goodra|66/100 psn|[from] psn
+|upkeep
+|turn|26
+|choice|move moonblast|move sludgebomb
+|
+|move|p2a: Goodra|Sludge Bomb|p1a: Diancie
+|-damage|p1a: Diancie|12/100
+|-damage|p2a: Goodra|56/100 psn|[from] item: Life Orb
+|move|p1a: Diancie|Moonblast|p2a: Goodra
+|-supereffective|p2a: Goodra
+|-damage|p2a: Goodra|0 fnt
+|faint|p2a: Goodra
+|
+|-heal|p1a: Diancie|18/100|[from] item: Leftovers
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Honchkrow|Honchkrow, M|32/100
+|-damage|p2a: Honchkrow|7/100|[from] Stealth Rock
+|turn|27
+|choice|move moonblast|move superpower
+|
+|move|p2a: Honchkrow|Superpower|p1a: Diancie
+|-crit|p1a: Diancie
+|-damage|p1a: Diancie|0 fnt
+|-unboost|p2a: Honchkrow|atk|1
+|-unboost|p2a: Honchkrow|def|1
+|faint|p1a: Diancie
+|-ability|p2a: Honchkrow|Moxie|boost
+|-boost|p2a: Honchkrow|atk|1
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Infernape|Infernape, M|100/100
+|turn|28
+|choice|move closecombat|move superpower
+|
+|move|p2a: Honchkrow|Superpower|p1a: Infernape
+|-damage|p1a: Infernape|39/100
+|-unboost|p2a: Honchkrow|atk|1
+|-unboost|p2a: Honchkrow|def|1
+|move|p1a: Infernape|Close Combat|p2a: Honchkrow
+|-damage|p2a: Honchkrow|0 fnt
+|-unboost|p1a: Infernape|def|1
+|-unboost|p1a: Infernape|spd|1
+|faint|p2a: Honchkrow
+|
+|win|arceus1117
+|raw|arceus1117's rating: 1272 &rarr; <strong>1288</strong><br />(+16 for winning)
+|raw|MememasterHuntsman's rating: 1155 &rarr; <strong>1138</strong><br />(-17 for losing)

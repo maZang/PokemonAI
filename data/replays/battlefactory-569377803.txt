@@ -1,0 +1,499 @@
+|j|Buudah
+|j|leog044
+|player|p1|Buudah|167
+|player|p2|leog044|275
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|17496,35332,41688,51555,48601,25037,14816,44025,52166,15568,43017,27032
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Armaldo, M|item
+|poke|p1|Venipede, M|item
+|poke|p1|Ninetales, M|item
+|poke|p1|Swanna, M|item
+|poke|p1|Golem, M|item
+|poke|p1|Mr. Mime, M|item
+|poke|p2|Bouffalant, M|item
+|poke|p2|Stunfisk, M|item
+|poke|p2|Vibrava, M|item
+|poke|p2|Gourgeist-*, M|item
+|poke|p2|Regice|item
+|poke|p2|Gothitelle, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 5, team 2, team 3, team 4, team 1, team 6|team 4, team 2, team 3, team 1, team 5, team 6
+|
+|start
+|switch|p1a: Golem|Golem, M|100/100
+|switch|p2a: Gourgeist|Gourgeist-Super, M|100/100
+|-item|p1a: Golem|Weakness Policy|[from] ability: Frisk|[of] p2a: Gourgeist|[identify]
+|turn|1
+|choice|switch 4|move willowisp
+|
+|switch|p1a: Swanna|Swanna, M|100/100
+|move|p2a: Gourgeist|Will-O-Wisp|p1a: Swanna
+|-status|p1a: Swanna|brn
+|
+|-damage|p1a: Swanna|88/100 brn|[from] brn
+|upkeep
+|turn|2
+|choice|move hurricane|switch 5
+|
+|switch|p2a: Regice|Regice|100/100
+|move|p1a: Swanna|Hurricane|p2a: Regice
+|-damage|p2a: Regice|71/100
+|-damage|p1a: Swanna|78/100 brn|[from] item: Life Orb
+|
+|-heal|p2a: Regice|77/100|[from] item: Leftovers
+|-damage|p1a: Swanna|66/100 brn|[from] brn
+|upkeep
+|turn|3
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by leog044)
+|choice|switch 3|move thunderbolt
+|
+|switch|p1a: Ninetales|Ninetales, M|100/100
+|move|p2a: Regice|Thunderbolt|p1a: Ninetales
+|-damage|p1a: Ninetales|64/100
+|
+|-heal|p1a: Ninetales|70/100|[from] item: Leftovers
+|-heal|p2a: Regice|83/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|choice|move substitute|switch 3
+|
+|switch|p2a: Vibrava|Vibrava, M|100/100
+|move|p1a: Ninetales|Substitute|p1a: Ninetales
+|-start|p1a: Ninetales|Substitute
+|-damage|p1a: Ninetales|45/100
+|
+|-heal|p1a: Ninetales|51/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|choice|move energyball|move earthquake
+|
+|move|p1a: Ninetales|Energy Ball|p2a: Vibrava
+|-crit|p2a: Vibrava
+|-damage|p2a: Vibrava|74/100
+|move|p2a: Vibrava|Earthquake|p1a: Ninetales
+|-supereffective|p1a: Ninetales
+|-end|p1a: Ninetales|Substitute
+|
+|-heal|p1a: Ninetales|57/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|choice|switch 3|move earthquake
+|
+|switch|p1a: Swanna|Swanna, M|66/100 brn
+|move|p2a: Vibrava|Earthquake|p1a: Swanna
+|-immune|p1a: Swanna|[msg]
+|
+|-damage|p1a: Swanna|53/100 brn|[from] brn
+|upkeep
+|turn|7
+|choice|move roost|move roost
+|
+|move|p1a: Swanna|Roost|p1a: Swanna
+|-heal|p1a: Swanna|100/100 brn
+|move|p2a: Vibrava|Roost|p2a: Vibrava
+|-heal|p2a: Vibrava|100/100
+|
+|-damage|p1a: Swanna|88/100 brn|[from] brn
+|upkeep
+|turn|8
+|choice|move scald|switch 3
+|
+|switch|p2a: Regice|Regice|83/100
+|move|p1a: Swanna|Scald|p2a: Regice
+|-damage|p2a: Regice|62/100
+|-damage|p1a: Swanna|78/100 brn|[from] item: Life Orb
+|
+|-heal|p2a: Regice|68/100|[from] item: Leftovers
+|-damage|p1a: Swanna|66/100 brn|[from] brn
+|upkeep
+|turn|9
+|choice|switch 4|move focusblast
+|
+|switch|p1a: Golem|Golem, M|100/100
+|move|p2a: Regice|Focus Blast|p1a: Golem|[miss]
+|-miss|p2a: Regice|p1a: Golem
+|
+|-heal|p2a: Regice|74/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|choice|move stoneedge|switch 3
+|
+|switch|p2a: Vibrava|Vibrava, M|100/100
+|move|p1a: Golem|Stone Edge|p2a: Vibrava
+|-resisted|p2a: Vibrava
+|-damage|p2a: Vibrava|64/100
+|
+|upkeep
+|turn|11
+|choice|switch 4|move toxic
+|
+|switch|p1a: Swanna|Swanna, M|66/100 brn
+|move|p2a: Vibrava|Toxic|p1a: Swanna
+|-fail|p1a: Swanna
+|
+|-damage|p1a: Swanna|53/100 brn|[from] brn
+|upkeep
+|turn|12
+|choice|move roost|move roost
+|
+|move|p1a: Swanna|Roost|p1a: Swanna
+|-heal|p1a: Swanna|100/100 brn
+|move|p2a: Vibrava|Roost|p2a: Vibrava
+|-heal|p2a: Vibrava|100/100
+|
+|-damage|p1a: Swanna|88/100 brn|[from] brn
+|upkeep
+|turn|13
+|choice|move scald|switch 3
+|
+|switch|p2a: Regice|Regice|74/100
+|move|p1a: Swanna|Scald|p2a: Regice
+|-crit|p2a: Regice
+|-damage|p2a: Regice|40/100
+|-damage|p1a: Swanna|78/100 brn|[from] item: Life Orb
+|
+|-heal|p2a: Regice|47/100|[from] item: Leftovers
+|-damage|p1a: Swanna|66/100 brn|[from] brn
+|upkeep
+|turn|14
+|choice|move scald|move thunderbolt
+|
+|move|p1a: Swanna|Scald|p2a: Regice
+|-damage|p2a: Regice|26/100
+|-damage|p1a: Swanna|56/100 brn|[from] item: Life Orb
+|move|p2a: Regice|Thunderbolt|p1a: Swanna
+|-supereffective|p1a: Swanna
+|-damage|p1a: Swanna|0 fnt
+|faint|p1a: Swanna
+|
+|-heal|p2a: Regice|32/100|[from] item: Leftovers
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Golem|Golem, M|100/100
+|turn|15
+|choice|move earthquake|move icebeam
+|
+|move|p1a: Golem|Earthquake|p2a: Regice
+|-damage|p2a: Regice|0 fnt
+|faint|p2a: Regice
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Gourgeist|Gourgeist-Super, M|100/100
+|-item|p1a: Golem|Weakness Policy|[from] ability: Frisk|[of] p2a: Gourgeist|[identify]
+|turn|16
+|choice|switch 3|move foulplay
+|
+|switch|p1a: Ninetales|Ninetales, M|57/100
+|move|p2a: Gourgeist|Foul Play|p1a: Ninetales
+|-damage|p1a: Ninetales|32/100
+|
+|-heal|p1a: Ninetales|38/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|choice|move nastyplot|switch 3
+|
+|switch|p2a: Vibrava|Vibrava, M|100/100
+|move|p1a: Ninetales|Nasty Plot|p1a: Ninetales
+|-boost|p1a: Ninetales|spa|2
+|
+|-heal|p1a: Ninetales|44/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|choice|switch 5|move earthquake
+|
+|switch|p1a: Armaldo|Armaldo, M|100/100
+|move|p2a: Vibrava|Earthquake|p1a: Armaldo
+|-damage|p1a: Armaldo|76/100
+|
+|-heal|p1a: Armaldo|82/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|choice|move knockoff|move toxic
+|
+|move|p2a: Vibrava|Toxic|p1a: Armaldo
+|-status|p1a: Armaldo|tox
+|move|p1a: Armaldo|Knock Off|p2a: Vibrava
+|-damage|p2a: Vibrava|53/100
+|-enditem|p2a: Vibrava|Eviolite|[from] move: Knock Off|[of] p1a: Armaldo
+|
+|-heal|p1a: Armaldo|88/100 tox|[from] item: Leftovers
+|-damage|p1a: Armaldo|82/100 tox|[from] psn
+|upkeep
+|turn|20
+|choice|move stoneedge|move roost
+|
+|move|p2a: Vibrava|Roost|p2a: Vibrava
+|-heal|p2a: Vibrava|100/100
+|move|p1a: Armaldo|Stone Edge|p2a: Vibrava|[miss]
+|-miss|p1a: Armaldo|p2a: Vibrava
+|
+|-heal|p1a: Armaldo|88/100 tox|[from] item: Leftovers
+|-damage|p1a: Armaldo|76/100 tox|[from] psn
+|upkeep
+|turn|21
+|choice|move knockoff|switch 3
+|
+|switch|p2a: Gourgeist|Gourgeist-Super, M|100/100
+|-item|p1a: Armaldo|Leftovers|[from] ability: Frisk|[of] p2a: Gourgeist|[identify]
+|move|p1a: Armaldo|Knock Off|p2a: Gourgeist
+|-supereffective|p2a: Gourgeist
+|-damage|p2a: Gourgeist|57/100
+|-enditem|p2a: Gourgeist|Leftovers|[from] move: Knock Off|[of] p1a: Armaldo
+|
+|-heal|p1a: Armaldo|82/100 tox|[from] item: Leftovers
+|-damage|p1a: Armaldo|63/100 tox|[from] psn
+|upkeep
+|turn|22
+|choice|switch 6|move foulplay
+|
+|switch|p1a: Mr. Mime|Mr. Mime, M|100/100
+|move|p2a: Gourgeist|Foul Play|p1a: Mr. Mime
+|-damage|p1a: Mr. Mime|85/100
+|
+|upkeep
+|turn|23
+|choice|move dazzlinggleam|move synthesis
+|
+|move|p1a: Mr. Mime|Dazzling Gleam|p2a: Gourgeist
+|-damage|p2a: Gourgeist|18/100
+|move|p2a: Gourgeist|Synthesis|p2a: Gourgeist
+|-heal|p2a: Gourgeist|68/100
+|
+|upkeep
+|turn|24
+|choice|move dazzlinggleam|switch 6
+|
+|switch|p2a: Gothitelle|Gothitelle, M|100/100
+|move|p1a: Mr. Mime|Dazzling Gleam|p2a: Gothitelle
+|-damage|p2a: Gothitelle|70/100
+|
+|-heal|p2a: Gothitelle|76/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|choice|switch 6|move calmmind
+|
+|switch|p1a: Armaldo|Armaldo, M|63/100 tox
+|move|p2a: Gothitelle|Calm Mind|p2a: Gothitelle
+|-boost|p2a: Gothitelle|spa|1
+|-boost|p2a: Gothitelle|spd|1
+|
+|-heal|p2a: Gothitelle|82/100|[from] item: Leftovers
+|-heal|p1a: Armaldo|70/100 tox|[from] item: Leftovers
+|-damage|p1a: Armaldo|63/100 tox|[from] psn
+|upkeep
+|turn|26
+|choice|move knockoff|move psychic
+|
+|move|p2a: Gothitelle|Psychic|p1a: Armaldo
+|-damage|p1a: Armaldo|16/100 tox
+|move|p1a: Armaldo|Knock Off|p2a: Gothitelle
+|-supereffective|p2a: Gothitelle
+|-damage|p2a: Gothitelle|25/100
+|-enditem|p2a: Gothitelle|Leftovers|[from] move: Knock Off|[of] p1a: Armaldo
+|
+|-heal|p1a: Armaldo|22/100 tox|[from] item: Leftovers
+|-damage|p1a: Armaldo|9/100 tox|[from] psn
+|upkeep
+|turn|27
+|choice|move earthquake|move rest
+|
+|move|p2a: Gothitelle|Rest|p2a: Gothitelle
+|-status|p2a: Gothitelle|slp
+|-heal|p2a: Gothitelle|100/100 slp|[silent]
+|-status|p2a: Gothitelle|slp|[from] move: Rest
+|move|p1a: Armaldo|Earthquake|p2a: Gothitelle
+|-damage|p2a: Gothitelle|73/100 slp
+|
+|-heal|p1a: Armaldo|16/100 tox|[from] item: Leftovers
+|-damage|p1a: Armaldo|0 fnt|[from] psn
+|upkeep
+|faint|p1a: Armaldo
+|choice|switch 2|
+|
+|switch|p1a: Venipede|Venipede, M|100/100
+|turn|28
+|choice|move toxicspikes|move psychic
+|
+|move|p1a: Venipede|Toxic Spikes|p2a: Gothitelle
+|-sidestart|p2: leog044|move: Toxic Spikes
+|cant|p2a: Gothitelle|slp
+|
+|-ability|p1a: Venipede|Speed Boost|boost
+|-boost|p1a: Venipede|spe|1
+|upkeep
+|turn|29
+|choice|move toxicspikes|move psychic
+|
+|move|p1a: Venipede|Toxic Spikes|p2a: Gothitelle
+|-sidestart|p2: leog044|move: Toxic Spikes
+|cant|p2a: Gothitelle|slp
+|
+|-ability|p1a: Venipede|Speed Boost|boost
+|-boost|p1a: Venipede|spe|1
+|upkeep
+|turn|30
+|choice|move spikes|move psychic
+|
+|move|p1a: Venipede|Spikes|p2a: Gothitelle
+|-sidestart|p2: leog044|Spikes
+|-curestatus|p2a: Gothitelle|slp|[msg]
+|move|p2a: Gothitelle|Psychic|p1a: Venipede
+|-supereffective|p1a: Venipede
+|-enditem|p1a: Venipede|Focus Sash
+|-damage|p1a: Venipede|1/100
+|
+|-ability|p1a: Venipede|Speed Boost|boost
+|-boost|p1a: Venipede|spe|1
+|upkeep
+|turn|31
+|choice|move endeavor|move psychic
+|
+|move|p1a: Venipede|Endeavor|p2a: Gothitelle
+|-damage|p2a: Gothitelle|1/100
+|move|p2a: Gothitelle|Psychic|p1a: Venipede
+|-supereffective|p1a: Venipede
+|-damage|p1a: Venipede|0 fnt
+|faint|p1a: Venipede
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Mr. Mime|Mr. Mime, M|85/100
+|turn|32
+|choice|move dazzlinggleam|move rest
+|
+|move|p1a: Mr. Mime|Dazzling Gleam|p2a: Gothitelle
+|-damage|p2a: Gothitelle|0 fnt
+|faint|p2a: Gothitelle
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Stunfisk|Stunfisk, M|100/100
+|-damage|p2a: Stunfisk|88/100|[from] Spikes
+|-status|p2a: Stunfisk|tox
+|turn|33
+|choice|move dazzlinggleam|move stealthrock
+|
+|move|p1a: Mr. Mime|Dazzling Gleam|p2a: Stunfisk
+|-damage|p2a: Stunfisk|59/100 tox
+|move|p2a: Stunfisk|Stealth Rock|p1a: Mr. Mime
+|-sidestart|p1: Buudah|move: Stealth Rock
+|
+|-damage|p2a: Stunfisk|53/100 tox|[from] psn
+|upkeep
+|turn|34
+|choice|switch 3|move toxic
+|
+|switch|p1a: Golem|Golem, M|100/100
+|-damage|p1a: Golem|95/100|[from] Stealth Rock
+|move|p2a: Stunfisk|Toxic|p1a: Golem
+|-status|p1a: Golem|tox
+|
+|-damage|p1a: Golem|89/100 tox|[from] psn
+|-damage|p2a: Stunfisk|41/100 tox|[from] psn
+|upkeep
+|turn|35
+|choice|move stealthrock|move earthpower
+|
+|move|p1a: Golem|Stealth Rock|p2a: Stunfisk
+|-sidestart|p2: leog044|move: Stealth Rock
+|move|p2a: Stunfisk|Earth Power|p1a: Golem
+|-supereffective|p1a: Golem
+|-damage|p1a: Golem|9/100 tox
+|-enditem|p1a: Golem|Weakness Policy
+|-boost|p1a: Golem|atk|2
+|-boost|p1a: Golem|spa|2
+|-unboost|p1a: Golem|spd|1
+|
+|-damage|p1a: Golem|0 fnt|[from] psn
+|-damage|p2a: Stunfisk|22/100 tox|[from] psn
+|upkeep
+|faint|p1a: Golem
+|choice|switch 3|
+|
+|switch|p1a: Mr. Mime|Mr. Mime, M|85/100
+|-damage|p1a: Mr. Mime|72/100|[from] Stealth Rock
+|turn|36
+|choice|move dazzlinggleam|move toxic
+|
+|move|p1a: Mr. Mime|Dazzling Gleam|p2a: Stunfisk
+|-damage|p2a: Stunfisk|0 fnt
+|faint|p2a: Stunfisk
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Vibrava|Vibrava, M|100/100
+|-damage|p2a: Vibrava|95/100|[from] Stealth Rock
+|turn|37
+|choice|move dazzlinggleam|move toxic
+|
+|move|p1a: Mr. Mime|Dazzling Gleam|p2a: Vibrava
+|-supereffective|p2a: Vibrava
+|-damage|p2a: Vibrava|11/100
+|move|p2a: Vibrava|Toxic|p1a: Mr. Mime
+|-status|p1a: Mr. Mime|tox
+|
+|-damage|p1a: Mr. Mime|67/100 tox|[from] psn
+|upkeep
+|turn|38
+|choice|move dazzlinggleam|switch 6
+|
+|switch|p2a: Gourgeist|Gourgeist-Super, M|68/100
+|-damage|p2a: Gourgeist|56/100|[from] Spikes
+|-status|p2a: Gourgeist|tox
+|-damage|p2a: Gourgeist|44/100 tox|[from] Stealth Rock
+|-item|p1a: Mr. Mime|Choice Scarf|[from] ability: Frisk|[of] p2a: Gourgeist|[identify]
+|move|p1a: Mr. Mime|Dazzling Gleam|p2a: Gourgeist
+|-damage|p2a: Gourgeist|6/100 tox
+|
+|-damage|p1a: Mr. Mime|55/100 tox|[from] psn
+|-damage|p2a: Gourgeist|0 fnt|[from] psn
+|upkeep
+|faint|p2a: Gourgeist
+|choice||switch 4
+|
+|switch|p2a: Bouffalant|Bouffalant, M|100/100
+|-damage|p2a: Bouffalant|88/100|[from] Spikes
+|-status|p2a: Bouffalant|tox
+|-damage|p2a: Bouffalant|76/100 tox|[from] Stealth Rock
+|turn|39
+|choice|move dazzlinggleam|move return
+|
+|move|p1a: Mr. Mime|Dazzling Gleam|p2a: Bouffalant
+|-damage|p2a: Bouffalant|43/100 tox
+|move|p2a: Bouffalant|Return|p1a: Mr. Mime
+|-damage|p1a: Mr. Mime|0 fnt
+|faint|p1a: Mr. Mime
+|
+|-heal|p2a: Bouffalant|49/100 tox|[from] item: Leftovers
+|-damage|p2a: Bouffalant|43/100 tox|[from] psn
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Ninetales|Ninetales, M|44/100
+|-damage|p1a: Ninetales|19/100|[from] Stealth Rock
+|turn|40
+|choice|move fireblast|move return
+|
+|move|p1a: Ninetales|Fire Blast|p2a: Bouffalant|[miss]
+|-miss|p1a: Ninetales|p2a: Bouffalant
+|move|p2a: Bouffalant|Return|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|faint|p1a: Ninetales
+|
+|win|leog044
+|raw|Buudah's rating: 1254 &rarr; <strong>1231</strong><br />(-23 for losing)
+|raw|leog044's rating: 1272 &rarr; <strong>1295</strong><br />(+23 for winning)
+|l|Buudah

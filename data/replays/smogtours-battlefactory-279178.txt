@@ -1,0 +1,341 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|J|Sealette
+|J|T be Stuntin
+|player|p1|Sealette|248
+|player|p2|T be Stuntin|112
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|51497,48673,12947,65531,2791,57826,38438,2068,44099,4975,65131,64607
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Mewtwo|item
+|poke|p1|Reshiram|item
+|poke|p1|Xerneas|item
+|poke|p1|Arceus-*|item
+|poke|p1|Latias, F|item
+|poke|p1|Groudon|item
+|poke|p2|Arceus-*|item
+|poke|p2|Blissey, F|item
+|poke|p2|Klefki, M|item
+|poke|p2|Deoxys-Speed|item
+|poke|p2|Gengar, M|item
+|poke|p2|Zekrom|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 6, team 2, team 3, team 4, team 5, team 1|team 3, team 2, team 1, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Groudon|Groudon|100/100
+|switch|p2a: Klefki|Klefki, M|100/100
+|detailschange|p1a: Groudon|Groudon-Primal
+|-primal|p1a: Groudon
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p1a: Groudon
+|turn|1
+|choice|move precipiceblades|move toxic
+|
+|move|p2a: Klefki|Toxic|p1a: Groudon
+|-status|p1a: Groudon|tox
+|move|p1a: Groudon|Precipice Blades|p2a: Klefki|[miss]
+|-miss|p1a: Groudon|p2a: Klefki
+|
+|-weather|DesolateLand|[upkeep]
+|-damage|p1a: Groudon|94/100 tox|[from] psn
+|upkeep
+|turn|2
+|choice|move lavaplume|move spikes
+|
+|move|p2a: Klefki|Spikes|p1a: Groudon
+|-sidestart|p1: Sealette|Spikes
+|move|p1a: Groudon|Lava Plume|p2a: Klefki
+|-supereffective|p2a: Klefki
+|-damage|p2a: Klefki|13/100
+|
+|-weather|DesolateLand|[upkeep]
+|-heal|p2a: Klefki|19/100|[from] item: Leftovers
+|-damage|p1a: Groudon|82/100 tox|[from] psn
+|upkeep
+|turn|3
+|choice|move lavaplume|move spikes
+|
+|move|p2a: Klefki|Spikes|p1a: Groudon
+|-sidestart|p1: Sealette|Spikes
+|move|p1a: Groudon|Lava Plume|p2a: Klefki
+|-supereffective|p2a: Klefki
+|-damage|p2a: Klefki|0 fnt
+|faint|p2a: Klefki
+|
+|-weather|DesolateLand|[upkeep]
+|-damage|p1a: Groudon|63/100 tox|[from] psn
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Gengar|Gengar, M|100/100
+|turn|4
+|choice|move precipiceblades|move protect mega
+|
+|detailschange|p2a: Gengar|Gengar-Mega, M
+|-mega|p2a: Gengar|Gengar|Gengarite
+|move|p2a: Gengar|Protect|p2a: Gengar
+|-singleturn|p2a: Gengar|Protect
+|move|p1a: Groudon|Precipice Blades|p2a: Gengar
+|-activate|p2a: Gengar|move: Protect
+|
+|-weather|DesolateLand|[upkeep]
+|-damage|p1a: Groudon|38/100 tox|[from] psn
+|upkeep
+|turn|5
+|choice|move stealthrock|move disable
+|
+|move|p2a: Gengar|Disable|p1a: Groudon
+|-start|p1a: Groudon|Disable|Precipice Blades
+|move|p1a: Groudon|Stealth Rock|p2a: Gengar
+|-sidestart|p2: T be Stuntin|move: Stealth Rock
+|
+|-weather|DesolateLand|[upkeep]
+|-damage|p1a: Groudon|7/100 tox|[from] psn
+|upkeep
+|turn|6
+|choice|move lavaplume|move protect
+|
+|move|p2a: Gengar|Protect|p2a: Gengar
+|-singleturn|p2a: Gengar|Protect
+|move|p1a: Groudon|Lava Plume|p2a: Gengar
+|-activate|p2a: Gengar|move: Protect
+|
+|-weather|DesolateLand|[upkeep]
+|-damage|p1a: Groudon|0 fnt|[from] psn
+|upkeep
+|faint|p1a: Groudon
+|-weather|none
+|choice|switch 4|
+|
+|switch|p1a: Arceus|Arceus-Steel|100/100
+|-damage|p1a: Arceus|84/100|[from] Spikes
+|turn|7
+|choice|move calmmind|move perishsong
+|
+|move|p2a: Gengar|Perish Song|p2a: Gengar
+|-start|p1a: Arceus|perish3|[silent]
+|-start|p2a: Gengar|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|move|p1a: Arceus|Calm Mind|p1a: Arceus
+|-boost|p1a: Arceus|spa|1
+|-boost|p1a: Arceus|spd|1
+|
+|-start|p2a: Gengar|perish3
+|-start|p1a: Arceus|perish3
+|upkeep
+|turn|8
+|choice|move thunder|move taunt
+|
+|move|p2a: Gengar|Taunt|p1a: Arceus
+|-start|p1a: Arceus|move: Taunt
+|move|p1a: Arceus|Thunder|p2a: Gengar
+|-damage|p2a: Gengar|51/100
+|
+|-start|p2a: Gengar|perish2
+|-start|p1a: Arceus|perish2
+|upkeep
+|turn|9
+|choice|move thunder|move disable
+|
+|move|p2a: Gengar|Disable|p1a: Arceus
+|-start|p1a: Arceus|Disable|Thunder
+|cant|p1a: Arceus|Disable|Thunder
+|
+|-start|p2a: Gengar|perish1
+|-start|p1a: Arceus|perish1
+|upkeep
+|turn|10
+|choice|move judgment|switch 2
+|
+|switch|p2a: Blissey|Blissey, F|100/100
+|-damage|p2a: Blissey|88/100|[from] Stealth Rock
+|move|p1a: Arceus|Judgment|p2a: Blissey
+|-damage|p2a: Blissey|66/100
+|
+|-heal|p2a: Blissey|72/100|[from] item: Leftovers
+|-end|p1a: Arceus|move: Taunt
+|-start|p1a: Arceus|perish0
+|upkeep
+|faint|p1a: Arceus
+|choice|switch 6|
+|
+|switch|p1a: Mewtwo|Mewtwo|100/100
+|-damage|p1a: Mewtwo|84/100|[from] Spikes
+|-ability|p1a: Mewtwo|Pressure
+|turn|11
+|choice|move psystrike mega|switch 4
+|
+|switch|p2a: Deoxys|Deoxys-Speed|100/100
+|-damage|p2a: Deoxys|88/100|[from] Stealth Rock
+|-ability|p2a: Deoxys|Pressure
+|detailschange|p1a: Mewtwo|Mewtwo-Mega-Y
+|-mega|p1a: Mewtwo|Mewtwo|Mewtwonite Y
+|move|p1a: Mewtwo|Psystrike|p2a: Deoxys
+|-resisted|p2a: Deoxys
+|-damage|p2a: Deoxys|47/100
+|
+|upkeep
+|turn|12
+|choice|switch 5|move stealthrock
+|
+|switch|p1a: Latias|Latias, F|100/100
+|move|p2a: Deoxys|Stealth Rock|p1a: Latias
+|-sidestart|p1: Sealette|move: Stealth Rock
+|
+|upkeep
+|turn|13
+|choice|move defog|move taunt
+|
+|move|p2a: Deoxys|Taunt|p1a: Latias
+|-start|p1a: Latias|move: Taunt
+|cant|p1a: Latias|move: Taunt|Defog
+|
+|upkeep
+|turn|14
+|choice|move psyshock|move lightscreen
+|
+|move|p2a: Deoxys|Light Screen|p2a: Deoxys
+|-sidestart|p2: T be Stuntin|move: Light Screen
+|move|p1a: Latias|Psyshock|p2a: Deoxys
+|-resisted|p2a: Deoxys
+|-damage|p2a: Deoxys|31/100
+|
+|upkeep
+|turn|15
+|choice|move dracometeor|move reflect
+|
+|move|p2a: Deoxys|Reflect|p2a: Deoxys
+|-sidestart|p2: T be Stuntin|Reflect
+|move|p1a: Latias|Draco Meteor|p2a: Deoxys
+|-crit|p2a: Deoxys
+|-damage|p2a: Deoxys|0 fnt
+|-unboost|p1a: Latias|spa|2
+|faint|p2a: Deoxys
+|
+|-end|p1a: Latias|move: Taunt
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Arceus|Arceus-Dragon|100/100
+|-damage|p2a: Arceus|88/100|[from] Stealth Rock
+|turn|16
+|choice|move defog|move judgment
+|
+|move|p1a: Latias|Defog|p2a: Arceus
+|-unboost|p2a: Arceus|evasion|1
+|-sideend|p2: T be Stuntin|Reflect
+|-sideend|p2: T be Stuntin|move: Light Screen
+|-sideend|p2: T be Stuntin|Stealth Rock|[from] move: Defog|[of] p2a: Arceus
+|-sideend|p1: Sealette|Spikes|[from] move: Defog|[of] p1a: Latias
+|-sideend|p1: Sealette|Stealth Rock|[from] move: Defog|[of] p1a: Latias
+|move|p2a: Arceus|Judgment|p1a: Latias
+|-supereffective|p1a: Latias
+|-damage|p1a: Latias|50/100
+|
+|upkeep
+|turn|17
+|choice|switch 3|move toxic
+|
+|switch|p1a: Xerneas|Xerneas|100/100
+|-ability|p1a: Xerneas|Fairy Aura
+|move|p2a: Arceus|Toxic|p1a: Xerneas|[miss]
+|-miss|p2a: Arceus|p1a: Xerneas
+|
+|upkeep
+|turn|18
+|choice|move moonblast|move toxic
+|
+|move|p2a: Arceus|Toxic|p1a: Xerneas
+|-status|p1a: Xerneas|tox
+|move|p1a: Xerneas|Moonblast|p2a: Arceus
+|-supereffective|p2a: Arceus
+|-damage|p2a: Arceus|11/100
+|
+|-damage|p1a: Xerneas|94/100 tox|[from] psn
+|upkeep
+|turn|19
+|choice|move moonblast|move recover
+|
+|move|p2a: Arceus|Recover|p2a: Arceus
+|-heal|p2a: Arceus|61/100
+|move|p1a: Xerneas|Moonblast|p2a: Arceus
+|-supereffective|p2a: Arceus
+|-damage|p2a: Arceus|0 fnt
+|faint|p2a: Arceus
+|
+|-heal|p1a: Xerneas|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Xerneas|88/100 tox|[from] psn
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Gengar|Gengar-Mega, M|51/100
+|turn|20
+|choice|move rest|move perishsong
+|
+|move|p2a: Gengar|Perish Song|p2a: Gengar
+|-start|p1a: Xerneas|perish3|[silent]
+|-start|p2a: Gengar|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|move|p1a: Xerneas|Rest|p1a: Xerneas
+|-status|p1a: Xerneas|slp
+|-heal|p1a: Xerneas|100/100 slp|[silent]
+|-status|p1a: Xerneas|slp|[from] move: Rest
+|
+|-start|p2a: Gengar|perish3
+|-start|p1a: Xerneas|perish3
+|upkeep
+|turn|21
+|choice|move sleeptalk|move taunt
+|
+|move|p2a: Gengar|Taunt|p1a: Xerneas
+|-start|p1a: Xerneas|move: Taunt
+|cant|p1a: Xerneas|slp
+|cant|p1a: Xerneas|move: Taunt|Sleep Talk
+|
+|-start|p2a: Gengar|perish2
+|-start|p1a: Xerneas|perish2
+|upkeep
+|turn|22
+|choice|move moonblast|move disable
+|
+|move|p2a: Gengar|Disable|p1a: Xerneas
+|-start|p1a: Xerneas|Disable|Rest
+|cant|p1a: Xerneas|slp
+|
+|-start|p2a: Gengar|perish1
+|-start|p1a: Xerneas|perish1
+|upkeep
+|turn|23
+|choice|move moonblast|switch 6
+|
+|switch|p2a: Zekrom|Zekrom|100/100
+|-ability|p2a: Zekrom|Teravolt
+|-curestatus|p1a: Xerneas|slp|[msg]
+|move|p1a: Xerneas|Moonblast|p2a: Zekrom
+|-supereffective|p2a: Zekrom
+|-damage|p2a: Zekrom|0 fnt
+|faint|p2a: Zekrom
+|
+|-end|p1a: Xerneas|move: Taunt
+|-start|p1a: Xerneas|perish0
+|upkeep
+|faint|p1a: Xerneas
+|choice|switch 5|switch 4
+|
+|switch|p1a: Mewtwo|Mewtwo-Mega-Y|84/100
+|switch|p2a: Blissey|Blissey, F|72/100
+|turn|24
+|choice|move psystrike|move wish
+|
+|move|p1a: Mewtwo|Psystrike|p2a: Blissey
+|-damage|p2a: Blissey|0 fnt
+|faint|p2a: Blissey
+|
+|upkeep
+|-message|T be Stuntin forfeited.
+|
+|win|Sealette

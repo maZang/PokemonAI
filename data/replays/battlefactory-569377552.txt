@@ -1,0 +1,437 @@
+|j|Piplup40
+|j|DragonicMaster31
+|player|p1|Piplup40|2
+|player|p2|DragonicMaster31|250
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|21966,16460,31588,44151,44744,36708,32659,32670,2531,19848,26540,17436
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Azumarill, M|item
+|poke|p1|Hippowdon, M|item
+|poke|p1|Excadrill, M|item
+|poke|p1|Hawlucha, M|item
+|poke|p1|Keldeo|item
+|poke|p1|Jirachi|item
+|poke|p2|Klefki, M|item
+|poke|p2|Sylveon, M|item
+|poke|p2|Celebi|item
+|poke|p2|Magnezone|item
+|poke|p2|Mew|item
+|poke|p2|Charizard, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 2, team 1, team 3, team 4, team 5, team 6|team 5, team 2, team 3, team 4, team 1, team 6
+|
+|start
+|switch|p1a: Hippowdon|Hippowdon, M|100/100
+|switch|p2a: Mew|Mew|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|turn|1
+|choice|move stealthrock|move willowisp
+|
+|move|p2a: Mew|Will-O-Wisp|p1a: Hippowdon
+|-status|p1a: Hippowdon|brn
+|move|p1a: Hippowdon|Stealth Rock|p2a: Mew
+|-sidestart|p2: DragonicMaster31|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mew|94/100|[from] sandstorm
+|-heal|p2a: Mew|100/100|[from] item: Leftovers
+|-damage|p1a: Hippowdon|88/100 brn|[from] brn
+|upkeep
+|turn|2
+|choice|move earthquake|move knockoff
+|
+|move|p2a: Mew|Knock Off|p1a: Hippowdon
+|-damage|p1a: Hippowdon|74/100 brn
+|-enditem|p1a: Hippowdon|Leftovers|[from] move: Knock Off|[of] p2a: Mew
+|move|p1a: Hippowdon|Earthquake|p2a: Mew
+|-damage|p2a: Mew|88/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mew|81/100|[from] sandstorm
+|-heal|p2a: Mew|88/100|[from] item: Leftovers
+|-damage|p1a: Hippowdon|61/100 brn|[from] brn
+|upkeep
+|turn|3
+|choice|move earthquake|move defog
+|
+|move|p2a: Mew|Defog|p1a: Hippowdon
+|-unboost|p1a: Hippowdon|evasion|1
+|-sideend|p2: DragonicMaster31|Stealth Rock|[from] move: Defog|[of] p2a: Mew
+|move|p1a: Hippowdon|Earthquake|p2a: Mew
+|-damage|p2a: Mew|76/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mew|70/100|[from] sandstorm
+|-heal|p2a: Mew|76/100|[from] item: Leftovers
+|-damage|p1a: Hippowdon|49/100 brn|[from] brn
+|upkeep
+|turn|4
+|choice|move stealthrock|move knockoff
+|
+|move|p2a: Mew|Knock Off|p1a: Hippowdon
+|-damage|p1a: Hippowdon|39/100 brn
+|move|p1a: Hippowdon|Stealth Rock|p2a: Mew
+|-sidestart|p2: DragonicMaster31|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mew|70/100|[from] sandstorm
+|-heal|p2a: Mew|76/100|[from] item: Leftovers
+|-damage|p1a: Hippowdon|27/100 brn|[from] brn
+|upkeep
+|turn|5
+|choice|switch 3|move knockoff
+|
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|move|p2a: Mew|Knock Off|p1a: Excadrill
+|-damage|p1a: Excadrill|67/100
+|-enditem|p1a: Excadrill|Choice Scarf|[from] move: Knock Off|[of] p2a: Mew
+|
+|-weather|none
+|-heal|p2a: Mew|82/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|choice|move ironhead|move willowisp
+|
+|move|p1a: Excadrill|Iron Head|p2a: Mew
+|-damage|p2a: Mew|54/100
+|cant|p2a: Mew|flinch
+|
+|-heal|p2a: Mew|60/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|choice|move earthquake|move willowisp
+|
+|move|p1a: Excadrill|Earthquake|p2a: Mew
+|-damage|p2a: Mew|23/100
+|move|p2a: Mew|Will-O-Wisp|p1a: Excadrill
+|-status|p1a: Excadrill|brn
+|
+|-heal|p2a: Mew|29/100|[from] item: Leftovers
+|-damage|p1a: Excadrill|54/100 brn|[from] brn
+|upkeep
+|turn|8
+|choice|move rockslide|move softboiled
+|
+|move|p1a: Excadrill|Rock Slide|p2a: Mew|[miss]
+|-miss|p1a: Excadrill|p2a: Mew
+|move|p2a: Mew|Soft-Boiled|p2a: Mew
+|-heal|p2a: Mew|79/100
+|
+|-heal|p2a: Mew|85/100|[from] item: Leftovers
+|-damage|p1a: Excadrill|42/100 brn|[from] brn
+|upkeep
+|turn|9
+|choice|move ironhead|move knockoff
+|
+|move|p1a: Excadrill|Iron Head|p2a: Mew
+|-damage|p2a: Mew|70/100
+|move|p2a: Mew|Knock Off|p1a: Excadrill
+|-crit|p1a: Excadrill
+|-damage|p1a: Excadrill|10/100 brn
+|
+|-heal|p2a: Mew|76/100|[from] item: Leftovers
+|-damage|p1a: Excadrill|0 fnt|[from] brn
+|upkeep
+|faint|p1a: Excadrill
+|choice|switch 6|
+|
+|switch|p1a: Jirachi|Jirachi|100/100
+|turn|10
+|choice|move ironhead|move knockoff
+|
+|move|p2a: Mew|Knock Off|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|65/100
+|-enditem|p1a: Jirachi|Leftovers|[from] move: Knock Off|[of] p2a: Mew
+|move|p1a: Jirachi|Iron Head|p2a: Mew
+|-damage|p2a: Mew|56/100
+|
+|-heal|p2a: Mew|62/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|choice|move ironhead|move willowisp
+|
+|move|p2a: Mew|Will-O-Wisp|p1a: Jirachi
+|-status|p1a: Jirachi|brn
+|move|p1a: Jirachi|Iron Head|p2a: Mew
+|-damage|p2a: Mew|51/100
+|
+|-heal|p2a: Mew|58/100|[from] item: Leftovers
+|-damage|p1a: Jirachi|52/100 brn|[from] brn
+|upkeep
+|turn|12
+|choice|move ironhead|move knockoff
+|
+|move|p2a: Mew|Knock Off|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|28/100 brn
+|move|p1a: Jirachi|Iron Head|p2a: Mew
+|-damage|p2a: Mew|49/100
+|
+|-heal|p2a: Mew|55/100|[from] item: Leftovers
+|-damage|p1a: Jirachi|15/100 brn|[from] brn
+|upkeep
+|turn|13
+|choice|move wish|move knockoff
+|
+|move|p2a: Mew|Knock Off|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|0 fnt
+|faint|p1a: Jirachi
+|
+|-heal|p2a: Mew|61/100|[from] item: Leftovers
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Azumarill|Azumarill, M|100/100
+|turn|14
+|choice|move playrough|move willowisp
+|
+|move|p2a: Mew|Will-O-Wisp|p1a: Azumarill
+|-status|p1a: Azumarill|brn
+|move|p1a: Azumarill|Play Rough|p2a: Mew
+|-damage|p2a: Mew|39/100
+|
+|-heal|p2a: Mew|46/100|[from] item: Leftovers
+|-damage|p1a: Azumarill|88/100 brn|[from] brn
+|upkeep
+|turn|15
+|choice|move knockoff|move softboiled
+|
+|move|p2a: Mew|Soft-Boiled|p2a: Mew
+|-heal|p2a: Mew|96/100
+|move|p1a: Azumarill|Knock Off|p2a: Mew
+|-supereffective|p2a: Mew
+|-damage|p2a: Mew|69/100
+|-enditem|p2a: Mew|Leftovers|[from] move: Knock Off|[of] p1a: Azumarill
+|
+|-damage|p1a: Azumarill|76/100 brn|[from] brn
+|upkeep
+|turn|16
+|choice|move playrough|move knockoff
+|
+|move|p2a: Mew|Knock Off|p1a: Azumarill
+|-resisted|p1a: Azumarill
+|-damage|p1a: Azumarill|64/100 brn
+|-enditem|p1a: Azumarill|Sitrus Berry|[from] move: Knock Off|[of] p2a: Mew
+|move|p1a: Azumarill|Play Rough|p2a: Mew
+|-damage|p2a: Mew|50/100
+|
+|-damage|p1a: Azumarill|52/100 brn|[from] brn
+|upkeep
+|turn|17
+|choice|move playrough|move softboiled
+|
+|move|p2a: Mew|Soft-Boiled|p2a: Mew
+|-heal|p2a: Mew|99/100
+|move|p1a: Azumarill|Play Rough|p2a: Mew
+|-damage|p2a: Mew|79/100
+|
+|-damage|p1a: Azumarill|39/100 brn|[from] brn
+|upkeep
+|turn|18
+|choice|move aquajet|move knockoff
+|
+|move|p1a: Azumarill|Aqua Jet|p2a: Mew
+|-damage|p2a: Mew|71/100
+|move|p2a: Mew|Knock Off|p1a: Azumarill
+|-resisted|p1a: Azumarill
+|-damage|p1a: Azumarill|31/100 brn
+|
+|-damage|p1a: Azumarill|18/100 brn|[from] brn
+|upkeep
+|turn|19
+|choice|move playrough|move knockoff
+|
+|move|p2a: Mew|Knock Off|p1a: Azumarill
+|-resisted|p1a: Azumarill
+|-damage|p1a: Azumarill|10/100 brn
+|move|p1a: Azumarill|Play Rough|p2a: Mew
+|-damage|p2a: Mew|52/100
+|
+|-damage|p1a: Azumarill|0 fnt|[from] brn
+|upkeep
+|faint|p1a: Azumarill
+|choice|switch 4|
+|
+|switch|p1a: Hawlucha|Hawlucha, M|100/100
+|turn|20
+|choice|move swordsdance|move knockoff
+|
+|move|p1a: Hawlucha|Swords Dance|p1a: Hawlucha
+|-boost|p1a: Hawlucha|atk|2
+|move|p2a: Mew|Knock Off|p1a: Hawlucha
+|-resisted|p1a: Hawlucha
+|-damage|p1a: Hawlucha|83/100
+|-enditem|p1a: Hawlucha|Power Herb|[from] move: Knock Off|[of] p2a: Mew
+|
+|upkeep
+|turn|21
+|choice|move skyattack|move willowisp
+|
+|move|p1a: Hawlucha|Sky Attack|p2a: Mew|[still]
+|-prepare|p1a: Hawlucha|Sky Attack|p2a: Mew
+|move|p2a: Mew|Will-O-Wisp|p1a: Hawlucha
+|-status|p1a: Hawlucha|brn
+|
+|-damage|p1a: Hawlucha|71/100 brn|[from] brn
+|upkeep
+|turn|22
+|choice|move skyattack|move softboiled
+|
+|move|p1a: Hawlucha|Sky Attack|p2a: Mew|[from]lockedmove|[miss]
+|-miss|p1a: Hawlucha|p2a: Mew
+|move|p2a: Mew|Soft-Boiled|p2a: Mew
+|-heal|p2a: Mew|100/100
+|
+|-damage|p1a: Hawlucha|59/100 brn|[from] brn
+|upkeep
+|turn|23
+|choice|move highjumpkick|move knockoff
+|
+|move|p1a: Hawlucha|High Jump Kick|p2a: Mew
+|-resisted|p2a: Mew
+|-damage|p2a: Mew|81/100
+|move|p2a: Mew|Knock Off|p1a: Hawlucha
+|-resisted|p1a: Hawlucha
+|-damage|p1a: Hawlucha|48/100 brn
+|
+|-damage|p1a: Hawlucha|35/100 brn|[from] brn
+|upkeep
+|turn|24
+|choice|move highjumpkick|move knockoff
+|
+|move|p1a: Hawlucha|High Jump Kick|p2a: Mew
+|-resisted|p2a: Mew
+|-damage|p2a: Mew|62/100
+|move|p2a: Mew|Knock Off|p1a: Hawlucha
+|-resisted|p1a: Hawlucha
+|-damage|p1a: Hawlucha|24/100 brn
+|
+|-damage|p1a: Hawlucha|12/100 brn|[from] brn
+|upkeep
+|turn|25
+|choice|move highjumpkick|move knockoff
+|
+|move|p1a: Hawlucha|High Jump Kick|p2a: Mew
+|-resisted|p2a: Mew
+|-damage|p2a: Mew|44/100
+|move|p2a: Mew|Knock Off|p1a: Hawlucha
+|-resisted|p1a: Hawlucha
+|-crit|p1a: Hawlucha
+|-damage|p1a: Hawlucha|0 fnt
+|faint|p1a: Hawlucha
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Keldeo|Keldeo|100/100
+|turn|26
+|choice|move secretsword|move willowisp
+|
+|move|p1a: Keldeo|Secret Sword|p2a: Mew
+|-resisted|p2a: Mew
+|-damage|p2a: Mew|29/100
+|move|p2a: Mew|Will-O-Wisp|p1a: Keldeo
+|-status|p1a: Keldeo|brn
+|
+|-damage|p1a: Keldeo|88/100 brn|[from] brn
+|upkeep
+|turn|27
+|choice|move calmmind|move softboiled
+|
+|move|p1a: Keldeo|Calm Mind|p1a: Keldeo
+|-boost|p1a: Keldeo|spa|1
+|-boost|p1a: Keldeo|spd|1
+|move|p2a: Mew|Soft-Boiled|p2a: Mew
+|-heal|p2a: Mew|79/100
+|
+|-heal|p1a: Keldeo|94/100 brn|[from] item: Leftovers
+|-damage|p1a: Keldeo|82/100 brn|[from] brn
+|upkeep
+|turn|28
+|choice|move scald|move knockoff
+|
+|move|p1a: Keldeo|Scald|p2a: Mew
+|-damage|p2a: Mew|29/100
+|move|p2a: Mew|Knock Off|p1a: Keldeo
+|-resisted|p1a: Keldeo
+|-damage|p1a: Keldeo|69/100 brn
+|-ability|p1a: Keldeo|Justified|boost
+|-boost|p1a: Keldeo|atk|1
+|-enditem|p1a: Keldeo|Leftovers|[from] move: Knock Off|[of] p2a: Mew
+|
+|-damage|p1a: Keldeo|56/100 brn|[from] brn
+|upkeep
+|turn|29
+|choice|move scald|move knockoff
+|
+|move|p1a: Keldeo|Scald|p2a: Mew
+|-damage|p2a: Mew|0 fnt
+|faint|p2a: Mew
+|
+|-damage|p1a: Keldeo|44/100 brn|[from] brn
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Klefki|Klefki, M|100/100
+|-damage|p2a: Klefki|95/100|[from] Stealth Rock
+|turn|30
+|choice|move substitute|move foulplay
+|
+|move|p1a: Keldeo|Substitute|p1a: Keldeo
+|-start|p1a: Keldeo|Substitute
+|-damage|p1a: Keldeo|19/100 brn
+|move|p2a: Klefki|Foul Play|p1a: Keldeo
+|-resisted|p1a: Keldeo
+|-crit|p1a: Keldeo
+|-activate|p1a: Keldeo|move: Substitute|[damage]
+|
+|-damage|p1a: Keldeo|7/100 brn|[from] brn
+|upkeep
+|turn|31
+|choice|move scald|move lightscreen
+|
+|move|p2a: Klefki|Light Screen|p2a: Klefki
+|-sidestart|p2: DragonicMaster31|move: Light Screen
+|move|p1a: Keldeo|Scald|p2a: Klefki
+|-damage|p2a: Klefki|67/100
+|
+|-damage|p1a: Keldeo|0 fnt|[from] brn
+|upkeep
+|faint|p1a: Keldeo
+|choice|switch 3|
+|
+|switch|p1a: Hippowdon|Hippowdon, M|27/100 brn
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|turn|32
+|choice|move whirlwind|move reflect
+|
+|move|p2a: Klefki|Reflect|p2a: Klefki
+|-sidestart|p2: DragonicMaster31|Reflect
+|move|p1a: Hippowdon|Whirlwind|p2a: Klefki
+|drag|p2a: Celebi|Celebi|100/100
+|-damage|p2a: Celebi|88/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|82/100|[from] sandstorm
+|-heal|p2a: Celebi|88/100|[from] item: Leftovers
+|-damage|p1a: Hippowdon|15/100 brn|[from] brn
+|upkeep
+|turn|33
+|choice|move whirlwind|move gigadrain
+|
+|move|p2a: Celebi|Giga Drain|p1a: Hippowdon
+|-supereffective|p1a: Hippowdon
+|-damage|p1a: Hippowdon|0 fnt
+|-heal|p2a: Celebi|96/100|[from] drain|[of] p1a: Hippowdon
+|faint|p1a: Hippowdon
+|
+|win|DragonicMaster31
+|l|DragonicMaster31

@@ -1,0 +1,563 @@
+|j|Sheo534
+|j|Rata squik
+|player|p1|Sheo534|196
+|player|p2|Rata squik|101
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|57813,58681,46940,40272,14378,57399,49455,27578,15639,43725,10103,33786
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Togekiss, M|item
+|poke|p1|Alakazam, M|item
+|poke|p1|Chansey, F|item
+|poke|p1|Latios, M|item
+|poke|p1|Sylveon, M|item
+|poke|p1|Raikou|item
+|poke|p2|Tyranitar, M|item
+|poke|p2|Jirachi|item
+|poke|p2|Charizard, M|item
+|poke|p2|Togekiss, M|item
+|poke|p2|Magnezone|item
+|poke|p2|Heracross, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Rata squik)
+|choice|team 5, team 2, team 3, team 4, team 1, team 6|team 1, team 2, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Sylveon|Sylveon, M|100/100
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|1
+|choice|move shadowball|move stealthrock
+|
+|move|p1a: Sylveon|Shadow Ball|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|92/100
+|move|p2a: Tyranitar|Stealth Rock|p1a: Sylveon
+|-sidestart|p1: Sheo534|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Sylveon|94/100|[from] sandstorm
+|-heal|p2a: Tyranitar|98/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|choice|switch 3|move stealthrock
+|
+|switch|p1a: Chansey|Chansey, F|100/100
+|-damage|p1a: Chansey|88/100|[from] Stealth Rock
+|move|p2a: Tyranitar|Stealth Rock|p1a: Chansey
+|-fail|p1a: Chansey
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Chansey|82/100|[from] sandstorm
+|-heal|p2a: Tyranitar|100/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|choice|move stealthrock|move stoneedge
+|
+|move|p2a: Tyranitar|Stone Edge|p1a: Chansey
+|-damage|p1a: Chansey|49/100
+|move|p1a: Chansey|Stealth Rock|p2a: Tyranitar
+|-sidestart|p2: Rata squik|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Chansey|43/100|[from] sandstorm
+|upkeep
+|turn|4
+|choice|move softboiled|move icebeam
+|
+|move|p2a: Tyranitar|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|38/100
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|88/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Chansey|81/100|[from] sandstorm
+|upkeep
+|turn|5
+|choice|move seismictoss|move stoneedge
+|
+|move|p2a: Tyranitar|Stone Edge|p1a: Chansey
+|-damage|p1a: Chansey|51/100
+|move|p1a: Chansey|Seismic Toss|p2a: Tyranitar
+|-damage|p2a: Tyranitar|76/100
+|
+|-weather|none
+|-heal|p2a: Tyranitar|82/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|choice|move softboiled|move stoneedge
+|
+|move|p2a: Tyranitar|Stone Edge|p1a: Chansey
+|-damage|p1a: Chansey|22/100
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|72/100
+|
+|-heal|p2a: Tyranitar|88/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|choice|move softboiled|move stoneedge
+|
+|move|p2a: Tyranitar|Stone Edge|p1a: Chansey
+|-damage|p1a: Chansey|39/100
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|89/100
+|
+|-heal|p2a: Tyranitar|94/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|choice|move seismictoss|move stoneedge
+|
+|move|p2a: Tyranitar|Stone Edge|p1a: Chansey|[miss]
+|-miss|p2a: Tyranitar|p1a: Chansey
+|move|p1a: Chansey|Seismic Toss|p2a: Tyranitar
+|-damage|p2a: Tyranitar|69/100
+|
+|-heal|p2a: Tyranitar|76/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|choice|move seismictoss|move stoneedge
+|
+|move|p2a: Tyranitar|Stone Edge|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|44/100
+|move|p1a: Chansey|Seismic Toss|p2a: Tyranitar
+|-damage|p2a: Tyranitar|51/100
+|
+|-heal|p2a: Tyranitar|57/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|choice|move softboiled|move stoneedge
+|
+|move|p2a: Tyranitar|Stone Edge|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|
+|-heal|p2a: Tyranitar|63/100|[from] item: Leftovers
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Sylveon|Sylveon, M|94/100
+|-damage|p1a: Sylveon|82/100|[from] Stealth Rock
+|turn|11
+|choice|move hypervoice|move icebeam
+|
+|move|p1a: Sylveon|Hyper Voice|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Magnezone|Magnezone|100/100
+|-damage|p2a: Magnezone|94/100|[from] Stealth Rock
+|turn|12
+|choice|switch 6|move flashcannon
+|
+|switch|p1a: Raikou|Raikou|100/100
+|-damage|p1a: Raikou|88/100|[from] Stealth Rock
+|-ability|p1a: Raikou|Pressure
+|move|p2a: Magnezone|Flash Cannon|p1a: Raikou
+|-resisted|p1a: Raikou
+|-damage|p1a: Raikou|64/100
+|-unboost|p1a: Raikou|spd|1
+|
+|upkeep
+|turn|13
+|choice|move shadowball|move flashcannon
+|
+|move|p1a: Raikou|Shadow Ball|p2a: Magnezone
+|-damage|p2a: Magnezone|62/100
+|move|p2a: Magnezone|Flash Cannon|p1a: Raikou
+|-resisted|p1a: Raikou
+|-damage|p1a: Raikou|28/100
+|
+|upkeep
+|turn|14
+|choice|move shadowball|move flashcannon
+|
+|move|p1a: Raikou|Shadow Ball|p2a: Magnezone
+|-damage|p2a: Magnezone|34/100
+|-unboost|p2a: Magnezone|spd|1
+|move|p2a: Magnezone|Flash Cannon|p1a: Raikou
+|-resisted|p1a: Raikou
+|-damage|p1a: Raikou|0 fnt
+|faint|p1a: Raikou
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Alakazam|Alakazam, M|100/100
+|turn|15
+|choice|move shadowball mega|move flashcannon
+|
+|detailschange|p1a: Alakazam|Alakazam-Mega, M
+|-mega|p1a: Alakazam|Alakazam|Alakazite
+|-ability|p1a: Alakazam|Magnet Pull|[from] ability: Trace|[of] p2a: Magnezone
+|move|p1a: Alakazam|Shadow Ball|p2a: Magnezone
+|-damage|p2a: Magnezone|0 fnt
+|faint|p2a: Magnezone
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Heracross|Heracross, M|100/100
+|-damage|p2a: Heracross|88/100|[from] Stealth Rock
+|turn|16
+|choice|move psychic|move megahorn
+|
+|move|p1a: Alakazam|Psychic|p2a: Heracross
+|-supereffective|p2a: Heracross
+|-damage|p2a: Heracross|0 fnt
+|faint|p2a: Heracross
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Togekiss|Togekiss, M|100/100
+|-damage|p2a: Togekiss|76/100|[from] Stealth Rock
+|turn|17
+|choice|switch 6|move airslash
+|
+|switch|p1a: Sylveon|Sylveon, M|82/100
+|-damage|p1a: Sylveon|69/100|[from] Stealth Rock
+|move|p2a: Togekiss|Air Slash|p1a: Sylveon
+|-damage|p1a: Sylveon|47/100
+|
+|-heal|p2a: Togekiss|82/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|choice|move hypervoice|move airslash
+|
+|move|p2a: Togekiss|Air Slash|p1a: Sylveon
+|-damage|p1a: Sylveon|28/100
+|move|p1a: Sylveon|Hyper Voice|p2a: Togekiss
+|-damage|p2a: Togekiss|28/100
+|
+|-heal|p2a: Togekiss|34/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|choice|move hypervoice|move roost
+|
+|move|p2a: Togekiss|Roost|p2a: Togekiss
+|-heal|p2a: Togekiss|84/100
+|move|p1a: Sylveon|Hyper Voice|p2a: Togekiss
+|-damage|p2a: Togekiss|28/100
+|
+|-heal|p2a: Togekiss|34/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|choice|move hypervoice|move roost
+|
+|move|p2a: Togekiss|Roost|p2a: Togekiss
+|-heal|p2a: Togekiss|84/100
+|move|p1a: Sylveon|Hyper Voice|p2a: Togekiss
+|-damage|p2a: Togekiss|33/100
+|
+|-heal|p2a: Togekiss|39/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|choice|move hypervoice|move roost
+|
+|move|p2a: Togekiss|Roost|p2a: Togekiss
+|-heal|p2a: Togekiss|89/100
+|move|p1a: Sylveon|Hyper Voice|p2a: Togekiss
+|-damage|p2a: Togekiss|36/100
+|
+|-heal|p2a: Togekiss|42/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|choice|move hypervoice|move roost
+|
+|move|p2a: Togekiss|Roost|p2a: Togekiss
+|-heal|p2a: Togekiss|92/100
+|move|p1a: Sylveon|Hyper Voice|p2a: Togekiss
+|-damage|p2a: Togekiss|42/100
+|
+|-heal|p2a: Togekiss|48/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|choice|move hypervoice|switch 3
+|
+|switch|p2a: Charizard|Charizard, M|100/100
+|-damage|p2a: Charizard|51/100|[from] Stealth Rock
+|move|p1a: Sylveon|Hyper Voice|p2a: Charizard
+|-resisted|p2a: Charizard
+|-damage|p2a: Charizard|13/100
+|
+|upkeep
+|turn|24
+|choice|move hypervoice|move earthquake mega
+|
+|detailschange|p2a: Charizard|Charizard-Mega-X, M
+|-mega|p2a: Charizard|Charizard|Charizardite X
+|move|p2a: Charizard|Earthquake|p1a: Sylveon
+|-damage|p1a: Sylveon|0 fnt
+|faint|p1a: Sylveon
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Togekiss|Togekiss, M|100/100
+|-damage|p1a: Togekiss|76/100|[from] Stealth Rock
+|turn|25
+|choice|move airslash|move roost
+|
+|move|p2a: Charizard|Roost|p2a: Charizard
+|-heal|p2a: Charizard|63/100
+|move|p1a: Togekiss|Air Slash|p2a: Charizard
+|-damage|p2a: Charizard|38/100
+|
+|-heal|p1a: Togekiss|82/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|choice|move thunderwave|move roost
+|
+|move|p2a: Charizard|Roost|p2a: Charizard
+|-heal|p2a: Charizard|88/100
+|move|p1a: Togekiss|Thunder Wave|p2a: Charizard
+|-status|p2a: Charizard|par
+|
+|-heal|p1a: Togekiss|88/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|choice|move airslash|move dragonclaw
+|
+|move|p1a: Togekiss|Air Slash|p2a: Charizard
+|-damage|p2a: Charizard|63/100 par
+|cant|p2a: Charizard|par
+|
+|-heal|p1a: Togekiss|94/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|choice|move airslash|move dragonclaw
+|
+|move|p1a: Togekiss|Air Slash|p2a: Charizard
+|-damage|p2a: Charizard|35/100 par
+|cant|p2a: Charizard|flinch
+|
+|-heal|p1a: Togekiss|99/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|choice|move airslash|move roost
+|
+|move|p1a: Togekiss|Air Slash|p2a: Charizard
+|-damage|p2a: Charizard|7/100 par
+|move|p2a: Charizard|Roost|p2a: Charizard
+|-heal|p2a: Charizard|57/100 par
+|
+|-heal|p1a: Togekiss|100/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|choice|move airslash|move roost
+|
+|move|p1a: Togekiss|Air Slash|p2a: Charizard
+|-damage|p2a: Charizard|30/100 par
+|cant|p2a: Charizard|flinch
+|
+|upkeep
+|turn|31
+|choice|move airslash|switch 2
+|
+|switch|p2a: Jirachi|Jirachi|100/100
+|-damage|p2a: Jirachi|94/100|[from] Stealth Rock
+|move|p1a: Togekiss|Air Slash|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|85/100
+|
+|-heal|p2a: Jirachi|92/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|choice|move thunderwave|move ironhead
+|
+|move|p2a: Jirachi|Iron Head|p1a: Togekiss
+|-supereffective|p1a: Togekiss
+|-damage|p1a: Togekiss|49/100
+|cant|p1a: Togekiss|flinch
+|
+|-heal|p2a: Jirachi|98/100|[from] item: Leftovers
+|-heal|p1a: Togekiss|55/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|choice|move thunderwave|move ironhead
+|
+|move|p2a: Jirachi|Iron Head|p1a: Togekiss
+|-supereffective|p1a: Togekiss
+|-damage|p1a: Togekiss|6/100
+|cant|p1a: Togekiss|flinch
+|
+|-heal|p2a: Jirachi|100/100|[from] item: Leftovers
+|-heal|p1a: Togekiss|12/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|choice|move thunderwave|move ironhead
+|
+|move|p2a: Jirachi|Iron Head|p1a: Togekiss
+|-supereffective|p1a: Togekiss
+|-damage|p1a: Togekiss|0 fnt
+|faint|p1a: Togekiss
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Latios|Latios, M|100/100
+|-damage|p1a: Latios|88/100|[from] Stealth Rock
+|turn|35
+|choice|move calmmind|move wish
+|
+|move|p1a: Latios|Calm Mind|p1a: Latios
+|-boost|p1a: Latios|spa|1
+|-boost|p1a: Latios|spd|1
+|move|p2a: Jirachi|Wish|p2a: Jirachi
+|
+|upkeep
+|turn|36
+|c|☆Rata squik|Fast
+|choice|move psyshock|move ironhead
+|
+|move|p1a: Latios|Psyshock|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|84/100
+|-damage|p1a: Latios|78/100|[from] item: Life Orb
+|move|p2a: Jirachi|Iron Head|p1a: Latios
+|-damage|p1a: Latios|39/100
+|
+|-heal|p2a: Jirachi|100/100|[from] move: Wish|[wisher] Jirachi
+|upkeep
+|turn|37
+|choice|move roost|move ironhead
+|
+|move|p1a: Latios|Roost|p1a: Latios
+|-heal|p1a: Latios|89/100
+|move|p2a: Jirachi|Iron Head|p1a: Latios
+|-damage|p1a: Latios|51/100
+|
+|upkeep
+|turn|38
+|choice|move calmmind|move ironhead
+|
+|move|p1a: Latios|Calm Mind|p1a: Latios
+|-boost|p1a: Latios|spa|1
+|-boost|p1a: Latios|spd|1
+|move|p2a: Jirachi|Iron Head|p1a: Latios
+|-damage|p1a: Latios|10/100
+|
+|upkeep
+|turn|39
+|choice|move roost|move ironhead
+|
+|move|p1a: Latios|Roost|p1a: Latios
+|-heal|p1a: Latios|61/100
+|move|p2a: Jirachi|Iron Head|p1a: Latios
+|-damage|p1a: Latios|26/100
+|
+|upkeep
+|turn|40
+|choice|move roost|move ironhead
+|
+|move|p1a: Latios|Roost|p1a: Latios
+|-heal|p1a: Latios|77/100
+|move|p2a: Jirachi|Iron Head|p1a: Latios
+|-damage|p1a: Latios|37/100
+|
+|upkeep
+|turn|41
+|choice|move roost|move ironhead
+|
+|move|p1a: Latios|Roost|p1a: Latios
+|-heal|p1a: Latios|88/100
+|move|p2a: Jirachi|Iron Head|p1a: Latios
+|-damage|p1a: Latios|50/100
+|
+|upkeep
+|turn|42
+|choice|move calmmind|move ironhead
+|
+|move|p1a: Latios|Calm Mind|p1a: Latios
+|-boost|p1a: Latios|spa|1
+|-boost|p1a: Latios|spd|1
+|move|p2a: Jirachi|Iron Head|p1a: Latios
+|-damage|p1a: Latios|11/100
+|
+|upkeep
+|turn|43
+|choice|move roost|move ironhead
+|
+|move|p1a: Latios|Roost|p1a: Latios
+|-heal|p1a: Latios|62/100
+|move|p2a: Jirachi|Iron Head|p1a: Latios
+|-damage|p1a: Latios|22/100
+|
+|upkeep
+|turn|44
+|choice|move roost|move ironhead
+|
+|move|p1a: Latios|Roost|p1a: Latios
+|-heal|p1a: Latios|73/100
+|move|p2a: Jirachi|Iron Head|p1a: Latios
+|-damage|p1a: Latios|37/100
+|
+|upkeep
+|turn|45
+|choice|move roost|move bodyslam
+|
+|move|p1a: Latios|Roost|p1a: Latios
+|-heal|p1a: Latios|88/100
+|move|p2a: Jirachi|Body Slam|p1a: Latios
+|-damage|p1a: Latios|61/100
+|-status|p1a: Latios|par
+|
+|upkeep
+|turn|46
+|choice|move psyshock|move ironhead
+|
+|move|p2a: Jirachi|Iron Head|p1a: Latios
+|-damage|p1a: Latios|23/100 par
+|cant|p1a: Latios|flinch
+|
+|upkeep
+|turn|47
+|choice|move psyshock|move ironhead
+|
+|move|p2a: Jirachi|Iron Head|p1a: Latios
+|-damage|p1a: Latios|0 fnt
+|faint|p1a: Latios
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Alakazam|Alakazam-Mega, M|100/100
+|-damage|p1a: Alakazam|88/100|[from] Stealth Rock
+|-ability|p1a: Alakazam|Serene Grace|[from] ability: Trace|[of] p2a: Jirachi
+|turn|48
+|choice|move shadowball|move ironhead
+|
+|move|p1a: Alakazam|Shadow Ball|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-damage|p2a: Jirachi|57/100
+|move|p2a: Jirachi|Iron Head|p1a: Alakazam
+|-damage|p1a: Alakazam|36/100
+|
+|-heal|p2a: Jirachi|63/100|[from] item: Leftovers
+|upkeep
+|turn|49
+|c|☆Sheo534|dat hax
+|choice|move shadowball|move ironhead
+|
+|move|p1a: Alakazam|Shadow Ball|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-damage|p2a: Jirachi|19/100
+|move|p2a: Jirachi|Iron Head|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|
+|win|Rata squik
+|raw|Sheo534's rating: 1374 &rarr; <strong>1341</strong><br />(-33 for losing)
+|raw|Rata squik's rating: 1123 &rarr; <strong>1164</strong><br />(+41 for winning)
+|l|Sheo534

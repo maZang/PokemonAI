@@ -1,0 +1,307 @@
+|j|lel456
+|j|arceus1117
+|player|p1|lel456|1
+|player|p2|arceus1117|99
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|14496,35105,23219,25938,62667,53170,18953,40253,30501,30924,18739,53798
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Metagross|item
+|poke|p1|Celebi|item
+|poke|p1|Heatran, M|item
+|poke|p1|Thundurus, M|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Excadrill, M|item
+|poke|p2|Victini|item
+|poke|p2|Skarmory, F|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Latias, F|item
+|poke|p2|Talonflame, M|
+|poke|p2|Raikou|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 6, team 2, team 3, team 4, team 5, team 1|team 2, team 1, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|switch|p2a: Skarmory|Skarmory, F|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|1
+|choice|switch 6|move taunt
+|
+|switch|p1a: Metagross|Metagross|100/100
+|move|p2a: Skarmory|Taunt|p1a: Metagross
+|-start|p1a: Metagross|move: Taunt
+|
+|upkeep
+|turn|2
+|choice|move meteormash mega|move stealthrock
+|
+|detailschange|p1a: Metagross|Metagross-Mega
+|-mega|p1a: Metagross|Metagross|Metagrossite
+|move|p2a: Skarmory|Stealth Rock|p1a: Metagross
+|-sidestart|p1: lel456|move: Stealth Rock
+|move|p1a: Metagross|Meteor Mash|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|67/100
+|
+|upkeep
+|turn|3
+|choice|move meteormash|move spikes
+|
+|move|p1a: Metagross|Meteor Mash|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|32/100
+|move|p2a: Skarmory|Spikes|p1a: Metagross
+|-sidestart|p1: lel456|Spikes
+|
+|-end|p1a: Metagross|move: Taunt
+|upkeep
+|turn|4
+|choice|move meteormash|switch 3
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Metagross|atk|1
+|move|p1a: Metagross|Meteor Mash|p2a: Landorus
+|-damage|p2a: Landorus|50/100
+|
+|upkeep
+|turn|5
+|choice|move zenheadbutt|move earthquake
+|
+|move|p2a: Landorus|Earthquake|p1a: Metagross
+|-supereffective|p1a: Metagross
+|-crit|p1a: Metagross
+|-damage|p1a: Metagross|0 fnt
+|faint|p1a: Metagross
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|-damage|p1a: Excadrill|97/100|[from] Stealth Rock
+|-damage|p1a: Excadrill|85/100|[from] Spikes
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|6
+|choice|move rapidspin|move earthquake
+|
+|move|p2a: Landorus|Earthquake|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Thundurus|Thundurus, M|100/100
+|-damage|p1a: Thundurus|76/100|[from] Stealth Rock
+|turn|7
+|choice|move hiddenpower|switch 6
+|
+|switch|p2a: Raikou|Raikou|100/100
+|-ability|p2a: Raikou|Pressure
+|move|p1a: Thundurus|Hidden Power|p2a: Raikou
+|-damage|p2a: Raikou|82/100
+|-damage|p1a: Thundurus|66/100|[from] item: Life Orb
+|
+|upkeep
+|turn|8
+|choice|move focusblast|move shadowball
+|
+|move|p2a: Raikou|Shadow Ball|p1a: Thundurus
+|-damage|p1a: Thundurus|29/100
+|move|p1a: Thundurus|Focus Blast|p2a: Raikou
+|-damage|p2a: Raikou|42/100
+|-damage|p1a: Thundurus|19/100|[from] item: Life Orb
+|
+|upkeep
+|turn|9
+|choice|switch 5|move voltswitch
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-damage|p1a: Landorus|88/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Raikou|atk|1
+|move|p2a: Raikou|Volt Switch|p1a: Landorus
+|-immune|p1a: Landorus|[msg]
+|
+|-heal|p1a: Landorus|94/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|choice|move earthquake|switch 5
+|
+|switch|p2a: Talonflame|Talonflame, M|100/100
+|move|p1a: Landorus|Earthquake|p2a: Talonflame
+|-immune|p2a: Talonflame|[msg]
+|
+|-heal|p1a: Landorus|99/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|choice|move stoneedge|move willowisp
+|
+|move|p2a: Talonflame|Will-O-Wisp|p1a: Landorus
+|-status|p1a: Landorus|brn
+|move|p1a: Landorus|Stone Edge|p2a: Talonflame
+|-supereffective|p2a: Talonflame
+|-damage|p2a: Talonflame|4/100
+|
+|-heal|p1a: Landorus|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Landorus|88/100 brn|[from] brn
+|upkeep
+|turn|12
+|choice|move stoneedge|switch 3
+|
+|switch|p2a: Skarmory|Skarmory, F|32/100
+|move|p1a: Landorus|Stone Edge|p2a: Skarmory
+|-damage|p2a: Skarmory|12/100
+|
+|-heal|p1a: Landorus|94/100 brn|[from] item: Leftovers
+|-damage|p1a: Landorus|82/100 brn|[from] brn
+|upkeep
+|turn|13
+|choice|move rockpolish|move spikes
+|-enditem|p2a: Skarmory|Custap Berry|[eat]
+|-activate|p2a: Skarmory|item: Custap Berry
+|
+|move|p2a: Skarmory|Spikes|p1a: Landorus
+|-sidestart|p1: lel456|Spikes
+|move|p1a: Landorus|Rock Polish|p1a: Landorus
+|-boost|p1a: Landorus|spe|2
+|
+|-heal|p1a: Landorus|88/100 brn|[from] item: Leftovers
+|-damage|p1a: Landorus|76/100 brn|[from] brn
+|upkeep
+|turn|14
+|choice|move stoneedge|move taunt
+|
+|move|p1a: Landorus|Stone Edge|p2a: Skarmory
+|-damage|p2a: Skarmory|0 fnt
+|faint|p2a: Skarmory
+|
+|-heal|p1a: Landorus|82/100 brn|[from] item: Leftovers
+|-damage|p1a: Landorus|69/100 brn|[from] brn
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Landorus|Landorus-Therian, M|50/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Landorus|atk|1
+|turn|15
+|choice|move stoneedge|move stoneedge
+|
+|move|p1a: Landorus|Stone Edge|p2a: Landorus
+|-damage|p2a: Landorus|34/100
+|move|p2a: Landorus|Stone Edge|p1a: Landorus
+|-damage|p1a: Landorus|27/100 brn
+|
+|-heal|p1a: Landorus|33/100 brn|[from] item: Leftovers
+|-damage|p1a: Landorus|20/100 brn|[from] brn
+|upkeep
+|turn|16
+|choice|move stoneedge|move stoneedge
+|
+|move|p1a: Landorus|Stone Edge|p2a: Landorus
+|-damage|p2a: Landorus|19/100
+|move|p2a: Landorus|Stone Edge|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Celebi|Celebi|100/100
+|-damage|p1a: Celebi|84/100|[from] Spikes
+|-damage|p1a: Celebi|72/100|[from] Stealth Rock
+|turn|17
+|choice|move gigadrain|switch 3
+|
+|switch|p2a: Talonflame|Talonflame, M|4/100
+|move|p1a: Celebi|Giga Drain|p2a: Talonflame
+|-resisted|p2a: Talonflame
+|-damage|p2a: Talonflame|0 fnt
+|-heal|p1a: Celebi|73/100|[from] drain|[of] p2a: Talonflame
+|faint|p2a: Talonflame
+|
+|-heal|p1a: Celebi|79/100|[from] item: Leftovers
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Raikou|Raikou|42/100
+|-ability|p2a: Raikou|Pressure
+|turn|18
+|choice|move gigadrain|move shadowball
+|
+|move|p2a: Raikou|Shadow Ball|p1a: Celebi
+|-supereffective|p1a: Celebi
+|-crit|p1a: Celebi
+|-damage|p1a: Celebi|27/100
+|move|p1a: Celebi|Giga Drain|p2a: Raikou
+|-damage|p2a: Raikou|24/100
+|-heal|p1a: Celebi|34/100|[from] drain|[of] p2a: Raikou
+|
+|-heal|p1a: Celebi|40/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|choice|move gigadrain|move shadowball
+|
+|move|p2a: Raikou|Shadow Ball|p1a: Celebi
+|-supereffective|p1a: Celebi
+|-damage|p1a: Celebi|3/100
+|move|p1a: Celebi|Giga Drain|p2a: Raikou
+|-damage|p2a: Raikou|4/100
+|-heal|p1a: Celebi|11/100|[from] drain|[of] p2a: Raikou
+|
+|-heal|p1a: Celebi|17/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|choice|move gigadrain|move shadowball
+|
+|move|p2a: Raikou|Shadow Ball|p1a: Celebi
+|-supereffective|p1a: Celebi
+|-damage|p1a: Celebi|0 fnt
+|faint|p1a: Celebi
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Thundurus|Thundurus, M|19/100
+|-damage|p1a: Thundurus|0 fnt|[from] Stealth Rock
+|faint|p1a: Thundurus
+|choice|switch 3|
+|
+|switch|p1a: Heatran|Heatran, M|100/100
+|-damage|p1a: Heatran|84/100|[from] Spikes
+|-damage|p1a: Heatran|72/100|[from] Stealth Rock
+|turn|21
+|choice|move earthpower|move thunderbolt
+|
+|move|p1a: Heatran|Earth Power|p2a: Raikou
+|-supereffective|p2a: Raikou
+|-damage|p2a: Raikou|0 fnt
+|faint|p2a: Raikou
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Landorus|Landorus-Therian, M|19/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Heatran|atk|1
+|turn|22
+|c|☆arceus1117|gg
+|c|☆lel456|gg
+|choice|move earthpower|move earthquake
+|
+|move|p2a: Landorus|Earthquake|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|
+|win|arceus1117
+|l|lel456
+|raw|lel456's rating: 1000 &rarr; <strong>1000</strong><br />(+0 for losing)
+|raw|arceus1117's rating: 1192 &rarr; <strong>1205</strong><br />(+13 for winning)

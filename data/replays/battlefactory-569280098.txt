@@ -1,0 +1,538 @@
+|j|dedic
+|j|ke⚠️ktus
+|player|p1|dedic|184
+|player|p2|ke⚠️ktus|5
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|48919,61403,7027,19683,28449,44417,23017,12542,36584,17949,28215,21633
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Swampert, M|item
+|poke|p1|Cloyster, M|item
+|poke|p1|Rotom-Heat|item
+|poke|p1|Umbreon, M|item
+|poke|p1|Noivern, M|item
+|poke|p1|Galvantula, M|item
+|poke|p2|Haxorus, M|item
+|poke|p2|Umbreon, M|item
+|poke|p2|Nidoqueen, F|item
+|poke|p2|Abomasnow, M|item
+|poke|p2|Donphan, M|item
+|poke|p2|Froslass, F|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 2, team 1, team 3, team 4, team 5, team 6|team 4, team 2, team 3, team 1, team 5, team 6
+|
+|start
+|switch|p1a: Cloyster|Cloyster, M|100/100
+|switch|p2a: Abomasnow|Abomasnow, M|100/100
+|turn|1
+|c|☆ke⚠️ktus|bulk
+|choice|move iciclespear|move gigadrain mega
+|
+|detailschange|p2a: Abomasnow|Abomasnow-Mega, M
+|-mega|p2a: Abomasnow|Abomasnow|Abomasite
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Abomasnow
+|move|p1a: Cloyster|Icicle Spear|p2a: Abomasnow
+|-damage|p2a: Abomasnow|89/100
+|-damage|p2a: Abomasnow|77/100
+|-damage|p2a: Abomasnow|65/100
+|-damage|p2a: Abomasnow|52/100
+|-crit|p2a: Abomasnow
+|-damage|p2a: Abomasnow|32/100
+|-hitcount|p2a: Abomasnow|5
+|move|p2a: Abomasnow|Giga Drain|p1a: Cloyster
+|-supereffective|p1a: Cloyster
+|-enditem|p1a: Cloyster|Focus Sash
+|-damage|p1a: Cloyster|1/100
+|-heal|p2a: Abomasnow|70/100|[from] drain|[of] p1a: Cloyster
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|turn|2
+|c|☆ke⚠️ktus|bet
+|choice|switch 3|move iceshard
+|
+|switch|p1a: Rotom|Rotom-Heat|100/100
+|move|p2a: Abomasnow|Ice Shard|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|88/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Rotom|82/100|[from] hail
+|upkeep
+|turn|3
+|c|☆ke⚠️ktus|yum
+|c|☆ke⚠️ktus|sigh
+|c|☆ke⚠️ktus|ofc
+|choice|move voltswitch|switch 2
+|
+|switch|p2a: Umbreon|Umbreon, M|100/100
+|move|p1a: Rotom|Volt Switch|p2a: Umbreon
+|-damage|p2a: Umbreon|78/100
+|c|☆dedic|nigga
+|choice|switch 6|
+|
+|switch|p1a: Galvantula|Galvantula, M|100/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Galvantula|94/100|[from] hail
+|-damage|p2a: Umbreon|72/100|[from] hail
+|-heal|p2a: Umbreon|78/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|c|☆dedic|boi
+|choice|move bugbuzz|switch 3
+|
+|switch|p2a: Nidoqueen|Nidoqueen, F|100/100
+|move|p1a: Galvantula|Bug Buzz|p2a: Nidoqueen
+|-resisted|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|81/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Galvantula|88/100|[from] hail
+|-damage|p2a: Nidoqueen|75/100|[from] hail
+|-heal|p2a: Nidoqueen|81/100|[from] item: Black Sludge
+|upkeep
+|turn|5
+|choice|switch 4|move stealthrock
+|
+|switch|p1a: Umbreon|Umbreon, M|100/100
+|move|p2a: Nidoqueen|Stealth Rock|p1a: Umbreon
+|-sidestart|p1: dedic|move: Stealth Rock
+|
+|-weather|none
+|-heal|p2a: Nidoqueen|87/100|[from] item: Black Sludge
+|upkeep
+|turn|6
+|choice|move wish|move roar
+|
+|move|p1a: Umbreon|Wish|p1a: Umbreon
+|move|p2a: Nidoqueen|Roar|p1a: Umbreon
+|drag|p1a: Rotom|Rotom-Heat|82/100
+|-damage|p1a: Rotom|57/100|[from] Stealth Rock
+|
+|-heal|p2a: Nidoqueen|93/100|[from] item: Black Sludge
+|upkeep
+|turn|7
+|c|☆ke⚠️ktus|ok.
+|choice|move trick|move roar
+|
+|move|p1a: Rotom|Trick|p2a: Nidoqueen
+|-activate|p1a: Rotom|move: Trick|[of] p2a: Nidoqueen
+|-item|p2a: Nidoqueen|Choice Scarf|[from] move: Trick
+|-item|p1a: Rotom|Black Sludge|[from] move: Trick
+|move|p2a: Nidoqueen|Roar|p1a: Rotom
+|drag|p1a: Swampert|Swampert, M|100/100
+|-damage|p1a: Swampert|94/100|[from] Stealth Rock
+|
+|-heal|p1a: Swampert|100/100|[from] move: Wish|[wisher] Umbreon
+|upkeep
+|turn|8
+|choice|move stealthrock|switch 2
+|
+|switch|p2a: Abomasnow|Abomasnow-Mega, M|70/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Abomasnow
+|move|p1a: Swampert|Stealth Rock|p2a: Abomasnow
+|-sidestart|p2: ke⚠️ktus|move: Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Swampert|94/100|[from] hail
+|-heal|p1a: Swampert|100/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|choice|switch 3|move gigadrain
+|
+|switch|p1a: Cloyster|Cloyster, M|1/100
+|-damage|p1a: Cloyster|0 fnt|[from] Stealth Rock
+|faint|p1a: Cloyster
+|move|p2a: Abomasnow|Giga Drain|p1: Cloyster|[notarget]
+|-notarget
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Umbreon|Umbreon, M|100/100
+|-damage|p1a: Umbreon|88/100|[from] Stealth Rock
+|turn|10
+|choice|move wish|move gigadrain
+|
+|move|p1a: Umbreon|Wish|p1a: Umbreon
+|move|p2a: Abomasnow|Giga Drain|p1a: Umbreon
+|-damage|p1a: Umbreon|58/100
+|-heal|p2a: Abomasnow|88/100|[from] drain|[of] p1a: Umbreon
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Umbreon|52/100|[from] hail
+|-heal|p1a: Umbreon|58/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|choice|move foulplay|move focusblast
+|
+|move|p1a: Umbreon|Foul Play|p2a: Abomasnow
+|-damage|p2a: Abomasnow|33/100
+|move|p2a: Abomasnow|Focus Blast|p1a: Umbreon|[miss]
+|-miss|p2a: Abomasnow|p1a: Umbreon
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Umbreon|52/100|[from] hail
+|-heal|p1a: Umbreon|100/100|[from] move: Wish|[wisher] Umbreon
+|upkeep
+|turn|12
+|c|☆ke⚠️ktus|YEP.
+|c|☆dedic|boy
+|choice|move foulplay|switch 5
+|
+|switch|p2a: Donphan|Donphan, M|100/100
+|-damage|p2a: Donphan|94/100|[from] Stealth Rock
+|move|p1a: Umbreon|Foul Play|p2a: Donphan
+|-damage|p2a: Donphan|55/100
+|
+|-weather|none
+|upkeep
+|turn|13
+|choice|move protect|move rapidspin
+|
+|move|p1a: Umbreon|Protect|p1a: Umbreon
+|-singleturn|p1a: Umbreon|Protect
+|move|p2a: Donphan|Rapid Spin|p1a: Umbreon
+|-activate|p1a: Umbreon|move: Protect
+|
+|upkeep
+|turn|14
+|choice|move foulplay|move rapidspin
+|
+|move|p1a: Umbreon|Foul Play|p2a: Donphan
+|-damage|p2a: Donphan|13/100
+|move|p2a: Donphan|Rapid Spin|p1a: Umbreon
+|-damage|p1a: Umbreon|96/100
+|-sideend|p2: ke⚠️ktus|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Donphan
+|
+|-heal|p1a: Umbreon|100/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|choice|move foulplay|move earthquake
+|
+|move|p1a: Umbreon|Foul Play|p2a: Donphan
+|-damage|p2a: Donphan|0 fnt
+|faint|p2a: Donphan
+|
+|upkeep
+|c|☆ke⚠️ktus|Rick james 33 chains
+|c|☆ke⚠️ktus|im gonna own u fool
+|choice||switch 4
+|
+|switch|p2a: Haxorus|Haxorus, M|100/100
+|-ability|p2a: Haxorus|Mold Breaker
+|turn|16
+|c|☆dedic|ok
+|choice|move foulplay|switch 3
+|
+|switch|p2a: Umbreon|Umbreon, M|78/100
+|move|p1a: Umbreon|Foul Play|p2a: Umbreon
+|-resisted|p2a: Umbreon
+|-damage|p2a: Umbreon|73/100
+|
+|-heal|p2a: Umbreon|79/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|c|☆ke⚠️ktus|why does ur foul play
+|c|☆ke⚠️ktus|ohko my aboma
+|c|☆dedic|cause you suck
+|c|☆ke⚠️ktus|ti nigga u ga
+|c|☆ke⚠️ktus|y
+|choice|move wish|move wish
+|
+|move|p2a: Umbreon|Wish|p2a: Umbreon
+|move|p1a: Umbreon|Wish|p1a: Umbreon
+|
+|-heal|p2a: Umbreon|85/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|choice|move foulplay|switch 6
+|
+|switch|p2a: Froslass|Froslass, F|100/100
+|move|p1a: Umbreon|Foul Play|p2a: Froslass
+|-supereffective|p2a: Froslass
+|-damage|p2a: Froslass|41/100
+|
+|-heal|p2a: Froslass|98/100|[from] move: Wish|[wisher] Umbreon
+|upkeep
+|turn|19
+|choice|move foulplay|move spikes
+|
+|move|p2a: Froslass|Spikes|p1a: Umbreon
+|-sidestart|p1: dedic|Spikes
+|move|p1a: Umbreon|Foul Play|p2a: Froslass
+|-supereffective|p2a: Froslass
+|-damage|p2a: Froslass|42/100
+|
+|upkeep
+|turn|20
+|choice|move foulplay|move destinybond
+|
+|move|p2a: Froslass|Destiny Bond|p2a: Froslass
+|-singlemove|p2a: Froslass|Destiny Bond
+|move|p1a: Umbreon|Foul Play|p2a: Froslass
+|-supereffective|p2a: Froslass
+|-damage|p2a: Froslass|0 fnt
+|faint|p2a: Froslass
+|-activate|p2a: Froslass|move: Destiny Bond
+|faint|p1a: Umbreon
+|
+|upkeep
+|c|☆dedic|k
+|c|☆ke⚠️ktus|u aight?
+|choice|switch 5|switch 3
+|
+|switch|p1a: Noivern|Noivern, M|100/100
+|switch|p2a: Haxorus|Haxorus, M|100/100
+|-damage|p1a: Noivern|76/100|[from] Stealth Rock
+|-ability|p2a: Haxorus|Mold Breaker
+|turn|21
+|choice|move dracometeor|switch 2
+|
+|switch|p2a: Nidoqueen|Nidoqueen, F|93/100
+|move|p1a: Noivern|Draco Meteor|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|10/100
+|-unboost|p1a: Noivern|spa|2
+|
+|upkeep
+|turn|22
+|choice|switch 2|switch 5
+|
+|switch|p1a: Rotom|Rotom-Heat|57/100
+|-damage|p1a: Rotom|32/100|[from] Stealth Rock
+|switch|p2a: Abomasnow|Abomasnow-Mega, M|33/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Abomasnow
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Rotom|26/100|[from] hail
+|-damage|p1a: Rotom|14/100|[from] item: Black Sludge
+|upkeep
+|turn|23
+|choice|move overheat|switch 6
+|
+|switch|p2a: Umbreon|Umbreon, M|85/100
+|move|p1a: Rotom|Overheat|p2a: Umbreon
+|-damage|p2a: Umbreon|47/100
+|-unboost|p1a: Rotom|spa|2
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Rotom|8/100|[from] hail
+|-damage|p2a: Umbreon|41/100|[from] hail
+|-damage|p1a: Rotom|0 fnt|[from] item: Black Sludge
+|-heal|p2a: Umbreon|47/100|[from] item: Leftovers
+|upkeep
+|faint|p1a: Rotom
+|choice|switch 4|
+|
+|switch|p1a: Galvantula|Galvantula, M|88/100
+|-damage|p1a: Galvantula|63/100|[from] Stealth Rock
+|-damage|p1a: Galvantula|51/100|[from] Spikes
+|turn|24
+|choice|move bugbuzz|move protect
+|
+|move|p2a: Umbreon|Protect|p2a: Umbreon
+|-singleturn|p2a: Umbreon|Protect
+|move|p1a: Galvantula|Bug Buzz|p2a: Umbreon
+|-activate|p2a: Umbreon|move: Protect
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Galvantula|45/100|[from] hail
+|-damage|p2a: Umbreon|41/100|[from] hail
+|-heal|p2a: Umbreon|47/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|choice|move stickyweb|move foulplay
+|
+|move|p1a: Galvantula|Sticky Web|p2a: Umbreon
+|-sidestart|p2: ke⚠️ktus|move: Sticky Web
+|move|p2a: Umbreon|Foul Play|p1a: Galvantula
+|-damage|p1a: Galvantula|7/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Galvantula|1/100|[from] hail
+|-damage|p2a: Umbreon|41/100|[from] hail
+|-heal|p2a: Umbreon|47/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|c|☆dedic|ok
+|choice|move bugbuzz|move protect
+|
+|move|p2a: Umbreon|Protect|p2a: Umbreon
+|-singleturn|p2a: Umbreon|Protect
+|move|p1a: Galvantula|Bug Buzz|p2a: Umbreon
+|-activate|p2a: Umbreon|move: Protect
+|
+|-weather|none
+|-heal|p2a: Umbreon|53/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|c|☆ke⚠️ktus|aight
+|c|☆ke⚠️ktus|aight
+|choice|move bugbuzz|switch 6
+|
+|switch|p2a: Abomasnow|Abomasnow-Mega, M|33/100
+|-activate|p2a: Abomasnow|move: Sticky Web
+|-unboost|p2a: Abomasnow|spe|1
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Abomasnow
+|move|p1a: Galvantula|Bug Buzz|p2a: Abomasnow
+|-supereffective|p2a: Abomasnow
+|-damage|p2a: Abomasnow|0 fnt
+|faint|p2a: Abomasnow
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Galvantula|0 fnt|[from] hail
+|upkeep
+|faint|p1a: Galvantula
+|choice|switch 3|switch 6
+|
+|switch|p2a: Umbreon|Umbreon, M|53/100
+|switch|p1a: Swampert|Swampert, M|100/100
+|-activate|p2a: Umbreon|move: Sticky Web
+|-unboost|p2a: Umbreon|spe|1
+|-damage|p1a: Swampert|88/100|[from] Spikes
+|-damage|p1a: Swampert|82/100|[from] Stealth Rock
+|turn|28
+|choice|move stealthrock|move wish
+|
+|move|p1a: Swampert|Stealth Rock|p2a: Umbreon
+|-sidestart|p2: ke⚠️ktus|move: Stealth Rock
+|move|p2a: Umbreon|Wish|p2a: Umbreon
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Swampert|76/100|[from] hail
+|-damage|p2a: Umbreon|47/100|[from] hail
+|-heal|p1a: Swampert|82/100|[from] item: Leftovers
+|-heal|p2a: Umbreon|53/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|choice|move roar|move foulplay
+|
+|move|p2a: Umbreon|Foul Play|p1a: Swampert
+|-damage|p1a: Swampert|56/100
+|move|p1a: Swampert|Roar|p2a: Umbreon
+|drag|p2a: Nidoqueen|Nidoqueen, F|10/100
+|-activate|p2a: Nidoqueen|move: Sticky Web
+|-unboost|p2a: Nidoqueen|spe|1
+|-damage|p2a: Nidoqueen|4/100|[from] Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Nidoqueen|0 fnt|[from] hail
+|-damage|p1a: Swampert|50/100|[from] hail
+|-heal|p1a: Swampert|56/100|[from] item: Leftovers
+|upkeep
+|faint|p2a: Nidoqueen
+|choice||switch 5
+|
+|switch|p2a: Umbreon|Umbreon, M|53/100
+|-damage|p2a: Umbreon|41/100|[from] Stealth Rock
+|-activate|p2a: Umbreon|move: Sticky Web
+|-unboost|p2a: Umbreon|spe|1
+|turn|30
+|choice|move earthquake|move wish
+|
+|move|p1a: Swampert|Earthquake|p2a: Umbreon
+|-damage|p2a: Umbreon|17/100
+|move|p2a: Umbreon|Wish|p2a: Umbreon
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Swampert|50/100|[from] hail
+|-damage|p2a: Umbreon|11/100|[from] hail
+|-heal|p1a: Swampert|56/100|[from] item: Leftovers
+|-heal|p2a: Umbreon|17/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|c|☆ke⚠️ktus|nigga im woke
+|choice|move roar|move protect
+|
+|move|p2a: Umbreon|Protect|p2a: Umbreon
+|-singleturn|p2a: Umbreon|Protect
+|move|p1a: Swampert|Roar|p2a: Umbreon
+|drag|p2a: Haxorus|Haxorus, M|100/100
+|-activate|p2a: Haxorus|move: Sticky Web
+|-unboost|p2a: Haxorus|spe|1
+|-damage|p2a: Haxorus|88/100|[from] Stealth Rock
+|-ability|p2a: Haxorus|Mold Breaker
+|
+|-weather|none
+|-heal|p2a: Haxorus|100/100|[from] move: Wish|[wisher] Umbreon
+|-heal|p1a: Swampert|63/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|c|☆ke⚠️ktus|omg
+|c|☆ke⚠️ktus|stop
+|c|☆dedic|n
+|choice|move roar|move taunt
+|
+|move|p2a: Haxorus|Taunt|p1a: Swampert
+|-start|p1a: Swampert|move: Taunt
+|cant|p1a: Swampert|move: Taunt|Roar
+|
+|-heal|p1a: Swampert|69/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|c|☆ke⚠️ktus|im woke.
+|c|☆dedic|o
+|choice|move earthquake|move dragondance
+|
+|move|p2a: Haxorus|Dragon Dance|p2a: Haxorus
+|-boost|p2a: Haxorus|atk|1
+|-boost|p2a: Haxorus|spe|1
+|move|p1a: Swampert|Earthquake|p2a: Haxorus
+|-damage|p2a: Haxorus|50/100
+|
+|-heal|p1a: Swampert|75/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|c|☆ke⚠️ktus|yo
+|c|☆ke⚠️ktus|low roll
+|c|☆ke⚠️ktus|aight?
+|choice|move earthquake|move dragondance
+|
+|move|p2a: Haxorus|Dragon Dance|p2a: Haxorus
+|-boost|p2a: Haxorus|atk|1
+|-boost|p2a: Haxorus|spe|1
+|move|p1a: Swampert|Earthquake|p2a: Haxorus
+|-damage|p2a: Haxorus|6/100
+|
+|-heal|p1a: Swampert|81/100|[from] item: Leftovers
+|-end|p1a: Swampert|move: Taunt
+|upkeep
+|turn|35
+|c|☆ke⚠️ktus|aight
+|c|☆dedic|sheeeit
+|c|☆ke⚠️ktus|crit now too
+|choice|move roar|move outrage
+|
+|move|p2a: Haxorus|Outrage|p1a: Swampert
+|-damage|p1a: Swampert|0 fnt
+|-damage|p2a: Haxorus|0 fnt|[from] item: Life Orb
+|faint|p1a: Swampert
+|faint|p2a: Haxorus
+|
+|upkeep
+|c|☆ke⚠️ktus|sigh
+|c|☆ke⚠️ktus|lmao
+|choice|switch 2|switch 2
+|
+|switch|p1a: Noivern|Noivern, M|76/100
+|switch|p2a: Umbreon|Umbreon, M|17/100
+|-damage|p1a: Noivern|51/100|[from] Stealth Rock
+|-damage|p2a: Umbreon|5/100|[from] Stealth Rock
+|-activate|p2a: Umbreon|move: Sticky Web
+|-unboost|p2a: Umbreon|spe|1
+|turn|36
+|choice|move dracometeor|move foulplay
+|
+|move|p1a: Noivern|Draco Meteor|p2a: Umbreon
+|-damage|p2a: Umbreon|0 fnt
+|-unboost|p1a: Noivern|spa|2
+|faint|p2a: Umbreon
+|
+|win|dedic
+|c|☆ke⚠️ktus|aight wait
