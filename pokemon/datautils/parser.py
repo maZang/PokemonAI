@@ -4,9 +4,10 @@ import json
 import numpy as np
 import pickle
 import os
+import random
 
 from pprint import pprint
-from pokemon.datautils.const import *
+from const import *
 
 BATTLEFILE = 'battlefactory-566172293.txt'
 DATAFOLDER = 'data/replays/'
@@ -20,15 +21,15 @@ def encode(network_config, replay_file):
 
 
 class PokemonShowdownEncoding(object):
-	def __init__(self, name=None, num_turns=None, data_type=None):
+	def __init__(self, name=None, data_type=None, num_turns=None):
 		'''
 		data_type is either test,train,or val
 		'''
 		self.name = name
 		self.data_type = data_type
-		self.pokemon = [np.zeros((num_turns, const.POKE_DESCRIPTOR_SIZE)) for _ in range(12)]
-		self.other_data = np.zeros((num_turns, const.NON_EMBEDDING_DATA))
-		self.labels = np.zeros((num_turns, const.NUMBER_CLASSES))
+		self.pokemon = [np.zeros((num_turns, POKE_DESCRIPTOR_SIZE)) for _ in range(12)]
+		self.other_data = np.zeros((num_turns, NON_EMBEDDING_DATA))
+		self.labels = np.zeros((num_turns, NUMBER_CLASSES))
 
 	@classmethod
 	def load(self, filename):
@@ -42,8 +43,24 @@ class PokemonShowdownEncoding(object):
 	def encodePokemonObject(self, pokemon):
 		pass
 
-	def encodeLabels(self):
-		pass
+	def encodeLabels(self, turnList, winner):
+		for turnNumber, lst in turnList.iteritems():
+			if len(lst) > 2:
+				raise Exception("List {} has more than 2 actions".format(lst))
+			for turn in lst:
+				if turn.player != winner:
+					continue
+
+				# actionID is either a Pokemon actionID if that pokemon switched in
+				# Move actionID if they used that move, or -1 if mega evolve
+				if turn.action == 'switch':
+					actionID = POKEMON_LIST[turn.pokemon.species]
+				elif turn.action == 'mega':
+					actionID = -1
+				else:
+					actionID = MOVE_LIST[turn.action]
+
+				self.labels[turnNumber][actionID] = 1
 
 
 class PokemonShowdownReplayParser(object):
@@ -66,6 +83,9 @@ class PokemonShowdownReplayParser(object):
 
 		self.stripGenders()
 		self.parseJSON()
+		for item in self.turnList.iteritems():
+			print(item)
+		self.generateEncodingObject()
 
 		'''
 		output = ""
@@ -79,7 +99,12 @@ class PokemonShowdownReplayParser(object):
 		'''
 
 	def generateEncodingObject(self):
-		obj = PokemonShowdownEncoding()
+		# 80-10-10 Training-Validation-Testing Split
+		weighted_data_types = [DATA_TYPES[0]] * 8 + [DATA_TYPES[1]] + [DATA_TYPES[2]]
+		obj = PokemonShowdownEncoding(name=self.log, data_type=random.choice(weighted_data_types), num_turns=self.turnNumber)
+
+		obj.encodeLabels(self.turnList, self.winner)
+
 		return obj
 
 	def parse(self):
@@ -324,7 +349,7 @@ class PokemonShowdownReplayParser(object):
 		assert(len(fields) >= 2)
 
 		# New turn, create a new turn list
-		self.turnNumber = int(fields[-1])
+		self.turnNumber = self.turnNumber + 1
 		self.turnList[self.turnNumber] = []
 
 	def prefixHandler(self, pokePrefix, species, player):
@@ -467,6 +492,10 @@ class PokemonShowdownReplayParser(object):
 		# Append to turn object list
 		turn = Turn(turnNumber=self.turnNumber, player=player, action="mega", pokemon=pokemon)
 		self.turnList[self.turnNumber].append(turn)
+
+		# Mega is its own turn, so push another turn on the list
+		self.turnNumber = self.turnNumber + 1
+		self.turnList[self.turnNumber] = []
 
 	def processDetailsChange(self, line):
 		matches = re.search("\|detailschange\|(p[12])a:\s+([^|]+)\|([^\n]+)", line).groups()
