@@ -31,6 +31,10 @@ class PokemonShowdownEncoding(object):
 		self.other_data = np.zeros((num_turns, NON_EMBEDDING_DATA))
 		self.labels = np.zeros((num_turns, NUMBER_CLASSES))
 
+		# Matrix where row = turn number, column 0 = winner's last move,
+		# column 1 = opponent's last move
+		self.last_move_data = np.zeros((num_turns, 2))
+
 	@classmethod
 	def load(self, filename):
 		with open(filename, 'rb') as f:
@@ -87,26 +91,33 @@ class PokemonShowdownEncoding(object):
 		for turnNumber, lst in turnList.iteritems():
 			if len(lst) > 2:
 				raise Exception("List {} has more than 2 actions".format(lst))
+
 			for turn in lst:
+				# actionID is either a Pokemon actionID if that pokemon switched in
+				# Move actionID if they used that move, or -1 if mega evolve
+				if turn.action in ['switch', 'mega']:
+					actionID = POKEMON_LIST[turn.pokemon.species]
+				else:
+					# ??????????
+					if turn.action == 'Hidden Power':
+						actionID = MOVE_LIST['<UNK>']
+					else:
+						actionID = MOVE_LIST[turn.action]
+
 				if turn.player != winner:
 					continue
 
-				# actionID is either a Pokemon actionID if that pokemon switched in
-				# Move actionID if they used that move, or -1 if mega evolve
-				if turn.action == 'switch':
-					actionID = POKEMON_LIST[turn.pokemon.species]
-				elif turn.action == 'mega':
-					actionID = -1
-				else:
-					actionID = MOVE_LIST[turn.action]
-
 				self.labels[turnNumber][actionID] = 1
 
-		if any(sum(row) != 1 for row in self.labels):
-			raise Exception("Labels {} had a non-one row".format(self.labels))
+		# if any(sum(row) != 1 for row in self.labels):
+		for i, row in enumerate(self.labels):
+			if sum(row) != 1:
+				print i
+				print row
+				raise Exception("Labels {} had a non-one row".format(self.labels))
 
 class PokemonShowdownReplayParser(object):
-	def __init__(self, log="", winner = ""):
+	def __init__(self, log="", winner=""):
 		self.log = log
 		self.players = {}
 		self.players["p1"] = Player("p1")
@@ -115,8 +126,8 @@ class PokemonShowdownReplayParser(object):
 		# self.winner is either "p1" or "p2".
 		self.winner = winner
 
-		self.turnNumber = 0
-		self.turnList = {0: []}
+		self.turnNumber = -1
+		self.turnList = {}
 
 	def run(self):
 		self.parse()
@@ -151,7 +162,7 @@ class PokemonShowdownReplayParser(object):
 	def generateEncodingObject(self):
 		# 80-10-10 Training-Validation-Testing Split
 		weighted_data_types = [DATA_TYPES[0]] * 8 + [DATA_TYPES[1]] + [DATA_TYPES[2]]
-		obj = PokemonShowdownEncoding(name=self.log, data_type=random.choice(weighted_data_types), num_turns=self.turnNumber)
+		obj = PokemonShowdownEncoding(name=self.log, data_type=random.choice(weighted_data_types), num_turns=self.turnNumber+1)
 
 		obj.encodeLabels(self.turnList, self.winner)
 
@@ -407,9 +418,9 @@ class PokemonShowdownReplayParser(object):
 
 		assert(len(fields) >= 2)
 
-		# New turn, create a new turn list
-		self.turnNumber = self.turnNumber + 1
-		self.turnList[self.turnNumber] = []
+		# # New turn, create a new turn list
+		# self.turnNumber = self.turnNumber + 1
+		# self.turnList[self.turnNumber] = []
 
 	def prefixHandler(self, pokePrefix, species, player):
 		'''
@@ -458,9 +469,7 @@ class PokemonShowdownReplayParser(object):
 			pokemon.nickname = nickname
 		self.players[player].currentPokemon = pokemon
 
-		# Append to turn object list
-		turn = Turn(turnNumber=self.turnNumber, player=player, action="switch", pokemon=pokemon)
-		self.turnList[self.turnNumber].append(turn)
+		self.createTurn(player, "switch", pokemon)
 
 	def processDrag(self, line):
 		matches = re.search("\|drag\|(p[12])a:\s+([^|]+)\|([^|]+)", line).groups()
@@ -525,9 +534,7 @@ class PokemonShowdownReplayParser(object):
 			pokemon.moves.add(move)
 		assert(len(pokemon.moves) <= 4)
 
-		# Append to turn object list
-		turn = Turn(turnNumber=self.turnNumber, player=player, action=move, pokemon=pokemon)
-		self.turnList[self.turnNumber].append(turn)
+		self.createTurn(player, move, pokemon)
 
 	def processAbility(self, line):
 		matches = re.search("\|-ability\|(p[12])a:\s+([^|]+)\|([^|]+)", line).groups()
@@ -548,14 +555,7 @@ class PokemonShowdownReplayParser(object):
 		pokemon = self.players[player].getPokemonByNickname(nickname)
 		pokemon.item = megastone
 
-		# Append to turn object list if the winner mega'd
-		if self.winner == player:
-			turn = Turn(turnNumber=self.turnNumber, player=player, action="mega", pokemon=pokemon)
-			self.turnList[self.turnNumber].append(turn)
-
-			# Mega is its own turn, so push another turn on the list
-			self.turnNumber = self.turnNumber + 1
-			self.turnList[self.turnNumber] = []
+		self.createTurn(player, "mega", pokemon)
 
 	def processDetailsChange(self, line):
 		matches = re.search("\|detailschange\|(p[12])a:\s+([^|]+)\|([^\n]+)", line).groups()
@@ -617,6 +617,15 @@ class PokemonShowdownReplayParser(object):
 		for poke in p2.pokemon:
 			if ',' in poke.species:
 				poke.species = poke.species.split(',')[0]
+
+	def createTurn(self, player, action, pokemon):
+		if player == self.winner:
+			self.turnNumber = self.turnNumber + 1
+			self.turnList[self.turnNumber] = []
+			# Append to turn object list
+			turn = Turn(turnNumber=self.turnNumber, player=player, action=action, pokemon=pokemon)
+			self.turnList[self.turnNumber].append(turn)
+
 
 
 class Player(object):
