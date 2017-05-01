@@ -1,0 +1,296 @@
+|j|Piplup40
+|j|DragonicMaster31
+|player|p1|Piplup40|2
+|player|p2|DragonicMaster31|250
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|14843,45948,25347,57171,40812,3737,25474,25326,8086,50679,35388,20897
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Chesnaught, M|item
+|poke|p1|Lucario, M|item
+|poke|p1|Noivern, M|item
+|poke|p1|Porygon-Z|item
+|poke|p1|Rhyperior, M|item
+|poke|p1|Crobat, M|item
+|poke|p2|Roserade, M|item
+|poke|p2|Galvantula, M|item
+|poke|p2|Cloyster, M|item
+|poke|p2|Empoleon, M|item
+|poke|p2|Kyurem|item
+|poke|p2|Hoopa|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 1, team 2, team 3, team 4, team 5, team 6|team 1, team 2, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Chesnaught|Chesnaught, M|100/100
+|switch|p2a: Roserade|Roserade, M|100/100
+|turn|1
+|choice|move spikes|move sludgebomb
+|
+|move|p2a: Roserade|Sludge Bomb|p1a: Chesnaught
+|-immune|p1a: Chesnaught|[msg]|[from] ability: Bulletproof
+|move|p1a: Chesnaught|Spikes|p2a: Roserade
+|-sidestart|p2: DragonicMaster31|Spikes
+|
+|upkeep
+|turn|2
+|choice|move spikes|move spikes
+|
+|move|p2a: Roserade|Spikes|p1a: Chesnaught
+|-sidestart|p1: Piplup40|Spikes
+|move|p1a: Chesnaught|Spikes|p2a: Roserade
+|-sidestart|p2: DragonicMaster31|Spikes
+|
+|upkeep
+|turn|3
+|choice|move spikes|move spikes
+|
+|move|p2a: Roserade|Spikes|p1a: Chesnaught
+|-sidestart|p1: Piplup40|Spikes
+|move|p1a: Chesnaught|Spikes|p2a: Roserade
+|-sidestart|p2: DragonicMaster31|Spikes
+|
+|upkeep
+|turn|4
+|choice|move spikyshield|move gigadrain
+|
+|move|p1a: Chesnaught|Spiky Shield|p1a: Chesnaught
+|-singleturn|p1a: Chesnaught|move: Protect
+|move|p2a: Roserade|Giga Drain|p1a: Chesnaught
+|-activate|p1a: Chesnaught|move: Protect
+|
+|upkeep
+|turn|5
+|choice|move leechseed|move gigadrain
+|
+|move|p2a: Roserade|Giga Drain|p1a: Chesnaught
+|-resisted|p1a: Chesnaught
+|-damage|p1a: Chesnaught|89/100
+|move|p1a: Chesnaught|Leech Seed|p2a: Roserade
+|-immune|p2a: Roserade|[msg]
+|
+|-heal|p1a: Chesnaught|95/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|choice|move drainpunch|move gigadrain
+|
+|move|p2a: Roserade|Giga Drain|p1a: Chesnaught
+|-resisted|p1a: Chesnaught
+|-damage|p1a: Chesnaught|84/100
+|move|p1a: Chesnaught|Drain Punch|p2a: Roserade
+|-resisted|p2a: Roserade
+|-damage|p2a: Roserade|79/100
+|-heal|p1a: Chesnaught|93/100|[from] drain|[of] p2a: Roserade
+|
+|-heal|p2a: Roserade|85/100|[from] item: Black Sludge
+|-heal|p1a: Chesnaught|99/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|choice|move drainpunch|move gigadrain
+|
+|move|p2a: Roserade|Giga Drain|p1a: Chesnaught
+|-resisted|p1a: Chesnaught
+|-damage|p1a: Chesnaught|86/100
+|-heal|p2a: Roserade|93/100|[from] drain|[of] p1a: Chesnaught
+|move|p1a: Chesnaught|Drain Punch|p2a: Roserade
+|-resisted|p2a: Roserade
+|-damage|p2a: Roserade|71/100
+|-heal|p1a: Chesnaught|95/100|[from] drain|[of] p2a: Roserade
+|
+|-heal|p2a: Roserade|78/100|[from] item: Black Sludge
+|-heal|p1a: Chesnaught|100/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|choice|switch 6|move gigadrain
+|
+|switch|p1a: Crobat|Crobat, M|100/100
+|move|p2a: Roserade|Giga Drain|p1a: Crobat
+|-resisted|p1a: Crobat
+|-damage|p1a: Crobat|92/100
+|-heal|p2a: Roserade|83/100|[from] drain|[of] p1a: Crobat
+|
+|-heal|p1a: Crobat|98/100|[from] item: Black Sludge
+|-heal|p2a: Roserade|89/100|[from] item: Black Sludge
+|upkeep
+|turn|9
+|choice|move bravebird|switch 6
+|
+|switch|p2a: Hoopa|Hoopa|100/100
+|-damage|p2a: Hoopa|76/100|[from] Spikes
+|move|p1a: Crobat|Brave Bird|p2a: Hoopa
+|-damage|p2a: Hoopa|14/100
+|-damage|p1a: Crobat|81/100|[from] recoil|[of] p2a: Hoopa
+|
+|-heal|p1a: Crobat|88/100|[from] item: Black Sludge
+|upkeep
+|turn|10
+|choice|move taunt|move psyshock
+|
+|move|p1a: Crobat|Taunt|p2a: Hoopa
+|-start|p2a: Hoopa|move: Taunt
+|move|p2a: Hoopa|Psyshock|p1a: Crobat
+|-supereffective|p1a: Crobat
+|-damage|p1a: Crobat|0 fnt
+|-damage|p2a: Hoopa|4/100|[from] item: Life Orb
+|faint|p1a: Crobat
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Rhyperior|Rhyperior, M|100/100
+|-damage|p1a: Rhyperior|84/100|[from] Spikes
+|turn|11
+|choice|move megahorn|move focusblast
+|
+|move|p2a: Hoopa|Focus Blast|p1a: Rhyperior
+|-supereffective|p1a: Rhyperior
+|-damage|p1a: Rhyperior|0 fnt
+|-damage|p2a: Hoopa|0 fnt|[from] item: Life Orb
+|faint|p1a: Rhyperior
+|faint|p2a: Hoopa
+|
+|upkeep
+|choice|switch 3|switch 2
+|
+|switch|p1a: Noivern|Noivern, M|100/100
+|switch|p2a: Galvantula|Galvantula, M|100/100
+|-damage|p2a: Galvantula|76/100|[from] Spikes
+|turn|12
+|choice|move airslash|move thunder
+|
+|move|p1a: Noivern|Air Slash|p2a: Galvantula
+|-damage|p2a: Galvantula|21/100
+|move|p2a: Galvantula|Thunder|p1a: Noivern
+|-damage|p1a: Noivern|24/100
+|-status|p1a: Noivern|par
+|-damage|p2a: Galvantula|11/100|[from] item: Life Orb
+|
+|-heal|p1a: Noivern|30/100 par|[from] item: Leftovers
+|upkeep
+|turn|13
+|choice|move airslash|move thunder
+|
+|move|p2a: Galvantula|Thunder|p1a: Noivern
+|-crit|p1a: Noivern
+|-damage|p1a: Noivern|0 fnt
+|-damage|p2a: Galvantula|1/100|[from] item: Life Orb
+|faint|p1a: Noivern
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Chesnaught|Chesnaught, M|100/100
+|-damage|p1a: Chesnaught|84/100|[from] Spikes
+|turn|14
+|choice|move drainpunch|move bugbuzz
+|
+|move|p2a: Galvantula|Bug Buzz|p1a: Chesnaught
+|-damage|p1a: Chesnaught|45/100
+|-damage|p2a: Galvantula|0 fnt|[from] item: Life Orb
+|faint|p2a: Galvantula
+|move|p1a: Chesnaught|Drain Punch|p2: Galvantula|[notarget]
+|-notarget
+|
+|-heal|p1a: Chesnaught|51/100|[from] item: Leftovers
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Kyurem|Kyurem|100/100
+|-damage|p2a: Kyurem|76/100|[from] Spikes
+|-ability|p2a: Kyurem|Pressure
+|turn|15
+|choice|move spikyshield|move icebeam
+|
+|move|p1a: Chesnaught|Spiky Shield|p1a: Chesnaught
+|-singleturn|p1a: Chesnaught|move: Protect
+|move|p2a: Kyurem|Ice Beam|p1a: Chesnaught
+|-activate|p1a: Chesnaught|move: Protect
+|
+|-heal|p1a: Chesnaught|57/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|choice|switch 4|move icebeam
+|
+|switch|p1a: Porygon-Z|Porygon-Z|100/100
+|-damage|p1a: Porygon-Z|84/100|[from] Spikes
+|move|p2a: Kyurem|Ice Beam|p1a: Porygon-Z
+|-damage|p1a: Porygon-Z|21/100
+|
+|upkeep
+|turn|17
+|choice|move trick|move icebeam
+|
+|move|p2a: Kyurem|Ice Beam|p1a: Porygon-Z
+|-damage|p1a: Porygon-Z|0 fnt
+|faint|p1a: Porygon-Z
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Lucario|Lucario, M|100/100
+|-damage|p1a: Lucario|84/100|[from] Spikes
+|turn|18
+|choice|move closecombat|move icebeam
+|
+|move|p2a: Kyurem|Ice Beam|p1a: Lucario
+|-resisted|p1a: Lucario
+|-damage|p1a: Lucario|46/100
+|move|p1a: Lucario|Close Combat|p2a: Kyurem
+|-supereffective|p2a: Kyurem
+|-damage|p2a: Kyurem|0 fnt
+|-unboost|p1a: Lucario|def|1
+|-unboost|p1a: Lucario|spd|1
+|-damage|p1a: Lucario|36/100|[from] item: Life Orb
+|faint|p2a: Kyurem
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Empoleon|Empoleon, M|100/100
+|-damage|p2a: Empoleon|76/100|[from] Spikes
+|turn|19
+|choice|move closecombat|move scald
+|
+|move|p1a: Lucario|Close Combat|p2a: Empoleon
+|-supereffective|p2a: Empoleon
+|-damage|p2a: Empoleon|0 fnt
+|-unboost|p1a: Lucario|def|1
+|-unboost|p1a: Lucario|spd|1
+|-damage|p1a: Lucario|26/100|[from] item: Life Orb
+|faint|p2a: Empoleon
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Roserade|Roserade, M|89/100
+|-damage|p2a: Roserade|64/100|[from] Spikes
+|turn|20
+|choice|move icepunch|move gigadrain
+|
+|move|p1a: Lucario|Ice Punch|p2a: Roserade
+|-supereffective|p2a: Roserade
+|-damage|p2a: Roserade|0 fnt
+|-damage|p1a: Lucario|16/100|[from] item: Life Orb
+|faint|p2a: Roserade
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Cloyster|Cloyster, M|100/100
+|-damage|p2a: Cloyster|76/100|[from] Spikes
+|turn|21
+|choice|move closecombat|move iciclespear
+|
+|move|p1a: Lucario|Close Combat|p2a: Cloyster
+|-supereffective|p2a: Cloyster
+|-damage|p2a: Cloyster|0 fnt
+|-unboost|p1a: Lucario|def|1
+|-unboost|p1a: Lucario|spd|1
+|-damage|p1a: Lucario|6/100|[from] item: Life Orb
+|faint|p2a: Cloyster
+|
+|win|Piplup40

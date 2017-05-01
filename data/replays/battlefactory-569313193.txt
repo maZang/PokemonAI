@@ -1,0 +1,155 @@
+|j|kolivo
+|j|IamaStegosaurusAF
+|player|p1|kolivo|1
+|player|p2|IamaStegosaurusAF|1
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|39890,14449,56441,49748,51884,12286,25820,39261,13462,30270,56512,31178
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Lanturn, M|item
+|poke|p1|Klinklang|item
+|poke|p1|Muk, M|item
+|poke|p1|Shiftry, M|item
+|poke|p1|Pelipper, M|item
+|poke|p1|Lilligant, F|item
+|poke|p2|Torterra, M|item
+|poke|p2|Barbaracle, M|item
+|poke|p2|Archeops, M|
+|poke|p2|Haunter, M|item
+|poke|p2|Golurk|item
+|poke|p2|Weezing, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 6, team 2, team 3, team 4, team 5, team 1|team 1, team 2, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Lilligant|Lilligant, F|100/100
+|switch|p2a: Torterra|Torterra, M|100/100
+|turn|1
+|choice|move quiverdance|move stealthrock
+|
+|move|p1a: Lilligant|Quiver Dance|p1a: Lilligant
+|-boost|p1a: Lilligant|spa|1
+|-boost|p1a: Lilligant|spd|1
+|-boost|p1a: Lilligant|spe|1
+|move|p2a: Torterra|Stealth Rock|p1a: Lilligant
+|-sidestart|p1: kolivo|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|choice|move quiverdance|move earthquake
+|
+|move|p1a: Lilligant|Quiver Dance|p1a: Lilligant
+|-boost|p1a: Lilligant|spa|1
+|-boost|p1a: Lilligant|spd|1
+|-boost|p1a: Lilligant|spe|1
+|move|p2a: Torterra|Earthquake|p1a: Lilligant
+|-resisted|p1a: Lilligant
+|-damage|p1a: Lilligant|68/100
+|
+|upkeep
+|turn|3
+|choice|move hiddenpower|move woodhammer
+|
+|move|p1a: Lilligant|Hidden Power|p2a: Torterra
+|-supereffective|p2a: Torterra
+|-damage|p2a: Torterra|0 fnt
+|-damage|p1a: Lilligant|58/100|[from] item: Life Orb
+|faint|p2a: Torterra
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Haunter|Haunter, M|100/100
+|turn|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by IamaStegosaurusAF)
+|choice|move hiddenpower|move sludgebomb
+|
+|move|p1a: Lilligant|Hidden Power|p2a: Haunter
+|-damage|p2a: Haunter|0 fnt
+|-damage|p1a: Lilligant|48/100|[from] item: Life Orb
+|faint|p2a: Haunter
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Weezing|Weezing, M|100/100
+|turn|5
+|choice|move sleeppowder|move sludgebomb
+|
+|move|p1a: Lilligant|Sleep Powder|p2a: Weezing
+|-status|p2a: Weezing|slp
+|cant|p2a: Weezing|slp
+|
+|upkeep
+|turn|6
+|choice|move hiddenpower|move sludgebomb
+|
+|move|p1a: Lilligant|Hidden Power|p2a: Weezing
+|-damage|p2a: Weezing|32/100 slp
+|-damage|p1a: Lilligant|38/100|[from] item: Life Orb
+|cant|p2a: Weezing|slp
+|
+|-heal|p2a: Weezing|38/100 slp|[from] item: Black Sludge
+|upkeep
+|turn|7
+|choice|move hiddenpower|move sludgebomb
+|
+|move|p1a: Lilligant|Hidden Power|p2a: Weezing
+|-damage|p2a: Weezing|0 fnt
+|-damage|p1a: Lilligant|28/100|[from] item: Life Orb
+|faint|p2a: Weezing
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Archeops|Archeops, M|100/100
+|turn|8
+|choice|move gigadrain|move acrobatics
+|
+|move|p1a: Lilligant|Giga Drain|p2a: Archeops
+|-damage|p2a: Archeops|0 fnt
+|-heal|p1a: Lilligant|91/100|[from] drain|[of] p2a: Archeops
+|-damage|p1a: Lilligant|81/100|[from] item: Life Orb
+|faint|p2a: Archeops
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Golurk|Golurk|100/100
+|turn|9
+|c|☆kolivo|gg bro
+|choice|move gigadrain|move icepunch
+|
+|move|p1a: Lilligant|Giga Drain|p2a: Golurk
+|-supereffective|p2a: Golurk
+|-damage|p2a: Golurk|0 fnt
+|-heal|p1a: Lilligant|100/100|[from] drain|[of] p2a: Golurk
+|-damage|p1a: Lilligant|91/100|[from] item: Life Orb
+|faint|p2a: Golurk
+|
+|upkeep
+|c|☆IamaStegosaurusAF|gg
+|choice||switch 2
+|
+|switch|p2a: Barbaracle|Barbaracle, M|100/100
+|turn|10
+|choice|move gigadrain|move return
+|
+|move|p1a: Lilligant|Giga Drain|p2a: Barbaracle
+|-supereffective|p2a: Barbaracle
+|-damage|p2a: Barbaracle|0 fnt
+|-heal|p1a: Lilligant|100/100|[from] drain|[of] p2a: Barbaracle
+|-damage|p1a: Lilligant|91/100|[from] item: Life Orb
+|faint|p2a: Barbaracle
+|
+|win|kolivo
+|l|IamaStegosaurusAF
+|raw|kolivo's rating: 1047 &rarr; <strong>1087</strong><br />(+40 for winning)
+|raw|IamaStegosaurusAF's rating: 1121 &rarr; <strong>1091</strong><br />(-30 for losing)
+|l|kolivo
+|j|kolivo

@@ -1,0 +1,286 @@
+|j|FullRecord
+|j|Tangent Phi²
+|player|p1|FullRecord|150
+|player|p2|Tangent Phi²|167
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|43858,24670,44933,15770,31953,28426,7354,62282,46432,32092,23370,48297
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Vullaby, F|item
+|poke|p1|Gabite, M|item
+|poke|p1|Dodrio, M|item
+|poke|p1|Quilladin, M|item
+|poke|p1|Relicanth, M|item
+|poke|p1|Huntail, M|item
+|poke|p2|Mr. Mime, M|item
+|poke|p2|Cryogonal|item
+|poke|p2|Venipede, M|item
+|poke|p2|Zebstrika, M|item
+|poke|p2|Marowak, M|item
+|poke|p2|Duosion, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|c|☆Tangent Phi²|have fun !
+|choice|team 4, team 2, team 3, team 1, team 5, team 6|team 3, team 2, team 1, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Quilladin|Quilladin, M|100/100
+|switch|p2a: Venipede|Venipede, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by FullRecord)
+|choice|switch 3|move spikes
+|
+|switch|p1a: Dodrio|Dodrio, M|100/100
+|move|p2a: Venipede|Spikes|p1a: Dodrio
+|-sidestart|p1: FullRecord|Spikes
+|
+|-ability|p2a: Venipede|Speed Boost|boost
+|-boost|p2a: Venipede|spe|1
+|upkeep
+|turn|2
+|choice|move bravebird|move toxicspikes
+|
+|move|p2a: Venipede|Toxic Spikes|p1a: Dodrio
+|-sidestart|p1: FullRecord|move: Toxic Spikes
+|move|p1a: Dodrio|Brave Bird|p2a: Venipede
+|-supereffective|p2a: Venipede
+|-enditem|p2a: Venipede|Focus Sash
+|-damage|p2a: Venipede|1/100
+|-damage|p1a: Dodrio|67/100|[from] recoil|[of] p2a: Venipede
+|
+|-ability|p2a: Venipede|Speed Boost|boost
+|-boost|p2a: Venipede|spe|1
+|upkeep
+|turn|3
+|choice|move bravebird|move endeavor
+|
+|move|p2a: Venipede|Endeavor|p1a: Dodrio
+|-damage|p1a: Dodrio|1/100
+|move|p1a: Dodrio|Brave Bird|p2a: Venipede
+|-supereffective|p2a: Venipede
+|-damage|p2a: Venipede|0 fnt
+|-damage|p1a: Dodrio|0 fnt|[from] recoil|[of] p2a: Venipede
+|faint|p2a: Venipede
+|faint|p1a: Dodrio
+|
+|upkeep
+|choice|switch 4|switch 5
+|
+|switch|p2a: Marowak|Marowak, M|100/100
+|switch|p1a: Vullaby|Vullaby, F|100/100
+|turn|4
+|choice|move defog|move knockoff
+|
+|move|p2a: Marowak|Knock Off|p1a: Vullaby
+|-resisted|p1a: Vullaby
+|-crit|p1a: Vullaby
+|-damage|p1a: Vullaby|67/100
+|-enditem|p1a: Vullaby|Eviolite|[from] move: Knock Off|[of] p2a: Marowak
+|move|p1a: Vullaby|Defog|p2a: Marowak
+|-unboost|p2a: Marowak|evasion|1
+|-sideend|p1: FullRecord|Spikes|[from] move: Defog|[of] p1a: Vullaby
+|-sideend|p1: FullRecord|Toxic Spikes|[from] move: Defog|[of] p1a: Vullaby
+|
+|upkeep
+|turn|5
+|choice|switch 3|move doubleedge
+|
+|switch|p1a: Quilladin|Quilladin, M|100/100
+|move|p2a: Marowak|Double-Edge|p1a: Quilladin
+|-damage|p1a: Quilladin|66/100
+|
+|upkeep
+|turn|6
+|choice|move spikes|switch 4
+|
+|switch|p2a: Zebstrika|Zebstrika, M|100/100
+|move|p1a: Quilladin|Spikes|p2a: Zebstrika
+|-sidestart|p2: Tangent Phi²|Spikes
+|
+|upkeep
+|turn|7
+|choice|move spikes|move overheat
+|
+|move|p2a: Zebstrika|Overheat|p1a: Quilladin
+|-supereffective|p1a: Quilladin
+|-damage|p1a: Quilladin|0 fnt
+|-unboost|p2a: Zebstrika|spa|2
+|-damage|p2a: Zebstrika|91/100|[from] item: Life Orb
+|faint|p1a: Quilladin
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Gabite|Gabite, M|100/100
+|turn|8
+|choice|move stealthrock|switch 6
+|
+|switch|p2a: Duosion|Duosion, M|100/100
+|move|p1a: Gabite|Stealth Rock|p2a: Duosion
+|-sidestart|p2: Tangent Phi²|move: Stealth Rock
+|
+|upkeep
+|turn|9
+|choice|switch 3|move calmmind
+|
+|switch|p1a: Vullaby|Vullaby, F|67/100
+|move|p2a: Duosion|Calm Mind|p2a: Duosion
+|-boost|p2a: Duosion|spa|1
+|-boost|p2a: Duosion|spd|1
+|
+|upkeep
+|turn|10
+|choice|move foulplay|switch 2
+|
+|switch|p2a: Cryogonal|Cryogonal|100/100
+|-damage|p2a: Cryogonal|76/100|[from] Stealth Rock
+|move|p1a: Vullaby|Foul Play|p2a: Cryogonal
+|-damage|p2a: Cryogonal|44/100
+|
+|-heal|p2a: Cryogonal|50/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|choice|switch 6|move rapidspin
+|
+|switch|p1a: Huntail|Huntail, M|100/100
+|move|p2a: Cryogonal|Rapid Spin|p1a: Huntail
+|-damage|p1a: Huntail|97/100
+|-sideend|p2: Tangent Phi²|Spikes|[from] move: Rapid Spin|[of] p2a: Cryogonal
+|-sideend|p2: Tangent Phi²|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Cryogonal
+|
+|-heal|p2a: Cryogonal|56/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|choice|move shellsmash|move freezedry
+|
+|move|p2a: Cryogonal|Freeze-Dry|p1a: Huntail
+|-supereffective|p1a: Huntail
+|-damage|p1a: Huntail|8/100
+|move|p1a: Huntail|Shell Smash|p1a: Huntail
+|-unboost|p1a: Huntail|def|1
+|-unboost|p1a: Huntail|spd|1
+|-boost|p1a: Huntail|atk|2
+|-boost|p1a: Huntail|spa|2
+|-boost|p1a: Huntail|spe|2
+|-enditem|p1a: Huntail|White Herb
+|-clearnegativeboost|p1a: Huntail|[silent]
+|
+|-heal|p2a: Cryogonal|63/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|choice|move waterfall|move freezedry
+|
+|move|p1a: Huntail|Waterfall|p2a: Cryogonal
+|-damage|p2a: Cryogonal|0 fnt
+|faint|p2a: Cryogonal
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Duosion|Duosion, M|100/100
+|turn|14
+|choice|move suckerpunch|move psyshock
+|
+|move|p1a: Huntail|Sucker Punch|p2a: Duosion
+|-supereffective|p2a: Duosion
+|-damage|p2a: Duosion|29/100
+|move|p2a: Duosion|Psyshock|p1a: Huntail
+|-damage|p1a: Huntail|0 fnt
+|faint|p1a: Huntail
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Vullaby|Vullaby, F|67/100
+|turn|15
+|choice|move foulplay|switch 4
+|
+|switch|p2a: Marowak|Marowak, M|100/100
+|move|p1a: Vullaby|Foul Play|p2a: Marowak
+|-damage|p2a: Marowak|51/100
+|
+|upkeep
+|turn|16
+|choice|move uturn|move stealthrock
+|
+|move|p2a: Marowak|Stealth Rock|p1a: Vullaby
+|-sidestart|p1: FullRecord|move: Stealth Rock
+|move|p1a: Vullaby|U-turn|p2a: Marowak
+|-damage|p2a: Marowak|40/100
+|choice|switch 5|
+|
+|switch|p1a: Relicanth|Relicanth, M|100/100
+|-damage|p1a: Relicanth|88/100|[from] Stealth Rock
+|
+|upkeep
+|turn|17
+|choice|move waterfall|move bonemerang
+|
+|move|p2a: Marowak|Bonemerang|p1a: Relicanth
+|-supereffective|p1a: Relicanth
+|-damage|p1a: Relicanth|29/100
+|-supereffective|p1a: Relicanth
+|-damage|p1a: Relicanth|0 fnt
+|-hitcount|p1a: Relicanth|2
+|faint|p1a: Relicanth
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Gabite|Gabite, M|100/100
+|-damage|p1a: Gabite|94/100|[from] Stealth Rock
+|turn|18
+|choice|move stealthrock|move knockoff
+|
+|move|p1a: Gabite|Stealth Rock|p2a: Marowak
+|-sidestart|p2: Tangent Phi²|move: Stealth Rock
+|move|p2a: Marowak|Knock Off|p1a: Gabite
+|-damage|p1a: Gabite|60/100
+|-damage|p2a: Marowak|27/100|[from] ability: Rough Skin|[of] p1a: Gabite
+|-enditem|p1a: Gabite|Eviolite|[from] move: Knock Off|[of] p2a: Marowak
+|
+|upkeep
+|turn|19
+|choice|move dragonclaw|move bonemerang
+|
+|move|p1a: Gabite|Dragon Claw|p2a: Marowak
+|-damage|p2a: Marowak|0 fnt
+|faint|p2a: Marowak
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Mr. Mime|Mr. Mime, M|100/100
+|-damage|p2a: Mr. Mime|88/100|[from] Stealth Rock
+|turn|20
+|c|☆Tangent Phi²|gg
+|choice|move earthquake|move dazzlinggleam
+|
+|move|p2a: Mr. Mime|Dazzling Gleam|p1a: Gabite
+|-supereffective|p1a: Gabite
+|-damage|p1a: Gabite|0 fnt
+|-damage|p2a: Mr. Mime|79/100|[from] item: Life Orb
+|faint|p1a: Gabite
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Vullaby|Vullaby, F|67/100
+|-damage|p1a: Vullaby|42/100|[from] Stealth Rock
+|turn|21
+|choice|move uturn|move dazzlinggleam
+|
+|move|p2a: Mr. Mime|Dazzling Gleam|p1a: Vullaby
+|-supereffective|p1a: Vullaby
+|-damage|p1a: Vullaby|0 fnt
+|-damage|p2a: Mr. Mime|69/100|[from] item: Life Orb
+|faint|p1a: Vullaby
+|
+|win|Tangent Phi²
+|raw|FullRecord's rating: 1119 &rarr; <strong>1091</strong><br />(-28 for losing)
+|raw|Tangent Phi²'s rating: 1074 &rarr; <strong>1107</strong><br />(+33 for winning)
+|l|FullRecord

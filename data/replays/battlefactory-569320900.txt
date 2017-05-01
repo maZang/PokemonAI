@@ -1,0 +1,263 @@
+|j|cauterization
+|j|Rio91
+|player|p1|cauterization|53
+|player|p2|Rio91|141
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|13270,42313,25180,23653,9575,9715,2304,42833,25792,44368,40093,52486
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Bronzong|item
+|poke|p1|Honchkrow, M|item
+|poke|p1|Cloyster, M|item
+|poke|p1|Sceptile, M|item
+|poke|p1|Reuniclus, M|item
+|poke|p1|Crobat, M|item
+|poke|p2|Froslass, F|item
+|poke|p2|Haxorus, M|item
+|poke|p2|Tornadus, M|item
+|poke|p2|Absol, M|item
+|poke|p2|Porygon-Z|item
+|poke|p2|Donphan, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 6, team 2, team 3, team 4, team 5, team 1|team 3, team 2, team 1, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Crobat|Crobat, M|100/100
+|switch|p2a: Tornadus|Tornadus, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Rio91)
+|choice|move uturn|move tailwind
+|
+|move|p2a: Tornadus|Tailwind|p2a: Tornadus
+|-sidestart|p2: Rio91|move: Tailwind
+|move|p1a: Crobat|U-turn|p2a: Tornadus
+|-resisted|p2a: Tornadus
+|-damage|p2a: Tornadus|78/100
+|choice|switch 3|
+|
+|switch|p1a: Cloyster|Cloyster, M|100/100
+|
+|upkeep
+|turn|2
+|choice|move iciclespear|move grassknot
+|
+|move|p2a: Tornadus|Grass Knot|p1a: Cloyster
+|-supereffective|p1a: Cloyster
+|-enditem|p1a: Cloyster|Focus Sash
+|-damage|p1a: Cloyster|1/100
+|-damage|p2a: Tornadus|68/100|[from] item: Life Orb
+|move|p1a: Cloyster|Icicle Spear|p2a: Tornadus
+|-supereffective|p2a: Tornadus
+|-damage|p2a: Tornadus|36/100
+|-supereffective|p2a: Tornadus
+|-damage|p2a: Tornadus|2/100
+|-supereffective|p2a: Tornadus
+|-damage|p2a: Tornadus|0 fnt
+|-hitcount|p2a: Tornadus|3
+|faint|p2a: Tornadus
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Absol|Absol, M|100/100
+|turn|3
+|choice|move explosion|move suckerpunch mega
+|
+|detailschange|p2a: Absol|Absol-Mega, M
+|-mega|p2a: Absol|Absol|Absolite
+|move|p2a: Absol|Sucker Punch|p1a: Cloyster
+|-damage|p1a: Cloyster|0 fnt
+|faint|p1a: Cloyster
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Crobat|Crobat, M|100/100
+|turn|4
+|choice|move uturn|move swordsdance
+|
+|move|p2a: Absol|Swords Dance|p2a: Absol
+|-boost|p2a: Absol|atk|2
+|move|p1a: Crobat|U-turn|p2a: Absol
+|-supereffective|p2a: Absol
+|-damage|p2a: Absol|0 fnt
+|faint|p2a: Absol
+|choice|switch 6|
+|
+|switch|p1a: Bronzong|Bronzong|100/100
+|
+|-sideend|p2: Rio91|move: Tailwind
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Haxorus|Haxorus, M|100/100
+|-ability|p2a: Haxorus|Mold Breaker
+|turn|5
+|choice|move gyroball|move swordsdance
+|
+|move|p2a: Haxorus|Swords Dance|p2a: Haxorus
+|-boost|p2a: Haxorus|atk|2
+|move|p1a: Bronzong|Gyro Ball|p2a: Haxorus
+|-damage|p2a: Haxorus|48/100
+|
+|upkeep
+|turn|6
+|choice|move gyroball|move earthquake
+|
+|move|p2a: Haxorus|Earthquake|p1a: Bronzong
+|-supereffective|p1a: Bronzong
+|-damage|p1a: Bronzong|0 fnt
+|-damage|p2a: Haxorus|38/100|[from] item: Life Orb
+|faint|p1a: Bronzong
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Sceptile|Sceptile, M|100/100
+|turn|7
+|choice|move dragonpulse mega|move outrage
+|
+|detailschange|p1a: Sceptile|Sceptile-Mega, M
+|-mega|p1a: Sceptile|Sceptile|Sceptilite
+|move|p1a: Sceptile|Dragon Pulse|p2a: Haxorus
+|-supereffective|p2a: Haxorus
+|-damage|p2a: Haxorus|0 fnt
+|faint|p2a: Haxorus
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Froslass|Froslass, F|100/100
+|turn|8
+|choice|move gigadrain|move icywind
+|
+|move|p1a: Sceptile|Giga Drain|p2a: Froslass
+|-damage|p2a: Froslass|39/100
+|move|p2a: Froslass|Icy Wind|p1a: Sceptile
+|-supereffective|p1a: Sceptile
+|-damage|p1a: Sceptile|18/100
+|-unboost|p1a: Sceptile|spe|1
+|
+|upkeep
+|turn|9
+|choice|switch 5|move icywind
+|
+|switch|p1a: Reuniclus|Reuniclus, M|100/100
+|move|p2a: Froslass|Icy Wind|p1a: Reuniclus
+|-damage|p1a: Reuniclus|85/100
+|-unboost|p1a: Reuniclus|spe|1
+|
+|-heal|p1a: Reuniclus|91/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|choice|move psyshock|move destinybond
+|
+|move|p2a: Froslass|Destiny Bond|p2a: Froslass
+|-singlemove|p2a: Froslass|Destiny Bond
+|move|p1a: Reuniclus|Psyshock|p2a: Froslass
+|-damage|p2a: Froslass|0 fnt
+|-start|p1a: Reuniclus|Disable|Psyshock|[from] ability: Cursed Body|[of] p2a: Froslass
+|faint|p2a: Froslass
+|-activate|p2a: Froslass|move: Destiny Bond
+|faint|p1a: Reuniclus
+|
+|upkeep
+|choice|switch 6|switch 5
+|
+|switch|p1a: Crobat|Crobat, M|100/100
+|switch|p2a: Porygon-Z|Porygon-Z|100/100
+|turn|11
+|choice|move bravebird|move icebeam
+|
+|move|p1a: Crobat|Brave Bird|p2a: Porygon-Z
+|-damage|p2a: Porygon-Z|0 fnt
+|-damage|p1a: Crobat|67/100|[from] recoil|[of] p2a: Porygon-Z
+|faint|p2a: Porygon-Z
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Donphan|Donphan, M|100/100
+|turn|12
+|choice|move bravebird|move iceshard
+|
+|move|p2a: Donphan|Ice Shard|p1a: Crobat
+|-supereffective|p1a: Crobat
+|-damage|p1a: Crobat|38/100
+|move|p1a: Crobat|Brave Bird|p2a: Donphan
+|-crit|p2a: Donphan
+|-damage|p2a: Donphan|39/100
+|-damage|p1a: Crobat|13/100|[from] recoil|[of] p2a: Donphan
+|
+|-heal|p2a: Donphan|45/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|choice|move bravebird|move iceshard
+|
+|move|p2a: Donphan|Ice Shard|p1a: Crobat
+|-supereffective|p1a: Crobat
+|-damage|p1a: Crobat|0 fnt
+|faint|p1a: Crobat
+|
+|-heal|p2a: Donphan|51/100|[from] item: Leftovers
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Honchkrow|Honchkrow, M|100/100
+|turn|14
+|choice|move suckerpunch|move iceshard
+|
+|move|p1a: Honchkrow|Sucker Punch|p2a: Donphan
+|-damage|p2a: Donphan|17/100
+|-damage|p1a: Honchkrow|91/100|[from] item: Life Orb
+|move|p2a: Donphan|Ice Shard|p1a: Honchkrow
+|-supereffective|p1a: Honchkrow
+|-crit|p1a: Honchkrow
+|-damage|p1a: Honchkrow|40/100
+|
+|-heal|p2a: Donphan|23/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|choice|move suckerpunch|move stealthrock
+|
+|move|p1a: Honchkrow|Sucker Punch|p2a: Donphan|[still]
+|-fail|p1a: Honchkrow
+|move|p2a: Donphan|Stealth Rock|p1a: Honchkrow
+|-sidestart|p1: cauterization|move: Stealth Rock
+|
+|-heal|p2a: Donphan|29/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|choice|move suckerpunch|move stealthrock
+|
+|move|p1a: Honchkrow|Sucker Punch|p2a: Donphan|[still]
+|-fail|p1a: Honchkrow
+|move|p2a: Donphan|Stealth Rock|p1a: Honchkrow
+|-fail|p1a: Honchkrow
+|
+|-heal|p2a: Donphan|35/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|choice|move suckerpunch|move iceshard
+|
+|move|p1a: Honchkrow|Sucker Punch|p2a: Donphan
+|-damage|p2a: Donphan|2/100
+|-damage|p1a: Honchkrow|30/100|[from] item: Life Orb
+|move|p2a: Donphan|Ice Shard|p1a: Honchkrow
+|-supereffective|p1a: Honchkrow
+|-damage|p1a: Honchkrow|0 fnt
+|faint|p1a: Honchkrow
+|
+|-heal|p2a: Donphan|8/100|[from] item: Leftovers
+|upkeep
+|-message|cauterization forfeited.
+|
+|win|Rio91
+|l|cauterization
+|raw|cauterization's rating: 1328 &rarr; <strong>1299</strong><br />(-29 for losing)
+|raw|Rio91's rating: 1156 &rarr; <strong>1193</strong><br />(+37 for winning)

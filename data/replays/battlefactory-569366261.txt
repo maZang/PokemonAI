@@ -1,0 +1,218 @@
+|j|dedic
+|j|wasco
+|player|p1|dedic|184
+|player|p2|wasco|5
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|17110,10261,58801,51774,25858,3042,5679,57071,53261,50639,10535,3230
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Cryogonal|item
+|poke|p1|Golduck, M|item
+|poke|p1|Armaldo, M|item
+|poke|p1|Kadabra, M|item
+|poke|p1|Electrode|item
+|poke|p1|Simisage, M|item
+|poke|p2|Armaldo, M|item
+|poke|p2|Gothitelle, M|item
+|poke|p2|Clefairy, M|item
+|poke|p2|Zebstrika, M|item
+|poke|p2|Monferno, M|item
+|poke|p2|Quilladin, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|c|☆wasco|kyurem was a cteam
+|J|Quiet Rock
+|c|☆wasco|u trippin
+|j|boostergoldz
+|c|☆wasco|armaldo ditto or no
+|l|boostergoldz
+|c|☆dedic|huh
+|choice|team 6, team 2, team 3, team 4, team 5, team 1|team 1, team 2, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Simisage|Simisage, M|100/100
+|switch|p2a: Armaldo|Armaldo, M|100/100
+|turn|1
+|c|☆wasco|lead armaldo
+|c|☆wasco|sigh
+|c|☆wasco|ofc
+|choice|move leafstorm|switch 5
+|
+|switch|p2a: Monferno|Monferno, M|100/100
+|move|p1a: Simisage|Leaf Storm|p2a: Monferno
+|-resisted|p2a: Monferno
+|-damage|p2a: Monferno|61/100
+|-unboost|p1a: Simisage|spa|2
+|-damage|p1a: Simisage|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|2
+|choice|move gunkshot|switch 2
+|
+|switch|p2a: Gothitelle|Gothitelle, M|100/100
+|move|p1a: Simisage|Gunk Shot|p2a: Gothitelle
+|-damage|p2a: Gothitelle|69/100
+|-status|p2a: Gothitelle|psn
+|-damage|p1a: Simisage|81/100|[from] item: Life Orb
+|
+|-heal|p2a: Gothitelle|75/100 psn|[from] item: Leftovers
+|-damage|p2a: Gothitelle|62/100 psn|[from] psn
+|upkeep
+|turn|3
+|c|☆dedic|?
+|c|☆wasco|no slide
+|c|☆wasco|ofc
+|choice|move knockoff|move psychic
+|
+|move|p1a: Simisage|Knock Off|p2a: Gothitelle
+|-supereffective|p2a: Gothitelle
+|-damage|p2a: Gothitelle|11/100 psn
+|-enditem|p2a: Gothitelle|Leftovers|[from] move: Knock Off|[of] p1a: Simisage
+|-damage|p1a: Simisage|71/100|[from] item: Life Orb
+|move|p2a: Gothitelle|Psychic|p1a: Simisage
+|-damage|p1a: Simisage|16/100
+|
+|-damage|p2a: Gothitelle|0 fnt|[from] psn
+|upkeep
+|faint|p2a: Gothitelle
+|c|☆dedic|slide isnt even se
+|choice||switch 2
+|
+|switch|p2a: Monferno|Monferno, M|61/100
+|turn|4
+|c|☆wasco|i meant
+|c|☆wasco|acro
+|c|☆wasco|my b
+|choice|move gunkshot|move machpunch
+|
+|move|p2a: Monferno|Mach Punch|p1a: Simisage
+|-damage|p1a: Simisage|0 fnt
+|faint|p1a: Simisage
+|
+|upkeep
+|c|☆dedic|mhm
+|c|☆wasco|l
+|choice|switch 4|
+|
+|switch|p1a: Kadabra|Kadabra, M|100/100
+|turn|5
+|choice|move psychic|switch 6
+|
+|switch|p2a: Quilladin|Quilladin, M|100/100
+|move|p1a: Kadabra|Psychic|p2a: Quilladin
+|-damage|p2a: Quilladin|50/100
+|
+|upkeep
+|turn|6
+|c|☆dedic|easiest win
+|c|☆dedic|in my life
+|c|☆wasco|cteam
+|c|☆wasco|i have no kadabra switch in
+|choice|move psychic|move woodhammer
+|
+|move|p1a: Kadabra|Psychic|p2a: Quilladin
+|-damage|p2a: Quilladin|4/100
+|move|p2a: Quilladin|Wood Hammer|p1a: Kadabra
+|-enditem|p1a: Kadabra|Focus Sash
+|-damage|p1a: Kadabra|1/100
+|-damage|p2a: Quilladin|0 fnt|[from] recoil|[of] p1a: Kadabra
+|faint|p2a: Quilladin
+|
+|upkeep
+|c|☆wasco|nvm
+|c|☆wasco|now i do
+|c|☆dedic|no u dont
+|choice||switch 4
+|
+|switch|p2a: Zebstrika|Zebstrika, M|100/100
+|turn|7
+|choice|switch 5|move voltswitch
+|
+|switch|p1a: Electrode|Electrode|100/100
+|move|p2a: Zebstrika|Volt Switch|p1a: Electrode
+|-resisted|p1a: Electrode
+|-damage|p1a: Electrode|74/100
+|-damage|p2a: Zebstrika|91/100|[from] item: Life Orb
+|choice||switch 3
+|
+|switch|p2a: Clefairy|Clefairy, M|100/100
+|
+|upkeep
+|turn|8
+|choice|move voltswitch|move calmmind
+|
+|move|p1a: Electrode|Volt Switch|p2a: Clefairy
+|-damage|p2a: Clefairy|66/100
+|-damage|p1a: Electrode|64/100|[from] item: Life Orb
+|choice|switch 5|
+|
+|switch|p1a: Kadabra|Kadabra, M|1/100
+|move|p2a: Clefairy|Calm Mind|p2a: Clefairy
+|-boost|p2a: Clefairy|spa|1
+|-boost|p2a: Clefairy|spd|1
+|
+|upkeep
+|turn|9
+|c|☆dedic|lmfao
+|choice|move encore|move softboiled
+|
+|move|p1a: Kadabra|Encore|p2a: Clefairy
+|-start|p2a: Clefairy|Encore
+|move|p2a: Clefairy|Calm Mind|p2a: Clefairy
+|-boost|p2a: Clefairy|spa|1
+|-boost|p2a: Clefairy|spd|1
+|
+|upkeep
+|turn|10
+|c|☆wasco|sigh.
+|c|☆wasco|cteamed.
+|choice|move psychic|move calmmind
+|
+|move|p1a: Kadabra|Psychic|p2a: Clefairy
+|-crit|p2a: Clefairy
+|-damage|p2a: Clefairy|0 fnt
+|faint|p2a: Clefairy
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Monferno|Monferno, M|61/100
+|turn|11
+|choice|switch 6|move closecombat
+|
+|switch|p1a: Cryogonal|Cryogonal|100/100
+|move|p2a: Monferno|Close Combat|p1a: Cryogonal
+|-supereffective|p1a: Cryogonal
+|-damage|p1a: Cryogonal|0 fnt
+|-unboost|p2a: Monferno|def|1
+|-unboost|p2a: Monferno|spd|1
+|faint|p1a: Cryogonal
+|
+|upkeep
+|c|☆dedic|:/
+|c|☆wasco|?
+|choice|switch 5|
+|
+|switch|p1a: Electrode|Electrode|64/100
+|turn|12
+|choice|move signalbeam|switch 3
+|
+|switch|p2a: Zebstrika|Zebstrika, M|91/100
+|move|p1a: Electrode|Signal Beam|p2a: Zebstrika
+|-damage|p2a: Zebstrika|44/100
+|-start|p2a: Zebstrika|confusion
+|-damage|p1a: Electrode|54/100|[from] item: Life Orb
+|
+|upkeep
+|turn|13
+|c|☆dedic|nigga
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by dedic)
+|l|wasco
+|player|p2|
+|j|Ridaz
+|-message|wasco lost due to inactivity.
+|
+|win|dedic

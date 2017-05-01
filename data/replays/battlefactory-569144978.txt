@@ -1,0 +1,221 @@
+|j|Astraemanea
+|j|arceus1117
+|player|p1|Astraemanea|265
+|player|p2|arceus1117|99
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|15104,135,13540,35777,2785,11488,46372,35392,22950,39038,59959,62177
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Avalugg, M|item
+|poke|p1|Stoutland, M|item
+|poke|p1|Dusknoir, M|item
+|poke|p1|Floatzel, M|item
+|poke|p1|Chatot, M|item
+|poke|p1|Rampardos, M|item
+|poke|p2|Electrode|item
+|poke|p2|Floatzel, M|item
+|poke|p2|Mr. Mime, M|item
+|poke|p2|Rampardos, M|item
+|poke|p2|Gourgeist-*, M|item
+|poke|p2|Vibrava, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 5, team 2, team 3, team 4, team 1, team 6|team 2, team 1, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Chatot|Chatot, M|100/100
+|switch|p2a: Floatzel|Floatzel, M|100/100
+|turn|1
+|choice|move boomburst|move icebeam
+|
+|move|p2a: Floatzel|Ice Beam|p1a: Chatot
+|-supereffective|p1a: Chatot
+|-damage|p1a: Chatot|0 fnt
+|faint|p1a: Chatot
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Stoutland|Stoutland, M|100/100
+|turn|2
+|choice|move return|switch 5
+|
+|switch|p2a: Gourgeist|Gourgeist-Super, M|100/100
+|-item|p1a: Stoutland|Choice Band|[from] ability: Frisk|[of] p2a: Gourgeist|[identify]
+|move|p1a: Stoutland|Return|p2a: Gourgeist
+|-damage|p2a: Gourgeist|55/100
+|
+|-heal|p2a: Gourgeist|62/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|choice|switch 4|move willowisp
+|
+|switch|p1a: Floatzel|Floatzel, M|100/100
+|move|p2a: Gourgeist|Will-O-Wisp|p1a: Floatzel
+|-immune|p1a: Floatzel|[msg]|[from] ability: Water Veil
+|
+|-heal|p2a: Gourgeist|68/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|choice|move icebeam|move seedbomb
+|
+|move|p1a: Floatzel|Ice Beam|p2a: Gourgeist
+|-supereffective|p2a: Gourgeist
+|-damage|p2a: Gourgeist|0 fnt
+|-damage|p1a: Floatzel|91/100|[from] item: Life Orb
+|faint|p2a: Gourgeist
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Electrode|Electrode|100/100
+|turn|5
+|choice|switch 3|move voltswitch
+|
+|switch|p1a: Dusknoir|Dusknoir, M|100/100
+|-item|p2a: Electrode|Life Orb|[from] ability: Frisk|[of] p1a: Dusknoir|[identify]
+|move|p2a: Electrode|Volt Switch|p1a: Dusknoir
+|-damage|p1a: Dusknoir|68/100
+|-damage|p2a: Electrode|91/100|[from] item: Life Orb
+|choice||switch 4
+|
+|switch|p2a: Rampardos|Rampardos, M|100/100
+|-ability|p2a: Rampardos|Mold Breaker
+|
+|upkeep
+|turn|6
+|choice|switch 6|move stealthrock
+|
+|switch|p1a: Rampardos|Rampardos, M|100/100
+|-ability|p1a: Rampardos|Mold Breaker
+|move|p2a: Rampardos|Stealth Rock|p1a: Rampardos
+|-sidestart|p1: Astraemanea|move: Stealth Rock
+|
+|upkeep
+|turn|7
+|choice|move surf|move surf
+|
+|move|p2a: Rampardos|Surf|p1a: Rampardos
+|-supereffective|p1a: Rampardos
+|-damage|p1a: Rampardos|39/100
+|move|p1a: Rampardos|Surf|p2a: Rampardos
+|-supereffective|p2a: Rampardos
+|-crit|p2a: Rampardos
+|-enditem|p2a: Rampardos|Focus Sash
+|-damage|p2a: Rampardos|1/100
+|
+|upkeep
+|turn|8
+|choice|move surf|move surf
+|
+|move|p2a: Rampardos|Surf|p1a: Rampardos
+|-supereffective|p1a: Rampardos
+|-damage|p1a: Rampardos|0 fnt
+|faint|p1a: Rampardos
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Dusknoir|Dusknoir, M|68/100
+|-damage|p1a: Dusknoir|56/100|[from] Stealth Rock
+|turn|9
+|choice|move shadowsneak|move headsmash
+|
+|move|p1a: Dusknoir|Shadow Sneak|p2a: Rampardos
+|-damage|p2a: Rampardos|0 fnt
+|faint|p2a: Rampardos
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Floatzel|Floatzel, M|100/100
+|turn|10
+|choice|move thunderpunch|move switcheroo
+|
+|move|p2a: Floatzel|Switcheroo|p1a: Dusknoir
+|-activate|p2a: Floatzel|move: Trick|[of] p1a: Dusknoir
+|-item|p1a: Dusknoir|Choice Scarf|[from] move: Switcheroo
+|-item|p2a: Floatzel|Spell Tag|[from] move: Switcheroo
+|move|p1a: Dusknoir|Thunder Punch|p2a: Floatzel
+|-supereffective|p2a: Floatzel
+|-damage|p2a: Floatzel|12/100
+|
+|upkeep
+|turn|11
+|choice|move thunderpunch|move hydropump
+|
+|move|p2a: Floatzel|Hydro Pump|p1a: Dusknoir
+|-damage|p1a: Dusknoir|14/100
+|move|p1a: Dusknoir|Thunder Punch|p2a: Floatzel
+|-supereffective|p2a: Floatzel
+|-damage|p2a: Floatzel|0 fnt
+|faint|p2a: Floatzel
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Electrode|Electrode|91/100
+|turn|12
+|choice|move thunderpunch|move voltswitch
+|
+|move|p2a: Electrode|Volt Switch|p1a: Dusknoir
+|-damage|p1a: Dusknoir|0 fnt
+|-damage|p2a: Electrode|81/100|[from] item: Life Orb
+|faint|p1a: Dusknoir
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Astraemanea)
+|choice||switch 3
+|
+|switch|p2a: Mr. Mime|Mr. Mime, M|100/100
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Floatzel|Floatzel, M|91/100
+|-damage|p1a: Floatzel|78/100|[from] Stealth Rock
+|turn|13
+|choice|move hydropump|move psychic
+|
+|move|p1a: Floatzel|Hydro Pump|p2a: Mr. Mime
+|-damage|p2a: Mr. Mime|25/100
+|-damage|p1a: Floatzel|68/100|[from] item: Life Orb
+|move|p2a: Mr. Mime|Psychic|p1a: Floatzel
+|-damage|p1a: Floatzel|0 fnt
+|-damage|p2a: Mr. Mime|16/100|[from] item: Life Orb
+|faint|p1a: Floatzel
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Stoutland|Stoutland, M|100/100
+|-damage|p1a: Stoutland|88/100|[from] Stealth Rock
+|turn|14
+|choice|move return|move focusblast
+|
+|move|p2a: Mr. Mime|Focus Blast|p1a: Stoutland
+|-supereffective|p1a: Stoutland
+|-damage|p1a: Stoutland|0 fnt
+|-damage|p2a: Mr. Mime|6/100|[from] item: Life Orb
+|faint|p1a: Stoutland
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Avalugg|Avalugg, M|100/100
+|-damage|p1a: Avalugg|76/100|[from] Stealth Rock
+|turn|15
+|choice|move recover|move focusblast
+|
+|move|p2a: Mr. Mime|Focus Blast|p1a: Avalugg
+|-supereffective|p1a: Avalugg
+|-crit|p1a: Avalugg
+|-damage|p1a: Avalugg|0 fnt
+|-damage|p2a: Mr. Mime|0 fnt|[from] item: Life Orb
+|faint|p1a: Avalugg
+|faint|p2a: Mr. Mime
+|
+|win|arceus1117
+|c|☆arceus1117|gg

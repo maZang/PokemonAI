@@ -1,0 +1,219 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|J|Dokkerich
+|J|T be Stuntin
+|player|p1|Dokkerich|37
+|player|p2|T be Stuntin|112
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|40385,48946,39068,20575,45290,4380,49199,21994,14396,29376,35554,52844
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Torterra, M|item
+|poke|p1|Basculin, M|item
+|poke|p1|Hitmonchan, M|item
+|poke|p1|Pyroar, M|item
+|poke|p1|Dodrio, M|item
+|poke|p1|Charizard, M|item
+|poke|p2|Mismagius, M|item
+|poke|p2|Archeops, M|
+|poke|p2|Carracosta, M|item
+|poke|p2|Musharna, M|item
+|poke|p2|Torterra, M|item
+|poke|p2|Dodrio, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|J|ayevon
+|choice|team 5, team 2, team 3, team 4, team 1, team 6|team 5, team 2, team 3, team 4, team 1, team 6
+|
+|start
+|switch|p1a: Dodrio|Dodrio, M|100/100
+|switch|p2a: Torterra|Torterra, M|100/100
+|turn|1
+|choice|move bravebird|switch 3
+|
+|switch|p2a: Carracosta|Carracosta, M|100/100
+|move|p1a: Dodrio|Brave Bird|p2a: Carracosta
+|-resisted|p2a: Carracosta
+|-damage|p2a: Carracosta|76/100
+|-damage|p1a: Dodrio|89/100|[from] recoil|[of] p2a: Carracosta
+|
+|-heal|p2a: Carracosta|82/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|choice|switch 5|move stealthrock
+|
+|switch|p1a: Torterra|Torterra, M|100/100
+|move|p2a: Carracosta|Stealth Rock|p1a: Torterra
+|-sidestart|p1: Dokkerich|move: Stealth Rock
+|
+|-heal|p2a: Carracosta|88/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|choice|move woodhammer|move scald
+|
+|move|p1a: Torterra|Wood Hammer|p2a: Carracosta
+|-supereffective|p2a: Carracosta
+|-damage|p2a: Carracosta|0 fnt
+|-damage|p1a: Torterra|75/100|[from] recoil|[of] p2a: Carracosta
+|faint|p2a: Carracosta
+|
+|-heal|p1a: Torterra|81/100|[from] item: Leftovers
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Archeops|Archeops, M|100/100
+|turn|4
+|choice|move woodhammer|move acrobatics
+|
+|move|p2a: Archeops|Acrobatics|p1a: Torterra
+|-supereffective|p1a: Torterra
+|-damage|p1a: Torterra|3/100
+|move|p1a: Torterra|Wood Hammer|p2a: Archeops
+|-damage|p2a: Archeops|0 fnt
+|-damage|p1a: Torterra|0 fnt|[from] recoil|[of] p2a: Archeops
+|faint|p2a: Archeops
+|faint|p1a: Torterra
+|
+|upkeep
+|choice|switch 3|switch 6
+|
+|switch|p2a: Dodrio|Dodrio, M|100/100
+|switch|p1a: Hitmonchan|Hitmonchan, M|100/100
+|-damage|p1a: Hitmonchan|94/100|[from] Stealth Rock
+|turn|5
+|choice|move rapidspin|move bravebird
+|
+|move|p2a: Dodrio|Brave Bird|p1a: Hitmonchan
+|-supereffective|p1a: Hitmonchan
+|-damage|p1a: Hitmonchan|0 fnt
+|-damage|p2a: Dodrio|72/100|[from] recoil|[of] p1a: Hitmonchan
+|faint|p1a: Hitmonchan
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Dodrio|Dodrio, M|89/100
+|-damage|p1a: Dodrio|64/100|[from] Stealth Rock
+|turn|6
+|choice|move bravebird|switch 5
+|
+|switch|p2a: Mismagius|Mismagius, M|100/100
+|move|p1a: Dodrio|Brave Bird|p2a: Mismagius
+|-damage|p2a: Mismagius|0 fnt
+|-damage|p1a: Dodrio|23/100|[from] recoil|[of] p2a: Mismagius
+|faint|p2a: Mismagius
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Dodrio|Dodrio, M|72/100
+|turn|7
+|choice|move bravebird|move quickattack
+|
+|move|p2a: Dodrio|Quick Attack|p1a: Dodrio
+|-damage|p1a: Dodrio|0 fnt
+|faint|p1a: Dodrio
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Basculin|Basculin, M|100/100
+|-damage|p1a: Basculin|88/100|[from] Stealth Rock
+|turn|8
+|choice|move waterfall|switch 3
+|
+|switch|p2a: Torterra|Torterra, M|100/100
+|move|p1a: Basculin|Waterfall|p2a: Torterra
+|-damage|p2a: Torterra|37/100
+|
+|upkeep
+|turn|9
+|J|CursedStar
+|choice|move waterfall|move woodhammer
+|
+|move|p1a: Basculin|Waterfall|p2a: Torterra
+|-damage|p2a: Torterra|0 fnt
+|faint|p2a: Torterra
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Dodrio|Dodrio, M|72/100
+|turn|10
+|choice|switch 6|move bravebird
+|
+|switch|p1a: Charizard|Charizard, M|100/100
+|-damage|p1a: Charizard|51/100|[from] Stealth Rock
+|move|p2a: Dodrio|Brave Bird|p1a: Charizard
+|-damage|p1a: Charizard|0 fnt
+|-damage|p2a: Dodrio|53/100|[from] recoil|[of] p1a: Charizard
+|faint|p1a: Charizard
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Basculin|Basculin, M|88/100
+|-damage|p1a: Basculin|76/100|[from] Stealth Rock
+|turn|11
+|choice|move aquajet|switch 4
+|
+|switch|p2a: Musharna|Musharna, M|100/100
+|move|p1a: Basculin|Aqua Jet|p2a: Musharna
+|-damage|p2a: Musharna|78/100
+|
+|-heal|p2a: Musharna|85/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|choice|switch 4|move calmmind
+|
+|switch|p1a: Pyroar|Pyroar, M|100/100
+|-ability|p1a: Pyroar|Unnerve|p2: T be Stuntin
+|-damage|p1a: Pyroar|76/100|[from] Stealth Rock
+|move|p2a: Musharna|Calm Mind|p2a: Musharna
+|-boost|p2a: Musharna|spa|1
+|-boost|p2a: Musharna|spd|1
+|
+|-heal|p2a: Musharna|91/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|choice|move willowisp|move psyshock
+|
+|move|p1a: Pyroar|Will-O-Wisp|p2a: Musharna
+|-status|p2a: Musharna|brn
+|-activate|p2a: Musharna|ability: Synchronize
+|-immune|p1a: Pyroar|[msg]
+|move|p2a: Musharna|Psyshock|p1a: Pyroar
+|-damage|p1a: Pyroar|19/100
+|
+|-heal|p2a: Musharna|97/100 brn|[from] item: Leftovers
+|-damage|p2a: Musharna|85/100 brn|[from] brn
+|upkeep
+|turn|14
+|choice|move fireblast|move psyshock
+|
+|move|p1a: Pyroar|Fire Blast|p2a: Musharna
+|-damage|p2a: Musharna|48/100 brn
+|-damage|p1a: Pyroar|9/100|[from] item: Life Orb
+|move|p2a: Musharna|Psyshock|p1a: Pyroar
+|-damage|p1a: Pyroar|0 fnt
+|faint|p1a: Pyroar
+|
+|-heal|p2a: Musharna|54/100 brn|[from] item: Leftovers
+|-damage|p2a: Musharna|41/100 brn|[from] brn
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Basculin|Basculin, M|76/100
+|-damage|p1a: Basculin|63/100|[from] Stealth Rock
+|turn|15
+|choice|move aquajet|move psyshock
+|
+|move|p1a: Basculin|Aqua Jet|p2a: Musharna
+|-damage|p2a: Musharna|20/100 brn
+|move|p2a: Musharna|Psyshock|p1a: Basculin
+|-damage|p1a: Basculin|0 fnt
+|faint|p1a: Basculin
+|
+|win|T be Stuntin

@@ -1,0 +1,175 @@
+|j|Retikai
+|j|Juicy Despair
+|player|p1|Retikai|1
+|player|p2|Juicy Despair|285
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|15033,8757,49586,54626,8230,23199,12870,39340,20880,56637,39583,24429
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Volcarona, M|item
+|poke|p1|Excadrill, M|item
+|poke|p1|Tornadus-Therian, M|item
+|poke|p1|Breloom, M|item
+|poke|p1|Scizor, M|item
+|poke|p1|Gardevoir, M|item
+|poke|p2|Ferrothorn, M|item
+|poke|p2|Conkeldurr, M|item
+|poke|p2|Sableye, M|item
+|poke|p2|Heracross, M|item
+|poke|p2|Mandibuzz, F|item
+|poke|p2|Togekiss, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 5, team 2, team 3, team 4, team 1, team 6|team 1, team 2, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Scizor|Scizor, M|100/100
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|turn|1
+|choice|move superpower|move stealthrock
+|
+|move|p1a: Scizor|Superpower|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|14/100
+|-damage|p1a: Scizor|88/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-unboost|p1a: Scizor|atk|1
+|-unboost|p1a: Scizor|def|1
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Scizor
+|-sidestart|p1: Retikai|move: Stealth Rock
+|
+|-heal|p2a: Ferrothorn|20/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|choice|switch 4|switch 3
+|
+|switch|p1a: Breloom|Breloom, M|100/100
+|-damage|p1a: Breloom|94/100|[from] Stealth Rock
+|switch|p2a: Sableye|Sableye, M|100/100
+|
+|upkeep
+|turn|3
+|choice|move spore|move willowisp mega
+|
+|detailschange|p2a: Sableye|Sableye-Mega, M
+|-mega|p2a: Sableye|Sableye|Sablenite
+|move|p2a: Sableye|Will-O-Wisp|p1a: Breloom
+|-status|p1a: Breloom|brn
+|move|p1a: Breloom|Spore|p2a: Sableye
+|move|p2a: Sableye|Spore|p1a: Breloom|[from]Magic Bounce
+|-immune|p1a: Breloom|[msg]
+|
+|-damage|p1a: Breloom|82/100 brn|[from] brn
+|upkeep
+|turn|4
+|choice|move swordsdance|move calmmind
+|
+|move|p1a: Breloom|Swords Dance|p1a: Breloom
+|-boost|p1a: Breloom|atk|2
+|move|p2a: Sableye|Calm Mind|p2a: Sableye
+|-boost|p2a: Sableye|spa|1
+|-boost|p2a: Sableye|spd|1
+|
+|-damage|p1a: Breloom|70/100 brn|[from] brn
+|upkeep
+|turn|5
+|choice|move swordsdance|move shadowball
+|
+|move|p1a: Breloom|Swords Dance|p1a: Breloom
+|-boost|p1a: Breloom|atk|2
+|move|p2a: Sableye|Shadow Ball|p1a: Breloom
+|-damage|p1a: Breloom|0 fnt
+|faint|p1a: Breloom
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Gardevoir|Gardevoir, M|100/100
+|-damage|p1a: Gardevoir|88/100|[from] Stealth Rock
+|-ability|p1a: Gardevoir|Magic Bounce|[from] ability: Trace|[of] p2a: Sableye
+|turn|6
+|choice|move calmmind mega|move shadowball
+|
+|detailschange|p1a: Gardevoir|Gardevoir-Mega, M
+|-mega|p1a: Gardevoir|Gardevoir|Gardevoirite
+|move|p1a: Gardevoir|Calm Mind|p1a: Gardevoir
+|-boost|p1a: Gardevoir|spa|1
+|-boost|p1a: Gardevoir|spd|1
+|move|p2a: Sableye|Shadow Ball|p1a: Gardevoir
+|-supereffective|p1a: Gardevoir
+|-damage|p1a: Gardevoir|44/100
+|
+|upkeep
+|turn|7
+|choice|move hypervoice|move shadowball
+|
+|move|p1a: Gardevoir|Hyper Voice|p2a: Sableye
+|-supereffective|p2a: Sableye
+|-crit|p2a: Sableye
+|-damage|p2a: Sableye|0 fnt
+|faint|p2a: Sableye
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Togekiss|Togekiss, M|100/100
+|turn|8
+|choice|move hypervoice|move airslash
+|
+|move|p1a: Gardevoir|Hyper Voice|p2a: Togekiss
+|-crit|p2a: Togekiss
+|-damage|p2a: Togekiss|0 fnt
+|faint|p2a: Togekiss
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Conkeldurr|Conkeldurr, M|100/100
+|turn|9
+|choice|move hypervoice|move poisonjab
+|
+|move|p1a: Gardevoir|Hyper Voice|p2a: Conkeldurr
+|-supereffective|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|0 fnt
+|faint|p2a: Conkeldurr
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Heracross|Heracross, M|100/100
+|turn|10
+|choice|move hypervoice|move facade
+|
+|move|p1a: Gardevoir|Hyper Voice|p2a: Heracross
+|-supereffective|p2a: Heracross
+|-damage|p2a: Heracross|0 fnt
+|faint|p2a: Heracross
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100
+|turn|11
+|choice|move hypervoice|move foulplay
+|
+|move|p1a: Gardevoir|Hyper Voice|p2a: Mandibuzz
+|-supereffective|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|0 fnt
+|faint|p2a: Mandibuzz
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|20/100
+|turn|12
+|choice|move focusblast|move gyroball
+|
+|move|p1a: Gardevoir|Focus Blast|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|faint|p2a: Ferrothorn
+|
+|win|Retikai
+|l|Juicy Despair

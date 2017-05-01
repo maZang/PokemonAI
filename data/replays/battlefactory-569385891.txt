@@ -1,0 +1,257 @@
+|j|Rata squik
+|j|inzanity02
+|player|p1|Rata squik|101
+|player|p2|inzanity02|265
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|36411,45066,61177,62556,38922,22036,54699,50897,20742,21573,5004,2416
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Houndoom, M|item
+|poke|p1|Hydreigon, M|item
+|poke|p1|Cloyster, M|item
+|poke|p1|Gligar, M|item
+|poke|p1|Empoleon, M|item
+|poke|p1|Chandelure, M|item
+|poke|p2|Infernape, M|item
+|poke|p2|Kyurem|item
+|poke|p2|Aggron, M|item
+|poke|p2|Zoroark, M|item
+|poke|p2|Cloyster, M|item
+|poke|p2|Crobat, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Rata squik)
+|choice|team 5, team 2, team 3, team 4, team 1, team 6|team 4, team 1, team 3, team 2, team 6, team 5
+|
+|start
+|switch|p1a: Empoleon|Empoleon, M|100/100
+|switch|p2a: Cloyster|Cloyster, M|100/100
+|turn|1
+|choice|move grassknot|move focusblast
+|
+|move|p2a: Cloyster|Focus Blast|p1a: Empoleon|[miss]
+|-miss|p2a: Cloyster|p1a: Empoleon
+|move|p1a: Empoleon|Grass Knot|p2a: Cloyster
+|replace|p2a: Zoroark|Zoroark, M
+|-end|p2a: Zoroark|Illusion
+|-damage|p2a: Zoroark|23/100
+|
+|upkeep
+|turn|2
+|choice|move grassknot|move focusblast
+|
+|move|p2a: Zoroark|Focus Blast|p1a: Empoleon|[miss]
+|-miss|p2a: Zoroark|p1a: Empoleon
+|move|p1a: Empoleon|Grass Knot|p2a: Zoroark
+|-damage|p2a: Zoroark|0 fnt
+|faint|p2a: Zoroark
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Infernape|Infernape, M|100/100
+|turn|3
+|choice|move grassknot|move fakeout
+|
+|move|p2a: Infernape|Fake Out|p1a: Empoleon
+|-resisted|p1a: Empoleon
+|-damage|p1a: Empoleon|95/100
+|cant|p1a: Empoleon|flinch
+|
+|upkeep
+|turn|4
+|choice|move grassknot|move closecombat
+|
+|move|p2a: Infernape|Close Combat|p1a: Empoleon
+|-supereffective|p1a: Empoleon
+|-damage|p1a: Empoleon|0 fnt
+|-unboost|p2a: Infernape|def|1
+|-unboost|p2a: Infernape|spd|1
+|faint|p1a: Empoleon
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Cloyster|Cloyster, M|100/100
+|turn|5
+|choice|move spikes|move closecombat
+|
+|move|p2a: Infernape|Close Combat|p1a: Cloyster
+|-supereffective|p1a: Cloyster
+|-damage|p1a: Cloyster|10/100
+|-unboost|p2a: Infernape|def|1
+|-unboost|p2a: Infernape|spd|1
+|move|p1a: Cloyster|Spikes|p2a: Infernape
+|-sidestart|p2: inzanity02|Spikes
+|
+|upkeep
+|turn|6
+|choice|move explosion|move closecombat
+|
+|move|p2a: Infernape|Close Combat|p1a: Cloyster
+|-supereffective|p1a: Cloyster
+|-damage|p1a: Cloyster|0 fnt
+|-unboost|p2a: Infernape|def|1
+|-unboost|p2a: Infernape|spd|1
+|faint|p1a: Cloyster
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Gligar|Gligar, M|100/100
+|turn|7
+|choice|move earthquake|move overheat
+|
+|move|p2a: Infernape|Overheat|p1a: Gligar
+|-crit|p1a: Gligar
+|-damage|p1a: Gligar|39/100
+|-unboost|p2a: Infernape|spa|2
+|move|p1a: Gligar|Earthquake|p2a: Infernape
+|-supereffective|p2a: Infernape
+|-enditem|p2a: Infernape|Focus Sash
+|-damage|p2a: Infernape|1/100
+|
+|upkeep
+|turn|8
+|choice|move earthquake|move closecombat
+|
+|move|p2a: Infernape|Close Combat|p1a: Gligar
+|-resisted|p1a: Gligar
+|-damage|p1a: Gligar|27/100
+|-unboost|p2a: Infernape|def|1
+|-unboost|p2a: Infernape|spd|1
+|move|p1a: Gligar|Earthquake|p2a: Infernape
+|-supereffective|p2a: Infernape
+|-damage|p2a: Infernape|0 fnt
+|faint|p2a: Infernape
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Cloyster|Cloyster, M|100/100
+|-damage|p2a: Cloyster|88/100|[from] Spikes
+|turn|9
+|choice|move stealthrock|move iciclespear
+|
+|move|p2a: Cloyster|Icicle Spear|p1a: Gligar
+|-supereffective|p1a: Gligar
+|-damage|p1a: Gligar|5/100
+|-supereffective|p1a: Gligar
+|-damage|p1a: Gligar|0 fnt
+|-hitcount|p1a: Gligar|2
+|faint|p1a: Gligar
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Chandelure|Chandelure, M|100/100
+|turn|10
+|choice|move flamethrower|move spikes
+|
+|move|p1a: Chandelure|Flamethrower|p2a: Cloyster
+|-damage|p2a: Cloyster|0 fnt
+|faint|p2a: Cloyster
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Aggron|Aggron, M|100/100
+|-damage|p2a: Aggron|88/100|[from] Spikes
+|turn|11
+|choice|move flamethrower|move earthquake mega
+|
+|detailschange|p2a: Aggron|Aggron-Mega, M
+|-mega|p2a: Aggron|Aggron|Aggronite
+|move|p1a: Chandelure|Flamethrower|p2a: Aggron
+|-supereffective|p2a: Aggron
+|-damage|p2a: Aggron|21/100
+|move|p2a: Aggron|Earthquake|p1a: Chandelure
+|-supereffective|p1a: Chandelure
+|-damage|p1a: Chandelure|20/100
+|
+|-heal|p1a: Chandelure|26/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|choice|move flamethrower|move rest
+|
+|move|p1a: Chandelure|Flamethrower|p2a: Aggron
+|-supereffective|p2a: Aggron
+|-damage|p2a: Aggron|0 fnt
+|faint|p2a: Aggron
+|
+|-heal|p1a: Chandelure|32/100|[from] item: Leftovers
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Crobat|Crobat, M|100/100
+|turn|13
+|choice|move substitute|move bravebird
+|
+|move|p2a: Crobat|Brave Bird|p1a: Chandelure
+|-damage|p1a: Chandelure|0 fnt
+|-damage|p2a: Crobat|91/100|[from] recoil|[of] p1a: Chandelure
+|faint|p1a: Chandelure
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Hydreigon|Hydreigon, M|100/100
+|turn|14
+|choice|move dracometeor|move bravebird
+|
+|move|p2a: Crobat|Brave Bird|p1a: Hydreigon
+|-damage|p1a: Hydreigon|18/100
+|-damage|p2a: Crobat|63/100|[from] recoil|[of] p1a: Hydreigon
+|move|p1a: Hydreigon|Draco Meteor|p2a: Crobat
+|-damage|p2a: Crobat|0 fnt
+|-unboost|p1a: Hydreigon|spa|2
+|-damage|p1a: Hydreigon|8/100|[from] item: Life Orb
+|faint|p2a: Crobat
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Kyurem|Kyurem|100/100
+|-damage|p2a: Kyurem|88/100|[from] Spikes
+|-ability|p2a: Kyurem|Pressure
+|turn|15
+|choice|move dracometeor|move icebeam
+|
+|move|p2a: Kyurem|Ice Beam|p1a: Hydreigon
+|-supereffective|p1a: Hydreigon
+|-damage|p1a: Hydreigon|0 fnt
+|faint|p1a: Hydreigon
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Houndoom|Houndoom, M|100/100
+|turn|16
+|choice|move fireblast mega|move icebeam
+|
+|detailschange|p1a: Houndoom|Houndoom-Mega, M
+|-mega|p1a: Houndoom|Houndoom|Houndoominite
+|move|p2a: Kyurem|Ice Beam|p1a: Houndoom
+|-resisted|p1a: Houndoom
+|-damage|p1a: Houndoom|72/100
+|move|p1a: Houndoom|Fire Blast|p2a: Kyurem
+|-damage|p2a: Kyurem|26/100
+|
+|upkeep
+|turn|17
+|choice|move fireblast|move icebeam
+|
+|move|p2a: Kyurem|Ice Beam|p1a: Houndoom
+|-resisted|p1a: Houndoom
+|-damage|p1a: Houndoom|42/100
+|move|p1a: Houndoom|Fire Blast|p2a: Kyurem
+|-damage|p2a: Kyurem|0 fnt
+|faint|p2a: Kyurem
+|
+|win|Rata squik
+|raw|Rata squik's rating: 1106 &rarr; <strong>1123</strong><br />(+17 for winning)
+|raw|inzanity02's rating: 1000 &rarr; <strong>1000</strong><br />(+0 for losing)
