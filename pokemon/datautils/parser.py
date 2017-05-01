@@ -102,6 +102,8 @@ class PokemonShowdownEncoding(object):
 
 				self.labels[turnNumber][actionID] = 1
 
+		if any(sum(row) != 1 for row in self.labels):
+			raise Exception("Labels {} had a non-one row".format(self.labels))
 
 class PokemonShowdownReplayParser(object):
 	def __init__(self, log="", winner = ""):
@@ -160,13 +162,24 @@ class PokemonShowdownReplayParser(object):
 		Parses the log file line by line.
 		'''
 		lines = self.log.split('\n')
+
+		# First parse the players
 		for line in lines:
 			if line.startswith("|player|"):
 				self.processPlayer(line)
-			elif line.startswith("|poke|"):
-				self.processPoke(line)
-			elif line.startswith("|win|"):
+				if "|p2|" in line:
+					break
+
+		# Then parse the winner
+		for line in reversed(lines):
+			if line.startswith("|win|"):
 				self.processWinner(line)
+				break
+
+		# Finally parse the rest of the lines
+		for line in lines:
+			if line.startswith("|poke|"):
+				self.processPoke(line)
 			elif line.startswith("|turn|"):
 				self.processTurn(line)
 			elif line.startswith("|move|"):
@@ -535,13 +548,14 @@ class PokemonShowdownReplayParser(object):
 		pokemon = self.players[player].getPokemonByNickname(nickname)
 		pokemon.item = megastone
 
-		# Append to turn object list
-		turn = Turn(turnNumber=self.turnNumber, player=player, action="mega", pokemon=pokemon)
-		self.turnList[self.turnNumber].append(turn)
+		# Append to turn object list if the winner mega'd
+		if self.winner == player:
+			turn = Turn(turnNumber=self.turnNumber, player=player, action="mega", pokemon=pokemon)
+			self.turnList[self.turnNumber].append(turn)
 
-		# Mega is its own turn, so push another turn on the list
-		self.turnNumber = self.turnNumber + 1
-		self.turnList[self.turnNumber] = []
+			# Mega is its own turn, so push another turn on the list
+			self.turnNumber = self.turnNumber + 1
+			self.turnList[self.turnNumber] = []
 
 	def processDetailsChange(self, line):
 		matches = re.search("\|detailschange\|(p[12])a:\s+([^|]+)\|([^\n]+)", line).groups()
