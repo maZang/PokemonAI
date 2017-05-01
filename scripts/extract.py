@@ -28,14 +28,18 @@ for tier in data:
 				if 'ite' in set['item'][-3:] and set['item'] != 'Eviolite':
 					pokemon.add(set['species'] + '-Mega')
 				if 'ite X' in set['item'][-5:] or 'ite Y' in set['item'][-5:]:
-					pokemon.add(set['species'] + '-MegaX')
-					pokemon.add(set['species'] + '-MegaY')
+					pokemon.add(set['species'] + '-Mega-X')
+					pokemon.add(set['species'] + '-Mega-Y')
 				items.add(set['item'])
 			if 'moves' in set:
 				for move in set['moves']:
 					moves.add(move[0])
+
+pokemon.add(u'Groudon-Primal')
+pokemon.add(u'Kyogre-Primal')
 pokemon_dict = {poke:(i+1) for i,poke in enumerate(pokemon)}
 pokemon_dict['<UNK>'] = 0
+moves.add(u'Ancient Power')
 move_dict = {move:(i+1+len(pokemon_dict)) for i,move in enumerate(moves)}
 move_dict['<UNK>'] = len(pokemon_dict)
 item_dict = {item:(i+1+len(pokemon_dict)+len(move_dict)) for i,item in enumerate(items)}
