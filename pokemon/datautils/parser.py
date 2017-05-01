@@ -41,7 +41,47 @@ class PokemonShowdownEncoding(object):
 			pickle.dump(self, f)
 
 	def encodePokemonObject(self, pokemon):
-		pass
+		'''
+		Encodes a pokemon object. Fills in any unknown moves/items with an unknown token.
+
+		Input: Pokemon object
+		Output: Pokemon encoding object with shape (1, POKE_DESCRIPTOR_SIZE)
+		'''
+		pokemon_encoding = np.zeros((1, POKE_DESCRIPTOR_SIZE))
+
+		pokemon_id = POKEMON_LIST[pokemon.species]
+
+		move_ids = []
+
+		# Encodes pokemon item
+		if pokemon.item in ITEM_LIST:
+			item_id = ITEM_LIST[pokemon.item]
+		else:
+			item_id = ITEM_LIST['<UNK>']
+
+		for move in pokemon.moves:
+			if move in MOVE_LIST:
+				move_ids.append(MOVE_LIST[move])
+			else:
+				move_ids.append(MOVE_LIST['<UNK>'])
+
+		if len(move_ids) < 4:
+			num_unk_moves = 4 - len(move_ids)
+			for i in range(num_unk_moves):
+				move_ids.append(MOVE_LIST['<UNK>'])
+
+		assert(len(move_ids) == 4)
+
+		# TODO: implement status effects
+		status_id = 0
+
+		pokemon_encoding[:, 0] = pokemon_id
+		for i in range(len(move_ids)):
+			pokemon_encoding[:, i+1] = move_ids[i]
+		pokemon_encoding[:, 5] = item_id
+		pokemon_encoding[:, 6] = status_id
+
+		return pokemon_encoding
 
 	def encodeLabels(self, turnList, winner):
 		for turnNumber, lst in turnList.iteritems():
@@ -86,6 +126,14 @@ class PokemonShowdownReplayParser(object):
 		for item in self.turnList.iteritems():
 			print(item)
 		self.generateEncodingObject()
+
+		'''
+		encoding = PokemonShowdownEncoding()
+		for pokemon in self.players["p1"].pokemon:
+			print(encoding.encodePokemonObject(pokemon))
+		for pokemon in self.players["p2"].pokemon:
+			print(encoding.encodePokemonObject(pokemon))
+		'''
 
 		'''
 		output = ""
@@ -269,11 +317,9 @@ class PokemonShowdownReplayParser(object):
 
 			assert(len(setMoves) == 4)
 
-			# Battle log has "Hidden Power" while JSON file has "Hidden Power [TYPE]". This replaces "Hidden Power [TYPE]" in the set with "Hidden Power".
-			for i in range(len(setMoves)):
-				for j in range(len(setMoves[i])):
-					if "Hidden Power" in setMoves[i][j]:
-						setMoves[i][j] = "Hidden Power"
+			# Removes "Hidden Power" from pokemon moveset so "Hidden Power [TYPE]" can be added.
+			if "Hidden Power" in pokemon.moves:
+				pokemon.moves.remove("Hidden Power")
 
 			flattenedSetMoves = [item for sublist in setMoves for item in sublist]
 
@@ -462,7 +508,7 @@ class PokemonShowdownReplayParser(object):
 		pokemon = self.players[player].getPokemonByNickname(nickname)
 
 		# This is so that moves from Magic Bounce don't get added to moveset.
-		if "[from]" not in line:
+		if "[from]" not in line and "Struggle" not in line:
 			pokemon.moves.add(move)
 		assert(len(pokemon.moves) <= 4)
 
