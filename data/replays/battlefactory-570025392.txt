@@ -1,0 +1,266 @@
+|j|Akb007
+|j|ynot yadillah
+|player|p1|Akb007|170
+|player|p2|ynot yadillah|101
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|39784,13792,32667,51325,31377,23705,65438,29924,37863,10710,49722,32108
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Slowking, M|item
+|poke|p1|Smeargle, M|item
+|poke|p1|Spiritomb, M|item
+|poke|p1|Gurdurr, M|item
+|poke|p1|Qwilfish, M|item
+|poke|p1|Piloswine, M|item
+|poke|p2|Hitmonlee, M|item
+|poke|p2|Escavalier, M|item
+|poke|p2|Venusaur, M|item
+|poke|p2|Camerupt, M|item
+|poke|p2|Clawitzer, M|item
+|poke|p2|Abomasnow, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 2, team 1, team 3, team 4, team 5, team 6|team 6, team 2, team 3, team 4, team 5, team 1
+|
+|start
+|switch|p1a: Smeargle|Smeargle, M|100/100
+|switch|p2a: Abomasnow|Abomasnow, M|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Abomasnow
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ynot yadillah)
+|choice|move darkvoid|move gigadrain
+|
+|move|p1a: Smeargle|Dark Void|p2a: Abomasnow
+|-status|p2a: Abomasnow|slp
+|cant|p2a: Abomasnow|slp
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Smeargle|94/100|[from] hail
+|upkeep
+|turn|2
+|choice|move stealthrock|move iceshard
+|
+|cant|p2a: Abomasnow|slp
+|move|p1a: Smeargle|Stealth Rock|p2a: Abomasnow
+|-sidestart|p2: ynot yadillah|move: Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Smeargle|88/100|[from] hail
+|upkeep
+|turn|3
+|choice|move stickyweb|switch 2
+|
+|switch|p2a: Escavalier|Escavalier, M|100/100
+|-damage|p2a: Escavalier|88/100|[from] Stealth Rock
+|move|p1a: Smeargle|Sticky Web|p2a: Escavalier
+|-sidestart|p2: ynot yadillah|move: Sticky Web
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Smeargle|82/100|[from] hail
+|upkeep
+|turn|4
+|choice|move darkvoid|move knockoff
+|
+|move|p1a: Smeargle|Dark Void|p2a: Escavalier
+|-message|Sleep Clause Mod activated.
+|move|p2a: Escavalier|Knock Off|p1a: Smeargle
+|-damage|p1a: Smeargle|0 fnt
+|-enditem|p1a: Smeargle|Focus Sash|[from] move: Knock Off|[of] p2a: Escavalier
+|faint|p1a: Smeargle
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Qwilfish|Qwilfish, M|100/100
+|-ability|p1a: Qwilfish|Intimidate|boost
+|-unboost|p2a: Escavalier|atk|1
+|turn|5
+|choice|move spikes|switch 6
+|
+|switch|p2a: Hitmonlee|Hitmonlee, M|100/100
+|-damage|p2a: Hitmonlee|94/100|[from] Stealth Rock
+|-activate|p2a: Hitmonlee|move: Sticky Web
+|-unboost|p2a: Hitmonlee|spe|1
+|move|p1a: Qwilfish|Spikes|p2a: Hitmonlee
+|-sidestart|p2: ynot yadillah|Spikes
+|
+|-weather|none
+|upkeep
+|turn|6
+|choice|move explosion|move rapidspin
+|
+|move|p1a: Qwilfish|Explosion|p2a: Hitmonlee
+|-damage|p2a: Hitmonlee|0 fnt
+|faint|p1a: Qwilfish
+|faint|p2a: Hitmonlee
+|
+|upkeep
+|choice|switch 2|switch 5
+|
+|switch|p2a: Clawitzer|Clawitzer, M|100/100
+|switch|p1a: Slowking|Slowking, M|100/100
+|-damage|p2a: Clawitzer|88/100|[from] Stealth Rock
+|-damage|p2a: Clawitzer|76/100|[from] Spikes
+|-activate|p2a: Clawitzer|move: Sticky Web
+|-unboost|p2a: Clawitzer|spe|1
+|turn|7
+|choice|switch 4|move darkpulse
+|
+|switch|p1a: Gurdurr|Gurdurr, M|100/100
+|move|p2a: Clawitzer|Dark Pulse|p1a: Gurdurr
+|-resisted|p1a: Gurdurr
+|-damage|p1a: Gurdurr|69/100
+|-damage|p2a: Clawitzer|66/100|[from] item: Life Orb
+|
+|upkeep
+|turn|8
+|choice|move drainpunch|move scald
+|
+|move|p2a: Clawitzer|Scald|p1a: Gurdurr
+|-damage|p1a: Gurdurr|8/100
+|-damage|p2a: Clawitzer|56/100|[from] item: Life Orb
+|move|p1a: Gurdurr|Drain Punch|p2a: Clawitzer
+|-crit|p2a: Clawitzer
+|-damage|p2a: Clawitzer|0 fnt
+|-heal|p1a: Gurdurr|29/100|[from] drain|[of] p2a: Clawitzer
+|faint|p2a: Clawitzer
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Escavalier|Escavalier, M|88/100
+|-activate|p2a: Escavalier|move: Sticky Web
+|-unboost|p2a: Escavalier|spe|1
+|-damage|p2a: Escavalier|76/100|[from] Stealth Rock
+|-damage|p2a: Escavalier|63/100|[from] Spikes
+|turn|9
+|l|Akb007
+|player|p1|
+|j|Akb007
+|player|p1|Akb007|170
+|choice|move drainpunch|move ironhead
+|
+|move|p1a: Gurdurr|Drain Punch|p2a: Escavalier
+|-damage|p2a: Escavalier|28/100
+|-heal|p1a: Gurdurr|44/100|[from] drain|[of] p2a: Escavalier
+|move|p2a: Escavalier|Iron Head|p1a: Gurdurr
+|-damage|p1a: Gurdurr|0 fnt
+|faint|p1a: Gurdurr
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Slowking|Slowking, M|100/100
+|turn|10
+|choice|move scald|move ironhead
+|
+|move|p1a: Slowking|Scald|p2a: Escavalier
+|-damage|p2a: Escavalier|0 fnt
+|faint|p2a: Escavalier
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Abomasnow|Abomasnow, M|100/100 slp
+|-activate|p2a: Abomasnow|move: Sticky Web
+|-unboost|p2a: Abomasnow|spe|1
+|-damage|p2a: Abomasnow|76/100 slp|[from] Stealth Rock
+|-damage|p2a: Abomasnow|63/100 slp|[from] Spikes
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Abomasnow
+|turn|11
+|choice|switch 3|move gigadrain
+|
+|switch|p1a: Spiritomb|Spiritomb, M|100/100
+|cant|p2a: Abomasnow|slp
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Spiritomb|94/100|[from] hail
+|upkeep
+|turn|12
+|choice|move pursuit|move blizzard
+|
+|-curestatus|p2a: Abomasnow|slp|[msg]
+|move|p2a: Abomasnow|Blizzard|p1a: Spiritomb
+|-damage|p1a: Spiritomb|27/100
+|-damage|p2a: Abomasnow|53/100|[from] item: Life Orb
+|move|p1a: Spiritomb|Pursuit|p2a: Abomasnow
+|-damage|p2a: Abomasnow|17/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Spiritomb|21/100|[from] hail
+|upkeep
+|turn|13
+|choice|move suckerpunch|move gigadrain
+|
+|move|p1a: Spiritomb|Sucker Punch|p2a: Abomasnow
+|-damage|p2a: Abomasnow|0 fnt
+|faint|p2a: Abomasnow
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Spiritomb|14/100|[from] hail
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Venusaur|Venusaur, M|100/100
+|-activate|p2a: Venusaur|move: Sticky Web
+|-unboost|p2a: Venusaur|spe|1
+|-damage|p2a: Venusaur|88/100|[from] Spikes
+|-damage|p2a: Venusaur|76/100|[from] Stealth Rock
+|turn|14
+|choice|move taunt|move gigadrain
+|
+|move|p2a: Venusaur|Giga Drain|p1a: Spiritomb
+|-crit|p1a: Spiritomb
+|-damage|p1a: Spiritomb|0 fnt
+|-heal|p2a: Venusaur|82/100|[from] drain|[of] p1a: Spiritomb
+|faint|p1a: Spiritomb
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Venusaur|75/100|[from] hail
+|-heal|p2a: Venusaur|82/100|[from] item: Black Sludge
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Piloswine|Piloswine, M|100/100
+|turn|15
+|choice|move iciclecrash|move gigadrain
+|
+|move|p2a: Venusaur|Giga Drain|p1a: Piloswine
+|-supereffective|p1a: Piloswine
+|-damage|p1a: Piloswine|49/100
+|-heal|p2a: Venusaur|100/100|[from] drain|[of] p1a: Piloswine
+|move|p1a: Piloswine|Icicle Crash|p2a: Venusaur
+|-supereffective|p2a: Venusaur
+|-damage|p2a: Venusaur|4/100
+|
+|-weather|none
+|-heal|p2a: Venusaur|10/100|[from] item: Black Sludge
+|upkeep
+|turn|16
+|choice|move iceshard|move gigadrain
+|
+|move|p1a: Piloswine|Ice Shard|p2a: Venusaur
+|-supereffective|p2a: Venusaur
+|-damage|p2a: Venusaur|0 fnt
+|faint|p2a: Venusaur
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Camerupt|Camerupt, M|100/100
+|-activate|p2a: Camerupt|move: Sticky Web
+|-unboost|p2a: Camerupt|spe|1
+|-damage|p2a: Camerupt|88/100|[from] Stealth Rock
+|-damage|p2a: Camerupt|76/100|[from] Spikes
+|turn|17
+|-message|ynot yadillah forfeited.
+|
+|win|Akb007
+|l|ynot yadillah
+|raw|Akb007's rating: 1234 &rarr; <strong>1258</strong><br />(+24 for winning)
+|raw|ynot yadillah's rating: 1215 &rarr; <strong>1191</strong><br />(-24 for losing)

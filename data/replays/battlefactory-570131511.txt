@@ -1,0 +1,376 @@
+|j|LaBestiaOver9000
+|j|Scep_VGC
+|player|p1|LaBestiaOver9000|269
+|player|p2|Scep_VGC|285
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|47398,32374,38486,21584,50058,54132,23478,26895,29609,12457,25290,49399
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Shaymin-Sky|item
+|poke|p1|Scizor, M|item
+|poke|p1|Tyranitar, M|item
+|poke|p1|Palkia|item
+|poke|p1|Arceus-*|item
+|poke|p1|Deoxys-Attack|item
+|poke|p2|Arceus-*|item
+|poke|p2|Deoxys|item
+|poke|p2|Xerneas|item
+|poke|p2|Giratina|item
+|poke|p2|Scizor, M|item
+|poke|p2|Ho-Oh|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 4, team 2, team 3, team 1, team 5, team 6|team 2, team 1, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Palkia|Palkia|100/100
+|switch|p2a: Deoxys|Deoxys|100/100
+|-ability|p2a: Deoxys|Pressure
+|-ability|p1a: Palkia|Pressure
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by LaBestiaOver9000)
+|choice|move toxic|move taunt
+|
+|move|p2a: Deoxys|Taunt|p1a: Palkia
+|-start|p1a: Palkia|move: Taunt
+|cant|p1a: Palkia|move: Taunt|Toxic
+|
+|upkeep
+|turn|2
+|choice|move hydropump|move stealthrock
+|
+|move|p2a: Deoxys|Stealth Rock|p1a: Palkia
+|-sidestart|p1: LaBestiaOver9000|move: Stealth Rock
+|move|p1a: Palkia|Hydro Pump|p2a: Deoxys
+|-enditem|p2a: Deoxys|Focus Sash
+|-damage|p2a: Deoxys|1/100
+|
+|upkeep
+|turn|3
+|choice|move spacialrend|move spikes
+|
+|move|p2a: Deoxys|Spikes|p1a: Palkia
+|-sidestart|p1: LaBestiaOver9000|Spikes
+|move|p1a: Palkia|Spacial Rend|p2a: Deoxys
+|-damage|p2a: Deoxys|0 fnt
+|faint|p2a: Deoxys
+|
+|-end|p1a: Palkia|move: Taunt
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Xerneas|Xerneas|100/100
+|-ability|p2a: Xerneas|Fairy Aura
+|turn|4
+|choice|switch 6|move geomancy
+|
+|switch|p1a: Deoxys|Deoxys-Attack|100/100
+|-damage|p1a: Deoxys|88/100|[from] Spikes
+|-damage|p1a: Deoxys|76/100|[from] Stealth Rock
+|-ability|p1a: Deoxys|Pressure
+|move|p2a: Xerneas|Geomancy|p2a: Xerneas|[still]
+|-prepare|p2a: Xerneas|Geomancy|p2a: Xerneas
+|-enditem|p2a: Xerneas|Power Herb
+|-anim|p2a: Xerneas|Geomancy|p2a: Xerneas
+|-boost|p2a: Xerneas|spa|2
+|-boost|p2a: Xerneas|spd|2
+|-boost|p2a: Xerneas|spe|2
+|
+|upkeep
+|turn|5
+|choice|move extremespeed|move moonblast
+|
+|move|p1a: Deoxys|Extreme Speed|p2a: Xerneas
+|-damage|p2a: Xerneas|67/100
+|-damage|p1a: Deoxys|66/100|[from] item: Life Orb
+|move|p2a: Xerneas|Moonblast|p1a: Deoxys
+|-crit|p1a: Deoxys
+|-damage|p1a: Deoxys|0 fnt
+|faint|p1a: Deoxys
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Scizor|Scizor, M|100/100
+|-damage|p1a: Scizor|88/100|[from] Stealth Rock
+|-damage|p1a: Scizor|76/100|[from] Spikes
+|turn|6
+|choice|move defog mega|move focusblast
+|
+|detailschange|p1a: Scizor|Scizor-Mega, M
+|-mega|p1a: Scizor|Scizor|Scizorite
+|move|p2a: Xerneas|Focus Blast|p1a: Scizor|[miss]
+|-miss|p2a: Xerneas|p1a: Scizor
+|move|p1a: Scizor|Defog|p2a: Xerneas
+|-unboost|p2a: Xerneas|evasion|1
+|-sideend|p1: LaBestiaOver9000|Spikes|[from] move: Defog|[of] p1a: Scizor
+|-sideend|p1: LaBestiaOver9000|Stealth Rock|[from] move: Defog|[of] p1a: Scizor
+|
+|upkeep
+|turn|7
+|choice|move bulletpunch|move focusblast
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Xerneas
+|-supereffective|p2a: Xerneas
+|-damage|p2a: Xerneas|15/100
+|move|p2a: Xerneas|Focus Blast|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|faint|p1a: Scizor
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|8
+|choice|move rockslide|move moonblast
+|
+|move|p2a: Xerneas|Moonblast|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Xerneas|9/100|[from] sandstorm
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Palkia|Palkia|100/100
+|-ability|p1a: Palkia|Pressure
+|turn|9
+|choice|move hydropump|move moonblast
+|
+|move|p2a: Xerneas|Moonblast|p1a: Palkia
+|-supereffective|p1a: Palkia
+|-damage|p1a: Palkia|0 fnt
+|faint|p1a: Palkia
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Xerneas|3/100|[from] sandstorm
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Shaymin|Shaymin-Sky|100/100
+|turn|10
+|choice|move seedflare|move moonblast
+|
+|move|p2a: Xerneas|Moonblast|p1a: Shaymin
+|-damage|p1a: Shaymin|0 fnt
+|faint|p1a: Shaymin
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Xerneas|0 fnt|[from] sandstorm
+|upkeep
+|faint|p2a: Xerneas
+|choice|switch 5|switch 2
+|
+|switch|p1a: Arceus|Arceus-Ghost|100/100
+|switch|p2a: Arceus|Arceus-Ice|100/100
+|turn|11
+|choice|move calmmind|move calmmind
+|
+|move|p1a: Arceus|Calm Mind|p1a: Arceus
+|-boost|p1a: Arceus|spa|1
+|-boost|p1a: Arceus|spd|1
+|move|p2a: Arceus|Calm Mind|p2a: Arceus
+|-boost|p2a: Arceus|spa|1
+|-boost|p2a: Arceus|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Arceus|94/100|[from] sandstorm
+|-damage|p1a: Arceus|94/100|[from] sandstorm
+|upkeep
+|turn|12
+|choice|move calmmind|move calmmind
+|
+|move|p1a: Arceus|Calm Mind|p1a: Arceus
+|-boost|p1a: Arceus|spa|1
+|-boost|p1a: Arceus|spd|1
+|move|p2a: Arceus|Calm Mind|p2a: Arceus
+|-boost|p2a: Arceus|spa|1
+|-boost|p2a: Arceus|spd|1
+|
+|-weather|none
+|upkeep
+|turn|13
+|choice|move calmmind|move calmmind
+|
+|move|p2a: Arceus|Calm Mind|p2a: Arceus
+|-boost|p2a: Arceus|spa|1
+|-boost|p2a: Arceus|spd|1
+|move|p1a: Arceus|Calm Mind|p1a: Arceus
+|-boost|p1a: Arceus|spa|1
+|-boost|p1a: Arceus|spd|1
+|
+|upkeep
+|turn|14
+|choice|move calmmind|move calmmind
+|
+|move|p2a: Arceus|Calm Mind|p2a: Arceus
+|-boost|p2a: Arceus|spa|1
+|-boost|p2a: Arceus|spd|1
+|move|p1a: Arceus|Calm Mind|p1a: Arceus
+|-boost|p1a: Arceus|spa|1
+|-boost|p1a: Arceus|spd|1
+|
+|upkeep
+|turn|15
+|choice|move calmmind|move calmmind
+|
+|move|p1a: Arceus|Calm Mind|p1a: Arceus
+|-boost|p1a: Arceus|spa|1
+|-boost|p1a: Arceus|spd|1
+|move|p2a: Arceus|Calm Mind|p2a: Arceus
+|-boost|p2a: Arceus|spa|1
+|-boost|p2a: Arceus|spd|1
+|
+|upkeep
+|turn|16
+|choice|move calmmind|move calmmind
+|
+|move|p1a: Arceus|Calm Mind|p1a: Arceus
+|-boost|p1a: Arceus|spa|1
+|-boost|p1a: Arceus|spd|1
+|move|p2a: Arceus|Calm Mind|p2a: Arceus
+|-boost|p2a: Arceus|spa|1
+|-boost|p2a: Arceus|spd|1
+|
+|upkeep
+|turn|17
+|choice|move judgment|move judgment
+|
+|move|p1a: Arceus|Judgment|p2a: Arceus
+|-damage|p2a: Arceus|63/100
+|move|p2a: Arceus|Judgment|p1a: Arceus
+|-damage|p1a: Arceus|61/100
+|
+|upkeep
+|turn|18
+|choice|move judgment|move recover
+|
+|move|p1a: Arceus|Judgment|p2a: Arceus
+|-damage|p2a: Arceus|31/100
+|move|p2a: Arceus|Recover|p2a: Arceus
+|-heal|p2a: Arceus|81/100
+|
+|upkeep
+|turn|19
+|choice|move recover|move judgment
+|
+|move|p2a: Arceus|Judgment|p1a: Arceus
+|-damage|p1a: Arceus|28/100
+|move|p1a: Arceus|Recover|p1a: Arceus
+|-heal|p1a: Arceus|78/100
+|
+|upkeep
+|turn|20
+|choice|move judgment|move judgment
+|
+|move|p2a: Arceus|Judgment|p1a: Arceus
+|-damage|p1a: Arceus|43/100
+|move|p1a: Arceus|Judgment|p2a: Arceus
+|-damage|p2a: Arceus|47/100
+|
+|upkeep
+|turn|21
+|choice|move recover|move judgment
+|
+|move|p2a: Arceus|Judgment|p1a: Arceus
+|-damage|p1a: Arceus|8/100
+|move|p1a: Arceus|Recover|p1a: Arceus
+|-heal|p1a: Arceus|59/100
+|
+|upkeep
+|turn|22
+|choice|move judgment|move recover
+|
+|move|p1a: Arceus|Judgment|p2a: Arceus
+|-crit|p2a: Arceus
+|-damage|p2a: Arceus|0 fnt
+|faint|p2a: Arceus
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Scizor|Scizor, M|100/100
+|turn|23
+|choice|move willowisp|move bulletpunch mega
+|
+|detailschange|p2a: Scizor|Scizor-Mega, M
+|-mega|p2a: Scizor|Scizor|Scizorite
+|move|p2a: Scizor|Bullet Punch|p1a: Arceus
+|-damage|p1a: Arceus|37/100
+|move|p1a: Arceus|Will-O-Wisp|p2a: Scizor|[miss]
+|-miss|p1a: Arceus|p2a: Scizor
+|
+|upkeep
+|turn|24
+|choice|move recover|move bulletpunch
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Arceus
+|-crit|p1a: Arceus
+|-damage|p1a: Arceus|4/100
+|move|p1a: Arceus|Recover|p1a: Arceus
+|-heal|p1a: Arceus|54/100
+|
+|upkeep
+|turn|25
+|choice|move willowisp|move toxic
+|
+|move|p1a: Arceus|Will-O-Wisp|p2a: Scizor
+|-status|p2a: Scizor|brn
+|move|p2a: Scizor|Toxic|p1a: Arceus
+|-status|p1a: Arceus|tox
+|
+|-damage|p1a: Arceus|48/100 tox|[from] psn
+|-damage|p2a: Scizor|88/100 brn|[from] brn
+|upkeep
+|turn|26
+|choice|move recover|move bulletpunch
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Arceus
+|-damage|p1a: Arceus|38/100 tox
+|move|p1a: Arceus|Recover|p1a: Arceus
+|-heal|p1a: Arceus|88/100 tox
+|
+|-damage|p1a: Arceus|76/100 tox|[from] psn
+|-damage|p2a: Scizor|76/100 brn|[from] brn
+|upkeep
+|turn|27
+|choice|move judgment|move roost
+|
+|move|p1a: Arceus|Judgment|p2a: Scizor
+|-damage|p2a: Scizor|0 fnt
+|faint|p2a: Scizor
+|
+|-damage|p1a: Arceus|58/100 tox|[from] psn
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Giratina|Giratina|100/100
+|-ability|p2a: Giratina|Pressure
+|turn|28
+|choice|move judgment|move rest
+|
+|move|p1a: Arceus|Judgment|p2a: Giratina
+|-supereffective|p2a: Giratina
+|-damage|p2a: Giratina|0 fnt
+|faint|p2a: Giratina
+|
+|-damage|p1a: Arceus|33/100 tox|[from] psn
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Ho-Oh|Ho-Oh|100/100
+|turn|29
+|choice|move judgment|move bravebird
+|
+|move|p1a: Arceus|Judgment|p2a: Ho-Oh
+|-damage|p2a: Ho-Oh|0 fnt
+|faint|p2a: Ho-Oh
+|
+|win|LaBestiaOver9000
+|l|Scep_VGC

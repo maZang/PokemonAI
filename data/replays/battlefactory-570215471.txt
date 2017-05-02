@@ -1,0 +1,174 @@
+|j|Nicoblue
+|J|MichaelXD
+|player|p1|Nicoblue|12
+|player|p2|MichaelXD|17
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|63777,853,46298,11425,31585,471,64684,9587,28301,34527,48666,4379
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Samurott, M|item
+|poke|p1|Meloetta|item
+|poke|p1|Absol, M|item
+|poke|p1|Togetic, M|item
+|poke|p1|Abomasnow, M|item
+|poke|p1|Spiritomb, M|item
+|poke|p2|Banette, M|item
+|poke|p2|Diancie|item
+|poke|p2|Flygon, M|item
+|poke|p2|Magneton|item
+|poke|p2|Manectric, M|item
+|poke|p2|Bronzong|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by MichaelXD)
+|choice|team 1, team 2, team 3, team 4, team 5, team 6|team 4, team 2, team 3, team 1, team 5, team 6
+|
+|start
+|switch|p1a: Samurott|Samurott, M|100/100
+|switch|p2a: Magneton|Magneton|100/100
+|turn|1
+|choice|switch 2|move voltswitch
+|
+|switch|p1a: Meloetta|Meloetta|100/100
+|move|p2a: Magneton|Volt Switch|p1a: Meloetta
+|-damage|p1a: Meloetta|40/100
+|choice||switch 4
+|
+|switch|p2a: Banette|Banette, M|100/100
+|
+|upkeep
+|turn|2
+|choice|move shadowball|move knockoff
+|
+|move|p1a: Meloetta|Shadow Ball|p2a: Banette
+|-supereffective|p2a: Banette
+|-damage|p2a: Banette|10/100
+|move|p2a: Banette|Knock Off|p1a: Meloetta
+|-supereffective|p1a: Meloetta
+|-enditem|p1a: Meloetta|Colbur Berry|[eat]
+|-enditem|p1a: Meloetta|Colbur Berry|[weaken]
+|-damage|p1a: Meloetta|1/100
+|
+|upkeep
+|turn|3
+|choice|move shadowball|move suckerpunch
+|
+|move|p2a: Banette|Sucker Punch|p1a: Meloetta
+|-supereffective|p1a: Meloetta
+|-damage|p1a: Meloetta|0 fnt
+|faint|p1a: Meloetta
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Spiritomb|Spiritomb, M|100/100
+|turn|4
+|choice|move suckerpunch|move thunderwave mega
+|
+|detailschange|p2a: Banette|Banette-Mega, M
+|-mega|p2a: Banette|Banette|Banettite
+|move|p1a: Spiritomb|Sucker Punch|p2a: Banette|[still]
+|-fail|p1a: Spiritomb
+|move|p2a: Banette|Thunder Wave|p1a: Spiritomb
+|-status|p1a: Spiritomb|par
+|
+|upkeep
+|turn|5
+|choice|move pursuit|move destinybond
+|
+|move|p2a: Banette|Destiny Bond|p2a: Banette
+|-singlemove|p2a: Banette|Destiny Bond
+|move|p1a: Spiritomb|Pursuit|p2a: Banette
+|-supereffective|p2a: Banette
+|-damage|p2a: Banette|0 fnt
+|faint|p2a: Banette
+|-activate|p2a: Banette|move: Destiny Bond
+|faint|p1a: Spiritomb
+|
+|upkeep
+|choice|switch 3|switch 3
+|
+|switch|p1a: Absol|Absol, M|100/100
+|switch|p2a: Flygon|Flygon, M|100/100
+|turn|6
+|choice|move knockoff|move uturn
+|
+|move|p1a: Absol|Knock Off|p2a: Flygon
+|-damage|p2a: Flygon|34/100
+|-enditem|p2a: Flygon|Leftovers|[from] move: Knock Off|[of] p1a: Absol
+|-damage|p1a: Absol|91/100|[from] item: Life Orb
+|move|p2a: Flygon|U-turn|p1a: Absol
+|-supereffective|p1a: Absol
+|-crit|p1a: Absol
+|-damage|p1a: Absol|0 fnt
+|faint|p1a: Absol
+|choice||switch 4
+|
+|switch|p2a: Magneton|Magneton|100/100
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Abomasnow|Abomasnow, M|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Abomasnow
+|turn|7
+|choice|move focusblast|move flashcannon
+|
+|move|p2a: Magneton|Flash Cannon|p1a: Abomasnow
+|-supereffective|p1a: Abomasnow
+|-damage|p1a: Abomasnow|0 fnt
+|faint|p1a: Abomasnow
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Magneton|94/100|[from] hail
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Samurott|Samurott, M|100/100
+|turn|8
+|choice|move waterfall|switch 5
+|
+|switch|p2a: Manectric|Manectric, M|100/100
+|move|p1a: Samurott|Waterfall|p2a: Manectric
+|-damage|p2a: Manectric|28/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Manectric|21/100|[from] hail
+|-damage|p1a: Samurott|94/100|[from] hail
+|upkeep
+|turn|9
+|choice|move aquajet|move thunderbolt
+|
+|move|p1a: Samurott|Aqua Jet|p2a: Manectric
+|-damage|p2a: Manectric|0 fnt
+|faint|p2a: Manectric
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Samurott|88/100|[from] hail
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Magneton|Magneton|94/100
+|turn|10
+|choice|move swordsdance|move thunderbolt
+|
+|move|p2a: Magneton|Thunderbolt|p1a: Samurott
+|-supereffective|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|faint|p1a: Samurott
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Magneton|88/100|[from] hail
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Togetic|Togetic, M|100/100
+|turn|11
+|-message|Nicoblue forfeited.
+|
+|win|MichaelXD
+|l|Nicoblue

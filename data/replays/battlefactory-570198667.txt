@@ -1,0 +1,239 @@
+|j|inaqui
+|j|Pin Miss
+|player|p1|inaqui|101
+|player|p2|Pin Miss|2
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|35377,63132,2332,54343,15794,43571,28853,35829,33098,27405,38985,33386
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Tentacruel, M|item
+|poke|p1|Absol, M|item
+|poke|p1|Feraligatr, M|item
+|poke|p1|Snorlax, M|item
+|poke|p1|Lucario, M|item
+|poke|p1|Pangoro, M|item
+|poke|p2|Sharpedo, M|item
+|poke|p2|Goodra, M|item
+|poke|p2|Shaymin|item
+|poke|p2|Yanmega, M|item
+|poke|p2|Feraligatr, M|item
+|poke|p2|Heliolisk, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 4, team 2, team 3, team 1, team 5, team 6|team 6, team 2, team 3, team 4, team 5, team 1
+|
+|start
+|switch|p1a: Snorlax|Snorlax, M|100/100
+|switch|p2a: Heliolisk|Heliolisk, M|100/100
+|turn|1
+|choice|move bodyslam|move thunderbolt
+|
+|move|p2a: Heliolisk|Thunderbolt|p1a: Snorlax
+|-damage|p1a: Snorlax|76/100
+|-damage|p2a: Heliolisk|91/100|[from] item: Life Orb
+|move|p1a: Snorlax|Body Slam|p2a: Heliolisk
+|-damage|p2a: Heliolisk|22/100
+|
+|-heal|p1a: Snorlax|82/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|choice|move bodyslam|move voltswitch
+|
+|move|p2a: Heliolisk|Volt Switch|p1a: Snorlax
+|-damage|p1a: Snorlax|63/100
+|-damage|p2a: Heliolisk|13/100|[from] item: Life Orb
+|choice||switch 6
+|
+|switch|p2a: Sharpedo|Sharpedo, M|100/100
+|move|p1a: Snorlax|Body Slam|p2a: Sharpedo
+|-damage|p2a: Sharpedo|19/100
+|
+|-heal|p1a: Snorlax|69/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|choice|move bodyslam|switch 5
+|
+|switch|p2a: Feraligatr|Feraligatr, M|100/100
+|move|p1a: Snorlax|Body Slam|p2a: Feraligatr
+|-damage|p2a: Feraligatr|67/100
+|
+|-heal|p1a: Snorlax|75/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|choice|move bodyslam|move superpower
+|
+|move|p2a: Feraligatr|Superpower|p1a: Snorlax
+|-supereffective|p1a: Snorlax
+|-damage|p1a: Snorlax|1/100
+|-unboost|p2a: Feraligatr|atk|1
+|-unboost|p2a: Feraligatr|def|1
+|-damage|p2a: Feraligatr|57/100|[from] item: Life Orb
+|move|p1a: Snorlax|Body Slam|p2a: Feraligatr
+|-damage|p2a: Feraligatr|5/100
+|
+|-heal|p1a: Snorlax|7/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|choice|switch 5|move aquajet
+|
+|switch|p1a: Lucario|Lucario, M|100/100
+|move|p2a: Feraligatr|Aqua Jet|p1a: Lucario
+|-damage|p1a: Lucario|74/100
+|-damage|p2a: Feraligatr|0 fnt|[from] item: Life Orb
+|faint|p2a: Feraligatr
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Goodra|Goodra, M|100/100
+|turn|6
+|choice|move aurasphere|move fireblast
+|
+|move|p1a: Lucario|Aura Sphere|p2a: Goodra
+|-damage|p2a: Goodra|71/100
+|-damage|p1a: Lucario|64/100|[from] item: Life Orb
+|move|p2a: Goodra|Fire Blast|p1a: Lucario
+|-supereffective|p1a: Lucario
+|-damage|p1a: Lucario|0 fnt
+|-damage|p2a: Goodra|61/100|[from] item: Life Orb
+|faint|p1a: Lucario
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Tentacruel|Tentacruel, M|100/100
+|turn|7
+|choice|move scald|move dracometeor
+|
+|move|p1a: Tentacruel|Scald|p2a: Goodra
+|-resisted|p2a: Goodra
+|-damage|p2a: Goodra|54/100
+|move|p2a: Goodra|Draco Meteor|p1a: Tentacruel
+|-crit|p1a: Tentacruel
+|-damage|p1a: Tentacruel|0 fnt
+|-unboost|p2a: Goodra|spa|2
+|-damage|p2a: Goodra|44/100|[from] item: Life Orb
+|faint|p1a: Tentacruel
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Feraligatr|Feraligatr, M|100/100
+|turn|8
+|choice|move waterfall|move dracometeor
+|
+|move|p1a: Feraligatr|Waterfall|p2a: Goodra
+|-resisted|p2a: Goodra
+|-damage|p2a: Goodra|13/100
+|-damage|p1a: Feraligatr|91/100|[from] item: Life Orb
+|move|p2a: Goodra|Draco Meteor|p1a: Feraligatr
+|-damage|p1a: Feraligatr|41/100
+|-unboost|p2a: Goodra|spa|2
+|-damage|p2a: Goodra|3/100|[from] item: Life Orb
+|
+|upkeep
+|turn|9
+|choice|move crunch|move icebeam
+|
+|move|p1a: Feraligatr|Crunch|p2a: Goodra
+|-damage|p2a: Goodra|0 fnt
+|-damage|p1a: Feraligatr|31/100|[from] item: Life Orb
+|faint|p2a: Goodra
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Shaymin|Shaymin|100/100
+|turn|10
+|choice|move crunch|move airslash
+|
+|move|p2a: Shaymin|Air Slash|p1a: Feraligatr
+|-damage|p1a: Feraligatr|0 fnt
+|-damage|p2a: Shaymin|91/100|[from] item: Life Orb
+|faint|p1a: Feraligatr
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Pangoro|Pangoro, M|100/100
+|turn|11
+|choice|move drainpunch|move earthpower
+|
+|move|p2a: Shaymin|Earth Power|p1a: Pangoro
+|-damage|p1a: Pangoro|52/100
+|-unboost|p1a: Pangoro|spd|1
+|-damage|p2a: Shaymin|81/100|[from] item: Life Orb
+|move|p1a: Pangoro|Drain Punch|p2a: Shaymin
+|-damage|p2a: Shaymin|20/100
+|-heal|p1a: Pangoro|83/100|[from] drain|[of] p2a: Shaymin
+|-damage|p1a: Pangoro|73/100|[from] item: Life Orb
+|
+|upkeep
+|turn|12
+|choice|move drainpunch|move airslash
+|
+|move|p2a: Shaymin|Air Slash|p1a: Pangoro
+|-supereffective|p1a: Pangoro
+|-damage|p1a: Pangoro|0 fnt
+|-damage|p2a: Shaymin|10/100|[from] item: Life Orb
+|faint|p1a: Pangoro
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Absol|Absol, M|100/100
+|turn|13
+|choice|move fireblast mega|move earthpower
+|
+|detailschange|p1a: Absol|Absol-Mega, M
+|-mega|p1a: Absol|Absol|Absolite
+|move|p2a: Shaymin|Earth Power|p1a: Absol
+|-damage|p1a: Absol|32/100
+|-damage|p2a: Shaymin|0 fnt|[from] item: Life Orb
+|faint|p2a: Shaymin
+|move|p1a: Absol|Fire Blast|p2: Shaymin|[notarget]
+|-notarget
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Yanmega|Yanmega, M|100/100
+|turn|14
+|choice|move fireblast|move airslash
+|
+|move|p1a: Absol|Fire Blast|p2a: Yanmega
+|-supereffective|p2a: Yanmega
+|-damage|p2a: Yanmega|0 fnt
+|faint|p2a: Yanmega
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Heliolisk|Heliolisk, M|13/100
+|turn|15
+|choice|move icebeam|move hiddenpower
+|
+|move|p1a: Absol|Ice Beam|p2a: Heliolisk
+|-damage|p2a: Heliolisk|0 fnt
+|faint|p2a: Heliolisk
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Sharpedo|Sharpedo, M|19/100
+|turn|16
+|choice|move suckerpunch|move hydropump mega
+|
+|detailschange|p2a: Sharpedo|Sharpedo-Mega, M
+|-mega|p2a: Sharpedo|Sharpedo|Sharpedonite
+|move|p1a: Absol|Sucker Punch|p2a: Sharpedo
+|-resisted|p2a: Sharpedo
+|-damage|p2a: Sharpedo|0 fnt
+|faint|p2a: Sharpedo
+|
+|win|inaqui
+|l|Pin Miss

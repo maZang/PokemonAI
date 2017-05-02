@@ -33,7 +33,7 @@ for tier in data:
 				items.add(set['item'])
 			if 'moves' in set:
 				for move in set['moves']:
-					moves.add(move[0])
+					moves.update(move)
 
 pokemon.add(u'Groudon-Primal')
 pokemon.add(u'Kyogre-Primal')

@@ -1,0 +1,71 @@
+|j|arceus1117
+|j|Bowsiken
+|player|p1|arceus1117|99
+|player|p2|Bowsiken|238
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|13997,9071,23109,51811,63558,7855,37976,6639,19685,53516,29157,60252
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Swampert, M|item
+|poke|p1|Flygon, M|item
+|poke|p1|Gyarados, M|item
+|poke|p1|Cresselia, F|item
+|poke|p1|Toxicroak, M|item
+|poke|p1|Machamp, M|item
+|poke|p2|Forretress, M|item
+|poke|p2|Krookodile, M|item
+|poke|p2|Kingdra, M|item
+|poke|p2|Cobalion|item
+|poke|p2|Goodra, M|item
+|poke|p2|Beedrill, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Bowsiken)
+|l|arceus1117
+|player|p1|
+|j|arceus1117
+|player|p1|arceus1117|99
+|choice|team 6, team 2, team 3, team 4, team 5, team 1|team 1, team 2, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Machamp|Machamp, M|100/100
+|switch|p2a: Forretress|Forretress, M|100/100
+|turn|1
+|choice|move dynamicpunch|move voltswitch
+|
+|move|p1a: Machamp|Dynamic Punch|p2a: Forretress
+|-damage|p2a: Forretress|70/100
+|-start|p2a: Forretress|confusion
+|-activate|p2a: Forretress|confusion
+|-damage|p2a: Forretress|65/100|[from] confusion
+|
+|-heal|p2a: Forretress|71/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|choice|move knockoff|move voltswitch
+|
+|move|p1a: Machamp|Knock Off|p2a: Forretress
+|-damage|p2a: Forretress|49/100
+|-enditem|p2a: Forretress|Leftovers|[from] move: Knock Off|[of] p1a: Machamp
+|-activate|p2a: Forretress|confusion
+|-damage|p2a: Forretress|44/100|[from] confusion
+|
+|upkeep
+|turn|3
+|choice|move dynamicpunch|move voltswitch
+|
+|move|p1a: Machamp|Dynamic Punch|p2a: Forretress
+|-damage|p2a: Forretress|12/100
+|-activate|p2a: Forretress|confusion
+|-damage|p2a: Forretress|7/100|[from] confusion
+|
+|upkeep
+|turn|4
+|-message|Bowsiken forfeited.
+|
+|win|arceus1117
+|l|Bowsiken

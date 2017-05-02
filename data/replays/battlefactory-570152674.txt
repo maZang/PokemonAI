@@ -1,0 +1,293 @@
+|j|Extile
+|j|Rainbow7Penguin
+|player|p1|Extile|290
+|player|p2|Rainbow7Penguin|209
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|52242,45577,22402,19620,52854,12940,11088,22687,52091,54461,64309,11441
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Tyranitar, M|item
+|poke|p1|Arceus-*|item
+|poke|p1|Xerneas|item
+|poke|p1|Blaziken, M|item
+|poke|p1|Latias, F|item
+|poke|p1|Landorus, M|item
+|poke|p2|Reshiram|item
+|poke|p2|Gengar, M|item
+|poke|p2|Arceus-*|item
+|poke|p2|Greninja, M|item
+|poke|p2|Blissey, F|item
+|poke|p2|Deoxys|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 2, team 1, team 3, team 4, team 5, team 6|team 6, team 2, team 3, team 4, team 5, team 1
+|
+|start
+|switch|p1a: Arceus|Arceus-Flying|100/100
+|switch|p2a: Deoxys|Deoxys|100/100
+|-ability|p2a: Deoxys|Pressure
+|turn|1
+|choice|move substitute|move stealthrock
+|
+|move|p2a: Deoxys|Stealth Rock|p1a: Arceus
+|-sidestart|p1: Extile|move: Stealth Rock
+|move|p1a: Arceus|Substitute|p1a: Arceus
+|-start|p1a: Arceus|Substitute
+|-damage|p1a: Arceus|76/100
+|
+|upkeep
+|turn|2
+|choice|move calmmind|move spikes
+|
+|move|p2a: Deoxys|Spikes|p1a: Arceus
+|-sidestart|p1: Extile|Spikes
+|move|p1a: Arceus|Calm Mind|p1a: Arceus
+|-boost|p1a: Arceus|spa|1
+|-boost|p1a: Arceus|spd|1
+|
+|upkeep
+|turn|3
+|choice|move judgment|move taunt
+|
+|move|p2a: Deoxys|Taunt|p1a: Arceus
+|-start|p1a: Arceus|move: Taunt
+|move|p1a: Arceus|Judgment|p2a: Deoxys
+|-enditem|p2a: Deoxys|Focus Sash
+|-damage|p2a: Deoxys|1/100
+|
+|upkeep
+|turn|4
+|choice|move judgment|move spikes
+|
+|move|p2a: Deoxys|Spikes|p1a: Arceus
+|-sidestart|p1: Extile|Spikes
+|move|p1a: Arceus|Judgment|p2a: Deoxys
+|-damage|p2a: Deoxys|0 fnt
+|faint|p2a: Deoxys
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Arceus|Arceus-Fairy|100/100
+|turn|5
+|choice|move judgment|move judgment
+|
+|move|p1a: Arceus|Judgment|p2a: Arceus
+|-damage|p2a: Arceus|44/100
+|move|p2a: Arceus|Judgment|p1a: Arceus
+|-crit|p1a: Arceus
+|-end|p1a: Arceus|Substitute
+|
+|-end|p1a: Arceus|move: Taunt
+|upkeep
+|turn|6
+|choice|move judgment|move recover
+|
+|move|p1a: Arceus|Judgment|p2a: Arceus
+|-damage|p2a: Arceus|0 fnt
+|faint|p2a: Arceus
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Reshiram|Reshiram|100/100
+|-ability|p2a: Reshiram|Turboblaze
+|turn|7
+|choice|move judgment|move blueflare
+|
+|move|p2a: Reshiram|Blue Flare|p1a: Arceus
+|-damage|p1a: Arceus|38/100
+|move|p1a: Arceus|Judgment|p2a: Reshiram
+|-damage|p2a: Reshiram|22/100
+|
+|upkeep
+|turn|8
+|choice|move recover|move blueflare
+|
+|move|p2a: Reshiram|Blue Flare|p1a: Arceus
+|-damage|p1a: Arceus|0 fnt
+|faint|p1a: Arceus
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Latias|Latias, F|100/100
+|-damage|p1a: Latias|88/100|[from] Stealth Rock
+|turn|9
+|choice|move psyshock|switch 2
+|
+|switch|p2a: Gengar|Gengar, M|100/100
+|move|p1a: Latias|Psyshock|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Reshiram|Reshiram|22/100
+|-ability|p2a: Reshiram|Turboblaze
+|turn|10
+|choice|move dracometeor|move dracometeor
+|
+|move|p2a: Reshiram|Draco Meteor|p1a: Latias
+|-supereffective|p1a: Latias
+|-damage|p1a: Latias|8/100
+|-unboost|p2a: Reshiram|spa|2
+|move|p1a: Latias|Draco Meteor|p2a: Reshiram|[miss]
+|-miss|p1a: Latias|p2a: Reshiram
+|
+|upkeep
+|turn|11
+|choice|switch 3|move dracometeor
+|
+|switch|p1a: Xerneas|Xerneas|100/100
+|-damage|p1a: Xerneas|88/100|[from] Stealth Rock
+|-damage|p1a: Xerneas|71/100|[from] Spikes
+|-ability|p1a: Xerneas|Fairy Aura
+|move|p2a: Reshiram|Draco Meteor|p1a: Xerneas
+|-immune|p1a: Xerneas|[msg]
+|
+|upkeep
+|turn|12
+|choice|move moonblast|switch 5
+|
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: Xerneas|Moonblast|p2a: Blissey
+|-damage|p2a: Blissey|78/100
+|-unboost|p2a: Blissey|spa|1
+|
+|upkeep
+|turn|13
+|choice|move moonblast|move toxic
+|
+|move|p1a: Xerneas|Moonblast|p2a: Blissey
+|-damage|p2a: Blissey|56/100
+|-unboost|p2a: Blissey|spa|1
+|move|p2a: Blissey|Toxic|p1a: Xerneas
+|-status|p1a: Xerneas|tox
+|
+|-damage|p1a: Xerneas|65/100 tox|[from] psn
+|upkeep
+|turn|14
+|choice|move moonblast|move wish
+|
+|move|p1a: Xerneas|Moonblast|p2a: Blissey
+|-damage|p2a: Blissey|31/100
+|move|p2a: Blissey|Wish|p2a: Blissey
+|
+|-damage|p1a: Xerneas|53/100 tox|[from] psn
+|upkeep
+|turn|15
+|choice|move moonblast|move protect
+|
+|move|p2a: Blissey|Protect|p2a: Blissey
+|-singleturn|p2a: Blissey|Protect
+|move|p1a: Xerneas|Moonblast|p2a: Blissey
+|-activate|p2a: Blissey|move: Protect
+|
+|-heal|p2a: Blissey|81/100|[from] move: Wish|[wisher] Blissey
+|-damage|p1a: Xerneas|35/100 tox|[from] psn
+|upkeep
+|turn|16
+|choice|move moonblast|move snatch
+|
+|move|p2a: Blissey|Snatch|p2a: Blissey
+|-singleturn|p2a: Blissey|Snatch
+|move|p1a: Xerneas|Moonblast|p2a: Blissey
+|-damage|p2a: Blissey|57/100
+|-unboost|p2a: Blissey|spa|1
+|
+|-damage|p1a: Xerneas|10/100 tox|[from] psn
+|upkeep
+|turn|17
+|choice|move moonblast|move wish
+|
+|move|p1a: Xerneas|Moonblast|p2a: Blissey
+|-damage|p2a: Blissey|33/100
+|move|p2a: Blissey|Wish|p2a: Blissey
+|
+|-damage|p1a: Xerneas|0 fnt|[from] psn
+|upkeep
+|faint|p1a: Xerneas
+|choice|switch 2|
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-damage|p1a: Tyranitar|84/100|[from] Spikes
+|-damage|p1a: Tyranitar|71/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|18
+|choice|move roar|move protect
+|
+|move|p2a: Blissey|Protect|p2a: Blissey
+|-singleturn|p2a: Blissey|Protect
+|move|p1a: Tyranitar|Roar|p2a: Blissey
+|drag|p2a: Greninja|Greninja, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Greninja|95/100|[from] sandstorm
+|-heal|p2a: Greninja|100/100|[from] move: Wish|[wisher] Blissey
+|upkeep
+|turn|19
+|choice|move lowkick|move taunt
+|
+|move|p2a: Greninja|Taunt|p1a: Tyranitar
+|-start|p2a: Greninja|typechange|Dark|[from] Protean
+|-start|p1a: Tyranitar|move: Taunt
+|move|p1a: Tyranitar|Low Kick|p2a: Greninja
+|-supereffective|p2a: Greninja
+|-crit|p2a: Greninja
+|-damage|p2a: Greninja|8/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Greninja|2/100|[from] sandstorm
+|upkeep
+|turn|20
+|choice|move rockslide|move shadowsneak
+|
+|move|p2a: Greninja|Shadow Sneak|p1a: Tyranitar
+|-start|p2a: Greninja|typechange|Ghost|[from] Protean
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|66/100
+|move|p1a: Tyranitar|Rock Slide|p2a: Greninja
+|-damage|p2a: Greninja|0 fnt
+|faint|p2a: Greninja
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Reshiram|Reshiram|22/100
+|-ability|p2a: Reshiram|Turboblaze
+|turn|21
+|choice|move rockslide|move stoneedge
+|
+|move|p2a: Reshiram|Stone Edge|p1a: Tyranitar
+|-damage|p1a: Tyranitar|46/100
+|move|p1a: Tyranitar|Rock Slide|p2a: Reshiram
+|-supereffective|p2a: Reshiram
+|-damage|p2a: Reshiram|0 fnt
+|faint|p2a: Reshiram
+|
+|-weather|Sandstorm|[upkeep]
+|-end|p1a: Tyranitar|move: Taunt
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Blissey|Blissey, F|33/100
+|turn|22
+|choice|move lowkick|move wish
+|
+|move|p2a: Blissey|Wish|p2a: Blissey
+|move|p1a: Tyranitar|Low Kick|p2a: Blissey
+|-supereffective|p2a: Blissey
+|-damage|p2a: Blissey|0 fnt
+|faint|p2a: Blissey
+|
+|win|Extile
+|l|Rainbow7Penguin
+|l|Extile
+|j|Extile

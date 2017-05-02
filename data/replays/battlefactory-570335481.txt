@@ -1,0 +1,283 @@
+|j|2hes1r
+|j|arceus1117
+|player|p1|2hes1r|293
+|player|p2|arceus1117|99
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|54628,43624,10141,63649,47430,7545,36560,6345,56317,61274,23809,17480
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Glalie, M|item
+|poke|p1|Bronzong|item
+|poke|p1|Rotom-Mow|item
+|poke|p1|Hitmontop, M|item
+|poke|p1|Fletchinder, M|
+|poke|p1|Golbat, M|item
+|poke|p2|Spiritomb, M|item
+|poke|p2|Venusaur, M|item
+|poke|p2|Uxie|item
+|poke|p2|Camerupt, M|item
+|poke|p2|Blastoise, M|item
+|poke|p2|Vivillon, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 3, team 2, team 1, team 4, team 5, team 6|team 1, team 2, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Rotom|Rotom-Mow|100/100
+|switch|p2a: Spiritomb|Spiritomb, M|100/100
+|turn|1
+|choice|move thunderbolt|move willowisp
+|
+|move|p1a: Rotom|Thunderbolt|p2a: Spiritomb
+|-damage|p2a: Spiritomb|38/100
+|move|p2a: Spiritomb|Will-O-Wisp|p1a: Rotom
+|-status|p1a: Rotom|brn
+|
+|-damage|p1a: Rotom|88/100 brn|[from] brn
+|upkeep
+|turn|2
+|choice|move thunderbolt|switch 2
+|
+|switch|p2a: Venusaur|Venusaur, M|100/100
+|move|p1a: Rotom|Thunderbolt|p2a: Venusaur
+|-resisted|p2a: Venusaur
+|-damage|p2a: Venusaur|73/100
+|
+|-heal|p2a: Venusaur|79/100|[from] item: Black Sludge
+|-damage|p1a: Rotom|76/100 brn|[from] brn
+|upkeep
+|turn|3
+|choice|switch 2|move sludgebomb
+|
+|switch|p1a: Bronzong|Bronzong|100/100
+|move|p2a: Venusaur|Sludge Bomb|p1a: Bronzong
+|-immune|p1a: Bronzong|[msg]
+|
+|-heal|p2a: Venusaur|85/100|[from] item: Black Sludge
+|upkeep
+|turn|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by arceus1117)
+|choice|move stealthrock|switch 2
+|
+|switch|p2a: Spiritomb|Spiritomb, M|38/100
+|move|p1a: Bronzong|Stealth Rock|p2a: Spiritomb
+|-sidestart|p2: arceus1117|move: Stealth Rock
+|
+|upkeep
+|turn|5
+|choice|move earthquake|move pursuit
+|
+|move|p2a: Spiritomb|Pursuit|p1a: Bronzong
+|-supereffective|p1a: Bronzong
+|-damage|p1a: Bronzong|58/100
+|move|p1a: Bronzong|Earthquake|p2a: Spiritomb
+|-damage|p2a: Spiritomb|4/100
+|
+|-heal|p1a: Bronzong|64/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|choice|move earthquake|move willowisp
+|
+|move|p2a: Spiritomb|Will-O-Wisp|p1a: Bronzong|[miss]
+|-miss|p2a: Spiritomb|p1a: Bronzong
+|move|p1a: Bronzong|Earthquake|p2a: Spiritomb
+|-damage|p2a: Spiritomb|0 fnt
+|faint|p2a: Spiritomb
+|
+|-heal|p1a: Bronzong|70/100|[from] item: Leftovers
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Blastoise|Blastoise, M|100/100
+|-damage|p2a: Blastoise|88/100|[from] Stealth Rock
+|turn|7
+|choice|move trickroom|move scald
+|
+|move|p2a: Blastoise|Scald|p1a: Bronzong
+|-damage|p1a: Bronzong|50/100
+|move|p1a: Bronzong|Trick Room|p1a: Bronzong
+|-fieldstart|move: Trick Room|[of] p1a: Bronzong
+|
+|-heal|p1a: Bronzong|56/100|[from] item: Leftovers
+|-heal|p2a: Blastoise|94/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|choice|move earthquake|move scald
+|
+|move|p1a: Bronzong|Earthquake|p2a: Blastoise
+|-damage|p2a: Blastoise|73/100
+|move|p2a: Blastoise|Scald|p1a: Bronzong
+|-damage|p1a: Bronzong|34/100
+|
+|-heal|p1a: Bronzong|40/100|[from] item: Leftovers
+|-heal|p2a: Blastoise|79/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|choice|move earthquake|move scald
+|
+|move|p1a: Bronzong|Earthquake|p2a: Blastoise
+|-crit|p2a: Blastoise
+|-damage|p2a: Blastoise|51/100
+|move|p2a: Blastoise|Scald|p1a: Bronzong
+|-damage|p1a: Bronzong|17/100
+|-status|p1a: Bronzong|brn
+|
+|-heal|p1a: Bronzong|23/100 brn|[from] item: Leftovers
+|-heal|p2a: Blastoise|58/100|[from] item: Leftovers
+|-damage|p1a: Bronzong|11/100 brn|[from] brn
+|upkeep
+|turn|10
+|choice|move explosion|move rapidspin
+|
+|move|p1a: Bronzong|Explosion|p2a: Blastoise
+|-damage|p2a: Blastoise|34/100
+|faint|p1a: Bronzong
+|move|p2a: Blastoise|Rapid Spin|p1: Bronzong|[notarget]
+|-notarget
+|
+|-heal|p2a: Blastoise|40/100|[from] item: Leftovers
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Glalie|Glalie, M|100/100
+|turn|11
+|choice|move doubleedge mega|switch 3
+|
+|switch|p2a: Uxie|Uxie|100/100
+|-damage|p2a: Uxie|88/100|[from] Stealth Rock
+|detailschange|p1a: Glalie|Glalie-Mega, M
+|-mega|p1a: Glalie|Glalie|Glalitite
+|move|p1a: Glalie|Double-Edge|p2a: Uxie
+|-damage|p2a: Uxie|39/100
+|-damage|p1a: Glalie|81/100|[from] recoil|[of] p2a: Uxie
+|
+|-heal|p2a: Uxie|45/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|12
+|choice|move doubleedge|move thunderwave
+|
+|move|p1a: Glalie|Double-Edge|p2a: Uxie
+|-damage|p2a: Uxie|0 fnt
+|-damage|p1a: Glalie|64/100|[from] recoil|[of] p2a: Uxie
+|faint|p2a: Uxie
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Blastoise|Blastoise, M|40/100
+|-damage|p2a: Blastoise|27/100|[from] Stealth Rock
+|turn|13
+|choice|move doubleedge|move rapidspin
+|
+|move|p1a: Glalie|Double-Edge|p2a: Blastoise
+|-resisted|p2a: Blastoise
+|-damage|p2a: Blastoise|4/100
+|-damage|p1a: Glalie|55/100|[from] recoil|[of] p2a: Blastoise
+|move|p2a: Blastoise|Rapid Spin|p1a: Glalie
+|-damage|p1a: Glalie|49/100
+|-sideend|p2: arceus1117|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Blastoise
+|
+|-heal|p2a: Blastoise|10/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|choice|move doubleedge|move toxic
+|
+|move|p1a: Glalie|Double-Edge|p2a: Blastoise
+|-resisted|p2a: Blastoise
+|-damage|p2a: Blastoise|0 fnt
+|-damage|p1a: Glalie|46/100|[from] recoil|[of] p2a: Blastoise
+|faint|p2a: Blastoise
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Camerupt|Camerupt, M|100/100
+|turn|15
+|choice|move explosion|move fireblast mega
+|
+|detailschange|p2a: Camerupt|Camerupt-Mega, M
+|-mega|p2a: Camerupt|Camerupt|Cameruptite
+|move|p1a: Glalie|Explosion|p2a: Camerupt
+|-damage|p2a: Camerupt|0 fnt
+|faint|p1a: Glalie
+|faint|p2a: Camerupt
+|
+|upkeep
+|choice|switch 5|switch 6
+|
+|switch|p2a: Vivillon|Vivillon, M|100/100
+|switch|p1a: Fletchinder|Fletchinder, M|100/100
+|turn|16
+|choice|move swordsdance|move sleeppowder
+|
+|move|p2a: Vivillon|Sleep Powder|p1a: Fletchinder
+|-status|p1a: Fletchinder|slp
+|cant|p1a: Fletchinder|slp
+|
+|upkeep
+|turn|17
+|choice|move swordsdance|move quiverdance
+|
+|move|p2a: Vivillon|Quiver Dance|p2a: Vivillon
+|-boost|p2a: Vivillon|spa|1
+|-boost|p2a: Vivillon|spd|1
+|-boost|p2a: Vivillon|spe|1
+|cant|p1a: Fletchinder|slp
+|
+|upkeep
+|turn|18
+|choice|move swordsdance|move quiverdance
+|
+|move|p2a: Vivillon|Quiver Dance|p2a: Vivillon
+|-boost|p2a: Vivillon|spa|1
+|-boost|p2a: Vivillon|spd|1
+|-boost|p2a: Vivillon|spe|1
+|cant|p1a: Fletchinder|slp
+|
+|upkeep
+|turn|19
+|choice|move swordsdance|move substitute
+|
+|move|p2a: Vivillon|Substitute|p2a: Vivillon
+|-start|p2a: Vivillon|Substitute
+|-damage|p2a: Vivillon|76/100
+|-curestatus|p1a: Fletchinder|slp|[msg]
+|move|p1a: Fletchinder|Swords Dance|p1a: Fletchinder
+|-boost|p1a: Fletchinder|atk|2
+|
+|-heal|p2a: Vivillon|82/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|choice|move acrobatics|move hurricane
+|
+|move|p1a: Fletchinder|Acrobatics|p2a: Vivillon
+|-supereffective|p2a: Vivillon
+|-end|p2a: Vivillon|Substitute
+|move|p2a: Vivillon|Hurricane|p1a: Fletchinder
+|-damage|p1a: Fletchinder|0 fnt
+|faint|p1a: Fletchinder
+|
+|-heal|p2a: Vivillon|88/100|[from] item: Leftovers
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Golbat|Golbat, M|100/100
+|turn|21
+|choice|move superfang|move sleeppowder
+|
+|move|p2a: Vivillon|Sleep Powder|p1a: Golbat
+|-status|p1a: Golbat|slp
+|cant|p1a: Golbat|slp
+|
+|-heal|p2a: Vivillon|94/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|-message|2hes1r forfeited.
+|
+|win|arceus1117
+|l|2hes1r

@@ -1,0 +1,134 @@
+|j|Scrappie
+|j|omgineedname
+|player|p1|Scrappie|#yellow
+|player|p2|omgineedname|169
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|29114,49425,10768,31212,3539,9845,24248,19228,668,41085,26185,55321
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Nidoqueen, F|item
+|poke|p1|Blissey, F|item
+|poke|p1|Entei, shiny|item
+|poke|p1|Sharpedo, M|item
+|poke|p1|Forretress, M|item
+|poke|p1|Tornadus, M|item
+|poke|p2|Feraligatr, M|item
+|poke|p2|Porygon-Z|item
+|poke|p2|Forretress, M|item
+|poke|p2|Kingdra, M|item
+|poke|p2|Florges, F|item
+|poke|p2|Gligar, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|c|☆Scrappie|Good luck, have fun
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Scrappie)
+|choice|team 1, team 2, team 3, team 4, team 5, team 6|team 1, team 2, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Nidoqueen|Nidoqueen, F|100/100
+|switch|p2a: Feraligatr|Feraligatr, M|100/100
+|turn|1
+|choice|switch 4|move dragondance
+|
+|switch|p1a: Sharpedo|Sharpedo, M|100/100
+|move|p2a: Feraligatr|Dragon Dance|p2a: Feraligatr
+|-boost|p2a: Feraligatr|atk|1
+|-boost|p2a: Feraligatr|spe|1
+|
+|upkeep
+|turn|2
+|choice|move crunch|move waterfall
+|
+|move|p2a: Feraligatr|Waterfall|p1a: Sharpedo
+|-resisted|p1a: Sharpedo
+|-damage|p1a: Sharpedo|0 fnt
+|faint|p1a: Sharpedo
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Tornadus|Tornadus, M|100/100
+|turn|3
+|choice|move grassknot|move icepunch
+|
+|move|p2a: Feraligatr|Ice Punch|p1a: Tornadus
+|-supereffective|p1a: Tornadus
+|-damage|p1a: Tornadus|0 fnt
+|faint|p1a: Tornadus
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Forretress|Forretress, M|100/100
+|turn|4
+|choice|move voltswitch|move waterfall
+|
+|move|p2a: Feraligatr|Waterfall|p1a: Forretress
+|-damage|p1a: Forretress|43/100
+|move|p1a: Forretress|Volt Switch|p2a: Feraligatr
+|-supereffective|p2a: Feraligatr
+|-damage|p2a: Feraligatr|73/100
+|choice|switch 2|
+|
+|switch|p1a: Blissey|Blissey, F|100/100
+|
+|upkeep
+|turn|5
+|choice|switch 2|move waterfall
+|
+|switch|p1a: Forretress|Forretress, M|43/100
+|move|p2a: Feraligatr|Waterfall|p1a: Forretress
+|-damage|p1a: Forretress|0 fnt
+|faint|p1a: Forretress
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Blissey|Blissey, F|100/100
+|turn|6
+|choice|move wish|move waterfall
+|
+|move|p2a: Feraligatr|Waterfall|p1a: Blissey
+|-damage|p1a: Blissey|18/100
+|move|p1a: Blissey|Wish|p1a: Blissey
+|
+|-heal|p1a: Blissey|24/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|choice|move toxic|move waterfall
+|
+|move|p2a: Feraligatr|Waterfall|p1a: Blissey
+|-damage|p1a: Blissey|0 fnt
+|faint|p1a: Blissey
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Entei|Entei, shiny|100/100
+|-ability|p1a: Entei|Pressure
+|turn|8
+|choice|move stoneedge|move waterfall
+|
+|move|p2a: Feraligatr|Waterfall|p1a: Entei
+|-supereffective|p1a: Entei
+|-damage|p1a: Entei|0 fnt
+|faint|p1a: Entei
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Nidoqueen|Nidoqueen, F|100/100
+|turn|9
+|choice|move stealthrock|move waterfall
+|
+|move|p2a: Feraligatr|Waterfall|p1a: Nidoqueen
+|-supereffective|p1a: Nidoqueen
+|-damage|p1a: Nidoqueen|0 fnt
+|faint|p1a: Nidoqueen
+|
+|win|omgineedname
+|c|☆Scrappie|wp
+|l|Scrappie

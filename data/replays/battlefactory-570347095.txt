@@ -1,0 +1,255 @@
+|j|TheCrispyPanda
+|j|rockerboy317
+|player|p1|TheCrispyPanda|147
+|player|p2|rockerboy317|253
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|54164,25906,47543,58474,49608,14013,59938,42757,17025,43595,13395,285
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Abomasnow, M|item
+|poke|p1|Seismitoad, M|item
+|poke|p1|Vivillon, M|item
+|poke|p1|Sawk, M|item
+|poke|p1|Omastar, M|item
+|poke|p1|Jolteon, M|item
+|poke|p2|Druddigon, M|item
+|poke|p2|Hitmontop, M|item
+|poke|p2|Eelektross, M|item
+|poke|p2|Qwilfish, M|item
+|poke|p2|Poliwrath, M|item
+|poke|p2|Drapion, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 6, team 2, team 3, team 4, team 5, team 1|team 1, team 2, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Jolteon|Jolteon, M|100/100
+|switch|p2a: Druddigon|Druddigon, M|100/100
+|turn|1
+|choice|move substitute|move glare
+|
+|move|p1a: Jolteon|Substitute|p1a: Jolteon
+|-start|p1a: Jolteon|Substitute
+|-damage|p1a: Jolteon|75/100
+|move|p2a: Druddigon|Glare|p1a: Jolteon
+|-fail|p1a: Jolteon
+|
+|-heal|p1a: Jolteon|82/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|choice|move hiddenpower|move dragontail
+|
+|move|p1a: Jolteon|Hidden Power|p2a: Druddigon
+|-supereffective|p2a: Druddigon
+|-damage|p2a: Druddigon|60/100
+|move|p2a: Druddigon|Dragon Tail|p1a: Jolteon
+|-end|p1a: Jolteon|Substitute
+|
+|-heal|p1a: Jolteon|88/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|choice|move substitute|move dragontail
+|
+|move|p1a: Jolteon|Substitute|p1a: Jolteon
+|-start|p1a: Jolteon|Substitute
+|-damage|p1a: Jolteon|63/100
+|move|p2a: Druddigon|Dragon Tail|p1a: Jolteon
+|-end|p1a: Jolteon|Substitute
+|
+|-heal|p1a: Jolteon|69/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|choice|move hiddenpower|move dragontail
+|
+|move|p1a: Jolteon|Hidden Power|p2a: Druddigon
+|-supereffective|p2a: Druddigon
+|-damage|p2a: Druddigon|24/100
+|move|p2a: Druddigon|Dragon Tail|p1a: Jolteon
+|-damage|p1a: Jolteon|25/100
+|drag|p1a: Vivillon|Vivillon, M|100/100
+|
+|upkeep
+|turn|5
+|choice|move sleeppowder|move firepunch
+|
+|move|p1a: Vivillon|Sleep Powder|p2a: Druddigon
+|-status|p2a: Druddigon|slp
+|cant|p2a: Druddigon|slp
+|
+|upkeep
+|turn|6
+|choice|move substitute|move firepunch
+|
+|move|p1a: Vivillon|Substitute|p1a: Vivillon
+|-start|p1a: Vivillon|Substitute
+|-damage|p1a: Vivillon|76/100
+|cant|p2a: Druddigon|slp
+|
+|-heal|p1a: Vivillon|82/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|choice|move quiverdance|move firepunch
+|
+|move|p1a: Vivillon|Quiver Dance|p1a: Vivillon
+|-boost|p1a: Vivillon|spa|1
+|-boost|p1a: Vivillon|spd|1
+|-boost|p1a: Vivillon|spe|1
+|-curestatus|p2a: Druddigon|slp|[msg]
+|move|p2a: Druddigon|Fire Punch|p1a: Vivillon
+|-supereffective|p1a: Vivillon
+|-end|p1a: Vivillon|Substitute
+|
+|-heal|p1a: Vivillon|88/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|choice|move sleeppowder|move firepunch
+|
+|move|p1a: Vivillon|Sleep Powder|p2a: Druddigon
+|-status|p2a: Druddigon|slp
+|cant|p2a: Druddigon|slp
+|
+|-heal|p1a: Vivillon|94/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|choice|move substitute|move firepunch
+|
+|move|p1a: Vivillon|Substitute|p1a: Vivillon
+|-start|p1a: Vivillon|Substitute
+|-damage|p1a: Vivillon|69/100
+|cant|p2a: Druddigon|slp
+|
+|-heal|p1a: Vivillon|75/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|choice|move hurricane|move firepunch
+|
+|move|p1a: Vivillon|Hurricane|p2a: Druddigon
+|-damage|p2a: Druddigon|0 fnt
+|faint|p2a: Druddigon
+|
+|-heal|p1a: Vivillon|81/100|[from] item: Leftovers
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Eelektross|Eelektross, M|100/100
+|turn|11
+|choice|move sleeppowder|move flamethrower
+|
+|move|p1a: Vivillon|Sleep Powder|p2a: Eelektross
+|-status|p2a: Eelektross|slp
+|cant|p2a: Eelektross|slp
+|
+|-heal|p1a: Vivillon|87/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|c|☆rockerboy317|stop
+|choice|move hurricane|move flamethrower
+|
+|move|p1a: Vivillon|Hurricane|p2a: Eelektross
+|-resisted|p2a: Eelektross
+|-damage|p2a: Eelektross|76/100 slp
+|-start|p2a: Eelektross|confusion
+|cant|p2a: Eelektross|slp
+|
+|-heal|p1a: Vivillon|93/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|choice|move hurricane|move flamethrower
+|
+|move|p1a: Vivillon|Hurricane|p2a: Eelektross
+|-resisted|p2a: Eelektross
+|-damage|p2a: Eelektross|53/100 slp
+|cant|p2a: Eelektross|slp
+|
+|-heal|p1a: Vivillon|99/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|choice|move hurricane|move flamethrower
+|
+|move|p1a: Vivillon|Hurricane|p2a: Eelektross
+|-resisted|p2a: Eelektross
+|-damage|p2a: Eelektross|30/100 slp
+|-curestatus|p2a: Eelektross|slp|[msg]
+|-activate|p2a: Eelektross|confusion
+|-damage|p2a: Eelektross|20/100|[from] confusion
+|
+|-heal|p1a: Vivillon|100/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|c|☆rockerboy317|please
+|c|☆TheCrispyPanda|Compound eyes man
+|c|☆rockerboy317|please stop
+|choice|move hurricane|move flamethrower
+|
+|move|p1a: Vivillon|Hurricane|p2a: Eelektross
+|-resisted|p2a: Eelektross
+|-damage|p2a: Eelektross|0 fnt
+|faint|p2a: Eelektross
+|
+|upkeep
+|c|☆TheCrispyPanda|Rocker?
+|choice||switch 4
+|
+|switch|p2a: Qwilfish|Qwilfish, M|100/100
+|-ability|p2a: Qwilfish|Intimidate|boost
+|-immune|p1a: Vivillon|[msg]
+|turn|16
+|choice|move hurricane|move taunt
+|
+|move|p1a: Vivillon|Hurricane|p2a: Qwilfish
+|-enditem|p2a: Qwilfish|Focus Sash
+|-damage|p2a: Qwilfish|1/100
+|move|p2a: Qwilfish|Taunt|p1a: Vivillon
+|-start|p1a: Vivillon|move: Taunt
+|
+|upkeep
+|turn|17
+|choice|move hurricane|move explosion
+|
+|move|p1a: Vivillon|Hurricane|p2a: Qwilfish
+|-damage|p2a: Qwilfish|0 fnt
+|faint|p2a: Qwilfish
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Drapion|Drapion, M|100/100
+|turn|18
+|choice|move hurricane|move knockoff
+|
+|move|p1a: Vivillon|Hurricane|p2a: Drapion
+|-damage|p2a: Drapion|0 fnt
+|faint|p2a: Drapion
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Poliwrath|Poliwrath, M|100/100
+|turn|19
+|choice|move hurricane|move circlethrow
+|
+|move|p1a: Vivillon|Hurricane|p2a: Poliwrath
+|-supereffective|p2a: Poliwrath
+|-damage|p2a: Poliwrath|0 fnt
+|faint|p2a: Poliwrath
+|
+|-end|p1a: Vivillon|move: Taunt
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Hitmontop|Hitmontop, M|100/100
+|-ability|p2a: Hitmontop|Intimidate|boost
+|-immune|p1a: Vivillon|[msg]
+|turn|20
+|choice|move hurricane|move closecombat
+|
+|move|p1a: Vivillon|Hurricane|p2a: Hitmontop
+|-supereffective|p2a: Hitmontop
+|-damage|p2a: Hitmontop|0 fnt
+|faint|p2a: Hitmontop
+|
+|win|TheCrispyPanda
+|c|☆TheCrispyPanda|gg
