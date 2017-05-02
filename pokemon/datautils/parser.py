@@ -34,6 +34,62 @@ def getActionIDFromString(actionString, pokemon=None):
 
 	return actionID
 
+def encodePokemonObject(pokemon):
+	'''
+	Encodes a pokemon object. Fills in any unknown moves/items with an unknown token.
+
+	Input: Pokemon object
+	Output: Pokemon encoding object with shape (1, POKE_DESCRIPTOR_SIZE)
+	'''
+	pokemon_encoding = np.zeros((1, POKE_DESCRIPTOR_SIZE))
+
+	pokemon_id = POKEMON_LIST[pokemon.species]
+
+	move_ids = []
+
+	# Encodes pokemon item
+	if pokemon.item in ITEM_LIST:
+		item_id = ITEM_LIST[pokemon.item]
+	else:
+		item_id = ITEM_LIST['<UNK>']
+
+	for move in pokemon.moves:
+		if move in MOVE_LIST:
+			move_ids.append(MOVE_LIST[move])
+		else:
+			move_ids.append(MOVE_LIST['<UNK>'])
+
+	if len(move_ids) < 4:
+		num_unk_moves = 4 - len(move_ids)
+		for i in range(num_unk_moves):
+			move_ids.append(MOVE_LIST['<UNK>'])
+
+	assert(len(move_ids) == 4)
+
+	if pokemon.status == "psn":
+		status_key = "POISONED"
+	elif pokemon.status == "tox":
+		status_key = "BADLY_POISONED"
+	elif pokemon.status == "brn":
+		status_key = "BURNED"
+	elif pokemon.status == "par":
+		status_key = "PARALYZED"
+	elif pokemon.status == "slp":
+		status_key = "SLEEP"
+	elif pokemon.status == "frz":
+		status_key = "FROZEN"
+	else:
+		status_key = "NONE"
+
+	status_id = STATUS_IDS[status_key]
+
+	pokemon_encoding[:, 0] = pokemon_id
+	for i in range(len(move_ids)):
+		pokemon_encoding[:, i+1] = move_ids[i]
+	pokemon_encoding[:, 5] = item_id
+	pokemon_encoding[:, 6] = status_id
+
+	return pokemon_encoding
 
 class PokemonShowdownEncoding(object):
 	def __init__(self, name=None, data_type=None, num_turns=None):
@@ -59,63 +115,6 @@ class PokemonShowdownEncoding(object):
 	def save(self):
 		with open(PARSED_FOLDER + self.type + '/' + self.name + '.p', 'wb') as f:
 			pickle.dump(self, f)
-
-	def encodePokemonObject(self, pokemon):
-		'''
-		Encodes a pokemon object. Fills in any unknown moves/items with an unknown token.
-
-		Input: Pokemon object
-		Output: Pokemon encoding object with shape (1, POKE_DESCRIPTOR_SIZE)
-		'''
-		pokemon_encoding = np.zeros((1, POKE_DESCRIPTOR_SIZE))
-
-		pokemon_id = POKEMON_LIST[pokemon.species]
-
-		move_ids = []
-
-		# Encodes pokemon item
-		if pokemon.item in ITEM_LIST:
-			item_id = ITEM_LIST[pokemon.item]
-		else:
-			item_id = ITEM_LIST['<UNK>']
-
-		for move in pokemon.moves:
-			if move in MOVE_LIST:
-				move_ids.append(MOVE_LIST[move])
-			else:
-				move_ids.append(MOVE_LIST['<UNK>'])
-
-		if len(move_ids) < 4:
-			num_unk_moves = 4 - len(move_ids)
-			for i in range(num_unk_moves):
-				move_ids.append(MOVE_LIST['<UNK>'])
-
-		assert(len(move_ids) == 4)
-
-		if pokemon.status == "psn":
-			status_key = "POISONED"
-		elif pokemon.status == "tox":
-			status_key = "BADLY_POISONED"
-		elif pokemon.status == "brn":
-			status_key = "BURNED"
-		elif pokemon.status == "par":
-			status_key = "PARALYZED"
-		elif pokemon.status == "slp":
-			status_key = "SLEEP"
-		elif pokemon.status == "frz":
-			status_key = "FROZEN"
-		else:
-			status_key = "NONE"
-
-		status_id = STATUS_IDS[status_key]
-
-		pokemon_encoding[:, 0] = pokemon_id
-		for i in range(len(move_ids)):
-			pokemon_encoding[:, i+1] = move_ids[i]
-		pokemon_encoding[:, 5] = item_id
-		pokemon_encoding[:, 6] = status_id
-
-		return pokemon_encoding
 
 	def encodeLabels(self, turnList, winner):
 		for turnNumber, lst in turnList.iteritems():
@@ -162,6 +161,11 @@ class PokemonShowdownEncoding(object):
 
 		print self.last_move_data
 
+	def encodeOpponentPokemon(self, opponentPokemonEncoding):
+		for turnNumber, lst in opponentPokemonEncoding:
+			for i in range(6, 12):
+				self.pokemon[i][turnNumber] = lst[i-6]
+
 
 class PokemonShowdownReplayParser(object):
 	def __init__(self, log="", winner=""):
@@ -172,10 +176,12 @@ class PokemonShowdownReplayParser(object):
 
 		# self.winner is either "p1" or "p2".
 		self.winner = winner
+		self.opponent = None
 
 		self.turnNumber = -1
 		self.turnList = {}
 		self.opponentTurnList = {}
+		self.opponentPokemonEncoding = {}
 
 		self.lines = None
 
@@ -220,6 +226,7 @@ class PokemonShowdownReplayParser(object):
 
 		obj.encodeLabels(self.turnList, self.winner)
 		obj.encodeOpponentsLastMove(self.opponentTurnList)
+		obj.encodeOpponentsPokemon(self.opponentPokemonEncoding)
 
 		return obj
 
@@ -471,8 +478,10 @@ class PokemonShowdownReplayParser(object):
 
 		if self.players["p1"].username == winnerUsername:
 			self.winner = "p1"
+			self.opponent = "p2"
 		else:
 			self.winner = "p2"
+			self.opponent = "p1"
 
 	def processTurn(self, line):
 		fields = line.split("|")
@@ -715,6 +724,20 @@ class PokemonShowdownReplayParser(object):
 				self.opponentTurnList[turnNumber].append(turn)
 			else:
 				self.opponentTurnList[turnNumber] = [turn]
+
+		self.encodeOpponentsPokemon(turnNumber)
+
+	def encodeOpponentsPokemon(self, turnNumber):
+		opponent = self.players[self.opponent]
+		currentPokemon = opponent.currentPokemon
+		self.opponentPokemonEncoding[turnNumber] = []
+		self.opponentPokemonEncoding[turnNumber].append(encodePokemonObject(currentPokemon))
+		for pokemon in opponent.pokemon:
+			if pokemon == currentPokemon:
+				continue
+			self.opponentPokemonEncoding[turnNumber].append(encodePokemonObject(pokemon))
+
+		print self.opponentPokemonEncoding
 
 
 class Player(object):

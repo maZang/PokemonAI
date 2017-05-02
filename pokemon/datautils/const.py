@@ -3,6 +3,7 @@ import pickle
 POKEMON_FILE = 'data/info/pokemon2.p'
 ITEM_FILE = 'data/info/item2.p'
 MOVE_FILE = 'data/info/move2.p'
+# Pokemon ID, Move ID x4, Item ID, Status ID
 POKE_DESCRIPTOR_SIZE = 7
 POKE_META_SIZE = 1 # current health percentage
 FIELD_META_SIZE = 0 # number of field status (e.g. weather) -- 0 for now
