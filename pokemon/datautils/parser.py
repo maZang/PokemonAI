@@ -150,7 +150,6 @@ class PokemonShowdownEncoding(object):
 		for turnNumber, lst in opponentTurnList.iteritems():
 			# Only care about the last move in sequence of multiple moves
 			actionID = getActionIDFromString(lst[-1].action, pokemon=lst[-1].pokemon.species)
-			print(turnNumber, nextTurnNumber)
 			for x in range(turnNumber, nextTurnNumber):
 				self.last_move_data[x][1] = actionID
 
@@ -163,7 +162,7 @@ class PokemonShowdownEncoding(object):
 		print self.last_move_data
 
 	def encodeOpponentPokemon(self, opponentPokemonEncoding):
-		for turnNumber, lst in opponentPokemonEncoding:
+		for turnNumber, lst in opponentPokemonEncoding.iteritems():
 			for i in range(6, 12):
 				self.pokemon[i][turnNumber] = lst[i-6]
 
@@ -210,7 +209,7 @@ class PokemonShowdownReplayParser(object):
 			print(item)
 		'''
 
-		# self.generateEncodingObject()
+		self.generateEncodingObject()
 
 		'''
 		encoding = PokemonShowdownEncoding()
@@ -235,7 +234,9 @@ class PokemonShowdownReplayParser(object):
 
 		obj.encodeLabels(self.turnList, self.winner)
 		obj.encodeOpponentsLastMove(self.opponentTurnList)
-		obj.encodeOpponentsPokemon(self.opponentPokemonEncoding)
+		for item in self.opponentPokemonEncoding.iteritems():
+			print item
+		obj.encodeOpponentPokemon(self.opponentPokemonEncoding)
 		# obj.encodeWinnerPokemon(self.players[self.winner].pokemon)
 
 		return obj
@@ -722,19 +723,20 @@ class PokemonShowdownReplayParser(object):
 			else:
 				self.opponentTurnList[turnNumber] = [turn]
 
-		self.encodeOpponentsPokemon(turnNumber)
+		self.encodeOpponentsPokemon(max(0, self.turnNumber))
 
 	def encodeOpponentsPokemon(self, turnNumber):
 		opponent = self.players[self.opponent]
 		currentPokemon = opponent.currentPokemon
+		if not currentPokemon:
+			return
+
 		self.opponentPokemonEncoding[turnNumber] = []
 		self.opponentPokemonEncoding[turnNumber].append(encodePokemonObject(currentPokemon))
 		for pokemon in opponent.pokemon:
 			if pokemon == currentPokemon:
 				continue
 			self.opponentPokemonEncoding[turnNumber].append(encodePokemonObject(pokemon))
-
-		# print self.opponentPokemonEncoding
 
 
 class Player(object):
