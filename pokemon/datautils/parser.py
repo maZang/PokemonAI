@@ -92,6 +92,7 @@ class PokemonShowdownEncoding(object):
 
 		assert(len(move_ids) == 4)
 
+		'''
 		if pokemon.status == "psn":
 			status_key = "POISONED"
 		elif pokemon.status == "tox":
@@ -108,6 +109,8 @@ class PokemonShowdownEncoding(object):
 			status_key = "NONE"
 
 		status_id = STATUS_IDS[status_key]
+		'''
+		status_id = STATUS_IDS["NONE"]
 
 		pokemon_encoding[:, 0] = pokemon_id
 		for i in range(len(move_ids)):
