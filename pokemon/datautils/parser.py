@@ -76,8 +76,22 @@ class PokemonShowdownEncoding(object):
 
 		assert(len(move_ids) == 4)
 
-		# TODO: implement status effects
-		status_id = 0
+		if pokemon.status == "psn":
+			status_key = "POISONED"
+		elif pokemon.status == "tox":
+			status_key = "BADLY_POISONED"
+		elif pokemon.status == "brn":
+			status_key = "BURNED"
+		elif pokemon.status == "par":
+			status_key = "PARALYZED"
+		elif pokemon.status == "slp":
+			status_key = "SLEEP"
+		elif pokemon.status == "frz":
+			status_key = "FROZEN"
+		else:
+			status_key = "NONE"
+
+		status_id = STATUS_IDS[status_key]
 
 		pokemon_encoding[:, 0] = pokemon_id
 		for i in range(len(move_ids)):
@@ -207,6 +221,10 @@ class PokemonShowdownReplayParser(object):
 				self.processDetailsChange(line)
 			elif line.startswith("|replace|"):
 				self.processReplace(line)
+			elif line.startswith("|-status|"):
+				self.processStatus(line)
+			elif line.startswith("|-curestatus|"):
+				self.processCureStatus(line)
 			# elif line.startswith("|-item|"):
 			#
 			#		self.processItem(line)
@@ -255,7 +273,6 @@ class PokemonShowdownReplayParser(object):
 					or line.startswith("|-singleturn|")
 					or line.startswith("|-message|")
 					or line.startswith("|cant|")
-					or line.startswith("|-status|")
 					or line.startswith("|-unboost|")
 					or line == "|"):
 					pass
@@ -566,6 +583,24 @@ class PokemonShowdownReplayParser(object):
 		pokemon = self.players[player].getPokemonByNickname(nickname)
 		pokemon.species = species
 
+	def processStatus(self, line):
+		matches = re.search("\|-status\|(p[12])a:\s+([^|]+)\|([^\n|]+)", line).groups()
+		player = matches[0]
+		nickname = matches[1]
+		status = matches[2]
+
+		pokemon = self.players[player].getPokemonByNickname(nickname)
+		pokemon.status = status
+		print(pokemon.status)
+
+	def processCureStatus(self, line):
+		matches = re.search("\|-curestatus\|(p[12])a{0,1}:\s+([^|]+)\|([^\n|]+)", line).groups()
+		player = matches[0]
+		nickname = matches[1]
+
+		pokemon = self.players[player].getPokemonByNickname(nickname)
+		pokemon.status = ""
+
 	def processItemFromMove(self, line):
 		matches = re.search("\|-item\|(p[12])a:\s+([^|]+)\|([^|]+)", line).groups()
 		player = matches[0]
@@ -589,7 +624,7 @@ class PokemonShowdownReplayParser(object):
 			pokemon.item = item
 
 	def processHealFromItem(self, line):
-		matches = re.search("-heal\|(p[12])a:\s+([^|]+)\|[^|]+\|\[from\] item: (.+)", line).groups()
+		matches = re.search("\|-heal\|(p[12])a:\s+([^|]+)\|[^|]+\|\[from\] item: (.+)", line).groups()
 		player = matches[0]
 		nickname = matches[1]
 		item = matches[2]
@@ -658,11 +693,12 @@ class Player(object):
 
 
 class Pokemon(object):
-	def __init__(self, species="", nickname="", item="", ability=""):
+	def __init__(self, species="", nickname="", item="", ability="", status=""):
 		self.species = species
 		self.nickname = nickname
 		self.item = item
 		self.ability = ability
+		self.status = status
 		self.moves = set()
 
 	def __repr__(self):
