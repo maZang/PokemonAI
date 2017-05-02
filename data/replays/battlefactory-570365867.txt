@@ -1,0 +1,343 @@
+|j|naruto offline
+|j|Denzel Yo
+|player|p1|naruto offline|2
+|player|p2|Denzel Yo|270
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|61293,32940,28056,6120,13022,49481,26978,29854,41802,37189,17427,37865
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Tyranitar, M|item
+|poke|p1|Rayquaza|item
+|poke|p1|Scizor, M|item
+|poke|p1|Darkrai|item
+|poke|p1|Arceus-*|item
+|poke|p1|Ho-Oh|item
+|poke|p2|Deoxys|item
+|poke|p2|Arceus-*|item
+|poke|p2|Mawile, M|item
+|poke|p2|Yveltal|item
+|poke|p2|Giratina-Origin|item
+|poke|p2|Greninja, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 5, team 2, team 3, team 4, team 1, team 6|team 1, team 2, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Arceus|Arceus-Electric|100/100
+|switch|p2a: Deoxys|Deoxys|100/100
+|-ability|p2a: Deoxys|Pressure
+|turn|1
+|choice|move calmmind|move taunt
+|
+|move|p2a: Deoxys|Taunt|p1a: Arceus
+|-start|p1a: Arceus|move: Taunt
+|cant|p1a: Arceus|move: Taunt|Calm Mind
+|
+|upkeep
+|turn|2
+|choice|move judgment|move stealthrock
+|
+|move|p2a: Deoxys|Stealth Rock|p1a: Arceus
+|-sidestart|p1: naruto offline|move: Stealth Rock
+|move|p1a: Arceus|Judgment|p2a: Deoxys
+|-enditem|p2a: Deoxys|Focus Sash
+|-damage|p2a: Deoxys|1/100
+|
+|upkeep
+|turn|3
+|choice|move icebeam|move psychoboost
+|
+|move|p2a: Deoxys|Psycho Boost|p1a: Arceus
+|-damage|p1a: Arceus|38/100
+|-unboost|p2a: Deoxys|spa|2
+|move|p1a: Arceus|Ice Beam|p2a: Deoxys
+|-damage|p2a: Deoxys|0 fnt
+|faint|p2a: Deoxys
+|
+|-end|p1a: Arceus|move: Taunt
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Mawile|Mawile, M|100/100
+|-ability|p2a: Mawile|Intimidate|boost
+|-unboost|p1a: Arceus|atk|1
+|turn|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by naruto offline)
+|choice|move recover|move ironhead mega
+|
+|detailschange|p2a: Mawile|Mawile-Mega, M
+|-mega|p2a: Mawile|Mawile|Mawilite
+|move|p1a: Arceus|Recover|p1a: Arceus
+|-heal|p1a: Arceus|88/100
+|move|p2a: Mawile|Iron Head|p1a: Arceus
+|-resisted|p1a: Arceus
+|-damage|p1a: Arceus|64/100
+|
+|upkeep
+|turn|5
+|choice|move judgment|move playrough
+|
+|move|p1a: Arceus|Judgment|p2a: Mawile
+|-damage|p2a: Mawile|44/100
+|move|p2a: Mawile|Play Rough|p1a: Arceus
+|-damage|p1a: Arceus|9/100
+|
+|upkeep
+|turn|6
+|choice|move judgment|move suckerpunch
+|
+|move|p2a: Mawile|Sucker Punch|p1a: Arceus
+|-damage|p1a: Arceus|0 fnt
+|faint|p1a: Arceus
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Scizor|Scizor, M|100/100
+|-damage|p1a: Scizor|88/100|[from] Stealth Rock
+|turn|7
+|choice|move bulletpunch mega|switch 5
+|
+|switch|p2a: Giratina|Giratina-Origin|100/100
+|detailschange|p1a: Scizor|Scizor-Mega, M
+|-mega|p1a: Scizor|Scizor|Scizorite
+|move|p1a: Scizor|Bullet Punch|p2a: Giratina
+|-damage|p2a: Giratina|82/100
+|
+|upkeep
+|turn|8
+|choice|move toxic|move dragontail
+|
+|move|p1a: Scizor|Toxic|p2a: Giratina
+|-status|p2a: Giratina|tox
+|move|p2a: Giratina|Dragon Tail|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|76/100
+|drag|p1a: Rayquaza|Rayquaza|100/100
+|-damage|p1a: Rayquaza|76/100|[from] Stealth Rock
+|-ability|p1a: Rayquaza|Air Lock
+|
+|-damage|p2a: Giratina|76/100 tox|[from] psn
+|upkeep
+|turn|9
+|choice|move dracometeor|move shadowforce
+|
+|move|p1a: Rayquaza|Draco Meteor|p2a: Giratina|[miss]
+|-miss|p1a: Rayquaza|p2a: Giratina
+|move|p2a: Giratina|Shadow Force|p1a: Rayquaza|[still]
+|-prepare|p2a: Giratina|Shadow Force|p1a: Rayquaza
+|
+|-damage|p2a: Giratina|64/100 tox|[from] psn
+|upkeep
+|turn|10
+|choice|move extremespeed|move shadowforce
+|
+|move|p1a: Rayquaza|Extreme Speed|p2a: Giratina
+|-immune|p2a: Giratina|[msg]
+|move|p2a: Giratina|Shadow Force|p1a: Rayquaza|[from]lockedmove
+|-damage|p1a: Rayquaza|0 fnt
+|faint|p1a: Rayquaza
+|
+|-damage|p2a: Giratina|45/100 tox|[from] psn
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-damage|p1a: Tyranitar|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|11
+|choice|move stealthrock|switch 2
+|
+|switch|p2a: Arceus|Arceus-Ground|100/100
+|move|p1a: Tyranitar|Stealth Rock|p2a: Arceus
+|-sidestart|p2: Denzel Yo|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|12
+|choice|move roar|move swordsdance
+|
+|move|p2a: Arceus|Swords Dance|p2a: Arceus
+|-boost|p2a: Arceus|atk|2
+|move|p1a: Tyranitar|Roar|p2a: Arceus
+|drag|p2a: Giratina|Giratina-Origin|45/100 tox
+|-damage|p2a: Giratina|33/100 tox|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Giratina|27/100 tox|[from] sandstorm
+|-damage|p2a: Giratina|21/100 tox|[from] psn
+|upkeep
+|turn|13
+|choice|move pursuit|move dragontail
+|
+|move|p1a: Tyranitar|Pursuit|p2a: Giratina
+|-supereffective|p2a: Giratina
+|-damage|p2a: Giratina|0 fnt
+|faint|p2a: Giratina
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Mawile|Mawile-Mega, M|44/100
+|-damage|p2a: Mawile|38/100|[from] Stealth Rock
+|turn|14
+|choice|move rockslide|move playrough
+|
+|move|p1a: Tyranitar|Rock Slide|p2a: Mawile
+|-resisted|p2a: Mawile
+|-damage|p2a: Mawile|23/100
+|cant|p2a: Mawile|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|15
+|choice|move roar|move playrough
+|
+|move|p2a: Mawile|Play Rough|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|-weather|none
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Scizor|Scizor-Mega, M|76/100
+|-damage|p1a: Scizor|63/100|[from] Stealth Rock
+|turn|16
+|choice|move bulletpunch|move suckerpunch
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Mawile
+|-damage|p2a: Mawile|0 fnt
+|faint|p2a: Mawile
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Greninja|Greninja, M|100/100
+|-damage|p2a: Greninja|88/100|[from] Stealth Rock
+|turn|17
+|choice|move toxic|move scald
+|
+|move|p2a: Greninja|Scald|p1a: Scizor
+|-start|p2a: Greninja|typechange|Water|[from] Protean
+|-damage|p1a: Scizor|38/100
+|move|p1a: Scizor|Toxic|p2a: Greninja
+|-status|p2a: Greninja|tox
+|
+|-damage|p2a: Greninja|82/100 tox|[from] psn
+|upkeep
+|turn|18
+|choice|move roost|move scald
+|
+|move|p2a: Greninja|Scald|p1a: Scizor
+|-damage|p1a: Scizor|16/100
+|-status|p1a: Scizor|brn
+|move|p1a: Scizor|Roost|p1a: Scizor
+|-heal|p1a: Scizor|66/100 brn
+|
+|-damage|p2a: Greninja|70/100 tox|[from] psn
+|-damage|p1a: Scizor|54/100 brn|[from] brn
+|upkeep
+|turn|19
+|choice|move defog|move toxicspikes
+|
+|move|p2a: Greninja|Toxic Spikes|p1a: Scizor
+|-start|p2a: Greninja|typechange|Poison|[from] Protean
+|-sidestart|p1: naruto offline|move: Toxic Spikes
+|move|p1a: Scizor|Defog|p2a: Greninja
+|-unboost|p2a: Greninja|evasion|1
+|-sideend|p2: Denzel Yo|Stealth Rock|[from] move: Defog|[of] p2a: Greninja
+|-sideend|p1: naruto offline|Toxic Spikes|[from] move: Defog|[of] p1a: Scizor
+|-sideend|p1: naruto offline|Stealth Rock|[from] move: Defog|[of] p1a: Scizor
+|
+|-damage|p2a: Greninja|52/100 tox|[from] psn
+|-damage|p1a: Scizor|42/100 brn|[from] brn
+|upkeep
+|turn|20
+|choice|move defog|move taunt
+|
+|move|p2a: Greninja|Taunt|p1a: Scizor
+|-start|p2a: Greninja|typechange|Dark|[from] Protean
+|-start|p1a: Scizor|move: Taunt
+|cant|p1a: Scizor|move: Taunt|Defog
+|
+|-damage|p2a: Greninja|29/100 tox|[from] psn
+|-damage|p1a: Scizor|29/100 brn|[from] brn
+|upkeep
+|turn|21
+|choice|move bulletpunch|move scald
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Greninja
+|-damage|p2a: Greninja|2/100 tox
+|move|p2a: Greninja|Scald|p1a: Scizor
+|-start|p2a: Greninja|typechange|Water|[from] Protean
+|-damage|p1a: Scizor|7/100 brn
+|
+|-damage|p2a: Greninja|0 fnt|[from] psn
+|-damage|p1a: Scizor|0 fnt|[from] brn
+|upkeep
+|faint|p2a: Greninja
+|faint|p1a: Scizor
+|choice|switch 4|switch 2
+|
+|switch|p1a: Darkrai|Darkrai|100/100
+|switch|p2a: Arceus|Arceus-Ground|100/100
+|turn|22
+|choice|move darkvoid|switch 4
+|
+|switch|p2a: Yveltal|Yveltal|100/100
+|-ability|p2a: Yveltal|Dark Aura
+|move|p1a: Darkrai|Dark Void|p2a: Yveltal
+|-status|p2a: Yveltal|slp
+|
+|-damage|p2a: Yveltal|88/100 slp|[from] ability: Bad Dreams|[of] p1a: Darkrai
+|upkeep
+|turn|23
+|choice|move thunder|switch 4
+|
+|switch|p2a: Arceus|Arceus-Ground|100/100
+|move|p1a: Darkrai|Thunder|p2a: Arceus
+|-immune|p2a: Arceus|[msg]
+|
+|upkeep
+|turn|24
+|choice|move darkvoid|move swordsdance
+|
+|move|p1a: Darkrai|Dark Void|p2a: Arceus
+|-message|Sleep Clause Mod activated.
+|move|p2a: Arceus|Swords Dance|p2a: Arceus
+|-boost|p2a: Arceus|atk|2
+|
+|upkeep
+|turn|25
+|choice|move taunt|move earthquake
+|
+|move|p1a: Darkrai|Taunt|p2a: Arceus
+|-start|p2a: Arceus|move: Taunt
+|move|p2a: Arceus|Earthquake|p1a: Darkrai
+|-damage|p1a: Darkrai|0 fnt
+|faint|p1a: Darkrai
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Ho-Oh|Ho-Oh|100/100
+|turn|26
+|choice|move sacredfire|move stoneedge
+|
+|move|p2a: Arceus|Stone Edge|p1a: Ho-Oh
+|-supereffective|p1a: Ho-Oh
+|-damage|p1a: Ho-Oh|0 fnt
+|faint|p1a: Ho-Oh
+|
+|win|Denzel Yo
+|c|☆naruto offline|gg
+|raw|naruto offline's rating: 1000 &rarr; <strong>1000</strong><br />(+0 for losing)
+|raw|Denzel Yo's rating: 1000 &rarr; <strong>1040</strong><br />(+40 for winning)
+|l|naruto offline

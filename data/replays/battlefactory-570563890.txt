@@ -1,0 +1,298 @@
+|j|Mr. Throh
+|j|frontier pelli
+|player|p1|Mr. Throh|169
+|player|p2|frontier pelli|274
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|23092,54660,51431,22050,54193,25563,26576,28906,3617,19640,20985,62540
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Garbodor, M|item
+|poke|p1|Beheeyem, M|item
+|poke|p1|Pawniard, M|item
+|poke|p1|Pelipper, M|item
+|poke|p1|Kangaskhan, F|item
+|poke|p1|Clefairy, M|item
+|poke|p2|Archeops, M|item
+|poke|p2|Tauros, M|item
+|poke|p2|Cacturne, M|item
+|poke|p2|Pyroar, M|item
+|poke|p2|Electivire, M|item
+|poke|p2|Rotom-Fan|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Mr. Throh)
+|c|☆Mr. Throh|Oh shit, you got the air Balloon Rotom fan.
+|c|☆frontier pelli|shit is op man
+|choice|team 4, team 2, team 3, team 1, team 5, team 6|team 1, team 2, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Pelipper|Pelipper, M|100/100
+|switch|p2a: Archeops|Archeops, M|100/100
+|turn|1
+|choice|move uturn|move stealthrock
+|
+|move|p2a: Archeops|Stealth Rock|p1a: Pelipper
+|-sidestart|p1: Mr. Throh|move: Stealth Rock
+|move|p1a: Pelipper|U-turn|p2a: Archeops
+|-resisted|p2a: Archeops
+|-damage|p2a: Archeops|94/100
+|choice|switch 4|
+|
+|switch|p1a: Garbodor|Garbodor, M|100/100
+|-damage|p1a: Garbodor|88/100|[from] Stealth Rock
+|
+|upkeep
+|turn|2
+|choice|move toxicspikes|move taunt
+|
+|move|p2a: Archeops|Taunt|p1a: Garbodor
+|-start|p1a: Garbodor|move: Taunt
+|cant|p1a: Garbodor|move: Taunt|Toxic Spikes
+|
+|upkeep
+|turn|3
+|c|☆Mr. Throh|Oh it's that Head Smash Endeavor set.
+|choice|move drainpunch|move headsmash
+|
+|move|p2a: Archeops|Head Smash|p1a: Garbodor
+|-damage|p1a: Garbodor|19/100
+|-damage|p2a: Archeops|77/100|[from] item: Rocky Helmet|[of] p1a: Garbodor
+|-damage|p2a: Archeops|33/100|[from] recoil|[of] p1a: Garbodor
+|move|p1a: Garbodor|Drain Punch|p2a: Archeops
+|-damage|p2a: Archeops|5/100
+|-heal|p1a: Garbodor|30/100|[from] drain|[of] p2a: Archeops
+|
+|upkeep
+|turn|4
+|choice|switch 6|move headsmash
+|
+|switch|p1a: Clefairy|Clefairy, M|100/100
+|move|p2a: Archeops|Head Smash|p1a: Clefairy
+|-damage|p1a: Clefairy|49/100
+|-damage|p2a: Archeops|0 fnt|[from] recoil|[of] p1a: Clefairy
+|faint|p2a: Archeops
+|
+|upkeep
+|c|☆Mr. Throh|Wow
+|choice||switch 4
+|
+|switch|p2a: Pyroar|Pyroar, M|100/100
+|-ability|p2a: Pyroar|Unnerve|p1: Mr. Throh
+|turn|5
+|choice|move thunderwave|move fireblast
+|
+|move|p2a: Pyroar|Fire Blast|p1a: Clefairy
+|-damage|p1a: Clefairy|8/100
+|-damage|p2a: Pyroar|91/100|[from] item: Life Orb
+|move|p1a: Clefairy|Thunder Wave|p2a: Pyroar
+|-status|p2a: Pyroar|par
+|
+|upkeep
+|turn|6
+|choice|move softboiled|move hypervoice
+|
+|move|p1a: Clefairy|Soft-Boiled|p1a: Clefairy
+|-heal|p1a: Clefairy|58/100
+|move|p2a: Pyroar|Hyper Voice|p1a: Clefairy
+|-damage|p1a: Clefairy|23/100
+|-damage|p2a: Pyroar|81/100 par|[from] item: Life Orb
+|
+|upkeep
+|turn|7
+|choice|move softboiled|move willowisp
+|
+|move|p1a: Clefairy|Soft-Boiled|p1a: Clefairy
+|-heal|p1a: Clefairy|73/100
+|move|p2a: Pyroar|Will-O-Wisp|p1a: Clefairy
+|-status|p1a: Clefairy|brn
+|
+|upkeep
+|turn|8
+|choice|move stealthrock|move fireblast
+|
+|move|p1a: Clefairy|Stealth Rock|p2a: Pyroar
+|-sidestart|p2: frontier pelli|move: Stealth Rock
+|move|p2a: Pyroar|Fire Blast|p1a: Clefairy
+|-damage|p1a: Clefairy|30/100 brn
+|-damage|p2a: Pyroar|71/100 par|[from] item: Life Orb
+|
+|upkeep
+|turn|9
+|choice|move softboiled|switch 2
+|
+|switch|p2a: Tauros|Tauros, M|100/100
+|-damage|p2a: Tauros|88/100|[from] Stealth Rock
+|move|p1a: Clefairy|Soft-Boiled|p1a: Clefairy
+|-heal|p1a: Clefairy|80/100 brn
+|
+|upkeep
+|turn|10
+|choice|switch 6|switch 5
+|
+|switch|p2a: Electivire|Electivire, M|100/100
+|-damage|p2a: Electivire|88/100|[from] Stealth Rock
+|switch|p1a: Garbodor|Garbodor, M|30/100
+|-damage|p1a: Garbodor|18/100|[from] Stealth Rock
+|
+|upkeep
+|turn|11
+|choice|move gunkshot|move earthquake
+|
+|move|p2a: Electivire|Earthquake|p1a: Garbodor
+|-supereffective|p1a: Garbodor
+|-damage|p1a: Garbodor|0 fnt
+|-damage|p2a: Electivire|78/100|[from] item: Life Orb
+|faint|p1a: Garbodor
+|
+|upkeep
+|c|☆Mr. Throh|This thing is totally unbearable.
+|c|☆Mr. Throh|Espexially with Rotom-Fan support
+|choice|switch 5|
+|
+|switch|p1a: Kangaskhan|Kangaskhan, F|100/100
+|-damage|p1a: Kangaskhan|88/100|[from] Stealth Rock
+|turn|12
+|choice|move fakeout|move wildcharge
+|
+|move|p1a: Kangaskhan|Fake Out|p2a: Electivire
+|-damage|p2a: Electivire|41/100
+|cant|p2a: Electivire|flinch
+|
+|upkeep
+|turn|13
+|choice|move earthquake|move wildcharge
+|
+|move|p2a: Electivire|Wild Charge|p1a: Kangaskhan
+|-damage|p1a: Kangaskhan|16/100
+|-damage|p2a: Electivire|19/100|[from] recoil|[of] p1a: Kangaskhan
+|-damage|p2a: Electivire|9/100|[from] item: Life Orb
+|move|p1a: Kangaskhan|Earthquake|p2a: Electivire
+|-supereffective|p2a: Electivire
+|-damage|p2a: Electivire|0 fnt
+|faint|p2a: Electivire
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Tauros|Tauros, M|88/100
+|-damage|p2a: Tauros|76/100|[from] Stealth Rock
+|turn|14
+|choice|move suckerpunch|move rockclimb
+|
+|move|p1a: Kangaskhan|Sucker Punch|p2a: Tauros
+|-damage|p2a: Tauros|48/100
+|move|p2a: Tauros|Rock Climb|p1a: Kangaskhan|[miss]
+|-miss|p2a: Tauros|p1a: Kangaskhan
+|
+|upkeep
+|turn|15
+|choice|move suckerpunch|move rockclimb
+|
+|move|p1a: Kangaskhan|Sucker Punch|p2a: Tauros
+|-damage|p2a: Tauros|16/100
+|move|p2a: Tauros|Rock Climb|p1a: Kangaskhan|[miss]
+|-miss|p2a: Tauros|p1a: Kangaskhan
+|
+|upkeep
+|turn|16
+|choice|move suckerpunch|move rockclimb
+|
+|move|p1a: Kangaskhan|Sucker Punch|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|
+|upkeep
+|j|ArgoTestMeta
+|choice||switch 3
+|
+|switch|p2a: Cacturne|Cacturne, M|100/100
+|-damage|p2a: Cacturne|88/100|[from] Stealth Rock
+|turn|17
+|c|☆Mr. Throh|You already have the All-hitting-super-effective Electivire and the Invincible Rotom-Fan Air Balloon.
+|choice|move doubleedge|move suckerpunch
+|
+|move|p2a: Cacturne|Sucker Punch|p1a: Kangaskhan
+|-damage|p1a: Kangaskhan|0 fnt
+|-damage|p2a: Cacturne|78/100|[from] item: Life Orb
+|faint|p1a: Kangaskhan
+|
+|upkeep
+|c| ArgoTestMeta|rotom-fan with air balloon
+|choice|switch 6|
+|
+|switch|p1a: Clefairy|Clefairy, M|80/100 brn
+|turn|18
+|choice|move moonblast|move gigadrain
+|
+|move|p2a: Cacturne|Giga Drain|p1a: Clefairy
+|-damage|p1a: Clefairy|49/100 brn
+|-heal|p2a: Cacturne|97/100|[from] drain|[of] p1a: Clefairy
+|-damage|p2a: Cacturne|87/100|[from] item: Life Orb
+|move|p1a: Clefairy|Moonblast|p2a: Cacturne
+|-supereffective|p2a: Cacturne
+|-damage|p2a: Cacturne|3/100
+|
+|upkeep
+|turn|19
+|c| ArgoTestMeta|a good pokemon with the shittiest ability and item
+|choice|move moonblast|move destinybond
+|
+|move|p2a: Cacturne|Destiny Bond|p2a: Cacturne
+|-singlemove|p2a: Cacturne|Destiny Bond
+|move|p1a: Clefairy|Moonblast|p2a: Cacturne
+|-supereffective|p2a: Cacturne
+|-damage|p2a: Cacturne|0 fnt
+|faint|p2a: Cacturne
+|-activate|p2a: Cacturne|move: Destiny Bond
+|faint|p1a: Clefairy
+|
+|upkeep
+|j|Aura Master Sky
+|c|☆Mr. Throh|:(
+|l|ArgoTestMeta
+|choice|switch 2|switch 2
+|
+|switch|p1a: Beheeyem|Beheeyem, M|100/100
+|switch|p2a: Pyroar|Pyroar, M|71/100 par
+|-ability|p2a: Pyroar|Unnerve|p1: Mr. Throh
+|-damage|p1a: Beheeyem|88/100|[from] Stealth Rock
+|-damage|p2a: Pyroar|46/100 par|[from] Stealth Rock
+|turn|20
+|choice|move psychic|move fireblast
+|
+|move|p1a: Beheeyem|Psychic|p2a: Pyroar
+|-damage|p2a: Pyroar|0 fnt
+|-damage|p1a: Beheeyem|78/100|[from] item: Life Orb
+|faint|p2a: Pyroar
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Rotom|Rotom-Fan|100/100
+|-damage|p2a: Rotom|76/100|[from] Stealth Rock
+|turn|21
+|c|☆Mr. Throh|Oh
+|c|☆Mr. Throh|this doesn't even have the Air Balloon!
+|c|☆Mr. Throh|gg then.
+|c|☆frontier pelli|nope ;)
+|choice|move psychic|move airslash
+|
+|move|p2a: Rotom|Air Slash|p1a: Beheeyem
+|-damage|p1a: Beheeyem|46/100
+|cant|p1a: Beheeyem|flinch
+|
+|upkeep
+|turn|22
+|choice|move psychic|move airslash
+|
+|move|p2a: Rotom|Air Slash|p1a: Beheeyem
+|-damage|p1a: Beheeyem|12/100
+|move|p1a: Beheeyem|Psychic|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|-damage|p1a: Beheeyem|2/100|[from] item: Life Orb
+|faint|p2a: Rotom
+|
+|win|Mr. Throh

@@ -1,0 +1,446 @@
+|j|SolAnima
+|j|Cheraphim
+|player|p1|SolAnima|265
+|player|p2|Cheraphim|169
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|18677,12238,3375,20215,30171,24931,64525,58610,31601,35100,28671,26779
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Honchkrow, M|item
+|poke|p1|Nidoqueen, F|item
+|poke|p1|Dragalge, M|item
+|poke|p1|Blastoise, M|item
+|poke|p1|Kyurem|item
+|poke|p1|Porygon2|item
+|poke|p2|Froslass, F|item
+|poke|p2|Arcanine, M|item
+|poke|p2|Kyurem|item
+|poke|p2|Sceptile, M|item
+|poke|p2|Krookodile, M|item
+|poke|p2|Gligar, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by SolAnima)
+|choice|team 6, team 2, team 3, team 4, team 5, team 1|team 5, team 2, team 3, team 4, team 1, team 6
+|
+|start
+|switch|p1a: Porygon2|Porygon2|100/100
+|switch|p2a: Krookodile|Krookodile, M|100/100
+|-ability|p2a: Krookodile|Intimidate|boost
+|-unboost|p1a: Porygon2|atk|1
+|-ability|p1a: Porygon2|Intimidate|[from] ability: Trace|[of] p2a: Krookodile
+|-ability|p1a: Porygon2|Intimidate|boost
+|-unboost|p2a: Krookodile|atk|1
+|turn|1
+|choice|move icebeam|move stealthrock
+|
+|move|p2a: Krookodile|Stealth Rock|p1a: Porygon2
+|-sidestart|p1: SolAnima|move: Stealth Rock
+|move|p1a: Porygon2|Ice Beam|p2a: Krookodile
+|-supereffective|p2a: Krookodile
+|-crit|p2a: Krookodile
+|-damage|p2a: Krookodile|31/100
+|
+|-heal|p2a: Krookodile|37/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|choice|move icebeam|switch 2
+|
+|switch|p2a: Arcanine|Arcanine, M|100/100
+|move|p1a: Porygon2|Ice Beam|p2a: Arcanine
+|-resisted|p2a: Arcanine
+|-damage|p2a: Arcanine|88/100
+|
+|upkeep
+|turn|3
+|choice|move thunderwave|move flareblitz
+|
+|move|p2a: Arcanine|Flare Blitz|p1a: Porygon2
+|-damage|p1a: Porygon2|66/100
+|-damage|p2a: Arcanine|74/100|[from] recoil|[of] p1a: Porygon2
+|-damage|p2a: Arcanine|64/100|[from] item: Life Orb
+|move|p1a: Porygon2|Thunder Wave|p2a: Arcanine
+|-status|p2a: Arcanine|par
+|
+|upkeep
+|turn|4
+|choice|move recover|move closecombat
+|
+|move|p1a: Porygon2|Recover|p1a: Porygon2
+|-heal|p1a: Porygon2|100/100
+|move|p2a: Arcanine|Close Combat|p1a: Porygon2
+|-supereffective|p1a: Porygon2
+|-damage|p1a: Porygon2|50/100
+|-unboost|p2a: Arcanine|def|1
+|-unboost|p2a: Arcanine|spd|1
+|-damage|p2a: Arcanine|54/100 par|[from] item: Life Orb
+|
+|upkeep
+|turn|5
+|choice|move recover|move extremespeed
+|
+|cant|p2a: Arcanine|par
+|move|p1a: Porygon2|Recover|p1a: Porygon2
+|-heal|p1a: Porygon2|99/100
+|
+|upkeep
+|turn|6
+|choice|move thunderbolt|move closecombat
+|
+|move|p1a: Porygon2|Thunderbolt|p2a: Arcanine
+|-damage|p2a: Arcanine|16/100 par
+|move|p2a: Arcanine|Close Combat|p1a: Porygon2
+|-supereffective|p1a: Porygon2
+|-damage|p1a: Porygon2|47/100
+|-unboost|p2a: Arcanine|def|1
+|-unboost|p2a: Arcanine|spd|1
+|-damage|p2a: Arcanine|6/100 par|[from] item: Life Orb
+|
+|upkeep
+|turn|7
+|choice|move recover|move extremespeed
+|
+|move|p2a: Arcanine|Extreme Speed|p1a: Porygon2
+|-damage|p1a: Porygon2|31/100
+|-damage|p2a: Arcanine|0 fnt|[from] item: Life Orb
+|faint|p2a: Arcanine
+|move|p1a: Porygon2|Recover|p1a: Porygon2
+|-heal|p1a: Porygon2|81/100
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Froslass|Froslass, F|100/100
+|turn|8
+|choice|move thunderwave|move taunt
+|
+|move|p2a: Froslass|Taunt|p1a: Porygon2
+|-start|p1a: Porygon2|move: Taunt
+|cant|p1a: Porygon2|move: Taunt|Thunder Wave
+|
+|upkeep
+|turn|9
+|choice|switch 4|move icywind
+|
+|switch|p1a: Blastoise|Blastoise, M|100/100
+|-damage|p1a: Blastoise|88/100|[from] Stealth Rock
+|move|p2a: Froslass|Icy Wind|p1a: Blastoise
+|-resisted|p1a: Blastoise
+|-damage|p1a: Blastoise|82/100
+|-unboost|p1a: Blastoise|spe|1
+|
+|upkeep
+|turn|10
+|choice|move darkpulse mega|switch 4
+|
+|switch|p2a: Sceptile|Sceptile, M|100/100
+|detailschange|p1a: Blastoise|Blastoise-Mega, M
+|-mega|p1a: Blastoise|Blastoise|Blastoisinite
+|move|p1a: Blastoise|Dark Pulse|p2a: Sceptile
+|-damage|p2a: Sceptile|47/100
+|
+|upkeep
+|turn|11
+|choice|move icebeam|move gigadrain mega
+|
+|detailschange|p2a: Sceptile|Sceptile-Mega, M
+|-mega|p2a: Sceptile|Sceptile|Sceptilite
+|move|p2a: Sceptile|Giga Drain|p1a: Blastoise
+|-supereffective|p1a: Blastoise
+|-damage|p1a: Blastoise|14/100
+|-heal|p2a: Sceptile|91/100|[from] drain|[of] p1a: Blastoise
+|move|p1a: Blastoise|Ice Beam|p2a: Sceptile
+|-supereffective|p2a: Sceptile
+|-damage|p2a: Sceptile|0 fnt
+|faint|p2a: Sceptile
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Kyurem|Kyurem|100/100
+|-ability|p2a: Kyurem|Pressure
+|turn|12
+|choice|move darkpulse|move substitute
+|
+|move|p2a: Kyurem|Substitute|p2a: Kyurem
+|-start|p2a: Kyurem|Substitute
+|-damage|p2a: Kyurem|76/100
+|move|p1a: Blastoise|Dark Pulse|p2a: Kyurem
+|-end|p2a: Kyurem|Substitute
+|
+|-heal|p2a: Kyurem|82/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|choice|move darkpulse|move earthpower
+|
+|move|p2a: Kyurem|Earth Power|p1a: Blastoise
+|-damage|p1a: Blastoise|0 fnt
+|faint|p1a: Blastoise
+|
+|-heal|p2a: Kyurem|88/100|[from] item: Leftovers
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Kyurem|Kyurem|100/100
+|-damage|p1a: Kyurem|76/100|[from] Stealth Rock
+|-ability|p1a: Kyurem|Pressure
+|turn|14
+|choice|move dracometeor|switch 4
+|
+|switch|p2a: Froslass|Froslass, F|100/100
+|move|p1a: Kyurem|Draco Meteor|p2a: Froslass
+|-enditem|p2a: Froslass|Focus Sash
+|-damage|p2a: Froslass|1/100
+|-start|p1a: Kyurem|Disable|Draco Meteor|[from] ability: Cursed Body|[of] p2a: Froslass
+|-unboost|p1a: Kyurem|spa|2
+|-damage|p1a: Kyurem|66/100|[from] item: Life Orb
+|
+|upkeep
+|turn|15
+|choice|switch 4|move destinybond
+|
+|switch|p1a: Porygon2|Porygon2|81/100
+|-damage|p1a: Porygon2|69/100|[from] Stealth Rock
+|-ability|p1a: Porygon2|Cursed Body|[from] ability: Trace|[of] p2a: Froslass
+|move|p2a: Froslass|Destiny Bond|p2a: Froslass
+|-singlemove|p2a: Froslass|Destiny Bond
+|
+|upkeep
+|turn|16
+|choice|move thunderwave|move taunt
+|
+|move|p2a: Froslass|Taunt|p1a: Porygon2
+|-start|p1a: Porygon2|move: Taunt
+|cant|p1a: Porygon2|move: Taunt|Thunder Wave
+|
+|upkeep
+|turn|17
+|choice|switch 6|move destinybond
+|
+|switch|p1a: Honchkrow|Honchkrow, M|100/100
+|-damage|p1a: Honchkrow|76/100|[from] Stealth Rock
+|move|p2a: Froslass|Destiny Bond|p2a: Froslass
+|-singlemove|p2a: Froslass|Destiny Bond
+|
+|upkeep
+|turn|18
+|choice|move roost|move icywind
+|
+|move|p2a: Froslass|Icy Wind|p1a: Honchkrow
+|-supereffective|p1a: Honchkrow
+|-damage|p1a: Honchkrow|21/100
+|-unboost|p1a: Honchkrow|spe|1
+|move|p1a: Honchkrow|Roost|p1a: Honchkrow
+|-heal|p1a: Honchkrow|71/100
+|
+|upkeep
+|turn|19
+|choice|move suckerpunch|move icywind
+|
+|move|p1a: Honchkrow|Sucker Punch|p2a: Froslass
+|-supereffective|p2a: Froslass
+|-damage|p2a: Froslass|0 fnt
+|-damage|p1a: Honchkrow|61/100|[from] item: Life Orb
+|faint|p2a: Froslass
+|-ability|p1a: Honchkrow|Moxie|boost
+|-boost|p1a: Honchkrow|atk|1
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Kyurem|Kyurem|88/100
+|-ability|p2a: Kyurem|Pressure
+|turn|20
+|choice|move superpower|move icebeam
+|
+|move|p2a: Kyurem|Ice Beam|p1a: Honchkrow
+|-supereffective|p1a: Honchkrow
+|-damage|p1a: Honchkrow|0 fnt
+|faint|p1a: Honchkrow
+|
+|-heal|p2a: Kyurem|94/100|[from] item: Leftovers
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Kyurem|Kyurem|66/100
+|-damage|p1a: Kyurem|41/100|[from] Stealth Rock
+|-ability|p1a: Kyurem|Pressure
+|turn|21
+|choice|move dracometeor|switch 6
+|
+|switch|p2a: Gligar|Gligar, M|100/100
+|move|p1a: Kyurem|Draco Meteor|p2a: Gligar
+|-crit|p2a: Gligar
+|-damage|p2a: Gligar|11/100
+|-unboost|p1a: Kyurem|spa|2
+|-damage|p1a: Kyurem|31/100|[from] item: Life Orb
+|
+|upkeep
+|turn|22
+|choice|switch 6|move roost
+|
+|switch|p1a: Porygon2|Porygon2|69/100
+|-damage|p1a: Porygon2|56/100|[from] Stealth Rock
+|-ability|p1a: Porygon2|Hyper Cutter|[from] ability: Trace|[of] p2a: Gligar
+|move|p2a: Gligar|Roost|p2a: Gligar
+|-heal|p2a: Gligar|61/100
+|
+|upkeep
+|turn|23
+|choice|move icebeam|move toxic
+|
+|move|p2a: Gligar|Toxic|p1a: Porygon2
+|-status|p1a: Porygon2|tox
+|move|p1a: Porygon2|Ice Beam|p2a: Gligar
+|-supereffective|p2a: Gligar
+|-damage|p2a: Gligar|0 fnt
+|faint|p2a: Gligar
+|
+|-damage|p1a: Porygon2|50/100 tox|[from] psn
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Kyurem|Kyurem|94/100
+|-ability|p2a: Kyurem|Pressure
+|turn|24
+|choice|move thunderwave|move substitute
+|
+|move|p2a: Kyurem|Substitute|p2a: Kyurem
+|-start|p2a: Kyurem|Substitute
+|-damage|p2a: Kyurem|69/100
+|move|p1a: Porygon2|Thunder Wave|p2a: Kyurem
+|-fail|p2a: Kyurem
+|
+|-heal|p2a: Kyurem|75/100|[from] item: Leftovers
+|-damage|p1a: Porygon2|38/100 tox|[from] psn
+|upkeep
+|turn|25
+|choice|move recover|move icebeam
+|
+|move|p2a: Kyurem|Ice Beam|p1a: Porygon2
+|-damage|p1a: Porygon2|10/100 tox
+|move|p1a: Porygon2|Recover|p1a: Porygon2
+|-heal|p1a: Porygon2|61/100 tox
+|
+|-heal|p2a: Kyurem|81/100|[from] item: Leftovers
+|-damage|p1a: Porygon2|42/100 tox|[from] psn
+|upkeep
+|turn|26
+|choice|move recover|move icebeam
+|
+|move|p2a: Kyurem|Ice Beam|p1a: Porygon2
+|-damage|p1a: Porygon2|13/100 tox
+|move|p1a: Porygon2|Recover|p1a: Porygon2
+|-heal|p1a: Porygon2|63/100 tox
+|
+|-heal|p2a: Kyurem|88/100|[from] item: Leftovers
+|-damage|p1a: Porygon2|38/100 tox|[from] psn
+|upkeep
+|turn|27
+|choice|move thunderbolt|move icebeam
+|
+|move|p2a: Kyurem|Ice Beam|p1a: Porygon2
+|-damage|p1a: Porygon2|7/100 tox
+|move|p1a: Porygon2|Thunderbolt|p2a: Kyurem
+|-resisted|p2a: Kyurem
+|-activate|p2a: Kyurem|move: Substitute|[damage]
+|
+|-heal|p2a: Kyurem|94/100|[from] item: Leftovers
+|-damage|p1a: Porygon2|0 fnt|[from] psn
+|upkeep
+|faint|p1a: Porygon2
+|choice|switch 3|
+|
+|switch|p1a: Dragalge|Dragalge, M|100/100
+|-damage|p1a: Dragalge|88/100|[from] Stealth Rock
+|turn|28
+|choice|move dracometeor|move icebeam
+|
+|move|p2a: Kyurem|Ice Beam|p1a: Dragalge
+|-supereffective|p1a: Dragalge
+|-damage|p1a: Dragalge|2/100
+|move|p1a: Dragalge|Draco Meteor|p2a: Kyurem
+|-supereffective|p2a: Kyurem
+|-end|p2a: Kyurem|Substitute
+|-unboost|p1a: Dragalge|spa|2
+|
+|-heal|p2a: Kyurem|99/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|choice|move dracometeor|switch 2
+|
+|switch|p2a: Krookodile|Krookodile, M|37/100
+|-ability|p2a: Krookodile|Intimidate|boost
+|-unboost|p1a: Dragalge|atk|1
+|move|p1a: Dragalge|Draco Meteor|p2a: Krookodile|[miss]
+|-miss|p1a: Dragalge|p2a: Krookodile
+|
+|-heal|p2a: Krookodile|43/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|choice|move dracometeor|move knockoff
+|
+|move|p2a: Krookodile|Knock Off|p1a: Dragalge
+|-damage|p1a: Dragalge|0 fnt
+|-enditem|p1a: Dragalge|Choice Specs|[from] move: Knock Off|[of] p2a: Krookodile
+|faint|p1a: Dragalge
+|
+|-heal|p2a: Krookodile|49/100|[from] item: Leftovers
+|upkeep
+|c|☆SolAnima|Wow
+|choice|switch 2|
+|
+|switch|p1a: Nidoqueen|Nidoqueen, F|100/100
+|-damage|p1a: Nidoqueen|94/100|[from] Stealth Rock
+|turn|31
+|choice|move icebeam|move earthquake
+|
+|move|p2a: Krookodile|Earthquake|p1a: Nidoqueen
+|-supereffective|p1a: Nidoqueen
+|-damage|p1a: Nidoqueen|4/100
+|move|p1a: Nidoqueen|Ice Beam|p2a: Krookodile
+|-supereffective|p2a: Krookodile
+|-damage|p2a: Krookodile|0 fnt
+|faint|p2a: Krookodile
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Kyurem|Kyurem|99/100
+|-ability|p2a: Kyurem|Pressure
+|turn|32
+|choice|move sludgewave|move earthpower
+|
+|move|p2a: Kyurem|Earth Power|p1a: Nidoqueen
+|-supereffective|p1a: Nidoqueen
+|-damage|p1a: Nidoqueen|0 fnt
+|faint|p1a: Nidoqueen
+|
+|-heal|p2a: Kyurem|100/100|[from] item: Leftovers
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Kyurem|Kyurem|31/100
+|-damage|p1a: Kyurem|6/100|[from] Stealth Rock
+|-ability|p1a: Kyurem|Pressure
+|turn|33
+|choice|move dracometeor|move earthpower
+|
+|move|p1a: Kyurem|Draco Meteor|p2a: Kyurem
+|-supereffective|p2a: Kyurem
+|-damage|p2a: Kyurem|0 fnt
+|-unboost|p1a: Kyurem|spa|2
+|-damage|p1a: Kyurem|0 fnt|[from] item: Life Orb
+|faint|p2a: Kyurem
+|faint|p1a: Kyurem
+|
+|win|SolAnima
+|raw|SolAnima's rating: 1200 &rarr; <strong>1229</strong><br />(+29 for winning)
+|raw|Cheraphim's rating: 1250 &rarr; <strong>1222</strong><br />(-28 for losing)
+|c|☆Cheraphim|gg
+|c|☆SolAnima|That was a thrilling battle
+|l|Cheraphim

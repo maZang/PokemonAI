@@ -1,0 +1,247 @@
+|j|Mr. Throh
+|j|Aura Master Sky
+|player|p1|Mr. Throh|169
+|player|p2|Aura Master Sky|99
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|39395,58515,22598,42097,12118,37429,48656,8149,23300,1065,15557,26493
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Piloswine, M|item
+|poke|p1|Electivire, M|item
+|poke|p1|Hitmonchan, M|item
+|poke|p1|Clefairy, M|item
+|poke|p1|Liepard, M|item
+|poke|p1|Abomasnow, M|item
+|poke|p2|Torterra, M|item
+|poke|p2|Weezing, M|item
+|poke|p2|Cryogonal|item
+|poke|p2|Lanturn, M|item
+|poke|p2|Mesprit|item
+|poke|p2|Misdreavus, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Mr. Throh)
+|c|☆Mr. Throh|I have that thing.
+|choice|team 5, team 2, team 3, team 4, team 1, team 6|team 2, team 1, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Liepard|Liepard, M|100/100
+|switch|p2a: Weezing|Weezing, M|100/100
+|turn|1
+|c|☆Aura Master Sky|That thing?
+|choice|move knockoff|move toxicspikes
+|
+|move|p1a: Liepard|Knock Off|p2a: Weezing
+|-damage|p2a: Weezing|66/100
+|-enditem|p2a: Weezing|Black Sludge|[from] move: Knock Off|[of] p1a: Liepard
+|move|p2a: Weezing|Toxic Spikes|p1a: Liepard
+|-sidestart|p1: Mr. Throh|move: Toxic Spikes
+|
+|upkeep
+|turn|2
+|choice|move encore|move toxicspikes
+|
+|move|p1a: Liepard|Encore|p2a: Weezing
+|-start|p2a: Weezing|Encore
+|move|p2a: Weezing|Toxic Spikes|p1a: Liepard
+|-sidestart|p1: Mr. Throh|move: Toxic Spikes
+|
+|upkeep
+|turn|3
+|choice|move knockoff|switch 3
+|
+|switch|p2a: Cryogonal|Cryogonal|100/100
+|move|p1a: Liepard|Knock Off|p2a: Cryogonal
+|-crit|p2a: Cryogonal
+|-damage|p2a: Cryogonal|0 fnt
+|-enditem|p2a: Cryogonal|Life Orb|[from] move: Knock Off|[of] p1a: Liepard
+|faint|p2a: Cryogonal
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Torterra|Torterra, M|100/100
+|turn|4
+|choice|move knockoff|move stealthrock
+|
+|move|p1a: Liepard|Knock Off|p2a: Torterra
+|-damage|p2a: Torterra|68/100
+|-enditem|p2a: Torterra|Leftovers|[from] move: Knock Off|[of] p1a: Liepard
+|move|p2a: Torterra|Stealth Rock|p1a: Liepard
+|-sidestart|p1: Mr. Throh|move: Stealth Rock
+|
+|upkeep
+|turn|5
+|choice|move encore|switch 3
+|
+|switch|p2a: Weezing|Weezing, M|66/100
+|move|p1a: Liepard|Encore|p2a: Weezing
+|-fail|p2a: Weezing
+|
+|upkeep
+|turn|6
+|choice|move knockoff|move sludgebomb
+|
+|move|p1a: Liepard|Knock Off|p2a: Weezing
+|-damage|p2a: Weezing|43/100
+|move|p2a: Weezing|Sludge Bomb|p1a: Liepard
+|-damage|p1a: Liepard|42/100
+|-status|p1a: Liepard|psn
+|
+|-damage|p1a: Liepard|30/100 psn|[from] psn
+|upkeep
+|turn|7
+|choice|move suckerpunch|move sludgebomb
+|
+|move|p1a: Liepard|Sucker Punch|p2a: Weezing
+|-damage|p2a: Weezing|17/100
+|move|p2a: Weezing|Sludge Bomb|p1a: Liepard
+|-damage|p1a: Liepard|0 fnt
+|faint|p1a: Liepard
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Hitmonchan|Hitmonchan, M|100/100
+|-damage|p1a: Hitmonchan|94/100|[from] Stealth Rock
+|-status|p1a: Hitmonchan|tox
+|turn|8
+|choice|move stoneedge|move sludgebomb
+|
+|move|p1a: Hitmonchan|Stone Edge|p2a: Weezing
+|-damage|p2a: Weezing|0 fnt
+|-damage|p1a: Hitmonchan|84/100 tox|[from] item: Life Orb
+|faint|p2a: Weezing
+|
+|-damage|p1a: Hitmonchan|78/100 tox|[from] psn
+|upkeep
+|c|☆Mr. Throh|I hate you misdreavus.
+|choice||switch 3
+|
+|switch|p2a: Torterra|Torterra, M|68/100
+|turn|9
+|choice|move rapidspin|move earthquake
+|
+|move|p1a: Hitmonchan|Rapid Spin|p2a: Torterra
+|-damage|p2a: Torterra|62/100
+|-sideend|p1: Mr. Throh|Toxic Spikes|[from] move: Rapid Spin|[of] p1a: Hitmonchan
+|-sideend|p1: Mr. Throh|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Hitmonchan
+|-damage|p1a: Hitmonchan|68/100 tox|[from] item: Life Orb
+|move|p2a: Torterra|Earthquake|p1a: Hitmonchan
+|-damage|p1a: Hitmonchan|0 fnt
+|faint|p1a: Hitmonchan
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Electivire|Electivire, M|100/100
+|turn|10
+|choice|move icepunch|switch 4
+|
+|switch|p2a: Lanturn|Lanturn, M|100/100
+|move|p1a: Electivire|Ice Punch|p2a: Lanturn
+|-resisted|p2a: Lanturn
+|-damage|p2a: Lanturn|79/100
+|-damage|p1a: Electivire|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|11
+|choice|move earthquake|move hydropump
+|
+|move|p1a: Electivire|Earthquake|p2a: Lanturn
+|-supereffective|p2a: Lanturn
+|-damage|p2a: Lanturn|0 fnt
+|-damage|p1a: Electivire|81/100|[from] item: Life Orb
+|faint|p2a: Lanturn
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Misdreavus|Misdreavus, M|100/100
+|turn|12
+|choice|move wildcharge|move willowisp
+|
+|move|p1a: Electivire|Wild Charge|p2a: Misdreavus
+|-damage|p2a: Misdreavus|62/100
+|-damage|p1a: Electivire|70/100|[from] recoil|[of] p2a: Misdreavus
+|-damage|p1a: Electivire|60/100|[from] item: Life Orb
+|move|p2a: Misdreavus|Will-O-Wisp|p1a: Electivire
+|-status|p1a: Electivire|brn
+|
+|-damage|p1a: Electivire|47/100 brn|[from] brn
+|upkeep
+|turn|13
+|choice|move wildcharge|move hex
+|
+|move|p1a: Electivire|Wild Charge|p2a: Misdreavus
+|-damage|p2a: Misdreavus|39/100
+|-damage|p1a: Electivire|41/100 brn|[from] recoil|[of] p2a: Misdreavus
+|-damage|p1a: Electivire|31/100 brn|[from] item: Life Orb
+|move|p2a: Misdreavus|Hex|p1a: Electivire
+|-damage|p1a: Electivire|0 fnt
+|faint|p1a: Electivire
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Abomasnow|Abomasnow, M|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Abomasnow
+|turn|14
+|choice|move blizzard|move willowisp
+|
+|move|p1a: Abomasnow|Blizzard|p2a: Misdreavus
+|-damage|p2a: Misdreavus|0 fnt
+|-damage|p1a: Abomasnow|91/100|[from] item: Life Orb
+|faint|p2a: Misdreavus
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Mesprit|Mesprit|100/100
+|turn|15
+|choice|move blizzard|move signalbeam
+|
+|move|p2a: Mesprit|Signal Beam|p1a: Abomasnow
+|-supereffective|p1a: Abomasnow
+|-damage|p1a: Abomasnow|19/100
+|-damage|p2a: Mesprit|91/100|[from] item: Life Orb
+|move|p1a: Abomasnow|Blizzard|p2a: Mesprit
+|-damage|p2a: Mesprit|25/100
+|-damage|p1a: Abomasnow|9/100|[from] item: Life Orb
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Mesprit|19/100|[from] hail
+|upkeep
+|turn|16
+|choice|move iceshard|move psychic
+|
+|move|p1a: Abomasnow|Ice Shard|p2a: Mesprit
+|-damage|p2a: Mesprit|0 fnt
+|-damage|p1a: Abomasnow|0 fnt|[from] item: Life Orb
+|faint|p2a: Mesprit
+|faint|p1a: Abomasnow
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|choice|switch 5|switch 4
+|
+|switch|p2a: Torterra|Torterra, M|62/100
+|switch|p1a: Piloswine|Piloswine, M|100/100
+|turn|17
+|choice|move iceshard|move woodhammer
+|
+|move|p1a: Piloswine|Ice Shard|p2a: Torterra
+|-supereffective|p2a: Torterra
+|-damage|p2a: Torterra|10/100
+|move|p2a: Torterra|Wood Hammer|p1a: Piloswine
+|-supereffective|p1a: Piloswine
+|-damage|p1a: Piloswine|0 fnt
+|-damage|p2a: Torterra|0 fnt|[from] recoil|[of] p1a: Piloswine
+|faint|p1a: Piloswine
+|faint|p2a: Torterra
+|
+|win|Mr. Throh

@@ -1,0 +1,397 @@
+|j|Mr. Throh
+|j|PokemonLv10
+|player|p1|Mr. Throh|169
+|player|p2|PokemonLv10|146
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|16449,57894,48523,41267,55609,55031,8513,5623,45960,33290,36505,14959
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Bronzong|item
+|poke|p1|Roselia, M|item
+|poke|p1|Flygon, M|item
+|poke|p1|Meloetta|item
+|poke|p1|Gastrodon, M|item
+|poke|p1|Virizion|item
+|poke|p2|Sigilyph, M|item
+|poke|p2|Aerodactyl, M|item
+|poke|p2|Mesprit|item
+|poke|p2|Absol, M|item
+|poke|p2|Virizion|item
+|poke|p2|Piloswine, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Mr. Throh)
+|choice|team 1, team 2, team 3, team 4, team 5, team 6|team 3, team 2, team 1, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Bronzong|Bronzong|100/100
+|switch|p2a: Mesprit|Mesprit|100/100
+|turn|1
+|choice|move trickroom|move stealthrock
+|
+|move|p2a: Mesprit|Stealth Rock|p1a: Bronzong
+|-sidestart|p1: Mr. Throh|move: Stealth Rock
+|move|p1a: Bronzong|Trick Room|p1a: Bronzong
+|-fieldstart|move: Trick Room|[of] p1a: Bronzong
+|
+|upkeep
+|turn|2
+|choice|move stealthrock|move psychic
+|
+|move|p1a: Bronzong|Stealth Rock|p2a: Mesprit
+|-sidestart|p2: PokemonLv10|move: Stealth Rock
+|move|p2a: Mesprit|Psychic|p1a: Bronzong
+|-resisted|p1a: Bronzong
+|-damage|p1a: Bronzong|92/100
+|
+|-heal|p1a: Bronzong|98/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|choice|switch 5|move icebeam
+|
+|switch|p1a: Gastrodon|Gastrodon, M|100/100
+|-damage|p1a: Gastrodon|94/100|[from] Stealth Rock
+|move|p2a: Mesprit|Ice Beam|p1a: Gastrodon
+|-damage|p1a: Gastrodon|70/100
+|
+|-heal|p1a: Gastrodon|76/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|choice|move scald|move psychic
+|
+|move|p1a: Gastrodon|Scald|p2a: Mesprit
+|-damage|p2a: Mesprit|72/100
+|move|p2a: Mesprit|Psychic|p1a: Gastrodon
+|-damage|p1a: Gastrodon|37/100
+|
+|-heal|p1a: Gastrodon|43/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|choice|move recover|move psychic
+|
+|move|p1a: Gastrodon|Recover|p1a: Gastrodon
+|-heal|p1a: Gastrodon|93/100
+|move|p2a: Mesprit|Psychic|p1a: Gastrodon
+|-damage|p1a: Gastrodon|55/100
+|
+|-heal|p1a: Gastrodon|62/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|choice|move recover|switch 5
+|
+|switch|p2a: Virizion|Virizion|100/100
+|-damage|p2a: Virizion|94/100|[from] Stealth Rock
+|move|p1a: Gastrodon|Recover|p1a: Gastrodon
+|-heal|p1a: Gastrodon|100/100
+|
+|upkeep
+|turn|7
+|choice|switch 5|move gigadrain
+|
+|switch|p1a: Bronzong|Bronzong|98/100
+|-damage|p1a: Bronzong|92/100|[from] Stealth Rock
+|move|p2a: Virizion|Giga Drain|p1a: Bronzong
+|-resisted|p1a: Bronzong
+|-damage|p1a: Bronzong|76/100
+|-heal|p2a: Virizion|100/100|[from] drain|[of] p1a: Bronzong
+|-damage|p2a: Virizion|91/100|[from] item: Life Orb
+|
+|-heal|p1a: Bronzong|82/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|choice|move trickroom|switch 3
+|
+|switch|p2a: Sigilyph|Sigilyph, M|100/100
+|move|p1a: Bronzong|Trick Room|p1a: Bronzong
+|-fieldstart|move: Trick Room|[of] p1a: Bronzong
+|
+|-heal|p1a: Bronzong|88/100|[from] item: Leftovers
+|-status|p2a: Sigilyph|brn|[from] item: Flame Orb
+|upkeep
+|turn|9
+|choice|move explosion|move psychoshift
+|
+|move|p1a: Bronzong|Explosion|p2a: Sigilyph
+|-damage|p2a: Sigilyph|15/100 brn
+|faint|p1a: Bronzong
+|move|p2a: Sigilyph|Psycho Shift|p1: Bronzong|[notarget]
+|-notarget
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Gastrodon|Gastrodon, M|100/100
+|-damage|p1a: Gastrodon|94/100|[from] Stealth Rock
+|turn|10
+|choice|move scald|move roost
+|
+|move|p1a: Gastrodon|Scald|p2a: Sigilyph
+|-damage|p2a: Sigilyph|0 fnt
+|faint|p2a: Sigilyph
+|
+|-heal|p1a: Gastrodon|100/100|[from] item: Leftovers
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Virizion|Virizion|91/100
+|-damage|p2a: Virizion|84/100|[from] Stealth Rock
+|turn|11
+|choice|switch 6|move gigadrain
+|
+|switch|p1a: Virizion|Virizion|100/100
+|-damage|p1a: Virizion|94/100|[from] Stealth Rock
+|move|p2a: Virizion|Giga Drain|p1a: Virizion
+|-resisted|p1a: Virizion
+|-damage|p1a: Virizion|78/100
+|-heal|p2a: Virizion|92/100|[from] drain|[of] p1a: Virizion
+|-damage|p2a: Virizion|83/100|[from] item: Life Orb
+|
+|-heal|p1a: Virizion|84/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|choice|move calmmind|switch 5
+|
+|switch|p2a: Mesprit|Mesprit|72/100
+|-damage|p2a: Mesprit|59/100|[from] Stealth Rock
+|move|p1a: Virizion|Calm Mind|p1a: Virizion
+|-boost|p1a: Virizion|spa|1
+|-boost|p1a: Virizion|spd|1
+|
+|-heal|p1a: Virizion|91/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|13
+|choice|move gigadrain|move icebeam
+|
+|move|p1a: Virizion|Giga Drain|p2a: Mesprit
+|-crit|p2a: Mesprit
+|-damage|p2a: Mesprit|0 fnt
+|-heal|p1a: Virizion|100/100|[from] drain|[of] p2a: Mesprit
+|faint|p2a: Mesprit
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Aerodactyl|Aerodactyl, M|100/100
+|-ability|p2a: Aerodactyl|Unnerve|p1: Mr. Throh
+|-damage|p2a: Aerodactyl|76/100|[from] Stealth Rock
+|turn|14
+|choice|move focusblast|move aerialace
+|
+|move|p2a: Aerodactyl|Aerial Ace|p1a: Virizion
+|-supereffective|p1a: Virizion
+|-damage|p1a: Virizion|0 fnt
+|-damage|p2a: Aerodactyl|66/100|[from] item: Life Orb
+|faint|p1a: Virizion
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Gastrodon|Gastrodon, M|100/100
+|-damage|p1a: Gastrodon|94/100|[from] Stealth Rock
+|turn|15
+|choice|move scald|switch 5
+|
+|switch|p2a: Virizion|Virizion|83/100
+|-damage|p2a: Virizion|76/100|[from] Stealth Rock
+|move|p1a: Gastrodon|Scald|p2a: Virizion
+|-resisted|p2a: Virizion
+|-damage|p2a: Virizion|66/100
+|-status|p2a: Virizion|brn
+|
+|-heal|p1a: Gastrodon|100/100|[from] item: Leftovers
+|-damage|p2a: Virizion|54/100 brn|[from] brn
+|upkeep
+|turn|16
+|choice|switch 2|move gigadrain
+|
+|switch|p1a: Roselia|Roselia, M|100/100
+|-damage|p1a: Roselia|88/100|[from] Stealth Rock
+|move|p2a: Virizion|Giga Drain|p1a: Roselia
+|-resisted|p1a: Roselia
+|-damage|p1a: Roselia|81/100
+|-heal|p2a: Virizion|57/100 brn|[from] drain|[of] p1a: Roselia
+|-damage|p2a: Virizion|47/100 brn|[from] item: Life Orb
+|
+|-damage|p2a: Virizion|35/100 brn|[from] brn
+|upkeep
+|turn|17
+|choice|move sludgebomb|switch 5
+|
+|switch|p2a: Aerodactyl|Aerodactyl, M|66/100
+|-ability|p2a: Aerodactyl|Unnerve|p1: Mr. Throh
+|-damage|p2a: Aerodactyl|41/100|[from] Stealth Rock
+|move|p1a: Roselia|Sludge Bomb|p2a: Aerodactyl
+|-resisted|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|20/100
+|
+|upkeep
+|turn|18
+|choice|switch 2|move roost
+|
+|switch|p1a: Gastrodon|Gastrodon, M|100/100
+|-damage|p1a: Gastrodon|94/100|[from] Stealth Rock
+|move|p2a: Aerodactyl|Roost|p2a: Aerodactyl
+|-heal|p2a: Aerodactyl|71/100
+|
+|-heal|p1a: Gastrodon|100/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|choice|move scald|switch 5
+|
+|switch|p2a: Virizion|Virizion|35/100 brn
+|-damage|p2a: Virizion|29/100 brn|[from] Stealth Rock
+|move|p1a: Gastrodon|Scald|p2a: Virizion
+|-resisted|p2a: Virizion
+|-damage|p2a: Virizion|18/100 brn
+|
+|-damage|p2a: Virizion|6/100 brn|[from] brn
+|upkeep
+|turn|20
+|choice|switch 2|move gigadrain
+|
+|switch|p1a: Roselia|Roselia, M|81/100
+|-damage|p1a: Roselia|69/100|[from] Stealth Rock
+|move|p2a: Virizion|Giga Drain|p1a: Roselia
+|-resisted|p1a: Roselia
+|-damage|p1a: Roselia|62/100
+|-heal|p2a: Virizion|10/100 brn|[from] drain|[of] p1a: Roselia
+|-damage|p2a: Virizion|0 fnt|[from] item: Life Orb
+|faint|p2a: Virizion
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Absol|Absol, M|100/100
+|-damage|p2a: Absol|88/100|[from] Stealth Rock
+|turn|21
+|choice|move gigadrain|move knockoff
+|
+|move|p2a: Absol|Knock Off|p1a: Roselia
+|-damage|p1a: Roselia|0 fnt
+|-enditem|p1a: Roselia|Eviolite|[from] move: Knock Off|[of] p2a: Absol
+|-damage|p2a: Absol|78/100|[from] item: Life Orb
+|faint|p1a: Roselia
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Flygon|Flygon, M|100/100
+|-damage|p1a: Flygon|94/100|[from] Stealth Rock
+|turn|22
+|choice|move uturn|switch 6
+|
+|switch|p2a: Piloswine|Piloswine, M|100/100
+|-damage|p2a: Piloswine|88/100|[from] Stealth Rock
+|move|p1a: Flygon|U-turn|p2a: Piloswine
+|-damage|p2a: Piloswine|77/100
+|choice|switch 2|
+|
+|switch|p1a: Gastrodon|Gastrodon, M|100/100
+|-damage|p1a: Gastrodon|94/100|[from] Stealth Rock
+|
+|-heal|p1a: Gastrodon|100/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|choice|move scald|move earthquake
+|
+|move|p2a: Piloswine|Earthquake|p1a: Gastrodon
+|-damage|p1a: Gastrodon|66/100
+|move|p1a: Gastrodon|Scald|p2a: Piloswine
+|-supereffective|p2a: Piloswine
+|-damage|p2a: Piloswine|36/100
+|
+|-heal|p1a: Gastrodon|73/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|choice|move scald|move earthquake
+|
+|move|p2a: Piloswine|Earthquake|p1a: Gastrodon
+|-damage|p1a: Gastrodon|37/100
+|move|p1a: Gastrodon|Scald|p2a: Piloswine
+|-supereffective|p2a: Piloswine
+|-damage|p2a: Piloswine|0 fnt
+|faint|p2a: Piloswine
+|
+|-heal|p1a: Gastrodon|43/100|[from] item: Leftovers
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Absol|Absol, M|78/100
+|-damage|p2a: Absol|66/100|[from] Stealth Rock
+|turn|25
+|choice|move recover|move knockoff
+|
+|move|p2a: Absol|Knock Off|p1a: Gastrodon
+|-damage|p1a: Gastrodon|0 fnt
+|-enditem|p1a: Gastrodon|Leftovers|[from] move: Knock Off|[of] p2a: Absol
+|-damage|p2a: Absol|56/100|[from] item: Life Orb
+|faint|p1a: Gastrodon
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Flygon|Flygon, M|94/100
+|-damage|p1a: Flygon|88/100|[from] Stealth Rock
+|turn|26
+|choice|move uturn|switch 5
+|
+|switch|p2a: Aerodactyl|Aerodactyl, M|71/100
+|-ability|p2a: Aerodactyl|Unnerve|p1: Mr. Throh
+|-damage|p2a: Aerodactyl|46/100|[from] Stealth Rock
+|move|p1a: Flygon|U-turn|p2a: Aerodactyl
+|-resisted|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|33/100
+|choice|switch 4|
+|
+|switch|p1a: Meloetta|Meloetta|100/100
+|-damage|p1a: Meloetta|88/100|[from] Stealth Rock
+|
+|upkeep
+|turn|27
+|choice|move hypervoice|move stoneedge
+|
+|move|p1a: Meloetta|Hyper Voice|p2a: Aerodactyl
+|-resisted|p2a: Aerodactyl
+|-crit|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|0 fnt
+|faint|p2a: Aerodactyl
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Absol|Absol, M|56/100
+|-damage|p2a: Absol|44/100|[from] Stealth Rock
+|turn|28
+|choice|move hypervoice|move suckerpunch
+|
+|move|p2a: Absol|Sucker Punch|p1a: Meloetta
+|-supereffective|p1a: Meloetta
+|-damage|p1a: Meloetta|0 fnt
+|-damage|p2a: Absol|34/100|[from] item: Life Orb
+|faint|p1a: Meloetta
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Flygon|Flygon, M|88/100
+|-damage|p1a: Flygon|82/100|[from] Stealth Rock
+|turn|29
+|c|☆Mr. Throh|gg
+|c|☆Mr. Throh|I chained 15 Golduck this battle
+|choice|move uturn|move suckerpunch
+|
+|move|p2a: Absol|Sucker Punch|p1a: Flygon
+|-damage|p1a: Flygon|28/100
+|-damage|p2a: Absol|24/100|[from] item: Life Orb
+|move|p1a: Flygon|U-turn|p2a: Absol
+|-supereffective|p2a: Absol
+|-damage|p2a: Absol|0 fnt
+|faint|p2a: Absol
+|
+|win|Mr. Throh
+|l|PokemonLv10

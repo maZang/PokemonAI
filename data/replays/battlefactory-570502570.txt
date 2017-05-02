@@ -1,0 +1,225 @@
+|j|youmu@poke
+|j|The Real Thickums
+|player|p1|youmu@poke|134
+|player|p2|The Real Thickums|226
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|35284,39066,37501,52197,6580,31762,29340,30576,53350,29964,16525,8650
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Pinsir, M|item
+|poke|p1|Ludicolo, M|item
+|poke|p1|Jynx, F|item
+|poke|p1|Ferroseed, M|item
+|poke|p1|Charizard, M|item
+|poke|p1|Klinklang|item
+|poke|p2|Omastar, M|item
+|poke|p2|Poliwrath, M|item
+|poke|p2|Weezing, M|item
+|poke|p2|Skuntank, M|item
+|poke|p2|Exeggutor, M|item
+|poke|p2|Tauros, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 4, team 2, team 3, team 1, team 5, team 6|team 4, team 2, team 3, team 1, team 5, team 6
+|
+|start
+|switch|p1a: Ferroseed|Ferroseed, M|100/100
+|switch|p2a: Skuntank|Skuntank, M|100/100
+|turn|1
+|choice|move leechseed|move fireblast
+|
+|move|p2a: Skuntank|Fire Blast|p1a: Ferroseed|[miss]
+|-miss|p2a: Skuntank|p1a: Ferroseed
+|move|p1a: Ferroseed|Leech Seed|p2a: Skuntank
+|-start|p2a: Skuntank|move: Leech Seed
+|
+|-damage|p2a: Skuntank|88/100|[from] Leech Seed|[of] p1a: Ferroseed
+|upkeep
+|turn|2
+|choice|move protect|move fireblast
+|
+|move|p1a: Ferroseed|Protect|p1a: Ferroseed
+|-singleturn|p1a: Ferroseed|Protect
+|move|p2a: Skuntank|Fire Blast|p1a: Ferroseed
+|-activate|p1a: Ferroseed|move: Protect
+|
+|-damage|p2a: Skuntank|76/100|[from] Leech Seed|[of] p1a: Ferroseed
+|upkeep
+|turn|3
+|choice|switch 5|switch 4
+|
+|switch|p2a: Omastar|Omastar, M|100/100
+|switch|p1a: Charizard|Charizard, M|100/100
+|
+|upkeep
+|turn|4
+|choice|switch 5|move stealthrock
+|
+|switch|p1a: Ferroseed|Ferroseed, M|100/100
+|move|p2a: Omastar|Stealth Rock|p1a: Ferroseed
+|-sidestart|p1: youmu@poke|move: Stealth Rock
+|
+|upkeep
+|turn|5
+|choice|move leechseed|move spikes
+|
+|move|p2a: Omastar|Spikes|p1a: Ferroseed
+|-sidestart|p1: youmu@poke|Spikes
+|move|p1a: Ferroseed|Leech Seed|p2a: Omastar
+|-start|p2a: Omastar|move: Leech Seed
+|
+|-damage|p2a: Omastar|88/100|[from] Leech Seed|[of] p1a: Ferroseed
+|upkeep
+|turn|6
+|choice|move spikes|move spikes
+|
+|move|p2a: Omastar|Spikes|p1a: Ferroseed
+|-sidestart|p1: youmu@poke|Spikes
+|move|p1a: Ferroseed|Spikes|p2a: Omastar
+|-sidestart|p2: The Real Thickums|Spikes
+|
+|-heal|p2a: Omastar|94/100|[from] item: Leftovers
+|-damage|p2a: Omastar|82/100|[from] Leech Seed|[of] p1a: Ferroseed
+|upkeep
+|turn|7
+|choice|move spikes|move spikes
+|
+|move|p2a: Omastar|Spikes|p1a: Ferroseed
+|-sidestart|p1: youmu@poke|Spikes
+|move|p1a: Ferroseed|Spikes|p2a: Omastar
+|-sidestart|p2: The Real Thickums|Spikes
+|
+|-heal|p2a: Omastar|88/100|[from] item: Leftovers
+|-damage|p2a: Omastar|75/100|[from] Leech Seed|[of] p1a: Ferroseed
+|upkeep
+|turn|8
+|choice|move leechseed|switch 4
+|
+|switch|p2a: Skuntank|Skuntank, M|76/100
+|-damage|p2a: Skuntank|59/100|[from] Spikes
+|move|p1a: Ferroseed|Leech Seed|p2a: Skuntank|[miss]
+|-miss|p1a: Ferroseed|p2a: Skuntank
+|
+|upkeep
+|turn|9
+|choice|switch 5|move fireblast
+|
+|switch|p1a: Charizard|Charizard, M|100/100
+|-damage|p1a: Charizard|51/100|[from] Stealth Rock
+|move|p2a: Skuntank|Fire Blast|p1a: Charizard
+|-resisted|p1a: Charizard
+|-damage|p1a: Charizard|32/100
+|
+|upkeep
+|turn|10
+|choice|move roost|switch 4
+|
+|switch|p2a: Omastar|Omastar, M|75/100
+|-damage|p2a: Omastar|59/100|[from] Spikes
+|move|p1a: Charizard|Roost|p1a: Charizard
+|-heal|p1a: Charizard|83/100
+|
+|-heal|p2a: Omastar|65/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|choice|move focusblast|move scald
+|
+|move|p1a: Charizard|Focus Blast|p2a: Omastar|[miss]
+|-miss|p1a: Charizard|p2a: Omastar
+|move|p2a: Omastar|Scald|p1a: Charizard
+|-supereffective|p1a: Charizard
+|-damage|p1a: Charizard|8/100
+|
+|-heal|p2a: Omastar|71/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|choice|move focusblast|move scald
+|
+|move|p1a: Charizard|Focus Blast|p2a: Omastar
+|-supereffective|p2a: Omastar
+|-damage|p2a: Omastar|0 fnt
+|-damage|p1a: Charizard|0 fnt|[from] item: Life Orb
+|faint|p2a: Omastar
+|faint|p1a: Charizard
+|
+|upkeep
+|choice|switch 4|switch 6
+|
+|switch|p2a: Tauros|Tauros, M|100/100
+|switch|p1a: Pinsir|Pinsir, M|100/100
+|-damage|p2a: Tauros|84/100|[from] Spikes
+|-damage|p1a: Pinsir|76/100|[from] Stealth Rock
+|-damage|p1a: Pinsir|51/100|[from] Spikes
+|-ability|p1a: Pinsir|Mold Breaker
+|turn|13
+|choice|move stealthrock|move rockclimb
+|
+|move|p2a: Tauros|Rock Climb|p1a: Pinsir
+|-crit|p1a: Pinsir
+|-damage|p1a: Pinsir|0 fnt
+|faint|p1a: Pinsir
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Ferroseed|Ferroseed, M|100/100
+|-damage|p1a: Ferroseed|94/100|[from] Stealth Rock
+|-damage|p1a: Ferroseed|69/100|[from] Spikes
+|turn|14
+|choice|move leechseed|move fireblast
+|
+|move|p2a: Tauros|Fire Blast|p1a: Ferroseed
+|-supereffective|p1a: Ferroseed
+|-damage|p1a: Ferroseed|0 fnt
+|faint|p1a: Ferroseed
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Jynx|Jynx, F|100/100
+|-damage|p1a: Jynx|76/100|[from] Stealth Rock
+|-damage|p1a: Jynx|51/100|[from] Spikes
+|turn|15
+|choice|move lovelykiss|move earthquake
+|
+|move|p2a: Tauros|Earthquake|p1a: Jynx
+|-damage|p1a: Jynx|0 fnt
+|-damage|p2a: Tauros|74/100|[from] item: Life Orb
+|faint|p1a: Jynx
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Ludicolo|Ludicolo, M|100/100
+|-damage|p1a: Ludicolo|76/100|[from] Spikes
+|-damage|p1a: Ludicolo|63/100|[from] Stealth Rock
+|turn|16
+|choice|move raindance|move rockclimb
+|
+|move|p2a: Tauros|Rock Climb|p1a: Ludicolo
+|-damage|p1a: Ludicolo|0 fnt
+|faint|p1a: Ludicolo
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Klinklang|Klinklang|100/100
+|-damage|p1a: Klinklang|95/100|[from] Stealth Rock
+|-damage|p1a: Klinklang|70/100|[from] Spikes
+|turn|17
+|choice|move shiftgear|move earthquake
+|
+|move|p2a: Tauros|Earthquake|p1a: Klinklang
+|-supereffective|p1a: Klinklang
+|-damage|p1a: Klinklang|0 fnt
+|-damage|p2a: Tauros|64/100|[from] item: Life Orb
+|faint|p1a: Klinklang
+|
+|win|The Real Thickums
+|raw|youmu@poke's rating: 1169 &rarr; <strong>1142</strong><br />(-27 for losing)
+|raw|The Real Thickums's rating: 1139 &rarr; <strong>1166</strong><br />(+27 for winning)
+|l|youmu@poke

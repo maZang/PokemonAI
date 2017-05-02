@@ -1,0 +1,260 @@
+|j|Samurai Woot
+|j|momo
+|player|p1|Samurai Woot|208
+|player|p2|momo|169
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|2124,28198,45829,31279,42977,46349,33079,57101,19327,50301,60213,18217
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Crobat, M|item
+|poke|p1|Dragalge, M|item
+|poke|p1|Snorlax, M|item
+|poke|p1|Empoleon, M|item
+|poke|p1|Pangoro, M|item
+|poke|p1|Cobalion|item
+|poke|p2|Kyurem|item
+|poke|p2|Metagross|item
+|poke|p2|Aerodactyl, M|item
+|poke|p2|Flygon, M|item
+|poke|p2|Yanmega, M|item
+|poke|p2|Aromatisse, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 6, team 2, team 3, team 4, team 5, team 1|team 4, team 2, team 3, team 1, team 5, team 6
+|
+|start
+|switch|p1a: Cobalion|Cobalion|100/100
+|switch|p2a: Flygon|Flygon, M|100/100
+|turn|1
+|choice|switch 6|move earthquake
+|
+|switch|p1a: Crobat|Crobat, M|100/100
+|move|p2a: Flygon|Earthquake|p1a: Crobat
+|-immune|p1a: Crobat|[msg]
+|
+|upkeep
+|turn|2
+|choice|move taunt|move uturn
+|
+|move|p1a: Crobat|Taunt|p2a: Flygon
+|-start|p2a: Flygon|move: Taunt
+|move|p2a: Flygon|U-turn|p1a: Crobat
+|-resisted|p1a: Crobat
+|-damage|p1a: Crobat|96/100
+|choice||switch 3
+|
+|switch|p2a: Aerodactyl|Aerodactyl, M|100/100
+|-ability|p2a: Aerodactyl|Pressure
+|
+|-heal|p1a: Crobat|100/100|[from] item: Black Sludge
+|upkeep
+|turn|3
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by momo)
+|choice|switch 6|move aerialace mega
+|
+|switch|p1a: Cobalion|Cobalion|100/100
+|detailschange|p2a: Aerodactyl|Aerodactyl-Mega, M
+|-mega|p2a: Aerodactyl|Aerodactyl|Aerodactylite
+|move|p2a: Aerodactyl|Aerial Ace|p1a: Cobalion
+|-damage|p1a: Cobalion|64/100
+|
+|-heal|p1a: Cobalion|70/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|choice|move stealthrock|move aerialace
+|
+|move|p2a: Aerodactyl|Aerial Ace|p1a: Cobalion
+|-damage|p1a: Cobalion|38/100
+|move|p1a: Cobalion|Stealth Rock|p2a: Aerodactyl
+|-sidestart|p2: momo|move: Stealth Rock
+|
+|-heal|p1a: Cobalion|44/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|choice|move ironhead|move aerialace
+|
+|move|p2a: Aerodactyl|Aerial Ace|p1a: Cobalion
+|-damage|p1a: Cobalion|8/100
+|move|p1a: Cobalion|Iron Head|p2a: Aerodactyl
+|-supereffective|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|14/100
+|
+|-heal|p1a: Cobalion|14/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|choice|move ironhead|move aerialace
+|
+|move|p2a: Aerodactyl|Aerial Ace|p1a: Cobalion
+|-damage|p1a: Cobalion|0 fnt
+|faint|p1a: Cobalion
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Empoleon|Empoleon, M|100/100
+|turn|7
+|choice|move hydropump|switch 5
+|
+|switch|p2a: Yanmega|Yanmega, M|100/100
+|-damage|p2a: Yanmega|51/100|[from] Stealth Rock
+|move|p1a: Empoleon|Hydro Pump|p2a: Yanmega
+|-damage|p2a: Yanmega|0 fnt
+|faint|p2a: Yanmega
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Aromatisse|Aromatisse, M|100/100
+|-damage|p2a: Aromatisse|88/100|[from] Stealth Rock
+|turn|8
+|choice|switch 3|move wish
+|
+|switch|p1a: Snorlax|Snorlax, M|100/100
+|move|p2a: Aromatisse|Wish|p2a: Aromatisse
+|
+|-heal|p2a: Aromatisse|94/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|choice|move curse|move moonblast
+|
+|move|p1a: Snorlax|Curse|p1a: Snorlax
+|-unboost|p1a: Snorlax|spe|1
+|-boost|p1a: Snorlax|atk|1
+|-boost|p1a: Snorlax|def|1
+|move|p2a: Aromatisse|Moonblast|p1a: Snorlax
+|-damage|p1a: Snorlax|85/100
+|
+|-heal|p2a: Aromatisse|100/100|[from] move: Wish|[wisher] Aromatisse
+|-heal|p1a: Snorlax|91/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|choice|move curse|switch 2
+|
+|switch|p2a: Metagross|Metagross|100/100
+|-damage|p2a: Metagross|94/100|[from] Stealth Rock
+|move|p1a: Snorlax|Curse|p1a: Snorlax
+|-unboost|p1a: Snorlax|spe|1
+|-boost|p1a: Snorlax|atk|1
+|-boost|p1a: Snorlax|def|1
+|
+|-heal|p1a: Snorlax|98/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|choice|move bodyslam|move stealthrock
+|
+|move|p2a: Metagross|Stealth Rock|p1a: Snorlax
+|-sidestart|p1: Samurai Woot|move: Stealth Rock
+|move|p1a: Snorlax|Body Slam|p2a: Metagross
+|-resisted|p2a: Metagross
+|-damage|p2a: Metagross|65/100
+|-status|p2a: Metagross|par
+|
+|-heal|p1a: Snorlax|100/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|choice|move curse|move bulletpunch
+|
+|cant|p2a: Metagross|par
+|move|p1a: Snorlax|Curse|p1a: Snorlax
+|-unboost|p1a: Snorlax|spe|1
+|-boost|p1a: Snorlax|atk|1
+|-boost|p1a: Snorlax|def|1
+|
+|upkeep
+|turn|13
+|choice|move curse|move bulletpunch
+|
+|move|p2a: Metagross|Bullet Punch|p1a: Snorlax
+|-damage|p1a: Snorlax|94/100
+|move|p1a: Snorlax|Curse|p1a: Snorlax
+|-unboost|p1a: Snorlax|spe|1
+|-boost|p1a: Snorlax|atk|1
+|-boost|p1a: Snorlax|def|1
+|
+|-heal|p1a: Snorlax|99/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|choice|move bodyslam|switch 3
+|
+|switch|p2a: Flygon|Flygon, M|100/100
+|-damage|p2a: Flygon|94/100|[from] Stealth Rock
+|move|p1a: Snorlax|Body Slam|p2a: Flygon
+|-damage|p2a: Flygon|0 fnt
+|faint|p2a: Flygon
+|
+|-heal|p1a: Snorlax|100/100|[from] item: Leftovers
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Kyurem|Kyurem|100/100
+|-damage|p2a: Kyurem|76/100|[from] Stealth Rock
+|-ability|p2a: Kyurem|Pressure
+|turn|15
+|choice|move bodyslam|move dracometeor
+|
+|move|p2a: Kyurem|Draco Meteor|p1a: Snorlax
+|-damage|p1a: Snorlax|70/100
+|-unboost|p2a: Kyurem|spa|2
+|move|p1a: Snorlax|Body Slam|p2a: Kyurem
+|-damage|p2a: Kyurem|0 fnt
+|faint|p2a: Kyurem
+|
+|-heal|p1a: Snorlax|76/100|[from] item: Leftovers
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Aerodactyl|Aerodactyl-Mega, M|14/100
+|-damage|p2a: Aerodactyl|0 fnt|[from] Stealth Rock
+|faint|p2a: Aerodactyl
+|choice||switch 3
+|
+|switch|p2a: Metagross|Metagross|65/100 par
+|-damage|p2a: Metagross|59/100 par|[from] Stealth Rock
+|turn|16
+|choice|move bodyslam|move earthquake
+|
+|move|p2a: Metagross|Earthquake|p1a: Snorlax
+|-damage|p1a: Snorlax|66/100
+|move|p1a: Snorlax|Body Slam|p2a: Metagross
+|-resisted|p2a: Metagross
+|-damage|p2a: Metagross|19/100 par
+|
+|-heal|p1a: Snorlax|72/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|choice|move bodyslam|move zenheadbutt
+|
+|cant|p2a: Metagross|par
+|move|p1a: Snorlax|Body Slam|p2a: Metagross
+|-resisted|p2a: Metagross
+|-damage|p2a: Metagross|0 fnt
+|faint|p2a: Metagross
+|
+|-heal|p1a: Snorlax|79/100|[from] item: Leftovers
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Aromatisse|Aromatisse, M|100/100
+|-damage|p2a: Aromatisse|88/100|[from] Stealth Rock
+|turn|18
+|choice|move bodyslam|move moonblast
+|
+|move|p2a: Aromatisse|Moonblast|p1a: Snorlax
+|-damage|p1a: Snorlax|61/100
+|move|p1a: Snorlax|Body Slam|p2a: Aromatisse
+|-damage|p2a: Aromatisse|22/100
+|
+|-heal|p2a: Aromatisse|28/100|[from] item: Leftovers
+|-heal|p1a: Snorlax|68/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|-message|momo forfeited.
+|
+|win|Samurai Woot
+|l|momo
+|raw|Samurai Woot's rating: 1067 &rarr; <strong>1093</strong><br />(+26 for winning)
+|raw|momo's rating: 1023 &rarr; <strong>1011</strong><br />(-12 for losing)

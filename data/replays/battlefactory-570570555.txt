@@ -1,0 +1,365 @@
+|j|Mr. Throh
+|j|Shaqstrius
+|player|p1|Mr. Throh|169
+|player|p2|Shaqstrius|114
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|58784,62617,17620,216,29245,56250,20911,19050,15841,13956,42255,27485
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Manaphy|item
+|poke|p1|Dragonite, M|item
+|poke|p1|Thundurus-Therian, M|item
+|poke|p1|Alakazam, M|item
+|poke|p1|Klefki, M|item
+|poke|p1|Garchomp, M|item
+|poke|p2|Latios, M|item
+|poke|p2|Ferrothorn, M|item
+|poke|p2|Lopunny, M|item
+|poke|p2|Magnezone|item
+|poke|p2|Rotom-Wash|item
+|poke|p2|Mamoswine, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Mr. Throh)
+|c|☆Mr. Throh|Oh wow
+|j|Dialga0304
+|j|FoxxiePlays
+|choice|team 6, team 2, team 3, team 4, team 5, team 1|team 2, team 1, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Garchomp|Garchomp, M|100/100
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|turn|1
+|l|Dialga0304
+|j|Dialga0304
+|choice|move fireblast|move stealthrock
+|
+|move|p1a: Garchomp|Fire Blast|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|39/100
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Garchomp
+|-sidestart|p1: Mr. Throh|move: Stealth Rock
+|
+|-heal|p2a: Ferrothorn|45/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|c|☆Mr. Throh|What the hell?
+|choice|move fireblast|switch 5
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|move|p1a: Garchomp|Fire Blast|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|90/100
+|
+|-heal|p2a: Rotom|96/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|choice|move dragontail|move willowisp
+|
+|move|p2a: Rotom|Will-O-Wisp|p1a: Garchomp
+|-status|p1a: Garchomp|brn
+|move|p1a: Garchomp|Dragon Tail|p2a: Rotom
+|-damage|p2a: Rotom|85/100
+|drag|p2a: Magnezone|Magnezone|100/100
+|
+|-damage|p1a: Garchomp|88/100 brn|[from] brn
+|upkeep
+|turn|4
+|choice|move stealthrock|switch 4
+|
+|switch|p2a: Rotom|Rotom-Wash|85/100
+|move|p1a: Garchomp|Stealth Rock|p2a: Rotom
+|-sidestart|p2: Shaqstrius|move: Stealth Rock
+|
+|-heal|p2a: Rotom|91/100|[from] item: Leftovers
+|-damage|p1a: Garchomp|76/100 brn|[from] brn
+|upkeep
+|turn|5
+|choice|move dragontail|move hydropump
+|
+|move|p2a: Rotom|Hydro Pump|p1a: Garchomp|[miss]
+|-miss|p2a: Rotom|p1a: Garchomp
+|move|p1a: Garchomp|Dragon Tail|p2a: Rotom
+|-damage|p2a: Rotom|81/100
+|drag|p2a: Magnezone|Magnezone|100/100
+|-damage|p2a: Magnezone|94/100|[from] Stealth Rock
+|
+|-damage|p1a: Garchomp|63/100 brn|[from] brn
+|upkeep
+|turn|6
+|choice|move dragontail|switch 4
+|
+|switch|p2a: Rotom|Rotom-Wash|81/100
+|-damage|p2a: Rotom|69/100|[from] Stealth Rock
+|move|p1a: Garchomp|Dragon Tail|p2a: Rotom
+|-damage|p2a: Rotom|59/100
+|drag|p2a: Magnezone|Magnezone|94/100
+|-damage|p2a: Magnezone|88/100|[from] Stealth Rock
+|
+|-damage|p1a: Garchomp|51/100 brn|[from] brn
+|upkeep
+|turn|7
+|choice|move dragontail|switch 5
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|45/100
+|-damage|p2a: Ferrothorn|39/100|[from] Stealth Rock
+|move|p1a: Garchomp|Dragon Tail|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|35/100
+|-damage|p1a: Garchomp|39/100 brn|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|drag|p2a: Rotom|Rotom-Wash|59/100
+|-damage|p2a: Rotom|47/100|[from] Stealth Rock
+|
+|-heal|p2a: Rotom|53/100|[from] item: Leftovers
+|-damage|p1a: Garchomp|26/100 brn|[from] brn
+|upkeep
+|turn|8
+|choice|move dragontail|move hydropump
+|
+|move|p2a: Rotom|Hydro Pump|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|faint|p1a: Garchomp
+|
+|-heal|p2a: Rotom|59/100|[from] item: Leftovers
+|upkeep
+|c|☆Mr. Throh|I don't have a spinner?
+|choice|switch 3|
+|
+|switch|p1a: Thundurus|Thundurus-Therian, M|100/100
+|-damage|p1a: Thundurus|75/100|[from] Stealth Rock
+|turn|9
+|choice|move nastyplot|move hydropump
+|
+|move|p1a: Thundurus|Nasty Plot|p1a: Thundurus
+|-boost|p1a: Thundurus|spa|2
+|move|p2a: Rotom|Hydro Pump|p1a: Thundurus
+|-crit|p1a: Thundurus
+|-damage|p1a: Thundurus|0 fnt
+|faint|p1a: Thundurus
+|
+|-heal|p2a: Rotom|65/100|[from] item: Leftovers
+|upkeep
+|c| Dialga0304|gg
+|l|Dialga0304
+|c|☆Mr. Throh|Since when is hydro pump so strong?
+|c|☆Shaqstrius|base 110
+|c|☆Shaqstrius|and i got a crit
+|c|☆Mr. Throh|Omg
+|c|☆Mr. Throh|I want my prize
+|c|☆Shaqstrius|lol there's a price?
+|c|☆Shaqstrius|prize
+|c| FoxxiePlays|only reason I joined
+|c|☆Mr. Throh|Pilica12 said I can claim 2 on the next win because last time I didn't have a 3DS.
+|choice|switch 2|
+|
+|switch|p1a: Dragonite|Dragonite, M|100/100
+|-damage|p1a: Dragonite|76/100|[from] Stealth Rock
+|turn|10
+|choice|move dragondance|move voltswitch
+|
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|move|p2a: Rotom|Volt Switch|p1a: Dragonite
+|-damage|p1a: Dragonite|47/100
+|choice||switch 6
+|
+|switch|p2a: Mamoswine|Mamoswine, M|100/100
+|-damage|p2a: Mamoswine|88/100|[from] Stealth Rock
+|
+|upkeep
+|turn|11
+|choice|move extremespeed|move iceshard
+|
+|move|p1a: Dragonite|Extreme Speed|p2a: Mamoswine
+|-crit|p2a: Mamoswine
+|-damage|p2a: Mamoswine|5/100
+|move|p2a: Mamoswine|Ice Shard|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|-damage|p2a: Mamoswine|0 fnt|[from] item: Life Orb
+|faint|p1a: Dragonite
+|faint|p2a: Mamoswine
+|
+|upkeep
+|c| FoxxiePlays|and there goes your chance of winnin
+|choice|switch 5|switch 3
+|
+|switch|p2a: Lopunny|Lopunny, M|100/100
+|switch|p1a: Klefki|Klefki, M|100/100
+|-damage|p2a: Lopunny|88/100|[from] Stealth Rock
+|-damage|p1a: Klefki|95/100|[from] Stealth Rock
+|turn|12
+|choice|move thunderwave|move substitute
+|
+|move|p1a: Klefki|Thunder Wave|p2a: Lopunny
+|-immune|p2a: Lopunny|[msg]|[from] ability: Limber
+|move|p2a: Lopunny|Substitute|p2a: Lopunny
+|-start|p2a: Lopunny|Substitute
+|-damage|p2a: Lopunny|64/100
+|
+|-heal|p1a: Klefki|100/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|c| FoxxiePlays|mega playboy?
+|c|☆Mr. Throh|Oh god
+|c|☆Mr. Throh|You mean you don't insta mega evolve this one?
+|choice|move playrough|move highjumpkick mega
+|
+|detailschange|p2a: Lopunny|Lopunny-Mega, M
+|-mega|p2a: Lopunny|Lopunny|Lopunnite
+|move|p2a: Lopunny|High Jump Kick|p1a: Klefki
+|-damage|p1a: Klefki|26/100
+|move|p1a: Klefki|Play Rough|p2a: Lopunny
+|-supereffective|p2a: Lopunny
+|-end|p2a: Lopunny|Substitute
+|
+|-heal|p1a: Klefki|32/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|choice|move thunderwave|switch 5
+|
+|switch|p2a: Magnezone|Magnezone|88/100
+|-damage|p2a: Magnezone|82/100|[from] Stealth Rock
+|move|p1a: Klefki|Thunder Wave|p2a: Magnezone
+|-immune|p2a: Magnezone|[msg]
+|
+|-heal|p1a: Klefki|38/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|c| FoxxiePlays|its not even her final form
+|choice|move playrough|move voltswitch
+|
+|move|p1a: Klefki|Play Rough|p2a: Magnezone
+|-resisted|p2a: Magnezone
+|-damage|p2a: Magnezone|70/100
+|-unboost|p2a: Magnezone|atk|1
+|move|p2a: Magnezone|Volt Switch|p1a: Klefki
+|-damage|p1a: Klefki|0 fnt
+|faint|p1a: Klefki
+|c| FoxxiePlays|dont try to break the back of a bunny
+|choice||switch 5
+|
+|switch|p2a: Lopunny|Lopunny-Mega, M|64/100
+|-damage|p2a: Lopunny|58/100|[from] Stealth Rock
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Manaphy|Manaphy|100/100
+|-damage|p1a: Manaphy|88/100|[from] Stealth Rock
+|turn|16
+|c| FoxxiePlays|megazam clutch!
+|choice|move psychic|switch 4
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|35/100
+|-damage|p2a: Ferrothorn|29/100|[from] Stealth Rock
+|move|p1a: Manaphy|Psychic|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|20/100
+|
+|-heal|p1a: Manaphy|94/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|26/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|c|☆Mr. Throh|That isn't even a Megazam
+|c|☆Mr. Throh|And it's pretty frail.
+|choice|move tailglow|move leechseed
+|
+|move|p1a: Manaphy|Tail Glow|p1a: Manaphy
+|-boost|p1a: Manaphy|spa|3
+|move|p2a: Ferrothorn|Leech Seed|p1a: Manaphy|[miss]
+|-miss|p2a: Ferrothorn|p1a: Manaphy
+|
+|-heal|p1a: Manaphy|99/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|33/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|choice|move scald|move leechseed
+|
+|move|p1a: Manaphy|Scald|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|faint|p2a: Ferrothorn
+|
+|-heal|p1a: Manaphy|100/100|[from] item: Leftovers
+|upkeep
+|c|☆Mr. Throh|Thank god it missed
+|choice||switch 4
+|
+|switch|p2a: Lopunny|Lopunny-Mega, M|58/100
+|-damage|p2a: Lopunny|52/100|[from] Stealth Rock
+|turn|19
+|choice|move scald|move return
+|
+|move|p2a: Lopunny|Return|p1a: Manaphy
+|-damage|p1a: Manaphy|53/100
+|move|p1a: Manaphy|Scald|p2a: Lopunny
+|-damage|p2a: Lopunny|0 fnt
+|faint|p2a: Lopunny
+|
+|-heal|p1a: Manaphy|59/100|[from] item: Leftovers
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Latios|Latios, M|100/100
+|-damage|p2a: Latios|88/100|[from] Stealth Rock
+|turn|20
+|choice|move scald|move dracometeor
+|
+|move|p2a: Latios|Draco Meteor|p1a: Manaphy
+|-damage|p1a: Manaphy|0 fnt
+|-unboost|p2a: Latios|spa|2
+|-damage|p2a: Latios|78/100|[from] item: Life Orb
+|faint|p1a: Manaphy
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Alakazam|Alakazam, M|100/100
+|turn|21
+|c| FoxxiePlays|megazam clutch!
+|choice|move shadowball|move dracometeor
+|
+|move|p1a: Alakazam|Shadow Ball|p2a: Latios
+|-supereffective|p2a: Latios
+|-damage|p2a: Latios|5/100
+|move|p2a: Latios|Draco Meteor|p1a: Alakazam
+|-damage|p1a: Alakazam|37/100
+|-unboost|p2a: Latios|spa|2
+|-damage|p2a: Latios|0 fnt|[from] item: Life Orb
+|faint|p2a: Latios
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Magnezone|Magnezone|70/100
+|-damage|p2a: Magnezone|63/100|[from] Stealth Rock
+|turn|22
+|c| FoxxiePlays|no megazam?
+|choice|move focusblast|move flashcannon
+|
+|move|p1a: Alakazam|Focus Blast|p2a: Magnezone
+|-supereffective|p2a: Magnezone
+|-damage|p2a: Magnezone|0 fnt
+|faint|p2a: Magnezone
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Rotom|Rotom-Wash|65/100
+|-damage|p2a: Rotom|53/100|[from] Stealth Rock
+|turn|23
+|c|☆Mr. Throh|Wow
+|c|☆Mr. Throh|can I comeback?
+|c| FoxxiePlays|the last move
+|choice|move psychic|move voltswitch
+|
+|move|p1a: Alakazam|Psychic|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|win|Mr. Throh

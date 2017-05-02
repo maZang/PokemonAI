@@ -1,0 +1,147 @@
+|j|lcezasfuck
+|j|boxabcd
+|player|p1|lcezasfuck|#teamrocket
+|player|p2|boxabcd|101
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|8052,14486,36137,5719,23299,33167,26192,2395,24614,38102,48044,42936
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Gourgeist-*, M|item
+|poke|p1|Politoed, M|item
+|poke|p1|Probopass, M|item
+|poke|p1|Zebstrika, M|item
+|poke|p1|Arbok, M|item
+|poke|p1|Leavanny, M|item
+|poke|p2|Marowak, M|item
+|poke|p2|Purugly, M|item
+|poke|p2|Monferno, M|item
+|poke|p2|Armaldo, M|item
+|poke|p2|Gothitelle, M|item
+|poke|p2|Roselia, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by boxabcd)
+|choice|team 1, team 2, team 3, team 4, team 5, team 6|team 2, team 1, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Gourgeist|Gourgeist-Small, M|100/100
+|switch|p2a: Purugly|Purugly, M|100/100
+|-item|p2a: Purugly|Life Orb|[from] ability: Frisk|[of] p1a: Gourgeist|[identify]
+|turn|1
+|choice|move trick|move uturn
+|
+|move|p1a: Gourgeist|Trick|p2a: Purugly
+|-activate|p1a: Gourgeist|move: Trick|[of] p2a: Purugly
+|-item|p2a: Purugly|Choice Scarf|[from] move: Trick
+|-item|p1a: Gourgeist|Life Orb|[from] move: Trick
+|move|p2a: Purugly|U-turn|p1a: Gourgeist
+|-damage|p1a: Gourgeist|79/100
+|choice||switch 6
+|
+|switch|p2a: Roselia|Roselia, M|100/100
+|
+|upkeep
+|turn|2
+|choice|move trick|move sludgebomb
+|
+|move|p1a: Gourgeist|Trick|p2a: Roselia
+|-activate|p1a: Gourgeist|move: Trick|[of] p2a: Roselia
+|-item|p2a: Roselia|Life Orb|[from] move: Trick
+|-item|p1a: Gourgeist|Eviolite|[from] move: Trick
+|move|p2a: Roselia|Sludge Bomb|p1a: Gourgeist
+|-damage|p1a: Gourgeist|6/100
+|-damage|p2a: Roselia|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|3
+|choice|move destinybond|move gigadrain
+|
+|move|p1a: Gourgeist|Destiny Bond|p1a: Gourgeist
+|-singlemove|p1a: Gourgeist|Destiny Bond
+|move|p2a: Roselia|Giga Drain|p1a: Gourgeist
+|-resisted|p1a: Gourgeist
+|-damage|p1a: Gourgeist|0 fnt
+|-heal|p2a: Roselia|93/100|[from] drain|[of] p1a: Gourgeist
+|-damage|p2a: Roselia|83/100|[from] item: Life Orb
+|faint|p1a: Gourgeist
+|-activate|p1a: Gourgeist|move: Destiny Bond
+|faint|p2a: Roselia
+|
+|upkeep
+|choice|switch 3|switch 5
+|
+|switch|p2a: Gothitelle|Gothitelle, M|100/100
+|switch|p1a: Probopass|Probopass, M|100/100
+|turn|4
+|choice|move stealthrock|move meanlook
+|
+|move|p2a: Gothitelle|Mean Look|p1a: Probopass
+|-activate|p1a: Probopass|trapped
+|move|p1a: Probopass|Stealth Rock|p2a: Gothitelle
+|-sidestart|p2: boxabcd|move: Stealth Rock
+|
+|upkeep
+|turn|5
+|choice|move toxic|move calmmind
+|
+|move|p2a: Gothitelle|Calm Mind|p2a: Gothitelle
+|-boost|p2a: Gothitelle|spa|1
+|-boost|p2a: Gothitelle|spd|1
+|move|p1a: Probopass|Toxic|p2a: Gothitelle
+|-status|p2a: Gothitelle|tox
+|
+|-damage|p2a: Gothitelle|94/100 tox|[from] psn
+|upkeep
+|turn|6
+|choice|move voltswitch|move calmmind
+|
+|move|p2a: Gothitelle|Calm Mind|p2a: Gothitelle
+|-boost|p2a: Gothitelle|spa|1
+|-boost|p2a: Gothitelle|spd|1
+|move|p1a: Probopass|Volt Switch|p2a: Gothitelle
+|-damage|p2a: Gothitelle|88/100 tox
+|choice|switch 2|
+|
+|switch|p1a: Politoed|Politoed, M|100/100
+|
+|-heal|p2a: Gothitelle|94/100 tox|[from] item: Leftovers
+|-damage|p2a: Gothitelle|82/100 tox|[from] psn
+|upkeep
+|turn|7
+|choice|move encore|move calmmind
+|
+|move|p1a: Politoed|Encore|p2a: Gothitelle
+|-start|p2a: Gothitelle|Encore
+|move|p2a: Gothitelle|Calm Mind|p2a: Gothitelle
+|-boost|p2a: Gothitelle|spa|1
+|-boost|p2a: Gothitelle|spd|1
+|
+|-heal|p2a: Gothitelle|88/100 tox|[from] item: Leftovers
+|-damage|p2a: Gothitelle|70/100 tox|[from] psn
+|upkeep
+|turn|8
+|choice|move scald|switch 4
+|
+|switch|p2a: Armaldo|Armaldo, M|100/100
+|-damage|p2a: Armaldo|76/100|[from] Stealth Rock
+|move|p1a: Politoed|Scald|p2a: Armaldo
+|-supereffective|p2a: Armaldo
+|-damage|p2a: Armaldo|0 fnt
+|faint|p2a: Armaldo
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Marowak|Marowak, M|100/100
+|-damage|p2a: Marowak|94/100|[from] Stealth Rock
+|turn|9
+|-message|boxabcd forfeited.
+|
+|win|lcezasfuck
+|l|boxabcd
+|raw|lcezasfuck's rating: 1350 &rarr; <strong>1364</strong><br />(+14 for winning)
+|raw|boxabcd's rating: 1252 &rarr; <strong>1234</strong><br />(-18 for losing)

@@ -1,0 +1,160 @@
+|j|arceus1117
+|j|Alola Marowak
+|player|p1|arceus1117|99
+|player|p2|Alola Marowak|283
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|23806,44073,60208,58025,17214,25117,23031,43242,25567,9337,16460,51025
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Arceus-*|item
+|poke|p1|Sableye, M|item
+|poke|p1|Kyurem-White|item
+|poke|p1|Zekrom|item
+|poke|p1|Latios, M|item
+|poke|p1|Kyogre|item
+|poke|p2|Excadrill, M|item
+|poke|p2|Arceus-*|item
+|poke|p2|Kangaskhan, F|item
+|poke|p2|Blaziken, M|item
+|poke|p2|Aegislash, M|item
+|poke|p2|Yveltal|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by arceus1117)
+|choice|team 2, team 1, team 3, team 4, team 5, team 6|team 3, team 2, team 1, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Sableye|Sableye, M|100/100
+|switch|p2a: Kangaskhan|Kangaskhan, F|100/100
+|turn|1
+|choice|move willowisp|move fakeout
+|
+|move|p2a: Kangaskhan|Fake Out|p1a: Sableye
+|-damage|p1a: Sableye|81/100
+|cant|p1a: Sableye|flinch
+|
+|upkeep
+|turn|2
+|choice|move willowisp|switch 2
+|
+|switch|p2a: Arceus|Arceus-Water|100/100
+|move|p1a: Sableye|Will-O-Wisp|p2a: Arceus|[miss]
+|-miss|p1a: Sableye|p2a: Arceus
+|
+|upkeep
+|turn|3
+|choice|switch 4|switch 4
+|
+|switch|p2a: Blaziken|Blaziken, M|100/100
+|switch|p1a: Zekrom|Zekrom|100/100
+|-ability|p1a: Zekrom|Teravolt
+|
+|upkeep
+|turn|4
+|choice|move tailwind|move protect
+|
+|move|p2a: Blaziken|Protect|p2a: Blaziken
+|-singleturn|p2a: Blaziken|Protect
+|move|p1a: Zekrom|Tailwind|p1a: Zekrom
+|-sidestart|p1: arceus1117|move: Tailwind
+|
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|turn|5
+|choice|move dracometeor|move stoneedge
+|
+|move|p1a: Zekrom|Draco Meteor|p2a: Blaziken
+|-crit|p2a: Blaziken
+|-damage|p2a: Blaziken|0 fnt
+|-unboost|p1a: Zekrom|spa|2
+|-damage|p1a: Zekrom|91/100|[from] item: Life Orb
+|faint|p2a: Blaziken
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|-item|p2a: Excadrill|Air Balloon
+|turn|6
+|choice|switch 4|move swordsdance
+|
+|switch|p1a: Sableye|Sableye, M|81/100
+|move|p2a: Excadrill|Swords Dance|p2a: Excadrill
+|-boost|p2a: Excadrill|atk|2
+|
+|upkeep
+|turn|7
+|choice|move willowisp mega|move swordsdance
+|
+|detailschange|p1a: Sableye|Sableye-Mega, M
+|-mega|p1a: Sableye|Sableye|Sablenite
+|move|p1a: Sableye|Will-O-Wisp|p2a: Excadrill
+|-status|p2a: Excadrill|brn
+|move|p2a: Excadrill|Swords Dance|p2a: Excadrill
+|-boost|p2a: Excadrill|atk|2
+|
+|-damage|p2a: Excadrill|88/100 brn|[from] brn
+|-sideend|p1: arceus1117|move: Tailwind
+|upkeep
+|turn|8
+|choice|move foulplay|move earthquake
+|
+|move|p2a: Excadrill|Earthquake|p1a: Sableye
+|-damage|p1a: Sableye|24/100
+|move|p1a: Sableye|Foul Play|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|-enditem|p2a: Excadrill|Air Balloon
+|faint|p2a: Excadrill
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Kangaskhan|Kangaskhan, F|100/100
+|turn|9
+|choice|switch 5|move lowkick
+|
+|switch|p1a: Latios|Latios, M|100/100
+|move|p2a: Kangaskhan|Low Kick|p1a: Latios
+|-resisted|p1a: Latios
+|-damage|p1a: Latios|85/100
+|
+|upkeep
+|turn|10
+|choice|move psyshock|move suckerpunch mega
+|
+|detailschange|p2a: Kangaskhan|Kangaskhan-Mega, F
+|-mega|p2a: Kangaskhan|Kangaskhan|Kangaskhanite
+|move|p2a: Kangaskhan|Sucker Punch|p1a: Latios
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|6/100
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|0 fnt
+|-hitcount|p1a: Latios|2
+|faint|p1a: Latios
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Sableye|Sableye-Mega, M|24/100
+|turn|11
+|choice|move willowisp|move doubleedge
+|
+|move|p2a: Kangaskhan|Double-Edge|p1a: Sableye
+|-immune|p1a: Sableye|[msg]
+|move|p1a: Sableye|Will-O-Wisp|p2a: Kangaskhan
+|-status|p2a: Kangaskhan|brn
+|
+|-damage|p2a: Kangaskhan|88/100 brn|[from] brn
+|upkeep
+|turn|12
+|-message|Alola Marowak forfeited.
+|
+|win|arceus1117
+|l|Alola Marowak
+|raw|arceus1117's rating: 1265 &rarr; <strong>1280</strong><br />(+15 for winning)
+|raw|Alola Marowak's rating: 1119 &rarr; <strong>1104</strong><br />(-15 for losing)

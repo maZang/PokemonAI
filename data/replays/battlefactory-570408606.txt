@@ -1,0 +1,280 @@
+|j|Erenzio
+|j|Fortrest
+|player|p1|Erenzio|266
+|player|p2|Fortrest|262
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|23607,16943,18357,47368,36180,28364,34633,62218,27435,55046,29193,48088
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Grumpig, M|item
+|poke|p1|Probopass, M|item
+|poke|p1|Pawniard, M|item
+|poke|p1|Gourgeist-*, M|item
+|poke|p1|Lickilicky, M|item
+|poke|p1|Simisear, M|item
+|poke|p2|Swanna, M|item
+|poke|p2|Marowak, M|item
+|poke|p2|Pawniard, M|item
+|poke|p2|Arbok, M|item
+|poke|p2|Mr. Mime, M|item
+|poke|p2|Ninetales, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|c|☆Erenzio|WTH IS THIS TEAM
+|c|☆Fortrest|Oh yea, the tiers are randomized, so this is a way lower tier than the previous battle
+|c|☆Erenzio|Y
+|c|☆Fortrest|Last battle was Ubers, the broken legends and such
+|choice|team 6, team 2, team 3, team 4, team 5, team 1|team 2, team 1, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Simisear|Simisear, M|100/100
+|switch|p2a: Marowak|Marowak, M|100/100
+|turn|1
+|choice|move fireblast|switch 6
+|
+|switch|p2a: Ninetales|Ninetales, M|100/100
+|move|p1a: Simisear|Fire Blast|p2a: Ninetales
+|-start|p2a: Ninetales|ability: Flash Fire
+|
+|upkeep
+|turn|2
+|choice|move grassknot|move substitute
+|
+|move|p1a: Simisear|Grass Knot|p2a: Ninetales
+|-resisted|p2a: Ninetales
+|-damage|p2a: Ninetales|92/100
+|-damage|p1a: Simisear|91/100|[from] item: Life Orb
+|move|p2a: Ninetales|Substitute|p2a: Ninetales
+|-start|p2a: Ninetales|Substitute
+|-damage|p2a: Ninetales|68/100
+|
+|-heal|p2a: Ninetales|74/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|choice|move fireblast|move nastyplot
+|
+|move|p1a: Simisear|Fire Blast|p2a: Ninetales
+|-immune|p2a: Ninetales|[msg]|[from] ability: Flash Fire
+|move|p2a: Ninetales|Nasty Plot|p2a: Ninetales
+|-boost|p2a: Ninetales|spa|2
+|
+|-heal|p2a: Ninetales|80/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|c|☆Erenzio|WTH
+|c|☆Fortrest|If you used it once and it didn't work, chances are it won't the second time
+|choice|switch 2|move nastyplot
+|
+|switch|p1a: Probopass|Probopass, M|100/100
+|move|p2a: Ninetales|Nasty Plot|p2a: Ninetales
+|-boost|p2a: Ninetales|spa|2
+|
+|-heal|p2a: Ninetales|86/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|choice|move voltswitch|move fireblast
+|
+|move|p2a: Ninetales|Fire Blast|p1a: Probopass
+|-ability|p1a: Probopass|Sturdy
+|-damage|p1a: Probopass|1/100
+|move|p1a: Probopass|Volt Switch|p2a: Ninetales
+|-activate|p2a: Ninetales|move: Substitute|[damage]
+|choice|switch 6|
+|
+|switch|p1a: Grumpig|Grumpig, M|100/100
+|
+|-heal|p2a: Ninetales|91/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|choice|move psychic|move fireblast
+|
+|move|p2a: Ninetales|Fire Blast|p1a: Grumpig
+|-damage|p1a: Grumpig|18/100
+|move|p1a: Grumpig|Psychic|p2a: Ninetales
+|-end|p2a: Ninetales|Substitute
+|
+|-heal|p2a: Ninetales|97/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|choice|move focusblast|move energyball
+|
+|move|p2a: Ninetales|Energy Ball|p1a: Grumpig
+|-damage|p1a: Grumpig|0 fnt
+|faint|p1a: Grumpig
+|
+|-heal|p2a: Ninetales|100/100|[from] item: Leftovers
+|upkeep
+|c|☆Erenzio|T_T
+|choice|switch 3|
+|
+|switch|p1a: Pawniard|Pawniard, M|100/100
+|turn|8
+|choice|move suckerpunch|move substitute
+|
+|move|p1a: Pawniard|Sucker Punch|p2a: Ninetales|[still]
+|-fail|p1a: Pawniard
+|move|p2a: Ninetales|Substitute|p2a: Ninetales
+|-start|p2a: Ninetales|Substitute
+|-damage|p2a: Ninetales|76/100
+|
+|-heal|p2a: Ninetales|82/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|c|☆Fortrest|Too predictable mate
+|choice|move ironhead|move nastyplot
+|
+|move|p2a: Ninetales|Nasty Plot|p2a: Ninetales
+|-boost|p2a: Ninetales|spa|2
+|move|p1a: Pawniard|Iron Head|p2a: Ninetales
+|-resisted|p2a: Ninetales
+|-activate|p2a: Ninetales|move: Substitute|[damage]
+|
+|-heal|p2a: Ninetales|88/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|choice|move ironhead|move fireblast
+|
+|move|p2a: Ninetales|Fire Blast|p1a: Pawniard
+|-supereffective|p1a: Pawniard
+|-damage|p1a: Pawniard|0 fnt
+|faint|p1a: Pawniard
+|
+|-heal|p2a: Ninetales|94/100|[from] item: Leftovers
+|upkeep
+|c|☆Erenzio|my god
+|choice|switch 4|
+|
+|switch|p1a: Gourgeist|Gourgeist-Small, M|100/100
+|-item|p2a: Ninetales|Leftovers|[from] ability: Frisk|[of] p1a: Gourgeist|[identify]
+|turn|11
+|choice|switch 5|move fireblast
+|
+|switch|p1a: Lickilicky|Lickilicky, M|100/100
+|move|p2a: Ninetales|Fire Blast|p1a: Lickilicky
+|-crit|p1a: Lickilicky
+|-damage|p1a: Lickilicky|0 fnt
+|faint|p1a: Lickilicky
+|
+|-heal|p2a: Ninetales|99/100|[from] item: Leftovers
+|upkeep
+|c|☆Fortrest|You can't let me 6-0 you like this
+|choice|switch 2|
+|
+|switch|p1a: Simisear|Simisear, M|91/100
+|turn|12
+|c|☆Erenzio|Shuuuuuuuuuuuuut
+|choice|move lowkick|move fireblast
+|
+|move|p1a: Simisear|Low Kick|p2a: Ninetales
+|-end|p2a: Ninetales|Substitute
+|-damage|p1a: Simisear|81/100|[from] item: Life Orb
+|move|p2a: Ninetales|Fire Blast|p1a: Simisear
+|-resisted|p1a: Simisear
+|-damage|p1a: Simisear|0 fnt
+|faint|p1a: Simisear
+|
+|-heal|p2a: Ninetales|100/100|[from] item: Leftovers
+|upkeep
+|c|☆Erenzio|Ninetales is OP
+|choice|switch 5|
+|
+|switch|p1a: Gourgeist|Gourgeist-Small, M|100/100
+|-item|p2a: Ninetales|Leftovers|[from] ability: Frisk|[of] p1a: Gourgeist|[identify]
+|turn|13
+|c|☆Erenzio|I swear
+|choice|move trick|move substitute
+|
+|move|p1a: Gourgeist|Trick|p2a: Ninetales
+|-activate|p1a: Gourgeist|move: Trick|[of] p2a: Ninetales
+|-item|p2a: Ninetales|Choice Scarf|[from] move: Trick
+|-item|p1a: Gourgeist|Leftovers|[from] move: Trick
+|move|p2a: Ninetales|Substitute|p2a: Ninetales
+|-start|p2a: Ninetales|Substitute
+|-damage|p2a: Ninetales|76/100
+|
+|upkeep
+|turn|14
+|c|☆Fortrest|*Gasp*
+|choice|move trick|switch 3
+|
+|-end|p2a: Ninetales|ability: Flash Fire|[silent]
+|switch|p2a: Pawniard|Pawniard, M|100/100
+|move|p1a: Gourgeist|Trick|p2a: Pawniard
+|-activate|p1a: Gourgeist|move: Trick|[of] p2a: Pawniard
+|-item|p2a: Pawniard|Leftovers|[from] move: Trick
+|-item|p1a: Gourgeist|Eviolite|[from] move: Trick
+|
+|upkeep
+|turn|15
+|choice|move seedbomb|move knockoff
+|
+|move|p1a: Gourgeist|Seed Bomb|p2a: Pawniard
+|-resisted|p2a: Pawniard
+|-damage|p2a: Pawniard|72/100
+|move|p2a: Pawniard|Knock Off|p1a: Gourgeist
+|-supereffective|p1a: Gourgeist
+|-damage|p1a: Gourgeist|12/100
+|-enditem|p1a: Gourgeist|Eviolite|[from] move: Knock Off|[of] p2a: Pawniard
+|
+|-heal|p2a: Pawniard|78/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|choice|switch 6|move suckerpunch
+|
+|switch|p1a: Probopass|Probopass, M|1/100
+|move|p2a: Pawniard|Sucker Punch|p1a: Probopass|[still]
+|-fail|p2a: Pawniard
+|
+|-heal|p2a: Pawniard|84/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|choice|move flashcannon|move knockoff
+|
+|move|p2a: Pawniard|Knock Off|p1a: Probopass
+|-crit|p1a: Probopass
+|-damage|p1a: Probopass|0 fnt
+|-enditem|p1a: Probopass|Passho Berry|[from] move: Knock Off|[of] p2a: Pawniard
+|faint|p1a: Probopass
+|
+|-heal|p2a: Pawniard|90/100|[from] item: Leftovers
+|upkeep
+|c|☆Erenzio|T_T
+|choice|switch 6|
+|
+|switch|p1a: Gourgeist|Gourgeist-Small, M|12/100
+|-item|p2a: Pawniard|Leftovers|[from] ability: Frisk|[of] p1a: Gourgeist|[identify]
+|turn|18
+|c|☆Fortrest|You know it shows the speeds of the Pokemon right?
+|c|☆Erenzio|rematch
+|l|Fortrest
+|player|p2|
+|c|☆Erenzio|????
+|j|Fortrest
+|player|p2|Fortrest|262
+|choice|move trick|move suckerpunch
+|
+|move|p2a: Pawniard|Sucker Punch|p1a: Gourgeist|[still]
+|-fail|p2a: Pawniard
+|move|p1a: Gourgeist|Trick|p2a: Pawniard
+|-activate|p1a: Gourgeist|move: Trick|[of] p2a: Pawniard
+|-enditem|p2a: Pawniard|Leftovers|[silent]|[from] move: Trick
+|-item|p1a: Gourgeist|Leftovers|[from] move: Trick
+|
+|-heal|p1a: Gourgeist|18/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|choice|move trick|move knockoff
+|
+|move|p1a: Gourgeist|Trick|p2a: Pawniard
+|-activate|p1a: Gourgeist|move: Trick|[of] p2a: Pawniard
+|-item|p2a: Pawniard|Leftovers|[from] move: Trick
+|-enditem|p1a: Gourgeist|Leftovers|[silent]|[from] move: Trick
+|move|p2a: Pawniard|Knock Off|p1a: Gourgeist
+|-supereffective|p1a: Gourgeist
+|-damage|p1a: Gourgeist|0 fnt
+|faint|p1a: Gourgeist
+|
+|win|Fortrest

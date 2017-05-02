@@ -1,0 +1,168 @@
+|j|Samurai Woot
+|j|Mortify
+|player|p1|Samurai Woot|208
+|player|p2|Mortify|260
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|40681,36126,28877,21177,54866,32421,36179,17725,54127,14629,7530,58816
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Roselia, M|item
+|poke|p1|Ninjask, M|item
+|poke|p1|Tangela, M|item
+|poke|p1|Mightyena, M|item
+|poke|p1|Cryogonal|item
+|poke|p1|Golem, M|item
+|poke|p2|Gothitelle, M|item
+|poke|p2|Clefairy, M|item
+|poke|p2|Fraxure, M|item
+|poke|p2|Bouffalant, M|item
+|poke|p2|Politoed, M|item
+|poke|p2|Vibrava, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 6, team 2, team 3, team 4, team 5, team 1|team 5, team 2, team 3, team 4, team 1, team 6
+|
+|start
+|switch|p1a: Golem|Golem, M|100/100
+|switch|p2a: Politoed|Politoed, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Samurai Woot)
+|choice|switch 5|move scald
+|
+|switch|p1a: Cryogonal|Cryogonal|100/100
+|move|p2a: Politoed|Scald|p1a: Cryogonal
+|-damage|p1a: Cryogonal|76/100
+|
+|upkeep
+|turn|2
+|choice|move freezedry|switch 2
+|
+|switch|p2a: Clefairy|Clefairy, M|100/100
+|move|p1a: Cryogonal|Freeze-Dry|p2a: Clefairy
+|-damage|p2a: Clefairy|78/100
+|-damage|p1a: Cryogonal|66/100|[from] item: Life Orb
+|
+|upkeep
+|turn|3
+|choice|switch 6|move stealthrock
+|
+|switch|p1a: Roselia|Roselia, M|100/100
+|move|p2a: Clefairy|Stealth Rock|p1a: Roselia
+|-sidestart|p1: Samurai Woot|move: Stealth Rock
+|
+|upkeep
+|turn|4
+|choice|move spikes|move softboiled
+|
+|move|p1a: Roselia|Spikes|p2a: Clefairy
+|-sidestart|p2: Mortify|Spikes
+|move|p2a: Clefairy|Soft-Boiled|p2a: Clefairy
+|-heal|p2a: Clefairy|100/100
+|
+|upkeep
+|turn|5
+|choice|move spikes|switch 5
+|
+|switch|p2a: Gothitelle|Gothitelle, M|100/100
+|-damage|p2a: Gothitelle|88/100|[from] Spikes
+|move|p1a: Roselia|Spikes|p2a: Gothitelle
+|-sidestart|p2: Mortify|Spikes
+|
+|-heal|p2a: Gothitelle|94/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|choice|move spikes|move calmmind
+|
+|move|p1a: Roselia|Spikes|p2a: Gothitelle
+|-sidestart|p2: Mortify|Spikes
+|move|p2a: Gothitelle|Calm Mind|p2a: Gothitelle
+|-boost|p2a: Gothitelle|spa|1
+|-boost|p2a: Gothitelle|spd|1
+|
+|-heal|p2a: Gothitelle|99/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|choice|move sludgebomb|move psychic
+|
+|move|p1a: Roselia|Sludge Bomb|p2a: Gothitelle
+|-crit|p2a: Gothitelle
+|-damage|p2a: Gothitelle|42/100
+|move|p2a: Gothitelle|Psychic|p1a: Roselia
+|-supereffective|p1a: Roselia
+|-damage|p1a: Roselia|0 fnt
+|faint|p1a: Roselia
+|
+|-heal|p2a: Gothitelle|48/100|[from] item: Leftovers
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Mightyena|Mightyena, M|100/100
+|-damage|p1a: Mightyena|88/100|[from] Stealth Rock
+|turn|8
+|choice|move crunch|move rest
+|
+|move|p1a: Mightyena|Crunch|p2a: Gothitelle
+|-supereffective|p2a: Gothitelle
+|-damage|p2a: Gothitelle|0 fnt
+|-damage|p1a: Mightyena|79/100|[from] item: Life Orb
+|faint|p2a: Gothitelle
+|-ability|p1a: Mightyena|Moxie|boost
+|-boost|p1a: Mightyena|atk|1
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Clefairy|Clefairy, M|100/100
+|turn|9
+|choice|move irontail|move moonblast
+|
+|move|p1a: Mightyena|Iron Tail|p2a: Clefairy
+|-supereffective|p2a: Clefairy
+|-damage|p2a: Clefairy|0 fnt
+|-damage|p1a: Mightyena|69/100|[from] item: Life Orb
+|faint|p2a: Clefairy
+|-ability|p1a: Mightyena|Moxie|boost
+|-boost|p1a: Mightyena|atk|1
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Vibrava|Vibrava, M|100/100
+|turn|10
+|choice|move playrough|move uturn
+|
+|move|p1a: Mightyena|Play Rough|p2a: Vibrava
+|-supereffective|p2a: Vibrava
+|-damage|p2a: Vibrava|0 fnt
+|-damage|p1a: Mightyena|59/100|[from] item: Life Orb
+|faint|p2a: Vibrava
+|-ability|p1a: Mightyena|Moxie|boost
+|-boost|p1a: Mightyena|atk|1
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Politoed|Politoed, M|100/100
+|-damage|p2a: Politoed|75/100|[from] Spikes
+|turn|11
+|choice|move crunch|move scald
+|
+|move|p1a: Mightyena|Crunch|p2a: Politoed
+|-crit|p2a: Politoed
+|-damage|p2a: Politoed|0 fnt
+|-damage|p1a: Mightyena|50/100|[from] item: Life Orb
+|faint|p2a: Politoed
+|-ability|p1a: Mightyena|Moxie|boost
+|-boost|p1a: Mightyena|atk|1
+|
+|upkeep
+|-message|Mortify forfeited.
+|
+|win|Samurai Woot
+|l|Mortify
+|raw|Samurai Woot's rating: 1093 &rarr; <strong>1128</strong><br />(+35 for winning)
+|raw|Mortify's rating: 1212 &rarr; <strong>1178</strong><br />(-34 for losing)

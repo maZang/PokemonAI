@@ -1,0 +1,325 @@
+|j|Apo Apollo
+|j|gowass
+|player|p1|Apo Apollo|266
+|player|p2|gowass|20
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|61118,21551,24951,28789,64440,61938,27389,18321,7058,9159,4504,47431
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Chansey, F|item
+|poke|p1|Staraptor, M|item
+|poke|p1|Scizor, M|item
+|poke|p1|Mamoswine, M|item
+|poke|p1|Victini|item
+|poke|p1|Raikou|item
+|poke|p2|Weavile, M|item
+|poke|p2|Celebi|item
+|poke|p2|Metagross|item
+|poke|p2|Skarmory, M|item
+|poke|p2|Dragonite, M|item
+|poke|p2|Serperior, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by gowass)
+|choice|team 5, team 2, team 3, team 4, team 1, team 6|team 6, team 2, team 3, team 4, team 5, team 1
+|
+|start
+|switch|p1a: Victini|Victini|100/100
+|switch|p2a: Serperior|Serperior, M|100/100
+|turn|1
+|choice|move vcreate|move glare
+|
+|move|p2a: Serperior|Glare|p1a: Victini
+|-status|p1a: Victini|par
+|move|p1a: Victini|V-create|p2a: Serperior
+|-supereffective|p2a: Serperior
+|-damage|p2a: Serperior|0 fnt
+|-unboost|p1a: Victini|spe|1
+|-unboost|p1a: Victini|def|1
+|-unboost|p1a: Victini|spd|1
+|faint|p2a: Serperior
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Weavile|Weavile, M|100/100
+|-ability|p2a: Weavile|Pressure
+|turn|2
+|choice|move poweruppunch|move knockoff
+|
+|move|p2a: Weavile|Knock Off|p1a: Victini
+|-supereffective|p1a: Victini
+|-damage|p1a: Victini|0 fnt
+|-enditem|p1a: Victini|Leftovers|[from] move: Knock Off|[of] p2a: Weavile
+|-damage|p2a: Weavile|91/100|[from] item: Life Orb
+|faint|p1a: Victini
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Staraptor|Staraptor, M|100/100
+|turn|3
+|choice|move closecombat|move icepunch
+|
+|move|p1a: Staraptor|Close Combat|p2a: Weavile
+|-supereffective|p2a: Weavile
+|-damage|p2a: Weavile|0 fnt
+|-unboost|p1a: Staraptor|def|1
+|-unboost|p1a: Staraptor|spd|1
+|faint|p2a: Weavile
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Celebi|Celebi|100/100
+|turn|4
+|choice|switch 3|move thunderwave
+|
+|switch|p1a: Scizor|Scizor, M|100/100
+|move|p2a: Celebi|Thunder Wave|p1a: Scizor
+|-status|p1a: Scizor|par
+|
+|upkeep
+|turn|5
+|choice|move knockoff mega|move stealthrock
+|
+|detailschange|p1a: Scizor|Scizor-Mega, M
+|-mega|p1a: Scizor|Scizor|Scizorite
+|move|p2a: Celebi|Stealth Rock|p1a: Scizor
+|-sidestart|p1: Apo Apollo|move: Stealth Rock
+|cant|p1a: Scizor|par
+|
+|upkeep
+|turn|6
+|choice|move knockoff|switch 4
+|
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|move|p1a: Scizor|Knock Off|p2a: Skarmory
+|-damage|p2a: Skarmory|81/100
+|-enditem|p2a: Skarmory|Leftovers|[from] move: Knock Off|[of] p1a: Scizor
+|
+|upkeep
+|turn|7
+|choice|move bulletpunch|move bravebird
+|
+|cant|p1a: Scizor|par
+|move|p2a: Skarmory|Brave Bird|p1a: Scizor
+|-damage|p1a: Scizor|83/100 par
+|-damage|p2a: Skarmory|75/100|[from] recoil|[of] p1a: Scizor
+|
+|upkeep
+|turn|8
+|choice|move bulletpunch|switch 5
+|
+|switch|p2a: Dragonite|Dragonite, M|100/100
+|move|p1a: Scizor|Bullet Punch|p2a: Dragonite
+|-damage|p2a: Dragonite|84/100
+|
+|upkeep
+|turn|9
+|choice|move defog|move outrage
+|
+|move|p2a: Dragonite|Outrage|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|52/100 par
+|move|p1a: Scizor|Defog|p2a: Dragonite
+|-unboost|p2a: Dragonite|evasion|1
+|-sideend|p1: Apo Apollo|Stealth Rock|[from] move: Defog|[of] p1a: Scizor
+|
+|upkeep
+|turn|10
+|choice|switch 4|move outrage
+|
+|switch|p1a: Mamoswine|Mamoswine, M|100/100
+|move|p2a: Dragonite|Outrage|p1a: Mamoswine|[from]lockedmove
+|-damage|p1a: Mamoswine|0 fnt
+|-start|p2a: Dragonite|confusion|[fatigue]
+|faint|p1a: Mamoswine
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Raikou|Raikou|100/100
+|-ability|p1a: Raikou|Pressure
+|turn|11
+|choice|move calmmind|switch 4
+|
+|switch|p2a: Celebi|Celebi|100/100
+|move|p1a: Raikou|Calm Mind|p1a: Raikou
+|-boost|p1a: Raikou|spa|1
+|-boost|p1a: Raikou|spd|1
+|
+|upkeep
+|turn|12
+|choice|move hiddenpower|move stealthrock
+|
+|move|p1a: Raikou|Hidden Power|p2a: Celebi
+|-supereffective|p2a: Celebi
+|-damage|p2a: Celebi|59/100
+|move|p2a: Celebi|Stealth Rock|p1a: Raikou
+|-sidestart|p1: Apo Apollo|move: Stealth Rock
+|
+|-heal|p2a: Celebi|65/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|choice|move calmmind|switch 3
+|
+|switch|p2a: Metagross|Metagross|100/100
+|move|p1a: Raikou|Calm Mind|p1a: Raikou
+|-boost|p1a: Raikou|spa|1
+|-boost|p1a: Raikou|spd|1
+|
+|upkeep
+|turn|14
+|choice|move thunderbolt|move earthquake mega
+|
+|detailschange|p2a: Metagross|Metagross-Mega
+|-mega|p2a: Metagross|Metagross|Metagrossite
+|move|p1a: Raikou|Thunderbolt|p2a: Metagross
+|-damage|p2a: Metagross|14/100
+|move|p2a: Metagross|Earthquake|p1a: Raikou
+|-supereffective|p1a: Raikou
+|-damage|p1a: Raikou|0 fnt
+|faint|p1a: Raikou
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Scizor|Scizor-Mega, M|52/100 par
+|-damage|p1a: Scizor|39/100 par|[from] Stealth Rock
+|turn|15
+|choice|move knockoff|switch 4
+|
+|switch|p2a: Dragonite|Dragonite, M|84/100
+|move|p1a: Scizor|Knock Off|p2a: Dragonite
+|-damage|p2a: Dragonite|48/100
+|-enditem|p2a: Dragonite|Choice Band|[from] move: Knock Off|[of] p1a: Scizor
+|
+|upkeep
+|turn|16
+|choice|move knockoff|move thunderpunch
+|
+|move|p2a: Dragonite|Thunder Punch|p1a: Scizor
+|-damage|p1a: Scizor|23/100 par
+|move|p1a: Scizor|Knock Off|p2a: Dragonite
+|-damage|p2a: Dragonite|25/100
+|
+|upkeep
+|turn|17
+|choice|move knockoff|move outrage
+|
+|move|p2a: Dragonite|Outrage|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|4/100 par
+|move|p1a: Scizor|Knock Off|p2a: Dragonite
+|-damage|p2a: Dragonite|3/100
+|
+|upkeep
+|turn|18
+|choice|move roost|move outrage
+|
+|move|p2a: Dragonite|Outrage|p1a: Scizor|[from]lockedmove
+|-resisted|p1a: Scizor
+|-crit|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|-start|p2a: Dragonite|confusion|[fatigue]
+|faint|p1a: Scizor
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Staraptor|Staraptor, M|100/100
+|-damage|p1a: Staraptor|75/100|[from] Stealth Rock
+|turn|19
+|choice|move uturn|switch 5
+|
+|switch|p2a: Skarmory|Skarmory, M|75/100
+|move|p1a: Staraptor|U-turn|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|71/100
+|choice|switch 5|
+|
+|switch|p1a: Chansey|Chansey, F|100/100
+|-damage|p1a: Chansey|88/100|[from] Stealth Rock
+|
+|upkeep
+|turn|20
+|choice|move seismictoss|move bravebird
+|
+|move|p2a: Skarmory|Brave Bird|p1a: Chansey
+|-damage|p1a: Chansey|68/100
+|-damage|p2a: Skarmory|59/100|[from] recoil|[of] p1a: Chansey
+|move|p1a: Chansey|Seismic Toss|p2a: Skarmory
+|-damage|p2a: Skarmory|29/100
+|
+|upkeep
+|turn|21
+|choice|move seismictoss|move bravebird
+|
+|move|p2a: Skarmory|Brave Bird|p1a: Chansey
+|-damage|p1a: Chansey|45/100
+|-damage|p2a: Skarmory|14/100|[from] recoil|[of] p1a: Chansey
+|move|p1a: Chansey|Seismic Toss|p2a: Skarmory
+|-damage|p2a: Skarmory|0 fnt
+|faint|p2a: Skarmory
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Dragonite|Dragonite, M|3/100
+|turn|22
+|choice|move softboiled|move superpower
+|
+|move|p2a: Dragonite|Superpower|p1a: Chansey
+|-supereffective|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|-unboost|p2a: Dragonite|atk|1
+|-unboost|p2a: Dragonite|def|1
+|faint|p1a: Chansey
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Staraptor|Staraptor, M|75/100
+|-damage|p1a: Staraptor|50/100|[from] Stealth Rock
+|turn|23
+|choice|move uturn|switch 3
+|
+|switch|p2a: Celebi|Celebi|65/100
+|move|p1a: Staraptor|U-turn|p2a: Celebi
+|-supereffective|p2a: Celebi
+|-damage|p2a: Celebi|0 fnt
+|faint|p2a: Celebi
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Dragonite|Dragonite, M|3/100
+|turn|24
+|choice|move uturn|move extremespeed
+|
+|move|p2a: Dragonite|Extreme Speed|p1a: Staraptor
+|-damage|p1a: Staraptor|8/100
+|move|p1a: Staraptor|U-turn|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Metagross|Metagross-Mega|14/100
+|turn|25
+|choice|move uturn|move zenheadbutt
+|
+|move|p1a: Staraptor|U-turn|p2a: Metagross
+|-damage|p2a: Metagross|0 fnt
+|faint|p2a: Metagross
+|
+|win|Apo Apollo
+|raw|Apo Apollo's rating: 1112 &rarr; <strong>1129</strong><br />(+17 for winning)
+|raw|gowass's rating: 1000 &rarr; <strong>1000</strong><br />(+0 for losing)
