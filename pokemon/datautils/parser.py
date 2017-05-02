@@ -66,7 +66,6 @@ def encodePokemonObject(pokemon):
 
 	assert(len(move_ids) == 4)
 
-	'''
 	if pokemon.status == "psn":
 		status_key = "POISONED"
 	elif pokemon.status == "tox":
@@ -83,8 +82,6 @@ def encodePokemonObject(pokemon):
 		status_key = "NONE"
 
 	status_id = STATUS_IDS[status_key]
-	'''
-	status_id = STATUS_IDS["NONE"]
 
 	pokemon_encoding[:, 0] = pokemon_id
 	for i in range(len(move_ids)):
@@ -170,6 +167,9 @@ class PokemonShowdownEncoding(object):
 			for i in range(6, 12):
 				self.pokemon[i][turnNumber] = lst[i-6]
 
+	def encodeWinnerPokemon(self, winnerPokemonEncoding):
+		pass
+
 
 class PokemonShowdownReplayParser(object):
 	def __init__(self, log="", winner=""):
@@ -190,19 +190,27 @@ class PokemonShowdownReplayParser(object):
 		self.lines = None
 
 	def run(self):
+		# Parse through the log file and fill in any seen abilities, items, or moves.
 		self.parse()
 
 		assert(self.winner == "p1" or self.winner == "p2")
 
-		self.stripGenders()
+		# Parse through the JSON file and fill in pokemon sets.
 		self.parseJSON()
+
+		# TODO: Simulate through the battle and generate pokemon and state encodings for each turn.
+
+
+
+		'''
 		print(self.winner)
 		for item in self.turnList.iteritems():
 			print(item)
 		for item in self.opponentTurnList.iteritems():
 			print(item)
+		'''
 
-		self.generateEncodingObject()
+		# self.generateEncodingObject()
 
 		'''
 		encoding = PokemonShowdownEncoding()
@@ -212,16 +220,13 @@ class PokemonShowdownReplayParser(object):
 			print(encoding.encodePokemonObject(pokemon))
 		'''
 
-		'''
 		output = ""
 		output += self.players["p1"].getTeamFormatString()
 		output += self.players["p2"].getTeamFormatString()
 		for item in self.turnList.iteritems():
 			print(item)
 
-
 		return output
-		'''
 
 	def generateEncodingObject(self):
 		# 80-10-10 Training-Validation-Testing Split
@@ -231,6 +236,7 @@ class PokemonShowdownReplayParser(object):
 		obj.encodeLabels(self.turnList, self.winner)
 		obj.encodeOpponentsLastMove(self.opponentTurnList)
 		obj.encodeOpponentsPokemon(self.opponentPokemonEncoding)
+		# obj.encodeWinnerPokemon(self.players[self.winner].pokemon)
 
 		return obj
 
@@ -469,7 +475,7 @@ class PokemonShowdownReplayParser(object):
 
 		pokemon = Pokemon()
 		species = fields[3].replace("/,.*$/", "")
-		pokemon.species = species
+		pokemon.species = species.split(',')[0]
 		self.players[fields[2]].pokemon.append(pokemon)
 
 	def processWinner(self, line):
@@ -522,7 +528,7 @@ class PokemonShowdownReplayParser(object):
 		matches = re.search("\|switch\|(p[12])a:\s+([^|]+)\|([^|]+)", line).groups()
 		player = matches[0]
 		nickname = matches[1]
-		species = matches[2]
+		species = matches[2].split(',')[0]
 
 		# Special prefix edge case.
 		if "Arceus" in species:
@@ -551,7 +557,7 @@ class PokemonShowdownReplayParser(object):
 		matches = re.search("\|drag\|(p[12])a:\s+([^|]+)\|([^|]+)", line).groups()
 		player = matches[0]
 		nickname = matches[1]
-		species = matches[2]
+		species = matches[2].split(',')[0]
 
 		# Special prefix edge case.
 		if "Arceus" in species:
@@ -576,7 +582,7 @@ class PokemonShowdownReplayParser(object):
 		matches = re.search("\|replace\|(p[12])a:\s+([^|]+)\|([^|]+)", line).groups()
 		player = matches[0]
 		nickname = matches[1]
-		species = matches[2]
+		species = matches[2].split(',')[0]
 
 		# Special prefix edge case.
 		if "Arceus" in species:
@@ -637,7 +643,7 @@ class PokemonShowdownReplayParser(object):
 		matches = re.search("\|detailschange\|(p[12])a:\s+([^|]+)\|([^\n]+)", line).groups()
 		player = matches[0]
 		nickname = matches[1]
-		species = matches[2]
+		species = matches[2].split(',')[0]
 
 		pokemon = self.players[player].getPokemonByNickname(nickname)
 		pokemon.species = species
@@ -650,7 +656,6 @@ class PokemonShowdownReplayParser(object):
 
 		pokemon = self.players[player].getPokemonByNickname(nickname)
 		pokemon.status = status
-		print(pokemon.status)
 
 	def processCureStatus(self, line):
 		matches = re.search("\|-curestatus\|(p[12])a{0,1}:\s+([^|]+)\|([^\n|]+)", line).groups()
@@ -700,18 +705,6 @@ class PokemonShowdownReplayParser(object):
 		pokemon = self.players[player].getPokemonByNickname(nickname)
 		pokemon.ability = ability
 
-	def stripGenders(self):
-		p1 = self.players["p1"]
-		p2 = self.players["p2"]
-
-		for poke in p1.pokemon:
-			if ',' in poke.species:
-				poke.species = poke.species.split(',')[0]
-
-		for poke in p2.pokemon:
-			if ',' in poke.species:
-				poke.species = poke.species.split(',')[0]
-
 	def createTurn(self, player, action, pokemon):
 		# Append to turn object list
 		if player == self.winner:
@@ -741,7 +734,7 @@ class PokemonShowdownReplayParser(object):
 				continue
 			self.opponentPokemonEncoding[turnNumber].append(encodePokemonObject(pokemon))
 
-		print self.opponentPokemonEncoding
+		# print self.opponentPokemonEncoding
 
 
 class Player(object):
