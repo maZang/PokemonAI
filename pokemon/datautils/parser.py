@@ -20,6 +20,21 @@ def encode(network_config, replay_file):
 	return [encoding.pokemon + [encoding.other_data, encoding.labels]]
 
 
+def getActionIDFromString(actionString, pokemon=None):
+	# actionID is either a Pokemon actionID if that pokemon switched in
+	# Move actionID if they used that move, or -1 if mega evolve
+	if actionString in ['switch', 'mega']:
+		actionID = POKEMON_LIST[pokemon]
+	else:
+		# ??????????
+		if actionString == 'Hidden Power':
+			actionID = MOVE_LIST['<UNK>']
+		else:
+			actionID = MOVE_LIST[actionString]
+
+	return actionID
+
+
 class PokemonShowdownEncoding(object):
 	def __init__(self, name=None, data_type=None, num_turns=None):
 		'''
@@ -27,13 +42,14 @@ class PokemonShowdownEncoding(object):
 		'''
 		self.name = name
 		self.data_type = data_type
-		self.pokemon = [np.zeros((num_turns, POKE_DESCRIPTOR_SIZE)) for _ in range(12)]
-		self.other_data = np.zeros((num_turns, NON_EMBEDDING_DATA))
-		self.labels = np.zeros((num_turns, NUMBER_CLASSES))
+		self.num_turns = num_turns
+		self.pokemon = [np.zeros((self.num_turns, POKE_DESCRIPTOR_SIZE)) for _ in range(12)]
+		self.other_data = np.zeros((self.num_turns, NON_EMBEDDING_DATA))
+		self.labels = np.zeros((self.num_turns, NUMBER_CLASSES))
 
 		# Matrix where row = turn number, column 0 = winner's last move,
 		# column 1 = opponent's last move
-		self.last_move_data = np.zeros((num_turns, 2))
+		self.last_move_data = np.zeros((self.num_turns, 2))
 
 	@classmethod
 	def load(self, filename):
@@ -93,19 +109,12 @@ class PokemonShowdownEncoding(object):
 				raise Exception("List {} has more than 2 actions".format(lst))
 
 			for turn in lst:
-				# actionID is either a Pokemon actionID if that pokemon switched in
-				# Move actionID if they used that move, or -1 if mega evolve
-				if turn.action in ['switch', 'mega']:
-					actionID = POKEMON_LIST[turn.pokemon.species]
-				else:
-					# ??????????
-					if turn.action == 'Hidden Power':
-						actionID = MOVE_LIST['<UNK>']
-					else:
-						actionID = MOVE_LIST[turn.action]
-
 				if turn.player != winner:
-					continue
+					raise Exception("This should literally never raise.")
+
+				actionID = getActionIDFromString(turn.action, pokemon=turn.pokemon.species)
+				col = 0 if turn.player == winner else 1
+				self.last_move_data[turnNumber][col] = actionID
 
 				self.labels[turnNumber][actionID] = 1
 
@@ -115,6 +124,30 @@ class PokemonShowdownEncoding(object):
 				print i
 				print row
 				raise Exception("Labels {} had a non-one row".format(self.labels))
+
+	# This code is so jank I never want to look at it again
+	def encodeOpponentsLastMove(self, opponentTurnList):
+		if len(opponentTurnList) <= 1:
+			return
+
+		index = 0
+		turnNumbers = opponentTurnList.keys()
+		nextTurnNumber = turnNumbers[index+1]
+		for turnNumber, lst in opponentTurnList.iteritems():
+			# Only care about the last move in sequence of multiple moves
+			actionID = getActionIDFromString(lst[-1].action, pokemon=lst[-1].pokemon.species)
+			print(turnNumber, nextTurnNumber)
+			for x in range(turnNumber, nextTurnNumber):
+				self.last_move_data[x][1] = actionID
+
+			if index + 1 == len(opponentTurnList) - 1:
+				nextTurnNumber = self.num_turns
+			else:
+				index += 1
+				nextTurnNumber = turnNumbers[index+1]
+
+		print self.last_move_data
+
 
 class PokemonShowdownReplayParser(object):
 	def __init__(self, log="", winner=""):
@@ -128,6 +161,9 @@ class PokemonShowdownReplayParser(object):
 
 		self.turnNumber = -1
 		self.turnList = {}
+		self.opponentTurnList = {}
+
+		self.lines = None
 
 	def run(self):
 		self.parse()
@@ -136,8 +172,12 @@ class PokemonShowdownReplayParser(object):
 
 		self.stripGenders()
 		self.parseJSON()
+		print(self.winner)
 		for item in self.turnList.iteritems():
 			print(item)
+		for item in self.opponentTurnList.iteritems():
+			print(item)
+
 		self.generateEncodingObject()
 
 		'''
@@ -165,6 +205,7 @@ class PokemonShowdownReplayParser(object):
 		obj = PokemonShowdownEncoding(name=self.log, data_type=random.choice(weighted_data_types), num_turns=self.turnNumber+1)
 
 		obj.encodeLabels(self.turnList, self.winner)
+		obj.encodeOpponentsLastMove(self.opponentTurnList)
 
 		return obj
 
@@ -172,23 +213,23 @@ class PokemonShowdownReplayParser(object):
 		'''
 		Parses the log file line by line.
 		'''
-		lines = self.log.split('\n')
+		self.lines = self.log.split('\n')
 
 		# First parse the players
-		for line in lines:
+		for line in self.lines:
 			if line.startswith("|player|"):
 				self.processPlayer(line)
 				if "|p2|" in line:
 					break
 
 		# Then parse the winner
-		for line in reversed(lines):
+		for line in reversed(self.lines):
 			if line.startswith("|win|"):
 				self.processWinner(line)
 				break
 
 		# Finally parse the rest of the lines
-		for line in lines:
+		for i, line in enumerate(self.lines):
 			if line.startswith("|poke|"):
 				self.processPoke(line)
 			elif line.startswith("|turn|"):
@@ -469,6 +510,8 @@ class PokemonShowdownReplayParser(object):
 			pokemon.nickname = nickname
 		self.players[player].currentPokemon = pokemon
 
+		# Skip the initial start
+		# if "|start" not in [lines[i-1], lines[i-2]]:
 		self.createTurn(player, "switch", pokemon)
 
 	def processDrag(self, line):
@@ -619,13 +662,21 @@ class PokemonShowdownReplayParser(object):
 				poke.species = poke.species.split(',')[0]
 
 	def createTurn(self, player, action, pokemon):
+		# Append to turn object list
 		if player == self.winner:
 			self.turnNumber = self.turnNumber + 1
-			self.turnList[self.turnNumber] = []
-			# Append to turn object list
-			turn = Turn(turnNumber=self.turnNumber, player=player, action=action, pokemon=pokemon)
-			self.turnList[self.turnNumber].append(turn)
 
+		turn = Turn(turnNumber=self.turnNumber, player=player, action=action, pokemon=pokemon)
+
+		if player == self.winner:
+			self.turnList[self.turnNumber] = [turn]
+		else:
+			# Cheesy stuff
+			turnNumber = max(0, self.turnNumber)
+			if turnNumber in self.opponentTurnList:
+				self.opponentTurnList[turnNumber].append(turn)
+			else:
+				self.opponentTurnList[turnNumber] = [turn]
 
 
 class Player(object):
