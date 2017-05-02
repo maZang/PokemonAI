@@ -1,0 +1,486 @@
+|j|Di Bat Gai
+|j|Mewsthebest
+|player|p1|Di Bat Gai|163
+|player|p2|Mewsthebest|274
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|46770,29647,9,59304,42258,5876,45916,56789,23145,4566,9382,30097
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Cloyster, M|item
+|poke|p1|Krookodile, M|item
+|poke|p1|Tornadus, M|item
+|poke|p1|Lucario, M|item
+|poke|p1|Crobat, M|item
+|poke|p1|Abomasnow, M|item
+|poke|p2|Pangoro, M|item
+|poke|p2|Krookodile, M|item
+|poke|p2|Mienshao, M|item
+|poke|p2|Dragalge, M|item
+|poke|p2|Toxicroak, M|item
+|poke|p2|Feraligatr, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|c|☆Mewsthebest|Oh
+|c|☆Mewsthebest|My team is so much worse
+|c|☆Mewsthebest|Huh
+|c|☆Di Bat Gai|truly
+|c|☆Di Bat Gai|op
+|c|☆Di Bat Gai|all planed
+|choice|team 2, team 1, team 3, team 4, team 5, team 6|team 3, team 2, team 1, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Krookodile|Krookodile, M|100/100
+|switch|p2a: Mienshao|Mienshao, M|100/100
+|-ability|p1a: Krookodile|Intimidate|boost
+|-unboost|p2a: Mienshao|atk|1
+|turn|1
+|c|☆Mewsthebest|Predicted
+|c|☆Mewsthebest|Imma god
+|c|☆Di Bat Gai|all planned
+|choice|move stealthrock|move substitute
+|
+|move|p2a: Mienshao|Substitute|p2a: Mienshao
+|-start|p2a: Mienshao|Substitute
+|-damage|p2a: Mienshao|76/100
+|move|p1a: Krookodile|Stealth Rock|p2a: Mienshao
+|-sidestart|p2: Mewsthebest|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|c|☆Mewsthebest|Predicted
+|choice|switch 2|move highjumpkick
+|
+|switch|p1a: Cloyster|Cloyster, M|100/100
+|move|p2a: Mienshao|High Jump Kick|p1a: Cloyster
+|-supereffective|p1a: Cloyster
+|-damage|p1a: Cloyster|2/100
+|-damage|p2a: Mienshao|66/100|[from] item: Life Orb
+|
+|upkeep
+|turn|3
+|c|☆Mewsthebest|Huh how do yoy live
+|choice|move spikes|move knockoff
+|
+|move|p2a: Mienshao|Knock Off|p1a: Cloyster
+|-damage|p1a: Cloyster|0 fnt
+|-enditem|p1a: Cloyster|Focus Sash|[from] move: Knock Off|[of] p2a: Mienshao
+|-damage|p2a: Mienshao|56/100|[from] item: Life Orb
+|faint|p1a: Cloyster
+|
+|upkeep
+|c|☆Di Bat Gai|hacks
+|c|☆Di Bat Gai|op
+|c|☆Di Bat Gai|planned
+|choice|switch 5|
+|
+|switch|p1a: Crobat|Crobat, M|100/100
+|turn|4
+|choice|move uturn|move knockoff
+|
+|move|p1a: Crobat|U-turn|p2a: Mienshao
+|-resisted|p2a: Mienshao
+|-damage|p2a: Mienshao|28/100
+|c|☆Mewsthebest|Wait i forgit infiltrator hits through sub
+|c|☆Mewsthebest|You couldve killed
+|c|☆Mewsthebest|Smh trash
+|c|☆Di Bat Gai|im hacking
+|c|☆Di Bat Gai|99.99% win rat3
+|c|☆Di Bat Gai|rate
+|c|☆Mewsthebest|Lol
+|choice|switch 3|
+|
+|switch|p1a: Tornadus|Tornadus, M|100/100
+|move|p2a: Mienshao|Knock Off|p1a: Tornadus
+|-damage|p1a: Tornadus|56/100
+|-enditem|p1a: Tornadus|Life Orb|[from] move: Knock Off|[of] p2a: Mienshao
+|-damage|p2a: Mienshao|18/100|[from] item: Life Orb
+|
+|upkeep
+|turn|5
+|choice|move heatwave|move batonpass
+|
+|move|p1a: Tornadus|Heat Wave|p2a: Mienshao
+|-end|p2a: Mienshao|Substitute
+|move|p2a: Mienshao|Baton Pass|p2a: Mienshao
+|choice||switch 4
+|
+|switch|p2a: Dragalge|Dragalge, M|100/100
+|-damage|p2a: Dragalge|88/100|[from] Stealth Rock
+|
+|-heal|p2a: Dragalge|94/100|[from] item: Black Sludge
+|upkeep
+|turn|6
+|choice|move hurricane|move toxicspikes
+|
+|move|p1a: Tornadus|Hurricane|p2a: Dragalge|[miss]
+|-miss|p1a: Tornadus|p2a: Dragalge
+|move|p2a: Dragalge|Toxic Spikes|p1a: Tornadus
+|-sidestart|p1: Di Bat Gai|move: Toxic Spikes
+|
+|-heal|p2a: Dragalge|99/100|[from] item: Black Sludge
+|upkeep
+|turn|7
+|c|☆Mewsthebest|Ez
+|choice|move hurricane|move toxicspikes
+|
+|move|p1a: Tornadus|Hurricane|p2a: Dragalge
+|-damage|p2a: Dragalge|52/100
+|move|p2a: Dragalge|Toxic Spikes|p1a: Tornadus
+|-sidestart|p1: Di Bat Gai|move: Toxic Spikes
+|
+|-heal|p2a: Dragalge|58/100|[from] item: Black Sludge
+|upkeep
+|turn|8
+|c|☆Di Bat Gai|even if i dont lose
+|c|☆Di Bat Gai|bc i make it that
+|c|☆Di Bat Gai|way
+|c|☆Di Bat Gai|i win
+|c|☆Mewsthebest|Lol
+|c|☆Di Bat Gai|just cant blow my cover
+|c|☆Di Bat Gai|LOLOL
+|c|☆Mewsthebest|Lmaoo
+|choice|move grassknot|move sludgebomb
+|
+|move|p1a: Tornadus|Grass Knot|p2a: Dragalge
+|-resisted|p2a: Dragalge
+|-damage|p2a: Dragalge|52/100
+|move|p2a: Dragalge|Sludge Bomb|p1a: Tornadus
+|-damage|p1a: Tornadus|3/100
+|
+|-heal|p2a: Dragalge|58/100|[from] item: Black Sludge
+|upkeep
+|turn|9
+|choice|move heatwave|move sludgebomb
+|
+|move|p1a: Tornadus|Heat Wave|p2a: Dragalge
+|-resisted|p2a: Dragalge
+|-damage|p2a: Dragalge|43/100
+|-status|p2a: Dragalge|brn
+|move|p2a: Dragalge|Sludge Bomb|p1a: Tornadus
+|-damage|p1a: Tornadus|0 fnt
+|faint|p1a: Tornadus
+|
+|-heal|p2a: Dragalge|49/100 brn|[from] item: Black Sludge
+|-damage|p2a: Dragalge|37/100 brn|[from] brn
+|upkeep
+|c|☆Mewsthebest|Burh
+|c|☆Mewsthebest|Huh
+|c|☆Mewsthebest|Trash
+|c|☆Di Bat Gai|ez
+|c|☆Di Bat Gai|hacks
+|choice|switch 3|
+|
+|switch|p1a: Crobat|Crobat, M|100/100
+|turn|10
+|choice|move uturn|switch 2
+|
+|switch|p2a: Krookodile|Krookodile, M|100/100
+|-damage|p2a: Krookodile|94/100|[from] Stealth Rock
+|-ability|p2a: Krookodile|Intimidate|boost
+|-unboost|p1a: Crobat|atk|1
+|move|p1a: Crobat|U-turn|p2a: Krookodile
+|-supereffective|p2a: Krookodile
+|-crit|p2a: Krookodile
+|-damage|p2a: Krookodile|27/100
+|c|☆Mewsthebest|Huh
+|choice|switch 6|
+|
+|switch|p1a: Abomasnow|Abomasnow, M|100/100
+|-status|p1a: Abomasnow|tox
+|
+|-heal|p2a: Krookodile|33/100|[from] item: Leftovers
+|-damage|p1a: Abomasnow|94/100 tox|[from] psn
+|upkeep
+|turn|11
+|choice|move gigadrain mega|move stealthrock
+|
+|detailschange|p1a: Abomasnow|Abomasnow-Mega, M
+|-mega|p1a: Abomasnow|Abomasnow|Abomasite
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Abomasnow
+|move|p2a: Krookodile|Stealth Rock|p1a: Abomasnow
+|-sidestart|p1: Di Bat Gai|move: Stealth Rock
+|move|p1a: Abomasnow|Giga Drain|p2a: Krookodile
+|-supereffective|p2a: Krookodile
+|-damage|p2a: Krookodile|0 fnt
+|-heal|p1a: Abomasnow|100/100 tox|[from] drain|[of] p2a: Krookodile
+|faint|p2a: Krookodile
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Abomasnow|88/100 tox|[from] psn
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Mienshao|Mienshao, M|51/100
+|-damage|p2a: Mienshao|46/100|[from] Stealth Rock
+|turn|12
+|choice|move gigadrain|move highjumpkick
+|
+|move|p2a: Mienshao|High Jump Kick|p1a: Abomasnow
+|-supereffective|p1a: Abomasnow
+|-damage|p1a: Abomasnow|0 fnt
+|-damage|p2a: Mienshao|36/100|[from] item: Life Orb
+|faint|p1a: Abomasnow
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Mienshao|30/100|[from] hail
+|upkeep
+|c|☆Di Bat Gai|shoot
+|c|☆Di Bat Gai|i didnt
+|c|☆Di Bat Gai|hack
+|c|☆Di Bat Gai|fast enough there
+|choice|switch 4|
+|
+|switch|p1a: Lucario|Lucario, M|100/100
+|-damage|p1a: Lucario|98/100|[from] Stealth Rock
+|turn|13
+|c|☆Mewsthebest|I have 3 fighting types and you got 2 flying
+|c|☆Mewsthebest|Smh
+|choice|move swordsdance|move highjumpkick
+|
+|move|p2a: Mienshao|High Jump Kick|p1a: Lucario
+|-supereffective|p1a: Lucario
+|-crit|p1a: Lucario
+|-damage|p1a: Lucario|0 fnt
+|-damage|p2a: Mienshao|20/100|[from] item: Life Orb
+|faint|p1a: Lucario
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Mienshao|14/100|[from] hail
+|upkeep
+|c|☆Mewsthebest|In all honesty mienshao drops you
+|choice|switch 6|
+|
+|switch|p1a: Crobat|Crobat, M|100/100
+|-damage|p1a: Crobat|76/100|[from] Stealth Rock
+|turn|14
+|choice|move uturn|switch 2
+|
+|switch|p2a: Dragalge|Dragalge, M|37/100 brn
+|-damage|p2a: Dragalge|24/100 brn|[from] Stealth Rock
+|move|p1a: Crobat|U-turn|p2a: Dragalge
+|-resisted|p2a: Dragalge
+|-crit|p2a: Dragalge
+|-damage|p2a: Dragalge|7/100 brn
+|choice|switch 2|
+|
+|switch|p1a: Krookodile|Krookodile, M|100/100
+|-damage|p1a: Krookodile|94/100|[from] Stealth Rock
+|-status|p1a: Krookodile|tox
+|-ability|p1a: Krookodile|Intimidate|boost
+|-unboost|p2a: Dragalge|atk|1
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Krookodile|88/100 tox|[from] hail
+|-damage|p2a: Dragalge|1/100 brn|[from] hail
+|-heal|p1a: Krookodile|94/100 tox|[from] item: Leftovers
+|-heal|p2a: Dragalge|7/100 brn|[from] item: Black Sludge
+|-damage|p1a: Krookodile|88/100 tox|[from] psn
+|-damage|p2a: Dragalge|0 fnt|[from] brn
+|upkeep
+|faint|p2a: Dragalge
+|c|☆Di Bat Gai|ez
+|c|☆Di Bat Gai|planned
+|choice||switch 2
+|
+|switch|p2a: Mienshao|Mienshao, M|47/100
+|-damage|p2a: Mienshao|41/100|[from] Stealth Rock
+|turn|15
+|choice|move earthquake|move highjumpkick
+|
+|move|p2a: Mienshao|High Jump Kick|p1a: Krookodile
+|-supereffective|p1a: Krookodile
+|-damage|p1a: Krookodile|0 fnt
+|-damage|p2a: Mienshao|31/100|[from] item: Life Orb
+|faint|p1a: Krookodile
+|
+|-weather|none
+|upkeep
+|c|☆Mewsthebest|Ez
+|c|☆Mewsthebest|Planned
+|choice|switch 2|
+|
+|switch|p1a: Crobat|Crobat, M|76/100
+|-damage|p1a: Crobat|51/100|[from] Stealth Rock
+|turn|16
+|c|☆Mewsthebest|Except
+|c|☆Mewsthebest|What do i do know
+|c|☆Mewsthebest|Lmaoo
+|choice|move bravebird|move highjumpkick
+|
+|move|p1a: Crobat|Brave Bird|p2a: Mienshao
+|-supereffective|p2a: Mienshao
+|-damage|p2a: Mienshao|0 fnt
+|-damage|p1a: Crobat|42/100|[from] recoil|[of] p2a: Mienshao
+|faint|p2a: Mienshao
+|
+|upkeep
+|c|☆Mewsthebest|Wait you take recoil
+|c|☆Mewsthebest|Ez
+|c|☆Di Bat Gai|hacks comin in
+|choice||switch 5
+|
+|switch|p2a: Toxicroak|Toxicroak, M|100/100
+|-damage|p2a: Toxicroak|94/100|[from] Stealth Rock
+|turn|17
+|c|☆Di Bat Gai|ez game soon
+|choice|move bravebird|move suckerpunch
+|
+|move|p2a: Toxicroak|Sucker Punch|p1a: Crobat
+|-damage|p1a: Crobat|9/100
+|move|p1a: Crobat|Brave Bird|p2a: Toxicroak
+|-supereffective|p2a: Toxicroak
+|-damage|p2a: Toxicroak|0 fnt
+|-damage|p1a: Crobat|0 fnt|[from] recoil|[of] p2a: Toxicroak
+|faint|p2a: Toxicroak
+|faint|p1a: Crobat
+|
+|win|Mewsthebest
+|c|☆Mewsthebest|Ez
+|c|☆Mewsthebest|You were right
+|c|☆Mewsthebest|Ez game
+|c|☆Di Bat Gai|ez game
+|c|☆Mewsthebest|Lmao
+|c|☆Di Bat Gai|i couldnt blow my cover
+|c|☆Di Bat Gai|this time
+|c|☆Mewsthebest|Lmao
+|c|☆Di Bat Gai|they were on to me
+|c|☆Mewsthebest|Damn
+|c|☆Di Bat Gai|that report almost had me
+|c|☆Mewsthebest|Thats crazy
+|c|☆Mewsthebest|Smh dodger
+|c|☆Di Bat Gai|LOLOLOL
+|c|☆Mewsthebest|Imma record my screen
+|c|☆Mewsthebest|Smh
+|c|☆Di Bat Gai|LOLOL
+|c|☆Di Bat Gai|and the last screen too LOL
+|c|☆Mewsthebest|Lol
+|c|☆Mewsthebest|Smh
+|c|☆Di Bat Gai|lolol
+|c|☆Di Bat Gai|ez
+|c|☆Di Bat Gai|i cant hack until maybe tmr
+|c|☆Di Bat Gai|now
+|c|☆Di Bat Gai|they watching
+|c|☆Mewsthebest|Lmao
+|c|☆Mewsthebest|Imma send chat logs
+|c|☆Mewsthebest|Its over
+|c|☆Di Bat Gai|gotta be careful over the reports
+|c|☆Di Bat Gai|ill hack
+|c|☆Mewsthebest|Lol
+|c|☆Di Bat Gai|the chat logs
+|c|☆Mewsthebest|Damn
+|c|☆Di Bat Gai|and gg ez
+|c|☆Mewsthebest|Thats whack
+|c|☆Mewsthebest|Trash
+|c|☆Di Bat Gai|LOLOL
+|c|☆Di Bat Gai|opop
+|c|☆Di Bat Gai|ez game
+|c|☆Di Bat Gai|everyday
+|c|☆Mewsthebest|Smh
+|c|☆Di Bat Gai|gonna be #1 by tmr
+|c|☆Di Bat Gai|ez
+|c|☆Di Bat Gai|winning with pure "luck"
+|c|☆Mewsthebest|Thats as craxy as you
+|c|☆Di Bat Gai|ez game ez life
+|c|☆Mewsthebest|Smh
+|c|☆Di Bat Gai|hacks frw
+|c|☆Di Bat Gai|ftw everyday
+|c|☆Mewsthebest|Lol
+|c|☆Mewsthebest|Frw
+|c|☆Di Bat Gai|hack is the solution to everything
+|c|☆Mewsthebest|Ez
+|c|☆Di Bat Gai|cant win
+|c|☆Di Bat Gai|hack
+|c|☆Di Bat Gai|gg ez
+|c|☆Mewsthebest|Smh didnt hack tennis
+|c|☆Mewsthebest|Trash
+|c|☆Di Bat Gai|LOLOLOLOLOL
+|c|☆Di Bat Gai|RIP
+|c|☆Di Bat Gai|YOU RIGHT
+|c|☆Di Bat Gai|I NEED TO PROGRAM
+|c|☆Di Bat Gai|A BAL
+|c|☆Di Bat Gai|BALL
+|c|☆Di Bat Gai|THATS ALWAYS INN
+|c|☆Di Bat Gai|WHEN I HIT
+|c|☆Di Bat Gai|IT
+|c|☆Di Bat Gai|WITH MY RACKET
+|c|☆Mewsthebest|Trash
+|c|☆Di Bat Gai|AND NO MATTER WHAT THE OTHER TEAM WILL MISS THE BALL
+|c|☆Di Bat Gai|PURE ACE EVERYTIME
+|c|☆Mewsthebest|Lucky and bad
+|c|☆Di Bat Gai|"lucky" and plus i went ez
+|c|☆Di Bat Gai|i didnt hack much and i didnt use my pocket picks
+|c|☆Mewsthebest|So thats what yoy learned from luigi
+|c|☆Mewsthebest|Smh
+|c|☆Di Bat Gai|exactly
+|c|☆Di Bat Gai|op
+|c|☆Di Bat Gai|luigi
+|c|☆Di Bat Gai|the sempi
+|c|☆Di Bat Gai|hes truly op
+|c|☆Mewsthebest|Lol
+|c|☆Mewsthebest|Imma report to jay
+|c|☆Mewsthebest|Ez
+|c|☆Di Bat Gai|thats why hes so good at tennis and baseball
+|c|☆Di Bat Gai|ill hack jay
+|c|☆Mewsthebest|Lol
+|c|☆Di Bat Gai|ill get in his head
+|c|☆Di Bat Gai|then ill plant a bug
+|c|☆Di Bat Gai|that will corrupt him
+|c|☆Di Bat Gai|and he put me on #1 varisty
+|c|☆Di Bat Gai|op
+|c|☆Di Bat Gai|gg ez
+|c|☆Mewsthebest|Getting a head of yourself there mste
+|c|☆Di Bat Gai|with new balls ggez
+|c|☆Mewsthebest|*mate
+|c|☆Mewsthebest|Lmao
+|c|☆Di Bat Gai|lolol
+|c|☆Di Bat Gai|i just need to perfect the ball program like luigi did
+|c|☆Di Bat Gai|lOLOL
+|c|☆Di Bat Gai|truly op
+|c|☆Mewsthebest|Lmaooo
+|c|☆Mewsthebest|Ez
+|c|☆Di Bat Gai|gg ez
+|c|☆Mewsthebest|Lol
+|c|☆Di Bat Gai|before game starts
+|c|☆Di Bat Gai|pure ace everytime
+|c|☆Di Bat Gai|gg ez
+|c|☆Mewsthebest|Lol
+|c|☆Mewsthebest|Ez
+|c|☆Di Bat Gai|he didnt teach me how to make one before he left
+|c|☆Di Bat Gai|not enough time
+|c|☆Di Bat Gai|rip
+|c|☆Mewsthebest|Rip
+|c|☆Di Bat Gai|almost gg ez
+|c|☆Mewsthebest|Lmao
+|c|☆Mewsthebest|Go to itally
+|c|☆Mewsthebest|Ez
+|c|☆Di Bat Gai|LOLOL
+|c|☆Di Bat Gai|TRUE YOU RIGHY
+|c|☆Di Bat Gai|ill go to him
+|c|☆Mewsthebest|Lol
+|c|☆Di Bat Gai|where he first made the ball
+|c|☆Di Bat Gai|GG EZ
+|c|☆Mewsthebest|Ez
+|c|☆Di Bat Gai|ez game ez life ftw
+|c|☆Mewsthebest|Smh so bad
+|c|☆Di Bat Gai|maybe bad but pure "luck"
+|c|☆Mewsthebest|Lol
+|c|☆Mewsthebest|You got a y in your nsme like puckt
+|c|☆Mewsthebest|*lucky
+|c|☆Mewsthebest|Smh
+|c|☆Di Bat Gai|like puckt LOLOL
+|c|☆Mewsthebest|Lol
+|c|☆Di Bat Gai|exactly
+|c|☆Di Bat Gai|lol
+|c|☆Di Bat Gai|op
+|c|☆Mewsthebest|Op
+|c|☆Di Bat Gai|30%
+|c|☆Di Bat Gai|op
+|c|☆Mewsthebest|Smh so bad
+|c|☆Mewsthebest|Lol well im tired af
+|c|☆Di Bat Gai|lol
+|c|☆Di Bat Gai|feel like sleepin
+|c|☆Mewsthebest|Same
+|c|☆Mewsthebest|See you tomorrow lol

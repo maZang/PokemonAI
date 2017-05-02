@@ -1,0 +1,210 @@
+|J|RARUM
+|j|Noahhz
+|player|p1|RARUM|2
+|player|p2|Noahhz|266
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|40979,54624,21032,49524,19244,4868,20313,51558,11895,32798,31672,54401
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Klang|item
+|poke|p1|Gabite, M|item
+|poke|p1|Raichu, M|item
+|poke|p1|Ninetales, M|item
+|poke|p1|Simipour, M|item
+|poke|p1|Vullaby, F|item
+|poke|p2|Huntail, M|item
+|poke|p2|Probopass, M|item
+|poke|p2|Ninjask, M|item
+|poke|p2|Armaldo, M|item
+|poke|p2|Zweilous, M|item
+|poke|p2|Zebstrika, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|J|Vnxnfg
+|L|Vnxnfg
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by RARUM)
+|choice|team 2, team 1, team 3, team 4, team 5, team 6|team 1, team 2, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Gabite|Gabite, M|100/100
+|switch|p2a: Huntail|Huntail, M|100/100
+|turn|1
+|choice|move earthquake|move shellsmash
+|
+|move|p1a: Gabite|Earthquake|p2a: Huntail
+|-damage|p2a: Huntail|43/100
+|move|p2a: Huntail|Shell Smash|p2a: Huntail
+|-unboost|p2a: Huntail|def|1
+|-unboost|p2a: Huntail|spd|1
+|-boost|p2a: Huntail|atk|2
+|-boost|p2a: Huntail|spa|2
+|-boost|p2a: Huntail|spe|2
+|-enditem|p2a: Huntail|White Herb
+|-clearnegativeboost|p2a: Huntail|[silent]
+|
+|upkeep
+|turn|2
+|choice|switch 6|move waterfall
+|
+|switch|p1a: Vullaby|Vullaby, F|100/100
+|move|p2a: Huntail|Waterfall|p1a: Vullaby
+|-damage|p1a: Vullaby|34/100
+|
+|upkeep
+|turn|3
+|choice|move foulplay|move waterfall
+|
+|move|p2a: Huntail|Waterfall|p1a: Vullaby
+|-damage|p1a: Vullaby|0 fnt
+|faint|p1a: Vullaby
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Klang|Klang|100/100
+|turn|4
+|choice|move geargrind|move waterfall
+|
+|move|p2a: Huntail|Waterfall|p1a: Klang
+|-damage|p1a: Klang|51/100
+|move|p1a: Klang|Gear Grind|p2a: Huntail|[miss]
+|-miss|p1a: Klang|p2a: Huntail
+|
+|upkeep
+|turn|5
+|choice|move geargrind|move suckerpunch
+|
+|move|p2a: Huntail|Sucker Punch|p1a: Klang
+|-damage|p1a: Klang|17/100
+|move|p1a: Klang|Gear Grind|p2a: Huntail
+|-resisted|p2a: Huntail
+|-damage|p2a: Huntail|34/100
+|-resisted|p2a: Huntail
+|-damage|p2a: Huntail|25/100
+|-hitcount|p2a: Huntail|2
+|
+|upkeep
+|turn|6
+|choice|move geargrind|move suckerpunch
+|
+|move|p2a: Huntail|Sucker Punch|p1a: Klang
+|-damage|p1a: Klang|0 fnt
+|faint|p1a: Klang
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Raichu|Raichu, M|100/100
+|turn|7
+|choice|move thunderbolt|move waterfall
+|
+|move|p2a: Huntail|Waterfall|p1a: Raichu
+|-damage|p1a: Raichu|0 fnt
+|faint|p1a: Raichu
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Simipour|Simipour, M|100/100
+|turn|8
+|choice|move hydropump|move suckerpunch
+|
+|move|p2a: Huntail|Sucker Punch|p1a: Simipour
+|-damage|p1a: Simipour|4/100
+|-enditem|p1a: Simipour|Salac Berry|[eat]
+|-boost|p1a: Simipour|spe|1
+|move|p1a: Simipour|Hydro Pump|p2a: Huntail
+|-resisted|p2a: Huntail
+|-damage|p2a: Huntail|0 fnt
+|faint|p2a: Huntail
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Zebstrika|Zebstrika, M|100/100
+|turn|9
+|choice|move hydropump|move voltswitch
+|
+|move|p1a: Simipour|Hydro Pump|p2a: Zebstrika
+|-damage|p2a: Zebstrika|0 fnt
+|faint|p2a: Zebstrika
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Ninjask|Ninjask, M|100/100
+|turn|10
+|choice|move icebeam|move aerialace
+|
+|move|p1a: Simipour|Ice Beam|p2a: Ninjask
+|-supereffective|p2a: Ninjask
+|-damage|p2a: Ninjask|0 fnt
+|faint|p2a: Ninjask
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Probopass|Probopass, M|100/100
+|turn|11
+|choice|move hydropump|move flashcannon
+|
+|move|p1a: Simipour|Hydro Pump|p2a: Probopass
+|-supereffective|p2a: Probopass
+|-crit|p2a: Probopass
+|-damage|p2a: Probopass|0 fnt
+|faint|p2a: Probopass
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Zweilous|Zweilous, M|100/100
+|turn|12
+|choice|move icebeam|move crunch
+|
+|move|p1a: Simipour|Ice Beam|p2a: Zweilous
+|-supereffective|p2a: Zweilous
+|-damage|p2a: Zweilous|72/100
+|move|p2a: Zweilous|Crunch|p1a: Simipour
+|-crit|p1a: Simipour
+|-damage|p1a: Simipour|0 fnt
+|faint|p1a: Simipour
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Gabite|Gabite, M|100/100
+|turn|13
+|choice|move outrage|move dragontail
+|
+|move|p1a: Gabite|Outrage|p2a: Zweilous
+|-supereffective|p2a: Zweilous
+|-damage|p2a: Zweilous|0 fnt
+|faint|p2a: Zweilous
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Armaldo|Armaldo, M|100/100
+|turn|14
+|choice|move outrage|move knockoff
+|
+|move|p1a: Gabite|Outrage|p2a: Armaldo|[from]lockedmove
+|-damage|p2a: Armaldo|51/100
+|move|p2a: Armaldo|Knock Off|p1a: Gabite
+|-damage|p1a: Gabite|62/100
+|-damage|p2a: Armaldo|38/100|[from] ability: Rough Skin|[of] p1a: Gabite
+|-enditem|p1a: Gabite|Eviolite|[from] move: Knock Off|[of] p2a: Armaldo
+|
+|-heal|p2a: Armaldo|45/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|l|Noahhz
+|player|p2|
+|-message|Noahhz lost due to inactivity.
+|
+|win|RARUM
+|L|RARUM
+|J|RARUM

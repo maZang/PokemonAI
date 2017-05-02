@@ -1,0 +1,278 @@
+|j|TheCrispyPanda
+|j|Andersonba1210
+|player|p1|TheCrispyPanda|147
+|player|p2|Andersonba1210|224
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|32903,21572,9036,25322,15692,59276,40073,35032,34742,51074,62900,344
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Armaldo, M|item
+|poke|p1|Simisage, M|item
+|poke|p1|Duosion, M|item
+|poke|p1|Probopass, M|item
+|poke|p1|Fraxure, M|item
+|poke|p1|Seaking, M|item
+|poke|p2|Stunfisk, M|item
+|poke|p2|Floatzel, M|item
+|poke|p2|Armaldo, M|item
+|poke|p2|Ninetales, M|item
+|poke|p2|Grumpig, M|item
+|poke|p2|Zweilous, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|c|☆TheCrispyPanda|Pu Great
+|c|☆TheCrispyPanda|Just like ubers
+|c|☆Andersonba1210|GL
+|c|☆TheCrispyPanda|Hf
+|choice|team 4, team 2, team 3, team 1, team 5, team 6|team 1, team 2, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Probopass|Probopass, M|100/100
+|switch|p2a: Stunfisk|Stunfisk, M|100/100
+|turn|1
+|choice|move stealthrock|move earthpower
+|
+|move|p1a: Probopass|Stealth Rock|p2a: Stunfisk
+|-sidestart|p2: Andersonba1210|move: Stealth Rock
+|move|p2a: Stunfisk|Earth Power|p1a: Probopass
+|-supereffective|p1a: Probopass
+|-damage|p1a: Probopass|25/100
+|
+|upkeep
+|turn|2
+|choice|switch 6|move stealthrock
+|
+|switch|p1a: Seaking|Seaking, M|100/100
+|move|p2a: Stunfisk|Stealth Rock|p1a: Seaking
+|-sidestart|p1: TheCrispyPanda|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|choice|move knockoff|move discharge
+|
+|move|p1a: Seaking|Knock Off|p2a: Stunfisk
+|-damage|p2a: Stunfisk|80/100
+|-enditem|p2a: Stunfisk|Passho Berry|[from] move: Knock Off|[of] p1a: Seaking
+|move|p2a: Stunfisk|Discharge|p1a: Seaking
+|-ability|p1a: Seaking|Lightning Rod|boost
+|-boost|p1a: Seaking|spa|1
+|
+|upkeep
+|turn|4
+|c|☆Andersonba1210|I forgot
+|c|☆Andersonba1210|lol
+|choice|move knockoff|move earthpower
+|
+|move|p1a: Seaking|Knock Off|p2a: Stunfisk
+|-damage|p2a: Stunfisk|66/100
+|move|p2a: Stunfisk|Earth Power|p1a: Seaking
+|-crit|p1a: Seaking
+|-damage|p1a: Seaking|52/100
+|
+|-heal|p1a: Seaking|58/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|choice|move protect|move earthpower
+|
+|move|p1a: Seaking|Protect|p1a: Seaking
+|-singleturn|p1a: Seaking|Protect
+|move|p2a: Stunfisk|Earth Power|p1a: Seaking
+|-activate|p1a: Seaking|move: Protect
+|
+|-heal|p1a: Seaking|64/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|choice|move waterfall|move earthpower
+|
+|move|p1a: Seaking|Waterfall|p2a: Stunfisk
+|-supereffective|p2a: Stunfisk
+|-damage|p2a: Stunfisk|20/100
+|-status|p1a: Seaking|par|[from] ability: Static|[of] p2a: Stunfisk
+|move|p2a: Stunfisk|Earth Power|p1a: Seaking
+|-damage|p1a: Seaking|28/100 par
+|
+|-heal|p1a: Seaking|34/100 par|[from] item: Leftovers
+|upkeep
+|turn|7
+|choice|move protect|move earthpower
+|
+|move|p1a: Seaking|Protect|p1a: Seaking
+|-singleturn|p1a: Seaking|Protect
+|move|p2a: Stunfisk|Earth Power|p1a: Seaking
+|-activate|p1a: Seaking|move: Protect
+|
+|-heal|p1a: Seaking|40/100 par|[from] item: Leftovers
+|upkeep
+|turn|8
+|choice|move waterfall|move earthpower
+|
+|move|p2a: Stunfisk|Earth Power|p1a: Seaking
+|-damage|p1a: Seaking|4/100 par
+|move|p1a: Seaking|Waterfall|p2a: Stunfisk
+|-supereffective|p2a: Stunfisk
+|-damage|p2a: Stunfisk|0 fnt
+|faint|p2a: Stunfisk
+|
+|-heal|p1a: Seaking|11/100 par|[from] item: Leftovers
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Armaldo|Armaldo, M|100/100
+|-damage|p2a: Armaldo|76/100|[from] Stealth Rock
+|turn|9
+|choice|move waterfall|move rapidspin
+|
+|move|p2a: Armaldo|Rapid Spin|p1a: Seaking
+|-damage|p1a: Seaking|2/100 par
+|-sideend|p2: Andersonba1210|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Armaldo
+|move|p1a: Seaking|Waterfall|p2a: Armaldo
+|-supereffective|p2a: Armaldo
+|-damage|p2a: Armaldo|27/100
+|
+|-heal|p2a: Armaldo|34/100|[from] item: Leftovers
+|-heal|p1a: Seaking|8/100 par|[from] item: Leftovers
+|upkeep
+|turn|10
+|choice|move waterfall|move knockoff
+|
+|move|p2a: Armaldo|Knock Off|p1a: Seaking
+|-damage|p1a: Seaking|0 fnt
+|-enditem|p1a: Seaking|Leftovers|[from] move: Knock Off|[of] p2a: Armaldo
+|faint|p1a: Seaking
+|
+|-heal|p2a: Armaldo|40/100|[from] item: Leftovers
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Fraxure|Fraxure, M|100/100
+|-damage|p1a: Fraxure|88/100|[from] Stealth Rock
+|-ability|p1a: Fraxure|Mold Breaker
+|turn|11
+|choice|move lowkick|move stoneedge
+|
+|move|p1a: Fraxure|Low Kick|p2a: Armaldo
+|-damage|p2a: Armaldo|22/100
+|move|p2a: Armaldo|Stone Edge|p1a: Fraxure|[miss]
+|-miss|p2a: Armaldo|p1a: Fraxure
+|
+|-heal|p2a: Armaldo|28/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|c|☆Andersonba1210|grrr
+|choice|move outrage|move stoneedge
+|
+|move|p1a: Fraxure|Outrage|p2a: Armaldo
+|-damage|p2a: Armaldo|0 fnt
+|faint|p2a: Armaldo
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Floatzel|Floatzel, M|100/100
+|turn|13
+|choice|move outrage|move icebeam
+|
+|move|p2a: Floatzel|Ice Beam|p1a: Fraxure
+|-supereffective|p1a: Fraxure
+|-damage|p1a: Fraxure|13/100
+|move|p1a: Fraxure|Outrage|p2a: Floatzel|[from]lockedmove
+|-damage|p2a: Floatzel|0 fnt
+|-start|p1a: Fraxure|confusion|[fatigue]
+|faint|p2a: Floatzel
+|
+|upkeep
+|c|☆Andersonba1210|close
+|choice||switch 4
+|
+|switch|p2a: Ninetales|Ninetales, M|100/100
+|turn|14
+|choice|switch 6|move nastyplot
+|
+|switch|p1a: Probopass|Probopass, M|25/100
+|-damage|p1a: Probopass|19/100|[from] Stealth Rock
+|move|p2a: Ninetales|Nasty Plot|p2a: Ninetales
+|-boost|p2a: Ninetales|spa|2
+|
+|upkeep
+|turn|15
+|choice|move thunderwave|move energyball
+|
+|move|p2a: Ninetales|Energy Ball|p1a: Probopass
+|-damage|p1a: Probopass|0 fnt
+|faint|p1a: Probopass
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Duosion|Duosion, M|100/100
+|turn|16
+|choice|move psyshock|move fireblast
+|
+|move|p2a: Ninetales|Fire Blast|p1a: Duosion
+|-damage|p1a: Duosion|11/100
+|move|p1a: Duosion|Psyshock|p2a: Ninetales
+|-damage|p2a: Ninetales|58/100
+|
+|-heal|p2a: Ninetales|64/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|choice|move psyshock|move energyball
+|
+|move|p2a: Ninetales|Energy Ball|p1a: Duosion
+|-damage|p1a: Duosion|0 fnt
+|faint|p1a: Duosion
+|
+|-heal|p2a: Ninetales|70/100|[from] item: Leftovers
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Simisage|Simisage, M|100/100
+|-damage|p1a: Simisage|88/100|[from] Stealth Rock
+|turn|18
+|choice|move superpower|move fireblast
+|
+|move|p1a: Simisage|Superpower|p2a: Ninetales
+|-damage|p2a: Ninetales|8/100
+|-unboost|p1a: Simisage|atk|1
+|-unboost|p1a: Simisage|def|1
+|-damage|p1a: Simisage|78/100|[from] item: Life Orb
+|move|p2a: Ninetales|Fire Blast|p1a: Simisage
+|-supereffective|p1a: Simisage
+|-damage|p1a: Simisage|0 fnt
+|faint|p1a: Simisage
+|
+|-heal|p2a: Ninetales|14/100|[from] item: Leftovers
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Armaldo|Armaldo, M|100/100
+|-damage|p1a: Armaldo|76/100|[from] Stealth Rock
+|turn|19
+|c|☆Andersonba1210|I brought ninetales to every playoff match in the ASL. So happy to see it here
+|choice|move knockoff|move fireblast
+|
+|move|p2a: Ninetales|Fire Blast|p1a: Armaldo
+|-damage|p1a: Armaldo|0 fnt
+|faint|p1a: Armaldo
+|
+|-heal|p2a: Ninetales|20/100|[from] item: Leftovers
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Fraxure|Fraxure, M|13/100
+|-damage|p1a: Fraxure|1/100|[from] Stealth Rock
+|-ability|p1a: Fraxure|Mold Breaker
+|turn|20
+|choice|move dragondance|move energyball
+|
+|move|p2a: Ninetales|Energy Ball|p1a: Fraxure
+|-resisted|p1a: Fraxure
+|-damage|p1a: Fraxure|0 fnt
+|faint|p1a: Fraxure
+|
+|win|Andersonba1210
+|c|☆Andersonba1210|gg
+|c|☆TheCrispyPanda|gg

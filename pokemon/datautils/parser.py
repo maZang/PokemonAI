@@ -112,8 +112,8 @@ class PokemonShowdownEncoding(object):
 		# if any(sum(row) != 1 for row in self.labels):
 		for i, row in enumerate(self.labels):
 			if sum(row) != 1:
-				print i
-				print row
+				print(i)
+				print(row)
 				raise Exception("Labels {} had a non-one row".format(self.labels))
 
 class PokemonShowdownReplayParser(object):

@@ -1,0 +1,188 @@
+|j|Mexicanguy25619
+|J|TheAnarchoDemocrat
+|player|p1|Mexicanguy25619|80
+|player|p2|TheAnarchoDemocrat|101
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|31631,37134,45188,64682,39427,42911,19138,43946,54588,18224,46028,7727
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Snorlax, M|item
+|poke|p1|Hydreigon, M|item
+|poke|p1|Reuniclus, M|item
+|poke|p1|Arcanine, M|item
+|poke|p1|Flygon, M|item
+|poke|p1|Metagross|item
+|poke|p2|Absol, M|item
+|poke|p2|Gyarados, M|item
+|poke|p2|Hoopa|item
+|poke|p2|Haxorus, M|item
+|poke|p2|Slurpuff, M|item
+|poke|p2|Feraligatr, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 6, team 2, team 3, team 4, team 5, team 1|team 4, team 2, team 3, team 1, team 5, team 6
+|
+|start
+|switch|p1a: Metagross|Metagross|100/100
+|switch|p2a: Haxorus|Haxorus, M|100/100
+|-ability|p2a: Haxorus|Mold Breaker
+|turn|1
+|choice|move stealthrock|move earthquake
+|
+|move|p2a: Haxorus|Earthquake|p1a: Metagross
+|-supereffective|p1a: Metagross
+|-enditem|p1a: Metagross|Shuca Berry|[eat]
+|-enditem|p1a: Metagross|Shuca Berry|[weaken]
+|-damage|p1a: Metagross|54/100
+|move|p1a: Metagross|Stealth Rock|p2a: Haxorus
+|-sidestart|p2: TheAnarchoDemocrat|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by TheAnarchoDemocrat)
+|choice|move zenheadbutt|move earthquake
+|
+|move|p2a: Haxorus|Earthquake|p1a: Metagross
+|-supereffective|p1a: Metagross
+|-damage|p1a: Metagross|0 fnt
+|faint|p1a: Metagross
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Hydreigon|Hydreigon, M|100/100
+|turn|3
+|choice|move dracometeor|switch 5
+|
+|switch|p2a: Slurpuff|Slurpuff, M|100/100
+|-damage|p2a: Slurpuff|88/100|[from] Stealth Rock
+|move|p1a: Hydreigon|Draco Meteor|p2a: Slurpuff
+|-immune|p2a: Slurpuff|[msg]
+|
+|upkeep
+|turn|4
+|choice|switch 3|move bellydrum
+|
+|switch|p1a: Reuniclus|Reuniclus, M|100/100
+|move|p2a: Slurpuff|Belly Drum|p2a: Slurpuff
+|-damage|p2a: Slurpuff|38/100
+|-setboost|p2a: Slurpuff|atk|6|[from] move: Belly Drum
+|-enditem|p2a: Slurpuff|Sitrus Berry|[eat]
+|-heal|p2a: Slurpuff|63/100|[from] item: Sitrus Berry
+|
+|upkeep
+|turn|5
+|choice|move psyshock|move playrough
+|
+|move|p2a: Slurpuff|Play Rough|p1a: Reuniclus
+|-damage|p1a: Reuniclus|0 fnt
+|faint|p1a: Reuniclus
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Snorlax|Snorlax, M|100/100
+|turn|6
+|choice|move bodyslam|move playrough
+|
+|move|p2a: Slurpuff|Play Rough|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt
+|faint|p1a: Snorlax
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Arcanine|Arcanine, M|100/100
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: Slurpuff|atk|1
+|turn|7
+|choice|move extremespeed|move playrough
+|
+|move|p1a: Arcanine|Extreme Speed|p2a: Slurpuff
+|-damage|p2a: Slurpuff|40/100
+|move|p2a: Slurpuff|Play Rough|p1a: Arcanine
+|-resisted|p1a: Arcanine
+|-damage|p1a: Arcanine|52/100
+|
+|-heal|p1a: Arcanine|58/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|choice|move extremespeed|move return
+|
+|move|p1a: Arcanine|Extreme Speed|p2a: Slurpuff
+|-damage|p2a: Slurpuff|17/100
+|move|p2a: Slurpuff|Return|p1a: Arcanine
+|-damage|p1a: Arcanine|0 fnt
+|faint|p1a: Arcanine
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Flygon|Flygon, M|100/100
+|turn|9
+|choice|move uturn|move playrough
+|
+|move|p1a: Flygon|U-turn|p2a: Slurpuff
+|-resisted|p2a: Slurpuff
+|-damage|p2a: Slurpuff|5/100
+|choice|switch 3|
+|
+|switch|p1a: Hydreigon|Hydreigon, M|100/100
+|move|p2a: Slurpuff|Play Rough|p1a: Hydreigon|[miss]
+|-miss|p2a: Slurpuff|p1a: Hydreigon
+|
+|upkeep
+|turn|10
+|choice|move fireblast|move playrough
+|
+|move|p2a: Slurpuff|Play Rough|p1a: Hydreigon
+|-supereffective|p1a: Hydreigon
+|-damage|p1a: Hydreigon|0 fnt
+|faint|p1a: Hydreigon
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Flygon|Flygon, M|100/100
+|turn|11
+|choice|move uturn|move playrough
+|
+|move|p1a: Flygon|U-turn|p2a: Slurpuff
+|-resisted|p2a: Slurpuff
+|-damage|p2a: Slurpuff|0 fnt
+|faint|p2a: Slurpuff
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Feraligatr|Feraligatr, M|100/100
+|-damage|p2a: Feraligatr|88/100|[from] Stealth Rock
+|turn|12
+|choice|move uturn|move waterfall
+|
+|move|p1a: Flygon|U-turn|p2a: Feraligatr
+|-damage|p2a: Feraligatr|66/100
+|move|p2a: Feraligatr|Waterfall|p1a: Flygon
+|-damage|p1a: Flygon|27/100
+|-damage|p2a: Feraligatr|56/100|[from] item: Life Orb
+|
+|upkeep
+|turn|13
+|choice|move uturn|move waterfall
+|
+|move|p1a: Flygon|U-turn|p2a: Feraligatr
+|-crit|p2a: Feraligatr
+|-damage|p2a: Feraligatr|23/100
+|move|p2a: Feraligatr|Waterfall|p1a: Flygon
+|-damage|p1a: Flygon|0 fnt
+|-damage|p2a: Feraligatr|13/100|[from] item: Life Orb
+|faint|p1a: Flygon
+|
+|win|TheAnarchoDemocrat
+|l|Mexicanguy25619
+|raw|Mexicanguy25619's rating: 1000 &rarr; <strong>1000</strong><br />(+0 for losing)
+|raw|TheAnarchoDemocrat's rating: 1000 &rarr; <strong>1040</strong><br />(+40 for winning)

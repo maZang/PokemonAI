@@ -1,0 +1,154 @@
+|j|b2c0nb0y25
+|j|Jokx3000
+|player|p1|b2c0nb0y25|293
+|player|p2|Jokx3000|164
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|36603,36259,64237,42373,60037,63375,58612,947,61677,27886,1726,57870
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Clefairy, M|item
+|poke|p1|Cacturne, M|item
+|poke|p1|Muk, M|item
+|poke|p1|Tauros, M|item
+|poke|p1|Poliwrath, M|item
+|poke|p1|Cryogonal|item
+|poke|p2|Crustle, M|item
+|poke|p2|Vileplume, M|item
+|poke|p2|Claydol|item
+|poke|p2|Misdreavus, M|item
+|poke|p2|Rhydon, M|item
+|poke|p2|Poliwrath, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 2, team 1, team 3, team 4, team 5, team 6|team 1, team 2, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Cacturne|Cacturne, M|100/100
+|switch|p2a: Crustle|Crustle, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by b2c0nb0y25)
+|choice|move destinybond|move stealthrock
+|
+|move|p1a: Cacturne|Destiny Bond|p1a: Cacturne
+|-singlemove|p1a: Cacturne|Destiny Bond
+|move|p2a: Crustle|Stealth Rock|p1a: Cacturne
+|-sidestart|p1: b2c0nb0y25|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|choice|move gigadrain|move spikes
+|
+|move|p1a: Cacturne|Giga Drain|p2a: Crustle
+|-damage|p2a: Crustle|23/100
+|-damage|p1a: Cacturne|91/100|[from] item: Life Orb
+|move|p2a: Crustle|Spikes|p1a: Cacturne
+|-sidestart|p1: b2c0nb0y25|Spikes
+|
+|upkeep
+|turn|3
+|choice|move suckerpunch|switch 2
+|
+|switch|p2a: Vileplume|Vileplume, M|100/100
+|move|p1a: Cacturne|Sucker Punch|p2a: Vileplume|[still]
+|-fail|p1a: Cacturne
+|
+|upkeep
+|turn|4
+|choice|switch 6|move sludgebomb
+|
+|switch|p1a: Cryogonal|Cryogonal|100/100
+|-damage|p1a: Cryogonal|76/100|[from] Stealth Rock
+|move|p2a: Vileplume|Sludge Bomb|p1a: Cryogonal
+|-damage|p1a: Cryogonal|46/100
+|
+|upkeep
+|turn|5
+|choice|move rapidspin|move sludgebomb
+|
+|move|p1a: Cryogonal|Rapid Spin|p2a: Vileplume
+|-damage|p2a: Vileplume|98/100
+|-sideend|p1: b2c0nb0y25|Spikes|[from] move: Rapid Spin|[of] p1a: Cryogonal
+|-sideend|p1: b2c0nb0y25|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Cryogonal
+|-damage|p1a: Cryogonal|36/100|[from] item: Life Orb
+|move|p2a: Vileplume|Sludge Bomb|p1a: Cryogonal
+|-damage|p1a: Cryogonal|7/100
+|
+|-heal|p2a: Vileplume|100/100|[from] item: Black Sludge
+|upkeep
+|turn|6
+|choice|move freezedry|move sludgebomb
+|
+|move|p1a: Cryogonal|Freeze-Dry|p2a: Vileplume
+|-supereffective|p2a: Vileplume
+|-damage|p2a: Vileplume|21/100
+|-damage|p1a: Cryogonal|0 fnt|[from] item: Life Orb
+|faint|p1a: Cryogonal
+|move|p2a: Vileplume|Sludge Bomb|p1: Cryogonal|[notarget]
+|-notarget
+|
+|-heal|p2a: Vileplume|27/100|[from] item: Black Sludge
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Tauros|Tauros, M|100/100
+|turn|7
+|choice|move fireblast|move gigadrain
+|
+|move|p1a: Tauros|Fire Blast|p2a: Vileplume
+|-supereffective|p2a: Vileplume
+|-damage|p2a: Vileplume|0 fnt
+|faint|p2a: Vileplume
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Poliwrath|Poliwrath, M|100/100
+|turn|8
+|choice|switch 2|move focusblast
+|
+|switch|p1a: Clefairy|Clefairy, M|100/100
+|move|p2a: Poliwrath|Focus Blast|p1a: Clefairy
+|-resisted|p1a: Clefairy
+|-damage|p1a: Clefairy|79/100
+|
+|upkeep
+|turn|9
+|choice|move stealthrock|switch 5
+|
+|switch|p2a: Rhydon|Rhydon, M|100/100
+|move|p1a: Clefairy|Stealth Rock|p2a: Rhydon
+|-sidestart|p2: Jokx3000|move: Stealth Rock
+|
+|upkeep
+|turn|10
+|choice|switch 5|move swordsdance
+|
+|switch|p1a: Poliwrath|Poliwrath, M|100/100
+|move|p2a: Rhydon|Swords Dance|p2a: Rhydon
+|-boost|p2a: Rhydon|atk|2
+|
+|upkeep
+|turn|11
+|choice|move scald|move earthquake
+|
+|move|p1a: Poliwrath|Scald|p2a: Rhydon
+|-supereffective|p2a: Rhydon
+|-damage|p2a: Rhydon|0 fnt
+|faint|p2a: Rhydon
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Misdreavus|Misdreavus, M|100/100
+|-damage|p2a: Misdreavus|88/100|[from] Stealth Rock
+|turn|12
+|-message|Jokx3000 forfeited.
+|
+|win|b2c0nb0y25
+|l|Jokx3000
+|raw|b2c0nb0y25's rating: 1091 &rarr; <strong>1113</strong><br />(+22 for winning)
+|raw|Jokx3000's rating: 1036 &rarr; <strong>1023</strong><br />(-13 for losing)
