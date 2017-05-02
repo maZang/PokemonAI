@@ -20,6 +20,78 @@ def encode(network_config, replay_file):
 	return [encoding.pokemon + [encoding.other_data, encoding.labels]]
 
 
+def getActionIDFromString(actionString, pokemon=None):
+	# actionID is either a Pokemon actionID if that pokemon switched in
+	# Move actionID if they used that move, or -1 if mega evolve
+	if actionString in ['switch', 'mega']:
+		actionID = POKEMON_LIST[pokemon]
+	else:
+		# ??????????
+		if actionString == 'Hidden Power':
+			actionID = MOVE_LIST['<UNK>']
+		else:
+			actionID = MOVE_LIST[actionString]
+
+	return actionID
+
+def encodePokemonObject(pokemon):
+	'''
+	Encodes a pokemon object. Fills in any unknown moves/items with an unknown token.
+
+	Input: Pokemon object
+	Output: Pokemon encoding object with shape (1, POKE_DESCRIPTOR_SIZE)
+	'''
+	pokemon_encoding = np.zeros((1, POKE_DESCRIPTOR_SIZE))
+
+	pokemon_id = POKEMON_LIST[pokemon.species]
+
+	move_ids = []
+
+	# Encodes pokemon item
+	if pokemon.item in ITEM_LIST:
+		item_id = ITEM_LIST[pokemon.item]
+	else:
+		item_id = ITEM_LIST['<UNK>']
+
+	for move in pokemon.moves:
+		if move in MOVE_LIST:
+			move_ids.append(MOVE_LIST[move])
+		else:
+			move_ids.append(MOVE_LIST['<UNK>'])
+
+	if len(move_ids) < 4:
+		num_unk_moves = 4 - len(move_ids)
+		for i in range(num_unk_moves):
+			move_ids.append(MOVE_LIST['<UNK>'])
+
+	assert(len(move_ids) == 4)
+
+	if pokemon.status == "psn":
+		status_key = "POISONED"
+	elif pokemon.status == "tox":
+		status_key = "BADLY_POISONED"
+	elif pokemon.status == "brn":
+		status_key = "BURNED"
+	elif pokemon.status == "par":
+		status_key = "PARALYZED"
+	elif pokemon.status == "slp":
+		status_key = "SLEEP"
+	elif pokemon.status == "frz":
+		status_key = "FROZEN"
+	else:
+		status_key = "NONE"
+
+	status_id = STATUS_IDS[status_key]
+
+	pokemon_encoding[:, 0] = pokemon_id
+	for i in range(len(move_ids)):
+		pokemon_encoding[:, i+1] = move_ids[i]
+	pokemon_encoding[:, 5] = item_id
+	pokemon_encoding[:, 6] = status_id
+
+	return pokemon_encoding
+
+
 class PokemonShowdownEncoding(object):
 	def __init__(self, name=None, data_type=None, num_turns=None):
 		'''
@@ -27,13 +99,14 @@ class PokemonShowdownEncoding(object):
 		'''
 		self.name = name
 		self.data_type = data_type
-		self.pokemon = [np.zeros((num_turns, POKE_DESCRIPTOR_SIZE)) for _ in range(12)]
-		self.other_data = np.zeros((num_turns, NON_EMBEDDING_DATA))
-		self.labels = np.zeros((num_turns, NUMBER_CLASSES))
+		self.num_turns = num_turns
+		self.pokemon = [np.zeros((self.num_turns, POKE_DESCRIPTOR_SIZE)) for _ in range(12)]
+		self.other_data = np.zeros((self.num_turns, NON_EMBEDDING_DATA))
+		self.labels = np.zeros((self.num_turns, NUMBER_CLASSES))
 
 		# Matrix where row = turn number, column 0 = winner's last move,
 		# column 1 = opponent's last move
-		self.last_move_data = np.zeros((num_turns, 2))
+		self.last_move_data = np.zeros((self.num_turns, 2))
 
 	@classmethod
 	def load(self, filename):
@@ -44,82 +117,18 @@ class PokemonShowdownEncoding(object):
 		with open(PARSED_FOLDER + self.type + '/' + self.name + '.p', 'wb') as f:
 			pickle.dump(self, f)
 
-	def encodePokemonObject(self, pokemon):
-		'''
-		Encodes a pokemon object. Fills in any unknown moves/items with an unknown token.
-
-		Input: Pokemon object
-		Output: Pokemon encoding object with shape (1, POKE_DESCRIPTOR_SIZE)
-		'''
-		pokemon_encoding = np.zeros((1, POKE_DESCRIPTOR_SIZE))
-
-		pokemon_id = POKEMON_LIST[pokemon.species]
-
-		move_ids = []
-
-		# Encodes pokemon item
-		if pokemon.item in ITEM_LIST:
-			item_id = ITEM_LIST[pokemon.item]
-		else:
-			item_id = ITEM_LIST['<UNK>']
-
-		for move in pokemon.moves:
-			if move in MOVE_LIST:
-				move_ids.append(MOVE_LIST[move])
-			else:
-				move_ids.append(MOVE_LIST['<UNK>'])
-
-		if len(move_ids) < 4:
-			num_unk_moves = 4 - len(move_ids)
-			for i in range(num_unk_moves):
-				move_ids.append(MOVE_LIST['<UNK>'])
-
-		assert(len(move_ids) == 4)
-
-		if pokemon.status == "psn":
-			status_key = "POISONED"
-		elif pokemon.status == "tox":
-			status_key = "BADLY_POISONED"
-		elif pokemon.status == "brn":
-			status_key = "BURNED"
-		elif pokemon.status == "par":
-			status_key = "PARALYZED"
-		elif pokemon.status == "slp":
-			status_key = "SLEEP"
-		elif pokemon.status == "frz":
-			status_key = "FROZEN"
-		else:
-			status_key = "NONE"
-
-		status_id = STATUS_IDS[status_key]
-
-		pokemon_encoding[:, 0] = pokemon_id
-		for i in range(len(move_ids)):
-			pokemon_encoding[:, i+1] = move_ids[i]
-		pokemon_encoding[:, 5] = item_id
-		pokemon_encoding[:, 6] = status_id
-
-		return pokemon_encoding
-
 	def encodeLabels(self, turnList, winner):
 		for turnNumber, lst in turnList.iteritems():
 			if len(lst) > 2:
 				raise Exception("List {} has more than 2 actions".format(lst))
 
 			for turn in lst:
-				# actionID is either a Pokemon actionID if that pokemon switched in
-				# Move actionID if they used that move, or -1 if mega evolve
-				if turn.action in ['switch', 'mega']:
-					actionID = POKEMON_LIST[turn.pokemon.species]
-				else:
-					# ??????????
-					if turn.action == 'Hidden Power':
-						actionID = MOVE_LIST['<UNK>']
-					else:
-						actionID = MOVE_LIST[turn.action]
-
 				if turn.player != winner:
-					continue
+					raise Exception("This should literally never raise.")
+
+				actionID = getActionIDFromString(turn.action, pokemon=turn.pokemon.species)
+				col = 0 if turn.player == winner else 1
+				self.last_move_data[turnNumber][col] = actionID
 
 				self.labels[turnNumber][actionID] = 1
 
@@ -130,6 +139,37 @@ class PokemonShowdownEncoding(object):
 				print(row)
 				raise Exception("Labels {} had a non-one row".format(self.labels))
 
+	# This code is so jank I never want to look at it again
+	def encodeOpponentsLastMove(self, opponentTurnList):
+		if len(opponentTurnList) <= 1:
+			return
+
+		index = 0
+		turnNumbers = opponentTurnList.keys()
+		nextTurnNumber = turnNumbers[index+1]
+		for turnNumber, lst in opponentTurnList.iteritems():
+			# Only care about the last move in sequence of multiple moves
+			actionID = getActionIDFromString(lst[-1].action, pokemon=lst[-1].pokemon.species)
+			for x in range(turnNumber, nextTurnNumber):
+				self.last_move_data[x][1] = actionID
+
+			if index + 1 == len(opponentTurnList) - 1:
+				nextTurnNumber = self.num_turns
+			else:
+				index += 1
+				nextTurnNumber = turnNumbers[index+1]
+
+		print self.last_move_data
+
+	def encodeOpponentPokemon(self, opponentPokemonEncoding):
+		for turnNumber, lst in opponentPokemonEncoding.iteritems():
+			for i in range(6, 12):
+				self.pokemon[i][turnNumber] = lst[i-6]
+
+	def encodeWinnerPokemon(self, winnerPokemonEncoding):
+		pass
+
+
 class PokemonShowdownReplayParser(object):
 	def __init__(self, log="", winner=""):
 		self.log = log
@@ -139,19 +179,36 @@ class PokemonShowdownReplayParser(object):
 
 		# self.winner is either "p1" or "p2".
 		self.winner = winner
+		self.opponent = None
 
 		self.turnNumber = -1
 		self.turnList = {}
+		self.opponentTurnList = {}
+		self.opponentPokemonEncoding = {}
+
+		self.lines = None
 
 	def run(self):
+		# Parse through the log file and fill in any seen abilities, items, or moves.
 		self.parse()
 
 		assert(self.winner == "p1" or self.winner == "p2")
 
-		self.stripGenders()
+		# Parse through the JSON file and fill in pokemon sets.
 		self.parseJSON()
+
+		# TODO: Simulate through the battle and generate pokemon and state encodings for each turn.
+
+
+
+		'''
+		print(self.winner)
 		for item in self.turnList.iteritems():
 			print(item)
+		for item in self.opponentTurnList.iteritems():
+			print(item)
+		'''
+
 		self.generateEncodingObject()
 
 		'''
@@ -162,16 +219,13 @@ class PokemonShowdownReplayParser(object):
 			print(encoding.encodePokemonObject(pokemon))
 		'''
 
-		'''
 		output = ""
 		output += self.players["p1"].getTeamFormatString()
 		output += self.players["p2"].getTeamFormatString()
 		for item in self.turnList.iteritems():
 			print(item)
 
-
 		return output
-		'''
 
 	def generateEncodingObject(self):
 		# 80-10-10 Training-Validation-Testing Split
@@ -179,6 +233,11 @@ class PokemonShowdownReplayParser(object):
 		obj = PokemonShowdownEncoding(name=self.log, data_type=random.choice(weighted_data_types), num_turns=self.turnNumber+1)
 
 		obj.encodeLabels(self.turnList, self.winner)
+		obj.encodeOpponentsLastMove(self.opponentTurnList)
+		for item in self.opponentPokemonEncoding.iteritems():
+			print item
+		obj.encodeOpponentPokemon(self.opponentPokemonEncoding)
+		# obj.encodeWinnerPokemon(self.players[self.winner].pokemon)
 
 		return obj
 
@@ -186,23 +245,23 @@ class PokemonShowdownReplayParser(object):
 		'''
 		Parses the log file line by line.
 		'''
-		lines = self.log.split('\n')
+		self.lines = self.log.split('\n')
 
 		# First parse the players
-		for line in lines:
+		for line in self.lines:
 			if line.startswith("|player|"):
 				self.processPlayer(line)
 				if "|p2|" in line:
 					break
 
 		# Then parse the winner
-		for line in reversed(lines):
+		for line in reversed(self.lines):
 			if line.startswith("|win|"):
 				self.processWinner(line)
 				break
 
 		# Finally parse the rest of the lines
-		for line in lines:
+		for i, line in enumerate(self.lines):
 			if line.startswith("|poke|"):
 				self.processPoke(line)
 			elif line.startswith("|turn|"):
@@ -417,7 +476,7 @@ class PokemonShowdownReplayParser(object):
 
 		pokemon = Pokemon()
 		species = fields[3].replace("/,.*$/", "")
-		pokemon.species = species
+		pokemon.species = species.split(',')[0]
 		self.players[fields[2]].pokemon.append(pokemon)
 
 	def processWinner(self, line):
@@ -430,8 +489,10 @@ class PokemonShowdownReplayParser(object):
 
 		if self.players["p1"].username == winnerUsername:
 			self.winner = "p1"
+			self.opponent = "p2"
 		else:
 			self.winner = "p2"
+			self.opponent = "p1"
 
 	def processTurn(self, line):
 		fields = line.split("|")
@@ -468,7 +529,7 @@ class PokemonShowdownReplayParser(object):
 		matches = re.search("\|switch\|(p[12])a:\s+([^|]+)\|([^|]+)", line).groups()
 		player = matches[0]
 		nickname = matches[1]
-		species = matches[2]
+		species = matches[2].split(',')[0]
 
 		# Special prefix edge case.
 		if "Arceus" in species:
@@ -489,13 +550,15 @@ class PokemonShowdownReplayParser(object):
 			pokemon.nickname = nickname
 		self.players[player].currentPokemon = pokemon
 
+		# Skip the initial start
+		# if "|start" not in [lines[i-1], lines[i-2]]:
 		self.createTurn(player, "switch", pokemon)
 
 	def processDrag(self, line):
 		matches = re.search("\|drag\|(p[12])a:\s+([^|]+)\|([^|]+)", line).groups()
 		player = matches[0]
 		nickname = matches[1]
-		species = matches[2]
+		species = matches[2].split(',')[0]
 
 		# Special prefix edge case.
 		if "Arceus" in species:
@@ -520,7 +583,7 @@ class PokemonShowdownReplayParser(object):
 		matches = re.search("\|replace\|(p[12])a:\s+([^|]+)\|([^|]+)", line).groups()
 		player = matches[0]
 		nickname = matches[1]
-		species = matches[2]
+		species = matches[2].split(',')[0]
 
 		# Special prefix edge case.
 		if "Arceus" in species:
@@ -581,7 +644,7 @@ class PokemonShowdownReplayParser(object):
 		matches = re.search("\|detailschange\|(p[12])a:\s+([^|]+)\|([^\n]+)", line).groups()
 		player = matches[0]
 		nickname = matches[1]
-		species = matches[2]
+		species = matches[2].split(',')[0]
 
 		pokemon = self.players[player].getPokemonByNickname(nickname)
 		pokemon.species = species
@@ -594,7 +657,6 @@ class PokemonShowdownReplayParser(object):
 
 		pokemon = self.players[player].getPokemonByNickname(nickname)
 		pokemon.status = status
-		print(pokemon.status)
 
 	def processCureStatus(self, line):
 		matches = re.search("\|-curestatus\|(p[12])a{0,1}:\s+([^|]+)\|([^\n|]+)", line).groups()
@@ -644,26 +706,37 @@ class PokemonShowdownReplayParser(object):
 		pokemon = self.players[player].getPokemonByNickname(nickname)
 		pokemon.ability = ability
 
-	def stripGenders(self):
-		p1 = self.players["p1"]
-		p2 = self.players["p2"]
-
-		for poke in p1.pokemon:
-			if ',' in poke.species:
-				poke.species = poke.species.split(',')[0]
-
-		for poke in p2.pokemon:
-			if ',' in poke.species:
-				poke.species = poke.species.split(',')[0]
-
 	def createTurn(self, player, action, pokemon):
+		# Append to turn object list
 		if player == self.winner:
 			self.turnNumber = self.turnNumber + 1
-			self.turnList[self.turnNumber] = []
-			# Append to turn object list
-			turn = Turn(turnNumber=self.turnNumber, player=player, action=action, pokemon=pokemon)
-			self.turnList[self.turnNumber].append(turn)
 
+		turn = Turn(turnNumber=self.turnNumber, player=player, action=action, pokemon=pokemon)
+
+		if player == self.winner:
+			self.turnList[self.turnNumber] = [turn]
+		else:
+			# Cheesy stuff
+			turnNumber = max(0, self.turnNumber)
+			if turnNumber in self.opponentTurnList:
+				self.opponentTurnList[turnNumber].append(turn)
+			else:
+				self.opponentTurnList[turnNumber] = [turn]
+
+		self.encodeOpponentsPokemon(max(0, self.turnNumber))
+
+	def encodeOpponentsPokemon(self, turnNumber):
+		opponent = self.players[self.opponent]
+		currentPokemon = opponent.currentPokemon
+		if not currentPokemon:
+			return
+
+		self.opponentPokemonEncoding[turnNumber] = []
+		self.opponentPokemonEncoding[turnNumber].append(encodePokemonObject(currentPokemon))
+		for pokemon in opponent.pokemon:
+			if pokemon == currentPokemon:
+				continue
+			self.opponentPokemonEncoding[turnNumber].append(encodePokemonObject(pokemon))
 
 
 class Player(object):

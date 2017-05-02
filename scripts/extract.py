@@ -39,6 +39,7 @@ pokemon.add(u'Groudon-Primal')
 pokemon.add(u'Kyogre-Primal')
 pokemon_dict = {poke:(i+1) for i,poke in enumerate(pokemon)}
 pokemon_dict['<UNK>'] = 0
+moves.add(u'Struggle')
 move_dict = {move:(i+1+len(pokemon_dict)) for i,move in enumerate(moves)}
 move_dict['<UNK>'] = len(pokemon_dict)
 item_dict = {item:(i+1+len(pokemon_dict)+len(move_dict)) for i,item in enumerate(items)}
