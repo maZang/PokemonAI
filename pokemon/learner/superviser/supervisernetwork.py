@@ -14,7 +14,8 @@ class PokemonNetworkConfig(object):
 	embedding_size = 100
 	poke_descriptor_size = const.POKE_DESCRIPTOR_SIZE # poke id, 4 move ids, item id, status id
 	number_non_embedding = const.NON_EMBEDDING_DATA
-	number_classes = const.NUMBER_CLASSES # 4 options for each move, +6 options to switch Pokemon, +1 mega-evolve -- ALTERNATIVE, number_moves + number_pokemon + 1 (mega-evolve)
+	number_classes = const.NUMBER_CLASSES 
+	last_move_data = const.LAST_MOVE_DATA
 	learning_rate = 1e-3
 	max_epochs = 10
 	early_stop = 2
@@ -37,8 +38,9 @@ class PokemonNetworkConfig(object):
 class PokemonNetwork(object):
 
 	def _add_placeholder(self):
-		self.poke_placeholders = [tf.placeholder(tf.int32, shape=(None, poke_descriptor_size)) for _ in range(12)]
-		self.x_data_placeholder = tf.placeholder(tf.float32, shape=(None, number_non_embedding))
+		self.poke_placeholders = [tf.placeholder(tf.int32, shape=(None, self.config.poke_descriptor_size)) for _ in range(12)]
+		self.x_data_placeholder = tf.placeholder(tf.float32, shape=(None, self.config.number_non_embedding))
+		self.last_move_placeholder = tf.placeholder(tf.float32, shape=(None, self.config.last_move_data))
 		self.y_placeholder = tf.placeholder(tf.float32, shape=(None, number_classes))
 		self.dropout_placeholder = tf.placeholder(tf.float32)
 
@@ -60,6 +62,8 @@ class PokemonNetwork(object):
 			self.embedding_inputs = [tf.reshape(tf.nn.embedding_lookup([poke_embeddings,move_embeddings,item_embeddings,
 				status_embeddings], placeholder), (-1, self.config.poke_descriptor_size, self.config.embedding_size))
 				for placeholder in self.poke_placeholders] 
+			self.last_move_embeddings = tf.nn.embedding_lookup([poke_embeddings,move_embeddings,item_embeddings,
+				status_embeddings], self.last_move_placeholder)
 
 	def _network_model(self):
 		'''
@@ -103,8 +107,10 @@ class PokemonNetwork(object):
 			opp_team_output = tf.concat(layers, 1)
 		with tf.variable_scope('HighwayNet'):
 			concat_data = tf.reshape(self.x_data_placeholder,(-1,self.config.number_non_embedding))
-			output = tf.concat([own_team_output,opp_team_output,concat_data], 1)
-			highway_size = 2 * sum(feature_maps_team) + self.config.number_non_embedding
+			last_move_concat = tf.reshape(self.last_move_embeddings, (-1, self.config.last_move_data*self.config.embedding_size))
+			output = tf.concat([own_team_output,opp_team_output,concat_data,last_move_concat], 1)
+			highway_size = 2 * sum(feature_maps_team) + self.config.number_non_embedding +\
+							 self.config.last_move_data*self.config.embedding_size
 			w_t = tf.get_variable('weight_transform', shape=(size,size))
 			b_t = tf.get_variable('bias_transform', shape=(size,))
 			transform = tf.sigmoid(tf.matmul(output, w_t) + b_t)
@@ -161,7 +167,8 @@ class PokemonNetwork(object):
 		for i,sample in enumerate(self.data_iter.sample(self.config.batch_size, self.config.num_steps, sample_set)):
 			# sample is a list of [poke1matrix, poke2matrix, ..., poke12matrix, other_x_state, y]
 			feed_dict1 = {self.poke_placeholders[i] : sample[i] for i in range(12)} 
-			feed_dict_rest = {self.x_data_placeholder: sample[13], self.y_placeholder: sample[14],
+			feed_dict_rest = {self.x_data_placeholder: sample[13], 
+							self.last_move_placeholder: sample[14], self.y_placeholder: sample[15],
 							self.dropout_placeholder: dp}
 			feed_dict = {**feed_dict1, **feed_dict_rest}
 			loss, _ = session.run([self.loss, train_op])

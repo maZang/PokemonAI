@@ -1,0 +1,692 @@
+|j|Espeonlover324
+|j|Laquaboy
+|player|p1|Espeonlover324|138
+|player|p2|Laquaboy|1
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|1330,36455,40345,7527,26489,477,27911,1337,2117,12862,60749,592
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Suicune|item
+|poke|p1|Gardevoir, M|item
+|poke|p1|Noivern, M|item
+|poke|p1|Beedrill, M|item
+|poke|p1|Gligar, M|item
+|poke|p1|Metagross|item
+|poke|p2|Honchkrow, M|item
+|poke|p2|Rhyperior, M|item
+|poke|p2|Cobalion|item
+|poke|p2|Umbreon, M|item
+|poke|p2|Forretress, M|item
+|poke|p2|Whimsicott, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 4, team 2, team 3, team 1, team 5, team 6|team 5, team 2, team 3, team 4, team 1, team 6
+|
+|start
+|switch|p1a: Beedrill|Beedrill, M|100/100
+|switch|p2a: Forretress|Forretress, M|100/100
+|turn|1
+|choice|move uturn mega|move spikes
+|
+|detailschange|p1a: Beedrill|Beedrill-Mega, M
+|-mega|p1a: Beedrill|Beedrill|Beedrillite
+|move|p1a: Beedrill|U-turn|p2a: Forretress
+|-resisted|p2a: Forretress
+|-damage|p2a: Forretress|85/100
+|choice|switch 2|
+|
+|switch|p1a: Gardevoir|Gardevoir, M|100/100
+|-ability|p1a: Gardevoir|Sturdy|[from] ability: Trace|[of] p2a: Forretress
+|move|p2a: Forretress|Spikes|p1a: Gardevoir
+|-sidestart|p1: Espeonlover324|Spikes
+|
+|-heal|p2a: Forretress|92/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|choice|move trick|move spikes
+|
+|move|p1a: Gardevoir|Trick|p2a: Forretress
+|-activate|p1a: Gardevoir|move: Trick|[of] p2a: Forretress
+|-item|p2a: Forretress|Choice Specs|[from] move: Trick
+|-item|p1a: Gardevoir|Leftovers|[from] move: Trick
+|move|p2a: Forretress|Spikes|p1a: Gardevoir
+|-sidestart|p1: Espeonlover324|Spikes
+|
+|upkeep
+|turn|3
+|choice|move moonblast|switch 2
+|
+|switch|p2a: Rhyperior|Rhyperior, M|100/100
+|move|p1a: Gardevoir|Moonblast|p2a: Rhyperior
+|-damage|p2a: Rhyperior|64/100
+|-unboost|p2a: Rhyperior|spa|1
+|
+|-heal|p2a: Rhyperior|70/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|choice|switch 5|move stealthrock
+|
+|switch|p1a: Gligar|Gligar, M|100/100
+|move|p2a: Rhyperior|Stealth Rock|p1a: Gligar
+|-sidestart|p1: Espeonlover324|move: Stealth Rock
+|
+|-heal|p2a: Rhyperior|76/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|choice|move defog|move rockblast
+|
+|move|p1a: Gligar|Defog|p2a: Rhyperior
+|-unboost|p2a: Rhyperior|evasion|1
+|-sideend|p1: Espeonlover324|Spikes|[from] move: Defog|[of] p1a: Gligar
+|-sideend|p1: Espeonlover324|Stealth Rock|[from] move: Defog|[of] p1a: Gligar
+|move|p2a: Rhyperior|Rock Blast|p1a: Gligar
+|-damage|p1a: Gligar|94/100
+|-damage|p1a: Gligar|88/100
+|-damage|p1a: Gligar|82/100
+|-hitcount|p1a: Gligar|3
+|
+|-heal|p2a: Rhyperior|82/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|choice|switch 4|move rockblast
+|
+|switch|p1a: Suicune|Suicune|100/100
+|-ability|p1a: Suicune|Pressure
+|move|p2a: Rhyperior|Rock Blast|p1a: Suicune
+|-damage|p1a: Suicune|94/100
+|-damage|p1a: Suicune|87/100
+|-damage|p1a: Suicune|81/100
+|-hitcount|p1a: Suicune|3
+|
+|-heal|p1a: Suicune|87/100|[from] item: Leftovers
+|-heal|p2a: Rhyperior|88/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|choice|move scald|switch 2
+|
+|switch|p2a: Forretress|Forretress, M|92/100
+|move|p1a: Suicune|Scald|p2a: Forretress
+|-damage|p2a: Forretress|56/100
+|
+|-heal|p1a: Suicune|93/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|choice|move scald|move voltswitch
+|
+|move|p1a: Suicune|Scald|p2a: Forretress
+|-damage|p2a: Forretress|22/100
+|move|p2a: Forretress|Volt Switch|p1a: Suicune
+|-supereffective|p1a: Suicune
+|-damage|p1a: Suicune|68/100
+|choice||switch 6
+|
+|switch|p2a: Whimsicott|Whimsicott, M|100/100
+|
+|-heal|p1a: Suicune|74/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|choice|move rest|move stunspore
+|
+|move|p2a: Whimsicott|Stun Spore|p1a: Suicune
+|-status|p1a: Suicune|par
+|move|p1a: Suicune|Rest|p1a: Suicune
+|-status|p1a: Suicune|slp
+|-heal|p1a: Suicune|100/100 slp|[silent]
+|-status|p1a: Suicune|slp|[from] move: Rest
+|
+|upkeep
+|turn|10
+|choice|move sleeptalk|move encore
+|
+|move|p2a: Whimsicott|Encore|p1a: Suicune
+|-start|p1a: Suicune|Encore
+|cant|p1a: Suicune|slp
+|
+|upkeep
+|turn|11
+|choice|switch 2|move moonblast
+|
+|switch|p1a: Beedrill|Beedrill-Mega, M|100/100
+|move|p2a: Whimsicott|Moonblast|p1a: Beedrill
+|-resisted|p1a: Beedrill
+|-damage|p1a: Beedrill|81/100
+|-unboost|p1a: Beedrill|spa|1
+|
+|upkeep
+|turn|12
+|choice|move poisonjab|move uturn
+|
+|move|p1a: Beedrill|Poison Jab|p2a: Whimsicott
+|-supereffective|p2a: Whimsicott
+|-damage|p2a: Whimsicott|0 fnt
+|faint|p2a: Whimsicott
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Cobalion|Cobalion|100/100
+|turn|13
+|choice|move uturn|move swordsdance
+|
+|move|p1a: Beedrill|U-turn|p2a: Cobalion
+|-resisted|p2a: Cobalion
+|-crit|p2a: Cobalion
+|-damage|p2a: Cobalion|82/100
+|choice|switch 5|
+|
+|switch|p1a: Gardevoir|Gardevoir, M|100/100
+|-ability|p1a: Gardevoir|Justified|[from] ability: Trace|[of] p2a: Cobalion
+|move|p2a: Cobalion|Swords Dance|p2a: Cobalion
+|-boost|p2a: Cobalion|atk|2
+|
+|upkeep
+|turn|14
+|choice|move moonblast|move ironhead
+|
+|move|p2a: Cobalion|Iron Head|p1a: Gardevoir
+|-supereffective|p1a: Gardevoir
+|-damage|p1a: Gardevoir|0 fnt
+|-damage|p2a: Cobalion|72/100|[from] item: Life Orb
+|faint|p1a: Gardevoir
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Noivern|Noivern, M|100/100
+|turn|15
+|choice|move airslash|move stoneedge
+|
+|move|p1a: Noivern|Air Slash|p2a: Cobalion
+|-damage|p2a: Cobalion|31/100
+|move|p2a: Cobalion|Stone Edge|p1a: Noivern
+|-supereffective|p1a: Noivern
+|-damage|p1a: Noivern|0 fnt
+|-damage|p2a: Cobalion|22/100|[from] item: Life Orb
+|faint|p1a: Noivern
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Metagross|Metagross|100/100
+|turn|16
+|choice|move stealthrock|move closecombat
+|
+|move|p2a: Cobalion|Close Combat|p1a: Metagross
+|-damage|p1a: Metagross|0 fnt
+|-unboost|p2a: Cobalion|def|1
+|-unboost|p2a: Cobalion|spd|1
+|-damage|p2a: Cobalion|12/100|[from] item: Life Orb
+|faint|p1a: Metagross
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Suicune|Suicune|100/100 slp
+|-ability|p1a: Suicune|Pressure
+|turn|17
+|choice|move sleeptalk|move ironhead
+|
+|move|p2a: Cobalion|Iron Head|p1a: Suicune
+|-resisted|p1a: Suicune
+|-damage|p1a: Suicune|76/100 slp
+|-damage|p2a: Cobalion|2/100|[from] item: Life Orb
+|cant|p1a: Suicune|slp
+|move|p1a: Suicune|Sleep Talk|p1a: Suicune
+|move|p1a: Suicune|Rest|p1a: Suicune|[from]Sleep Talk
+|-fail|p1a: Suicune
+|
+|-heal|p1a: Suicune|83/100 slp|[from] item: Leftovers
+|upkeep
+|turn|18
+|choice|move sleeptalk|move closecombat
+|
+|move|p2a: Cobalion|Close Combat|p1a: Suicune
+|-damage|p1a: Suicune|9/100 slp
+|-unboost|p2a: Cobalion|def|1
+|-unboost|p2a: Cobalion|spd|1
+|-damage|p2a: Cobalion|0 fnt|[from] item: Life Orb
+|faint|p2a: Cobalion
+|-curestatus|p1a: Suicune|slp|[msg]
+|move|p1a: Suicune|Sleep Talk|p1a: Suicune
+|-fail|p1a: Suicune
+|
+|-heal|p1a: Suicune|15/100|[from] item: Leftovers
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Forretress|Forretress, M|22/100
+|turn|19
+|choice|move rest|move voltswitch
+|
+|move|p1a: Suicune|Rest|p1a: Suicune
+|-status|p1a: Suicune|slp
+|-heal|p1a: Suicune|100/100 slp|[silent]
+|-status|p1a: Suicune|slp|[from] move: Rest
+|move|p2a: Forretress|Volt Switch|p1a: Suicune
+|-supereffective|p1a: Suicune
+|-damage|p1a: Suicune|77/100 slp
+|choice||switch 2
+|
+|switch|p2a: Rhyperior|Rhyperior, M|88/100
+|
+|-heal|p1a: Suicune|83/100 slp|[from] item: Leftovers
+|-heal|p2a: Rhyperior|95/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|choice|move sleeptalk|move stealthrock
+|
+|cant|p1a: Suicune|slp
+|move|p1a: Suicune|Sleep Talk|p1a: Suicune
+|move|p1a: Suicune|Roar|p2a: Rhyperior|[from]Sleep Talk
+|drag|p2a: Honchkrow|Honchkrow, M|100/100
+|
+|-heal|p1a: Suicune|89/100 slp|[from] item: Leftovers
+|upkeep
+|turn|21
+|choice|move sleeptalk|move nightslash
+|
+|move|p2a: Honchkrow|Night Slash|p1a: Suicune
+|-damage|p1a: Suicune|71/100 slp
+|cant|p1a: Suicune|slp
+|move|p1a: Suicune|Sleep Talk|p1a: Suicune
+|move|p1a: Suicune|Scald|p2a: Honchkrow|[from]Sleep Talk
+|-damage|p2a: Honchkrow|57/100
+|
+|-heal|p1a: Suicune|77/100 slp|[from] item: Leftovers
+|upkeep
+|turn|22
+|choice|move scald|switch 2
+|
+|switch|p2a: Forretress|Forretress, M|22/100
+|-curestatus|p1a: Suicune|slp|[msg]
+|move|p1a: Suicune|Scald|p2a: Forretress
+|-damage|p2a: Forretress|0 fnt
+|faint|p2a: Forretress
+|
+|-heal|p1a: Suicune|83/100|[from] item: Leftovers
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Umbreon|Umbreon, M|100/100
+|turn|23
+|choice|move rest|move wish
+|
+|move|p1a: Suicune|Rest|p1a: Suicune
+|-status|p1a: Suicune|slp
+|-heal|p1a: Suicune|100/100 slp|[silent]
+|-status|p1a: Suicune|slp|[from] move: Rest
+|move|p2a: Umbreon|Wish|p2a: Umbreon
+|
+|upkeep
+|turn|24
+|choice|move sleeptalk|switch 2
+|
+|switch|p2a: Honchkrow|Honchkrow, M|57/100
+|cant|p1a: Suicune|slp
+|move|p1a: Suicune|Sleep Talk|p1a: Suicune
+|move|p1a: Suicune|Rest|p1a: Suicune|[from]Sleep Talk
+|-fail|p1a: Suicune
+|
+|-heal|p2a: Honchkrow|100/100|[from] move: Wish|[wisher] Umbreon
+|upkeep
+|turn|25
+|choice|move sleeptalk|move superpower
+|
+|move|p2a: Honchkrow|Superpower|p1a: Suicune
+|-damage|p1a: Suicune|78/100 slp
+|-unboost|p2a: Honchkrow|atk|1
+|-unboost|p2a: Honchkrow|def|1
+|cant|p1a: Suicune|slp
+|move|p1a: Suicune|Sleep Talk|p1a: Suicune
+|move|p1a: Suicune|Roar|p2a: Honchkrow|[from]Sleep Talk
+|drag|p2a: Umbreon|Umbreon, M|100/100
+|
+|-heal|p1a: Suicune|84/100 slp|[from] item: Leftovers
+|upkeep
+|turn|26
+|choice|move sleeptalk|move foulplay
+|
+|-curestatus|p1a: Suicune|slp|[msg]
+|move|p1a: Suicune|Sleep Talk|p1a: Suicune
+|-fail|p1a: Suicune
+|move|p2a: Umbreon|Foul Play|p1a: Suicune
+|-damage|p1a: Suicune|73/100
+|
+|-heal|p1a: Suicune|79/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|choice|move scald|move protect
+|
+|move|p2a: Umbreon|Protect|p2a: Umbreon
+|-singleturn|p2a: Umbreon|Protect
+|move|p1a: Suicune|Scald|p2a: Umbreon
+|-activate|p2a: Umbreon|move: Protect
+|
+|-heal|p1a: Suicune|85/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|choice|move scald|move foulplay
+|
+|move|p1a: Suicune|Scald|p2a: Umbreon
+|-damage|p2a: Umbreon|88/100
+|move|p2a: Umbreon|Foul Play|p1a: Suicune
+|-damage|p1a: Suicune|75/100
+|
+|-heal|p1a: Suicune|82/100|[from] item: Leftovers
+|-heal|p2a: Umbreon|94/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|choice|move scald|move foulplay
+|
+|move|p1a: Suicune|Scald|p2a: Umbreon
+|-damage|p2a: Umbreon|81/100
+|-status|p2a: Umbreon|brn
+|-activate|p2a: Umbreon|ability: Synchronize
+|-status|p1a: Suicune|brn
+|move|p2a: Umbreon|Foul Play|p1a: Suicune
+|-damage|p1a: Suicune|76/100 brn
+|
+|-heal|p1a: Suicune|83/100 brn|[from] item: Leftovers
+|-heal|p2a: Umbreon|87/100 brn|[from] item: Leftovers
+|-damage|p1a: Suicune|70/100 brn|[from] brn
+|-damage|p2a: Umbreon|75/100 brn|[from] brn
+|upkeep
+|turn|30
+|choice|move rest|move foulplay
+|
+|move|p1a: Suicune|Rest|p1a: Suicune
+|-status|p1a: Suicune|slp
+|-heal|p1a: Suicune|100/100 slp|[silent]
+|-status|p1a: Suicune|slp|[from] move: Rest
+|move|p2a: Umbreon|Foul Play|p1a: Suicune
+|-damage|p1a: Suicune|95/100 slp
+|
+|-heal|p1a: Suicune|100/100 slp|[from] item: Leftovers
+|-heal|p2a: Umbreon|81/100 brn|[from] item: Leftovers
+|-damage|p2a: Umbreon|68/100 brn|[from] brn
+|upkeep
+|turn|31
+|choice|move sleeptalk|move healbell
+|
+|cant|p1a: Suicune|slp
+|move|p1a: Suicune|Sleep Talk|p1a: Suicune
+|move|p1a: Suicune|Rest|p1a: Suicune|[from]Sleep Talk
+|-fail|p1a: Suicune
+|move|p2a: Umbreon|Heal Bell|p2a: Umbreon
+|-activate|p2a: Umbreon|move: Heal Bell
+|-curestatus|p2a: Umbreon|brn|[msg]
+|
+|-heal|p2a: Umbreon|75/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|choice|move sleeptalk|move wish
+|
+|cant|p1a: Suicune|slp
+|move|p1a: Suicune|Sleep Talk|p1a: Suicune
+|move|p1a: Suicune|Rest|p1a: Suicune|[from]Sleep Talk
+|-fail|p1a: Suicune
+|move|p2a: Umbreon|Wish|p2a: Umbreon
+|
+|-heal|p2a: Umbreon|81/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|choice|move scald|move foulplay
+|
+|-curestatus|p1a: Suicune|slp|[msg]
+|move|p1a: Suicune|Scald|p2a: Umbreon
+|-damage|p2a: Umbreon|68/100
+|-status|p2a: Umbreon|brn
+|-activate|p2a: Umbreon|ability: Synchronize
+|-status|p1a: Suicune|brn
+|move|p2a: Umbreon|Foul Play|p1a: Suicune
+|-damage|p1a: Suicune|95/100 brn
+|
+|-heal|p2a: Umbreon|100/100 brn|[from] move: Wish|[wisher] Umbreon
+|-heal|p1a: Suicune|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Suicune|88/100 brn|[from] brn
+|-damage|p2a: Umbreon|88/100 brn|[from] brn
+|upkeep
+|turn|34
+|choice|move rest|move foulplay
+|
+|move|p1a: Suicune|Rest|p1a: Suicune
+|-status|p1a: Suicune|slp
+|-heal|p1a: Suicune|100/100 slp|[silent]
+|-status|p1a: Suicune|slp|[from] move: Rest
+|move|p2a: Umbreon|Foul Play|p1a: Suicune
+|-damage|p1a: Suicune|96/100 slp
+|
+|-heal|p1a: Suicune|100/100 slp|[from] item: Leftovers
+|-heal|p2a: Umbreon|94/100 brn|[from] item: Leftovers
+|-damage|p2a: Umbreon|82/100 brn|[from] brn
+|upkeep
+|turn|35
+|choice|move sleeptalk|switch 2
+|
+|switch|p2a: Honchkrow|Honchkrow, M|100/100
+|cant|p1a: Suicune|slp
+|move|p1a: Suicune|Sleep Talk|p1a: Suicune
+|move|p1a: Suicune|Rest|p1a: Suicune|[from]Sleep Talk
+|-fail|p1a: Suicune
+|
+|upkeep
+|turn|36
+|choice|move scald|move bravebird
+|
+|move|p2a: Honchkrow|Brave Bird|p1a: Suicune
+|-damage|p1a: Suicune|65/100 slp
+|-damage|p2a: Honchkrow|86/100|[from] recoil|[of] p1a: Suicune
+|cant|p1a: Suicune|slp
+|
+|-heal|p1a: Suicune|71/100 slp|[from] item: Leftovers
+|upkeep
+|turn|37
+|choice|move scald|move bravebird
+|
+|move|p2a: Honchkrow|Brave Bird|p1a: Suicune
+|-damage|p1a: Suicune|37/100 slp
+|-damage|p2a: Honchkrow|73/100|[from] recoil|[of] p1a: Suicune
+|-curestatus|p1a: Suicune|slp|[msg]
+|move|p1a: Suicune|Scald|p2a: Honchkrow
+|-damage|p2a: Honchkrow|23/100
+|
+|-heal|p1a: Suicune|44/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|choice|move rest|switch 2
+|
+|switch|p2a: Umbreon|Umbreon, M|82/100 brn
+|move|p1a: Suicune|Rest|p1a: Suicune
+|-status|p1a: Suicune|slp
+|-heal|p1a: Suicune|100/100 slp|[silent]
+|-status|p1a: Suicune|slp|[from] move: Rest
+|
+|-heal|p2a: Umbreon|88/100 brn|[from] item: Leftovers
+|-damage|p2a: Umbreon|75/100 brn|[from] brn
+|upkeep
+|turn|39
+|choice|switch 5|move wish
+|
+|switch|p1a: Beedrill|Beedrill-Mega, M|81/100
+|move|p2a: Umbreon|Wish|p2a: Umbreon
+|
+|-heal|p2a: Umbreon|81/100 brn|[from] item: Leftovers
+|-damage|p2a: Umbreon|69/100 brn|[from] brn
+|upkeep
+|turn|40
+|c|☆Laquaboy|this stall shit is so dumb
+|choice|move uturn|switch 2
+|
+|switch|p2a: Honchkrow|Honchkrow, M|23/100
+|move|p1a: Beedrill|U-turn|p2a: Honchkrow
+|-damage|p2a: Honchkrow|0 fnt
+|faint|p2a: Honchkrow
+|choice|switch 4|
+|
+|switch|p1a: Gligar|Gligar, M|82/100
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Rhyperior|Rhyperior, M|95/100
+|turn|41
+|choice|move toxic|move rockblast
+|
+|move|p1a: Gligar|Toxic|p2a: Rhyperior
+|-status|p2a: Rhyperior|tox
+|move|p2a: Rhyperior|Rock Blast|p1a: Gligar
+|-damage|p1a: Gligar|76/100
+|-damage|p1a: Gligar|70/100
+|-hitcount|p1a: Gligar|2
+|
+|-heal|p2a: Rhyperior|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Rhyperior|94/100 tox|[from] psn
+|upkeep
+|turn|42
+|choice|move earthquake|move rockblast
+|
+|move|p1a: Gligar|Earthquake|p2a: Rhyperior
+|-supereffective|p2a: Rhyperior
+|-damage|p2a: Rhyperior|70/100 tox
+|move|p2a: Rhyperior|Rock Blast|p1a: Gligar
+|-damage|p1a: Gligar|64/100
+|-damage|p1a: Gligar|58/100
+|-hitcount|p1a: Gligar|2
+|
+|-heal|p2a: Rhyperior|77/100 tox|[from] item: Leftovers
+|-damage|p2a: Rhyperior|64/100 tox|[from] psn
+|upkeep
+|turn|43
+|choice|move earthquake|move rockblast
+|
+|move|p1a: Gligar|Earthquake|p2a: Rhyperior
+|-supereffective|p2a: Rhyperior
+|-damage|p2a: Rhyperior|37/100 tox
+|move|p2a: Rhyperior|Rock Blast|p1a: Gligar
+|-damage|p1a: Gligar|52/100
+|-damage|p1a: Gligar|46/100
+|-damage|p1a: Gligar|39/100
+|-hitcount|p1a: Gligar|3
+|
+|-heal|p2a: Rhyperior|43/100 tox|[from] item: Leftovers
+|-damage|p2a: Rhyperior|25/100 tox|[from] psn
+|upkeep
+|turn|44
+|choice|move earthquake|switch 2
+|
+|switch|p2a: Umbreon|Umbreon, M|69/100 brn
+|move|p1a: Gligar|Earthquake|p2a: Umbreon
+|-damage|p2a: Umbreon|48/100 brn
+|
+|-heal|p2a: Umbreon|54/100 brn|[from] item: Leftovers
+|-damage|p2a: Umbreon|42/100 brn|[from] brn
+|upkeep
+|turn|45
+|choice|move earthquake|move wish
+|
+|move|p1a: Gligar|Earthquake|p2a: Umbreon
+|-crit|p2a: Umbreon
+|-damage|p2a: Umbreon|12/100 brn
+|move|p2a: Umbreon|Wish|p2a: Umbreon
+|
+|-heal|p2a: Umbreon|18/100 brn|[from] item: Leftovers
+|-damage|p2a: Umbreon|6/100 brn|[from] brn
+|upkeep
+|turn|46
+|choice|move earthquake|move protect
+|
+|move|p2a: Umbreon|Protect|p2a: Umbreon
+|-singleturn|p2a: Umbreon|Protect
+|move|p1a: Gligar|Earthquake|p2a: Umbreon
+|-activate|p2a: Umbreon|move: Protect
+|
+|-heal|p2a: Umbreon|55/100 brn|[from] move: Wish|[wisher] Umbreon
+|-heal|p2a: Umbreon|62/100 brn|[from] item: Leftovers
+|-damage|p2a: Umbreon|49/100 brn|[from] brn
+|upkeep
+|turn|47
+|choice|move earthquake|move wish
+|
+|move|p1a: Gligar|Earthquake|p2a: Umbreon
+|-damage|p2a: Umbreon|27/100 brn
+|move|p2a: Umbreon|Wish|p2a: Umbreon
+|
+|-heal|p2a: Umbreon|34/100 brn|[from] item: Leftovers
+|-damage|p2a: Umbreon|21/100 brn|[from] brn
+|upkeep
+|turn|48
+|choice|move earthquake|move protect
+|
+|move|p2a: Umbreon|Protect|p2a: Umbreon
+|-singleturn|p2a: Umbreon|Protect
+|move|p1a: Gligar|Earthquake|p2a: Umbreon
+|-activate|p2a: Umbreon|move: Protect
+|
+|-heal|p2a: Umbreon|71/100 brn|[from] move: Wish|[wisher] Umbreon
+|-heal|p2a: Umbreon|77/100 brn|[from] item: Leftovers
+|-damage|p2a: Umbreon|65/100 brn|[from] brn
+|upkeep
+|turn|49
+|choice|move earthquake|move healbell
+|
+|move|p1a: Gligar|Earthquake|p2a: Umbreon
+|-damage|p2a: Umbreon|43/100 brn
+|move|p2a: Umbreon|Heal Bell|p2a: Umbreon
+|-activate|p2a: Umbreon|move: Heal Bell
+|-curestatus|p2a: Umbreon|brn|[msg]
+|-curestatus|p2: Rhyperior|tox|[msg]
+|
+|-heal|p2a: Umbreon|49/100|[from] item: Leftovers
+|upkeep
+|turn|50
+|choice|move earthquake|move wish
+|
+|move|p1a: Gligar|Earthquake|p2a: Umbreon
+|-damage|p2a: Umbreon|27/100
+|move|p2a: Umbreon|Wish|p2a: Umbreon
+|
+|-heal|p2a: Umbreon|34/100|[from] item: Leftovers
+|upkeep
+|turn|51
+|choice|move roost|move protect
+|
+|move|p2a: Umbreon|Protect|p2a: Umbreon
+|-singleturn|p2a: Umbreon|Protect
+|move|p1a: Gligar|Roost|p1a: Gligar
+|-heal|p1a: Gligar|89/100
+|
+|-heal|p2a: Umbreon|83/100|[from] move: Wish|[wisher] Umbreon
+|-heal|p2a: Umbreon|90/100|[from] item: Leftovers
+|upkeep
+|turn|52
+|choice|move earthquake|move wish
+|
+|move|p1a: Gligar|Earthquake|p2a: Umbreon
+|-damage|p2a: Umbreon|70/100
+|move|p2a: Umbreon|Wish|p2a: Umbreon
+|
+|-heal|p2a: Umbreon|76/100|[from] item: Leftovers
+|upkeep
+|turn|53
+|choice|move earthquake|switch 2
+|
+|switch|p2a: Rhyperior|Rhyperior, M|25/100
+|move|p1a: Gligar|Earthquake|p2a: Rhyperior
+|-supereffective|p2a: Rhyperior
+|-damage|p2a: Rhyperior|0 fnt
+|faint|p2a: Rhyperior
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Umbreon|Umbreon, M|76/100
+|turn|54
+|-message|Laquaboy forfeited.
+|
+|win|Espeonlover324
+|raw|Espeonlover324's rating: 1192 &rarr; <strong>1217</strong><br />(+25 for winning)
+|raw|Laquaboy's rating: 1192 &rarr; <strong>1167</strong><br />(-25 for losing)

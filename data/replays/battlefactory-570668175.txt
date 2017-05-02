@@ -1,0 +1,271 @@
+|j|Kokojoe1
+|j|bellona trg
+|player|p1|Kokojoe1|291
+|player|p2|bellona trg|75
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|14353,38224,26320,12667,60936,2480,28190,36709,12245,44652,46052,56488
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Arbok, M|item
+|poke|p1|Gabite, M|item
+|poke|p1|Articuno|item
+|poke|p1|Sawsbuck, M|item
+|poke|p1|Rapidash, M|item
+|poke|p1|Ninjask, M|item
+|poke|p2|Prinplup, M|item
+|poke|p2|Ampharos, M|item
+|poke|p2|Duosion, M|item
+|poke|p2|Roselia, M|item
+|poke|p2|Stoutland, M|item
+|poke|p2|Tangela, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 4, team 2, team 3, team 1, team 5, team 6|team 1, team 2, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Sawsbuck|Sawsbuck, M|100/100
+|switch|p2a: Prinplup|Prinplup, M|100/100
+|turn|1
+|c|☆bellona trg|gl hf
+|choice|move hornleech|move stealthrock
+|
+|move|p1a: Sawsbuck|Horn Leech|p2a: Prinplup
+|-supereffective|p2a: Prinplup
+|-damage|p2a: Prinplup|62/100
+|move|p2a: Prinplup|Stealth Rock|p1a: Sawsbuck
+|-sidestart|p1: Kokojoe1|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|choice|move hornleech|move toxic
+|
+|move|p1a: Sawsbuck|Horn Leech|p2a: Prinplup
+|-supereffective|p2a: Prinplup
+|-damage|p2a: Prinplup|20/100
+|move|p2a: Prinplup|Toxic|p1a: Sawsbuck
+|-status|p1a: Sawsbuck|tox
+|
+|-damage|p1a: Sawsbuck|95/100 tox|[from] psn
+|upkeep
+|turn|3
+|choice|move hornleech|switch 6
+|
+|switch|p2a: Tangela|Tangela, M|100/100
+|move|p1a: Sawsbuck|Horn Leech|p2a: Tangela
+|-resisted|p2a: Tangela
+|-damage|p2a: Tangela|90/100
+|-heal|p1a: Sawsbuck|99/100 tox|[from] drain|[of] p2a: Tangela
+|
+|-damage|p1a: Sawsbuck|88/100 tox|[from] psn
+|upkeep
+|turn|4
+|choice|switch 4|move hiddenpower
+|
+|switch|p1a: Arbok|Arbok, M|100/100
+|-damage|p1a: Arbok|88/100|[from] Stealth Rock
+|move|p2a: Tangela|Hidden Power|p1a: Arbok
+|-damage|p1a: Arbok|70/100
+|
+|-heal|p1a: Arbok|76/100|[from] item: Black Sludge
+|upkeep
+|turn|5
+|choice|move coil|move sleeppowder
+|
+|move|p1a: Arbok|Coil|p1a: Arbok
+|-boost|p1a: Arbok|atk|1
+|-boost|p1a: Arbok|def|1
+|-boost|p1a: Arbok|accuracy|1
+|move|p2a: Tangela|Sleep Powder|p1a: Arbok
+|-status|p1a: Arbok|slp
+|
+|-heal|p1a: Arbok|82/100 slp|[from] item: Black Sludge
+|upkeep
+|turn|6
+|choice|move coil|switch 5
+|
+|switch|p2a: Stoutland|Stoutland, M|100/100
+|cant|p1a: Arbok|slp
+|
+|-heal|p1a: Arbok|88/100 slp|[from] item: Black Sludge
+|upkeep
+|turn|7
+|choice|move coil|move facade
+|
+|move|p2a: Stoutland|Facade|p1a: Arbok
+|-damage|p1a: Arbok|37/100 slp
+|-curestatus|p1a: Arbok|slp|[msg]
+|move|p1a: Arbok|Coil|p1a: Arbok
+|-boost|p1a: Arbok|atk|1
+|-boost|p1a: Arbok|def|1
+|-boost|p1a: Arbok|accuracy|1
+|
+|-heal|p1a: Arbok|43/100|[from] item: Black Sludge
+|upkeep
+|turn|8
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by bellona trg)
+|choice|move rest|switch 3
+|
+|switch|p2a: Duosion|Duosion, M|100/100
+|move|p1a: Arbok|Rest|p1a: Arbok
+|-status|p1a: Arbok|slp
+|-heal|p1a: Arbok|100/100 slp|[silent]
+|-status|p1a: Arbok|slp|[from] move: Rest
+|
+|upkeep
+|turn|9
+|choice|move gunkshot|move calmmind
+|
+|cant|p1a: Arbok|slp
+|move|p2a: Duosion|Calm Mind|p2a: Duosion
+|-boost|p2a: Duosion|spa|1
+|-boost|p2a: Duosion|spd|1
+|
+|upkeep
+|turn|10
+|choice|move gunkshot|move calmmind
+|
+|cant|p1a: Arbok|slp
+|move|p2a: Duosion|Calm Mind|p2a: Duosion
+|-boost|p2a: Duosion|spa|1
+|-boost|p2a: Duosion|spd|1
+|
+|upkeep
+|turn|11
+|choice|move gunkshot|move psychic
+|
+|-curestatus|p1a: Arbok|slp|[msg]
+|move|p1a: Arbok|Gunk Shot|p2a: Duosion
+|-damage|p2a: Duosion|44/100
+|move|p2a: Duosion|Psychic|p1a: Arbok
+|-supereffective|p1a: Arbok
+|-damage|p1a: Arbok|0 fnt
+|faint|p1a: Arbok
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Sawsbuck|Sawsbuck, M|88/100 tox
+|-damage|p1a: Sawsbuck|76/100 tox|[from] Stealth Rock
+|turn|12
+|choice|move megahorn|move psychic
+|
+|move|p1a: Sawsbuck|Megahorn|p2a: Duosion
+|-supereffective|p2a: Duosion
+|-damage|p2a: Duosion|0 fnt
+|faint|p2a: Duosion
+|
+|-damage|p1a: Sawsbuck|70/100 tox|[from] psn
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Tangela|Tangela, M|100/100
+|turn|13
+|choice|move megahorn|move hiddenpower
+|
+|move|p1a: Sawsbuck|Megahorn|p2a: Tangela
+|-supereffective|p2a: Tangela
+|-damage|p2a: Tangela|59/100
+|move|p2a: Tangela|Hidden Power|p1a: Sawsbuck
+|-supereffective|p1a: Sawsbuck
+|-crit|p1a: Sawsbuck
+|-damage|p1a: Sawsbuck|0 fnt
+|faint|p1a: Sawsbuck
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Articuno|Articuno|100/100
+|-damage|p1a: Articuno|50/100|[from] Stealth Rock
+|-ability|p1a: Articuno|Pressure
+|turn|14
+|choice|move hurricane|move hiddenpower
+|
+|move|p1a: Articuno|Hurricane|p2a: Tangela
+|-supereffective|p2a: Tangela
+|-damage|p2a: Tangela|0 fnt
+|-damage|p1a: Articuno|40/100|[from] item: Life Orb
+|faint|p2a: Tangela
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Ampharos|Ampharos, M|100/100
+|turn|15
+|choice|move roost|move thunderbolt
+|
+|move|p1a: Articuno|Roost|p1a: Articuno
+|-heal|p1a: Articuno|90/100
+|move|p2a: Ampharos|Thunderbolt|p1a: Articuno
+|-crit|p1a: Articuno
+|-damage|p1a: Articuno|17/100
+|-damage|p2a: Ampharos|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|16
+|choice|move hurricane|move agility
+|
+|move|p1a: Articuno|Hurricane|p2a: Ampharos|[miss]
+|-miss|p1a: Articuno|p2a: Ampharos
+|move|p2a: Ampharos|Agility|p2a: Ampharos
+|-boost|p2a: Ampharos|spe|2
+|
+|upkeep
+|turn|17
+|choice|move hurricane|move thunderbolt
+|
+|move|p2a: Ampharos|Thunderbolt|p1a: Articuno
+|-supereffective|p1a: Articuno
+|-damage|p1a: Articuno|0 fnt
+|-damage|p2a: Ampharos|81/100|[from] item: Life Orb
+|faint|p1a: Articuno
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Gabite|Gabite, M|100/100
+|-damage|p1a: Gabite|94/100|[from] Stealth Rock
+|turn|18
+|choice|move roar|move hiddenpower
+|
+|move|p2a: Ampharos|Hidden Power|p1a: Gabite
+|-supereffective|p1a: Gabite
+|-damage|p1a: Gabite|0 fnt
+|-damage|p2a: Ampharos|71/100|[from] item: Life Orb
+|faint|p1a: Gabite
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Ninjask|Ninjask, M|100/100
+|-damage|p1a: Ninjask|51/100|[from] Stealth Rock
+|turn|19
+|choice|move uturn|move thunderbolt
+|
+|move|p2a: Ampharos|Thunderbolt|p1a: Ninjask
+|-supereffective|p1a: Ninjask
+|-damage|p1a: Ninjask|0 fnt
+|-damage|p2a: Ampharos|61/100|[from] item: Life Orb
+|faint|p1a: Ninjask
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Rapidash|Rapidash, M|100/100
+|-damage|p1a: Rapidash|76/100|[from] Stealth Rock
+|turn|20
+|c|☆bellona trg|gg
+|choice|move flareblitz|move thunderbolt
+|
+|move|p2a: Ampharos|Thunderbolt|p1a: Rapidash
+|-damage|p1a: Rapidash|0 fnt
+|-damage|p2a: Ampharos|51/100|[from] item: Life Orb
+|faint|p1a: Rapidash
+|
+|win|bellona trg
+|l|Kokojoe1
+|raw|Kokojoe1's rating: 1117 &rarr; <strong>1092</strong><br />(-25 for losing)
+|raw|bellona trg's rating: 1117 &rarr; <strong>1142</strong><br />(+25 for winning)

@@ -7,7 +7,7 @@ import os
 import random
 
 from pprint import pprint
-from const import *
+from datautils.const import *
 
 BATTLEFILE = 'battlefactory-566172293.txt'
 DATAFOLDER = 'data/replays/'
@@ -17,7 +17,7 @@ FACTORYSETS = 'data/factory-sets.json'
 
 def encode(network_config, replay_file):
 	encoding = PokemonShowdownEncoding.load(replay_file)
-	return [encoding.pokemon + [encoding.other_data, encoding.labels]]
+	return [encoding.pokemon + [encoding.other_data, encoding.last_move_data, encoding.labels]]
 
 
 def getActionIDFromString(actionString, pokemon=None):
@@ -159,7 +159,7 @@ class PokemonShowdownEncoding(object):
 				index += 1
 				nextTurnNumber = turnNumbers[index+1]
 
-		print self.last_move_data
+		print(self.last_move_data)
 
 	def encodeOpponentPokemon(self, opponentPokemonEncoding):
 		for turnNumber, lst in opponentPokemonEncoding.iteritems():
@@ -235,7 +235,7 @@ class PokemonShowdownReplayParser(object):
 		obj.encodeLabels(self.turnList, self.winner)
 		obj.encodeOpponentsLastMove(self.opponentTurnList)
 		for item in self.opponentPokemonEncoding.iteritems():
-			print item
+			print(item)
 		obj.encodeOpponentPokemon(self.opponentPokemonEncoding)
 		# obj.encodeWinnerPokemon(self.players[self.winner].pokemon)
 
