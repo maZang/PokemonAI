@@ -308,6 +308,8 @@ class PokemonShowdownReplayParser(object):
 			speciesKey = "groudon"
 		if speciesKey == "kyogreprimal":
 			speciesKey = "kyogre"
+		if speciesKey == "gourgeist":
+			speciesKey = "gourgeistsuper"
 
 		pokeSets = []
 		if speciesKey in data["Uber"]:
@@ -343,6 +345,7 @@ class PokemonShowdownReplayParser(object):
 
 			setMoves = pokeSet["moves"]
 			setAbility = pokeSet["ability"]
+			setItem = None
 			# In some cases, the pokemon set does not have an item.
 			if "item" in pokeSet:
 				setItem = pokeSet["item"]
