@@ -32,7 +32,7 @@ def encodePokemonObject(pokemon):
 
 	if pokemon.species == "Gourgeist":
 		pokemon.species = "Gourgeist-Super"
-		
+
 	pokemon_id = POKEMON_LIST[pokemon.species or '<UNK>']
 
 	move_ids = []

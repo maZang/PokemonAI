@@ -58,12 +58,6 @@ class PokemonShowdownReplayParser(object):
 		self.players[self.winner].resetStatuses()
 		self.players[self.winner].resetMega()
 
-		for pokemon in self.players[self.winner].pokemon:
-			print(pokemon)
-			print(pokemon.moves)
-		for pokemon in self.players[self.opponent].pokemon:
-			print(pokemon)
-			print(pokemon.moves)
 		self.parse()
 
 		self.generateEncodingObject()
@@ -94,6 +88,7 @@ class PokemonShowdownReplayParser(object):
 		obj.encodeLabels(self.turnList, self.winner)
 		obj.encodeOpponentsLastMove(self.opponentTurnList)
 		obj.encodePokemon(self.pokemonEncoding)
+
 		# for turnNumber, lst in self.pokemonEncoding.items():
 			# print lst[0]
 
@@ -263,7 +258,7 @@ class PokemonShowdownReplayParser(object):
 		self.players[player].currentPokemon = pokemon
 
 		# Encode winner and opponent player states as well as turn information.
-		if self.simulate and player == self.winner:
+		if self.simulate:
 			# Skip the initial start
 			# if "|start" not in [lines[i-1], lines[i-2]]:
 			self.createTurn(player, "switch", pokemon)
@@ -357,7 +352,7 @@ class PokemonShowdownReplayParser(object):
 		assert(len(pokemon.moves) <= 4)
 
 		# Encode winner and opponent player states as well as turn information.
-		if self.simulate and player == self.winner:
+		if self.simulate:
 			self.createTurn(player, move, pokemon)
 
 	def processAbility(self, line):
@@ -380,7 +375,7 @@ class PokemonShowdownReplayParser(object):
 		pokemon.item = megastone
 
 		# Encode winner and opponent player states as well as turn information.
-		if self.simulate and player == self.winner:
+		if self.simulate:
 			self.createTurn(player, "mega", pokemon)
 
 	def processDetailsChange(self, line):
@@ -623,13 +618,12 @@ class PokemonShowdownReplayParser(object):
 			i += 1
 
 def main():
-	'''
 	with open(DATAFOLDER + BATTLEFILE) as file:
 	 	data = file.read()
 	 	parser = PokemonShowdownReplayParser(data)
 	 	parser.run()
-	'''
 
+	'''
 	counter = 0
 	for filename in os.listdir(DATAFOLDER):
 		print("Counter: " + str(counter))
@@ -642,6 +636,7 @@ def main():
 			# print(output)
 			print("================================================")
 		counter += 1
+	'''
 
 if __name__ == "__main__":
 	main()
