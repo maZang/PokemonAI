@@ -1,6 +1,6 @@
 import numpy as np
 
-from datautils.const import *
+from const import *
 PARSED_FOLDER = 'data/parsed_replays/'
 
 def encode(network_config, replay_file):

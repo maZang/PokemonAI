@@ -5,11 +5,11 @@ import pickle
 import os
 import random
 
-from datautils.const import *
-from datautils.encoding import *
-from datautils.player import *
-from datautils.pokemon import *
-from datautils.turn import *
+from const import *
+from encoding import *
+from player import *
+from pokemon import *
+from turn import *
 
 BATTLEFILE = 'battlefactory-566258957.txt'
 DATAFOLDER = 'data/replays/'
@@ -654,6 +654,9 @@ def main():
 			print(filename)
 			file = os.path.join(DATAFOLDER, filename)
 			data = open(file).read()
+			if not data:
+				print("{} was empty".format(filename))
+				continue
 			parser = PokemonShowdownReplayParser(name=filename.split(".")[0], log=data)
 			parser.run()
 			# print(output)
