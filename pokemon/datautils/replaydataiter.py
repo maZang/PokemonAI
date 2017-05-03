@@ -13,13 +13,13 @@ class ReplayDataIter(object):
 		[Rain, Sun, Sandstorm, etc...]
 		'''
 		self.samples = []
-		files = [[f for f in os.listdir(sample_folder) if os.path.isfile(os.path.join(sample_folder, f))]
+		files = [[os.path.join(sample_folder,f) 
+					for f in os.listdir(sample_folder) if os.path.isfile(os.path.join(sample_folder, f))]
 					for sample_folder in [train_folder, val_folder, test_folder]]
-		def load_data(all_files, samples):
-			for file in all_files:
-				samples.add(sample_encoder(file))
 		sets = [[],[],[]]
-		map(zip(files,sets), lambda x: load_data(x[0], x[1]))
+		for all_files,set in zip(files,sets):
+			for file in all_files:
+				set.append(sample_encoder(file))
 		self.training = sets[0]
 		self.validation = sets[1]
 		self.testing = sets[2]
@@ -34,11 +34,13 @@ class ReplayDataIter(object):
 			data = self.validation
 		else:
 			data = self.testing
+		return data
 
 	def get_idxs(self, num_steps, type):
 		data = self.get_data(type)
-		return np.random.permutation([(i,j) for i in range(self.training) 
-					for j in range(self.training[i][-1].shape[0] - num_steps + 1)])
+		print(data)
+		return np.random.permutation([(i,j) for i in range(len(data)) 
+					for j in range(data[i][-1].shape[0] - num_steps + 1)])
 
 	def sample(self, batch_size, num_steps, type='train'):
 		'''

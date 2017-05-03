@@ -7,10 +7,12 @@ def runSupervised():
 	supnet.trainNetwork()
 
 def main():
-	replay.spiderman()
+	#replay.spiderman()
 	#runPokemonShowdown()
 	#runAgainstItself()
 	#replay.crawl()
+	runSupervised()
+	#runParser()
 
 def runParser():
 	parser.main()

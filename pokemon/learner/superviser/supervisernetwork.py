@@ -3,11 +3,12 @@ from datautils.parser import encode
 import tensorflow as tf
 import datautils.const as const
 import os, pickle
+import time
 
 DATA_FOLDER = 'data/parsed_replays/'
-TRAIN = DATA_FOLDER + 'train'
-VALIDATION = DATA_FOLDER + 'val'
-TEST = DATA_FOLDER + 'test'
+TRAIN = DATA_FOLDER + 'TRAINING'
+VALIDATION = DATA_FOLDER + 'VALIDATION'
+TEST = DATA_FOLDER + 'TESTING'
 
 class PokemonNetworkConfig(object):
 
@@ -22,7 +23,7 @@ class PokemonNetworkConfig(object):
 	dropout = 0.9
 	batch_size = 64
 	memory_layer_size = 300
-	memory_layer_depth = 3
+	memory_layer_depth = 2
 	number_pokemon = const.NUMBER_POKEMON
 	number_moves = const.NUMBER_MOVES
 	number_items = const.NUMBER_ITEMS
@@ -40,8 +41,8 @@ class PokemonNetwork(object):
 	def _add_placeholder(self):
 		self.poke_placeholders = [tf.placeholder(tf.int32, shape=(None, self.config.poke_descriptor_size)) for _ in range(12)]
 		self.x_data_placeholder = tf.placeholder(tf.float32, shape=(None, self.config.number_non_embedding))
-		self.last_move_placeholder = tf.placeholder(tf.float32, shape=(None, self.config.last_move_data))
-		self.y_placeholder = tf.placeholder(tf.float32, shape=(None, number_classes))
+		self.last_move_placeholder = tf.placeholder(tf.int32, shape=(None, self.config.last_move_data))
+		self.y_placeholder = tf.placeholder(tf.int32, shape=(None, self.config.number_classes))
 		self.dropout_placeholder = tf.placeholder(tf.float32)
 
 	def _add_embedding(self):
@@ -75,19 +76,20 @@ class PokemonNetwork(object):
 			# Conv net layer that uses kernels of different widths to get average representations
 			self.embedding_inputs = [tf.expand_dims(embedding_input,-1) for embedding_input in self.embedding_inputs]
 			layers = [[] for _ in self.embedding_inputs]
-			for idx,kernel_height in enumerate(kernels_poke):
-				conv_filter = tf.get_variable('poke_kernel_height:' + str(kernel_height), 
+			for idx,kernel_height in enumerate(self.config.kernels_poke):
+				conv_filter = tf.get_variable('PokeKernelHeight' + str(kernel_height), 
 									shape=(kernel_height,self.config.embedding_size,1,self.config.feature_maps_poke[idx]))
-				conv_layers = [tf.nn.conv2d(embedding_input,conv_filter,strides=[1,1,1,1],padding='VALID')]
+				conv_layers = [tf.nn.conv2d(embedding_input,conv_filter,strides=[1,1,1,1],padding='VALID')
+								for embedding_input in self.embedding_inputs]
 				new_height = self.config.poke_descriptor_size - kernel_height + 1
 				pools = [tf.nn.max_pool(tf.tanh(conv), [1,new_height,1,1], [1,1,1,1], 'VALID') for conv in conv_layers]
-				layers = [layer.append(tf.squeeze(pool)) for layer,pool in zip(layers,pools)]
+				[layer.append(tf.squeeze(pool)) for layer,pool in zip(layers,pools)]
 			conv_outputs = [tf.concat(layer,1) for layer in layers] # each output is of size [None,sum(feature_maps)]
 		with tf.variable_scope('OwnTeamConvNet'):
 			own_player_conv = tf.concat(conv_outputs[:6], 0)
 			layers = []
-			for idx,kernel_height in enumerate(kernels_team):
-				conv_filter = tf.get_variable('own_team_kernel_height:' + str(kernel_height),
+			for idx,kernel_height in enumerate(self.config.kernels_team):
+				conv_filter = tf.get_variable('OwnTeamKernelHeight' + str(kernel_height),
 									shape=(kernel_height,self.config.embedding_size,1,self.config.feature_maps_team[idx]))
 				conv_layer = tf.nn.conv2d(own_player_conv,conv_filter,strides=[1,1,1,1],padding='VALID')
 				new_height = 6 - kernel_height + 1
@@ -97,8 +99,8 @@ class PokemonNetwork(object):
 		with tf.variable_scope('OppTeamConvNet'):
 			opp_player_conv = tf.concat(conv_outputs[6:], 0)
 			layers = []
-			for idx,kernel_height in enumerate(kernels_team):
-				conv_filter = tf.get_variable('opp_team_kernel_height:' + str(kernel_height),
+			for idx,kernel_height in enumerate(self.config.kernels_team):
+				conv_filter = tf.get_variable('OppTeamKernelHeight' + str(kernel_height),
 									shape=(kernel_height,self.config.embedding_size,1,self.config.feature_maps_team[idx]))
 				conv_layer = tf.nn.conv2d(own_player_conv,conv_filter,strides=[1,1,1,1],padding='VALID')
 				new_height = 6 - kernel_height + 1
@@ -109,25 +111,25 @@ class PokemonNetwork(object):
 			concat_data = tf.reshape(self.x_data_placeholder,(-1,self.config.number_non_embedding))
 			last_move_concat = tf.reshape(self.last_move_embeddings, (-1, self.config.last_move_data*self.config.embedding_size))
 			output = tf.concat([own_team_output,opp_team_output,concat_data,last_move_concat], 1)
-			highway_size = 2 * sum(feature_maps_team) + self.config.number_non_embedding +\
+			highway_size = 2 * sum(self.config.feature_maps_team) + self.config.number_non_embedding +\
 							 self.config.last_move_data*self.config.embedding_size
-			w_t = tf.get_variable('weight_transform', shape=(size,size))
-			b_t = tf.get_variable('bias_transform', shape=(size,))
+			w_t = tf.get_variable('weight_transform', shape=(highway_size,highway_size))
+			b_t = tf.get_variable('bias_transform', shape=(highway_size,))
 			transform = tf.sigmoid(tf.matmul(output, w_t) + b_t)
-			w = tf.get_variable('weight', shape=(size,size))
-			b = tf.get_variable('bias', shape=(size,))
+			w = tf.get_variable('weight', shape=(highway_size,highway_size))
+			b = tf.get_variable('bias', shape=(highway_size,))
 			a = tf.nn.relu(tf.matmul(output, w) + b)
 			carry = 1.0 - transform
 			highway_output = transform * a + carry * output 
 		with tf.variable_scope('MemoryLayer'): # uses an LSTM to remember previous moves
-			cell = tf.nn.rnn_cell.BasicLSTMCell(self.config.memory_layer_size)
-			dropout_cell = tf.nn.rnn_cell.DropoutWrapper(cell, input_keep_prof=self.dropout_placeholder,
+			cell = tf.contrib.rnn.BasicLSTMCell(self.config.memory_layer_size)
+			dropout_cell = tf.contrib.rnn.DropoutWrapper(cell, input_keep_prob=self.dropout_placeholder,
 				output_keep_prob=self.dropout_placeholder)
-			stacked_cell = tf.nn.rnn_cell.MultiRnnCell([dropout_cell] * self.config.memory_layer_depth)
+			stacked_cell = tf.contrib.rnn.MultiRNNCell([dropout_cell] * self.config.memory_layer_depth)
 			lstm_input = tf.reshape(highway_output, (self.config.batch_size, self.config.num_steps, highway_size))
 			self.initial_state = stacked_cell.zero_state(self.config.batch_size, tf.float32)
-			rnn_output, self.final_rnn_state = tf.nn.dynamic_rnn(stacked_cell,lstm_input,initial_state=initial_state)
-			rnn_output = tf.reshape(rnn_output,shape=(-1,slf.config.memory_layer_size))
+			rnn_output, self.final_rnn_state = tf.nn.dynamic_rnn(stacked_cell,lstm_input,initial_state=self.initial_state)
+			rnn_output = tf.reshape(rnn_output,shape=(-1,self.config.memory_layer_size))
 		with tf.variable_scope('OutputScores'):
 			score_w = tf.get_variable('score_w', shape=(self.config.memory_layer_size, self.config.number_classes))
 			score_b = tf.get_variable('score_b', shape=(self.config.number_classes,))
@@ -137,12 +139,12 @@ class PokemonNetwork(object):
 		self.predictions = tf.argmax(self.scores,1)
 		targets = tf.reshape(self.y_placeholder, [-1])
 		with tf.variable_scope('loss'):
-			self.loss = tf.reduce_sum(tf.nn.sparse_softmax_cross_entropy_with_logits(self.scores,targets))
+			self.loss = tf.reduce_sum(tf.nn.sparse_softmax_cross_entropy_with_logits(logits=self.scores,labels=targets))
 
 	def _add_optimizer(self): 
 		with tf.variable_scope('opt'):
 			optimizer = tf.train.AdamOptimizer(self.config.learning_rate)
-			self.train_op = opt.minimize(self.loss)
+			self.train_op = optimizer.minimize(self.loss)
 
 	def _build_graph(self):
 		self._add_placeholder()
@@ -158,7 +160,7 @@ class PokemonNetwork(object):
 
 	def run_epoch(self, epoch_num, session, sample_set, train_op = None, to_print=False):
 		dp = self.config.dropout
-		total_batches = self.data_iter.number_batches(self.config.batch_size)
+		total_batches = self.data_iter.number_batches(self.config.batch_size, self.config.num_steps)
 		total_loss = []
 		if not train_op:
 			train_op = tf.no_op()
@@ -193,7 +195,7 @@ def trainNetwork():
 	with tf.variable_scope('PokemonNetwork'):
 		model = PokemonNetwork(config)
 	total_losses = []
-	init = tf.initialize_all_variables()
+	init = tf.global_variables_initializer()
 	saver = tf.train.Saver()
 	best_validation_loss = float('inf')
 	best_validation_epoch = 0
@@ -202,6 +204,7 @@ def trainNetwork():
 		start = time.time()
 		sess.run(init)
 		for epoch_num in range(config.max_epochs):
+			print('Running epoch number ' + str(epoch_num))
 			epoch_losses = model.run_epoch(epoch_num, sess, 'train', model.train_op, True)
 			total_losses.extend(epoch_losses)
 

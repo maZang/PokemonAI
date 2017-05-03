@@ -5,11 +5,11 @@ import pickle
 import os
 import random
 
-from const import *
-from encoding import *
-from player import *
-from pokemon import *
-from turn import *
+from datautils.const import *
+from datautils.encoding import *
+from datautils.player import *
+from datautils.pokemon import *
+from datautils.turn import *
 
 BATTLEFILE = 'battlefactory-566258957.txt'
 DATAFOLDER = 'data/replays/'
