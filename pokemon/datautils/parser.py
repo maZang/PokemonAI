@@ -1,165 +1,20 @@
 # -*- coding: utf-8 -*-
 import re
 import json
-import numpy as np
 import pickle
 import os
 import random
 
-from pprint import pprint
 from const import *
+from encoding import *
+from player import *
+from pokemon import *
+from turn import *
 
 BATTLEFILE = 'battlefactory-566258957.txt'
 DATAFOLDER = 'data/replays/'
 PARSED_FOLDER = 'data/parsed_replays/'
 FACTORYSETS = 'data/factory-sets.json'
-
-
-def encode(network_config, replay_file):
-	encoding = PokemonShowdownEncoding.load(replay_file)
-	return [encoding.pokemon + [encoding.other_data, encoding.last_move_data, encoding.labels]]
-
-
-def getActionIDFromString(actionString, pokemon=None):
-	# actionID is either a Pokemon actionID if that pokemon switched in
-	# Move actionID if they used that move, or -1 if mega evolve
-	if actionString in ['switch', 'mega']:
-		actionID = POKEMON_LIST[pokemon]
-	else:
-		# ??????????
-		if actionString == 'Hidden Power':
-			actionID = MOVE_LIST['<UNK>']
-		else:
-			actionID = MOVE_LIST[actionString]
-
-	return actionID
-
-def encodePokemonObject(pokemon):
-	'''
-	Encodes a pokemon object. Fills in any unknown moves/items with an unknown token.
-
-	Input: Pokemon object
-	Output: Pokemon encoding object with shape (1, POKE_DESCRIPTOR_SIZE)
-	'''
-	pokemon_encoding = np.zeros((1, POKE_DESCRIPTOR_SIZE))
-
-	pokemon_id = POKEMON_LIST[pokemon.species or '<UNK>']
-
-	move_ids = []
-
-	# Encodes pokemon item
-	item_id = ITEM_LIST[pokemon.item if pokemon.item in ITEM_LIST else '<UNK>']
-
-	for move in pokemon.moves:
-		move_ids.append(MOVE_LIST[move if move in MOVE_LIST else '<UNK>'])
-
-	if len(move_ids) < 4:
-		num_unk_moves = 4 - len(move_ids)
-		for i in range(num_unk_moves):
-			move_ids.append(MOVE_LIST['<UNK>'])
-
-	assert(len(move_ids) == 4)
-
-	if pokemon.status == "psn":
-		status_key = "POISONED"
-	elif pokemon.status == "tox":
-		status_key = "BADLY_POISONED"
-	elif pokemon.status == "brn":
-		status_key = "BURNED"
-	elif pokemon.status == "par":
-		status_key = "PARALYZED"
-	elif pokemon.status == "slp":
-		status_key = "SLEEP"
-	elif pokemon.status == "frz":
-		status_key = "FROZEN"
-	else:
-		status_key = "NONE"
-
-	status_id = STATUS_IDS[status_key]
-
-	pokemon_encoding[:, 0] = pokemon_id
-	for i in range(len(move_ids)):
-		pokemon_encoding[:, i+1] = move_ids[i]
-	pokemon_encoding[:, 5] = item_id
-	pokemon_encoding[:, 6] = status_id
-
-	return pokemon_encoding
-
-
-class PokemonShowdownEncoding(object):
-	def __init__(self, name=None, data_type=None, num_turns=None):
-		'''
-		data_type is either test,train,or val
-		'''
-		self.name = name
-		self.data_type = data_type
-		self.num_turns = num_turns
-		self.pokemon = [np.zeros((self.num_turns, POKE_DESCRIPTOR_SIZE)) for _ in range(12)]
-		self.other_data = np.zeros((self.num_turns, NON_EMBEDDING_DATA))
-		self.labels = np.zeros((self.num_turns, NUMBER_CLASSES))
-
-		# Matrix where row = turn number, column 0 = winner's last move,
-		# column 1 = opponent's last move
-		self.last_move_data = np.zeros((self.num_turns, 2))
-
-	@classmethod
-	def load(self, filename):
-		with open(filename, 'rb') as f:
-			pickle.load(f)
-
-	def save(self):
-		with open(PARSED_FOLDER + self.type + '/' + self.name + '.p', 'wb') as f:
-			pickle.dump(self, f)
-
-	def encodeLabels(self, turnList, winner):
-		for turnNumber, lst in turnList.iteritems():
-			if len(lst) > 2:
-				raise Exception("List {} has more than 2 actions".format(lst))
-
-			for turn in lst:
-				if turn.player != winner:
-					raise Exception("This should literally never raise.")
-
-				actionID = getActionIDFromString(turn.action, pokemon=turn.pokemon.species)
-				col = 0 if turn.player == winner else 1
-				self.last_move_data[turnNumber][col] = actionID
-
-				self.labels[turnNumber][actionID] = 1
-
-		# if any(sum(row) != 1 for row in self.labels):
-		for i, row in enumerate(self.labels):
-			if sum(row) != 1:
-				print(i)
-				print(row)
-				raise Exception("Labels {} had a non-one row".format(self.labels))
-
-	# This code is so jank I never want to look at it again
-	def encodeOpponentsLastMove(self, opponentTurnList):
-		if len(opponentTurnList) <= 1:
-			return
-
-		index = 0
-		turnNumbers = opponentTurnList.keys()
-		nextTurnNumber = turnNumbers[index+1]
-		for turnNumber, lst in opponentTurnList.iteritems():
-			# Only care about the last move in sequence of multiple moves
-			actionID = getActionIDFromString(lst[-1].action, pokemon=lst[-1].pokemon.species)
-			for x in range(turnNumber, nextTurnNumber):
-				self.last_move_data[x][1] = actionID
-
-			if index + 1 == len(opponentTurnList) - 1:
-				nextTurnNumber = self.num_turns
-			else:
-				index += 1
-				nextTurnNumber = turnNumbers[index+1]
-
-		print(self.last_move_data)
-
-	def encodePokemon(self, pokemonEncoding):
-		for turnNumber, lst in pokemonEncoding.iteritems():
-			for i in range(0, 12):
-				self.pokemon[i][turnNumber] = lst[i]
-
 
 class PokemonShowdownReplayParser(object):
 	def __init__(self, log=""):
@@ -199,10 +54,17 @@ class PokemonShowdownReplayParser(object):
 
 		# Simulate through the battle and generate pokemon and state encodings for each turn.
 		self.simulate = True
-		self.players[self.opponent].reset()
-		self.parse()
+		self.players[self.opponent].resetPokemon()
+		self.players[self.winner].resetStatuses()
+		self.players[self.winner].resetMega()
 
-		print(self.winner)
+		for pokemon in self.players[self.winner].pokemon:
+			print(pokemon)
+			print(pokemon.moves)
+		for pokemon in self.players[self.opponent].pokemon:
+			print(pokemon)
+			print(pokemon.moves)
+		self.parse()
 
 		self.generateEncodingObject()
 
@@ -243,22 +105,6 @@ class PokemonShowdownReplayParser(object):
 		'''
 		self.lines = self.log.split('\n')
 
-		'''
-		# First parse the players
-		for line in self.lines:
-			if line.startswith("|player|"):
-				self.processPlayer(line)
-				if "|p2|" in line:
-					break
-
-		# Then parse the winner
-		for line in reversed(self.lines):
-			if line.startswith("|win|"):
-				self.processWinner(line)
-				break
-		'''
-
-		# Finally parse the rest of the lines
 		for line in self.lines:
 			if line.startswith("|player|"):
 				self.processPlayer(line)
@@ -335,6 +181,273 @@ class PokemonShowdownReplayParser(object):
 					or line.startswith("|-unboost|")
 					or line == "|"):
 					pass
+
+	def processPlayer(self, line):
+		fields = line.split("|")
+
+		if not self.simulate and len(fields) >= 4:
+			self.players[fields[2]].username = fields[3]
+
+	def processPoke(self, line):
+		fields = line.split("|")
+		player = fields[2]
+		species = fields[3].replace("/,.*$/", "").split(',')[0]
+
+		if "Arceus" in species:
+			species = "Arceus"
+		elif "Gourgeist" in species:
+			species = "Gourgeist"
+		elif "Genesect" in species:
+			species = "Genesect"
+
+		if not self.simulate:
+			pokemon = Pokemon()
+			pokemon.species = species
+			self.players[player].pokemon.append(pokemon)
+
+	def processWinner(self, line):
+		fields = line.split("|")
+
+		assert(len(fields) >= 2)
+
+		# Assigns username of winner
+		winnerUsername = fields[2]
+
+		if self.players["p1"].username == winnerUsername:
+			self.winner = "p1"
+			self.opponent = "p2"
+		else:
+			self.winner = "p2"
+			self.opponent = "p1"
+
+	def prefixHandler(self, pokePrefix, species, player):
+		'''
+		Handles prefix edge cases. When pokemon are listed at the top of a battle log,
+		their name is "Arceus-*". When they are switched in, they are listed as "Arceus-Ghost".
+		This function sets the pokemon species to the specific species.
+
+		Inputs:
+		pokePrefix - Pokemon prefix.
+		species - Pokemon species.
+		player - Player string ("p1" or "p2")
+		'''
+		pokemon = self.players[player].getPokemonBySpecies(pokePrefix)
+
+		if pokemon != None:
+			pokemon.species = species
+
+	def processSwitch(self, line):
+		matches = re.search("\|switch\|(p[12])a:\s+([^|]+)\|([^|]+)", line).groups()
+		player = matches[0]
+		nickname = matches[1]
+		species = matches[2].split(',')[0]
+
+		# Special prefix edge case.
+		if "Arceus" in species:
+			self.prefixHandler("Arceus", species, player)
+		elif "Gourgeist" in species:
+			self.prefixHandler("Gourgeist", species, player)
+		elif "Genesect" in species:
+			self.prefixHandler("Genesect", species, player)
+
+		pokemon = self.players[player].getPokemonBySpecies(species)
+
+		if pokemon == None:
+			pokemon = Pokemon()
+			pokemon.nickname = nickname
+			pokemon.species = species
+			self.players[player].pokemon.append(pokemon)
+			assert(len(self.players[player].pokemon) <= 6)
+		elif pokemon.nickname == "":
+			pokemon.nickname = nickname
+		self.players[player].currentPokemon = pokemon
+
+		# Encode winner and opponent player states as well as turn information.
+		if self.simulate and player == self.winner:
+			# Skip the initial start
+			# if "|start" not in [lines[i-1], lines[i-2]]:
+			self.createTurn(player, "switch", pokemon)
+
+	def processDrag(self, line):
+		matches = re.search("\|drag\|(p[12])a:\s+([^|]+)\|([^|]+)", line).groups()
+		player = matches[0]
+		nickname = matches[1]
+		species = matches[2].split(',')[0]
+
+		# Special prefix edge case.
+		if "Arceus" in species:
+			self.prefixHandler("Arceus", species, player)
+		elif "Gourgeist" in species:
+			self.prefixHandler("Gourgeist", species, player)
+		elif "Genesect" in species:
+			self.prefixHandler("Genesect", species, player)
+
+		pokemon = self.players[player].getPokemonBySpecies(species)
+
+		# When pokemon has not mega-evolved yet, but the pokemon in the players inventory is -Mega.
+		'''
+		if self.simulate and player == self.winner:
+			if not pokemon:
+				pokemon = self.players[player].getPokemonByNickname(nickname)
+				pokemon.species = species
+		'''
+
+		if pokemon == None:
+			pokemon = Pokemon()
+			pokemon.nickname = nickname
+			pokemon.species = species
+			self.players[player].pokemon.append(pokemon)
+			assert(len(self.players[player].pokemon) <= 6)
+		elif pokemon.nickname == "":
+			pokemon.nickname = nickname
+		self.players[player].currentPokemon = pokemon
+
+	def processReplace(self, line):
+		matches = re.search("\|replace\|(p[12])a:\s+([^|]+)\|([^|]+)", line).groups()
+		player = matches[0]
+		nickname = matches[1]
+		species = matches[2].split(',')[0]
+
+		# Special prefix edge case.
+		if "Arceus" in species:
+			self.prefixHandler("Arceus", species, player)
+		elif "Gourgeist" in species:
+			self.prefixHandler("Gourgeist", species, player)
+		elif "Genesect" in species:
+			self.prefixHandler("Genesect", species, player)
+
+		pokemon = self.players[player].getPokemonBySpecies(species)
+
+		# When pokemon has not mega-evolved yet, but the pokemon in the players inventory is -Mega.
+		'''
+		if self.simulate and player == self.winner:
+			if not pokemon:
+				pokemon = self.players[player].getPokemonByNickname(nickname)
+				pokemon.species = species
+		'''
+
+		if pokemon == None:
+			pokemon = Pokemon()
+			pokemon.nickname = nickname
+			pokemon.species = species
+			self.players[player].pokemon.append(pokemon)
+			assert(len(self.players[player].pokemon) <= 6)
+		elif pokemon.nickname == "":
+			pokemon.nickname = nickname
+		self.players[player].currentPokemon = pokemon
+
+	def processMove(self, line):
+		matches = re.search("\|move\|(p[12])a:\s+([^|]+)\|([^|]+)", line).groups()
+		player = matches[0]
+		nickname = matches[1]
+		move = matches[2]
+
+		pokemon = self.players[player].getPokemonByNickname(nickname)
+
+		if self.simulate:
+			if player == self.opponent:
+				# This is so that moves from Magic Bounce don't get added to moveset.
+				if "[from]" not in line and "Struggle" not in line:
+					pokemon.moves.add(move)
+		else:
+			# This is so that moves from Magic Bounce don't get added to moveset.
+			if "[from]" not in line and "Struggle" not in line:
+				pokemon.moves.add(move)
+
+		assert(len(pokemon.moves) <= 4)
+
+		# Encode winner and opponent player states as well as turn information.
+		if self.simulate and player == self.winner:
+			self.createTurn(player, move, pokemon)
+
+	def processAbility(self, line):
+		matches = re.search("\|-ability\|(p[12])a:\s+([^|]+)\|([^|]+)", line).groups()
+		player = matches[0]
+		nickname = matches[1]
+		ability = matches[2]
+
+		pokemon = self.players[player].getPokemonByNickname(nickname)
+		pokemon.ability = ability
+
+	def processMega(self, line):
+		matches = re.search("\|-mega\|(p[12])a:\s+([^|]+)\|([^|]+)\|(.+)", line).groups()
+		player = matches[0]
+		nickname = matches[1]
+		# species = matches[2]
+		megastone = matches[3]
+
+		pokemon = self.players[player].getPokemonByNickname(nickname)
+		pokemon.item = megastone
+
+		# Encode winner and opponent player states as well as turn information.
+		if self.simulate and player == self.winner:
+			self.createTurn(player, "mega", pokemon)
+
+	def processDetailsChange(self, line):
+		matches = re.search("\|detailschange\|(p[12])a:\s+([^|]+)\|([^\n]+)", line).groups()
+		player = matches[0]
+		nickname = matches[1]
+		species = matches[2].split(',')[0]
+
+		pokemon = self.players[player].getPokemonByNickname(nickname)
+		pokemon.species = species
+
+	def processStatus(self, line):
+		matches = re.search("\|-status\|(p[12])a:\s+([^|]+)\|([^\n|]+)", line).groups()
+		player = matches[0]
+		nickname = matches[1]
+		status = matches[2]
+
+		pokemon = self.players[player].getPokemonByNickname(nickname)
+		pokemon.status = status
+
+	def processCureStatus(self, line):
+		matches = re.search("\|-curestatus\|(p[12])a{0,1}:\s+([^|]+)\|([^\n|]+)", line).groups()
+		player = matches[0]
+		nickname = matches[1]
+
+		pokemon = self.players[player].getPokemonByNickname(nickname)
+		pokemon.status = ""
+
+	def processItemFromMove(self, line):
+		matches = re.search("\|-item\|(p[12])a:\s+([^|]+)\|([^|]+)", line).groups()
+		player = matches[0]
+		nickname = matches[1]
+		item = matches[2]
+
+		otherPlayer = "p2" if player == "p1" else "p1"
+		otherPokemon = self.players[otherPlayer].currentPokemon
+
+		if otherPokemon.item == "":
+			otherPokemon.item = item
+
+	def processEndItem(self, line):
+		matches = re.search("\|-enditem\|(p[12])a:\s+([^|]+)\|([^|]+)", line).groups()
+		player = matches[0]
+		nickname = matches[1]
+		item = matches[2]
+
+		pokemon = self.players[player].getPokemonByNickname(nickname)
+		if pokemon.item == "":
+			pokemon.item = item
+
+	def processHealFromItem(self, line):
+		matches = re.search("\|-heal\|(p[12])a:\s+([^|]+)\|[^|]+\|\[from\] item: (.+)", line).groups()
+		player = matches[0]
+		nickname = matches[1]
+		item = matches[2]
+
+		pokemon = self.players[player].getPokemonByNickname(nickname)
+		pokemon.item = item
+
+	def processWeatherFromAbility(self, line):
+		matches = re.search("\|-weather\|[^|]+\|\[from\] ability: ([^|]+)\|\[of\] (p[12])a: (.+)", line).groups()
+		ability = matches[0]
+		player = matches[1]
+		nickname = matches[2]
+
+		pokemon = self.players[player].getPokemonByNickname(nickname)
+		pokemon.ability = ability
 
 	def parseJSON(self):
 		'''
@@ -465,277 +578,6 @@ class PokemonShowdownReplayParser(object):
 			else:
 				pokemon.moves.add(moveSlot[0])
 
-	def processPlayer(self, line):
-		fields = line.split("|")
-
-		if self.simulate == False and len(fields) >= 4:
-			self.players[fields[2]].username = fields[3]
-
-	def processPoke(self, line):
-		fields = line.split("|")
-		player = fields[2]
-		species = fields[3].replace("/,.*$/", "").split(',')[0]
-
-		if "Arceus" in species:
-			species = "Arceus"
-
-		if not self.simulate:
-			pokemon = Pokemon()
-			pokemon.species = species
-			self.players[player].pokemon.append(pokemon)
-
-	def processWinner(self, line):
-		fields = line.split("|")
-
-		assert(len(fields) >= 2)
-
-		# Assigns username of winner
-		winnerUsername = fields[2]
-
-		if self.players["p1"].username == winnerUsername:
-			self.winner = "p1"
-			self.opponent = "p2"
-		else:
-			self.winner = "p2"
-			self.opponent = "p1"
-
-	def prefixHandler(self, pokePrefix, species, player):
-		'''
-		Handles prefix edge cases. When pokemon are listed at the top of a battle log,
-		their name is "Arceus-*". When they are switched in, they are listed as "Arceus-Ghost".
-		This function sets the pokemon species to the specific species.
-
-		Inputs:
-		pokePrefix - Pokemon prefix.
-		species - Pokemon species.
-		player - Player string ("p1" or "p2")
-		'''
-		pokemon = self.players[player].getPokemonBySpecies(pokePrefix)
-		if pokemon == None:
-			pokemon = self.players[player].getPokemonBySpecies(pokePrefix + "-*")
-		if pokemon == None:
-			pokemon = self.players[player].getPokemonBySpecies(pokePrefix + "-*, M")
-		if pokemon == None:
-			pokemon = self.players[player].getPokemonBySpecies(pokePrefix + "-*, F")
-
-		if pokemon != None:
-			pokemon.species = species
-
-	def processSwitch(self, line):
-		matches = re.search("\|switch\|(p[12])a:\s+([^|]+)\|([^|]+)", line).groups()
-		player = matches[0]
-		nickname = matches[1]
-		species = matches[2].split(',')[0]
-
-		# Special prefix edge case.
-		if "Arceus" in species:
-			self.prefixHandler("Arceus", species, player)
-		elif "Gourgeist" in species:
-			self.prefixHandler("Gourgeist", species, player)
-		elif "Genesect" in species:
-			self.prefixHandler("Genesect", species, player)
-
-		pokemon = self.players[player].getPokemonBySpecies(species)
-
-		# When pokemon has not mega-evolved yet, but the pokemon in the players inventory is -Mega.
-		if self.simulate and player == self.winner:
-			if not pokemon:
-				pokemon = self.players[player].getPokemonByNickname(nickname)
-				pokemon.species = species
-
-		if pokemon == None:
-			pokemon = Pokemon()
-			pokemon.nickname = nickname
-			pokemon.species = species
-			self.players[player].pokemon.append(pokemon)
-			assert(len(self.players[player].pokemon) <= 6)
-		elif pokemon.nickname == "":
-			pokemon.nickname = nickname
-		self.players[player].currentPokemon = pokemon
-
-		# Encode winner and opponent player states as well as turn information.
-		if self.simulate and player == self.winner:
-			# Skip the initial start
-			# if "|start" not in [lines[i-1], lines[i-2]]:
-			self.createTurn(player, "switch", pokemon)
-
-	def processDrag(self, line):
-		matches = re.search("\|drag\|(p[12])a:\s+([^|]+)\|([^|]+)", line).groups()
-		player = matches[0]
-		nickname = matches[1]
-		species = matches[2].split(',')[0]
-
-		# Special prefix edge case.
-		if "Arceus" in species:
-			self.prefixHandler("Arceus", species, player)
-		elif "Gourgeist" in species:
-			self.prefixHandler("Gourgeist", species, player)
-		elif "Genesect" in species:
-			self.prefixHandler("Genesect", species, player)
-
-		pokemon = self.players[player].getPokemonBySpecies(species)
-
-		# When pokemon has not mega-evolved yet, but the pokemon in the players inventory is -Mega.
-		if self.simulate and player == self.winner:
-			if not pokemon:
-				pokemon = self.players[player].getPokemonByNickname(nickname)
-				pokemon.species = species
-
-		if pokemon == None:
-			pokemon = Pokemon()
-			pokemon.nickname = nickname
-			pokemon.species = species
-			self.players[player].pokemon.append(pokemon)
-			assert(len(self.players[player].pokemon) <= 6)
-		elif pokemon.nickname == "":
-			pokemon.nickname = nickname
-		self.players[player].currentPokemon = pokemon
-
-	def processReplace(self, line):
-		matches = re.search("\|replace\|(p[12])a:\s+([^|]+)\|([^|]+)", line).groups()
-		player = matches[0]
-		nickname = matches[1]
-		species = matches[2].split(',')[0]
-
-		# Special prefix edge case.
-		if "Arceus" in species:
-			self.prefixHandler("Arceus", species, player)
-		elif "Gourgeist" in species:
-			self.prefixHandler("Gourgeist", species, player)
-		elif "Genesect" in species:
-			self.prefixHandler("Genesect", species, player)
-
-		pokemon = self.players[player].getPokemonBySpecies(species)
-
-		# When pokemon has not mega-evolved yet, but the pokemon in the players inventory is -Mega.
-		if self.simulate and player == self.winner:
-			if not pokemon:
-				pokemon = self.players[player].getPokemonByNickname(nickname)
-				pokemon.species = species
-
-		if pokemon == None:
-			pokemon = Pokemon()
-			pokemon.nickname = nickname
-			pokemon.species = species
-			self.players[player].pokemon.append(pokemon)
-			assert(len(self.players[player].pokemon) <= 6)
-		elif pokemon.nickname == "":
-			pokemon.nickname = nickname
-		self.players[player].currentPokemon = pokemon
-
-	def processMove(self, line):
-		matches = re.search("\|move\|(p[12])a:\s+([^|]+)\|([^|]+)", line).groups()
-		player = matches[0]
-		nickname = matches[1]
-		move = matches[2]
-
-		pokemon = self.players[player].getPokemonByNickname(nickname)
-
-		if self.simulate:
-			if player == self.opponent:
-				# This is so that moves from Magic Bounce don't get added to moveset.
-				if "[from]" not in line and "Struggle" not in line:
-					pokemon.moves.add(move)
-		else:
-			# This is so that moves from Magic Bounce don't get added to moveset.
-			if "[from]" not in line and "Struggle" not in line:
-				pokemon.moves.add(move)
-
-		assert(len(pokemon.moves) <= 4)
-
-		# Encode winner and opponent player states as well as turn information.
-		if self.simulate and player == self.winner:
-			self.createTurn(player, move, pokemon)
-
-	def processAbility(self, line):
-		matches = re.search("\|-ability\|(p[12])a:\s+([^|]+)\|([^|]+)", line).groups()
-		player = matches[0]
-		nickname = matches[1]
-		ability = matches[2]
-
-		pokemon = self.players[player].getPokemonByNickname(nickname)
-		pokemon.ability = ability
-
-	def processMega(self, line):
-		matches = re.search("\|-mega\|(p[12])a:\s+([^|]+)\|([^|]+)\|(.+)", line).groups()
-		player = matches[0]
-		nickname = matches[1]
-		# species = matches[2]
-		megastone = matches[3]
-
-		pokemon = self.players[player].getPokemonByNickname(nickname)
-		pokemon.item = megastone
-
-		# Encode winner and opponent player states as well as turn information.
-		if self.simulate and player == self.winner:
-			self.createTurn(player, "mega", pokemon)
-
-	def processDetailsChange(self, line):
-		matches = re.search("\|detailschange\|(p[12])a:\s+([^|]+)\|([^\n]+)", line).groups()
-		player = matches[0]
-		nickname = matches[1]
-		species = matches[2].split(',')[0]
-
-		pokemon = self.players[player].getPokemonByNickname(nickname)
-		pokemon.species = species
-
-	def processStatus(self, line):
-		matches = re.search("\|-status\|(p[12])a:\s+([^|]+)\|([^\n|]+)", line).groups()
-		player = matches[0]
-		nickname = matches[1]
-		status = matches[2]
-
-		pokemon = self.players[player].getPokemonByNickname(nickname)
-		pokemon.status = status
-
-	def processCureStatus(self, line):
-		matches = re.search("\|-curestatus\|(p[12])a{0,1}:\s+([^|]+)\|([^\n|]+)", line).groups()
-		player = matches[0]
-		nickname = matches[1]
-
-		pokemon = self.players[player].getPokemonByNickname(nickname)
-		pokemon.status = ""
-
-	def processItemFromMove(self, line):
-		matches = re.search("\|-item\|(p[12])a:\s+([^|]+)\|([^|]+)", line).groups()
-		player = matches[0]
-		nickname = matches[1]
-		item = matches[2]
-
-		otherPlayer = "p2" if player == "p1" else "p1"
-		otherPokemon = self.players[otherPlayer].currentPokemon
-
-		if otherPokemon.item == "":
-			otherPokemon.item = item
-
-	def processEndItem(self, line):
-		matches = re.search("\|-enditem\|(p[12])a:\s+([^|]+)\|([^|]+)", line).groups()
-		player = matches[0]
-		nickname = matches[1]
-		item = matches[2]
-
-		pokemon = self.players[player].getPokemonByNickname(nickname)
-		if pokemon.item == "":
-			pokemon.item = item
-
-	def processHealFromItem(self, line):
-		matches = re.search("\|-heal\|(p[12])a:\s+([^|]+)\|[^|]+\|\[from\] item: (.+)", line).groups()
-		player = matches[0]
-		nickname = matches[1]
-		item = matches[2]
-
-		pokemon = self.players[player].getPokemonByNickname(nickname)
-		pokemon.item = item
-
-	def processWeatherFromAbility(self, line):
-		matches = re.search("\|-weather\|[^|]+\|\[from\] ability: ([^|]+)\|\[of\] (p[12])a: (.+)", line).groups()
-		ability = matches[0]
-		player = matches[1]
-		nickname = matches[2]
-
-		pokemon = self.players[player].getPokemonByNickname(nickname)
-		pokemon.ability = ability
-
 	def createTurn(self, player, action, pokemon):
 		# Append to turn object list
 		if player == self.winner:
@@ -780,85 +622,13 @@ class PokemonShowdownReplayParser(object):
 			self.pokemonEncoding[turnNumber][i+idx] = encodePokemonObject(pokemon)
 			i += 1
 
-class Player(object):
-	def __init__(self, name="", username="", currentPokemon=None):
-		self.name = name
-		self.username = username
-		self.pokemon = []
-		self.currentPokemon = currentPokemon
-
-	def getPokemonBySpecies(self, species):
-		for poke in self.pokemon:
-			if poke.species == species:
-				return poke
-		return None
-
-	def getPokemonByNickname(self, nickname):
-		for poke in self.pokemon:
-			if poke.nickname == nickname:
-				return poke
-		return None
-
-	def getTeamFormatString(self):
-		output = "-------------------------\n"
-		output += "Player: "+self.username+"\n"
-		output += "-------------------------\n"
-		for pokemon in self.pokemon:
-			output += pokemon.getTeamFormatString() + "\n"
-		return output
-
-	def reset(self):
-		self.pokemon = []
-		self.currentPokemon = None
-
-
-class Pokemon(object):
-	def __init__(self, species="", nickname="", item="", ability="", status=""):
-		self.species = species
-		self.nickname = nickname
-		self.item = item
-		self.ability = ability
-		self.status = status
-		self.moves = set()
-
-	def __repr__(self):
-		return "(Pokemon: (species={}, nickname={}, item={}, ability={}))".format(self.species, self.nickname, self.item, self.ability)
-
-	def getTeamFormatString(self):
-		s = ""
-		s += self.species + " @ " + self.item +"\n"
-		s += "Ability: " + self.ability + "\n"
-		for move in self.moves:
-			s += "- " + move + "\n"
-		print(s + "\n")
-		return s
-
-
-class Turn(object):
-	def __init__(self, turnNumber=None, player=None, action=None, pokemon=None, state=None):
-		self.turnNumber = turnNumber
-		self.player = player
-		self.action = action
-		self.pokemon = pokemon
-		self.state = state
-
-	def __repr__(self):
-		return "(Turn {}: (player={}, action={}, pokemon={}, state={})".format(self.turnNumber, self.player, self.action, self.pokemon, self.state)
-
-
-class FieldState(object):
-	def __init__(self, p1Pokemon, p2Pokemon, weather=None):
-		self.p1Pokemon = p1Pokemon
-		self.p2Pokemon = p2Pokemon
-		self.p1EntryHazards = []
-		self.p2EntryHazards = []
-		self.weather = weather
-
 def main():
-	# with open(DATAFOLDER + BATTLEFILE) as file:
-	# 	data = file.read()
-	# 	parser = PokemonShowdownReplayParser(data)
-	# 	parser.run()
+	'''
+	with open(DATAFOLDER + BATTLEFILE) as file:
+	 	data = file.read()
+	 	parser = PokemonShowdownReplayParser(data)
+	 	parser.run()
+	'''
 
 	counter = 0
 	for filename in os.listdir(DATAFOLDER):
