@@ -125,6 +125,8 @@ class PokemonShowdownReplayParser(object):
 				self.processStatus(line)
 			elif line.startswith("|-curestatus|"):
 				self.processCureStatus(line)
+			elif line.startswith("|-damage|"):
+				self.processDamage(line)
 			# elif line.startswith("|-item|"):
 			#
 			#		self.processItem(line)
@@ -137,6 +139,7 @@ class PokemonShowdownReplayParser(object):
 			elif "|[from] item:" in line:
 				if line.startswith("|-heal|"):
 					self.processHealFromItem(line)
+					self.processHeal(line)
 			elif "[from] ability: " in line:
 				if line.startswith("|-weather|"):
 					self.processWeatherFromAbility(line)
@@ -161,7 +164,6 @@ class PokemonShowdownReplayParser(object):
 					or line.startswith("|rule|")
 					or line.startswith("|-sidestart|")
 					or line.startswith("|-start|")
-					or line.startswith("|-damage|")
 					or line.startswith("|-fail|")
 					or line.startswith("|-activate|")
 					or line.startswith("|-boost|")
@@ -404,6 +406,15 @@ class PokemonShowdownReplayParser(object):
 		pokemon = self.players[player].getPokemonByNickname(nickname)
 		pokemon.status = ""
 
+	def processDamage(self, line):
+		matches = re.search("\|-damage\|(p[12])a:\s+([^|]+)\|([^|]+)", line).groups()
+		player = matches[0]
+		nickname = matches[1]
+		health = matches[2].split('/')[0]
+
+		pokemon = self.players[player].getPokemonByNickname(nickname)
+		pokemon.health = health
+
 	def processItemFromMove(self, line):
 		matches = re.search("\|-item\|(p[12])a:\s+([^|]+)\|([^|]+)", line).groups()
 		player = matches[0]
@@ -434,6 +445,16 @@ class PokemonShowdownReplayParser(object):
 
 		pokemon = self.players[player].getPokemonByNickname(nickname)
 		pokemon.item = item
+
+	def processHeal(self, line):
+		matches = re.search("\|-heal\|(p[12])a:\s+([^|]+)\|([^|]+)", line).groups()
+		player = matches[0]
+		nickname = matches[1]
+		health = matches[2].split('/')[0]
+
+		pokemon = self.players[player].getPokemonByNickname(nickname)
+		pokemon.health = health
+
 
 	def processWeatherFromAbility(self, line):
 		matches = re.search("\|-weather\|[^|]+\|\[from\] ability: ([^|]+)\|\[of\] (p[12])a: (.+)", line).groups()
@@ -618,6 +639,7 @@ class PokemonShowdownReplayParser(object):
 			i += 1
 
 def main():
+	'''
 	with open(DATAFOLDER + BATTLEFILE) as file:
 	 	data = file.read()
 	 	parser = PokemonShowdownReplayParser(data)
@@ -636,7 +658,7 @@ def main():
 			# print(output)
 			print("================================================")
 		counter += 1
-	'''
+	
 
 if __name__ == "__main__":
 	main()
