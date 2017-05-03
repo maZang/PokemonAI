@@ -155,13 +155,10 @@ class PokemonShowdownEncoding(object):
 
 		print(self.last_move_data)
 
-	def encodeOpponentPokemon(self, opponentPokemonEncoding):
-		for turnNumber, lst in opponentPokemonEncoding.iteritems():
-			for i in range(6, 12):
-				self.pokemon[i][turnNumber] = lst[i-6]
-
-	def encodeWinnerPokemon(self, winnerPokemonEncoding):
-		pass
+	def encodePokemon(self, pokemonEncoding):
+		for turnNumber, lst in pokemonEncoding.iteritems():
+			for i in range(0, 12):
+				self.pokemon[i][turnNumber] = lst[i]
 
 
 class PokemonShowdownReplayParser(object):
@@ -244,8 +241,7 @@ class PokemonShowdownReplayParser(object):
 		obj.encodeOpponentsLastMove(self.opponentTurnList)
 		for item in self.opponentPokemonEncoding.iteritems():
 			print(item)
-		obj.encodeOpponentPokemon(self.opponentPokemonEncoding)
-		# obj.encodeWinnerPokemon(self.players[self.winner].pokemon)
+		obj.encodePokemon(self.pokemonEncoding)
 
 		return obj
 
