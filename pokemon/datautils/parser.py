@@ -9,7 +9,7 @@ import random
 from pprint import pprint
 from const import *
 
-BATTLEFILE = 'battlefactory-566172293.txt'
+BATTLEFILE = 'battlefactory-566258957.txt'
 DATAFOLDER = 'data/replays/'
 PARSED_FOLDER = 'data/parsed_replays/'
 FACTORYSETS = 'data/factory-sets.json'
@@ -202,17 +202,9 @@ class PokemonShowdownReplayParser(object):
 		self.players[self.opponent].reset()
 		self.parse()
 
-
-
-		'''
 		print(self.winner)
-		for item in self.turnList.iteritems():
-			print(item)
-		for item in self.opponentTurnList.iteritems():
-			print(item)
-		'''
 
-		# self.generateEncodingObject()
+		self.generateEncodingObject()
 
 		'''
 		encoding = PokemonShowdownEncoding()
@@ -239,9 +231,9 @@ class PokemonShowdownReplayParser(object):
 
 		obj.encodeLabels(self.turnList, self.winner)
 		obj.encodeOpponentsLastMove(self.opponentTurnList)
-		for item in self.opponentPokemonEncoding.iteritems():
-			print(item)
 		obj.encodePokemon(self.pokemonEncoding)
+		# for turnNumber, lst in self.pokemonEncoding.items():
+			# print lst[0]
 
 		return obj
 
@@ -761,29 +753,32 @@ class PokemonShowdownReplayParser(object):
 			else:
 				self.opponentTurnList[turnNumber] = [turn]
 
-		self.encodePokemon(max(0, self.turnNumber), "p1")
-		self.encodePokemon(max(0, self.turnNumber), "p2")
+		turnNm = max(0, self.turnNumber)
+		self.pokemonEncoding[turnNm] = [encodePokemonObject(Pokemon())]*12
+
+		self.encodePokemon(turnNm, "p1")
+		self.encodePokemon(turnNm, "p2")
 
 	def encodePokemon(self, turnNumber, player):
 		playerPokemon = self.players[player]
-		currentPokemon = playerPokemon.currentPokemon
+		currentPokemon = self.players[player].currentPokemon
 		if not currentPokemon:
 			return
-
-		self.pokemonEncoding[turnNumber] = [Pokemon()]*12
 
 		idx = 0
 		if player != self.winner:
 			idx = 6
 
 		# 0-5 = Winner's pokemon, 6-11 = Opponent's pokemon
+		# Turn number : list of 12 pokemon that represents
 		self.pokemonEncoding[turnNumber][idx] = encodePokemonObject(currentPokemon)
 
-		for i, pokemon in enumerate(playerPokemon.pokemon):
+		i = 1
+		for pokemon in playerPokemon.pokemon:
 			if pokemon == currentPokemon:
 				continue
 			self.pokemonEncoding[turnNumber][i+idx] = encodePokemonObject(pokemon)
-
+			i += 1
 
 class Player(object):
 	def __init__(self, name="", username="", currentPokemon=None):
@@ -861,7 +856,10 @@ class FieldState(object):
 
 def main():
 	# with open(DATAFOLDER + BATTLEFILE) as file:
-		# data = file.read()
+	# 	data = file.read()
+	# 	parser = PokemonShowdownReplayParser(data)
+	# 	parser.run()
+
 	counter = 0
 	for filename in os.listdir(DATAFOLDER):
 		print("Counter: " + str(counter))
@@ -872,6 +870,7 @@ def main():
 			parser = PokemonShowdownReplayParser(data)
 			parser.run()
 			# print(output)
+			print("================================================")
 		counter += 1
 
 if __name__ == "__main__":
