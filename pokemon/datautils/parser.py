@@ -7,7 +7,7 @@ import os
 import random
 
 from pprint import pprint
-from datautils.const import *
+from const import *
 
 BATTLEFILE = 'battlefactory-566172293.txt'
 DATAFOLDER = 'data/replays/'
@@ -171,14 +171,14 @@ class PokemonShowdownEncoding(object):
 
 
 class PokemonShowdownReplayParser(object):
-	def __init__(self, log="", winner=""):
+	def __init__(self, log=""):
 		self.log = log
 		self.players = {}
 		self.players["p1"] = Player("p1")
 		self.players["p2"] = Player("p2")
 
 		# self.winner is either "p1" or "p2".
-		self.winner = winner
+		self.winner = None
 		self.opponent = None
 
 		self.turnNumber = -1
@@ -188,17 +188,29 @@ class PokemonShowdownReplayParser(object):
 
 		self.lines = None
 
+		self.simulate = False
+
 	def run(self):
+		''' 
+		First parses through the log file to fill in pokemon sets.
+		Then parses through the log file again to simulate the battle.
+		'''
+
 		# Parse through the log file and fill in any seen abilities, items, or moves.
 		self.parse()
 
 		assert(self.winner == "p1" or self.winner == "p2")
+		assert(self.opponent == "p1" or self.opponent == "p2" and self.opponent != self.winner)
 
 		# Parse through the JSON file and fill in pokemon sets.
 		self.parseJSON()
 
-		# TODO: Simulate through the battle and generate pokemon and state encodings for each turn.
 
+		# Simulate through the battle and generate pokemon and state encodings for each turn.
+		self.simulate = True
+		self.players[self.opponent].reset()
+		self.parse()
+		
 
 
 		'''
@@ -209,7 +221,7 @@ class PokemonShowdownReplayParser(object):
 			print(item)
 		'''
 
-		self.generateEncodingObject()
+		# self.generateEncodingObject()
 
 		'''
 		encoding = PokemonShowdownEncoding()
@@ -219,6 +231,7 @@ class PokemonShowdownReplayParser(object):
 			print(encoding.encodePokemonObject(pokemon))
 		'''
 
+		'''
 		output = ""
 		output += self.players["p1"].getTeamFormatString()
 		output += self.players["p2"].getTeamFormatString()
@@ -226,6 +239,7 @@ class PokemonShowdownReplayParser(object):
 			print(item)
 
 		return output
+		'''
 
 	def generateEncodingObject(self):
 		# 80-10-10 Training-Validation-Testing Split
@@ -247,6 +261,7 @@ class PokemonShowdownReplayParser(object):
 		'''
 		self.lines = self.log.split('\n')
 
+		'''
 		# First parse the players
 		for line in self.lines:
 			if line.startswith("|player|"):
@@ -259,13 +274,14 @@ class PokemonShowdownReplayParser(object):
 			if line.startswith("|win|"):
 				self.processWinner(line)
 				break
+		'''
 
 		# Finally parse the rest of the lines
-		for i, line in enumerate(self.lines):
-			if line.startswith("|poke|"):
+		for line in self.lines:
+			if line.startswith("|player|"):
+				self.processPlayer(line)
+			elif line.startswith("|poke|"):
 				self.processPoke(line)
-			elif line.startswith("|turn|"):
-				self.processTurn(line)
 			elif line.startswith("|move|"):
 				self.processMove(line)
 			elif line.startswith("|-ability|"):
@@ -280,6 +296,8 @@ class PokemonShowdownReplayParser(object):
 				self.processDetailsChange(line)
 			elif line.startswith("|replace|"):
 				self.processReplace(line)
+			elif line.startswith("|win|"):
+				self.processWinner(line)
 			elif line.startswith("|-status|"):
 				self.processStatus(line)
 			elif line.startswith("|-curestatus|"):
@@ -468,16 +486,18 @@ class PokemonShowdownReplayParser(object):
 	def processPlayer(self, line):
 		fields = line.split("|")
 
-		if len(fields) >= 4:
+		if self.simulate == False and len(fields) >= 4:
 			self.players[fields[2]].username = fields[3]
 
 	def processPoke(self, line):
 		fields = line.split("|")
-
-		pokemon = Pokemon()
+		player = fields[2]
 		species = fields[3].replace("/,.*$/", "")
-		pokemon.species = species.split(',')[0]
-		self.players[fields[2]].pokemon.append(pokemon)
+
+		if self.simulate == False:
+			pokemon = Pokemon()
+			pokemon.species = species.split(',')[0]
+			self.players[player].pokemon.append(pokemon)
 
 	def processWinner(self, line):
 		fields = line.split("|")
@@ -493,15 +513,6 @@ class PokemonShowdownReplayParser(object):
 		else:
 			self.winner = "p2"
 			self.opponent = "p1"
-
-	def processTurn(self, line):
-		fields = line.split("|")
-
-		assert(len(fields) >= 2)
-
-		# # New turn, create a new turn list
-		# self.turnNumber = self.turnNumber + 1
-		# self.turnList[self.turnNumber] = []
 
 	def prefixHandler(self, pokePrefix, species, player):
 		'''
@@ -550,9 +561,11 @@ class PokemonShowdownReplayParser(object):
 			pokemon.nickname = nickname
 		self.players[player].currentPokemon = pokemon
 
-		# Skip the initial start
-		# if "|start" not in [lines[i-1], lines[i-2]]:
-		self.createTurn(player, "switch", pokemon)
+		# Encode winner and opponent player states as well as turn information.
+		if self.simulate and player == self.winner:
+			# Skip the initial start
+			# if "|start" not in [lines[i-1], lines[i-2]]:
+			self.createTurn(player, "switch", pokemon)
 
 	def processDrag(self, line):
 		matches = re.search("\|drag\|(p[12])a:\s+([^|]+)\|([^|]+)", line).groups()
@@ -617,7 +630,9 @@ class PokemonShowdownReplayParser(object):
 			pokemon.moves.add(move)
 		assert(len(pokemon.moves) <= 4)
 
-		self.createTurn(player, move, pokemon)
+		# Encode winner and opponent player states as well as turn information.
+		if self.simulate and player == self.winner:
+			self.createTurn(player, move, pokemon)
 
 	def processAbility(self, line):
 		matches = re.search("\|-ability\|(p[12])a:\s+([^|]+)\|([^|]+)", line).groups()
@@ -638,7 +653,9 @@ class PokemonShowdownReplayParser(object):
 		pokemon = self.players[player].getPokemonByNickname(nickname)
 		pokemon.item = megastone
 
-		self.createTurn(player, "mega", pokemon)
+		# Encode winner and opponent player states as well as turn information.
+		if self.simulate and player == self.winner:
+			self.createTurn(player, "mega", pokemon)
 
 	def processDetailsChange(self, line):
 		matches = re.search("\|detailschange\|(p[12])a:\s+([^|]+)\|([^\n]+)", line).groups()
@@ -766,6 +783,10 @@ class Player(object):
 			print(pokemon)
 			output += pokemon.getTeamFormatString() + "\n"
 		return output
+
+	def reset(self):
+		self.pokemon = []
+		self.currentPokemon = None
 
 
 class Pokemon(object):
