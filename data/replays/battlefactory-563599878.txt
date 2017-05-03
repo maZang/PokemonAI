@@ -1,0 +1,159 @@
+|j|Alexander Septor
+|j|jeisonorland
+|player|p1|Alexander Septor|262
+|player|p2|jeisonorland|163
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|45099,22763,27790,40849,54455,623,21179,51815,39935,58407,12830,46418
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Cobalion|item
+|poke|p1|Forretress, M|item
+|poke|p1|Houndoom, M|item
+|poke|p1|Gligar, M|item
+|poke|p1|Milotic, M|item
+|poke|p1|Aromatisse, M|item
+|poke|p2|Noivern, M|item
+|poke|p2|Kingdra, M|item
+|poke|p2|Espeon, M|item
+|poke|p2|Porygon-Z|item
+|poke|p2|Hoopa|item
+|poke|p2|Sceptile, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 1, team 2, team 3, team 4, team 5, team 6|team 1, team 2, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Cobalion|Cobalion|100/100
+|switch|p2a: Noivern|Noivern, M|100/100
+|turn|1
+|choice|move stealthrock|move dracometeor
+|
+|move|p2a: Noivern|Draco Meteor|p1a: Cobalion
+|-resisted|p1a: Cobalion
+|-damage|p1a: Cobalion|64/100
+|-unboost|p2a: Noivern|spa|2
+|move|p1a: Cobalion|Stealth Rock|p2a: Noivern
+|-sidestart|p2: jeisonorland|move: Stealth Rock
+|
+|-heal|p1a: Cobalion|70/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|choice|move ironhead|move dracometeor
+|
+|move|p2a: Noivern|Draco Meteor|p1a: Cobalion
+|-resisted|p1a: Cobalion
+|-damage|p1a: Cobalion|50/100
+|-unboost|p2a: Noivern|spa|2
+|move|p1a: Cobalion|Iron Head|p2a: Noivern
+|-damage|p2a: Noivern|60/100
+|
+|-heal|p2a: Noivern|66/100|[from] item: Leftovers
+|-heal|p1a: Cobalion|56/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|choice|switch 6|move roost
+|
+|switch|p1a: Aromatisse|Aromatisse, M|100/100
+|move|p2a: Noivern|Roost|p2a: Noivern
+|-heal|p2a: Noivern|100/100
+|
+|upkeep
+|turn|4
+|choice|move moonblast|move dracometeor
+|
+|move|p2a: Noivern|Draco Meteor|p1a: Aromatisse
+|-immune|p1a: Aromatisse|[msg]
+|move|p1a: Aromatisse|Moonblast|p2a: Noivern
+|-supereffective|p2a: Noivern
+|-damage|p2a: Noivern|13/100
+|
+|-heal|p2a: Noivern|19/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|choice|move moonblast|switch 5
+|
+|switch|p2a: Hoopa|Hoopa|100/100
+|-damage|p2a: Hoopa|88/100|[from] Stealth Rock
+|move|p1a: Aromatisse|Moonblast|p2a: Hoopa
+|-damage|p2a: Hoopa|60/100
+|
+|upkeep
+|turn|6
+|choice|move protect|move shadowball
+|
+|move|p1a: Aromatisse|Protect|p1a: Aromatisse
+|-singleturn|p1a: Aromatisse|Protect
+|move|p2a: Hoopa|Shadow Ball|p1a: Aromatisse
+|-activate|p1a: Aromatisse|move: Protect
+|
+|upkeep
+|turn|7
+|choice|switch 3|move psyshock
+|
+|switch|p1a: Houndoom|Houndoom, M|100/100
+|move|p2a: Hoopa|Psyshock|p1a: Houndoom
+|-immune|p1a: Houndoom|[msg]
+|
+|upkeep
+|turn|8
+|choice|move darkpulse mega|switch 2
+|
+|switch|p2a: Kingdra|Kingdra, M|100/100
+|-damage|p2a: Kingdra|88/100|[from] Stealth Rock
+|detailschange|p1a: Houndoom|Houndoom-Mega, M
+|-mega|p1a: Houndoom|Houndoom|Houndoominite
+|move|p1a: Houndoom|Dark Pulse|p2a: Kingdra
+|-damage|p2a: Kingdra|28/100
+|
+|upkeep
+|turn|9
+|choice|move darkpulse|move dracometeor
+|
+|move|p1a: Houndoom|Dark Pulse|p2a: Kingdra
+|-damage|p2a: Kingdra|0 fnt
+|faint|p2a: Kingdra
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Noivern|Noivern, M|19/100
+|-damage|p2a: Noivern|0 fnt|[from] Stealth Rock
+|faint|p2a: Noivern
+|choice||switch 3
+|
+|switch|p2a: Espeon|Espeon, M|100/100
+|-damage|p2a: Espeon|88/100|[from] Stealth Rock
+|turn|10
+|choice|move darkpulse|move hiddenpower
+|
+|move|p1a: Houndoom|Dark Pulse|p2a: Espeon
+|-supereffective|p2a: Espeon
+|-damage|p2a: Espeon|0 fnt
+|faint|p2a: Espeon
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Sceptile|Sceptile, M|100/100
+|-damage|p2a: Sceptile|88/100|[from] Stealth Rock
+|turn|11
+|choice|move fireblast|move outrage mega
+|
+|detailschange|p2a: Sceptile|Sceptile-Mega, M
+|-mega|p2a: Sceptile|Sceptile|Sceptilite
+|move|p2a: Sceptile|Outrage|p1a: Houndoom
+|-damage|p1a: Houndoom|32/100
+|move|p1a: Houndoom|Fire Blast|p2a: Sceptile
+|-damage|p2a: Sceptile|0 fnt
+|faint|p2a: Sceptile
+|
+|upkeep
+|-message|jeisonorland forfeited.
+|
+|win|Alexander Septor
+|l|jeisonorland
+|c|☆Alexander Septor|GG

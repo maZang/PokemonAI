@@ -1,0 +1,239 @@
+|j|Dr. Dugtrio
+|j|Into The Further
+|player|p1|Dr. Dugtrio|39
+|player|p2|Into The Further|260
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|32069,14176,40626,21596,33795,6407,62032,12277,33344,9377,36481,46248
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Sceptile, M|item
+|poke|p1|Azelf|item
+|poke|p1|Flygon, M|item
+|poke|p1|Rotom-Heat|item
+|poke|p1|Vaporeon, M|item
+|poke|p1|Hoopa|item
+|poke|p2|Houndoom, M|item
+|poke|p2|Crobat, M|item
+|poke|p2|Florges, F|item
+|poke|p2|Suicune|item
+|poke|p2|Krookodile, M|item
+|poke|p2|Gligar, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|c|☆Into The Further|hf
+|choice|team 5, team 2, team 3, team 4, team 1, team 6|team 5, team 2, team 3, team 4, team 1, team 6
+|
+|start
+|switch|p1a: Vaporeon|Vaporeon, M|100/100
+|switch|p2a: Krookodile|Krookodile, M|100/100
+|-ability|p2a: Krookodile|Intimidate|boost
+|-unboost|p1a: Vaporeon|atk|1
+|turn|1
+|choice|move scald|switch 4
+|
+|switch|p2a: Suicune|Suicune|100/100
+|-ability|p2a: Suicune|Pressure
+|move|p1a: Vaporeon|Scald|p2a: Suicune
+|-resisted|p2a: Suicune
+|-crit|p2a: Suicune
+|-damage|p2a: Suicune|83/100
+|
+|-heal|p2a: Suicune|89/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|choice|move wish|switch 3
+|
+|switch|p2a: Florges|Florges, F|100/100
+|move|p1a: Vaporeon|Wish|p1a: Vaporeon
+|
+|upkeep
+|turn|3
+|choice|switch 4|move calmmind
+|
+|switch|p1a: Rotom|Rotom-Heat|100/100
+|move|p2a: Florges|Calm Mind|p2a: Florges
+|-boost|p2a: Florges|spa|1
+|-boost|p2a: Florges|spd|1
+|
+|upkeep
+|turn|4
+|choice|move trick|move calmmind
+|
+|move|p1a: Rotom|Trick|p2a: Florges
+|-activate|p1a: Rotom|move: Trick|[of] p2a: Florges
+|-item|p2a: Florges|Choice Specs|[from] move: Trick
+|-item|p1a: Rotom|Leftovers|[from] move: Trick
+|move|p2a: Florges|Calm Mind|p2a: Florges
+|-boost|p2a: Florges|spa|1
+|-boost|p2a: Florges|spd|1
+|
+|upkeep
+|turn|5
+|c|☆Into The Further|WACK
+|choice|move hiddenpower|switch 5
+|
+|switch|p2a: Houndoom|Houndoom, M|100/100
+|move|p1a: Rotom|Hidden Power|p2a: Houndoom
+|-resisted|p2a: Houndoom
+|-damage|p2a: Houndoom|88/100
+|
+|upkeep
+|turn|6
+|choice|move voltswitch|move nastyplot mega
+|
+|detailschange|p2a: Houndoom|Houndoom-Mega, M
+|-mega|p2a: Houndoom|Houndoom|Houndoominite
+|move|p2a: Houndoom|Nasty Plot|p2a: Houndoom
+|-boost|p2a: Houndoom|spa|2
+|move|p1a: Rotom|Volt Switch|p2a: Houndoom
+|-damage|p2a: Houndoom|49/100
+|choice|switch 3|
+|
+|switch|p1a: Flygon|Flygon, M|100/100
+|
+|upkeep
+|turn|7
+|choice|move earthquake|switch 6
+|
+|switch|p2a: Gligar|Gligar, M|100/100
+|move|p1a: Flygon|Earthquake|p2a: Gligar
+|-immune|p2a: Gligar|[msg]
+|
+|upkeep
+|turn|8
+|choice|switch 2|move batonpass
+|
+|switch|p1a: Azelf|Azelf|100/100
+|move|p2a: Gligar|Baton Pass|p2a: Gligar
+|choice||switch 6
+|
+|switch|p2a: Houndoom|Houndoom-Mega, M|49/100
+|
+|upkeep
+|turn|9
+|choice|switch 3|move darkpulse
+|
+|switch|p1a: Rotom|Rotom-Heat|100/100
+|move|p2a: Houndoom|Dark Pulse|p1a: Rotom
+|-damage|p1a: Rotom|39/100
+|
+|-heal|p1a: Rotom|45/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|choice|switch 2|move darkpulse
+|
+|switch|p1a: Flygon|Flygon, M|100/100
+|move|p2a: Houndoom|Dark Pulse|p1a: Flygon
+|-damage|p1a: Flygon|43/100
+|
+|upkeep
+|turn|11
+|choice|move uturn|move darkpulse
+|
+|move|p1a: Flygon|U-turn|p2a: Houndoom
+|-damage|p2a: Houndoom|22/100
+|choice|switch 5|
+|
+|switch|p1a: Sceptile|Sceptile, M|100/100
+|move|p2a: Houndoom|Dark Pulse|p1a: Sceptile
+|-damage|p1a: Sceptile|43/100
+|
+|upkeep
+|turn|12
+|choice|move dragonpulse mega|switch 5
+|
+|switch|p2a: Florges|Florges, F|100/100
+|detailschange|p1a: Sceptile|Sceptile-Mega, M
+|-mega|p1a: Sceptile|Sceptile|Sceptilite
+|move|p1a: Sceptile|Dragon Pulse|p2a: Florges
+|-immune|p2a: Florges|[msg]
+|
+|upkeep
+|turn|13
+|choice|switch 2|move moonblast
+|
+|switch|p1a: Rotom|Rotom-Heat|45/100
+|move|p2a: Florges|Moonblast|p1a: Rotom
+|-resisted|p1a: Rotom
+|-crit|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Azelf|Azelf|100/100
+|turn|14
+|choice|move stealthrock|switch 5
+|
+|switch|p2a: Houndoom|Houndoom-Mega, M|22/100
+|move|p1a: Azelf|Stealth Rock|p2a: Houndoom
+|-sidestart|p2: Into The Further|move: Stealth Rock
+|
+|upkeep
+|turn|15
+|choice|move explosion|move darkpulse
+|
+|move|p2a: Houndoom|Dark Pulse|p1a: Azelf
+|-supereffective|p1a: Azelf
+|-enditem|p1a: Azelf|Focus Sash
+|-damage|p1a: Azelf|1/100
+|move|p1a: Azelf|Explosion|p2a: Houndoom
+|-damage|p2a: Houndoom|0 fnt
+|faint|p1a: Azelf
+|faint|p2a: Houndoom
+|
+|upkeep
+|choice|switch 5|switch 4
+|
+|switch|p1a: Flygon|Flygon, M|43/100
+|switch|p2a: Krookodile|Krookodile, M|100/100
+|-damage|p2a: Krookodile|94/100|[from] Stealth Rock
+|-ability|p2a: Krookodile|Intimidate|boost
+|-unboost|p1a: Flygon|atk|1
+|turn|16
+|choice|move uturn|move stealthrock
+|
+|move|p1a: Flygon|U-turn|p2a: Krookodile
+|-supereffective|p2a: Krookodile
+|-damage|p2a: Krookodile|74/100
+|choice|switch 2|
+|
+|switch|p1a: Sceptile|Sceptile-Mega, M|43/100
+|move|p2a: Krookodile|Stealth Rock|p1a: Sceptile
+|-sidestart|p1: Dr. Dugtrio|move: Stealth Rock
+|
+|-heal|p2a: Krookodile|80/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|choice|move gigadrain|switch 5
+|
+|switch|p2a: Florges|Florges, F|100/100
+|-damage|p2a: Florges|88/100|[from] Stealth Rock
+|move|p1a: Sceptile|Giga Drain|p2a: Florges
+|-damage|p2a: Florges|60/100
+|-heal|p1a: Sceptile|61/100|[from] drain|[of] p2a: Florges
+|
+|upkeep
+|turn|18
+|choice|move leafstorm|move moonblast
+|
+|move|p1a: Sceptile|Leaf Storm|p2a: Florges
+|-damage|p2a: Florges|9/100
+|-unboost|p1a: Sceptile|spa|2
+|move|p2a: Florges|Moonblast|p1a: Sceptile
+|-supereffective|p1a: Sceptile
+|-damage|p1a: Sceptile|0 fnt
+|faint|p1a: Sceptile
+|
+|upkeep
+|-message|Dr. Dugtrio forfeited.
+|
+|win|Into The Further
+|l|Dr. Dugtrio
+|raw|Dr. Dugtrio's rating: 1387 &rarr; <strong>1356</strong><br />(-31 for losing)
+|raw|Into The Further's rating: 1155 &rarr; <strong>1194</strong><br />(+39 for winning)

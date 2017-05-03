@@ -1,0 +1,551 @@
+|j|arceus1117
+|j|lcezasfuck
+|player|p1|arceus1117|99
+|player|p2|lcezasfuck|#teamrocket
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|63930,48495,19761,2320,64999,26422,30220,11983,1154,48298,16488,60650
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Ferrothorn, M|item
+|poke|p1|Lopunny, M|item
+|poke|p1|Jirachi|item
+|poke|p1|Togekiss, M|item
+|poke|p1|Tornadus-Therian, M|item
+|poke|p1|Terrakion|item
+|poke|p2|Thundurus-Therian, M|item
+|poke|p2|Tyranitar, M|item
+|poke|p2|Gyarados, M|item
+|poke|p2|Sylveon, M|item
+|poke|p2|Feraligatr, M|item
+|poke|p2|Zygarde|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by arceus1117)
+|choice|team 3, team 2, team 1, team 4, team 5, team 6|team 3, team 2, team 1, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Jirachi|Jirachi|100/100
+|switch|p2a: Gyarados|Gyarados, M|100/100
+|-ability|p2a: Gyarados|Intimidate|boost
+|-unboost|p1a: Jirachi|atk|1
+|turn|1
+|choice|move uturn|move substitute
+|
+|move|p1a: Jirachi|U-turn|p2a: Gyarados
+|-resisted|p2a: Gyarados
+|-damage|p2a: Gyarados|93/100
+|choice|switch 3|
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|move|p2a: Gyarados|Substitute|p2a: Gyarados
+|-start|p2a: Gyarados|Substitute
+|-damage|p2a: Gyarados|68/100
+|
+|-heal|p2a: Gyarados|74/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|choice|move gyroball|move substitute
+|
+|move|p2a: Gyarados|Substitute|p2a: Gyarados
+|-fail|p2a: Gyarados|move: Substitute
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Gyarados
+|-resisted|p2a: Gyarados
+|-activate|p2a: Gyarados|move: Substitute|[damage]
+|
+|-heal|p2a: Gyarados|81/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|choice|move gyroball|move dragondance
+|
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Gyarados
+|-resisted|p2a: Gyarados
+|-end|p2a: Gyarados|Substitute
+|
+|-heal|p2a: Gyarados|87/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|choice|move stealthrock|move substitute
+|
+|move|p2a: Gyarados|Substitute|p2a: Gyarados
+|-start|p2a: Gyarados|Substitute
+|-damage|p2a: Gyarados|62/100
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Gyarados
+|-sidestart|p2: lcezasfuck|move: Stealth Rock
+|
+|-heal|p2a: Gyarados|68/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|choice|move gyroball|move bounce
+|
+|move|p2a: Gyarados|Bounce|p1a: Ferrothorn|[still]
+|-prepare|p2a: Gyarados|Bounce|p1a: Ferrothorn
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Gyarados|[miss]
+|-miss|p1a: Ferrothorn|p2a: Gyarados
+|
+|-heal|p2a: Gyarados|74/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|choice|move gyroball|move bounce
+|
+|move|p2a: Gyarados|Bounce|p1a: Ferrothorn|[from]lockedmove|[miss]
+|-miss|p2a: Gyarados|p1a: Ferrothorn
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Gyarados
+|-resisted|p2a: Gyarados
+|-end|p2a: Gyarados|Substitute
+|
+|-heal|p2a: Gyarados|81/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|choice|move gyroball|move substitute
+|
+|move|p2a: Gyarados|Substitute|p2a: Gyarados
+|-start|p2a: Gyarados|Substitute
+|-damage|p2a: Gyarados|56/100
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Gyarados
+|-resisted|p2a: Gyarados
+|-end|p2a: Gyarados|Substitute
+|
+|-heal|p2a: Gyarados|62/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|choice|move leechseed|move bounce
+|
+|move|p2a: Gyarados|Bounce|p1a: Ferrothorn|[still]
+|-prepare|p2a: Gyarados|Bounce|p1a: Ferrothorn
+|move|p1a: Ferrothorn|Leech Seed|p2a: Gyarados|[miss]
+|-miss|p1a: Ferrothorn|p2a: Gyarados
+|
+|-heal|p2a: Gyarados|68/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|choice|move protect|move bounce
+|
+|move|p1a: Ferrothorn|Protect|p1a: Ferrothorn
+|-singleturn|p1a: Ferrothorn|Protect
+|move|p2a: Gyarados|Bounce|p1a: Ferrothorn|[from]lockedmove
+|-activate|p1a: Ferrothorn|move: Protect
+|
+|-heal|p2a: Gyarados|74/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|choice|move gyroball|move bounce
+|
+|move|p2a: Gyarados|Bounce|p1a: Ferrothorn|[still]
+|-prepare|p2a: Gyarados|Bounce|p1a: Ferrothorn
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Gyarados|[miss]
+|-miss|p1a: Ferrothorn|p2a: Gyarados
+|
+|-heal|p2a: Gyarados|81/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|choice|move leechseed|move bounce
+|
+|move|p2a: Gyarados|Bounce|p1a: Ferrothorn|[from]lockedmove
+|-crit|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|37/100
+|-damage|p2a: Gyarados|68/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-status|p1a: Ferrothorn|par
+|move|p1a: Ferrothorn|Leech Seed|p2a: Gyarados
+|-start|p2a: Gyarados|move: Leech Seed
+|
+|-heal|p2a: Gyarados|74/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|43/100 par|[from] item: Leftovers
+|-damage|p2a: Gyarados|62/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|55/100 par|[silent]
+|upkeep
+|turn|12
+|choice|move protect|switch 2
+|
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-damage|p2a: Tyranitar|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Ferrothorn|Protect|p1a: Ferrothorn
+|-fail|p1a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Tyranitar|94/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|62/100 par|[from] item: Leftovers
+|upkeep
+|turn|13
+|choice|move leechseed|move stealthrock
+|
+|move|p2a: Tyranitar|Stealth Rock|p1a: Ferrothorn
+|-sidestart|p1: arceus1117|move: Stealth Rock
+|move|p1a: Ferrothorn|Leech Seed|p2a: Tyranitar
+|-start|p2a: Tyranitar|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Tyranitar|100/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|68/100 par|[from] item: Leftovers
+|-damage|p2a: Tyranitar|88/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|82/100 par|[silent]
+|upkeep
+|turn|14
+|choice|move leechseed|switch 2
+|
+|switch|p2a: Gyarados|Gyarados, M|62/100
+|-damage|p2a: Gyarados|37/100|[from] Stealth Rock
+|-ability|p2a: Gyarados|Intimidate|boost
+|-unboost|p1a: Ferrothorn|atk|1
+|move|p1a: Ferrothorn|Leech Seed|p2a: Gyarados
+|-start|p2a: Gyarados|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gyarados|31/100|[from] sandstorm
+|-heal|p2a: Gyarados|37/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|88/100 par|[from] item: Leftovers
+|-damage|p2a: Gyarados|25/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|100/100 par|[silent]
+|upkeep
+|turn|15
+|choice|move protect|move waterfall
+|
+|move|p1a: Ferrothorn|Protect|p1a: Ferrothorn
+|-singleturn|p1a: Ferrothorn|Protect
+|move|p2a: Gyarados|Waterfall|p1a: Ferrothorn
+|-activate|p1a: Ferrothorn|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gyarados|18/100|[from] sandstorm
+|-heal|p2a: Gyarados|25/100|[from] item: Leftovers
+|-damage|p2a: Gyarados|12/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|upkeep
+|turn|16
+|choice|move leechseed|move waterfall
+|
+|move|p2a: Gyarados|Waterfall|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|87/100 par
+|-damage|p2a: Gyarados|0 fnt|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|faint|p2a: Gyarados
+|cant|p1a: Ferrothorn|par
+|
+|-weather|none
+|-heal|p1a: Ferrothorn|93/100 par|[from] item: Leftovers
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Thundurus|Thundurus-Therian, M|100/100
+|-damage|p2a: Thundurus|76/100|[from] Stealth Rock
+|turn|17
+|choice|move leechseed|move nastyplot
+|
+|move|p2a: Thundurus|Nasty Plot|p2a: Thundurus
+|-boost|p2a: Thundurus|spa|2
+|move|p1a: Ferrothorn|Leech Seed|p2a: Thundurus
+|-start|p2a: Thundurus|move: Leech Seed
+|
+|-heal|p2a: Thundurus|82/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|99/100 par|[from] item: Leftovers
+|-damage|p2a: Thundurus|69/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|100/100 par|[silent]
+|upkeep
+|turn|18
+|choice|move protect|move agility
+|
+|move|p1a: Ferrothorn|Protect|p1a: Ferrothorn
+|-singleturn|p1a: Ferrothorn|Protect
+|move|p2a: Thundurus|Agility|p2a: Thundurus
+|-boost|p2a: Thundurus|spe|2
+|
+|-heal|p2a: Thundurus|75/100|[from] item: Leftovers
+|-damage|p2a: Thundurus|63/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|upkeep
+|turn|19
+|choice|move gyroball|move hiddenpower
+|
+|move|p2a: Thundurus|Hidden Power|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|66/100 par
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Thundurus
+|-resisted|p2a: Thundurus
+|-damage|p2a: Thundurus|40/100
+|
+|-heal|p2a: Thundurus|46/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|73/100 par|[from] item: Leftovers
+|-damage|p2a: Thundurus|34/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|84/100 par|[silent]
+|upkeep
+|turn|20
+|c|☆lcezasfuck|Annoy as fuck
+|choice|move protect|move thunderbolt
+|
+|cant|p1a: Ferrothorn|par
+|move|p2a: Thundurus|Thunderbolt|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|41/100 par
+|
+|-heal|p2a: Thundurus|40/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|47/100 par|[from] item: Leftovers
+|-damage|p2a: Thundurus|28/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|59/100 par|[silent]
+|upkeep
+|turn|21
+|c|☆arceus1117|sorry
+|c|☆arceus1117|I'm switching it out soon
+|choice|move protect|move nastyplot
+|
+|move|p1a: Ferrothorn|Protect|p1a: Ferrothorn
+|-singleturn|p1a: Ferrothorn|Protect
+|move|p2a: Thundurus|Nasty Plot|p2a: Thundurus
+|-boost|p2a: Thundurus|spa|2
+|
+|-heal|p2a: Thundurus|34/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|65/100 par|[from] item: Leftovers
+|-damage|p2a: Thundurus|21/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|77/100 par|[silent]
+|upkeep
+|turn|22
+|choice|move gyroball|move thunderbolt
+|
+|move|p2a: Thundurus|Thunderbolt|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|11/100 par
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Thundurus
+|-resisted|p2a: Thundurus
+|-damage|p2a: Thundurus|0 fnt
+|faint|p2a: Thundurus
+|
+|-heal|p1a: Ferrothorn|18/100 par|[from] item: Leftovers
+|upkeep
+|c|☆lcezasfuck|FInally
+|choice||switch 4
+|
+|switch|p2a: Sylveon|Sylveon, M|100/100
+|-damage|p2a: Sylveon|88/100|[from] Stealth Rock
+|turn|23
+|choice|move leechseed|move shadowball
+|
+|move|p2a: Sylveon|Shadow Ball|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|faint|p1a: Ferrothorn
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Togekiss|Togekiss, M|100/100
+|-damage|p1a: Togekiss|76/100|[from] Stealth Rock
+|turn|24
+|choice|move thunderwave|switch 2
+|
+|switch|p2a: Tyranitar|Tyranitar, M|88/100
+|-damage|p2a: Tyranitar|76/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Togekiss|Thunder Wave|p2a: Tyranitar
+|-status|p2a: Tyranitar|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Togekiss|69/100|[from] sandstorm
+|-heal|p1a: Togekiss|76/100|[from] item: Leftovers
+|-heal|p2a: Tyranitar|82/100 par|[from] item: Leftovers
+|upkeep
+|turn|25
+|choice|switch 3|move pursuit
+|
+|-activate|p1a: Togekiss|move: Pursuit
+|move|p2a: Tyranitar|Pursuit|p1a: Togekiss|[from]Pursuit
+|-resisted|p1a: Togekiss
+|-damage|p1a: Togekiss|59/100
+|switch|p1a: Jirachi|Jirachi|100/100
+|-damage|p1a: Jirachi|94/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Tyranitar|88/100 par|[from] item: Leftovers
+|upkeep
+|turn|26
+|choice|move uturn|move pursuit
+|
+|move|p1a: Jirachi|U-turn|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|60/100 par
+|choice|switch 2|
+|
+|-activate|p1a: Jirachi|move: Pursuit
+|move|p2a: Tyranitar|Pursuit|p1a: Jirachi|[from]Pursuit
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|17/100
+|switch|p1a: Lopunny|Lopunny, M|100/100
+|-damage|p1a: Lopunny|88/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Lopunny|82/100|[from] sandstorm
+|-heal|p2a: Tyranitar|66/100 par|[from] item: Leftovers
+|upkeep
+|turn|27
+|choice|move highjumpkick mega|move stoneedge
+|
+|detailschange|p1a: Lopunny|Lopunny-Mega, M
+|-mega|p1a: Lopunny|Lopunny|Lopunnite
+|move|p1a: Lopunny|High Jump Kick|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Lopunny|77/100|[from] sandstorm
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Sylveon|Sylveon, M|88/100
+|-damage|p2a: Sylveon|75/100|[from] Stealth Rock
+|turn|28
+|choice|switch 5|move hypervoice
+|
+|switch|p1a: Tornadus|Tornadus-Therian, M|100/100
+|-damage|p1a: Tornadus|75/100|[from] Stealth Rock
+|move|p2a: Sylveon|Hyper Voice|p1a: Tornadus
+|-damage|p1a: Tornadus|7/100
+|
+|-weather|none
+|upkeep
+|turn|29
+|choice|move knockoff|move hypervoice
+|
+|move|p1a: Tornadus|Knock Off|p2a: Sylveon
+|-resisted|p2a: Sylveon
+|-damage|p2a: Sylveon|64/100
+|-enditem|p2a: Sylveon|Choice Specs|[from] move: Knock Off|[of] p1a: Tornadus
+|move|p2a: Sylveon|Hyper Voice|p1a: Tornadus
+|-damage|p1a: Tornadus|0 fnt
+|faint|p1a: Tornadus
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Togekiss|Togekiss, M|59/100
+|-damage|p1a: Togekiss|34/100|[from] Stealth Rock
+|turn|30
+|choice|move roost|move hypervoice
+|
+|move|p1a: Togekiss|Roost|p1a: Togekiss
+|-heal|p1a: Togekiss|84/100
+|move|p2a: Sylveon|Hyper Voice|p1a: Togekiss
+|-damage|p1a: Togekiss|47/100
+|
+|-heal|p1a: Togekiss|53/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|choice|move defog|move batonpass
+|
+|move|p1a: Togekiss|Defog|p2a: Sylveon
+|-unboost|p2a: Sylveon|evasion|1
+|-sideend|p2: lcezasfuck|Stealth Rock|[from] move: Defog|[of] p2a: Sylveon
+|-sideend|p1: arceus1117|Stealth Rock|[from] move: Defog|[of] p1a: Togekiss
+|move|p2a: Sylveon|Baton Pass|p2a: Sylveon
+|choice||switch 5
+|
+|switch|p2a: Feraligatr|Feraligatr, M|100/100
+|
+|-heal|p1a: Togekiss|59/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|choice|move airslash|move icepunch
+|
+|move|p2a: Feraligatr|Ice Punch|p1a: Togekiss
+|-supereffective|p1a: Togekiss
+|-crit|p1a: Togekiss
+|-damage|p1a: Togekiss|0 fnt
+|faint|p1a: Togekiss
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Jirachi|Jirachi|17/100
+|turn|33
+|choice|move ironhead|move dragondance
+|
+|move|p1a: Jirachi|Iron Head|p2a: Feraligatr
+|-resisted|p2a: Feraligatr
+|-damage|p2a: Feraligatr|80/100
+|move|p2a: Feraligatr|Dragon Dance|p2a: Feraligatr
+|-boost|p2a: Feraligatr|atk|1
+|-boost|p2a: Feraligatr|spe|1
+|
+|upkeep
+|turn|34
+|choice|move ironhead|move dragondance
+|
+|move|p1a: Jirachi|Iron Head|p2a: Feraligatr
+|-resisted|p2a: Feraligatr
+|-damage|p2a: Feraligatr|60/100
+|cant|p2a: Feraligatr|flinch
+|
+|upkeep
+|turn|35
+|choice|move ironhead|move dragondance
+|
+|move|p1a: Jirachi|Iron Head|p2a: Feraligatr
+|-resisted|p2a: Feraligatr
+|-damage|p2a: Feraligatr|40/100
+|move|p2a: Feraligatr|Dragon Dance|p2a: Feraligatr
+|-boost|p2a: Feraligatr|atk|1
+|-boost|p2a: Feraligatr|spe|1
+|
+|upkeep
+|turn|36
+|c|☆lcezasfuck|plz no flinch
+|c|☆lcezasfuck|yes
+|choice|move ironhead|move crunch
+|
+|move|p2a: Feraligatr|Crunch|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|0 fnt
+|faint|p1a: Jirachi
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Terrakion|Terrakion|100/100
+|turn|37
+|c|☆arceus1117|this sash though
+|c|☆lcezasfuck|346*1.5 =
+|c|☆arceus1117|bro
+|c|☆lcezasfuck|ph lol
+|c|☆lcezasfuck|oh
+|choice|move rockpolish|move waterfall
+|
+|move|p2a: Feraligatr|Waterfall|p1a: Terrakion
+|-supereffective|p1a: Terrakion
+|-damage|p1a: Terrakion|0 fnt
+|faint|p1a: Terrakion
+|
+|upkeep
+|c|☆lcezasfuck|asash?
+|c|☆arceus1117|the bluff failed
+|c|☆arceus1117|lol
+|c|☆arceus1117|curses
+|c|☆lcezasfuck|it band
+|c|☆arceus1117|Lum
+|choice|switch 5|
+|
+|switch|p1a: Lopunny|Lopunny-Mega, M|77/100
+|turn|38
+|c|☆lcezasfuck|xD
+|choice|move highjumpkick|move waterfall
+|
+|move|p2a: Feraligatr|Waterfall|p1a: Lopunny
+|-damage|p1a: Lopunny|0 fnt
+|faint|p1a: Lopunny
+|
+|win|lcezasfuck
+|raw|arceus1117's rating: 1360 &rarr; <strong>1342</strong><br />(-18 for losing)
+|raw|lcezasfuck's rating: 1384 &rarr; <strong>1403</strong><br />(+19 for winning)
+|c|☆lcezasfuck|No fake out
+|c|☆arceus1117|gg
+|c|☆lcezasfuck|gg
+|c|☆arceus1117|no
+|c|☆lcezasfuck|lol
+|c|☆arceus1117|crappy sets
+|c|☆lcezasfuck|dumb lopunny
+|c|☆arceus1117|lose again
+|c|☆lcezasfuck|gg
+|c|☆lcezasfuck|lol
+|c|☆arceus1117|gg
+|c|☆arceus1117|bro lol
+|l|arceus1117

@@ -1,0 +1,262 @@
+|j|ZeroZeroOne
+|j|Gentlemen Kaid
+|player|p1|ZeroZeroOne|261
+|player|p2|Gentlemen Kaid|35
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|60022,59557,42195,35798,38493,17132,18302,17666,41922,37084,32368,13390
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Ampharos, M|item
+|poke|p1|Pawniard, M|item
+|poke|p1|Grumpig, M|item
+|poke|p1|Tangela, M|item
+|poke|p1|Gabite, M|item
+|poke|p1|Ninjask, M|item
+|poke|p2|Armaldo, M|item
+|poke|p2|Fraxure, M|item
+|poke|p2|Simipour, M|item
+|poke|p2|Quilladin, M|item
+|poke|p2|Ampharos, M|item
+|poke|p2|Rotom-Frost|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 6, team 2, team 3, team 4, team 5, team 1|team 6, team 2, team 3, team 4, team 5, team 1
+|
+|start
+|switch|p1a: Ninjask|Ninjask, M|100/100
+|switch|p2a: Rotom|Rotom-Frost|100/100
+|turn|1
+|choice|move uturn|move substitute
+|
+|move|p1a: Ninjask|U-turn|p2a: Rotom
+|-damage|p2a: Rotom|45/100
+|choice|switch 3|
+|
+|switch|p1a: Grumpig|Grumpig, M|100/100
+|move|p2a: Rotom|Substitute|p2a: Rotom
+|-start|p2a: Rotom|Substitute
+|-damage|p2a: Rotom|20/100
+|
+|-heal|p2a: Rotom|27/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|choice|move psychic|move willowisp
+|
+|move|p2a: Rotom|Will-O-Wisp|p1a: Grumpig
+|-status|p1a: Grumpig|brn
+|move|p1a: Grumpig|Psychic|p2a: Rotom
+|-end|p2a: Rotom|Substitute
+|
+|-heal|p2a: Rotom|33/100|[from] item: Leftovers
+|-damage|p1a: Grumpig|88/100 brn|[from] brn
+|upkeep
+|turn|3
+|choice|move focusblast|switch 5
+|
+|switch|p2a: Ampharos|Ampharos, M|100/100
+|move|p1a: Grumpig|Focus Blast|p2a: Ampharos
+|-damage|p2a: Ampharos|60/100
+|
+|-damage|p1a: Grumpig|76/100 brn|[from] brn
+|upkeep
+|turn|4
+|choice|move psychic|move agility
+|
+|move|p2a: Ampharos|Agility|p2a: Ampharos
+|-boost|p2a: Ampharos|spe|2
+|move|p1a: Grumpig|Psychic|p2a: Ampharos
+|-damage|p2a: Ampharos|12/100
+|
+|-damage|p1a: Grumpig|64/100 brn|[from] brn
+|upkeep
+|turn|5
+|choice|move psychic|move thunderbolt
+|
+|move|p2a: Ampharos|Thunderbolt|p1a: Grumpig
+|-damage|p1a: Grumpig|10/100 brn
+|-damage|p2a: Ampharos|2/100|[from] item: Life Orb
+|move|p1a: Grumpig|Psychic|p2a: Ampharos
+|-damage|p2a: Ampharos|0 fnt
+|faint|p2a: Ampharos
+|
+|-damage|p1a: Grumpig|0 fnt|[from] brn
+|upkeep
+|faint|p1a: Grumpig
+|choice|switch 3|switch 6
+|
+|switch|p1a: Ninjask|Ninjask, M|100/100
+|switch|p2a: Armaldo|Armaldo, M|100/100
+|turn|6
+|choice|move uturn|move stealthrock
+|
+|move|p1a: Ninjask|U-turn|p2a: Armaldo
+|-damage|p2a: Armaldo|71/100
+|choice|switch 2|
+|
+|switch|p1a: Pawniard|Pawniard, M|100/100
+|move|p2a: Armaldo|Stealth Rock|p1a: Pawniard
+|-sidestart|p1: ZeroZeroOne|move: Stealth Rock
+|
+|-heal|p2a: Armaldo|77/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|choice|move ironhead|move knockoff
+|
+|move|p1a: Pawniard|Iron Head|p2a: Armaldo
+|-supereffective|p2a: Armaldo
+|-damage|p2a: Armaldo|28/100
+|move|p2a: Armaldo|Knock Off|p1a: Pawniard
+|-resisted|p1a: Pawniard
+|-damage|p1a: Pawniard|82/100
+|-enditem|p1a: Pawniard|Eviolite|[from] move: Knock Off|[of] p2a: Armaldo
+|
+|-heal|p2a: Armaldo|34/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|choice|move swordsdance|switch 3
+|
+|switch|p2a: Simipour|Simipour, M|100/100
+|move|p1a: Pawniard|Swords Dance|p1a: Pawniard
+|-boost|p1a: Pawniard|atk|2
+|
+|upkeep
+|turn|9
+|choice|move suckerpunch|move lowkick
+|
+|move|p1a: Pawniard|Sucker Punch|p2a: Simipour
+|-damage|p2a: Simipour|0 fnt
+|faint|p2a: Simipour
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Rotom|Rotom-Frost|33/100
+|turn|10
+|choice|move ironhead|move willowisp
+|
+|move|p2a: Rotom|Will-O-Wisp|p1a: Pawniard
+|-status|p1a: Pawniard|brn
+|move|p1a: Pawniard|Iron Head|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|-damage|p1a: Pawniard|70/100 brn|[from] brn
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Quilladin|Quilladin, M|100/100
+|turn|11
+|choice|move knockoff|move drainpunch
+|
+|move|p2a: Quilladin|Drain Punch|p1a: Pawniard
+|-supereffective|p1a: Pawniard
+|-damage|p1a: Pawniard|0 fnt
+|faint|p1a: Pawniard
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Ninjask|Ninjask, M|100/100
+|-damage|p1a: Ninjask|51/100|[from] Stealth Rock
+|turn|12
+|choice|move aerialace|switch 3
+|
+|switch|p2a: Armaldo|Armaldo, M|34/100
+|move|p1a: Ninjask|Aerial Ace|p2a: Armaldo
+|-damage|p2a: Armaldo|7/100
+|
+|-heal|p2a: Armaldo|14/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|choice|move aerialace|move stoneedge
+|
+|move|p1a: Ninjask|Aerial Ace|p2a: Armaldo
+|-damage|p2a: Armaldo|0 fnt
+|faint|p2a: Armaldo
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Fraxure|Fraxure, M|100/100
+|-ability|p2a: Fraxure|Mold Breaker
+|turn|14
+|choice|move aerialace|move dragondance
+|
+|move|p1a: Ninjask|Aerial Ace|p2a: Fraxure
+|-damage|p2a: Fraxure|57/100
+|move|p2a: Fraxure|Dragon Dance|p2a: Fraxure
+|-boost|p2a: Fraxure|atk|1
+|-boost|p2a: Fraxure|spe|1
+|
+|upkeep
+|turn|15
+|choice|move aerialace|move outrage
+|
+|move|p1a: Ninjask|Aerial Ace|p2a: Fraxure
+|-damage|p2a: Fraxure|16/100
+|move|p2a: Fraxure|Outrage|p1a: Ninjask
+|-damage|p1a: Ninjask|0 fnt
+|faint|p1a: Ninjask
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Gabite|Gabite, M|100/100
+|-damage|p1a: Gabite|94/100|[from] Stealth Rock
+|turn|16
+|choice|move outrage|move outrage
+|
+|move|p2a: Fraxure|Outrage|p1a: Gabite|[from]lockedmove
+|-supereffective|p1a: Gabite
+|-damage|p1a: Gabite|0 fnt
+|-damage|p2a: Fraxure|3/100|[from] ability: Rough Skin|[of] p1a: Gabite
+|-start|p2a: Fraxure|confusion|[fatigue]
+|faint|p1a: Gabite
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Tangela|Tangela, M|100/100
+|-damage|p1a: Tangela|88/100|[from] Stealth Rock
+|turn|17
+|choice|move gigadrain|move outrage
+|
+|-activate|p2a: Fraxure|confusion
+|move|p2a: Fraxure|Outrage|p1a: Tangela
+|-damage|p1a: Tangela|39/100
+|move|p1a: Tangela|Giga Drain|p2a: Fraxure
+|-resisted|p2a: Fraxure
+|-damage|p2a: Fraxure|0 fnt
+|-heal|p1a: Tangela|40/100|[from] drain|[of] p2a: Fraxure
+|faint|p2a: Fraxure
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Quilladin|Quilladin, M|100/100
+|turn|18
+|choice|move hiddenpower|move taunt
+|
+|move|p2a: Quilladin|Taunt|p1a: Tangela
+|-start|p1a: Tangela|move: Taunt
+|move|p1a: Tangela|Hidden Power|p2a: Quilladin
+|-supereffective|p2a: Quilladin
+|-damage|p2a: Quilladin|45/100
+|
+|upkeep
+|turn|19
+|choice|move hiddenpower|move drainpunch
+|
+|move|p2a: Quilladin|Drain Punch|p1a: Tangela
+|-damage|p1a: Tangela|27/100
+|-heal|p2a: Quilladin|53/100|[from] drain|[of] p1a: Tangela
+|move|p1a: Tangela|Hidden Power|p2a: Quilladin
+|-supereffective|p2a: Quilladin
+|-damage|p2a: Quilladin|0 fnt
+|faint|p2a: Quilladin
+|
+|win|ZeroZeroOne

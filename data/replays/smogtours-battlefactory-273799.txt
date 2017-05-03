@@ -1,0 +1,525 @@
+|J|sedertz.
+|J|imsosorrylol!!!
+|player|p1|sedertz.|260
+|player|p2|imsosorrylol!!!|20
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|48645,16566,62180,24947,46447,38800,33464,19946,40904,643,24446,51479
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Kadabra, M|item
+|poke|p1|Purugly, M|item
+|poke|p1|Ampharos, M|item
+|poke|p1|Venipede, M|item
+|poke|p1|Clefairy, M|item
+|poke|p1|Quilladin, M|item
+|poke|p2|Golem, M|item
+|poke|p2|Seaking, M|item
+|poke|p2|Roselia, M|item
+|poke|p2|Mightyena, M|item
+|poke|p2|Relicanth, M|item
+|poke|p2|Vibrava, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 4, team 2, team 3, team 1, team 5, team 6|team 4, team 2, team 3, team 1, team 5, team 6
+|
+|start
+|switch|p1a: Venipede|Venipede, M|100/100
+|switch|p2a: Mightyena|Mightyena, M|100/100
+|turn|1
+|choice|move toxicspikes|move irontail
+|
+|move|p2a: Mightyena|Iron Tail|p1a: Venipede|[miss]
+|-miss|p2a: Mightyena|p1a: Venipede
+|move|p1a: Venipede|Toxic Spikes|p2a: Mightyena
+|-sidestart|p2: imsosorrylol!!!|move: Toxic Spikes
+|
+|-ability|p1a: Venipede|Speed Boost|boost
+|-boost|p1a: Venipede|spe|1
+|upkeep
+|turn|2
+|choice|move spikes|move crunch
+|
+|move|p1a: Venipede|Spikes|p2a: Mightyena
+|-sidestart|p2: imsosorrylol!!!|Spikes
+|move|p2a: Mightyena|Crunch|p1a: Venipede
+|-damage|p1a: Venipede|5/100
+|-unboost|p1a: Venipede|def|1
+|-damage|p2a: Mightyena|91/100|[from] item: Life Orb
+|
+|-ability|p1a: Venipede|Speed Boost|boost
+|-boost|p1a: Venipede|spe|1
+|upkeep
+|turn|3
+|choice|move endeavor|move suckerpunch
+|
+|move|p2a: Mightyena|Sucker Punch|p1a: Venipede
+|-damage|p1a: Venipede|0 fnt
+|-damage|p2a: Mightyena|81/100|[from] item: Life Orb
+|faint|p1a: Venipede
+|-ability|p2a: Mightyena|Moxie|boost
+|-boost|p2a: Mightyena|atk|1
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Purugly|Purugly, M|100/100
+|turn|4
+|choice|move fakeout|move suckerpunch
+|
+|move|p1a: Purugly|Fake Out|p2a: Mightyena
+|-damage|p2a: Mightyena|47/100
+|-damage|p1a: Purugly|91/100|[from] item: Life Orb
+|cant|p2a: Mightyena|flinch
+|
+|upkeep
+|turn|5
+|choice|move return|move suckerpunch
+|
+|move|p2a: Mightyena|Sucker Punch|p1a: Purugly
+|-damage|p1a: Purugly|0 fnt
+|-damage|p2a: Mightyena|38/100|[from] item: Life Orb
+|faint|p1a: Purugly
+|-ability|p2a: Mightyena|Moxie|boost
+|-boost|p2a: Mightyena|atk|1
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Kadabra|Kadabra, M|100/100
+|turn|6
+|choice|move encore|move suckerpunch
+|
+|move|p2a: Mightyena|Sucker Punch|p1a: Kadabra|[still]
+|-fail|p2a: Mightyena
+|move|p1a: Kadabra|Encore|p2a: Mightyena
+|-start|p2a: Mightyena|Encore
+|
+|upkeep
+|turn|7
+|choice|switch 5|switch 6
+|
+|switch|p1a: Clefairy|Clefairy, M|100/100
+|switch|p2a: Vibrava|Vibrava, M|100/100
+|
+|upkeep
+|turn|8
+|choice|move moonblast|move defog
+|
+|move|p2a: Vibrava|Defog|p1a: Clefairy
+|-unboost|p1a: Clefairy|evasion|1
+|-sideend|p2: imsosorrylol!!!|Spikes|[from] move: Defog|[of] p2a: Vibrava
+|-sideend|p2: imsosorrylol!!!|Toxic Spikes|[from] move: Defog|[of] p2a: Vibrava
+|move|p1a: Clefairy|Moonblast|p2a: Vibrava
+|-supereffective|p2a: Vibrava
+|-damage|p2a: Vibrava|65/100
+|
+|upkeep
+|turn|9
+|choice|move stealthrock|switch 3
+|
+|switch|p2a: Roselia|Roselia, M|100/100
+|move|p1a: Clefairy|Stealth Rock|p2a: Roselia
+|-sidestart|p2: imsosorrylol!!!|move: Stealth Rock
+|
+|upkeep
+|turn|10
+|choice|switch 6|move sludgebomb
+|
+|switch|p1a: Quilladin|Quilladin, M|100/100
+|move|p2a: Roselia|Sludge Bomb|p1a: Quilladin
+|-immune|p1a: Quilladin|[msg]|[from] ability: Bulletproof
+|
+|upkeep
+|turn|11
+|choice|move spikes|move spikes
+|
+|move|p1a: Quilladin|Spikes|p2a: Roselia
+|-sidestart|p2: imsosorrylol!!!|Spikes
+|move|p2a: Roselia|Spikes|p1a: Quilladin
+|-sidestart|p1: sedertz.|Spikes
+|
+|upkeep
+|turn|12
+|choice|move taunt|move gigadrain
+|
+|move|p1a: Quilladin|Taunt|p2a: Roselia
+|-start|p2a: Roselia|move: Taunt
+|move|p2a: Roselia|Giga Drain|p1a: Quilladin
+|-resisted|p1a: Quilladin
+|-damage|p1a: Quilladin|78/100
+|
+|upkeep
+|turn|13
+|choice|move woodhammer|move hiddenpower
+|
+|move|p1a: Quilladin|Wood Hammer|p2a: Roselia
+|-resisted|p2a: Roselia
+|-damage|p2a: Roselia|81/100
+|-damage|p1a: Quilladin|72/100|[from] recoil|[of] p2a: Roselia
+|move|p2a: Roselia|Hidden Power|p1a: Quilladin
+|-damage|p1a: Quilladin|46/100
+|
+|upkeep
+|turn|14
+|choice|move zenheadbutt|move gigadrain
+|
+|move|p1a: Quilladin|Zen Headbutt|p2a: Roselia
+|-supereffective|p2a: Roselia
+|-damage|p2a: Roselia|9/100
+|move|p2a: Roselia|Giga Drain|p1a: Quilladin
+|-resisted|p1a: Quilladin
+|-damage|p1a: Quilladin|23/100
+|-heal|p2a: Roselia|21/100|[from] drain|[of] p1a: Quilladin
+|
+|-end|p2a: Roselia|move: Taunt
+|upkeep
+|turn|15
+|choice|move zenheadbutt|switch 4
+|
+|switch|p2a: Golem|Golem, M|100/100
+|-damage|p2a: Golem|95/100|[from] Stealth Rock
+|-damage|p2a: Golem|82/100|[from] Spikes
+|move|p1a: Quilladin|Zen Headbutt|p2a: Golem
+|-damage|p2a: Golem|65/100
+|
+|upkeep
+|turn|16
+|choice|move woodhammer|move suckerpunch
+|
+|move|p2a: Golem|Sucker Punch|p1a: Quilladin
+|-damage|p1a: Quilladin|0 fnt
+|faint|p1a: Quilladin
+|
+|upkeep
+|c|☆imsosorrylol!!!|bop
+|choice|switch 3|
+|
+|switch|p1a: Ampharos|Ampharos, M|100/100
+|-damage|p1a: Ampharos|88/100|[from] Spikes
+|turn|17
+|choice|move focusblast|move earthquake
+|
+|move|p1a: Ampharos|Focus Blast|p2a: Golem
+|-supereffective|p2a: Golem
+|-crit|p2a: Golem
+|-damage|p2a: Golem|0 fnt
+|-damage|p1a: Ampharos|78/100|[from] item: Life Orb
+|faint|p2a: Golem
+|
+|upkeep
+|c|☆imsosorrylol!!!|,
+|c|☆imsosorrylol!!!|,
+|c|☆imsosorrylol!!!|,
+|c|☆imsosorrylol!!!|,
+|c|☆imsosorrylol!!!|,
+|c|☆imsosorrylol!!!|,
+|c|☆imsosorrylol!!!|,
+|c|☆imsosorrylol!!!|,
+|c|☆imsosorrylol!!!|,
+|c|☆imsosorrylol!!!|,
+|c|☆imsosorrylol!!!|,
+|c|☆imsosorrylol!!!|,
+|c|☆imsosorrylol!!!|IM
+|c|☆sedertz.|that doesnt matter
+|c|☆imsosorrylol!!!|AV
+|c|☆imsosorrylol!!!|U FSUCKING
+|c|☆sedertz.|u horse
+|c|☆imsosorrylol!!!|HORSE
+|c|☆sedertz.|no ur
+|c|☆sedertz.|not
+|c|☆imsosorrylol!!!|U DONT KILL
+|c|☆sedertz.|horse
+|c|☆imsosorrylol!!!|AV
+|c|☆imsosorrylol!!!|UR SO BAD
+|choice||switch 3
+|
+|switch|p2a: Vibrava|Vibrava, M|65/100
+|-damage|p2a: Vibrava|59/100|[from] Stealth Rock
+|turn|18
+|c|☆sedertz.|mhm
+|choice|move hiddenpower|move defog
+|
+|move|p1a: Ampharos|Hidden Power|p2a: Vibrava
+|-supereffective|p2a: Vibrava
+|-damage|p2a: Vibrava|0 fnt
+|-damage|p1a: Ampharos|68/100|[from] item: Life Orb
+|faint|p2a: Vibrava
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Seaking|Seaking, M|100/100
+|-damage|p2a: Seaking|88/100|[from] Stealth Rock
+|-damage|p2a: Seaking|76/100|[from] Spikes
+|turn|19
+|choice|move agility|move knockoff
+|
+|move|p1a: Ampharos|Agility|p1a: Ampharos
+|-boost|p1a: Ampharos|spe|2
+|move|p2a: Seaking|Knock Off|p1a: Ampharos
+|-damage|p1a: Ampharos|34/100
+|-enditem|p1a: Ampharos|Life Orb|[from] move: Knock Off|[of] p2a: Seaking
+|
+|-heal|p2a: Seaking|82/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|choice|move thunderbolt|move protect
+|
+|move|p2a: Seaking|Protect|p2a: Seaking
+|-singleturn|p2a: Seaking|Protect
+|move|p1a: Ampharos|Thunderbolt|p2a: Seaking
+|-activate|p2a: Seaking|move: Protect
+|
+|-heal|p2a: Seaking|88/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|choice|move thunderbolt|move waterfall
+|
+|move|p1a: Ampharos|Thunderbolt|p2a: Seaking
+|-ability|p2a: Seaking|Lightning Rod|boost
+|-boost|p2a: Seaking|spa|1
+|move|p2a: Seaking|Waterfall|p1a: Ampharos
+|-damage|p1a: Ampharos|0 fnt
+|-status|p2a: Seaking|par|[from] ability: Static|[of] p1a: Ampharos
+|faint|p1a: Ampharos
+|
+|-heal|p2a: Seaking|94/100 par|[from] item: Leftovers
+|upkeep
+|c|☆imsosorrylol!!!|LOL
+|c|☆imsosorrylol!!!|BAD PLAYER
+|c|☆imsosorrylol!!!|ALERT
+|c|☆imsosorrylol!!!|LOL
+|J|T be stuntin
+|choice|switch 6|
+|
+|switch|p1a: Clefairy|Clefairy, M|100/100
+|turn|22
+|choice|move moonblast|move knockoff
+|
+|move|p1a: Clefairy|Moonblast|p2a: Seaking
+|-damage|p2a: Seaking|66/100 par
+|-unboost|p2a: Seaking|spa|1
+|move|p2a: Seaking|Knock Off|p1a: Clefairy
+|-resisted|p1a: Clefairy
+|-damage|p1a: Clefairy|85/100
+|-enditem|p1a: Clefairy|Eviolite|[from] move: Knock Off|[of] p2a: Seaking
+|
+|-heal|p2a: Seaking|72/100 par|[from] item: Leftovers
+|upkeep
+|turn|23
+|choice|move softboiled|move waterfall
+|
+|move|p1a: Clefairy|Soft-Boiled|p1a: Clefairy
+|-heal|p1a: Clefairy|100/100
+|move|p2a: Seaking|Waterfall|p1a: Clefairy
+|-damage|p1a: Clefairy|41/100
+|
+|-heal|p2a: Seaking|78/100 par|[from] item: Leftovers
+|upkeep
+|turn|24
+|choice|move softboiled|move waterfall
+|
+|move|p1a: Clefairy|Soft-Boiled|p1a: Clefairy
+|-heal|p1a: Clefairy|91/100
+|cant|p2a: Seaking|par
+|
+|-heal|p2a: Seaking|84/100 par|[from] item: Leftovers
+|upkeep
+|turn|25
+|choice|move moonblast|move protect
+|
+|cant|p2a: Seaking|par
+|move|p1a: Clefairy|Moonblast|p2a: Seaking
+|-damage|p2a: Seaking|59/100 par
+|-unboost|p2a: Seaking|spa|1
+|
+|-heal|p2a: Seaking|65/100 par|[from] item: Leftovers
+|upkeep
+|turn|26
+|choice|move moonblast|switch 4
+|
+|switch|p2a: Roselia|Roselia, M|21/100
+|-damage|p2a: Roselia|8/100|[from] Stealth Rock
+|-damage|p2a: Roselia|0 fnt|[from] Spikes
+|faint|p2a: Roselia
+|move|p1a: Clefairy|Moonblast|p2: Roselia|[notarget]
+|-notarget
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Relicanth|Relicanth, M|100/100
+|-damage|p2a: Relicanth|88/100|[from] Stealth Rock
+|-damage|p2a: Relicanth|76/100|[from] Spikes
+|turn|27
+|choice|move moonblast|move rockpolish
+|
+|move|p2a: Relicanth|Rock Polish|p2a: Relicanth
+|-boost|p2a: Relicanth|spe|2
+|move|p1a: Clefairy|Moonblast|p2a: Relicanth
+|-damage|p2a: Relicanth|47/100
+|-unboost|p2a: Relicanth|spa|1
+|
+|upkeep
+|turn|28
+|choice|move thunderwave|move headsmash
+|
+|move|p2a: Relicanth|Head Smash|p1a: Clefairy
+|-damage|p1a: Clefairy|0 fnt
+|faint|p1a: Clefairy
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Kadabra|Kadabra, M|100/100
+|turn|29
+|c|☆imsosorrylol!!!|e
+|c|☆imsosorrylol!!!|z
+|choice|move psychic|move waterfall
+|
+|move|p2a: Relicanth|Waterfall|p1a: Kadabra
+|-enditem|p1a: Kadabra|Focus Sash
+|-damage|p1a: Kadabra|1/100
+|move|p1a: Kadabra|Psychic|p2a: Relicanth
+|-damage|p2a: Relicanth|0 fnt
+|faint|p2a: Relicanth
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Seaking|Seaking, M|65/100 par
+|-damage|p2a: Seaking|53/100 par|[from] Spikes
+|-damage|p2a: Seaking|41/100 par|[from] Stealth Rock
+|turn|30
+|choice|move psychic|move protect
+|
+|move|p2a: Seaking|Protect|p2a: Seaking
+|-singleturn|p2a: Seaking|Protect
+|move|p1a: Kadabra|Psychic|p2a: Seaking
+|-activate|p2a: Seaking|move: Protect
+|
+|-heal|p2a: Seaking|47/100 par|[from] item: Leftovers
+|upkeep
+|turn|31
+|choice|move encore|move knockoff
+|
+|move|p1a: Kadabra|Encore|p2a: Seaking
+|-start|p2a: Seaking|Encore
+|move|p2a: Seaking|Protect|p2a: Seaking
+|-fail|p2a: Seaking
+|
+|-heal|p2a: Seaking|53/100 par|[from] item: Leftovers
+|upkeep
+|turn|32
+|choice|move psychic|move protect
+|
+|move|p2a: Seaking|Protect|p2a: Seaking
+|-singleturn|p2a: Seaking|Protect
+|move|p1a: Kadabra|Psychic|p2a: Seaking
+|-activate|p2a: Seaking|move: Protect
+|
+|-heal|p2a: Seaking|59/100 par|[from] item: Leftovers
+|upkeep
+|turn|33
+|choice|move psychic|move protect
+|
+|cant|p2a: Seaking|par
+|move|p1a: Kadabra|Psychic|p2a: Seaking
+|-damage|p2a: Seaking|3/100 par
+|
+|-heal|p2a: Seaking|9/100 par|[from] item: Leftovers
+|-end|p2a: Seaking|Encore
+|upkeep
+|turn|34
+|choice|move encore|move knockoff
+|
+|move|p1a: Kadabra|Encore|p2a: Seaking
+|-start|p2a: Seaking|Encore
+|move|p2a: Seaking|Protect|p2a: Seaking
+|-fail|p2a: Seaking
+|
+|-heal|p2a: Seaking|15/100 par|[from] item: Leftovers
+|upkeep
+|turn|35
+|choice|move psychic|move protect
+|
+|move|p2a: Seaking|Protect|p2a: Seaking
+|-singleturn|p2a: Seaking|Protect
+|move|p1a: Kadabra|Psychic|p2a: Seaking
+|-activate|p2a: Seaking|move: Protect
+|
+|-heal|p2a: Seaking|21/100 par|[from] item: Leftovers
+|upkeep
+|turn|36
+|choice|move psychic|move protect
+|
+|cant|p2a: Seaking|par
+|move|p1a: Kadabra|Psychic|p2a: Seaking
+|-damage|p2a: Seaking|0 fnt
+|faint|p2a: Seaking
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Mightyena|Mightyena, M|38/100
+|-damage|p2a: Mightyena|26/100|[from] Spikes
+|-damage|p2a: Mightyena|13/100|[from] Stealth Rock
+|turn|37
+|choice|move encore|move suckerpunch
+|
+|move|p2a: Mightyena|Sucker Punch|p1a: Kadabra|[still]
+|-fail|p2a: Mightyena
+|move|p1a: Kadabra|Encore|p2a: Mightyena
+|-start|p2a: Mightyena|Encore
+|
+|upkeep
+|turn|38
+|choice|move encore|move suckerpunch
+|
+|move|p2a: Mightyena|Sucker Punch|p1a: Kadabra|[still]
+|-fail|p2a: Mightyena
+|move|p1a: Kadabra|Encore|p2a: Mightyena
+|-fail|p2a: Mightyena
+|
+|upkeep
+|turn|39
+|choice|move encore|move suckerpunch
+|
+|move|p2a: Mightyena|Sucker Punch|p1a: Kadabra|[still]
+|-fail|p2a: Mightyena
+|move|p1a: Kadabra|Encore|p2a: Mightyena
+|-fail|p2a: Mightyena
+|
+|upkeep
+|turn|40
+|choice|move encore|move suckerpunch
+|
+|move|p2a: Mightyena|Sucker Punch|p1a: Kadabra|[still]
+|-fail|p2a: Mightyena
+|move|p1a: Kadabra|Encore|p2a: Mightyena
+|-fail|p2a: Mightyena
+|
+|-end|p2a: Mightyena|Encore
+|upkeep
+|turn|41
+|choice|move encore|move crunch
+|
+|move|p1a: Kadabra|Encore|p2a: Mightyena
+|-start|p2a: Mightyena|Encore
+|move|p2a: Mightyena|Sucker Punch|p1a: Kadabra|[still]
+|-fail|p2a: Mightyena
+|
+|-end|p2a: Mightyena|Encore
+|upkeep
+|turn|42
+|choice|move shadowball|move crunch
+|
+|move|p1a: Kadabra|Shadow Ball|p2a: Mightyena
+|-resisted|p2a: Mightyena
+|-damage|p2a: Mightyena|0 fnt
+|faint|p2a: Mightyena
+|
+|win|sedertz.

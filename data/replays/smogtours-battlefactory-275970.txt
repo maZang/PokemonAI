@@ -1,0 +1,194 @@
+|J|H.M.N.I.P ❤
+|J|sSantu ♠
+|player|p1|H.M.N.I.P ❤|1
+|player|p2|sSantu ♠|52
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|45851,49455,62976,16965,64120,27040,36742,22391,3512,15835,14462,61108
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Electivire, M|item
+|poke|p1|Mawile, M|item
+|poke|p1|Cacturne, M|item
+|poke|p1|Hitmonchan, M|item
+|poke|p1|Malamar, M|item
+|poke|p1|Clefairy, M|item
+|poke|p2|Abomasnow, M|item
+|poke|p2|Beheeyem, M|item
+|poke|p2|Hitmonchan, M|item
+|poke|p2|Ferroseed, M|item
+|poke|p2|Magmortar, M|item
+|poke|p2|Carracosta, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 2, team 1, team 3, team 4, team 5, team 6|team 4, team 2, team 3, team 1, team 5, team 6
+|
+|start
+|switch|p1a: Mawile|Mawile, M|100/100
+|switch|p2a: Ferroseed|Ferroseed, M|100/100
+|turn|1
+|choice|move fireblast|switch 5
+|
+|switch|p2a: Magmortar|Magmortar, M|100/100
+|move|p1a: Mawile|Fire Blast|p2a: Magmortar
+|-resisted|p2a: Magmortar
+|-damage|p2a: Magmortar|85/100
+|
+|upkeep
+|turn|2
+|choice|switch 6|move fireblast
+|
+|switch|p1a: Clefairy|Clefairy, M|100/100
+|move|p2a: Magmortar|Fire Blast|p1a: Clefairy
+|-damage|p1a: Clefairy|53/100
+|-damage|p2a: Magmortar|75/100|[from] item: Life Orb
+|
+|upkeep
+|turn|3
+|choice|move softboiled|switch 5
+|
+|switch|p2a: Ferroseed|Ferroseed, M|100/100
+|move|p1a: Clefairy|Soft-Boiled|p1a: Clefairy
+|-heal|p1a: Clefairy|100/100
+|
+|upkeep
+|turn|4
+|choice|move stealthrock|move thunderwave
+|
+|move|p1a: Clefairy|Stealth Rock|p2a: Ferroseed
+|-sidestart|p2: sSantu ♠|move: Stealth Rock
+|move|p2a: Ferroseed|Thunder Wave|p1a: Clefairy
+|-status|p1a: Clefairy|par
+|
+|upkeep
+|turn|5
+|choice|switch 2|move stealthrock
+|
+|switch|p1a: Electivire|Electivire, M|100/100
+|move|p2a: Ferroseed|Stealth Rock|p1a: Electivire
+|-sidestart|p1: H.M.N.I.P ❤|move: Stealth Rock
+|
+|upkeep
+|turn|6
+|choice|move wildcharge|switch 5
+|
+|switch|p2a: Magmortar|Magmortar, M|75/100
+|-damage|p2a: Magmortar|51/100|[from] Stealth Rock
+|move|p1a: Electivire|Wild Charge|p2a: Magmortar
+|-damage|p2a: Magmortar|0 fnt
+|-damage|p1a: Electivire|88/100|[from] recoil|[of] p2a: Magmortar
+|-damage|p1a: Electivire|78/100|[from] item: Life Orb
+|faint|p2a: Magmortar
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Beheeyem|Beheeyem, M|100/100
+|-damage|p2a: Beheeyem|88/100|[from] Stealth Rock
+|turn|7
+|choice|move wildcharge|move psychic
+|
+|move|p1a: Electivire|Wild Charge|p2a: Beheeyem
+|-damage|p2a: Beheeyem|14/100
+|-damage|p1a: Electivire|55/100|[from] recoil|[of] p2a: Beheeyem
+|-damage|p1a: Electivire|45/100|[from] item: Life Orb
+|move|p2a: Beheeyem|Psychic|p1a: Electivire
+|-damage|p1a: Electivire|0 fnt
+|-damage|p2a: Beheeyem|4/100|[from] item: Life Orb
+|faint|p1a: Electivire
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Malamar|Malamar, M|100/100
+|-damage|p1a: Malamar|88/100|[from] Stealth Rock
+|turn|8
+|choice|move superpower|move hiddenpower
+|
+|move|p1a: Malamar|Superpower|p2a: Beheeyem
+|-resisted|p2a: Beheeyem
+|-damage|p2a: Beheeyem|0 fnt
+|-boost|p1a: Malamar|atk|1
+|-boost|p1a: Malamar|def|1
+|faint|p2a: Beheeyem
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Hitmonchan|Hitmonchan, M|100/100
+|-damage|p2a: Hitmonchan|94/100|[from] Stealth Rock
+|turn|9
+|choice|move superpower|move closecombat
+|
+|move|p1a: Malamar|Superpower|p2a: Hitmonchan
+|-damage|p2a: Hitmonchan|9/100
+|-boost|p1a: Malamar|atk|1
+|-boost|p1a: Malamar|def|1
+|move|p2a: Hitmonchan|Close Combat|p1a: Malamar
+|-damage|p1a: Malamar|41/100
+|-unboost|p2a: Hitmonchan|def|1
+|-unboost|p2a: Hitmonchan|spd|1
+|-damage|p2a: Hitmonchan|0 fnt|[from] item: Life Orb
+|faint|p2a: Hitmonchan
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Ferroseed|Ferroseed, M|100/100
+|-damage|p2a: Ferroseed|94/100|[from] Stealth Rock
+|turn|10
+|choice|move superpower|move thunderwave
+|
+|move|p1a: Malamar|Superpower|p2a: Ferroseed
+|-supereffective|p2a: Ferroseed
+|-damage|p2a: Ferroseed|0 fnt
+|-damage|p1a: Malamar|28/100|[from] ability: Iron Barbs|[of] p2a: Ferroseed
+|-boost|p1a: Malamar|atk|1
+|-boost|p1a: Malamar|def|1
+|faint|p2a: Ferroseed
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Abomasnow|Abomasnow, M|100/100
+|-damage|p2a: Abomasnow|76/100|[from] Stealth Rock
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Abomasnow
+|turn|11
+|choice|move superpower|move iceshard
+|
+|move|p2a: Abomasnow|Ice Shard|p1a: Malamar
+|-damage|p1a: Malamar|18/100
+|-damage|p2a: Abomasnow|66/100|[from] item: Life Orb
+|move|p1a: Malamar|Superpower|p2a: Abomasnow
+|-supereffective|p2a: Abomasnow
+|-damage|p2a: Abomasnow|0 fnt
+|-boost|p1a: Malamar|atk|1
+|-boost|p1a: Malamar|def|1
+|faint|p2a: Abomasnow
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Malamar|12/100|[from] hail
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Carracosta|Carracosta, M|100/100
+|-damage|p2a: Carracosta|88/100|[from] Stealth Rock
+|turn|12
+|c|☆H.M.N.I.P ❤|Scarf
+|c|☆H.M.N.I.P ❤|Malamar
+|c|☆H.M.N.I.P ❤|the king.
+|choice|move superpower|move aquajet
+|
+|move|p2a: Carracosta|Aqua Jet|p1a: Malamar
+|-damage|p1a: Malamar|2/100
+|-damage|p2a: Carracosta|78/100|[from] item: Life Orb
+|move|p1a: Malamar|Superpower|p2a: Carracosta
+|-supereffective|p2a: Carracosta
+|-damage|p2a: Carracosta|0 fnt
+|-boost|p1a: Malamar|atk|1
+|-boost|p1a: Malamar|def|1
+|faint|p2a: Carracosta
+|
+|win|H.M.N.I.P ❤

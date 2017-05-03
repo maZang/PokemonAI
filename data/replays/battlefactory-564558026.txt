@@ -1,0 +1,191 @@
+|j|arceus1117
+|j|DxD_Hunter
+|player|p1|arceus1117|99
+|player|p2|DxD_Hunter|200
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|64389,16048,32859,30792,30443,8408,25806,51679,8512,28338,13199,36646
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Swampert, M|item
+|poke|p1|Crobat, M|item
+|poke|p1|Scrafty, M|item
+|poke|p1|Haxorus, M|item
+|poke|p1|Sharpedo, M|item
+|poke|p1|Heliolisk, M|item
+|poke|p2|Abomasnow, M|item
+|poke|p2|Goodra, M|item
+|poke|p2|Milotic, M|item
+|poke|p2|Cobalion|item
+|poke|p2|Gligar, M|item
+|poke|p2|Shaymin|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 1, team 2, team 3, team 4, team 5, team 6|team 1, team 2, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Swampert|Swampert, M|100/100
+|switch|p2a: Abomasnow|Abomasnow, M|100/100
+|turn|1
+|choice|switch 2|move blizzard mega
+|
+|switch|p1a: Crobat|Crobat, M|100/100
+|detailschange|p2a: Abomasnow|Abomasnow-Mega, M
+|-mega|p2a: Abomasnow|Abomasnow|Abomasite
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Abomasnow
+|move|p2a: Abomasnow|Blizzard|p1a: Crobat
+|-supereffective|p1a: Crobat
+|-damage|p1a: Crobat|0 fnt
+|faint|p1a: Crobat
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Scrafty|Scrafty, M|100/100
+|turn|2
+|l|DxD_Hunter
+|player|p2|
+|j|DxD_Hunter
+|player|p2|DxD_Hunter|200
+|choice|move dragondance|switch 3
+|
+|switch|p2a: Milotic|Milotic, M|100/100
+|move|p1a: Scrafty|Dragon Dance|p1a: Scrafty
+|-boost|p1a: Scrafty|atk|1
+|-boost|p1a: Scrafty|spe|1
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Scrafty|95/100|[from] hail
+|-damage|p2a: Milotic|94/100|[from] hail
+|-heal|p2a: Milotic|100/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|choice|move knockoff|move haze
+|
+|move|p1a: Scrafty|Knock Off|p2a: Milotic
+|-damage|p2a: Milotic|26/100
+|-enditem|p2a: Milotic|Leftovers|[from] move: Knock Off|[of] p1a: Scrafty
+|-damage|p1a: Scrafty|85/100|[from] item: Life Orb
+|move|p2a: Milotic|Haze|p2a: Milotic
+|-clearallboost
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Scrafty|79/100|[from] hail
+|-damage|p2a: Milotic|20/100|[from] hail
+|upkeep
+|turn|4
+|choice|move dragondance|move recover
+|
+|move|p1a: Scrafty|Dragon Dance|p1a: Scrafty
+|-boost|p1a: Scrafty|atk|1
+|-boost|p1a: Scrafty|spe|1
+|move|p2a: Milotic|Recover|p2a: Milotic
+|-heal|p2a: Milotic|70/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Scrafty|73/100|[from] hail
+|-damage|p2a: Milotic|64/100|[from] hail
+|upkeep
+|turn|5
+|choice|move drainpunch|move scald
+|
+|move|p1a: Scrafty|Drain Punch|p2a: Milotic
+|-damage|p2a: Milotic|6/100
+|-heal|p1a: Scrafty|100/100|[from] drain|[of] p2a: Milotic
+|-damage|p1a: Scrafty|91/100|[from] item: Life Orb
+|move|p2a: Milotic|Scald|p1a: Scrafty
+|-damage|p1a: Scrafty|62/100
+|-status|p1a: Scrafty|brn
+|
+|-weather|none
+|-damage|p1a: Scrafty|50/100 brn|[from] brn
+|upkeep
+|turn|6
+|choice|move knockoff|move haze
+|
+|move|p1a: Scrafty|Knock Off|p2a: Milotic
+|-damage|p2a: Milotic|0 fnt
+|-damage|p1a: Scrafty|40/100 brn|[from] item: Life Orb
+|faint|p2a: Milotic
+|-ability|p1a: Scrafty|Moxie|boost
+|-boost|p1a: Scrafty|atk|1
+|
+|-damage|p1a: Scrafty|27/100 brn|[from] brn
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Shaymin|Shaymin|100/100
+|turn|7
+|choice|move drainpunch|move airslash
+|
+|move|p1a: Scrafty|Drain Punch|p2a: Shaymin
+|-damage|p2a: Shaymin|59/100
+|-heal|p1a: Scrafty|54/100 brn|[from] drain|[of] p2a: Shaymin
+|-damage|p1a: Scrafty|44/100 brn|[from] item: Life Orb
+|move|p2a: Shaymin|Air Slash|p1a: Scrafty
+|-supereffective|p1a: Scrafty
+|-damage|p1a: Scrafty|0 fnt
+|-damage|p2a: Shaymin|49/100|[from] item: Life Orb
+|faint|p1a: Scrafty
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Heliolisk|Heliolisk, M|100/100
+|turn|8
+|choice|move hiddenpower|switch 2
+|
+|switch|p2a: Goodra|Goodra, M|100/100
+|move|p1a: Heliolisk|Hidden Power|p2a: Goodra
+|-supereffective|p2a: Goodra
+|-damage|p2a: Goodra|67/100
+|
+|upkeep
+|turn|9
+|choice|switch 2|move dracometeor
+|
+|switch|p1a: Swampert|Swampert, M|100/100
+|move|p2a: Goodra|Draco Meteor|p1a: Swampert
+|-crit|p1a: Swampert
+|-damage|p1a: Swampert|0 fnt
+|-unboost|p2a: Goodra|spa|2
+|-damage|p2a: Goodra|57/100|[from] item: Life Orb
+|faint|p1a: Swampert
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Sharpedo|Sharpedo, M|100/100
+|turn|10
+|choice|move protect|move dracometeor
+|
+|move|p1a: Sharpedo|Protect|p1a: Sharpedo
+|-singleturn|p1a: Sharpedo|Protect
+|move|p2a: Goodra|Draco Meteor|p1a: Sharpedo
+|-activate|p1a: Sharpedo|move: Protect
+|
+|-ability|p1a: Sharpedo|Speed Boost|boost
+|-boost|p1a: Sharpedo|spe|1
+|upkeep
+|turn|11
+|choice|move icefang|move dracometeor
+|
+|move|p1a: Sharpedo|Ice Fang|p2a: Goodra
+|-supereffective|p2a: Goodra
+|-damage|p2a: Goodra|2/100
+|move|p2a: Goodra|Draco Meteor|p1a: Sharpedo
+|-damage|p1a: Sharpedo|0 fnt
+|-unboost|p2a: Goodra|spa|2
+|-damage|p2a: Goodra|0 fnt|[from] item: Life Orb
+|faint|p1a: Sharpedo
+|faint|p2a: Goodra
+|
+|upkeep
+|-message|arceus1117 forfeited.
+|
+|win|DxD_Hunter
+|l|arceus1117

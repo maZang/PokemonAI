@@ -1,0 +1,502 @@
+|j|namanluvs
+|j|zCoby
+|player|p1|namanluvs|101
+|player|p2|zCoby|102
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|34452,32654,22494,25802,62174,94,19763,3727,10185,36702,53098,11483
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Registeel|item
+|poke|p1|Dugtrio, M|item
+|poke|p1|Scrafty, M|item
+|poke|p1|Roselia, M|item
+|poke|p1|Banette, M|item
+|poke|p1|Hitmontop, M|item
+|poke|p2|Golbat, M|item
+|poke|p2|Venusaur, M|item
+|poke|p2|Sneasel, M|item
+|poke|p2|Spiritomb, M|item
+|poke|p2|Druddigon, M|item
+|poke|p2|Diancie|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|c|☆namanluvs|phat 3-0 I hope
+|c|☆zCoby|possibly
+|choice|team 3, team 2, team 1, team 4, team 5, team 6|team 6, team 2, team 3, team 4, team 5, team 1
+|
+|start
+|switch|p1a: Scrafty|Scrafty, M|100/100
+|switch|p2a: Diancie|Diancie|100/100
+|-ability|p1a: Scrafty|Intimidate|boost
+|-fail|p2a: Diancie|unboost|[from] ability: Clear Body|[of] p2a: Diancie
+|turn|1
+|c|☆namanluvs|it should say the tier at the beg of every bat fac game
+|choice|switch 2|move calmmind
+|
+|switch|p1a: Dugtrio|Dugtrio, M|100/100
+|move|p2a: Diancie|Calm Mind|p2a: Diancie
+|-boost|p2a: Diancie|spa|1
+|-boost|p2a: Diancie|spd|1
+|
+|upkeep
+|turn|2
+|choice|move earthquake|move moonblast
+|
+|move|p1a: Dugtrio|Earthquake|p2a: Diancie
+|-supereffective|p2a: Diancie
+|-damage|p2a: Diancie|35/100
+|-damage|p1a: Dugtrio|91/100|[from] item: Life Orb
+|move|p2a: Diancie|Moonblast|p1a: Dugtrio
+|-damage|p1a: Dugtrio|0 fnt
+|faint|p1a: Dugtrio
+|
+|-heal|p2a: Diancie|42/100|[from] item: Leftovers
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Banette|Banette, M|100/100
+|turn|3
+|choice|move gunkshot mega|move rest
+|
+|detailschange|p1a: Banette|Banette-Mega, M
+|-mega|p1a: Banette|Banette|Banettite
+|move|p1a: Banette|Gunk Shot|p2a: Diancie
+|-damage|p2a: Diancie|9/100
+|move|p2a: Diancie|Rest|p2a: Diancie
+|-status|p2a: Diancie|slp
+|-heal|p2a: Diancie|100/100 slp|[silent]
+|-status|p2a: Diancie|slp|[from] move: Rest
+|
+|upkeep
+|turn|4
+|c|☆namanluvs|buggga
+|choice|move knockoff|move sleeptalk
+|
+|move|p1a: Banette|Knock Off|p2a: Diancie
+|-resisted|p2a: Diancie
+|-crit|p2a: Diancie
+|-damage|p2a: Diancie|81/100 slp
+|-enditem|p2a: Diancie|Leftovers|[from] move: Knock Off|[of] p1a: Banette
+|cant|p2a: Diancie|slp
+|move|p2a: Diancie|Sleep Talk|p2a: Diancie
+|move|p2a: Diancie|Calm Mind|p2a: Diancie|[from]Sleep Talk
+|-boost|p2a: Diancie|spa|1
+|-boost|p2a: Diancie|spd|1
+|
+|upkeep
+|turn|5
+|c|☆namanluvs|interesting set
+|choice|move gunkshot|move sleeptalk
+|
+|move|p1a: Banette|Gunk Shot|p2a: Diancie
+|-damage|p2a: Diancie|47/100 slp
+|cant|p2a: Diancie|slp
+|move|p2a: Diancie|Sleep Talk|p2a: Diancie
+|move|p2a: Diancie|Rest|p2a: Diancie|[from]Sleep Talk
+|-fail|p2a: Diancie
+|
+|upkeep
+|turn|6
+|c|☆zCoby|gonna calm mind tbh
+|choice|move gunkshot|move rest
+|
+|move|p1a: Banette|Gunk Shot|p2a: Diancie|[miss]
+|-miss|p1a: Banette|p2a: Diancie
+|-curestatus|p2a: Diancie|slp|[msg]
+|move|p2a: Diancie|Rest|p2a: Diancie
+|-status|p2a: Diancie|slp
+|-heal|p2a: Diancie|100/100 slp|[silent]
+|-status|p2a: Diancie|slp|[from] move: Rest
+|
+|upkeep
+|turn|7
+|c|☆namanluvs|bugga
+|choice|move gunkshot|move sleeptalk
+|
+|move|p1a: Banette|Gunk Shot|p2a: Diancie
+|-damage|p2a: Diancie|68/100 slp
+|cant|p2a: Diancie|slp
+|move|p2a: Diancie|Sleep Talk|p2a: Diancie
+|move|p2a: Diancie|Moonblast|p1a: Banette|[from]Sleep Talk
+|-damage|p1a: Banette|22/100
+|
+|upkeep
+|turn|8
+|choice|move gunkshot|move sleeptalk
+|
+|move|p1a: Banette|Gunk Shot|p2a: Diancie
+|-damage|p2a: Diancie|32/100 slp
+|cant|p2a: Diancie|slp
+|move|p2a: Diancie|Sleep Talk|p2a: Diancie
+|move|p2a: Diancie|Rest|p2a: Diancie|[from]Sleep Talk
+|-fail|p2a: Diancie
+|
+|upkeep
+|turn|9
+|c|☆namanluvs|less likely 3-0
+|choice|move gunkshot|move rest
+|
+|move|p1a: Banette|Gunk Shot|p2a: Diancie
+|-crit|p2a: Diancie
+|-damage|p2a: Diancie|0 fnt
+|faint|p2a: Diancie
+|
+|upkeep
+|c|☆zCoby|bugga
+|c|☆namanluvs|didnt need the crit
+|c|☆namanluvs|look at previous damage
+|choice||switch 3
+|
+|switch|p2a: Sneasel|Sneasel, M|100/100
+|turn|10
+|choice|switch 6|move iceshard
+|
+|switch|p1a: Hitmontop|Hitmontop, M|100/100
+|-ability|p1a: Hitmontop|Intimidate|boost
+|-unboost|p2a: Sneasel|atk|1
+|move|p2a: Sneasel|Ice Shard|p1a: Hitmontop
+|-damage|p1a: Hitmontop|87/100
+|-damage|p2a: Sneasel|91/100|[from] item: Life Orb
+|
+|-heal|p1a: Hitmontop|94/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|c|☆namanluvs|pred is pred
+|choice|move toxic|switch 4
+|
+|switch|p2a: Spiritomb|Spiritomb, M|100/100
+|move|p1a: Hitmontop|Toxic|p2a: Spiritomb
+|-status|p2a: Spiritomb|tox
+|
+|-heal|p1a: Hitmontop|99/100|[from] item: Leftovers
+|-damage|p2a: Spiritomb|94/100 tox|[from] psn
+|upkeep
+|turn|12
+|c|☆namanluvs|yyee
+|choice|move foresight|move willowisp
+|
+|move|p1a: Hitmontop|Foresight|p2a: Spiritomb
+|-start|p2a: Spiritomb|Foresight
+|move|p2a: Spiritomb|Will-O-Wisp|p1a: Hitmontop
+|-status|p1a: Hitmontop|brn
+|
+|-heal|p1a: Hitmontop|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Hitmontop|88/100 brn|[from] brn
+|-damage|p2a: Spiritomb|82/100 tox|[from] psn
+|upkeep
+|turn|13
+|choice|move closecombat|switch 2
+|
+|switch|p2a: Venusaur|Venusaur, M|100/100
+|move|p1a: Hitmontop|Close Combat|p2a: Venusaur
+|-resisted|p2a: Venusaur
+|-crit|p2a: Venusaur
+|-damage|p2a: Venusaur|81/100
+|-unboost|p1a: Hitmontop|def|1
+|-unboost|p1a: Hitmontop|spd|1
+|
+|-heal|p1a: Hitmontop|94/100 brn|[from] item: Leftovers
+|-damage|p1a: Hitmontop|82/100 brn|[from] brn
+|upkeep
+|turn|14
+|c|☆zCoby|pred
+|c|☆namanluvs|ye
+|choice|switch 3|move sludgebomb
+|
+|switch|p1a: Registeel|Registeel|100/100
+|move|p2a: Venusaur|Sludge Bomb|p1a: Registeel
+|-immune|p1a: Registeel|[msg]
+|
+|upkeep
+|turn|15
+|c|☆namanluvs|pred
+|choice|move thunderwave|switch 6
+|
+|switch|p2a: Golbat|Golbat, M|100/100
+|move|p1a: Registeel|Thunder Wave|p2a: Golbat
+|-status|p2a: Golbat|par
+|
+|upkeep
+|turn|16
+|c|☆namanluvs|didnt pred but yo
+|choice|move stealthrock|move taunt
+|
+|move|p1a: Registeel|Stealth Rock|p2a: Golbat
+|-sidestart|p2: zCoby|move: Stealth Rock
+|move|p2a: Golbat|Taunt|p1a: Registeel
+|-start|p1a: Registeel|move: Taunt
+|
+|upkeep
+|turn|17
+|choice|move seismictoss|switch 5
+|
+|switch|p2a: Druddigon|Druddigon, M|100/100
+|-damage|p2a: Druddigon|88/100|[from] Stealth Rock
+|move|p1a: Registeel|Seismic Toss|p2a: Druddigon
+|-damage|p2a: Druddigon|60/100
+|-damage|p1a: Registeel|88/100|[from] ability: Rough Skin|[of] p2a: Druddigon
+|-damage|p1a: Registeel|72/100|[from] item: Rocky Helmet|[of] p2a: Druddigon
+|
+|-heal|p1a: Registeel|78/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|choice|switch 3|move firepunch
+|
+|switch|p1a: Hitmontop|Hitmontop, M|82/100 brn
+|-ability|p1a: Hitmontop|Intimidate|boost
+|-unboost|p2a: Druddigon|atk|1
+|move|p2a: Druddigon|Fire Punch|p1a: Hitmontop
+|-damage|p1a: Hitmontop|69/100 brn
+|
+|-heal|p1a: Hitmontop|75/100 brn|[from] item: Leftovers
+|-damage|p1a: Hitmontop|63/100 brn|[from] brn
+|upkeep
+|turn|19
+|choice|move toxic|move stealthrock
+|
+|move|p1a: Hitmontop|Toxic|p2a: Druddigon
+|-status|p2a: Druddigon|tox
+|move|p2a: Druddigon|Stealth Rock|p1a: Hitmontop
+|-sidestart|p1: namanluvs|move: Stealth Rock
+|
+|-heal|p1a: Hitmontop|69/100 brn|[from] item: Leftovers
+|-damage|p1a: Hitmontop|57/100 brn|[from] brn
+|-damage|p2a: Druddigon|54/100 tox|[from] psn
+|upkeep
+|turn|20
+|c|☆namanluvs|sem pred
+|choice|move rapidspin|switch 6
+|
+|switch|p2a: Venusaur|Venusaur, M|81/100
+|-damage|p2a: Venusaur|69/100|[from] Stealth Rock
+|move|p1a: Hitmontop|Rapid Spin|p2a: Venusaur
+|-damage|p2a: Venusaur|66/100
+|-sideend|p1: namanluvs|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Hitmontop
+|
+|-heal|p1a: Hitmontop|63/100 brn|[from] item: Leftovers
+|-damage|p1a: Hitmontop|50/100 brn|[from] brn
+|upkeep
+|turn|21
+|choice|switch 4|move hiddenpower
+|
+|switch|p1a: Roselia|Roselia, M|100/100
+|move|p2a: Venusaur|Hidden Power|p1a: Roselia
+|-supereffective|p1a: Roselia
+|-damage|p1a: Roselia|69/100
+|-damage|p2a: Venusaur|56/100|[from] item: Life Orb
+|
+|upkeep
+|turn|22
+|choice|move synthesis|move synthesis
+|
+|move|p2a: Venusaur|Synthesis|p2a: Venusaur
+|-heal|p2a: Venusaur|100/100
+|move|p1a: Roselia|Synthesis|p1a: Roselia
+|-heal|p1a: Roselia|100/100
+|
+|upkeep
+|turn|23
+|choice|move spikes|switch 4
+|
+|switch|p2a: Sneasel|Sneasel, M|91/100
+|-damage|p2a: Sneasel|66/100|[from] Stealth Rock
+|move|p1a: Roselia|Spikes|p2a: Sneasel
+|-sidestart|p2: zCoby|Spikes
+|
+|upkeep
+|turn|24
+|choice|switch 4|move iciclecrash
+|
+|switch|p1a: Hitmontop|Hitmontop, M|50/100 brn
+|-ability|p1a: Hitmontop|Intimidate|boost
+|-unboost|p2a: Sneasel|atk|1
+|move|p2a: Sneasel|Icicle Crash|p1a: Hitmontop
+|-damage|p1a: Hitmontop|22/100 brn
+|-damage|p2a: Sneasel|56/100|[from] item: Life Orb
+|
+|-heal|p1a: Hitmontop|28/100 brn|[from] item: Leftovers
+|-damage|p1a: Hitmontop|16/100 brn|[from] brn
+|upkeep
+|turn|25
+|c|☆namanluvs|gonna whittle away your team slow af lmao
+|choice|switch 2|move iciclecrash
+|
+|switch|p1a: Scrafty|Scrafty, M|100/100
+|-ability|p1a: Scrafty|Intimidate|boost
+|-unboost|p2a: Sneasel|atk|1
+|move|p2a: Sneasel|Icicle Crash|p1a: Scrafty
+|-damage|p1a: Scrafty|75/100
+|-damage|p2a: Sneasel|46/100|[from] item: Life Orb
+|
+|upkeep
+|turn|26
+|c|☆zCoby|f your team
+|choice|move dragondance|move knockoff
+|
+|move|p2a: Sneasel|Knock Off|p1a: Scrafty
+|-resisted|p1a: Scrafty
+|-damage|p1a: Scrafty|67/100
+|-enditem|p1a: Scrafty|Coba Berry|[from] move: Knock Off|[of] p2a: Sneasel
+|-damage|p2a: Sneasel|36/100|[from] item: Life Orb
+|move|p1a: Scrafty|Dragon Dance|p1a: Scrafty
+|-boost|p1a: Scrafty|atk|1
+|-boost|p1a: Scrafty|spe|1
+|
+|upkeep
+|turn|27
+|c|☆namanluvs|f ur shit plays this round g
+|choice|move knockoff|switch 5
+|
+|switch|p2a: Golbat|Golbat, M|100/100 par
+|-damage|p2a: Golbat|76/100 par|[from] Stealth Rock
+|move|p1a: Scrafty|Knock Off|p2a: Golbat
+|-damage|p2a: Golbat|37/100 par
+|-enditem|p2a: Golbat|Eviolite|[from] move: Knock Off|[of] p1a: Scrafty
+|
+|upkeep
+|turn|28
+|c|☆namanluvs|no defog or acro or b.bird pls
+|choice|move headsmash|move bravebird
+|
+|move|p1a: Scrafty|Head Smash|p2a: Golbat
+|-supereffective|p2a: Golbat
+|-damage|p2a: Golbat|0 fnt
+|-damage|p1a: Scrafty|43/100|[from] recoil|[of] p2a: Golbat
+|faint|p2a: Golbat
+|
+|upkeep
+|c|☆namanluvs|ye
+|c|☆namanluvs|ty
+|choice||switch 2
+|
+|switch|p2a: Spiritomb|Spiritomb, M|82/100 tox
+|-damage|p2a: Spiritomb|70/100 tox|[from] Spikes
+|-damage|p2a: Spiritomb|58/100 tox|[from] Stealth Rock
+|turn|29
+|choice|move knockoff|move willowisp
+|
+|move|p1a: Scrafty|Knock Off|p2a: Spiritomb
+|-damage|p2a: Spiritomb|0 fnt
+|-enditem|p2a: Spiritomb|Black Glasses|[from] move: Knock Off|[of] p1a: Scrafty
+|faint|p2a: Spiritomb
+|
+|upkeep
+|c|☆namanluvs|gg
+|choice||switch 6
+|
+|switch|p2a: Druddigon|Druddigon, M|54/100 tox
+|-damage|p2a: Druddigon|41/100 tox|[from] Spikes
+|-damage|p2a: Druddigon|29/100 tox|[from] Stealth Rock
+|turn|30
+|choice|switch 2|move firepunch
+|
+|switch|p1a: Hitmontop|Hitmontop, M|16/100 brn
+|-ability|p1a: Hitmontop|Intimidate|boost
+|-unboost|p2a: Druddigon|atk|1
+|move|p2a: Druddigon|Fire Punch|p1a: Hitmontop
+|-damage|p1a: Hitmontop|4/100 brn
+|
+|-heal|p1a: Hitmontop|10/100 brn|[from] item: Leftovers
+|-damage|p1a: Hitmontop|0 fnt|[from] brn
+|-damage|p2a: Druddigon|23/100 tox|[from] psn
+|upkeep
+|faint|p1a: Hitmontop
+|c|☆zCoby|this game
+|c|☆namanluvs|I played you so hard lmao
+|choice|switch 6|
+|
+|switch|p1a: Banette|Banette-Mega, M|22/100
+|turn|31
+|c|☆namanluvs|even though I'd say overall your team was better
+|c|☆namanluvs|mine has good possible strats which I honed
+|choice|move suckerpunch|move firepunch
+|
+|move|p1a: Banette|Sucker Punch|p2a: Druddigon
+|-damage|p2a: Druddigon|0 fnt
+|-damage|p1a: Banette|9/100|[from] ability: Rough Skin|[of] p2a: Druddigon
+|-damage|p1a: Banette|0 fnt|[from] item: Rocky Helmet|[of] p2a: Druddigon
+|faint|p1a: Banette
+|faint|p2a: Druddigon
+|
+|upkeep
+|c|☆zCoby|jack your team is way better strat wise
+|choice|switch 2|switch 5
+|
+|switch|p2a: Sneasel|Sneasel, M|36/100
+|switch|p1a: Scrafty|Scrafty, M|43/100
+|-damage|p2a: Sneasel|24/100|[from] Spikes
+|-damage|p2a: Sneasel|0 fnt|[from] Stealth Rock
+|faint|p2a: Sneasel
+|c|☆namanluvs|yeah
+|c|☆namanluvs|but your pokes are dank as
+|c|☆zCoby|oml
+|choice||switch 4
+|
+|switch|p2a: Venusaur|Venusaur, M|100/100
+|-damage|p2a: Venusaur|88/100|[from] Stealth Rock
+|-damage|p2a: Venusaur|76/100|[from] Spikes
+|turn|32
+|c|☆namanluvs|see
+|c|☆namanluvs|I knew that was right to use spikes
+|c|☆namanluvs|when I did
+|c|☆namanluvs|gg
+|choice|switch 3|move sludgebomb
+|
+|switch|p1a: Registeel|Registeel|78/100
+|move|p2a: Venusaur|Sludge Bomb|p1a: Registeel
+|-immune|p1a: Registeel|[msg]
+|
+|-heal|p1a: Registeel|84/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|choice|move thunderwave|move hiddenpower
+|
+|move|p2a: Venusaur|Hidden Power|p1a: Registeel
+|-supereffective|p1a: Registeel
+|-damage|p1a: Registeel|61/100
+|-damage|p2a: Venusaur|66/100|[from] item: Life Orb
+|move|p1a: Registeel|Thunder Wave|p2a: Venusaur
+|-status|p2a: Venusaur|par
+|
+|-heal|p1a: Registeel|67/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|c|☆namanluvs|f hp fire
+|c|☆zCoby|does nothing
+|choice|switch 3|move hiddenpower
+|
+|switch|p1a: Scrafty|Scrafty, M|43/100
+|-ability|p1a: Scrafty|Intimidate|boost
+|-unboost|p2a: Venusaur|atk|1
+|move|p2a: Venusaur|Hidden Power|p1a: Scrafty
+|-damage|p1a: Scrafty|16/100
+|-damage|p2a: Venusaur|56/100 par|[from] item: Life Orb
+|
+|upkeep
+|turn|35
+|c|☆zCoby|dis is gg
+|choice|move knockoff|move hiddenpower
+|
+|move|p1a: Scrafty|Knock Off|p2a: Venusaur
+|-damage|p2a: Venusaur|8/100 par
+|-enditem|p2a: Venusaur|Life Orb|[from] move: Knock Off|[of] p1a: Scrafty
+|move|p2a: Venusaur|Hidden Power|p1a: Scrafty
+|-damage|p1a: Scrafty|0 fnt
+|faint|p1a: Scrafty
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Roselia|Roselia, M|100/100
+|turn|36
+|choice|move sludgebomb|move synthesis
+|
+|move|p1a: Roselia|Sludge Bomb|p2a: Venusaur
+|-damage|p2a: Venusaur|0 fnt
+|faint|p2a: Venusaur
+|
+|win|namanluvs
+|l|zCoby

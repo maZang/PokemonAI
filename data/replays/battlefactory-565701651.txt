@@ -1,0 +1,438 @@
+|j|Narwhalwall
+|j|Mr Cheeky
+|player|p1|Narwhalwall|190
+|player|p2|Mr Cheeky|114
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|18516,962,45625,46388,52193,36756,51378,12883,36358,48014,50823,1724
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Chansey, F|item
+|poke|p1|Thundurus-Therian, M|item
+|poke|p1|Togekiss, M|item
+|poke|p1|Jirachi|item
+|poke|p1|Heracross, M|item
+|poke|p1|Alakazam, M|item
+|poke|p2|Diancie|item
+|poke|p2|Staraptor, M|item
+|poke|p2|Scizor, M|item
+|poke|p2|Latias, F|item
+|poke|p2|Togekiss, M|item
+|poke|p2|Ferrothorn, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 2, team 1, team 3, team 4, team 5, team 6|team 6, team 2, team 3, team 4, team 5, team 1
+|
+|start
+|switch|p1a: Thundurus|Thundurus-Therian, M|100/100
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|turn|1
+|choice|move nastyplot|move protect
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Thundurus|Nasty Plot|p1a: Thundurus
+|-boost|p1a: Thundurus|spa|2
+|
+|upkeep
+|turn|2
+|choice|move nastyplot|move stealthrock
+|
+|move|p1a: Thundurus|Nasty Plot|p1a: Thundurus
+|-boost|p1a: Thundurus|spa|2
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Thundurus
+|-sidestart|p1: Narwhalwall|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|choice|move nastyplot|move leechseed
+|
+|move|p1a: Thundurus|Nasty Plot|p1a: Thundurus
+|-boost|p1a: Thundurus|spa|2
+|move|p2a: Ferrothorn|Leech Seed|p1a: Thundurus
+|-start|p1a: Thundurus|move: Leech Seed
+|
+|-damage|p1a: Thundurus|88/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|upkeep
+|turn|4
+|choice|move thunderbolt|move gyroball
+|
+|move|p1a: Thundurus|Thunderbolt|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|18/100
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Thundurus
+|-resisted|p1a: Thundurus
+|-damage|p1a: Thundurus|67/100
+|
+|-heal|p1a: Thundurus|73/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|24/100|[from] item: Leftovers
+|-damage|p1a: Thundurus|61/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|36/100|[silent]
+|upkeep
+|turn|5
+|choice|move thunderbolt|move protect
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Thundurus|Thunderbolt|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|move: Protect
+|
+|-heal|p1a: Thundurus|67/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|42/100|[from] item: Leftovers
+|-damage|p1a: Thundurus|55/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|54/100|[silent]
+|upkeep
+|turn|6
+|choice|move thunderbolt|switch 6
+|
+|switch|p2a: Diancie|Diancie|100/100
+|move|p1a: Thundurus|Thunderbolt|p2a: Diancie
+|-damage|p2a: Diancie|0 fnt
+|faint|p2a: Diancie
+|
+|-heal|p1a: Thundurus|61/100|[from] item: Leftovers
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Latias|Latias, F|100/100
+|turn|7
+|choice|move hiddenpower|move dracometeor
+|
+|move|p2a: Latias|Draco Meteor|p1a: Thundurus
+|-damage|p1a: Thundurus|0 fnt
+|-unboost|p2a: Latias|spa|2
+|-damage|p2a: Latias|91/100|[from] item: Life Orb
+|faint|p1a: Thundurus
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Togekiss|Togekiss, M|100/100
+|-damage|p1a: Togekiss|76/100|[from] Stealth Rock
+|turn|8
+|choice|move defog|switch 6
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|54/100
+|move|p1a: Togekiss|Defog|p2a: Ferrothorn
+|-unboost|p2a: Ferrothorn|evasion|1
+|-sideend|p1: Narwhalwall|Stealth Rock|[from] move: Defog|[of] p1a: Togekiss
+|
+|-heal|p1a: Togekiss|82/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|60/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|choice|move thunderwave|move gyroball
+|
+|move|p1a: Togekiss|Thunder Wave|p2a: Ferrothorn
+|-status|p2a: Ferrothorn|par
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Togekiss
+|-supereffective|p1a: Togekiss
+|-damage|p1a: Togekiss|0 fnt
+|faint|p1a: Togekiss
+|
+|-heal|p2a: Ferrothorn|66/100 par|[from] item: Leftovers
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Jirachi|Jirachi|100/100
+|turn|10
+|choice|move substitute|move leechseed
+|
+|move|p1a: Jirachi|Substitute|p1a: Jirachi
+|-start|p1a: Jirachi|Substitute
+|-damage|p1a: Jirachi|75/100
+|cant|p2a: Ferrothorn|par
+|
+|-heal|p1a: Jirachi|82/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|72/100 par|[from] item: Leftovers
+|upkeep
+|turn|11
+|choice|move firepunch|switch 5
+|
+|switch|p2a: Togekiss|Togekiss, M|100/100
+|move|p1a: Jirachi|Fire Punch|p2a: Togekiss
+|-crit|p2a: Togekiss
+|-damage|p2a: Togekiss|70/100
+|
+|-heal|p1a: Jirachi|88/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|choice|move toxic|move nastyplot
+|
+|move|p1a: Jirachi|Toxic|p2a: Togekiss
+|-status|p2a: Togekiss|tox
+|-enditem|p2a: Togekiss|Lum Berry|[eat]
+|-curestatus|p2a: Togekiss|tox|[msg]
+|move|p2a: Togekiss|Nasty Plot|p2a: Togekiss
+|-boost|p2a: Togekiss|spa|2
+|
+|-heal|p1a: Jirachi|94/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|choice|move toxic|move airslash
+|
+|move|p1a: Jirachi|Toxic|p2a: Togekiss
+|-status|p2a: Togekiss|tox
+|move|p2a: Togekiss|Air Slash|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-end|p1a: Jirachi|Substitute
+|
+|-heal|p1a: Jirachi|99/100|[from] item: Leftovers
+|-damage|p2a: Togekiss|64/100 tox|[from] psn
+|upkeep
+|turn|14
+|choice|move substitute|move aurasphere
+|
+|move|p1a: Jirachi|Substitute|p1a: Jirachi
+|-start|p1a: Jirachi|Substitute
+|-damage|p1a: Jirachi|75/100
+|move|p2a: Togekiss|Aura Sphere|p1a: Jirachi
+|-end|p1a: Jirachi|Substitute
+|
+|-heal|p1a: Jirachi|81/100|[from] item: Leftovers
+|-damage|p2a: Togekiss|52/100 tox|[from] psn
+|upkeep
+|turn|15
+|choice|move substitute|move roost
+|
+|move|p1a: Jirachi|Substitute|p1a: Jirachi
+|-start|p1a: Jirachi|Substitute
+|-damage|p1a: Jirachi|56/100
+|move|p2a: Togekiss|Roost|p2a: Togekiss
+|-heal|p2a: Togekiss|100/100 tox
+|
+|-heal|p1a: Jirachi|63/100|[from] item: Leftovers
+|-damage|p2a: Togekiss|82/100 tox|[from] psn
+|upkeep
+|turn|16
+|choice|move ironhead|switch 6
+|
+|switch|p2a: Latias|Latias, F|91/100
+|move|p1a: Jirachi|Iron Head|p2a: Latias
+|-crit|p2a: Latias
+|-damage|p2a: Latias|35/100
+|
+|-heal|p1a: Jirachi|69/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|choice|move ironhead|move roost
+|
+|move|p2a: Latias|Roost|p2a: Latias
+|-heal|p2a: Latias|85/100
+|move|p1a: Jirachi|Iron Head|p2a: Latias
+|-damage|p2a: Latias|48/100
+|
+|-heal|p1a: Jirachi|75/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|choice|move toxic|switch 3
+|
+|switch|p2a: Scizor|Scizor, M|100/100
+|move|p1a: Jirachi|Toxic|p2a: Scizor
+|-immune|p2a: Scizor|[msg]
+|
+|-heal|p1a: Jirachi|81/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|choice|move firepunch|move bulletpunch
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-crit|p1a: Jirachi
+|-end|p1a: Jirachi|Substitute
+|move|p1a: Jirachi|Fire Punch|p2a: Scizor
+|-supereffective|p2a: Scizor
+|-damage|p2a: Scizor|24/100
+|
+|-heal|p1a: Jirachi|87/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|choice|move firepunch|move bulletpunch
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|66/100
+|move|p1a: Jirachi|Fire Punch|p2a: Scizor
+|-supereffective|p2a: Scizor
+|-damage|p2a: Scizor|0 fnt
+|faint|p2a: Scizor
+|
+|-heal|p1a: Jirachi|72/100|[from] item: Leftovers
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Staraptor|Staraptor, M|100/100
+|turn|21
+|choice|move toxic|move doubleedge
+|
+|move|p2a: Staraptor|Double-Edge|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|44/100
+|-damage|p2a: Staraptor|89/100|[from] recoil|[of] p1a: Jirachi
+|move|p1a: Jirachi|Toxic|p2a: Staraptor
+|-status|p2a: Staraptor|tox
+|
+|-heal|p1a: Jirachi|50/100|[from] item: Leftovers
+|-damage|p2a: Staraptor|83/100 tox|[from] psn
+|upkeep
+|turn|22
+|choice|move ironhead|move doubleedge
+|
+|move|p2a: Staraptor|Double-Edge|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|22/100
+|-damage|p2a: Staraptor|70/100 tox|[from] recoil|[of] p1a: Jirachi
+|move|p1a: Jirachi|Iron Head|p2a: Staraptor
+|-damage|p2a: Staraptor|19/100 tox
+|
+|-heal|p1a: Jirachi|28/100|[from] item: Leftovers
+|-damage|p2a: Staraptor|7/100 tox|[from] psn
+|upkeep
+|turn|23
+|choice|move substitute|move doubleedge
+|
+|move|p2a: Staraptor|Double-Edge|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|0 fnt
+|-damage|p2a: Staraptor|0 fnt|[from] recoil|[of] p1a: Jirachi
+|faint|p1a: Jirachi
+|faint|p2a: Staraptor
+|
+|upkeep
+|choice|switch 5|switch 5
+|
+|switch|p1a: Heracross|Heracross, M|100/100
+|switch|p2a: Ferrothorn|Ferrothorn, M|72/100 par
+|turn|24
+|choice|move swordsdance mega|switch 3
+|
+|switch|p2a: Latias|Latias, F|48/100
+|detailschange|p1a: Heracross|Heracross-Mega, M
+|-mega|p1a: Heracross|Heracross|Heracronite
+|move|p1a: Heracross|Swords Dance|p1a: Heracross
+|-boost|p1a: Heracross|atk|2
+|
+|upkeep
+|turn|25
+|choice|move pinmissile|move psyshock
+|
+|move|p2a: Latias|Psyshock|p1a: Heracross
+|-supereffective|p1a: Heracross
+|-damage|p1a: Heracross|10/100
+|-damage|p2a: Latias|38/100|[from] item: Life Orb
+|move|p1a: Heracross|Pin Missile|p2a: Latias
+|-supereffective|p2a: Latias
+|-damage|p2a: Latias|0 fnt
+|-hitcount|p2a: Latias|1
+|faint|p2a: Latias
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Togekiss|Togekiss, M|82/100 tox
+|turn|26
+|choice|move rockblast|move airslash
+|
+|move|p1a: Heracross|Rock Blast|p2a: Togekiss
+|-supereffective|p2a: Togekiss
+|-damage|p2a: Togekiss|37/100 tox
+|-supereffective|p2a: Togekiss
+|-damage|p2a: Togekiss|0 fnt
+|-hitcount|p2a: Togekiss|2
+|faint|p2a: Togekiss
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|72/100 par
+|turn|27
+|choice|move pinmissile|move leechseed
+|
+|move|p1a: Heracross|Pin Missile|p2a: Ferrothorn|[miss]
+|-miss|p1a: Heracross|p2a: Ferrothorn
+|move|p2a: Ferrothorn|Leech Seed|p1a: Heracross
+|-start|p1a: Heracross|move: Leech Seed
+|
+|-heal|p2a: Ferrothorn|79/100 par|[from] item: Leftovers
+|-damage|p1a: Heracross|0 fnt|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|87/100 par|[silent]
+|upkeep
+|faint|p1a: Heracross
+|choice|switch 6|
+|
+|switch|p1a: Alakazam|Alakazam, M|100/100
+|turn|28
+|choice|move focusblast|move leechseed
+|
+|move|p1a: Alakazam|Focus Blast|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|9/100 par
+|cant|p2a: Ferrothorn|par
+|
+|-heal|p2a: Ferrothorn|15/100 par|[from] item: Leftovers
+|upkeep
+|turn|29
+|choice|move focusblast|move protect
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Alakazam|Focus Blast|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|move: Protect
+|
+|-heal|p2a: Ferrothorn|22/100 par|[from] item: Leftovers
+|upkeep
+|turn|30
+|choice|move focusblast|move gyroball
+|
+|move|p1a: Alakazam|Focus Blast|p2a: Ferrothorn|[miss]
+|-miss|p1a: Alakazam|p2a: Ferrothorn
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|
+|-heal|p2a: Ferrothorn|28/100 par|[from] item: Leftovers
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Chansey|Chansey, F|100/100
+|turn|31
+|choice|move seismictoss|move protect
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Chansey|Seismic Toss|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|move: Protect
+|
+|-heal|p2a: Ferrothorn|34/100 par|[from] item: Leftovers
+|upkeep
+|turn|32
+|choice|move seismictoss|move gyroball
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|6/100 par
+|-damage|p1a: Chansey|88/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|cant|p2a: Ferrothorn|par
+|
+|-heal|p2a: Ferrothorn|12/100 par|[from] item: Leftovers
+|upkeep
+|turn|33
+|choice|move seismictoss|move protect
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Chansey|Seismic Toss|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|move: Protect
+|
+|-heal|p2a: Ferrothorn|18/100 par|[from] item: Leftovers
+|upkeep
+|turn|34
+|choice|move seismictoss|move gyroball
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|-damage|p1a: Chansey|76/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|faint|p2a: Ferrothorn
+|
+|win|Narwhalwall

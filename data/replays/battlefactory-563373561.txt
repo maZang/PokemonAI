@@ -1,0 +1,818 @@
+|j|OsmarMR
+|j|So Fuckin Milky
+|player|p1|OsmarMR|1
+|player|p2|So Fuckin Milky|160
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|16819,42031,51947,56677,37588,64874,15760,22527,39506,42200,12777,18585
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Manectric, M|item
+|poke|p1|Crawdaunt, M|item
+|poke|p1|Rotom-Wash|item
+|poke|p1|Celebi|item
+|poke|p1|Jirachi|item
+|poke|p1|Skarmory, M|item
+|poke|p2|Staraptor, M|item
+|poke|p2|Sylveon, M|item
+|poke|p2|Celebi|item
+|poke|p2|Skarmory, M|item
+|poke|p2|Mew|item
+|poke|p2|Diancie|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 4, team 2, team 3, team 1, team 5, team 6|team 5, team 2, team 3, team 4, team 1, team 6
+|
+|start
+|switch|p1a: Celebi|Celebi|100/100
+|switch|p2a: Mew|Mew|100/100
+|turn|1
+|choice|move thunderwave|move knockoff
+|
+|move|p2a: Mew|Knock Off|p1a: Celebi
+|-supereffective|p1a: Celebi
+|-damage|p1a: Celebi|59/100
+|-enditem|p1a: Celebi|Leftovers|[from] move: Knock Off|[of] p2a: Mew
+|move|p1a: Celebi|Thunder Wave|p2a: Mew
+|-status|p2a: Mew|par
+|-activate|p2a: Mew|ability: Synchronize
+|-status|p1a: Celebi|par
+|
+|upkeep
+|turn|2
+|choice|move stealthrock|move taunt
+|
+|move|p2a: Mew|Taunt|p1a: Celebi
+|-start|p1a: Celebi|move: Taunt
+|cant|p1a: Celebi|move: Taunt|Stealth Rock
+|
+|upkeep
+|turn|3
+|choice|move gigadrain|move knockoff
+|
+|move|p2a: Mew|Knock Off|p1a: Celebi
+|-supereffective|p1a: Celebi
+|-damage|p1a: Celebi|33/100 par
+|move|p1a: Celebi|Giga Drain|p2a: Mew
+|-damage|p2a: Mew|77/100 par
+|-heal|p1a: Celebi|45/100 par|[from] drain|[of] p2a: Mew
+|
+|-heal|p2a: Mew|83/100 par|[from] item: Leftovers
+|upkeep
+|turn|4
+|choice|move gigadrain|move knockoff
+|
+|move|p2a: Mew|Knock Off|p1a: Celebi
+|-supereffective|p1a: Celebi
+|-damage|p1a: Celebi|20/100 par
+|cant|p1a: Celebi|par
+|
+|-heal|p2a: Mew|89/100 par|[from] item: Leftovers
+|-end|p1a: Celebi|move: Taunt
+|upkeep
+|turn|5
+|choice|move recover|move knockoff
+|
+|move|p2a: Mew|Knock Off|p1a: Celebi
+|-supereffective|p1a: Celebi
+|-damage|p1a: Celebi|0 fnt
+|faint|p1a: Celebi
+|
+|-heal|p2a: Mew|95/100 par|[from] item: Leftovers
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Crawdaunt|Crawdaunt, M|100/100
+|turn|6
+|choice|move swordsdance|move willowisp
+|
+|move|p1a: Crawdaunt|Swords Dance|p1a: Crawdaunt
+|-boost|p1a: Crawdaunt|atk|2
+|cant|p2a: Mew|par
+|
+|-heal|p2a: Mew|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|7
+|choice|move swordsdance|move willowisp
+|
+|move|p1a: Crawdaunt|Swords Dance|p1a: Crawdaunt
+|-boost|p1a: Crawdaunt|atk|2
+|move|p2a: Mew|Will-O-Wisp|p1a: Crawdaunt|[miss]
+|-miss|p2a: Mew|p1a: Crawdaunt
+|
+|upkeep
+|turn|8
+|choice|move knockoff|move willowisp
+|
+|move|p1a: Crawdaunt|Knock Off|p2a: Mew
+|-supereffective|p2a: Mew
+|-damage|p2a: Mew|0 fnt
+|-enditem|p2a: Mew|Leftovers|[from] move: Knock Off|[of] p1a: Crawdaunt
+|-damage|p1a: Crawdaunt|91/100|[from] item: Life Orb
+|faint|p2a: Mew
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Staraptor|Staraptor, M|100/100
+|turn|9
+|choice|move aquajet|move closecombat
+|
+|move|p1a: Crawdaunt|Aqua Jet|p2a: Staraptor
+|-damage|p2a: Staraptor|0 fnt
+|-damage|p1a: Crawdaunt|81/100|[from] item: Life Orb
+|faint|p2a: Staraptor
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Celebi|Celebi|100/100
+|turn|10
+|choice|move aquajet|move gigadrain
+|
+|move|p1a: Crawdaunt|Aqua Jet|p2a: Celebi
+|-resisted|p2a: Celebi
+|-damage|p2a: Celebi|54/100
+|-damage|p1a: Crawdaunt|71/100|[from] item: Life Orb
+|move|p2a: Celebi|Giga Drain|p1a: Crawdaunt
+|-supereffective|p1a: Crawdaunt
+|-damage|p1a: Crawdaunt|0 fnt
+|-heal|p2a: Celebi|78/100|[from] drain|[of] p1a: Crawdaunt
+|faint|p1a: Crawdaunt
+|
+|-heal|p2a: Celebi|84/100|[from] item: Leftovers
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Skarmory|Skarmory, M|100/100
+|turn|11
+|choice|move bravebird|switch 6
+|
+|switch|p2a: Diancie|Diancie|100/100
+|move|p1a: Skarmory|Brave Bird|p2a: Diancie
+|-resisted|p2a: Diancie
+|-damage|p2a: Diancie|86/100
+|-damage|p1a: Skarmory|97/100|[from] recoil|[of] p2a: Diancie
+|
+|-heal|p1a: Skarmory|100/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|choice|move whirlwind|move diamondstorm mega
+|
+|detailschange|p2a: Diancie|Diancie-Mega
+|-mega|p2a: Diancie|Diancie|Diancite
+|move|p2a: Diancie|Diamond Storm|p1a: Skarmory
+|-damage|p1a: Skarmory|70/100
+|-boost|p2a: Diancie|def|1
+|move|p1a: Skarmory|Whirlwind|p2a: Diancie
+|move|p2a: Diancie|Whirlwind|p1a: Skarmory|[from]Magic Bounce
+|drag|p1a: Rotom|Rotom-Wash|100/100
+|
+|upkeep
+|turn|13
+|choice|move hydropump|move protect
+|
+|move|p2a: Diancie|Protect|p2a: Diancie
+|-singleturn|p2a: Diancie|Protect
+|move|p1a: Rotom|Hydro Pump|p2a: Diancie
+|-activate|p2a: Diancie|move: Protect
+|
+|upkeep
+|turn|14
+|choice|move hydropump|switch 6
+|
+|switch|p2a: Celebi|Celebi|84/100
+|move|p1a: Rotom|Hydro Pump|p2a: Celebi
+|-resisted|p2a: Celebi
+|-damage|p2a: Celebi|70/100
+|
+|-heal|p2a: Celebi|76/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|choice|switch 3|move stealthrock
+|
+|switch|p1a: Skarmory|Skarmory, M|70/100
+|move|p2a: Celebi|Stealth Rock|p1a: Skarmory
+|-sidestart|p1: OsmarMR|move: Stealth Rock
+|
+|-heal|p2a: Celebi|82/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|76/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|choice|move defog|move thunderwave
+|
+|move|p2a: Celebi|Thunder Wave|p1a: Skarmory
+|-status|p1a: Skarmory|par
+|cant|p1a: Skarmory|par
+|
+|-heal|p2a: Celebi|89/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|82/100 par|[from] item: Leftovers
+|upkeep
+|turn|17
+|choice|move whirlwind|switch 6
+|
+|switch|p2a: Diancie|Diancie-Mega|86/100
+|cant|p1a: Skarmory|par
+|
+|-heal|p1a: Skarmory|88/100 par|[from] item: Leftovers
+|upkeep
+|turn|18
+|choice|move whirlwind|move diamondstorm
+|
+|move|p2a: Diancie|Diamond Storm|p1a: Skarmory|[miss]
+|-miss|p2a: Diancie|p1a: Skarmory
+|move|p1a: Skarmory|Whirlwind|p2a: Diancie
+|move|p2a: Diancie|Whirlwind|p1a: Skarmory|[from]Magic Bounce
+|drag|p1a: Rotom|Rotom-Wash|100/100
+|-damage|p1a: Rotom|88/100|[from] Stealth Rock
+|
+|-heal|p1a: Rotom|94/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|choice|move willowisp|switch 6
+|
+|switch|p2a: Celebi|Celebi|89/100
+|move|p1a: Rotom|Will-O-Wisp|p2a: Celebi
+|-status|p2a: Celebi|brn
+|
+|-heal|p2a: Celebi|95/100 brn|[from] item: Leftovers
+|-heal|p1a: Rotom|99/100|[from] item: Leftovers
+|-damage|p2a: Celebi|82/100 brn|[from] brn
+|upkeep
+|turn|20
+|choice|switch 3|move gigadrain
+|
+|switch|p1a: Skarmory|Skarmory, M|88/100 par
+|-damage|p1a: Skarmory|75/100 par|[from] Stealth Rock
+|move|p2a: Celebi|Giga Drain|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|66/100 par
+|-heal|p2a: Celebi|86/100 brn|[from] drain|[of] p1a: Skarmory
+|
+|-heal|p2a: Celebi|92/100 brn|[from] item: Leftovers
+|-heal|p1a: Skarmory|72/100 par|[from] item: Leftovers
+|-damage|p2a: Celebi|80/100 brn|[from] brn
+|upkeep
+|turn|21
+|choice|move roost|switch 6
+|
+|-curestatus|p2a: Celebi|brn|[from] ability: Natural Cure
+|switch|p2a: Diancie|Diancie-Mega|86/100
+|move|p1a: Skarmory|Roost|p1a: Skarmory
+|-heal|p1a: Skarmory|100/100 par
+|
+|upkeep
+|turn|22
+|choice|move whirlwind|move diamondstorm
+|
+|move|p2a: Diancie|Diamond Storm|p1a: Skarmory|[miss]
+|-miss|p2a: Diancie|p1a: Skarmory
+|move|p1a: Skarmory|Whirlwind|p2a: Diancie
+|move|p2a: Diancie|Whirlwind|p1a: Skarmory|[from]Magic Bounce
+|drag|p1a: Rotom|Rotom-Wash|99/100
+|-damage|p1a: Rotom|88/100|[from] Stealth Rock
+|
+|-heal|p1a: Rotom|94/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|choice|move hydropump|move protect
+|
+|move|p2a: Diancie|Protect|p2a: Diancie
+|-singleturn|p2a: Diancie|Protect
+|move|p1a: Rotom|Hydro Pump|p2a: Diancie
+|-activate|p2a: Diancie|move: Protect
+|
+|-heal|p1a: Rotom|99/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|choice|move voltswitch|switch 6
+|
+|switch|p2a: Celebi|Celebi|80/100
+|move|p1a: Rotom|Volt Switch|p2a: Celebi
+|-resisted|p2a: Celebi
+|-damage|p2a: Celebi|71/100
+|choice|switch 3|
+|
+|switch|p1a: Skarmory|Skarmory, M|100/100 par
+|-damage|p1a: Skarmory|88/100 par|[from] Stealth Rock
+|
+|-heal|p2a: Celebi|77/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|94/100 par|[from] item: Leftovers
+|upkeep
+|turn|25
+|choice|move defog|switch 4
+|
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|move|p1a: Skarmory|Defog|p2a: Skarmory
+|-unboost|p2a: Skarmory|evasion|1
+|-sideend|p1: OsmarMR|Stealth Rock|[from] move: Defog|[of] p1a: Skarmory
+|
+|-heal|p1a: Skarmory|99/100 par|[from] item: Leftovers
+|upkeep
+|turn|26
+|choice|switch 3|move whirlwind
+|
+|switch|p1a: Rotom|Rotom-Wash|99/100
+|move|p2a: Skarmory|Whirlwind|p1a: Rotom
+|drag|p1a: Jirachi|Jirachi|100/100
+|
+|upkeep
+|turn|27
+|choice|move firepunch|move whirlwind
+|
+|move|p1a: Jirachi|Fire Punch|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-damage|p2a: Skarmory|78/100
+|move|p2a: Skarmory|Whirlwind|p1a: Jirachi
+|drag|p1a: Skarmory|Skarmory, M|99/100 par
+|
+|-heal|p2a: Skarmory|84/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|28
+|choice|switch 5|switch 6
+|
+|switch|p2a: Diancie|Diancie-Mega|86/100
+|switch|p1a: Rotom|Rotom-Wash|99/100
+|
+|-heal|p1a: Rotom|100/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|choice|move hydropump|move protect
+|
+|move|p2a: Diancie|Protect|p2a: Diancie
+|-singleturn|p2a: Diancie|Protect
+|move|p1a: Rotom|Hydro Pump|p2a: Diancie
+|-activate|p2a: Diancie|move: Protect
+|
+|upkeep
+|turn|30
+|choice|move voltswitch|move diamondstorm
+|
+|move|p2a: Diancie|Diamond Storm|p1a: Rotom
+|-crit|p1a: Rotom
+|-damage|p1a: Rotom|32/100
+|move|p1a: Rotom|Volt Switch|p2a: Diancie
+|-damage|p2a: Diancie|48/100
+|choice|switch 3|
+|
+|switch|p1a: Jirachi|Jirachi|100/100
+|
+|upkeep
+|turn|31
+|choice|move ironhead|move earthpower
+|
+|move|p2a: Diancie|Earth Power|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|42/100
+|move|p1a: Jirachi|Iron Head|p2a: Diancie
+|-supereffective|p2a: Diancie
+|-damage|p2a: Diancie|0 fnt
+|faint|p2a: Diancie
+|
+|-heal|p1a: Jirachi|48/100|[from] item: Leftovers
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Celebi|Celebi|77/100
+|turn|32
+|choice|switch 5|move gigadrain
+|
+|switch|p1a: Skarmory|Skarmory, M|100/100 par
+|move|p2a: Celebi|Giga Drain|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|92/100 par
+|-heal|p2a: Celebi|81/100|[from] drain|[of] p1a: Skarmory
+|
+|-heal|p2a: Celebi|87/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|98/100 par|[from] item: Leftovers
+|upkeep
+|turn|33
+|choice|move bravebird|move stealthrock
+|
+|move|p2a: Celebi|Stealth Rock|p1a: Skarmory
+|-sidestart|p1: OsmarMR|move: Stealth Rock
+|move|p1a: Skarmory|Brave Bird|p2a: Celebi
+|-supereffective|p2a: Celebi
+|-damage|p2a: Celebi|37/100
+|-damage|p1a: Skarmory|78/100 par|[from] recoil|[of] p2a: Celebi
+|
+|-heal|p2a: Celebi|44/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|84/100 par|[from] item: Leftovers
+|upkeep
+|turn|34
+|choice|move bravebird|move recover
+|
+|move|p2a: Celebi|Recover|p2a: Celebi
+|-heal|p2a: Celebi|94/100
+|move|p1a: Skarmory|Brave Bird|p2a: Celebi
+|-supereffective|p2a: Celebi
+|-damage|p2a: Celebi|39/100
+|-damage|p1a: Skarmory|62/100 par|[from] recoil|[of] p2a: Celebi
+|
+|-heal|p2a: Celebi|45/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|68/100 par|[from] item: Leftovers
+|upkeep
+|turn|35
+|choice|move bravebird|move recover
+|
+|move|p2a: Celebi|Recover|p2a: Celebi
+|-heal|p2a: Celebi|95/100
+|cant|p1a: Skarmory|par
+|
+|-heal|p2a: Celebi|100/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|74/100 par|[from] item: Leftovers
+|upkeep
+|turn|36
+|choice|move bravebird|switch 6
+|
+|switch|p2a: Skarmory|Skarmory, M|84/100
+|move|p1a: Skarmory|Brave Bird|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|76/100
+|-damage|p1a: Skarmory|71/100 par|[from] recoil|[of] p2a: Skarmory
+|
+|-heal|p2a: Skarmory|82/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|77/100 par|[from] item: Leftovers
+|upkeep
+|turn|37
+|choice|move defog|move whirlwind
+|
+|cant|p1a: Skarmory|par
+|move|p2a: Skarmory|Whirlwind|p1a: Skarmory
+|drag|p1a: Jirachi|Jirachi|48/100
+|-damage|p1a: Jirachi|42/100|[from] Stealth Rock
+|
+|-heal|p1a: Jirachi|48/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|88/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|choice|move firepunch|move whirlwind
+|
+|move|p1a: Jirachi|Fire Punch|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-damage|p2a: Skarmory|65/100
+|move|p2a: Skarmory|Whirlwind|p1a: Jirachi
+|drag|p1a: Manectric|Manectric, M|100/100
+|-damage|p1a: Manectric|88/100|[from] Stealth Rock
+|
+|-heal|p2a: Skarmory|71/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|choice|move flamethrower mega|switch 2
+|
+|switch|p2a: Sylveon|Sylveon, M|100/100
+|detailschange|p1a: Manectric|Manectric-Mega, M
+|-mega|p1a: Manectric|Manectric|Manectite
+|-ability|p1a: Manectric|Intimidate|boost
+|-unboost|p2a: Sylveon|atk|1
+|move|p1a: Manectric|Flamethrower|p2a: Sylveon
+|-damage|p2a: Sylveon|77/100
+|-status|p2a: Sylveon|brn
+|
+|-damage|p2a: Sylveon|64/100 brn|[from] brn
+|upkeep
+|turn|40
+|choice|switch 5|move hypervoice
+|
+|switch|p1a: Skarmory|Skarmory, M|77/100 par
+|-damage|p1a: Skarmory|65/100 par|[from] Stealth Rock
+|move|p2a: Sylveon|Hyper Voice|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|5/100 par
+|
+|-heal|p1a: Skarmory|11/100 par|[from] item: Leftovers
+|-damage|p2a: Sylveon|52/100 brn|[from] brn
+|upkeep
+|turn|41
+|choice|move defog|move hypervoice
+|
+|move|p2a: Sylveon|Hyper Voice|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|0 fnt
+|faint|p1a: Skarmory
+|
+|-damage|p2a: Sylveon|39/100 brn|[from] brn
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Jirachi|Jirachi|48/100
+|-damage|p1a: Jirachi|42/100|[from] Stealth Rock
+|turn|42
+|choice|move ironhead|switch 2
+|
+|switch|p2a: Skarmory|Skarmory, M|71/100
+|move|p1a: Jirachi|Iron Head|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|61/100
+|
+|-heal|p1a: Jirachi|48/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|67/100|[from] item: Leftovers
+|upkeep
+|turn|43
+|choice|move firepunch|move whirlwind
+|
+|move|p1a: Jirachi|Fire Punch|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-damage|p2a: Skarmory|44/100
+|move|p2a: Skarmory|Whirlwind|p1a: Jirachi
+|drag|p1a: Rotom|Rotom-Wash|32/100
+|-damage|p1a: Rotom|20/100|[from] Stealth Rock
+|
+|-heal|p1a: Rotom|26/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|50/100|[from] item: Leftovers
+|upkeep
+|turn|44
+|choice|move painsplit|switch 6
+|
+|switch|p2a: Celebi|Celebi|100/100
+|move|p1a: Rotom|Pain Split|p2a: Celebi
+|-sethp|p2a: Celebi|60/100|p1a: Rotom|80/100|[from] move: Pain Split
+|
+|-heal|p2a: Celebi|66/100|[from] item: Leftovers
+|-heal|p1a: Rotom|86/100|[from] item: Leftovers
+|upkeep
+|turn|45
+|choice|switch 5|move gigadrain
+|
+|switch|p1a: Manectric|Manectric-Mega, M|88/100
+|-damage|p1a: Manectric|76/100|[from] Stealth Rock
+|-ability|p1a: Manectric|Intimidate|boost
+|-unboost|p2a: Celebi|atk|1
+|move|p2a: Celebi|Giga Drain|p1a: Manectric
+|-damage|p1a: Manectric|40/100
+|-heal|p2a: Celebi|78/100|[from] drain|[of] p1a: Manectric
+|
+|-heal|p2a: Celebi|85/100|[from] item: Leftovers
+|upkeep
+|turn|46
+|choice|move flamethrower|move gigadrain
+|
+|move|p1a: Manectric|Flamethrower|p2a: Celebi
+|-supereffective|p2a: Celebi
+|-damage|p2a: Celebi|35/100
+|move|p2a: Celebi|Giga Drain|p1a: Manectric
+|-damage|p1a: Manectric|3/100
+|-heal|p2a: Celebi|48/100|[from] drain|[of] p1a: Manectric
+|
+|-heal|p2a: Celebi|54/100|[from] item: Leftovers
+|upkeep
+|turn|47
+|choice|move flamethrower|move recover
+|
+|move|p1a: Manectric|Flamethrower|p2a: Celebi
+|-supereffective|p2a: Celebi
+|-damage|p2a: Celebi|9/100
+|move|p2a: Celebi|Recover|p2a: Celebi
+|-heal|p2a: Celebi|59/100
+|
+|-heal|p2a: Celebi|66/100|[from] item: Leftovers
+|upkeep
+|turn|48
+|choice|move flamethrower|move recover
+|
+|move|p1a: Manectric|Flamethrower|p2a: Celebi
+|-supereffective|p2a: Celebi
+|-damage|p2a: Celebi|18/100
+|move|p2a: Celebi|Recover|p2a: Celebi
+|-heal|p2a: Celebi|68/100
+|
+|-heal|p2a: Celebi|74/100|[from] item: Leftovers
+|upkeep
+|turn|49
+|choice|move flamethrower|move gigadrain
+|
+|move|p1a: Manectric|Flamethrower|p2a: Celebi
+|-supereffective|p2a: Celebi
+|-damage|p2a: Celebi|32/100
+|move|p2a: Celebi|Giga Drain|p1a: Manectric
+|-damage|p1a: Manectric|0 fnt
+|-heal|p2a: Celebi|32/100|[from] drain|[of] p1a: Manectric
+|faint|p1a: Manectric
+|
+|-heal|p2a: Celebi|39/100|[from] item: Leftovers
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Jirachi|Jirachi|48/100
+|-damage|p1a: Jirachi|42/100|[from] Stealth Rock
+|turn|50
+|choice|move firepunch|move recover
+|
+|move|p1a: Jirachi|Fire Punch|p2a: Celebi
+|-supereffective|p2a: Celebi
+|-damage|p2a: Celebi|6/100
+|move|p2a: Celebi|Recover|p2a: Celebi
+|-heal|p2a: Celebi|56/100
+|
+|-heal|p1a: Jirachi|48/100|[from] item: Leftovers
+|-heal|p2a: Celebi|63/100|[from] item: Leftovers
+|upkeep
+|turn|51
+|choice|move substitute|move thunderwave
+|
+|move|p1a: Jirachi|Substitute|p1a: Jirachi
+|-start|p1a: Jirachi|Substitute
+|-damage|p1a: Jirachi|23/100
+|move|p2a: Celebi|Thunder Wave|p1a: Jirachi
+|-fail|p1a: Jirachi
+|
+|-heal|p1a: Jirachi|29/100|[from] item: Leftovers
+|-heal|p2a: Celebi|69/100|[from] item: Leftovers
+|upkeep
+|turn|52
+|choice|move ironhead|move gigadrain
+|
+|move|p1a: Jirachi|Iron Head|p2a: Celebi
+|-damage|p2a: Celebi|43/100
+|move|p2a: Celebi|Giga Drain|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-activate|p1a: Jirachi|move: Substitute|[damage]
+|-heal|p2a: Celebi|48/100|[from] drain|[of] p1a: Jirachi
+|
+|-heal|p1a: Jirachi|36/100|[from] item: Leftovers
+|-heal|p2a: Celebi|54/100|[from] item: Leftovers
+|upkeep
+|turn|53
+|choice|move ironhead|move recover
+|
+|move|p1a: Jirachi|Iron Head|p2a: Celebi
+|-damage|p2a: Celebi|25/100
+|cant|p2a: Celebi|flinch
+|
+|-heal|p1a: Jirachi|42/100|[from] item: Leftovers
+|-heal|p2a: Celebi|31/100|[from] item: Leftovers
+|upkeep
+|turn|54
+|choice|move ironhead|move recover
+|
+|move|p1a: Jirachi|Iron Head|p2a: Celebi
+|-damage|p2a: Celebi|3/100
+|cant|p2a: Celebi|flinch
+|
+|-heal|p1a: Jirachi|48/100|[from] item: Leftovers
+|-heal|p2a: Celebi|10/100|[from] item: Leftovers
+|upkeep
+|turn|55
+|choice|move ironhead|switch 6
+|
+|switch|p2a: Skarmory|Skarmory, M|50/100
+|move|p1a: Jirachi|Iron Head|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|40/100
+|
+|-heal|p1a: Jirachi|54/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|46/100|[from] item: Leftovers
+|upkeep
+|turn|56
+|choice|move firepunch|move roost
+|
+|move|p1a: Jirachi|Fire Punch|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-damage|p2a: Skarmory|24/100
+|move|p2a: Skarmory|Roost|p2a: Skarmory
+|-heal|p2a: Skarmory|74/100
+|
+|-heal|p1a: Jirachi|60/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|80/100|[from] item: Leftovers
+|upkeep
+|turn|57
+|choice|move firepunch|move whirlwind
+|
+|move|p1a: Jirachi|Fire Punch|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-damage|p2a: Skarmory|56/100
+|move|p2a: Skarmory|Whirlwind|p1a: Jirachi
+|drag|p1a: Rotom|Rotom-Wash|86/100
+|-damage|p1a: Rotom|73/100|[from] Stealth Rock
+|
+|-heal|p1a: Rotom|79/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|62/100|[from] item: Leftovers
+|upkeep
+|turn|58
+|choice|move hydropump|switch 6
+|
+|switch|p2a: Celebi|Celebi|10/100
+|move|p1a: Rotom|Hydro Pump|p2a: Celebi
+|-resisted|p2a: Celebi
+|-damage|p2a: Celebi|0 fnt
+|faint|p2a: Celebi
+|
+|-heal|p1a: Rotom|85/100|[from] item: Leftovers
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Sylveon|Sylveon, M|39/100 brn
+|turn|59
+|choice|move hydropump|move hypervoice
+|
+|move|p1a: Rotom|Hydro Pump|p2a: Sylveon
+|-damage|p2a: Sylveon|11/100 brn
+|move|p2a: Sylveon|Hyper Voice|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|-damage|p2a: Sylveon|0 fnt|[from] brn
+|upkeep
+|faint|p2a: Sylveon
+|choice|switch 5|switch 6
+|
+|switch|p1a: Jirachi|Jirachi|60/100
+|switch|p2a: Skarmory|Skarmory, M|62/100
+|-damage|p1a: Jirachi|54/100|[from] Stealth Rock
+|turn|60
+|choice|move firepunch|move roost
+|
+|move|p1a: Jirachi|Fire Punch|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-damage|p2a: Skarmory|39/100
+|move|p2a: Skarmory|Roost|p2a: Skarmory
+|-heal|p2a: Skarmory|89/100
+|
+|-heal|p1a: Jirachi|60/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|95/100|[from] item: Leftovers
+|upkeep
+|turn|61
+|choice|move substitute|move bravebird
+|
+|move|p1a: Jirachi|Substitute|p1a: Jirachi
+|-start|p1a: Jirachi|Substitute
+|-damage|p1a: Jirachi|35/100
+|move|p2a: Skarmory|Brave Bird|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-activate|p1a: Jirachi|move: Substitute|[damage]
+|-damage|p2a: Skarmory|89/100|[from] recoil|[of] p1a: Jirachi
+|
+|-heal|p1a: Jirachi|42/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|95/100|[from] item: Leftovers
+|upkeep
+|turn|62
+|choice|move firepunch|move bravebird
+|
+|move|p1a: Jirachi|Fire Punch|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-damage|p2a: Skarmory|73/100
+|move|p2a: Skarmory|Brave Bird|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-end|p1a: Jirachi|Substitute
+|-damage|p2a: Skarmory|68/100|[from] recoil|[of] p1a: Jirachi
+|
+|-heal|p1a: Jirachi|48/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|74/100|[from] item: Leftovers
+|upkeep
+|turn|63
+|choice|move firepunch|move bravebird
+|
+|move|p1a: Jirachi|Fire Punch|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-damage|p2a: Skarmory|51/100
+|-status|p2a: Skarmory|brn
+|move|p2a: Skarmory|Brave Bird|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|42/100
+|-damage|p2a: Skarmory|48/100 brn|[from] recoil|[of] p1a: Jirachi
+|
+|-heal|p1a: Jirachi|48/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|54/100 brn|[from] item: Leftovers
+|-damage|p2a: Skarmory|42/100 brn|[from] brn
+|upkeep
+|turn|64
+|choice|move ironhead|move roost
+|
+|move|p1a: Jirachi|Iron Head|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|33/100 brn
+|cant|p2a: Skarmory|flinch
+|
+|-heal|p1a: Jirachi|54/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|39/100 brn|[from] item: Leftovers
+|-damage|p2a: Skarmory|27/100 brn|[from] brn
+|upkeep
+|turn|65
+|choice|move ironhead|move roost
+|
+|move|p1a: Jirachi|Iron Head|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|17/100 brn
+|cant|p2a: Skarmory|flinch
+|
+|-heal|p1a: Jirachi|60/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|23/100 brn|[from] item: Leftovers
+|-damage|p2a: Skarmory|11/100 brn|[from] brn
+|upkeep
+|turn|66
+|choice|move firepunch|move roost
+|
+|move|p1a: Jirachi|Fire Punch|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-damage|p2a: Skarmory|0 fnt
+|faint|p2a: Skarmory
+|
+|win|OsmarMR
+|l|So Fuckin Milky
+|raw|OsmarMR's rating: 1126 &rarr; <strong>1157</strong><br />(+31 for winning)
+|raw|So Fuckin Milky's rating: 1206 &rarr; <strong>1175</strong><br />(-31 for losing)
+|c|☆OsmarMR|gg

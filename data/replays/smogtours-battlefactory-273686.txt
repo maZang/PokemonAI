@@ -1,0 +1,250 @@
+|J|p2
+|J|Shadestep
+|player|p1|p2|#p2
+|player|p2|Shadestep|237
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|17662,20556,23733,45452,9223,20777,21074,39031,22346,25943,13435,36505
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Claydol|item
+|poke|p1|Torterra, M|item
+|poke|p1|Charizard, M|item
+|poke|p1|Primeape, M|item
+|poke|p1|Kangaskhan, F|item
+|poke|p1|Malamar, M|item
+|poke|p2|Articuno|item
+|poke|p2|Beheeyem, M|item
+|poke|p2|Lanturn, M|item
+|poke|p2|Zangoose, M|item
+|poke|p2|Exeggutor, M|item
+|poke|p2|Sliggoo, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|J|Joachim Chelast
+|L|Joachim Chelast
+|c|☆p2|oh no
+|J|sedertz.
+|L|sedertz.
+|c|☆Shadestep|my tier
+|c|☆Shadestep|wait is this nu or pu
+|c|☆Shadestep|ur team is nu
+|c|☆Shadestep|mine is literally all pu
+|c|☆Shadestep|besides lanturn
+|choice|team 3, team 2, team 1, team 4, team 5, team 6|team 2, team 1, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Charizard|Charizard, M|100/100
+|switch|p2a: Beheeyem|Beheeyem, M|100/100
+|turn|1
+|choice|move fireblast|move psychic
+|
+|move|p1a: Charizard|Fire Blast|p2a: Beheeyem|[miss]
+|-miss|p1a: Charizard|p2a: Beheeyem
+|move|p2a: Beheeyem|Psychic|p1a: Charizard
+|-damage|p1a: Charizard|0 fnt
+|faint|p1a: Charizard
+|
+|upkeep
+|c|☆Shadestep|bye nigger
+|c|☆p2|cun t
+|choice|switch 6|
+|
+|switch|p1a: Malamar|Malamar, M|100/100
+|turn|2
+|choice|move knockoff|switch 2
+|
+|switch|p2a: Articuno|Articuno|100/100
+|-ability|p2a: Articuno|Pressure
+|move|p1a: Malamar|Knock Off|p2a: Articuno
+|-damage|p2a: Articuno|67/100
+|-enditem|p2a: Articuno|Life Orb|[from] move: Knock Off|[of] p1a: Malamar
+|
+|upkeep
+|turn|3
+|choice|move superpower|move hurricane
+|
+|move|p2a: Articuno|Hurricane|p1a: Malamar|[miss]
+|-miss|p2a: Articuno|p1a: Malamar
+|move|p1a: Malamar|Superpower|p2a: Articuno
+|-damage|p2a: Articuno|41/100
+|-boost|p1a: Malamar|atk|1
+|-boost|p1a: Malamar|def|1
+|
+|upkeep
+|turn|4
+|c|☆p2|gg nibba
+|choice|move superpower|move hurricane
+|
+|move|p2a: Articuno|Hurricane|p1a: Malamar
+|-damage|p1a: Malamar|62/100
+|move|p1a: Malamar|Superpower|p2a: Articuno
+|-damage|p2a: Articuno|0 fnt
+|-boost|p1a: Malamar|atk|1
+|-boost|p1a: Malamar|def|1
+|faint|p2a: Articuno
+|
+|-heal|p1a: Malamar|68/100|[from] item: Leftovers
+|upkeep
+|c|☆Shadestep|gg nibba
+|choice||switch 3
+|
+|switch|p2a: Lanturn|Lanturn, M|100/100
+|turn|5
+|choice|move knockoff|move voltswitch
+|
+|move|p2a: Lanturn|Volt Switch|p1a: Malamar
+|-damage|p1a: Malamar|54/100
+|c|☆Shadestep|,
+|c|☆Shadestep|why am i faster
+|c|☆Shadestep|kek
+|choice||switch 5
+|
+|switch|p2a: Exeggutor|Exeggutor, M|100/100
+|move|p1a: Malamar|Knock Off|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|0 fnt
+|-enditem|p2a: Exeggutor|Lum Berry|[from] move: Knock Off|[of] p1a: Malamar
+|faint|p2a: Exeggutor
+|
+|-heal|p1a: Malamar|60/100|[from] item: Leftovers
+|upkeep
+|c|☆p2|idk
+|choice||switch 6
+|
+|switch|p2a: Sliggoo|Sliggoo, M|100/100
+|turn|6
+|choice|move knockoff|move dracometeor
+|
+|move|p2a: Sliggoo|Draco Meteor|p1a: Malamar
+|-crit|p1a: Malamar
+|-damage|p1a: Malamar|0 fnt
+|-unboost|p2a: Sliggoo|spa|2
+|faint|p1a: Malamar
+|
+|upkeep
+|c|☆p2|??????????????????????
+|c|☆Shadestep|KEK
+|c|☆p2|the shit
+|choice|switch 5|
+|
+|switch|p1a: Kangaskhan|Kangaskhan, F|100/100
+|turn|7
+|c|☆Shadestep|its offensive
+|c|☆Shadestep|the good set
+|choice|move doubleedge|switch 5
+|
+|switch|p2a: Lanturn|Lanturn, M|100/100
+|move|p1a: Kangaskhan|Double-Edge|p2a: Lanturn
+|-damage|p2a: Lanturn|36/100
+|-damage|p1a: Kangaskhan|76/100|[from] recoil|[of] p2a: Lanturn
+|
+|-heal|p2a: Lanturn|42/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|choice|move earthquake|move scald
+|
+|move|p1a: Kangaskhan|Earthquake|p2a: Lanturn
+|-supereffective|p2a: Lanturn
+|-damage|p2a: Lanturn|0 fnt
+|faint|p2a: Lanturn
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Beheeyem|Beheeyem, M|100/100
+|turn|9
+|choice|switch 3|move psychic
+|
+|switch|p1a: Claydol|Claydol|100/100
+|move|p2a: Beheeyem|Psychic|p1a: Claydol
+|-resisted|p1a: Claydol
+|-damage|p1a: Claydol|45/100
+|
+|-heal|p1a: Claydol|51/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|c|☆p2|excuse me
+|c|☆Shadestep|?
+|choice|move shadowball|move psychic
+|
+|move|p1a: Claydol|Shadow Ball|p2a: Beheeyem
+|-supereffective|p2a: Beheeyem
+|-damage|p2a: Beheeyem|57/100
+|move|p2a: Beheeyem|Psychic|p1a: Claydol
+|-resisted|p1a: Claydol
+|-damage|p1a: Claydol|0 fnt
+|faint|p1a: Claydol
+|
+|upkeep
+|c|☆p2|!dt behyee,m
+No Pokémon, item, move, ability or nature named 'behyee,m' was found. Showing the data of 'Beheeyem' instead.
+|c|~|/data-pokemon Beheeyem
+|raw|<font size="1"><font color="#686868">Dex#:</font> 606&nbsp;|&ThickSpace;<font color="#686868">Gen:</font> 5&nbsp;|&ThickSpace;<font color="#686868">Height:</font> 1 m&nbsp;|&ThickSpace;<font color="#686868">Weight:</font> 34.5 kg <em>(60 BP)</em>&nbsp;|&ThickSpace;<font color="#686868">Dex Colour:</font> Brown&nbsp;|&ThickSpace;<font color="#686868">Egg Group(s):</font> Human-Like&nbsp;|&ThickSpace;<font color="#686868">Does Not Evolve</font></font>
+|c|☆p2|put that nig in psychci terrain
+|c|☆p2|how do you lose
+|c|☆Shadestep|oml
+|choice|switch 3|
+|
+|switch|p1a: Kangaskhan|Kangaskhan, F|76/100
+|turn|11
+|J|T be stuntin
+|choice|move doubleedge|switch 5
+|
+|switch|p2a: Sliggoo|Sliggoo, M|100/100
+|move|p1a: Kangaskhan|Double-Edge|p2a: Sliggoo
+|-damage|p2a: Sliggoo|12/100
+|-damage|p1a: Kangaskhan|52/100|[from] recoil|[of] p2a: Sliggoo
+|
+|upkeep
+|turn|12
+|choice|move earthquake|move sludgebomb
+|
+|move|p1a: Kangaskhan|Earthquake|p2a: Sliggoo
+|-damage|p2a: Sliggoo|0 fnt
+|faint|p2a: Sliggoo
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Zangoose|Zangoose, M|100/100
+|turn|13
+|L|T be stuntin
+|choice|switch 2|move closecombat
+|
+|switch|p1a: Torterra|Torterra, M|100/100
+|move|p2a: Zangoose|Close Combat|p1a: Torterra
+|-damage|p1a: Torterra|72/100
+|-unboost|p2a: Zangoose|def|1
+|-unboost|p2a: Zangoose|spd|1
+|
+|-heal|p1a: Torterra|78/100|[from] item: Leftovers
+|-status|p2a: Zangoose|tox|[from] item: Toxic Orb
+|upkeep
+|turn|14
+|choice|move woodhammer|move facade
+|
+|move|p2a: Zangoose|Facade|p1a: Torterra
+|-damage|p1a: Torterra|7/100
+|move|p1a: Torterra|Wood Hammer|p2a: Zangoose
+|-damage|p2a: Zangoose|0 fnt
+|-damage|p1a: Torterra|0 fnt|[from] recoil|[of] p2a: Zangoose
+|faint|p2a: Zangoose
+|faint|p1a: Torterra
+|
+|upkeep
+|choice|switch 2|switch 5
+|
+|switch|p1a: Kangaskhan|Kangaskhan, F|52/100
+|switch|p2a: Beheeyem|Beheeyem, M|57/100
+|turn|15
+|choice|move doubleedge|move psychic
+|
+|move|p1a: Kangaskhan|Double-Edge|p2a: Beheeyem
+|-damage|p2a: Beheeyem|0 fnt
+|-damage|p1a: Kangaskhan|34/100|[from] recoil|[of] p2a: Beheeyem
+|faint|p2a: Beheeyem
+|
+|win|p2

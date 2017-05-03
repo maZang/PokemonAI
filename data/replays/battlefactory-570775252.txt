@@ -1,0 +1,337 @@
+|j|camilas
+|j|villageidiotblarg
+|player|p1|camilas|39
+|player|p2|villageidiotblarg|163
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|53854,38167,24667,339,1631,1858,53873,16211,20435,29225,26679,330
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Metagross|item
+|poke|p1|Togekiss, M|item
+|poke|p1|Crawdaunt, M|item
+|poke|p1|Terrakion|item
+|poke|p1|Raikou|item
+|poke|p1|Heatran, M|item
+|poke|p2|Mandibuzz, F|item
+|poke|p2|Sableye, M|item
+|poke|p2|Mamoswine, M|item
+|poke|p2|Skarmory, M|item
+|poke|p2|Clefable, M|item
+|poke|p2|Chansey, F|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|c|☆villageidiotblarg|fuck
+|c|☆villageidiotblarg|what is this idiot
+|c|☆villageidiotblarg|chansey offense
+|c|☆camilas|aids
+|c|☆camilas|hav fun fagot
+|c|☆villageidiotblarg|god this team isr etarded
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by villageidiotblarg)
+|choice|team 2, team 1, team 3, team 4, team 5, team 6|team 3, team 2, team 1, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Togekiss|Togekiss, M|100/100
+|switch|p2a: Mamoswine|Mamoswine, M|100/100
+|turn|1
+|choice|switch 2|move stealthrock
+|
+|switch|p1a: Metagross|Metagross|100/100
+|move|p2a: Mamoswine|Stealth Rock|p1a: Metagross
+|-sidestart|p1: camilas|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|choice|move meteormash mega|move earthquake
+|
+|detailschange|p1a: Metagross|Metagross-Mega
+|-mega|p1a: Metagross|Metagross|Metagrossite
+|move|p2a: Mamoswine|Earthquake|p1a: Metagross
+|-supereffective|p1a: Metagross
+|-damage|p1a: Metagross|25/100
+|move|p1a: Metagross|Meteor Mash|p2a: Mamoswine
+|-supereffective|p2a: Mamoswine
+|-enditem|p2a: Mamoswine|Focus Sash
+|-damage|p2a: Mamoswine|1/100
+|
+|upkeep
+|turn|3
+|c|☆villageidiotblarg|that bad huh
+|choice|switch 6|switch 4
+|
+|switch|p1a: Heatran|Heatran, M|100/100
+|-damage|p1a: Heatran|88/100|[from] Stealth Rock
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|
+|upkeep
+|turn|4
+|c|☆villageidiotblarg|O Om K
+|c|☆villageidiotblarg|O K
+|choice|switch 4|move spikes
+|
+|switch|p1a: Terrakion|Terrakion|100/100
+|-damage|p1a: Terrakion|94/100|[from] Stealth Rock
+|move|p2a: Skarmory|Spikes|p1a: Terrakion
+|-sidestart|p1: camilas|Spikes
+|
+|upkeep
+|turn|5
+|c|☆villageidiotblarg|yha
+|choice|move taunt|move ironhead
+|
+|move|p1a: Terrakion|Taunt|p2a: Skarmory
+|-start|p2a: Skarmory|move: Taunt
+|move|p2a: Skarmory|Iron Head|p1a: Terrakion
+|-supereffective|p1a: Terrakion
+|-damage|p1a: Terrakion|40/100
+|
+|upkeep
+|turn|6
+|choice|move stealthrock|move ironhead
+|
+|move|p1a: Terrakion|Stealth Rock|p2a: Skarmory
+|-sidestart|p2: villageidiotblarg|move: Stealth Rock
+|move|p2a: Skarmory|Iron Head|p1a: Terrakion
+|-supereffective|p1a: Terrakion
+|-damage|p1a: Terrakion|0 fnt
+|faint|p1a: Terrakion
+|
+|upkeep
+|c|☆villageidiotblarg|i am
+|c|☆villageidiotblarg|jased boo
+|choice|switch 5|
+|
+|switch|p1a: Raikou|Raikou|100/100
+|-damage|p1a: Raikou|88/100|[from] Spikes
+|-damage|p1a: Raikou|76/100|[from] Stealth Rock
+|-ability|p1a: Raikou|Pressure
+|turn|7
+|choice|move thunderbolt|switch 4
+|
+|switch|p2a: Mamoswine|Mamoswine, M|1/100
+|-damage|p2a: Mamoswine|0 fnt|[from] Stealth Rock
+|faint|p2a: Mamoswine
+|move|p1a: Raikou|Thunderbolt|p2: Mamoswine|[notarget]
+|-notarget
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Chansey|Chansey, F|100/100
+|-damage|p2a: Chansey|88/100|[from] Stealth Rock
+|turn|8
+|choice|switch 6|move toxic
+|
+|switch|p1a: Metagross|Metagross-Mega|25/100
+|-damage|p1a: Metagross|13/100|[from] Spikes
+|-damage|p1a: Metagross|6/100|[from] Stealth Rock
+|move|p2a: Chansey|Toxic|p1a: Metagross
+|-immune|p1a: Metagross|[msg]
+|
+|upkeep
+|turn|9
+|c|☆villageidiotblarg|ah
+|c|☆villageidiotblarg|that aws abd
+|choice|switch 4|switch 4
+|
+|switch|p1a: Heatran|Heatran, M|88/100
+|-damage|p1a: Heatran|76/100|[from] Stealth Rock
+|-damage|p1a: Heatran|63/100|[from] Spikes
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|-damage|p2a: Skarmory|88/100|[from] Stealth Rock
+|
+|-heal|p2a: Skarmory|94/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|choice|move overheat|switch 4
+|
+|switch|p2a: Chansey|Chansey, F|88/100
+|-damage|p2a: Chansey|76/100|[from] Stealth Rock
+|move|p1a: Heatran|Overheat|p2a: Chansey
+|-damage|p2a: Chansey|56/100
+|-unboost|p1a: Heatran|spa|2
+|
+|upkeep
+|turn|11
+|choice|switch 3|move softboiled
+|
+|switch|p1a: Crawdaunt|Crawdaunt, M|100/100
+|-damage|p1a: Crawdaunt|88/100|[from] Stealth Rock
+|-damage|p1a: Crawdaunt|76/100|[from] Spikes
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|100/100
+|
+|upkeep
+|turn|12
+|choice|move knockoff|move toxic
+|
+|move|p1a: Crawdaunt|Knock Off|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|-enditem|p2a: Chansey|Eviolite|[from] move: Knock Off|[of] p1a: Crawdaunt
+|faint|p2a: Chansey
+|
+|upkeep
+|c|☆camilas|who dyin FAM
+|c|☆camilas|LOLOL
+|c|☆camilas|NICE ONE
+|c|☆camilas|DUDE
+|c|☆villageidiotblarg|christ
+|c|☆villageidiotblarg|nice crit
+|c|☆villageidiotblarg|idiot
+|c|☆villageidiotblarg|is that banded
+|choice||switch 3
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100
+|-damage|p2a: Mandibuzz|76/100|[from] Stealth Rock
+|turn|13
+|c|☆villageidiotblarg|hurry up
+|choice|switch 4|move foulplay
+|
+|switch|p1a: Metagross|Metagross-Mega|6/100
+|-damage|p1a: Metagross|0 fnt|[from] Spikes
+|faint|p1a: Metagross
+|move|p2a: Mandibuzz|Foul Play|p1: Metagross|[notarget]
+|-notarget
+|
+|-heal|p2a: Mandibuzz|82/100|[from] item: Leftovers
+|upkeep
+|c|☆villageidiotblarg|ive got like
+|c|☆villageidiotblarg|2 min
+|choice|switch 6|
+|
+|switch|p1a: Raikou|Raikou|76/100
+|-damage|p1a: Raikou|63/100|[from] Stealth Rock
+|-damage|p1a: Raikou|51/100|[from] Spikes
+|-ability|p1a: Raikou|Pressure
+|turn|14
+|choice|move voltswitch|move roost
+|
+|move|p1a: Raikou|Volt Switch|p2a: Mandibuzz
+|-supereffective|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|9/100
+|choice|switch 2|
+|
+|switch|p1a: Togekiss|Togekiss, M|100/100
+|-damage|p1a: Togekiss|76/100|[from] Stealth Rock
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|59/100
+|
+|-heal|p2a: Mandibuzz|65/100|[from] item: Leftovers
+|-heal|p1a: Togekiss|82/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|choice|move airslash|move taunt
+|
+|move|p2a: Mandibuzz|Taunt|p1a: Togekiss
+|-start|p1a: Togekiss|move: Taunt
+|move|p1a: Togekiss|Air Slash|p2a: Mandibuzz|[miss]
+|-miss|p1a: Togekiss|p2a: Mandibuzz
+|
+|-heal|p2a: Mandibuzz|71/100|[from] item: Leftovers
+|-heal|p1a: Togekiss|88/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|choice|switch 2|move roost
+|
+|switch|p1a: Raikou|Raikou|51/100
+|-damage|p1a: Raikou|38/100|[from] Stealth Rock
+|-damage|p1a: Raikou|26/100|[from] Spikes
+|-ability|p1a: Raikou|Pressure
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|100/100
+|
+|upkeep
+|turn|17
+|choice|move voltswitch|switch 5
+|
+|switch|p2a: Clefable|Clefable, M|100/100
+|-damage|p2a: Clefable|88/100|[from] Stealth Rock
+|move|p1a: Raikou|Volt Switch|p2a: Clefable
+|-damage|p2a: Clefable|39/100
+|c|☆villageidiotblarg|what
+|c|☆villageidiotblarg|49
+|c|☆villageidiotblarg|is that spesc
+|choice|switch 3|
+|
+|switch|p1a: Heatran|Heatran, M|63/100
+|-damage|p1a: Heatran|51/100|[from] Stealth Rock
+|-damage|p1a: Heatran|39/100|[from] Spikes
+|
+|-heal|p2a: Clefable|45/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|choice|move flashcannon|move protect
+|
+|move|p2a: Clefable|Protect|p2a: Clefable
+|-singleturn|p2a: Clefable|Protect
+|move|p1a: Heatran|Flash Cannon|p2a: Clefable
+|-activate|p2a: Clefable|move: Protect
+|
+|-heal|p2a: Clefable|51/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|c|☆camilas|yeah nigga
+|choice|move flashcannon|move wish
+|
+|move|p1a: Heatran|Flash Cannon|p2a: Clefable
+|-supereffective|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Sableye|Sableye, M|100/100
+|-damage|p2a: Sableye|88/100|[from] Stealth Rock
+|turn|20
+|c|☆camilas|nice one breh
+|choice|move flashcannon|move calmmind
+|
+|move|p2a: Sableye|Calm Mind|p2a: Sableye
+|-boost|p2a: Sableye|spa|1
+|-boost|p2a: Sableye|spd|1
+|move|p1a: Heatran|Flash Cannon|p2a: Sableye
+|-damage|p2a: Sableye|40/100
+|-unboost|p2a: Sableye|spd|1
+|
+|upkeep
+|turn|21
+|c|☆villageidiotblarg|you fuckn
+|c|☆villageidiotblarg|PUSSSYSY
+|choice|move flashcannon|move recover
+|
+|move|p2a: Sableye|Recover|p2a: Sableye
+|-heal|p2a: Sableye|90/100
+|move|p1a: Heatran|Flash Cannon|p2a: Sableye
+|-damage|p2a: Sableye|25/100
+|
+|upkeep
+|turn|22
+|c|☆camilas|ez as shit
+|choice|move flashcannon|move shadowball
+|
+|move|p1a: Heatran|Flash Cannon|p2a: Sableye
+|-damage|p2a: Sableye|0 fnt
+|faint|p2a: Sableye
+|
+|upkeep
+|c|☆camilas|nice plays bro
+|c|☆camilas|LOLOL
+|c|☆camilas|ass
+|c|☆villageidiotblarg|nice luck
+|c|☆villageidiotblarg|you idiot
+|c|☆villageidiotblarg|rofl
+|choice||switch 5
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100
+|-damage|p2a: Mandibuzz|76/100|[from] Stealth Rock
+|turn|23
+|c|☆villageidiotblarg|shit i gtg
+|-message|villageidiotblarg forfeited.
+|
+|win|camilas
+|c|☆villageidiotblarg|you an
+|c|☆villageidiotblarg|IDIOT

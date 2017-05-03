@@ -1,0 +1,530 @@
+|j|candynicole
+|j|my name is badger
+|player|p1|candynicole|279
+|player|p2|my name is badger|266
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|40375,79,64953,48194,63238,7750,51119,13476,20765,25791,9472,63457
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Scizor, M|item
+|poke|p1|Groudon|item
+|poke|p1|Reshiram|item
+|poke|p1|Arceus-*|item
+|poke|p1|Deoxys-Attack|item
+|poke|p1|Greninja, M|item
+|poke|p2|Scizor, M|item
+|poke|p2|Blissey, F|item
+|poke|p2|Deoxys|item
+|poke|p2|Lugia|item
+|poke|p2|Palkia|item
+|poke|p2|Arceus-*|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 6, team 2, team 3, team 4, team 5, team 1|team 3, team 2, team 1, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Greninja|Greninja, M|100/100
+|switch|p2a: Deoxys|Deoxys|100/100
+|-ability|p2a: Deoxys|Pressure
+|turn|1
+|choice|move toxicspikes|move taunt
+|
+|move|p2a: Deoxys|Taunt|p1a: Greninja
+|-start|p1a: Greninja|move: Taunt
+|cant|p1a: Greninja|move: Taunt|Toxic Spikes
+|
+|upkeep
+|turn|2
+|choice|move shadowsneak|move stealthrock
+|
+|move|p1a: Greninja|Shadow Sneak|p2a: Deoxys
+|-start|p1a: Greninja|typechange|Ghost|[from] Protean
+|-supereffective|p2a: Deoxys
+|-damage|p2a: Deoxys|11/100
+|move|p2a: Deoxys|Stealth Rock|p1a: Greninja
+|-sidestart|p1: candynicole|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|choice|move shadowsneak|switch 2
+|
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: Greninja|Shadow Sneak|p2a: Blissey
+|-immune|p2a: Blissey|[msg]
+|
+|-end|p1a: Greninja|move: Taunt
+|upkeep
+|turn|4
+|choice|move taunt|move snatch
+|
+|move|p2a: Blissey|Snatch|p2a: Blissey
+|-singleturn|p2a: Blissey|Snatch
+|move|p1a: Greninja|Taunt|p2a: Blissey
+|-start|p1a: Greninja|typechange|Dark|[from] Protean
+|-start|p2a: Blissey|move: Taunt
+|
+|upkeep
+|turn|5
+|choice|move toxicspikes|switch 2
+|
+|switch|p2a: Deoxys|Deoxys|11/100
+|-ability|p2a: Deoxys|Pressure
+|move|p1a: Greninja|Toxic Spikes|p2a: Deoxys
+|-start|p1a: Greninja|typechange|Poison|[from] Protean
+|-sidestart|p2: my name is badger|move: Toxic Spikes
+|
+|upkeep
+|turn|6
+|choice|move shadowsneak|move psychoboost
+|
+|move|p1a: Greninja|Shadow Sneak|p2a: Deoxys
+|-start|p1a: Greninja|typechange|Ghost|[from] Protean
+|-supereffective|p2a: Deoxys
+|-damage|p2a: Deoxys|0 fnt
+|faint|p2a: Deoxys
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Scizor|Scizor, M|100/100
+|turn|7
+|choice|move scald|move toxic mega
+|
+|detailschange|p2a: Scizor|Scizor-Mega, M
+|-mega|p2a: Scizor|Scizor|Scizorite
+|move|p1a: Greninja|Scald|p2a: Scizor
+|-start|p1a: Greninja|typechange|Water|[from] Protean
+|-damage|p2a: Scizor|77/100
+|move|p2a: Scizor|Toxic|p1a: Greninja
+|-status|p1a: Greninja|tox
+|
+|-damage|p1a: Greninja|95/100 tox|[from] psn
+|upkeep
+|turn|8
+|choice|move toxicspikes|switch 2
+|
+|switch|p2a: Blissey|Blissey, F|100/100
+|-status|p2a: Blissey|psn
+|move|p1a: Greninja|Toxic Spikes|p2a: Blissey
+|-start|p1a: Greninja|typechange|Poison|[from] Protean
+|-sidestart|p2: my name is badger|move: Toxic Spikes
+|
+|-damage|p1a: Greninja|83/100 tox|[from] psn
+|-damage|p2a: Blissey|88/100 psn|[from] psn
+|upkeep
+|turn|9
+|choice|switch 2|move protect
+|
+|switch|p1a: Groudon|Groudon|100/100
+|-damage|p1a: Groudon|94/100|[from] Stealth Rock
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Groudon
+|move|p2a: Blissey|Protect|p2a: Blissey
+|-fail|p2a: Blissey
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Groudon|100/100|[from] item: Leftovers
+|-damage|p2a: Blissey|75/100 psn|[from] psn
+|upkeep
+|turn|10
+|choice|move stealthrock|move toxic
+|
+|move|p1a: Groudon|Stealth Rock|p2a: Blissey
+|-sidestart|p2: my name is badger|move: Stealth Rock
+|move|p2a: Blissey|Toxic|p1a: Groudon
+|-status|p1a: Groudon|tox
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Groudon|94/100 tox|[from] psn
+|-damage|p2a: Blissey|63/100 psn|[from] psn
+|upkeep
+|turn|11
+|choice|move stoneedge|switch 5
+|
+|-curestatus|p2a: Blissey|psn|[from] ability: Natural Cure
+|switch|p2a: Palkia|Palkia|100/100
+|-damage|p2a: Palkia|88/100|[from] Stealth Rock
+|-status|p2a: Palkia|tox
+|-ability|p2a: Palkia|Pressure
+|move|p1a: Groudon|Stone Edge|p2a: Palkia
+|-damage|p2a: Palkia|55/100 tox
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Groudon|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Palkia|49/100 tox|[from] psn
+|-damage|p1a: Groudon|88/100 tox|[from] psn
+|upkeep
+|turn|12
+|choice|switch 2|move fireblast
+|
+|switch|p1a: Greninja|Greninja, M|83/100 tox
+|-damage|p1a: Greninja|70/100 tox|[from] Stealth Rock
+|move|p2a: Palkia|Fire Blast|p1a: Greninja
+|-resisted|p1a: Greninja
+|-damage|p1a: Greninja|0 fnt
+|faint|p1a: Greninja
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Palkia|37/100 tox|[from] psn
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Deoxys|Deoxys-Attack|100/100
+|-damage|p1a: Deoxys|88/100|[from] Stealth Rock
+|-ability|p1a: Deoxys|Pressure
+|turn|13
+|choice|move knockoff|move fireblast
+|
+|move|p1a: Deoxys|Knock Off|p2a: Palkia
+|-damage|p2a: Palkia|0 fnt
+|-enditem|p2a: Palkia|Choice Specs|[from] move: Knock Off|[of] p1a: Deoxys
+|faint|p2a: Palkia
+|
+|-weather|none
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Blissey|Blissey, F|63/100
+|-damage|p2a: Blissey|50/100|[from] Stealth Rock
+|-status|p2a: Blissey|tox
+|turn|14
+|choice|move knockoff|move wish
+|
+|move|p1a: Deoxys|Knock Off|p2a: Blissey
+|-damage|p2a: Blissey|0 fnt
+|-enditem|p2a: Blissey|Shed Shell|[from] move: Knock Off|[of] p1a: Deoxys
+|faint|p2a: Blissey
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Scizor|Scizor-Mega, M|77/100
+|-damage|p2a: Scizor|65/100|[from] Stealth Rock
+|turn|15
+|choice|switch 3|move defog
+|
+|switch|p1a: Reshiram|Reshiram|100/100
+|-damage|p1a: Reshiram|76/100|[from] Stealth Rock
+|-ability|p1a: Reshiram|Turboblaze
+|move|p2a: Scizor|Defog|p1a: Reshiram
+|-unboost|p1a: Reshiram|evasion|1
+|-sideend|p1: candynicole|Stealth Rock|[from] move: Defog|[of] p1a: Reshiram
+|-sideend|p2: my name is badger|Toxic Spikes|[from] move: Defog|[of] p2a: Scizor
+|-sideend|p2: my name is badger|Stealth Rock|[from] move: Defog|[of] p2a: Scizor
+|
+|-heal|p1a: Reshiram|82/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|choice|move blueflare|switch 6
+|
+|switch|p2a: Arceus|Arceus-Fire|100/100
+|move|p1a: Reshiram|Blue Flare|p2a: Arceus
+|-resisted|p2a: Arceus
+|-damage|p2a: Arceus|71/100
+|
+|-heal|p1a: Reshiram|88/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|choice|move toxic|move earthpower
+|
+|move|p2a: Arceus|Earth Power|p1a: Reshiram
+|-supereffective|p1a: Reshiram
+|-damage|p1a: Reshiram|36/100
+|move|p1a: Reshiram|Toxic|p2a: Arceus|[miss]
+|-miss|p1a: Reshiram|p2a: Arceus
+|
+|-heal|p1a: Reshiram|42/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|choice|move roost|move earthpower
+|
+|move|p2a: Arceus|Earth Power|p1a: Reshiram
+|-supereffective|p1a: Reshiram
+|-damage|p1a: Reshiram|0 fnt
+|faint|p1a: Reshiram
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Arceus|Arceus-Dragon|100/100
+|turn|19
+|choice|move calmmind|switch 4
+|
+|switch|p2a: Lugia|Lugia|100/100
+|move|p1a: Arceus|Calm Mind|p1a: Arceus
+|-boost|p1a: Arceus|spa|1
+|-boost|p1a: Arceus|spd|1
+|
+|upkeep
+|turn|20
+|choice|move judgment|move whirlwind
+|
+|move|p1a: Arceus|Judgment|p2a: Lugia
+|-damage|p2a: Lugia|79/100
+|move|p2a: Lugia|Whirlwind|p1a: Arceus
+|drag|p1a: Deoxys|Deoxys-Attack|88/100
+|-ability|p1a: Deoxys|Pressure
+|
+|-heal|p2a: Lugia|85/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|choice|move knockoff|switch 6
+|
+|switch|p2a: Scizor|Scizor-Mega, M|65/100
+|move|p1a: Deoxys|Knock Off|p2a: Scizor
+|-damage|p2a: Scizor|50/100
+|
+|upkeep
+|turn|22
+|choice|switch 2|move roost
+|
+|switch|p1a: Groudon|Groudon|88/100 tox
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Groudon
+|move|p2a: Scizor|Roost|p2a: Scizor
+|-heal|p2a: Scizor|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Groudon|94/100 tox|[from] item: Leftovers
+|-damage|p1a: Groudon|88/100 tox|[from] psn
+|upkeep
+|turn|23
+|choice|move stealthrock|switch 6
+|
+|switch|p2a: Lugia|Lugia|85/100
+|move|p1a: Groudon|Stealth Rock|p2a: Lugia
+|-sidestart|p2: my name is badger|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Lugia|91/100|[from] item: Leftovers
+|-heal|p1a: Groudon|94/100 tox|[from] item: Leftovers
+|-damage|p1a: Groudon|82/100 tox|[from] psn
+|upkeep
+|turn|24
+|choice|move stoneedge|move roost
+|
+|move|p2a: Lugia|Roost|p2a: Lugia
+|-heal|p2a: Lugia|100/100
+|move|p1a: Groudon|Stone Edge|p2a: Lugia
+|-damage|p2a: Lugia|93/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Lugia|99/100|[from] item: Leftovers
+|-heal|p1a: Groudon|88/100 tox|[from] item: Leftovers
+|-damage|p1a: Groudon|69/100 tox|[from] psn
+|upkeep
+|turn|25
+|choice|switch 6|move roost
+|
+|switch|p1a: Scizor|Scizor, M|100/100
+|move|p2a: Lugia|Roost|p2a: Lugia
+|-heal|p2a: Lugia|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|26
+|choice|move toxic mega|move whirlwind
+|
+|detailschange|p1a: Scizor|Scizor-Mega, M
+|-mega|p1a: Scizor|Scizor|Scizorite
+|move|p1a: Scizor|Toxic|p2a: Lugia
+|-status|p2a: Lugia|tox
+|move|p2a: Lugia|Whirlwind|p1a: Scizor
+|drag|p1a: Arceus|Arceus-Dragon|100/100
+|
+|-weather|none
+|-damage|p2a: Lugia|94/100 tox|[from] psn
+|upkeep
+|turn|27
+|choice|switch 3|move icebeam
+|
+|switch|p1a: Scizor|Scizor-Mega, M|100/100
+|move|p2a: Lugia|Ice Beam|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|92/100
+|
+|-heal|p2a: Lugia|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Lugia|88/100 tox|[from] psn
+|upkeep
+|turn|28
+|choice|move toxic|switch 6
+|
+|switch|p2a: Scizor|Scizor-Mega, M|100/100
+|-damage|p2a: Scizor|88/100|[from] Stealth Rock
+|move|p1a: Scizor|Toxic|p2a: Scizor
+|-immune|p2a: Scizor|[msg]
+|
+|upkeep
+|turn|29
+|choice|switch 6|move defog
+|
+|switch|p1a: Groudon|Groudon|69/100 tox
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Groudon
+|move|p2a: Scizor|Defog|p1a: Groudon
+|-unboost|p1a: Groudon|evasion|1
+|-sideend|p2: my name is badger|Stealth Rock|[from] move: Defog|[of] p2a: Scizor
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Groudon|76/100 tox|[from] item: Leftovers
+|-damage|p1a: Groudon|69/100 tox|[from] psn
+|upkeep
+|turn|30
+|choice|move stoneedge|move bulletpunch
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Groudon
+|-damage|p1a: Groudon|54/100 tox
+|move|p1a: Groudon|Stone Edge|p2a: Scizor
+|-damage|p2a: Scizor|67/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Groudon|60/100 tox|[from] item: Leftovers
+|-damage|p1a: Groudon|48/100 tox|[from] psn
+|upkeep
+|turn|31
+|choice|switch 6|switch 6
+|
+|switch|p1a: Scizor|Scizor-Mega, M|92/100
+|switch|p2a: Lugia|Lugia|88/100 tox
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Lugia|94/100 tox|[from] item: Leftovers
+|-damage|p2a: Lugia|88/100 tox|[from] psn
+|upkeep
+|turn|32
+|choice|move roost|switch 4
+|
+|switch|p2a: Arceus|Arceus-Fire|71/100
+|move|p1a: Scizor|Roost|p1a: Scizor
+|-heal|p1a: Scizor|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|33
+|c|☆my name is badger|i like that
+|choice|switch 3|move overheat
+|
+|switch|p1a: Arceus|Arceus-Dragon|100/100
+|move|p2a: Arceus|Overheat|p1a: Arceus
+|-resisted|p1a: Arceus
+|-damage|p1a: Arceus|59/100
+|-unboost|p2a: Arceus|spa|2
+|
+|-weather|none
+|upkeep
+|turn|34
+|choice|move recover|switch 6
+|
+|switch|p2a: Scizor|Scizor-Mega, M|67/100
+|move|p1a: Arceus|Recover|p1a: Arceus
+|-heal|p1a: Arceus|100/100
+|
+|upkeep
+|turn|35
+|choice|move fireblast|move bulletpunch
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Arceus
+|-damage|p1a: Arceus|81/100
+|move|p1a: Arceus|Fire Blast|p2a: Scizor
+|-supereffective|p2a: Scizor
+|-damage|p2a: Scizor|0 fnt
+|faint|p2a: Scizor
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Lugia|Lugia|88/100 tox
+|turn|36
+|choice|switch 3|switch 6
+|
+|switch|p1a: Scizor|Scizor-Mega, M|100/100
+|switch|p2a: Arceus|Arceus-Fire|71/100
+|
+|upkeep
+|turn|37
+|choice|switch 3|move calmmind
+|
+|switch|p1a: Arceus|Arceus-Dragon|81/100
+|move|p2a: Arceus|Calm Mind|p2a: Arceus
+|-boost|p2a: Arceus|spa|1
+|-boost|p2a: Arceus|spd|1
+|
+|upkeep
+|turn|38
+|choice|move calmmind|move calmmind
+|
+|move|p1a: Arceus|Calm Mind|p1a: Arceus
+|-boost|p1a: Arceus|spa|1
+|-boost|p1a: Arceus|spd|1
+|move|p2a: Arceus|Calm Mind|p2a: Arceus
+|-boost|p2a: Arceus|spa|1
+|-boost|p2a: Arceus|spd|1
+|
+|upkeep
+|turn|39
+|choice|move calmmind|move earthpower
+|
+|move|p1a: Arceus|Calm Mind|p1a: Arceus
+|-boost|p1a: Arceus|spa|1
+|-boost|p1a: Arceus|spd|1
+|move|p2a: Arceus|Earth Power|p1a: Arceus
+|-damage|p1a: Arceus|58/100
+|-unboost|p1a: Arceus|spd|1
+|
+|upkeep
+|turn|40
+|choice|move recover|move earthpower
+|
+|move|p1a: Arceus|Recover|p1a: Arceus
+|-heal|p1a: Arceus|100/100
+|move|p2a: Arceus|Earth Power|p1a: Arceus
+|-damage|p1a: Arceus|72/100
+|
+|upkeep
+|turn|41
+|choice|move calmmind|move earthpower
+|
+|move|p1a: Arceus|Calm Mind|p1a: Arceus
+|-boost|p1a: Arceus|spa|1
+|-boost|p1a: Arceus|spd|1
+|move|p2a: Arceus|Earth Power|p1a: Arceus
+|-damage|p1a: Arceus|51/100
+|
+|upkeep
+|turn|42
+|choice|move recover|move earthpower
+|
+|move|p1a: Arceus|Recover|p1a: Arceus
+|-heal|p1a: Arceus|100/100
+|move|p2a: Arceus|Earth Power|p1a: Arceus
+|-damage|p1a: Arceus|79/100
+|
+|upkeep
+|turn|43
+|choice|move judgment|move thunder
+|
+|move|p1a: Arceus|Judgment|p2a: Arceus
+|-damage|p2a: Arceus|29/100
+|move|p2a: Arceus|Thunder|p1a: Arceus|[miss]
+|-miss|p2a: Arceus|p1a: Arceus
+|
+|upkeep
+|turn|44
+|choice|move judgment|move thunder
+|
+|move|p1a: Arceus|Judgment|p2a: Arceus
+|-damage|p2a: Arceus|0 fnt
+|faint|p2a: Arceus
+|
+|upkeep
+|-message|my name is badger forfeited.
+|
+|win|candynicole
+|l|my name is badger
+|raw|candynicole's rating: 1103 &rarr; <strong>1124</strong><br />(+21 for winning)
+|raw|my name is badger's rating: 1054 &rarr; <strong>1038</strong><br />(-16 for losing)
+|l|candynicole
+|j|candynicole
+|l|candynicole
+|j|candynicole

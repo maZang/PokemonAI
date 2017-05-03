@@ -1,0 +1,285 @@
+|j|Jumacapri
+|j|arceus1117
+|player|p1|Jumacapri|92
+|player|p2|arceus1117|99
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|26653,45678,61936,19221,51983,22339,43522,23859,63654,46646,62947,57100
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Hawlucha, M|item
+|poke|p1|Volcarona, M|item
+|poke|p1|Medicham, M|item
+|poke|p1|Gengar, M|item
+|poke|p1|Weavile, M|item
+|poke|p1|Thundurus, M|item
+|poke|p2|Diggersby, M|item
+|poke|p2|Charizard, M|item
+|poke|p2|Mew|item
+|poke|p2|Keldeo|item
+|poke|p2|Mamoswine, M|item
+|poke|p2|Tornadus-Therian, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 4, team 2, team 3, team 1, team 5, team 6|team 6, team 2, team 3, team 4, team 5, team 1
+|
+|start
+|switch|p1a: Gengar|Gengar, M|100/100
+|switch|p2a: Tornadus|Tornadus-Therian, M|100/100
+|turn|1
+|choice|switch 5|move knockoff
+|
+|switch|p1a: Weavile|Weavile, M|100/100
+|-ability|p1a: Weavile|Pressure
+|move|p2a: Tornadus|Knock Off|p1a: Weavile
+|-resisted|p1a: Weavile
+|-damage|p1a: Weavile|85/100
+|-enditem|p1a: Weavile|Life Orb|[from] move: Knock Off|[of] p2a: Tornadus
+|
+|upkeep
+|turn|2
+|choice|move iciclecrash|move uturn
+|
+|move|p1a: Weavile|Icicle Crash|p2a: Tornadus
+|-supereffective|p2a: Tornadus
+|-damage|p2a: Tornadus|4/100
+|cant|p2a: Tornadus|flinch
+|
+|upkeep
+|turn|3
+|choice|move pursuit|switch 4
+|
+|-activate|p2a: Tornadus|move: Pursuit
+|move|p1a: Weavile|Pursuit|p2a: Tornadus|[from]Pursuit
+|-damage|p2a: Tornadus|0 fnt
+|faint|p2a: Tornadus
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Mew|Mew|100/100
+|turn|4
+|choice|move knockoff|move willowisp
+|
+|move|p1a: Weavile|Knock Off|p2a: Mew
+|-supereffective|p2a: Mew
+|-damage|p2a: Mew|39/100
+|-enditem|p2a: Mew|Leftovers|[from] move: Knock Off|[of] p1a: Weavile
+|move|p2a: Mew|Will-O-Wisp|p1a: Weavile
+|-status|p1a: Weavile|brn
+|
+|-damage|p1a: Weavile|72/100 brn|[from] brn
+|upkeep
+|turn|5
+|choice|move knockoff|move softboiled
+|
+|move|p1a: Weavile|Knock Off|p2a: Mew
+|-supereffective|p2a: Mew
+|-damage|p2a: Mew|18/100
+|move|p2a: Mew|Soft-Boiled|p2a: Mew
+|-heal|p2a: Mew|68/100
+|
+|-damage|p1a: Weavile|60/100 brn|[from] brn
+|upkeep
+|turn|6
+|choice|switch 5|move softboiled
+|
+|switch|p1a: Gengar|Gengar, M|100/100
+|move|p2a: Mew|Soft-Boiled|p2a: Mew
+|-heal|p2a: Mew|100/100
+|
+|upkeep
+|turn|7
+|choice|move hex|switch 5
+|
+|switch|p2a: Mamoswine|Mamoswine, M|100/100
+|move|p1a: Gengar|Hex|p2a: Mamoswine
+|-damage|p2a: Mamoswine|55/100
+|
+|upkeep
+|turn|8
+|choice|move willowisp|move stealthrock
+|
+|move|p1a: Gengar|Will-O-Wisp|p2a: Mamoswine
+|-status|p2a: Mamoswine|brn
+|move|p2a: Mamoswine|Stealth Rock|p1a: Gengar
+|-sidestart|p1: Jumacapri|move: Stealth Rock
+|
+|-damage|p2a: Mamoswine|43/100 brn|[from] brn
+|upkeep
+|turn|9
+|choice|move hex|move iceshard
+|
+|move|p2a: Mamoswine|Ice Shard|p1a: Gengar
+|-damage|p1a: Gengar|80/100
+|move|p1a: Gengar|Hex|p2a: Mamoswine
+|-damage|p2a: Mamoswine|0 fnt
+|faint|p2a: Mamoswine
+|
+|-heal|p1a: Gengar|86/100|[from] item: Black Sludge
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Charizard|Charizard, M|100/100
+|turn|10
+|choice|move taunt|move dragondance mega
+|
+|detailschange|p2a: Charizard|Charizard-Mega-X, M
+|-mega|p2a: Charizard|Charizard|Charizardite X
+|move|p1a: Gengar|Taunt|p2a: Charizard
+|-start|p2a: Charizard|move: Taunt
+|cant|p2a: Charizard|move: Taunt|Dragon Dance
+|
+|-heal|p1a: Gengar|93/100|[from] item: Black Sludge
+|upkeep
+|turn|11
+|choice|move sludgewave|move dragonclaw
+|
+|move|p1a: Gengar|Sludge Wave|p2a: Charizard
+|-damage|p2a: Charizard|35/100
+|move|p2a: Charizard|Dragon Claw|p1a: Gengar
+|-damage|p1a: Gengar|0 fnt
+|faint|p1a: Gengar
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Weavile|Weavile, M|60/100 brn
+|-damage|p1a: Weavile|35/100 brn|[from] Stealth Rock
+|-ability|p1a: Weavile|Pressure
+|turn|12
+|choice|move iciclecrash|switch 4
+|
+|switch|p2a: Keldeo|Keldeo|100/100
+|move|p1a: Weavile|Icicle Crash|p2a: Keldeo
+|-resisted|p2a: Keldeo
+|-damage|p2a: Keldeo|89/100
+|
+|-heal|p2a: Keldeo|96/100|[from] item: Leftovers
+|-damage|p1a: Weavile|23/100 brn|[from] brn
+|upkeep
+|turn|13
+|choice|move knockoff|move substitute
+|
+|move|p1a: Weavile|Knock Off|p2a: Keldeo
+|-resisted|p2a: Keldeo
+|-damage|p2a: Keldeo|81/100
+|-ability|p2a: Keldeo|Justified|boost
+|-boost|p2a: Keldeo|atk|1
+|-enditem|p2a: Keldeo|Leftovers|[from] move: Knock Off|[of] p1a: Weavile
+|move|p2a: Keldeo|Substitute|p2a: Keldeo
+|-start|p2a: Keldeo|Substitute
+|-damage|p2a: Keldeo|56/100
+|
+|-damage|p1a: Weavile|10/100 brn|[from] brn
+|upkeep
+|turn|14
+|choice|move iciclecrash|move calmmind
+|
+|move|p1a: Weavile|Icicle Crash|p2a: Keldeo
+|-resisted|p2a: Keldeo
+|-activate|p2a: Keldeo|move: Substitute|[damage]
+|move|p2a: Keldeo|Calm Mind|p2a: Keldeo
+|-boost|p2a: Keldeo|spa|1
+|-boost|p2a: Keldeo|spd|1
+|
+|-damage|p1a: Weavile|0 fnt|[from] brn
+|upkeep
+|faint|p1a: Weavile
+|choice|switch 4|
+|
+|switch|p1a: Hawlucha|Hawlucha, M|100/100
+|-damage|p1a: Hawlucha|88/100|[from] Stealth Rock
+|turn|15
+|choice|move acrobatics|move scald
+|
+|move|p1a: Hawlucha|Acrobatics|p2a: Keldeo
+|-supereffective|p2a: Keldeo
+|-end|p2a: Keldeo|Substitute
+|move|p2a: Keldeo|Scald|p1a: Hawlucha
+|-damage|p1a: Hawlucha|0 fnt
+|faint|p1a: Hawlucha
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Thundurus|Thundurus, M|100/100
+|-damage|p1a: Thundurus|76/100|[from] Stealth Rock
+|turn|16
+|choice|move nastyplot|move scald
+|
+|move|p1a: Thundurus|Nasty Plot|p1a: Thundurus
+|-boost|p1a: Thundurus|spa|2
+|move|p2a: Keldeo|Scald|p1a: Thundurus
+|-damage|p1a: Thundurus|0 fnt
+|faint|p1a: Thundurus
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Medicham|Medicham, M|100/100
+|-damage|p1a: Medicham|94/100|[from] Stealth Rock
+|turn|17
+|choice|move zenheadbutt mega|move scald
+|
+|detailschange|p1a: Medicham|Medicham-Mega, M
+|-mega|p1a: Medicham|Medicham|Medichamite
+|move|p2a: Keldeo|Scald|p1a: Medicham
+|-damage|p1a: Medicham|9/100
+|-status|p1a: Medicham|brn
+|move|p1a: Medicham|Zen Headbutt|p2a: Keldeo
+|-supereffective|p2a: Keldeo
+|-damage|p2a: Keldeo|0 fnt
+|faint|p2a: Keldeo
+|
+|-damage|p1a: Medicham|0 fnt|[from] brn
+|upkeep
+|faint|p1a: Medicham
+|choice|switch 2|switch 6
+|
+|switch|p1a: Volcarona|Volcarona, M|100/100
+|switch|p2a: Diggersby|Diggersby, M|100/100
+|-damage|p1a: Volcarona|51/100|[from] Stealth Rock
+|turn|18
+|choice|move gigadrain|move swordsdance
+|
+|move|p1a: Volcarona|Giga Drain|p2a: Diggersby
+|-supereffective|p2a: Diggersby
+|-damage|p2a: Diggersby|41/100
+|-heal|p1a: Volcarona|76/100|[from] drain|[of] p2a: Diggersby
+|move|p2a: Diggersby|Swords Dance|p2a: Diggersby
+|-boost|p2a: Diggersby|atk|2
+|
+|-heal|p1a: Volcarona|82/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|choice|move gigadrain|move quickattack
+|
+|move|p2a: Diggersby|Quick Attack|p1a: Volcarona
+|-crit|p1a: Volcarona
+|-damage|p1a: Volcarona|9/100
+|move|p1a: Volcarona|Giga Drain|p2a: Diggersby
+|-supereffective|p2a: Diggersby
+|-damage|p2a: Diggersby|0 fnt
+|-heal|p1a: Volcarona|26/100|[from] drain|[of] p2a: Diggersby
+|faint|p2a: Diggersby
+|
+|-heal|p1a: Volcarona|32/100|[from] item: Leftovers
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Charizard|Charizard-Mega-X, M|35/100
+|turn|20
+|choice|move roost|move dragonclaw
+|
+|move|p2a: Charizard|Dragon Claw|p1a: Volcarona
+|-damage|p1a: Volcarona|0 fnt
+|faint|p1a: Volcarona
+|
+|win|arceus1117
+|c|☆arceus1117|gg
+|raw|Jumacapri's rating: 1190 &rarr; <strong>1165</strong><br />(-25 for losing)
+|raw|arceus1117's rating: 1182 &rarr; <strong>1207</strong><br />(+25 for winning)

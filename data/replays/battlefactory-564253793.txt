@@ -1,0 +1,302 @@
+|j|Kel9901
+|j|kkkalkkkulus
+|player|p1|Kel9901|101
+|player|p2|kkkalkkkulus|266
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|31716,63312,45843,50694,14896,23786,33566,46357,52041,51748,57833,7331
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Samurott, M|item
+|poke|p1|Gastrodon, M|item
+|poke|p1|Vivillon, M|item
+|poke|p1|Granbull, M|item
+|poke|p1|Braviary, M|item
+|poke|p1|Sawk, M|item
+|poke|p2|Mesprit|item
+|poke|p2|Glalie, M|item
+|poke|p2|Delphox, M|item
+|poke|p2|Gurdurr, M|item
+|poke|p2|Blastoise, M|item
+|poke|p2|Eelektross, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 6, team 2, team 3, team 4, team 5, team 1|team 6, team 2, team 3, team 4, team 5, team 1
+|
+|start
+|switch|p1a: Sawk|Sawk, M|100/100
+|switch|p2a: Eelektross|Eelektross, M|100/100
+|turn|1
+|c|☆Kel9901|fucka
+|c|☆kkkalkkkulus|das u
+|choice|switch 2|move voltswitch
+|
+|switch|p1a: Gastrodon|Gastrodon, M|100/100
+|move|p2a: Eelektross|Volt Switch|p1a: Gastrodon
+|-immune|p1a: Gastrodon|[msg]
+|
+|upkeep
+|turn|2
+|c|☆kkkalkkkulus|wow
+|choice|move toxic|move gigadrain
+|
+|move|p2a: Eelektross|Giga Drain|p1a: Gastrodon
+|-supereffective|p1a: Gastrodon
+|-damage|p1a: Gastrodon|11/100
+|move|p1a: Gastrodon|Toxic|p2a: Eelektross
+|-status|p2a: Eelektross|tox
+|
+|-heal|p1a: Gastrodon|17/100|[from] item: Leftovers
+|-damage|p2a: Eelektross|94/100 tox|[from] psn
+|upkeep
+|turn|3
+|c|☆kkkalkkkulus|XD
+|choice|move recover|move knockoff
+|
+|move|p2a: Eelektross|Knock Off|p1a: Gastrodon
+|-damage|p1a: Gastrodon|0 fnt
+|-enditem|p1a: Gastrodon|Leftovers|[from] move: Knock Off|[of] p2a: Eelektross
+|faint|p1a: Gastrodon
+|
+|-damage|p2a: Eelektross|82/100 tox|[from] psn
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Sawk|Sawk, M|100/100
+|turn|4
+|choice|move closecombat|move voltswitch
+|
+|move|p1a: Sawk|Close Combat|p2a: Eelektross
+|-damage|p2a: Eelektross|11/100 tox
+|-unboost|p1a: Sawk|def|1
+|-unboost|p1a: Sawk|spd|1
+|move|p2a: Eelektross|Volt Switch|p1a: Sawk
+|-damage|p1a: Sawk|17/100
+|c|☆kkkalkkkulus|easy money
+|choice||switch 4
+|
+|switch|p2a: Gurdurr|Gurdurr, M|100/100
+|
+|upkeep
+|turn|5
+|choice|switch 3|move machpunch
+|
+|switch|p1a: Vivillon|Vivillon, M|100/100
+|move|p2a: Gurdurr|Mach Punch|p1a: Vivillon
+|-resisted|p1a: Vivillon
+|-damage|p1a: Vivillon|90/100
+|
+|-heal|p1a: Vivillon|96/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|choice|move substitute|switch 4
+|
+|switch|p2a: Eelektross|Eelektross, M|11/100 tox
+|move|p1a: Vivillon|Substitute|p1a: Vivillon
+|-start|p1a: Vivillon|Substitute
+|-damage|p1a: Vivillon|71/100
+|
+|-heal|p1a: Vivillon|77/100|[from] item: Leftovers
+|-damage|p2a: Eelektross|5/100 tox|[from] psn
+|upkeep
+|turn|7
+|choice|move quiverdance|move voltswitch
+|
+|move|p1a: Vivillon|Quiver Dance|p1a: Vivillon
+|-boost|p1a: Vivillon|spa|1
+|-boost|p1a: Vivillon|spd|1
+|-boost|p1a: Vivillon|spe|1
+|move|p2a: Eelektross|Volt Switch|p1a: Vivillon
+|-supereffective|p1a: Vivillon
+|-end|p1a: Vivillon|Substitute
+|choice||switch 3
+|
+|switch|p2a: Delphox|Delphox, M|100/100
+|
+|-heal|p1a: Vivillon|83/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|choice|move sleeppowder|move fireblast
+|
+|move|p2a: Delphox|Fire Blast|p1a: Vivillon
+|-supereffective|p1a: Vivillon
+|-crit|p1a: Vivillon
+|-damage|p1a: Vivillon|0 fnt
+|faint|p1a: Vivillon
+|
+|upkeep
+|c|☆kkkalkkkulus|dIE
+|c|☆Kel9901|wow
+|choice|switch 6|
+|
+|switch|p1a: Samurott|Samurott, M|100/100
+|turn|9
+|choice|move swordsdance|switch 5
+|
+|switch|p2a: Blastoise|Blastoise, M|100/100
+|move|p1a: Samurott|Swords Dance|p1a: Samurott
+|-boost|p1a: Samurott|atk|2
+|
+|upkeep
+|turn|10
+|choice|move megahorn|move toxic
+|
+|move|p1a: Samurott|Megahorn|p2a: Blastoise
+|-damage|p2a: Blastoise|46/100
+|move|p2a: Blastoise|Toxic|p1a: Samurott
+|-status|p1a: Samurott|tox
+|-enditem|p1a: Samurott|Lum Berry|[eat]
+|-curestatus|p1a: Samurott|tox|[msg]
+|
+|-heal|p2a: Blastoise|52/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|choice|move megahorn|move toxic
+|
+|move|p1a: Samurott|Megahorn|p2a: Blastoise
+|-damage|p2a: Blastoise|3/100
+|move|p2a: Blastoise|Toxic|p1a: Samurott
+|-status|p1a: Samurott|tox
+|
+|-heal|p2a: Blastoise|9/100|[from] item: Leftovers
+|-damage|p1a: Samurott|94/100 tox|[from] psn
+|upkeep
+|turn|12
+|choice|move waterfall|switch 3
+|
+|switch|p2a: Eelektross|Eelektross, M|5/100 tox
+|move|p1a: Samurott|Waterfall|p2a: Eelektross
+|-damage|p2a: Eelektross|0 fnt
+|faint|p2a: Eelektross
+|
+|-damage|p1a: Samurott|82/100 tox|[from] psn
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Blastoise|Blastoise, M|9/100
+|turn|13
+|c|☆Kel9901|wow
+|choice|move waterfall|move scald
+|
+|move|p1a: Samurott|Waterfall|p2a: Blastoise
+|-resisted|p2a: Blastoise
+|-damage|p2a: Blastoise|0 fnt
+|faint|p2a: Blastoise
+|
+|-damage|p1a: Samurott|64/100 tox|[from] psn
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Delphox|Delphox, M|100/100
+|turn|14
+|choice|move aquajet|move psyshock
+|
+|move|p1a: Samurott|Aqua Jet|p2a: Delphox
+|-supereffective|p2a: Delphox
+|-damage|p2a: Delphox|0 fnt
+|faint|p2a: Delphox
+|
+|-damage|p1a: Samurott|40/100 tox|[from] psn
+|upkeep
+|c|☆kkkalkkkulus|shit
+|c|☆Kel9901|roo
+|choice||switch 4
+|
+|switch|p2a: Gurdurr|Gurdurr, M|100/100
+|turn|15
+|choice|move waterfall|move machpunch
+|
+|move|p2a: Gurdurr|Mach Punch|p1a: Samurott
+|-damage|p1a: Samurott|18/100 tox
+|move|p1a: Samurott|Waterfall|p2a: Gurdurr
+|-damage|p2a: Gurdurr|51/100
+|
+|-damage|p1a: Samurott|0 fnt|[from] psn
+|upkeep
+|faint|p1a: Samurott
+|choice|switch 4|
+|
+|switch|p1a: Granbull|Granbull, M|100/100
+|-ability|p1a: Granbull|Intimidate|boost
+|-unboost|p2a: Gurdurr|atk|1
+|turn|16
+|choice|move playrough|switch 6
+|
+|switch|p2a: Mesprit|Mesprit|100/100
+|move|p1a: Granbull|Play Rough|p2a: Mesprit
+|-crit|p2a: Mesprit
+|-damage|p2a: Mesprit|41/100
+|-unboost|p2a: Mesprit|atk|1
+|
+|upkeep
+|turn|17
+|choice|move playrough|move stealthrock
+|
+|move|p2a: Mesprit|Stealth Rock|p1a: Granbull
+|-sidestart|p1: Kel9901|move: Stealth Rock
+|move|p1a: Granbull|Play Rough|p2a: Mesprit
+|-crit|p2a: Mesprit
+|-damage|p2a: Mesprit|0 fnt
+|faint|p2a: Mesprit
+|
+|upkeep
+|c|☆kkkalkkkulus|XD
+|c|☆kkkalkkkulus|double crit
+|c|☆Kel9901|strong
+|choice||switch 2
+|
+|switch|p2a: Glalie|Glalie, M|100/100
+|turn|18
+|choice|move playrough|move doubleedge mega
+|
+|detailschange|p2a: Glalie|Glalie-Mega, M
+|-mega|p2a: Glalie|Glalie|Glalitite
+|move|p2a: Glalie|Double-Edge|p1a: Granbull
+|-damage|p1a: Granbull|46/100
+|-damage|p2a: Glalie|78/100|[from] recoil|[of] p1a: Granbull
+|move|p1a: Granbull|Play Rough|p2a: Glalie
+|-damage|p2a: Glalie|33/100
+|
+|-heal|p1a: Granbull|53/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|choice|move playrough|move doubleedge
+|
+|move|p2a: Glalie|Double-Edge|p1a: Granbull
+|-damage|p1a: Granbull|0 fnt
+|-damage|p2a: Glalie|11/100|[from] recoil|[of] p1a: Granbull
+|faint|p1a: Granbull
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Sawk|Sawk, M|17/100
+|-damage|p1a: Sawk|11/100|[from] Stealth Rock
+|turn|20
+|choice|move closecombat|move iceshard
+|
+|move|p2a: Glalie|Ice Shard|p1a: Sawk
+|-damage|p1a: Sawk|0 fnt
+|faint|p1a: Sawk
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Braviary|Braviary, M|100/100
+|-damage|p1a: Braviary|76/100|[from] Stealth Rock
+|turn|21
+|c|☆Kel9901|wow
+|c|☆kkkalkkkulus|scarf probs
+|c|☆kkkalkkkulus|lol
+|choice|move return|move explosion
+|
+|move|p2a: Glalie|Explosion|p1a: Braviary
+|-supereffective|p1a: Braviary
+|-damage|p1a: Braviary|0 fnt
+|faint|p2a: Glalie
+|faint|p1a: Braviary
+|
+|win|kkkalkkkulus
+|c|☆kkkalkkkulus|ez

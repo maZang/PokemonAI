@@ -1,0 +1,407 @@
+|j|MiaouMix
+|j|Chrink ♛
+|player|p1|MiaouMix|277
+|player|p2|Chrink ♛|#bw2elesa
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|15830,19691,27533,27742,9426,44245,9667,8972,46212,33238,22432,38454
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Scizor, M|item
+|poke|p1|Kyurem-Black|item
+|poke|p1|Mamoswine, M|item
+|poke|p1|Tornadus-Therian, M|item
+|poke|p1|Hawlucha, M|item
+|poke|p1|Chansey, F|item
+|poke|p2|Tornadus-Therian, M|item
+|poke|p2|Scizor, M|item
+|poke|p2|Heracross, M|item
+|poke|p2|Sylveon, M|item
+|poke|p2|Mamoswine, M|item
+|poke|p2|Dragonite, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|c|☆MiaouMix|have fub l'ami
+|j|SoulAndo
+|c|☆Chrink ♛|gl
+|choice|team 1, team 2, team 3, team 4, team 5, team 6|team 5, team 2, team 3, team 4, team 1, team 6
+|
+|start
+|switch|p1a: Scizor|Scizor, M|100/100
+|switch|p2a: Mamoswine|Mamoswine, M|100/100
+|turn|1
+|c|☆Chrink ♛|j'aime comme ta team est full OU alors que la mienne à 2UU
+|j|Laevin
+|c|☆MiaouMix|kyurem n'est pas OU non ?
+|c|☆Chrink ♛|sisi
+|c|☆MiaouMix|il est ubers ?
+|l|Laevin
+|c|☆Chrink ♛|c'est le blanc en uber
+|c|☆MiaouMix|ah ok
+|c|☆Chrink ♛|j'ai pas un move feu dans cette team de merde
+|choice|move knockoff mega|move stealthrock
+|
+|detailschange|p1a: Scizor|Scizor-Mega, M
+|-mega|p1a: Scizor|Scizor|Scizorite
+|move|p2a: Mamoswine|Stealth Rock|p1a: Scizor
+|-sidestart|p1: MiaouMix|move: Stealth Rock
+|move|p1a: Scizor|Knock Off|p2a: Mamoswine
+|-damage|p2a: Mamoswine|65/100
+|-enditem|p2a: Mamoswine|Focus Sash|[from] move: Knock Off|[of] p1a: Scizor
+|
+|upkeep
+|turn|2
+|choice|move defog|move earthquake
+|
+|move|p2a: Mamoswine|Earthquake|p1a: Scizor
+|-damage|p1a: Scizor|69/100
+|move|p1a: Scizor|Defog|p2a: Mamoswine
+|-unboost|p2a: Mamoswine|evasion|1
+|-sideend|p1: MiaouMix|Stealth Rock|[from] move: Defog|[of] p1a: Scizor
+|
+|upkeep
+|turn|3
+|choice|move bulletpunch|move iceshard
+|
+|move|p2a: Mamoswine|Ice Shard|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|64/100
+|move|p1a: Scizor|Bullet Punch|p2a: Mamoswine
+|-supereffective|p2a: Mamoswine
+|-damage|p2a: Mamoswine|3/100
+|
+|upkeep
+|turn|4
+|choice|move bulletpunch|move iceshard
+|
+|move|p2a: Mamoswine|Ice Shard|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|58/100
+|move|p1a: Scizor|Bullet Punch|p2a: Mamoswine
+|-supereffective|p2a: Mamoswine
+|-damage|p2a: Mamoswine|0 fnt
+|faint|p2a: Mamoswine
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Heracross|Heracross, M|100/100
+|turn|5
+|choice|move roost|move closecombat
+|
+|move|p2a: Heracross|Close Combat|p1a: Scizor
+|-damage|p1a: Scizor|26/100
+|-unboost|p2a: Heracross|def|1
+|-unboost|p2a: Heracross|spd|1
+|move|p1a: Scizor|Roost|p1a: Scizor
+|-heal|p1a: Scizor|76/100
+|
+|-status|p2a: Heracross|tox|[from] item: Toxic Orb
+|upkeep
+|turn|6
+|c|☆Chrink ♛|putain mais je peux rien faire contre scieoz
+|c|☆Chrink ♛|random de merde
+|choice|move knockoff|switch 6
+|
+|switch|p2a: Dragonite|Dragonite, M|100/100
+|move|p1a: Scizor|Knock Off|p2a: Dragonite
+|-damage|p2a: Dragonite|84/100
+|-enditem|p2a: Dragonite|Choice Band|[from] move: Knock Off|[of] p1a: Scizor
+|
+|upkeep
+|turn|7
+|choice|switch 3|move superpower
+|
+|switch|p1a: Mamoswine|Mamoswine, M|100/100
+|move|p2a: Dragonite|Superpower|p1a: Mamoswine
+|-supereffective|p1a: Mamoswine
+|-enditem|p1a: Mamoswine|Focus Sash
+|-damage|p1a: Mamoswine|1/100
+|-unboost|p2a: Dragonite|atk|1
+|-unboost|p2a: Dragonite|def|1
+|
+|upkeep
+|turn|8
+|choice|move iceshard|move extremespeed
+|
+|move|p2a: Dragonite|Extreme Speed|p1a: Mamoswine
+|-crit|p1a: Mamoswine
+|-damage|p1a: Mamoswine|0 fnt
+|faint|p1a: Mamoswine
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Kyurem|Kyurem-Black|100/100
+|-ability|p1a: Kyurem|Teravolt
+|turn|9
+|c|@SoulAndo|Ah nan Mamo est UU en 6g :x
+|choice|move ironhead|switch 4
+|
+|switch|p2a: Sylveon|Sylveon, M|100/100
+|move|p1a: Kyurem|Iron Head|p2a: Sylveon
+|-supereffective|p2a: Sylveon
+|-damage|p2a: Sylveon|0 fnt
+|-damage|p1a: Kyurem|91/100|[from] item: Life Orb
+|faint|p2a: Sylveon
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Tornadus|Tornadus-Therian, M|100/100
+|turn|10
+|choice|move fusionbolt|move focusblast
+|
+|move|p2a: Tornadus|Focus Blast|p1a: Kyurem
+|-supereffective|p1a: Kyurem
+|-damage|p1a: Kyurem|25/100
+|move|p1a: Kyurem|Fusion Bolt|p2a: Tornadus
+|-supereffective|p2a: Tornadus
+|-damage|p2a: Tornadus|0 fnt
+|-damage|p1a: Kyurem|15/100|[from] item: Life Orb
+|faint|p2a: Tornadus
+|
+|upkeep
+|c|☆Chrink ♛|putain mais grosse merde c'est pas STAB tient le
+|choice||switch 2
+|
+|switch|p2a: Scizor|Scizor, M|100/100
+|turn|11
+|choice|switch 6|move bulletpunch mega
+|
+|switch|p1a: Chansey|Chansey, F|100/100
+|detailschange|p2a: Scizor|Scizor-Mega, M
+|-mega|p2a: Scizor|Scizor|Scizorite
+|move|p2a: Scizor|Bullet Punch|p1a: Chansey
+|-damage|p1a: Chansey|80/100
+|
+|upkeep
+|turn|12
+|choice|move wish|move knockoff
+|
+|move|p2a: Scizor|Knock Off|p1a: Chansey
+|-damage|p1a: Chansey|59/100
+|-enditem|p1a: Chansey|Eviolite|[from] move: Knock Off|[of] p2a: Scizor
+|move|p1a: Chansey|Wish|p1a: Chansey
+|
+|upkeep
+|turn|13
+|choice|move softboiled|move bulletpunch
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Chansey
+|-damage|p1a: Chansey|29/100
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|79/100
+|
+|-heal|p1a: Chansey|100/100|[from] move: Wish|[wisher] Chansey
+|upkeep
+|turn|14
+|choice|move wish|move bulletpunch
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Chansey
+|-damage|p1a: Chansey|68/100
+|move|p1a: Chansey|Wish|p1a: Chansey
+|
+|upkeep
+|turn|15
+|choice|switch 6|switch 4
+|
+|switch|p2a: Dragonite|Dragonite, M|84/100
+|switch|p1a: Kyurem|Kyurem-Black|15/100
+|-ability|p1a: Kyurem|Teravolt
+|
+|-heal|p1a: Kyurem|97/100|[from] move: Wish|[wisher] Chansey
+|upkeep
+|turn|16
+|c|☆Chrink ♛|d'ou il reprend 100%
+|choice|move dragonclaw|switch 4
+|
+|switch|p2a: Scizor|Scizor-Mega, M|100/100
+|move|p1a: Kyurem|Dragon Claw|p2a: Scizor
+|-resisted|p2a: Scizor
+|-crit|p2a: Scizor
+|-damage|p2a: Scizor|71/100
+|-damage|p1a: Kyurem|87/100|[from] item: Life Orb
+|
+|upkeep
+|turn|17
+|choice|switch 6|move bulletpunch
+|
+|switch|p1a: Chansey|Chansey, F|68/100
+|move|p2a: Scizor|Bullet Punch|p1a: Chansey
+|-damage|p1a: Chansey|36/100
+|
+|upkeep
+|turn|18
+|choice|move softboiled|move bulletpunch
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Chansey
+|-damage|p1a: Chansey|4/100
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|54/100
+|
+|upkeep
+|turn|19
+|choice|move wish|move bulletpunch
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Chansey
+|-damage|p1a: Chansey|23/100
+|move|p1a: Chansey|Wish|p1a: Chansey
+|
+|upkeep
+|turn|20
+|choice|move toxic|move bulletpunch
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Hawlucha|Hawlucha, M|100/100
+|turn|21
+|choice|move swordsdance|move bulletpunch
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Hawlucha
+|-damage|p1a: Hawlucha|60/100
+|move|p1a: Hawlucha|Swords Dance|p1a: Hawlucha
+|-boost|p1a: Hawlucha|atk|2
+|
+|upkeep
+|turn|22
+|choice|move substitute|move bulletpunch
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Hawlucha
+|-damage|p1a: Hawlucha|15/100
+|-enditem|p1a: Hawlucha|Sitrus Berry|[eat]
+|-heal|p1a: Hawlucha|39/100|[from] item: Sitrus Berry
+|move|p1a: Hawlucha|Substitute|p1a: Hawlucha
+|-start|p1a: Hawlucha|Substitute
+|-damage|p1a: Hawlucha|15/100
+|
+|upkeep
+|turn|23
+|choice|move highjumpkick|move bulletpunch
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Hawlucha
+|-end|p1a: Hawlucha|Substitute
+|move|p1a: Hawlucha|High Jump Kick|p2a: Scizor
+|-damage|p2a: Scizor|13/100
+|
+|upkeep
+|turn|24
+|choice|move acrobatics|move bulletpunch
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Hawlucha
+|-damage|p1a: Hawlucha|0 fnt
+|faint|p1a: Hawlucha
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Tornadus|Tornadus-Therian, M|100/100
+|turn|25
+|choice|move superpower|move bulletpunch
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Tornadus
+|-damage|p1a: Tornadus|56/100
+|move|p1a: Tornadus|Superpower|p2a: Scizor
+|-damage|p2a: Scizor|0 fnt
+|-unboost|p1a: Tornadus|atk|1
+|-unboost|p1a: Tornadus|def|1
+|-damage|p1a: Tornadus|47/100|[from] item: Life Orb
+|faint|p2a: Scizor
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Dragonite|Dragonite, M|84/100
+|turn|26
+|choice|move taunt|move thunderpunch
+|
+|move|p1a: Tornadus|Taunt|p2a: Dragonite
+|-start|p2a: Dragonite|move: Taunt
+|move|p2a: Dragonite|Thunder Punch|p1a: Tornadus
+|-supereffective|p1a: Tornadus
+|-damage|p1a: Tornadus|0 fnt
+|faint|p1a: Tornadus
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Kyurem|Kyurem-Black|87/100
+|-ability|p1a: Kyurem|Teravolt
+|turn|27
+|c|☆Chrink ♛|vive le random
+|c|☆MiaouMix|^^
+|c|☆Chrink ♛|dragonite sans earthquake ni fire punch
+|choice|move dragonclaw|move outrage
+|
+|move|p1a: Kyurem|Dragon Claw|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|-damage|p1a: Kyurem|77/100|[from] item: Life Orb
+|faint|p2a: Dragonite
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Heracross|Heracross, M|100/100 tox
+|turn|28
+|c|☆MiaouMix|je t'outspeed O_O
+|c|☆Chrink ♛|oui dragonite à une speed de merde
+|c|☆Chrink ♛|tour du monde en 16H mes couilles
+|c|☆MiaouMix|et ben 
+|choice|move dragonclaw|move closecombat
+|
+|move|p2a: Heracross|Close Combat|p1a: Kyurem
+|-supereffective|p1a: Kyurem
+|-damage|p1a: Kyurem|0 fnt
+|-unboost|p2a: Heracross|def|1
+|-unboost|p2a: Heracross|spd|1
+|faint|p1a: Kyurem
+|
+|-damage|p2a: Heracross|95/100 tox|[from] psn
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Scizor|Scizor-Mega, M|76/100
+|turn|29
+|choice|move roost|move closecombat
+|
+|move|p2a: Heracross|Close Combat|p1a: Scizor
+|-damage|p1a: Scizor|22/100
+|-unboost|p2a: Heracross|def|1
+|-unboost|p2a: Heracross|spd|1
+|move|p1a: Scizor|Roost|p1a: Scizor
+|-heal|p1a: Scizor|72/100
+|
+|-damage|p2a: Heracross|83/100 tox|[from] psn
+|upkeep
+|turn|30
+|choice|move roost|move closecombat
+|
+|move|p2a: Heracross|Close Combat|p1a: Scizor
+|-damage|p1a: Scizor|24/100
+|-unboost|p2a: Heracross|def|1
+|-unboost|p2a: Heracross|spd|1
+|move|p1a: Scizor|Roost|p1a: Scizor
+|-heal|p1a: Scizor|74/100
+|
+|-damage|p2a: Heracross|65/100 tox|[from] psn
+|upkeep
+|turn|31
+|l|SoulAndo
+|c|☆Chrink ♛|non par contre le stall j'aime pas quand la win est décidé
+|choice|move bulletpunch|move closecombat
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Heracross
+|-damage|p2a: Heracross|0 fnt
+|faint|p2a: Heracross
+|
+|win|MiaouMix
+|c|☆MiaouMix|gg
+|c|☆Chrink ♛|gg

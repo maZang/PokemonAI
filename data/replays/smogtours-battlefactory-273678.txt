@@ -1,0 +1,198 @@
+|J|p2
+|J|Shadestep
+|player|p1|p2|#p2
+|player|p2|Shadestep|237
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|46368,59048,1775,57763,31027,25357,6590,57599,6628,25330,32078,25858
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Altaria, M|item
+|poke|p1|Jirachi|item
+|poke|p1|Mamoswine, M|item
+|poke|p1|Skarmory, M|item
+|poke|p1|Terrakion|item
+|poke|p1|Kyurem-Black|item
+|poke|p2|Hippowdon, M|item
+|poke|p2|Heatran, M|item
+|poke|p2|Breloom, M|item
+|poke|p2|Bisharp, M|item
+|poke|p2|Latias, F|item
+|poke|p2|Terrakion|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|J|PD♔
+|L|PD♔
+|J|Ace11 えいす
+|J|sedertz.
+|L|sedertz.
+|c|☆Shadestep|this is my last resort
+|J|dk
+|choice|team 3, team 2, team 1, team 4, team 5, team 6|team 2, team 1, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Mamoswine|Mamoswine, M|100/100
+|switch|p2a: Heatran|Heatran, M|100/100
+|turn|1
+|choice|move stealthrock|move overheat
+|
+|move|p2a: Heatran|Overheat|p1a: Mamoswine
+|-supereffective|p1a: Mamoswine
+|-damage|p1a: Mamoswine|2/100
+|-unboost|p2a: Heatran|spa|2
+|move|p1a: Mamoswine|Stealth Rock|p2a: Heatran
+|-sidestart|p2: Shadestep|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|c|+dk|suffocation
+|c|+dk|no breathing
+|c|☆p2|wank
+|c|+dk|something something
+|choice|move earthquake|move overheat
+|
+|move|p2a: Heatran|Overheat|p1a: Mamoswine
+|-supereffective|p1a: Mamoswine
+|-damage|p1a: Mamoswine|0 fnt
+|-unboost|p2a: Heatran|spa|2
+|faint|p1a: Mamoswine
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Altaria|Altaria, M|100/100
+|-ability|p1a: Altaria|Cloud Nine
+|turn|3
+|choice|move dragondance mega|switch 2
+|
+|switch|p2a: Hippowdon|Hippowdon, M|100/100
+|-damage|p2a: Hippowdon|94/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|detailschange|p1a: Altaria|Altaria-Mega, M
+|-mega|p1a: Altaria|Altaria|Altarianite
+|move|p1a: Altaria|Dragon Dance|p1a: Altaria
+|-boost|p1a: Altaria|atk|1
+|-boost|p1a: Altaria|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Altaria|94/100|[from] sandstorm
+|-heal|p2a: Hippowdon|100/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|choice|move dragondance|move stealthrock
+|
+|move|p1a: Altaria|Dragon Dance|p1a: Altaria
+|-boost|p1a: Altaria|atk|1
+|-boost|p1a: Altaria|spe|1
+|move|p2a: Hippowdon|Stealth Rock|p1a: Altaria
+|-sidestart|p1: p2|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Altaria|88/100|[from] sandstorm
+|upkeep
+|turn|5
+|c|☆Shadestep|kek
+|choice|move return|move earthquake
+|
+|move|p1a: Altaria|Return|p2a: Hippowdon
+|-damage|p2a: Hippowdon|18/100
+|move|p2a: Hippowdon|Earthquake|p1a: Altaria
+|-damage|p1a: Altaria|46/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Altaria|40/100|[from] sandstorm
+|-heal|p2a: Hippowdon|24/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|c|☆p2|ur poor
+|c|☆Shadestep|i dont have
+|choice|move roost|move earthquake
+|
+|move|p1a: Altaria|Roost|p1a: Altaria
+|-heal|p1a: Altaria|90/100
+|move|p2a: Hippowdon|Earthquake|p1a: Altaria
+|-crit|p1a: Altaria
+|-damage|p1a: Altaria|29/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Altaria|23/100|[from] sandstorm
+|-heal|p2a: Hippowdon|30/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|c|☆Shadestep|thing
+|c|☆p2|kek
+|choice|move roost|move earthquake
+|
+|move|p1a: Altaria|Roost|p1a: Altaria
+|-heal|p1a: Altaria|73/100
+|move|p2a: Hippowdon|Earthquake|p1a: Altaria
+|-damage|p1a: Altaria|34/100
+|
+|-weather|none
+|-heal|p2a: Hippowdon|37/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|choice|move roost|move earthquake
+|
+|move|p1a: Altaria|Roost|p1a: Altaria
+|-heal|p1a: Altaria|84/100
+|move|p2a: Hippowdon|Earthquake|p1a: Altaria
+|-damage|p1a: Altaria|46/100
+|
+|-heal|p2a: Hippowdon|43/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|choice|move roost|move earthquake
+|
+|move|p1a: Altaria|Roost|p1a: Altaria
+|-heal|p1a: Altaria|96/100
+|move|p2a: Hippowdon|Earthquake|p1a: Altaria
+|-damage|p1a: Altaria|58/100
+|
+|-heal|p2a: Hippowdon|49/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|choice|move return|move earthquake
+|
+|move|p1a: Altaria|Return|p2a: Hippowdon
+|-damage|p2a: Hippowdon|0 fnt
+|faint|p2a: Hippowdon
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Bisharp|Bisharp, M|100/100
+|-damage|p2a: Bisharp|95/100|[from] Stealth Rock
+|turn|11
+|choice|move earthquake|move suckerpunch
+|
+|move|p2a: Bisharp|Sucker Punch|p1a: Altaria
+|-resisted|p1a: Altaria
+|-damage|p1a: Altaria|28/100
+|-damage|p2a: Bisharp|85/100|[from] item: Life Orb
+|move|p1a: Altaria|Earthquake|p2a: Bisharp
+|-supereffective|p2a: Bisharp
+|-damage|p2a: Bisharp|0 fnt
+|faint|p2a: Bisharp
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Heatran|Heatran, M|100/100
+|-damage|p2a: Heatran|88/100|[from] Stealth Rock
+|turn|12
+|c|☆Shadestep|GG
+|choice|move earthquake|move flashcannon
+|
+|move|p1a: Altaria|Earthquake|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|faint|p2a: Heatran
+|
+|upkeep
+|c|☆Shadestep|ur poor
+|-message|Shadestep forfeited.
+|
+|win|p2

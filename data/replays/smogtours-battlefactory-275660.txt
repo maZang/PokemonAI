@@ -1,0 +1,381 @@
+|J|GreninjaWarrior21
+|J|imsosorrylol
+|player|p1|GreninjaWarrior21|127
+|player|p2|imsosorrylol|10
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|16034,36178,24021,2134,11832,26044,63824,38801,58157,37297,10316,47561
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Lanturn, M|item
+|poke|p1|Aurorus, M|item
+|poke|p1|Vileplume, M|item
+|poke|p1|Archeops, M|
+|poke|p1|Exeggutor, M|item
+|poke|p1|Skuntank, M|item
+|poke|p2|Swellow, M|item
+|poke|p2|Vivillon, M|item
+|poke|p2|Vileplume, M|item
+|poke|p2|Muk, M|item
+|poke|p2|Prinplup, M|item
+|poke|p2|Musharna, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|c|☆GreninjaWarrior21|ah
+|c|☆imsosorrylol|o dear
+|c|☆GreninjaWarrior21|nu
+|c|☆GreninjaWarrior21|k
+|choice|team 2, team 1, team 3, team 4, team 5, team 6|team 5, team 2, team 3, team 4, team 1, team 6
+|
+|start
+|switch|p1a: Aurorus|Aurorus, M|100/100
+|switch|p2a: Prinplup|Prinplup, M|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Aurorus
+|turn|1
+|c|☆imsosorrylol|i thot ur avi
+|c|☆imsosorrylol|was custom
+|c|☆imsosorrylol|for months
+|c|☆GreninjaWarrior21|lol
+|c|☆imsosorrylol|i think i might just be
+|c|☆imsosorrylol|retarde
+|c|☆imsosorrylol|d
+|c|☆GreninjaWarrior21|,
+|c|☆imsosorrylol|a lil bit
+|choice|move stealthrock|move stealthrock
+|
+|move|p1a: Aurorus|Stealth Rock|p2a: Prinplup
+|-sidestart|p2: imsosorrylol|move: Stealth Rock
+|move|p2a: Prinplup|Stealth Rock|p1a: Aurorus
+|-sidestart|p1: GreninjaWarrior21|move: Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Prinplup|94/100|[from] hail
+|upkeep
+|turn|2
+|choice|move freezedry|move scald
+|
+|move|p1a: Aurorus|Freeze-Dry|p2a: Prinplup
+|-supereffective|p2a: Prinplup
+|-crit|p2a: Prinplup
+|-damage|p2a: Prinplup|18/100
+|move|p2a: Prinplup|Scald|p1a: Aurorus
+|-supereffective|p1a: Aurorus
+|-damage|p1a: Aurorus|38/100
+|-status|p1a: Aurorus|brn
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Prinplup|12/100|[from] hail
+|-damage|p1a: Aurorus|26/100 brn|[from] brn
+|upkeep
+|turn|3
+|choice|move blizzard|move scald
+|
+|move|p1a: Aurorus|Blizzard|p2a: Prinplup
+|-resisted|p2a: Prinplup
+|-damage|p2a: Prinplup|0 fnt
+|faint|p2a: Prinplup
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Aurorus|13/100 brn|[from] brn
+|upkeep
+|c|☆imsosorrylol|u lose
+|c|☆imsosorrylol|to muk
+|c|☆imsosorrylol|oml
+|choice||switch 5
+|
+|switch|p2a: Swellow|Swellow, M|100/100
+|-damage|p2a: Swellow|76/100|[from] Stealth Rock
+|turn|4
+|c|☆imsosorrylol|and wheres
+|c|☆imsosorrylol|the swellGOAT
+|c|☆imsosorrylol|switchin
+|c|☆GreninjaWarrior21|oh no
+|c|☆GreninjaWarrior21|:\
+|choice|move blizzard|move boomburst
+|
+|move|p2a: Swellow|Boomburst|p1a: Aurorus
+|-resisted|p1a: Aurorus
+|-damage|p1a: Aurorus|0 fnt
+|faint|p1a: Aurorus
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Swellow|69/100|[from] hail
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Lanturn|Lanturn, M|100/100
+|-damage|p1a: Lanturn|88/100|[from] Stealth Rock
+|turn|5
+|choice|move voltswitch|move boomburst
+|
+|move|p2a: Swellow|Boomburst|p1a: Lanturn
+|-damage|p1a: Lanturn|51/100
+|move|p1a: Lanturn|Volt Switch|p2a: Swellow
+|-supereffective|p2a: Swellow
+|-damage|p2a: Swellow|0 fnt
+|faint|p2a: Swellow
+|c|☆GreninjaWarrior21|yummm
+|c|☆GreninjaWarrior21|av
+|c|☆GreninjaWarrior21|.
+|c|☆imsosorrylol|mon isnt
+|c|☆imsosorrylol|broken
+|c|☆imsosorrylol|at all!
+|choice|switch 6|
+|
+|switch|p1a: Skuntank|Skuntank, M|100/100
+|-damage|p1a: Skuntank|88/100|[from] Stealth Rock
+|
+|-weather|none
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Muk|Muk, M|100/100
+|-damage|p2a: Muk|88/100|[from] Stealth Rock
+|turn|6
+|c|☆imsosorrylol|why does muk
+|c|☆imsosorrylol|fucking
+|c|☆imsosorrylol|put in the work
+|c|☆GreninjaWarrior21|:\
+|c|☆imsosorrylol|holy fuck
+|c|☆GreninjaWarrior21|f this mon
+|c|☆imsosorrylol|that is
+|c|☆imsosorrylol|if i can hit moves
+|choice|switch 4|move gunkshot
+|
+|switch|p1a: Archeops|Archeops, M|100/100
+|-damage|p1a: Archeops|76/100|[from] Stealth Rock
+|move|p2a: Muk|Gunk Shot|p1a: Archeops
+|-resisted|p1a: Archeops
+|-damage|p1a: Archeops|38/100
+|-status|p1a: Archeops|psn
+|
+|-damage|p1a: Archeops|25/100 psn|[from] psn
+|upkeep
+|turn|7
+|c|☆GreninjaWarrior21|noo
+|choice|move roost|switch 2
+|
+|switch|p2a: Vivillon|Vivillon, M|100/100
+|-damage|p2a: Vivillon|51/100|[from] Stealth Rock
+|move|p1a: Archeops|Roost|p1a: Archeops
+|-heal|p1a: Archeops|76/100 psn
+|
+|-damage|p1a: Archeops|63/100 psn|[from] psn
+|upkeep
+|turn|8
+|choice|move acrobatics|move energyball
+|
+|move|p1a: Archeops|Acrobatics|p2a: Vivillon
+|-supereffective|p2a: Vivillon
+|-damage|p2a: Vivillon|0 fnt
+|faint|p2a: Vivillon
+|
+|-damage|p1a: Archeops|51/100 psn|[from] psn
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Musharna|Musharna, M|100/100
+|-damage|p2a: Musharna|88/100|[from] Stealth Rock
+|turn|9
+|choice|switch 4|switch 2
+|
+|switch|p1a: Skuntank|Skuntank, M|88/100
+|-damage|p1a: Skuntank|76/100|[from] Stealth Rock
+|switch|p2a: Muk|Muk, M|88/100
+|-damage|p2a: Muk|75/100|[from] Stealth Rock
+|
+|upkeep
+|turn|10
+|c|☆imsosorrylol|hes in
+|c|☆GreninjaWarrior21|lol.
+|choice|switch 6|move gunkshot
+|
+|switch|p1a: Lanturn|Lanturn, M|51/100
+|-damage|p1a: Lanturn|39/100|[from] Stealth Rock
+|move|p2a: Muk|Gunk Shot|p1a: Lanturn
+|-damage|p1a: Lanturn|0 fnt
+|faint|p1a: Lanturn
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Exeggutor|Exeggutor, M|100/100
+|-damage|p1a: Exeggutor|88/100|[from] Stealth Rock
+|turn|11
+|choice|move psychic|move poisonjab
+|
+|move|p1a: Exeggutor|Psychic|p2a: Muk
+|-supereffective|p2a: Muk
+|-damage|p2a: Muk|28/100
+|move|p2a: Muk|Poison Jab|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|7/100
+|
+|upkeep
+|turn|12
+|c|☆GreninjaWarrior21|oml
+|c|☆GreninjaWarrior21|0
+|choice|move psychic|switch 2
+|
+|switch|p2a: Musharna|Musharna, M|88/100
+|-damage|p2a: Musharna|76/100|[from] Stealth Rock
+|move|p1a: Exeggutor|Psychic|p2a: Musharna
+|-resisted|p2a: Musharna
+|-damage|p2a: Musharna|57/100
+|
+|-heal|p2a: Musharna|63/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|choice|move sleeppowder|move moonlight
+|
+|move|p1a: Exeggutor|Sleep Powder|p2a: Musharna
+|-status|p2a: Musharna|slp
+|cant|p2a: Musharna|slp
+|
+|-heal|p2a: Musharna|69/100 slp|[from] item: Leftovers
+|upkeep
+|turn|14
+|J|Qazzyz
+|choice|move gigadrain|move signalbeam
+|
+|move|p1a: Exeggutor|Giga Drain|p2a: Musharna
+|-damage|p2a: Musharna|37/100 slp
+|-heal|p1a: Exeggutor|25/100|[from] drain|[of] p2a: Musharna
+|-curestatus|p2a: Musharna|slp|[msg]
+|move|p2a: Musharna|Signal Beam|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|0 fnt
+|faint|p1a: Exeggutor
+|
+|-heal|p2a: Musharna|43/100|[from] item: Leftovers
+|upkeep
+|c|☆imsosorrylol|PHJEW
+|choice|switch 6|
+|
+|switch|p1a: Skuntank|Skuntank, M|76/100
+|-damage|p1a: Skuntank|63/100|[from] Stealth Rock
+|turn|15
+|L|Qazzyz
+|choice|move taunt|move signalbeam
+|
+|move|p1a: Skuntank|Taunt|p2a: Musharna
+|-start|p2a: Musharna|move: Taunt
+|move|p2a: Musharna|Signal Beam|p1a: Skuntank
+|-crit|p1a: Skuntank
+|-damage|p1a: Skuntank|29/100
+|
+|-heal|p2a: Musharna|50/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|choice|move suckerpunch|move signalbeam
+|
+|move|p1a: Skuntank|Sucker Punch|p2a: Musharna
+|-supereffective|p2a: Musharna
+|-damage|p2a: Musharna|4/100
+|move|p2a: Musharna|Signal Beam|p1a: Skuntank
+|-damage|p1a: Skuntank|9/100
+|
+|-heal|p2a: Musharna|10/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|choice|move pursuit|move signalbeam
+|
+|move|p1a: Skuntank|Pursuit|p2a: Musharna
+|-supereffective|p2a: Musharna
+|-crit|p2a: Musharna
+|-damage|p2a: Musharna|0 fnt
+|faint|p2a: Musharna
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Vileplume|Vileplume, M|100/100
+|-damage|p2a: Vileplume|88/100|[from] Stealth Rock
+|turn|18
+|c|☆imsosorrylol|the
+|c|☆imsosorrylol|plume
+|choice|move suckerpunch|move gigadrain
+|
+|move|p1a: Skuntank|Sucker Punch|p2a: Vileplume
+|-damage|p2a: Vileplume|60/100
+|move|p2a: Vileplume|Giga Drain|p1a: Skuntank
+|-resisted|p1a: Skuntank
+|-damage|p1a: Skuntank|0 fnt
+|-heal|p2a: Vileplume|64/100|[from] drain|[of] p1a: Skuntank
+|faint|p1a: Skuntank
+|
+|-heal|p2a: Vileplume|70/100|[from] item: Black Sludge
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Vileplume|Vileplume, M|100/100
+|-damage|p1a: Vileplume|88/100|[from] Stealth Rock
+|turn|19
+|J|sSantu ♠
+|choice|move sludgebomb|move synthesis
+|
+|move|p2a: Vileplume|Synthesis|p2a: Vileplume
+|-heal|p2a: Vileplume|100/100
+|move|p1a: Vileplume|Sludge Bomb|p2a: Vileplume
+|-damage|p2a: Vileplume|66/100
+|
+|-heal|p1a: Vileplume|94/100|[from] item: Black Sludge
+|-heal|p2a: Vileplume|72/100|[from] item: Black Sludge
+|upkeep
+|turn|20
+|choice|move sludgebomb|move sludgebomb
+|
+|move|p2a: Vileplume|Sludge Bomb|p1a: Vileplume
+|-damage|p1a: Vileplume|58/100
+|move|p1a: Vileplume|Sludge Bomb|p2a: Vileplume
+|-crit|p2a: Vileplume
+|-damage|p2a: Vileplume|22/100
+|
+|-heal|p1a: Vileplume|64/100|[from] item: Black Sludge
+|-heal|p2a: Vileplume|28/100|[from] item: Black Sludge
+|upkeep
+|turn|21
+|c|☆imsosorrylol|stop
+|choice|move sludgebomb|move synthesis
+|
+|move|p1a: Vileplume|Sludge Bomb|p2a: Vileplume
+|-damage|p2a: Vileplume|0 fnt
+|faint|p2a: Vileplume
+|
+|-heal|p1a: Vileplume|70/100|[from] item: Black Sludge
+|upkeep
+|J|tofikgls
+|choice||switch 2
+|
+|switch|p2a: Muk|Muk, M|28/100
+|-damage|p2a: Muk|15/100|[from] Stealth Rock
+|turn|22
+|c|☆GreninjaWarrior21|ez
+|c|☆imsosorrylol|gay
+|c|☆GreninjaWarrior21|im top 2 
+|c|☆imsosorrylol|ass
+|c|☆imsosorrylol|crit
+|c|☆GreninjaWarrior21|so good
+|choice|move gigadrain|move firepunch
+|
+|move|p1a: Vileplume|Giga Drain|p2a: Muk
+|-resisted|p2a: Muk
+|-damage|p2a: Muk|8/100
+|-heal|p1a: Vileplume|74/100|[from] drain|[of] p2a: Muk
+|move|p2a: Muk|Fire Punch|p1a: Vileplume
+|-supereffective|p1a: Vileplume
+|-damage|p1a: Vileplume|32/100
+|
+|-heal|p1a: Vileplume|38/100|[from] item: Black Sludge
+|upkeep
+|turn|23
+|choice|move sludgebomb|move firepunch
+|
+|move|p1a: Vileplume|Sludge Bomb|p2a: Muk
+|-resisted|p2a: Muk
+|-damage|p2a: Muk|0 fnt
+|faint|p2a: Muk
+|
+|win|GreninjaWarrior21

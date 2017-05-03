@@ -1,0 +1,145 @@
+|j|arceus1117
+|j|GetR3kt Guys
+|player|p1|arceus1117|99
+|player|p2|GetR3kt Guys|281
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|52605,52975,50154,64789,50031,65293,29169,1701,36664,15195,42732,37356
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Abomasnow, M|item
+|poke|p1|Mismagius, M|item
+|poke|p1|Hitmonchan, M|item
+|poke|p1|Miltank, F|item
+|poke|p1|Mawile, M|item
+|poke|p1|Charizard, M|item
+|poke|p2|Chatot, M|item
+|poke|p2|Malamar, M|item
+|poke|p2|Hariyama, M|item
+|poke|p2|Electivire, M|item
+|poke|p2|Clefairy, M|item
+|poke|p2|Kabutops, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 4, team 2, team 3, team 1, team 5, team 6|team 1, team 2, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Miltank|Miltank, F|100/100
+|switch|p2a: Chatot|Chatot, M|100/100
+|turn|1
+|choice|move thunderwave|move uturn
+|
+|move|p2a: Chatot|U-turn|p1a: Miltank
+|-damage|p1a: Miltank|95/100
+|choice||switch 3
+|
+|switch|p2a: Hariyama|Hariyama, M|100/100
+|move|p1a: Miltank|Thunder Wave|p2a: Hariyama
+|-status|p2a: Hariyama|par
+|
+|-heal|p1a: Miltank|100/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|choice|switch 5|move knockoff
+|
+|switch|p1a: Mawile|Mawile, M|100/100
+|move|p2a: Hariyama|Knock Off|p1a: Mawile
+|-resisted|p1a: Mawile
+|-damage|p1a: Mawile|73/100
+|-enditem|p1a: Mawile|Life Orb|[from] move: Knock Off|[of] p2a: Hariyama
+|
+|upkeep
+|turn|3
+|choice|move playrough|switch 2
+|
+|switch|p2a: Malamar|Malamar, M|100/100
+|move|p1a: Mawile|Play Rough|p2a: Malamar
+|-supereffective|p2a: Malamar
+|-damage|p2a: Malamar|5/100
+|
+|-heal|p2a: Malamar|11/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|choice|move playrough|move rest
+|
+|move|p1a: Mawile|Play Rough|p2a: Malamar
+|-supereffective|p2a: Malamar
+|-damage|p2a: Malamar|0 fnt
+|faint|p2a: Malamar
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Electivire|Electivire, M|100/100
+|turn|5
+|choice|switch 4|move earthquake
+|
+|switch|p1a: Abomasnow|Abomasnow, M|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Abomasnow
+|move|p2a: Electivire|Earthquake|p1a: Abomasnow
+|-resisted|p1a: Abomasnow
+|-damage|p1a: Abomasnow|69/100
+|-damage|p2a: Electivire|91/100|[from] item: Life Orb
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Electivire|84/100|[from] hail
+|upkeep
+|turn|6
+|choice|move earthquake|switch 2
+|
+|switch|p2a: Hariyama|Hariyama, M|100/100 par
+|move|p1a: Abomasnow|Earthquake|p2a: Hariyama
+|-crit|p2a: Hariyama
+|-damage|p2a: Hariyama|50/100 par
+|-damage|p1a: Abomasnow|59/100|[from] item: Life Orb
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Hariyama|44/100 par|[from] hail
+|upkeep
+|turn|7
+|choice|switch 2|move closecombat
+|
+|switch|p1a: Mismagius|Mismagius, M|100/100
+|move|p2a: Hariyama|Close Combat|p1a: Mismagius
+|-immune|p1a: Mismagius|[msg]
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Mismagius|94/100|[from] hail
+|-damage|p2a: Hariyama|38/100 par|[from] hail
+|upkeep
+|turn|8
+|choice|move dazzlinggleam|move knockoff
+|
+|move|p1a: Mismagius|Dazzling Gleam|p2a: Hariyama
+|-supereffective|p2a: Hariyama
+|-damage|p2a: Hariyama|3/100 par
+|-damage|p1a: Mismagius|84/100|[from] item: Life Orb
+|cant|p2a: Hariyama|par
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Mismagius|78/100|[from] hail
+|-damage|p2a: Hariyama|0 fnt|[from] hail
+|upkeep
+|faint|p2a: Hariyama
+|choice||switch 5
+|
+|switch|p2a: Clefairy|Clefairy, M|100/100
+|turn|9
+|choice|move taunt|move thunderwave
+|
+|move|p1a: Mismagius|Taunt|p2a: Clefairy
+|-start|p2a: Clefairy|move: Taunt
+|cant|p2a: Clefairy|move: Taunt|Thunder Wave
+|
+|-weather|none
+|upkeep
+|turn|10
+|-message|GetR3kt Guys forfeited.
+|
+|win|arceus1117
+|l|GetR3kt Guys
+|raw|arceus1117's rating: 1176 &rarr; <strong>1200</strong><br />(+24 for winning)
+|raw|GetR3kt Guys's rating: 1166 &rarr; <strong>1142</strong><br />(-24 for losing)

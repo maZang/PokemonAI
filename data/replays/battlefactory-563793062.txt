@@ -1,0 +1,318 @@
+|j|PMO888
+|j|yahirprimigenio
+|player|p1|PMO888|101
+|player|p2|yahirprimigenio|262
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|47951,40219,38529,5093,41942,62088,33434,65028,16565,62731,45673,34466
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Arcanine, M|item
+|poke|p1|Metagross|item
+|poke|p1|Machamp, M|item
+|poke|p1|Noivern, M|item
+|poke|p1|Donphan, M|item
+|poke|p1|Cloyster, M|item
+|poke|p2|Rhyperior, M|item
+|poke|p2|Tornadus, M|item
+|poke|p2|Noivern, M|item
+|poke|p2|Blastoise, M|item
+|poke|p2|Aromatisse, M|item
+|poke|p2|Zoroark, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 2, team 1, team 3, team 4, team 5, team 6|team 6, team 1, team 3, team 4, team 2, team 5
+|
+|start
+|switch|p1a: Metagross|Metagross|100/100
+|switch|p2a: Aromatisse|Aromatisse, M|100/100
+|turn|1
+|choice|move bulletpunch|move nightdaze
+|
+|move|p1a: Metagross|Bullet Punch|p2a: Aromatisse
+|replace|p2a: Zoroark|Zoroark, M
+|-end|p2a: Zoroark|Illusion
+|-damage|p2a: Zoroark|55/100
+|move|p2a: Zoroark|Night Daze|p1a: Metagross
+|-supereffective|p1a: Metagross
+|-damage|p1a: Metagross|0 fnt
+|-damage|p2a: Zoroark|45/100|[from] item: Life Orb
+|faint|p1a: Metagross
+|
+|upkeep
+|c|☆yahirprimigenio|:)
+|choice|switch 2|
+|
+|switch|p1a: Arcanine|Arcanine, M|100/100
+|turn|2
+|choice|move closecombat|switch 4
+|
+|switch|p2a: Blastoise|Blastoise, M|100/100
+|move|p1a: Arcanine|Close Combat|p2a: Blastoise
+|-damage|p2a: Blastoise|54/100
+|-unboost|p1a: Arcanine|def|1
+|-unboost|p1a: Arcanine|spd|1
+|
+|upkeep
+|turn|3
+|choice|switch 4|move scald mega
+|
+|switch|p1a: Noivern|Noivern, M|100/100
+|detailschange|p2a: Blastoise|Blastoise-Mega, M
+|-mega|p2a: Blastoise|Blastoise|Blastoisinite
+|move|p2a: Blastoise|Scald|p1a: Noivern
+|-resisted|p1a: Noivern
+|-damage|p1a: Noivern|75/100
+|-status|p1a: Noivern|brn
+|
+|-damage|p1a: Noivern|63/100 brn|[from] brn
+|upkeep
+|turn|4
+|choice|move dracometeor|move icebeam
+|
+|move|p1a: Noivern|Draco Meteor|p2a: Blastoise
+|-damage|p2a: Blastoise|0 fnt
+|-unboost|p1a: Noivern|spa|2
+|faint|p2a: Blastoise
+|
+|-damage|p1a: Noivern|50/100 brn|[from] brn
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Rhyperior|Rhyperior, M|100/100
+|turn|5
+|choice|switch 6|move rockblast
+|
+|switch|p1a: Cloyster|Cloyster, M|100/100
+|move|p2a: Rhyperior|Rock Blast|p1a: Cloyster
+|-supereffective|p1a: Cloyster
+|-damage|p1a: Cloyster|82/100
+|-supereffective|p1a: Cloyster
+|-damage|p1a: Cloyster|64/100
+|-hitcount|p1a: Cloyster|2
+|
+|upkeep
+|turn|6
+|choice|move rockblast|move rockblast
+|
+|move|p1a: Cloyster|Rock Blast|p2a: Rhyperior
+|-resisted|p2a: Rhyperior
+|-damage|p2a: Rhyperior|98/100
+|-resisted|p2a: Rhyperior
+|-damage|p2a: Rhyperior|96/100
+|-resisted|p2a: Rhyperior
+|-crit|p2a: Rhyperior
+|-damage|p2a: Rhyperior|93/100
+|-resisted|p2a: Rhyperior
+|-damage|p2a: Rhyperior|91/100
+|-resisted|p2a: Rhyperior
+|-damage|p2a: Rhyperior|88/100
+|-hitcount|p2a: Rhyperior|5
+|move|p2a: Rhyperior|Rock Blast|p1a: Cloyster
+|-supereffective|p1a: Cloyster
+|-damage|p1a: Cloyster|43/100
+|-supereffective|p1a: Cloyster
+|-damage|p1a: Cloyster|22/100
+|-supereffective|p1a: Cloyster
+|-damage|p1a: Cloyster|2/100
+|-hitcount|p1a: Cloyster|3
+|
+|-heal|p2a: Rhyperior|95/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|choice|move iciclespear|move rockblast
+|
+|move|p1a: Cloyster|Icicle Spear|p2a: Rhyperior
+|-supereffective|p2a: Rhyperior
+|-damage|p2a: Rhyperior|83/100
+|-supereffective|p2a: Rhyperior
+|-damage|p2a: Rhyperior|72/100
+|-supereffective|p2a: Rhyperior
+|-damage|p2a: Rhyperior|61/100
+|-supereffective|p2a: Rhyperior
+|-damage|p2a: Rhyperior|51/100
+|-supereffective|p2a: Rhyperior
+|-damage|p2a: Rhyperior|40/100
+|-hitcount|p2a: Rhyperior|5
+|move|p2a: Rhyperior|Rock Blast|p1a: Cloyster
+|-supereffective|p1a: Cloyster
+|-damage|p1a: Cloyster|0 fnt
+|-hitcount|p1a: Cloyster|1
+|faint|p1a: Cloyster
+|
+|-heal|p2a: Rhyperior|47/100|[from] item: Leftovers
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Donphan|Donphan, M|100/100
+|turn|8
+|choice|move iceshard|switch 5
+|
+|switch|p2a: Tornadus|Tornadus, M|100/100
+|move|p1a: Donphan|Ice Shard|p2a: Tornadus
+|-supereffective|p2a: Tornadus
+|-damage|p2a: Tornadus|56/100
+|
+|upkeep
+|turn|9
+|choice|move iceshard|move grassknot
+|
+|move|p1a: Donphan|Ice Shard|p2a: Tornadus
+|-supereffective|p2a: Tornadus
+|-damage|p2a: Tornadus|14/100
+|move|p2a: Tornadus|Grass Knot|p1a: Donphan
+|-supereffective|p1a: Donphan
+|-damage|p1a: Donphan|22/100
+|-damage|p2a: Tornadus|4/100|[from] item: Life Orb
+|
+|upkeep
+|turn|10
+|choice|move iceshard|move grassknot
+|
+|move|p1a: Donphan|Ice Shard|p2a: Tornadus
+|-supereffective|p2a: Tornadus
+|-damage|p2a: Tornadus|0 fnt
+|faint|p2a: Tornadus
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Aromatisse|Aromatisse, M|100/100
+|turn|11
+|choice|move earthquake|move moonblast
+|
+|move|p1a: Donphan|Earthquake|p2a: Aromatisse
+|-damage|p2a: Aromatisse|63/100
+|move|p2a: Aromatisse|Moonblast|p1a: Donphan
+|-damage|p1a: Donphan|0 fnt
+|faint|p1a: Donphan
+|
+|-heal|p2a: Aromatisse|69/100|[from] item: Leftovers
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Machamp|Machamp, M|100/100
+|turn|12
+|choice|move bulletpunch|move protect
+|
+|move|p2a: Aromatisse|Protect|p2a: Aromatisse
+|-singleturn|p2a: Aromatisse|Protect
+|move|p1a: Machamp|Bullet Punch|p2a: Aromatisse
+|-activate|p2a: Aromatisse|move: Protect
+|
+|-heal|p2a: Aromatisse|75/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|choice|move bulletpunch|move wish
+|
+|move|p1a: Machamp|Bullet Punch|p2a: Aromatisse
+|-supereffective|p2a: Aromatisse
+|-damage|p2a: Aromatisse|54/100
+|move|p2a: Aromatisse|Wish|p2a: Aromatisse
+|
+|-heal|p2a: Aromatisse|60/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|choice|move bulletpunch|move moonblast
+|
+|move|p1a: Machamp|Bullet Punch|p2a: Aromatisse
+|-supereffective|p2a: Aromatisse
+|-damage|p2a: Aromatisse|39/100
+|move|p2a: Aromatisse|Moonblast|p1a: Machamp
+|-supereffective|p1a: Machamp
+|-damage|p1a: Machamp|54/100
+|
+|-heal|p2a: Aromatisse|89/100|[from] move: Wish|[wisher] Aromatisse
+|-heal|p2a: Aromatisse|95/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|choice|move bulletpunch|move moonblast
+|
+|move|p1a: Machamp|Bullet Punch|p2a: Aromatisse
+|-supereffective|p2a: Aromatisse
+|-damage|p2a: Aromatisse|71/100
+|move|p2a: Aromatisse|Moonblast|p1a: Machamp
+|-supereffective|p1a: Machamp
+|-damage|p1a: Machamp|6/100
+|-unboost|p1a: Machamp|spa|1
+|
+|-heal|p2a: Aromatisse|77/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|choice|move bulletpunch|move wish
+|
+|move|p1a: Machamp|Bullet Punch|p2a: Aromatisse
+|-supereffective|p2a: Aromatisse
+|-damage|p2a: Aromatisse|54/100
+|move|p2a: Aromatisse|Wish|p2a: Aromatisse
+|
+|-heal|p2a: Aromatisse|60/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|choice|move bulletpunch|move moonblast
+|
+|move|p1a: Machamp|Bullet Punch|p2a: Aromatisse
+|-supereffective|p2a: Aromatisse
+|-damage|p2a: Aromatisse|37/100
+|move|p2a: Aromatisse|Moonblast|p1a: Machamp
+|-supereffective|p1a: Machamp
+|-damage|p1a: Machamp|0 fnt
+|faint|p1a: Machamp
+|
+|-heal|p2a: Aromatisse|87/100|[from] move: Wish|[wisher] Aromatisse
+|-heal|p2a: Aromatisse|93/100|[from] item: Leftovers
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Arcanine|Arcanine, M|100/100
+|turn|18
+|choice|move wildcharge|switch 5
+|
+|switch|p2a: Rhyperior|Rhyperior, M|47/100
+|move|p1a: Arcanine|Wild Charge|p2a: Rhyperior
+|-immune|p2a: Rhyperior|[msg]
+|
+|-heal|p2a: Rhyperior|53/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|choice|switch 6|move rockblast
+|
+|switch|p1a: Noivern|Noivern, M|50/100 brn
+|move|p2a: Rhyperior|Rock Blast|p1a: Noivern
+|-supereffective|p1a: Noivern
+|-damage|p1a: Noivern|19/100 brn
+|-supereffective|p1a: Noivern
+|-damage|p1a: Noivern|0 fnt
+|-hitcount|p1a: Noivern|2
+|faint|p1a: Noivern
+|
+|-heal|p2a: Rhyperior|59/100|[from] item: Leftovers
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Arcanine|Arcanine, M|100/100
+|turn|20
+|choice|move closecombat|move earthquake
+|
+|move|p1a: Arcanine|Close Combat|p2a: Rhyperior
+|-supereffective|p2a: Rhyperior
+|-damage|p2a: Rhyperior|0 fnt
+|-unboost|p1a: Arcanine|def|1
+|-unboost|p1a: Arcanine|spd|1
+|faint|p2a: Rhyperior
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Noivern|Noivern, M|100/100
+|turn|21
+|choice|move closecombat|move dracometeor
+|
+|move|p2a: Noivern|Draco Meteor|p1a: Arcanine
+|-damage|p1a: Arcanine|0 fnt
+|-unboost|p2a: Noivern|spa|2
+|faint|p1a: Arcanine
+|
+|win|yahirprimigenio

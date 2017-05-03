@@ -1,0 +1,336 @@
+|j|wolverine97
+|j|Sheikxlove
+|player|p1|wolverine97|56
+|player|p2|Sheikxlove|25
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|36323,7250,41576,3425,14445,6395,50867,12804,48308,41174,17447,31289
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Rapidash, M|item
+|poke|p1|Avalugg, M|item
+|poke|p1|Camerupt, M|item
+|poke|p1|Purugly, M|item
+|poke|p1|Huntail, M|item
+|poke|p1|Kadabra, M|item
+|poke|p2|Gourgeist-*, M|item
+|poke|p2|Prinplup, M|item
+|poke|p2|Klang|item
+|poke|p2|Regice|item
+|poke|p2|Stunfisk, M|item
+|poke|p2|Zweilous, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 3, team 2, team 1, team 4, team 5, team 6|team 1, team 2, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Camerupt|Camerupt, M|100/100
+|switch|p2a: Gourgeist|Gourgeist-Super, M|100/100
+|-item|p1a: Camerupt|Leftovers|[from] ability: Frisk|[of] p2a: Gourgeist|[identify]
+|turn|1
+|choice|move toxic|switch 2
+|
+|switch|p2a: Prinplup|Prinplup, M|100/100
+|move|p1a: Camerupt|Toxic|p2a: Prinplup
+|-status|p2a: Prinplup|tox
+|
+|-damage|p2a: Prinplup|94/100 tox|[from] psn
+|upkeep
+|turn|2
+|choice|switch 5|move stealthrock
+|
+|switch|p1a: Huntail|Huntail, M|100/100
+|move|p2a: Prinplup|Stealth Rock|p1a: Huntail
+|-sidestart|p1: wolverine97|move: Stealth Rock
+|
+|-damage|p2a: Prinplup|82/100 tox|[from] psn
+|upkeep
+|turn|3
+|choice|move shellsmash|move toxic
+|
+|move|p1a: Huntail|Shell Smash|p1a: Huntail
+|-unboost|p1a: Huntail|def|1
+|-unboost|p1a: Huntail|spd|1
+|-boost|p1a: Huntail|atk|2
+|-boost|p1a: Huntail|spa|2
+|-boost|p1a: Huntail|spe|2
+|-enditem|p1a: Huntail|White Herb
+|-clearnegativeboost|p1a: Huntail|[silent]
+|move|p2a: Prinplup|Toxic|p1a: Huntail
+|-status|p1a: Huntail|tox
+|
+|-damage|p1a: Huntail|95/100 tox|[from] psn
+|-damage|p2a: Prinplup|64/100 tox|[from] psn
+|upkeep
+|turn|4
+|j|Tyking9
+|choice|move waterfall|move scald
+|
+|move|p1a: Huntail|Waterfall|p2a: Prinplup
+|-resisted|p2a: Prinplup
+|-damage|p2a: Prinplup|39/100 tox
+|move|p2a: Prinplup|Scald|p1a: Huntail
+|-resisted|p1a: Huntail
+|-damage|p1a: Huntail|72/100 tox
+|
+|-damage|p1a: Huntail|60/100 tox|[from] psn
+|-damage|p2a: Prinplup|15/100 tox|[from] psn
+|upkeep
+|turn|5
+|l|Tyking9
+|choice|move waterfall|move scald
+|
+|move|p1a: Huntail|Waterfall|p2a: Prinplup
+|-resisted|p2a: Prinplup
+|-damage|p2a: Prinplup|0 fnt
+|faint|p2a: Prinplup
+|
+|-damage|p1a: Huntail|42/100 tox|[from] psn
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Gourgeist|Gourgeist-Super, M|100/100
+|turn|6
+|choice|move icebeam|move synthesis
+|
+|move|p1a: Huntail|Ice Beam|p2a: Gourgeist
+|-supereffective|p2a: Gourgeist
+|-damage|p2a: Gourgeist|8/100
+|move|p2a: Gourgeist|Synthesis|p2a: Gourgeist
+|-heal|p2a: Gourgeist|58/100
+|
+|-heal|p2a: Gourgeist|64/100|[from] item: Leftovers
+|-damage|p1a: Huntail|18/100 tox|[from] psn
+|upkeep
+|turn|7
+|choice|move waterfall|switch 4
+|
+|switch|p2a: Regice|Regice|100/100
+|move|p1a: Huntail|Waterfall|p2a: Regice
+|-damage|p2a: Regice|11/100
+|
+|-damage|p1a: Huntail|0 fnt|[from] psn
+|upkeep
+|faint|p1a: Huntail
+|choice|switch 4|
+|
+|switch|p1a: Purugly|Purugly, M|100/100
+|-damage|p1a: Purugly|88/100|[from] Stealth Rock
+|turn|8
+|choice|move knockoff|switch 4
+|
+|switch|p2a: Gourgeist|Gourgeist-Super, M|64/100
+|-item|p1a: Purugly|Life Orb|[from] ability: Frisk|[of] p2a: Gourgeist|[identify]
+|move|p1a: Purugly|Knock Off|p2a: Gourgeist
+|-supereffective|p2a: Gourgeist
+|-damage|p2a: Gourgeist|26/100
+|-enditem|p2a: Gourgeist|Leftovers|[from] move: Knock Off|[of] p1a: Purugly
+|-damage|p1a: Purugly|78/100|[from] item: Life Orb
+|
+|upkeep
+|turn|9
+|choice|move knockoff|move synthesis
+|
+|move|p1a: Purugly|Knock Off|p2a: Gourgeist
+|-supereffective|p2a: Gourgeist
+|-crit|p2a: Gourgeist
+|-damage|p2a: Gourgeist|0 fnt
+|-damage|p1a: Purugly|68/100|[from] item: Life Orb
+|faint|p2a: Gourgeist
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Zweilous|Zweilous, M|100/100
+|turn|10
+|choice|switch 2|move superpower
+|
+|switch|p1a: Avalugg|Avalugg, M|100/100
+|-damage|p1a: Avalugg|76/100|[from] Stealth Rock
+|move|p2a: Zweilous|Superpower|p1a: Avalugg
+|-supereffective|p1a: Avalugg
+|-damage|p1a: Avalugg|0 fnt
+|-unboost|p2a: Zweilous|atk|1
+|-unboost|p2a: Zweilous|def|1
+|faint|p1a: Avalugg
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Kadabra|Kadabra, M|100/100
+|turn|11
+|choice|move psychic|switch 4
+|
+|switch|p2a: Regice|Regice|11/100
+|move|p1a: Kadabra|Psychic|p2a: Regice
+|-damage|p2a: Regice|0 fnt
+|faint|p2a: Regice
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Zweilous|Zweilous, M|100/100
+|turn|12
+|choice|move thunderwave|move crunch
+|
+|move|p1a: Kadabra|Thunder Wave|p2a: Zweilous
+|-status|p2a: Zweilous|par
+|move|p2a: Zweilous|Crunch|p1a: Kadabra
+|-supereffective|p1a: Kadabra
+|-enditem|p1a: Kadabra|Focus Sash
+|-damage|p1a: Kadabra|1/100
+|
+|upkeep
+|turn|13
+|choice|move hiddenpower|move crunch
+|
+|move|p1a: Kadabra|Hidden Power|p2a: Zweilous
+|-supereffective|p2a: Zweilous
+|-damage|p2a: Zweilous|36/100 par
+|move|p2a: Zweilous|Crunch|p1a: Kadabra
+|-supereffective|p1a: Kadabra
+|-damage|p1a: Kadabra|0 fnt
+|faint|p1a: Kadabra
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Rapidash|Rapidash, M|100/100
+|-damage|p1a: Rapidash|76/100|[from] Stealth Rock
+|turn|14
+|choice|move flareblitz|move crunch
+|
+|move|p1a: Rapidash|Flare Blitz|p2a: Zweilous
+|-resisted|p2a: Zweilous
+|-damage|p2a: Zweilous|0 fnt
+|-damage|p1a: Rapidash|64/100|[from] recoil|[of] p2a: Zweilous
+|faint|p2a: Zweilous
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Stunfisk|Stunfisk, M|100/100
+|turn|15
+|choice|move flareblitz|move earthpower
+|
+|move|p1a: Rapidash|Flare Blitz|p2a: Stunfisk
+|-damage|p2a: Stunfisk|48/100
+|-damage|p1a: Rapidash|36/100|[from] recoil|[of] p2a: Stunfisk
+|move|p2a: Stunfisk|Earth Power|p1a: Rapidash
+|-supereffective|p1a: Rapidash
+|-damage|p1a: Rapidash|0 fnt
+|faint|p1a: Rapidash
+|
+|-heal|p2a: Stunfisk|54/100|[from] item: Leftovers
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Purugly|Purugly, M|68/100
+|-damage|p1a: Purugly|56/100|[from] Stealth Rock
+|turn|16
+|choice|move return|switch 3
+|
+|switch|p2a: Klang|Klang|100/100
+|move|p1a: Purugly|Return|p2a: Klang
+|-resisted|p2a: Klang
+|-damage|p2a: Klang|86/100
+|-damage|p1a: Purugly|46/100|[from] item: Life Orb
+|
+|upkeep
+|turn|17
+|choice|switch 5|move shiftgear
+|
+|switch|p1a: Camerupt|Camerupt, M|100/100
+|-damage|p1a: Camerupt|88/100|[from] Stealth Rock
+|move|p2a: Klang|Shift Gear|p2a: Klang
+|-boost|p2a: Klang|spe|2
+|-boost|p2a: Klang|atk|1
+|
+|-heal|p1a: Camerupt|94/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|choice|move earthpower|move geargrind
+|
+|move|p2a: Klang|Gear Grind|p1a: Camerupt
+|-resisted|p1a: Camerupt
+|-damage|p1a: Camerupt|80/100
+|-resisted|p1a: Camerupt
+|-damage|p1a: Camerupt|67/100
+|-hitcount|p1a: Camerupt|2
+|move|p1a: Camerupt|Earth Power|p2a: Klang
+|-supereffective|p2a: Klang
+|-damage|p2a: Klang|41/100
+|
+|-heal|p1a: Camerupt|73/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|choice|move earthpower|move geargrind
+|
+|move|p2a: Klang|Gear Grind|p1a: Camerupt
+|-resisted|p1a: Camerupt
+|-damage|p1a: Camerupt|58/100
+|-resisted|p1a: Camerupt
+|-damage|p1a: Camerupt|44/100
+|-hitcount|p1a: Camerupt|2
+|move|p1a: Camerupt|Earth Power|p2a: Klang
+|-supereffective|p2a: Klang
+|-damage|p2a: Klang|2/100
+|
+|-heal|p1a: Camerupt|50/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|choice|move earthpower|move rest
+|
+|move|p2a: Klang|Rest|p2a: Klang
+|-status|p2a: Klang|slp
+|-heal|p2a: Klang|100/100 slp|[silent]
+|-status|p2a: Klang|slp|[from] move: Rest
+|move|p1a: Camerupt|Earth Power|p2a: Klang
+|-supereffective|p2a: Klang
+|-damage|p2a: Klang|58/100 slp
+|
+|-heal|p1a: Camerupt|56/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|choice|move earthpower|move sleeptalk
+|
+|cant|p2a: Klang|slp
+|move|p2a: Klang|Sleep Talk|p2a: Klang
+|move|p2a: Klang|Rest|p2a: Klang|[from]Sleep Talk
+|-fail|p2a: Klang
+|move|p1a: Camerupt|Earth Power|p2a: Klang
+|-supereffective|p2a: Klang
+|-crit|p2a: Klang
+|-damage|p2a: Klang|0 fnt
+|faint|p2a: Klang
+|
+|-heal|p1a: Camerupt|62/100|[from] item: Leftovers
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Stunfisk|Stunfisk, M|54/100
+|turn|22
+|choice|move earthpower|move earthpower
+|
+|move|p1a: Camerupt|Earth Power|p2a: Stunfisk
+|-supereffective|p2a: Stunfisk
+|-damage|p2a: Stunfisk|9/100
+|move|p2a: Stunfisk|Earth Power|p1a: Camerupt
+|-supereffective|p1a: Camerupt
+|-damage|p1a: Camerupt|27/100
+|-unboost|p1a: Camerupt|spd|1
+|
+|-heal|p1a: Camerupt|33/100|[from] item: Leftovers
+|-heal|p2a: Stunfisk|15/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|l|Sheikxlove
+|player|p2|
+|-message|Sheikxlove lost due to inactivity.
+|
+|win|wolverine97
+|raw|wolverine97's rating: 1412 &rarr; <strong>1418</strong><br />(+6 for winning)
+|raw|Sheikxlove's rating: 1121 &rarr; <strong>1113</strong><br />(-8 for losing)

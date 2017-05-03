@@ -1,0 +1,326 @@
+|J|Dokkerich
+|J|T be stuntin
+|player|p1|Dokkerich|31
+|player|p2|T be stuntin|112
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|26520,50680,44606,19317,57828,64753,36199,43990,40801,502,32200,5336
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Vaporeon, M|item
+|poke|p1|Cloyster, M|item
+|poke|p1|Haxorus, M|item
+|poke|p1|Infernape, M|item
+|poke|p1|Aromatisse, M|item
+|poke|p1|Beedrill, M|item
+|poke|p2|Reuniclus, M|item
+|poke|p2|Machamp, M|item
+|poke|p2|Gligar, M|item
+|poke|p2|Arcanine, M|item
+|poke|p2|Aromatisse, M|item
+|poke|p2|Milotic, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|J|Hangover
+|L|Hangover
+|J|Advantage
+|L|Advantage
+|choice|team 4, team 2, team 3, team 1, team 5, team 6|team 2, team 1, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Infernape|Infernape, M|100/100
+|switch|p2a: Machamp|Machamp, M|100/100
+|turn|1
+|choice|move fakeout|move dynamicpunch
+|
+|move|p1a: Infernape|Fake Out|p2a: Machamp
+|-damage|p2a: Machamp|88/100
+|cant|p2a: Machamp|flinch
+|
+|-heal|p2a: Machamp|94/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|choice|move stealthrock|move dynamicpunch
+|
+|move|p1a: Infernape|Stealth Rock|p2a: Machamp
+|-sidestart|p2: T be stuntin|move: Stealth Rock
+|move|p2a: Machamp|Dynamic Punch|p1a: Infernape
+|-damage|p1a: Infernape|8/100
+|-start|p1a: Infernape|confusion
+|
+|-heal|p2a: Machamp|99/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|choice|move closecombat|move bulkup
+|
+|-activate|p1a: Infernape|confusion
+|-damage|p1a: Infernape|0 fnt|[from] confusion
+|faint|p1a: Infernape
+|move|p2a: Machamp|Bulk Up|p2a: Machamp
+|-boost|p2a: Machamp|atk|1
+|-boost|p2a: Machamp|def|1
+|
+|-heal|p2a: Machamp|100/100|[from] item: Leftovers
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Aromatisse|Aromatisse, M|100/100
+|turn|4
+|choice|move moonblast|move dynamicpunch
+|
+|move|p2a: Machamp|Dynamic Punch|p1a: Aromatisse
+|-resisted|p1a: Aromatisse
+|-crit|p1a: Aromatisse
+|-damage|p1a: Aromatisse|56/100
+|-start|p1a: Aromatisse|confusion
+|-activate|p1a: Aromatisse|confusion
+|-damage|p1a: Aromatisse|51/100|[from] confusion
+|
+|-heal|p1a: Aromatisse|57/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|choice|move wish|move stoneedge
+|
+|move|p2a: Machamp|Stone Edge|p1a: Aromatisse
+|-damage|p1a: Aromatisse|16/100
+|-end|p1a: Aromatisse|confusion
+|move|p1a: Aromatisse|Wish|p1a: Aromatisse
+|
+|-heal|p1a: Aromatisse|22/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|choice|move protect|move dynamicpunch
+|
+|move|p1a: Aromatisse|Protect|p1a: Aromatisse
+|-singleturn|p1a: Aromatisse|Protect
+|move|p2a: Machamp|Dynamic Punch|p1a: Aromatisse
+|-activate|p1a: Aromatisse|move: Protect
+|
+|-heal|p1a: Aromatisse|72/100|[from] move: Wish|[wisher] Aromatisse
+|-heal|p1a: Aromatisse|78/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|choice|move moonblast|move dynamicpunch
+|
+|move|p2a: Machamp|Dynamic Punch|p1a: Aromatisse
+|-resisted|p1a: Aromatisse
+|-damage|p1a: Aromatisse|45/100
+|-start|p1a: Aromatisse|confusion
+|-activate|p1a: Aromatisse|confusion
+|move|p1a: Aromatisse|Moonblast|p2a: Machamp
+|-supereffective|p2a: Machamp
+|-damage|p2a: Machamp|36/100
+|-unboost|p2a: Machamp|spa|1
+|
+|-heal|p2a: Machamp|42/100|[from] item: Leftovers
+|-heal|p1a: Aromatisse|52/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|choice|move moonblast|move bulkup
+|
+|move|p2a: Machamp|Bulk Up|p2a: Machamp
+|-boost|p2a: Machamp|atk|1
+|-boost|p2a: Machamp|def|1
+|-activate|p1a: Aromatisse|confusion
+|-damage|p1a: Aromatisse|47/100|[from] confusion
+|
+|-heal|p2a: Machamp|48/100|[from] item: Leftovers
+|-heal|p1a: Aromatisse|53/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|choice|move moonblast|move stoneedge
+|
+|move|p2a: Machamp|Stone Edge|p1a: Aromatisse
+|-damage|p1a: Aromatisse|0 fnt
+|faint|p1a: Aromatisse
+|
+|-heal|p2a: Machamp|54/100|[from] item: Leftovers
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Vaporeon|Vaporeon, M|100/100
+|turn|10
+|choice|move scald|move dynamicpunch
+|
+|move|p1a: Vaporeon|Scald|p2a: Machamp
+|-damage|p2a: Machamp|20/100
+|-status|p2a: Machamp|brn
+|move|p2a: Machamp|Dynamic Punch|p1a: Vaporeon
+|-damage|p1a: Vaporeon|54/100
+|-start|p1a: Vaporeon|confusion
+|
+|-heal|p1a: Vaporeon|60/100|[from] item: Leftovers
+|-heal|p2a: Machamp|26/100 brn|[from] item: Leftovers
+|-damage|p2a: Machamp|14/100 brn|[from] brn
+|upkeep
+|turn|11
+|choice|move scald|move dynamicpunch
+|
+|-activate|p1a: Vaporeon|confusion
+|-damage|p1a: Vaporeon|56/100|[from] confusion
+|move|p2a: Machamp|Dynamic Punch|p1a: Vaporeon
+|-damage|p1a: Vaporeon|6/100
+|
+|-heal|p1a: Vaporeon|12/100|[from] item: Leftovers
+|-heal|p2a: Machamp|20/100 brn|[from] item: Leftovers
+|-damage|p2a: Machamp|8/100 brn|[from] brn
+|upkeep
+|turn|12
+|choice|move scald|move dynamicpunch
+|
+|-activate|p1a: Vaporeon|confusion
+|-damage|p1a: Vaporeon|8/100|[from] confusion
+|move|p2a: Machamp|Dynamic Punch|p1a: Vaporeon
+|-damage|p1a: Vaporeon|0 fnt
+|faint|p1a: Vaporeon
+|
+|-heal|p2a: Machamp|14/100 brn|[from] item: Leftovers
+|-damage|p2a: Machamp|2/100 brn|[from] brn
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Beedrill|Beedrill, M|100/100
+|turn|13
+|choice|move protect mega|move stoneedge
+|
+|detailschange|p1a: Beedrill|Beedrill-Mega, M
+|-mega|p1a: Beedrill|Beedrill|Beedrillite
+|move|p1a: Beedrill|Protect|p1a: Beedrill
+|-singleturn|p1a: Beedrill|Protect
+|move|p2a: Machamp|Stone Edge|p1a: Beedrill
+|-activate|p1a: Beedrill|move: Protect
+|
+|-heal|p2a: Machamp|8/100 brn|[from] item: Leftovers
+|-damage|p2a: Machamp|0 fnt|[from] brn
+|upkeep
+|faint|p2a: Machamp
+|choice||switch 3
+|
+|switch|p2a: Gligar|Gligar, M|100/100
+|-damage|p2a: Gligar|88/100|[from] Stealth Rock
+|turn|14
+|choice|move uturn|move defog
+|
+|move|p1a: Beedrill|U-turn|p2a: Gligar
+|-resisted|p2a: Gligar
+|-damage|p2a: Gligar|74/100
+|choice|switch 2|
+|
+|switch|p1a: Cloyster|Cloyster, M|100/100
+|move|p2a: Gligar|Defog|p1a: Cloyster
+|-unboost|p1a: Cloyster|evasion|1
+|-sideend|p2: T be stuntin|Stealth Rock|[from] move: Defog|[of] p2a: Gligar
+|
+|upkeep
+|turn|15
+|choice|move spikes|move earthquake
+|
+|move|p1a: Cloyster|Spikes|p2a: Gligar
+|-sidestart|p2: T be stuntin|Spikes
+|move|p2a: Gligar|Earthquake|p1a: Cloyster
+|-damage|p1a: Cloyster|77/100
+|
+|upkeep
+|turn|16
+|choice|move iciclespear|switch 6
+|
+|switch|p2a: Milotic|Milotic, M|100/100
+|-damage|p2a: Milotic|88/100|[from] Spikes
+|move|p1a: Cloyster|Icicle Spear|p2a: Milotic
+|-resisted|p2a: Milotic
+|-damage|p2a: Milotic|82/100
+|-resisted|p2a: Milotic
+|-damage|p2a: Milotic|77/100
+|-resisted|p2a: Milotic
+|-damage|p2a: Milotic|71/100
+|-resisted|p2a: Milotic
+|-damage|p2a: Milotic|65/100
+|-resisted|p2a: Milotic
+|-damage|p2a: Milotic|60/100
+|-hitcount|p2a: Milotic|5
+|
+|-heal|p2a: Milotic|66/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|choice|move explosion|move scald
+|
+|move|p1a: Cloyster|Explosion|p2a: Milotic
+|-damage|p2a: Milotic|0 fnt
+|faint|p1a: Cloyster
+|faint|p2a: Milotic
+|
+|upkeep
+|choice|switch 3|switch 6
+|
+|switch|p1a: Haxorus|Haxorus, M|100/100
+|switch|p2a: Gligar|Gligar, M|74/100
+|-ability|p1a: Haxorus|Mold Breaker
+|turn|18
+|choice|move dragondance|switch 5
+|
+|switch|p2a: Aromatisse|Aromatisse, M|100/100
+|-damage|p2a: Aromatisse|88/100|[from] Spikes
+|move|p1a: Haxorus|Dragon Dance|p1a: Haxorus
+|-boost|p1a: Haxorus|atk|1
+|-boost|p1a: Haxorus|spe|1
+|
+|-heal|p2a: Aromatisse|94/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|choice|move poisonjab|move moonblast
+|
+|move|p1a: Haxorus|Poison Jab|p2a: Aromatisse
+|-supereffective|p2a: Aromatisse
+|-damage|p2a: Aromatisse|23/100
+|move|p2a: Aromatisse|Moonblast|p1a: Haxorus
+|-supereffective|p1a: Haxorus
+|-damage|p1a: Haxorus|0 fnt
+|faint|p1a: Haxorus
+|
+|-heal|p2a: Aromatisse|29/100|[from] item: Leftovers
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Beedrill|Beedrill-Mega, M|100/100
+|turn|20
+|choice|move poisonjab|move protect
+|
+|move|p2a: Aromatisse|Protect|p2a: Aromatisse
+|-singleturn|p2a: Aromatisse|Protect
+|move|p1a: Beedrill|Poison Jab|p2a: Aromatisse
+|-activate|p2a: Aromatisse|move: Protect
+|
+|-heal|p2a: Aromatisse|35/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|choice|move poisonjab|switch 5
+|
+|switch|p2a: Gligar|Gligar, M|74/100
+|move|p1a: Beedrill|Poison Jab|p2a: Gligar
+|-resisted|p2a: Gligar
+|-damage|p2a: Gligar|58/100
+|
+|upkeep
+|turn|22
+|choice|move poisonjab|move earthquake
+|
+|move|p1a: Beedrill|Poison Jab|p2a: Gligar
+|-resisted|p2a: Gligar
+|-damage|p2a: Gligar|43/100
+|move|p2a: Gligar|Earthquake|p1a: Beedrill
+|-damage|p1a: Beedrill|31/100
+|
+|upkeep
+|turn|23
+|choice|move poisonjab|move earthquake
+|
+|move|p1a: Beedrill|Poison Jab|p2a: Gligar
+|-resisted|p2a: Gligar
+|-damage|p2a: Gligar|27/100
+|move|p2a: Gligar|Earthquake|p1a: Beedrill
+|-damage|p1a: Beedrill|0 fnt
+|faint|p1a: Beedrill
+|
+|win|T be stuntin

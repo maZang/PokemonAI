@@ -1,0 +1,353 @@
+|j|YaBoyCraxius
+|j|Random Skrub
+|player|p1|YaBoyCraxius|94
+|player|p2|Random Skrub|273
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|19741,6347,54837,64699,53604,3572,26650,17651,64565,22597,23849,3975
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Electrode|item
+|poke|p1|Basculin, M|item
+|poke|p1|Camerupt, M|item
+|poke|p1|Articuno|item
+|poke|p1|Vibrava, M|item
+|poke|p1|Bouffalant, M|item
+|poke|p2|Fraxure, M|item
+|poke|p2|Solrock|item
+|poke|p2|Zweilous, M|item
+|poke|p2|Glalie, M|item
+|poke|p2|Metang|item
+|poke|p2|Vullaby, F|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|c|☆YaBoyCraxius|I GOT A FUCKING VIBRAVA
+|c|☆YaBoyCraxius|LOL
+|c|☆Random Skrub|fucking metang
+|c|☆YaBoyCraxius|why tf
+|c|☆YaBoyCraxius|u got 5 eviolotes
+|c|☆YaBoyCraxius|lol
+|c|☆Random Skrub|i don't even have a fucking mega
+|c|☆YaBoyCraxius|i dont either
+|c|☆YaBoyCraxius|lmao
+|choice|team 1, team 2, team 3, team 4, team 5, team 6|team 5, team 2, team 3, team 4, team 1, team 6
+|
+|start
+|switch|p1a: Electrode|Electrode|100/100
+|switch|p2a: Metang|Metang|100/100
+|turn|1
+|c|☆YaBoyCraxius|the camer is leftys
+|choice|move voltswitch|move stealthrock
+|
+|move|p1a: Electrode|Volt Switch|p2a: Metang
+|-damage|p2a: Metang|79/100
+|-damage|p1a: Electrode|91/100|[from] item: Life Orb
+|c|☆Random Skrub|pokermon showdown SUCKS
+|choice|switch 6|
+|
+|switch|p1a: Bouffalant|Bouffalant, M|100/100
+|move|p2a: Metang|Stealth Rock|p1a: Bouffalant
+|-sidestart|p1: YaBoyCraxius|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|choice|move swordsdance|move toxic
+|
+|move|p1a: Bouffalant|Swords Dance|p1a: Bouffalant
+|-boost|p1a: Bouffalant|atk|2
+|move|p2a: Metang|Toxic|p1a: Bouffalant|[miss]
+|-miss|p2a: Metang|p1a: Bouffalant
+|
+|upkeep
+|turn|3
+|c|☆Random Skrub|FUCK
+|choice|move substitute|switch 6
+|
+|switch|p2a: Vullaby|Vullaby, F|100/100
+|move|p1a: Bouffalant|Substitute|p1a: Bouffalant
+|-start|p1a: Bouffalant|Substitute
+|-damage|p1a: Bouffalant|76/100
+|
+|-heal|p1a: Bouffalant|82/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|c|☆Random Skrub|FUCK
+|choice|move return|move foulplay
+|
+|move|p2a: Vullaby|Foul Play|p1a: Bouffalant
+|-end|p1a: Bouffalant|Substitute
+|move|p1a: Bouffalant|Return|p2a: Vullaby
+|-damage|p2a: Vullaby|11/100
+|
+|-heal|p1a: Bouffalant|88/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|c|☆YaBoyCraxius|tfw u got 700 attacked
+|choice|switch 4|move foulplay
+|
+|switch|p1a: Articuno|Articuno|100/100
+|-damage|p1a: Articuno|50/100|[from] Stealth Rock
+|-ability|p1a: Articuno|Pressure
+|move|p2a: Vullaby|Foul Play|p1a: Articuno
+|-damage|p1a: Articuno|24/100
+|
+|upkeep
+|turn|6
+|c|☆Random Skrub|ur turn
+|c|☆Random Skrub|2 DIEEEE
+|choice|move roost|switch 6
+|
+|switch|p2a: Metang|Metang|79/100
+|move|p1a: Articuno|Roost|p1a: Articuno
+|-heal|p1a: Articuno|74/100
+|
+|upkeep
+|turn|7
+|c|☆Random Skrub|oh fuck
+|choice|move hurricane|move meteormash
+|
+|move|p1a: Articuno|Hurricane|p2a: Metang
+|-resisted|p2a: Metang
+|-damage|p2a: Metang|58/100
+|-start|p2a: Metang|confusion
+|-damage|p1a: Articuno|64/100|[from] item: Life Orb
+|-activate|p2a: Metang|confusion
+|-damage|p2a: Metang|53/100|[from] confusion
+|
+|upkeep
+|turn|8
+|c|☆Random Skrub|fuck
+|c|☆Random Skrub|this
+|c|☆Random Skrub|shitty game
+|choice|move hurricane|move meteormash
+|
+|move|p1a: Articuno|Hurricane|p2a: Metang|[miss]
+|-miss|p1a: Articuno|p2a: Metang
+|-activate|p2a: Metang|confusion
+|-damage|p2a: Metang|48/100|[from] confusion
+|
+|upkeep
+|turn|9
+|c|☆Random Skrub|i hate pokemon
+|choice|move hurricane|move meteormash
+|
+|move|p1a: Articuno|Hurricane|p2a: Metang
+|-resisted|p2a: Metang
+|-damage|p2a: Metang|28/100
+|-damage|p1a: Articuno|54/100|[from] item: Life Orb
+|-end|p2a: Metang|confusion
+|move|p2a: Metang|Meteor Mash|p1a: Articuno|[miss]
+|-miss|p2a: Metang|p1a: Articuno
+|
+|upkeep
+|turn|10
+|c|☆Random Skrub|minecraft is so much better
+|c|☆Random Skrub|fuck pokemon
+|choice|move hurricane|move meteormash
+|
+|move|p1a: Articuno|Hurricane|p2a: Metang
+|-resisted|p2a: Metang
+|-damage|p2a: Metang|10/100
+|-damage|p1a: Articuno|44/100|[from] item: Life Orb
+|move|p2a: Metang|Meteor Mash|p1a: Articuno
+|-supereffective|p1a: Articuno
+|-damage|p1a: Articuno|0 fnt
+|-boost|p2a: Metang|atk|1
+|faint|p1a: Articuno
+|
+|upkeep
+|c|☆Random Skrub|mineplex is an amazing server
+|choice|switch 2|
+|
+|switch|p1a: Basculin|Basculin, M|100/100
+|-damage|p1a: Basculin|88/100|[from] Stealth Rock
+|turn|11
+|choice|move aquajet|move earthquake
+|
+|move|p1a: Basculin|Aqua Jet|p2a: Metang
+|-damage|p2a: Metang|0 fnt
+|-damage|p1a: Basculin|78/100|[from] item: Life Orb
+|faint|p2a: Metang
+|
+|upkeep
+|c|☆YaBoyCraxius|mp is dead
+|choice||switch 2
+|
+|switch|p2a: Solrock|Solrock|100/100
+|turn|12
+|c|☆Random Skrub|i know
+|c|☆Random Skrub|lol
+|choice|move waterfall|move willowisp
+|
+|move|p1a: Basculin|Waterfall|p2a: Solrock
+|-supereffective|p2a: Solrock
+|-damage|p2a: Solrock|5/100
+|-damage|p1a: Basculin|68/100|[from] item: Life Orb
+|cant|p2a: Solrock|flinch
+|
+|upkeep
+|turn|13
+|c|☆Random Skrub|fuck pokemon
+|choice|move waterfall|move willowisp
+|
+|move|p1a: Basculin|Waterfall|p2a: Solrock
+|-supereffective|p2a: Solrock
+|-damage|p2a: Solrock|0 fnt
+|-damage|p1a: Basculin|58/100|[from] item: Life Orb
+|faint|p2a: Solrock
+|
+|upkeep
+|c|☆Random Skrub|i hate pokemon
+|choice||switch 3
+|
+|switch|p2a: Zweilous|Zweilous, M|100/100
+|turn|14
+|c|☆YaBoyCraxius|wtf would that thing even do to basvullin
+|choice|move icebeam|move outrage
+|
+|move|p1a: Basculin|Ice Beam|p2a: Zweilous
+|-supereffective|p2a: Zweilous
+|-damage|p2a: Zweilous|24/100
+|-damage|p1a: Basculin|48/100|[from] item: Life Orb
+|move|p2a: Zweilous|Outrage|p1a: Basculin
+|-damage|p1a: Basculin|0 fnt
+|faint|p1a: Basculin
+|
+|upkeep
+|c|☆Random Skrub|will o wisp
+|c|☆YaBoyCraxius|o
+|choice|switch 6|
+|
+|switch|p1a: Electrode|Electrode|91/100
+|-damage|p1a: Electrode|78/100|[from] Stealth Rock
+|turn|15
+|choice|move thunderbolt|move outrage
+|
+|move|p1a: Electrode|Thunderbolt|p2a: Zweilous
+|-resisted|p2a: Zweilous
+|-damage|p2a: Zweilous|0 fnt
+|-damage|p1a: Electrode|68/100|[from] item: Life Orb
+|faint|p2a: Zweilous
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Glalie|Glalie, M|100/100
+|turn|16
+|c|☆YaBoyCraxius|are all ur pokes eviolite?
+|c|☆YaBoyCraxius|except glalie
+|choice|move voltswitch|move spikes
+|
+|move|p1a: Electrode|Volt Switch|p2a: Glalie
+|-damage|p2a: Glalie|38/100
+|-damage|p1a: Electrode|58/100|[from] item: Life Orb
+|c|☆Random Skrub|that um
+|choice|switch 3|
+|
+|switch|p1a: Camerupt|Camerupt, M|100/100
+|-damage|p1a: Camerupt|88/100|[from] Stealth Rock
+|move|p2a: Glalie|Spikes|p1a: Camerupt
+|-sidestart|p1: YaBoyCraxius|Spikes
+|
+|-heal|p1a: Camerupt|94/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|c|☆Random Skrub|Zweilous was band
+|choice|move stealthrock|move explosion
+|
+|move|p2a: Glalie|Explosion|p1a: Camerupt
+|-damage|p1a: Camerupt|16/100
+|faint|p2a: Glalie
+|move|p1a: Camerupt|Stealth Rock|p2: Glalie
+|-sidestart|p2: Random Skrub|move: Stealth Rock
+|
+|-heal|p1a: Camerupt|23/100|[from] item: Leftovers
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Vullaby|Vullaby, F|11/100
+|-damage|p2a: Vullaby|0 fnt|[from] Stealth Rock
+|faint|p2a: Vullaby
+|choice||switch 5
+|
+|switch|p2a: Fraxure|Fraxure, M|100/100
+|-damage|p2a: Fraxure|88/100|[from] Stealth Rock
+|-ability|p2a: Fraxure|Mold Breaker
+|turn|18
+|choice|move toxic|move dragondance
+|
+|move|p2a: Fraxure|Dragon Dance|p2a: Fraxure
+|-boost|p2a: Fraxure|atk|1
+|-boost|p2a: Fraxure|spe|1
+|move|p1a: Camerupt|Toxic|p2a: Fraxure
+|-status|p2a: Fraxure|tox
+|
+|-heal|p1a: Camerupt|29/100|[from] item: Leftovers
+|-damage|p2a: Fraxure|82/100 tox|[from] psn
+|upkeep
+|turn|19
+|c|☆Random Skrub|fuck you
+|choice|move lavaplume|move lowkick
+|
+|move|p2a: Fraxure|Low Kick|p1a: Camerupt
+|-damage|p1a: Camerupt|0 fnt
+|faint|p1a: Camerupt
+|
+|-damage|p2a: Fraxure|69/100 tox|[from] psn
+|upkeep
+|c|☆Random Skrub|prepare yourself
+|choice|switch 5|
+|
+|switch|p1a: Vibrava|Vibrava, M|100/100
+|-damage|p1a: Vibrava|95/100|[from] Stealth Rock
+|turn|20
+|c|☆Random Skrub|for the SWEEP
+|choice|move defog|move dualchop
+|
+|move|p2a: Fraxure|Dual Chop|p1a: Vibrava
+|-supereffective|p1a: Vibrava
+|-damage|p1a: Vibrava|23/100
+|-supereffective|p1a: Vibrava
+|-damage|p1a: Vibrava|0 fnt
+|-hitcount|p1a: Vibrava|2
+|faint|p1a: Vibrava
+|
+|-damage|p2a: Fraxure|51/100 tox|[from] psn
+|upkeep
+|c|☆Random Skrub|prepare
+|c|☆Random Skrub|for the sweep
+|choice|switch 4|
+|
+|switch|p1a: Bouffalant|Bouffalant, M|88/100
+|-damage|p1a: Bouffalant|75/100|[from] Spikes
+|-damage|p1a: Bouffalant|63/100|[from] Stealth Rock
+|turn|21
+|choice|move return|move lowkick
+|
+|move|p2a: Fraxure|Low Kick|p1a: Bouffalant
+|-supereffective|p1a: Bouffalant
+|-damage|p1a: Bouffalant|0 fnt
+|faint|p1a: Bouffalant
+|
+|-damage|p2a: Fraxure|26/100 tox|[from] psn
+|upkeep
+|c|☆Random Skrub|ay lmao
+|c|☆Random Skrub|SWEEP
+|choice|switch 3|
+|
+|switch|p1a: Electrode|Electrode|58/100
+|-damage|p1a: Electrode|46/100|[from] Spikes
+|-damage|p1a: Electrode|34/100|[from] Stealth Rock
+|turn|22
+|c|☆Random Skrub|oh fuck
+|choice|move thunderbolt|move outrage
+|
+|move|p2a: Fraxure|Outrage|p1a: Electrode
+|-damage|p1a: Electrode|0 fnt
+|faint|p1a: Electrode
+|
+|win|Random Skrub
+|c|☆Random Skrub|oh yes
+|c|☆Random Skrub|sweep

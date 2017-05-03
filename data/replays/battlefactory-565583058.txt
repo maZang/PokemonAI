@@ -1,0 +1,386 @@
+|j|Shiruga
+|j|Elekable Best
+|player|p1|Shiruga|163
+|player|p2|Elekable Best|101
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|56804,37294,430,33424,44330,27842,27679,14491,16054,28593,9494,57713
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Tentacruel, M|item
+|poke|p1|Shaymin|item
+|poke|p1|Cloyster, M|item
+|poke|p1|Mienshao, M|item
+|poke|p1|Rhyperior, M|item
+|poke|p1|Noivern, M|item
+|poke|p2|Snorlax, M|item
+|poke|p2|Kyurem|item
+|poke|p2|Whimsicott, M|item
+|poke|p2|Infernape, M|item
+|poke|p2|Rhyperior, M|item
+|poke|p2|Chandelure, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|c|☆Elekable Best|que des Poké que j'aime bien lol
+|c|☆Shiruga|x)
+|c|☆Shiruga|moi que des pokés que j'aime pas Kappa
+|c|☆Elekable Best|t'aimes pas Shaofouine ?
+|c|☆Shiruga|je l'ai presque jamais joué et à chaque fois il ratait HJK Kappa
+|c|☆Elekable Best|Lol ptn t'as Crustabri
+|c|☆Elekable Best|Ce Poké de pute
+|c|☆Elekable Best|mdr
+|c|☆Shiruga|mdr
+|choice|team 4, team 2, team 3, team 1, team 5, team 6|team 4, team 2, team 3, team 1, team 5, team 6
+|
+|start
+|switch|p1a: Mienshao|Mienshao, M|100/100
+|switch|p2a: Infernape|Infernape, M|100/100
+|turn|1
+|choice|switch 4|move fakeout
+|
+|switch|p1a: Tentacruel|Tentacruel, M|100/100
+|move|p2a: Infernape|Fake Out|p1a: Tentacruel
+|-damage|p1a: Tentacruel|91/100
+|
+|-heal|p1a: Tentacruel|97/100|[from] item: Black Sludge
+|upkeep
+|turn|2
+|choice|move toxicspikes|switch 4
+|
+|switch|p2a: Snorlax|Snorlax, M|100/100
+|move|p1a: Tentacruel|Toxic Spikes|p2a: Snorlax
+|-sidestart|p2: Elekable Best|move: Toxic Spikes
+|
+|-heal|p1a: Tentacruel|100/100|[from] item: Black Sludge
+|upkeep
+|turn|3
+|c|☆Shiruga|on en parle du manque de Hazard Remover dans ta team x)
+|c|☆Elekable Best|mdr j'ai rien pour enlever les hasards mais tranquille
+|choice|move scald|move earthquake
+|
+|move|p1a: Tentacruel|Scald|p2a: Snorlax
+|-damage|p2a: Snorlax|90/100
+|move|p2a: Snorlax|Earthquake|p1a: Tentacruel
+|-supereffective|p1a: Tentacruel
+|-damage|p1a: Tentacruel|43/100
+|
+|-heal|p1a: Tentacruel|49/100|[from] item: Black Sludge
+|upkeep
+|turn|4
+|choice|switch 4|move bodyslam
+|
+|switch|p1a: Mienshao|Mienshao, M|100/100
+|move|p2a: Snorlax|Body Slam|p1a: Mienshao
+|-damage|p1a: Mienshao|18/100
+|-status|p1a: Mienshao|par
+|
+|upkeep
+|turn|5
+|c|☆Shiruga|y
+|c|☆Elekable Best|loul
+|choice|move knockoff|move bodyslam
+|
+|move|p2a: Snorlax|Body Slam|p1a: Mienshao
+|-damage|p1a: Mienshao|0 fnt
+|faint|p1a: Mienshao
+|
+|upkeep
+|c|☆Shiruga|en même temps qui met shaofouine sur snorlax
+|choice|switch 2|
+|
+|switch|p1a: Shaymin|Shaymin|100/100
+|turn|6
+|c|☆Elekable Best|chai pp
+|choice|move leechseed|switch 4
+|
+|switch|p2a: Infernape|Infernape, M|100/100
+|-status|p2a: Infernape|psn
+|move|p1a: Shaymin|Leech Seed|p2a: Infernape
+|-start|p2a: Infernape|move: Leech Seed
+|
+|-damage|p2a: Infernape|88/100 psn|[from] Leech Seed|[of] p1a: Shaymin
+|-damage|p2a: Infernape|76/100 psn|[from] psn
+|upkeep
+|turn|7
+|choice|switch 4|move stealthrock
+|
+|switch|p1a: Tentacruel|Tentacruel, M|49/100
+|move|p2a: Infernape|Stealth Rock|p1a: Tentacruel
+|-sidestart|p1: Shiruga|move: Stealth Rock
+|
+|-heal|p1a: Tentacruel|55/100|[from] item: Black Sludge
+|-damage|p2a: Infernape|64/100 psn|[from] Leech Seed|[of] p1a: Tentacruel
+|-heal|p1a: Tentacruel|65/100|[silent]
+|-damage|p2a: Infernape|51/100 psn|[from] psn
+|upkeep
+|turn|8
+|c|☆Shiruga|j'ai tellement des plays de génies aussi
+|c|☆Elekable Best|tous mes Poké prennent les toxik spikes
+|c|☆Elekable Best|srx
+|c|☆Elekable Best|mdr
+|choice|move toxicspikes|switch 4
+|
+|switch|p2a: Snorlax|Snorlax, M|90/100
+|-status|p2a: Snorlax|psn
+|move|p1a: Tentacruel|Toxic Spikes|p2a: Snorlax
+|-sidestart|p2: Elekable Best|move: Toxic Spikes
+|
+|-heal|p1a: Tentacruel|71/100|[from] item: Black Sludge
+|-damage|p2a: Snorlax|78/100 psn|[from] psn
+|upkeep
+|turn|9
+|c|☆Shiruga|ui
+|c|☆Elekable Best|toi évidemment t'as rapid spin j'imagine x)
+|choice|switch 4|move earthquake
+|
+|switch|p1a: Shaymin|Shaymin|100/100
+|-damage|p1a: Shaymin|88/100|[from] Stealth Rock
+|move|p2a: Snorlax|Earthquake|p1a: Shaymin
+|-resisted|p1a: Shaymin
+|-damage|p1a: Shaymin|70/100
+|
+|-heal|p1a: Shaymin|76/100|[from] item: Leftovers
+|-damage|p2a: Snorlax|65/100 psn|[from] psn
+|upkeep
+|turn|10
+|c|☆Shiruga|oui mais je reste safe x)
+|choice|move substitute|move bodyslam
+|
+|move|p1a: Shaymin|Substitute|p1a: Shaymin
+|-start|p1a: Shaymin|Substitute
+|-damage|p1a: Shaymin|52/100
+|move|p2a: Snorlax|Body Slam|p1a: Shaymin
+|-end|p1a: Shaymin|Substitute
+|
+|-heal|p1a: Shaymin|58/100|[from] item: Leftovers
+|-damage|p2a: Snorlax|53/100 psn|[from] psn
+|upkeep
+|turn|11
+|choice|move leechseed|move bodyslam
+|
+|move|p1a: Shaymin|Leech Seed|p2a: Snorlax
+|-start|p2a: Snorlax|move: Leech Seed
+|move|p2a: Snorlax|Body Slam|p1a: Shaymin
+|-damage|p1a: Shaymin|14/100
+|-status|p1a: Shaymin|par
+|
+|-heal|p1a: Shaymin|20/100 par|[from] item: Leftovers
+|-damage|p2a: Snorlax|41/100 psn|[from] Leech Seed|[of] p1a: Shaymin
+|-heal|p1a: Shaymin|37/100 par|[silent]
+|-damage|p2a: Snorlax|28/100 psn|[from] psn
+|upkeep
+|turn|12
+|c|☆Elekable Best|mdr
+|choice|switch 5|move bodyslam
+|
+|-curestatus|p1a: Shaymin|par|[from] ability: Natural Cure
+|switch|p1a: Rhyperior|Rhyperior, M|100/100
+|-damage|p1a: Rhyperior|94/100|[from] Stealth Rock
+|move|p2a: Snorlax|Body Slam|p1a: Rhyperior
+|-resisted|p1a: Rhyperior
+|-damage|p1a: Rhyperior|83/100
+|-status|p1a: Rhyperior|par
+|
+|-heal|p1a: Rhyperior|89/100 par|[from] item: Leftovers
+|-damage|p2a: Snorlax|16/100 psn|[from] Leech Seed|[of] p1a: Rhyperior
+|-heal|p1a: Rhyperior|100/100 par|[silent]
+|-damage|p2a: Snorlax|4/100 psn|[from] psn
+|upkeep
+|turn|13
+|c|☆Elekable Best|MDRRRR
+|c|☆Shiruga|ce ronflex relou mdr
+|choice|move stealthrock|move bodyslam
+|
+|move|p2a: Snorlax|Body Slam|p1a: Rhyperior
+|-resisted|p1a: Rhyperior
+|-damage|p1a: Rhyperior|89/100 par
+|move|p1a: Rhyperior|Stealth Rock|p2a: Snorlax
+|-sidestart|p2: Elekable Best|move: Stealth Rock
+|
+|-heal|p1a: Rhyperior|95/100 par|[from] item: Leftovers
+|-damage|p2a: Snorlax|0 fnt|[from] Leech Seed|[of] p1a: Rhyperior
+|-heal|p1a: Rhyperior|98/100 par|[silent]
+|upkeep
+|faint|p2a: Snorlax
+|c|☆Shiruga|dans tout les sens du terme
+|c|☆Elekable Best|Mon terrain est très (tyra)nocif
+|choice||switch 2
+|
+|switch|p2a: Kyurem|Kyurem|100/100
+|-damage|p2a: Kyurem|76/100|[from] Stealth Rock
+|-status|p2a: Kyurem|tox
+|-ability|p2a: Kyurem|Pressure
+|turn|14
+|c|☆Shiruga|c'est même à noa-c(h)ier si je peux dire
+|choice|move rockblast|move dracometeor
+|
+|move|p2a: Kyurem|Draco Meteor|p1a: Rhyperior
+|-damage|p1a: Rhyperior|0 fnt
+|-unboost|p2a: Kyurem|spa|2
+|faint|p1a: Rhyperior
+|
+|-damage|p2a: Kyurem|70/100 tox|[from] psn
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Tentacruel|Tentacruel, M|71/100
+|-damage|p1a: Tentacruel|59/100|[from] Stealth Rock
+|turn|15
+|c|☆Elekable Best|t'as win d'façon les hazards m'enculent mdr
+|choice|move knockoff|switch 5
+|
+|switch|p2a: Rhyperior|Rhyperior, M|100/100
+|-damage|p2a: Rhyperior|94/100|[from] Stealth Rock
+|-status|p2a: Rhyperior|tox
+|move|p1a: Tentacruel|Knock Off|p2a: Rhyperior
+|-damage|p2a: Rhyperior|85/100 tox
+|-enditem|p2a: Rhyperior|Choice Band|[from] move: Knock Off|[of] p1a: Tentacruel
+|
+|-heal|p1a: Tentacruel|65/100|[from] item: Black Sludge
+|-damage|p2a: Rhyperior|79/100 tox|[from] psn
+|upkeep
+|turn|16
+|choice|move rapidspin|move stoneedge
+|
+|move|p1a: Tentacruel|Rapid Spin|p2a: Rhyperior
+|-resisted|p2a: Rhyperior
+|-damage|p2a: Rhyperior|78/100 tox
+|-sideend|p1: Shiruga|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Tentacruel
+|move|p2a: Rhyperior|Stone Edge|p1a: Tentacruel
+|-damage|p1a: Tentacruel|14/100
+|
+|-heal|p1a: Tentacruel|20/100|[from] item: Black Sludge
+|-damage|p2a: Rhyperior|66/100 tox|[from] psn
+|upkeep
+|turn|17
+|choice|move scald|move stoneedge
+|
+|move|p1a: Tentacruel|Scald|p2a: Rhyperior
+|-supereffective|p2a: Rhyperior
+|-damage|p2a: Rhyperior|0 fnt
+|faint|p2a: Rhyperior
+|
+|-heal|p1a: Tentacruel|26/100|[from] item: Black Sludge
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Kyurem|Kyurem|70/100 tox
+|-damage|p2a: Kyurem|45/100 tox|[from] Stealth Rock
+|-ability|p2a: Kyurem|Pressure
+|turn|18
+|c|☆Shiruga|yolo
+|c|☆Elekable Best|c'est très (tenta)cruel
+|choice|move knockoff|move dracometeor
+|
+|move|p2a: Kyurem|Draco Meteor|p1a: Tentacruel
+|-damage|p1a: Tentacruel|0 fnt
+|-unboost|p2a: Kyurem|spa|2
+|faint|p1a: Tentacruel
+|
+|-damage|p2a: Kyurem|39/100 tox|[from] psn
+|upkeep
+|c|☆Shiruga|tkt c'est (tenta)cool
+|choice|switch 6|
+|
+|switch|p1a: Noivern|Noivern, M|100/100
+|turn|19
+|choice|move hurricane|move dracometeor
+|
+|move|p1a: Noivern|Hurricane|p2a: Kyurem
+|-damage|p2a: Kyurem|0 fnt
+|-damage|p1a: Noivern|91/100|[from] item: Life Orb
+|faint|p2a: Kyurem
+|
+|upkeep
+|c|☆Shiruga|yes j'ai pas miss mdr
+|choice||switch 3
+|
+|switch|p2a: Whimsicott|Whimsicott, M|100/100
+|-status|p2a: Whimsicott|tox
+|-damage|p2a: Whimsicott|88/100 tox|[from] Stealth Rock
+|turn|20
+|choice|move hurricane|move moonblast
+|
+|move|p1a: Noivern|Hurricane|p2a: Whimsicott|[miss]
+|-miss|p1a: Noivern|p2a: Whimsicott
+|move|p2a: Whimsicott|Moonblast|p1a: Noivern
+|-supereffective|p1a: Noivern
+|-damage|p1a: Noivern|0 fnt
+|-damage|p2a: Whimsicott|78/100 tox|[from] item: Life Orb
+|faint|p1a: Noivern
+|
+|-damage|p2a: Whimsicott|72/100 tox|[from] psn
+|upkeep
+|c|☆Shiruga|evidemment
+|choice|switch 3|
+|
+|switch|p1a: Cloyster|Cloyster, M|100/100
+|turn|21
+|c|☆Elekable Best|mdr
+|choice|move shellsmash|move gigadrain
+|
+|move|p2a: Whimsicott|Giga Drain|p1a: Cloyster
+|-supereffective|p1a: Cloyster
+|-enditem|p1a: Cloyster|Focus Sash
+|-damage|p1a: Cloyster|1/100
+|-heal|p2a: Whimsicott|100/100 tox|[from] drain|[of] p1a: Cloyster
+|-damage|p2a: Whimsicott|91/100 tox|[from] item: Life Orb
+|move|p1a: Cloyster|Shell Smash|p1a: Cloyster
+|-unboost|p1a: Cloyster|def|1
+|-unboost|p1a: Cloyster|spd|1
+|-boost|p1a: Cloyster|atk|2
+|-boost|p1a: Cloyster|spa|2
+|-boost|p1a: Cloyster|spe|2
+|
+|-damage|p2a: Whimsicott|78/100 tox|[from] psn
+|upkeep
+|turn|22
+|choice|move iciclespear|move encore
+|
+|move|p2a: Whimsicott|Encore|p1a: Cloyster
+|-start|p1a: Cloyster|Encore
+|move|p1a: Cloyster|Shell Smash|p1a: Cloyster
+|-unboost|p1a: Cloyster|def|1
+|-unboost|p1a: Cloyster|spd|1
+|-boost|p1a: Cloyster|atk|2
+|-boost|p1a: Cloyster|spa|2
+|-boost|p1a: Cloyster|spe|2
+|
+|-damage|p2a: Whimsicott|60/100 tox|[from] psn
+|upkeep
+|turn|23
+|c|☆Shiruga|tu vois j'ai lose :D
+|choice|move shellsmash|move gigadrain
+|
+|move|p1a: Cloyster|Shell Smash|p1a: Cloyster
+|-unboost|p1a: Cloyster|def|1
+|-unboost|p1a: Cloyster|spd|1
+|-boost|p1a: Cloyster|atk|2
+|-boost|p1a: Cloyster|spa|2
+|-boost|p1a: Cloyster|spe|2
+|move|p2a: Whimsicott|Giga Drain|p1a: Cloyster
+|-supereffective|p1a: Cloyster
+|-damage|p1a: Cloyster|0 fnt
+|-heal|p2a: Whimsicott|60/100 tox|[from] drain|[of] p1a: Cloyster
+|-damage|p2a: Whimsicott|50/100 tox|[from] item: Life Orb
+|faint|p1a: Cloyster
+|
+|-damage|p2a: Whimsicott|26/100 tox|[from] psn
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Shaymin|Shaymin|37/100
+|turn|24
+|c|☆Elekable Best|mdr att
+|c|☆Elekable Best|ah ouais si
+|choice|move airslash|move hiddenpower
+|
+|move|p2a: Whimsicott|Hidden Power|p1a: Shaymin
+|-supereffective|p1a: Shaymin
+|-damage|p1a: Shaymin|0 fnt
+|-damage|p2a: Whimsicott|16/100 tox|[from] item: Life Orb
+|faint|p1a: Shaymin
+|
+|win|Elekable Best

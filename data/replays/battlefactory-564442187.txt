@@ -1,0 +1,440 @@
+|j|KunamiV
+|j|Se arrasta acresce
+|player|p1|KunamiV|238
+|player|p2|Se arrasta acresce|266
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|34020,59351,46215,34680,10532,62238,57086,51678,37503,36207,16307,47287
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Latios, M|item
+|poke|p1|Dialga|item
+|poke|p1|Arceus-*|item
+|poke|p1|Mewtwo|item
+|poke|p1|Ho-Oh|item
+|poke|p1|Blaziken, M|item
+|poke|p2|Deoxys-Defense|item
+|poke|p2|Dialga|item
+|poke|p2|Giratina|item
+|poke|p2|Arceus-*|item
+|poke|p2|Kyogre|item
+|poke|p2|Darkrai|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|c|☆KunamiV|Dude hurry up
+|choice|team 3, team 2, team 1, team 4, team 5, team 6|team 6, team 2, team 3, team 4, team 5, team 1
+|
+|start
+|switch|p1a: Arceus|Arceus-Ice|100/100
+|switch|p2a: Darkrai|Darkrai|100/100
+|turn|1
+|choice|move judgment|switch 4
+|
+|switch|p2a: Arceus|Arceus-Fairy|100/100
+|move|p1a: Arceus|Judgment|p2a: Arceus
+|-crit|p2a: Arceus
+|-damage|p2a: Arceus|56/100
+|
+|upkeep
+|turn|2
+|choice|move judgment|move judgment
+|
+|move|p1a: Arceus|Judgment|p2a: Arceus
+|-damage|p2a: Arceus|25/100
+|move|p2a: Arceus|Judgment|p1a: Arceus
+|-damage|p1a: Arceus|69/100
+|
+|upkeep
+|turn|3
+|choice|move judgment|switch 6
+|
+|switch|p2a: Deoxys|Deoxys-Defense|100/100
+|-ability|p2a: Deoxys|Pressure
+|move|p1a: Arceus|Judgment|p2a: Deoxys
+|-damage|p2a: Deoxys|75/100
+|
+|upkeep
+|turn|4
+|choice|move calmmind|move spikes
+|
+|move|p1a: Arceus|Calm Mind|p1a: Arceus
+|-boost|p1a: Arceus|spa|1
+|-boost|p1a: Arceus|spd|1
+|move|p2a: Deoxys|Spikes|p1a: Arceus
+|-sidestart|p1: KunamiV|Spikes
+|
+|upkeep
+|turn|5
+|choice|move calmmind|move skillswap
+|
+|move|p1a: Arceus|Calm Mind|p1a: Arceus
+|-boost|p1a: Arceus|spa|1
+|-boost|p1a: Arceus|spd|1
+|move|p2a: Deoxys|Skill Swap|p1a: Arceus
+|-fail|p1a: Arceus
+|
+|upkeep
+|turn|6
+|choice|move calmmind|move toxic
+|
+|move|p1a: Arceus|Calm Mind|p1a: Arceus
+|-boost|p1a: Arceus|spa|1
+|-boost|p1a: Arceus|spd|1
+|move|p2a: Deoxys|Toxic|p1a: Arceus
+|-status|p1a: Arceus|tox
+|
+|-damage|p1a: Arceus|63/100 tox|[from] psn
+|upkeep
+|turn|7
+|choice|move judgment|switch 5
+|
+|switch|p2a: Kyogre|Kyogre|100/100
+|detailschange|p2a: Kyogre|Kyogre-Primal
+|-primal|p2a: Kyogre
+|-weather|PrimordialSea|[from] ability: Primordial Sea|[of] p2a: Kyogre
+|move|p1a: Arceus|Judgment|p2a: Kyogre
+|-resisted|p2a: Kyogre
+|-damage|p2a: Kyogre|69/100
+|
+|-weather|PrimordialSea|[upkeep]
+|-damage|p1a: Arceus|51/100 tox|[from] psn
+|upkeep
+|turn|8
+|choice|move judgment|move scald
+|
+|move|p1a: Arceus|Judgment|p2a: Kyogre
+|-resisted|p2a: Kyogre
+|-damage|p2a: Kyogre|35/100
+|move|p2a: Kyogre|Scald|p1a: Arceus
+|-damage|p1a: Arceus|34/100 tox
+|
+|-weather|PrimordialSea|[upkeep]
+|-damage|p1a: Arceus|15/100 tox|[from] psn
+|upkeep
+|turn|9
+|choice|move recover|switch 3
+|
+|-weather|none
+|switch|p2a: Giratina|Giratina|100/100
+|-ability|p2a: Giratina|Pressure
+|move|p1a: Arceus|Recover|p1a: Arceus
+|-heal|p1a: Arceus|66/100 tox
+|
+|-damage|p1a: Arceus|41/100 tox|[from] psn
+|upkeep
+|turn|10
+|choice|move recover|move willowisp
+|
+|move|p1a: Arceus|Recover|p1a: Arceus
+|-heal|p1a: Arceus|91/100 tox
+|move|p2a: Giratina|Will-O-Wisp|p1a: Arceus
+|-fail|p1a: Arceus
+|
+|-damage|p1a: Arceus|61/100 tox|[from] psn
+|upkeep
+|turn|11
+|choice|move recover|switch 2
+|
+|switch|p2a: Dialga|Dialga|100/100
+|-ability|p2a: Dialga|Pressure
+|move|p1a: Arceus|Recover|p1a: Arceus
+|-heal|p1a: Arceus|100/100 tox
+|
+|-damage|p1a: Arceus|64/100 tox|[from] psn
+|upkeep
+|turn|12
+|choice|move judgment|move fireblast
+|
+|move|p1a: Arceus|Judgment|p2a: Dialga
+|-damage|p2a: Dialga|33/100
+|move|p2a: Dialga|Fire Blast|p1a: Arceus
+|-supereffective|p1a: Arceus
+|-damage|p1a: Arceus|43/100 tox
+|
+|-heal|p2a: Dialga|39/100|[from] item: Leftovers
+|-damage|p1a: Arceus|0 fnt|[from] psn
+|upkeep
+|faint|p1a: Arceus
+|choice|switch 5|
+|
+|switch|p1a: Ho-Oh|Ho-Oh|100/100
+|turn|13
+|choice|move sacredfire|move dracometeor
+|
+|move|p1a: Ho-Oh|Sacred Fire|p2a: Dialga
+|-damage|p2a: Dialga|0 fnt
+|-damage|p1a: Ho-Oh|91/100|[from] item: Life Orb
+|faint|p2a: Dialga
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Giratina|Giratina|100/100
+|-ability|p2a: Giratina|Pressure
+|turn|14
+|choice|move sacredfire|move sleeptalk
+|
+|move|p2a: Giratina|Sleep Talk|p2a: Giratina
+|-fail|p2a: Giratina
+|move|p1a: Ho-Oh|Sacred Fire|p2a: Giratina
+|-resisted|p2a: Giratina
+|-damage|p2a: Giratina|85/100
+|-status|p2a: Giratina|brn
+|-damage|p1a: Ho-Oh|81/100|[from] item: Life Orb
+|
+|-heal|p2a: Giratina|91/100 brn|[from] item: Leftovers
+|-damage|p2a: Giratina|79/100 brn|[from] brn
+|upkeep
+|turn|15
+|choice|move sacredfire|switch 3
+|
+|switch|p2a: Kyogre|Kyogre-Primal|35/100
+|-weather|PrimordialSea|[from] ability: Primordial Sea|[of] p2a: Kyogre
+|move|p1a: Ho-Oh|Sacred Fire|p2a: Kyogre
+|-fail|p2a: Kyogre|Sacred Fire|[from] Primordial Sea
+|
+|-weather|PrimordialSea|[upkeep]
+|upkeep
+|turn|16
+|choice|move bravebird|move scald
+|
+|move|p2a: Kyogre|Scald|p1a: Ho-Oh
+|-supereffective|p1a: Ho-Oh
+|-damage|p1a: Ho-Oh|4/100
+|move|p1a: Ho-Oh|Brave Bird|p2a: Kyogre
+|-damage|p2a: Kyogre|0 fnt
+|-damage|p1a: Ho-Oh|0 fnt|[from] recoil|[of] p2a: Kyogre
+|faint|p2a: Kyogre
+|-weather|none
+|faint|p1a: Ho-Oh
+|
+|upkeep
+|choice|switch 2|switch 4
+|
+|switch|p2a: Darkrai|Darkrai|100/100
+|switch|p1a: Dialga|Dialga|100/100
+|-damage|p1a: Dialga|88/100|[from] Spikes
+|-ability|p1a: Dialga|Pressure
+|turn|17
+|choice|move dracometeor|move focusblast
+|
+|move|p2a: Darkrai|Focus Blast|p1a: Dialga
+|-supereffective|p1a: Dialga
+|-damage|p1a: Dialga|16/100
+|-damage|p2a: Darkrai|91/100|[from] item: Life Orb
+|move|p1a: Dialga|Draco Meteor|p2a: Darkrai
+|-damage|p2a: Darkrai|6/100
+|-unboost|p1a: Dialga|spa|2
+|
+|-heal|p1a: Dialga|22/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|choice|move stealthrock|move focusblast
+|
+|move|p2a: Darkrai|Focus Blast|p1a: Dialga
+|-supereffective|p1a: Dialga
+|-damage|p1a: Dialga|0 fnt
+|-damage|p2a: Darkrai|0 fnt|[from] item: Life Orb
+|faint|p1a: Dialga
+|faint|p2a: Darkrai
+|
+|upkeep
+|choice|switch 4|switch 5
+|
+|switch|p1a: Mewtwo|Mewtwo|100/100
+|switch|p2a: Deoxys|Deoxys-Defense|75/100
+|-damage|p1a: Mewtwo|88/100|[from] Spikes
+|-ability|p1a: Mewtwo|Pressure
+|-ability|p2a: Deoxys|Pressure
+|turn|19
+|choice|move earthquake mega|move toxic
+|
+|detailschange|p1a: Mewtwo|Mewtwo-Mega-X
+|-mega|p1a: Mewtwo|Mewtwo|Mewtwonite X
+|move|p1a: Mewtwo|Earthquake|p2a: Deoxys
+|-damage|p2a: Deoxys|42/100
+|move|p2a: Deoxys|Toxic|p1a: Mewtwo
+|-status|p1a: Mewtwo|tox
+|
+|-damage|p1a: Mewtwo|82/100 tox|[from] psn
+|upkeep
+|turn|20
+|choice|move earthquake|move recover
+|
+|move|p1a: Mewtwo|Earthquake|p2a: Deoxys
+|-damage|p2a: Deoxys|9/100
+|move|p2a: Deoxys|Recover|p2a: Deoxys
+|-heal|p2a: Deoxys|59/100
+|
+|-damage|p1a: Mewtwo|69/100 tox|[from] psn
+|upkeep
+|turn|21
+|choice|move icebeam|move skillswap
+|
+|move|p1a: Mewtwo|Ice Beam|p2a: Deoxys
+|-damage|p2a: Deoxys|41/100
+|move|p2a: Deoxys|Skill Swap|p1a: Mewtwo
+|-activate|p2a: Deoxys|move: Skill Swap|Steadfast|Pressure|[of] p1a: Mewtwo
+|-ability|p1a: Mewtwo|Pressure
+|
+|-damage|p1a: Mewtwo|51/100 tox|[from] psn
+|upkeep
+|turn|22
+|choice|move earthquake|move recover
+|
+|move|p1a: Mewtwo|Earthquake|p2a: Deoxys
+|-damage|p2a: Deoxys|4/100
+|move|p2a: Deoxys|Recover|p2a: Deoxys
+|-heal|p2a: Deoxys|54/100
+|
+|-damage|p1a: Mewtwo|26/100 tox|[from] psn
+|upkeep
+|turn|23
+|choice|move lowkick|move recover
+|
+|move|p1a: Mewtwo|Low Kick|p2a: Deoxys
+|-resisted|p2a: Deoxys
+|-damage|p2a: Deoxys|35/100
+|move|p2a: Deoxys|Recover|p2a: Deoxys
+|-heal|p2a: Deoxys|85/100
+|
+|-damage|p1a: Mewtwo|0 fnt|[from] psn
+|upkeep
+|faint|p1a: Mewtwo
+|choice|switch 3|
+|
+|switch|p1a: Latios|Latios, M|100/100
+|turn|24
+|choice|move dracometeor|move toxic
+|
+|move|p1a: Latios|Draco Meteor|p2a: Deoxys
+|-crit|p2a: Deoxys
+|-damage|p2a: Deoxys|4/100
+|-unboost|p1a: Latios|spa|2
+|move|p2a: Deoxys|Toxic|p1a: Latios
+|-status|p1a: Latios|tox
+|
+|-damage|p1a: Latios|95/100 tox|[from] psn
+|upkeep
+|turn|25
+|choice|move psyshock|move recover
+|
+|move|p1a: Latios|Psyshock|p2a: Deoxys
+|-resisted|p2a: Deoxys
+|-damage|p2a: Deoxys|0 fnt
+|faint|p2a: Deoxys
+|
+|-damage|p1a: Latios|83/100 tox|[from] psn
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Giratina|Giratina|79/100 brn
+|-ability|p2a: Giratina|Pressure
+|turn|26
+|choice|move dracometeor|move willowisp
+|
+|move|p1a: Latios|Draco Meteor|p2a: Giratina
+|-supereffective|p2a: Giratina
+|-damage|p2a: Giratina|24/100 brn
+|-unboost|p1a: Latios|spa|2
+|move|p2a: Giratina|Will-O-Wisp|p1a: Latios
+|-fail|p1a: Latios
+|
+|-heal|p2a: Giratina|30/100 brn|[from] item: Leftovers
+|-damage|p1a: Latios|65/100 tox|[from] psn
+|-damage|p2a: Giratina|18/100 brn|[from] brn
+|upkeep
+|turn|27
+|choice|move psyshock|switch 6
+|
+|switch|p2a: Arceus|Arceus-Fairy|25/100
+|move|p1a: Latios|Psyshock|p2a: Arceus
+|-damage|p2a: Arceus|14/100
+|
+|-damage|p1a: Latios|41/100 tox|[from] psn
+|upkeep
+|turn|28
+|choice|move dracometeor|move recover
+|
+|move|p1a: Latios|Draco Meteor|p2a: Arceus
+|-immune|p2a: Arceus|[msg]
+|move|p2a: Arceus|Recover|p2a: Arceus
+|-heal|p2a: Arceus|64/100
+|
+|-damage|p1a: Latios|11/100 tox|[from] psn
+|upkeep
+|turn|29
+|choice|move psyshock|move judgment
+|
+|move|p1a: Latios|Psyshock|p2a: Arceus
+|-damage|p2a: Arceus|54/100
+|move|p2a: Arceus|Judgment|p1a: Latios
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|0 fnt
+|faint|p1a: Latios
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Blaziken|Blaziken, M|100/100
+|-damage|p1a: Blaziken|88/100|[from] Spikes
+|turn|30
+|choice|move flareblitz|move defog
+|
+|move|p2a: Arceus|Defog|p1a: Blaziken
+|-unboost|p1a: Blaziken|evasion|1
+|-sideend|p1: KunamiV|Spikes|[from] move: Defog|[of] p1a: Blaziken
+|move|p1a: Blaziken|Flare Blitz|p2a: Arceus
+|-damage|p2a: Arceus|14/100
+|-damage|p1a: Blaziken|69/100|[from] recoil|[of] p2a: Arceus
+|-damage|p1a: Blaziken|59/100|[from] item: Life Orb
+|
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|turn|31
+|choice|move hiddenpower|move recover
+|
+|move|p1a: Blaziken|Hidden Power|p2a: Arceus
+|-damage|p2a: Arceus|3/100
+|-damage|p1a: Blaziken|49/100|[from] item: Life Orb
+|move|p2a: Arceus|Recover|p2a: Arceus
+|-heal|p2a: Arceus|53/100
+|
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|turn|32
+|choice|move flareblitz|move toxic
+|
+|move|p1a: Blaziken|Flare Blitz|p2a: Arceus
+|-crit|p2a: Arceus
+|-damage|p2a: Arceus|0 fnt
+|-damage|p1a: Blaziken|24/100|[from] recoil|[of] p2a: Arceus
+|-damage|p1a: Blaziken|14/100|[from] item: Life Orb
+|faint|p2a: Arceus
+|
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Giratina|Giratina|18/100 brn
+|-ability|p2a: Giratina|Pressure
+|turn|33
+|choice|move hiddenpower|move rest
+|
+|move|p1a: Blaziken|Hidden Power|p2a: Giratina
+|-supereffective|p2a: Giratina
+|-crit|p2a: Giratina
+|-damage|p2a: Giratina|0 fnt
+|-damage|p1a: Blaziken|4/100|[from] item: Life Orb
+|faint|p2a: Giratina
+|
+|win|KunamiV
+|raw|KunamiV's rating: 1011 &rarr; <strong>1053</strong><br />(+42 for winning)
+|raw|Se arrasta acresce's rating: 1046 &rarr; <strong>1028</strong><br />(-18 for losing)
+|l|Se arrasta acresce

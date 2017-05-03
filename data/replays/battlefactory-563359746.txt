@@ -1,0 +1,573 @@
+|j|Pepperoni Pikachu
+|j|Sheedan's Serenity
+|player|p1|Pepperoni Pikachu|264
+|player|p2|Sheedan's Serenity|286
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|35978,20897,52287,26292,28329,6555,38301,34502,12074,35398,61834,13807
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Hippowdon, M|item
+|poke|p1|Hawlucha, M|item
+|poke|p1|Kyurem-Black|item
+|poke|p1|Skarmory, M|item
+|poke|p1|Volcarona, M|item
+|poke|p1|Bisharp, M|item
+|poke|p2|Magnezone|item
+|poke|p2|Clefable, M|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Heracross, M|item
+|poke|p2|Slowbro, M|item
+|poke|p2|Breloom, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|c|☆Sheedan's Serenity|we meet again, peppy poopachu
+|c|☆Pepperoni Pikachu|oooo!
+|c|☆Pepperoni Pikachu|/me angrily waves finger
+|c|☆Pepperoni Pikachu|yer goin' down!
+|j|Wrizzy
+|c|☆Sheedan's Serenity|join the dank side
+|choice|team 1, team 2, team 3, team 4, team 5, team 6|team 1, team 2, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Hippowdon|Hippowdon, M|100/100
+|switch|p2a: Magnezone|Magnezone|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|turn|1
+|c| Wrizzy|wat
+|choice|move stealthrock|switch 5
+|
+|switch|p2a: Slowbro|Slowbro, M|100/100
+|move|p1a: Hippowdon|Stealth Rock|p2a: Slowbro
+|-sidestart|p2: Sheedan's Serenity|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Slowbro|94/100|[from] sandstorm
+|-heal|p2a: Slowbro|100/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|c|☆Pepperoni Pikachu|tfw when rocks have stealth
+|choice|switch 6|move scald
+|
+|switch|p1a: Bisharp|Bisharp, M|100/100
+|move|p2a: Slowbro|Scald|p1a: Bisharp
+|-damage|p1a: Bisharp|56/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Slowbro|94/100|[from] sandstorm
+|-heal|p2a: Slowbro|100/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|choice|move knockoff|move thunderwave
+|
+|move|p1a: Bisharp|Knock Off|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|17/100
+|-enditem|p2a: Slowbro|Leftovers|[from] move: Knock Off|[of] p1a: Bisharp
+|-damage|p1a: Bisharp|46/100|[from] item: Life Orb
+|move|p2a: Slowbro|Thunder Wave|p1a: Bisharp
+|-status|p1a: Bisharp|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Slowbro|11/100|[from] sandstorm
+|upkeep
+|turn|4
+|j|Gemini the Flygon
+|c|☆Sheedan's Serenity|i was thinking we could all band together and RP. ^^Yes, I never considered your opinions^^
+|choice|move suckerpunch|switch 3
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-damage|p2a: Landorus|88/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Bisharp|atk|1
+|-ability|p1a: Bisharp|Defiant|boost
+|-boost|p1a: Bisharp|atk|2
+|move|p1a: Bisharp|Sucker Punch|p2a: Landorus|[still]
+|-fail|p1a: Bisharp
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Landorus|94/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|c|☆Sheedan's Serenity|^^Mwahahahaha^^
+|c|☆Pepperoni Pikachu|but
+|c| Gemini the Flygon|I'm alright with that.
+|c|☆Pepperoni Pikachu|borb?
+|c|☆Pepperoni Pikachu|can i be borb?
+|c|☆Pepperoni Pikachu|borb squad?
+|choice|move suckerpunch|move earthquake
+|
+|cant|p1a: Bisharp|par
+|move|p2a: Landorus|Earthquake|p1a: Bisharp
+|-supereffective|p1a: Bisharp
+|-damage|p1a: Bisharp|0 fnt
+|faint|p1a: Bisharp
+|
+|-weather|none
+|-heal|p2a: Landorus|99/100|[from] item: Leftovers
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Kyurem|Kyurem-Black|100/100
+|-ability|p1a: Kyurem|Teravolt
+|turn|6
+|c|☆Sheedan's Serenity|!pick wrizzy-san, gemini-san, poopachu, sheedan-chan
+|html|<div class="infobox"><em>We randomly picked:</em> wrizzy-san</div>
+|c|☆Sheedan's Serenity|!pick wrizzy-san, gemini-san, poopachu, sheedan-chan
+|html|<div class="infobox"><em>We randomly picked:</em> wrizzy-san</div>
+|c| Wrizzy|.-.
+|c|☆Sheedan's Serenity|it's been a long time, since it wasn't me. Tbh, I'd love to see what you can do here. I believe in you! >~<
+|c|☆Sheedan's Serenity|/log Wrizzy was promoted to Room Voice by Sheedan's Serenity.
+|c|☆Sheedan's Serenity|/log Gemini the Flygon was promoted to Room Voice by Sheedan's Serenity.
+|choice|move icebeam|switch 3
+|
+|switch|p2a: Slowbro|Slowbro, M|44/100
+|-damage|p2a: Slowbro|32/100|[from] Stealth Rock
+|move|p1a: Kyurem|Ice Beam|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-crit|p2a: Slowbro
+|-damage|p2a: Slowbro|0 fnt
+|-damage|p1a: Kyurem|91/100|[from] item: Life Orb
+|faint|p2a: Slowbro
+|
+|upkeep
+|c|+Wrizzy|Um, Sheedan, I got something to say. . .
+|c|☆Sheedan's Serenity|Lemme guess
+|c|+Wrizzy|by-
+|l|Wrizzy
+|j|Wrizzy
+|c|+Wrizzy|*poof*
+|c|☆Sheedan's Serenity|coward
+|c|+Wrizzy|alright
+|c|+Wrizzy|yep
+|choice||switch 5
+|
+|switch|p2a: Magnezone|Magnezone|100/100
+|-damage|p2a: Magnezone|94/100|[from] Stealth Rock
+|turn|7
+|c|+Wrizzy|I uh, I can right Paras with one person, but-but 3? Oh boy, only in my dreams .-.
+|choice|move earthpower|move voltswitch
+|
+|move|p1a: Kyurem|Earth Power|p2a: Magnezone
+|-supereffective|p2a: Magnezone
+|-damage|p2a: Magnezone|0 fnt
+|-damage|p1a: Kyurem|81/100|[from] item: Life Orb
+|faint|p2a: Magnezone
+|
+|upkeep
+|c|☆Pepperoni Pikachu|FOOLISH BOY
+|c|☆Sheedan's Serenity|It's simply
+|c|☆Sheedan's Serenity|*Simply
+|c|☆Sheedan's Serenity|fml
+|c|☆Sheedan's Serenity|*simple
+|c|☆Pepperoni Pikachu|DO NOT DOUBT THE POWER OF THE 3rd BEST GAMES IN THE SERIES
+|c|☆Pepperoni Pikachu|BLACK 2 AND WHITE 2
+|c|☆Sheedan's Serenity|best is hoenn imo
+|c|+Wrizzy|!pick Wrizzy(-san), Sheedan-Chan, Sheedan-Chan, Sheedan-Chan
+|html|<div class="infobox"><em>We randomly picked:</em> Sheedan-Chan</div>
+|c|+Wrizzy|k
+|c|☆Pepperoni Pikachu|(( 1st choice-  Platinum, 2nd SuMo, 3rd, BW2 ))
+|c|+Wrizzy|((Ew, Platinum.))
+|c|☆Sheedan's Serenity|Making me start cuz you're too afraid? >.>))
+|c|+Wrizzy|((.-.))
+|c|+Wrizzy|((Yep.))
+|c|☆Sheedan's Serenity|((**C-O-W-A-R-D**))
+|c|☆Pepperoni Pikachu|(( platinum > diamond/pearl ))
+|c|+Wrizzy|((:D))
+|c|+Wrizzy|((Y'all hyped for Battlefront 2? :I))
+|c|+Wrizzy|((Yea, I know **Dip-shit**))
+|c|+Wrizzy|((:I))
+|c|☆Pepperoni Pikachu|(( i like the visuals more ))
+|c|☆Sheedan's Serenity|y'know
+|c|+Wrizzy|((kill meh))
+|c|☆Pepperoni Pikachu|I'm just here waiting for Splatoon 2.
+|c|☆Pepperoni Pikachu|/me sit
+|c|☆Sheedan's Serenity|should i bring out the ocean or the cave(gradually remaking it), which are both old as carp
+|c|☆Sheedan's Serenity|^?
+|c|+Wrizzy|n
+|c|+Wrizzy|o
+|c|☆Pepperoni Pikachu|__distant voice__ the cave
+|choice||switch 4
+|
+|switch|p2a: Heracross|Heracross, M|100/100
+|-damage|p2a: Heracross|88/100|[from] Stealth Rock
+|turn|8
+|c|☆Pepperoni Pikachu|*__distant voice__* the cave
+|choice|move outrage|move rockblast mega
+|
+|detailschange|p2a: Heracross|Heracross-Mega, M
+|-mega|p2a: Heracross|Heracross|Heracronite
+|move|p2a: Heracross|Rock Blast|p1a: Kyurem
+|-supereffective|p1a: Kyurem
+|-damage|p1a: Kyurem|57/100
+|-supereffective|p1a: Kyurem
+|-damage|p1a: Kyurem|33/100
+|-supereffective|p1a: Kyurem
+|-damage|p1a: Kyurem|12/100
+|-supereffective|p1a: Kyurem
+|-damage|p1a: Kyurem|0 fnt
+|-hitcount|p1a: Kyurem|4
+|faint|p1a: Kyurem
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Skarmory|Skarmory, M|100/100
+|turn|9
+|c|☆Pepperoni Pikachu|what the heck
+|choice|move bravebird|move rockblast
+|
+|move|p2a: Heracross|Rock Blast|p1a: Skarmory
+|-damage|p1a: Skarmory|93/100
+|-damage|p1a: Skarmory|86/100
+|-damage|p1a: Skarmory|80/100
+|-damage|p1a: Skarmory|73/100
+|-damage|p1a: Skarmory|65/100
+|-hitcount|p1a: Skarmory|5
+|move|p1a: Skarmory|Brave Bird|p2a: Heracross
+|-supereffective|p2a: Heracross
+|-damage|p2a: Heracross|0 fnt
+|-damage|p1a: Skarmory|39/100|[from] recoil|[of] p2a: Heracross
+|faint|p2a: Heracross
+|
+|-heal|p1a: Skarmory|45/100|[from] item: Leftovers
+|upkeep
+|c|☆Sheedan's Serenity|barve birb
+|c|☆Sheedan's Serenity|*brave birb
+|choice||switch 2
+|
+|switch|p2a: Clefable|Clefable, M|100/100
+|turn|10
+|c|☆Pepperoni Pikachu|mega heracross is op
+|choice|move bravebird|move stealthrock
+|
+|move|p1a: Skarmory|Brave Bird|p2a: Clefable
+|-damage|p2a: Clefable|71/100
+|-damage|p1a: Skarmory|34/100|[from] recoil|[of] p2a: Clefable
+|move|p2a: Clefable|Stealth Rock|p1a: Skarmory
+|-sidestart|p1: Pepperoni Pikachu|move: Stealth Rock
+|
+|-heal|p1a: Skarmory|40/100|[from] item: Leftovers
+|-heal|p2a: Clefable|77/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|c|☆Sheedan's Serenity|!dt heracross-m
+No Pokémon, item, move, ability or nature named 'heracross-m' was found. Showing the data of 'Heracross' instead.
+|c|~|/data-pokemon Heracross
+|raw|<font size="1"><font color="#686868">Dex#:</font> 214&nbsp;|&ThickSpace;<font color="#686868">Gen:</font> 2&nbsp;|&ThickSpace;<font color="#686868">Height:</font> 1.5 m&nbsp;|&ThickSpace;<font color="#686868">Weight:</font> 54 kg <em>(80 BP)</em>&nbsp;|&ThickSpace;<font color="#686868">Dex Colour:</font> Blue&nbsp;|&ThickSpace;<font color="#686868">Egg Group(s):</font> Bug&nbsp;|&ThickSpace;<font color="#686868">Does Not Evolve</font></font>
+|c|☆Sheedan's Serenity|!dt heracross-mega
+|c|~|/data-pokemon Heracross-Mega
+|raw|<font size="1"><font color="#686868">Dex#:</font> 214&nbsp;|&ThickSpace;<font color="#686868">Gen:</font> 6&nbsp;|&ThickSpace;<font color="#686868">Height:</font> 1.7 m&nbsp;|&ThickSpace;<font color="#686868">Weight:</font> 62.5 kg <em>(80 BP)</em>&nbsp;|&ThickSpace;<font color="#686868">Dex Colour:</font> Blue&nbsp;|&ThickSpace;<font color="#686868">Egg Group(s):</font> Bug&nbsp;|&ThickSpace;<font color="#686868">Does Not Evolve</font></font>
+|c|☆Pepperoni Pikachu|>185
+|c|☆Pepperoni Pikachu|holy SHIT
+|c|☆Pepperoni Pikachu|/me is tossed out window
+|choice|move bravebird|move moonblast
+|
+|move|p1a: Skarmory|Brave Bird|p2a: Clefable
+|-damage|p2a: Clefable|50/100
+|-damage|p1a: Skarmory|30/100|[from] recoil|[of] p2a: Clefable
+|move|p2a: Clefable|Moonblast|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|9/100
+|
+|-heal|p1a: Skarmory|15/100|[from] item: Leftovers
+|-heal|p2a: Clefable|57/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|l|Wrizzy
+|choice|move bravebird|move softboiled
+|
+|move|p1a: Skarmory|Brave Bird|p2a: Clefable
+|-damage|p2a: Clefable|29/100
+|-damage|p1a: Skarmory|4/100|[from] recoil|[of] p2a: Clefable
+|move|p2a: Clefable|Soft-Boiled|p2a: Clefable
+|-heal|p2a: Clefable|79/100
+|
+|-heal|p1a: Skarmory|10/100|[from] item: Leftovers
+|-heal|p2a: Clefable|85/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|choice|move whirlwind|move moonblast
+|
+|move|p2a: Clefable|Moonblast|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|0 fnt
+|faint|p1a: Skarmory
+|
+|-heal|p2a: Clefable|91/100|[from] item: Leftovers
+|upkeep
+|j|Wrizzy
+|choice|switch 5|
+|
+|switch|p1a: Volcarona|Volcarona, M|100/100
+|-damage|p1a: Volcarona|51/100|[from] Stealth Rock
+|turn|14
+|c|☆Sheedan's Serenity|anyway
+|c|☆Pepperoni Pikachu|fuck
+|c|☆Pepperoni Pikachu|stealth rock
+|c|☆Pepperoni Pikachu|why me
+|c|+Wrizzy|guys...
+|c|+Wrizzy|I got something IMPORTANT to say
+|c|☆Sheedan's Serenity|Gemini, what do you suggest we do? Cave, Ocean, some other fully freejoinable RP starter?
+|c|+Wrizzy|((I'll have two number 9s, a number 9 large, a number 6 with extra dip, a number 7, two number 45s, one with cheese and a large soda.**
+|c|+Wrizzy|lel
+|choice|move quiverdance|move moonblast
+|
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|move|p2a: Clefable|Moonblast|p1a: Volcarona
+|-resisted|p1a: Volcarona
+|-damage|p1a: Volcarona|40/100
+|-unboost|p1a: Volcarona|spa|1
+|
+|-heal|p2a: Clefable|97/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|c|+Wrizzy|I needed to do it .-.
+|c|☆Sheedan's Serenity|i'll have a fresh soul please
+|choice|move gigadrain|move thunderwave
+|
+|move|p1a: Volcarona|Giga Drain|p2a: Clefable
+|-damage|p2a: Clefable|74/100
+|-heal|p1a: Volcarona|54/100|[from] drain|[of] p2a: Clefable
+|move|p2a: Clefable|Thunder Wave|p1a: Volcarona
+|-status|p1a: Volcarona|par
+|-enditem|p1a: Volcarona|Lum Berry|[eat]
+|-curestatus|p1a: Volcarona|par|[msg]
+|
+|-heal|p2a: Clefable|80/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|choice|move fireblast|move thunderwave
+|
+|move|p1a: Volcarona|Fire Blast|p2a: Clefable
+|-damage|p2a: Clefable|28/100
+|move|p2a: Clefable|Thunder Wave|p1a: Volcarona
+|-status|p1a: Volcarona|par
+|
+|-heal|p2a: Clefable|34/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|choice|move quiverdance|move softboiled
+|
+|move|p2a: Clefable|Soft-Boiled|p2a: Clefable
+|-heal|p2a: Clefable|84/100
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|
+|-heal|p2a: Clefable|90/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|c|☆Pepperoni Pikachu|screw you paralysis
+|choice|move quiverdance|move moonblast
+|
+|move|p2a: Clefable|Moonblast|p1a: Volcarona
+|-resisted|p1a: Volcarona
+|-damage|p1a: Volcarona|46/100 par
+|-unboost|p1a: Volcarona|spa|1
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|
+|-heal|p2a: Clefable|96/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|choice|move gigadrain|move moonblast
+|
+|cant|p1a: Volcarona|par
+|move|p2a: Clefable|Moonblast|p1a: Volcarona
+|-resisted|p1a: Volcarona
+|-damage|p1a: Volcarona|40/100 par
+|-unboost|p1a: Volcarona|spa|1
+|
+|-heal|p2a: Clefable|100/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|choice|move gigadrain|switch 3
+|
+|switch|p2a: Landorus|Landorus-Therian, M|99/100
+|-damage|p2a: Landorus|88/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Volcarona|atk|1
+|cant|p1a: Volcarona|par
+|
+|-heal|p2a: Landorus|94/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|c|☆Pepperoni Pikachu|well
+|choice|move gigadrain|move swordsdance
+|
+|move|p2a: Landorus|Swords Dance|p2a: Landorus
+|-boost|p2a: Landorus|atk|2
+|move|p1a: Volcarona|Giga Drain|p2a: Landorus
+|-damage|p2a: Landorus|55/100
+|-heal|p1a: Volcarona|60/100 par|[from] drain|[of] p2a: Landorus
+|
+|-heal|p2a: Landorus|61/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|c|☆Pepperoni Pikachu|this is turning out well
+|choice|move gigadrain|move earthquake
+|
+|move|p2a: Landorus|Earthquake|p1a: Volcarona
+|-damage|p1a: Volcarona|0 fnt
+|faint|p1a: Volcarona
+|
+|-heal|p2a: Landorus|67/100|[from] item: Leftovers
+|upkeep
+|c|☆Sheedan's Serenity|very
+|choice|switch 2|
+|
+|switch|p1a: Hawlucha|Hawlucha, M|100/100
+|-damage|p1a: Hawlucha|88/100|[from] Stealth Rock
+|turn|23
+|choice|move substitute|move rockpolish
+|
+|move|p1a: Hawlucha|Substitute|p1a: Hawlucha
+|-start|p1a: Hawlucha|Substitute
+|-damage|p1a: Hawlucha|63/100
+|move|p2a: Landorus|Rock Polish|p2a: Landorus
+|-boost|p2a: Landorus|spe|2
+|
+|-heal|p2a: Landorus|73/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|c|☆Pepperoni Pikachu|muy fuerte
+|c|☆Pepperoni Pikachu|wait
+|c|☆Pepperoni Pikachu|what does that even mean
+|choice|move swordsdance|move stoneedge
+|
+|move|p2a: Landorus|Stone Edge|p1a: Hawlucha
+|-end|p1a: Hawlucha|Substitute
+|move|p1a: Hawlucha|Swords Dance|p1a: Hawlucha
+|-boost|p1a: Hawlucha|atk|2
+|
+|-heal|p2a: Landorus|79/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|c|+Gemini the Flygon|I don't know...
+|c|☆Sheedan's Serenity|very strong
+|c|+Wrizzy|Guys, I want to go to bed soon, hurry your *** up please :3
+|c|☆Sheedan's Serenity|i forgot what fuerte meant, so good op
+|choice|move substitute|move stoneedge
+|
+|move|p2a: Landorus|Stone Edge|p1a: Hawlucha
+|-damage|p1a: Hawlucha|0 fnt
+|faint|p1a: Hawlucha
+|
+|-heal|p2a: Landorus|85/100|[from] item: Leftovers
+|upkeep
+|c|☆Sheedan's Serenity|*google
+|c|☆Sheedan's Serenity|__From within the darkness came a crackle, a zap, and then a Thunderbolt shattering the silence and shredding an oak tree's bark down to the soft center, a large burnt area marking where it struck. Many more bolts echoed throughout the forest as rapid footsteps__
+|c|☆Sheedan's Serenity|__pattered upon the wooden debris and a soft voice whispered gibberish. Running out of the shadows came a small child, much too young to be wandering alone in such a potentially dangerous area, with a look of fear and caution upon his innocent face. His attire was quite odd,__
+|c|☆Sheedan's Serenity|__consisting of a pair of yellow sneakers, a pair of blue wool sweatpants, and a yellow wool sweatshirt with an abnormally large hood. Two fuzzy legs protruded from his back and curled forward around his chest as a way to display the fear within the depths of his young mind.__
+|c|☆Sheedan's Serenity|__Something had recently frightening to the point where his electrical energies were unstable...but what could have caused him to be trembling so? It was quite the mystery indeed... ((Open))__
+|c|☆Sheedan's Serenity|((It's not complete without "open"))
+|c|+Wrizzy|((Okay, so uh, what's the order here? >.>))
+|c|+Wrizzy|((Hello? ;-;))
+|c|☆Sheedan's Serenity|((A fresh spider child with a side of shockingly spicy legs))
+|choice|switch 6|
+|
+|switch|p1a: Hippowdon|Hippowdon, M|100/100
+|-damage|p1a: Hippowdon|94/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|turn|26
+|c|+Wrizzy|((I'll wait until you two respond .-.))
+|l|Gemini the Flygon
+|choice|move stoneedge|move earthquake
+|
+|move|p2a: Landorus|Earthquake|p1a: Hippowdon
+|-damage|p1a: Hippowdon|16/100
+|move|p1a: Hippowdon|Stone Edge|p2a: Landorus
+|-damage|p2a: Landorus|57/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Landorus|63/100|[from] item: Leftovers
+|-heal|p1a: Hippowdon|22/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|choice|move earthquake|move earthquake
+|
+|move|p2a: Landorus|Earthquake|p1a: Hippowdon
+|-damage|p1a: Hippowdon|0 fnt
+|faint|p1a: Hippowdon
+|
+|win|Sheedan's Serenity
+|c|☆Pepperoni Pikachu|died
+|c|☆Pepperoni Pikachu|__The flock of birds wandered into the cave, seeking adventure. Despite the electricity that was spouted out, they weren't afraid. After all, there's power in numbers.__
+|c|☆Sheedan's Serenity|((Wrizzy-San, you're up.))
+|c|+Wrizzy|((HMMMMMM!? I SAID I'M GOING LAST.))
+|c|☆Pepperoni Pikachu|__Doduo looked nervous to be in this environment, being the tallest. Lighting usually strikes the tallest thing in the area, so it had a reason to be afraid. However, the shiny Starly comforted its comrade by preening its feathers.__
+|c|+Wrizzy|((oh0)
+|c|+Wrizzy|((shiet))
+|c|+Wrizzy|((fml))
+|c|+Wrizzy|((kay then.))
+|c|☆Pepperoni Pikachu|(( next ))
+|c|+Wrizzy|((WAIT, we're in a cave? .-.))
+|c|+Wrizzy|((Idk.))
+|c|+Wrizzy|((HELLO!? ;-;))
+|c|☆Sheedan's Serenity|__From within the darkness came a crackle, a zap, and then a Thunderbolt shattering the silence and shredding an oak tree's bark down to the soft center, a large burnt area marking where it struck. Many more bolts echoed throughout the forest as rapid footsteps__
+|c|☆Sheedan's Serenity|__pattered upon the wooden debris and a soft voice whispered gibberish. Running out of the shadows came a small child, much too young to be wandering alone in such a potentially dangerous area, with a look of fear and caution upon his innocent face. His attire was quite odd,__
+|c|☆Sheedan's Serenity|__consisting of a pair of yellow sneakers, a pair of blue wool sweatpants, and a yellow wool sweatshirt with an abnormally large hood. Two fuzzy legs protruded from his back and curled forward around his chest as a way to display the fear within the depths of his young mind.__
+|c|☆Sheedan's Serenity|__Something had recently frightening to the point where his electrical energies were unstable...but what could have caused him to be trembling so? It was quite the mystery indeed... ((retoasted))__
+|c|☆Sheedan's Serenity|((It's a forest, you floptarts. Mozza, Wrizzy))
+|c|☆Pepperoni Pikachu|(( o ))
+|c|☆Pepperoni Pikachu|(( ok )
+|c|☆Pepperoni Pikachu|/me cries
+|c|☆Pepperoni Pikachu|__The flock of birds wandered into the forest, seeking adventure. Despite the electricity that was spouted out, they weren't afraid. After all, there's power in numbers.__
+|c|☆Pepperoni Pikachu|__Doduo looked nervous to be in this environment, being the tallest. Lighting usually strikes the tallest thing in the area, so it had a reason to be afraid. However, the shiny Starly comforted its comrade by preening its feathers.__
+|c|☆Pepperoni Pikachu|(( fixed ))
+|c|+Wrizzy|__A woman could be seen. . . She was wearing a Brown cap, a sunset colored Jacket, a brown vest, brown leather gloves, blue jeans, brown boots and a brown backpack. . . What an odd attire. . .__
+|c|+Wrizzy|__She was wandering the forest, looking around. . .__ ". . . Hmm, Farah, do you see anything?" __She asked to. . . Well, the air. . . A few seconds later, a drone hovered out from her backpack.__
+|c|+Wrizzy|__It had a screen to resemble a face. . . There were two Orange Ovals on the screen, that's it, those were its eyes. . .__ ``"N-No. . ."`` __It responded. . . The Woman sighs.__ "Ok-" __She then bumps into the child. . .__
+|c|+Wrizzy|". . . G-Gah! S-Sorry! Sorry!." __She said bowing. . .__ "I-I'm so, so, so, SO sorry!" __She said sorry again. . .__
+|c|+Wrizzy|((Sheedan, you know who this is :3))
+|c|+Wrizzy|((You know who lived :I))
+|c|☆Pepperoni Pikachu|https://play.pokemonshowdown.com/battle-gen7customgame-563368160
+|c|☆Sheedan's Serenity|__The spider child shuddered when he heard the sounds of flapping wings nearby, and didn't dare look behind him, for fear that another Talonflame or some other big bird was on its way to try and snatch him up, this time while he was vulnerable. He cautiously trudged on, stepping__
+|c|☆Sheedan's Serenity|__over fallen branches and snapping numerous twigs every time he place his feet on the ground, unaware of what might be behind him or beside him. It wasn't until he heard something snap in front of him that he became alert again...but it was too late... He let out a gasp and__
+|c|☆Sheedan's Serenity|__a rubbing sound that echoed throughout the forest, falling backward onto the ground with his body letting off sparks in all directions. If Val wanted to survive, she'd best run to safety before he had another burst of unstable energy...__
+|c|☆Pepperoni Pikachu|__The birds flew over (( with the exception of Doduo, who just strided over )) to the spider child, squawking angrily.__
+|c|☆Pepperoni Pikachu|__They seemed to be challenging him to a fight.__
+|c|☆Sheedan's Serenity|Wrizzy))
+|c|+Wrizzy|__Val shook.__ ". . . Um. . . You okay?. . ." __She said, backing up. . .__ "Kid. . ." __She then shuddered, running for cover behind a boulder nearby. . . She looks around.__ "Farah?"
+|c|+Wrizzy|__Farah was not beside her or in her backpack. . . She looks at the child again and spotted Farah starring at him. . . She gulps, quickly running over and grabbing Farah before__
+|c|+Wrizzy|__running behind a tree. . . She knows she could not make it behind the boulder in time. . . She hugs Farah tightly. . .__
+|c|+Wrizzy|((Ah, Val, always puts her life aside for friends.))
+|c|☆Sheedan's Serenity|__The child groaned and shifted over and over, as if struggling to contain the power that was soon to be expelled from not only his spider legs, but his entire body, which acted as a rod that attracted electrical energy from all nearby sources at once. He wasn't aware of the__
+|c|☆Sheedan's Serenity|__beings that would get caught in the blast radius, but it didn't matter...for it was then that he let out a painful cry and released a burst of energy that shredded the terrain around him, but for some reason only harmfully affected Farah and the birds...Val not so much.__
+|c|☆Sheedan's Serenity|__The reason? This particular burst had worked like an EMP wave in a way, though the flying-types had each taken a harsh blow due to their electrical weaknesses...__
+|c|☆Sheedan's Serenity|__Val likely only felt unbearably tight all around, and a tiny spark jolt her heart into overdrive for a moment, though not long enough to prove fatal.__
+|c|+Wrizzy|__Val shook.__ ''. . .'' __She then looks at Farah who's eyes were now gone. . .__ "F-F. . . F-Farah!?" __She yells, shaking her. . . Alas, no answer.__ ''. . ." __She just shook, walking__
+|c|+Wrizzy|__over to the child and slowly touching his arm, seeing if he was safe to pick up. . . She then puts Farah into her backpack, shaking slightly. . .__
+|c|☆Sheedan's Serenity|Mozza))
+|c|☆Pepperoni Pikachu|__The birds were knocked back, with Rowlet and Starly sustaining the least damage. They stopped attacking, recognizing this spider-boy to be a worthy opponent.__
+|c|☆Pepperoni Pikachu|__They sat down, and cooed playfully.__
+|c|☆Sheedan's Serenity|__With his power having faded away for the time being, the child now lied almost entirely motionless, his breathing being the only sign left to tell them he was still alive. Crackling sparks shattered the silence coming from him,__
+|c|☆Sheedan's Serenity|__crawling on everything that touched him, shocking them like Thunder Waves. How old was he...? He looked way to young to be out here on his own...but it didn't seem like he had any parents to run to...hence why he was so afraid...__
+|c|☆Pepperoni Pikachu|__The birds scooted over to Niru, and began to nuzzle against him. They didn't seem to mind the electricity too much...__
+|c|☆Pepperoni Pikachu|__They seemed to be providing him comfort.__
+|c|+Wrizzy|__Val shook. . .__ "Kid. . . Wake up. . . KID!" __Val then noticed the birds. . .__ ". . . What the-?" __She said before shaking his head. . . She then began crying at the thought of him not waking up. . .__
+|c|+Wrizzy|__Heck, she didn't even know the kid. . . She grabs a nearby rock. . .__ "I'm sorry!" __She said, throwing it at his head. . . She NEEDED to make sure he was gonna wake up. . . She didn't even know if he even was asleep.__
+|c|☆Sheedan's Serenity|__It was no use....the child wouldn't be waking any time soon...and the blow to the head only worked to quicken his potential demise. His body let off another wave of sparks, before there was no energy left to be expelled...he needed more...that's how he functioned...just like a battery...__
+|c|☆Sheedan's Serenity|Wrizzy, Mozza
+|c|☆Sheedan's Serenity|))
+|c|+Wrizzy|''. . . U-Uh. . . UH!" __She was panicking. . . She then pulls out a Pokeball from her backpack and sent out a Emolga. . .__ "O-Okay Twitch! D-Do y-your t-think! P-Please save him!." __Twitch nods, slowly__
+|c|+Wrizzy|__walking to the child and nuzzling his cheek. . . She started to share her electricity with him. . . Val slowly sits down, watching. . .__
+|c|+Wrizzy|__Twitch was wearing a little pink scarf around her neck. . . Cute.__ ((:3))
+|c|☆Sheedan's Serenity|mozza))
+|c|+Wrizzy|((Welp, Goodnight, we can continue tomorrow, I'm tired ;~;))
+|c|+Wrizzy|((Bye! :3))
+|l|Wrizzy
+|c|☆Pepperoni Pikachu|/me fell asleep
+|c|☆Pepperoni Pikachu|/me zzz
+|c|☆Pepperoni Pikachu|(( gtg, anyway ))
+|c|☆Pepperoni Pikachu|(( sorry ))
+|l|Pepperoni Pikachu

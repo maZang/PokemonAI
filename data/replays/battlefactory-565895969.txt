@@ -1,0 +1,284 @@
+|j|kasger
+|j|applesghost
+|player|p1|kasger|169
+|player|p2|applesghost|101
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|57314,3321,28569,31539,44038,19538,7409,9511,52570,22107,35594,18302
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Heatran, M|item
+|poke|p1|Medicham, M|item
+|poke|p1|Diggersby, M|item
+|poke|p1|Latias, F|item
+|poke|p1|Volcarona, M|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p2|Gallade, M|item
+|poke|p2|Talonflame, M|item
+|poke|p2|Mew|item
+|poke|p2|Serperior, M|item
+|poke|p2|Hippowdon, M|item
+|poke|p2|Weavile, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|c|☆applesghost|glhf!
+|c|☆kasger|gl m8
+|c|☆kasger|:)
+|choice|team 5, team 2, team 3, team 4, team 1, team 6|team 5, team 2, team 3, team 4, team 1, team 6
+|
+|start
+|switch|p1a: Volcarona|Volcarona, M|100/100
+|switch|p2a: Hippowdon|Hippowdon, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|turn|1
+|choice|move quiverdance|move stealthrock
+|
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|move|p2a: Hippowdon|Stealth Rock|p1a: Volcarona
+|-sidestart|p1: kasger|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Volcarona|94/100|[from] sandstorm
+|-heal|p1a: Volcarona|100/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|choice|move gigadrain|move stoneedge
+|
+|move|p1a: Volcarona|Giga Drain|p2a: Hippowdon
+|-supereffective|p2a: Hippowdon
+|-damage|p2a: Hippowdon|24/100
+|move|p2a: Hippowdon|Stone Edge|p1a: Volcarona
+|-supereffective|p1a: Volcarona
+|-damage|p1a: Volcarona|3/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Volcarona|0 fnt|[from] sandstorm
+|-heal|p2a: Hippowdon|30/100|[from] item: Leftovers
+|upkeep
+|faint|p1a: Volcarona
+|c|☆kasger|:D
+|choice|switch 3|
+|
+|switch|p1a: Diggersby|Diggersby, M|100/100
+|-damage|p1a: Diggersby|94/100|[from] Stealth Rock
+|turn|3
+|choice|move return|move slackoff
+|
+|move|p1a: Diggersby|Return|p2a: Hippowdon
+|-damage|p2a: Hippowdon|0 fnt
+|faint|p2a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Weavile|Weavile, M|100/100
+|-ability|p2a: Weavile|Pressure
+|turn|4
+|choice|move return|move knockoff
+|
+|move|p2a: Weavile|Knock Off|p1a: Diggersby
+|-damage|p1a: Diggersby|6/100
+|-enditem|p1a: Diggersby|Focus Sash|[from] move: Knock Off|[of] p2a: Weavile
+|-damage|p2a: Weavile|91/100|[from] item: Life Orb
+|move|p1a: Diggersby|Return|p2a: Weavile
+|-damage|p2a: Weavile|0 fnt
+|faint|p2a: Weavile
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Serperior|Serperior, M|100/100
+|turn|5
+|choice|move quickattack|move leafstorm
+|
+|move|p1a: Diggersby|Quick Attack|p2a: Serperior
+|-damage|p2a: Serperior|66/100
+|move|p2a: Serperior|Leaf Storm|p1a: Diggersby
+|-supereffective|p1a: Diggersby
+|-damage|p1a: Diggersby|0 fnt
+|-boost|p2a: Serperior|spa|2
+|faint|p1a: Diggersby
+|
+|-weather|none
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Heatran|Heatran, M|100/100
+|-damage|p1a: Heatran|88/100|[from] Stealth Rock
+|-item|p1a: Heatran|Air Balloon
+|turn|6
+|choice|move stealthrock|move dragonpulse
+|
+|move|p2a: Serperior|Dragon Pulse|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|68/100
+|-enditem|p1a: Heatran|Air Balloon
+|move|p1a: Heatran|Stealth Rock|p2a: Serperior
+|-sidestart|p2: applesghost|move: Stealth Rock
+|
+|upkeep
+|turn|7
+|choice|move fireblast|move leafstorm
+|
+|move|p2a: Serperior|Leaf Storm|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|42/100
+|-boost|p2a: Serperior|spa|2
+|move|p1a: Heatran|Fire Blast|p2a: Serperior
+|-supereffective|p2a: Serperior
+|-damage|p2a: Serperior|0 fnt
+|faint|p2a: Serperior
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Mew|Mew|100/100
+|-damage|p2a: Mew|88/100|[from] Stealth Rock
+|turn|8
+|choice|move taunt|move knockoff
+|
+|move|p1a: Heatran|Taunt|p2a: Mew
+|-start|p2a: Mew|move: Taunt
+|move|p2a: Mew|Knock Off|p1a: Heatran
+|-damage|p1a: Heatran|27/100
+|
+|-heal|p2a: Mew|94/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|choice|move fireblast|switch 5
+|
+|switch|p2a: Gallade|Gallade, M|100/100
+|-damage|p2a: Gallade|94/100|[from] Stealth Rock
+|move|p1a: Heatran|Fire Blast|p2a: Gallade
+|-damage|p2a: Gallade|36/100
+|
+|upkeep
+|turn|10
+|choice|move fireblast|move closecombat mega
+|
+|detailschange|p2a: Gallade|Gallade-Mega, M
+|-mega|p2a: Gallade|Gallade|Galladite
+|move|p2a: Gallade|Close Combat|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|-unboost|p2a: Gallade|def|1
+|-unboost|p2a: Gallade|spd|1
+|faint|p1a: Heatran
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Latias|Latias, F|100/100
+|-damage|p1a: Latias|88/100|[from] Stealth Rock
+|turn|11
+|choice|move psyshock|move knockoff
+|
+|move|p1a: Latias|Psyshock|p2a: Gallade
+|-damage|p2a: Gallade|0 fnt
+|-damage|p1a: Latias|78/100|[from] item: Life Orb
+|faint|p2a: Gallade
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Mew|Mew|94/100
+|-damage|p2a: Mew|82/100|[from] Stealth Rock
+|turn|12
+|choice|move dracometeor|move willowisp
+|
+|move|p1a: Latias|Draco Meteor|p2a: Mew
+|-damage|p2a: Mew|18/100
+|-unboost|p1a: Latias|spa|2
+|-damage|p1a: Latias|68/100|[from] item: Life Orb
+|move|p2a: Mew|Will-O-Wisp|p1a: Latias
+|-status|p1a: Latias|brn
+|
+|-heal|p2a: Mew|25/100|[from] item: Leftovers
+|-damage|p1a: Latias|56/100 brn|[from] brn
+|upkeep
+|turn|13
+|choice|switch 2|move defog
+|
+|switch|p1a: Medicham|Medicham, M|100/100
+|-damage|p1a: Medicham|94/100|[from] Stealth Rock
+|move|p2a: Mew|Defog|p1a: Medicham
+|-unboost|p1a: Medicham|evasion|1
+|-sideend|p1: kasger|Stealth Rock|[from] move: Defog|[of] p1a: Medicham
+|-sideend|p2: applesghost|Stealth Rock|[from] move: Defog|[of] p2a: Mew
+|
+|-heal|p2a: Mew|31/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|choice|move fakeout mega|move softboiled
+|
+|detailschange|p1a: Medicham|Medicham-Mega, M
+|-mega|p1a: Medicham|Medicham|Medichamite
+|move|p1a: Medicham|Fake Out|p2a: Mew
+|-damage|p2a: Mew|12/100
+|cant|p2a: Mew|flinch
+|
+|-heal|p2a: Mew|19/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|choice|move zenheadbutt|move softboiled
+|
+|move|p1a: Medicham|Zen Headbutt|p2a: Mew
+|-resisted|p2a: Mew
+|-damage|p2a: Mew|0 fnt
+|faint|p2a: Mew
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Talonflame|Talonflame, M|100/100
+|turn|16
+|choice|move fakeout|move bravebird
+|
+|move|p1a: Medicham|Fake Out|p2a: Talonflame
+|-fail|p1a: Medicham
+|-hint|Fake Out only works on your first turn out.
+|move|p2a: Talonflame|Brave Bird|p1a: Medicham
+|-supereffective|p1a: Medicham
+|-damage|p1a: Medicham|0 fnt
+|-damage|p2a: Talonflame|78/100|[from] recoil|[of] p1a: Medicham
+|faint|p1a: Medicham
+|
+|-heal|p2a: Talonflame|84/100|[from] item: Leftovers
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Latias|Latias, F|56/100 brn
+|turn|17
+|choice|move psyshock|move bravebird
+|
+|move|p2a: Talonflame|Brave Bird|p1a: Latias
+|-damage|p1a: Latias|0 fnt
+|-damage|p2a: Talonflame|69/100|[from] recoil|[of] p1a: Latias
+|faint|p1a: Latias
+|
+|-heal|p2a: Talonflame|75/100|[from] item: Leftovers
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Talonflame|atk|1
+|turn|18
+|choice|move stoneedge|move willowisp
+|
+|move|p1a: Landorus|Stone Edge|p2a: Talonflame
+|-supereffective|p2a: Talonflame
+|-damage|p2a: Talonflame|0 fnt
+|faint|p2a: Talonflame
+|
+|win|kasger
+|c|☆kasger|gg
+|c|☆applesghost|gg
+|l|applesghost

@@ -1,0 +1,296 @@
+|j|Lt.Cody
+|j|DxD_Hunter
+|player|p1|Lt.Cody|2
+|player|p2|DxD_Hunter|200
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|4090,55055,21166,9212,45471,52092,4169,59820,26423,61783,63809,1065
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Metang|item
+|poke|p1|Jumpluff, M|
+|poke|p1|Ninetales, M|item
+|poke|p1|Raichu, M|item
+|poke|p1|Gothitelle, M|item
+|poke|p1|Armaldo, M|item
+|poke|p2|Simipour, M|item
+|poke|p2|Jumpluff, M|
+|poke|p2|Purugly, M|item
+|poke|p2|Avalugg, M|item
+|poke|p2|Electrode|item
+|poke|p2|Metang|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 4, team 2, team 3, team 1, team 5, team 6|team 3, team 2, team 1, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Raichu|Raichu, M|100/100
+|switch|p2a: Purugly|Purugly, M|100/100
+|turn|1
+|choice|move voltswitch|move fakeout
+|
+|move|p2a: Purugly|Fake Out|p1a: Raichu
+|-damage|p1a: Raichu|58/100
+|-damage|p2a: Purugly|91/100|[from] item: Life Orb
+|cant|p1a: Raichu|flinch
+|
+|upkeep
+|turn|2
+|choice|move focusblast|move return
+|
+|move|p1a: Raichu|Focus Blast|p2a: Purugly|[miss]
+|-miss|p1a: Raichu|p2a: Purugly
+|move|p2a: Purugly|Return|p1a: Raichu
+|-damage|p1a: Raichu|0 fnt
+|-damage|p2a: Purugly|81/100|[from] item: Life Orb
+|faint|p1a: Raichu
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Metang|Metang|100/100
+|turn|3
+|choice|move stealthrock|move knockoff
+|
+|move|p2a: Purugly|Knock Off|p1a: Metang
+|-supereffective|p1a: Metang
+|-damage|p1a: Metang|55/100
+|-enditem|p1a: Metang|Eviolite|[from] move: Knock Off|[of] p2a: Purugly
+|-damage|p2a: Purugly|71/100|[from] item: Life Orb
+|move|p1a: Metang|Stealth Rock|p2a: Purugly
+|-sidestart|p2: DxD_Hunter|move: Stealth Rock
+|
+|upkeep
+|turn|4
+|choice|switch 5|move uturn
+|
+|switch|p1a: Gothitelle|Gothitelle, M|100/100
+|move|p2a: Purugly|U-turn|p1a: Gothitelle
+|-supereffective|p1a: Gothitelle
+|-damage|p1a: Gothitelle|68/100
+|-damage|p2a: Purugly|61/100|[from] item: Life Orb
+|choice||switch 6
+|
+|switch|p2a: Metang|Metang|100/100
+|-damage|p2a: Metang|94/100|[from] Stealth Rock
+|
+|-heal|p1a: Gothitelle|74/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|choice|move meanlook|move stealthrock
+|
+|move|p1a: Gothitelle|Mean Look|p2a: Metang
+|-activate|p2a: Metang|trapped
+|move|p2a: Metang|Stealth Rock|p1a: Gothitelle
+|-sidestart|p1: Lt.Cody|move: Stealth Rock
+|
+|-heal|p1a: Gothitelle|80/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|choice|move calmmind|move meteormash
+|
+|move|p1a: Gothitelle|Calm Mind|p1a: Gothitelle
+|-boost|p1a: Gothitelle|spa|1
+|-boost|p1a: Gothitelle|spd|1
+|move|p2a: Metang|Meteor Mash|p1a: Gothitelle
+|-damage|p1a: Gothitelle|56/100
+|
+|-heal|p1a: Gothitelle|62/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|choice|move calmmind|move meteormash
+|
+|move|p1a: Gothitelle|Calm Mind|p1a: Gothitelle
+|-boost|p1a: Gothitelle|spa|1
+|-boost|p1a: Gothitelle|spd|1
+|move|p2a: Metang|Meteor Mash|p1a: Gothitelle
+|-damage|p1a: Gothitelle|35/100
+|
+|-heal|p1a: Gothitelle|41/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|choice|move calmmind|move pursuit
+|
+|move|p1a: Gothitelle|Calm Mind|p1a: Gothitelle
+|-boost|p1a: Gothitelle|spa|1
+|-boost|p1a: Gothitelle|spd|1
+|move|p2a: Metang|Pursuit|p1a: Gothitelle
+|-supereffective|p1a: Gothitelle
+|-damage|p1a: Gothitelle|24/100
+|
+|-heal|p1a: Gothitelle|30/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|choice|move rest|move earthquake
+|
+|move|p1a: Gothitelle|Rest|p1a: Gothitelle
+|-status|p1a: Gothitelle|slp
+|-heal|p1a: Gothitelle|100/100 slp|[silent]
+|-status|p1a: Gothitelle|slp|[from] move: Rest
+|move|p2a: Metang|Earthquake|p1a: Gothitelle
+|-damage|p1a: Gothitelle|81/100 slp
+|
+|-heal|p1a: Gothitelle|87/100 slp|[from] item: Leftovers
+|upkeep
+|turn|10
+|choice|move calmmind|move pursuit
+|
+|cant|p1a: Gothitelle|slp
+|move|p2a: Metang|Pursuit|p1a: Gothitelle
+|-supereffective|p1a: Gothitelle
+|-damage|p1a: Gothitelle|72/100 slp
+|
+|-heal|p1a: Gothitelle|78/100 slp|[from] item: Leftovers
+|upkeep
+|turn|11
+|choice|move calmmind|move meteormash
+|
+|cant|p1a: Gothitelle|slp
+|move|p2a: Metang|Meteor Mash|p1a: Gothitelle
+|-damage|p1a: Gothitelle|52/100 slp
+|-boost|p2a: Metang|atk|1
+|
+|-heal|p1a: Gothitelle|58/100 slp|[from] item: Leftovers
+|upkeep
+|turn|12
+|choice|move psychic|move meteormash
+|
+|-curestatus|p1a: Gothitelle|slp|[msg]
+|move|p1a: Gothitelle|Psychic|p2a: Metang
+|-resisted|p2a: Metang
+|-damage|p2a: Metang|78/100
+|move|p2a: Metang|Meteor Mash|p1a: Gothitelle
+|-damage|p1a: Gothitelle|20/100
+|-boost|p2a: Metang|atk|1
+|
+|-heal|p1a: Gothitelle|26/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|choice|move rest|move pursuit
+|
+|move|p1a: Gothitelle|Rest|p1a: Gothitelle
+|-status|p1a: Gothitelle|slp
+|-heal|p1a: Gothitelle|100/100 slp|[silent]
+|-status|p1a: Gothitelle|slp|[from] move: Rest
+|move|p2a: Metang|Pursuit|p1a: Gothitelle
+|-supereffective|p1a: Gothitelle
+|-damage|p1a: Gothitelle|69/100 slp
+|
+|-heal|p1a: Gothitelle|75/100 slp|[from] item: Leftovers
+|upkeep
+|turn|14
+|choice|move calmmind|move meteormash
+|
+|cant|p1a: Gothitelle|slp
+|move|p2a: Metang|Meteor Mash|p1a: Gothitelle
+|-damage|p1a: Gothitelle|24/100 slp
+|
+|-heal|p1a: Gothitelle|30/100 slp|[from] item: Leftovers
+|upkeep
+|turn|15
+|choice|move calmmind|move meteormash
+|
+|cant|p1a: Gothitelle|slp
+|move|p2a: Metang|Meteor Mash|p1a: Gothitelle|[miss]
+|-miss|p2a: Metang|p1a: Gothitelle
+|
+|-heal|p1a: Gothitelle|37/100 slp|[from] item: Leftovers
+|upkeep
+|turn|16
+|choice|move rest|move meteormash
+|
+|-curestatus|p1a: Gothitelle|slp|[msg]
+|move|p1a: Gothitelle|Rest|p1a: Gothitelle
+|-status|p1a: Gothitelle|slp
+|-heal|p1a: Gothitelle|100/100 slp|[silent]
+|-status|p1a: Gothitelle|slp|[from] move: Rest
+|move|p2a: Metang|Meteor Mash|p1a: Gothitelle
+|-damage|p1a: Gothitelle|46/100 slp
+|
+|-heal|p1a: Gothitelle|53/100 slp|[from] item: Leftovers
+|upkeep
+|turn|17
+|choice|switch 2|move meteormash
+|
+|switch|p1a: Jumpluff|Jumpluff, M|100/100
+|-damage|p1a: Jumpluff|76/100|[from] Stealth Rock
+|move|p2a: Metang|Meteor Mash|p1a: Jumpluff
+|-damage|p1a: Jumpluff|0 fnt
+|faint|p1a: Jumpluff
+|
+|upkeep
+|c|☆DxD_Hunter|Pure acum
+|choice|switch 3|
+|
+|switch|p1a: Ninetales|Ninetales, M|100/100
+|-damage|p1a: Ninetales|76/100|[from] Stealth Rock
+|turn|18
+|choice|move energyball|move earthquake
+|
+|move|p1a: Ninetales|Energy Ball|p2a: Metang
+|-resisted|p2a: Metang
+|-damage|p2a: Metang|67/100
+|move|p2a: Metang|Earthquake|p1a: Ninetales
+|-supereffective|p1a: Ninetales
+|-crit|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|faint|p1a: Ninetales
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Armaldo|Armaldo, M|100/100
+|-damage|p1a: Armaldo|76/100|[from] Stealth Rock
+|turn|19
+|choice|move earthquake|move meteormash
+|
+|move|p2a: Metang|Meteor Mash|p1a: Armaldo|[miss]
+|-miss|p2a: Metang|p1a: Armaldo
+|move|p1a: Armaldo|Earthquake|p2a: Metang
+|-supereffective|p2a: Metang
+|-damage|p2a: Metang|12/100
+|
+|-heal|p1a: Armaldo|82/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|choice|move rapidspin|move meteormash
+|
+|move|p2a: Metang|Meteor Mash|p1a: Armaldo
+|-supereffective|p1a: Armaldo
+|-damage|p1a: Armaldo|0 fnt
+|faint|p1a: Armaldo
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Gothitelle|Gothitelle, M|53/100 slp
+|-damage|p1a: Gothitelle|40/100 slp|[from] Stealth Rock
+|turn|21
+|choice|move psychic|move meteormash
+|
+|cant|p1a: Gothitelle|slp
+|move|p2a: Metang|Meteor Mash|p1a: Gothitelle
+|-crit|p1a: Gothitelle
+|-damage|p1a: Gothitelle|0 fnt
+|faint|p1a: Gothitelle
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Metang|Metang|55/100
+|-damage|p1a: Metang|48/100|[from] Stealth Rock
+|turn|22
+|choice|move meteormash|move earthquake
+|
+|move|p1a: Metang|Meteor Mash|p2a: Metang
+|-resisted|p2a: Metang
+|-damage|p2a: Metang|3/100
+|move|p2a: Metang|Earthquake|p1a: Metang
+|-supereffective|p1a: Metang
+|-damage|p1a: Metang|0 fnt
+|faint|p1a: Metang
+|
+|win|DxD_Hunter
+|l|Lt.Cody

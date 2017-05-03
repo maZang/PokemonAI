@@ -1,0 +1,449 @@
+|j|Kormit
+|j|Harker
+|player|p1|Kormit|102
+|player|p2|Harker|170
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|61578,48251,49174,55497,11498,12591,14721,1712,54930,6320,30977,9367
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Garchomp, M|item
+|poke|p1|Charizard, M|item
+|poke|p1|Staraptor, M|item
+|poke|p1|Mew|item
+|poke|p1|Crawdaunt, M|item
+|poke|p1|Raikou|item
+|poke|p2|Charizard, M|item
+|poke|p2|Dragonite, M|item
+|poke|p2|Alakazam, M|item
+|poke|p2|Rotom-Wash|item
+|poke|p2|Ferrothorn, M|item
+|poke|p2|Latios, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|c|☆Kormit|hi fren
+|c|☆Harker|Hello fren
+|c|☆Kormit|Fren :)
+|choice|team 1, team 2, team 3, team 4, team 5, team 6|team 5, team 2, team 3, team 4, team 1, team 6
+|
+|start
+|switch|p1a: Garchomp|Garchomp, M|100/100
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|turn|1
+|c|☆Harker|Fren :D
+|choice|move stealthrock|move leechseed
+|
+|move|p1a: Garchomp|Stealth Rock|p2a: Ferrothorn
+|-sidestart|p2: Harker|move: Stealth Rock
+|move|p2a: Ferrothorn|Leech Seed|p1a: Garchomp
+|-start|p1a: Garchomp|move: Leech Seed
+|
+|-damage|p1a: Garchomp|88/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|upkeep
+|turn|2
+|choice|move fireblast|move stealthrock
+|
+|move|p1a: Garchomp|Fire Blast|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|45/100
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Garchomp
+|-sidestart|p1: Kormit|move: Stealth Rock
+|
+|-heal|p2a: Ferrothorn|51/100|[from] item: Leftovers
+|-damage|p1a: Garchomp|76/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|66/100|[silent]
+|upkeep
+|turn|3
+|choice|move fireblast|move protect
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Garchomp|Fire Blast|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|move: Protect
+|
+|-heal|p2a: Ferrothorn|72/100|[from] item: Leftovers
+|-damage|p1a: Garchomp|63/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|87/100|[silent]
+|upkeep
+|turn|4
+|c|☆Kormit|:(
+|c|☆Kormit|you got me this time
+|c|☆Harker|you got bamboozled
+|choice|move dragontail|move gyroball
+|
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Garchomp
+|-damage|p1a: Garchomp|45/100
+|-damage|p2a: Ferrothorn|74/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|-damage|p2a: Ferrothorn|58/100|[from] item: Rocky Helmet|[of] p1a: Garchomp
+|move|p1a: Garchomp|Dragon Tail|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|50/100
+|-damage|p1a: Garchomp|32/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|drag|p2a: Alakazam|Alakazam, M|100/100
+|
+|-damage|p1a: Garchomp|20/100|[from] Leech Seed|[of] p2a: Alakazam
+|upkeep
+|turn|5
+|c|☆Harker|sorry fren
+|c|☆Kormit|all ok fren
+|choice|move dragontail|move hiddenpower
+|
+|move|p2a: Alakazam|Hidden Power|p1a: Garchomp
+|-supereffective|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|faint|p1a: Garchomp
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Mew|Mew|100/100
+|-damage|p1a: Mew|88/100|[from] Stealth Rock
+|turn|6
+|choice|move knockoff|move shadowball
+|
+|move|p2a: Alakazam|Shadow Ball|p1a: Mew
+|-supereffective|p1a: Mew
+|-damage|p1a: Mew|26/100
+|move|p1a: Mew|Knock Off|p2a: Alakazam
+|-supereffective|p2a: Alakazam
+|-damage|p2a: Alakazam|0 fnt
+|-enditem|p2a: Alakazam|Life Orb|[from] move: Knock Off|[of] p1a: Mew
+|faint|p2a: Alakazam
+|
+|-heal|p1a: Mew|32/100|[from] item: Leftovers
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|50/100
+|-damage|p2a: Ferrothorn|44/100|[from] Stealth Rock
+|turn|7
+|choice|move willowisp|move leechseed
+|
+|move|p1a: Mew|Will-O-Wisp|p2a: Ferrothorn|[miss]
+|-miss|p1a: Mew|p2a: Ferrothorn
+|move|p2a: Ferrothorn|Leech Seed|p1a: Mew
+|-start|p1a: Mew|move: Leech Seed
+|
+|-heal|p1a: Mew|39/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|50/100|[from] item: Leftovers
+|-damage|p1a: Mew|26/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|64/100|[silent]
+|upkeep
+|turn|8
+|c|☆Kormit|o
+|c|☆Kormit|no
+|choice|move softboiled|move protect
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Mew|Soft-Boiled|p1a: Mew
+|-heal|p1a: Mew|76/100
+|
+|-heal|p1a: Mew|82/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|71/100|[from] item: Leftovers
+|-damage|p1a: Mew|70/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|85/100|[silent]
+|upkeep
+|turn|9
+|c|☆Harker|oh skittles
+|choice|move willowisp|move gyroball
+|
+|move|p1a: Mew|Will-O-Wisp|p2a: Ferrothorn
+|-status|p2a: Ferrothorn|brn
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Mew
+|-damage|p1a: Mew|59/100
+|
+|-heal|p1a: Mew|65/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|91/100 brn|[from] item: Leftovers
+|-damage|p1a: Mew|52/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|100/100 brn|[silent]
+|-damage|p2a: Ferrothorn|88/100 brn|[from] brn
+|upkeep
+|turn|10
+|choice|move knockoff|move gyroball
+|
+|move|p1a: Mew|Knock Off|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|74/100 brn
+|-damage|p1a: Mew|40/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-enditem|p2a: Ferrothorn|Leftovers|[from] move: Knock Off|[of] p1a: Mew
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Mew
+|-damage|p1a: Mew|29/100
+|
+|-heal|p1a: Mew|35/100|[from] item: Leftovers
+|-damage|p1a: Mew|23/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|89/100 brn|[silent]
+|-damage|p2a: Ferrothorn|76/100 brn|[from] brn
+|upkeep
+|turn|11
+|choice|move softboiled|move gyroball
+|
+|move|p1a: Mew|Soft-Boiled|p1a: Mew
+|-heal|p1a: Mew|73/100
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Mew
+|-damage|p1a: Mew|62/100
+|
+|-heal|p1a: Mew|68/100|[from] item: Leftovers
+|-damage|p1a: Mew|55/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|90/100 brn|[silent]
+|-damage|p2a: Ferrothorn|78/100 brn|[from] brn
+|upkeep
+|turn|12
+|choice|move softboiled|move gyroball
+|
+|move|p1a: Mew|Soft-Boiled|p1a: Mew
+|-heal|p1a: Mew|100/100
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Mew
+|-damage|p1a: Mew|89/100
+|
+|-heal|p1a: Mew|96/100|[from] item: Leftovers
+|-damage|p1a: Mew|83/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|92/100 brn|[silent]
+|-damage|p2a: Ferrothorn|79/100 brn|[from] brn
+|upkeep
+|turn|13
+|choice|switch 2|move gyroball
+|
+|switch|p1a: Charizard|Charizard, M|100/100
+|-damage|p1a: Charizard|51/100|[from] Stealth Rock
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Charizard
+|-resisted|p1a: Charizard
+|-damage|p1a: Charizard|40/100
+|
+|-damage|p2a: Ferrothorn|67/100 brn|[from] brn
+|upkeep
+|turn|14
+|choice|move tailwind mega|move leechseed
+|
+|detailschange|p1a: Charizard|Charizard-Mega-X, M
+|-mega|p1a: Charizard|Charizard|Charizardite X
+|move|p1a: Charizard|Tailwind|p1a: Charizard
+|-sidestart|p1: Kormit|move: Tailwind
+|move|p2a: Ferrothorn|Leech Seed|p1a: Charizard
+|-start|p1a: Charizard|move: Leech Seed
+|
+|-damage|p1a: Charizard|28/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|79/100 brn|[silent]
+|-damage|p2a: Ferrothorn|66/100 brn|[from] brn
+|upkeep
+|turn|15
+|choice|move flareblitz|move gyroball
+|
+|move|p1a: Charizard|Flare Blitz|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|-damage|p1a: Charizard|15/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-damage|p1a: Charizard|0 fnt|[from] recoil|[of] p2a: Ferrothorn
+|faint|p2a: Ferrothorn
+|faint|p1a: Charizard
+|
+|upkeep
+|c|☆Kormit|shoot
+|c|☆Kormit|lel
+|c|☆Harker|kek
+|choice|switch 5|switch 4
+|
+|switch|p1a: Crawdaunt|Crawdaunt, M|100/100
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|-damage|p1a: Crawdaunt|88/100|[from] Stealth Rock
+|-damage|p2a: Rotom|88/100|[from] Stealth Rock
+|turn|16
+|choice|switch 6|move willowisp
+|
+|switch|p1a: Raikou|Raikou|100/100
+|-damage|p1a: Raikou|88/100|[from] Stealth Rock
+|-ability|p1a: Raikou|Pressure
+|move|p2a: Rotom|Will-O-Wisp|p1a: Raikou
+|-status|p1a: Raikou|brn
+|
+|-heal|p2a: Rotom|94/100|[from] item: Leftovers
+|-damage|p1a: Raikou|76/100 brn|[from] brn
+|upkeep
+|turn|17
+|choice|move shadowball|move voltswitch
+|
+|move|p1a: Raikou|Shadow Ball|p2a: Rotom
+|-damage|p2a: Rotom|52/100
+|-unboost|p2a: Rotom|spd|1
+|move|p2a: Rotom|Volt Switch|p1a: Raikou
+|-resisted|p1a: Raikou
+|-damage|p1a: Raikou|63/100 brn
+|choice||switch 6
+|
+|switch|p2a: Latios|Latios, M|100/100
+|-damage|p2a: Latios|88/100|[from] Stealth Rock
+|
+|-damage|p1a: Raikou|50/100 brn|[from] brn
+|-sideend|p1: Kormit|move: Tailwind
+|upkeep
+|turn|18
+|choice|move shadowball|move defog
+|
+|move|p1a: Raikou|Shadow Ball|p2a: Latios
+|-supereffective|p2a: Latios
+|-damage|p2a: Latios|12/100
+|move|p2a: Latios|Defog|p1a: Raikou
+|-unboost|p1a: Raikou|evasion|1
+|-sideend|p1: Kormit|Stealth Rock|[from] move: Defog|[of] p1a: Raikou
+|-sideend|p2: Harker|Stealth Rock|[from] move: Defog|[of] p2a: Latios
+|
+|-damage|p1a: Raikou|38/100 brn|[from] brn
+|upkeep
+|turn|19
+|c|☆Kormit|Latios into shadow ball?
+|c|☆Kormit|ah ty :)
+|choice|move shadowball|move psyshock
+|
+|move|p1a: Raikou|Shadow Ball|p2a: Latios
+|-supereffective|p2a: Latios
+|-damage|p2a: Latios|0 fnt
+|faint|p2a: Latios
+|
+|-damage|p1a: Raikou|25/100 brn|[from] brn
+|upkeep
+|c|☆Kormit|o no
+|c|☆Kormit|full hp char
+|c|☆Kormit|no
+|c|☆Kormit|no
+|c|☆Kormit|not fair
+|c|☆Kormit|undo
+|c|☆Kormit|i demand
+|c|☆Harker|now we're both free of sneaky pebbles
+|choice||switch 6
+|
+|switch|p2a: Rotom|Rotom-Wash|52/100
+|turn|20
+|choice|move shadowball|move hydropump
+|
+|move|p1a: Raikou|Shadow Ball|p2a: Rotom
+|-damage|p2a: Rotom|13/100
+|-unboost|p2a: Rotom|spd|1
+|move|p2a: Rotom|Hydro Pump|p1a: Raikou
+|-damage|p1a: Raikou|0 fnt
+|faint|p1a: Raikou
+|
+|-heal|p2a: Rotom|19/100|[from] item: Leftovers
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Crawdaunt|Crawdaunt, M|88/100
+|turn|21
+|c|☆Kormit|wait
+|c|☆Kormit|shoot
+|choice|switch 2|move painsplit
+|
+|switch|p1a: Mew|Mew|83/100
+|move|p2a: Rotom|Pain Split|p1a: Mew
+|-sethp|p1a: Mew|49/100|p2a: Rotom|65/100|[from] move: Pain Split
+|
+|-heal|p1a: Mew|55/100|[from] item: Leftovers
+|-heal|p2a: Rotom|71/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|c|☆Kormit|no
+|c|☆Kormit|rude
+|c|☆Harker|sorry fren
+|choice|move willowisp|move willowisp
+|
+|move|p1a: Mew|Will-O-Wisp|p2a: Rotom
+|-status|p2a: Rotom|brn
+|move|p2a: Rotom|Will-O-Wisp|p1a: Mew
+|-status|p1a: Mew|brn
+|-activate|p1a: Mew|ability: Synchronize
+|-fail|p2a: Rotom|brn
+|
+|-heal|p1a: Mew|61/100 brn|[from] item: Leftovers
+|-heal|p2a: Rotom|77/100 brn|[from] item: Leftovers
+|-damage|p1a: Mew|49/100 brn|[from] brn
+|-damage|p2a: Rotom|65/100 brn|[from] brn
+|upkeep
+|turn|23
+|c|☆Kormit|:I
+|choice|move softboiled|move voltswitch
+|
+|move|p1a: Mew|Soft-Boiled|p1a: Mew
+|-heal|p1a: Mew|99/100 brn
+|move|p2a: Rotom|Volt Switch|p1a: Mew
+|-damage|p1a: Mew|77/100 brn
+|c|☆Kormit|:)
+|choice||switch 2
+|
+|switch|p2a: Dragonite|Dragonite, M|100/100
+|
+|-heal|p1a: Mew|83/100 brn|[from] item: Leftovers
+|-damage|p1a: Mew|71/100 brn|[from] brn
+|upkeep
+|turn|24
+|choice|move willowisp|move dragondance
+|
+|move|p1a: Mew|Will-O-Wisp|p2a: Dragonite|[miss]
+|-miss|p1a: Mew|p2a: Dragonite
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|
+|-heal|p1a: Mew|77/100 brn|[from] item: Leftovers
+|-damage|p1a: Mew|65/100 brn|[from] brn
+|upkeep
+|turn|25
+|c|☆Kormit|:(
+|choice|move willowisp|move dragondance
+|
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|move|p1a: Mew|Will-O-Wisp|p2a: Dragonite
+|-status|p2a: Dragonite|brn
+|-enditem|p2a: Dragonite|Lum Berry|[eat]
+|-curestatus|p2a: Dragonite|brn|[msg]
+|
+|-heal|p1a: Mew|71/100 brn|[from] item: Leftovers
+|-damage|p1a: Mew|58/100 brn|[from] brn
+|upkeep
+|turn|26
+|c|☆Kormit|no :(
+|c|☆Kormit|NO
+|c|☆Harker|im sorry fren but this might be it
+|choice|move willowisp|move outrage
+|
+|move|p2a: Dragonite|Outrage|p1a: Mew
+|-damage|p1a: Mew|0 fnt
+|faint|p1a: Mew
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Crawdaunt|Crawdaunt, M|88/100
+|turn|27
+|c|☆Kormit|i refuse :(
+|choice|move crabhammer|move outrage
+|
+|move|p2a: Dragonite|Outrage|p1a: Crawdaunt|[from]lockedmove
+|-damage|p1a: Crawdaunt|0 fnt
+|-start|p2a: Dragonite|confusion|[fatigue]
+|faint|p1a: Crawdaunt
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Staraptor|Staraptor, M|100/100
+|turn|28
+|c|☆Kormit|I can win this :(
+|choice|move doubleedge|move extremespeed
+|
+|-activate|p2a: Dragonite|confusion
+|move|p2a: Dragonite|Extreme Speed|p1a: Staraptor
+|-damage|p1a: Staraptor|7/100
+|move|p1a: Staraptor|Double-Edge|p2a: Dragonite
+|-crit|p2a: Dragonite
+|-damage|p2a: Dragonite|40/100
+|-damage|p1a: Staraptor|0 fnt|[from] recoil|[of] p2a: Dragonite
+|faint|p1a: Staraptor
+|
+|win|Harker
+|raw|Kormit's rating: 1135 &rarr; <strong>1111</strong><br />(-24 for losing)
+|raw|Harker's rating: 1153 &rarr; <strong>1176</strong><br />(+23 for winning)
+|c|☆Kormit|;-;
+|c|☆Harker|but gg fren ;-;

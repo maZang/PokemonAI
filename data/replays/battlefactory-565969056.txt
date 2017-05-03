@@ -1,0 +1,220 @@
+|j|once a trevor
+|j|arceus1117
+|player|p1|once a trevor|217
+|player|p2|arceus1117|99
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|40816,1445,46939,48353,48853,47222,57128,23283,3605,15696,50972,953
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Empoleon, M|item
+|poke|p1|Chandelure, M|item
+|poke|p1|Tornadus, M|
+|poke|p1|Porygon-Z|item
+|poke|p1|Donphan, M|item
+|poke|p1|Rhyperior, M|item
+|poke|p2|Gardevoir, M|item
+|poke|p2|Scrafty, M|item
+|poke|p2|Milotic, M|item
+|poke|p2|Darmanitan, M|item
+|poke|p2|Zoroark, M|item
+|poke|p2|Rhyperior, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 1, team 2, team 3, team 4, team 5, team 6|team 2, team 5, team 1, team 3, team 6, team 4
+|
+|start
+|switch|p1a: Empoleon|Empoleon, M|100/100
+|switch|p2a: Scrafty|Scrafty, M|100/100
+|turn|1
+|choice|move roar|move knockoff
+|
+|move|p2a: Scrafty|Knock Off|p1a: Empoleon
+|-damage|p1a: Empoleon|71/100
+|-enditem|p1a: Empoleon|Leftovers|[from] move: Knock Off|[of] p2a: Scrafty
+|move|p1a: Empoleon|Roar|p2a: Scrafty
+|drag|p2a: Rhyperior|Rhyperior, M|100/100
+|
+|upkeep
+|turn|2
+|choice|move scald|move earthquake
+|
+|move|p1a: Empoleon|Scald|p2a: Rhyperior
+|-supereffective|p2a: Rhyperior
+|-damage|p2a: Rhyperior|32/100
+|move|p2a: Rhyperior|Earthquake|p1a: Empoleon
+|-supereffective|p1a: Empoleon
+|-damage|p1a: Empoleon|0 fnt
+|faint|p1a: Empoleon
+|
+|-heal|p2a: Rhyperior|38/100|[from] item: Leftovers
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Tornadus|Tornadus, M|100/100
+|turn|3
+|choice|move superpower|move stealthrock
+|
+|move|p1a: Tornadus|Superpower|p2a: Rhyperior
+|-supereffective|p2a: Rhyperior
+|-damage|p2a: Rhyperior|0 fnt
+|-unboost|p1a: Tornadus|atk|1
+|-unboost|p1a: Tornadus|def|1
+|faint|p2a: Rhyperior
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Milotic|Milotic, M|100/100
+|turn|4
+|choice|move uturn|move scald
+|
+|move|p1a: Tornadus|U-turn|p2a: Milotic
+|-damage|p2a: Milotic|90/100
+|choice|switch 5|
+|
+|switch|p1a: Donphan|Donphan, M|100/100
+|move|p2a: Milotic|Scald|p1a: Donphan
+|-supereffective|p1a: Donphan
+|-damage|p1a: Donphan|51/100
+|
+|-heal|p2a: Milotic|96/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|choice|move knockoff|move scald
+|
+|move|p2a: Milotic|Scald|p1a: Donphan
+|-supereffective|p1a: Donphan
+|-damage|p1a: Donphan|0 fnt
+|faint|p1a: Donphan
+|
+|-heal|p2a: Milotic|100/100|[from] item: Leftovers
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Porygon-Z|Porygon-Z|100/100
+|turn|6
+|choice|move nastyplot|move scald
+|
+|move|p1a: Porygon-Z|Nasty Plot|p1a: Porygon-Z
+|-boost|p1a: Porygon-Z|spa|2
+|move|p2a: Milotic|Scald|p1a: Porygon-Z
+|-damage|p1a: Porygon-Z|59/100
+|
+|upkeep
+|turn|7
+|choice|move triattack|move haze
+|
+|move|p1a: Porygon-Z|Tri Attack|p2a: Milotic
+|-damage|p2a: Milotic|0 fnt
+|-damage|p1a: Porygon-Z|49/100|[from] item: Life Orb
+|faint|p2a: Milotic
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Darmanitan|Darmanitan, M|100/100
+|turn|8
+|choice|switch 2|move rockslide
+|
+|switch|p1a: Chandelure|Chandelure, M|100/100
+|move|p2a: Darmanitan|Rock Slide|p1a: Chandelure
+|-supereffective|p1a: Chandelure
+|-damage|p1a: Chandelure|0 fnt
+|faint|p1a: Chandelure
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Rhyperior|Rhyperior, M|100/100
+|turn|9
+|choice|move earthquake|switch 5
+|
+|switch|p2a: Scrafty|Scrafty, M|100/100
+|move|p1a: Rhyperior|Earthquake|p2a: Scrafty
+|-damage|p2a: Scrafty|23/100
+|
+|-heal|p2a: Scrafty|29/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|choice|move earthquake|move drainpunch
+|
+|move|p2a: Scrafty|Drain Punch|p1a: Rhyperior
+|-supereffective|p1a: Rhyperior
+|-damage|p1a: Rhyperior|75/100
+|-heal|p2a: Scrafty|45/100|[from] drain|[of] p1a: Rhyperior
+|move|p1a: Rhyperior|Earthquake|p2a: Scrafty
+|-damage|p2a: Scrafty|0 fnt
+|faint|p2a: Scrafty
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Gardevoir|Gardevoir, M|100/100
+|-ability|p2a: Gardevoir|Solid Rock|[from] ability: Trace|[of] p1a: Rhyperior
+|turn|11
+|choice|move earthquake|move focusblast
+|
+|move|p2a: Gardevoir|Focus Blast|p1a: Rhyperior
+|-supereffective|p1a: Rhyperior
+|-damage|p1a: Rhyperior|0 fnt
+|faint|p1a: Rhyperior
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Tornadus|Tornadus, M|100/100
+|turn|12
+|choice|move acrobatics|move moonblast
+|
+|move|p1a: Tornadus|Acrobatics|p2a: Gardevoir
+|-damage|p2a: Gardevoir|16/100
+|move|p2a: Gardevoir|Moonblast|p1a: Tornadus
+|-damage|p1a: Tornadus|38/100
+|
+|-heal|p2a: Gardevoir|22/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|choice|move knockoff|move moonblast
+|
+|move|p1a: Tornadus|Knock Off|p2a: Gardevoir
+|-damage|p2a: Gardevoir|0 fnt
+|-enditem|p2a: Gardevoir|Leftovers|[from] move: Knock Off|[of] p1a: Tornadus
+|faint|p2a: Gardevoir
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Darmanitan|Darmanitan, M|100/100
+|turn|14
+|choice|move acrobatics|move superpower
+|
+|move|p1a: Tornadus|Acrobatics|p2a: Darmanitan
+|-damage|p2a: Darmanitan|13/100
+|move|p2a: Darmanitan|Superpower|p1a: Tornadus
+|-resisted|p1a: Tornadus
+|-crit|p1a: Tornadus
+|-damage|p1a: Tornadus|0 fnt
+|-unboost|p2a: Darmanitan|atk|1
+|-unboost|p2a: Darmanitan|def|1
+|faint|p1a: Tornadus
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Porygon-Z|Porygon-Z|49/100
+|turn|15
+|choice|move darkpulse|move superpower
+|
+|move|p2a: Darmanitan|Superpower|p1a: Porygon-Z
+|-supereffective|p1a: Porygon-Z
+|-damage|p1a: Porygon-Z|0 fnt
+|-unboost|p2a: Darmanitan|atk|1
+|-unboost|p2a: Darmanitan|def|1
+|faint|p1a: Porygon-Z
+|
+|win|arceus1117
+|l|once a trevor

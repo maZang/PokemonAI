@@ -1,0 +1,106 @@
+|j|HyperSinnoh600
+|j|IONGLUE
+|player|p1|HyperSinnoh600|238
+|player|p2|IONGLUE|126
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|13122,58510,9201,45416,1686,34426,16182,52596,19713,63094,18224,59615
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Purugly, M|item
+|poke|p1|Prinplup, M|item
+|poke|p1|Relicanth, M|item
+|poke|p1|Clefairy, M|item
+|poke|p1|Tangela, M|item
+|poke|p1|Armaldo, M|item
+|poke|p2|Metang|item
+|poke|p2|Cryogonal|item
+|poke|p2|Ninetales, M|item
+|poke|p2|Electrode|item
+|poke|p2|Basculin, M|item
+|poke|p2|Pawniard, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 2, team 1, team 3, team 4, team 5, team 6|team 1, team 2, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Prinplup|Prinplup, M|100/100
+|switch|p2a: Metang|Metang|100/100
+|turn|1
+|choice|move stealthrock|move stealthrock
+|
+|move|p2a: Metang|Stealth Rock|p1a: Prinplup
+|-sidestart|p1: HyperSinnoh600|move: Stealth Rock
+|move|p1a: Prinplup|Stealth Rock|p2a: Metang
+|-sidestart|p2: IONGLUE|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|choice|move scald|move meteormash
+|
+|move|p2a: Metang|Meteor Mash|p1a: Prinplup
+|-resisted|p1a: Prinplup
+|-damage|p1a: Prinplup|90/100
+|-boost|p2a: Metang|atk|1
+|move|p1a: Prinplup|Scald|p2a: Metang
+|-damage|p2a: Metang|80/100
+|-status|p2a: Metang|brn
+|
+|-damage|p2a: Metang|68/100 brn|[from] brn
+|upkeep
+|turn|3
+|choice|switch 3|move zenheadbutt
+|
+|switch|p1a: Relicanth|Relicanth, M|100/100
+|-damage|p1a: Relicanth|88/100|[from] Stealth Rock
+|move|p2a: Metang|Zen Headbutt|p1a: Relicanth
+|-damage|p1a: Relicanth|70/100
+|
+|-damage|p2a: Metang|55/100 brn|[from] brn
+|upkeep
+|turn|4
+|choice|move rockpolish|move meteormash
+|
+|move|p1a: Relicanth|Rock Polish|p1a: Relicanth
+|-boost|p1a: Relicanth|spe|2
+|move|p2a: Metang|Meteor Mash|p1a: Relicanth
+|-damage|p1a: Relicanth|52/100
+|-boost|p2a: Metang|atk|1
+|
+|-damage|p2a: Metang|43/100 brn|[from] brn
+|upkeep
+|turn|5
+|choice|move earthquake|move bulletpunch
+|
+|move|p2a: Metang|Bullet Punch|p1a: Relicanth
+|-damage|p1a: Relicanth|40/100
+|move|p1a: Relicanth|Earthquake|p2a: Metang
+|-supereffective|p2a: Metang
+|-damage|p2a: Metang|5/100 brn
+|
+|-damage|p2a: Metang|0 fnt|[from] brn
+|upkeep
+|faint|p2a: Metang
+|choice||switch 2
+|
+|switch|p2a: Cryogonal|Cryogonal|100/100
+|-damage|p2a: Cryogonal|76/100|[from] Stealth Rock
+|turn|6
+|choice|move headsmash|move freezedry
+|
+|move|p1a: Relicanth|Head Smash|p2a: Cryogonal
+|-supereffective|p2a: Cryogonal
+|-damage|p2a: Cryogonal|0 fnt
+|faint|p2a: Cryogonal
+|
+|upkeep
+|-message|IONGLUE forfeited.
+|
+|win|HyperSinnoh600
+|l|IONGLUE
+|raw|HyperSinnoh600's rating: 1141 &rarr; <strong>1159</strong><br />(+18 for winning)
+|raw|IONGLUE's rating: 1040 &rarr; <strong>1029</strong><br />(-11 for losing)
+|c|☆HyperSinnoh600|LOL

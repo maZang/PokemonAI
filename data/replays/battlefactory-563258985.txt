@@ -1,0 +1,411 @@
+|j|kitsune2
+|j|crescentmoon95
+|player|p1|kitsune2|289
+|player|p2|crescentmoon95|1
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|63817,43101,36075,651,10532,52461,7073,17408,46118,39727,36698,5770
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Forretress, M|item
+|poke|p1|Entei, shiny|item
+|poke|p1|Gligar, M|item
+|poke|p1|Dragalge, M|item
+|poke|p1|Tornadus, M|
+|poke|p1|Nidoqueen, F|item
+|poke|p2|Donphan, M|item
+|poke|p2|Gligar, M|item
+|poke|p2|Milotic, M|item
+|poke|p2|Espeon, M|item
+|poke|p2|Sceptile, M|item
+|poke|p2|Hydreigon, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 1, team 2, team 3, team 4, team 5, team 6|team 1, team 2, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Forretress|Forretress, M|100/100
+|switch|p2a: Donphan|Donphan, M|100/100
+|turn|1
+|choice|move spikes|move stealthrock
+|
+|move|p2a: Donphan|Stealth Rock|p1a: Forretress
+|-sidestart|p1: kitsune2|move: Stealth Rock
+|move|p1a: Forretress|Spikes|p2a: Donphan
+|-sidestart|p2: crescentmoon95|Spikes
+|
+|upkeep
+|turn|2
+|choice|move spikes|move rapidspin
+|
+|move|p2a: Donphan|Rapid Spin|p1a: Forretress
+|-resisted|p1a: Forretress
+|-damage|p1a: Forretress|99/100
+|-sideend|p2: crescentmoon95|Spikes|[from] move: Rapid Spin|[of] p2a: Donphan
+|move|p1a: Forretress|Spikes|p2a: Donphan
+|-sidestart|p2: crescentmoon95|Spikes
+|
+|-heal|p1a: Forretress|100/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|choice|move rapidspin|move earthquake
+|
+|move|p2a: Donphan|Earthquake|p1a: Forretress
+|-damage|p1a: Forretress|76/100
+|move|p1a: Forretress|Rapid Spin|p2a: Donphan
+|-damage|p2a: Donphan|98/100
+|-sideend|p1: kitsune2|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Forretress
+|
+|-heal|p2a: Donphan|100/100|[from] item: Leftovers
+|-heal|p1a: Forretress|82/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|choice|switch 6|move earthquake
+|
+|switch|p1a: Nidoqueen|Nidoqueen, F|100/100
+|move|p2a: Donphan|Earthquake|p1a: Nidoqueen
+|-supereffective|p1a: Nidoqueen
+|-damage|p1a: Nidoqueen|7/100
+|
+|upkeep
+|turn|5
+|choice|move icebeam|move iceshard
+|
+|move|p2a: Donphan|Ice Shard|p1a: Nidoqueen
+|-supereffective|p1a: Nidoqueen
+|-damage|p1a: Nidoqueen|0 fnt
+|faint|p1a: Nidoqueen
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Tornadus|Tornadus, M|100/100
+|turn|6
+|choice|move knockoff|move stealthrock
+|
+|move|p1a: Tornadus|Knock Off|p2a: Donphan
+|-damage|p2a: Donphan|82/100
+|-enditem|p2a: Donphan|Leftovers|[from] move: Knock Off|[of] p1a: Tornadus
+|move|p2a: Donphan|Stealth Rock|p1a: Tornadus
+|-sidestart|p1: kitsune2|move: Stealth Rock
+|
+|upkeep
+|turn|7
+|choice|move acrobatics|move iceshard
+|
+|move|p2a: Donphan|Ice Shard|p1a: Tornadus
+|-supereffective|p1a: Tornadus
+|-damage|p1a: Tornadus|67/100
+|move|p1a: Tornadus|Acrobatics|p2a: Donphan
+|-damage|p2a: Donphan|52/100
+|
+|upkeep
+|turn|8
+|choice|move uturn|move iceshard
+|
+|move|p2a: Donphan|Ice Shard|p1a: Tornadus
+|-supereffective|p1a: Tornadus
+|-damage|p1a: Tornadus|31/100
+|move|p1a: Tornadus|U-turn|p2a: Donphan
+|-damage|p2a: Donphan|40/100
+|choice|switch 2|
+|
+|switch|p1a: Entei|Entei, shiny|100/100
+|-damage|p1a: Entei|76/100|[from] Stealth Rock
+|-ability|p1a: Entei|Pressure
+|
+|upkeep
+|turn|9
+|choice|move sacredfire|move earthquake
+|
+|move|p1a: Entei|Sacred Fire|p2a: Donphan
+|-damage|p2a: Donphan|0 fnt
+|faint|p2a: Donphan
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Milotic|Milotic, M|100/100
+|-damage|p2a: Milotic|88/100|[from] Spikes
+|turn|10
+|choice|switch 6|move scald
+|
+|switch|p1a: Forretress|Forretress, M|82/100
+|-damage|p1a: Forretress|70/100|[from] Stealth Rock
+|move|p2a: Milotic|Scald|p1a: Forretress
+|-damage|p1a: Forretress|31/100
+|
+|-heal|p2a: Milotic|94/100|[from] item: Leftovers
+|-heal|p1a: Forretress|37/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|choice|move voltswitch|move icebeam
+|
+|move|p2a: Milotic|Ice Beam|p1a: Forretress
+|-resisted|p1a: Forretress
+|-damage|p1a: Forretress|21/100
+|move|p1a: Forretress|Volt Switch|p2a: Milotic
+|-supereffective|p2a: Milotic
+|-crit|p2a: Milotic
+|-damage|p2a: Milotic|76/100
+|choice|switch 4|
+|
+|switch|p1a: Dragalge|Dragalge, M|100/100
+|-damage|p1a: Dragalge|88/100|[from] Stealth Rock
+|
+|-heal|p2a: Milotic|82/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|choice|move dracometeor|move icebeam
+|
+|move|p2a: Milotic|Ice Beam|p1a: Dragalge
+|-supereffective|p1a: Dragalge
+|-damage|p1a: Dragalge|51/100
+|move|p1a: Dragalge|Draco Meteor|p2a: Milotic
+|-damage|p2a: Milotic|18/100
+|-unboost|p1a: Dragalge|spa|2
+|
+|-heal|p2a: Milotic|24/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|choice|move dracometeor|move recover
+|
+|move|p2a: Milotic|Recover|p2a: Milotic
+|-heal|p2a: Milotic|74/100
+|move|p1a: Dragalge|Draco Meteor|p2a: Milotic
+|-damage|p2a: Milotic|42/100
+|-unboost|p1a: Dragalge|spa|2
+|
+|-heal|p2a: Milotic|48/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|choice|move dracometeor|move recover
+|
+|move|p2a: Milotic|Recover|p2a: Milotic
+|-heal|p2a: Milotic|98/100
+|move|p1a: Dragalge|Draco Meteor|p2a: Milotic
+|-damage|p2a: Milotic|76/100
+|-unboost|p1a: Dragalge|spa|2
+|
+|-heal|p2a: Milotic|82/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|choice|move dracometeor|move icebeam
+|
+|move|p2a: Milotic|Ice Beam|p1a: Dragalge
+|-supereffective|p1a: Dragalge
+|-damage|p1a: Dragalge|13/100
+|move|p1a: Dragalge|Draco Meteor|p2a: Milotic
+|-crit|p2a: Milotic
+|-damage|p2a: Milotic|0 fnt
+|faint|p2a: Milotic
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Sceptile|Sceptile, M|100/100
+|-damage|p2a: Sceptile|88/100|[from] Spikes
+|turn|16
+|choice|move dracometeor|move swordsdance mega
+|
+|detailschange|p2a: Sceptile|Sceptile-Mega, M
+|-mega|p2a: Sceptile|Sceptile|Sceptilite
+|move|p2a: Sceptile|Swords Dance|p2a: Sceptile
+|-boost|p2a: Sceptile|atk|2
+|move|p1a: Dragalge|Draco Meteor|p2a: Sceptile
+|-supereffective|p2a: Sceptile
+|-damage|p2a: Sceptile|4/100
+|
+|upkeep
+|turn|17
+|choice|move dracometeor|move outrage
+|
+|move|p2a: Sceptile|Outrage|p1a: Dragalge
+|-supereffective|p1a: Dragalge
+|-damage|p1a: Dragalge|0 fnt
+|faint|p1a: Dragalge
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Entei|Entei, shiny|76/100
+|-damage|p1a: Entei|51/100|[from] Stealth Rock
+|-ability|p1a: Entei|Pressure
+|turn|18
+|choice|move extremespeed|move outrage
+|
+|move|p1a: Entei|Extreme Speed|p2a: Sceptile
+|-damage|p2a: Sceptile|0 fnt
+|faint|p2a: Sceptile
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Gligar|Gligar, M|100/100
+|turn|19
+|choice|switch 3|move earthquake
+|
+|switch|p1a: Gligar|Gligar, M|100/100
+|-damage|p1a: Gligar|88/100|[from] Stealth Rock
+|move|p2a: Gligar|Earthquake|p1a: Gligar
+|-immune|p1a: Gligar|[msg]
+|
+|upkeep
+|turn|20
+|choice|move stealthrock|move defog
+|
+|move|p1a: Gligar|Stealth Rock|p2a: Gligar
+|-sidestart|p2: crescentmoon95|move: Stealth Rock
+|move|p2a: Gligar|Defog|p1a: Gligar
+|-unboost|p1a: Gligar|evasion|1
+|-sideend|p1: kitsune2|Stealth Rock|[from] move: Defog|[of] p1a: Gligar
+|-sideend|p2: crescentmoon95|Spikes|[from] move: Defog|[of] p2a: Gligar
+|-sideend|p2: crescentmoon95|Stealth Rock|[from] move: Defog|[of] p2a: Gligar
+|
+|upkeep
+|turn|21
+|choice|move roost|switch 6
+|
+|switch|p2a: Hydreigon|Hydreigon, M|100/100
+|move|p1a: Gligar|Roost|p1a: Gligar
+|-heal|p1a: Gligar|100/100
+|
+|upkeep
+|turn|22
+|choice|move stealthrock|move dracometeor
+|
+|move|p2a: Hydreigon|Draco Meteor|p1a: Gligar
+|-damage|p1a: Gligar|17/100
+|-unboost|p2a: Hydreigon|spa|2
+|-damage|p2a: Hydreigon|91/100|[from] item: Life Orb
+|move|p1a: Gligar|Stealth Rock|p2a: Hydreigon
+|-sidestart|p2: crescentmoon95|move: Stealth Rock
+|
+|upkeep
+|turn|23
+|choice|switch 4|move superpower
+|
+|switch|p1a: Forretress|Forretress, M|21/100
+|move|p2a: Hydreigon|Superpower|p1a: Forretress
+|-damage|p1a: Forretress|1/100
+|-unboost|p2a: Hydreigon|atk|1
+|-unboost|p2a: Hydreigon|def|1
+|-damage|p2a: Hydreigon|81/100|[from] item: Life Orb
+|
+|-heal|p1a: Forretress|7/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|choice|move gyroball|move superpower
+|
+|move|p2a: Hydreigon|Superpower|p1a: Forretress
+|-damage|p1a: Forretress|0 fnt
+|-unboost|p2a: Hydreigon|atk|1
+|-unboost|p2a: Hydreigon|def|1
+|-damage|p2a: Hydreigon|71/100|[from] item: Life Orb
+|faint|p1a: Forretress
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Tornadus|Tornadus, M|31/100
+|turn|25
+|choice|move superpower|switch 6
+|
+|switch|p2a: Gligar|Gligar, M|100/100
+|-damage|p2a: Gligar|88/100|[from] Stealth Rock
+|move|p1a: Tornadus|Superpower|p2a: Gligar
+|-resisted|p2a: Gligar
+|-damage|p2a: Gligar|79/100
+|-unboost|p1a: Tornadus|atk|1
+|-unboost|p1a: Tornadus|def|1
+|
+|upkeep
+|turn|26
+|choice|move knockoff|move defog
+|
+|move|p1a: Tornadus|Knock Off|p2a: Gligar
+|-damage|p2a: Gligar|68/100
+|-enditem|p2a: Gligar|Eviolite|[from] move: Knock Off|[of] p1a: Tornadus
+|move|p2a: Gligar|Defog|p1a: Tornadus
+|-unboost|p1a: Tornadus|evasion|1
+|-ability|p1a: Tornadus|Defiant|boost
+|-boost|p1a: Tornadus|atk|2
+|-sideend|p2: crescentmoon95|Stealth Rock|[from] move: Defog|[of] p2a: Gligar
+|
+|upkeep
+|turn|27
+|choice|move acrobatics|move toxic
+|
+|move|p1a: Tornadus|Acrobatics|p2a: Gligar
+|-damage|p2a: Gligar|12/100
+|move|p2a: Gligar|Toxic|p1a: Tornadus
+|-status|p1a: Tornadus|tox
+|
+|-damage|p1a: Tornadus|25/100 tox|[from] psn
+|upkeep
+|turn|28
+|choice|move acrobatics|move roost
+|
+|move|p1a: Tornadus|Acrobatics|p2a: Gligar
+|-damage|p2a: Gligar|0 fnt
+|faint|p2a: Gligar
+|
+|-damage|p1a: Tornadus|13/100 tox|[from] psn
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Espeon|Espeon, M|100/100
+|turn|29
+|choice|move knockoff|move psyshock
+|
+|move|p1a: Tornadus|Knock Off|p2a: Espeon
+|-supereffective|p2a: Espeon
+|-damage|p2a: Espeon|0 fnt
+|-enditem|p2a: Espeon|Life Orb|[from] move: Knock Off|[of] p1a: Tornadus
+|faint|p2a: Espeon
+|
+|-damage|p1a: Tornadus|0 fnt|[from] psn
+|upkeep
+|faint|p1a: Tornadus
+|choice|switch 3|switch 6
+|
+|switch|p2a: Hydreigon|Hydreigon, M|71/100
+|switch|p1a: Entei|Entei, shiny|51/100
+|-ability|p1a: Entei|Pressure
+|turn|30
+|choice|switch 4|move dracometeor
+|
+|switch|p1a: Gligar|Gligar, M|17/100
+|move|p2a: Hydreigon|Draco Meteor|p1a: Gligar|[miss]
+|-miss|p2a: Hydreigon|p1a: Gligar
+|
+|upkeep
+|turn|31
+|choice|move roost|move dracometeor
+|
+|move|p2a: Hydreigon|Draco Meteor|p1a: Gligar
+|-damage|p1a: Gligar|0 fnt
+|-unboost|p2a: Hydreigon|spa|2
+|-damage|p2a: Hydreigon|61/100|[from] item: Life Orb
+|faint|p1a: Gligar
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Entei|Entei, shiny|51/100
+|-ability|p1a: Entei|Pressure
+|turn|32
+|choice|move stoneedge|move superpower
+|
+|move|p2a: Hydreigon|Superpower|p1a: Entei
+|-damage|p1a: Entei|15/100
+|-unboost|p2a: Hydreigon|atk|1
+|-unboost|p2a: Hydreigon|def|1
+|-damage|p2a: Hydreigon|51/100|[from] item: Life Orb
+|move|p1a: Entei|Stone Edge|p2a: Hydreigon
+|-damage|p2a: Hydreigon|0 fnt
+|faint|p2a: Hydreigon
+|
+|win|kitsune2

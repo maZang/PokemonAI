@@ -1,0 +1,477 @@
+|j|Rio91
+|j|Mortify
+|player|p1|Rio91|141
+|player|p2|Mortify|260
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|33194,26471,32841,9395,18371,5035,65003,4517,52919,30866,18630,53342
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Aggron, M|item
+|poke|p1|Audino, M|item
+|poke|p1|Spiritomb, M|item
+|poke|p1|Rhyperior, M|item
+|poke|p1|Hitmontop, M|item
+|poke|p1|Togetic, M|item
+|poke|p2|Granbull, M|item
+|poke|p2|Flygon, M|item
+|poke|p2|Togetic, M|item
+|poke|p2|Registeel|item
+|poke|p2|Escavalier, M|item
+|poke|p2|Golbat, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 4, team 2, team 3, team 1, team 5, team 6|team 3, team 2, team 1, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Rhyperior|Rhyperior, M|100/100
+|switch|p2a: Togetic|Togetic, M|100/100
+|turn|1
+|choice|move stealthrock|move nastyplot
+|
+|move|p2a: Togetic|Nasty Plot|p2a: Togetic
+|-boost|p2a: Togetic|spa|2
+|move|p1a: Rhyperior|Stealth Rock|p2a: Togetic
+|-sidestart|p2: Mortify|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|choice|move rockblast|move batonpass
+|
+|move|p2a: Togetic|Baton Pass|p2a: Togetic
+|choice||switch 2
+|
+|switch|p2a: Flygon|Flygon, M|100/100
+|-damage|p2a: Flygon|94/100|[from] Stealth Rock
+|move|p1a: Rhyperior|Rock Blast|p2a: Flygon
+|-resisted|p2a: Flygon
+|-damage|p2a: Flygon|88/100
+|-resisted|p2a: Flygon
+|-damage|p2a: Flygon|82/100
+|-resisted|p2a: Flygon
+|-damage|p2a: Flygon|75/100
+|-resisted|p2a: Flygon
+|-damage|p2a: Flygon|69/100
+|-hitcount|p2a: Flygon|4
+|
+|-heal|p2a: Flygon|75/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|choice|move icepunch|move defog
+|
+|move|p2a: Flygon|Defog|p1a: Rhyperior
+|-unboost|p1a: Rhyperior|evasion|1
+|-sideend|p2: Mortify|Stealth Rock|[from] move: Defog|[of] p2a: Flygon
+|move|p1a: Rhyperior|Ice Punch|p2a: Flygon
+|-supereffective|p2a: Flygon
+|-damage|p2a: Flygon|0 fnt
+|faint|p2a: Flygon
+|
+|upkeep
+|c|☆Mortify|0 offensive mons
+|c|☆Mortify|my teams all defensive
+|choice||switch 5
+|
+|switch|p2a: Escavalier|Escavalier, M|100/100
+|turn|4
+|choice|move earthquake|move ironhead
+|
+|move|p1a: Rhyperior|Earthquake|p2a: Escavalier
+|-damage|p2a: Escavalier|49/100
+|move|p2a: Escavalier|Iron Head|p1a: Rhyperior
+|-supereffective|p1a: Rhyperior
+|-damage|p1a: Rhyperior|35/100
+|
+|-heal|p1a: Rhyperior|41/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|choice|move earthquake|switch 2
+|
+|switch|p2a: Togetic|Togetic, M|100/100
+|move|p1a: Rhyperior|Earthquake|p2a: Togetic
+|-immune|p2a: Togetic|[msg]
+|
+|-heal|p1a: Rhyperior|47/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|choice|move stealthrock|move dazzlinggleam
+|
+|move|p2a: Togetic|Dazzling Gleam|p1a: Rhyperior
+|-damage|p1a: Rhyperior|25/100
+|move|p1a: Rhyperior|Stealth Rock|p2a: Togetic
+|-sidestart|p2: Mortify|move: Stealth Rock
+|
+|-heal|p1a: Rhyperior|31/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|choice|move rockblast|move dazzlinggleam
+|
+|move|p2a: Togetic|Dazzling Gleam|p1a: Rhyperior
+|-damage|p1a: Rhyperior|9/100
+|move|p1a: Rhyperior|Rock Blast|p2a: Togetic
+|-supereffective|p2a: Togetic
+|-crit|p2a: Togetic
+|-damage|p2a: Togetic|76/100
+|-supereffective|p2a: Togetic
+|-damage|p2a: Togetic|60/100
+|-supereffective|p2a: Togetic
+|-damage|p2a: Togetic|45/100
+|-hitcount|p2a: Togetic|3
+|
+|-heal|p1a: Rhyperior|15/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|choice|move rockblast|move dazzlinggleam
+|
+|move|p2a: Togetic|Dazzling Gleam|p1a: Rhyperior
+|-damage|p1a: Rhyperior|0 fnt
+|faint|p1a: Rhyperior
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Togetic|Togetic, M|100/100
+|turn|9
+|choice|move nastyplot|move roost
+|
+|move|p2a: Togetic|Roost|p2a: Togetic
+|-heal|p2a: Togetic|95/100
+|move|p1a: Togetic|Nasty Plot|p1a: Togetic
+|-boost|p1a: Togetic|spa|2
+|
+|upkeep
+|turn|10
+|choice|move nastyplot|move nastyplot
+|
+|move|p1a: Togetic|Nasty Plot|p1a: Togetic
+|-boost|p1a: Togetic|spa|2
+|move|p2a: Togetic|Nasty Plot|p2a: Togetic
+|-boost|p2a: Togetic|spa|2
+|
+|upkeep
+|turn|11
+|choice|move dazzlinggleam|move nastyplot
+|
+|move|p1a: Togetic|Dazzling Gleam|p2a: Togetic
+|-damage|p2a: Togetic|47/100
+|move|p2a: Togetic|Nasty Plot|p2a: Togetic
+|-boost|p2a: Togetic|spa|2
+|
+|upkeep
+|turn|12
+|choice|move dazzlinggleam|move dazzlinggleam
+|
+|move|p2a: Togetic|Dazzling Gleam|p1a: Togetic
+|-damage|p1a: Togetic|49/100
+|move|p1a: Togetic|Dazzling Gleam|p2a: Togetic
+|-damage|p2a: Togetic|0 fnt
+|faint|p2a: Togetic
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Escavalier|Escavalier, M|49/100
+|-damage|p2a: Escavalier|37/100|[from] Stealth Rock
+|turn|13
+|choice|move batonpass|move ironhead
+|
+|move|p1a: Togetic|Baton Pass|p1a: Togetic
+|choice|switch 5|
+|
+|switch|p1a: Hitmontop|Hitmontop, M|100/100
+|-ability|p1a: Hitmontop|Intimidate|boost
+|-unboost|p2a: Escavalier|atk|1
+|move|p2a: Escavalier|Iron Head|p1a: Hitmontop
+|-damage|p1a: Hitmontop|59/100
+|
+|-heal|p1a: Hitmontop|65/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|choice|move closecombat|switch 6
+|
+|switch|p2a: Golbat|Golbat, M|100/100
+|-damage|p2a: Golbat|76/100|[from] Stealth Rock
+|move|p1a: Hitmontop|Close Combat|p2a: Golbat
+|-resisted|p2a: Golbat
+|-damage|p2a: Golbat|69/100
+|-unboost|p1a: Hitmontop|def|1
+|-unboost|p1a: Hitmontop|spd|1
+|
+|-heal|p1a: Hitmontop|71/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|choice|move rapidspin|move superfang
+|
+|move|p2a: Golbat|Super Fang|p1a: Hitmontop
+|-damage|p1a: Hitmontop|36/100
+|move|p1a: Hitmontop|Rapid Spin|p2a: Golbat
+|-crit|p2a: Golbat
+|-damage|p2a: Golbat|65/100
+|
+|-heal|p1a: Hitmontop|42/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|choice|switch 4|move roost
+|
+|switch|p1a: Aggron|Aggron, M|100/100
+|move|p2a: Golbat|Roost|p2a: Golbat
+|-heal|p2a: Golbat|100/100
+|
+|upkeep
+|turn|17
+|choice|move headsmash|switch 4
+|
+|switch|p2a: Registeel|Registeel|100/100
+|-damage|p2a: Registeel|94/100|[from] Stealth Rock
+|move|p1a: Aggron|Head Smash|p2a: Registeel
+|-resisted|p2a: Registeel
+|-crit|p2a: Registeel
+|-damage|p2a: Registeel|43/100
+|
+|-heal|p2a: Registeel|49/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|choice|move headsmash|move seismictoss
+|
+|move|p1a: Aggron|Head Smash|p2a: Registeel|[miss]
+|-miss|p1a: Aggron|p2a: Registeel
+|move|p2a: Registeel|Seismic Toss|p1a: Aggron
+|-damage|p1a: Aggron|65/100
+|
+|-heal|p2a: Registeel|55/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|choice|move headsmash|move protect
+|
+|move|p2a: Registeel|Protect|p2a: Registeel
+|-singleturn|p2a: Registeel|Protect
+|move|p1a: Aggron|Head Smash|p2a: Registeel
+|-activate|p2a: Registeel|move: Protect
+|
+|-heal|p2a: Registeel|61/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|choice|move headsmash|move seismictoss
+|
+|move|p1a: Aggron|Head Smash|p2a: Registeel|[miss]
+|-miss|p1a: Aggron|p2a: Registeel
+|move|p2a: Registeel|Seismic Toss|p1a: Aggron
+|-damage|p1a: Aggron|29/100
+|
+|-heal|p2a: Registeel|67/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|choice|switch 3|move seismictoss
+|
+|switch|p1a: Spiritomb|Spiritomb, M|100/100
+|move|p2a: Registeel|Seismic Toss|p1a: Spiritomb
+|-immune|p1a: Spiritomb|[msg]
+|
+|-heal|p2a: Registeel|73/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|choice|move willowisp|move stealthrock
+|
+|move|p2a: Registeel|Stealth Rock|p1a: Spiritomb
+|-sidestart|p1: Rio91|move: Stealth Rock
+|move|p1a: Spiritomb|Will-O-Wisp|p2a: Registeel
+|-status|p2a: Registeel|brn
+|
+|-heal|p2a: Registeel|79/100 brn|[from] item: Leftovers
+|-damage|p2a: Registeel|66/100 brn|[from] brn
+|upkeep
+|turn|23
+|choice|move foulplay|move thunderwave
+|
+|move|p2a: Registeel|Thunder Wave|p1a: Spiritomb
+|-status|p1a: Spiritomb|par
+|move|p1a: Spiritomb|Foul Play|p2a: Registeel
+|-damage|p2a: Registeel|48/100 brn
+|
+|-heal|p2a: Registeel|54/100 brn|[from] item: Leftovers
+|-damage|p2a: Registeel|42/100 brn|[from] brn
+|upkeep
+|turn|24
+|choice|move foulplay|switch 3
+|
+|switch|p2a: Granbull|Granbull, M|100/100
+|-damage|p2a: Granbull|88/100|[from] Stealth Rock
+|-ability|p2a: Granbull|Intimidate|boost
+|-unboost|p1a: Spiritomb|atk|1
+|cant|p1a: Spiritomb|par
+|
+|-heal|p2a: Granbull|94/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|choice|move willowisp|move playrough
+|
+|move|p2a: Granbull|Play Rough|p1a: Spiritomb
+|-supereffective|p1a: Spiritomb
+|-damage|p1a: Spiritomb|22/100 par
+|move|p1a: Spiritomb|Will-O-Wisp|p2a: Granbull
+|-status|p2a: Granbull|brn
+|
+|-heal|p2a: Granbull|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Granbull|88/100 brn|[from] brn
+|upkeep
+|turn|26
+|choice|switch 3|move healbell
+|
+|switch|p1a: Aggron|Aggron, M|29/100
+|-damage|p1a: Aggron|23/100|[from] Stealth Rock
+|move|p2a: Granbull|Heal Bell|p2a: Granbull
+|-activate|p2a: Granbull|move: Heal Bell
+|-curestatus|p2a: Granbull|brn|[msg]
+|-curestatus|p2: Registeel|brn|[msg]
+|
+|-heal|p2a: Granbull|94/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|choice|move heavyslam|switch 6
+|
+|switch|p2a: Escavalier|Escavalier, M|37/100
+|-damage|p2a: Escavalier|25/100|[from] Stealth Rock
+|move|p1a: Aggron|Heavy Slam|p2a: Escavalier
+|-resisted|p2a: Escavalier
+|-damage|p2a: Escavalier|0 fnt
+|faint|p2a: Escavalier
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Granbull|Granbull, M|94/100
+|-damage|p2a: Granbull|82/100|[from] Stealth Rock
+|-ability|p2a: Granbull|Intimidate|boost
+|-unboost|p1a: Aggron|atk|1
+|turn|28
+|choice|move heavyslam|switch 3
+|
+|switch|p2a: Registeel|Registeel|42/100
+|-damage|p2a: Registeel|36/100|[from] Stealth Rock
+|move|p1a: Aggron|Heavy Slam|p2a: Registeel
+|-resisted|p2a: Registeel
+|-damage|p2a: Registeel|29/100
+|
+|-heal|p2a: Registeel|35/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|choice|move heavyslam|switch 3
+|
+|switch|p2a: Granbull|Granbull, M|82/100
+|-damage|p2a: Granbull|69/100|[from] Stealth Rock
+|-ability|p2a: Granbull|Intimidate|boost
+|-unboost|p1a: Aggron|atk|1
+|move|p1a: Aggron|Heavy Slam|p2a: Granbull
+|-supereffective|p2a: Granbull
+|-damage|p2a: Granbull|0 fnt
+|faint|p2a: Granbull
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Registeel|Registeel|35/100
+|-damage|p2a: Registeel|29/100|[from] Stealth Rock
+|turn|30
+|choice|switch 4|move seismictoss
+|
+|switch|p1a: Hitmontop|Hitmontop, M|42/100
+|-damage|p1a: Hitmontop|36/100|[from] Stealth Rock
+|-ability|p1a: Hitmontop|Intimidate|boost
+|-fail|p2a: Registeel|unboost|[from] ability: Clear Body|[of] p2a: Registeel
+|move|p2a: Registeel|Seismic Toss|p1a: Hitmontop
+|-damage|p1a: Hitmontop|3/100
+|
+|-heal|p1a: Hitmontop|9/100|[from] item: Leftovers
+|-heal|p2a: Registeel|35/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|choice|move rapidspin|switch 4
+|
+|switch|p2a: Golbat|Golbat, M|100/100
+|-damage|p2a: Golbat|76/100|[from] Stealth Rock
+|move|p1a: Hitmontop|Rapid Spin|p2a: Golbat
+|-damage|p2a: Golbat|72/100
+|-sideend|p1: Rio91|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Hitmontop
+|
+|-heal|p1a: Hitmontop|16/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|choice|switch 4|move bravebird
+|
+|switch|p1a: Aggron|Aggron, M|23/100
+|move|p2a: Golbat|Brave Bird|p1a: Aggron
+|-resisted|p1a: Aggron
+|-damage|p1a: Aggron|17/100
+|-damage|p2a: Golbat|71/100|[from] recoil|[of] p1a: Aggron
+|
+|upkeep
+|turn|33
+|choice|move headsmash|move roost
+|
+|move|p2a: Golbat|Roost|p2a: Golbat
+|-heal|p2a: Golbat|100/100
+|move|p1a: Aggron|Head Smash|p2a: Golbat
+|-damage|p2a: Golbat|26/100
+|
+|upkeep
+|turn|34
+|choice|move headsmash|move bravebird
+|
+|move|p2a: Golbat|Brave Bird|p1a: Aggron
+|-resisted|p1a: Aggron
+|-damage|p1a: Aggron|11/100
+|-damage|p2a: Golbat|25/100|[from] recoil|[of] p1a: Aggron
+|move|p1a: Aggron|Head Smash|p2a: Golbat|[miss]
+|-miss|p1a: Aggron|p2a: Golbat
+|
+|upkeep
+|turn|35
+|choice|move headsmash|move roost
+|
+|move|p2a: Golbat|Roost|p2a: Golbat
+|-heal|p2a: Golbat|75/100
+|move|p1a: Aggron|Head Smash|p2a: Golbat|[miss]
+|-miss|p1a: Aggron|p2a: Golbat
+|
+|upkeep
+|turn|36
+|choice|move headsmash|move bravebird
+|
+|move|p2a: Golbat|Brave Bird|p1a: Aggron
+|-resisted|p1a: Aggron
+|-damage|p1a: Aggron|5/100
+|-damage|p2a: Golbat|73/100|[from] recoil|[of] p1a: Aggron
+|move|p1a: Aggron|Head Smash|p2a: Golbat
+|-supereffective|p2a: Golbat
+|-damage|p2a: Golbat|0 fnt
+|faint|p2a: Golbat
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Registeel|Registeel|35/100
+|-damage|p2a: Registeel|29/100|[from] Stealth Rock
+|turn|37
+|choice|switch 4|move seismictoss
+|
+|switch|p1a: Hitmontop|Hitmontop, M|16/100
+|-ability|p1a: Hitmontop|Intimidate|boost
+|-fail|p2a: Registeel|unboost|[from] ability: Clear Body|[of] p2a: Registeel
+|move|p2a: Registeel|Seismic Toss|p1a: Hitmontop
+|-damage|p1a: Hitmontop|0 fnt
+|faint|p1a: Hitmontop
+|
+|-heal|p2a: Registeel|35/100|[from] item: Leftovers
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Aggron|Aggron, M|5/100
+|turn|38
+|-message|Mortify lost due to inactivity.
+|
+|win|Rio91
+|raw|Rio91's rating: 1182 &rarr; <strong>1213</strong><br />(+31 for winning)
+|raw|Mortify's rating: 1279 &rarr; <strong>1247</strong><br />(-32 for losing)

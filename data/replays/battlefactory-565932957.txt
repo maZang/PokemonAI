@@ -1,0 +1,530 @@
+|j|Gulk
+|j|Dr. Dugtrio
+|player|p1|Gulk|258
+|player|p2|Dr. Dugtrio|39
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|1328,45100,40966,38504,52560,41946,6709,41906,8494,51765,14091,4048
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Arceus-*|item
+|poke|p1|Scizor, M|item
+|poke|p1|Ferrothorn, M|item
+|poke|p1|Blaziken, M|item
+|poke|p1|Groudon|item
+|poke|p1|Darkrai|item
+|poke|p2|Kyurem-White|item
+|poke|p2|Arceus-*|item
+|poke|p2|Lucario, M|item
+|poke|p2|Latios, M|item
+|poke|p2|Tyranitar, M|item
+|poke|p2|Ferrothorn, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 6, team 2, team 3, team 4, team 5, team 1|team 1, team 2, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Darkrai|Darkrai|100/100
+|switch|p2a: Kyurem|Kyurem-White|100/100
+|-ability|p2a: Kyurem|Turboblaze
+|turn|1
+|choice|move darkvoid|switch 6
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|move|p1a: Darkrai|Dark Void|p2a: Ferrothorn|[miss]
+|-miss|p1a: Darkrai|p2a: Ferrothorn
+|
+|upkeep
+|turn|2
+|choice|switch 4|move leechseed
+|
+|switch|p1a: Blaziken|Blaziken, M|100/100
+|move|p2a: Ferrothorn|Leech Seed|p1a: Blaziken
+|-start|p1a: Blaziken|move: Leech Seed
+|
+|-damage|p1a: Blaziken|88/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|upkeep
+|turn|3
+|choice|move batonpass|move gyroball
+|
+|move|p1a: Blaziken|Baton Pass|p1a: Blaziken
+|choice|switch 4|
+|
+|switch|p1a: Darkrai|Darkrai|100/100
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Darkrai
+|-damage|p1a: Darkrai|49/100
+|
+|-damage|p1a: Darkrai|37/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|upkeep
+|turn|4
+|choice|move darkvoid|move spikes
+|
+|move|p1a: Darkrai|Dark Void|p2a: Ferrothorn
+|-status|p2a: Ferrothorn|slp
+|cant|p2a: Ferrothorn|slp
+|
+|-damage|p1a: Darkrai|24/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|88/100 slp|[from] ability: Bad Dreams|[of] p1a: Darkrai
+|upkeep
+|turn|5
+|choice|switch 4|move spikes
+|
+|switch|p1a: Blaziken|Blaziken, M|88/100
+|cant|p2a: Ferrothorn|slp
+|
+|-heal|p1a: Blaziken|94/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|94/100 slp|[from] item: Leftovers
+|upkeep
+|turn|6
+|choice|move swordsdance|switch 5
+|
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Blaziken|Swords Dance|p1a: Blaziken
+|-boost|p1a: Blaziken|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blaziken|88/100|[from] sandstorm
+|-heal|p1a: Blaziken|94/100|[from] item: Leftovers
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|turn|7
+|choice|move batonpass|move thunderwave
+|
+|move|p1a: Blaziken|Baton Pass|p1a: Blaziken
+|choice|switch 5|
+|
+|switch|p1a: Groudon|Groudon|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Groudon
+|move|p2a: Tyranitar|Thunder Wave|p1a: Groudon
+|-immune|p1a: Groudon|[msg]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|choice|move stoneedge|switch 5
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|94/100 slp
+|move|p1a: Groudon|Stone Edge|p2a: Ferrothorn|[miss]
+|-miss|p1a: Groudon|p2a: Ferrothorn
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Ferrothorn|99/100 slp|[from] item: Leftovers
+|upkeep
+|turn|9
+|choice|move precipiceblades|move leechseed
+|
+|move|p1a: Groudon|Precipice Blades|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|10/100 slp
+|-curestatus|p2a: Ferrothorn|slp|[msg]
+|move|p2a: Ferrothorn|Leech Seed|p1a: Groudon
+|-start|p1a: Groudon|move: Leech Seed
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Ferrothorn|16/100|[from] item: Leftovers
+|-damage|p1a: Groudon|88/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|31/100|[silent]
+|upkeep
+|turn|10
+|choice|move stealthrock|move powerwhip
+|
+|move|p1a: Groudon|Stealth Rock|p2a: Ferrothorn
+|-sidestart|p2: Dr. Dugtrio|move: Stealth Rock
+|move|p2a: Ferrothorn|Power Whip|p1a: Groudon
+|-supereffective|p1a: Groudon
+|-damage|p1a: Groudon|48/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Groudon|54/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|37/100|[from] item: Leftovers
+|-damage|p1a: Groudon|42/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|51/100|[silent]
+|upkeep
+|turn|11
+|choice|move precipiceblades|move powerwhip
+|
+|move|p1a: Groudon|Precipice Blades|p2a: Ferrothorn|[miss]
+|-miss|p1a: Groudon|p2a: Ferrothorn
+|move|p2a: Ferrothorn|Power Whip|p1a: Groudon
+|-supereffective|p1a: Groudon
+|-damage|p1a: Groudon|1/100
+|
+|-weather|none
+|-heal|p1a: Groudon|7/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|57/100|[from] item: Leftovers
+|-damage|p1a: Groudon|0 fnt|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|65/100|[silent]
+|upkeep
+|faint|p1a: Groudon
+|choice|switch 5|
+|
+|switch|p1a: Blaziken|Blaziken, M|94/100
+|turn|12
+|choice|move flareblitz|move leechseed
+|
+|move|p1a: Blaziken|Flare Blitz|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|-damage|p1a: Blaziken|82/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-damage|p1a: Blaziken|57/100|[from] recoil|[of] p2a: Ferrothorn
+|faint|p2a: Ferrothorn
+|
+|-heal|p1a: Blaziken|63/100|[from] item: Leftovers
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-damage|p2a: Tyranitar|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|13
+|choice|switch 3|move stealthrock
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|move|p2a: Tyranitar|Stealth Rock|p1a: Ferrothorn
+|-sidestart|p1: Gulk|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Tyranitar|94/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|choice|move leechseed|switch 6
+|
+|switch|p2a: Kyurem|Kyurem-White|100/100
+|-damage|p2a: Kyurem|76/100|[from] Stealth Rock
+|-ability|p2a: Kyurem|Turboblaze
+|move|p1a: Ferrothorn|Leech Seed|p2a: Kyurem
+|-start|p2a: Kyurem|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Kyurem|70/100|[from] sandstorm
+|-damage|p2a: Kyurem|57/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|upkeep
+|turn|15
+|choice|move protect|move fusionflare
+|
+|move|p1a: Ferrothorn|Protect|p1a: Ferrothorn
+|-singleturn|p1a: Ferrothorn|Protect
+|move|p2a: Kyurem|Fusion Flare|p1a: Ferrothorn
+|-activate|p1a: Ferrothorn|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Kyurem|51/100|[from] sandstorm
+|-damage|p2a: Kyurem|39/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|upkeep
+|turn|16
+|choice|switch 6|move fusionflare
+|
+|switch|p1a: Arceus|Arceus-Psychic|100/100
+|-damage|p1a: Arceus|88/100|[from] Stealth Rock
+|move|p2a: Kyurem|Fusion Flare|p1a: Arceus
+|-damage|p1a: Arceus|51/100
+|-damage|p2a: Kyurem|29/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Kyurem|23/100|[from] sandstorm
+|-damage|p1a: Arceus|45/100|[from] sandstorm
+|-damage|p2a: Kyurem|10/100|[from] Leech Seed|[of] p1a: Arceus
+|-heal|p1a: Arceus|55/100|[silent]
+|upkeep
+|turn|17
+|choice|move recover|move dracometeor
+|
+|move|p2a: Kyurem|Draco Meteor|p1a: Arceus|[miss]
+|-miss|p2a: Kyurem|p1a: Arceus
+|move|p1a: Arceus|Recover|p1a: Arceus
+|-heal|p1a: Arceus|100/100
+|
+|-weather|none
+|-damage|p2a: Kyurem|0 fnt|[from] Leech Seed|[of] p1a: Arceus
+|upkeep
+|faint|p2a: Kyurem
+|choice||switch 4
+|
+|switch|p2a: Latios|Latios, M|100/100
+|-damage|p2a: Latios|88/100|[from] Stealth Rock
+|turn|18
+|choice|move payback|move defog
+|
+|move|p2a: Latios|Defog|p1a: Arceus
+|-unboost|p1a: Arceus|evasion|1
+|-sideend|p1: Gulk|Stealth Rock|[from] move: Defog|[of] p1a: Arceus
+|-sideend|p2: Dr. Dugtrio|Stealth Rock|[from] move: Defog|[of] p2a: Latios
+|move|p1a: Arceus|Payback|p2a: Latios
+|-supereffective|p2a: Latios
+|-damage|p2a: Latios|28/100
+|
+|upkeep
+|turn|19
+|choice|move icebeam|move recover
+|
+|move|p2a: Latios|Recover|p2a: Latios
+|-heal|p2a: Latios|79/100
+|move|p1a: Arceus|Ice Beam|p2a: Latios
+|-supereffective|p2a: Latios
+|-damage|p2a: Latios|47/100
+|
+|upkeep
+|turn|20
+|choice|move icebeam|move recover
+|
+|move|p2a: Latios|Recover|p2a: Latios
+|-heal|p2a: Latios|97/100
+|move|p1a: Arceus|Ice Beam|p2a: Latios
+|-supereffective|p2a: Latios
+|-damage|p2a: Latios|65/100
+|
+|upkeep
+|turn|21
+|choice|move icebeam|switch 6
+|
+|switch|p2a: Tyranitar|Tyranitar, M|94/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Arceus|Ice Beam|p2a: Tyranitar
+|-damage|p2a: Tyranitar|84/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Arceus|94/100|[from] sandstorm
+|-heal|p2a: Tyranitar|90/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|choice|switch 6|move stealthrock
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|move|p2a: Tyranitar|Stealth Rock|p1a: Ferrothorn
+|-sidestart|p1: Gulk|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Tyranitar|97/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|choice|move gyroball|switch 6
+|
+|switch|p2a: Latios|Latios, M|65/100
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Latios
+|-damage|p2a: Latios|15/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|9/100|[from] sandstorm
+|upkeep
+|turn|24
+|choice|move protect|move dracometeor
+|
+|move|p1a: Ferrothorn|Protect|p1a: Ferrothorn
+|-singleturn|p1a: Ferrothorn|Protect
+|move|p2a: Latios|Draco Meteor|p1a: Ferrothorn
+|-activate|p1a: Ferrothorn|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|3/100|[from] sandstorm
+|upkeep
+|turn|25
+|choice|move spikes|move dracometeor
+|
+|move|p2a: Latios|Draco Meteor|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|67/100
+|-unboost|p2a: Latios|spa|2
+|move|p1a: Ferrothorn|Spikes|p2a: Latios
+|-sidestart|p2: Dr. Dugtrio|Spikes
+|
+|-weather|none
+|-heal|p1a: Ferrothorn|73/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|choice|move leechseed|switch 3
+|
+|switch|p2a: Lucario|Lucario, M|100/100
+|-damage|p2a: Lucario|88/100|[from] Spikes
+|move|p1a: Ferrothorn|Leech Seed|p2a: Lucario
+|-start|p2a: Lucario|move: Leech Seed
+|
+|-heal|p1a: Ferrothorn|79/100|[from] item: Leftovers
+|-damage|p2a: Lucario|76/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|89/100|[silent]
+|upkeep
+|turn|27
+|choice|switch 6|move closecombat mega
+|
+|switch|p1a: Arceus|Arceus-Psychic|94/100
+|-damage|p1a: Arceus|82/100|[from] Stealth Rock
+|detailschange|p2a: Lucario|Lucario-Mega, M
+|-mega|p2a: Lucario|Lucario|Lucarionite
+|move|p2a: Lucario|Close Combat|p1a: Arceus
+|-resisted|p1a: Arceus
+|-damage|p1a: Arceus|59/100
+|-unboost|p2a: Lucario|def|1
+|-unboost|p2a: Lucario|spd|1
+|
+|-damage|p2a: Lucario|63/100|[from] Leech Seed|[of] p1a: Arceus
+|-heal|p1a: Arceus|67/100|[silent]
+|upkeep
+|turn|28
+|choice|move recover|switch 3
+|
+|switch|p2a: Latios|Latios, M|3/100
+|move|p1a: Arceus|Recover|p1a: Arceus
+|-heal|p1a: Arceus|100/100
+|
+|upkeep
+|turn|29
+|choice|move icebeam|move recover
+|
+|move|p2a: Latios|Recover|p2a: Latios
+|-heal|p2a: Latios|53/100
+|move|p1a: Arceus|Ice Beam|p2a: Latios
+|-supereffective|p2a: Latios
+|-damage|p2a: Latios|19/100
+|
+|upkeep
+|turn|30
+|choice|move payback|move recover
+|
+|move|p2a: Latios|Recover|p2a: Latios
+|-heal|p2a: Latios|69/100
+|move|p1a: Arceus|Payback|p2a: Latios
+|-supereffective|p2a: Latios
+|-damage|p2a: Latios|2/100
+|
+|upkeep
+|turn|31
+|choice|move icebeam|move dracometeor
+|
+|move|p2a: Latios|Draco Meteor|p1a: Arceus
+|-damage|p1a: Arceus|35/100
+|-unboost|p2a: Latios|spa|2
+|move|p1a: Arceus|Ice Beam|p2a: Latios
+|-supereffective|p2a: Latios
+|-damage|p2a: Latios|0 fnt
+|faint|p2a: Latios
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Lucario|Lucario-Mega, M|63/100
+|-damage|p2a: Lucario|51/100|[from] Spikes
+|turn|32
+|choice|move recover|move irontail
+|
+|move|p2a: Lucario|Iron Tail|p1a: Arceus
+|-damage|p1a: Arceus|0 fnt
+|faint|p1a: Arceus
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Blaziken|Blaziken, M|63/100
+|-damage|p1a: Blaziken|51/100|[from] Stealth Rock
+|turn|33
+|choice|move protect|move closecombat
+|
+|move|p1a: Blaziken|Protect|p1a: Blaziken
+|-singleturn|p1a: Blaziken|Protect
+|move|p2a: Lucario|Close Combat|p1a: Blaziken
+|-activate|p1a: Blaziken|move: Protect
+|
+|-heal|p1a: Blaziken|57/100|[from] item: Leftovers
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|turn|34
+|choice|move swordsdance|switch 6
+|
+|switch|p2a: Tyranitar|Tyranitar, M|97/100
+|-damage|p2a: Tyranitar|84/100|[from] Spikes
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Blaziken|Swords Dance|p1a: Blaziken
+|-boost|p1a: Blaziken|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blaziken|51/100|[from] sandstorm
+|-heal|p1a: Blaziken|57/100|[from] item: Leftovers
+|-heal|p2a: Tyranitar|90/100|[from] item: Leftovers
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|turn|35
+|choice|move batonpass|move thunderwave
+|
+|move|p1a: Blaziken|Baton Pass|p1a: Blaziken
+|choice|switch 2|
+|
+|switch|p1a: Scizor|Scizor, M|100/100
+|-damage|p1a: Scizor|88/100|[from] Stealth Rock
+|move|p2a: Tyranitar|Thunder Wave|p1a: Scizor
+|-status|p1a: Scizor|par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Tyranitar|97/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|choice|move bulletpunch mega|move rockslide
+|
+|detailschange|p1a: Scizor|Scizor-Mega, M
+|-mega|p1a: Scizor|Scizor|Scizorite
+|cant|p1a: Scizor|par
+|move|p2a: Tyranitar|Rock Slide|p1a: Scizor
+|-damage|p1a: Scizor|68/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Tyranitar|100/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|choice|move roost|move rockslide
+|
+|move|p2a: Tyranitar|Rock Slide|p1a: Scizor
+|-damage|p1a: Scizor|48/100 par
+|move|p1a: Scizor|Roost|p1a: Scizor
+|-heal|p1a: Scizor|98/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|38
+|choice|move bulletpunch|move rockslide
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|12/100
+|move|p2a: Tyranitar|Rock Slide|p1a: Scizor
+|-damage|p1a: Scizor|78/100 par
+|
+|-weather|none
+|-heal|p2a: Tyranitar|18/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|choice|move bulletpunch|move rockslide
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Lucario|Lucario-Mega, M|51/100
+|-damage|p2a: Lucario|38/100|[from] Spikes
+|turn|40
+|choice|move roost|move closecombat
+|
+|move|p2a: Lucario|Close Combat|p1a: Scizor
+|-damage|p1a: Scizor|21/100 par
+|-unboost|p2a: Lucario|def|1
+|-unboost|p2a: Lucario|spd|1
+|move|p1a: Scizor|Roost|p1a: Scizor
+|-heal|p1a: Scizor|71/100 par
+|
+|upkeep
+|turn|41
+|c|☆Dr. Dugtrio|stacked fuckin teams and luck all the way
+|l|Dr. Dugtrio
+|player|p2|
+|c|☆Gulk|lmao
+|-message|Dr. Dugtrio lost due to inactivity.
+|
+|win|Gulk

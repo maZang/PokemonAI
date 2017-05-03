@@ -1,0 +1,285 @@
+|J|doubleswitches
+|J|mr. perry ♪♫
+|player|p1|doubleswitches|229
+|player|p2|mr. perry ♪♫|178
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|56526,24646,16406,51196,23025,6621,25288,48657,29322,35456,22178,56582
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Arceus-*|item
+|poke|p1|Diancie|item
+|poke|p1|Ho-Oh|item
+|poke|p1|Giratina|item
+|poke|p1|Greninja, M|item
+|poke|p1|Latias, F|item
+|poke|p2|Arceus-*|item
+|poke|p2|Rayquaza|item
+|poke|p2|Latias, F|item
+|poke|p2|Groudon|item
+|poke|p2|Genesect-*|item
+|poke|p2|Deoxys-Defense|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|c|☆mr. perry ♪♫|My tier
+|c|☆mr. perry ♪♫|.
+|choice|team 5, team 2, team 3, team 4, team 1, team 6|team 6, team 2, team 3, team 4, team 5, team 1
+|
+|start
+|switch|p1a: Greninja|Greninja, M|100/100
+|switch|p2a: Deoxys|Deoxys-Defense|100/100
+|-ability|p2a: Deoxys|Pressure
+|turn|1
+|choice|move taunt|switch 5
+|
+|switch|p2a: Genesect|Genesect|100/100
+|-ability|p2a: Genesect|Download|boost
+|-boost|p2a: Genesect|atk|1
+|move|p1a: Greninja|Taunt|p2a: Genesect
+|-start|p1a: Greninja|typechange|Dark|[from] Protean
+|-start|p2a: Genesect|move: Taunt
+|
+|upkeep
+|turn|2
+|choice|move toxicspikes|move uturn
+|
+|move|p2a: Genesect|U-turn|p1a: Greninja
+|-supereffective|p1a: Greninja
+|-enditem|p1a: Greninja|Focus Sash
+|-damage|p1a: Greninja|1/100
+|choice||switch 2
+|
+|switch|p2a: Rayquaza|Rayquaza|100/100
+|-ability|p2a: Rayquaza|Air Lock
+|move|p1a: Greninja|Toxic Spikes|p2a: Rayquaza
+|-start|p1a: Greninja|typechange|Poison|[from] Protean
+|-sidestart|p2: mr. perry ♪♫|move: Toxic Spikes
+|
+|upkeep
+|turn|3
+|c|☆doubleswitches|check disc
+|choice|switch 4|move extremespeed
+|
+|switch|p1a: Giratina|Giratina|100/100
+|-ability|p1a: Giratina|Pressure
+|move|p2a: Rayquaza|Extreme Speed|p1a: Giratina
+|-immune|p1a: Giratina|[msg]
+|
+|upkeep
+|turn|4
+|J|steelxawesomeisbad
+|choice|switch 4|switch 3
+|
+|switch|p2a: Latias|Latias, F|100/100
+|switch|p1a: Greninja|Greninja, M|1/100
+|
+|upkeep
+|turn|5
+|choice|move spikes|switch 3
+|
+|switch|p2a: Rayquaza|Rayquaza|100/100
+|-ability|p2a: Rayquaza|Air Lock
+|move|p1a: Greninja|Spikes|p2a: Rayquaza
+|-start|p1a: Greninja|typechange|Ground|[from] Protean
+|-sidestart|p2: mr. perry ♪♫|Spikes
+|
+|upkeep
+|turn|6
+|choice|move shadowsneak|move dragonascent
+|
+|move|p1a: Greninja|Shadow Sneak|p2a: Rayquaza
+|-start|p1a: Greninja|typechange|Ghost|[from] Protean
+|-damage|p2a: Rayquaza|81/100
+|move|p2a: Rayquaza|Dragon Ascent|p1a: Greninja
+|-damage|p1a: Greninja|0 fnt
+|-unboost|p2a: Rayquaza|def|1
+|-unboost|p2a: Rayquaza|spd|1
+|-damage|p2a: Rayquaza|71/100|[from] item: Life Orb
+|faint|p1a: Greninja
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Diancie|Diancie|100/100
+|turn|7
+|choice|move stealthrock mega|switch 2
+|
+|switch|p2a: Genesect|Genesect|100/100
+|-damage|p2a: Genesect|88/100|[from] Spikes
+|-ability|p2a: Genesect|Download|boost
+|-boost|p2a: Genesect|atk|1
+|detailschange|p1a: Diancie|Diancie-Mega
+|-mega|p1a: Diancie|Diancie|Diancite
+|move|p1a: Diancie|Stealth Rock|p2a: Genesect
+|-sidestart|p2: mr. perry ♪♫|move: Stealth Rock
+|
+|upkeep
+|turn|8
+|choice|switch 5|move uturn
+|
+|switch|p1a: Arceus|Arceus-Flying|100/100
+|move|p2a: Genesect|U-turn|p1a: Arceus
+|-resisted|p1a: Arceus
+|-damage|p1a: Arceus|81/100
+|choice||switch 3
+|
+|switch|p2a: Latias|Latias, F|100/100
+|-damage|p2a: Latias|88/100|[from] Stealth Rock
+|
+|upkeep
+|turn|9
+|choice|move calmmind|move defog
+|
+|move|p2a: Latias|Defog|p1a: Arceus
+|-unboost|p1a: Arceus|evasion|1
+|-sideend|p2: mr. perry ♪♫|Spikes|[from] move: Defog|[of] p2a: Latias
+|-sideend|p2: mr. perry ♪♫|Toxic Spikes|[from] move: Defog|[of] p2a: Latias
+|-sideend|p2: mr. perry ♪♫|Stealth Rock|[from] move: Defog|[of] p2a: Latias
+|move|p1a: Arceus|Calm Mind|p1a: Arceus
+|-boost|p1a: Arceus|spa|1
+|-boost|p1a: Arceus|spd|1
+|
+|upkeep
+|turn|10
+|c|☆doubleswitches|;-;
+|choice|move substitute|switch 2
+|
+|switch|p2a: Rayquaza|Rayquaza|71/100
+|-ability|p2a: Rayquaza|Air Lock
+|move|p1a: Arceus|Substitute|p1a: Arceus
+|-start|p1a: Arceus|Substitute
+|-damage|p1a: Arceus|56/100
+|
+|upkeep
+|turn|11
+|choice|move judgment|move extremespeed
+|
+|move|p2a: Rayquaza|Extreme Speed|p1a: Arceus
+|-end|p1a: Arceus|Substitute
+|-damage|p2a: Rayquaza|61/100|[from] item: Life Orb
+|move|p1a: Arceus|Judgment|p2a: Rayquaza
+|-damage|p2a: Rayquaza|0 fnt
+|faint|p2a: Rayquaza
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Genesect|Genesect|88/100
+|-ability|p2a: Genesect|Download|boost
+|-boost|p2a: Genesect|atk|1
+|turn|12
+|choice|move recover|move ironhead
+|
+|move|p2a: Genesect|Iron Head|p1a: Arceus
+|-damage|p1a: Arceus|11/100
+|cant|p1a: Arceus|flinch
+|
+|upkeep
+|turn|13
+|choice|switch 4|move ironhead
+|
+|switch|p1a: Giratina|Giratina|100/100
+|-ability|p1a: Giratina|Pressure
+|move|p2a: Genesect|Iron Head|p1a: Giratina
+|-crit|p1a: Giratina
+|-damage|p1a: Giratina|59/100
+|
+|-heal|p1a: Giratina|65/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|choice|move willowisp|switch 5
+|
+|switch|p2a: Deoxys|Deoxys-Defense|100/100
+|-ability|p2a: Deoxys|Pressure
+|move|p1a: Giratina|Will-O-Wisp|p2a: Deoxys
+|-status|p2a: Deoxys|brn
+|
+|-heal|p1a: Giratina|71/100|[from] item: Leftovers
+|-damage|p2a: Deoxys|88/100 brn|[from] brn
+|upkeep
+|turn|15
+|choice|switch 5|move skillswap
+|
+|switch|p1a: Diancie|Diancie-Mega|100/100
+|move|p2a: Deoxys|Skill Swap|p1a: Diancie
+|-activate|p2a: Deoxys|move: Skill Swap|Magic Bounce|Pressure|[of] p1a: Diancie
+|-ability|p1a: Diancie|Pressure
+|
+|-damage|p2a: Deoxys|76/100 brn|[from] brn
+|upkeep
+|turn|16
+|choice|move diamondstorm|move spikes
+|
+|move|p1a: Diancie|Diamond Storm|p2a: Deoxys
+|-damage|p2a: Deoxys|35/100 brn
+|move|p2a: Deoxys|Spikes|p1a: Diancie
+|-sidestart|p1: doubleswitches|Spikes
+|
+|-damage|p2a: Deoxys|23/100 brn|[from] brn
+|upkeep
+|turn|17
+|choice|move moonblast|move spikes
+|
+|move|p1a: Diancie|Moonblast|p2a: Deoxys
+|-damage|p2a: Deoxys|0 fnt
+|faint|p2a: Deoxys
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Genesect|Genesect|88/100
+|-ability|p2a: Genesect|Download|boost
+|-boost|p2a: Genesect|atk|1
+|turn|18
+|choice|switch 3|move ironhead
+|
+|switch|p1a: Ho-Oh|Ho-Oh|100/100
+|move|p2a: Genesect|Iron Head|p1a: Ho-Oh
+|-resisted|p1a: Ho-Oh
+|-damage|p1a: Ho-Oh|75/100
+|
+|upkeep
+|turn|19
+|choice|move substitute|switch 4
+|
+|switch|p2a: Groudon|Groudon|100/100
+|detailschange|p2a: Groudon|Groudon-Primal
+|-primal|p2a: Groudon
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p2a: Groudon
+|move|p1a: Ho-Oh|Substitute|p1a: Ho-Oh
+|-start|p1a: Ho-Oh|Substitute
+|-damage|p1a: Ho-Oh|50/100
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|20
+|choice|move recover|move stealthrock
+|
+|move|p2a: Groudon|Stealth Rock|p1a: Ho-Oh
+|-sidestart|p1: doubleswitches|move: Stealth Rock
+|move|p1a: Ho-Oh|Recover|p1a: Ho-Oh
+|-heal|p1a: Ho-Oh|99/100
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|21
+|L|mr. perry ♪♫
+|player|p2|
+|J|mr. perry ♪♫
+|player|p2|mr. perry ♪♫|178
+|c|☆mr. perry ♪♫|Help
+|c|☆doubleswitches|?
+|L|mr. perry ♪♫
+|player|p2|
+|J|mr. perry ♪♫
+|player|p2|mr. perry ♪♫|178
+|c|☆mr. perry ♪♫|I cannot join battle
+|c|☆doubleswitches|...
+|c|☆doubleswitches|:/
+|c|☆mr. perry ♪♫|Lets play another
+|c|☆mr. perry ♪♫|.
+|-message|doubleswitches forfeited.
+|
+|win|mr. perry ♪♫

@@ -1,0 +1,215 @@
+|j|bobasba
+|j|HyperSinnoh600
+|player|p1|bobasba|124
+|player|p2|HyperSinnoh600|238
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|27144,18324,8814,16540,33363,56938,40098,36102,11110,5359,11654,58882
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Arceus-*|item
+|poke|p1|Latios, M|item
+|poke|p1|Deoxys-Defense|item
+|poke|p1|Reshiram|item
+|poke|p1|Diancie|item
+|poke|p1|Groudon|item
+|poke|p2|Mewtwo|item
+|poke|p2|Arceus-*|item
+|poke|p2|Tyranitar, M|item
+|poke|p2|Lugia|item
+|poke|p2|Blissey, F|item
+|poke|p2|Darkrai|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 1, team 2, team 3, team 4, team 5, team 6|team 3, team 2, team 1, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Arceus|Arceus|100/100
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|1
+|choice|move earthquake|move stealthrock
+|
+|move|p1a: Arceus|Earthquake|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-enditem|p2a: Tyranitar|Shuca Berry|[eat]
+|-enditem|p2a: Tyranitar|Shuca Berry|[weaken]
+|-damage|p2a: Tyranitar|70/100
+|-damage|p1a: Arceus|91/100|[from] item: Life Orb
+|move|p2a: Tyranitar|Stealth Rock|p1a: Arceus
+|-sidestart|p1: bobasba|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Arceus|84/100|[from] sandstorm
+|upkeep
+|turn|2
+|choice|move earthquake|switch 3
+|
+|switch|p2a: Mewtwo|Mewtwo|100/100
+|-ability|p2a: Mewtwo|Pressure
+|move|p1a: Arceus|Earthquake|p2a: Mewtwo
+|-damage|p2a: Mewtwo|56/100
+|-damage|p1a: Arceus|75/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mewtwo|50/100|[from] sandstorm
+|-damage|p1a: Arceus|68/100|[from] sandstorm
+|upkeep
+|turn|3
+|choice|switch 5|move calmmind
+|
+|switch|p1a: Diancie|Diancie|100/100
+|-damage|p1a: Diancie|88/100|[from] Stealth Rock
+|move|p2a: Mewtwo|Calm Mind|p2a: Mewtwo
+|-boost|p2a: Mewtwo|spa|1
+|-boost|p2a: Mewtwo|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mewtwo|44/100|[from] sandstorm
+|upkeep
+|turn|4
+|choice|move protect mega|move icebeam
+|
+|detailschange|p1a: Diancie|Diancie-Mega
+|-mega|p1a: Diancie|Diancie|Diancite
+|move|p1a: Diancie|Protect|p1a: Diancie
+|-singleturn|p1a: Diancie|Protect
+|move|p2a: Mewtwo|Ice Beam|p1a: Diancie
+|-activate|p1a: Diancie|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mewtwo|37/100|[from] sandstorm
+|upkeep
+|turn|5
+|choice|move moonblast|move icebeam
+|
+|move|p2a: Mewtwo|Ice Beam|p1a: Diancie
+|-damage|p1a: Diancie|25/100
+|-status|p1a: Diancie|frz
+|-damage|p2a: Mewtwo|27/100|[from] item: Life Orb
+|cant|p1a: Diancie|frz
+|
+|-weather|none
+|upkeep
+|turn|6
+|choice|move protect|move icebeam
+|
+|cant|p1a: Diancie|frz
+|move|p2a: Mewtwo|Ice Beam|p1a: Diancie
+|-damage|p1a: Diancie|0 fnt
+|-damage|p2a: Mewtwo|17/100|[from] item: Life Orb
+|faint|p1a: Diancie
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Reshiram|Reshiram|100/100
+|-damage|p1a: Reshiram|76/100|[from] Stealth Rock
+|-ability|p1a: Reshiram|Turboblaze
+|turn|7
+|choice|move dracometeor|move psystrike
+|
+|move|p2a: Mewtwo|Psystrike|p1a: Reshiram
+|-damage|p1a: Reshiram|0 fnt
+|-damage|p2a: Mewtwo|8/100|[from] item: Life Orb
+|faint|p1a: Reshiram
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Groudon|Groudon|100/100
+|-damage|p1a: Groudon|94/100|[from] Stealth Rock
+|detailschange|p1a: Groudon|Groudon-Primal
+|-primal|p1a: Groudon
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p1a: Groudon
+|turn|8
+|choice|move precipiceblades|move psystrike
+|
+|move|p2a: Mewtwo|Psystrike|p1a: Groudon
+|-crit|p1a: Groudon
+|-damage|p1a: Groudon|0 fnt
+|-damage|p2a: Mewtwo|0 fnt|[from] item: Life Orb
+|faint|p1a: Groudon
+|-weather|none
+|faint|p2a: Mewtwo
+|
+|upkeep
+|choice|switch 3|switch 6
+|
+|switch|p2a: Darkrai|Darkrai|100/100
+|switch|p1a: Deoxys|Deoxys-Defense|100/100
+|-damage|p1a: Deoxys|88/100|[from] Stealth Rock
+|-ability|p1a: Deoxys|Pressure
+|turn|9
+|choice|move spikes|move nastyplot
+|
+|move|p2a: Darkrai|Nasty Plot|p2a: Darkrai
+|-boost|p2a: Darkrai|spa|2
+|move|p1a: Deoxys|Spikes|p2a: Darkrai
+|-sidestart|p2: HyperSinnoh600|Spikes
+|
+|upkeep
+|turn|10
+|choice|move toxic|move darkpulse
+|
+|move|p2a: Darkrai|Dark Pulse|p1a: Deoxys
+|-supereffective|p1a: Deoxys
+|-damage|p1a: Deoxys|0 fnt
+|-damage|p2a: Darkrai|91/100|[from] item: Life Orb
+|faint|p1a: Deoxys
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Latios|Latios, M|100/100
+|-damage|p1a: Latios|88/100|[from] Stealth Rock
+|turn|11
+|choice|move dracometeor|move darkpulse
+|
+|move|p2a: Darkrai|Dark Pulse|p1a: Latios
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|0 fnt
+|-damage|p2a: Darkrai|81/100|[from] item: Life Orb
+|faint|p1a: Latios
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Arceus|Arceus|68/100
+|-damage|p1a: Arceus|56/100|[from] Stealth Rock
+|turn|12
+|c|☆HyperSinnoh600|NOT TODAY
+|choice|move earthquake|move focusblast
+|
+|move|p2a: Darkrai|Focus Blast|p1a: Arceus|[miss]
+|-miss|p2a: Darkrai|p1a: Arceus
+|move|p1a: Arceus|Earthquake|p2a: Darkrai
+|-damage|p2a: Darkrai|21/100
+|-damage|p1a: Arceus|46/100|[from] item: Life Orb
+|
+|upkeep
+|turn|13
+|choice|move earthquake|move darkvoid
+|
+|move|p2a: Darkrai|Dark Void|p1a: Arceus
+|-status|p1a: Arceus|slp
+|cant|p1a: Arceus|slp
+|
+|-damage|p1a: Arceus|34/100 slp|[from] ability: Bad Dreams|[of] p2a: Darkrai
+|upkeep
+|turn|14
+|choice|move earthquake|move focusblast
+|
+|move|p2a: Darkrai|Focus Blast|p1a: Arceus
+|-supereffective|p1a: Arceus
+|-crit|p1a: Arceus
+|-damage|p1a: Arceus|0 fnt
+|-damage|p2a: Darkrai|11/100|[from] item: Life Orb
+|faint|p1a: Arceus
+|
+|win|HyperSinnoh600
+|raw|bobasba's rating: 1101 &rarr; <strong>1073</strong><br />(-28 for losing)
+|raw|HyperSinnoh600's rating: 1056 &rarr; <strong>1091</strong><br />(+35 for winning)

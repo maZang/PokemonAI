@@ -1,0 +1,514 @@
+|j|papi_fermin
+|j|Yondere69420
+|player|p1|papi_fermin|264
+|player|p2|Yondere69420|266
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|56701,5566,37877,54308,63002,46259,26416,16090,31870,41924,6854,7930
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Regirock|item
+|poke|p1|Roselia, M|item
+|poke|p1|Aurorus, M|item
+|poke|p1|Weezing, M|item
+|poke|p1|Pelipper, M|item
+|poke|p1|Mismagius, M|item
+|poke|p2|Torterra, M|item
+|poke|p2|Pelipper, M|item
+|poke|p2|Klinklang|item
+|poke|p2|Misdreavus, M|item
+|poke|p2|Samurott, M|item
+|poke|p2|Haunter, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by papi_fermin)
+|c|☆papi_fermin|goodluck homie
+|choice|team 4, team 2, team 3, team 1, team 5, team 6|team 3, team 2, team 1, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Weezing|Weezing, M|100/100
+|switch|p2a: Klinklang|Klinklang|100/100
+|turn|1
+|choice|move willowisp|move substitute
+|
+|move|p2a: Klinklang|Substitute|p2a: Klinklang
+|-start|p2a: Klinklang|Substitute
+|-damage|p2a: Klinklang|75/100
+|move|p1a: Weezing|Will-O-Wisp|p2a: Klinklang
+|-fail|p2a: Klinklang
+|
+|-heal|p2a: Klinklang|81/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|choice|switch 5|move shiftgear
+|
+|switch|p1a: Pelipper|Pelipper, M|100/100
+|move|p2a: Klinklang|Shift Gear|p2a: Klinklang
+|-boost|p2a: Klinklang|spe|2
+|-boost|p2a: Klinklang|atk|1
+|
+|-heal|p2a: Klinklang|87/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|choice|move scald|move shiftgear
+|
+|move|p2a: Klinklang|Shift Gear|p2a: Klinklang
+|-boost|p2a: Klinklang|spe|2
+|-boost|p2a: Klinklang|atk|1
+|move|p1a: Pelipper|Scald|p2a: Klinklang
+|-end|p2a: Klinklang|Substitute
+|
+|-heal|p2a: Klinklang|93/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|choice|move scald|move return
+|
+|move|p2a: Klinklang|Return|p1a: Pelipper
+|-damage|p1a: Pelipper|49/100
+|move|p1a: Pelipper|Scald|p2a: Klinklang
+|-damage|p2a: Klinklang|61/100
+|-status|p2a: Klinklang|brn
+|
+|-heal|p2a: Klinklang|67/100 brn|[from] item: Leftovers
+|-heal|p1a: Pelipper|55/100|[from] item: Leftovers
+|-damage|p2a: Klinklang|54/100 brn|[from] brn
+|upkeep
+|turn|5
+|choice|switch 6|move return
+|
+|switch|p1a: Mismagius|Mismagius, M|100/100
+|move|p2a: Klinklang|Return|p1a: Mismagius
+|-immune|p1a: Mismagius|[msg]
+|
+|-heal|p2a: Klinklang|60/100 brn|[from] item: Leftovers
+|-damage|p2a: Klinklang|48/100 brn|[from] brn
+|upkeep
+|turn|6
+|choice|move hex|move substitute
+|
+|move|p2a: Klinklang|Substitute|p2a: Klinklang
+|-start|p2a: Klinklang|Substitute
+|-damage|p2a: Klinklang|23/100 brn
+|move|p1a: Mismagius|Hex|p2a: Klinklang
+|-end|p2a: Klinklang|Substitute
+|
+|-heal|p2a: Klinklang|29/100 brn|[from] item: Leftovers
+|-damage|p2a: Klinklang|17/100 brn|[from] brn
+|upkeep
+|turn|7
+|choice|move hex|move geargrind
+|
+|move|p2a: Klinklang|Gear Grind|p1a: Mismagius
+|-damage|p1a: Mismagius|63/100
+|-damage|p1a: Mismagius|23/100
+|-hitcount|p1a: Mismagius|2
+|move|p1a: Mismagius|Hex|p2a: Klinklang
+|-damage|p2a: Klinklang|0 fnt
+|faint|p2a: Klinklang
+|
+|-heal|p1a: Mismagius|29/100|[from] item: Leftovers
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Samurott|Samurott, M|100/100
+|turn|8
+|choice|move willowisp|move aquajet
+|
+|move|p2a: Samurott|Aqua Jet|p1a: Mismagius
+|-damage|p1a: Mismagius|0 fnt
+|-damage|p2a: Samurott|91/100|[from] item: Life Orb
+|faint|p1a: Mismagius
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Weezing|Weezing, M|100/100
+|turn|9
+|choice|move willowisp|move hydropump
+|
+|move|p2a: Samurott|Hydro Pump|p1a: Weezing
+|-damage|p1a: Weezing|0 fnt
+|-damage|p2a: Samurott|81/100|[from] item: Life Orb
+|faint|p1a: Weezing
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Roselia|Roselia, M|100/100
+|turn|10
+|choice|move sludgebomb|switch 4
+|
+|switch|p2a: Misdreavus|Misdreavus, M|100/100
+|move|p1a: Roselia|Sludge Bomb|p2a: Misdreavus
+|-resisted|p2a: Misdreavus
+|-damage|p2a: Misdreavus|87/100
+|-status|p2a: Misdreavus|psn
+|
+|-damage|p2a: Misdreavus|75/100 psn|[from] psn
+|upkeep
+|turn|11
+|choice|move gigadrain|move willowisp
+|
+|move|p2a: Misdreavus|Will-O-Wisp|p1a: Roselia
+|-status|p1a: Roselia|brn
+|move|p1a: Roselia|Giga Drain|p2a: Misdreavus
+|-damage|p2a: Misdreavus|53/100 psn
+|
+|-damage|p2a: Misdreavus|41/100 psn|[from] psn
+|-damage|p1a: Roselia|88/100 brn|[from] brn
+|upkeep
+|turn|12
+|choice|move gigadrain|move taunt
+|
+|move|p2a: Misdreavus|Taunt|p1a: Roselia
+|-start|p1a: Roselia|move: Taunt
+|move|p1a: Roselia|Giga Drain|p2a: Misdreavus
+|-damage|p2a: Misdreavus|21/100 psn
+|-heal|p1a: Roselia|99/100 brn|[from] drain|[of] p2a: Misdreavus
+|
+|-damage|p2a: Misdreavus|9/100 psn|[from] psn
+|-damage|p1a: Roselia|86/100 brn|[from] brn
+|upkeep
+|turn|13
+|choice|move gigadrain|move painsplit
+|
+|move|p2a: Misdreavus|Pain Split|p1a: Roselia
+|-sethp|p1a: Roselia|48/100 brn|p2a: Misdreavus|45/100 psn|[from] move: Pain Split
+|move|p1a: Roselia|Giga Drain|p2a: Misdreavus
+|-damage|p2a: Misdreavus|23/100 psn
+|-heal|p1a: Roselia|59/100 brn|[from] drain|[of] p2a: Misdreavus
+|
+|-damage|p2a: Misdreavus|11/100 psn|[from] psn
+|-damage|p1a: Roselia|47/100 brn|[from] brn
+|upkeep
+|turn|14
+|choice|move gigadrain|move hex
+|
+|move|p2a: Misdreavus|Hex|p1a: Roselia
+|-damage|p1a: Roselia|23/100 brn
+|move|p1a: Roselia|Giga Drain|p2a: Misdreavus
+|-damage|p2a: Misdreavus|0 fnt
+|-heal|p1a: Roselia|28/100 brn|[from] drain|[of] p2a: Misdreavus
+|faint|p2a: Misdreavus
+|
+|-damage|p1a: Roselia|16/100 brn|[from] brn
+|-end|p1a: Roselia|move: Taunt
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Samurott|Samurott, M|81/100
+|turn|15
+|choice|move gigadrain|switch 6
+|
+|switch|p2a: Haunter|Haunter, M|100/100
+|move|p1a: Roselia|Giga Drain|p2a: Haunter
+|-resisted|p2a: Haunter
+|-damage|p2a: Haunter|68/100
+|-heal|p1a: Roselia|28/100 brn|[from] drain|[of] p2a: Haunter
+|
+|-damage|p1a: Roselia|16/100 brn|[from] brn
+|upkeep
+|turn|16
+|choice|switch 3|move shadowball
+|
+|-curestatus|p1a: Roselia|brn|[from] ability: Natural Cure
+|switch|p1a: Aurorus|Aurorus, M|100/100
+|move|p2a: Haunter|Shadow Ball|p1a: Aurorus
+|-damage|p1a: Aurorus|49/100
+|-damage|p2a: Haunter|58/100|[from] item: Life Orb
+|
+|upkeep
+|turn|17
+|choice|move hypervoice|move shadowball
+|
+|move|p2a: Haunter|Shadow Ball|p1a: Aurorus
+|-damage|p1a: Aurorus|0 fnt
+|-damage|p2a: Haunter|48/100|[from] item: Life Orb
+|faint|p1a: Aurorus
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Regirock|Regirock|100/100
+|turn|18
+|choice|move rockslide|move taunt
+|
+|move|p2a: Haunter|Taunt|p1a: Regirock
+|-start|p1a: Regirock|move: Taunt
+|move|p1a: Regirock|Rock Slide|p2a: Haunter|[miss]
+|-miss|p1a: Regirock|p2a: Haunter
+|
+|upkeep
+|turn|19
+|choice|move rockslide|switch 3
+|
+|switch|p2a: Torterra|Torterra, M|100/100
+|move|p1a: Regirock|Rock Slide|p2a: Torterra
+|-resisted|p2a: Torterra
+|-damage|p2a: Torterra|91/100
+|
+|-heal|p2a: Torterra|97/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|choice|switch 6|move stealthrock
+|
+|switch|p1a: Pelipper|Pelipper, M|55/100
+|move|p2a: Torterra|Stealth Rock|p1a: Pelipper
+|-sidestart|p1: papi_fermin|move: Stealth Rock
+|
+|-heal|p1a: Pelipper|61/100|[from] item: Leftovers
+|-heal|p2a: Torterra|100/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|choice|move hurricane|move woodhammer
+|
+|move|p1a: Pelipper|Hurricane|p2a: Torterra
+|-supereffective|p2a: Torterra
+|-damage|p2a: Torterra|30/100
+|-start|p2a: Torterra|confusion
+|-activate|p2a: Torterra|confusion
+|move|p2a: Torterra|Wood Hammer|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|-damage|p2a: Torterra|13/100|[from] recoil|[of] p1a: Pelipper
+|faint|p1a: Pelipper
+|
+|-heal|p2a: Torterra|20/100|[from] item: Leftovers
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Roselia|Roselia, M|16/100
+|-damage|p1a: Roselia|3/100|[from] Stealth Rock
+|turn|22
+|choice|move sludgebomb|switch 2
+|
+|switch|p2a: Pelipper|Pelipper, M|100/100
+|move|p1a: Roselia|Sludge Bomb|p2a: Pelipper
+|-damage|p2a: Pelipper|60/100
+|
+|-heal|p2a: Pelipper|66/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|choice|move synthesis|move uturn
+|
+|move|p1a: Roselia|Synthesis|p1a: Roselia
+|-heal|p1a: Roselia|53/100
+|move|p2a: Pelipper|U-turn|p1a: Roselia
+|-crit|p1a: Roselia
+|-damage|p1a: Roselia|36/100
+|choice||switch 3
+|
+|switch|p2a: Haunter|Haunter, M|48/100
+|
+|upkeep
+|turn|24
+|choice|move synthesis|move shadowball
+|
+|move|p2a: Haunter|Shadow Ball|p1a: Roselia
+|-damage|p1a: Roselia|6/100
+|-damage|p2a: Haunter|38/100|[from] item: Life Orb
+|move|p1a: Roselia|Synthesis|p1a: Roselia
+|-heal|p1a: Roselia|56/100
+|
+|upkeep
+|turn|25
+|choice|switch 6|move taunt
+|
+|switch|p1a: Regirock|Regirock|100/100
+|-damage|p1a: Regirock|88/100|[from] Stealth Rock
+|move|p2a: Haunter|Taunt|p1a: Regirock
+|-start|p1a: Regirock|move: Taunt
+|
+|-heal|p1a: Regirock|94/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|choice|move rockslide|switch 3
+|
+|switch|p2a: Pelipper|Pelipper, M|66/100
+|move|p1a: Regirock|Rock Slide|p2a: Pelipper|[miss]
+|-miss|p1a: Regirock|p2a: Pelipper
+|
+|-heal|p2a: Pelipper|72/100|[from] item: Leftovers
+|-heal|p1a: Regirock|99/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|choice|move rockslide|move scald
+|
+|move|p2a: Pelipper|Scald|p1a: Regirock
+|-supereffective|p1a: Regirock
+|-damage|p1a: Regirock|63/100
+|move|p1a: Regirock|Rock Slide|p2a: Pelipper
+|-supereffective|p2a: Pelipper
+|-damage|p2a: Pelipper|30/100
+|
+|-heal|p2a: Pelipper|36/100|[from] item: Leftovers
+|-heal|p1a: Regirock|69/100|[from] item: Leftovers
+|-end|p1a: Regirock|move: Taunt
+|upkeep
+|turn|28
+|choice|move rockslide|move roost
+|
+|move|p2a: Pelipper|Roost|p2a: Pelipper
+|-heal|p2a: Pelipper|86/100
+|move|p1a: Regirock|Rock Slide|p2a: Pelipper
+|-damage|p2a: Pelipper|64/100
+|
+|-heal|p2a: Pelipper|70/100|[from] item: Leftovers
+|-heal|p1a: Regirock|75/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|choice|move toxic|move scald
+|
+|move|p2a: Pelipper|Scald|p1a: Regirock
+|-supereffective|p1a: Regirock
+|-damage|p1a: Regirock|39/100
+|move|p1a: Regirock|Toxic|p2a: Pelipper
+|-status|p2a: Pelipper|tox
+|
+|-heal|p2a: Pelipper|76/100 tox|[from] item: Leftovers
+|-heal|p1a: Regirock|45/100|[from] item: Leftovers
+|-damage|p2a: Pelipper|70/100 tox|[from] psn
+|upkeep
+|turn|30
+|choice|move rockslide|move scald
+|
+|move|p2a: Pelipper|Scald|p1a: Regirock
+|-supereffective|p1a: Regirock
+|-damage|p1a: Regirock|11/100
+|move|p1a: Regirock|Rock Slide|p2a: Pelipper|[miss]
+|-miss|p1a: Regirock|p2a: Pelipper
+|
+|-heal|p2a: Pelipper|76/100 tox|[from] item: Leftovers
+|-heal|p1a: Regirock|17/100|[from] item: Leftovers
+|-damage|p2a: Pelipper|64/100 tox|[from] psn
+|upkeep
+|turn|31
+|c|☆papi_fermin|well gg
+|choice|move rockslide|move scald
+|
+|move|p2a: Pelipper|Scald|p1a: Regirock
+|-supereffective|p1a: Regirock
+|-damage|p1a: Regirock|0 fnt
+|faint|p1a: Regirock
+|
+|-heal|p2a: Pelipper|70/100 tox|[from] item: Leftovers
+|-damage|p2a: Pelipper|52/100 tox|[from] psn
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Roselia|Roselia, M|56/100
+|-damage|p1a: Roselia|44/100|[from] Stealth Rock
+|turn|32
+|choice|move synthesis|move uturn
+|
+|move|p2a: Pelipper|U-turn|p1a: Roselia
+|-damage|p1a: Roselia|33/100
+|choice||switch 3
+|
+|switch|p2a: Haunter|Haunter, M|38/100
+|move|p1a: Roselia|Synthesis|p1a: Roselia
+|-heal|p1a: Roselia|83/100
+|
+|upkeep
+|turn|33
+|choice|move sludgebomb|move taunt
+|
+|move|p2a: Haunter|Taunt|p1a: Roselia
+|-start|p1a: Roselia|move: Taunt
+|move|p1a: Roselia|Sludge Bomb|p2a: Haunter
+|-resisted|p2a: Haunter
+|-damage|p2a: Haunter|21/100
+|
+|upkeep
+|turn|34
+|choice|move gigadrain|move sludgebomb
+|
+|move|p2a: Haunter|Sludge Bomb|p1a: Roselia
+|-damage|p1a: Roselia|48/100
+|-damage|p2a: Haunter|11/100|[from] item: Life Orb
+|move|p1a: Roselia|Giga Drain|p2a: Haunter
+|-resisted|p2a: Haunter
+|-damage|p2a: Haunter|0 fnt
+|-heal|p1a: Roselia|52/100|[from] drain|[of] p2a: Haunter
+|faint|p2a: Haunter
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Pelipper|Pelipper, M|52/100 tox
+|turn|35
+|choice|move sludgebomb|move scald
+|
+|move|p1a: Roselia|Sludge Bomb|p2a: Pelipper
+|-damage|p2a: Pelipper|7/100 tox
+|move|p2a: Pelipper|Scald|p1a: Roselia
+|-resisted|p1a: Roselia
+|-damage|p1a: Roselia|44/100
+|
+|-heal|p2a: Pelipper|13/100 tox|[from] item: Leftovers
+|-damage|p2a: Pelipper|7/100 tox|[from] psn
+|-end|p1a: Roselia|move: Taunt
+|upkeep
+|turn|36
+|choice|move synthesis|move scald
+|
+|move|p2a: Pelipper|Scald|p1a: Roselia
+|-resisted|p1a: Roselia
+|-damage|p1a: Roselia|37/100
+|move|p1a: Roselia|Synthesis|p1a: Roselia
+|-heal|p1a: Roselia|87/100
+|
+|-heal|p2a: Pelipper|13/100 tox|[from] item: Leftovers
+|-damage|p2a: Pelipper|1/100 tox|[from] psn
+|upkeep
+|turn|37
+|choice|move synthesis|move uturn
+|
+|move|p1a: Roselia|Synthesis|p1a: Roselia
+|-heal|p1a: Roselia|100/100
+|move|p2a: Pelipper|U-turn|p1a: Roselia
+|-damage|p1a: Roselia|90/100
+|choice||switch 2
+|
+|switch|p2a: Torterra|Torterra, M|20/100
+|
+|-heal|p2a: Torterra|26/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|choice|move sludgebomb|move synthesis
+|
+|move|p1a: Roselia|Sludge Bomb|p2a: Torterra
+|-damage|p2a: Torterra|0 fnt
+|faint|p2a: Torterra
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Samurott|Samurott, M|81/100
+|turn|39
+|choice|move gigadrain|move icebeam
+|
+|move|p2a: Samurott|Ice Beam|p1a: Roselia
+|-supereffective|p1a: Roselia
+|-damage|p1a: Roselia|40/100
+|-damage|p2a: Samurott|71/100|[from] item: Life Orb
+|move|p1a: Roselia|Giga Drain|p2a: Samurott
+|-supereffective|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|-heal|p1a: Roselia|78/100|[from] drain|[of] p2a: Samurott
+|faint|p2a: Samurott
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Pelipper|Pelipper, M|1/100 tox
+|turn|40
+|-message|Yondere69420 forfeited.
+|
+|win|papi_fermin
+|l|Yondere69420
+|raw|papi_fermin's rating: 1129 &rarr; <strong>1160</strong><br />(+31 for winning)
+|raw|Yondere69420's rating: 1216 &rarr; <strong>1185</strong><br />(-31 for losing)
+|c|☆papi_fermin|ROSELIA SWEAP

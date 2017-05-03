@@ -1,0 +1,107 @@
+|j|kafsdofdsk
+|j|OsmarMR
+|player|p1|kafsdofdsk|170
+|player|p2|OsmarMR|1
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|36863,29934,33890,31377,36996,64006,58171,16436,49457,38252,32866,15242
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Jynx, F|item
+|poke|p1|Pawniard, M|item
+|poke|p1|Shiftry, M|item
+|poke|p1|Ferroseed, M|item
+|poke|p1|Articuno|item
+|poke|p1|Clefairy, M|item
+|poke|p2|Abomasnow, M|item
+|poke|p2|Garbodor, M|item
+|poke|p2|Skuntank, M|item
+|poke|p2|Samurott, M|item
+|poke|p2|Lanturn, M|item
+|poke|p2|Cryogonal|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 1, team 2, team 3, team 4, team 5, team 6|team 5, team 2, team 3, team 4, team 1, team 6
+|
+|start
+|switch|p1a: Jynx|Jynx, F|100/100
+|switch|p2a: Lanturn|Lanturn, M|100/100
+|turn|1
+|choice|move lovelykiss|move hiddenpower
+|
+|move|p1a: Jynx|Lovely Kiss|p2a: Lanturn|[miss]
+|-miss|p1a: Jynx|p2a: Lanturn
+|move|p2a: Lanturn|Hidden Power|p1a: Jynx
+|-supereffective|p1a: Jynx
+|-damage|p1a: Jynx|46/100
+|
+|upkeep
+|turn|2
+|choice|move lovelykiss|switch 6
+|
+|switch|p2a: Cryogonal|Cryogonal|100/100
+|move|p1a: Jynx|Lovely Kiss|p2a: Cryogonal
+|-status|p2a: Cryogonal|slp
+|
+|upkeep
+|turn|3
+|choice|move focusblast|switch 6
+|
+|switch|p2a: Lanturn|Lanturn, M|100/100
+|move|p1a: Jynx|Focus Blast|p2a: Lanturn
+|-damage|p2a: Lanturn|78/100
+|
+|upkeep
+|turn|4
+|choice|switch 4|move hiddenpower
+|
+|switch|p1a: Ferroseed|Ferroseed, M|100/100
+|move|p2a: Lanturn|Hidden Power|p1a: Ferroseed
+|-supereffective|p1a: Ferroseed
+|-damage|p1a: Ferroseed|47/100
+|
+|upkeep
+|turn|5
+|choice|move stealthrock|move hiddenpower
+|
+|move|p2a: Lanturn|Hidden Power|p1a: Ferroseed
+|-supereffective|p1a: Ferroseed
+|-damage|p1a: Ferroseed|0 fnt
+|faint|p1a: Ferroseed
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Shiftry|Shiftry, M|100/100
+|turn|6
+|choice|move suckerpunch|switch 2
+|
+|switch|p2a: Garbodor|Garbodor, M|100/100
+|move|p1a: Shiftry|Sucker Punch|p2a: Garbodor|[still]
+|-fail|p1a: Shiftry
+|
+|upkeep
+|turn|7
+|choice|move leafstorm|move drainpunch
+|
+|move|p1a: Shiftry|Leaf Storm|p2a: Garbodor
+|-resisted|p2a: Garbodor
+|-damage|p2a: Garbodor|68/100
+|-unboost|p1a: Shiftry|spa|2
+|-damage|p1a: Shiftry|91/100|[from] item: Life Orb
+|move|p2a: Garbodor|Drain Punch|p1a: Shiftry
+|-supereffective|p1a: Shiftry
+|-damage|p1a: Shiftry|2/100
+|-heal|p2a: Garbodor|100/100|[from] drain|[of] p1a: Shiftry
+|
+|upkeep
+|turn|8
+|-message|kafsdofdsk forfeited.
+|
+|win|OsmarMR
+|l|kafsdofdsk
+|raw|kafsdofdsk's rating: 1000 &rarr; <strong>1000</strong><br />(+0 for losing)
+|raw|OsmarMR's rating: 1147 &rarr; <strong>1162</strong><br />(+15 for winning)

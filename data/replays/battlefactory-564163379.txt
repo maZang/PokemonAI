@@ -1,0 +1,321 @@
+|j|Masetonchris
+|j|Orlaando09
+|player|p1|Masetonchris|2
+|player|p2|Orlaando09|101
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|9079,7200,34221,19803,59911,50387,18403,58169,16751,56786,28859,61682
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Vibrava, M|item
+|poke|p1|Basculin, M|item
+|poke|p1|Murkrow, M|item
+|poke|p1|Probopass, M|item
+|poke|p1|Quilladin, M|item
+|poke|p1|Klang|item
+|poke|p2|Ninjask, M|item
+|poke|p2|Gabite, M|item
+|poke|p2|Seaking, M|item
+|poke|p2|Swanna, M|item
+|poke|p2|Glalie, M|item
+|poke|p2|Simisear, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 2, team 1, team 3, team 4, team 5, team 6|team 2, team 1, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Basculin|Basculin, M|100/100
+|switch|p2a: Gabite|Gabite, M|100/100
+|turn|1
+|choice|move waterfall|move stealthrock
+|
+|move|p1a: Basculin|Waterfall|p2a: Gabite
+|-damage|p2a: Gabite|48/100
+|-damage|p1a: Basculin|88/100|[from] ability: Rough Skin|[of] p2a: Gabite
+|-damage|p1a: Basculin|79/100|[from] item: Life Orb
+|move|p2a: Gabite|Stealth Rock|p1a: Basculin
+|-sidestart|p1: Masetonchris|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|choice|move waterfall|move dragonclaw
+|
+|move|p1a: Basculin|Waterfall|p2a: Gabite
+|-crit|p2a: Gabite
+|-damage|p2a: Gabite|0 fnt
+|-damage|p1a: Basculin|66/100|[from] ability: Rough Skin|[of] p2a: Gabite
+|-damage|p1a: Basculin|57/100|[from] item: Life Orb
+|faint|p2a: Gabite
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Ninjask|Ninjask, M|100/100
+|turn|3
+|choice|move icebeam|move uturn
+|
+|move|p2a: Ninjask|U-turn|p1a: Basculin
+|-damage|p1a: Basculin|0 fnt
+|faint|p1a: Basculin
+|choice||switch 4
+|
+|switch|p2a: Swanna|Swanna, M|100/100
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Klang|Klang|100/100
+|-damage|p1a: Klang|94/100|[from] Stealth Rock
+|turn|4
+|choice|move shiftgear|switch 3
+|
+|switch|p2a: Seaking|Seaking, M|100/100
+|move|p1a: Klang|Shift Gear|p1a: Klang
+|-boost|p1a: Klang|spe|2
+|-boost|p1a: Klang|atk|1
+|
+|upkeep
+|turn|5
+|choice|move geargrind|move haze
+|
+|move|p1a: Klang|Gear Grind|p2a: Seaking
+|-resisted|p2a: Seaking
+|-damage|p2a: Seaking|85/100
+|-resisted|p2a: Seaking
+|-damage|p2a: Seaking|70/100
+|-hitcount|p2a: Seaking|2
+|move|p2a: Seaking|Haze|p2a: Seaking
+|-clearallboost
+|
+|-heal|p2a: Seaking|76/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|choice|move rest|move knockoff
+|
+|move|p2a: Seaking|Knock Off|p1a: Klang
+|-damage|p1a: Klang|77/100
+|-enditem|p1a: Klang|Eviolite|[from] move: Knock Off|[of] p2a: Seaking
+|move|p1a: Klang|Rest|p1a: Klang
+|-status|p1a: Klang|slp
+|-heal|p1a: Klang|100/100 slp|[silent]
+|-status|p1a: Klang|slp|[from] move: Rest
+|
+|-heal|p2a: Seaking|82/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|choice|move sleeptalk|switch 6
+|
+|switch|p2a: Simisear|Simisear, M|100/100
+|cant|p1a: Klang|slp
+|move|p1a: Klang|Sleep Talk|p1a: Klang
+|move|p1a: Klang|Gear Grind|p2a: Simisear|[from]Sleep Talk
+|-resisted|p2a: Simisear
+|-damage|p2a: Simisear|88/100
+|-resisted|p2a: Simisear
+|-damage|p2a: Simisear|76/100
+|-hitcount|p2a: Simisear|2
+|
+|upkeep
+|turn|8
+|choice|switch 3|move nastyplot
+|
+|switch|p1a: Murkrow|Murkrow, M|100/100
+|-damage|p1a: Murkrow|76/100|[from] Stealth Rock
+|move|p2a: Simisear|Nasty Plot|p2a: Simisear
+|-boost|p2a: Simisear|spa|2
+|
+|upkeep
+|turn|9
+|choice|move thunderwave|move fireblast
+|
+|move|p1a: Murkrow|Thunder Wave|p2a: Simisear
+|-status|p2a: Simisear|par
+|move|p2a: Simisear|Fire Blast|p1a: Murkrow
+|-damage|p1a: Murkrow|0 fnt
+|-damage|p2a: Simisear|67/100 par|[from] item: Life Orb
+|faint|p1a: Murkrow
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Vibrava|Vibrava, M|100/100
+|-damage|p1a: Vibrava|95/100|[from] Stealth Rock
+|turn|10
+|choice|move earthquake|move fireblast
+|
+|move|p1a: Vibrava|Earthquake|p2a: Simisear
+|-supereffective|p2a: Simisear
+|-damage|p2a: Simisear|0 fnt
+|faint|p2a: Simisear
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Glalie|Glalie, M|100/100
+|turn|11
+|choice|move defog|move freezedry
+|
+|move|p2a: Glalie|Freeze-Dry|p1a: Vibrava
+|-supereffective|p1a: Vibrava
+|-damage|p1a: Vibrava|34/100
+|move|p1a: Vibrava|Defog|p2a: Glalie
+|-unboost|p2a: Glalie|evasion|1
+|-sideend|p1: Masetonchris|Stealth Rock|[from] move: Defog|[of] p1a: Vibrava
+|
+|upkeep
+|turn|12
+|choice|move uturn|move freezedry
+|
+|move|p2a: Glalie|Freeze-Dry|p1a: Vibrava
+|-supereffective|p1a: Vibrava
+|-damage|p1a: Vibrava|0 fnt
+|faint|p1a: Vibrava
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Klang|Klang|100/100 slp
+|turn|13
+|choice|switch 5|move taunt
+|
+|switch|p1a: Quilladin|Quilladin, M|100/100
+|move|p2a: Glalie|Taunt|p1a: Quilladin
+|-start|p1a: Quilladin|move: Taunt
+|
+|upkeep
+|turn|14
+|choice|move woodhammer|move freezedry
+|
+|move|p2a: Glalie|Freeze-Dry|p1a: Quilladin
+|-supereffective|p1a: Quilladin
+|-damage|p1a: Quilladin|43/100
+|move|p1a: Quilladin|Wood Hammer|p2a: Glalie
+|-damage|p2a: Glalie|40/100
+|-damage|p1a: Quilladin|20/100|[from] recoil|[of] p2a: Glalie
+|
+|upkeep
+|turn|15
+|choice|move woodhammer|move freezedry
+|
+|move|p2a: Glalie|Freeze-Dry|p1a: Quilladin
+|-supereffective|p1a: Quilladin
+|-damage|p1a: Quilladin|0 fnt
+|faint|p1a: Quilladin
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Klang|Klang|100/100 slp
+|turn|16
+|choice|move geargrind|move taunt
+|
+|move|p2a: Glalie|Taunt|p1a: Klang
+|-start|p1a: Klang|move: Taunt
+|cant|p1a: Klang|slp
+|
+|upkeep
+|turn|17
+|choice|move geargrind|move spikes
+|
+|move|p2a: Glalie|Spikes|p1a: Klang
+|-sidestart|p1: Masetonchris|Spikes
+|-curestatus|p1a: Klang|slp|[msg]
+|move|p1a: Klang|Gear Grind|p2a: Glalie
+|-supereffective|p2a: Glalie
+|-damage|p2a: Glalie|1/100
+|-supereffective|p2a: Glalie
+|-damage|p2a: Glalie|0 fnt
+|-hitcount|p2a: Glalie|2
+|faint|p2a: Glalie
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Swanna|Swanna, M|100/100
+|turn|18
+|choice|switch 4|move scald
+|
+|switch|p1a: Probopass|Probopass, M|100/100
+|-damage|p1a: Probopass|88/100|[from] Spikes
+|move|p2a: Swanna|Scald|p1a: Probopass
+|-supereffective|p1a: Probopass
+|-damage|p1a: Probopass|39/100
+|-damage|p2a: Swanna|91/100|[from] item: Life Orb
+|
+|-heal|p1a: Probopass|45/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|choice|move flashcannon|move scald
+|
+|move|p2a: Swanna|Scald|p1a: Probopass
+|-supereffective|p1a: Probopass
+|-damage|p1a: Probopass|0 fnt
+|-damage|p2a: Swanna|81/100|[from] item: Life Orb
+|faint|p1a: Probopass
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Klang|Klang|100/100
+|-damage|p1a: Klang|88/100|[from] Spikes
+|turn|20
+|choice|move rest|move defog
+|
+|move|p2a: Swanna|Defog|p1a: Klang
+|-fail|p1a: Klang|unboost|[from] ability: Clear Body|[of] p1a: Klang
+|-sideend|p1: Masetonchris|Spikes|[from] move: Defog|[of] p1a: Klang
+|move|p1a: Klang|Rest|p1a: Klang
+|-status|p1a: Klang|slp
+|-heal|p1a: Klang|100/100 slp|[silent]
+|-status|p1a: Klang|slp|[from] move: Rest
+|
+|upkeep
+|turn|21
+|choice|move geargrind|move hurricane
+|
+|move|p2a: Swanna|Hurricane|p1a: Klang
+|-resisted|p1a: Klang
+|-damage|p1a: Klang|74/100 slp
+|-damage|p2a: Swanna|71/100|[from] item: Life Orb
+|cant|p1a: Klang|slp
+|
+|upkeep
+|turn|22
+|choice|move geargrind|move hurricane
+|
+|move|p2a: Swanna|Hurricane|p1a: Klang
+|-resisted|p1a: Klang
+|-damage|p1a: Klang|48/100 slp
+|-start|p1a: Klang|confusion
+|-damage|p2a: Swanna|62/100|[from] item: Life Orb
+|cant|p1a: Klang|slp
+|
+|upkeep
+|turn|23
+|choice|move geargrind|move scald
+|
+|move|p2a: Swanna|Scald|p1a: Klang
+|-damage|p1a: Klang|6/100 slp
+|-damage|p2a: Swanna|52/100|[from] item: Life Orb
+|-curestatus|p1a: Klang|slp|[msg]
+|-activate|p1a: Klang|confusion
+|move|p1a: Klang|Gear Grind|p2a: Swanna
+|-resisted|p2a: Swanna
+|-damage|p2a: Swanna|39/100
+|-resisted|p2a: Swanna
+|-damage|p2a: Swanna|26/100
+|-hitcount|p2a: Swanna|2
+|
+|upkeep
+|turn|24
+|choice|move geargrind|move roost
+|
+|move|p2a: Swanna|Roost|p2a: Swanna
+|-heal|p2a: Swanna|77/100
+|-activate|p1a: Klang|confusion
+|-damage|p1a: Klang|0 fnt|[from] confusion
+|faint|p1a: Klang
+|
+|win|Orlaando09

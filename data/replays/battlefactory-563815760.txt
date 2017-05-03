@@ -1,0 +1,268 @@
+|j|JRK_STARTING_OVER
+|j|Cabral33AsEs
+|player|p1|JRK_STARTING_OVER|92
+|player|p2|Cabral33AsEs|94
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|44873,10639,40908,51456,51391,16138,38759,45466,54313,55252,31638,50495
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Charizard, M|item
+|poke|p1|Abomasnow, M|item
+|poke|p1|Golurk|item
+|poke|p1|Camerupt, M|item
+|poke|p1|Mantine, M|item
+|poke|p1|Haunter, M|item
+|poke|p2|Hitmonchan, M|item
+|poke|p2|Swellow, M|item
+|poke|p2|Pelipper, M|item
+|poke|p2|Musharna, M|item
+|poke|p2|Aurorus, M|item
+|poke|p2|Vileplume, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 2, team 1, team 3, team 4, team 5, team 6|team 3, team 2, team 1, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Abomasnow|Abomasnow, M|100/100
+|switch|p2a: Pelipper|Pelipper, M|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Abomasnow
+|turn|1
+|choice|move swordsdance|move hurricane
+|
+|move|p1a: Abomasnow|Swords Dance|p1a: Abomasnow
+|-boost|p1a: Abomasnow|atk|2
+|move|p2a: Pelipper|Hurricane|p1a: Abomasnow
+|-supereffective|p1a: Abomasnow
+|-damage|p1a: Abomasnow|27/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Pelipper|94/100|[from] hail
+|-heal|p2a: Pelipper|100/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|choice|move iceshard|move hurricane
+|
+|move|p1a: Abomasnow|Ice Shard|p2a: Pelipper
+|-damage|p2a: Pelipper|69/100
+|-damage|p1a: Abomasnow|17/100|[from] item: Life Orb
+|move|p2a: Pelipper|Hurricane|p1a: Abomasnow
+|-supereffective|p1a: Abomasnow
+|-damage|p1a: Abomasnow|0 fnt
+|faint|p1a: Abomasnow
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Pelipper|63/100|[from] hail
+|-heal|p2a: Pelipper|69/100|[from] item: Leftovers
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Haunter|Haunter, M|100/100
+|turn|3
+|choice|move shadowball|move scald
+|
+|move|p1a: Haunter|Shadow Ball|p2a: Pelipper
+|-damage|p2a: Pelipper|14/100
+|move|p2a: Pelipper|Scald|p1a: Haunter
+|-damage|p1a: Haunter|40/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Haunter|34/100|[from] hail
+|-damage|p2a: Pelipper|8/100|[from] hail
+|-heal|p2a: Pelipper|14/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|choice|switch 5|move scald
+|
+|switch|p1a: Mantine|Mantine, M|100/100
+|move|p2a: Pelipper|Scald|p1a: Mantine
+|-immune|p1a: Mantine|[msg]|[from] ability: Water Absorb
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Mantine|95/100|[from] hail
+|-damage|p2a: Pelipper|8/100|[from] hail
+|-heal|p1a: Mantine|100/100|[from] item: Leftovers
+|-heal|p2a: Pelipper|14/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|choice|move toxic|switch 4
+|
+|switch|p2a: Musharna|Musharna, M|100/100
+|move|p1a: Mantine|Toxic|p2a: Musharna
+|-status|p2a: Musharna|tox
+|-activate|p2a: Musharna|ability: Synchronize
+|-status|p1a: Mantine|tox
+|
+|-weather|none
+|-damage|p1a: Mantine|95/100 tox|[from] psn
+|-damage|p2a: Musharna|94/100 tox|[from] psn
+|upkeep
+|turn|6
+|choice|move toxic|move psychic
+|
+|move|p1a: Mantine|Toxic|p2a: Musharna
+|-fail|p2a: Musharna|tox
+|move|p2a: Musharna|Psychic|p1a: Mantine
+|-damage|p1a: Mantine|74/100 tox
+|-unboost|p1a: Mantine|spd|1
+|
+|-heal|p1a: Mantine|80/100 tox|[from] item: Leftovers
+|-heal|p2a: Musharna|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Mantine|68/100 tox|[from] psn
+|-damage|p2a: Musharna|88/100 tox|[from] psn
+|upkeep
+|turn|7
+|choice|switch 3|move psychic
+|
+|switch|p1a: Golurk|Golurk|100/100
+|move|p2a: Musharna|Psychic|p1a: Golurk
+|-damage|p1a: Golurk|54/100
+|
+|-heal|p2a: Musharna|94/100 tox|[from] item: Leftovers
+|-damage|p2a: Musharna|76/100 tox|[from] psn
+|upkeep
+|turn|8
+|choice|move stealthrock|move psychic
+|
+|move|p1a: Golurk|Stealth Rock|p2a: Musharna
+|-sidestart|p2: Cabral33AsEs|move: Stealth Rock
+|move|p2a: Musharna|Psychic|p1a: Golurk
+|-damage|p1a: Golurk|14/100
+|
+|-heal|p2a: Musharna|82/100 tox|[from] item: Leftovers
+|-damage|p2a: Musharna|57/100 tox|[from] psn
+|upkeep
+|turn|9
+|choice|move shadowpunch|move psychic
+|
+|move|p1a: Golurk|Shadow Punch|p2a: Musharna
+|-supereffective|p2a: Musharna
+|-damage|p2a: Musharna|13/100 tox
+|move|p2a: Musharna|Psychic|p1a: Golurk
+|-crit|p1a: Golurk
+|-damage|p1a: Golurk|0 fnt
+|faint|p1a: Golurk
+|
+|-heal|p2a: Musharna|20/100 tox|[from] item: Leftovers
+|-damage|p2a: Musharna|0 fnt|[from] psn
+|upkeep
+|faint|p2a: Musharna
+|choice|switch 5|switch 5
+|
+|switch|p1a: Haunter|Haunter, M|34/100
+|switch|p2a: Aurorus|Aurorus, M|100/100
+|-damage|p2a: Aurorus|76/100|[from] Stealth Rock
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Aurorus
+|turn|10
+|choice|move destinybond|move blizzard
+|
+|move|p1a: Haunter|Destiny Bond|p1a: Haunter
+|-singlemove|p1a: Haunter|Destiny Bond
+|move|p2a: Aurorus|Blizzard|p1a: Haunter
+|-damage|p1a: Haunter|0 fnt
+|faint|p1a: Haunter
+|-activate|p1a: Haunter|move: Destiny Bond
+|faint|p2a: Aurorus
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|choice|switch 2|switch 6
+|
+|switch|p1a: Charizard|Charizard, M|100/100
+|switch|p2a: Vileplume|Vileplume, M|100/100
+|-damage|p2a: Vileplume|88/100|[from] Stealth Rock
+|turn|11
+|choice|move fireblast|move sludgebomb
+|
+|move|p1a: Charizard|Fire Blast|p2a: Vileplume
+|-supereffective|p2a: Vileplume
+|-damage|p2a: Vileplume|0 fnt
+|-damage|p1a: Charizard|91/100|[from] item: Life Orb
+|faint|p2a: Vileplume
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Charizard|85/100|[from] hail
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Swellow|Swellow, M|100/100
+|-damage|p2a: Swellow|76/100|[from] Stealth Rock
+|turn|12
+|choice|switch 4|move boomburst
+|
+|switch|p1a: Camerupt|Camerupt, M|100/100
+|move|p2a: Swellow|Boomburst|p1a: Camerupt
+|-damage|p1a: Camerupt|21/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Swellow|69/100|[from] hail
+|-damage|p1a: Camerupt|15/100|[from] hail
+|upkeep
+|turn|13
+|choice|move hiddenpower|move boomburst
+|
+|move|p2a: Swellow|Boomburst|p1a: Camerupt
+|-damage|p1a: Camerupt|0 fnt
+|faint|p1a: Camerupt
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Swellow|63/100|[from] hail
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Mantine|Mantine, M|68/100 tox
+|turn|14
+|choice|move scald|move boomburst
+|
+|move|p2a: Swellow|Boomburst|p1a: Mantine
+|-damage|p1a: Mantine|30/100 tox
+|move|p1a: Mantine|Scald|p2a: Swellow
+|-damage|p2a: Swellow|12/100
+|
+|-weather|none
+|-heal|p1a: Mantine|36/100 tox|[from] item: Leftovers
+|-damage|p1a: Mantine|30/100 tox|[from] psn
+|upkeep
+|turn|15
+|choice|move scald|move boomburst
+|
+|move|p2a: Swellow|Boomburst|p1a: Mantine
+|-damage|p1a: Mantine|0 fnt
+|faint|p1a: Mantine
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Charizard|Charizard, M|85/100
+|turn|16
+|choice|move airslash|move boomburst
+|
+|move|p2a: Swellow|Boomburst|p1a: Charizard
+|-damage|p1a: Charizard|12/100
+|move|p1a: Charizard|Air Slash|p2a: Swellow
+|-damage|p2a: Swellow|0 fnt
+|-damage|p1a: Charizard|2/100|[from] item: Life Orb
+|faint|p2a: Swellow
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Hitmonchan|Hitmonchan, M|100/100
+|-damage|p2a: Hitmonchan|94/100|[from] Stealth Rock
+|turn|17
+|choice|move roost|move machpunch
+|
+|move|p2a: Hitmonchan|Mach Punch|p1a: Charizard
+|-resisted|p1a: Charizard
+|-damage|p1a: Charizard|0 fnt
+|-damage|p2a: Hitmonchan|84/100|[from] item: Life Orb
+|faint|p1a: Charizard
+|
+|win|Cabral33AsEs
+|c|☆JRK_STARTING_OVER|gg
+|raw|JRK_STARTING_OVER's rating: 1097 &rarr; <strong>1076</strong><br />(-21 for losing)
+|raw|Cabral33AsEs's rating: 1155 &rarr; <strong>1175</strong><br />(+20 for winning)
+|c|☆Cabral33AsEs|gg

@@ -1,0 +1,144 @@
+|j|Harris'Gxe
+|j|HarrisIsAwesome
+|player|p1|Harris'Gxe|1
+|player|p2|HarrisIsAwesome|267
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|12215,29079,500,3254,54065,57098,22715,28541,23965,8237,58899,27240
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Simipour, M|item
+|poke|p1|Fraxure, M|item
+|poke|p1|Cryogonal|item
+|poke|p1|Electrode|item
+|poke|p1|Rampardos, M|item
+|poke|p1|Arbok, M|item
+|poke|p2|Floatzel, M|item
+|poke|p2|Fraxure, M|item
+|poke|p2|Monferno, M|item
+|poke|p2|Cryogonal|item
+|poke|p2|Raichu, M|item
+|poke|p2|Rapidash, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 2, team 1, team 3, team 4, team 5, team 6|team 3, team 2, team 1, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Fraxure|Fraxure, M|100/100
+|switch|p2a: Monferno|Monferno, M|100/100
+|-ability|p1a: Fraxure|Mold Breaker
+|turn|1
+|choice|move dragondance|move stealthrock
+|
+|move|p2a: Monferno|Stealth Rock|p1a: Fraxure
+|-sidestart|p1: Harris'Gxe|move: Stealth Rock
+|move|p1a: Fraxure|Dragon Dance|p1a: Fraxure
+|-boost|p1a: Fraxure|atk|1
+|-boost|p1a: Fraxure|spe|1
+|
+|upkeep
+|turn|2
+|choice|move dragondance|move flareblitz
+|
+|move|p1a: Fraxure|Dragon Dance|p1a: Fraxure
+|-boost|p1a: Fraxure|atk|1
+|-boost|p1a: Fraxure|spe|1
+|move|p2a: Monferno|Flare Blitz|p1a: Fraxure
+|-resisted|p1a: Fraxure
+|-damage|p1a: Fraxure|75/100
+|-damage|p2a: Monferno|92/100|[from] recoil|[of] p1a: Fraxure
+|
+|upkeep
+|turn|3
+|choice|move dragondance|move machpunch
+|
+|move|p2a: Monferno|Mach Punch|p1a: Fraxure
+|-damage|p1a: Fraxure|53/100
+|move|p1a: Fraxure|Dragon Dance|p1a: Fraxure
+|-boost|p1a: Fraxure|atk|1
+|-boost|p1a: Fraxure|spe|1
+|
+|upkeep
+|turn|4
+|choice|move outrage|move machpunch
+|
+|move|p2a: Monferno|Mach Punch|p1a: Fraxure
+|-damage|p1a: Fraxure|32/100
+|move|p1a: Fraxure|Outrage|p2a: Monferno
+|-damage|p2a: Monferno|0 fnt
+|faint|p2a: Monferno
+|
+|upkeep
+|j|Bad Luck Tace
+|l|HarrisIsAwesome
+|player|p2|
+|j|HarrisIsAwesome
+|player|p2|HarrisIsAwesome|267
+|choice||switch 6
+|
+|switch|p2a: Rapidash|Rapidash, M|100/100
+|turn|5
+|choice|move outrage|move flareblitz
+|
+|move|p1a: Fraxure|Outrage|p2a: Rapidash|[from]lockedmove
+|-damage|p2a: Rapidash|0 fnt
+|-start|p1a: Fraxure|confusion|[fatigue]
+|faint|p2a: Rapidash
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Floatzel|Floatzel, M|100/100
+|turn|6
+|choice|move outrage|move icebeam
+|
+|-activate|p1a: Fraxure|confusion
+|move|p1a: Fraxure|Outrage|p2a: Floatzel
+|-damage|p2a: Floatzel|0 fnt
+|faint|p2a: Floatzel
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Cryogonal|Cryogonal|100/100
+|turn|7
+|choice|move outrage|move freezedry
+|
+|-activate|p1a: Fraxure|confusion
+|move|p1a: Fraxure|Outrage|p2a: Cryogonal|[from]lockedmove
+|-damage|p2a: Cryogonal|0 fnt
+|faint|p2a: Cryogonal
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Raichu|Raichu, M|100/100
+|turn|8
+|j|XxKidofDeathxX
+|choice|move outrage|move signalbeam
+|
+|-end|p1a: Fraxure|confusion
+|move|p1a: Fraxure|Outrage|p2a: Raichu
+|-damage|p2a: Raichu|0 fnt
+|faint|p2a: Raichu
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Fraxure|Fraxure, M|100/100
+|-ability|p2a: Fraxure|Mold Breaker
+|turn|9
+|c|☆Harris'Gxe|ez
+|c|☆Harris'Gxe|6-0
+|choice|move outrage|move outrage
+|
+|move|p1a: Fraxure|Outrage|p2a: Fraxure|[from]lockedmove
+|-supereffective|p2a: Fraxure
+|-damage|p2a: Fraxure|0 fnt
+|-start|p1a: Fraxure|confusion|[fatigue]
+|faint|p2a: Fraxure
+|
+|win|Harris'Gxe
+|l|HarrisIsAwesome

@@ -1,0 +1,298 @@
+|J|p2
+|J|Shadestep
+|player|p1|p2|#p2
+|player|p2|Shadestep|237
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|46487,9726,58671,41110,60279,14530,13887,29712,46396,18537,64840,20434
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Skuntank, M|item
+|poke|p1|Liepard, M|item
+|poke|p1|Manectric, M|item
+|poke|p1|Roselia, M|item
+|poke|p1|Archeops, M|item
+|poke|p1|Beheeyem, M|item
+|poke|p2|Beheeyem, M|item
+|poke|p2|Prinplup, M|item
+|poke|p2|Vileplume, M|item
+|poke|p2|Malamar, M|item
+|poke|p2|Audino, M|item
+|poke|p2|Cryogonal|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|J|Strealet❄✈️
+|c|☆p2|stop giving me shit unviable tiers
+|c|☆p2|oml
+|c|☆Shadestep|keke
+|c|☆Shadestep|nu is good
+|c|☆Shadestep|my team is so kiyo-ish
+|c|☆Shadestep|holy fuck
+|J|DennisEG-_•
+|choice|team 5, team 2, team 3, team 4, team 1, team 6|team 1, team 2, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Archeops|Archeops, M|100/100
+|switch|p2a: Beheeyem|Beheeyem, M|100/100
+|turn|1
+|L|DennisEG-_•
+|choice|move stealthrock|switch 2
+|
+|switch|p2a: Prinplup|Prinplup, M|100/100
+|move|p1a: Archeops|Stealth Rock|p2a: Prinplup
+|-sidestart|p2: Shadestep|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|choice|move taunt|move defog
+|
+|move|p1a: Archeops|Taunt|p2a: Prinplup
+|-start|p2a: Prinplup|move: Taunt
+|cant|p2a: Prinplup|move: Taunt|Defog
+|
+|upkeep
+|turn|3
+|choice|move taunt|move scald
+|
+|move|p1a: Archeops|Taunt|p2a: Prinplup
+|-fail|p2a: Prinplup
+|move|p2a: Prinplup|Scald|p1a: Archeops
+|-supereffective|p1a: Archeops
+|-damage|p1a: Archeops|16/100
+|
+|upkeep
+|turn|4
+|choice|move endeavor|move scald
+|
+|move|p1a: Archeops|Endeavor|p2a: Prinplup
+|-damage|p2a: Prinplup|14/100
+|move|p2a: Prinplup|Scald|p1a: Archeops
+|-supereffective|p1a: Archeops
+|-damage|p1a: Archeops|0 fnt
+|faint|p1a: Archeops
+|
+|-end|p2a: Prinplup|move: Taunt
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Liepard|Liepard, M|100/100
+|turn|5
+|c|☆Shadestep|very cool p2 very hip
+|choice|move darkpulse|move defog
+|
+|move|p1a: Liepard|Dark Pulse|p2a: Prinplup
+|-damage|p2a: Prinplup|0 fnt
+|faint|p2a: Prinplup
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Audino|Audino, M|100/100
+|-damage|p2a: Audino|88/100|[from] Stealth Rock
+|turn|6
+|choice|switch 4|switch 6
+|
+|switch|p1a: Roselia|Roselia, M|100/100
+|switch|p2a: Cryogonal|Cryogonal|100/100
+|-damage|p2a: Cryogonal|76/100|[from] Stealth Rock
+|
+|upkeep
+|turn|7
+|choice|switch 6|move rapidspin
+|
+|switch|p1a: Beheeyem|Beheeyem, M|100/100
+|move|p2a: Cryogonal|Rapid Spin|p1a: Beheeyem
+|-damage|p1a: Beheeyem|97/100
+|-sideend|p2: Shadestep|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Cryogonal
+|-damage|p2a: Cryogonal|66/100|[from] item: Life Orb
+|
+|upkeep
+|turn|8
+|choice|move trickroom|switch 4
+|
+|switch|p2a: Malamar|Malamar, M|100/100
+|move|p1a: Beheeyem|Trick Room|p1a: Beheeyem
+|-fieldstart|move: Trick Room|[of] p1a: Beheeyem
+|
+|upkeep
+|turn|9
+|c|☆p2|ues
+|c|☆Shadestep|big L
+|choice|move thunderbolt|switch 6
+|
+|switch|p2a: Audino|Audino, M|100/100
+|move|p1a: Beheeyem|Thunderbolt|p2a: Audino
+|-damage|p2a: Audino|50/100
+|-damage|p1a: Beheeyem|87/100|[from] item: Life Orb
+|
+|upkeep
+|turn|10
+|choice|move thunderbolt|move rest mega
+|
+|detailschange|p2a: Audino|Audino-Mega, M
+|-mega|p2a: Audino|Audino|Audinite
+|move|p1a: Beheeyem|Thunderbolt|p2a: Audino
+|-crit|p2a: Audino
+|-damage|p2a: Audino|7/100
+|-damage|p1a: Beheeyem|77/100|[from] item: Life Orb
+|move|p2a: Audino|Rest|p2a: Audino
+|-status|p2a: Audino|slp
+|-heal|p2a: Audino|100/100 slp|[silent]
+|-status|p2a: Audino|slp|[from] move: Rest
+|
+|upkeep
+|turn|11
+|c|☆Shadestep|holE heck
+|choice|move psychic|move sleeptalk
+|
+|move|p1a: Beheeyem|Psychic|p2a: Audino
+|-damage|p2a: Audino|52/100 slp
+|-damage|p1a: Beheeyem|67/100|[from] item: Life Orb
+|cant|p2a: Audino|slp
+|move|p2a: Audino|Sleep Talk|p2a: Audino
+|move|p2a: Audino|Calm Mind|p2a: Audino|[from]Sleep Talk
+|-boost|p2a: Audino|spa|1
+|-boost|p2a: Audino|spd|1
+|
+|upkeep
+|turn|12
+|choice|switch 4|move sleeptalk
+|
+|switch|p1a: Liepard|Liepard, M|100/100
+|cant|p2a: Audino|slp
+|move|p2a: Audino|Sleep Talk|p2a: Audino
+|move|p2a: Audino|Rest|p2a: Audino|[from]Sleep Talk
+|-fail|p2a: Audino
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|13
+|c|☆Shadestep|,
+|choice|move encore|switch 3
+|
+|switch|p2a: Vileplume|Vileplume, M|100/100
+|move|p1a: Liepard|Encore|p2a: Vileplume
+|-fail|p2a: Vileplume
+|
+|upkeep
+|turn|14
+|choice|move nastyplot|move sludgebomb
+|
+|move|p1a: Liepard|Nasty Plot|p1a: Liepard
+|-boost|p1a: Liepard|spa|2
+|move|p2a: Vileplume|Sludge Bomb|p1a: Liepard
+|-damage|p1a: Liepard|0 fnt
+|faint|p1a: Liepard
+|
+|upkeep
+|c|☆Shadestep|go have sex with some prostitutes to celebrate
+|choice|switch 4|
+|
+|switch|p1a: Beheeyem|Beheeyem, M|67/100
+|turn|15
+|c|☆Shadestep|angsty faggot
+|choice|move psychic|move sludgebomb
+|
+|move|p2a: Vileplume|Sludge Bomb|p1a: Beheeyem
+|-damage|p1a: Beheeyem|19/100
+|move|p1a: Beheeyem|Psychic|p2a: Vileplume
+|-supereffective|p2a: Vileplume
+|-damage|p2a: Vileplume|0 fnt
+|-damage|p1a: Beheeyem|9/100|[from] item: Life Orb
+|faint|p2a: Vileplume
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Cryogonal|Cryogonal|66/100
+|turn|16
+|choice|move psychic|move freezedry
+|
+|move|p2a: Cryogonal|Freeze-Dry|p1a: Beheeyem
+|-damage|p1a: Beheeyem|0 fnt
+|-damage|p2a: Cryogonal|56/100|[from] item: Life Orb
+|faint|p1a: Beheeyem
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Skuntank|Skuntank, M|100/100
+|turn|17
+|choice|move fireblast|move hiddenpower
+|
+|move|p2a: Cryogonal|Hidden Power|p1a: Skuntank
+|-supereffective|p1a: Skuntank
+|-damage|p1a: Skuntank|38/100
+|-damage|p2a: Cryogonal|46/100|[from] item: Life Orb
+|move|p1a: Skuntank|Fire Blast|p2a: Cryogonal|[miss]
+|-miss|p1a: Skuntank|p2a: Cryogonal
+|
+|upkeep
+|turn|18
+|c|☆Shadestep|W
+|choice|move fireblast|move hiddenpower
+|
+|move|p2a: Cryogonal|Hidden Power|p1a: Skuntank
+|-supereffective|p1a: Skuntank
+|-damage|p1a: Skuntank|0 fnt
+|-damage|p2a: Cryogonal|36/100|[from] item: Life Orb
+|faint|p1a: Skuntank
+|
+|upkeep
+|c|☆Shadestep|GG]
+|choice|switch 3|
+|
+|switch|p1a: Manectric|Manectric, M|100/100
+|turn|19
+|choice|move overheat|switch 3
+|
+|switch|p2a: Audino|Audino-Mega, M|52/100 slp
+|move|p1a: Manectric|Overheat|p2a: Audino
+|-damage|p2a: Audino|16/100 slp
+|-unboost|p1a: Manectric|spa|2
+|-damage|p1a: Manectric|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|20
+|choice|move thunderbolt|move sleeptalk
+|
+|move|p1a: Manectric|Thunderbolt|p2a: Audino
+|-damage|p2a: Audino|0 fnt
+|-damage|p1a: Manectric|81/100|[from] item: Life Orb
+|faint|p2a: Audino
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Beheeyem|Beheeyem, M|100/100
+|turn|21
+|choice|move voltswitch|move psychic
+|
+|move|p1a: Manectric|Volt Switch|p2a: Beheeyem
+|-damage|p2a: Beheeyem|76/100
+|-damage|p1a: Manectric|71/100|[from] item: Life Orb
+|choice|switch 6|
+|
+|switch|p1a: Roselia|Roselia, M|100/100
+|move|p2a: Beheeyem|Psychic|p1a: Roselia
+|-supereffective|p1a: Roselia
+|-damage|p1a: Roselia|0 fnt
+|faint|p1a: Roselia
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Manectric|Manectric, M|71/100
+|turn|22
+|choice|move thunderbolt|move psychic
+|
+|move|p1a: Manectric|Thunderbolt|p2a: Beheeyem
+|-damage|p2a: Beheeyem|14/100
+|-damage|p1a: Manectric|61/100|[from] item: Life Orb
+|move|p2a: Beheeyem|Psychic|p1a: Manectric
+|-damage|p1a: Manectric|0 fnt
+|faint|p1a: Manectric
+|
+|win|Shadestep

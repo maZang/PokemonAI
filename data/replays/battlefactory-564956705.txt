@@ -1,0 +1,443 @@
+|j|once a trevor
+|j|A Hero's Ghost
+|player|p1|once a trevor|217
+|player|p2|A Hero's Ghost|43
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|53540,48754,43700,64274,54248,27926,15626,3763,18995,41138,60952,56375
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Altaria, M|item
+|poke|p1|Gourgeist-*, M|item
+|poke|p1|Clefairy, M|item
+|poke|p1|Ninetales, M|item
+|poke|p1|Dodrio, M|item
+|poke|p1|Quilladin, M|item
+|poke|p2|Regice|item
+|poke|p2|Audino, M|item
+|poke|p2|Vibrava, M|item
+|poke|p2|Camerupt, M|item
+|poke|p2|Ampharos, M|item
+|poke|p2|Clefairy, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|j|Slugzs
+|choice|team 3, team 2, team 1, team 4, team 5, team 6|team 4, team 2, team 3, team 1, team 5, team 6
+|
+|start
+|switch|p1a: Clefairy|Clefairy, M|100/100
+|switch|p2a: Camerupt|Camerupt, M|100/100
+|turn|1
+|choice|move stealthrock|move stealthrock
+|
+|move|p2a: Camerupt|Stealth Rock|p1a: Clefairy
+|-sidestart|p1: once a trevor|move: Stealth Rock
+|move|p1a: Clefairy|Stealth Rock|p2a: Camerupt
+|-sidestart|p2: A Hero's Ghost|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|choice|move moonblast|move earthpower
+|
+|move|p2a: Camerupt|Earth Power|p1a: Clefairy
+|-damage|p1a: Clefairy|81/100
+|move|p1a: Clefairy|Moonblast|p2a: Camerupt
+|-resisted|p2a: Camerupt
+|-damage|p2a: Camerupt|90/100
+|
+|-heal|p2a: Camerupt|96/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|choice|switch 3|move fireblast
+|
+|switch|p1a: Altaria|Altaria, M|100/100
+|-damage|p1a: Altaria|75/100|[from] Stealth Rock
+|move|p2a: Camerupt|Fire Blast|p1a: Altaria
+|-resisted|p1a: Altaria
+|-crit|p1a: Altaria
+|-damage|p1a: Altaria|45/100
+|
+|-heal|p2a: Camerupt|100/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|choice|move roost|move toxic
+|
+|move|p1a: Altaria|Roost|p1a: Altaria
+|-heal|p1a: Altaria|95/100
+|move|p2a: Camerupt|Toxic|p1a: Altaria|[miss]
+|-miss|p2a: Camerupt|p1a: Altaria
+|
+|upkeep
+|turn|5
+|choice|move toxic|move toxic
+|
+|move|p1a: Altaria|Toxic|p2a: Camerupt
+|-status|p2a: Camerupt|tox
+|move|p2a: Camerupt|Toxic|p1a: Altaria
+|-status|p1a: Altaria|tox
+|
+|-damage|p1a: Altaria|88/100 tox|[from] psn
+|-damage|p2a: Camerupt|94/100 tox|[from] psn
+|upkeep
+|turn|6
+|choice|move dracometeor|switch 6
+|
+|switch|p2a: Clefairy|Clefairy, M|100/100
+|move|p1a: Altaria|Draco Meteor|p2a: Clefairy
+|-immune|p2a: Clefairy|[msg]
+|
+|-damage|p1a: Altaria|76/100 tox|[from] psn
+|upkeep
+|turn|7
+|choice|switch 4|move calmmind
+|
+|-curestatus|p1a: Altaria|tox|[from] ability: Natural Cure
+|switch|p1a: Ninetales|Ninetales, M|100/100
+|-damage|p1a: Ninetales|76/100|[from] Stealth Rock
+|move|p2a: Clefairy|Calm Mind|p2a: Clefairy
+|-boost|p2a: Clefairy|spa|1
+|-boost|p2a: Clefairy|spd|1
+|
+|upkeep
+|turn|8
+|choice|move nastyplot|move thunderwave
+|
+|move|p1a: Ninetales|Nasty Plot|p1a: Ninetales
+|-boost|p1a: Ninetales|spa|2
+|move|p2a: Clefairy|Thunder Wave|p1a: Ninetales
+|-status|p1a: Ninetales|par
+|
+|upkeep
+|turn|9
+|choice|move nastyplot|switch 6
+|
+|switch|p2a: Camerupt|Camerupt, M|94/100 tox
+|-damage|p2a: Camerupt|82/100 tox|[from] Stealth Rock
+|move|p1a: Ninetales|Nasty Plot|p1a: Ninetales
+|-boost|p1a: Ninetales|spa|2
+|
+|-heal|p2a: Camerupt|88/100 tox|[from] item: Leftovers
+|-damage|p2a: Camerupt|82/100 tox|[from] psn
+|upkeep
+|turn|10
+|choice|switch 3|move earthpower
+|
+|switch|p1a: Clefairy|Clefairy, M|81/100
+|move|p2a: Camerupt|Earth Power|p1a: Clefairy
+|-damage|p1a: Clefairy|59/100
+|
+|-heal|p2a: Camerupt|88/100 tox|[from] item: Leftovers
+|-damage|p2a: Camerupt|76/100 tox|[from] psn
+|upkeep
+|turn|11
+|l|Slugzs
+|choice|move moonblast|move fireblast
+|
+|move|p2a: Camerupt|Fire Blast|p1a: Clefairy|[miss]
+|-miss|p2a: Camerupt|p1a: Clefairy
+|move|p1a: Clefairy|Moonblast|p2a: Camerupt
+|-resisted|p2a: Camerupt
+|-damage|p2a: Camerupt|65/100 tox
+|
+|-heal|p2a: Camerupt|71/100 tox|[from] item: Leftovers
+|-damage|p2a: Camerupt|53/100 tox|[from] psn
+|upkeep
+|turn|12
+|choice|move stealthrock|switch 6
+|
+|switch|p2a: Clefairy|Clefairy, M|100/100
+|move|p1a: Clefairy|Stealth Rock|p2a: Clefairy
+|-fail|p2a: Clefairy
+|
+|upkeep
+|turn|13
+|choice|switch 6|move calmmind
+|
+|switch|p1a: Quilladin|Quilladin, M|100/100
+|-damage|p1a: Quilladin|88/100|[from] Stealth Rock
+|move|p2a: Clefairy|Calm Mind|p2a: Clefairy
+|-boost|p2a: Clefairy|spa|1
+|-boost|p2a: Clefairy|spd|1
+|
+|upkeep
+|turn|14
+|choice|move taunt|move thunderwave
+|
+|move|p1a: Quilladin|Taunt|p2a: Clefairy
+|-start|p2a: Clefairy|move: Taunt
+|cant|p2a: Clefairy|move: Taunt|Thunder Wave
+|
+|upkeep
+|turn|15
+|choice|move spikes|move moonblast
+|
+|move|p1a: Quilladin|Spikes|p2a: Clefairy
+|-sidestart|p2: A Hero's Ghost|Spikes
+|move|p2a: Clefairy|Moonblast|p1a: Quilladin
+|-damage|p1a: Quilladin|47/100
+|
+|upkeep
+|turn|16
+|choice|move spikes|move moonblast
+|
+|move|p1a: Quilladin|Spikes|p2a: Clefairy
+|-sidestart|p2: A Hero's Ghost|Spikes
+|move|p2a: Clefairy|Moonblast|p1a: Quilladin
+|-crit|p1a: Quilladin
+|-damage|p1a: Quilladin|0 fnt
+|faint|p1a: Quilladin
+|
+|-end|p2a: Clefairy|move: Taunt
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Ninetales|Ninetales, M|76/100 par
+|-damage|p1a: Ninetales|51/100 par|[from] Stealth Rock
+|turn|17
+|choice|move nastyplot|switch 3
+|
+|switch|p2a: Vibrava|Vibrava, M|100/100
+|-damage|p2a: Vibrava|95/100|[from] Stealth Rock
+|move|p1a: Ninetales|Nasty Plot|p1a: Ninetales
+|-boost|p1a: Ninetales|spa|2
+|
+|upkeep
+|turn|18
+|choice|move energyball|move defog
+|
+|move|p2a: Vibrava|Defog|p1a: Ninetales
+|-unboost|p1a: Ninetales|evasion|1
+|-sideend|p1: once a trevor|Stealth Rock|[from] move: Defog|[of] p1a: Ninetales
+|-sideend|p2: A Hero's Ghost|Spikes|[from] move: Defog|[of] p2a: Vibrava
+|-sideend|p2: A Hero's Ghost|Stealth Rock|[from] move: Defog|[of] p2a: Vibrava
+|move|p1a: Ninetales|Energy Ball|p2a: Vibrava
+|-damage|p2a: Vibrava|58/100
+|
+|upkeep
+|turn|19
+|choice|switch 5|move earthquake
+|
+|switch|p1a: Dodrio|Dodrio, M|100/100
+|move|p2a: Vibrava|Earthquake|p1a: Dodrio
+|-immune|p1a: Dodrio|[msg]
+|
+|upkeep
+|turn|20
+|choice|move knockoff|move uturn
+|
+|move|p1a: Dodrio|Knock Off|p2a: Vibrava
+|-damage|p2a: Vibrava|17/100
+|-enditem|p2a: Vibrava|Eviolite|[from] move: Knock Off|[of] p1a: Dodrio
+|move|p2a: Vibrava|U-turn|p1a: Dodrio
+|-resisted|p1a: Dodrio
+|-damage|p1a: Dodrio|90/100
+|choice||switch 2
+|
+|switch|p2a: Audino|Audino, M|100/100
+|
+|upkeep
+|turn|21
+|choice|switch 2|move toxic
+|
+|switch|p1a: Gourgeist|Gourgeist-Super, M|100/100
+|-item|p2a: Audino|Leftovers|[from] ability: Frisk|[of] p1a: Gourgeist|[identify]
+|move|p2a: Audino|Toxic|p1a: Gourgeist|[miss]
+|-miss|p2a: Audino|p1a: Gourgeist
+|
+|upkeep
+|turn|22
+|c|☆A Hero's Ghost|i miss 90%s like no ones damn business
+|choice|move willowisp|move toxic
+|
+|move|p1a: Gourgeist|Will-O-Wisp|p2a: Audino
+|-status|p2a: Audino|brn
+|move|p2a: Audino|Toxic|p1a: Gourgeist
+|-status|p1a: Gourgeist|tox
+|
+|-damage|p1a: Gourgeist|94/100 tox|[from] psn
+|-damage|p2a: Audino|88/100 brn|[from] brn
+|upkeep
+|turn|23
+|choice|move willowisp|move knockoff
+|
+|move|p1a: Gourgeist|Will-O-Wisp|p2a: Audino|[miss]
+|-miss|p1a: Gourgeist|p2a: Audino
+|move|p2a: Audino|Knock Off|p1a: Gourgeist
+|-supereffective|p1a: Gourgeist
+|-damage|p1a: Gourgeist|85/100 tox
+|-enditem|p1a: Gourgeist|Leftovers|[from] move: Knock Off|[of] p2a: Audino
+|
+|-heal|p2a: Audino|94/100 brn|[from] item: Leftovers
+|-damage|p1a: Gourgeist|73/100 tox|[from] psn
+|-damage|p2a: Audino|82/100 brn|[from] brn
+|upkeep
+|turn|24
+|choice|switch 4|move wish
+|
+|switch|p1a: Altaria|Altaria, M|76/100
+|move|p2a: Audino|Wish|p2a: Audino
+|
+|-heal|p2a: Audino|88/100 brn|[from] item: Leftovers
+|-damage|p2a: Audino|75/100 brn|[from] brn
+|upkeep
+|turn|25
+|choice|switch 2|switch 3
+|
+|switch|p1a: Dodrio|Dodrio, M|90/100
+|switch|p2a: Clefairy|Clefairy, M|100/100
+|
+|upkeep
+|turn|26
+|choice|move knockoff|switch 5
+|
+|switch|p2a: Ampharos|Ampharos, M|100/100
+|move|p1a: Dodrio|Knock Off|p2a: Ampharos
+|-damage|p2a: Ampharos|62/100
+|-status|p1a: Dodrio|par|[from] ability: Static|[of] p2a: Ampharos
+|-enditem|p2a: Ampharos|Life Orb|[from] move: Knock Off|[of] p1a: Dodrio
+|
+|upkeep
+|turn|27
+|choice|switch 6|move thunderbolt
+|
+|switch|p1a: Clefairy|Clefairy, M|59/100
+|move|p2a: Ampharos|Thunderbolt|p1a: Clefairy
+|-crit|p1a: Clefairy
+|-damage|p1a: Clefairy|21/100
+|
+|upkeep
+|turn|28
+|choice|move softboiled|move thunderbolt
+|
+|move|p2a: Ampharos|Thunderbolt|p1a: Clefairy
+|-damage|p1a: Clefairy|0 fnt
+|faint|p1a: Clefairy
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Gourgeist|Gourgeist-Super, M|73/100 tox
+|turn|29
+|choice|move willowisp|move agility
+|
+|move|p2a: Ampharos|Agility|p2a: Ampharos
+|-boost|p2a: Ampharos|spe|2
+|move|p1a: Gourgeist|Will-O-Wisp|p2a: Ampharos
+|-status|p2a: Ampharos|brn
+|
+|-damage|p2a: Ampharos|49/100 brn|[from] brn
+|-damage|p1a: Gourgeist|66/100 tox|[from] psn
+|upkeep
+|turn|30
+|choice|move foulplay|move hiddenpower
+|
+|move|p2a: Ampharos|Hidden Power|p1a: Gourgeist
+|-supereffective|p1a: Gourgeist
+|-damage|p1a: Gourgeist|21/100 tox
+|move|p1a: Gourgeist|Foul Play|p2a: Ampharos
+|-damage|p2a: Ampharos|32/100 brn
+|
+|-damage|p2a: Ampharos|20/100 brn|[from] brn
+|-damage|p1a: Gourgeist|9/100 tox|[from] psn
+|upkeep
+|turn|31
+|choice|move synthesis|move thunderbolt
+|
+|move|p2a: Ampharos|Thunderbolt|p1a: Gourgeist
+|-resisted|p1a: Gourgeist
+|-damage|p1a: Gourgeist|0 fnt
+|faint|p1a: Gourgeist
+|
+|-damage|p2a: Ampharos|7/100 brn|[from] brn
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Altaria|Altaria, M|76/100
+|turn|32
+|choice|move roost|move hiddenpower
+|
+|move|p2a: Ampharos|Hidden Power|p1a: Altaria
+|-supereffective|p1a: Altaria
+|-damage|p1a: Altaria|0 fnt
+|faint|p1a: Altaria
+|
+|-damage|p2a: Ampharos|0 fnt|[from] brn
+|upkeep
+|faint|p2a: Ampharos
+|choice|switch 5|switch 2
+|
+|switch|p2a: Vibrava|Vibrava, M|17/100
+|switch|p1a: Ninetales|Ninetales, M|51/100 par
+|turn|33
+|choice|switch 6|move roost
+|
+|switch|p1a: Dodrio|Dodrio, M|90/100 par
+|move|p2a: Vibrava|Roost|p2a: Vibrava
+|-heal|p2a: Vibrava|67/100
+|
+|upkeep
+|turn|34
+|choice|move return|move roost
+|
+|move|p2a: Vibrava|Roost|p2a: Vibrava
+|-heal|p2a: Vibrava|100/100
+|move|p1a: Dodrio|Return|p2a: Vibrava
+|-damage|p2a: Vibrava|14/100
+|
+|upkeep
+|turn|35
+|choice|move return|move roost
+|
+|move|p2a: Vibrava|Roost|p2a: Vibrava
+|-heal|p2a: Vibrava|65/100
+|move|p1a: Dodrio|Return|p2a: Vibrava
+|-damage|p2a: Vibrava|0 fnt
+|faint|p2a: Vibrava
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Camerupt|Camerupt, M|53/100 tox
+|turn|36
+|choice|move return|move stealthrock
+|
+|move|p2a: Camerupt|Stealth Rock|p1a: Dodrio
+|-sidestart|p1: once a trevor|move: Stealth Rock
+|move|p1a: Dodrio|Return|p2a: Camerupt
+|-damage|p2a: Camerupt|0 fnt
+|faint|p2a: Camerupt
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Regice|Regice|100/100
+|turn|37
+|choice|move return|move icebeam
+|
+|move|p2a: Regice|Ice Beam|p1a: Dodrio
+|-supereffective|p1a: Dodrio
+|-damage|p1a: Dodrio|0 fnt
+|-damage|p2a: Regice|91/100|[from] item: Life Orb
+|faint|p1a: Dodrio
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Ninetales|Ninetales, M|51/100 par
+|-damage|p1a: Ninetales|26/100 par|[from] Stealth Rock
+|turn|38
+|choice|move fireblast|move thunderbolt
+|
+|move|p2a: Regice|Thunderbolt|p1a: Ninetales
+|-crit|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|-damage|p2a: Regice|81/100|[from] item: Life Orb
+|faint|p1a: Ninetales
+|
+|win|A Hero's Ghost
+|c|☆A Hero's Ghost|gg
+|raw|once a trevor's rating: 1402 &rarr; <strong>1367</strong><br />(-35 for losing)
+|raw|A Hero&apos;s Ghost's rating: 1089 &rarr; <strong>1135</strong><br />(+46 for winning)

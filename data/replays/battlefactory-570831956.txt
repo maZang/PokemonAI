@@ -1,0 +1,316 @@
+|j|compooter science
+|j|Kel9901
+|player|p1|compooter science|102
+|player|p2|Kel9901|102
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|18173,49250,26630,50261,63892,24200,7186,60691,31738,57512,39482,28791
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Banette, M|item
+|poke|p1|Blastoise, M|item
+|poke|p1|Diancie|item
+|poke|p1|Meloetta|item
+|poke|p1|Sneasel, M|item
+|poke|p1|Qwilfish, M|item
+|poke|p2|Slowking, M|item
+|poke|p2|Escavalier, M|item
+|poke|p2|Hitmontop, M|item
+|poke|p2|Seismitoad, M|item
+|poke|p2|Emboar, M|item
+|poke|p2|Registeel|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 2, team 1, team 3, team 4, team 5, team 6|team 4, team 2, team 3, team 1, team 5, team 6
+|
+|start
+|switch|p1a: Blastoise|Blastoise, M|100/100
+|switch|p2a: Seismitoad|Seismitoad, M|100/100
+|turn|1
+|choice|move toxic|move stealthrock
+|
+|move|p2a: Seismitoad|Stealth Rock|p1a: Blastoise
+|-sidestart|p1: compooter science|move: Stealth Rock
+|move|p1a: Blastoise|Toxic|p2a: Seismitoad
+|-status|p2a: Seismitoad|tox
+|
+|-damage|p2a: Seismitoad|94/100 tox|[from] psn
+|upkeep
+|turn|2
+|c|☆Kel9901|wow
+|choice|move rapidspin|move grassknot
+|
+|move|p2a: Seismitoad|Grass Knot|p1a: Blastoise
+|-supereffective|p1a: Blastoise
+|-damage|p1a: Blastoise|61/100
+|move|p1a: Blastoise|Rapid Spin|p2a: Seismitoad
+|-damage|p2a: Seismitoad|90/100 tox
+|-sideend|p1: compooter science|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Blastoise
+|
+|-heal|p2a: Seismitoad|96/100 tox|[from] item: Leftovers
+|-heal|p1a: Blastoise|67/100|[from] item: Leftovers
+|-damage|p2a: Seismitoad|84/100 tox|[from] psn
+|upkeep
+|turn|3
+|choice|switch 6|move stealthrock
+|
+|switch|p1a: Qwilfish|Qwilfish, M|100/100
+|-ability|p1a: Qwilfish|Intimidate|boost
+|-unboost|p2a: Seismitoad|atk|1
+|move|p2a: Seismitoad|Stealth Rock|p1a: Qwilfish
+|-sidestart|p1: compooter science|move: Stealth Rock
+|
+|-heal|p2a: Seismitoad|90/100 tox|[from] item: Leftovers
+|-damage|p2a: Seismitoad|72/100 tox|[from] psn
+|upkeep
+|turn|4
+|choice|move spikes|move earthpower
+|
+|move|p1a: Qwilfish|Spikes|p2a: Seismitoad
+|-sidestart|p2: Kel9901|Spikes
+|move|p2a: Seismitoad|Earth Power|p1a: Qwilfish
+|-supereffective|p1a: Qwilfish
+|-damage|p1a: Qwilfish|0 fnt
+|faint|p1a: Qwilfish
+|
+|-heal|p2a: Seismitoad|78/100 tox|[from] item: Leftovers
+|-damage|p2a: Seismitoad|53/100 tox|[from] psn
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Blastoise|Blastoise, M|67/100
+|-damage|p1a: Blastoise|55/100|[from] Stealth Rock
+|turn|5
+|c|☆Kel9901|r e k t
+|choice|move rapidspin|move grassknot
+|
+|move|p2a: Seismitoad|Grass Knot|p1a: Blastoise
+|-supereffective|p1a: Blastoise
+|-damage|p1a: Blastoise|13/100
+|move|p1a: Blastoise|Rapid Spin|p2a: Seismitoad
+|-damage|p2a: Seismitoad|49/100 tox
+|-sideend|p1: compooter science|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Blastoise
+|
+|-heal|p2a: Seismitoad|55/100 tox|[from] item: Leftovers
+|-heal|p1a: Blastoise|19/100|[from] item: Leftovers
+|-damage|p2a: Seismitoad|24/100 tox|[from] psn
+|upkeep
+|turn|6
+|choice|switch 4|move grassknot
+|
+|switch|p1a: Meloetta|Meloetta|100/100
+|move|p2a: Seismitoad|Grass Knot|p1a: Meloetta
+|-damage|p1a: Meloetta|96/100
+|
+|-heal|p1a: Meloetta|100/100|[from] item: Leftovers
+|-heal|p2a: Seismitoad|31/100 tox|[from] item: Leftovers
+|-damage|p2a: Seismitoad|0 fnt|[from] psn
+|upkeep
+|faint|p2a: Seismitoad
+|choice||switch 2
+|
+|switch|p2a: Escavalier|Escavalier, M|100/100
+|-damage|p2a: Escavalier|88/100|[from] Spikes
+|turn|7
+|choice|switch 4|move megahorn
+|
+|switch|p1a: Blastoise|Blastoise, M|19/100
+|move|p2a: Escavalier|Megahorn|p1a: Blastoise|[miss]
+|-miss|p2a: Escavalier|p1a: Blastoise
+|
+|-heal|p1a: Blastoise|25/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|choice|move scald|switch 4
+|
+|switch|p2a: Slowking|Slowking, M|100/100
+|-damage|p2a: Slowking|88/100|[from] Spikes
+|move|p1a: Blastoise|Scald|p2a: Slowking
+|-resisted|p2a: Slowking
+|-damage|p2a: Slowking|74/100
+|-status|p2a: Slowking|brn
+|
+|-heal|p1a: Blastoise|31/100|[from] item: Leftovers
+|-damage|p2a: Slowking|62/100 brn|[from] brn
+|upkeep
+|turn|9
+|choice|switch 4|move psyshock
+|
+|switch|p1a: Meloetta|Meloetta|100/100
+|move|p2a: Slowking|Psyshock|p1a: Meloetta
+|-resisted|p1a: Meloetta
+|-crit|p1a: Meloetta
+|-damage|p1a: Meloetta|65/100
+|
+|-heal|p1a: Meloetta|71/100|[from] item: Leftovers
+|-damage|p2a: Slowking|49/100 brn|[from] brn
+|upkeep
+|turn|10
+|choice|move substitute|switch 4
+|
+|switch|p2a: Escavalier|Escavalier, M|88/100
+|-damage|p2a: Escavalier|76/100|[from] Spikes
+|move|p1a: Meloetta|Substitute|p1a: Meloetta
+|-start|p1a: Meloetta|Substitute
+|-damage|p1a: Meloetta|46/100
+|
+|-heal|p1a: Meloetta|52/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|choice|move shadowball|move knockoff
+|
+|move|p1a: Meloetta|Shadow Ball|p2a: Escavalier
+|-damage|p2a: Escavalier|52/100
+|move|p2a: Escavalier|Knock Off|p1a: Meloetta
+|-supereffective|p1a: Meloetta
+|-end|p1a: Meloetta|Substitute
+|
+|-heal|p1a: Meloetta|58/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|choice|switch 4|move knockoff
+|
+|switch|p1a: Blastoise|Blastoise, M|31/100
+|move|p2a: Escavalier|Knock Off|p1a: Blastoise
+|-damage|p1a: Blastoise|0 fnt
+|-enditem|p1a: Blastoise|Leftovers|[from] move: Knock Off|[of] p2a: Escavalier
+|faint|p1a: Blastoise
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Sneasel|Sneasel, M|100/100
+|turn|13
+|choice|move knockoff|switch 3
+|
+|switch|p2a: Hitmontop|Hitmontop, M|100/100
+|-damage|p2a: Hitmontop|88/100|[from] Spikes
+|-ability|p2a: Hitmontop|Intimidate|boost
+|-unboost|p1a: Sneasel|atk|1
+|move|p1a: Sneasel|Knock Off|p2a: Hitmontop
+|-resisted|p2a: Hitmontop
+|-crit|p2a: Hitmontop
+|-damage|p2a: Hitmontop|55/100
+|-enditem|p2a: Hitmontop|Leftovers|[from] move: Knock Off|[of] p1a: Sneasel
+|-damage|p1a: Sneasel|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|14
+|c|☆Kel9901|sneezel
+|c|☆Kel9901|lol
+|choice|switch 2|move rapidspin
+|
+|switch|p1a: Banette|Banette, M|100/100
+|move|p2a: Hitmontop|Rapid Spin|p1a: Banette
+|-immune|p1a: Banette|[msg]
+|
+|upkeep
+|turn|15
+|c|☆Kel9901|WOW
+|choice|move knockoff mega|move foresight
+|
+|detailschange|p1a: Banette|Banette-Mega, M
+|-mega|p1a: Banette|Banette|Banettite
+|move|p1a: Banette|Knock Off|p2a: Hitmontop
+|-resisted|p2a: Hitmontop
+|-damage|p2a: Hitmontop|43/100
+|move|p2a: Hitmontop|Foresight|p1a: Banette
+|-start|p1a: Banette|Foresight
+|
+|upkeep
+|turn|16
+|c|☆Kel9901|lol
+|choice|move gunkshot|move rapidspin
+|
+|move|p1a: Banette|Gunk Shot|p2a: Hitmontop
+|-crit|p2a: Hitmontop
+|-damage|p2a: Hitmontop|0 fnt
+|faint|p2a: Hitmontop
+|
+|upkeep
+|c|☆Kel9901|WTF
+|c|☆Kel9901|HAX
+|choice||switch 5
+|
+|switch|p2a: Emboar|Emboar, M|100/100
+|-damage|p2a: Emboar|88/100|[from] Spikes
+|turn|17
+|choice|move gunkshot|move flareblitz
+|
+|move|p2a: Emboar|Flare Blitz|p1a: Banette
+|-damage|p1a: Banette|0 fnt
+|-damage|p2a: Emboar|60/100|[from] recoil|[of] p1a: Banette
+|faint|p1a: Banette
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Diancie|Diancie|100/100
+|turn|18
+|choice|switch 4|move superpower
+|
+|switch|p1a: Meloetta|Meloetta|58/100
+|move|p2a: Emboar|Superpower|p1a: Meloetta
+|-damage|p1a: Meloetta|4/100
+|-unboost|p2a: Emboar|atk|1
+|-unboost|p2a: Emboar|def|1
+|
+|-heal|p1a: Meloetta|10/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|choice|move hypervoice|move suckerpunch
+|
+|move|p2a: Emboar|Sucker Punch|p1a: Meloetta
+|-supereffective|p1a: Meloetta
+|-damage|p1a: Meloetta|0 fnt
+|faint|p1a: Meloetta
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Diancie|Diancie|100/100
+|turn|20
+|choice|move diamondstorm|move superpower
+|
+|move|p2a: Emboar|Superpower|p1a: Diancie
+|-damage|p1a: Diancie|66/100
+|-unboost|p2a: Emboar|atk|1
+|-unboost|p2a: Emboar|def|1
+|move|p1a: Diancie|Diamond Storm|p2a: Emboar
+|-damage|p2a: Emboar|0 fnt
+|faint|p2a: Emboar
+|
+|-heal|p1a: Diancie|72/100|[from] item: Leftovers
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Registeel|Registeel|100/100
+|-damage|p2a: Registeel|88/100|[from] Spikes
+|turn|21
+|choice|move diamondstorm|move ironhead
+|
+|move|p2a: Registeel|Iron Head|p1a: Diancie
+|-supereffective|p1a: Diancie
+|-damage|p1a: Diancie|0 fnt
+|faint|p1a: Diancie
+|
+|-heal|p2a: Registeel|94/100|[from] item: Leftovers
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Sneasel|Sneasel, M|91/100
+|turn|22
+|choice|move knockoff|move ironhead
+|
+|move|p1a: Sneasel|Knock Off|p2a: Registeel
+|-damage|p2a: Registeel|62/100
+|-enditem|p2a: Registeel|Leftovers|[from] move: Knock Off|[of] p1a: Sneasel
+|-damage|p1a: Sneasel|81/100|[from] item: Life Orb
+|move|p2a: Registeel|Iron Head|p1a: Sneasel
+|-supereffective|p1a: Sneasel
+|-damage|p1a: Sneasel|0 fnt
+|faint|p1a: Sneasel
+|
+|win|Kel9901

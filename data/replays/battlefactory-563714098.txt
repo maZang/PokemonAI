@@ -1,0 +1,59 @@
+|j|nigeriaaaaa
+|j|Trimpa
+|player|p1|nigeriaaaaa|1
+|player|p2|Trimpa|290
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|35125,43756,48078,1213,45194,38851,52578,13787,14750,10798,40433,35093
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Excadrill, M|item
+|poke|p1|Latios, M|item
+|poke|p1|Mawile, M|item
+|poke|p1|Blaziken, M|item
+|poke|p1|Arceus-*|item
+|poke|p1|Kyurem-White|item
+|poke|p2|Zekrom|item
+|poke|p2|Aegislash, M|item
+|poke|p2|Arceus-*|item
+|poke|p2|Mawile, M|item
+|poke|p2|Xerneas|item
+|poke|p2|Deoxys-Defense|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 3, team 2, team 1, team 4, team 5, team 6|team 5, team 2, team 3, team 4, team 1, team 6
+|
+|start
+|switch|p1a: Mawile|Mawile, M|100/100
+|switch|p2a: Xerneas|Xerneas|100/100
+|-ability|p2a: Xerneas|Fairy Aura
+|-ability|p1a: Mawile|Intimidate|boost
+|-unboost|p2a: Xerneas|atk|1
+|turn|1
+|l|nigeriaaaaa
+|player|p1|
+|choice|move ironhead mega|move focusblast
+|
+|detailschange|p1a: Mawile|Mawile-Mega, M
+|-mega|p1a: Mawile|Mawile|Mawilite
+|move|p2a: Xerneas|Focus Blast|p1a: Mawile
+|-damage|p1a: Mawile|55/100
+|move|p1a: Mawile|Iron Head|p2a: Xerneas
+|-supereffective|p2a: Xerneas
+|-damage|p2a: Xerneas|0 fnt
+|faint|p2a: Xerneas
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Deoxys|Deoxys-Defense|100/100
+|-ability|p2a: Deoxys|Pressure
+|turn|2
+|-message|nigeriaaaaa lost due to inactivity.
+|
+|win|Trimpa
+|raw|nigeriaaaaa's rating: 1087 &rarr; <strong>1058</strong><br />(-29 for losing)
+|raw|Trimpa's rating: 1000 &rarr; <strong>1050</strong><br />(+50 for winning)

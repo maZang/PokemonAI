@@ -1,0 +1,619 @@
+|j|asstrainer marco
+|j|asstrainer otto
+|player|p1|asstrainer marco|1
+|player|p2|asstrainer otto|2
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|51301,13021,51792,2166,64852,8192,59819,12826,40377,7989,22040,14526
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Arceus-*|item
+|poke|p1|Mewtwo|item
+|poke|p1|Salamence, M|item
+|poke|p1|Klefki, M|item
+|poke|p1|Blaziken, M|item
+|poke|p1|Blissey, F|item
+|poke|p2|Scizor, M|item
+|poke|p2|Palkia|item
+|poke|p2|Deoxys-Speed|item
+|poke|p2|Latias, F|item
+|poke|p2|Groudon|item
+|poke|p2|Arceus-*|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 1, team 2, team 3, team 4, team 5, team 6|team 3, team 2, team 1, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Arceus|Arceus-Fire|100/100
+|switch|p2a: Deoxys|Deoxys-Speed|100/100
+|-ability|p2a: Deoxys|Pressure
+|turn|1
+|choice|move fireblast|move stealthrock
+|
+|move|p2a: Deoxys|Stealth Rock|p1a: Arceus
+|-sidestart|p1: asstrainer marco|move: Stealth Rock
+|move|p1a: Arceus|Fire Blast|p2a: Deoxys
+|-enditem|p2a: Deoxys|Focus Sash
+|-damage|p2a: Deoxys|1/100
+|
+|upkeep
+|turn|2
+|choice|move earthpower|move spikes
+|
+|move|p2a: Deoxys|Spikes|p1a: Arceus
+|-sidestart|p1: asstrainer marco|Spikes
+|move|p1a: Arceus|Earth Power|p2a: Deoxys
+|-damage|p2a: Deoxys|0 fnt
+|faint|p2a: Deoxys
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Latias|Latias, F|100/100
+|turn|3
+|choice|move calmmind|switch 5
+|
+|switch|p2a: Groudon|Groudon|100/100
+|detailschange|p2a: Groudon|Groudon-Primal
+|-primal|p2a: Groudon
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p2a: Groudon
+|move|p1a: Arceus|Calm Mind|p1a: Arceus
+|-boost|p1a: Arceus|spa|1
+|-boost|p1a: Arceus|spd|1
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|4
+|choice|move earthpower|switch 5
+|
+|-weather|none
+|switch|p2a: Latias|Latias, F|100/100
+|move|p1a: Arceus|Earth Power|p2a: Latias
+|-immune|p2a: Latias|[msg]|[from] ability: Levitate
+|
+|upkeep
+|turn|5
+|choice|switch 4|move calmmind
+|
+|switch|p1a: Klefki|Klefki, M|100/100
+|-damage|p1a: Klefki|95/100|[from] Stealth Rock
+|-damage|p1a: Klefki|82/100|[from] Spikes
+|move|p2a: Latias|Calm Mind|p2a: Latias
+|-boost|p2a: Latias|spa|1
+|-boost|p2a: Latias|spd|1
+|
+|-heal|p1a: Klefki|88/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|choice|move toxic|switch 5
+|
+|switch|p2a: Groudon|Groudon-Primal|100/100
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p2a: Groudon
+|move|p1a: Klefki|Toxic|p2a: Groudon
+|-status|p2a: Groudon|tox
+|
+|-weather|DesolateLand|[upkeep]
+|-heal|p1a: Klefki|94/100|[from] item: Leftovers
+|-damage|p2a: Groudon|94/100 tox|[from] psn
+|upkeep
+|turn|7
+|choice|move spikes|move lavaplume
+|
+|move|p1a: Klefki|Spikes|p2a: Groudon
+|-sidestart|p2: asstrainer otto|Spikes
+|move|p2a: Groudon|Lava Plume|p1a: Klefki
+|-supereffective|p1a: Klefki
+|-damage|p1a: Klefki|0 fnt
+|faint|p1a: Klefki
+|
+|-weather|DesolateLand|[upkeep]
+|-damage|p2a: Groudon|82/100 tox|[from] psn
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Salamence|Salamence, M|100/100
+|-damage|p1a: Salamence|76/100|[from] Stealth Rock
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Groudon|atk|1
+|turn|8
+|choice|move dragondance mega|move roar
+|
+|detailschange|p1a: Salamence|Salamence-Mega, M
+|-mega|p1a: Salamence|Salamence|Salamencite
+|move|p1a: Salamence|Dragon Dance|p1a: Salamence
+|-boost|p1a: Salamence|atk|1
+|-boost|p1a: Salamence|spe|1
+|move|p2a: Groudon|Roar|p1a: Salamence
+|drag|p1a: Blaziken|Blaziken, M|100/100
+|-damage|p1a: Blaziken|88/100|[from] Spikes
+|-damage|p1a: Blaziken|76/100|[from] Stealth Rock
+|
+|-weather|DesolateLand|[upkeep]
+|-damage|p2a: Groudon|63/100 tox|[from] psn
+|upkeep
+|turn|9
+|choice|move lowkick|move rest
+|
+|move|p1a: Blaziken|Low Kick|p2a: Groudon
+|-damage|p2a: Groudon|17/100 tox
+|-damage|p1a: Blaziken|66/100|[from] item: Life Orb
+|move|p2a: Groudon|Rest|p2a: Groudon
+|-status|p2a: Groudon|slp
+|-heal|p2a: Groudon|100/100 slp|[silent]
+|-status|p2a: Groudon|slp|[from] move: Rest
+|
+|-weather|DesolateLand|[upkeep]
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|turn|10
+|choice|move lowkick|switch 5
+|
+|-weather|none
+|switch|p2a: Latias|Latias, F|100/100
+|move|p1a: Blaziken|Low Kick|p2a: Latias
+|-resisted|p2a: Latias
+|-damage|p2a: Latias|77/100
+|-damage|p1a: Blaziken|56/100|[from] item: Life Orb
+|
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|turn|11
+|j|instead of you
+|choice|move flareblitz|move psyshock
+|
+|move|p1a: Blaziken|Flare Blitz|p2a: Latias
+|-resisted|p2a: Latias
+|-damage|p2a: Latias|30/100
+|-damage|p1a: Blaziken|39/100|[from] recoil|[of] p2a: Latias
+|-damage|p1a: Blaziken|29/100|[from] item: Life Orb
+|move|p2a: Latias|Psyshock|p1a: Blaziken
+|-supereffective|p1a: Blaziken
+|-damage|p1a: Blaziken|0 fnt
+|faint|p1a: Blaziken
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Salamence|Salamence-Mega, M|76/100
+|-damage|p1a: Salamence|51/100|[from] Stealth Rock
+|turn|12
+|choice|move return|switch 6
+|
+|switch|p2a: Arceus|Arceus-Water|100/100
+|-damage|p2a: Arceus|88/100|[from] Spikes
+|move|p1a: Salamence|Return|p2a: Arceus
+|-damage|p2a: Arceus|48/100
+|
+|upkeep
+|turn|13
+|choice|move return|move recover
+|
+|move|p1a: Salamence|Return|p2a: Arceus
+|-damage|p2a: Arceus|12/100
+|move|p2a: Arceus|Recover|p2a: Arceus
+|-heal|p2a: Arceus|62/100
+|
+|upkeep
+|turn|14
+|choice|switch 2|move recover
+|
+|switch|p1a: Mewtwo|Mewtwo|100/100
+|-damage|p1a: Mewtwo|88/100|[from] Spikes
+|-damage|p1a: Mewtwo|76/100|[from] Stealth Rock
+|-ability|p1a: Mewtwo|Pressure
+|move|p2a: Arceus|Recover|p2a: Arceus
+|-heal|p2a: Arceus|100/100
+|
+|upkeep
+|turn|15
+|choice|move calmmind|move toxic
+|
+|move|p1a: Mewtwo|Calm Mind|p1a: Mewtwo
+|-boost|p1a: Mewtwo|spa|1
+|-boost|p1a: Mewtwo|spd|1
+|move|p2a: Arceus|Toxic|p1a: Mewtwo
+|-status|p1a: Mewtwo|tox
+|
+|-damage|p1a: Mewtwo|69/100 tox|[from] psn
+|upkeep
+|turn|16
+|choice|move calmmind|switch 3
+|
+|switch|p2a: Scizor|Scizor, M|100/100
+|-damage|p2a: Scizor|88/100|[from] Spikes
+|move|p1a: Mewtwo|Calm Mind|p1a: Mewtwo
+|-boost|p1a: Mewtwo|spa|1
+|-boost|p1a: Mewtwo|spd|1
+|
+|-damage|p1a: Mewtwo|57/100 tox|[from] psn
+|upkeep
+|turn|17
+|choice|move focusblast|move bulletpunch mega
+|
+|detailschange|p2a: Scizor|Scizor-Mega, M
+|-mega|p2a: Scizor|Scizor|Scizorite
+|move|p2a: Scizor|Bullet Punch|p1a: Mewtwo
+|-damage|p1a: Mewtwo|25/100 tox
+|move|p1a: Mewtwo|Focus Blast|p2a: Scizor
+|-damage|p2a: Scizor|0 fnt
+|-damage|p1a: Mewtwo|15/100 tox|[from] item: Life Orb
+|faint|p2a: Scizor
+|
+|-damage|p1a: Mewtwo|0 fnt|[from] psn
+|upkeep
+|faint|p1a: Mewtwo
+|choice|switch 2|switch 6
+|
+|switch|p1a: Salamence|Salamence-Mega, M|51/100
+|switch|p2a: Latias|Latias, F|30/100
+|-damage|p1a: Salamence|26/100|[from] Stealth Rock
+|turn|18
+|choice|move return|switch 3
+|
+|switch|p2a: Arceus|Arceus-Water|100/100
+|-damage|p2a: Arceus|88/100|[from] Spikes
+|move|p1a: Salamence|Return|p2a: Arceus
+|-damage|p2a: Arceus|47/100
+|
+|upkeep
+|turn|19
+|choice|move return|move recover
+|
+|move|p1a: Salamence|Return|p2a: Arceus
+|-damage|p2a: Arceus|10/100
+|move|p2a: Arceus|Recover|p2a: Arceus
+|-heal|p2a: Arceus|60/100
+|
+|upkeep
+|turn|20
+|choice|move return|move recover
+|
+|move|p1a: Salamence|Return|p2a: Arceus
+|-damage|p2a: Arceus|19/100
+|move|p2a: Arceus|Recover|p2a: Arceus
+|-heal|p2a: Arceus|69/100
+|
+|upkeep
+|turn|21
+|choice|move roost|move judgment
+|
+|move|p1a: Salamence|Roost|p1a: Salamence
+|-heal|p1a: Salamence|76/100
+|move|p2a: Arceus|Judgment|p1a: Salamence
+|-resisted|p1a: Salamence
+|-damage|p1a: Salamence|51/100
+|
+|upkeep
+|turn|22
+|choice|switch 6|move toxic
+|
+|switch|p1a: Blissey|Blissey, F|100/100
+|-damage|p1a: Blissey|88/100|[from] Stealth Rock
+|-damage|p1a: Blissey|75/100|[from] Spikes
+|move|p2a: Arceus|Toxic|p1a: Blissey
+|-status|p1a: Blissey|tox
+|
+|-heal|p1a: Blissey|82/100 tox|[from] item: Leftovers
+|-damage|p1a: Blissey|75/100 tox|[from] psn
+|upkeep
+|turn|23
+|choice|move wish|switch 5
+|
+|switch|p2a: Groudon|Groudon-Primal|100/100 slp
+|-damage|p2a: Groudon|88/100 slp|[from] Spikes
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p2a: Groudon
+|move|p1a: Blissey|Wish|p1a: Blissey
+|
+|-weather|DesolateLand|[upkeep]
+|-heal|p1a: Blissey|82/100 tox|[from] item: Leftovers
+|-damage|p1a: Blissey|69/100 tox|[from] psn
+|upkeep
+|turn|24
+|choice|switch 6|switch 5
+|
+|-weather|none
+|switch|p2a: Arceus|Arceus-Water|69/100
+|-damage|p2a: Arceus|56/100|[from] Spikes
+|-curestatus|p1a: Blissey|tox|[from] ability: Natural Cure
+|switch|p1a: Salamence|Salamence-Mega, M|51/100
+|-damage|p1a: Salamence|26/100|[from] Stealth Rock
+|
+|-heal|p1a: Salamence|100/100|[from] move: Wish|[wisher] Blissey
+|upkeep
+|turn|25
+|choice|move return|move recover
+|
+|move|p1a: Salamence|Return|p2a: Arceus
+|-damage|p2a: Arceus|15/100
+|move|p2a: Arceus|Recover|p2a: Arceus
+|-heal|p2a: Arceus|65/100
+|
+|upkeep
+|turn|26
+|choice|switch 6|move recover
+|
+|switch|p1a: Blissey|Blissey, F|69/100
+|-damage|p1a: Blissey|57/100|[from] Spikes
+|-damage|p1a: Blissey|44/100|[from] Stealth Rock
+|move|p2a: Arceus|Recover|p2a: Arceus
+|-heal|p2a: Arceus|100/100
+|
+|-heal|p1a: Blissey|50/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|choice|move wish|switch 5
+|
+|switch|p2a: Groudon|Groudon-Primal|88/100 slp
+|-damage|p2a: Groudon|76/100 slp|[from] Spikes
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p2a: Groudon
+|move|p1a: Blissey|Wish|p1a: Blissey
+|
+|-weather|DesolateLand|[upkeep]
+|-heal|p1a: Blissey|57/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|choice|move icebeam|move sleeptalk
+|
+|cant|p2a: Groudon|slp
+|move|p2a: Groudon|Sleep Talk|p2a: Groudon
+|move|p2a: Groudon|Lava Plume|p1a: Blissey|[from]Sleep Talk
+|-damage|p1a: Blissey|38/100
+|move|p1a: Blissey|Ice Beam|p2a: Groudon
+|-damage|p2a: Groudon|66/100 slp
+|
+|-weather|DesolateLand|[upkeep]
+|-heal|p1a: Blissey|88/100|[from] move: Wish|[wisher] Blissey
+|-heal|p1a: Blissey|94/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|choice|move wish|move sleeptalk
+|
+|cant|p2a: Groudon|slp
+|move|p2a: Groudon|Sleep Talk|p2a: Groudon
+|move|p2a: Groudon|Rest|p2a: Groudon|[from]Sleep Talk
+|-fail|p2a: Groudon
+|move|p1a: Blissey|Wish|p1a: Blissey
+|
+|-weather|DesolateLand|[upkeep]
+|-heal|p1a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|choice|move icebeam|move roar
+|
+|move|p1a: Blissey|Ice Beam|p2a: Groudon
+|-damage|p2a: Groudon|56/100 slp
+|-curestatus|p2a: Groudon|slp|[msg]
+|move|p2a: Groudon|Roar|p1a: Blissey
+|drag|p1a: Arceus|Arceus-Fire|100/100
+|-damage|p1a: Arceus|76/100|[from] Stealth Rock
+|-damage|p1a: Arceus|63/100|[from] Spikes
+|
+|-weather|DesolateLand|[upkeep]
+|-heal|p1a: Arceus|100/100|[from] move: Wish|[wisher] Blissey
+|upkeep
+|turn|31
+|choice|move earthpower|move roar
+|
+|move|p1a: Arceus|Earth Power|p2a: Groudon
+|-supereffective|p2a: Groudon
+|-damage|p2a: Groudon|10/100
+|move|p2a: Groudon|Roar|p1a: Arceus
+|drag|p1a: Blissey|Blissey, F|100/100
+|-damage|p1a: Blissey|88/100|[from] Spikes
+|-damage|p1a: Blissey|75/100|[from] Stealth Rock
+|
+|-weather|DesolateLand|[upkeep]
+|-heal|p1a: Blissey|82/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|choice|switch 6|move lavaplume
+|
+|switch|p1a: Salamence|Salamence-Mega, M|100/100
+|-damage|p1a: Salamence|76/100|[from] Stealth Rock
+|move|p2a: Groudon|Lava Plume|p1a: Salamence
+|-resisted|p1a: Salamence
+|-damage|p1a: Salamence|44/100
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|33
+|choice|move return|move roar
+|
+|move|p1a: Salamence|Return|p2a: Groudon
+|-damage|p2a: Groudon|0 fnt
+|faint|p2a: Groudon
+|-weather|none
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Palkia|Palkia|100/100
+|-damage|p2a: Palkia|88/100|[from] Spikes
+|-ability|p2a: Palkia|Pressure
+|turn|34
+|choice|switch 6|move spacialrend
+|
+|switch|p1a: Blissey|Blissey, F|82/100
+|-damage|p1a: Blissey|69/100|[from] Stealth Rock
+|-damage|p1a: Blissey|57/100|[from] Spikes
+|move|p2a: Palkia|Spacial Rend|p1a: Blissey
+|-damage|p1a: Blissey|34/100
+|
+|-heal|p1a: Blissey|41/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|choice|move wish|move thunderwave
+|
+|move|p2a: Palkia|Thunder Wave|p1a: Blissey
+|-status|p1a: Blissey|par
+|cant|p1a: Blissey|par
+|
+|-heal|p1a: Blissey|47/100 par|[from] item: Leftovers
+|upkeep
+|turn|36
+|choice|move wish|switch 3
+|
+|switch|p2a: Latias|Latias, F|30/100
+|move|p1a: Blissey|Wish|p1a: Blissey
+|
+|-heal|p1a: Blissey|53/100 par|[from] item: Leftovers
+|upkeep
+|turn|37
+|choice|move toxic|move calmmind
+|
+|move|p2a: Latias|Calm Mind|p2a: Latias
+|-boost|p2a: Latias|spa|1
+|-boost|p2a: Latias|spd|1
+|move|p1a: Blissey|Toxic|p2a: Latias
+|-status|p2a: Latias|tox
+|
+|-heal|p1a: Blissey|100/100 par|[from] move: Wish|[wisher] Blissey
+|-damage|p2a: Latias|24/100 tox|[from] psn
+|upkeep
+|turn|38
+|choice|move wish|move psyshock
+|
+|move|p2a: Latias|Psyshock|p1a: Blissey
+|-damage|p1a: Blissey|8/100 par
+|cant|p1a: Blissey|par
+|
+|-heal|p1a: Blissey|14/100 par|[from] item: Leftovers
+|-damage|p2a: Latias|11/100 tox|[from] psn
+|upkeep
+|turn|39
+|choice|move wish|move psyshock
+|
+|move|p2a: Latias|Psyshock|p1a: Blissey
+|-damage|p1a: Blissey|0 fnt
+|faint|p1a: Blissey
+|
+|-damage|p2a: Latias|0 fnt|[from] psn
+|upkeep
+|faint|p2a: Latias
+|choice|switch 6|switch 3
+|
+|switch|p1a: Salamence|Salamence-Mega, M|44/100
+|switch|p2a: Palkia|Palkia|88/100
+|-damage|p1a: Salamence|19/100|[from] Stealth Rock
+|-damage|p2a: Palkia|76/100|[from] Spikes
+|-ability|p2a: Palkia|Pressure
+|turn|40
+|choice|move return|move thunderwave
+|
+|move|p1a: Salamence|Return|p2a: Palkia
+|-damage|p2a: Palkia|0 fnt
+|faint|p2a: Palkia
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Arceus|Arceus-Water|100/100
+|-damage|p2a: Arceus|88/100|[from] Spikes
+|turn|41
+|choice|move return|move toxic
+|
+|move|p1a: Salamence|Return|p2a: Arceus
+|-damage|p2a: Arceus|53/100
+|move|p2a: Arceus|Toxic|p1a: Salamence
+|-status|p1a: Salamence|tox
+|
+|-damage|p1a: Salamence|13/100 tox|[from] psn
+|upkeep
+|turn|42
+|choice|move roost|move recover
+|
+|move|p1a: Salamence|Roost|p1a: Salamence
+|-heal|p1a: Salamence|63/100 tox
+|move|p2a: Arceus|Recover|p2a: Arceus
+|-heal|p2a: Arceus|100/100
+|
+|-damage|p1a: Salamence|51/100 tox|[from] psn
+|upkeep
+|turn|43
+|choice|move dragondance|move judgment
+|
+|move|p1a: Salamence|Dragon Dance|p1a: Salamence
+|-boost|p1a: Salamence|atk|1
+|-boost|p1a: Salamence|spe|1
+|move|p2a: Arceus|Judgment|p1a: Salamence
+|-resisted|p1a: Salamence
+|-damage|p1a: Salamence|25/100 tox
+|
+|-damage|p1a: Salamence|7/100 tox|[from] psn
+|upkeep
+|turn|44
+|choice|move roost|move recover
+|
+|move|p1a: Salamence|Roost|p1a: Salamence
+|-heal|p1a: Salamence|57/100 tox
+|move|p2a: Arceus|Recover|p2a: Arceus
+|-fail|p2a: Arceus
+|
+|-damage|p1a: Salamence|33/100 tox|[from] psn
+|upkeep
+|turn|45
+|choice|move dragondance|move judgment
+|
+|move|p1a: Salamence|Dragon Dance|p1a: Salamence
+|-boost|p1a: Salamence|atk|1
+|-boost|p1a: Salamence|spe|1
+|move|p2a: Arceus|Judgment|p1a: Salamence
+|-resisted|p1a: Salamence
+|-damage|p1a: Salamence|8/100 tox
+|
+|-damage|p1a: Salamence|0 fnt|[from] psn
+|upkeep
+|faint|p1a: Salamence
+|choice|switch 4|
+|
+|switch|p1a: Arceus|Arceus-Fire|100/100
+|-damage|p1a: Arceus|76/100|[from] Stealth Rock
+|-damage|p1a: Arceus|63/100|[from] Spikes
+|turn|46
+|choice|move calmmind|move toxic
+|
+|move|p1a: Arceus|Calm Mind|p1a: Arceus
+|-boost|p1a: Arceus|spa|1
+|-boost|p1a: Arceus|spd|1
+|move|p2a: Arceus|Toxic|p1a: Arceus
+|-status|p1a: Arceus|tox
+|
+|-damage|p1a: Arceus|57/100 tox|[from] psn
+|upkeep
+|turn|47
+|choice|move thunder|move recover
+|
+|move|p1a: Arceus|Thunder|p2a: Arceus
+|-supereffective|p2a: Arceus
+|-damage|p2a: Arceus|25/100
+|move|p2a: Arceus|Recover|p2a: Arceus
+|-heal|p2a: Arceus|75/100
+|
+|-damage|p1a: Arceus|45/100 tox|[from] psn
+|upkeep
+|turn|48
+|choice|move thunder|move recover
+|
+|move|p2a: Arceus|Recover|p2a: Arceus
+|-heal|p2a: Arceus|100/100
+|move|p1a: Arceus|Thunder|p2a: Arceus|[miss]
+|-miss|p1a: Arceus|p2a: Arceus
+|
+|-damage|p1a: Arceus|27/100 tox|[from] psn
+|upkeep
+|turn|49
+|choice|move thunder|move judgment
+|
+|move|p1a: Arceus|Thunder|p2a: Arceus
+|-supereffective|p2a: Arceus
+|-damage|p2a: Arceus|22/100
+|move|p2a: Arceus|Judgment|p1a: Arceus
+|-supereffective|p1a: Arceus
+|-damage|p1a: Arceus|0 fnt
+|faint|p1a: Arceus
+|
+|win|asstrainer otto

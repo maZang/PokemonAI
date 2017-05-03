@@ -1,0 +1,313 @@
+|j|Kaua_Felipe
+|j|BigBoiVGC
+|player|p1|Kaua_Felipe|262
+|player|p2|BigBoiVGC|102
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|2006,8506,63848,57238,47631,43005,10101,2460,33277,46994,53244,16836
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Raikou|item
+|poke|p1|Staraptor, M|item
+|poke|p1|Charizard, M|item
+|poke|p1|Hawlucha, M|item
+|poke|p1|Breloom, M|item
+|poke|p1|Celebi|item
+|poke|p2|Heracross, M|item
+|poke|p2|Raikou|item
+|poke|p2|Keldeo|item
+|poke|p2|Heatran, M|item
+|poke|p2|Zapdos|item
+|poke|p2|Chansey, F|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 3, team 2, team 1, team 4, team 5, team 6|team 4, team 2, team 3, team 1, team 5, team 6
+|
+|start
+|switch|p1a: Charizard|Charizard, M|100/100
+|switch|p2a: Heatran|Heatran, M|100/100
+|-item|p2a: Heatran|Air Balloon
+|turn|1
+|choice|move dragondance|move stealthrock
+|
+|move|p1a: Charizard|Dragon Dance|p1a: Charizard
+|-boost|p1a: Charizard|atk|1
+|-boost|p1a: Charizard|spe|1
+|move|p2a: Heatran|Stealth Rock|p1a: Charizard
+|-sidestart|p1: Kaua_Felipe|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|choice|move dragondance|move taunt
+|
+|move|p1a: Charizard|Dragon Dance|p1a: Charizard
+|-boost|p1a: Charizard|atk|1
+|-boost|p1a: Charizard|spe|1
+|move|p2a: Heatran|Taunt|p1a: Charizard
+|-start|p1a: Charizard|move: Taunt
+|
+|upkeep
+|turn|3
+|choice|move earthquake|switch 3
+|
+|switch|p2a: Keldeo|Keldeo|100/100
+|move|p1a: Charizard|Earthquake|p2a: Keldeo
+|-damage|p2a: Keldeo|45/100
+|
+|upkeep
+|turn|4
+|choice|move earthquake|switch 5
+|
+|switch|p2a: Zapdos|Zapdos|100/100
+|-ability|p2a: Zapdos|Pressure
+|move|p1a: Charizard|Earthquake|p2a: Zapdos
+|-immune|p2a: Zapdos|[msg]
+|
+|upkeep
+|turn|5
+|choice|switch 6|move thunderbolt
+|
+|switch|p1a: Celebi|Celebi|100/100
+|-damage|p1a: Celebi|88/100|[from] Stealth Rock
+|move|p2a: Zapdos|Thunderbolt|p1a: Celebi
+|-resisted|p1a: Celebi
+|-damage|p1a: Celebi|74/100
+|
+|-heal|p1a: Celebi|80/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|choice|move gigadrain|move heatwave
+|
+|move|p2a: Zapdos|Heat Wave|p1a: Celebi
+|-supereffective|p1a: Celebi
+|-damage|p1a: Celebi|44/100
+|move|p1a: Celebi|Giga Drain|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-crit|p2a: Zapdos
+|-damage|p2a: Zapdos|83/100
+|-heal|p1a: Celebi|52/100|[from] drain|[of] p2a: Zapdos
+|
+|-heal|p2a: Zapdos|89/100|[from] item: Leftovers
+|-heal|p1a: Celebi|58/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|choice|move recover|move heatwave
+|
+|move|p2a: Zapdos|Heat Wave|p1a: Celebi
+|-supereffective|p1a: Celebi
+|-damage|p1a: Celebi|20/100
+|move|p1a: Celebi|Recover|p1a: Celebi
+|-heal|p1a: Celebi|70/100
+|
+|-heal|p2a: Zapdos|95/100|[from] item: Leftovers
+|-heal|p1a: Celebi|76/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|choice|move stealthrock|move heatwave
+|
+|move|p2a: Zapdos|Heat Wave|p1a: Celebi
+|-supereffective|p1a: Celebi
+|-damage|p1a: Celebi|35/100
+|move|p1a: Celebi|Stealth Rock|p2a: Zapdos
+|-sidestart|p2: BigBoiVGC|move: Stealth Rock
+|
+|-heal|p2a: Zapdos|100/100|[from] item: Leftovers
+|-heal|p1a: Celebi|41/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|choice|move gigadrain|move heatwave
+|
+|move|p2a: Zapdos|Heat Wave|p1a: Celebi
+|-supereffective|p1a: Celebi
+|-crit|p1a: Celebi
+|-damage|p1a: Celebi|0 fnt
+|faint|p1a: Celebi
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Charizard|Charizard, M|100/100
+|-damage|p1a: Charizard|51/100|[from] Stealth Rock
+|turn|10
+|choice|move dragonclaw mega|move thunderbolt
+|
+|detailschange|p1a: Charizard|Charizard-Mega-X, M
+|-mega|p1a: Charizard|Charizard|Charizardite X
+|move|p1a: Charizard|Dragon Claw|p2a: Zapdos
+|-damage|p2a: Zapdos|59/100
+|move|p2a: Zapdos|Thunderbolt|p1a: Charizard
+|-resisted|p1a: Charizard
+|-damage|p1a: Charizard|26/100
+|
+|-heal|p2a: Zapdos|65/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|choice|move dragonclaw|move defog
+|
+|move|p1a: Charizard|Dragon Claw|p2a: Zapdos
+|-damage|p2a: Zapdos|20/100
+|move|p2a: Zapdos|Defog|p1a: Charizard
+|-unboost|p1a: Charizard|evasion|1
+|-sideend|p1: Kaua_Felipe|Stealth Rock|[from] move: Defog|[of] p1a: Charizard
+|-sideend|p2: BigBoiVGC|Stealth Rock|[from] move: Defog|[of] p2a: Zapdos
+|
+|-heal|p2a: Zapdos|26/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|choice|move dragonclaw|move thunderbolt
+|
+|move|p1a: Charizard|Dragon Claw|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Chansey|Chansey, F|100/100
+|turn|13
+|choice|move flareblitz|move seismictoss
+|
+|move|p1a: Charizard|Flare Blitz|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|16/100
+|-damage|p1a: Charizard|0 fnt|[from] recoil|[of] p2a: Chansey
+|faint|p1a: Charizard
+|move|p2a: Chansey|Seismic Toss|p1: Charizard|[notarget]
+|-notarget
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Hawlucha|Hawlucha, M|100/100
+|turn|14
+|choice|move substitute|switch 4
+|
+|switch|p2a: Heracross|Heracross, M|100/100
+|move|p1a: Hawlucha|Substitute|p1a: Hawlucha
+|-start|p1a: Hawlucha|Substitute
+|-damage|p1a: Hawlucha|75/100
+|
+|-status|p2a: Heracross|tox|[from] item: Toxic Orb
+|upkeep
+|turn|15
+|choice|move acrobatics|move facade
+|
+|move|p1a: Hawlucha|Acrobatics|p2a: Heracross
+|-supereffective|p2a: Heracross
+|-damage|p2a: Heracross|0 fnt
+|faint|p2a: Heracross
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Raikou|Raikou|100/100
+|-ability|p2a: Raikou|Pressure
+|turn|16
+|choice|move highjumpkick|move voltswitch
+|
+|move|p1a: Hawlucha|High Jump Kick|p2a: Raikou
+|-damage|p2a: Raikou|28/100
+|move|p2a: Raikou|Volt Switch|p1a: Hawlucha
+|-supereffective|p1a: Hawlucha
+|-end|p1a: Hawlucha|Substitute
+|choice||switch 3
+|
+|switch|p2a: Heatran|Heatran, M|100/100
+|-item|p2a: Heatran|Air Balloon
+|
+|upkeep
+|turn|17
+|choice|move highjumpkick|move fireblast
+|
+|move|p1a: Hawlucha|High Jump Kick|p2a: Heatran|[miss]
+|-miss|p1a: Hawlucha|p2a: Heatran
+|-damage|p1a: Hawlucha|25/100|[from] highjumpkick
+|-enditem|p1a: Hawlucha|Sitrus Berry|[eat]
+|-heal|p1a: Hawlucha|50/100|[from] item: Sitrus Berry
+|move|p2a: Heatran|Fire Blast|p1a: Hawlucha
+|-damage|p1a: Hawlucha|0 fnt
+|faint|p1a: Hawlucha
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Raikou|Raikou|100/100
+|-ability|p1a: Raikou|Pressure
+|turn|18
+|choice|move thunderbolt|move fireblast
+|
+|move|p1a: Raikou|Thunderbolt|p2a: Heatran
+|-damage|p2a: Heatran|58/100
+|-enditem|p2a: Heatran|Air Balloon
+|move|p2a: Heatran|Fire Blast|p1a: Raikou
+|-damage|p1a: Raikou|40/100
+|
+|-heal|p1a: Raikou|46/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|choice|move hiddenpower|move earthpower
+|
+|move|p1a: Raikou|Hidden Power|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|54/100
+|move|p2a: Heatran|Earth Power|p1a: Raikou
+|-supereffective|p1a: Raikou
+|-damage|p1a: Raikou|0 fnt
+|faint|p1a: Raikou
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Staraptor|Staraptor, M|100/100
+|turn|20
+|choice|move closecombat|switch 5
+|
+|switch|p2a: Keldeo|Keldeo|45/100
+|move|p1a: Staraptor|Close Combat|p2a: Keldeo
+|-damage|p2a: Keldeo|0 fnt
+|-unboost|p1a: Staraptor|def|1
+|-unboost|p1a: Staraptor|spd|1
+|faint|p2a: Keldeo
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Raikou|Raikou|28/100
+|-ability|p2a: Raikou|Pressure
+|turn|21
+|choice|switch 5|move thunderbolt
+|
+|switch|p1a: Breloom|Breloom, M|100/100
+|move|p2a: Raikou|Thunderbolt|p1a: Breloom
+|-resisted|p1a: Breloom
+|-damage|p1a: Breloom|40/100
+|
+|-status|p1a: Breloom|tox|[from] item: Toxic Orb
+|upkeep
+|turn|22
+|choice|move superpower|move thunderbolt
+|
+|move|p2a: Raikou|Thunderbolt|p1a: Breloom
+|-resisted|p1a: Breloom
+|-damage|p1a: Breloom|0 fnt
+|faint|p1a: Breloom
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Staraptor|Staraptor, M|100/100
+|turn|23
+|choice|move uturn|move thunderbolt
+|
+|move|p2a: Raikou|Thunderbolt|p1a: Staraptor
+|-supereffective|p1a: Staraptor
+|-damage|p1a: Staraptor|0 fnt
+|faint|p1a: Staraptor
+|
+|win|BigBoiVGC
+|raw|Kaua_Felipe's rating: 1063 &rarr; <strong>1048</strong><br />(-15 for losing)
+|raw|BigBoiVGC's rating: 1147 &rarr; <strong>1166</strong><br />(+19 for winning)
+|l|BigBoiVGC

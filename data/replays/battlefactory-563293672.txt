@@ -1,0 +1,180 @@
+|j|amartin96
+|j|AnsatsuKun
+|player|p1|amartin96|200
+|player|p2|AnsatsuKun|190
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|41700,21592,48925,59561,9322,8384,23482,50603,17488,64357,46165,52332
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Prinplup, M|item
+|poke|p1|Tangela, M|item
+|poke|p1|Chatot, M|item
+|poke|p1|Mightyena, M|item
+|poke|p1|Gourgeist-*, M|item
+|poke|p1|Glalie, M|item
+|poke|p2|Klang|item
+|poke|p2|Bouffalant, M|item
+|poke|p2|Gabite, M|item
+|poke|p2|Stunfisk, M|item
+|poke|p2|Probopass, M|item
+|poke|p2|Misdreavus, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 1, team 2, team 3, team 4, team 5, team 6|team 6, team 2, team 3, team 4, team 5, team 1
+|
+|start
+|switch|p1a: Prinplup|Prinplup, M|100/100
+|switch|p2a: Misdreavus|Misdreavus, M|100/100
+|turn|1
+|choice|move stealthrock|move thunderbolt
+|
+|move|p2a: Misdreavus|Thunderbolt|p1a: Prinplup
+|-supereffective|p1a: Prinplup
+|-damage|p1a: Prinplup|59/100
+|move|p1a: Prinplup|Stealth Rock|p2a: Misdreavus
+|-sidestart|p2: AnsatsuKun|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|choice|move scald|move nastyplot
+|
+|move|p2a: Misdreavus|Nasty Plot|p2a: Misdreavus
+|-boost|p2a: Misdreavus|spa|2
+|move|p1a: Prinplup|Scald|p2a: Misdreavus
+|-damage|p2a: Misdreavus|78/100
+|-status|p2a: Misdreavus|brn
+|
+|-damage|p2a: Misdreavus|65/100 brn|[from] brn
+|upkeep
+|turn|3
+|choice|switch 4|move shadowball
+|
+|switch|p1a: Mightyena|Mightyena, M|100/100
+|move|p2a: Misdreavus|Shadow Ball|p1a: Mightyena
+|-resisted|p1a: Mightyena
+|-damage|p1a: Mightyena|32/100
+|
+|-damage|p2a: Misdreavus|53/100 brn|[from] brn
+|upkeep
+|turn|4
+|choice|move suckerpunch|move shadowball
+|
+|move|p1a: Mightyena|Sucker Punch|p2a: Misdreavus
+|-supereffective|p2a: Misdreavus
+|-damage|p2a: Misdreavus|0 fnt
+|-damage|p1a: Mightyena|22/100|[from] item: Life Orb
+|faint|p2a: Misdreavus
+|-ability|p1a: Mightyena|Moxie|boost
+|-boost|p1a: Mightyena|atk|1
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Gabite|Gabite, M|100/100
+|-damage|p2a: Gabite|94/100|[from] Stealth Rock
+|turn|5
+|choice|move suckerpunch|move earthquake
+|
+|move|p1a: Mightyena|Sucker Punch|p2a: Gabite
+|-damage|p2a: Gabite|24/100
+|-damage|p1a: Mightyena|10/100|[from] ability: Rough Skin|[of] p2a: Gabite
+|-damage|p1a: Mightyena|0 fnt|[from] item: Life Orb
+|faint|p1a: Mightyena
+|move|p2a: Gabite|Earthquake|p1: Mightyena|[notarget]
+|-notarget
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Chatot|Chatot, M|100/100
+|turn|6
+|choice|move boomburst|move roar
+|
+|move|p1a: Chatot|Boomburst|p2a: Gabite
+|-damage|p2a: Gabite|0 fnt
+|faint|p2a: Gabite
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Klang|Klang|100/100
+|-damage|p2a: Klang|94/100|[from] Stealth Rock
+|turn|7
+|choice|switch 2|move shiftgear
+|
+|switch|p1a: Tangela|Tangela, M|100/100
+|move|p2a: Klang|Shift Gear|p2a: Klang
+|-boost|p2a: Klang|spe|2
+|-boost|p2a: Klang|atk|1
+|
+|upkeep
+|turn|8
+|choice|move sleeppowder|move geargrind
+|
+|move|p2a: Klang|Gear Grind|p1a: Tangela
+|-damage|p1a: Tangela|87/100
+|-damage|p1a: Tangela|74/100
+|-hitcount|p1a: Tangela|2
+|move|p1a: Tangela|Sleep Powder|p2a: Klang
+|-status|p2a: Klang|slp
+|
+|upkeep
+|turn|9
+|choice|move hiddenpower|move sleeptalk
+|
+|cant|p2a: Klang|slp
+|move|p2a: Klang|Sleep Talk|p2a: Klang
+|move|p2a: Klang|Rest|p2a: Klang|[from]Sleep Talk
+|-fail|p2a: Klang
+|move|p1a: Tangela|Hidden Power|p2a: Klang
+|-supereffective|p2a: Klang
+|-crit|p2a: Klang
+|-damage|p2a: Klang|54/100 slp
+|
+|upkeep
+|turn|10
+|choice|move hiddenpower|switch 2
+|
+|switch|p2a: Bouffalant|Bouffalant, M|100/100
+|-damage|p2a: Bouffalant|88/100|[from] Stealth Rock
+|move|p1a: Tangela|Hidden Power|p2a: Bouffalant
+|-damage|p2a: Bouffalant|70/100
+|
+|upkeep
+|turn|11
+|choice|move leafstorm|move megahorn
+|
+|move|p1a: Tangela|Leaf Storm|p2a: Bouffalant
+|-ability|p2a: Bouffalant|Sap Sipper|boost
+|-boost|p2a: Bouffalant|atk|1
+|move|p2a: Bouffalant|Megahorn|p1a: Tangela
+|-supereffective|p1a: Tangela
+|-damage|p1a: Tangela|0 fnt
+|faint|p1a: Tangela
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Gourgeist|Gourgeist-Small, M|100/100
+|-item|p2a: Bouffalant|Choice Band|[from] ability: Frisk|[of] p1a: Gourgeist|[identify]
+|turn|12
+|choice|move seedbomb|move megahorn
+|
+|move|p1a: Gourgeist|Seed Bomb|p2a: Bouffalant
+|-ability|p2a: Bouffalant|Sap Sipper|boost
+|-boost|p2a: Bouffalant|atk|1
+|move|p2a: Bouffalant|Megahorn|p1a: Gourgeist
+|-damage|p1a: Gourgeist|0 fnt
+|faint|p1a: Gourgeist
+|
+|upkeep
+|-message|amartin96 forfeited.
+|
+|win|AnsatsuKun
+|l|amartin96
+|raw|amartin96's rating: 1156 &rarr; <strong>1124</strong><br />(-32 for losing)
+|raw|AnsatsuKun's rating: 1063 &rarr; <strong>1101</strong><br />(+38 for winning)

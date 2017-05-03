@@ -1,0 +1,62 @@
+|j|pokemonclaw98743
+|j|EdgarAlex471
+|player|p1|pokemonclaw98743|170
+|player|p2|EdgarAlex471|52
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|64081,19923,29047,43230,62693,17,39549,56055,323,50468,6803,62504
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Stoutland, M|item
+|poke|p1|Politoed, M|item
+|poke|p1|Gabite, M|item
+|poke|p1|Monferno, M|item
+|poke|p1|Avalugg, M|item
+|poke|p1|Solrock|item
+|poke|p2|Swanna, M|item
+|poke|p2|Roselia, M|item
+|poke|p2|Probopass, M|item
+|poke|p2|Marowak, M|item
+|poke|p2|Jumpluff, M|
+|poke|p2|Clefairy, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 6, team 2, team 3, team 4, team 5, team 1|team 3, team 2, team 1, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Solrock|Solrock|100/100
+|switch|p2a: Probopass|Probopass, M|100/100
+|turn|1
+|choice|move willowisp|move stealthrock
+|
+|move|p1a: Solrock|Will-O-Wisp|p2a: Probopass
+|-status|p2a: Probopass|brn
+|move|p2a: Probopass|Stealth Rock|p1a: Solrock
+|-sidestart|p1: pokemonclaw98743|move: Stealth Rock
+|
+|-damage|p2a: Probopass|88/100 brn|[from] brn
+|upkeep
+|turn|2
+|choice|switch 2|move flashcannon
+|
+|switch|p1a: Politoed|Politoed, M|100/100
+|-damage|p1a: Politoed|88/100|[from] Stealth Rock
+|move|p2a: Probopass|Flash Cannon|p1a: Politoed
+|-resisted|p1a: Politoed
+|-damage|p1a: Politoed|73/100
+|
+|-heal|p1a: Politoed|79/100|[from] item: Leftovers
+|-heal|p2a: Probopass|94/100 brn|[from] item: Leftovers
+|-damage|p2a: Probopass|82/100 brn|[from] brn
+|upkeep
+|turn|3
+|-message|pokemonclaw98743 lost due to inactivity.
+|
+|win|EdgarAlex471
+|raw|pokemonclaw98743's rating: 1040 &rarr; <strong>1030</strong><br />(-10 for losing)
+|raw|EdgarAlex471's rating: 1170 &rarr; <strong>1187</strong><br />(+17 for winning)
+|l|EdgarAlex471
+|j|Ash❤️Greninja❤️MK❤

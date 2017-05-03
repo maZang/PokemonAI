@@ -1,0 +1,313 @@
+|j|Chris meh
+|j|avon1991
+|player|p1|Chris meh|2
+|player|p2|avon1991|1
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|47556,35191,30171,38423,17169,63157,9776,39509,14349,63669,20204,35235
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Gastrodon, M|item
+|poke|p1|Magneton|item
+|poke|p1|Smeargle, M|item
+|poke|p1|Flygon, M|item
+|poke|p1|Escavalier, M|item
+|poke|p1|Bronzong|item
+|poke|p2|Abomasnow, M|item
+|poke|p2|Camerupt, M|item
+|poke|p2|Mesprit|item
+|poke|p2|Aromatisse, M|item
+|poke|p2|Flygon, M|item
+|poke|p2|Malamar, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 3, team 2, team 1, team 4, team 5, team 6|team 3, team 2, team 1, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Smeargle|Smeargle, M|100/100
+|switch|p2a: Mesprit|Mesprit|100/100
+|turn|1
+|choice|move stealthrock|move stealthrock
+|
+|move|p2a: Mesprit|Stealth Rock|p1a: Smeargle
+|-sidestart|p1: Chris meh|move: Stealth Rock
+|move|p1a: Smeargle|Stealth Rock|p2a: Mesprit
+|-sidestart|p2: avon1991|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|choice|move darkvoid|move psychic
+|
+|move|p2a: Mesprit|Psychic|p1a: Smeargle
+|-damage|p1a: Smeargle|13/100
+|move|p1a: Smeargle|Dark Void|p2a: Mesprit
+|-status|p2a: Mesprit|slp
+|
+|upkeep
+|turn|3
+|choice|move stickyweb|move psychic
+|
+|cant|p2a: Mesprit|slp
+|move|p1a: Smeargle|Sticky Web|p2a: Mesprit
+|-sidestart|p2: avon1991|move: Sticky Web
+|
+|upkeep
+|turn|4
+|choice|move explosion|move psychic
+|
+|cant|p2a: Mesprit|slp
+|move|p1a: Smeargle|Explosion|p2a: Mesprit
+|-damage|p2a: Mesprit|71/100 slp
+|faint|p1a: Smeargle
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Escavalier|Escavalier, M|100/100
+|-damage|p1a: Escavalier|88/100|[from] Stealth Rock
+|turn|5
+|choice|move megahorn|switch 5
+|
+|switch|p2a: Flygon|Flygon, M|100/100
+|-damage|p2a: Flygon|95/100|[from] Stealth Rock
+|move|p1a: Escavalier|Megahorn|p2a: Flygon
+|-damage|p2a: Flygon|0 fnt
+|faint|p2a: Flygon
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Camerupt|Camerupt, M|100/100
+|-damage|p2a: Camerupt|88/100|[from] Stealth Rock
+|-activate|p2a: Camerupt|move: Sticky Web
+|-unboost|p2a: Camerupt|spe|1
+|turn|6
+|choice|switch 3|move flamethrower mega
+|
+|switch|p1a: Gastrodon|Gastrodon, M|100/100
+|-damage|p1a: Gastrodon|94/100|[from] Stealth Rock
+|detailschange|p2a: Camerupt|Camerupt-Mega, M
+|-mega|p2a: Camerupt|Camerupt|Cameruptite
+|move|p2a: Camerupt|Flamethrower|p1a: Gastrodon
+|-resisted|p1a: Gastrodon
+|-damage|p1a: Gastrodon|61/100
+|
+|-heal|p1a: Gastrodon|67/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|choice|move scald|switch 3
+|
+|switch|p2a: Abomasnow|Abomasnow, M|100/100
+|-activate|p2a: Abomasnow|move: Sticky Web
+|-unboost|p2a: Abomasnow|spe|1
+|-damage|p2a: Abomasnow|76/100|[from] Stealth Rock
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Abomasnow
+|move|p1a: Gastrodon|Scald|p2a: Abomasnow
+|-resisted|p2a: Abomasnow
+|-damage|p2a: Abomasnow|60/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Gastrodon|61/100|[from] hail
+|-heal|p1a: Gastrodon|67/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|choice|switch 6|move gigadrain
+|
+|switch|p1a: Bronzong|Bronzong|100/100
+|-damage|p1a: Bronzong|94/100|[from] Stealth Rock
+|move|p2a: Abomasnow|Giga Drain|p1a: Bronzong
+|-resisted|p1a: Bronzong
+|-damage|p1a: Bronzong|81/100
+|-heal|p2a: Abomasnow|67/100|[from] drain|[of] p1a: Bronzong
+|-damage|p2a: Abomasnow|58/100|[from] item: Life Orb
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Bronzong|75/100|[from] hail
+|-heal|p1a: Bronzong|81/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|choice|move hiddenpower|switch 3
+|
+|switch|p2a: Camerupt|Camerupt-Mega, M|88/100
+|-damage|p2a: Camerupt|76/100|[from] Stealth Rock
+|-activate|p2a: Camerupt|move: Sticky Web
+|-unboost|p2a: Camerupt|spe|1
+|move|p1a: Bronzong|Hidden Power|p2a: Camerupt
+|-resisted|p2a: Camerupt
+|-damage|p2a: Camerupt|69/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Camerupt|63/100|[from] hail
+|-damage|p1a: Bronzong|75/100|[from] hail
+|-heal|p1a: Bronzong|81/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|choice|switch 6|move toxic
+|
+|switch|p1a: Gastrodon|Gastrodon, M|67/100
+|-damage|p1a: Gastrodon|61/100|[from] Stealth Rock
+|move|p2a: Camerupt|Toxic|p1a: Gastrodon|[miss]
+|-miss|p2a: Camerupt|p1a: Gastrodon
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Gastrodon|54/100|[from] hail
+|-damage|p2a: Camerupt|57/100|[from] hail
+|-heal|p1a: Gastrodon|61/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|choice|move recover|switch 3
+|
+|switch|p2a: Abomasnow|Abomasnow, M|58/100
+|-damage|p2a: Abomasnow|33/100|[from] Stealth Rock
+|-activate|p2a: Abomasnow|move: Sticky Web
+|-unboost|p2a: Abomasnow|spe|1
+|move|p1a: Gastrodon|Recover|p1a: Gastrodon
+|-heal|p1a: Gastrodon|100/100
+|
+|-weather|none
+|upkeep
+|turn|12
+|choice|switch 6|move gigadrain
+|
+|switch|p1a: Bronzong|Bronzong|81/100
+|-damage|p1a: Bronzong|75/100|[from] Stealth Rock
+|move|p2a: Abomasnow|Giga Drain|p1a: Bronzong
+|-resisted|p1a: Bronzong
+|-damage|p1a: Bronzong|60/100
+|-heal|p2a: Abomasnow|41/100|[from] drain|[of] p1a: Bronzong
+|-damage|p2a: Abomasnow|31/100|[from] item: Life Orb
+|
+|-heal|p1a: Bronzong|66/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|choice|move earthquake|switch 5
+|
+|switch|p2a: Mesprit|Mesprit|71/100 slp
+|-damage|p2a: Mesprit|58/100 slp|[from] Stealth Rock
+|move|p1a: Bronzong|Earthquake|p2a: Mesprit
+|-immune|p2a: Mesprit|[msg]|[from] ability: Levitate
+|
+|-heal|p1a: Bronzong|72/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|choice|move toxic|move healingwish
+|
+|-curestatus|p2a: Mesprit|slp|[msg]
+|move|p2a: Mesprit|Healing Wish|p2a: Mesprit
+|faint|p2a: Mesprit
+|move|p1a: Bronzong|Toxic|p2: Mesprit|[notarget]
+|-notarget
+|
+|-heal|p1a: Bronzong|78/100|[from] item: Leftovers
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Abomasnow|Abomasnow, M|31/100
+|-heal|p2a: Abomasnow|100/100|[from] move: Healing Wish
+|-damage|p2a: Abomasnow|76/100|[from] Stealth Rock
+|-activate|p2a: Abomasnow|move: Sticky Web
+|-unboost|p2a: Abomasnow|spe|1
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Abomasnow
+|turn|15
+|choice|move hiddenpower|switch 6
+|
+|switch|p2a: Malamar|Malamar, M|100/100
+|-activate|p2a: Malamar|move: Sticky Web
+|-boost|p2a: Malamar|spe|1
+|-damage|p2a: Malamar|88/100|[from] Stealth Rock
+|move|p1a: Bronzong|Hidden Power|p2a: Malamar
+|-damage|p2a: Malamar|77/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Malamar|71/100|[from] hail
+|-damage|p1a: Bronzong|72/100|[from] hail
+|-heal|p2a: Malamar|77/100|[from] item: Leftovers
+|-heal|p1a: Bronzong|78/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|choice|move earthquake|move superpower
+|
+|move|p2a: Malamar|Superpower|p1a: Bronzong
+|-damage|p1a: Bronzong|56/100
+|-boost|p2a: Malamar|atk|1
+|-boost|p2a: Malamar|def|1
+|move|p1a: Bronzong|Earthquake|p2a: Malamar
+|-damage|p2a: Malamar|63/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Malamar|57/100|[from] hail
+|-damage|p1a: Bronzong|49/100|[from] hail
+|-heal|p2a: Malamar|63/100|[from] item: Leftovers
+|-heal|p1a: Bronzong|56/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|choice|switch 2|move knockoff
+|
+|switch|p1a: Magneton|Magneton|100/100
+|-damage|p1a: Magneton|94/100|[from] Stealth Rock
+|move|p2a: Malamar|Knock Off|p1a: Magneton
+|-crit|p1a: Magneton
+|-damage|p1a: Magneton|28/100
+|-enditem|p1a: Magneton|Eviolite|[from] move: Knock Off|[of] p2a: Malamar
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Malamar|57/100|[from] hail
+|-damage|p1a: Magneton|22/100|[from] hail
+|-heal|p2a: Malamar|63/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|choice|move thunderbolt|move superpower
+|
+|move|p2a: Malamar|Superpower|p1a: Magneton
+|-supereffective|p1a: Magneton
+|-damage|p1a: Magneton|0 fnt
+|-boost|p2a: Malamar|atk|1
+|-boost|p2a: Malamar|def|1
+|faint|p1a: Magneton
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Malamar|57/100|[from] hail
+|-heal|p2a: Malamar|63/100|[from] item: Leftovers
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Escavalier|Escavalier, M|88/100
+|-damage|p1a: Escavalier|76/100|[from] Stealth Rock
+|turn|19
+|choice|move megahorn|move superpower
+|
+|move|p2a: Malamar|Superpower|p1a: Escavalier
+|-damage|p1a: Escavalier|25/100
+|-boost|p2a: Malamar|atk|1
+|-boost|p2a: Malamar|def|1
+|move|p1a: Escavalier|Megahorn|p2a: Malamar
+|-supereffective|p2a: Malamar
+|-damage|p2a: Malamar|0 fnt
+|faint|p2a: Malamar
+|
+|-weather|none
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Camerupt|Camerupt-Mega, M|57/100
+|-damage|p2a: Camerupt|45/100|[from] Stealth Rock
+|-activate|p2a: Camerupt|move: Sticky Web
+|-unboost|p2a: Camerupt|spe|1
+|turn|20
+|choice|move megahorn|move toxic
+|
+|move|p1a: Escavalier|Megahorn|p2a: Camerupt
+|-resisted|p2a: Camerupt
+|-damage|p2a: Camerupt|0 fnt
+|faint|p2a: Camerupt
+|
+|upkeep
+|-message|avon1991 forfeited.
+|
+|win|Chris meh
+|l|avon1991
+|raw|Chris meh's rating: 1154 &rarr; <strong>1189</strong><br />(+35 for winning)
+|raw|avon1991's rating: 1294 &rarr; <strong>1259</strong><br />(-35 for losing)

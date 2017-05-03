@@ -1,0 +1,334 @@
+|j|chanQuete
+|j|minolob
+|player|p1|chanQuete|101
+|player|p2|minolob|1
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|34236,4845,36466,38483,31131,44582,36285,11530,29172,23573,24982,34244
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Rayquaza|item
+|poke|p1|Kangaskhan, F|item
+|poke|p1|Blaziken, M|item
+|poke|p1|Tyranitar, M|item
+|poke|p1|Darkrai|item
+|poke|p1|Arceus-*|item
+|poke|p2|Arceus-*|item
+|poke|p2|Gengar, M|item
+|poke|p2|Kyogre|item
+|poke|p2|Latias, F|item
+|poke|p2|Reshiram|item
+|poke|p2|Shaymin-Sky|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 2, team 1, team 3, team 4, team 5, team 6|team 3, team 2, team 1, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Kangaskhan|Kangaskhan, F|100/100
+|switch|p2a: Kyogre|Kyogre|100/100
+|detailschange|p2a: Kyogre|Kyogre-Primal
+|-primal|p2a: Kyogre
+|-weather|PrimordialSea|[from] ability: Primordial Sea|[of] p2a: Kyogre
+|turn|1
+|choice|move fakeout mega|move originpulse
+|
+|detailschange|p1a: Kangaskhan|Kangaskhan-Mega, F
+|-mega|p1a: Kangaskhan|Kangaskhan|Kangaskhanite
+|move|p1a: Kangaskhan|Fake Out|p2a: Kyogre
+|-damage|p2a: Kyogre|78/100
+|-crit|p2a: Kyogre
+|-damage|p2a: Kyogre|58/100
+|-hitcount|p2a: Kyogre|2
+|cant|p2a: Kyogre|flinch
+|
+|-weather|PrimordialSea|[upkeep]
+|upkeep
+|turn|2
+|choice|move doubleedge|switch 2
+|
+|-weather|none
+|switch|p2a: Gengar|Gengar, M|100/100
+|move|p1a: Kangaskhan|Double-Edge|p2a: Gengar
+|-immune|p2a: Gengar|[msg]
+|
+|upkeep
+|turn|3
+|choice|switch 5|switch 3
+|
+|switch|p2a: Arceus|Arceus-Fighting|100/100
+|switch|p1a: Darkrai|Darkrai|100/100
+|
+|upkeep
+|turn|4
+|choice|move darkvoid|move judgment
+|
+|move|p1a: Darkrai|Dark Void|p2a: Arceus
+|-status|p2a: Arceus|slp
+|cant|p2a: Arceus|slp
+|
+|-damage|p2a: Arceus|88/100 slp|[from] ability: Bad Dreams|[of] p1a: Darkrai
+|upkeep
+|turn|5
+|choice|switch 2|move judgment
+|
+|switch|p1a: Rayquaza|Rayquaza|100/100
+|-ability|p1a: Rayquaza|Air Lock
+|cant|p2a: Arceus|slp
+|
+|upkeep
+|turn|6
+|choice|move dragondance|move icebeam
+|
+|-curestatus|p2a: Arceus|slp|[msg]
+|move|p2a: Arceus|Ice Beam|p1a: Rayquaza
+|-supereffective|p1a: Rayquaza
+|-damage|p1a: Rayquaza|0 fnt
+|faint|p1a: Rayquaza
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Arceus|Arceus-Poison|100/100
+|turn|7
+|choice|move thunderwave|move thunderwave
+|
+|move|p2a: Arceus|Thunder Wave|p1a: Arceus
+|-status|p1a: Arceus|par
+|cant|p1a: Arceus|par
+|
+|upkeep
+|turn|8
+|choice|move poisonjab|switch 3
+|
+|switch|p2a: Gengar|Gengar, M|100/100
+|move|p1a: Arceus|Poison Jab|p2a: Gengar
+|-resisted|p2a: Gengar
+|-damage|p2a: Gengar|83/100
+|
+|upkeep
+|turn|9
+|choice|move thunderwave|move focusblast mega
+|
+|detailschange|p2a: Gengar|Gengar-Mega, M
+|-mega|p2a: Gengar|Gengar|Gengarite
+|move|p2a: Gengar|Focus Blast|p1a: Arceus
+|-resisted|p1a: Arceus
+|-damage|p1a: Arceus|84/100 par
+|move|p1a: Arceus|Thunder Wave|p2a: Gengar
+|-status|p2a: Gengar|par
+|
+|upkeep
+|turn|10
+|choice|move poisonjab|move taunt
+|
+|move|p2a: Gengar|Taunt|p1a: Arceus
+|-start|p1a: Arceus|move: Taunt
+|move|p1a: Arceus|Poison Jab|p2a: Gengar
+|-resisted|p2a: Gengar
+|-damage|p2a: Gengar|69/100 par
+|
+|upkeep
+|turn|11
+|choice|move poisonjab|move sludgewave
+|
+|cant|p2a: Gengar|par
+|move|p1a: Arceus|Poison Jab|p2a: Gengar
+|-resisted|p2a: Gengar
+|-damage|p2a: Gengar|54/100 par
+|
+|upkeep
+|turn|12
+|c|☆minolob|that focus blast wass a missclick sorry
+|choice|move poisonjab|move sludgewave
+|
+|move|p2a: Gengar|Sludge Wave|p1a: Arceus
+|-resisted|p1a: Arceus
+|-damage|p1a: Arceus|63/100 par
+|move|p1a: Arceus|Poison Jab|p2a: Gengar
+|-resisted|p2a: Gengar
+|-damage|p2a: Gengar|39/100 par
+|
+|-end|p1a: Arceus|move: Taunt
+|upkeep
+|turn|13
+|choice|move poisonjab|move taunt
+|
+|move|p2a: Gengar|Taunt|p1a: Arceus
+|-start|p1a: Arceus|move: Taunt
+|move|p1a: Arceus|Poison Jab|p2a: Gengar
+|-resisted|p2a: Gengar
+|-damage|p2a: Gengar|23/100 par
+|
+|upkeep
+|turn|14
+|choice|move poisonjab|move destinybond
+|
+|move|p2a: Gengar|Destiny Bond|p2a: Gengar
+|-singlemove|p2a: Gengar|Destiny Bond
+|move|p1a: Arceus|Poison Jab|p2a: Gengar
+|-resisted|p2a: Gengar
+|-damage|p2a: Gengar|9/100 par
+|
+|upkeep
+|turn|15
+|choice|move poisonjab|move destinybond
+|
+|move|p2a: Gengar|Destiny Bond|p2a: Gengar
+|-singlemove|p2a: Gengar|Destiny Bond
+|move|p1a: Arceus|Poison Jab|p2a: Gengar
+|-resisted|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|-activate|p2a: Gengar|move: Destiny Bond
+|faint|p1a: Arceus
+|
+|upkeep
+|choice|switch 2|switch 3
+|
+|switch|p1a: Darkrai|Darkrai|100/100
+|switch|p2a: Arceus|Arceus-Fighting|88/100
+|turn|16
+|choice|move darkvoid|switch 5
+|
+|switch|p2a: Reshiram|Reshiram|100/100
+|-ability|p2a: Reshiram|Turboblaze
+|move|p1a: Darkrai|Dark Void|p2a: Reshiram|[miss]
+|-miss|p1a: Darkrai|p2a: Reshiram
+|
+|upkeep
+|turn|17
+|choice|switch 4|move dracometeor
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Reshiram|Draco Meteor|p1a: Tyranitar
+|-damage|p1a: Tyranitar|70/100
+|-unboost|p2a: Reshiram|spa|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Reshiram|94/100|[from] sandstorm
+|-heal|p1a: Tyranitar|76/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|choice|move pursuit|switch 5
+|
+|-activate|p2a: Reshiram|move: Pursuit
+|move|p1a: Tyranitar|Pursuit|p2a: Reshiram|[from]Pursuit
+|-damage|p2a: Reshiram|60/100
+|switch|p2a: Arceus|Arceus-Fighting|88/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Arceus|82/100|[from] sandstorm
+|-heal|p1a: Tyranitar|82/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|choice|move thunderwave|move judgment
+|
+|move|p2a: Arceus|Judgment|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Arceus|76/100|[from] sandstorm
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Blaziken|Blaziken, M|100/100
+|turn|20
+|choice|move protect|switch 2
+|
+|switch|p2a: Kyogre|Kyogre-Primal|58/100
+|-weather|PrimordialSea|[from] ability: Primordial Sea|[of] p2a: Kyogre
+|move|p1a: Blaziken|Protect|p1a: Blaziken
+|-fail|p1a: Blaziken
+|
+|-weather|PrimordialSea|[upkeep]
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|turn|21
+|choice|switch 4|move originpulse
+|
+|switch|p1a: Darkrai|Darkrai|100/100
+|move|p2a: Kyogre|Origin Pulse|p1a: Darkrai
+|-damage|p1a: Darkrai|0 fnt
+|faint|p1a: Darkrai
+|
+|-weather|PrimordialSea|[upkeep]
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Kangaskhan|Kangaskhan-Mega, F|100/100
+|turn|22
+|choice|move fakeout|switch 5
+|
+|-weather|none
+|switch|p2a: Reshiram|Reshiram|60/100
+|-ability|p2a: Reshiram|Turboblaze
+|move|p1a: Kangaskhan|Fake Out|p2a: Reshiram
+|-damage|p2a: Reshiram|38/100
+|-damage|p2a: Reshiram|25/100
+|-hitcount|p2a: Reshiram|2
+|
+|upkeep
+|turn|23
+|choice|move suckerpunch|move dracometeor
+|
+|move|p1a: Kangaskhan|Sucker Punch|p2a: Reshiram
+|-damage|p2a: Reshiram|0 fnt
+|-hitcount|p2a: Reshiram|1
+|faint|p2a: Reshiram
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Arceus|Arceus-Fighting|76/100
+|turn|24
+|choice|move doubleedge|move judgment
+|
+|move|p2a: Arceus|Judgment|p1a: Kangaskhan
+|-supereffective|p1a: Kangaskhan
+|-damage|p1a: Kangaskhan|0 fnt
+|faint|p1a: Kangaskhan
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Blaziken|Blaziken, M|100/100
+|turn|25
+|choice|move lowkick|move thunderwave
+|
+|move|p2a: Arceus|Thunder Wave|p1a: Blaziken
+|-status|p1a: Blaziken|par
+|move|p1a: Blaziken|Low Kick|p2a: Arceus
+|-damage|p2a: Arceus|19/100
+|-damage|p1a: Blaziken|91/100 par|[from] item: Life Orb
+|
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|turn|26
+|choice|move protect|move judgment
+|
+|move|p1a: Blaziken|Protect|p1a: Blaziken
+|-singleturn|p1a: Blaziken|Protect
+|move|p2a: Arceus|Judgment|p1a: Blaziken
+|-activate|p1a: Blaziken|move: Protect
+|
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|turn|27
+|choice|move lowkick|move judgment
+|
+|move|p2a: Arceus|Judgment|p1a: Blaziken
+|-damage|p1a: Blaziken|0 fnt
+|faint|p1a: Blaziken
+|
+|win|minolob
+|c|☆minolob|gg
+|l|chanQuete

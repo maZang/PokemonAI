@@ -1,0 +1,265 @@
+|j|klsp0804
+|j|Gengar_meister
+|player|p1|klsp0804|99
+|player|p2|Gengar_meister|52
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|55658,14947,6052,63932,58491,52082,8967,49726,53300,19270,26462,53992
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Aggron, M|item
+|poke|p1|Entei, shiny|item
+|poke|p1|Pangoro, M|item
+|poke|p1|Galvantula, M|item
+|poke|p1|Gligar, M|item
+|poke|p1|Heliolisk, M|item
+|poke|p2|Chandelure, M|item
+|poke|p2|Slurpuff, M|item
+|poke|p2|Tornadus, M|item
+|poke|p2|Flygon, M|item
+|poke|p2|Bronzong|item
+|poke|p2|Mienshao, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 6, team 2, team 3, team 4, team 5, team 1|team 4, team 2, team 3, team 1, team 5, team 6
+|
+|start
+|switch|p1a: Heliolisk|Heliolisk, M|100/100
+|switch|p2a: Flygon|Flygon, M|100/100
+|turn|1
+|choice|move hiddenpower|move earthquake
+|
+|move|p2a: Flygon|Earthquake|p1a: Heliolisk
+|-supereffective|p1a: Heliolisk
+|-damage|p1a: Heliolisk|0 fnt
+|faint|p1a: Heliolisk
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Gligar|Gligar, M|100/100
+|turn|2
+|choice|move roost|switch 4
+|
+|switch|p2a: Chandelure|Chandelure, M|100/100
+|move|p1a: Gligar|Roost|p1a: Gligar
+|-fail|p1a: Gligar
+|
+|upkeep
+|turn|3
+|choice|switch 4|move energyball
+|
+|switch|p1a: Galvantula|Galvantula, M|100/100
+|move|p2a: Chandelure|Energy Ball|p1a: Galvantula
+|-resisted|p1a: Galvantula
+|-damage|p1a: Galvantula|56/100
+|-unboost|p1a: Galvantula|spd|1
+|
+|upkeep
+|turn|4
+|choice|move thunder|move energyball
+|
+|move|p1a: Galvantula|Thunder|p2a: Chandelure
+|-damage|p2a: Chandelure|0 fnt
+|faint|p2a: Chandelure
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Bronzong|Bronzong|100/100
+|turn|5
+|choice|switch 2|move stealthrock
+|
+|switch|p1a: Entei|Entei, shiny|100/100
+|-ability|p1a: Entei|Pressure
+|move|p2a: Bronzong|Stealth Rock|p1a: Entei
+|-sidestart|p1: klsp0804|move: Stealth Rock
+|
+|upkeep
+|turn|6
+|choice|move sacredfire|move lightscreen
+|
+|move|p1a: Entei|Sacred Fire|p2a: Bronzong
+|-supereffective|p2a: Bronzong
+|-crit|p2a: Bronzong
+|-damage|p2a: Bronzong|0 fnt
+|faint|p2a: Bronzong
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Flygon|Flygon, M|100/100
+|turn|7
+|choice|move sacredfire|move earthquake
+|
+|move|p2a: Flygon|Earthquake|p1a: Entei
+|-supereffective|p1a: Entei
+|-crit|p1a: Entei
+|-damage|p1a: Entei|0 fnt
+|faint|p1a: Entei
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Aggron|Aggron, M|100/100
+|-damage|p1a: Aggron|94/100|[from] Stealth Rock
+|turn|8
+|choice|move roar mega|move earthquake
+|
+|detailschange|p1a: Aggron|Aggron-Mega, M
+|-mega|p1a: Aggron|Aggron|Aggronite
+|move|p2a: Flygon|Earthquake|p1a: Aggron
+|-supereffective|p1a: Aggron
+|-damage|p1a: Aggron|68/100
+|move|p1a: Aggron|Roar|p2a: Flygon
+|drag|p2a: Slurpuff|Slurpuff, M|100/100
+|
+|upkeep
+|turn|9
+|choice|move earthquake|move playrough
+|
+|move|p2a: Slurpuff|Play Rough|p1a: Aggron
+|-resisted|p1a: Aggron
+|-damage|p1a: Aggron|61/100
+|move|p1a: Aggron|Earthquake|p2a: Slurpuff
+|-damage|p2a: Slurpuff|60/100
+|
+|upkeep
+|turn|10
+|choice|switch 4|switch 6
+|
+|switch|p2a: Mienshao|Mienshao, M|100/100
+|switch|p1a: Gligar|Gligar, M|100/100
+|-damage|p1a: Gligar|88/100|[from] Stealth Rock
+|
+|upkeep
+|turn|11
+|choice|move earthquake|move knockoff
+|
+|move|p2a: Mienshao|Knock Off|p1a: Gligar
+|-damage|p1a: Gligar|61/100
+|-enditem|p1a: Gligar|Eviolite|[from] move: Knock Off|[of] p2a: Mienshao
+|-damage|p2a: Mienshao|91/100|[from] item: Life Orb
+|move|p1a: Gligar|Earthquake|p2a: Mienshao
+|-damage|p2a: Mienshao|39/100
+|
+|upkeep
+|turn|12
+|choice|move earthquake|move highjumpkick
+|
+|move|p2a: Mienshao|High Jump Kick|p1a: Gligar
+|-resisted|p1a: Gligar
+|-damage|p1a: Gligar|22/100
+|-damage|p2a: Mienshao|29/100|[from] item: Life Orb
+|move|p1a: Gligar|Earthquake|p2a: Mienshao
+|-damage|p2a: Mienshao|0 fnt
+|faint|p2a: Mienshao
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Tornadus|Tornadus, M|100/100
+|turn|13
+|choice|switch 2|move hurricane
+|
+|switch|p1a: Galvantula|Galvantula, M|56/100
+|-damage|p1a: Galvantula|31/100|[from] Stealth Rock
+|move|p2a: Tornadus|Hurricane|p1a: Galvantula|[miss]
+|-miss|p2a: Tornadus|p1a: Galvantula
+|
+|upkeep
+|turn|14
+|choice|move thunder|move hurricane
+|
+|move|p2a: Tornadus|Hurricane|p1a: Galvantula
+|-damage|p1a: Galvantula|0 fnt
+|-damage|p2a: Tornadus|91/100|[from] item: Life Orb
+|faint|p1a: Galvantula
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Pangoro|Pangoro, M|100/100
+|-damage|p1a: Pangoro|94/100|[from] Stealth Rock
+|turn|15
+|choice|move drainpunch|move hurricane
+|
+|move|p2a: Tornadus|Hurricane|p1a: Pangoro|[miss]
+|-miss|p2a: Tornadus|p1a: Pangoro
+|move|p1a: Pangoro|Drain Punch|p2a: Tornadus
+|-resisted|p2a: Tornadus
+|-damage|p2a: Tornadus|48/100
+|-heal|p1a: Pangoro|100/100|[from] drain|[of] p2a: Tornadus
+|-damage|p1a: Pangoro|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|16
+|choice|move knockoff|move hurricane
+|
+|move|p2a: Tornadus|Hurricane|p1a: Pangoro
+|-supereffective|p1a: Pangoro
+|-damage|p1a: Pangoro|0 fnt
+|-damage|p2a: Tornadus|38/100|[from] item: Life Orb
+|faint|p1a: Pangoro
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Aggron|Aggron-Mega, M|61/100
+|-damage|p1a: Aggron|55/100|[from] Stealth Rock
+|turn|17
+|choice|move heavyslam|move heatwave
+|
+|move|p2a: Tornadus|Heat Wave|p1a: Aggron|[miss]
+|-miss|p2a: Tornadus|p1a: Aggron
+|move|p1a: Aggron|Heavy Slam|p2a: Tornadus
+|-damage|p2a: Tornadus|0 fnt
+|faint|p2a: Tornadus
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Flygon|Flygon, M|100/100
+|turn|18
+|choice|move heavyslam|move outrage
+|
+|move|p2a: Flygon|Outrage|p1a: Aggron
+|-resisted|p1a: Aggron
+|-damage|p1a: Aggron|45/100
+|move|p1a: Aggron|Heavy Slam|p2a: Flygon
+|-damage|p2a: Flygon|39/100
+|
+|upkeep
+|turn|19
+|choice|move heavyslam|move outrage
+|
+|move|p2a: Flygon|Outrage|p1a: Aggron|[from]lockedmove
+|-resisted|p1a: Aggron
+|-damage|p1a: Aggron|35/100
+|-start|p2a: Flygon|confusion|[fatigue]
+|move|p1a: Aggron|Heavy Slam|p2a: Flygon
+|-damage|p2a: Flygon|0 fnt
+|faint|p2a: Flygon
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Slurpuff|Slurpuff, M|60/100
+|turn|20
+|choice|move heavyslam|move return
+|
+|move|p2a: Slurpuff|Return|p1a: Aggron
+|-resisted|p1a: Aggron
+|-damage|p1a: Aggron|29/100
+|move|p1a: Aggron|Heavy Slam|p2a: Slurpuff
+|-supereffective|p2a: Slurpuff
+|-damage|p2a: Slurpuff|0 fnt
+|faint|p2a: Slurpuff
+|
+|win|klsp0804
+|raw|klsp0804's rating: 1000 &rarr; <strong>1046</strong><br />(+46 for winning)
+|raw|Gengar_meister's rating: 1048 &rarr; <strong>1029</strong><br />(-19 for losing)
+|l|Gengar_meister

@@ -1,0 +1,292 @@
+|j|T be stuntin
+|j|Itstbruh
+|player|p1|T be stuntin|31
+|player|p2|Itstbruh|112
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|56619,55664,19449,28603,54789,41066,61632,55033,15453,27097,34291,17069
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Marowak, M|item
+|poke|p1|Zebstrika, M|item
+|poke|p1|Purugly, M|item
+|poke|p1|Dusknoir, M|item
+|poke|p1|Articuno|item
+|poke|p1|Avalugg, M|item
+|poke|p2|Leavanny, M|item
+|poke|p2|Quilladin, M|item
+|poke|p2|Zebstrika, M|item
+|poke|p2|Arbok, M|item
+|poke|p2|Duosion, M|item
+|poke|p2|Avalugg, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 4, team 2, team 3, team 1, team 5, team 6|team 3, team 2, team 1, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Dusknoir|Dusknoir, M|100/100
+|switch|p2a: Zebstrika|Zebstrika, M|100/100
+|-item|p2a: Zebstrika|Life Orb|[from] ability: Frisk|[of] p1a: Dusknoir|[identify]
+|turn|1
+|choice|move earthquake|move voltswitch
+|
+|move|p2a: Zebstrika|Volt Switch|p1a: Dusknoir
+|-damage|p1a: Dusknoir|72/100
+|-damage|p2a: Zebstrika|91/100|[from] item: Life Orb
+|choice||switch 6
+|
+|switch|p2a: Avalugg|Avalugg, M|100/100
+|move|p1a: Dusknoir|Earthquake|p2a: Avalugg
+|-damage|p2a: Avalugg|85/100
+|
+|-heal|p2a: Avalugg|91/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|choice|move willowisp|move toxic
+|
+|move|p1a: Dusknoir|Will-O-Wisp|p2a: Avalugg
+|-status|p2a: Avalugg|brn
+|move|p2a: Avalugg|Toxic|p1a: Dusknoir
+|-status|p1a: Dusknoir|tox
+|
+|-heal|p2a: Avalugg|97/100 brn|[from] item: Leftovers
+|-damage|p1a: Dusknoir|66/100 tox|[from] psn
+|-damage|p2a: Avalugg|84/100 brn|[from] brn
+|upkeep
+|turn|3
+|choice|switch 2|move toxic
+|
+|switch|p1a: Zebstrika|Zebstrika, M|100/100
+|move|p2a: Avalugg|Toxic|p1a: Zebstrika
+|-status|p1a: Zebstrika|tox
+|
+|-heal|p2a: Avalugg|91/100 brn|[from] item: Leftovers
+|-damage|p1a: Zebstrika|94/100 tox|[from] psn
+|-damage|p2a: Avalugg|78/100 brn|[from] brn
+|upkeep
+|turn|4
+|choice|move overheat|switch 5
+|
+|switch|p2a: Duosion|Duosion, M|100/100
+|move|p1a: Zebstrika|Overheat|p2a: Duosion|[miss]
+|-miss|p1a: Zebstrika|p2a: Duosion
+|
+|-damage|p1a: Zebstrika|82/100 tox|[from] psn
+|upkeep
+|turn|5
+|choice|move thunderbolt|move psychic
+|
+|move|p1a: Zebstrika|Thunderbolt|p2a: Duosion
+|-damage|p2a: Duosion|53/100
+|-damage|p1a: Zebstrika|72/100 tox|[from] item: Life Orb
+|move|p2a: Duosion|Psychic|p1a: Zebstrika
+|-crit|p1a: Zebstrika
+|-damage|p1a: Zebstrika|0 fnt
+|faint|p1a: Zebstrika
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Purugly|Purugly, M|100/100
+|turn|6
+|choice|move fakeout|move recover
+|
+|move|p1a: Purugly|Fake Out|p2a: Duosion
+|-damage|p2a: Duosion|37/100
+|-damage|p1a: Purugly|91/100|[from] item: Life Orb
+|cant|p2a: Duosion|flinch
+|
+|upkeep
+|turn|7
+|choice|move knockoff|move recover
+|
+|move|p1a: Purugly|Knock Off|p2a: Duosion
+|-supereffective|p2a: Duosion
+|-damage|p2a: Duosion|0 fnt
+|-enditem|p2a: Duosion|Eviolite|[from] move: Knock Off|[of] p1a: Purugly
+|-damage|p1a: Purugly|81/100|[from] item: Life Orb
+|faint|p2a: Duosion
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Quilladin|Quilladin, M|100/100
+|turn|8
+|choice|move knockoff|move spikes
+|
+|move|p1a: Purugly|Knock Off|p2a: Quilladin
+|-damage|p2a: Quilladin|83/100
+|-enditem|p2a: Quilladin|Eviolite|[from] move: Knock Off|[of] p1a: Purugly
+|-damage|p1a: Purugly|71/100|[from] item: Life Orb
+|move|p2a: Quilladin|Spikes|p1a: Purugly
+|-sidestart|p1: T be stuntin|Spikes
+|
+|upkeep
+|turn|9
+|choice|move return|move roar
+|
+|move|p1a: Purugly|Return|p2a: Quilladin
+|-damage|p2a: Quilladin|46/100
+|-damage|p1a: Purugly|61/100|[from] item: Life Orb
+|move|p2a: Quilladin|Roar|p1a: Purugly
+|drag|p1a: Marowak|Marowak, M|100/100
+|-damage|p1a: Marowak|88/100|[from] Spikes
+|
+|upkeep
+|turn|10
+|choice|move stealthrock|move synthesis
+|
+|move|p1a: Marowak|Stealth Rock|p2a: Quilladin
+|-sidestart|p2: Itstbruh|move: Stealth Rock
+|move|p2a: Quilladin|Synthesis|p2a: Quilladin
+|-heal|p2a: Quilladin|96/100
+|
+|upkeep
+|turn|11
+|choice|switch 5|move spikes
+|
+|switch|p1a: Articuno|Articuno|100/100
+|-ability|p1a: Articuno|Pressure
+|move|p2a: Quilladin|Spikes|p1a: Articuno
+|-sidestart|p1: T be stuntin|Spikes
+|
+|upkeep
+|turn|12
+|choice|move agility|switch 3
+|
+|switch|p2a: Leavanny|Leavanny, M|100/100
+|-damage|p2a: Leavanny|76/100|[from] Stealth Rock
+|move|p1a: Articuno|Agility|p1a: Articuno
+|-boost|p1a: Articuno|spe|2
+|
+|upkeep
+|turn|13
+|choice|move freezedry|move knockoff
+|
+|move|p1a: Articuno|Freeze-Dry|p2a: Leavanny
+|-supereffective|p2a: Leavanny
+|-damage|p2a: Leavanny|0 fnt
+|-damage|p1a: Articuno|90/100|[from] item: Life Orb
+|faint|p2a: Leavanny
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Arbok|Arbok, M|100/100
+|-damage|p2a: Arbok|88/100|[from] Stealth Rock
+|-ability|p2a: Arbok|Intimidate|boost
+|-unboost|p1a: Articuno|atk|1
+|turn|14
+|choice|move hurricane|move gunkshot
+|
+|move|p1a: Articuno|Hurricane|p2a: Arbok
+|-crit|p2a: Arbok
+|-damage|p2a: Arbok|0 fnt
+|-damage|p1a: Articuno|80/100|[from] item: Life Orb
+|faint|p2a: Arbok
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Quilladin|Quilladin, M|96/100
+|-damage|p2a: Quilladin|83/100|[from] Stealth Rock
+|turn|15
+|choice|move freezedry|move roar
+|
+|move|p1a: Articuno|Freeze-Dry|p2a: Quilladin
+|-supereffective|p2a: Quilladin
+|-damage|p2a: Quilladin|0 fnt
+|-damage|p1a: Articuno|70/100|[from] item: Life Orb
+|faint|p2a: Quilladin
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Zebstrika|Zebstrika, M|91/100
+|-damage|p2a: Zebstrika|78/100|[from] Stealth Rock
+|turn|16
+|choice|move hiddenpower|move thunderbolt
+|
+|move|p1a: Articuno|Hidden Power|p2a: Zebstrika
+|-damage|p2a: Zebstrika|39/100
+|-damage|p1a: Articuno|60/100|[from] item: Life Orb
+|move|p2a: Zebstrika|Thunderbolt|p1a: Articuno
+|-supereffective|p1a: Articuno
+|-damage|p1a: Articuno|0 fnt
+|-damage|p2a: Zebstrika|29/100|[from] item: Life Orb
+|faint|p1a: Articuno
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Purugly|Purugly, M|61/100
+|-damage|p1a: Purugly|44/100|[from] Spikes
+|turn|17
+|choice|move fakeout|switch 5
+|
+|switch|p2a: Avalugg|Avalugg, M|78/100 brn
+|-damage|p2a: Avalugg|53/100 brn|[from] Stealth Rock
+|move|p1a: Purugly|Fake Out|p2a: Avalugg
+|-damage|p2a: Avalugg|42/100 brn
+|-damage|p1a: Purugly|34/100|[from] item: Life Orb
+|
+|-heal|p2a: Avalugg|48/100 brn|[from] item: Leftovers
+|-damage|p2a: Avalugg|36/100 brn|[from] brn
+|upkeep
+|turn|18
+|choice|move wakeupslap|move recover
+|
+|move|p1a: Purugly|Wake-Up Slap|p2a: Avalugg
+|-supereffective|p2a: Avalugg
+|-damage|p2a: Avalugg|12/100 brn
+|-damage|p1a: Purugly|25/100|[from] item: Life Orb
+|move|p2a: Avalugg|Recover|p2a: Avalugg
+|-heal|p2a: Avalugg|62/100 brn
+|
+|-heal|p2a: Avalugg|68/100 brn|[from] item: Leftovers
+|-damage|p2a: Avalugg|56/100 brn|[from] brn
+|upkeep
+|turn|19
+|choice|move knockoff|move rapidspin
+|
+|move|p1a: Purugly|Knock Off|p2a: Avalugg
+|-damage|p2a: Avalugg|38/100 brn
+|-enditem|p2a: Avalugg|Leftovers|[from] move: Knock Off|[of] p1a: Purugly
+|-damage|p1a: Purugly|15/100|[from] item: Life Orb
+|move|p2a: Avalugg|Rapid Spin|p1a: Purugly
+|-damage|p1a: Purugly|10/100
+|-sideend|p2: Itstbruh|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Avalugg
+|
+|-damage|p2a: Avalugg|26/100 brn|[from] brn
+|upkeep
+|turn|20
+|choice|move return|move recover
+|
+|move|p1a: Purugly|Return|p2a: Avalugg
+|-damage|p2a: Avalugg|0 fnt
+|-damage|p1a: Purugly|0 fnt|[from] item: Life Orb
+|faint|p2a: Avalugg
+|faint|p1a: Purugly
+|
+|upkeep
+|choice|switch 5|switch 5
+|
+|switch|p2a: Zebstrika|Zebstrika, M|29/100
+|switch|p1a: Marowak|Marowak, M|88/100
+|-damage|p1a: Marowak|72/100|[from] Spikes
+|turn|21
+|choice|move knockoff|move hiddenpower
+|
+|move|p2a: Zebstrika|Hidden Power|p1a: Marowak
+|-supereffective|p1a: Marowak
+|-damage|p1a: Marowak|6/100
+|-damage|p2a: Zebstrika|19/100|[from] item: Life Orb
+|move|p1a: Marowak|Knock Off|p2a: Zebstrika
+|-damage|p2a: Zebstrika|0 fnt
+|-enditem|p2a: Zebstrika|Life Orb|[from] move: Knock Off|[of] p1a: Marowak
+|faint|p2a: Zebstrika
+|
+|win|T be stuntin
+|l|Itstbruh

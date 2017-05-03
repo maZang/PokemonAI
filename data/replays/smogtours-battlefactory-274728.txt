@@ -1,0 +1,466 @@
+|J|Dokkerich
+|J|T be stuntin
+|player|p1|Dokkerich|31
+|player|p2|T be stuntin|112
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|1738,28959,688,10036,56425,35892,1540,1368,49499,15450,57731,18089
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Seismitoad, M|item
+|poke|p1|Venusaur, M|item
+|poke|p1|Sawk, M|item
+|poke|p1|Blastoise, M|item
+|poke|p1|Meloetta|item
+|poke|p1|Golbat, M|item
+|poke|p2|Delphox, M|item
+|poke|p2|Accelgor, M|item
+|poke|p2|Jolteon, M|item
+|poke|p2|Magneton|item
+|poke|p2|Togetic, M|item
+|poke|p2|Gastrodon, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|c|☆T be stuntin|Just 1
+|J|Fish~18
+|J|Advantage
+|L|Fish~18
+|L|Advantage
+|J|Strealet❄✈️
+|L|Strealet❄✈️
+|choice|team 3, team 2, team 1, team 4, team 5, team 6|team 1, team 2, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Sawk|Sawk, M|100/100
+|switch|p2a: Delphox|Delphox, M|100/100
+|-ability|p1a: Sawk|Mold Breaker
+|turn|1
+|choice|move knockoff|move psychic
+|
+|move|p2a: Delphox|Psychic|p1a: Sawk
+|-supereffective|p1a: Sawk
+|-damage|p1a: Sawk|0 fnt
+|faint|p1a: Sawk
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Meloetta|Meloetta|100/100
+|turn|2
+|choice|move calmmind|switch 5
+|
+|switch|p2a: Togetic|Togetic, M|100/100
+|move|p1a: Meloetta|Calm Mind|p1a: Meloetta
+|-boost|p1a: Meloetta|spa|1
+|-boost|p1a: Meloetta|spd|1
+|
+|upkeep
+|turn|3
+|choice|move psychic|move thunderwave
+|
+|move|p1a: Meloetta|Psychic|p2a: Togetic
+|-damage|p2a: Togetic|51/100
+|move|p2a: Togetic|Thunder Wave|p1a: Meloetta
+|-status|p1a: Meloetta|par
+|
+|upkeep
+|turn|4
+|c|☆Dokkerich|gg
+|c|☆Dokkerich|:D
+|choice|move calmmind|move flamethrower
+|
+|move|p2a: Togetic|Flamethrower|p1a: Meloetta
+|-damage|p1a: Meloetta|91/100 par
+|cant|p1a: Meloetta|par
+|
+|upkeep
+|turn|5
+|choice|move calmmind|move dazzlinggleam
+|
+|move|p2a: Togetic|Dazzling Gleam|p1a: Meloetta
+|-damage|p1a: Meloetta|78/100 par
+|move|p1a: Meloetta|Calm Mind|p1a: Meloetta
+|-boost|p1a: Meloetta|spa|1
+|-boost|p1a: Meloetta|spd|1
+|
+|upkeep
+|turn|6
+|choice|move psychic|move dazzlinggleam
+|
+|move|p2a: Togetic|Dazzling Gleam|p1a: Meloetta
+|-damage|p1a: Meloetta|70/100 par
+|move|p1a: Meloetta|Psychic|p2a: Togetic
+|-damage|p2a: Togetic|0 fnt
+|faint|p2a: Togetic
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Accelgor|Accelgor, M|100/100
+|turn|7
+|choice|move psychic|move bugbuzz
+|
+|move|p2a: Accelgor|Bug Buzz|p1a: Meloetta
+|-supereffective|p1a: Meloetta
+|-damage|p1a: Meloetta|24/100 par
+|-damage|p2a: Accelgor|91/100|[from] item: Life Orb
+|move|p1a: Meloetta|Psychic|p2a: Accelgor
+|-damage|p2a: Accelgor|0 fnt
+|faint|p2a: Accelgor
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Delphox|Delphox, M|100/100
+|turn|8
+|choice|move shadowball|move fireblast
+|
+|move|p2a: Delphox|Fire Blast|p1a: Meloetta
+|-damage|p1a: Meloetta|0 fnt
+|faint|p1a: Meloetta
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Blastoise|Blastoise, M|100/100
+|turn|9
+|choice|move scald|switch 3
+|
+|switch|p2a: Jolteon|Jolteon, M|100/100
+|move|p1a: Blastoise|Scald|p2a: Jolteon
+|-damage|p2a: Jolteon|71/100
+|
+|-heal|p2a: Jolteon|78/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|choice|switch 2|move substitute
+|
+|switch|p1a: Venusaur|Venusaur, M|100/100
+|move|p2a: Jolteon|Substitute|p2a: Jolteon
+|-start|p2a: Jolteon|Substitute
+|-damage|p2a: Jolteon|53/100
+|
+|-heal|p2a: Jolteon|59/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|choice|move sludgebomb|move batonpass
+|
+|move|p2a: Jolteon|Baton Pass|p2a: Jolteon
+|choice||switch 4
+|
+|switch|p2a: Magneton|Magneton|100/100
+|move|p1a: Venusaur|Sludge Bomb|p2a: Magneton
+|-immune|p2a: Magneton|[msg]
+|
+|upkeep
+|turn|12
+|choice|move hiddenpower|move flashcannon
+|
+|move|p2a: Magneton|Flash Cannon|p1a: Venusaur
+|-damage|p1a: Venusaur|58/100
+|move|p1a: Venusaur|Hidden Power|p2a: Magneton
+|-supereffective|p2a: Magneton
+|-crit|p2a: Magneton
+|-end|p2a: Magneton|Substitute
+|
+|-heal|p1a: Venusaur|65/100|[from] item: Black Sludge
+|upkeep
+|turn|13
+|choice|move synthesis|move flashcannon
+|
+|move|p2a: Magneton|Flash Cannon|p1a: Venusaur
+|-damage|p1a: Venusaur|27/100
+|move|p1a: Venusaur|Synthesis|p1a: Venusaur
+|-heal|p1a: Venusaur|77/100
+|
+|-heal|p1a: Venusaur|83/100|[from] item: Black Sludge
+|upkeep
+|turn|14
+|choice|switch 3|move flashcannon
+|
+|switch|p1a: Seismitoad|Seismitoad, M|100/100
+|move|p2a: Magneton|Flash Cannon|p1a: Seismitoad
+|-resisted|p1a: Seismitoad
+|-damage|p1a: Seismitoad|75/100
+|
+|-heal|p1a: Seismitoad|81/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|choice|switch 3|move magnetrise
+|
+|switch|p1a: Venusaur|Venusaur, M|83/100
+|move|p2a: Magneton|Magnet Rise|p2a: Magneton
+|-start|p2a: Magneton|Magnet Rise
+|
+|-heal|p1a: Venusaur|90/100|[from] item: Black Sludge
+|upkeep
+|turn|16
+|choice|switch 3|move flashcannon
+|
+|switch|p1a: Seismitoad|Seismitoad, M|81/100
+|move|p2a: Magneton|Flash Cannon|p1a: Seismitoad
+|-resisted|p1a: Seismitoad
+|-damage|p1a: Seismitoad|59/100
+|
+|-heal|p1a: Seismitoad|65/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|choice|move hydropump|switch 6
+|
+|switch|p2a: Gastrodon|Gastrodon, M|100/100
+|move|p1a: Seismitoad|Hydro Pump|p2a: Gastrodon
+|-ability|p2a: Gastrodon|Storm Drain|boost
+|-boost|p2a: Gastrodon|spa|1
+|
+|-heal|p1a: Seismitoad|71/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|choice|switch 2|switch 3
+|
+|switch|p1a: Blastoise|Blastoise, M|100/100
+|switch|p2a: Delphox|Delphox, M|100/100
+|
+|upkeep
+|turn|19
+|choice|move scald|switch 3
+|
+|switch|p2a: Gastrodon|Gastrodon, M|100/100
+|move|p1a: Blastoise|Scald|p2a: Gastrodon
+|-ability|p2a: Gastrodon|Storm Drain|boost
+|-boost|p2a: Gastrodon|spa|1
+|
+|upkeep
+|turn|20
+|choice|move toxic|move scald
+|
+|move|p1a: Blastoise|Toxic|p2a: Gastrodon
+|-status|p2a: Gastrodon|tox
+|move|p2a: Gastrodon|Scald|p1a: Blastoise
+|-resisted|p1a: Blastoise
+|-damage|p1a: Blastoise|83/100
+|
+|-heal|p1a: Blastoise|89/100|[from] item: Leftovers
+|-damage|p2a: Gastrodon|94/100 tox|[from] psn
+|upkeep
+|turn|21
+|choice|switch 2|move toxic
+|
+|switch|p1a: Seismitoad|Seismitoad, M|71/100
+|move|p2a: Gastrodon|Toxic|p1a: Seismitoad
+|-status|p1a: Seismitoad|tox
+|
+|-heal|p1a: Seismitoad|78/100 tox|[from] item: Leftovers
+|-heal|p2a: Gastrodon|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Seismitoad|71/100 tox|[from] psn
+|-damage|p2a: Gastrodon|88/100 tox|[from] psn
+|upkeep
+|turn|22
+|choice|move stealthrock|move earthpower
+|
+|move|p1a: Seismitoad|Stealth Rock|p2a: Gastrodon
+|-sidestart|p2: T be stuntin|move: Stealth Rock
+|move|p2a: Gastrodon|Earth Power|p1a: Seismitoad
+|-damage|p1a: Seismitoad|26/100 tox
+|
+|-heal|p1a: Seismitoad|32/100 tox|[from] item: Leftovers
+|-heal|p2a: Gastrodon|94/100 tox|[from] item: Leftovers
+|-damage|p1a: Seismitoad|20/100 tox|[from] psn
+|-damage|p2a: Gastrodon|76/100 tox|[from] psn
+|upkeep
+|turn|23
+|choice|move grassknot|move recover
+|
+|move|p1a: Seismitoad|Grass Knot|p2a: Gastrodon
+|-supereffective|p2a: Gastrodon
+|-damage|p2a: Gastrodon|11/100 tox
+|move|p2a: Gastrodon|Recover|p2a: Gastrodon
+|-heal|p2a: Gastrodon|61/100 tox
+|
+|-heal|p1a: Seismitoad|26/100 tox|[from] item: Leftovers
+|-heal|p2a: Gastrodon|67/100 tox|[from] item: Leftovers
+|-damage|p1a: Seismitoad|8/100 tox|[from] psn
+|-damage|p2a: Gastrodon|43/100 tox|[from] psn
+|upkeep
+|turn|24
+|choice|switch 2|move scald
+|
+|switch|p1a: Blastoise|Blastoise, M|89/100
+|move|p2a: Gastrodon|Scald|p1a: Blastoise
+|-resisted|p1a: Blastoise
+|-damage|p1a: Blastoise|72/100
+|
+|-heal|p1a: Blastoise|78/100|[from] item: Leftovers
+|-heal|p2a: Gastrodon|49/100 tox|[from] item: Leftovers
+|-damage|p2a: Gastrodon|19/100 tox|[from] psn
+|upkeep
+|turn|25
+|choice|switch 2|move earthpower
+|
+|switch|p1a: Seismitoad|Seismitoad, M|8/100 tox
+|move|p2a: Gastrodon|Earth Power|p1a: Seismitoad
+|-damage|p1a: Seismitoad|0 fnt
+|faint|p1a: Seismitoad
+|
+|-heal|p2a: Gastrodon|25/100 tox|[from] item: Leftovers
+|-damage|p2a: Gastrodon|0 fnt|[from] psn
+|upkeep
+|faint|p2a: Gastrodon
+|choice|switch 2|switch 6
+|
+|switch|p2a: Magneton|Magneton|100/100
+|switch|p1a: Blastoise|Blastoise, M|78/100
+|-damage|p2a: Magneton|94/100|[from] Stealth Rock
+|turn|26
+|choice|switch 3|move thunderbolt
+|
+|switch|p1a: Venusaur|Venusaur, M|90/100
+|move|p2a: Magneton|Thunderbolt|p1a: Venusaur
+|-resisted|p1a: Venusaur
+|-damage|p1a: Venusaur|66/100
+|
+|-heal|p1a: Venusaur|72/100|[from] item: Black Sludge
+|upkeep
+|turn|27
+|choice|move synthesis|switch 4
+|
+|switch|p2a: Jolteon|Jolteon, M|59/100
+|-damage|p2a: Jolteon|46/100|[from] Stealth Rock
+|move|p1a: Venusaur|Synthesis|p1a: Venusaur
+|-heal|p1a: Venusaur|100/100
+|
+|-heal|p2a: Jolteon|53/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|choice|move gigadrain|move hiddenpower
+|
+|move|p2a: Jolteon|Hidden Power|p1a: Venusaur
+|-supereffective|p1a: Venusaur
+|-damage|p1a: Venusaur|68/100
+|move|p1a: Venusaur|Giga Drain|p2a: Jolteon
+|-damage|p2a: Jolteon|13/100
+|-heal|p1a: Venusaur|83/100|[from] drain|[of] p2a: Jolteon
+|
+|-heal|p2a: Jolteon|19/100|[from] item: Leftovers
+|-heal|p1a: Venusaur|90/100|[from] item: Black Sludge
+|upkeep
+|turn|29
+|choice|move synthesis|move thunderbolt
+|
+|move|p2a: Jolteon|Thunderbolt|p1a: Venusaur
+|-resisted|p1a: Venusaur
+|-damage|p1a: Venusaur|71/100
+|move|p1a: Venusaur|Synthesis|p1a: Venusaur
+|-heal|p1a: Venusaur|100/100
+|
+|-heal|p2a: Jolteon|25/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|choice|move gigadrain|move hiddenpower
+|
+|move|p2a: Jolteon|Hidden Power|p1a: Venusaur
+|-supereffective|p1a: Venusaur
+|-damage|p1a: Venusaur|66/100
+|move|p1a: Venusaur|Giga Drain|p2a: Jolteon
+|-damage|p2a: Jolteon|0 fnt
+|-heal|p1a: Venusaur|76/100|[from] drain|[of] p2a: Jolteon
+|faint|p2a: Jolteon
+|
+|-heal|p1a: Venusaur|82/100|[from] item: Black Sludge
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Delphox|Delphox, M|100/100
+|-damage|p2a: Delphox|76/100|[from] Stealth Rock
+|turn|31
+|choice|switch 6|move psychic
+|
+|switch|p1a: Golbat|Golbat, M|100/100
+|move|p2a: Delphox|Psychic|p1a: Golbat
+|-supereffective|p1a: Golbat
+|-damage|p1a: Golbat|0 fnt
+|faint|p1a: Golbat
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Blastoise|Blastoise, M|78/100
+|turn|32
+|choice|move scald|switch 4
+|
+|switch|p2a: Magneton|Magneton|94/100
+|-damage|p2a: Magneton|88/100|[from] Stealth Rock
+|move|p1a: Blastoise|Scald|p2a: Magneton
+|-damage|p2a: Magneton|57/100
+|
+|-heal|p1a: Blastoise|84/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|choice|move scald|move flashcannon
+|
+|move|p2a: Magneton|Flash Cannon|p1a: Blastoise
+|-resisted|p1a: Blastoise
+|-damage|p1a: Blastoise|66/100
+|move|p1a: Blastoise|Scald|p2a: Magneton
+|-damage|p2a: Magneton|27/100
+|
+|-heal|p1a: Blastoise|72/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|choice|switch 6|move flashcannon
+|
+|switch|p1a: Venusaur|Venusaur, M|82/100
+|move|p2a: Magneton|Flash Cannon|p1a: Venusaur
+|-damage|p1a: Venusaur|45/100
+|
+|-heal|p1a: Venusaur|51/100|[from] item: Black Sludge
+|upkeep
+|turn|35
+|choice|move synthesis|move flashcannon
+|
+|move|p2a: Magneton|Flash Cannon|p1a: Venusaur
+|-damage|p1a: Venusaur|8/100
+|move|p1a: Venusaur|Synthesis|p1a: Venusaur
+|-heal|p1a: Venusaur|58/100
+|
+|-heal|p1a: Venusaur|64/100|[from] item: Black Sludge
+|upkeep
+|turn|36
+|choice|move hiddenpower|move flashcannon
+|
+|move|p2a: Magneton|Flash Cannon|p1a: Venusaur
+|-damage|p1a: Venusaur|21/100
+|move|p1a: Venusaur|Hidden Power|p2a: Magneton
+|-supereffective|p2a: Magneton
+|-damage|p2a: Magneton|0 fnt
+|faint|p2a: Magneton
+|
+|-heal|p1a: Venusaur|27/100|[from] item: Black Sludge
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Delphox|Delphox, M|76/100
+|-damage|p2a: Delphox|51/100|[from] Stealth Rock
+|turn|37
+|choice|move sludgebomb|move psychic
+|
+|move|p2a: Delphox|Psychic|p1a: Venusaur
+|-supereffective|p1a: Venusaur
+|-crit|p1a: Venusaur
+|-damage|p1a: Venusaur|0 fnt
+|faint|p1a: Venusaur
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Blastoise|Blastoise, M|72/100
+|turn|38
+|choice|move scald|move psychic
+|
+|move|p2a: Delphox|Psychic|p1a: Blastoise
+|-crit|p1a: Blastoise
+|-damage|p1a: Blastoise|0 fnt
+|faint|p1a: Blastoise
+|
+|win|T be stuntin

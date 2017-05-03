@@ -1,0 +1,332 @@
+|j|angellusdrco360
+|j|Kheaven
+|player|p1|angellusdrco360|200
+|player|p2|Kheaven|148
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|45483,20350,39226,31322,17983,42744,11016,45666,61821,64707,14163,61662
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Mesprit|item
+|poke|p1|Togetic, M|item
+|poke|p1|Abomasnow, M|item
+|poke|p1|Manectric, M|item
+|poke|p1|Slowking, M|item
+|poke|p1|Virizion|item
+|poke|p2|Eelektross, M|item
+|poke|p2|Gastrodon, M|item
+|poke|p2|Audino, M|item
+|poke|p2|Jellicent, M|item
+|poke|p2|Gurdurr, M|item
+|poke|p2|Fletchinder, M|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 5, team 2, team 3, team 4, team 1, team 6|team 5, team 2, team 3, team 4, team 1, team 6
+|
+|start
+|switch|p1a: Slowking|Slowking, M|100/100
+|switch|p2a: Gurdurr|Gurdurr, M|100/100
+|turn|1
+|choice|move thunderwave|move knockoff
+|
+|move|p1a: Slowking|Thunder Wave|p2a: Gurdurr
+|-status|p2a: Gurdurr|par
+|move|p2a: Gurdurr|Knock Off|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-enditem|p1a: Slowking|Colbur Berry|[eat]
+|-enditem|p1a: Slowking|Colbur Berry|[weaken]
+|-damage|p1a: Slowking|55/100
+|
+|upkeep
+|turn|2
+|choice|move psyshock|move knockoff
+|
+|move|p1a: Slowking|Psyshock|p2a: Gurdurr
+|-supereffective|p2a: Gurdurr
+|-damage|p2a: Gurdurr|61/100 par
+|move|p2a: Gurdurr|Knock Off|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|0 fnt
+|faint|p1a: Slowking
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Togetic|Togetic, M|100/100
+|turn|3
+|choice|move dazzlinggleam|switch 4
+|
+|switch|p2a: Jellicent|Jellicent, M|100/100
+|move|p1a: Togetic|Dazzling Gleam|p2a: Jellicent
+|-damage|p2a: Jellicent|82/100
+|
+|-heal|p2a: Jellicent|88/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|choice|switch 4|move taunt
+|
+|switch|p1a: Manectric|Manectric, M|100/100
+|move|p2a: Jellicent|Taunt|p1a: Manectric
+|-start|p1a: Manectric|move: Taunt
+|
+|-heal|p2a: Jellicent|94/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|choice|move thunderbolt|switch 2
+|
+|switch|p2a: Gastrodon|Gastrodon, M|100/100
+|move|p1a: Manectric|Thunderbolt|p2a: Gastrodon
+|-immune|p2a: Gastrodon|[msg]
+|
+|upkeep
+|turn|6
+|choice|switch 6|move toxic
+|
+|switch|p1a: Virizion|Virizion|100/100
+|move|p2a: Gastrodon|Toxic|p1a: Virizion
+|-status|p1a: Virizion|tox
+|-enditem|p1a: Virizion|Lum Berry|[eat]
+|-curestatus|p1a: Virizion|tox|[msg]
+|
+|upkeep
+|turn|7
+|choice|move leafblade|switch 6
+|
+|switch|p2a: Fletchinder|Fletchinder, M|100/100
+|move|p1a: Virizion|Leaf Blade|p2a: Fletchinder
+|-resisted|p2a: Fletchinder
+|-damage|p2a: Fletchinder|86/100
+|
+|upkeep
+|turn|8
+|choice|switch 6|move acrobatics
+|
+|switch|p1a: Manectric|Manectric, M|100/100
+|move|p2a: Fletchinder|Acrobatics|p1a: Manectric
+|-resisted|p1a: Manectric
+|-damage|p1a: Manectric|59/100
+|
+|upkeep
+|turn|9
+|choice|move thunderbolt|switch 5
+|
+|switch|p2a: Eelektross|Eelektross, M|100/100
+|move|p1a: Manectric|Thunderbolt|p2a: Eelektross
+|-resisted|p2a: Eelektross
+|-damage|p2a: Eelektross|82/100
+|-damage|p1a: Manectric|49/100|[from] item: Life Orb
+|
+|upkeep
+|turn|10
+|j|DeoThaGawd
+|choice|move overheat|move knockoff
+|
+|move|p1a: Manectric|Overheat|p2a: Eelektross
+|-damage|p2a: Eelektross|43/100
+|-unboost|p1a: Manectric|spa|2
+|-damage|p1a: Manectric|39/100|[from] item: Life Orb
+|move|p2a: Eelektross|Knock Off|p1a: Manectric
+|-damage|p1a: Manectric|0 fnt
+|-enditem|p1a: Manectric|Life Orb|[from] move: Knock Off|[of] p2a: Eelektross
+|faint|p1a: Manectric
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Abomasnow|Abomasnow, M|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Abomasnow
+|turn|11
+|choice|move iceshard|move flamethrower
+|
+|move|p1a: Abomasnow|Ice Shard|p2a: Eelektross
+|-damage|p2a: Eelektross|21/100
+|-damage|p1a: Abomasnow|91/100|[from] item: Life Orb
+|move|p2a: Eelektross|Flamethrower|p1a: Abomasnow
+|-supereffective|p1a: Abomasnow
+|-damage|p1a: Abomasnow|0 fnt
+|faint|p1a: Abomasnow
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Eelektross|15/100|[from] hail
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Mesprit|Mesprit|100/100
+|turn|12
+|choice|move psychic|switch 3
+|
+|switch|p2a: Audino|Audino, M|100/100
+|move|p1a: Mesprit|Psychic|p2a: Audino
+|-damage|p2a: Audino|59/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Mesprit|95/100|[from] hail
+|-damage|p2a: Audino|53/100|[from] hail
+|upkeep
+|turn|13
+|choice|switch 6|move healingwish mega
+|
+|switch|p1a: Virizion|Virizion|100/100
+|detailschange|p2a: Audino|Audino-Mega, M
+|-mega|p2a: Audino|Audino|Audinite
+|move|p2a: Audino|Healing Wish|p2a: Audino
+|faint|p2a: Audino
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Virizion|94/100|[from] hail
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Eelektross|Eelektross, M|15/100
+|-heal|p2a: Eelektross|100/100|[from] move: Healing Wish
+|turn|14
+|choice|switch 6|move flamethrower
+|
+|switch|p1a: Mesprit|Mesprit|95/100
+|move|p2a: Eelektross|Flamethrower|p1a: Mesprit
+|-damage|p1a: Mesprit|59/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Mesprit|53/100|[from] hail
+|-damage|p2a: Eelektross|94/100|[from] hail
+|upkeep
+|turn|15
+|choice|move psychic|move knockoff
+|
+|move|p1a: Mesprit|Psychic|p2a: Eelektross
+|-damage|p2a: Eelektross|65/100
+|move|p2a: Eelektross|Knock Off|p1a: Mesprit
+|-supereffective|p1a: Mesprit
+|-enditem|p1a: Mesprit|Colbur Berry|[eat]
+|-enditem|p1a: Mesprit|Colbur Berry|[weaken]
+|-damage|p1a: Mesprit|28/100
+|
+|-weather|none
+|upkeep
+|turn|16
+|choice|move psychic|move voltswitch
+|
+|move|p1a: Mesprit|Psychic|p2a: Eelektross
+|-damage|p2a: Eelektross|33/100
+|move|p2a: Eelektross|Volt Switch|p1a: Mesprit
+|-damage|p1a: Mesprit|0 fnt
+|faint|p1a: Mesprit
+|choice||switch 5
+|
+|switch|p2a: Fletchinder|Fletchinder, M|86/100
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Togetic|Togetic, M|100/100
+|turn|17
+|choice|move nastyplot|move swordsdance
+|
+|move|p2a: Fletchinder|Swords Dance|p2a: Fletchinder
+|-boost|p2a: Fletchinder|atk|2
+|move|p1a: Togetic|Nasty Plot|p1a: Togetic
+|-boost|p1a: Togetic|spa|2
+|
+|upkeep
+|turn|18
+|choice|move dazzlinggleam|move acrobatics
+|
+|move|p2a: Fletchinder|Acrobatics|p1a: Togetic
+|-damage|p1a: Togetic|51/100
+|move|p1a: Togetic|Dazzling Gleam|p2a: Fletchinder
+|-resisted|p2a: Fletchinder
+|-crit|p2a: Fletchinder
+|-damage|p2a: Fletchinder|24/100
+|
+|upkeep
+|turn|19
+|choice|move roost|switch 2
+|
+|switch|p2a: Jellicent|Jellicent, M|94/100
+|move|p1a: Togetic|Roost|p1a: Togetic
+|-heal|p1a: Togetic|100/100
+|
+|-heal|p2a: Jellicent|99/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|choice|move dazzlinggleam|move willowisp
+|
+|move|p2a: Jellicent|Will-O-Wisp|p1a: Togetic
+|-status|p1a: Togetic|brn
+|move|p1a: Togetic|Dazzling Gleam|p2a: Jellicent
+|-damage|p2a: Jellicent|61/100
+|
+|-heal|p2a: Jellicent|67/100|[from] item: Leftovers
+|-damage|p1a: Togetic|88/100 brn|[from] brn
+|upkeep
+|turn|21
+|choice|move dazzlinggleam|move hex
+|
+|move|p2a: Jellicent|Hex|p1a: Togetic
+|-damage|p1a: Togetic|58/100 brn
+|move|p1a: Togetic|Dazzling Gleam|p2a: Jellicent
+|-damage|p2a: Jellicent|30/100
+|
+|-heal|p2a: Jellicent|36/100|[from] item: Leftovers
+|-damage|p1a: Togetic|46/100 brn|[from] brn
+|upkeep
+|turn|22
+|choice|move roost|move taunt
+|
+|move|p2a: Jellicent|Taunt|p1a: Togetic
+|-start|p1a: Togetic|move: Taunt
+|cant|p1a: Togetic|move: Taunt|Roost
+|
+|-heal|p2a: Jellicent|42/100|[from] item: Leftovers
+|-damage|p1a: Togetic|33/100 brn|[from] brn
+|upkeep
+|turn|23
+|choice|move dazzlinggleam|move hex
+|
+|move|p2a: Jellicent|Hex|p1a: Togetic
+|-damage|p1a: Togetic|6/100 brn
+|move|p1a: Togetic|Dazzling Gleam|p2a: Jellicent
+|-damage|p2a: Jellicent|2/100
+|
+|-heal|p2a: Jellicent|9/100|[from] item: Leftovers
+|-damage|p1a: Togetic|0 fnt|[from] brn
+|upkeep
+|faint|p1a: Togetic
+|choice|switch 6|
+|
+|switch|p1a: Virizion|Virizion|94/100
+|turn|24
+|choice|move swordsdance|move willowisp
+|
+|move|p1a: Virizion|Swords Dance|p1a: Virizion
+|-boost|p1a: Virizion|atk|2
+|move|p2a: Jellicent|Will-O-Wisp|p1a: Virizion
+|-status|p1a: Virizion|brn
+|
+|-heal|p2a: Jellicent|15/100|[from] item: Leftovers
+|-damage|p1a: Virizion|82/100 brn|[from] brn
+|upkeep
+|turn|25
+|choice|move stoneedge|move hex
+|
+|move|p1a: Virizion|Stone Edge|p2a: Jellicent
+|-damage|p2a: Jellicent|0 fnt
+|faint|p2a: Jellicent
+|
+|-damage|p1a: Virizion|70/100 brn|[from] brn
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Fletchinder|Fletchinder, M|24/100
+|turn|26
+|choice|move closecombat|move acrobatics
+|
+|move|p2a: Fletchinder|Acrobatics|p1a: Virizion
+|-supereffective|p1a: Virizion
+|-damage|p1a: Virizion|0 fnt
+|faint|p1a: Virizion
+|
+|win|Kheaven
+|l|angellusdrco360

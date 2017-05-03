@@ -1,0 +1,485 @@
+|j|A Hero's Ghost
+|j|Abhinav Kumar
+|player|p1|A Hero's Ghost|43
+|player|p2|Abhinav Kumar|262
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|24784,34755,61871,6913,27253,46950,3084,17618,11030,3768,43097,29176
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Tentacruel, M|item
+|poke|p1|Scrafty, M|item
+|poke|p1|Abomasnow, M|item
+|poke|p1|Umbreon, M|item
+|poke|p1|Shuckle, M|item
+|poke|p1|Noivern, M|item
+|poke|p2|Cresselia, F|item
+|poke|p2|Pangoro, M|item
+|poke|p2|Slurpuff, M|item
+|poke|p2|Empoleon, M|item
+|poke|p2|Honchkrow, M|item
+|poke|p2|Rotom-Heat|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 5, team 2, team 3, team 4, team 1, team 6|team 4, team 2, team 3, team 1, team 5, team 6
+|
+|start
+|switch|p1a: Shuckle|Shuckle, M|100/100
+|switch|p2a: Empoleon|Empoleon, M|100/100
+|turn|1
+|c|☆Abhinav Kumar|You have already male Pokémon
+|choice|move encore|move scald
+|
+|move|p2a: Empoleon|Scald|p1a: Shuckle
+|-supereffective|p1a: Shuckle
+|-damage|p1a: Shuckle|68/100
+|-status|p1a: Shuckle|brn
+|move|p1a: Shuckle|Encore|p2a: Empoleon
+|-start|p2a: Empoleon|Encore
+|
+|-heal|p1a: Shuckle|74/100 brn|[from] item: Leftovers
+|-damage|p1a: Shuckle|61/100 brn|[from] brn
+|upkeep
+|turn|2
+|choice|move stealthrock|move scald
+|
+|move|p2a: Empoleon|Scald|p1a: Shuckle
+|-supereffective|p1a: Shuckle
+|-damage|p1a: Shuckle|28/100 brn
+|move|p1a: Shuckle|Stealth Rock|p2a: Empoleon
+|-sidestart|p2: Abhinav Kumar|move: Stealth Rock
+|
+|-heal|p1a: Shuckle|35/100 brn|[from] item: Leftovers
+|-damage|p1a: Shuckle|22/100 brn|[from] brn
+|upkeep
+|turn|3
+|choice|move stickyweb|move scald
+|
+|move|p2a: Empoleon|Scald|p1a: Shuckle
+|-supereffective|p1a: Shuckle
+|-damage|p1a: Shuckle|0 fnt
+|faint|p1a: Shuckle
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Scrafty|Scrafty, M|100/100
+|turn|4
+|choice|move bulkup|switch 3
+|
+|switch|p2a: Slurpuff|Slurpuff, M|100/100
+|-damage|p2a: Slurpuff|88/100|[from] Stealth Rock
+|move|p1a: Scrafty|Bulk Up|p1a: Scrafty
+|-boost|p1a: Scrafty|atk|1
+|-boost|p1a: Scrafty|def|1
+|
+|upkeep
+|turn|5
+|choice|switch 5|move calmmind
+|
+|switch|p1a: Tentacruel|Tentacruel, M|100/100
+|move|p2a: Slurpuff|Calm Mind|p2a: Slurpuff
+|-boost|p2a: Slurpuff|spa|1
+|-boost|p2a: Slurpuff|spd|1
+|
+|upkeep
+|turn|6
+|choice|move scald|switch 3
+|
+|switch|p2a: Empoleon|Empoleon, M|100/100
+|-damage|p2a: Empoleon|94/100|[from] Stealth Rock
+|move|p1a: Tentacruel|Scald|p2a: Empoleon
+|-resisted|p2a: Empoleon
+|-damage|p2a: Empoleon|86/100
+|
+|-heal|p2a: Empoleon|93/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|choice|move knockoff|move defog
+|
+|move|p1a: Tentacruel|Knock Off|p2a: Empoleon
+|-crit|p2a: Empoleon
+|-damage|p2a: Empoleon|70/100
+|-enditem|p2a: Empoleon|Leftovers|[from] move: Knock Off|[of] p1a: Tentacruel
+|move|p2a: Empoleon|Defog|p1a: Tentacruel
+|-unboost|p1a: Tentacruel|evasion|1
+|-sideend|p2: Abhinav Kumar|Stealth Rock|[from] move: Defog|[of] p2a: Empoleon
+|
+|upkeep
+|turn|8
+|choice|move toxicspikes|move stealthrock
+|
+|move|p1a: Tentacruel|Toxic Spikes|p2a: Empoleon
+|-sidestart|p2: Abhinav Kumar|move: Toxic Spikes
+|move|p2a: Empoleon|Stealth Rock|p1a: Tentacruel
+|-sidestart|p1: A Hero's Ghost|move: Stealth Rock
+|
+|upkeep
+|turn|9
+|choice|move scald|move roar
+|
+|move|p1a: Tentacruel|Scald|p2a: Empoleon
+|-resisted|p2a: Empoleon
+|-damage|p2a: Empoleon|63/100
+|move|p2a: Empoleon|Roar|p1a: Tentacruel
+|drag|p1a: Scrafty|Scrafty, M|100/100
+|-damage|p1a: Scrafty|94/100|[from] Stealth Rock
+|
+|-heal|p1a: Scrafty|100/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|choice|move bulkup|move defog
+|
+|move|p2a: Empoleon|Defog|p1a: Scrafty
+|-unboost|p1a: Scrafty|evasion|1
+|-sideend|p1: A Hero's Ghost|Stealth Rock|[from] move: Defog|[of] p1a: Scrafty
+|-sideend|p2: Abhinav Kumar|Toxic Spikes|[from] move: Defog|[of] p2a: Empoleon
+|move|p1a: Scrafty|Bulk Up|p1a: Scrafty
+|-boost|p1a: Scrafty|atk|1
+|-boost|p1a: Scrafty|def|1
+|
+|upkeep
+|turn|11
+|choice|move drainpunch|move stealthrock
+|
+|move|p2a: Empoleon|Stealth Rock|p1a: Scrafty
+|-sidestart|p1: A Hero's Ghost|move: Stealth Rock
+|move|p1a: Scrafty|Drain Punch|p2a: Empoleon
+|-supereffective|p2a: Empoleon
+|-damage|p2a: Empoleon|0 fnt
+|faint|p2a: Empoleon
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Honchkrow|Honchkrow, M|100/100
+|turn|12
+|choice|move drainpunch|move bravebird
+|
+|move|p2a: Honchkrow|Brave Bird|p1a: Scrafty
+|-supereffective|p1a: Scrafty
+|-damage|p1a: Scrafty|0 fnt
+|-damage|p2a: Honchkrow|68/100|[from] recoil|[of] p1a: Scrafty
+|-damage|p2a: Honchkrow|58/100|[from] item: Life Orb
+|faint|p1a: Scrafty
+|-ability|p2a: Honchkrow|Moxie|boost
+|-boost|p2a: Honchkrow|atk|1
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Umbreon|Umbreon, M|100/100
+|-damage|p1a: Umbreon|88/100|[from] Stealth Rock
+|turn|13
+|choice|move foulplay|move superpower
+|
+|move|p2a: Honchkrow|Superpower|p1a: Umbreon
+|-supereffective|p1a: Umbreon
+|-damage|p1a: Umbreon|0 fnt
+|-unboost|p2a: Honchkrow|atk|1
+|-unboost|p2a: Honchkrow|def|1
+|-damage|p2a: Honchkrow|48/100|[from] item: Life Orb
+|faint|p1a: Umbreon
+|-ability|p2a: Honchkrow|Moxie|boost
+|-boost|p2a: Honchkrow|atk|1
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Abomasnow|Abomasnow, M|100/100
+|-damage|p1a: Abomasnow|76/100|[from] Stealth Rock
+|turn|14
+|choice|move iceshard mega|move superpower
+|
+|detailschange|p1a: Abomasnow|Abomasnow-Mega, M
+|-mega|p1a: Abomasnow|Abomasnow|Abomasite
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Abomasnow
+|move|p1a: Abomasnow|Ice Shard|p2a: Honchkrow
+|-supereffective|p2a: Honchkrow
+|-damage|p2a: Honchkrow|0 fnt
+|faint|p2a: Honchkrow
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Slurpuff|Slurpuff, M|88/100
+|turn|15
+|choice|move woodhammer|move calmmind
+|
+|move|p2a: Slurpuff|Calm Mind|p2a: Slurpuff
+|-boost|p2a: Slurpuff|spa|1
+|-boost|p2a: Slurpuff|spd|1
+|move|p1a: Abomasnow|Wood Hammer|p2a: Slurpuff
+|-damage|p2a: Slurpuff|5/100
+|-damage|p1a: Abomasnow|52/100|[from] recoil|[of] p2a: Slurpuff
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Slurpuff|0 fnt|[from] hail
+|upkeep
+|faint|p2a: Slurpuff
+|choice||switch 6
+|
+|switch|p2a: Rotom|Rotom-Heat|100/100
+|turn|16
+|choice|switch 5|move overheat
+|
+|switch|p1a: Tentacruel|Tentacruel, M|100/100
+|-damage|p1a: Tentacruel|88/100|[from] Stealth Rock
+|move|p2a: Rotom|Overheat|p1a: Tentacruel
+|-resisted|p1a: Tentacruel
+|-damage|p1a: Tentacruel|68/100
+|-unboost|p2a: Rotom|spa|2
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Tentacruel|62/100|[from] hail
+|-damage|p2a: Rotom|95/100|[from] hail
+|-heal|p1a: Tentacruel|68/100|[from] item: Black Sludge
+|-heal|p2a: Rotom|100/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|choice|move scald|move voltswitch
+|
+|move|p1a: Tentacruel|Scald|p2a: Rotom
+|-supereffective|p2a: Rotom
+|-damage|p2a: Rotom|54/100
+|move|p2a: Rotom|Volt Switch|p1a: Tentacruel
+|-supereffective|p1a: Tentacruel
+|-damage|p1a: Tentacruel|46/100
+|choice||switch 4
+|
+|switch|p2a: Cresselia|Cresselia, F|100/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Tentacruel|40/100|[from] hail
+|-damage|p2a: Cresselia|94/100|[from] hail
+|-heal|p2a: Cresselia|100/100|[from] item: Leftovers
+|-heal|p1a: Tentacruel|46/100|[from] item: Black Sludge
+|upkeep
+|turn|18
+|choice|move knockoff|move psyshock
+|
+|move|p1a: Tentacruel|Knock Off|p2a: Cresselia
+|-supereffective|p2a: Cresselia
+|-damage|p2a: Cresselia|83/100
+|-enditem|p2a: Cresselia|Leftovers|[from] move: Knock Off|[of] p1a: Tentacruel
+|move|p2a: Cresselia|Psyshock|p1a: Tentacruel
+|-supereffective|p1a: Tentacruel
+|-damage|p1a: Tentacruel|8/100
+|
+|-weather|none
+|-heal|p1a: Tentacruel|14/100|[from] item: Black Sludge
+|upkeep
+|turn|19
+|choice|move scald|move psyshock
+|
+|move|p2a: Cresselia|Psyshock|p1a: Tentacruel
+|-supereffective|p1a: Tentacruel
+|-damage|p1a: Tentacruel|0 fnt
+|faint|p1a: Tentacruel
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Noivern|Noivern, M|100/100
+|-damage|p1a: Noivern|76/100|[from] Stealth Rock
+|turn|20
+|choice|move taunt|move calmmind
+|
+|move|p1a: Noivern|Taunt|p2a: Cresselia
+|-start|p2a: Cresselia|move: Taunt
+|cant|p2a: Cresselia|move: Taunt|Calm Mind
+|
+|-heal|p1a: Noivern|82/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|choice|move airslash|move psyshock
+|
+|move|p1a: Noivern|Air Slash|p2a: Cresselia
+|-damage|p2a: Cresselia|62/100
+|move|p2a: Cresselia|Psyshock|p1a: Noivern
+|-damage|p1a: Noivern|51/100
+|
+|-heal|p1a: Noivern|57/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|choice|move airslash|move psyshock
+|
+|move|p1a: Noivern|Air Slash|p2a: Cresselia
+|-damage|p2a: Cresselia|43/100
+|move|p2a: Cresselia|Psyshock|p1a: Noivern
+|-damage|p1a: Noivern|28/100
+|
+|-heal|p1a: Noivern|34/100|[from] item: Leftovers
+|-end|p2a: Cresselia|move: Taunt
+|upkeep
+|turn|23
+|choice|move taunt|move moonlight
+|
+|move|p1a: Noivern|Taunt|p2a: Cresselia
+|-start|p2a: Cresselia|move: Taunt
+|cant|p2a: Cresselia|move: Taunt|Moonlight
+|
+|-heal|p1a: Noivern|40/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|choice|move roost|move psyshock
+|
+|move|p1a: Noivern|Roost|p1a: Noivern
+|-heal|p1a: Noivern|91/100
+|move|p2a: Cresselia|Psyshock|p1a: Noivern
+|-damage|p1a: Noivern|60/100
+|
+|-heal|p1a: Noivern|66/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|choice|move airslash|move psyshock
+|
+|move|p1a: Noivern|Air Slash|p2a: Cresselia
+|-damage|p2a: Cresselia|22/100
+|move|p2a: Cresselia|Psyshock|p1a: Noivern
+|-crit|p1a: Noivern
+|-damage|p1a: Noivern|20/100
+|
+|-heal|p1a: Noivern|26/100|[from] item: Leftovers
+|-end|p2a: Cresselia|move: Taunt
+|upkeep
+|turn|26
+|choice|move dracometeor|switch 2
+|
+|switch|p2a: Pangoro|Pangoro, M|100/100
+|move|p1a: Noivern|Draco Meteor|p2a: Pangoro
+|-crit|p2a: Pangoro
+|-damage|p2a: Pangoro|0 fnt
+|-unboost|p1a: Noivern|spa|2
+|faint|p2a: Pangoro
+|
+|-heal|p1a: Noivern|32/100|[from] item: Leftovers
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Cresselia|Cresselia, F|22/100
+|turn|27
+|choice|move dracometeor|move psyshock
+|
+|move|p1a: Noivern|Draco Meteor|p2a: Cresselia
+|-damage|p2a: Cresselia|7/100
+|-unboost|p1a: Noivern|spa|2
+|move|p2a: Cresselia|Psyshock|p1a: Noivern
+|-damage|p1a: Noivern|6/100
+|
+|-heal|p1a: Noivern|12/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|choice|move dracometeor|move moonlight
+|
+|move|p1a: Noivern|Draco Meteor|p2a: Cresselia
+|-damage|p2a: Cresselia|0 fnt
+|-unboost|p1a: Noivern|spa|2
+|faint|p2a: Cresselia
+|
+|-heal|p1a: Noivern|18/100|[from] item: Leftovers
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Rotom|Rotom-Heat|54/100
+|turn|29
+|choice|move roost|move voltswitch
+|
+|move|p1a: Noivern|Roost|p1a: Noivern
+|-heal|p1a: Noivern|68/100
+|move|p2a: Rotom|Volt Switch|p1a: Noivern
+|-resisted|p1a: Noivern
+|-damage|p1a: Noivern|52/100
+|
+|-heal|p1a: Noivern|58/100|[from] item: Leftovers
+|-heal|p2a: Rotom|60/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|choice|move roost|move voltswitch
+|
+|move|p1a: Noivern|Roost|p1a: Noivern
+|-heal|p1a: Noivern|100/100
+|move|p2a: Rotom|Volt Switch|p1a: Noivern
+|-resisted|p1a: Noivern
+|-damage|p1a: Noivern|85/100
+|
+|-heal|p1a: Noivern|91/100|[from] item: Leftovers
+|-heal|p2a: Rotom|66/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|choice|switch 5|move voltswitch
+|
+|switch|p1a: Abomasnow|Abomasnow-Mega, M|52/100
+|-damage|p1a: Abomasnow|27/100|[from] Stealth Rock
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Abomasnow
+|move|p2a: Rotom|Volt Switch|p1a: Abomasnow
+|-resisted|p1a: Abomasnow
+|-crit|p1a: Abomasnow
+|-damage|p1a: Abomasnow|11/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Rotom|60/100|[from] hail
+|-heal|p2a: Rotom|66/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|choice|move iceshard|move willowisp
+|
+|move|p1a: Abomasnow|Ice Shard|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|57/100
+|move|p2a: Rotom|Will-O-Wisp|p1a: Abomasnow
+|-status|p1a: Abomasnow|brn
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Rotom|51/100|[from] hail
+|-heal|p2a: Rotom|57/100|[from] item: Leftovers
+|-damage|p1a: Abomasnow|0 fnt|[from] brn
+|upkeep
+|faint|p1a: Abomasnow
+|choice|switch 5|
+|
+|switch|p1a: Noivern|Noivern, M|91/100
+|-damage|p1a: Noivern|67/100|[from] Stealth Rock
+|turn|33
+|choice|move airslash|move painsplit
+|
+|move|p1a: Noivern|Air Slash|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|39/100
+|cant|p2a: Rotom|flinch
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Noivern|61/100|[from] hail
+|-damage|p2a: Rotom|34/100|[from] hail
+|-heal|p1a: Noivern|67/100|[from] item: Leftovers
+|-heal|p2a: Rotom|39/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|choice|move dracometeor|move painsplit
+|
+|move|p1a: Noivern|Draco Meteor|p2a: Rotom|[miss]
+|-miss|p1a: Noivern|p2a: Rotom
+|move|p2a: Rotom|Pain Split|p1a: Noivern
+|-sethp|p1a: Noivern|53/100|p2a: Rotom|54/100|[from] move: Pain Split
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Noivern|46/100|[from] hail
+|-damage|p2a: Rotom|48/100|[from] hail
+|-heal|p1a: Noivern|53/100|[from] item: Leftovers
+|-heal|p2a: Rotom|54/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|choice|move dracometeor|move voltswitch
+|
+|move|p1a: Noivern|Draco Meteor|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|-unboost|p1a: Noivern|spa|2
+|faint|p2a: Rotom
+|
+|win|A Hero's Ghost
+|c|☆A Hero's Ghost|gg
+|l|Abhinav Kumar

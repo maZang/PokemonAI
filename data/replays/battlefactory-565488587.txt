@@ -1,0 +1,232 @@
+|j|Mekaminokushi
+|j|judimakfun
+|player|p1|Mekaminokushi|163
+|player|p2|judimakfun|101
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|60935,49200,1889,32826,37583,8119,22576,19095,45097,58325,55784,4567
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Infernape, M|item
+|poke|p1|Rhyperior, M|item
+|poke|p1|Cobalion|item
+|poke|p1|Donphan, M|item
+|poke|p1|Gyarados, M|item
+|poke|p1|Gardevoir, M|item
+|poke|p2|Umbreon, M|item
+|poke|p2|Ampharos, M|item
+|poke|p2|Bronzong|item
+|poke|p2|Slurpuff, M|item
+|poke|p2|Blissey, F|item
+|poke|p2|Nidoqueen, F|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 2, team 1, team 3, team 4, team 5, team 6|team 5, team 2, team 3, team 4, team 1, team 6
+|
+|start
+|switch|p1a: Rhyperior|Rhyperior, M|100/100
+|switch|p2a: Blissey|Blissey, F|100/100
+|turn|1
+|choice|move earthquake|move seismictoss
+|
+|move|p2a: Blissey|Seismic Toss|p1a: Rhyperior
+|-damage|p1a: Rhyperior|76/100
+|move|p1a: Rhyperior|Earthquake|p2a: Blissey
+|-damage|p2a: Blissey|24/100
+|
+|-heal|p2a: Blissey|30/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|choice|move earthquake|move seismictoss
+|
+|move|p2a: Blissey|Seismic Toss|p1a: Rhyperior
+|-damage|p1a: Rhyperior|52/100
+|move|p1a: Rhyperior|Earthquake|p2a: Blissey
+|-damage|p2a: Blissey|0 fnt
+|faint|p2a: Blissey
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Nidoqueen|Nidoqueen, F|100/100
+|turn|3
+|choice|move earthquake|move earthpower
+|
+|move|p2a: Nidoqueen|Earth Power|p1a: Rhyperior
+|-supereffective|p1a: Rhyperior
+|-damage|p1a: Rhyperior|0 fnt
+|faint|p1a: Rhyperior
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Gardevoir|Gardevoir, M|100/100
+|-ability|p1a: Gardevoir|Sheer Force|[from] ability: Trace|[of] p2a: Nidoqueen
+|turn|4
+|choice|move psyshock|move sludgewave
+|
+|move|p1a: Gardevoir|Psyshock|p2a: Nidoqueen
+|-supereffective|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|17/100
+|move|p2a: Nidoqueen|Sludge Wave|p1a: Gardevoir
+|-supereffective|p1a: Gardevoir
+|-damage|p1a: Gardevoir|0 fnt
+|faint|p1a: Gardevoir
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Gyarados|Gyarados, M|100/100
+|-ability|p1a: Gyarados|Intimidate|boost
+|-unboost|p2a: Nidoqueen|atk|1
+|turn|5
+|choice|move waterfall|move icebeam
+|
+|move|p1a: Gyarados|Waterfall|p2a: Nidoqueen
+|-supereffective|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|0 fnt
+|faint|p2a: Nidoqueen
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Ampharos|Ampharos, M|100/100
+|turn|6
+|choice|move earthquake|move dragonpulse mega
+|
+|detailschange|p2a: Ampharos|Ampharos-Mega, M
+|-mega|p2a: Ampharos|Ampharos|Ampharosite
+|-ability|p2a: Ampharos|Mold Breaker
+|move|p1a: Gyarados|Earthquake|p2a: Ampharos
+|-supereffective|p2a: Ampharos
+|-damage|p2a: Ampharos|46/100
+|move|p2a: Ampharos|Dragon Pulse|p1a: Gyarados
+|-damage|p1a: Gyarados|54/100
+|
+|-heal|p1a: Gyarados|60/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|choice|move earthquake|move voltswitch
+|
+|move|p1a: Gyarados|Earthquake|p2a: Ampharos
+|-supereffective|p2a: Ampharos
+|-damage|p2a: Ampharos|0 fnt
+|faint|p2a: Ampharos
+|
+|-heal|p1a: Gyarados|66/100|[from] item: Leftovers
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Umbreon|Umbreon, M|100/100
+|turn|8
+|choice|move earthquake|move foulplay
+|
+|move|p1a: Gyarados|Earthquake|p2a: Umbreon
+|-damage|p2a: Umbreon|79/100
+|move|p2a: Umbreon|Foul Play|p1a: Gyarados
+|-damage|p1a: Gyarados|8/100
+|
+|-heal|p1a: Gyarados|14/100|[from] item: Leftovers
+|-heal|p2a: Umbreon|85/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|choice|move bounce|move foulplay
+|
+|move|p1a: Gyarados|Bounce|p2a: Umbreon|[still]
+|-prepare|p1a: Gyarados|Bounce|p2a: Umbreon
+|move|p2a: Umbreon|Foul Play|p1a: Gyarados|[miss]
+|-miss|p2a: Umbreon|p1a: Gyarados
+|
+|-heal|p1a: Gyarados|20/100|[from] item: Leftovers
+|-heal|p2a: Umbreon|91/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|choice|move bounce|move foulplay
+|
+|move|p1a: Gyarados|Bounce|p2a: Umbreon|[from]lockedmove
+|-damage|p2a: Umbreon|65/100
+|move|p2a: Umbreon|Foul Play|p1a: Gyarados
+|-crit|p1a: Gyarados
+|-damage|p1a: Gyarados|0 fnt
+|faint|p1a: Gyarados
+|
+|-heal|p2a: Umbreon|71/100|[from] item: Leftovers
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Infernape|Infernape, M|100/100
+|turn|11
+|choice|move closecombat|move foulplay
+|
+|move|p1a: Infernape|Close Combat|p2a: Umbreon
+|-supereffective|p2a: Umbreon
+|-damage|p2a: Umbreon|9/100
+|-unboost|p1a: Infernape|def|1
+|-unboost|p1a: Infernape|spd|1
+|move|p2a: Umbreon|Foul Play|p1a: Infernape
+|-resisted|p1a: Infernape
+|-damage|p1a: Infernape|48/100
+|
+|-heal|p2a: Umbreon|15/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|choice|move closecombat|move foulplay
+|
+|move|p1a: Infernape|Close Combat|p2a: Umbreon
+|-supereffective|p2a: Umbreon
+|-damage|p2a: Umbreon|0 fnt
+|-unboost|p1a: Infernape|def|1
+|-unboost|p1a: Infernape|spd|1
+|faint|p2a: Umbreon
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Slurpuff|Slurpuff, M|100/100
+|turn|13
+|choice|move overheat|move playrough
+|
+|move|p1a: Infernape|Overheat|p2a: Slurpuff
+|-damage|p2a: Slurpuff|34/100
+|-unboost|p1a: Infernape|spa|2
+|-enditem|p2a: Slurpuff|Sitrus Berry|[eat]
+|-heal|p2a: Slurpuff|59/100|[from] item: Sitrus Berry
+|move|p2a: Slurpuff|Play Rough|p1a: Infernape
+|-damage|p1a: Infernape|0 fnt
+|faint|p1a: Infernape
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Donphan|Donphan, M|100/100
+|turn|14
+|choice|move earthquake|move playrough
+|
+|move|p2a: Slurpuff|Play Rough|p1a: Donphan
+|-damage|p1a: Donphan|70/100
+|move|p1a: Donphan|Earthquake|p2a: Slurpuff
+|-damage|p2a: Slurpuff|0 fnt
+|faint|p2a: Slurpuff
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Bronzong|Bronzong|100/100
+|turn|15
+|choice|move iceshard|move earthquake
+|
+|move|p1a: Donphan|Ice Shard|p2a: Bronzong
+|-resisted|p2a: Bronzong
+|-damage|p2a: Bronzong|94/100
+|move|p2a: Bronzong|Earthquake|p1a: Donphan
+|-damage|p1a: Donphan|52/100
+|
+|-heal|p2a: Bronzong|100/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|-message|judimakfun forfeited.
+|
+|win|Mekaminokushi
+|l|judimakfun

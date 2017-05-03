@@ -1,0 +1,344 @@
+|j|Netro1
+|j|Leul
+|player|p1|Netro1|183
+|player|p2|Leul|102
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|45876,23427,30911,11559,52002,15245,35839,644,62051,59454,3146,56534
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Manectric, M|item
+|poke|p1|Conkeldurr, M|item
+|poke|p1|Slowbro, M|item
+|poke|p1|Sylveon, M|item
+|poke|p1|Feraligatr, M|item
+|poke|p1|Bisharp, M|item
+|poke|p2|Keldeo|item
+|poke|p2|Dragonite, M|item
+|poke|p2|Thundurus-Therian, M|item
+|poke|p2|Excadrill, M|item
+|poke|p2|Gengar, M|item
+|poke|p2|Scizor, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|c|☆Leul|A mi ¿Ubers? y a ti no c
+|choice|team 1, team 2, team 3, team 4, team 5, team 6|team 3, team 2, team 1, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Manectric|Manectric, M|100/100
+|switch|p2a: Thundurus|Thundurus-Therian, M|100/100
+|turn|1
+|choice|switch 4|move nastyplot
+|
+|switch|p1a: Sylveon|Sylveon, M|100/100
+|move|p2a: Thundurus|Nasty Plot|p2a: Thundurus
+|-boost|p2a: Thundurus|spa|2
+|
+|upkeep
+|turn|2
+|choice|move hypervoice|move thunderbolt
+|
+|move|p2a: Thundurus|Thunderbolt|p1a: Sylveon
+|-crit|p1a: Sylveon
+|-damage|p1a: Sylveon|0 fnt
+|faint|p1a: Sylveon
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Manectric|Manectric, M|100/100
+|turn|3
+|choice|move hiddenpower|move agility
+|
+|move|p1a: Manectric|Hidden Power|p2a: Thundurus
+|-supereffective|p2a: Thundurus
+|-damage|p2a: Thundurus|55/100
+|move|p2a: Thundurus|Agility|p2a: Thundurus
+|-boost|p2a: Thundurus|spe|2
+|
+|-heal|p2a: Thundurus|61/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|l|Netro1
+|player|p1|
+|j|Netro1
+|player|p1|Netro1|183
+|choice|move hiddenpower|move hiddenpower
+|
+|move|p2a: Thundurus|Hidden Power|p1a: Manectric
+|-damage|p1a: Manectric|14/100
+|move|p1a: Manectric|Hidden Power|p2a: Thundurus
+|-supereffective|p2a: Thundurus
+|-crit|p2a: Thundurus
+|-damage|p2a: Thundurus|0 fnt
+|faint|p2a: Thundurus
+|
+|upkeep
+|l|Netro1
+|player|p1|
+|choice||switch 6
+|
+|switch|p2a: Scizor|Scizor, M|100/100
+|turn|5
+|j|Netro1
+|player|p1|Netro1|183
+|l|Netro1
+|player|p1|
+|j|Netro1
+|player|p1|Netro1|183
+|choice|switch 3|move knockoff mega
+|
+|switch|p1a: Slowbro|Slowbro, M|100/100
+|detailschange|p2a: Scizor|Scizor-Mega, M
+|-mega|p2a: Scizor|Scizor|Scizorite
+|move|p2a: Scizor|Knock Off|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|61/100
+|-enditem|p1a: Slowbro|Leftovers|[from] move: Knock Off|[of] p2a: Scizor
+|
+|upkeep
+|turn|6
+|l|Netro1
+|player|p1|
+|j|Netro1
+|player|p1|Netro1|183
+|choice|move thunderwave|move bulletpunch
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-crit|p1a: Slowbro
+|-damage|p1a: Slowbro|48/100
+|move|p1a: Slowbro|Thunder Wave|p2a: Scizor
+|-status|p2a: Scizor|par
+|
+|upkeep
+|turn|7
+|l|Netro1
+|player|p1|
+|j|Netro1
+|player|p1|Netro1|183
+|l|Netro1
+|player|p1|
+|j|Netro1
+|player|p1|Netro1|183
+|l|Netro1
+|player|p1|
+|j|Netro1
+|player|p1|Netro1|183
+|l|Netro1
+|player|p1|
+|choice|move slackoff|move knockoff
+|
+|move|p1a: Slowbro|Slack Off|p1a: Slowbro
+|-heal|p1a: Slowbro|98/100
+|move|p2a: Scizor|Knock Off|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|71/100
+|
+|upkeep
+|turn|8
+|j|Netro1
+|player|p1|Netro1|183
+|l|Netro1
+|player|p1|
+|j|Netro1
+|player|p1|Netro1|183
+|choice|move scald|switch 5
+|
+|switch|p2a: Gengar|Gengar, M|100/100
+|move|p1a: Slowbro|Scald|p2a: Gengar
+|-crit|p2a: Gengar
+|-damage|p2a: Gengar|33/100
+|
+|upkeep
+|turn|9
+|l|Netro1
+|player|p1|
+|j|Netro1
+|player|p1|Netro1|183
+|choice|move scald|move shadowball
+|
+|move|p2a: Gengar|Shadow Ball|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|0 fnt
+|-damage|p2a: Gengar|23/100|[from] item: Life Orb
+|faint|p1a: Slowbro
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Bisharp|Bisharp, M|100/100
+|turn|10
+|choice|move pursuit|move focusblast
+|
+|move|p2a: Gengar|Focus Blast|p1a: Bisharp
+|-supereffective|p1a: Bisharp
+|-damage|p1a: Bisharp|0 fnt
+|-damage|p2a: Gengar|13/100|[from] item: Life Orb
+|faint|p1a: Bisharp
+|
+|upkeep
+|l|Netro1
+|player|p1|
+|j|Netro1
+|player|p1|Netro1|183
+|choice|switch 5|
+|
+|switch|p1a: Feraligatr|Feraligatr, M|100/100
+|turn|11
+|l|Netro1
+|player|p1|
+|j|Netro1
+|player|p1|Netro1|183
+|l|Netro1
+|player|p1|
+|j|Netro1
+|player|p1|Netro1|183
+|l|Netro1
+|player|p1|
+|j|Netro1
+|player|p1|Netro1|183
+|choice|move crunch|move sludgewave
+|
+|move|p2a: Gengar|Sludge Wave|p1a: Feraligatr
+|-damage|p1a: Feraligatr|21/100
+|-damage|p2a: Gengar|3/100|[from] item: Life Orb
+|move|p1a: Feraligatr|Crunch|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Dragonite|Dragonite, M|100/100
+|turn|12
+|choice|move icepunch|move dragondance
+|
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|move|p1a: Feraligatr|Ice Punch|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-crit|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Keldeo|Keldeo|100/100
+|turn|13
+|choice|move waterfall|move hiddenpower
+|
+|move|p2a: Keldeo|Hidden Power|p1a: Feraligatr
+|-supereffective|p1a: Feraligatr
+|-damage|p1a: Feraligatr|0 fnt
+|faint|p1a: Feraligatr
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Manectric|Manectric, M|14/100
+|turn|14
+|choice|switch 2|switch 4
+|
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|switch|p1a: Conkeldurr|Conkeldurr, M|100/100
+|
+|upkeep
+|turn|15
+|choice|move machpunch|move toxic
+|
+|move|p1a: Conkeldurr|Mach Punch|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|37/100
+|move|p2a: Excadrill|Toxic|p1a: Conkeldurr|[miss]
+|-miss|p2a: Excadrill|p1a: Conkeldurr
+|
+|-heal|p2a: Excadrill|43/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|choice|move machpunch|move toxic
+|
+|move|p1a: Conkeldurr|Mach Punch|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Keldeo|Keldeo|100/100
+|turn|17
+|choice|move machpunch|move hydropump
+|
+|move|p1a: Conkeldurr|Mach Punch|p2a: Keldeo
+|-damage|p2a: Keldeo|73/100
+|move|p2a: Keldeo|Hydro Pump|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|59/100
+|
+|upkeep
+|turn|18
+|choice|move machpunch|move hydropump
+|
+|move|p1a: Conkeldurr|Mach Punch|p2a: Keldeo
+|-damage|p2a: Keldeo|46/100
+|move|p2a: Keldeo|Hydro Pump|p1a: Conkeldurr|[miss]
+|-miss|p2a: Keldeo|p1a: Conkeldurr
+|
+|upkeep
+|turn|19
+|choice|move machpunch|move hydropump
+|
+|move|p1a: Conkeldurr|Mach Punch|p2a: Keldeo
+|-crit|p2a: Keldeo
+|-damage|p2a: Keldeo|0 fnt
+|faint|p2a: Keldeo
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Scizor|Scizor-Mega, M|100/100 par
+|turn|20
+|choice|move drainpunch|move bulletpunch
+|
+|cant|p2a: Scizor|par
+|move|p1a: Conkeldurr|Drain Punch|p2a: Scizor
+|-damage|p2a: Scizor|77/100 par
+|-heal|p1a: Conkeldurr|71/100|[from] drain|[of] p2a: Scizor
+|
+|upkeep
+|turn|21
+|choice|move drainpunch|move bulletpunch
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|41/100
+|move|p1a: Conkeldurr|Drain Punch|p2a: Scizor
+|-damage|p2a: Scizor|50/100 par
+|-heal|p1a: Conkeldurr|54/100|[from] drain|[of] p2a: Scizor
+|
+|upkeep
+|turn|22
+|choice|move drainpunch|move bulletpunch
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|26/100
+|move|p1a: Conkeldurr|Drain Punch|p2a: Scizor
+|-damage|p2a: Scizor|23/100 par
+|-heal|p1a: Conkeldurr|40/100|[from] drain|[of] p2a: Scizor
+|
+|upkeep
+|turn|23
+|choice|move drainpunch|move roost
+|
+|move|p1a: Conkeldurr|Drain Punch|p2a: Scizor
+|-damage|p2a: Scizor|0 fnt
+|-heal|p1a: Conkeldurr|51/100|[from] drain|[of] p2a: Scizor
+|faint|p2a: Scizor
+|
+|win|Netro1
+|l|Leul

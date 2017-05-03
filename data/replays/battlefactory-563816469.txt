@@ -1,0 +1,323 @@
+|j|JRK_STARTING_OVER
+|j|BasedMztt
+|player|p1|JRK_STARTING_OVER|92
+|player|p2|BasedMztt|3
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|59929,1194,52458,31722,61358,31728,2230,48767,13056,18852,46052,42577
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Metang|item
+|poke|p1|Zweilous, M|item
+|poke|p1|Vullaby, F|item
+|poke|p1|Venipede, M|item
+|poke|p1|Purugly, M|item
+|poke|p1|Arbok, M|item
+|poke|p2|Articuno|item
+|poke|p2|Fraxure, M|item
+|poke|p2|Pawniard, M|item
+|poke|p2|Stunfisk, M|item
+|poke|p2|Quilladin, M|item
+|poke|p2|Prinplup, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 6, team 2, team 3, team 4, team 5, team 1|team 1, team 2, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Arbok|Arbok, M|100/100
+|switch|p2a: Articuno|Articuno|100/100
+|-ability|p2a: Articuno|Pressure
+|-ability|p1a: Arbok|Intimidate|boost
+|-unboost|p2a: Articuno|atk|1
+|turn|1
+|choice|move coil|move hurricane
+|
+|move|p2a: Articuno|Hurricane|p1a: Arbok
+|-damage|p1a: Arbok|1/100
+|-damage|p2a: Articuno|91/100|[from] item: Life Orb
+|move|p1a: Arbok|Coil|p1a: Arbok
+|-boost|p1a: Arbok|atk|1
+|-boost|p1a: Arbok|def|1
+|-boost|p1a: Arbok|accuracy|1
+|
+|-heal|p1a: Arbok|7/100|[from] item: Black Sludge
+|upkeep
+|turn|2
+|choice|move suckerpunch|move substitute
+|
+|move|p1a: Arbok|Sucker Punch|p2a: Articuno|[still]
+|-fail|p1a: Arbok
+|move|p2a: Articuno|Substitute|p2a: Articuno
+|-start|p2a: Articuno|Substitute
+|-damage|p2a: Articuno|66/100
+|
+|-heal|p1a: Arbok|14/100|[from] item: Black Sludge
+|upkeep
+|turn|3
+|choice|move suckerpunch|move icebeam
+|
+|move|p1a: Arbok|Sucker Punch|p2a: Articuno
+|-crit|p2a: Articuno
+|-end|p2a: Articuno|Substitute
+|move|p2a: Articuno|Ice Beam|p1a: Arbok
+|-damage|p1a: Arbok|0 fnt
+|-damage|p2a: Articuno|56/100|[from] item: Life Orb
+|faint|p1a: Arbok
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Venipede|Venipede, M|100/100
+|turn|4
+|choice|move spikes|move hurricane
+|
+|move|p2a: Articuno|Hurricane|p1a: Venipede
+|-supereffective|p1a: Venipede
+|-enditem|p1a: Venipede|Focus Sash
+|-damage|p1a: Venipede|1/100
+|-start|p1a: Venipede|confusion
+|-damage|p2a: Articuno|46/100|[from] item: Life Orb
+|-activate|p1a: Venipede|confusion
+|move|p1a: Venipede|Spikes|p2a: Articuno
+|-sidestart|p2: BasedMztt|Spikes
+|
+|-ability|p1a: Venipede|Speed Boost|boost
+|-boost|p1a: Venipede|spe|1
+|upkeep
+|turn|5
+|choice|move protect|move icebeam
+|
+|-activate|p1a: Venipede|confusion
+|move|p1a: Venipede|Protect|p1a: Venipede
+|-singleturn|p1a: Venipede|Protect
+|move|p2a: Articuno|Ice Beam|p1a: Venipede
+|-activate|p1a: Venipede|move: Protect
+|
+|-ability|p1a: Venipede|Speed Boost|boost
+|-boost|p1a: Venipede|spe|1
+|upkeep
+|turn|6
+|choice|move spikes|move substitute
+|
+|-activate|p1a: Venipede|confusion
+|move|p1a: Venipede|Spikes|p2a: Articuno
+|-sidestart|p2: BasedMztt|Spikes
+|move|p2a: Articuno|Substitute|p2a: Articuno
+|-start|p2a: Articuno|Substitute
+|-damage|p2a: Articuno|21/100
+|
+|-ability|p1a: Venipede|Speed Boost|boost
+|-boost|p1a: Venipede|spe|1
+|upkeep
+|turn|7
+|choice|move endeavor|move icebeam
+|
+|-end|p1a: Venipede|confusion
+|move|p1a: Venipede|Endeavor|p2a: Articuno
+|-activate|p2a: Articuno|move: Substitute|[damage]
+|move|p2a: Articuno|Ice Beam|p1a: Venipede
+|-damage|p1a: Venipede|0 fnt
+|-damage|p2a: Articuno|11/100|[from] item: Life Orb
+|faint|p1a: Venipede
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Metang|Metang|100/100
+|turn|8
+|choice|switch 5|move hurricane
+|
+|switch|p1a: Purugly|Purugly, M|100/100
+|move|p2a: Articuno|Hurricane|p1a: Purugly
+|-damage|p1a: Purugly|0 fnt
+|-damage|p2a: Articuno|1/100|[from] item: Life Orb
+|faint|p1a: Purugly
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Metang|Metang|100/100
+|turn|9
+|choice|move stealthrock|move hurricane
+|
+|move|p2a: Articuno|Hurricane|p1a: Metang
+|-resisted|p1a: Metang
+|-damage|p1a: Metang|84/100
+|-damage|p2a: Articuno|0 fnt|[from] item: Life Orb
+|faint|p2a: Articuno
+|move|p1a: Metang|Stealth Rock|p2: Articuno
+|-sidestart|p2: BasedMztt|move: Stealth Rock
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Prinplup|Prinplup, M|100/100
+|-damage|p2a: Prinplup|88/100|[from] Stealth Rock
+|-damage|p2a: Prinplup|71/100|[from] Spikes
+|turn|10
+|choice|move toxic|move defog
+|
+|move|p1a: Metang|Toxic|p2a: Prinplup
+|-status|p2a: Prinplup|tox
+|move|p2a: Prinplup|Defog|p1a: Metang
+|-fail|p1a: Metang|unboost|[from] ability: Clear Body|[of] p1a: Metang
+|-sideend|p2: BasedMztt|Spikes|[from] move: Defog|[of] p2a: Prinplup
+|-sideend|p2: BasedMztt|Stealth Rock|[from] move: Defog|[of] p2a: Prinplup
+|
+|-damage|p2a: Prinplup|65/100 tox|[from] psn
+|upkeep
+|turn|11
+|choice|move stealthrock|move scald
+|
+|move|p1a: Metang|Stealth Rock|p2a: Prinplup
+|-sidestart|p2: BasedMztt|move: Stealth Rock
+|move|p2a: Prinplup|Scald|p1a: Metang
+|-damage|p1a: Metang|71/100
+|-status|p1a: Metang|brn
+|
+|-damage|p1a: Metang|59/100 brn|[from] brn
+|-damage|p2a: Prinplup|53/100 tox|[from] psn
+|upkeep
+|turn|12
+|choice|move meteormash|move defog
+|
+|move|p1a: Metang|Meteor Mash|p2a: Prinplup
+|-resisted|p2a: Prinplup
+|-damage|p2a: Prinplup|49/100 tox
+|move|p2a: Prinplup|Defog|p1a: Metang
+|-fail|p1a: Metang|unboost|[from] ability: Clear Body|[of] p1a: Metang
+|-sideend|p2: BasedMztt|Stealth Rock|[from] move: Defog|[of] p2a: Prinplup
+|
+|-damage|p1a: Metang|47/100 brn|[from] brn
+|-damage|p2a: Prinplup|31/100 tox|[from] psn
+|upkeep
+|turn|13
+|choice|move stealthrock|move stealthrock
+|
+|move|p1a: Metang|Stealth Rock|p2a: Prinplup
+|-sidestart|p2: BasedMztt|move: Stealth Rock
+|move|p2a: Prinplup|Stealth Rock|p1a: Metang
+|-sidestart|p1: JRK_STARTING_OVER|move: Stealth Rock
+|
+|-damage|p1a: Metang|34/100 brn|[from] brn
+|-damage|p2a: Prinplup|7/100 tox|[from] psn
+|upkeep
+|turn|14
+|choice|move meteormash|move scald
+|
+|move|p1a: Metang|Meteor Mash|p2a: Prinplup
+|-resisted|p2a: Prinplup
+|-damage|p2a: Prinplup|3/100 tox
+|move|p2a: Prinplup|Scald|p1a: Metang
+|-damage|p1a: Metang|14/100 brn
+|
+|-damage|p1a: Metang|1/100 brn|[from] brn
+|-damage|p2a: Prinplup|0 fnt|[from] psn
+|upkeep
+|faint|p2a: Prinplup
+|choice||switch 5
+|
+|switch|p2a: Quilladin|Quilladin, M|100/100
+|-damage|p2a: Quilladin|88/100|[from] Stealth Rock
+|turn|15
+|choice|move toxic|move spikes
+|
+|move|p2a: Quilladin|Spikes|p1a: Metang
+|-sidestart|p1: JRK_STARTING_OVER|Spikes
+|move|p1a: Metang|Toxic|p2a: Quilladin
+|-status|p2a: Quilladin|tox
+|
+|-damage|p2a: Quilladin|82/100 tox|[from] psn
+|-damage|p1a: Metang|0 fnt|[from] brn
+|upkeep
+|faint|p1a: Metang
+|choice|switch 2|
+|
+|switch|p1a: Zweilous|Zweilous, M|100/100
+|-damage|p1a: Zweilous|88/100|[from] Spikes
+|-damage|p1a: Zweilous|76/100|[from] Stealth Rock
+|turn|16
+|choice|move outrage|move spikes
+|
+|move|p1a: Zweilous|Outrage|p2a: Quilladin
+|-damage|p2a: Quilladin|23/100 tox
+|move|p2a: Quilladin|Spikes|p1a: Zweilous
+|-sidestart|p1: JRK_STARTING_OVER|Spikes
+|
+|-damage|p2a: Quilladin|11/100 tox|[from] psn
+|upkeep
+|turn|17
+|choice|move outrage|move spikes
+|
+|move|p1a: Zweilous|Outrage|p2a: Quilladin|[from]lockedmove
+|-damage|p2a: Quilladin|0 fnt
+|faint|p2a: Quilladin
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Stunfisk|Stunfisk, M|100/100
+|-damage|p2a: Stunfisk|94/100|[from] Stealth Rock
+|turn|18
+|choice|move outrage|move toxic
+|
+|move|p1a: Zweilous|Outrage|p2a: Stunfisk|[from]lockedmove|[miss]
+|-miss|p1a: Zweilous|p2a: Stunfisk
+|-start|p1a: Zweilous|confusion|[fatigue]
+|move|p2a: Stunfisk|Toxic|p1a: Zweilous
+|-status|p1a: Zweilous|tox
+|
+|-damage|p1a: Zweilous|70/100 tox|[from] psn
+|upkeep
+|turn|19
+|choice|move outrage|move earthpower
+|
+|-activate|p1a: Zweilous|confusion
+|-damage|p1a: Zweilous|31/100 tox|[from] confusion
+|move|p2a: Stunfisk|Earth Power|p1a: Zweilous
+|-damage|p1a: Zweilous|0 fnt
+|faint|p1a: Zweilous
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Vullaby|Vullaby, F|100/100
+|-damage|p1a: Vullaby|76/100|[from] Stealth Rock
+|turn|20
+|choice|move whirlwind|move discharge
+|
+|move|p2a: Stunfisk|Discharge|p1a: Vullaby
+|-supereffective|p1a: Vullaby
+|-damage|p1a: Vullaby|44/100
+|move|p1a: Vullaby|Whirlwind|p2a: Stunfisk
+|drag|p2a: Pawniard|Pawniard, M|100/100
+|-damage|p2a: Pawniard|94/100|[from] Stealth Rock
+|
+|upkeep
+|turn|21
+|choice|move whirlwind|move knockoff
+|
+|move|p2a: Pawniard|Knock Off|p1a: Vullaby
+|-resisted|p1a: Vullaby
+|-damage|p1a: Vullaby|25/100
+|-enditem|p1a: Vullaby|Eviolite|[from] move: Knock Off|[of] p2a: Pawniard
+|move|p1a: Vullaby|Whirlwind|p2a: Pawniard
+|drag|p2a: Fraxure|Fraxure, M|100/100
+|-damage|p2a: Fraxure|88/100|[from] Stealth Rock
+|-ability|p2a: Fraxure|Mold Breaker
+|
+|upkeep
+|turn|22
+|choice|move whirlwind|move poisonjab
+|
+|move|p2a: Fraxure|Poison Jab|p1a: Vullaby
+|-damage|p1a: Vullaby|0 fnt
+|faint|p1a: Vullaby
+|
+|win|BasedMztt
+|raw|JRK_STARTING_OVER's rating: 1076 &rarr; <strong>1071</strong><br />(-5 for losing)
+|raw|BasedMztt's rating: 1401 &rarr; <strong>1407</strong><br />(+6 for winning)
+|c|☆JRK_STARTING_OVER|gg

@@ -1,0 +1,315 @@
+|J|TSR
+|J|irebel
+|player|p1|TSR|236
+|player|p2|irebel|94
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|54643,31970,5540,15382,61100,11335,28196,65069,27583,7456,1508,733
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Fraxure, M|item
+|poke|p1|Sawsbuck, M|item
+|poke|p1|Cryogonal|item
+|poke|p1|Rampardos, M|item
+|poke|p1|Purugly, M|item
+|poke|p1|Dusknoir, M|item
+|poke|p2|Electrode|item
+|poke|p2|Monferno, M|item
+|poke|p2|Simipour, M|item
+|poke|p2|Duosion, M|item
+|poke|p2|Chatot, M|item
+|poke|p2|Solrock|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|J|camilas
+|choice|team 4, team 2, team 3, team 1, team 5, team 6|team 5, team 2, team 3, team 4, team 1, team 6
+|
+|start
+|switch|p1a: Rampardos|Rampardos, M|100/100
+|switch|p2a: Chatot|Chatot, M|100/100
+|-ability|p1a: Rampardos|Mold Breaker
+|turn|1
+|choice|move stealthrock|move uturn
+|
+|move|p2a: Chatot|U-turn|p1a: Rampardos
+|-damage|p1a: Rampardos|86/100
+|choice||switch 6
+|
+|switch|p2a: Solrock|Solrock|100/100
+|move|p1a: Rampardos|Stealth Rock|p2a: Solrock
+|-sidestart|p2: irebel|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|choice|move surf|move willowisp
+|
+|move|p1a: Rampardos|Surf|p2a: Solrock
+|-supereffective|p2a: Solrock
+|-damage|p2a: Solrock|54/100
+|move|p2a: Solrock|Will-O-Wisp|p1a: Rampardos
+|-status|p1a: Rampardos|brn
+|
+|-heal|p2a: Solrock|60/100|[from] item: Leftovers
+|-damage|p1a: Rampardos|74/100 brn|[from] brn
+|upkeep
+|turn|3
+|choice|move surf|move morningsun
+|
+|move|p1a: Rampardos|Surf|p2a: Solrock
+|-supereffective|p2a: Solrock
+|-damage|p2a: Solrock|15/100
+|move|p2a: Solrock|Morning Sun|p2a: Solrock
+|-heal|p2a: Solrock|65/100
+|
+|-heal|p2a: Solrock|71/100|[from] item: Leftovers
+|-damage|p1a: Rampardos|61/100 brn|[from] brn
+|upkeep
+|turn|4
+|choice|move surf|move stealthrock
+|
+|move|p1a: Rampardos|Surf|p2a: Solrock
+|-supereffective|p2a: Solrock
+|-damage|p2a: Solrock|24/100
+|move|p2a: Solrock|Stealth Rock|p1a: Rampardos
+|-sidestart|p1: TSR|move: Stealth Rock
+|
+|-heal|p2a: Solrock|31/100|[from] item: Leftovers
+|-damage|p1a: Rampardos|49/100 brn|[from] brn
+|upkeep
+|turn|5
+|choice|move surf|move morningsun
+|
+|move|p1a: Rampardos|Surf|p2a: Solrock
+|-supereffective|p2a: Solrock
+|-damage|p2a: Solrock|0 fnt
+|faint|p2a: Solrock
+|
+|-damage|p1a: Rampardos|37/100 brn|[from] brn
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Chatot|Chatot, M|100/100
+|-damage|p2a: Chatot|76/100|[from] Stealth Rock
+|turn|6
+|choice|move headsmash|move boomburst
+|
+|move|p2a: Chatot|Boomburst|p1a: Rampardos
+|-resisted|p1a: Rampardos
+|-crit|p1a: Rampardos
+|-damage|p1a: Rampardos|0 fnt
+|faint|p1a: Rampardos
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Sawsbuck|Sawsbuck, M|100/100
+|-damage|p1a: Sawsbuck|88/100|[from] Stealth Rock
+|turn|7
+|choice|move doubleedge|switch 2
+|
+|switch|p2a: Monferno|Monferno, M|100/100
+|-damage|p2a: Monferno|88/100|[from] Stealth Rock
+|move|p1a: Sawsbuck|Double-Edge|p2a: Monferno
+|-damage|p2a: Monferno|14/100
+|-damage|p1a: Sawsbuck|66/100|[from] recoil|[of] p2a: Monferno
+|
+|upkeep
+|turn|8
+|choice|switch 6|move stealthrock
+|
+|switch|p1a: Dusknoir|Dusknoir, M|100/100
+|-damage|p1a: Dusknoir|88/100|[from] Stealth Rock
+|-item|p2a: Monferno|Eviolite|[from] ability: Frisk|[of] p1a: Dusknoir|[identify]
+|move|p2a: Monferno|Stealth Rock|p1a: Dusknoir
+|-fail|p1a: Dusknoir
+|
+|upkeep
+|turn|9
+|choice|move shadowsneak|move flareblitz
+|
+|move|p1a: Dusknoir|Shadow Sneak|p2a: Monferno
+|-damage|p2a: Monferno|0 fnt
+|faint|p2a: Monferno
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Duosion|Duosion, M|100/100
+|turn|10
+|choice|switch 5|move acidarmor
+|
+|switch|p1a: Purugly|Purugly, M|100/100
+|-damage|p1a: Purugly|88/100|[from] Stealth Rock
+|move|p2a: Duosion|Acid Armor|p2a: Duosion
+|-boost|p2a: Duosion|def|2
+|
+|upkeep
+|turn|11
+|choice|move knockoff|move acidarmor
+|
+|move|p1a: Purugly|Knock Off|p2a: Duosion
+|-supereffective|p2a: Duosion
+|-damage|p2a: Duosion|78/100
+|-enditem|p2a: Duosion|Eviolite|[from] move: Knock Off|[of] p1a: Purugly
+|-damage|p1a: Purugly|78/100|[from] item: Life Orb
+|move|p2a: Duosion|Acid Armor|p2a: Duosion
+|-boost|p2a: Duosion|def|2
+|
+|upkeep
+|turn|12
+|choice|switch 3|move calmmind
+|
+|switch|p1a: Cryogonal|Cryogonal|100/100
+|-damage|p1a: Cryogonal|76/100|[from] Stealth Rock
+|move|p2a: Duosion|Calm Mind|p2a: Duosion
+|-boost|p2a: Duosion|spa|1
+|-boost|p2a: Duosion|spd|1
+|
+|upkeep
+|turn|13
+|choice|move freezedry|move recover
+|
+|move|p1a: Cryogonal|Freeze-Dry|p2a: Duosion
+|-damage|p2a: Duosion|37/100
+|-damage|p1a: Cryogonal|66/100|[from] item: Life Orb
+|move|p2a: Duosion|Recover|p2a: Duosion
+|-heal|p2a: Duosion|87/100
+|
+|upkeep
+|turn|14
+|choice|move freezedry|move calmmind
+|
+|move|p1a: Cryogonal|Freeze-Dry|p2a: Duosion
+|-damage|p2a: Duosion|44/100
+|-damage|p1a: Cryogonal|56/100|[from] item: Life Orb
+|move|p2a: Duosion|Calm Mind|p2a: Duosion
+|-boost|p2a: Duosion|spa|1
+|-boost|p2a: Duosion|spd|1
+|
+|upkeep
+|turn|15
+|choice|move freezedry|move recover
+|
+|move|p1a: Cryogonal|Freeze-Dry|p2a: Duosion
+|-damage|p2a: Duosion|15/100
+|-damage|p1a: Cryogonal|46/100|[from] item: Life Orb
+|move|p2a: Duosion|Recover|p2a: Duosion
+|-heal|p2a: Duosion|65/100
+|
+|upkeep
+|turn|16
+|choice|move freezedry|move recover
+|
+|move|p1a: Cryogonal|Freeze-Dry|p2a: Duosion
+|-damage|p2a: Duosion|36/100
+|-damage|p1a: Cryogonal|36/100|[from] item: Life Orb
+|move|p2a: Duosion|Recover|p2a: Duosion
+|-heal|p2a: Duosion|86/100
+|
+|upkeep
+|turn|17
+|choice|move freezedry|move psychic
+|
+|move|p1a: Cryogonal|Freeze-Dry|p2a: Duosion
+|-damage|p2a: Duosion|56/100
+|-damage|p1a: Cryogonal|26/100|[from] item: Life Orb
+|move|p2a: Duosion|Psychic|p1a: Cryogonal
+|-damage|p1a: Cryogonal|0 fnt
+|faint|p1a: Cryogonal
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Fraxure|Fraxure, M|100/100
+|-damage|p1a: Fraxure|88/100|[from] Stealth Rock
+|-ability|p1a: Fraxure|Mold Breaker
+|turn|18
+|choice|move outrage|move recover
+|
+|move|p1a: Fraxure|Outrage|p2a: Duosion
+|-damage|p2a: Duosion|35/100
+|move|p2a: Duosion|Recover|p2a: Duosion
+|-heal|p2a: Duosion|85/100
+|
+|upkeep
+|turn|19
+|choice|move outrage|move psychic
+|
+|move|p1a: Fraxure|Outrage|p2a: Duosion|[from]lockedmove
+|-damage|p2a: Duosion|61/100
+|-start|p1a: Fraxure|confusion|[fatigue]
+|move|p2a: Duosion|Psychic|p1a: Fraxure
+|-damage|p1a: Fraxure|0 fnt
+|faint|p1a: Fraxure
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Dusknoir|Dusknoir, M|88/100
+|-damage|p1a: Dusknoir|76/100|[from] Stealth Rock
+|turn|20
+|choice|move shadowsneak|move psychic
+|
+|move|p1a: Dusknoir|Shadow Sneak|p2a: Duosion
+|-supereffective|p2a: Duosion
+|-damage|p2a: Duosion|45/100
+|move|p2a: Duosion|Psychic|p1a: Dusknoir
+|-crit|p1a: Dusknoir
+|-damage|p1a: Dusknoir|0 fnt
+|faint|p1a: Dusknoir
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Purugly|Purugly, M|78/100
+|-damage|p1a: Purugly|66/100|[from] Stealth Rock
+|turn|21
+|choice|move knockoff|move recover
+|
+|move|p1a: Purugly|Knock Off|p2a: Duosion
+|-supereffective|p2a: Duosion
+|-damage|p2a: Duosion|28/100
+|-damage|p1a: Purugly|56/100|[from] item: Life Orb
+|move|p2a: Duosion|Recover|p2a: Duosion
+|-heal|p2a: Duosion|78/100
+|
+|upkeep
+|turn|22
+|choice|move knockoff|move psychic
+|
+|move|p1a: Purugly|Knock Off|p2a: Duosion
+|-supereffective|p2a: Duosion
+|-damage|p2a: Duosion|61/100
+|-damage|p1a: Purugly|46/100|[from] item: Life Orb
+|move|p2a: Duosion|Psychic|p1a: Purugly
+|-damage|p1a: Purugly|0 fnt
+|faint|p1a: Purugly
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Sawsbuck|Sawsbuck, M|66/100
+|-damage|p1a: Sawsbuck|54/100|[from] Stealth Rock
+|turn|23
+|choice|move megahorn|move recover
+|
+|move|p1a: Sawsbuck|Megahorn|p2a: Duosion
+|-supereffective|p2a: Duosion
+|-damage|p2a: Duosion|34/100
+|move|p2a: Duosion|Recover|p2a: Duosion
+|-heal|p2a: Duosion|84/100
+|
+|upkeep
+|turn|24
+|choice|move megahorn|move psychic
+|
+|move|p1a: Sawsbuck|Megahorn|p2a: Duosion
+|-supereffective|p2a: Duosion
+|-damage|p2a: Duosion|56/100
+|move|p2a: Duosion|Psychic|p1a: Sawsbuck
+|-damage|p1a: Sawsbuck|0 fnt
+|faint|p1a: Sawsbuck
+|
+|win|irebel

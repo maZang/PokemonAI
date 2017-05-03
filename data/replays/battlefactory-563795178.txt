@@ -1,0 +1,342 @@
+|j|yahirprimigenio
+|j|Sabrosano
+|player|p1|yahirprimigenio|262
+|player|p2|Sabrosano|95
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|19526,10318,49921,43367,26077,32174,270,31171,14386,53586,61911,62780
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Hitmontop, M|item
+|poke|p1|Uxie|item
+|poke|p1|Banette, M|item
+|poke|p1|Absol, M|item
+|poke|p1|Fletchinder, M|
+|poke|p1|Rotom-Mow|item
+|poke|p2|Gurdurr, M|item
+|poke|p2|Gastrodon, M|item
+|poke|p2|Flygon, M|item
+|poke|p2|Delphox, M|item
+|poke|p2|Smeargle, M|item
+|poke|p2|Golbat, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 1, team 2, team 3, team 4, team 5, team 6|team 5, team 2, team 3, team 4, team 1, team 6
+|
+|start
+|switch|p1a: Hitmontop|Hitmontop, M|100/100
+|switch|p2a: Smeargle|Smeargle, M|100/100
+|-ability|p1a: Hitmontop|Intimidate|boost
+|-unboost|p2a: Smeargle|atk|1
+|turn|1
+|choice|move closecombat|move spore
+|
+|move|p2a: Smeargle|Spore|p1a: Hitmontop
+|-status|p1a: Hitmontop|slp
+|cant|p1a: Hitmontop|slp
+|
+|upkeep
+|turn|2
+|choice|move closecombat|move stealthrock
+|
+|move|p2a: Smeargle|Stealth Rock|p1a: Hitmontop
+|-sidestart|p1: yahirprimigenio|move: Stealth Rock
+|-curestatus|p1a: Hitmontop|slp|[msg]
+|move|p1a: Hitmontop|Close Combat|p2a: Smeargle
+|-supereffective|p2a: Smeargle
+|-enditem|p2a: Smeargle|Focus Sash
+|-damage|p2a: Smeargle|1/100
+|-unboost|p1a: Hitmontop|def|1
+|-unboost|p1a: Hitmontop|spd|1
+|
+|upkeep
+|turn|3
+|choice|move rapidspin|move spore
+|
+|move|p2a: Smeargle|Spore|p1a: Hitmontop
+|-status|p1a: Hitmontop|slp
+|cant|p1a: Hitmontop|slp
+|
+|upkeep
+|turn|4
+|choice|move closecombat|move stickyweb
+|
+|move|p2a: Smeargle|Sticky Web|p1a: Hitmontop
+|-sidestart|p1: yahirprimigenio|move: Sticky Web
+|cant|p1a: Hitmontop|slp
+|
+|upkeep
+|turn|5
+|choice|move rapidspin|move explosion
+|
+|move|p2a: Smeargle|Explosion|p1a: Hitmontop
+|-damage|p1a: Hitmontop|79/100 slp
+|faint|p2a: Smeargle
+|-curestatus|p1a: Hitmontop|slp|[msg]
+|move|p1a: Hitmontop|Rapid Spin|p2: Smeargle|[notarget]
+|-notarget
+|
+|-heal|p1a: Hitmontop|85/100|[from] item: Leftovers
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Delphox|Delphox, M|100/100
+|turn|6
+|choice|switch 2|move psychic
+|
+|switch|p1a: Uxie|Uxie|100/100
+|-damage|p1a: Uxie|88/100|[from] Stealth Rock
+|move|p2a: Delphox|Psychic|p1a: Uxie
+|-resisted|p1a: Uxie
+|-damage|p1a: Uxie|68/100
+|-damage|p2a: Delphox|91/100|[from] item: Life Orb
+|
+|-heal|p1a: Uxie|75/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|choice|move uturn|move fireblast
+|
+|move|p2a: Delphox|Fire Blast|p1a: Uxie
+|-damage|p1a: Uxie|27/100
+|-damage|p2a: Delphox|81/100|[from] item: Life Orb
+|move|p1a: Uxie|U-turn|p2a: Delphox
+|-damage|p2a: Delphox|61/100
+|choice|switch 4|
+|
+|switch|p1a: Absol|Absol, M|100/100
+|-activate|p1a: Absol|move: Sticky Web
+|-unboost|p1a: Absol|spe|1
+|-damage|p1a: Absol|88/100|[from] Stealth Rock
+|
+|upkeep
+|turn|8
+|choice|move suckerpunch|switch 5
+|
+|switch|p2a: Gurdurr|Gurdurr, M|100/100
+|move|p1a: Absol|Sucker Punch|p2a: Gurdurr|[still]
+|-fail|p1a: Absol
+|
+|upkeep
+|turn|9
+|choice|switch 2|move drainpunch
+|
+|switch|p1a: Hitmontop|Hitmontop, M|85/100
+|-damage|p1a: Hitmontop|79/100|[from] Stealth Rock
+|-activate|p1a: Hitmontop|move: Sticky Web
+|-unboost|p1a: Hitmontop|spe|1
+|-ability|p1a: Hitmontop|Intimidate|boost
+|-unboost|p2a: Gurdurr|atk|1
+|move|p2a: Gurdurr|Drain Punch|p1a: Hitmontop
+|-damage|p1a: Hitmontop|59/100
+|
+|-heal|p1a: Hitmontop|65/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|choice|move rapidspin|move bulkup
+|
+|move|p1a: Hitmontop|Rapid Spin|p2a: Gurdurr
+|-damage|p2a: Gurdurr|97/100
+|-sideend|p1: yahirprimigenio|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Hitmontop
+|-sideend|p1: yahirprimigenio|Sticky Web|[from] move: Rapid Spin|[of] p1a: Hitmontop
+|move|p2a: Gurdurr|Bulk Up|p2a: Gurdurr
+|-boost|p2a: Gurdurr|atk|1
+|-boost|p2a: Gurdurr|def|1
+|
+|-heal|p1a: Hitmontop|71/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|choice|move toxic|move bulkup
+|
+|move|p1a: Hitmontop|Toxic|p2a: Gurdurr
+|-status|p2a: Gurdurr|tox
+|move|p2a: Gurdurr|Bulk Up|p2a: Gurdurr
+|-boost|p2a: Gurdurr|atk|1
+|-boost|p2a: Gurdurr|def|1
+|
+|-heal|p1a: Hitmontop|77/100|[from] item: Leftovers
+|-damage|p2a: Gurdurr|91/100 tox|[from] psn
+|upkeep
+|turn|12
+|choice|move closecombat|move drainpunch
+|
+|move|p1a: Hitmontop|Close Combat|p2a: Gurdurr
+|-damage|p2a: Gurdurr|76/100 tox
+|-unboost|p1a: Hitmontop|def|1
+|-unboost|p1a: Hitmontop|spd|1
+|move|p2a: Gurdurr|Drain Punch|p1a: Hitmontop
+|-damage|p1a: Hitmontop|0 fnt
+|-heal|p2a: Gurdurr|100/100 tox|[from] drain|[of] p1a: Hitmontop
+|faint|p1a: Hitmontop
+|
+|-damage|p2a: Gurdurr|88/100 tox|[from] psn
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Banette|Banette, M|100/100
+|turn|13
+|choice|move taunt mega|move knockoff
+|
+|detailschange|p1a: Banette|Banette-Mega, M
+|-mega|p1a: Banette|Banette|Banettite
+|move|p1a: Banette|Taunt|p2a: Gurdurr
+|-start|p2a: Gurdurr|move: Taunt
+|move|p2a: Gurdurr|Knock Off|p1a: Banette
+|-supereffective|p1a: Banette
+|-damage|p1a: Banette|0 fnt
+|faint|p1a: Banette
+|
+|-damage|p2a: Gurdurr|70/100 tox|[from] psn
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Fletchinder|Fletchinder, M|100/100
+|turn|14
+|choice|move acrobatics|move knockoff
+|
+|move|p1a: Fletchinder|Acrobatics|p2a: Gurdurr
+|-supereffective|p2a: Gurdurr
+|-damage|p2a: Gurdurr|40/100 tox
+|move|p2a: Gurdurr|Knock Off|p1a: Fletchinder
+|-damage|p1a: Fletchinder|22/100
+|
+|-damage|p2a: Gurdurr|16/100 tox|[from] psn
+|upkeep
+|turn|15
+|choice|move acrobatics|move machpunch
+|
+|move|p1a: Fletchinder|Acrobatics|p2a: Gurdurr
+|-supereffective|p2a: Gurdurr
+|-crit|p2a: Gurdurr
+|-damage|p2a: Gurdurr|0 fnt
+|faint|p2a: Gurdurr
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Golbat|Golbat, M|100/100
+|turn|16
+|choice|move roost|move bravebird
+|
+|move|p1a: Fletchinder|Roost|p1a: Fletchinder
+|-heal|p1a: Fletchinder|72/100
+|move|p2a: Golbat|Brave Bird|p1a: Fletchinder
+|-damage|p1a: Fletchinder|14/100
+|-damage|p2a: Golbat|84/100|[from] recoil|[of] p1a: Fletchinder
+|
+|upkeep
+|turn|17
+|choice|move acrobatics|move bravebird
+|
+|move|p1a: Fletchinder|Acrobatics|p2a: Golbat
+|-crit|p2a: Golbat
+|-damage|p2a: Golbat|46/100
+|move|p2a: Golbat|Brave Bird|p1a: Fletchinder
+|-damage|p1a: Fletchinder|0 fnt
+|-damage|p2a: Golbat|42/100|[from] recoil|[of] p1a: Fletchinder
+|faint|p1a: Fletchinder
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Rotom|Rotom-Mow|100/100
+|turn|18
+|choice|move trick|move roost
+|
+|move|p1a: Rotom|Trick|p2a: Golbat
+|-activate|p1a: Rotom|move: Trick|[of] p2a: Golbat
+|-item|p2a: Golbat|Choice Specs|[from] move: Trick
+|-item|p1a: Rotom|Eviolite|[from] move: Trick
+|move|p2a: Golbat|Roost|p2a: Golbat
+|-heal|p2a: Golbat|92/100
+|
+|upkeep
+|turn|19
+|choice|move thunderbolt|switch 3
+|
+|switch|p2a: Flygon|Flygon, M|100/100
+|move|p1a: Rotom|Thunderbolt|p2a: Flygon
+|-immune|p2a: Flygon|[msg]
+|
+|upkeep
+|turn|20
+|choice|move leafstorm|move uturn
+|
+|move|p1a: Rotom|Leaf Storm|p2a: Flygon
+|-damage|p2a: Flygon|48/100
+|-unboost|p1a: Rotom|spa|2
+|move|p2a: Flygon|U-turn|p1a: Rotom
+|-supereffective|p1a: Rotom
+|-crit|p1a: Rotom
+|-damage|p1a: Rotom|42/100
+|choice||switch 5
+|
+|switch|p2a: Delphox|Delphox, M|61/100
+|
+|upkeep
+|turn|21
+|choice|move thunderbolt|move psychic
+|
+|move|p2a: Delphox|Psychic|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|-damage|p2a: Delphox|51/100|[from] item: Life Orb
+|faint|p1a: Rotom
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Absol|Absol, M|88/100
+|turn|22
+|choice|move knockoff|switch 3
+|
+|switch|p2a: Golbat|Golbat, M|92/100
+|move|p1a: Absol|Knock Off|p2a: Golbat
+|-damage|p2a: Golbat|23/100
+|-enditem|p2a: Golbat|Choice Specs|[from] move: Knock Off|[of] p1a: Absol
+|-damage|p1a: Absol|78/100|[from] item: Life Orb
+|
+|upkeep
+|turn|23
+|choice|move suckerpunch|move roost
+|
+|move|p1a: Absol|Sucker Punch|p2a: Golbat|[still]
+|-fail|p1a: Absol
+|move|p2a: Golbat|Roost|p2a: Golbat
+|-heal|p2a: Golbat|73/100
+|
+|upkeep
+|turn|24
+|choice|move knockoff|move bravebird
+|
+|move|p1a: Absol|Knock Off|p2a: Golbat
+|-damage|p2a: Golbat|24/100
+|-damage|p1a: Absol|68/100|[from] item: Life Orb
+|move|p2a: Golbat|Brave Bird|p1a: Absol
+|-damage|p1a: Absol|7/100
+|-damage|p2a: Golbat|8/100|[from] recoil|[of] p1a: Absol
+|
+|upkeep
+|turn|25
+|choice|move knockoff|move roost
+|
+|move|p1a: Absol|Knock Off|p2a: Golbat
+|-damage|p2a: Golbat|0 fnt
+|-damage|p1a: Absol|0 fnt|[from] item: Life Orb
+|faint|p2a: Golbat
+|faint|p1a: Absol
+|
+|upkeep
+|choice|switch 4|switch 3
+|
+|switch|p2a: Delphox|Delphox, M|51/100
+|switch|p1a: Uxie|Uxie|27/100
+|turn|26
+|choice|move psyshock|move fireblast
+|
+|move|p2a: Delphox|Fire Blast|p1a: Uxie
+|-damage|p1a: Uxie|0 fnt
+|-damage|p2a: Delphox|41/100|[from] item: Life Orb
+|faint|p1a: Uxie
+|
+|win|Sabrosano

@@ -1,0 +1,315 @@
+|j|Waterisclear
+|j|Ice987
+|player|p1|Waterisclear|101
+|player|p2|Ice987|2
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|16849,48106,6366,32953,21708,61721,62932,46214,58752,23327,31766,38445
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Seaking, M|item
+|poke|p1|Rapidash, M|item
+|poke|p1|Ampharos, M|item
+|poke|p1|Metang|item
+|poke|p1|Swanna, M|item
+|poke|p1|Venipede, M|item
+|poke|p2|Bouffalant, M|item
+|poke|p2|Huntail, M|item
+|poke|p2|Venipede, M|item
+|poke|p2|Glalie, M|item
+|poke|p2|Pawniard, M|item
+|poke|p2|Grumpig, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 2, team 1, team 3, team 4, team 5, team 6|team 1, team 2, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Rapidash|Rapidash, M|100/100
+|switch|p2a: Bouffalant|Bouffalant, M|100/100
+|turn|1
+|choice|move willowisp|move earthquake
+|
+|move|p1a: Rapidash|Will-O-Wisp|p2a: Bouffalant
+|-status|p2a: Bouffalant|brn
+|move|p2a: Bouffalant|Earthquake|p1a: Rapidash
+|-supereffective|p1a: Rapidash
+|-damage|p1a: Rapidash|40/100
+|
+|-damage|p2a: Bouffalant|88/100 brn|[from] brn
+|upkeep
+|turn|2
+|choice|switch 5|move earthquake
+|
+|switch|p1a: Swanna|Swanna, M|100/100
+|move|p2a: Bouffalant|Earthquake|p1a: Swanna
+|-immune|p1a: Swanna|[msg]
+|
+|-heal|p2a: Bouffalant|94/100 brn|[from] item: Leftovers
+|-damage|p2a: Bouffalant|82/100 brn|[from] brn
+|upkeep
+|turn|3
+|choice|move hurricane|move swordsdance
+|
+|move|p1a: Swanna|Hurricane|p2a: Bouffalant|[miss]
+|-miss|p1a: Swanna|p2a: Bouffalant
+|move|p2a: Bouffalant|Swords Dance|p2a: Bouffalant
+|-boost|p2a: Bouffalant|atk|2
+|
+|-heal|p2a: Bouffalant|88/100 brn|[from] item: Leftovers
+|-damage|p2a: Bouffalant|75/100 brn|[from] brn
+|upkeep
+|turn|4
+|choice|move hurricane|move return
+|
+|move|p1a: Swanna|Hurricane|p2a: Bouffalant
+|-damage|p2a: Bouffalant|26/100 brn
+|-start|p2a: Bouffalant|confusion
+|-damage|p1a: Swanna|91/100|[from] item: Life Orb
+|-activate|p2a: Bouffalant|confusion
+|-damage|p2a: Bouffalant|14/100 brn|[from] confusion
+|
+|-heal|p2a: Bouffalant|21/100 brn|[from] item: Leftovers
+|-damage|p2a: Bouffalant|8/100 brn|[from] brn
+|upkeep
+|turn|5
+|choice|move scald|move return
+|
+|move|p1a: Swanna|Scald|p2a: Bouffalant
+|-damage|p2a: Bouffalant|0 fnt
+|-damage|p1a: Swanna|81/100|[from] item: Life Orb
+|faint|p2a: Bouffalant
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Glalie|Glalie, M|100/100
+|turn|6
+|choice|switch 5|move freezedry
+|
+|switch|p1a: Rapidash|Rapidash, M|40/100
+|move|p2a: Glalie|Freeze-Dry|p1a: Rapidash
+|-resisted|p1a: Rapidash
+|-damage|p1a: Rapidash|25/100
+|
+|upkeep
+|turn|7
+|choice|move morningsun|switch 6
+|
+|switch|p2a: Grumpig|Grumpig, M|100/100
+|move|p1a: Rapidash|Morning Sun|p1a: Rapidash
+|-heal|p1a: Rapidash|75/100
+|
+|upkeep
+|turn|8
+|choice|switch 4|move thunderwave
+|
+|switch|p1a: Metang|Metang|100/100
+|move|p2a: Grumpig|Thunder Wave|p1a: Metang
+|-status|p1a: Metang|par
+|
+|upkeep
+|turn|9
+|choice|move stealthrock|switch 5
+|
+|switch|p2a: Pawniard|Pawniard, M|100/100
+|move|p1a: Metang|Stealth Rock|p2a: Pawniard
+|-sidestart|p2: Ice987|move: Stealth Rock
+|
+|upkeep
+|turn|10
+|choice|switch 4|move knockoff
+|
+|switch|p1a: Rapidash|Rapidash, M|75/100
+|move|p2a: Pawniard|Knock Off|p1a: Rapidash
+|-damage|p1a: Rapidash|0 fnt
+|-enditem|p1a: Rapidash|Charcoal|[from] move: Knock Off|[of] p2a: Pawniard
+|faint|p1a: Rapidash
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Venipede|Venipede, M|100/100
+|turn|11
+|choice|move spikes|move swordsdance
+|
+|move|p1a: Venipede|Spikes|p2a: Pawniard
+|-sidestart|p2: Ice987|Spikes
+|move|p2a: Pawniard|Swords Dance|p2a: Pawniard
+|-boost|p2a: Pawniard|atk|2
+|
+|-ability|p1a: Venipede|Speed Boost|boost
+|-boost|p1a: Venipede|spe|1
+|upkeep
+|turn|12
+|choice|move spikes|move knockoff
+|
+|move|p1a: Venipede|Spikes|p2a: Pawniard
+|-sidestart|p2: Ice987|Spikes
+|move|p2a: Pawniard|Knock Off|p1a: Venipede
+|-enditem|p1a: Venipede|Focus Sash
+|-damage|p1a: Venipede|1/100
+|
+|-ability|p1a: Venipede|Speed Boost|boost
+|-boost|p1a: Venipede|spe|1
+|upkeep
+|turn|13
+|choice|move endeavor|move knockoff
+|
+|move|p1a: Venipede|Endeavor|p2a: Pawniard
+|-damage|p2a: Pawniard|1/100
+|move|p2a: Pawniard|Knock Off|p1a: Venipede
+|-damage|p1a: Venipede|0 fnt
+|faint|p1a: Venipede
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Swanna|Swanna, M|81/100
+|turn|14
+|choice|move scald|move suckerpunch
+|
+|move|p2a: Pawniard|Sucker Punch|p1a: Swanna
+|-damage|p1a: Swanna|0 fnt
+|faint|p1a: Swanna
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Ampharos|Ampharos, M|100/100
+|turn|15
+|choice|move thunderbolt|move knockoff
+|
+|move|p1a: Ampharos|Thunderbolt|p2a: Pawniard
+|-damage|p2a: Pawniard|0 fnt
+|-damage|p1a: Ampharos|91/100|[from] item: Life Orb
+|faint|p2a: Pawniard
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Glalie|Glalie, M|100/100
+|-damage|p2a: Glalie|76/100|[from] Stealth Rock
+|-damage|p2a: Glalie|59/100|[from] Spikes
+|turn|16
+|choice|move thunderbolt|move freezedry
+|
+|move|p2a: Glalie|Freeze-Dry|p1a: Ampharos
+|-damage|p1a: Ampharos|66/100
+|move|p1a: Ampharos|Thunderbolt|p2a: Glalie
+|-damage|p2a: Glalie|0 fnt
+|-damage|p1a: Ampharos|56/100|[from] item: Life Orb
+|faint|p2a: Glalie
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Grumpig|Grumpig, M|100/100
+|-damage|p2a: Grumpig|84/100|[from] Spikes
+|-damage|p2a: Grumpig|72/100|[from] Stealth Rock
+|turn|17
+|choice|move thunderbolt|move psychic
+|
+|move|p1a: Ampharos|Thunderbolt|p2a: Grumpig
+|-damage|p2a: Grumpig|20/100
+|-damage|p1a: Ampharos|46/100|[from] item: Life Orb
+|move|p2a: Grumpig|Psychic|p1a: Ampharos
+|-damage|p1a: Ampharos|0 fnt
+|faint|p1a: Ampharos
+|
+|-heal|p2a: Grumpig|27/100|[from] item: Leftovers
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Seaking|Seaking, M|100/100
+|turn|18
+|choice|move knockoff|move psychic
+|
+|move|p2a: Grumpig|Psychic|p1a: Seaking
+|-damage|p1a: Seaking|47/100
+|move|p1a: Seaking|Knock Off|p2a: Grumpig
+|-supereffective|p2a: Grumpig
+|-damage|p2a: Grumpig|0 fnt
+|-enditem|p2a: Grumpig|Leftovers|[from] move: Knock Off|[of] p1a: Seaking
+|faint|p2a: Grumpig
+|
+|-heal|p1a: Seaking|53/100|[from] item: Leftovers
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Venipede|Venipede, M|100/100
+|-damage|p2a: Venipede|75/100|[from] Stealth Rock
+|-damage|p2a: Venipede|59/100|[from] Spikes
+|turn|19
+|choice|move waterfall|move protect
+|
+|move|p2a: Venipede|Protect|p2a: Venipede
+|-singleturn|p2a: Venipede|Protect
+|move|p1a: Seaking|Waterfall|p2a: Venipede
+|-activate|p2a: Venipede|move: Protect
+|
+|-heal|p1a: Seaking|59/100|[from] item: Leftovers
+|-ability|p2a: Venipede|Speed Boost|boost
+|-boost|p2a: Venipede|spe|1
+|upkeep
+|turn|20
+|choice|move waterfall|move spikes
+|
+|move|p2a: Venipede|Spikes|p1a: Seaking
+|-sidestart|p1: Waterisclear|Spikes
+|move|p1a: Seaking|Waterfall|p2a: Venipede
+|-damage|p2a: Venipede|0 fnt
+|faint|p2a: Venipede
+|
+|-heal|p1a: Seaking|65/100|[from] item: Leftovers
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Huntail|Huntail, M|100/100
+|-damage|p2a: Huntail|88/100|[from] Stealth Rock
+|-damage|p2a: Huntail|72/100|[from] Spikes
+|turn|21
+|choice|move knockoff|move shellsmash
+|
+|move|p1a: Seaking|Knock Off|p2a: Huntail
+|-crit|p2a: Huntail
+|-damage|p2a: Huntail|18/100
+|-enditem|p2a: Huntail|White Herb|[from] move: Knock Off|[of] p1a: Seaking
+|move|p2a: Huntail|Shell Smash|p2a: Huntail
+|-unboost|p2a: Huntail|def|1
+|-unboost|p2a: Huntail|spd|1
+|-boost|p2a: Huntail|atk|2
+|-boost|p2a: Huntail|spa|2
+|-boost|p2a: Huntail|spe|2
+|
+|-heal|p1a: Seaking|71/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|choice|move waterfall|move suckerpunch
+|
+|move|p2a: Huntail|Sucker Punch|p1a: Seaking
+|-damage|p1a: Seaking|0 fnt
+|faint|p1a: Seaking
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Metang|Metang|100/100 par
+|-damage|p1a: Metang|88/100 par|[from] Spikes
+|turn|23
+|choice|move toxic|move waterfall
+|
+|move|p2a: Huntail|Waterfall|p1a: Metang
+|-damage|p1a: Metang|36/100 par
+|move|p1a: Metang|Toxic|p2a: Huntail
+|-status|p2a: Huntail|tox
+|
+|-damage|p2a: Huntail|12/100 tox|[from] psn
+|upkeep
+|turn|24
+|-message|Waterisclear forfeited.
+|
+|win|Ice987
+|l|Waterisclear

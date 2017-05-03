@@ -1,0 +1,310 @@
+|j|Ranbu No Melody
+|j|once a trevor
+|player|p1|Ranbu No Melody|264
+|player|p2|once a trevor|217
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|7036,48925,138,50444,57214,14018,10585,30694,43304,32747,17178,50605
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Vileplume, M|item
+|poke|p1|Swellow, M|item
+|poke|p1|Pawniard, M|item
+|poke|p1|Prinplup, M|item
+|poke|p1|Hitmonchan, M|item
+|poke|p1|Zangoose, M|item
+|poke|p2|Mawile, M|item
+|poke|p2|Regirock|item
+|poke|p2|Rotom-Fan|item
+|poke|p2|Ferroseed, M|item
+|poke|p2|Xatu, M|item
+|poke|p2|Pinsir, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|c|☆once a trevor|ranbu boy
+|c|☆Ranbu No Melody|me
+|c|☆once a trevor|are you from brazil or portugal ?
+|c|☆once a trevor|k
+|c|☆once a trevor|,
+|c|☆Ranbu No Melody|brazil
+|c|☆Ranbu No Melody|I told you before
+|c|☆once a trevor|kek
+|choice|team 2, team 1, team 3, team 4, team 5, team 6|team 2, team 1, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Swellow|Swellow, M|100/100
+|switch|p2a: Regirock|Regirock|100/100
+|turn|1
+|choice|move uturn|move stoneedge
+|
+|move|p1a: Swellow|U-turn|p2a: Regirock
+|-crit|p2a: Regirock
+|-damage|p2a: Regirock|91/100
+|choice|switch 4|
+|
+|switch|p1a: Prinplup|Prinplup, M|100/100
+|move|p2a: Regirock|Stone Edge|p1a: Prinplup
+|-damage|p1a: Prinplup|80/100
+|
+|-heal|p2a: Regirock|97/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|choice|move scald|switch 3
+|
+|switch|p2a: Rotom|Rotom-Fan|100/100
+|move|p1a: Prinplup|Scald|p2a: Rotom
+|-damage|p2a: Rotom|66/100
+|
+|upkeep
+|turn|3
+|choice|switch 2|move voltswitch
+|
+|switch|p1a: Vileplume|Vileplume, M|100/100
+|move|p2a: Rotom|Volt Switch|p1a: Vileplume
+|-resisted|p1a: Vileplume
+|-damage|p1a: Vileplume|82/100
+|choice||switch 6
+|
+|switch|p2a: Pinsir|Pinsir, M|100/100
+|-ability|p2a: Pinsir|Mold Breaker
+|
+|-heal|p1a: Vileplume|88/100|[from] item: Black Sludge
+|upkeep
+|turn|4
+|choice|move sludgebomb|move xscissor
+|
+|move|p2a: Pinsir|X-Scissor|p1a: Vileplume
+|-damage|p1a: Vileplume|12/100
+|move|p1a: Vileplume|Sludge Bomb|p2a: Pinsir
+|-damage|p2a: Pinsir|23/100
+|
+|-heal|p1a: Vileplume|18/100|[from] item: Black Sludge
+|upkeep
+|turn|5
+|choice|switch 4|move xscissor
+|
+|switch|p1a: Swellow|Swellow, M|100/100
+|move|p2a: Pinsir|X-Scissor|p1a: Swellow
+|-resisted|p1a: Swellow
+|-damage|p1a: Swellow|31/100
+|
+|upkeep
+|turn|6
+|c|☆once a trevor|oml
+|c|☆once a trevor|is
+|c|☆once a trevor|IS
+|c|☆once a trevor|SPECS
+|c|☆once a trevor|YOU MONSTER
+|choice|move boomburst|switch 3
+|
+|switch|p2a: Regirock|Regirock|97/100
+|move|p1a: Swellow|Boomburst|p2a: Regirock
+|-resisted|p2a: Regirock
+|-damage|p2a: Regirock|71/100
+|
+|-heal|p2a: Regirock|77/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|c|☆Ranbu No Melody|0
+|c|☆Ranbu No Melody|om
+|c|☆Ranbu No Melody|g
+|choice|switch 4|switch 6
+|
+|switch|p1a: Vileplume|Vileplume, M|18/100
+|switch|p2a: Rotom|Rotom-Fan|66/100
+|
+|-heal|p1a: Vileplume|24/100|[from] item: Black Sludge
+|upkeep
+|turn|8
+|c|☆once a trevor|What a bleve fool
+|c|☆Ranbu No Melody|nah swellos are 100% specs
+|c|☆Ranbu No Melody|and you know that
+|c|☆Ranbu No Melody|you play it all the time
+|choice|move synthesis|move airslash
+|
+|move|p2a: Rotom|Air Slash|p1a: Vileplume
+|-supereffective|p1a: Vileplume
+|-damage|p1a: Vileplume|0 fnt
+|faint|p1a: Vileplume
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Pawniard|Pawniard, M|100/100
+|turn|9
+|choice|move swordsdance|move willowisp
+|
+|move|p2a: Rotom|Will-O-Wisp|p1a: Pawniard
+|-status|p1a: Pawniard|brn
+|move|p1a: Pawniard|Swords Dance|p1a: Pawniard
+|-boost|p1a: Pawniard|atk|2
+|
+|-damage|p1a: Pawniard|88/100 brn|[from] brn
+|upkeep
+|turn|10
+|choice|move knockoff|move voltswitch
+|
+|move|p2a: Rotom|Volt Switch|p1a: Pawniard
+|-damage|p1a: Pawniard|22/100 brn
+|c|☆Ranbu No Melody|not scarf
+|c|☆Ranbu No Melody|rip
+|choice||switch 4
+|
+|switch|p2a: Ferroseed|Ferroseed, M|100/100
+|move|p1a: Pawniard|Knock Off|p2a: Ferroseed
+|-damage|p2a: Ferroseed|77/100
+|-damage|p1a: Pawniard|10/100 brn|[from] ability: Iron Barbs|[of] p2a: Ferroseed
+|-enditem|p2a: Ferroseed|Eviolite|[from] move: Knock Off|[of] p1a: Pawniard
+|
+|-damage|p1a: Pawniard|0 fnt|[from] brn
+|upkeep
+|faint|p1a: Pawniard
+|choice|switch 5|
+|
+|switch|p1a: Hitmonchan|Hitmonchan, M|100/100
+|turn|11
+|choice|move drainpunch|move leechseed
+|
+|move|p1a: Hitmonchan|Drain Punch|p2a: Ferroseed
+|-supereffective|p2a: Ferroseed
+|-damage|p2a: Ferroseed|0 fnt
+|-damage|p1a: Hitmonchan|88/100|[from] ability: Iron Barbs|[of] p2a: Ferroseed
+|-damage|p1a: Hitmonchan|78/100|[from] item: Life Orb
+|faint|p2a: Ferroseed
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Xatu|Xatu, M|100/100
+|turn|12
+|choice|move stoneedge|move psychic
+|
+|move|p2a: Xatu|Psychic|p1a: Hitmonchan
+|-supereffective|p1a: Hitmonchan
+|-damage|p1a: Hitmonchan|4/100
+|-unboost|p1a: Hitmonchan|spd|1
+|move|p1a: Hitmonchan|Stone Edge|p2a: Xatu
+|-supereffective|p2a: Xatu
+|-damage|p2a: Xatu|8/100
+|-damage|p1a: Hitmonchan|0 fnt|[from] item: Life Orb
+|faint|p1a: Hitmonchan
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Zangoose|Zangoose, M|100/100
+|turn|13
+|choice|move quickattack|move psychic
+|
+|move|p1a: Zangoose|Quick Attack|p2a: Xatu
+|-damage|p2a: Xatu|0 fnt
+|faint|p2a: Xatu
+|
+|-status|p1a: Zangoose|tox|[from] item: Toxic Orb
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Regirock|Regirock|77/100
+|turn|14
+|choice|move closecombat|move drainpunch
+|
+|move|p1a: Zangoose|Close Combat|p2a: Regirock
+|-supereffective|p2a: Regirock
+|-damage|p2a: Regirock|23/100
+|-unboost|p1a: Zangoose|def|1
+|-unboost|p1a: Zangoose|spd|1
+|move|p2a: Regirock|Drain Punch|p1a: Zangoose
+|-supereffective|p1a: Zangoose
+|-crit|p1a: Zangoose
+|-damage|p1a: Zangoose|0 fnt
+|-heal|p2a: Regirock|63/100|[from] drain|[of] p1a: Zangoose
+|faint|p1a: Zangoose
+|
+|-heal|p2a: Regirock|69/100|[from] item: Leftovers
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Prinplup|Prinplup, M|80/100
+|turn|15
+|choice|move stealthrock|move stealthrock
+|
+|move|p2a: Regirock|Stealth Rock|p1a: Prinplup
+|-sidestart|p1: Ranbu No Melody|move: Stealth Rock
+|move|p1a: Prinplup|Stealth Rock|p2a: Regirock
+|-sidestart|p2: once a trevor|move: Stealth Rock
+|
+|-heal|p2a: Regirock|75/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|choice|move scald|move stoneedge
+|
+|move|p2a: Regirock|Stone Edge|p1a: Prinplup
+|-damage|p1a: Prinplup|59/100
+|move|p1a: Prinplup|Scald|p2a: Regirock
+|-supereffective|p2a: Regirock
+|-damage|p2a: Regirock|40/100
+|
+|-heal|p2a: Regirock|46/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|choice|move scald|move stoneedge
+|
+|move|p1a: Prinplup|Scald|p2a: Regirock
+|-supereffective|p2a: Regirock
+|-damage|p2a: Regirock|11/100
+|move|p2a: Regirock|Stone Edge|p1a: Prinplup
+|-damage|p1a: Prinplup|35/100
+|
+|-heal|p2a: Regirock|18/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|choice|move scald|move stoneedge
+|
+|move|p2a: Regirock|Stone Edge|p1a: Prinplup|[miss]
+|-miss|p2a: Regirock|p1a: Prinplup
+|move|p1a: Prinplup|Scald|p2a: Regirock
+|-supereffective|p2a: Regirock
+|-damage|p2a: Regirock|0 fnt
+|faint|p2a: Regirock
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Rotom|Rotom-Fan|66/100
+|-damage|p2a: Rotom|42/100|[from] Stealth Rock
+|turn|19
+|choice|move scald|move voltswitch
+|
+|move|p2a: Rotom|Volt Switch|p1a: Prinplup
+|-supereffective|p1a: Prinplup
+|-damage|p1a: Prinplup|0 fnt
+|faint|p1a: Prinplup
+|choice||switch 2
+|
+|switch|p2a: Mawile|Mawile, M|100/100
+|-damage|p2a: Mawile|94/100|[from] Stealth Rock
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Swellow|Swellow, M|31/100
+|-damage|p1a: Swellow|6/100|[from] Stealth Rock
+|turn|20
+|choice|move heatwave|move suckerpunch
+|
+|move|p2a: Mawile|Sucker Punch|p1a: Swellow
+|-crit|p1a: Swellow
+|-damage|p1a: Swellow|0 fnt
+|-damage|p2a: Mawile|84/100|[from] item: Life Orb
+|faint|p1a: Swellow
+|
+|win|once a trevor
+|c|☆once a trevor|,
+|c|☆Ranbu No Melody|gg
+|c|☆once a trevor|i hate that
+|c|☆Ranbu No Melody|crit mattered tho
+|c|☆once a trevor|LOL
+|j|soleil (~^.^)~
+|l|soleil (~^.^)~

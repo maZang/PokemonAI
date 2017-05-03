@@ -1,0 +1,289 @@
+|j|charizard6677
+|j|diazjc1708
+|player|p1|charizard6677|2
+|player|p2|diazjc1708|266
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|59303,55114,33803,47434,8114,45835,19355,40853,25187,39710,57241,58292
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Lucario, M|item
+|poke|p1|Deoxys-Speed|item
+|poke|p1|Kyurem-White|item
+|poke|p1|Ferrothorn, M|item
+|poke|p1|Latias, F|item
+|poke|p1|Arceus-*|item
+|poke|p2|Deoxys|item
+|poke|p2|Kangaskhan, F|item
+|poke|p2|Arceus-*|item
+|poke|p2|Kyogre|item
+|poke|p2|Greninja, M|item
+|poke|p2|Latios, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 5, team 2, team 3, team 4, team 1, team 6|team 2, team 1, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Latias|Latias, F|100/100
+|switch|p2a: Kangaskhan|Kangaskhan, F|100/100
+|turn|1
+|choice|move psyshock|move suckerpunch mega
+|
+|detailschange|p2a: Kangaskhan|Kangaskhan-Mega, F
+|-mega|p2a: Kangaskhan|Kangaskhan|Kangaskhanite
+|move|p2a: Kangaskhan|Sucker Punch|p1a: Latias
+|-supereffective|p1a: Latias
+|-damage|p1a: Latias|40/100
+|-supereffective|p1a: Latias
+|-damage|p1a: Latias|7/100
+|-hitcount|p1a: Latias|2
+|move|p1a: Latias|Psyshock|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|54/100
+|
+|upkeep
+|turn|2
+|choice|move recover|move suckerpunch
+|
+|move|p2a: Kangaskhan|Sucker Punch|p1a: Latias|[still]
+|-fail|p2a: Kangaskhan
+|move|p1a: Latias|Recover|p1a: Latias
+|-heal|p1a: Latias|57/100
+|
+|upkeep
+|turn|3
+|choice|move recover|move suckerpunch
+|
+|move|p2a: Kangaskhan|Sucker Punch|p1a: Latias|[still]
+|-fail|p2a: Kangaskhan
+|move|p1a: Latias|Recover|p1a: Latias
+|-heal|p1a: Latias|100/100
+|
+|upkeep
+|turn|4
+|c|☆diazjc1708|tonto
+|choice|move psyshock|move suckerpunch
+|
+|move|p2a: Kangaskhan|Sucker Punch|p1a: Latias
+|-supereffective|p1a: Latias
+|-crit|p1a: Latias
+|-damage|p1a: Latias|4/100
+|-supereffective|p1a: Latias
+|-damage|p1a: Latias|0 fnt
+|-hitcount|p1a: Latias|2
+|faint|p1a: Latias
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Lucario|Lucario, M|100/100
+|turn|5
+|choice|move bulletpunch mega|move suckerpunch
+|
+|detailschange|p1a: Lucario|Lucario-Mega, M
+|-mega|p1a: Lucario|Lucario|Lucarionite
+|move|p1a: Lucario|Bullet Punch|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|26/100
+|move|p2a: Kangaskhan|Sucker Punch|p1a: Lucario|[still]
+|-fail|p2a: Kangaskhan
+|
+|upkeep
+|turn|6
+|choice|move bulletpunch|move suckerpunch
+|
+|move|p1a: Lucario|Bullet Punch|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|0 fnt
+|faint|p2a: Kangaskhan
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Deoxys|Deoxys|100/100
+|-ability|p2a: Deoxys|Pressure
+|turn|7
+|choice|move irontail|move psychoboost
+|
+|move|p2a: Deoxys|Psycho Boost|p1a: Lucario
+|-damage|p1a: Lucario|0 fnt
+|-unboost|p2a: Deoxys|spa|2
+|faint|p1a: Lucario
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Kyurem|Kyurem-White|100/100
+|-ability|p1a: Kyurem|Turboblaze
+|turn|8
+|choice|move stoneedge|move psychoboost
+|
+|move|p2a: Deoxys|Psycho Boost|p1a: Kyurem
+|-damage|p1a: Kyurem|63/100
+|-unboost|p2a: Deoxys|spa|2
+|move|p1a: Kyurem|Stone Edge|p2a: Deoxys
+|-damage|p2a: Deoxys|23/100
+|-damage|p1a: Kyurem|53/100|[from] item: Life Orb
+|
+|upkeep
+|turn|9
+|choice|move icebeam|move stealthrock
+|
+|move|p2a: Deoxys|Stealth Rock|p1a: Kyurem
+|-sidestart|p1: charizard6677|move: Stealth Rock
+|move|p1a: Kyurem|Ice Beam|p2a: Deoxys
+|-crit|p2a: Deoxys
+|-damage|p2a: Deoxys|0 fnt
+|-damage|p1a: Kyurem|43/100|[from] item: Life Orb
+|faint|p2a: Deoxys
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Arceus|Arceus-Fire|100/100
+|turn|10
+|choice|move stoneedge|move overheat
+|
+|move|p1a: Kyurem|Stone Edge|p2a: Arceus|[miss]
+|-miss|p1a: Kyurem|p2a: Arceus
+|move|p2a: Arceus|Overheat|p1a: Kyurem
+|-damage|p1a: Kyurem|0 fnt
+|-unboost|p2a: Arceus|spa|2
+|faint|p1a: Kyurem
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Arceus|Arceus-Dark|100/100
+|-damage|p1a: Arceus|88/100|[from] Stealth Rock
+|turn|11
+|choice|move calmmind|move thunder
+|
+|move|p1a: Arceus|Calm Mind|p1a: Arceus
+|-boost|p1a: Arceus|spa|1
+|-boost|p1a: Arceus|spd|1
+|move|p2a: Arceus|Thunder|p1a: Arceus|[miss]
+|-miss|p2a: Arceus|p1a: Arceus
+|
+|upkeep
+|turn|12
+|choice|move calmmind|move calmmind
+|
+|move|p1a: Arceus|Calm Mind|p1a: Arceus
+|-boost|p1a: Arceus|spa|1
+|-boost|p1a: Arceus|spd|1
+|move|p2a: Arceus|Calm Mind|p2a: Arceus
+|-boost|p2a: Arceus|spa|1
+|-boost|p2a: Arceus|spd|1
+|
+|upkeep
+|turn|13
+|choice|move judgment|move thunder
+|
+|move|p1a: Arceus|Judgment|p2a: Arceus
+|-damage|p2a: Arceus|56/100
+|move|p2a: Arceus|Thunder|p1a: Arceus
+|-damage|p1a: Arceus|81/100
+|
+|upkeep
+|turn|14
+|choice|move judgment|move overheat
+|
+|move|p1a: Arceus|Judgment|p2a: Arceus
+|-damage|p2a: Arceus|10/100
+|move|p2a: Arceus|Overheat|p1a: Arceus|[miss]
+|-miss|p2a: Arceus|p1a: Arceus
+|
+|upkeep
+|turn|15
+|choice|move judgment|move overheat
+|
+|move|p1a: Arceus|Judgment|p2a: Arceus
+|-damage|p2a: Arceus|0 fnt
+|faint|p2a: Arceus
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Greninja|Greninja, M|100/100
+|turn|16
+|choice|move judgment|move toxicspikes
+|
+|move|p2a: Greninja|Toxic Spikes|p1a: Arceus
+|-start|p2a: Greninja|typechange|Poison|[from] Protean
+|-sidestart|p1: charizard6677|move: Toxic Spikes
+|move|p1a: Arceus|Judgment|p2a: Greninja
+|-enditem|p2a: Greninja|Focus Sash
+|-damage|p2a: Greninja|1/100
+|
+|upkeep
+|turn|17
+|choice|move judgment|move scald
+|
+|move|p2a: Greninja|Scald|p1a: Arceus
+|-start|p2a: Greninja|typechange|Water|[from] Protean
+|-damage|p1a: Arceus|73/100
+|move|p1a: Arceus|Judgment|p2a: Greninja
+|-damage|p2a: Greninja|0 fnt
+|faint|p2a: Greninja
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Latios|Latios, M|100/100
+|turn|18
+|choice|move judgment|move dracometeor
+|
+|move|p2a: Latios|Draco Meteor|p1a: Arceus|[miss]
+|-miss|p2a: Latios|p1a: Arceus
+|move|p1a: Arceus|Judgment|p2a: Latios
+|-supereffective|p2a: Latios
+|-damage|p2a: Latios|0 fnt
+|faint|p2a: Latios
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Kyogre|Kyogre|100/100
+|detailschange|p2a: Kyogre|Kyogre-Primal
+|-primal|p2a: Kyogre
+|-weather|PrimordialSea|[from] ability: Primordial Sea|[of] p2a: Kyogre
+|turn|19
+|choice|move calmmind|move originpulse
+|
+|move|p1a: Arceus|Calm Mind|p1a: Arceus
+|-boost|p1a: Arceus|spa|1
+|-boost|p1a: Arceus|spd|1
+|move|p2a: Kyogre|Origin Pulse|p1a: Arceus
+|-damage|p1a: Arceus|46/100
+|
+|-weather|PrimordialSea|[upkeep]
+|upkeep
+|turn|20
+|choice|move calmmind|move thunder
+|
+|move|p1a: Arceus|Calm Mind|p1a: Arceus
+|-boost|p1a: Arceus|spa|1
+|-boost|p1a: Arceus|spd|1
+|move|p2a: Kyogre|Thunder|p1a: Arceus
+|-damage|p1a: Arceus|35/100
+|
+|-weather|PrimordialSea|[upkeep]
+|upkeep
+|turn|21
+|choice|move recover|move originpulse
+|
+|move|p1a: Arceus|Recover|p1a: Arceus
+|-heal|p1a: Arceus|85/100
+|move|p2a: Kyogre|Origin Pulse|p1a: Arceus|[miss]
+|-miss|p2a: Kyogre|p1a: Arceus
+|
+|-weather|PrimordialSea|[upkeep]
+|upkeep
+|turn|22
+|-message|diazjc1708 forfeited.
+|
+|win|charizard6677
+|l|diazjc1708
+|raw|charizard6677's rating: 1000 &rarr; <strong>1041</strong><br />(+41 for winning)
+|raw|diazjc1708's rating: 1010 &rarr; <strong>1000</strong><br />(-10 for losing)

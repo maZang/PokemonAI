@@ -1,0 +1,216 @@
+|J|p2
+|J|Shadestep
+|player|p1|p2|#p2
+|player|p2|Shadestep|237
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|55247,41976,43047,23373,57629,63067,32615,29933,19229,22375,25225,52006
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Camerupt, M|item
+|poke|p1|Basculin, M|item
+|poke|p1|Mr. Mime, M|item
+|poke|p1|Sawsbuck, M|item
+|poke|p1|Grumpig, M|item
+|poke|p1|Vullaby, F|item
+|poke|p2|Ampharos, M|item
+|poke|p2|Rampardos, M|item
+|poke|p2|Probopass, M|item
+|poke|p2|Golduck, M|item
+|poke|p2|Gabite, M|item
+|poke|p2|Drifblim, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|J|Facts
+|L|Facts
+|J|dk
+|L|dk
+|J|Advantage
+|L|Advantage
+|choice|team 1, team 2, team 3, team 4, team 5, team 6|team 1, team 2, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Camerupt|Camerupt, M|100/100
+|switch|p2a: Ampharos|Ampharos, M|100/100
+|turn|1
+|c|☆p2|fantastic lead
+|choice|move stealthrock|move focusblast
+|
+|move|p2a: Ampharos|Focus Blast|p1a: Camerupt|[miss]
+|-miss|p2a: Ampharos|p1a: Camerupt
+|move|p1a: Camerupt|Stealth Rock|p2a: Ampharos
+|-sidestart|p2: Shadestep|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|choice|move earthpower|move focusblast
+|
+|move|p2a: Ampharos|Focus Blast|p1a: Camerupt
+|-damage|p1a: Camerupt|53/100
+|-damage|p2a: Ampharos|91/100|[from] item: Life Orb
+|move|p1a: Camerupt|Earth Power|p2a: Ampharos
+|-supereffective|p2a: Ampharos
+|-damage|p2a: Ampharos|11/100
+|
+|-heal|p1a: Camerupt|59/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|c|☆p2|perf
+|choice|move earthpower|move focusblast
+|
+|move|p2a: Ampharos|Focus Blast|p1a: Camerupt
+|-damage|p1a: Camerupt|13/100
+|-damage|p2a: Ampharos|1/100|[from] item: Life Orb
+|move|p1a: Camerupt|Earth Power|p2a: Ampharos
+|-supereffective|p2a: Ampharos
+|-damage|p2a: Ampharos|0 fnt
+|faint|p2a: Ampharos
+|
+|-heal|p1a: Camerupt|19/100|[from] item: Leftovers
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Gabite|Gabite, M|100/100
+|-damage|p2a: Gabite|94/100|[from] Stealth Rock
+|turn|4
+|choice|move roar|move stealthrock
+|
+|move|p2a: Gabite|Stealth Rock|p1a: Camerupt
+|-sidestart|p1: p2|move: Stealth Rock
+|move|p1a: Camerupt|Roar|p2a: Gabite
+|drag|p2a: Golduck|Golduck, M|100/100
+|-damage|p2a: Golduck|88/100|[from] Stealth Rock
+|
+|-heal|p1a: Camerupt|25/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|choice|move roar|move raindance
+|
+|move|p2a: Golduck|Rain Dance|p2a: Golduck
+|-weather|RainDance
+|move|p1a: Camerupt|Roar|p2a: Golduck
+|drag|p2a: Probopass|Probopass, M|100/100
+|-damage|p2a: Probopass|94/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Camerupt|32/100|[from] item: Leftovers
+|-heal|p2a: Probopass|100/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|choice|move earthpower|switch 4
+|
+|switch|p2a: Gabite|Gabite, M|94/100
+|-damage|p2a: Gabite|88/100|[from] Stealth Rock
+|move|p1a: Camerupt|Earth Power|p2a: Gabite
+|-damage|p2a: Gabite|56/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Camerupt|38/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|c|☆p2|why am i so good
+|choice|move roar|move dragonclaw
+|
+|move|p2a: Gabite|Dragon Claw|p1a: Camerupt
+|-damage|p1a: Camerupt|0 fnt
+|faint|p1a: Camerupt
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|c|☆p2|dominating ur asshole in this tier
+|choice|switch 2|
+|
+|switch|p1a: Basculin|Basculin, M|100/100
+|-damage|p1a: Basculin|88/100|[from] Stealth Rock
+|turn|8
+|c|☆p2|THANKS
+|c|☆p2|4 RAIN
+|c|☆Shadestep|wait fuvk
+|c|☆p2|i am
+|choice|move aquatail|move dragonclaw
+|
+|move|p1a: Basculin|Aqua Tail|p2a: Gabite
+|-crit|p2a: Gabite
+|-damage|p2a: Gabite|0 fnt
+|-damage|p1a: Basculin|76/100|[from] ability: Rough Skin|[of] p2a: Gabite
+|faint|p2a: Gabite
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|c|☆p2|cb adapatability
+|c|☆p2|OML
+|c|☆Shadestep|kill
+|c|☆Shadestep|ur
+|c|☆Shadestep|selv
+|choice||switch 6
+|
+|switch|p2a: Drifblim|Drifblim, M|100/100
+|-damage|p2a: Drifblim|75/100|[from] Stealth Rock
+|turn|9
+|c|☆Shadestep|miss
+|c|☆Shadestep|please
+|choice|move aquatail|move willowisp
+|
+|move|p1a: Basculin|Aqua Tail|p2a: Drifblim
+|-damage|p2a: Drifblim|0 fnt
+|faint|p2a: Drifblim
+|
+|-weather|none
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Rampardos|Rampardos, M|100/100
+|-damage|p2a: Rampardos|88/100|[from] Stealth Rock
+|-ability|p2a: Rampardos|Mold Breaker
+|turn|10
+|choice|move aquatail|move headsmash
+|
+|move|p1a: Basculin|Aqua Tail|p2a: Rampardos
+|-supereffective|p2a: Rampardos
+|-damage|p2a: Rampardos|0 fnt
+|faint|p2a: Rampardos
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Golduck|Golduck, M|88/100
+|-damage|p2a: Golduck|76/100|[from] Stealth Rock
+|turn|11
+|choice|move aquatail|move psyshock
+|
+|move|p1a: Basculin|Aqua Tail|p2a: Golduck
+|-resisted|p2a: Golduck
+|-damage|p2a: Golduck|22/100
+|move|p2a: Golduck|Psyshock|p1a: Basculin
+|-damage|p1a: Basculin|20/100
+|-damage|p2a: Golduck|12/100|[from] item: Life Orb
+|
+|upkeep
+|turn|12
+|c|☆Shadestep|lame noob
+|choice|move aquatail|move psyshock
+|
+|move|p1a: Basculin|Aqua Tail|p2a: Golduck
+|-resisted|p2a: Golduck
+|-damage|p2a: Golduck|0 fnt
+|faint|p2a: Golduck
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Probopass|Probopass, M|100/100
+|-damage|p2a: Probopass|94/100|[from] Stealth Rock
+|turn|13
+|c|☆Shadestep|bg
+|choice|move aquatail|move earthpower
+|
+|move|p1a: Basculin|Aqua Tail|p2a: Probopass
+|-supereffective|p2a: Probopass
+|-damage|p2a: Probopass|0 fnt
+|faint|p2a: Probopass
+|
+|win|p2
+|L|Shadestep
+|c|☆p2|gg noob

@@ -1,0 +1,285 @@
+|j|Rayfernandez23
+|j|demsmlp
+|player|p1|Rayfernandez23|238
+|player|p2|demsmlp|12
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|9581,31603,20765,1448,37845,35340,28234,40843,20309,27170,61041,29987
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Stunfisk, M|item
+|poke|p1|Rapidash, M|item
+|poke|p1|Raichu, M|item
+|poke|p1|Drifblim, M|item
+|poke|p1|Roselia, M|item
+|poke|p1|Vibrava, M|item
+|poke|p2|Kadabra, M|item
+|poke|p2|Venipede, M|item
+|poke|p2|Cryogonal|item
+|poke|p2|Seaking, M|item
+|poke|p2|Golem, M|item
+|poke|p2|Monferno, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by demsmlp)
+|choice|team 6, team 2, team 3, team 4, team 5, team 1|team 5, team 2, team 3, team 4, team 1, team 6
+|
+|start
+|switch|p1a: Vibrava|Vibrava, M|100/100
+|switch|p2a: Golem|Golem, M|100/100
+|turn|1
+|choice|move earthquake|switch 3
+|
+|switch|p2a: Cryogonal|Cryogonal|100/100
+|move|p1a: Vibrava|Earthquake|p2a: Cryogonal
+|-immune|p2a: Cryogonal|[msg]|[from] ability: Levitate
+|
+|upkeep
+|turn|2
+|choice|switch 2|move freezedry
+|
+|switch|p1a: Rapidash|Rapidash, M|100/100
+|move|p2a: Cryogonal|Freeze-Dry|p1a: Rapidash
+|-resisted|p1a: Rapidash
+|-damage|p1a: Rapidash|74/100
+|-status|p1a: Rapidash|frz
+|-damage|p2a: Cryogonal|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|3
+|choice|move flareblitz|switch 4
+|
+|switch|p2a: Seaking|Seaking, M|100/100
+|-curestatus|p1a: Rapidash|frz|[from] move: Flare Blitz
+|move|p1a: Rapidash|Flare Blitz|p2a: Seaking
+|-resisted|p2a: Seaking
+|-damage|p2a: Seaking|54/100
+|-damage|p1a: Rapidash|55/100|[from] recoil|[of] p2a: Seaking
+|
+|-heal|p2a: Seaking|60/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|choice|move wildcharge|move waterfall
+|
+|move|p1a: Rapidash|Wild Charge|p2a: Seaking
+|-ability|p2a: Seaking|Lightning Rod|boost
+|-boost|p2a: Seaking|spa|1
+|move|p2a: Seaking|Waterfall|p1a: Rapidash
+|-supereffective|p1a: Rapidash
+|-damage|p1a: Rapidash|0 fnt
+|faint|p1a: Rapidash
+|
+|-heal|p2a: Seaking|66/100|[from] item: Leftovers
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Roselia|Roselia, M|100/100
+|turn|5
+|choice|move spikes|switch 4
+|
+|switch|p2a: Cryogonal|Cryogonal|91/100
+|move|p1a: Roselia|Spikes|p2a: Cryogonal
+|-sidestart|p2: demsmlp|Spikes
+|
+|upkeep
+|turn|6
+|choice|move sludgebomb|move freezedry
+|
+|move|p2a: Cryogonal|Freeze-Dry|p1a: Roselia
+|-supereffective|p1a: Roselia
+|-damage|p1a: Roselia|15/100
+|-damage|p2a: Cryogonal|81/100|[from] item: Life Orb
+|move|p1a: Roselia|Sludge Bomb|p2a: Cryogonal
+|-damage|p2a: Cryogonal|43/100
+|
+|upkeep
+|turn|7
+|choice|move sludgebomb|move freezedry
+|
+|move|p2a: Cryogonal|Freeze-Dry|p1a: Roselia
+|-supereffective|p1a: Roselia
+|-crit|p1a: Roselia
+|-damage|p1a: Roselia|0 fnt
+|-damage|p2a: Cryogonal|33/100|[from] item: Life Orb
+|faint|p1a: Roselia
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Raichu|Raichu, M|100/100
+|turn|8
+|choice|move focusblast|switch 5
+|
+|switch|p2a: Kadabra|Kadabra, M|100/100
+|move|p1a: Raichu|Focus Blast|p2a: Kadabra
+|-resisted|p2a: Kadabra
+|-damage|p2a: Kadabra|54/100
+|-damage|p1a: Raichu|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|9
+|choice|move thunderbolt|move psychic
+|
+|move|p1a: Raichu|Thunderbolt|p2a: Kadabra
+|-damage|p2a: Kadabra|0 fnt
+|-damage|p1a: Raichu|81/100|[from] item: Life Orb
+|faint|p2a: Kadabra
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Seaking|Seaking, M|66/100
+|-damage|p2a: Seaking|54/100|[from] Spikes
+|turn|10
+|choice|switch 4|move knockoff
+|
+|switch|p1a: Drifblim|Drifblim, M|100/100
+|move|p2a: Seaking|Knock Off|p1a: Drifblim
+|-supereffective|p1a: Drifblim
+|-damage|p1a: Drifblim|18/100
+|-enditem|p1a: Drifblim|Liechi Berry|[from] move: Knock Off|[of] p2a: Seaking
+|
+|-heal|p2a: Seaking|60/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|choice|move willowisp|move waterfall
+|
+|move|p1a: Drifblim|Will-O-Wisp|p2a: Seaking
+|-status|p2a: Seaking|brn
+|move|p2a: Seaking|Waterfall|p1a: Drifblim
+|-damage|p1a: Drifblim|0 fnt
+|faint|p1a: Drifblim
+|
+|-heal|p2a: Seaking|66/100 brn|[from] item: Leftovers
+|-damage|p2a: Seaking|54/100 brn|[from] brn
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Vibrava|Vibrava, M|100/100
+|turn|12
+|choice|move uturn|move knockoff
+|
+|move|p2a: Seaking|Knock Off|p1a: Vibrava
+|-damage|p1a: Vibrava|83/100
+|-enditem|p1a: Vibrava|Eviolite|[from] move: Knock Off|[of] p2a: Seaking
+|move|p1a: Vibrava|U-turn|p2a: Seaking
+|-damage|p2a: Seaking|36/100 brn
+|choice|switch 4|
+|
+|switch|p1a: Raichu|Raichu, M|81/100
+|
+|-heal|p2a: Seaking|42/100 brn|[from] item: Leftovers
+|-damage|p2a: Seaking|30/100 brn|[from] brn
+|upkeep
+|turn|13
+|choice|move focusblast|move waterfall
+|
+|move|p1a: Raichu|Focus Blast|p2a: Seaking
+|-damage|p2a: Seaking|0 fnt
+|-damage|p1a: Raichu|71/100|[from] item: Life Orb
+|faint|p2a: Seaking
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Monferno|Monferno, M|100/100
+|-damage|p2a: Monferno|88/100|[from] Spikes
+|turn|14
+|choice|move thunderbolt|move flareblitz
+|
+|move|p1a: Raichu|Thunderbolt|p2a: Monferno
+|-damage|p2a: Monferno|16/100
+|-damage|p1a: Raichu|61/100|[from] item: Life Orb
+|move|p2a: Monferno|Flare Blitz|p1a: Raichu
+|-damage|p1a: Raichu|0 fnt
+|-damage|p2a: Monferno|0 fnt|[from] recoil|[of] p1a: Raichu
+|faint|p1a: Raichu
+|faint|p2a: Monferno
+|
+|upkeep
+|choice|switch 6|switch 5
+|
+|switch|p2a: Cryogonal|Cryogonal|33/100
+|switch|p1a: Stunfisk|Stunfisk, M|100/100
+|turn|15
+|choice|move discharge|move freezedry
+|
+|move|p2a: Cryogonal|Freeze-Dry|p1a: Stunfisk
+|-supereffective|p1a: Stunfisk
+|-damage|p1a: Stunfisk|46/100
+|-status|p1a: Stunfisk|frz
+|-damage|p2a: Cryogonal|23/100|[from] item: Life Orb
+|cant|p1a: Stunfisk|frz
+|
+|-heal|p1a: Stunfisk|52/100 frz|[from] item: Leftovers
+|upkeep
+|turn|16
+|choice|move protect|move recover
+|
+|cant|p1a: Stunfisk|frz
+|move|p2a: Cryogonal|Recover|p2a: Cryogonal
+|-heal|p2a: Cryogonal|73/100
+|
+|-heal|p1a: Stunfisk|59/100 frz|[from] item: Leftovers
+|upkeep
+|turn|17
+|choice|move protect|move rapidspin
+|
+|cant|p1a: Stunfisk|frz
+|move|p2a: Cryogonal|Rapid Spin|p1a: Stunfisk
+|-damage|p1a: Stunfisk|55/100 frz
+|-sideend|p2: demsmlp|Spikes|[from] move: Rapid Spin|[of] p2a: Cryogonal
+|-damage|p2a: Cryogonal|63/100|[from] item: Life Orb
+|
+|-heal|p1a: Stunfisk|61/100 frz|[from] item: Leftovers
+|upkeep
+|turn|18
+|choice|move protect|move freezedry
+|
+|-curestatus|p1a: Stunfisk|frz|[msg]
+|move|p1a: Stunfisk|Protect|p1a: Stunfisk
+|-singleturn|p1a: Stunfisk|Protect
+|move|p2a: Cryogonal|Freeze-Dry|p1a: Stunfisk
+|-activate|p1a: Stunfisk|move: Protect
+|
+|-heal|p1a: Stunfisk|68/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|choice|move discharge|move freezedry
+|
+|move|p2a: Cryogonal|Freeze-Dry|p1a: Stunfisk
+|-supereffective|p1a: Stunfisk
+|-damage|p1a: Stunfisk|16/100
+|-damage|p2a: Cryogonal|53/100|[from] item: Life Orb
+|move|p1a: Stunfisk|Discharge|p2a: Cryogonal
+|-damage|p2a: Cryogonal|33/100
+|
+|-heal|p1a: Stunfisk|22/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|choice|move discharge|move freezedry
+|
+|move|p2a: Cryogonal|Freeze-Dry|p1a: Stunfisk
+|-supereffective|p1a: Stunfisk
+|-crit|p1a: Stunfisk
+|-damage|p1a: Stunfisk|0 fnt
+|-damage|p2a: Cryogonal|23/100|[from] item: Life Orb
+|faint|p1a: Stunfisk
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Vibrava|Vibrava, M|83/100
+|turn|21
+|choice|move earthquake|move freezedry
+|
+|move|p2a: Cryogonal|Freeze-Dry|p1a: Vibrava
+|-supereffective|p1a: Vibrava
+|-damage|p1a: Vibrava|0 fnt
+|-damage|p2a: Cryogonal|13/100|[from] item: Life Orb
+|faint|p1a: Vibrava
+|
+|win|demsmlp

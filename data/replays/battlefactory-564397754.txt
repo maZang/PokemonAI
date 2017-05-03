@@ -1,0 +1,135 @@
+|j|youssoufmuusee
+|j|thinkcentre
+|player|p1|youssoufmuusee|101
+|player|p2|thinkcentre|265
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|7342,41109,7445,41854,3514,9737,24211,54489,52248,42814,14172,16081
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Mesprit|item
+|poke|p1|Spiritomb, M|item
+|poke|p1|Hitmonlee, M|item
+|poke|p1|Registeel|item
+|poke|p1|Emboar, M|item
+|poke|p1|Eelektross, M|item
+|poke|p2|Glalie, M|item
+|poke|p2|Rhyperior, M|item
+|poke|p2|Gallade, M|item
+|poke|p2|Hoopa|item
+|poke|p2|Vivillon, M|item
+|poke|p2|Sneasel, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 6, team 2, team 3, team 4, team 5, team 1|team 1, team 2, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Eelektross|Eelektross, M|100/100
+|switch|p2a: Glalie|Glalie, M|100/100
+|turn|1
+|choice|switch 4|move explosion mega
+|
+|switch|p1a: Registeel|Registeel|100/100
+|detailschange|p2a: Glalie|Glalie-Mega, M
+|-mega|p2a: Glalie|Glalie|Glalitite
+|move|p2a: Glalie|Explosion|p1a: Registeel
+|-resisted|p1a: Registeel
+|-damage|p1a: Registeel|54/100
+|faint|p2a: Glalie
+|
+|-heal|p1a: Registeel|60/100|[from] item: Leftovers
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Gallade|Gallade, M|100/100
+|turn|2
+|choice|move ironhead|move zenheadbutt
+|
+|move|p2a: Gallade|Zen Headbutt|p1a: Registeel
+|-resisted|p1a: Registeel
+|-damage|p1a: Registeel|37/100
+|move|p1a: Registeel|Iron Head|p2a: Gallade
+|-damage|p2a: Gallade|64/100
+|
+|-heal|p1a: Registeel|43/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|choice|move rest|move zenheadbutt
+|
+|move|p2a: Gallade|Zen Headbutt|p1a: Registeel
+|-resisted|p1a: Registeel
+|-damage|p1a: Registeel|22/100
+|move|p1a: Registeel|Rest|p1a: Registeel
+|-status|p1a: Registeel|slp
+|-heal|p1a: Registeel|100/100 slp|[silent]
+|-status|p1a: Registeel|slp|[from] move: Rest
+|
+|upkeep
+|turn|4
+|choice|move sleeptalk|move zenheadbutt
+|
+|move|p2a: Gallade|Zen Headbutt|p1a: Registeel
+|-resisted|p1a: Registeel
+|-damage|p1a: Registeel|79/100 slp
+|cant|p1a: Registeel|slp
+|move|p1a: Registeel|Sleep Talk|p1a: Registeel
+|move|p1a: Registeel|Iron Head|p2a: Gallade|[from]Sleep Talk
+|-damage|p2a: Gallade|26/100
+|
+|-heal|p1a: Registeel|85/100 slp|[from] item: Leftovers
+|upkeep
+|turn|5
+|choice|move sleeptalk|move zenheadbutt
+|
+|move|p2a: Gallade|Zen Headbutt|p1a: Registeel
+|-resisted|p1a: Registeel
+|-damage|p1a: Registeel|65/100 slp
+|cant|p1a: Registeel|slp
+|move|p1a: Registeel|Sleep Talk|p1a: Registeel
+|move|p1a: Registeel|Curse|p1a: Registeel|[from]Sleep Talk
+|-unboost|p1a: Registeel|spe|1
+|-boost|p1a: Registeel|atk|1
+|-boost|p1a: Registeel|def|1
+|
+|-heal|p1a: Registeel|71/100 slp|[from] item: Leftovers
+|upkeep
+|turn|6
+|choice|move sleeptalk|move zenheadbutt
+|
+|move|p2a: Gallade|Zen Headbutt|p1a: Registeel
+|-resisted|p1a: Registeel
+|-damage|p1a: Registeel|57/100 slp
+|-curestatus|p1a: Registeel|slp|[msg]
+|cant|p1a: Registeel|flinch
+|
+|-heal|p1a: Registeel|63/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|choice|move ironhead|switch 4
+|
+|switch|p2a: Hoopa|Hoopa|100/100
+|move|p1a: Registeel|Iron Head|p2a: Hoopa
+|-damage|p2a: Hoopa|40/100
+|
+|-heal|p1a: Registeel|69/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|choice|move ironhead|move focusblast
+|
+|move|p2a: Hoopa|Focus Blast|p1a: Registeel
+|-supereffective|p1a: Registeel
+|-damage|p1a: Registeel|4/100
+|-damage|p2a: Hoopa|30/100|[from] item: Life Orb
+|move|p1a: Registeel|Iron Head|p2a: Hoopa
+|-damage|p2a: Hoopa|0 fnt
+|faint|p2a: Hoopa
+|
+|-heal|p1a: Registeel|10/100|[from] item: Leftovers
+|upkeep
+|player|p2|
+|-message|Player 2 lost due to inactivity.
+|
+|win|youssoufmuusee
+|l|youssoufmuusee

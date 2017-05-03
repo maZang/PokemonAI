@@ -1,0 +1,329 @@
+|j|edwardxu2017
+|j|isuckgg
+|player|p1|edwardxu2017|45
+|player|p2|isuckgg|101
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|22693,37237,15852,63193,36415,45299,19621,17789,4588,49120,47753,29361
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Lickilicky, M|item
+|poke|p1|Cryogonal|item
+|poke|p1|Quilladin, M|item
+|poke|p1|Gabite, M|item
+|poke|p1|Dusknoir, M|item
+|poke|p1|Seaking, M|item
+|poke|p2|Armaldo, M|item
+|poke|p2|Basculin, M|item
+|poke|p2|Ampharos, M|item
+|poke|p2|Regice|item
+|poke|p2|Arbok, M|item
+|poke|p2|Tangela, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 4, team 2, team 3, team 1, team 5, team 6|team 2, team 1, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Gabite|Gabite, M|100/100
+|switch|p2a: Basculin|Basculin, M|100/100
+|turn|1
+|choice|switch 5|move waterfall
+|
+|switch|p1a: Dusknoir|Dusknoir, M|100/100
+|-item|p2a: Basculin|Life Orb|[from] ability: Frisk|[of] p1a: Dusknoir|[identify]
+|move|p2a: Basculin|Waterfall|p1a: Dusknoir
+|-damage|p1a: Dusknoir|51/100
+|-damage|p2a: Basculin|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|2
+|choice|move willowisp|move waterfall
+|
+|move|p2a: Basculin|Waterfall|p1a: Dusknoir
+|-damage|p1a: Dusknoir|3/100
+|-damage|p2a: Basculin|81/100|[from] item: Life Orb
+|move|p1a: Dusknoir|Will-O-Wisp|p2a: Basculin
+|-status|p2a: Basculin|brn
+|
+|-damage|p2a: Basculin|68/100 brn|[from] brn
+|upkeep
+|turn|3
+|choice|switch 3|move aquajet
+|
+|switch|p1a: Quilladin|Quilladin, M|100/100
+|move|p2a: Basculin|Aqua Jet|p1a: Quilladin
+|-resisted|p1a: Quilladin
+|-damage|p1a: Quilladin|97/100
+|-damage|p2a: Basculin|58/100 brn|[from] item: Life Orb
+|
+|-damage|p2a: Basculin|46/100 brn|[from] brn
+|upkeep
+|turn|4
+|choice|move spikes|move icebeam
+|
+|move|p2a: Basculin|Ice Beam|p1a: Quilladin
+|-supereffective|p1a: Quilladin
+|-damage|p1a: Quilladin|47/100
+|-damage|p2a: Basculin|36/100 brn|[from] item: Life Orb
+|move|p1a: Quilladin|Spikes|p2a: Basculin
+|-sidestart|p2: isuckgg|Spikes
+|
+|-damage|p2a: Basculin|23/100 brn|[from] brn
+|upkeep
+|turn|5
+|choice|switch 2|move icebeam
+|
+|switch|p1a: Cryogonal|Cryogonal|100/100
+|move|p2a: Basculin|Ice Beam|p1a: Cryogonal
+|-resisted|p1a: Cryogonal
+|-damage|p1a: Cryogonal|93/100
+|-damage|p2a: Basculin|13/100 brn|[from] item: Life Orb
+|
+|-heal|p1a: Cryogonal|99/100|[from] item: Leftovers
+|-damage|p2a: Basculin|1/100 brn|[from] brn
+|upkeep
+|turn|6
+|choice|move freezedry|move hiddenpower
+|
+|move|p2a: Basculin|Hidden Power|p1a: Cryogonal
+|-damage|p1a: Cryogonal|89/100
+|-damage|p2a: Basculin|0 fnt|[from] item: Life Orb
+|faint|p2a: Basculin
+|move|p1a: Cryogonal|Freeze-Dry|p2: Basculin|[notarget]
+|-notarget
+|
+|-heal|p1a: Cryogonal|96/100|[from] item: Leftovers
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Regice|Regice|100/100
+|-damage|p2a: Regice|88/100|[from] Spikes
+|turn|7
+|choice|move hiddenpower|move thunderwave
+|
+|move|p1a: Cryogonal|Hidden Power|p2a: Regice
+|-supereffective|p2a: Regice
+|-crit|p2a: Regice
+|-damage|p2a: Regice|69/100
+|move|p2a: Regice|Thunder Wave|p1a: Cryogonal
+|-status|p1a: Cryogonal|par
+|
+|-heal|p2a: Regice|75/100|[from] item: Leftovers
+|-heal|p1a: Cryogonal|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|8
+|choice|move hiddenpower|move focusblast
+|
+|move|p2a: Regice|Focus Blast|p1a: Cryogonal
+|-supereffective|p1a: Cryogonal
+|-damage|p1a: Cryogonal|48/100 par
+|-unboost|p1a: Cryogonal|spd|1
+|move|p1a: Cryogonal|Hidden Power|p2a: Regice
+|-supereffective|p2a: Regice
+|-damage|p2a: Regice|62/100
+|
+|-heal|p2a: Regice|68/100|[from] item: Leftovers
+|-heal|p1a: Cryogonal|54/100 par|[from] item: Leftovers
+|upkeep
+|turn|9
+|choice|switch 6|move focusblast
+|
+|switch|p1a: Seaking|Seaking, M|100/100
+|move|p2a: Regice|Focus Blast|p1a: Seaking|[miss]
+|-miss|p2a: Regice|p1a: Seaking
+|
+|-heal|p2a: Regice|74/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|choice|move waterfall|move thunderbolt
+|
+|move|p1a: Seaking|Waterfall|p2a: Regice
+|-damage|p2a: Regice|37/100
+|move|p2a: Regice|Thunderbolt|p1a: Seaking
+|-ability|p1a: Seaking|Lightning Rod|boost
+|-boost|p1a: Seaking|spa|1
+|
+|-heal|p2a: Regice|43/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|choice|move waterfall|move thunderwave
+|
+|move|p1a: Seaking|Waterfall|p2a: Regice
+|-damage|p2a: Regice|8/100
+|move|p2a: Regice|Thunder Wave|p1a: Seaking
+|-ability|p1a: Seaking|Lightning Rod|boost
+|-boost|p1a: Seaking|spa|1
+|
+|-heal|p2a: Regice|15/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|choice|move waterfall|move icebeam
+|
+|move|p1a: Seaking|Waterfall|p2a: Regice
+|-damage|p2a: Regice|0 fnt
+|faint|p2a: Regice
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Tangela|Tangela, M|100/100
+|-damage|p2a: Tangela|88/100|[from] Spikes
+|turn|13
+|choice|move megahorn|move sleeppowder
+|
+|move|p1a: Seaking|Megahorn|p2a: Tangela
+|-supereffective|p2a: Tangela
+|-damage|p2a: Tangela|42/100
+|move|p2a: Tangela|Sleep Powder|p1a: Seaking|[miss]
+|-miss|p2a: Tangela|p1a: Seaking
+|
+|upkeep
+|turn|14
+|choice|move megahorn|move sleeppowder
+|
+|move|p1a: Seaking|Megahorn|p2a: Tangela
+|-supereffective|p2a: Tangela
+|-crit|p2a: Tangela
+|-damage|p2a: Tangela|0 fnt
+|faint|p2a: Tangela
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Arbok|Arbok, M|100/100
+|-damage|p2a: Arbok|88/100|[from] Spikes
+|-ability|p2a: Arbok|Intimidate|boost
+|-unboost|p1a: Seaking|atk|1
+|turn|15
+|choice|switch 2|move coil
+|
+|switch|p1a: Quilladin|Quilladin, M|47/100
+|move|p2a: Arbok|Coil|p2a: Arbok
+|-boost|p2a: Arbok|atk|1
+|-boost|p2a: Arbok|def|1
+|-boost|p2a: Arbok|accuracy|1
+|
+|upkeep
+|turn|16
+|choice|move roar|move gunkshot
+|
+|move|p2a: Arbok|Gunk Shot|p1a: Quilladin
+|-supereffective|p1a: Quilladin
+|-damage|p1a: Quilladin|0 fnt
+|faint|p1a: Quilladin
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Gabite|Gabite, M|100/100
+|turn|17
+|choice|move earthquake|move gunkshot
+|
+|move|p1a: Gabite|Earthquake|p2a: Arbok
+|-supereffective|p2a: Arbok
+|-enditem|p2a: Arbok|Shuca Berry|[eat]
+|-enditem|p2a: Arbok|Shuca Berry|[weaken]
+|-damage|p2a: Arbok|41/100
+|move|p2a: Arbok|Gunk Shot|p1a: Gabite
+|-resisted|p1a: Gabite
+|-damage|p1a: Gabite|55/100
+|
+|upkeep
+|turn|18
+|choice|move earthquake|move suckerpunch
+|
+|move|p2a: Arbok|Sucker Punch|p1a: Gabite
+|-damage|p1a: Gabite|15/100
+|-damage|p2a: Arbok|29/100|[from] ability: Rough Skin|[of] p1a: Gabite
+|move|p1a: Gabite|Earthquake|p2a: Arbok
+|-supereffective|p2a: Arbok
+|-crit|p2a: Arbok
+|-damage|p2a: Arbok|0 fnt
+|faint|p2a: Arbok
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Armaldo|Armaldo, M|100/100
+|-damage|p2a: Armaldo|88/100|[from] Spikes
+|turn|19
+|choice|move outrage|move knockoff
+|
+|move|p1a: Gabite|Outrage|p2a: Armaldo
+|-damage|p2a: Armaldo|57/100
+|move|p2a: Armaldo|Knock Off|p1a: Gabite
+|-damage|p1a: Gabite|0 fnt
+|-damage|p2a: Armaldo|45/100|[from] ability: Rough Skin|[of] p1a: Gabite
+|-enditem|p1a: Gabite|Eviolite|[from] move: Knock Off|[of] p2a: Armaldo
+|faint|p1a: Gabite
+|
+|-heal|p2a: Armaldo|51/100|[from] item: Leftovers
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Seaking|Seaking, M|100/100
+|turn|20
+|choice|move waterfall|move knockoff
+|
+|move|p1a: Seaking|Waterfall|p2a: Armaldo
+|-supereffective|p2a: Armaldo
+|-damage|p2a: Armaldo|2/100
+|move|p2a: Armaldo|Knock Off|p1a: Seaking
+|-damage|p1a: Seaking|57/100
+|-enditem|p1a: Seaking|Leftovers|[from] move: Knock Off|[of] p2a: Armaldo
+|
+|-heal|p2a: Armaldo|8/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|choice|move waterfall|move rapidspin
+|
+|move|p1a: Seaking|Waterfall|p2a: Armaldo
+|-supereffective|p2a: Armaldo
+|-damage|p2a: Armaldo|0 fnt
+|faint|p2a: Armaldo
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Ampharos|Ampharos, M|100/100
+|-damage|p2a: Ampharos|88/100|[from] Spikes
+|turn|22
+|choice|move knockoff|move focusblast
+|
+|move|p2a: Ampharos|Focus Blast|p1a: Seaking|[miss]
+|-miss|p2a: Ampharos|p1a: Seaking
+|move|p1a: Seaking|Knock Off|p2a: Ampharos
+|-damage|p2a: Ampharos|53/100
+|-enditem|p2a: Ampharos|Life Orb|[from] move: Knock Off|[of] p1a: Seaking
+|
+|upkeep
+|turn|23
+|choice|move waterfall|move focusblast
+|
+|move|p2a: Ampharos|Focus Blast|p1a: Seaking
+|-damage|p1a: Seaking|13/100
+|move|p1a: Seaking|Waterfall|p2a: Ampharos
+|-damage|p2a: Ampharos|6/100
+|
+|upkeep
+|turn|24
+|choice|move waterfall|move focusblast
+|
+|move|p2a: Ampharos|Focus Blast|p1a: Seaking
+|-damage|p1a: Seaking|0 fnt
+|faint|p1a: Seaking
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Dusknoir|Dusknoir, M|3/100
+|turn|25
+|choice|move shadowsneak|move hiddenpower
+|
+|move|p1a: Dusknoir|Shadow Sneak|p2a: Ampharos
+|-damage|p2a: Ampharos|0 fnt
+|faint|p2a: Ampharos
+|
+|win|edwardxu2017

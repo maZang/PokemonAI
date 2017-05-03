@@ -1,0 +1,784 @@
+|j|chris meh
+|j|Drewgamer
+|player|p1|chris meh|170
+|player|p2|Drewgamer|1
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|29641,10671,25463,35151,26847,28682,8419,42846,18300,50617,32465,21880
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Emboar, M|item
+|poke|p1|Togetic, M|item
+|poke|p1|Eelektross, M|item
+|poke|p1|Blastoise, M|item
+|poke|p1|Magneton|item
+|poke|p1|Smeargle, M|item
+|poke|p2|Spiritomb, M|item
+|poke|p2|Braviary, M|item
+|poke|p2|Escavalier, M|item
+|poke|p2|Virizion|item
+|poke|p2|Flygon, M|item
+|poke|p2|Archeops, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|j|Jojo Meh
+|choice|team 5, team 2, team 3, team 4, team 1, team 6|team 1, team 2, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Magneton|Magneton|100/100
+|switch|p2a: Spiritomb|Spiritomb, M|100/100
+|turn|1
+|c| Jojo Meh|REXT BY ANDREW
+|c|☆chris meh|xD
+|c| Jojo Meh|is this a dream
+|choice|move thunderbolt|move willowisp
+|
+|move|p1a: Magneton|Thunderbolt|p2a: Spiritomb
+|-damage|p2a: Spiritomb|47/100
+|move|p2a: Spiritomb|Will-O-Wisp|p1a: Magneton
+|-status|p1a: Magneton|brn
+|
+|-heal|p2a: Spiritomb|53/100|[from] item: Leftovers
+|-damage|p1a: Magneton|88/100 brn|[from] brn
+|upkeep
+|turn|2
+|c|☆Drewgamer|nope
+|c| Jojo Meh|fack
+|c|☆chris meh|lol right on the %
+|choice|move thunderbolt|move rest
+|
+|move|p1a: Magneton|Thunderbolt|p2a: Spiritomb
+|-damage|p2a: Spiritomb|6/100
+|move|p2a: Spiritomb|Rest|p2a: Spiritomb
+|-status|p2a: Spiritomb|slp
+|-heal|p2a: Spiritomb|100/100 slp|[silent]
+|-status|p2a: Spiritomb|slp|[from] move: Rest
+|
+|-damage|p1a: Magneton|76/100 brn|[from] brn
+|upkeep
+|turn|3
+|c|☆chris meh|i will kill u
+|c|☆chris meh|what?
+|c|☆chris meh|the lucj
+|choice|move thunderbolt|move sleeptalk
+|
+|move|p1a: Magneton|Thunderbolt|p2a: Spiritomb
+|-damage|p2a: Spiritomb|52/100 slp
+|cant|p2a: Spiritomb|slp
+|move|p2a: Spiritomb|Sleep Talk|p2a: Spiritomb
+|move|p2a: Spiritomb|Foul Play|p1a: Magneton|[from]Sleep Talk
+|-damage|p1a: Magneton|58/100 brn
+|
+|-heal|p2a: Spiritomb|58/100 slp|[from] item: Leftovers
+|-damage|p1a: Magneton|46/100 brn|[from] brn
+|upkeep
+|turn|4
+|choice|move thunderbolt|move sleeptalk
+|
+|move|p1a: Magneton|Thunderbolt|p2a: Spiritomb
+|-damage|p2a: Spiritomb|7/100 slp
+|cant|p2a: Spiritomb|slp
+|move|p2a: Spiritomb|Sleep Talk|p2a: Spiritomb
+|move|p2a: Spiritomb|Will-O-Wisp|p1a: Magneton|[from]Sleep Talk|[miss]
+|-miss|p2a: Spiritomb|p1a: Magneton
+|
+|-heal|p2a: Spiritomb|13/100 slp|[from] item: Leftovers
+|-damage|p1a: Magneton|33/100 brn|[from] brn
+|upkeep
+|turn|5
+|choice|move thunderbolt|move rest
+|
+|move|p1a: Magneton|Thunderbolt|p2a: Spiritomb
+|-crit|p2a: Spiritomb
+|-damage|p2a: Spiritomb|0 fnt
+|faint|p2a: Spiritomb
+|
+|-damage|p1a: Magneton|21/100 brn|[from] brn
+|upkeep
+|c|☆chris meh|alright
+|c|☆Drewgamer|noo
+|c|☆chris meh|that was like 1-1
+|choice||switch 5
+|
+|switch|p2a: Flygon|Flygon, M|100/100
+|turn|6
+|c|☆chris meh|the magneton will die now
+|c| Jojo Meh|has luck become lucj
+|c|☆Drewgamer|oh yea
+|choice|move flashcannon|move earthquake
+|
+|move|p2a: Flygon|Earthquake|p1a: Magneton
+|-supereffective|p1a: Magneton
+|-damage|p1a: Magneton|0 fnt
+|faint|p1a: Magneton
+|
+|upkeep
+|c|☆Drewgamer|ded
+|choice|switch 2|
+|
+|switch|p1a: Togetic|Togetic, M|100/100
+|turn|7
+|c|☆chris meh|mmhm
+|c|☆chris meh|anyday now
+|c|☆chris meh|turns on timer and doesnt go
+|c|☆chris meh|kappa
+|choice|move dazzlinggleam|switch 6
+|
+|switch|p2a: Archeops|Archeops, M|100/100
+|move|p1a: Togetic|Dazzling Gleam|p2a: Archeops
+|-damage|p2a: Archeops|61/100
+|
+|upkeep
+|turn|8
+|c|☆Drewgamer|lol his animation
+|c| Jojo Meh|and his name is john cean
+|c|☆Drewgamer|great job
+|choice|switch 4|move stealthrock
+|
+|switch|p1a: Blastoise|Blastoise, M|100/100
+|move|p2a: Archeops|Stealth Rock|p1a: Blastoise
+|-sidestart|p1: chris meh|move: Stealth Rock
+|
+|upkeep
+|turn|9
+|c| Jojo Meh|ice bam
+|c|☆Drewgamer|john cean
+|c|☆chris meh|dont have
+|c|☆Drewgamer|thats wat u said
+|c| Jojo Meh|really
+|c|☆chris meh|yup
+|c| Jojo Meh|scald
+|c| Jojo Meh|30%
+|choice|move scald|move headsmash
+|
+|move|p2a: Archeops|Head Smash|p1a: Blastoise
+|-damage|p1a: Blastoise|44/100
+|-damage|p2a: Archeops|26/100|[from] recoil|[of] p1a: Blastoise
+|move|p1a: Blastoise|Scald|p2a: Archeops
+|-supereffective|p2a: Archeops
+|-damage|p2a: Archeops|0 fnt
+|faint|p2a: Archeops
+|
+|-heal|p1a: Blastoise|50/100|[from] item: Leftovers
+|upkeep
+|c| Jojo Meh|burn
+|c|☆chris meh|shhh
+|c|☆chris meh|ded anyway
+|c|☆chris meh|lol
+|c|☆chris meh|who cares about burn when you kill anyway
+|choice||switch 4
+|
+|switch|p2a: Virizion|Virizion|100/100
+|turn|10
+|c| Jojo Meh|tier nu
+|choice|switch 5|move gigadrain
+|
+|switch|p1a: Emboar|Emboar, M|100/100
+|-damage|p1a: Emboar|88/100|[from] Stealth Rock
+|move|p2a: Virizion|Giga Drain|p1a: Emboar
+|-resisted|p1a: Emboar
+|-damage|p1a: Emboar|66/100
+|
+|upkeep
+|turn|11
+|c| Jojo Meh|tier nu or uu
+|choice|move flareblitz|switch 2
+|
+|switch|p2a: Braviary|Braviary, M|100/100
+|move|p1a: Emboar|Flare Blitz|p2a: Braviary
+|-damage|p2a: Braviary|0 fnt
+|-damage|p1a: Emboar|35/100|[from] recoil|[of] p2a: Braviary
+|faint|p2a: Braviary
+|
+|upkeep
+|c|☆chris meh|OHKO
+|c|☆Drewgamer|nooooo
+|choice||switch 3
+|
+|switch|p2a: Escavalier|Escavalier, M|100/100
+|turn|12
+|choice|move flareblitz|move ironhead
+|
+|move|p1a: Emboar|Flare Blitz|p2a: Escavalier
+|-supereffective|p2a: Escavalier
+|-damage|p2a: Escavalier|0 fnt
+|-damage|p1a: Emboar|5/100|[from] recoil|[of] p2a: Escavalier
+|faint|p2a: Escavalier
+|
+|upkeep
+|c|☆chris meh|fire weakness?
+|c|☆Drewgamer|this time i'm gonna be 4-0d
+|c|☆chris meh|what r u doing?
+|choice||switch 6
+|
+|switch|p2a: Flygon|Flygon, M|100/100
+|turn|13
+|c|☆chris meh|ur gonna kill here
+|c|☆Drewgamer|waz my only one i had a chance w
+|c|☆chris meh|go
+|c|☆chris meh|ull outspeed
+|c|☆Drewgamer|until i realized this guy had earthquake
+|choice|move flareblitz|move earthquake
+|
+|move|p2a: Flygon|Earthquake|p1a: Emboar
+|-supereffective|p1a: Emboar
+|-damage|p1a: Emboar|0 fnt
+|faint|p1a: Emboar
+|
+|upkeep
+|c| Jojo Meh|hype for floor hockey
+|choice|switch 5|
+|
+|switch|p1a: Blastoise|Blastoise, M|50/100
+|-damage|p1a: Blastoise|38/100|[from] Stealth Rock
+|turn|14
+|c| Jojo Meh|chris?
+|choice|move scald|switch 2
+|
+|switch|p2a: Virizion|Virizion|100/100
+|move|p1a: Blastoise|Scald|p2a: Virizion
+|-resisted|p2a: Virizion
+|-damage|p2a: Virizion|91/100
+|
+|-heal|p2a: Virizion|97/100|[from] item: Leftovers
+|-heal|p1a: Blastoise|44/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|c|☆chris meh|u wouldve outsped
+|choice|move toxic|move gigadrain
+|
+|move|p2a: Virizion|Giga Drain|p1a: Blastoise
+|-supereffective|p1a: Blastoise
+|-damage|p1a: Blastoise|0 fnt
+|-heal|p2a: Virizion|100/100|[from] drain|[of] p1a: Blastoise
+|faint|p1a: Blastoise
+|
+|upkeep
+|c| Jojo Meh|2-0
+|c| Jojo Meh|andrew
+|c| Jojo Meh|again
+|choice|switch 4|
+|
+|switch|p1a: Togetic|Togetic, M|100/100
+|-damage|p1a: Togetic|76/100|[from] Stealth Rock
+|turn|16
+|c| Jojo Meh|togetic evolite
+|c|☆chris meh|rip
+|c|☆chris meh|nvm
+|c| Jojo Meh|dazzling gleam
+|c|☆chris meh|i can probs take the hit
+|choice|move dazzlinggleam|move substitute
+|
+|move|p2a: Virizion|Substitute|p2a: Virizion
+|-start|p2a: Virizion|Substitute
+|-damage|p2a: Virizion|76/100
+|move|p1a: Togetic|Dazzling Gleam|p2a: Virizion
+|-supereffective|p2a: Virizion
+|-end|p2a: Virizion|Substitute
+|
+|-heal|p2a: Virizion|82/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|c| Jojo Meh|do it just do it
+|choice|move dazzlinggleam|move gigadrain
+|
+|move|p2a: Virizion|Giga Drain|p1a: Togetic
+|-resisted|p1a: Togetic
+|-damage|p1a: Togetic|64/100
+|-heal|p2a: Virizion|87/100|[from] drain|[of] p1a: Togetic
+|move|p1a: Togetic|Dazzling Gleam|p2a: Virizion
+|-supereffective|p2a: Virizion
+|-damage|p2a: Virizion|50/100
+|
+|-heal|p2a: Virizion|57/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|c|☆chris meh|idk what that did 4 u andrew
+|choice|move dazzlinggleam|move focusblast
+|
+|move|p2a: Virizion|Focus Blast|p1a: Togetic
+|-resisted|p1a: Togetic
+|-damage|p1a: Togetic|55/100
+|move|p1a: Togetic|Dazzling Gleam|p2a: Virizion
+|-supereffective|p2a: Virizion
+|-damage|p2a: Virizion|16/100
+|
+|-heal|p2a: Virizion|22/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|c| Jojo Meh|chris wins
+|c| Jojo Meh|lolz
+|choice|move dazzlinggleam|switch 2
+|
+|switch|p2a: Flygon|Flygon, M|100/100
+|move|p1a: Togetic|Dazzling Gleam|p2a: Flygon
+|-supereffective|p2a: Flygon
+|-damage|p2a: Flygon|60/100
+|
+|-heal|p2a: Flygon|66/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|c|☆Drewgamer|i'm dumb
+|choice|move roost|move earthquake
+|
+|move|p2a: Flygon|Earthquake|p1a: Togetic
+|-immune|p1a: Togetic|[msg]
+|move|p1a: Togetic|Roost|p1a: Togetic
+|-heal|p1a: Togetic|100/100
+|
+|-heal|p2a: Flygon|72/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|c|☆chris meh|LOL
+|c|☆Drewgamer|ik
+|choice|move dazzlinggleam|move uturn
+|
+|move|p2a: Flygon|U-turn|p1a: Togetic
+|-resisted|p1a: Togetic
+|-damage|p1a: Togetic|98/100
+|choice||switch 2
+|
+|switch|p2a: Virizion|Virizion|22/100
+|move|p1a: Togetic|Dazzling Gleam|p2a: Virizion
+|-supereffective|p2a: Virizion
+|-damage|p2a: Virizion|0 fnt
+|faint|p2a: Virizion
+|
+|upkeep
+|c|☆chris meh|ok...
+|c|☆Drewgamer|3-0
+|choice||switch 2
+|
+|switch|p2a: Flygon|Flygon, M|72/100
+|turn|22
+|c|☆chris meh|that was useless
+|c| Jojo Meh|chris
+|c| Jojo Meh|chris
+|c| Jojo Meh|chris
+|c| Jojo Meh|chris
+|c|☆chris meh|just for the bants
+|c| Jojo Meh|chris
+|c| Jojo Meh|chris
+|c|☆chris meh|yes?
+|c| Jojo Meh|chris
+|c| Jojo Meh|chris
+|c| Jojo Meh|chris
+|c| Jojo Meh|chris
+|c|☆Drewgamer|my only move are uneffective :(
+|c| Jojo Meh|chris
+|c|☆chris meh|WHAT
+|c| Jojo Meh|moves
+|choice|move thunderwave|move earthquake
+|
+|move|p2a: Flygon|Earthquake|p1a: Togetic
+|-immune|p1a: Togetic|[msg]
+|move|p1a: Togetic|Thunder Wave|p2a: Flygon
+|-immune|p2a: Flygon|[msg]
+|
+|-heal|p2a: Flygon|79/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|c| Jojo Meh|rip
+|c|☆chris meh|whoops
+|c|☆chris meh|lol
+|c| Jojo Meh|why t-wave
+|c|☆chris meh|it dont matter
+|c|☆chris meh|just bantering
+|c| Jojo Meh|just why
+|choice|move flamethrower|move uturn
+|
+|move|p2a: Flygon|U-turn|p1a: Togetic
+|-resisted|p1a: Togetic
+|-damage|p1a: Togetic|96/100
+|move|p1a: Togetic|Flamethrower|p2a: Flygon
+|-resisted|p2a: Flygon
+|-damage|p2a: Flygon|71/100
+|
+|-heal|p2a: Flygon|77/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|c|☆chris meh|lol
+|c| Jojo Meh|spam t-wave
+|choice|move dazzlinggleam|move uturn
+|
+|move|p2a: Flygon|U-turn|p1a: Togetic
+|-resisted|p1a: Togetic
+|-damage|p1a: Togetic|93/100
+|move|p1a: Togetic|Dazzling Gleam|p2a: Flygon
+|-supereffective|p2a: Flygon
+|-damage|p2a: Flygon|37/100
+|
+|-heal|p2a: Flygon|43/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|choice|move dazzlinggleam|move roost
+|
+|move|p2a: Flygon|Roost|p2a: Flygon
+|-heal|p2a: Flygon|93/100
+|move|p1a: Togetic|Dazzling Gleam|p2a: Flygon
+|-supereffective|p2a: Flygon
+|-damage|p2a: Flygon|50/100
+|
+|-heal|p2a: Flygon|56/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|c| Jojo Meh|no make him struggle
+|c|☆chris meh|oh great
+|choice|move thunderwave|move uturn
+|
+|move|p2a: Flygon|U-turn|p1a: Togetic
+|-resisted|p1a: Togetic
+|-damage|p1a: Togetic|91/100
+|move|p1a: Togetic|Thunder Wave|p2a: Flygon
+|-immune|p2a: Flygon|[msg]
+|
+|-heal|p2a: Flygon|62/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|c| Jojo Meh|yes chris
+|choice|move thunderwave|move uturn
+|
+|move|p2a: Flygon|U-turn|p1a: Togetic
+|-resisted|p1a: Togetic
+|-damage|p1a: Togetic|88/100
+|move|p1a: Togetic|Thunder Wave|p2a: Flygon
+|-immune|p2a: Flygon|[msg]
+|
+|-heal|p2a: Flygon|68/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|c| Jojo Meh|lolz
+|choice|move thunderwave|move uturn
+|
+|move|p2a: Flygon|U-turn|p1a: Togetic
+|-resisted|p1a: Togetic
+|-damage|p1a: Togetic|86/100
+|move|p1a: Togetic|Thunder Wave|p2a: Flygon
+|-immune|p2a: Flygon|[msg]
+|
+|-heal|p2a: Flygon|74/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|choice|move thunderwave|move uturn
+|
+|move|p2a: Flygon|U-turn|p1a: Togetic
+|-resisted|p1a: Togetic
+|-damage|p1a: Togetic|84/100
+|move|p1a: Togetic|Thunder Wave|p2a: Flygon
+|-immune|p2a: Flygon|[msg]
+|
+|-heal|p2a: Flygon|80/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|c| Jojo Meh|andrew be like wha
+|c|☆chris meh|lol
+|c|☆chris meh|confoosion
+|c|☆Drewgamer|I can't kill him!
+|c| Jojo Meh|his face right now is priceless
+|choice|move flamethrower|move uturn
+|
+|move|p2a: Flygon|U-turn|p1a: Togetic
+|-resisted|p1a: Togetic
+|-crit|p1a: Togetic
+|-damage|p1a: Togetic|80/100
+|move|p1a: Togetic|Flamethrower|p2a: Flygon
+|-resisted|p2a: Flygon
+|-crit|p2a: Flygon
+|-damage|p2a: Flygon|70/100
+|
+|-heal|p2a: Flygon|76/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|c|☆chris meh|ooh crit
+|choice|move flamethrower|move uturn
+|
+|move|p2a: Flygon|U-turn|p1a: Togetic
+|-resisted|p1a: Togetic
+|-damage|p1a: Togetic|78/100
+|move|p1a: Togetic|Flamethrower|p2a: Flygon
+|-resisted|p2a: Flygon
+|-damage|p2a: Flygon|69/100
+|
+|-heal|p2a: Flygon|75/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|c|☆Drewgamer|one attack = -2% hp
+|c|☆chris meh|lol
+|c|☆Drewgamer|23 attacks
+|c|☆Drewgamer|can't kill
+|c|☆chris meh|crit is -3%
+|choice|move flamethrower|move uturn
+|
+|move|p2a: Flygon|U-turn|p1a: Togetic
+|-resisted|p1a: Togetic
+|-damage|p1a: Togetic|76/100
+|move|p1a: Togetic|Flamethrower|p2a: Flygon
+|-resisted|p2a: Flygon
+|-damage|p2a: Flygon|67/100
+|
+|-heal|p2a: Flygon|73/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|c|☆chris meh|lol
+|c|☆chris meh|plus i have roost
+|c|☆chris meh|so
+|choice|move flamethrower|move uturn
+|
+|move|p2a: Flygon|U-turn|p1a: Togetic
+|-resisted|p1a: Togetic
+|-damage|p1a: Togetic|74/100
+|move|p1a: Togetic|Flamethrower|p2a: Flygon
+|-resisted|p2a: Flygon
+|-damage|p2a: Flygon|66/100
+|
+|-heal|p2a: Flygon|72/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|c|☆Drewgamer|me 2
+|choice|move flamethrower|move uturn
+|
+|move|p2a: Flygon|U-turn|p1a: Togetic
+|-resisted|p1a: Togetic
+|-damage|p1a: Togetic|71/100
+|move|p1a: Togetic|Flamethrower|p2a: Flygon
+|-resisted|p2a: Flygon
+|-damage|p2a: Flygon|65/100
+|-status|p2a: Flygon|brn
+|
+|-heal|p2a: Flygon|71/100 brn|[from] item: Leftovers
+|-damage|p2a: Flygon|58/100 brn|[from] brn
+|upkeep
+|turn|35
+|c|☆Drewgamer|noooooo
+|c|☆chris meh|this will become struggle
+|c| Jojo Meh|FINISH HIM!
+|choice|move flamethrower|move uturn
+|
+|move|p2a: Flygon|U-turn|p1a: Togetic
+|-resisted|p1a: Togetic
+|-crit|p1a: Togetic
+|-damage|p1a: Togetic|70/100
+|move|p1a: Togetic|Flamethrower|p2a: Flygon
+|-resisted|p2a: Flygon
+|-damage|p2a: Flygon|51/100 brn
+|
+|-heal|p2a: Flygon|57/100 brn|[from] item: Leftovers
+|-damage|p2a: Flygon|45/100 brn|[from] brn
+|upkeep
+|turn|36
+|choice|move flamethrower|move roost
+|
+|move|p2a: Flygon|Roost|p2a: Flygon
+|-heal|p2a: Flygon|95/100 brn
+|move|p1a: Togetic|Flamethrower|p2a: Flygon
+|-resisted|p2a: Flygon
+|-damage|p2a: Flygon|86/100 brn
+|
+|-heal|p2a: Flygon|93/100 brn|[from] item: Leftovers
+|-damage|p2a: Flygon|80/100 brn|[from] brn
+|upkeep
+|turn|37
+|c|☆chris meh|burn :)))
+|c| Jojo Meh|Turn 37
+|c|☆Drewgamer|:((
+|choice|move flamethrower|move uturn
+|
+|move|p2a: Flygon|U-turn|p1a: Togetic
+|-resisted|p1a: Togetic
+|-damage|p1a: Togetic|69/100
+|move|p1a: Togetic|Flamethrower|p2a: Flygon
+|-resisted|p2a: Flygon
+|-damage|p2a: Flygon|72/100 brn
+|
+|-heal|p2a: Flygon|78/100 brn|[from] item: Leftovers
+|-damage|p2a: Flygon|66/100 brn|[from] brn
+|upkeep
+|turn|38
+|c|☆chris meh|yus i got a roost out
+|c|☆chris meh|of him
+|choice|move flamethrower|move uturn
+|
+|move|p2a: Flygon|U-turn|p1a: Togetic
+|-resisted|p1a: Togetic
+|-damage|p1a: Togetic|68/100
+|move|p1a: Togetic|Flamethrower|p2a: Flygon
+|-resisted|p2a: Flygon
+|-damage|p2a: Flygon|58/100 brn
+|
+|-heal|p2a: Flygon|64/100 brn|[from] item: Leftovers
+|-damage|p2a: Flygon|52/100 brn|[from] brn
+|upkeep
+|turn|39
+|c|☆chris meh|this is hilarious
+|c|☆Drewgamer|1% lol
+|c| Jojo Meh|pls kill him
+|choice|move flamethrower|move uturn
+|
+|move|p2a: Flygon|U-turn|p1a: Togetic
+|-resisted|p1a: Togetic
+|-damage|p1a: Togetic|66/100
+|move|p1a: Togetic|Flamethrower|p2a: Flygon
+|-resisted|p2a: Flygon
+|-damage|p2a: Flygon|44/100 brn
+|
+|-heal|p2a: Flygon|50/100 brn|[from] item: Leftovers
+|-damage|p2a: Flygon|38/100 brn|[from] brn
+|upkeep
+|turn|40
+|choice|move dazzlinggleam|move roost
+|
+|move|p2a: Flygon|Roost|p2a: Flygon
+|-heal|p2a: Flygon|88/100 brn
+|move|p1a: Togetic|Dazzling Gleam|p2a: Flygon
+|-supereffective|p2a: Flygon
+|-damage|p2a: Flygon|47/100 brn
+|
+|-heal|p2a: Flygon|53/100 brn|[from] item: Leftovers
+|-damage|p2a: Flygon|41/100 brn|[from] brn
+|upkeep
+|turn|41
+|c|☆Drewgamer|i should really just forfeit cause i can't win if u don't let me
+|choice|move flamethrower|move uturn
+|
+|move|p2a: Flygon|U-turn|p1a: Togetic
+|-resisted|p1a: Togetic
+|-damage|p1a: Togetic|65/100
+|move|p1a: Togetic|Flamethrower|p2a: Flygon
+|-resisted|p2a: Flygon
+|-damage|p2a: Flygon|33/100 brn
+|
+|-heal|p2a: Flygon|39/100 brn|[from] item: Leftovers
+|-damage|p2a: Flygon|26/100 brn|[from] brn
+|upkeep
+|turn|42
+|c|☆Drewgamer|but i'm not gonna
+|c|☆chris meh|even if i let u
+|c|☆chris meh|lol
+|c|☆chris meh|i dont think u could
+|choice|move roost|move uturn
+|
+|move|p2a: Flygon|U-turn|p1a: Togetic
+|-resisted|p1a: Togetic
+|-damage|p1a: Togetic|64/100
+|move|p1a: Togetic|Roost|p1a: Togetic
+|-heal|p1a: Togetic|100/100
+|
+|-heal|p2a: Flygon|32/100 brn|[from] item: Leftovers
+|-damage|p2a: Flygon|20/100 brn|[from] brn
+|upkeep
+|turn|43
+|c| Jojo Meh|no it's just not funny if you do
+|c|☆Drewgamer|probably right
+|choice|switch 3|move uturn
+|
+|switch|p1a: Eelektross|Eelektross, M|100/100
+|-damage|p1a: Eelektross|88/100|[from] Stealth Rock
+|move|p2a: Flygon|U-turn|p1a: Eelektross
+|-damage|p1a: Eelektross|80/100
+|
+|-heal|p2a: Flygon|26/100 brn|[from] item: Leftovers
+|-damage|p2a: Flygon|14/100 brn|[from] brn
+|upkeep
+|turn|44
+|c| Jojo Meh|eq
+|c|☆chris meh|no roost?
+|c|☆Drewgamer|roost
+|choice|switch 6|move roost
+|
+|switch|p1a: Smeargle|Smeargle, M|100/100
+|-damage|p1a: Smeargle|88/100|[from] Stealth Rock
+|move|p2a: Flygon|Roost|p2a: Flygon
+|-heal|p2a: Flygon|64/100 brn
+|
+|-heal|p2a: Flygon|70/100 brn|[from] item: Leftovers
+|-damage|p2a: Flygon|57/100 brn|[from] brn
+|upkeep
+|turn|45
+|c|☆chris meh|there u go
+|c| Jojo Meh|show your sets
+|choice|move darkvoid|move earthquake
+|
+|move|p1a: Smeargle|Dark Void|p2a: Flygon
+|-fail|p2a: Flygon
+|move|p2a: Flygon|Earthquake|p1a: Smeargle
+|-damage|p1a: Smeargle|44/100
+|
+|-heal|p2a: Flygon|63/100 brn|[from] item: Leftovers
+|-damage|p2a: Flygon|51/100 brn|[from] brn
+|upkeep
+|turn|46
+|c| Jojo Meh|ok
+|c| Jojo Meh|k tnks
+|choice|move stealthrock|move earthquake
+|
+|move|p1a: Smeargle|Stealth Rock|p2a: Flygon
+|-sidestart|p2: Drewgamer|move: Stealth Rock
+|move|p2a: Flygon|Earthquake|p1a: Smeargle
+|-damage|p1a: Smeargle|0 fnt
+|faint|p1a: Smeargle
+|
+|-heal|p2a: Flygon|57/100 brn|[from] item: Leftovers
+|-damage|p2a: Flygon|45/100 brn|[from] brn
+|upkeep
+|c| Jojo Meh|aww
+|c|☆Drewgamer|even if u help me, best outcome is 1-0 chris
+|c|☆chris meh|oh NO
+|choice|switch 6|
+|
+|switch|p1a: Eelektross|Eelektross, M|80/100
+|-damage|p1a: Eelektross|68/100|[from] Stealth Rock
+|turn|47
+|choice|move flamethrower|move roost
+|
+|move|p2a: Flygon|Roost|p2a: Flygon
+|-heal|p2a: Flygon|95/100 brn
+|move|p1a: Eelektross|Flamethrower|p2a: Flygon
+|-resisted|p2a: Flygon
+|-crit|p2a: Flygon
+|-damage|p2a: Flygon|77/100 brn
+|
+|-heal|p2a: Flygon|83/100 brn|[from] item: Leftovers
+|-damage|p2a: Flygon|70/100 brn|[from] brn
+|upkeep
+|turn|48
+|choice|move knockoff|move earthquake
+|
+|move|p2a: Flygon|Earthquake|p1a: Eelektross
+|-immune|p1a: Eelektross|[msg]|[from] ability: Levitate
+|move|p1a: Eelektross|Knock Off|p2a: Flygon
+|-damage|p2a: Flygon|47/100 brn
+|-enditem|p2a: Flygon|Leftovers|[from] move: Knock Off|[of] p1a: Eelektross
+|
+|-damage|p2a: Flygon|34/100 brn|[from] brn
+|upkeep
+|turn|49
+|c|☆chris meh|yes i got the lefties
+|choice|move gigadrain|move uturn
+|
+|move|p2a: Flygon|U-turn|p1a: Eelektross
+|-damage|p1a: Eelektross|59/100
+|move|p1a: Eelektross|Giga Drain|p2a: Flygon
+|-damage|p2a: Flygon|13/100 brn
+|-heal|p1a: Eelektross|70/100|[from] drain|[of] p2a: Flygon
+|
+|-damage|p2a: Flygon|0 fnt|[from] brn
+|upkeep
+|faint|p2a: Flygon
+|
+|win|chris meh
+|c|☆Drewgamer|aww
+|c|☆chris meh|whoops
+|c|☆Drewgamer|NOOOOOOO
+|c|☆chris meh|didnt mean to kill
+|c|☆chris meh|cmon
+|c|☆chris meh|wheres the roost at
+|c|☆chris meh|?
+|c|☆Drewgamer|forgot to roost
+|c|☆Drewgamer|lol
+|c|☆Drewgamer|GG
+|c|☆chris meh|how do you "Forget" XD
+|c|☆chris meh|gg
+|c| Jojo Meh|my ****** is on fire
+|l|chris meh

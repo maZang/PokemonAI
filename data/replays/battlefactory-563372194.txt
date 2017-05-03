@@ -1,0 +1,385 @@
+|j|Sheikxlove
+|j|AchtungFreud
+|player|p1|Sheikxlove|25
+|player|p2|AchtungFreud|244
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|56012,23139,27730,39638,49838,15109,19131,3527,23423,10507,47161,45033
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Ampharos, M|item
+|poke|p1|Seaking, M|item
+|poke|p1|Gourgeist-*, M|item
+|poke|p1|Pawniard, M|item
+|poke|p1|Grumpig, M|item
+|poke|p1|Ninetales, M|item
+|poke|p2|Regice|item
+|poke|p2|Marowak, M|item
+|poke|p2|Armaldo, M|item
+|poke|p2|Simisage, M|item
+|poke|p2|Raichu, M|item
+|poke|p2|Simipour, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 2, team 1, team 3, team 4, team 5, team 6|team 4, team 2, team 3, team 1, team 5, team 6
+|
+|start
+|switch|p1a: Seaking|Seaking, M|100/100
+|switch|p2a: Simisage|Simisage, M|100/100
+|turn|1
+|choice|switch 6|move knockoff
+|
+|switch|p1a: Ninetales|Ninetales, M|100/100
+|move|p2a: Simisage|Knock Off|p1a: Ninetales
+|-damage|p1a: Ninetales|49/100
+|-enditem|p1a: Ninetales|Passho Berry|[from] move: Knock Off|[of] p2a: Simisage
+|-damage|p2a: Simisage|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|2
+|choice|move fireblast|move gunkshot
+|
+|move|p2a: Simisage|Gunk Shot|p1a: Ninetales
+|-crit|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|-damage|p2a: Simisage|81/100|[from] item: Life Orb
+|faint|p1a: Ninetales
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Gourgeist|Gourgeist-Super, M|100/100
+|-item|p2a: Simisage|Life Orb|[from] ability: Frisk|[of] p1a: Gourgeist|[identify]
+|turn|3
+|choice|move willowisp|move knockoff
+|
+|move|p2a: Simisage|Knock Off|p1a: Gourgeist
+|-supereffective|p1a: Gourgeist
+|-damage|p1a: Gourgeist|62/100
+|-enditem|p1a: Gourgeist|Leftovers|[from] move: Knock Off|[of] p2a: Simisage
+|-damage|p2a: Simisage|71/100|[from] item: Life Orb
+|move|p1a: Gourgeist|Will-O-Wisp|p2a: Simisage
+|-status|p2a: Simisage|brn
+|
+|-damage|p2a: Simisage|59/100 brn|[from] brn
+|upkeep
+|turn|4
+|choice|move synthesis|switch 4
+|
+|switch|p2a: Regice|Regice|100/100
+|move|p1a: Gourgeist|Synthesis|p1a: Gourgeist
+|-heal|p1a: Gourgeist|100/100
+|
+|upkeep
+|turn|5
+|choice|switch 4|switch 2
+|
+|switch|p1a: Pawniard|Pawniard, M|100/100
+|switch|p2a: Marowak|Marowak, M|100/100
+|
+|upkeep
+|turn|6
+|choice|switch 4|move stealthrock
+|
+|switch|p1a: Gourgeist|Gourgeist-Super, M|100/100
+|-item|p2a: Marowak|Thick Club|[from] ability: Frisk|[of] p1a: Gourgeist|[identify]
+|move|p2a: Marowak|Stealth Rock|p1a: Gourgeist
+|-sidestart|p1: Sheikxlove|move: Stealth Rock
+|
+|upkeep
+|turn|7
+|choice|move foulplay|switch 4
+|
+|switch|p2a: Simisage|Simisage, M|59/100 brn
+|move|p1a: Gourgeist|Foul Play|p2a: Simisage
+|-damage|p2a: Simisage|15/100 brn
+|
+|-damage|p2a: Simisage|3/100 brn|[from] brn
+|upkeep
+|turn|8
+|choice|move synthesis|move leafstorm
+|
+|move|p2a: Simisage|Leaf Storm|p1a: Gourgeist
+|-resisted|p1a: Gourgeist
+|-damage|p1a: Gourgeist|54/100
+|-unboost|p2a: Simisage|spa|2
+|-damage|p2a: Simisage|0 fnt|[from] item: Life Orb
+|faint|p2a: Simisage
+|move|p1a: Gourgeist|Synthesis|p1a: Gourgeist
+|-heal|p1a: Gourgeist|100/100
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Regice|Regice|100/100
+|turn|9
+|choice|move willowisp|move icebeam
+|
+|move|p1a: Gourgeist|Will-O-Wisp|p2a: Regice
+|-status|p2a: Regice|brn
+|move|p2a: Regice|Ice Beam|p1a: Gourgeist
+|-supereffective|p1a: Gourgeist
+|-damage|p1a: Gourgeist|2/100
+|
+|-damage|p2a: Regice|88/100 brn|[from] brn
+|upkeep
+|turn|10
+|choice|move synthesis|move thunderbolt
+|
+|move|p1a: Gourgeist|Synthesis|p1a: Gourgeist
+|-heal|p1a: Gourgeist|52/100
+|move|p2a: Regice|Thunderbolt|p1a: Gourgeist
+|-resisted|p1a: Gourgeist
+|-damage|p1a: Gourgeist|36/100
+|
+|-heal|p2a: Regice|94/100 brn|[from] item: Leftovers
+|-damage|p2a: Regice|82/100 brn|[from] brn
+|upkeep
+|turn|11
+|choice|switch 6|move icebeam
+|
+|switch|p1a: Seaking|Seaking, M|100/100
+|-damage|p1a: Seaking|88/100|[from] Stealth Rock
+|move|p2a: Regice|Ice Beam|p1a: Seaking
+|-resisted|p1a: Seaking
+|-crit|p1a: Seaking
+|-damage|p1a: Seaking|49/100
+|
+|-heal|p1a: Seaking|55/100|[from] item: Leftovers
+|-heal|p2a: Regice|88/100 brn|[from] item: Leftovers
+|-damage|p2a: Regice|75/100 brn|[from] brn
+|upkeep
+|turn|12
+|choice|move knockoff|switch 6
+|
+|switch|p2a: Simipour|Simipour, M|100/100
+|move|p1a: Seaking|Knock Off|p2a: Simipour
+|-damage|p2a: Simipour|45/100
+|-enditem|p2a: Simipour|Choice Scarf|[from] move: Knock Off|[of] p1a: Seaking
+|
+|-heal|p1a: Seaking|61/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|choice|move megahorn|move knockoff
+|
+|move|p2a: Simipour|Knock Off|p1a: Seaking
+|-damage|p1a: Seaking|28/100
+|-enditem|p1a: Seaking|Leftovers|[from] move: Knock Off|[of] p2a: Simipour
+|move|p1a: Seaking|Megahorn|p2a: Simipour
+|-damage|p2a: Simipour|0 fnt
+|faint|p2a: Simipour
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Armaldo|Armaldo, M|100/100
+|turn|14
+|choice|move protect|move earthquake
+|
+|move|p1a: Seaking|Protect|p1a: Seaking
+|-singleturn|p1a: Seaking|Protect
+|move|p2a: Armaldo|Earthquake|p1a: Seaking
+|-activate|p1a: Seaking|move: Protect
+|
+|upkeep
+|turn|15
+|choice|move waterfall|move stoneedge
+|
+|move|p1a: Seaking|Waterfall|p2a: Armaldo
+|-supereffective|p2a: Armaldo
+|-damage|p2a: Armaldo|26/100
+|move|p2a: Armaldo|Stone Edge|p1a: Seaking
+|-damage|p1a: Seaking|0 fnt
+|faint|p1a: Seaking
+|
+|-heal|p2a: Armaldo|32/100|[from] item: Leftovers
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Pawniard|Pawniard, M|100/100
+|-damage|p1a: Pawniard|94/100|[from] Stealth Rock
+|turn|16
+|choice|move swordsdance|switch 4
+|
+|switch|p2a: Marowak|Marowak, M|100/100
+|move|p1a: Pawniard|Swords Dance|p1a: Pawniard
+|-boost|p1a: Pawniard|atk|2
+|
+|upkeep
+|turn|17
+|choice|move knockoff|move bonemerang
+|
+|move|p1a: Pawniard|Knock Off|p2a: Marowak
+|-damage|p2a: Marowak|5/100
+|-enditem|p2a: Marowak|Thick Club|[from] move: Knock Off|[of] p1a: Pawniard
+|move|p2a: Marowak|Bonemerang|p1a: Pawniard
+|-supereffective|p1a: Pawniard
+|-damage|p1a: Pawniard|38/100
+|-supereffective|p1a: Pawniard
+|-damage|p1a: Pawniard|0 fnt
+|-hitcount|p1a: Pawniard|2
+|faint|p1a: Pawniard
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Gourgeist|Gourgeist-Super, M|36/100
+|-damage|p1a: Gourgeist|24/100|[from] Stealth Rock
+|turn|18
+|choice|move synthesis|move knockoff
+|
+|move|p2a: Marowak|Knock Off|p1a: Gourgeist
+|-supereffective|p1a: Gourgeist
+|-damage|p1a: Gourgeist|5/100
+|move|p1a: Gourgeist|Synthesis|p1a: Gourgeist
+|-heal|p1a: Gourgeist|55/100
+|
+|upkeep
+|turn|19
+|choice|move willowisp|switch 4
+|
+|switch|p2a: Armaldo|Armaldo, M|32/100
+|move|p1a: Gourgeist|Will-O-Wisp|p2a: Armaldo
+|-status|p2a: Armaldo|brn
+|
+|-heal|p2a: Armaldo|38/100 brn|[from] item: Leftovers
+|-damage|p2a: Armaldo|26/100 brn|[from] brn
+|upkeep
+|turn|20
+|choice|move synthesis|move knockoff
+|
+|move|p1a: Gourgeist|Synthesis|p1a: Gourgeist
+|-heal|p1a: Gourgeist|100/100
+|move|p2a: Armaldo|Knock Off|p1a: Gourgeist
+|-supereffective|p1a: Gourgeist
+|-damage|p1a: Gourgeist|87/100
+|
+|-heal|p2a: Armaldo|32/100 brn|[from] item: Leftovers
+|-damage|p2a: Armaldo|19/100 brn|[from] brn
+|upkeep
+|turn|21
+|choice|move foulplay|move knockoff
+|
+|move|p1a: Gourgeist|Foul Play|p2a: Armaldo
+|-damage|p2a: Armaldo|0 fnt
+|faint|p2a: Armaldo
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Regice|Regice|75/100 brn
+|turn|22
+|choice|switch 5|move icebeam
+|
+|switch|p1a: Grumpig|Grumpig, M|100/100
+|-damage|p1a: Grumpig|88/100|[from] Stealth Rock
+|move|p2a: Regice|Ice Beam|p1a: Grumpig
+|-damage|p1a: Grumpig|68/100
+|-status|p1a: Grumpig|frz
+|
+|-heal|p2a: Regice|81/100 brn|[from] item: Leftovers
+|-damage|p2a: Regice|69/100 brn|[from] brn
+|upkeep
+|turn|23
+|choice|move focusblast|switch 4
+|
+|switch|p2a: Marowak|Marowak, M|5/100
+|cant|p1a: Grumpig|frz
+|
+|upkeep
+|turn|24
+|choice|switch 5|switch 4
+|
+|switch|p1a: Gourgeist|Gourgeist-Super, M|87/100
+|-damage|p1a: Gourgeist|74/100|[from] Stealth Rock
+|switch|p2a: Regice|Regice|69/100 brn
+|
+|-heal|p2a: Regice|75/100 brn|[from] item: Leftovers
+|-damage|p2a: Regice|63/100 brn|[from] brn
+|upkeep
+|turn|25
+|choice|move foulplay|move icebeam
+|
+|move|p1a: Gourgeist|Foul Play|p2a: Regice
+|-damage|p2a: Regice|54/100 brn
+|move|p2a: Regice|Ice Beam|p1a: Gourgeist
+|-supereffective|p1a: Gourgeist
+|-damage|p1a: Gourgeist|0 fnt
+|faint|p1a: Gourgeist
+|
+|-heal|p2a: Regice|60/100 brn|[from] item: Leftovers
+|-damage|p2a: Regice|48/100 brn|[from] brn
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Ampharos|Ampharos, M|100/100
+|-damage|p1a: Ampharos|88/100|[from] Stealth Rock
+|turn|26
+|choice|move focusblast|move icebeam
+|
+|move|p1a: Ampharos|Focus Blast|p2a: Regice
+|-supereffective|p2a: Regice
+|-damage|p2a: Regice|0 fnt
+|-damage|p1a: Ampharos|78/100|[from] item: Life Orb
+|faint|p2a: Regice
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Raichu|Raichu, M|100/100
+|turn|27
+|choice|move focusblast|move surf
+|
+|move|p2a: Raichu|Surf|p1a: Ampharos
+|-damage|p1a: Ampharos|39/100
+|-damage|p2a: Raichu|91/100|[from] item: Life Orb
+|move|p1a: Ampharos|Focus Blast|p2a: Raichu|[miss]
+|-miss|p1a: Ampharos|p2a: Raichu
+|
+|upkeep
+|turn|28
+|choice|move focusblast|move surf
+|
+|move|p2a: Raichu|Surf|p1a: Ampharos
+|-damage|p1a: Ampharos|1/100
+|-damage|p2a: Raichu|81/100|[from] item: Life Orb
+|move|p1a: Ampharos|Focus Blast|p2a: Raichu
+|-damage|p2a: Raichu|0 fnt
+|-damage|p1a: Ampharos|0 fnt|[from] item: Life Orb
+|faint|p2a: Raichu
+|faint|p1a: Ampharos
+|
+|upkeep
+|choice|switch 5|switch 4
+|
+|switch|p1a: Grumpig|Grumpig, M|68/100 frz
+|switch|p2a: Marowak|Marowak, M|5/100
+|-damage|p1a: Grumpig|55/100 frz|[from] Stealth Rock
+|turn|29
+|choice|move focusblast|move knockoff
+|
+|cant|p1a: Grumpig|frz
+|move|p2a: Marowak|Knock Off|p1a: Grumpig
+|-supereffective|p1a: Grumpig
+|-enditem|p1a: Grumpig|Colbur Berry|[eat]
+|-enditem|p1a: Grumpig|Colbur Berry|[weaken]
+|-damage|p1a: Grumpig|17/100 frz
+|
+|upkeep
+|turn|30
+|choice|move psychic|move knockoff
+|
+|cant|p1a: Grumpig|frz
+|move|p2a: Marowak|Knock Off|p1a: Grumpig
+|-supereffective|p1a: Grumpig
+|-damage|p1a: Grumpig|0 fnt
+|faint|p1a: Grumpig
+|
+|win|AchtungFreud
+|raw|Sheikxlove's rating: 1097 &rarr; <strong>1089</strong><br />(-8 for losing)
+|raw|AchtungFreud's rating: 1382 &rarr; <strong>1389</strong><br />(+7 for winning)
+|c|☆Sheikxlove|awesome game
+|l|AchtungFreud

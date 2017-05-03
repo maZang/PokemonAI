@@ -1,0 +1,558 @@
+|j|once a trevor
+|j|TheJoker92
+|player|p1|once a trevor|217
+|player|p2|TheJoker92|290
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|28776,65474,24098,26296,224,5847,19525,6533,11981,39337,48252,13852
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Whimsicott, M|item
+|poke|p1|Snorlax, M|item
+|poke|p1|Honchkrow, M|item
+|poke|p1|Krookodile, M|item
+|poke|p1|Toxicroak, M|item
+|poke|p1|Tentacruel, M|item
+|poke|p2|Arcanine, M|item
+|poke|p2|Beedrill, M|item
+|poke|p2|Cloyster, M|item
+|poke|p2|Kyurem|item
+|poke|p2|Swampert, M|item
+|poke|p2|Porygon-Z|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 4, team 2, team 3, team 1, team 5, team 6|team 2, team 1, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Krookodile|Krookodile, M|100/100
+|switch|p2a: Beedrill|Beedrill, M|100/100
+|-ability|p1a: Krookodile|Intimidate|boost
+|-unboost|p2a: Beedrill|atk|1
+|turn|1
+|choice|move stealthrock|move uturn mega
+|
+|detailschange|p2a: Beedrill|Beedrill-Mega, M
+|-mega|p2a: Beedrill|Beedrill|Beedrillite
+|move|p2a: Beedrill|U-turn|p1a: Krookodile
+|-supereffective|p1a: Krookodile
+|-damage|p1a: Krookodile|42/100
+|choice||switch 3
+|
+|switch|p2a: Cloyster|Cloyster, M|100/100
+|move|p1a: Krookodile|Stealth Rock|p2a: Cloyster
+|-sidestart|p2: TheJoker92|move: Stealth Rock
+|
+|-heal|p1a: Krookodile|49/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|choice|move taunt|move iciclespear
+|
+|move|p2a: Cloyster|Icicle Spear|p1a: Krookodile
+|-supereffective|p1a: Krookodile
+|-damage|p1a: Krookodile|34/100
+|-supereffective|p1a: Krookodile
+|-damage|p1a: Krookodile|19/100
+|-supereffective|p1a: Krookodile
+|-damage|p1a: Krookodile|5/100
+|-supereffective|p1a: Krookodile
+|-damage|p1a: Krookodile|0 fnt
+|-hitcount|p1a: Krookodile|4
+|faint|p1a: Krookodile
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Toxicroak|Toxicroak, M|100/100
+|turn|3
+|choice|move drainpunch|move rapidspin
+|
+|move|p1a: Toxicroak|Drain Punch|p2a: Cloyster
+|-supereffective|p2a: Cloyster
+|-damage|p2a: Cloyster|32/100
+|-damage|p1a: Toxicroak|91/100|[from] item: Life Orb
+|move|p2a: Cloyster|Rapid Spin|p1a: Toxicroak
+|-damage|p1a: Toxicroak|81/100
+|-sideend|p2: TheJoker92|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Cloyster
+|
+|upkeep
+|turn|4
+|choice|move gunkshot|switch 2
+|
+|switch|p2a: Arcanine|Arcanine, M|100/100
+|-ability|p2a: Arcanine|Intimidate|boost
+|-unboost|p1a: Toxicroak|atk|1
+|move|p1a: Toxicroak|Gunk Shot|p2a: Arcanine
+|-damage|p2a: Arcanine|68/100
+|-damage|p1a: Toxicroak|72/100|[from] item: Life Orb
+|
+|-heal|p2a: Arcanine|74/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|choice|switch 6|move willowisp
+|
+|switch|p1a: Tentacruel|Tentacruel, M|100/100
+|move|p2a: Arcanine|Will-O-Wisp|p1a: Tentacruel
+|-status|p1a: Tentacruel|brn
+|
+|-heal|p2a: Arcanine|80/100|[from] item: Leftovers
+|-damage|p1a: Tentacruel|88/100 brn|[from] brn
+|upkeep
+|turn|6
+|choice|move scald|switch 5
+|
+|switch|p2a: Swampert|Swampert, M|100/100
+|move|p1a: Tentacruel|Scald|p2a: Swampert
+|-damage|p2a: Swampert|81/100
+|
+|-heal|p1a: Tentacruel|94/100 brn|[from] item: Black Sludge
+|-heal|p2a: Swampert|87/100|[from] item: Leftovers
+|-damage|p1a: Tentacruel|82/100 brn|[from] brn
+|upkeep
+|turn|7
+|choice|switch 4|move earthquake
+|
+|switch|p1a: Whimsicott|Whimsicott, M|100/100
+|move|p2a: Swampert|Earthquake|p1a: Whimsicott
+|-resisted|p1a: Whimsicott
+|-damage|p1a: Whimsicott|71/100
+|
+|-heal|p2a: Swampert|94/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|choice|move hiddenpower|switch 5
+|
+|switch|p2a: Arcanine|Arcanine, M|80/100
+|-ability|p2a: Arcanine|Intimidate|boost
+|-unboost|p1a: Whimsicott|atk|1
+|move|p1a: Whimsicott|Hidden Power|p2a: Arcanine
+|-resisted|p2a: Arcanine
+|-damage|p2a: Arcanine|69/100
+|-damage|p1a: Whimsicott|61/100|[from] item: Life Orb
+|
+|-heal|p2a: Arcanine|75/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|choice|switch 2|move flareblitz
+|
+|switch|p1a: Snorlax|Snorlax, M|100/100
+|move|p2a: Arcanine|Flare Blitz|p1a: Snorlax
+|-damage|p1a: Snorlax|82/100
+|-damage|p2a: Arcanine|67/100|[from] recoil|[of] p1a: Snorlax
+|
+|-heal|p2a: Arcanine|73/100|[from] item: Leftovers
+|-heal|p1a: Snorlax|88/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|choice|move curse|switch 5
+|
+|switch|p2a: Swampert|Swampert, M|94/100
+|move|p1a: Snorlax|Curse|p1a: Snorlax
+|-unboost|p1a: Snorlax|spe|1
+|-boost|p1a: Snorlax|atk|1
+|-boost|p1a: Snorlax|def|1
+|
+|-heal|p2a: Swampert|99/100|[from] item: Leftovers
+|-heal|p1a: Snorlax|95/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|choice|move bodyslam|move stealthrock
+|
+|move|p2a: Swampert|Stealth Rock|p1a: Snorlax
+|-sidestart|p1: once a trevor|move: Stealth Rock
+|move|p1a: Snorlax|Body Slam|p2a: Swampert
+|-damage|p2a: Swampert|68/100
+|
+|-heal|p2a: Swampert|74/100|[from] item: Leftovers
+|-heal|p1a: Snorlax|100/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|choice|move bodyslam|move roar
+|
+|move|p1a: Snorlax|Body Slam|p2a: Swampert
+|-damage|p2a: Swampert|45/100
+|move|p2a: Swampert|Roar|p1a: Snorlax
+|drag|p1a: Whimsicott|Whimsicott, M|61/100
+|-damage|p1a: Whimsicott|48/100|[from] Stealth Rock
+|
+|-heal|p2a: Swampert|51/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|choice|move gigadrain|switch 5
+|
+|switch|p2a: Arcanine|Arcanine, M|73/100
+|-ability|p2a: Arcanine|Intimidate|boost
+|-unboost|p1a: Whimsicott|atk|1
+|move|p1a: Whimsicott|Giga Drain|p2a: Arcanine
+|-resisted|p2a: Arcanine
+|-damage|p2a: Arcanine|55/100
+|-heal|p1a: Whimsicott|62/100|[from] drain|[of] p2a: Arcanine
+|-damage|p1a: Whimsicott|52/100|[from] item: Life Orb
+|
+|-heal|p2a: Arcanine|61/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|choice|switch 4|switch 3
+|
+|switch|p1a: Tentacruel|Tentacruel, M|82/100 brn
+|-damage|p1a: Tentacruel|69/100 brn|[from] Stealth Rock
+|switch|p2a: Beedrill|Beedrill-Mega, M|100/100
+|
+|-heal|p1a: Tentacruel|75/100 brn|[from] item: Black Sludge
+|-damage|p1a: Tentacruel|63/100 brn|[from] brn
+|upkeep
+|turn|15
+|choice|switch 4|move drillrun
+|
+|switch|p1a: Whimsicott|Whimsicott, M|52/100
+|-damage|p1a: Whimsicott|40/100|[from] Stealth Rock
+|move|p2a: Beedrill|Drill Run|p1a: Whimsicott|[miss]
+|-miss|p2a: Beedrill|p1a: Whimsicott
+|
+|upkeep
+|turn|16
+|choice|move encore|move protect
+|
+|move|p2a: Beedrill|Protect|p2a: Beedrill
+|-singleturn|p2a: Beedrill|Protect
+|move|p1a: Whimsicott|Encore|p2a: Beedrill
+|-activate|p2a: Beedrill|move: Protect
+|
+|upkeep
+|turn|17
+|choice|switch 2|switch 3
+|
+|switch|p2a: Arcanine|Arcanine, M|61/100
+|-ability|p2a: Arcanine|Intimidate|boost
+|-unboost|p1a: Whimsicott|atk|1
+|switch|p1a: Snorlax|Snorlax, M|100/100
+|-damage|p1a: Snorlax|88/100|[from] Stealth Rock
+|
+|-heal|p2a: Arcanine|67/100|[from] item: Leftovers
+|-heal|p1a: Snorlax|94/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|choice|move curse|move willowisp
+|
+|move|p2a: Arcanine|Will-O-Wisp|p1a: Snorlax
+|-status|p1a: Snorlax|brn
+|move|p1a: Snorlax|Curse|p1a: Snorlax
+|-unboost|p1a: Snorlax|spe|1
+|-boost|p1a: Snorlax|atk|1
+|-boost|p1a: Snorlax|def|1
+|
+|-heal|p2a: Arcanine|73/100|[from] item: Leftovers
+|-heal|p1a: Snorlax|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Snorlax|88/100 brn|[from] brn
+|upkeep
+|turn|19
+|choice|move curse|switch 5
+|
+|switch|p2a: Swampert|Swampert, M|51/100
+|move|p1a: Snorlax|Curse|p1a: Snorlax
+|-unboost|p1a: Snorlax|spe|1
+|-boost|p1a: Snorlax|atk|1
+|-boost|p1a: Snorlax|def|1
+|
+|-heal|p2a: Swampert|58/100|[from] item: Leftovers
+|-heal|p1a: Snorlax|94/100 brn|[from] item: Leftovers
+|-damage|p1a: Snorlax|82/100 brn|[from] brn
+|upkeep
+|turn|20
+|choice|move bodyslam|move roar
+|
+|move|p1a: Snorlax|Body Slam|p2a: Swampert
+|-damage|p2a: Swampert|39/100
+|-status|p2a: Swampert|par
+|move|p2a: Swampert|Roar|p1a: Snorlax
+|drag|p1a: Honchkrow|Honchkrow, M|100/100
+|-damage|p1a: Honchkrow|76/100|[from] Stealth Rock
+|
+|-heal|p2a: Swampert|45/100 par|[from] item: Leftovers
+|upkeep
+|turn|21
+|choice|move bravebird|switch 2
+|
+|switch|p2a: Cloyster|Cloyster, M|32/100
+|move|p1a: Honchkrow|Brave Bird|p2a: Cloyster
+|-crit|p2a: Cloyster
+|-damage|p2a: Cloyster|0 fnt
+|-damage|p1a: Honchkrow|68/100|[from] recoil|[of] p2a: Cloyster
+|-damage|p1a: Honchkrow|58/100|[from] item: Life Orb
+|faint|p2a: Cloyster
+|-ability|p1a: Honchkrow|Moxie|boost
+|-boost|p1a: Honchkrow|atk|1
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Arcanine|Arcanine, M|73/100
+|-ability|p2a: Arcanine|Intimidate|boost
+|-unboost|p1a: Honchkrow|atk|1
+|turn|22
+|choice|switch 4|move flareblitz
+|
+|switch|p1a: Tentacruel|Tentacruel, M|63/100 brn
+|-damage|p1a: Tentacruel|50/100 brn|[from] Stealth Rock
+|move|p2a: Arcanine|Flare Blitz|p1a: Tentacruel
+|-resisted|p1a: Tentacruel
+|-crit|p1a: Tentacruel
+|-damage|p1a: Tentacruel|19/100 brn
+|-damage|p2a: Arcanine|63/100|[from] recoil|[of] p1a: Tentacruel
+|
+|-heal|p1a: Tentacruel|25/100 brn|[from] item: Black Sludge
+|-heal|p2a: Arcanine|69/100|[from] item: Leftovers
+|-damage|p1a: Tentacruel|12/100 brn|[from] brn
+|upkeep
+|turn|23
+|choice|move rapidspin|move extremespeed
+|
+|move|p2a: Arcanine|Extreme Speed|p1a: Tentacruel
+|-damage|p1a: Tentacruel|0 fnt
+|faint|p1a: Tentacruel
+|
+|-heal|p2a: Arcanine|75/100|[from] item: Leftovers
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Snorlax|Snorlax, M|82/100 brn
+|-damage|p1a: Snorlax|69/100 brn|[from] Stealth Rock
+|turn|24
+|choice|move rest|switch 2
+|
+|switch|p2a: Swampert|Swampert, M|45/100 par
+|move|p1a: Snorlax|Rest|p1a: Snorlax
+|-status|p1a: Snorlax|slp
+|-heal|p1a: Snorlax|100/100 slp|[silent]
+|-status|p1a: Snorlax|slp|[from] move: Rest
+|
+|-heal|p2a: Swampert|51/100 par|[from] item: Leftovers
+|upkeep
+|turn|25
+|choice|move sleeptalk|move roar
+|
+|cant|p1a: Snorlax|slp
+|move|p1a: Snorlax|Sleep Talk|p1a: Snorlax
+|move|p1a: Snorlax|Curse|p1a: Snorlax|[from]Sleep Talk
+|-unboost|p1a: Snorlax|spe|1
+|-boost|p1a: Snorlax|atk|1
+|-boost|p1a: Snorlax|def|1
+|cant|p2a: Swampert|par
+|
+|-heal|p2a: Swampert|57/100 par|[from] item: Leftovers
+|upkeep
+|turn|26
+|choice|move sleeptalk|move roar
+|
+|cant|p1a: Snorlax|slp
+|move|p1a: Snorlax|Sleep Talk|p1a: Snorlax
+|move|p1a: Snorlax|Rest|p1a: Snorlax|[from]Sleep Talk
+|-fail|p1a: Snorlax
+|cant|p2a: Swampert|par
+|
+|-heal|p2a: Swampert|64/100 par|[from] item: Leftovers
+|upkeep
+|turn|27
+|choice|move bodyslam|move roar
+|
+|-curestatus|p1a: Snorlax|slp|[msg]
+|move|p1a: Snorlax|Body Slam|p2a: Swampert
+|-damage|p2a: Swampert|35/100 par
+|move|p2a: Swampert|Roar|p1a: Snorlax
+|drag|p1a: Whimsicott|Whimsicott, M|40/100
+|-damage|p1a: Whimsicott|27/100|[from] Stealth Rock
+|
+|-heal|p2a: Swampert|41/100 par|[from] item: Leftovers
+|upkeep
+|turn|28
+|choice|switch 2|switch 2
+|
+|switch|p1a: Snorlax|Snorlax, M|100/100
+|-damage|p1a: Snorlax|88/100|[from] Stealth Rock
+|switch|p2a: Arcanine|Arcanine, M|75/100
+|-ability|p2a: Arcanine|Intimidate|boost
+|-unboost|p1a: Snorlax|atk|1
+|
+|-heal|p2a: Arcanine|81/100|[from] item: Leftovers
+|-heal|p1a: Snorlax|94/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|choice|move curse|move willowisp
+|
+|move|p2a: Arcanine|Will-O-Wisp|p1a: Snorlax
+|-status|p1a: Snorlax|brn
+|move|p1a: Snorlax|Curse|p1a: Snorlax
+|-unboost|p1a: Snorlax|spe|1
+|-boost|p1a: Snorlax|atk|1
+|-boost|p1a: Snorlax|def|1
+|
+|-heal|p2a: Arcanine|87/100|[from] item: Leftovers
+|-heal|p1a: Snorlax|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Snorlax|88/100 brn|[from] brn
+|upkeep
+|turn|30
+|choice|move rest|switch 2
+|
+|switch|p2a: Swampert|Swampert, M|41/100 par
+|move|p1a: Snorlax|Rest|p1a: Snorlax
+|-status|p1a: Snorlax|slp
+|-heal|p1a: Snorlax|100/100 slp|[silent]
+|-status|p1a: Snorlax|slp|[from] move: Rest
+|
+|-heal|p2a: Swampert|47/100 par|[from] item: Leftovers
+|upkeep
+|turn|31
+|choice|move sleeptalk|move roar
+|
+|cant|p1a: Snorlax|slp
+|move|p1a: Snorlax|Sleep Talk|p1a: Snorlax
+|move|p1a: Snorlax|Rest|p1a: Snorlax|[from]Sleep Talk
+|-fail|p1a: Snorlax
+|move|p2a: Swampert|Roar|p1a: Snorlax
+|drag|p1a: Toxicroak|Toxicroak, M|72/100
+|-damage|p1a: Toxicroak|65/100|[from] Stealth Rock
+|
+|-heal|p2a: Swampert|54/100 par|[from] item: Leftovers
+|upkeep
+|turn|32
+|choice|move drainpunch|move earthquake
+|
+|move|p1a: Toxicroak|Drain Punch|p2a: Swampert
+|-damage|p2a: Swampert|26/100 par
+|-heal|p1a: Toxicroak|83/100|[from] drain|[of] p2a: Swampert
+|-damage|p1a: Toxicroak|73/100|[from] item: Life Orb
+|move|p2a: Swampert|Earthquake|p1a: Toxicroak
+|-supereffective|p1a: Toxicroak
+|-damage|p1a: Toxicroak|0 fnt
+|faint|p1a: Toxicroak
+|
+|-heal|p2a: Swampert|32/100 par|[from] item: Leftovers
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Honchkrow|Honchkrow, M|58/100
+|-damage|p1a: Honchkrow|33/100|[from] Stealth Rock
+|turn|33
+|choice|move bravebird|switch 2
+|
+|switch|p2a: Arcanine|Arcanine, M|87/100
+|-ability|p2a: Arcanine|Intimidate|boost
+|-unboost|p1a: Honchkrow|atk|1
+|move|p1a: Honchkrow|Brave Bird|p2a: Arcanine
+|-damage|p2a: Arcanine|46/100
+|-damage|p1a: Honchkrow|18/100|[from] recoil|[of] p2a: Arcanine
+|-damage|p1a: Honchkrow|8/100|[from] item: Life Orb
+|
+|-heal|p2a: Arcanine|52/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|choice|switch 6|move extremespeed
+|
+|switch|p1a: Snorlax|Snorlax, M|100/100 slp
+|-damage|p1a: Snorlax|88/100 slp|[from] Stealth Rock
+|move|p2a: Arcanine|Extreme Speed|p1a: Snorlax
+|-damage|p1a: Snorlax|74/100 slp
+|
+|-heal|p2a: Arcanine|58/100|[from] item: Leftovers
+|-heal|p1a: Snorlax|80/100 slp|[from] item: Leftovers
+|upkeep
+|turn|35
+|choice|move sleeptalk|switch 6
+|
+|switch|p2a: Porygon-Z|Porygon-Z|100/100
+|cant|p1a: Snorlax|slp
+|move|p1a: Snorlax|Sleep Talk|p1a: Snorlax
+|move|p1a: Snorlax|Body Slam|p2a: Porygon-Z|[from]Sleep Talk
+|-damage|p2a: Porygon-Z|51/100
+|-status|p2a: Porygon-Z|par
+|
+|-heal|p1a: Snorlax|86/100 slp|[from] item: Leftovers
+|upkeep
+|turn|36
+|choice|switch 2|move trick
+|
+|switch|p1a: Whimsicott|Whimsicott, M|27/100
+|-damage|p1a: Whimsicott|15/100|[from] Stealth Rock
+|move|p2a: Porygon-Z|Trick|p1a: Whimsicott
+|-activate|p2a: Porygon-Z|move: Trick|[of] p1a: Whimsicott
+|-item|p1a: Whimsicott|Choice Scarf|[from] move: Trick
+|-item|p2a: Porygon-Z|Life Orb|[from] move: Trick
+|
+|upkeep
+|turn|37
+|choice|move moonblast|switch 6
+|
+|switch|p2a: Arcanine|Arcanine, M|58/100
+|-ability|p2a: Arcanine|Intimidate|boost
+|-unboost|p1a: Whimsicott|atk|1
+|move|p1a: Whimsicott|Moonblast|p2a: Arcanine
+|-resisted|p2a: Arcanine
+|-damage|p2a: Arcanine|40/100
+|
+|-heal|p2a: Arcanine|46/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|choice|switch 2|move extremespeed
+|
+|switch|p1a: Snorlax|Snorlax, M|86/100 slp
+|-damage|p1a: Snorlax|74/100 slp|[from] Stealth Rock
+|move|p2a: Arcanine|Extreme Speed|p1a: Snorlax
+|-damage|p1a: Snorlax|58/100 slp
+|
+|-heal|p2a: Arcanine|52/100|[from] item: Leftovers
+|-heal|p1a: Snorlax|64/100 slp|[from] item: Leftovers
+|upkeep
+|turn|39
+|choice|move sleeptalk|switch 3
+|
+|switch|p2a: Beedrill|Beedrill-Mega, M|100/100
+|-curestatus|p1a: Snorlax|slp|[msg]
+|move|p1a: Snorlax|Sleep Talk|p1a: Snorlax
+|-fail|p1a: Snorlax
+|
+|-heal|p1a: Snorlax|70/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|choice|move rest|move poisonjab
+|
+|move|p2a: Beedrill|Poison Jab|p1a: Snorlax
+|-damage|p1a: Snorlax|21/100
+|move|p1a: Snorlax|Rest|p1a: Snorlax
+|-status|p1a: Snorlax|slp
+|-heal|p1a: Snorlax|100/100 slp|[silent]
+|-status|p1a: Snorlax|slp|[from] move: Rest
+|
+|upkeep
+|turn|41
+|choice|move sleeptalk|move poisonjab
+|
+|move|p2a: Beedrill|Poison Jab|p1a: Snorlax
+|-damage|p1a: Snorlax|50/100 slp
+|cant|p1a: Snorlax|slp
+|move|p1a: Snorlax|Sleep Talk|p1a: Snorlax
+|move|p1a: Snorlax|Rest|p1a: Snorlax|[from]Sleep Talk
+|-fail|p1a: Snorlax
+|
+|-heal|p1a: Snorlax|56/100 slp|[from] item: Leftovers
+|upkeep
+|turn|42
+|choice|move sleeptalk|move poisonjab
+|
+|move|p2a: Beedrill|Poison Jab|p1a: Snorlax
+|-damage|p1a: Snorlax|8/100 slp
+|cant|p1a: Snorlax|slp
+|move|p1a: Snorlax|Sleep Talk|p1a: Snorlax
+|move|p1a: Snorlax|Rest|p1a: Snorlax|[from]Sleep Talk
+|-fail|p1a: Snorlax
+|
+|-heal|p1a: Snorlax|14/100 slp|[from] item: Leftovers
+|upkeep
+|turn|43
+|-message|once a trevor forfeited.
+|
+|win|TheJoker92
+|l|once a trevor
+|raw|once a trevor's rating: 1289 &rarr; <strong>1260</strong><br />(-29 for losing)
+|raw|TheJoker92's rating: 1229 &rarr; <strong>1259</strong><br />(+30 for winning)

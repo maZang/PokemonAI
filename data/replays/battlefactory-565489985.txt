@@ -1,0 +1,199 @@
+|j|Star Blue uwur
+|j|AnsatsuKun
+|player|p1|Star Blue uwur|211
+|player|p2|AnsatsuKun|190
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|53168,59488,57793,25231,53386,10394,7118,42401,19858,34749,17375,43524
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Camerupt, M|item
+|poke|p1|Fraxure, M|item
+|poke|p1|Ninetales, M|item
+|poke|p1|Swanna, M|item
+|poke|p1|Tangela, M|item
+|poke|p1|Grumpig, M|item
+|poke|p2|Basculin, M|item
+|poke|p2|Clefairy, M|item
+|poke|p2|Marowak, M|item
+|poke|p2|Fraxure, M|item
+|poke|p2|Misdreavus, M|item
+|poke|p2|Avalugg, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|j|SAbrewolf1
+|c| SAbrewolf1|hi
+|c|☆Star Blue uwur|K wea
+|c| SAbrewolf1|nice to meet you
+|choice|team 6, team 2, team 3, team 4, team 5, team 1|team 5, team 2, team 3, team 4, team 1, team 6
+|
+|start
+|switch|p1a: Grumpig|Grumpig, M|100/100
+|switch|p2a: Misdreavus|Misdreavus, M|100/100
+|turn|1
+|l|SAbrewolf1
+|choice|switch 3|move foulplay
+|
+|switch|p1a: Ninetales|Ninetales, M|100/100
+|move|p2a: Misdreavus|Foul Play|p1a: Ninetales
+|-damage|p1a: Ninetales|79/100
+|
+|-heal|p1a: Ninetales|84/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|choice|move nastyplot|switch 5
+|
+|switch|p2a: Basculin|Basculin, M|100/100
+|move|p1a: Ninetales|Nasty Plot|p1a: Ninetales
+|-boost|p1a: Ninetales|spa|2
+|
+|-heal|p1a: Ninetales|90/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|choice|move energyball|move waterfall
+|
+|move|p1a: Ninetales|Energy Ball|p2a: Basculin
+|-supereffective|p2a: Basculin
+|-crit|p2a: Basculin
+|-damage|p2a: Basculin|0 fnt
+|faint|p2a: Basculin
+|
+|-heal|p1a: Ninetales|96/100|[from] item: Leftovers
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Marowak|Marowak, M|100/100
+|turn|4
+|choice|move energyball|move stoneedge
+|
+|move|p1a: Ninetales|Energy Ball|p2a: Marowak
+|-supereffective|p2a: Marowak
+|-damage|p2a: Marowak|0 fnt
+|faint|p2a: Marowak
+|
+|-heal|p1a: Ninetales|100/100|[from] item: Leftovers
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Clefairy|Clefairy, M|100/100
+|turn|5
+|choice|move fireblast|move knockoff
+|
+|move|p1a: Ninetales|Fire Blast|p2a: Clefairy
+|-crit|p2a: Clefairy
+|-damage|p2a: Clefairy|28/100
+|-status|p2a: Clefairy|brn
+|move|p2a: Clefairy|Knock Off|p1a: Ninetales
+|-damage|p1a: Ninetales|94/100
+|-enditem|p1a: Ninetales|Leftovers|[from] move: Knock Off|[of] p2a: Clefairy
+|
+|upkeep
+|turn|6
+|choice|move fireblast|move softboiled
+|
+|move|p1a: Ninetales|Fire Blast|p2a: Clefairy
+|-damage|p2a: Clefairy|0 fnt
+|faint|p2a: Clefairy
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Fraxure|Fraxure, M|100/100
+|-ability|p2a: Fraxure|Mold Breaker
+|turn|7
+|choice|move substitute|move outrage
+|
+|move|p1a: Ninetales|Substitute|p1a: Ninetales
+|-start|p1a: Ninetales|Substitute
+|-damage|p1a: Ninetales|69/100
+|move|p2a: Fraxure|Outrage|p1a: Ninetales
+|-end|p1a: Ninetales|Substitute
+|
+|upkeep
+|turn|8
+|choice|move substitute|move outrage
+|
+|move|p1a: Ninetales|Substitute|p1a: Ninetales
+|-start|p1a: Ninetales|Substitute
+|-damage|p1a: Ninetales|45/100
+|move|p2a: Fraxure|Outrage|p1a: Ninetales|[from]lockedmove
+|-end|p1a: Ninetales|Substitute
+|
+|upkeep
+|turn|9
+|choice|move substitute|move outrage
+|
+|move|p1a: Ninetales|Substitute|p1a: Ninetales
+|-start|p1a: Ninetales|Substitute
+|-damage|p1a: Ninetales|20/100
+|move|p2a: Fraxure|Outrage|p1a: Ninetales|[from]lockedmove
+|-end|p1a: Ninetales|Substitute
+|-start|p2a: Fraxure|confusion|[fatigue]
+|
+|upkeep
+|turn|10
+|choice|move fireblast|move poisonjab
+|
+|move|p1a: Ninetales|Fire Blast|p2a: Fraxure
+|-resisted|p2a: Fraxure
+|-damage|p2a: Fraxure|43/100
+|-activate|p2a: Fraxure|confusion
+|-damage|p2a: Fraxure|28/100|[from] confusion
+|
+|upkeep
+|turn|11
+|choice|move fireblast|move poisonjab
+|
+|move|p1a: Ninetales|Fire Blast|p2a: Fraxure
+|-resisted|p2a: Fraxure
+|-damage|p2a: Fraxure|0 fnt
+|faint|p2a: Fraxure
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Misdreavus|Misdreavus, M|100/100
+|turn|12
+|choice|move fireblast|move taunt
+|
+|move|p1a: Ninetales|Fire Blast|p2a: Misdreavus
+|-damage|p2a: Misdreavus|35/100
+|move|p2a: Misdreavus|Taunt|p1a: Ninetales
+|-start|p1a: Ninetales|move: Taunt
+|
+|upkeep
+|turn|13
+|choice|move fireblast|move foulplay
+|
+|move|p1a: Ninetales|Fire Blast|p2a: Misdreavus
+|-damage|p2a: Misdreavus|0 fnt
+|faint|p2a: Misdreavus
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Avalugg|Avalugg, M|100/100
+|turn|14
+|choice|move fireblast|move rapidspin
+|
+|move|p1a: Ninetales|Fire Blast|p2a: Avalugg
+|-supereffective|p2a: Avalugg
+|-ability|p2a: Avalugg|Sturdy
+|-damage|p2a: Avalugg|1/100
+|move|p2a: Avalugg|Rapid Spin|p1a: Ninetales
+|-damage|p1a: Ninetales|12/100
+|
+|-heal|p2a: Avalugg|7/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|choice|move fireblast|move roar
+|
+|move|p1a: Ninetales|Fire Blast|p2a: Avalugg
+|-supereffective|p2a: Avalugg
+|-damage|p2a: Avalugg|0 fnt
+|faint|p2a: Avalugg
+|
+|win|Star Blue uwur
+|l|AnsatsuKun

@@ -1,0 +1,397 @@
+|j|all falls down ️
+|j|iGLACK
+|player|p1|all falls down ️|266
+|player|p2|iGLACK|128
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|45688,55715,40846,35481,38339,7848,36235,27922,49615,24178,15220,35051
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Deoxys-Defense|item
+|poke|p1|Blaziken, M|item
+|poke|p1|Scizor, M|item
+|poke|p1|Palkia|item
+|poke|p1|Kyogre|item
+|poke|p1|Arceus-*|item
+|poke|p2|Arceus-*|item
+|poke|p2|Latios, M|item
+|poke|p2|Groudon|item
+|poke|p2|Kyurem-White|item
+|poke|p2|Lugia|item
+|poke|p2|Mawile, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 1, team 2, team 3, team 4, team 5, team 6|team 3, team 2, team 1, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Deoxys|Deoxys-Defense|100/100
+|switch|p2a: Groudon|Groudon|100/100
+|-ability|p1a: Deoxys|Pressure
+|detailschange|p2a: Groudon|Groudon-Primal
+|-primal|p2a: Groudon
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p2a: Groudon
+|turn|1
+|choice|move spikes|move earthquake
+|
+|move|p2a: Groudon|Earthquake|p1a: Deoxys
+|-damage|p1a: Deoxys|60/100
+|move|p1a: Deoxys|Spikes|p2a: Groudon
+|-sidestart|p2: iGLACK|Spikes
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|2
+|choice|move recover|move stealthrock
+|
+|move|p2a: Groudon|Stealth Rock|p1a: Deoxys
+|-sidestart|p1: all falls down ️|move: Stealth Rock
+|move|p1a: Deoxys|Recover|p1a: Deoxys
+|-heal|p1a: Deoxys|100/100
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|3
+|choice|move spikes|move lavaplume
+|
+|move|p2a: Groudon|Lava Plume|p1a: Deoxys
+|-damage|p1a: Deoxys|72/100
+|move|p1a: Deoxys|Spikes|p2a: Groudon
+|-sidestart|p2: iGLACK|Spikes
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|4
+|choice|move recover|move roar
+|
+|move|p1a: Deoxys|Recover|p1a: Deoxys
+|-heal|p1a: Deoxys|100/100
+|move|p2a: Groudon|Roar|p1a: Deoxys
+|drag|p1a: Blaziken|Blaziken, M|100/100
+|-damage|p1a: Blaziken|88/100|[from] Stealth Rock
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|5
+|choice|switch 2|move earthquake
+|
+|switch|p1a: Deoxys|Deoxys-Defense|100/100
+|-damage|p1a: Deoxys|88/100|[from] Stealth Rock
+|-ability|p1a: Deoxys|Pressure
+|move|p2a: Groudon|Earthquake|p1a: Deoxys
+|-damage|p1a: Deoxys|45/100
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|6
+|choice|move spikes|move earthquake
+|
+|move|p2a: Groudon|Earthquake|p1a: Deoxys
+|-damage|p1a: Deoxys|4/100
+|move|p1a: Deoxys|Spikes|p2a: Groudon
+|-sidestart|p2: iGLACK|Spikes
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|7
+|choice|move toxic|move lavaplume
+|
+|move|p2a: Groudon|Lava Plume|p1a: Deoxys
+|-damage|p1a: Deoxys|0 fnt
+|faint|p1a: Deoxys
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Kyogre|Kyogre|100/100
+|-damage|p1a: Kyogre|88/100|[from] Stealth Rock
+|detailschange|p1a: Kyogre|Kyogre-Primal
+|-primal|p1a: Kyogre
+|-weather|PrimordialSea|[from] ability: Primordial Sea|[of] p1a: Kyogre
+|turn|8
+|choice|move originpulse|switch 5
+|
+|switch|p2a: Lugia|Lugia|100/100
+|move|p1a: Kyogre|Origin Pulse|p2a: Lugia
+|-damage|p2a: Lugia|66/100
+|
+|-weather|PrimordialSea|[upkeep]
+|-heal|p2a: Lugia|72/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|choice|move thunder|move roost
+|
+|move|p2a: Lugia|Roost|p2a: Lugia
+|-heal|p2a: Lugia|100/100
+|move|p1a: Kyogre|Thunder|p2a: Lugia
+|-damage|p2a: Lugia|85/100
+|
+|-weather|PrimordialSea|[upkeep]
+|-heal|p2a: Lugia|91/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|choice|move originpulse|move toxic
+|
+|move|p2a: Lugia|Toxic|p1a: Kyogre
+|-status|p1a: Kyogre|tox
+|move|p1a: Kyogre|Origin Pulse|p2a: Lugia
+|-damage|p2a: Lugia|28/100
+|
+|-weather|PrimordialSea|[upkeep]
+|-heal|p2a: Lugia|34/100|[from] item: Leftovers
+|-damage|p1a: Kyogre|82/100 tox|[from] psn
+|upkeep
+|turn|11
+|choice|move originpulse|move roost
+|
+|move|p2a: Lugia|Roost|p2a: Lugia
+|-heal|p2a: Lugia|85/100
+|move|p1a: Kyogre|Origin Pulse|p2a: Lugia
+|-damage|p2a: Lugia|20/100
+|
+|-weather|PrimordialSea|[upkeep]
+|-heal|p2a: Lugia|26/100|[from] item: Leftovers
+|-damage|p1a: Kyogre|69/100 tox|[from] psn
+|upkeep
+|turn|12
+|choice|switch 3|move roost
+|
+|-weather|none
+|switch|p1a: Scizor|Scizor, M|100/100
+|-damage|p1a: Scizor|88/100|[from] Stealth Rock
+|move|p2a: Lugia|Roost|p2a: Lugia
+|-heal|p2a: Lugia|76/100
+|
+|-heal|p2a: Lugia|82/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|choice|move toxic mega|move whirlwind
+|
+|detailschange|p1a: Scizor|Scizor-Mega, M
+|-mega|p1a: Scizor|Scizor|Scizorite
+|move|p1a: Scizor|Toxic|p2a: Lugia
+|-status|p2a: Lugia|tox
+|move|p2a: Lugia|Whirlwind|p1a: Scizor
+|drag|p1a: Kyogre|Kyogre-Primal|69/100 tox
+|-damage|p1a: Kyogre|57/100 tox|[from] Stealth Rock
+|-weather|PrimordialSea|[from] ability: Primordial Sea|[of] p1a: Kyogre
+|
+|-weather|PrimordialSea|[upkeep]
+|-heal|p2a: Lugia|88/100 tox|[from] item: Leftovers
+|-damage|p2a: Lugia|82/100 tox|[from] psn
+|-damage|p1a: Kyogre|51/100 tox|[from] psn
+|upkeep
+|turn|14
+|choice|move originpulse|move whirlwind
+|
+|move|p1a: Kyogre|Origin Pulse|p2a: Lugia
+|-damage|p2a: Lugia|8/100 tox
+|move|p2a: Lugia|Whirlwind|p1a: Kyogre
+|-weather|none
+|drag|p1a: Arceus|Arceus-Steel|100/100
+|-damage|p1a: Arceus|94/100|[from] Stealth Rock
+|
+|-heal|p2a: Lugia|14/100 tox|[from] item: Leftovers
+|-damage|p2a: Lugia|2/100 tox|[from] psn
+|upkeep
+|turn|15
+|choice|move swordsdance|move whirlwind
+|
+|move|p1a: Arceus|Swords Dance|p1a: Arceus
+|-boost|p1a: Arceus|atk|2
+|move|p2a: Lugia|Whirlwind|p1a: Arceus
+|drag|p1a: Palkia|Palkia|100/100
+|-damage|p1a: Palkia|88/100|[from] Stealth Rock
+|-ability|p1a: Palkia|Pressure
+|
+|-heal|p2a: Lugia|8/100 tox|[from] item: Leftovers
+|-damage|p2a: Lugia|0 fnt|[from] psn
+|upkeep
+|faint|p2a: Lugia
+|choice||switch 2
+|
+|switch|p2a: Latios|Latios, M|100/100
+|turn|16
+|choice|switch 3|move dracometeor
+|
+|switch|p1a: Scizor|Scizor-Mega, M|88/100
+|-damage|p1a: Scizor|76/100|[from] Stealth Rock
+|move|p2a: Latios|Draco Meteor|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|32/100
+|-unboost|p2a: Latios|spa|2
+|
+|upkeep
+|turn|17
+|choice|move roost|move defog
+|
+|move|p2a: Latios|Defog|p1a: Scizor
+|-unboost|p1a: Scizor|evasion|1
+|-sideend|p1: all falls down ️|Stealth Rock|[from] move: Defog|[of] p1a: Scizor
+|-sideend|p2: iGLACK|Spikes|[from] move: Defog|[of] p2a: Latios
+|move|p1a: Scizor|Roost|p1a: Scizor
+|-heal|p1a: Scizor|82/100
+|
+|upkeep
+|turn|18
+|choice|switch 4|switch 5
+|
+|switch|p2a: Groudon|Groudon-Primal|100/100
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p2a: Groudon
+|switch|p1a: Arceus|Arceus-Steel|94/100
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|19
+|choice|switch 3|move earthquake
+|
+|switch|p1a: Palkia|Palkia|88/100
+|-ability|p1a: Palkia|Pressure
+|move|p2a: Groudon|Earthquake|p1a: Palkia
+|-damage|p1a: Palkia|22/100
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|20
+|choice|move dracometeor|move stealthrock
+|
+|move|p1a: Palkia|Draco Meteor|p2a: Groudon
+|-damage|p2a: Groudon|18/100
+|-unboost|p1a: Palkia|spa|2
+|move|p2a: Groudon|Stealth Rock|p1a: Palkia
+|-sidestart|p1: all falls down ️|move: Stealth Rock
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|21
+|choice|move dracometeor|switch 6
+|
+|-weather|none
+|switch|p2a: Mawile|Mawile, M|100/100
+|-ability|p2a: Mawile|Intimidate|boost
+|-unboost|p1a: Palkia|atk|1
+|move|p1a: Palkia|Draco Meteor|p2a: Mawile
+|-immune|p2a: Mawile|[msg]
+|
+|upkeep
+|turn|22
+|choice|switch 4|move suckerpunch mega
+|
+|switch|p1a: Scizor|Scizor-Mega, M|82/100
+|-damage|p1a: Scizor|70/100|[from] Stealth Rock
+|detailschange|p2a: Mawile|Mawile-Mega, M
+|-mega|p2a: Mawile|Mawile|Mawilite
+|move|p2a: Mawile|Sucker Punch|p1a: Scizor|[still]
+|-fail|p2a: Mawile
+|
+|upkeep
+|turn|23
+|choice|move defog|move ironhead
+|
+|move|p1a: Scizor|Defog|p2a: Mawile
+|-unboost|p2a: Mawile|evasion|1
+|-sideend|p1: all falls down ️|Stealth Rock|[from] move: Defog|[of] p1a: Scizor
+|move|p2a: Mawile|Iron Head|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|50/100
+|
+|upkeep
+|turn|24
+|choice|move roost|move batonpass
+|
+|move|p1a: Scizor|Roost|p1a: Scizor
+|-heal|p1a: Scizor|99/100
+|move|p2a: Mawile|Baton Pass|p2a: Mawile
+|choice||switch 6
+|
+|switch|p2a: Groudon|Groudon-Primal|18/100
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p2a: Groudon
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|25
+|choice|move bulletpunch|move stealthrock
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Groudon
+|-resisted|p2a: Groudon
+|-damage|p2a: Groudon|11/100
+|move|p2a: Groudon|Stealth Rock|p1a: Scizor
+|-sidestart|p1: all falls down ️|move: Stealth Rock
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|26
+|choice|move bulletpunch|move lavaplume
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Groudon
+|-resisted|p2a: Groudon
+|-damage|p2a: Groudon|3/100
+|move|p2a: Groudon|Lava Plume|p1a: Scizor
+|-supereffective|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|faint|p1a: Scizor
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Arceus|Arceus-Steel|94/100
+|-damage|p1a: Arceus|88/100|[from] Stealth Rock
+|turn|27
+|choice|move ironhead|move earthquake
+|
+|move|p1a: Arceus|Iron Head|p2a: Groudon
+|-resisted|p2a: Groudon
+|-damage|p2a: Groudon|0 fnt
+|faint|p2a: Groudon
+|-weather|none
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Kyurem|Kyurem-White|100/100
+|-ability|p2a: Kyurem|Turboblaze
+|turn|28
+|choice|move swordsdance|move fusionflare
+|
+|move|p1a: Arceus|Swords Dance|p1a: Arceus
+|-boost|p1a: Arceus|atk|2
+|move|p2a: Kyurem|Fusion Flare|p1a: Arceus
+|-supereffective|p1a: Arceus
+|-damage|p1a: Arceus|0 fnt
+|faint|p1a: Arceus
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Blaziken|Blaziken, M|88/100
+|-damage|p1a: Blaziken|76/100|[from] Stealth Rock
+|turn|29
+|choice|move protect|switch 5
+|
+|switch|p2a: Latios|Latios, M|100/100
+|move|p1a: Blaziken|Protect|p1a: Blaziken
+|-fail|p1a: Blaziken
+|
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|turn|30
+|choice|move hiddenpower|move psyshock
+|
+|move|p1a: Blaziken|Hidden Power|p2a: Latios
+|-supereffective|p2a: Latios
+|-damage|p2a: Latios|71/100
+|-damage|p1a: Blaziken|66/100|[from] item: Life Orb
+|move|p2a: Latios|Psyshock|p1a: Blaziken
+|-supereffective|p1a: Blaziken
+|-damage|p1a: Blaziken|0 fnt
+|faint|p1a: Blaziken
+|
+|upkeep
+|-message|all falls down ️ forfeited.
+|
+|win|iGLACK
+|l|all falls down ️

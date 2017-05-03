@@ -1,0 +1,411 @@
+|J|Vileman
+|J|gGgGd
+|player|p1|Vileman|92
+|player|p2|gGgGd|101
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|16615,49769,61715,54706,64114,59324,7271,14521,17632,30640,32039,37758
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Simisear, M|item
+|poke|p1|Huntail, M|item
+|poke|p1|Mightyena, M|item
+|poke|p1|Vibrava, M|item
+|poke|p1|Armaldo, M|item
+|poke|p1|Ninjask, M|item
+|poke|p2|Mr. Mime, M|item
+|poke|p2|Monferno, M|item
+|poke|p2|Politoed, M|item
+|poke|p2|Grumpig, M|item
+|poke|p2|Armaldo, M|item
+|poke|p2|Stoutland, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|J|blarajan
+|L|blarajan
+|J|macle
+|L|macle
+|c|☆gGgGd|my main tier
+|c|☆gGgGd|nice
+|c|☆Vileman|i mained this for like
+|c|☆Vileman|a month
+|c|☆Vileman|shotouts ltpl
+|choice|team 6, team 2, team 3, team 4, team 5, team 1|team 3, team 2, team 1, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Ninjask|Ninjask, M|100/100
+|switch|p2a: Politoed|Politoed, M|100/100
+|turn|1
+|choice|move uturn|move perishsong
+|
+|move|p1a: Ninjask|U-turn|p2a: Politoed
+|-damage|p2a: Politoed|56/100
+|J|Imanalt
+|c|+Imanalt|randbats > battle factory
+|c|☆gGgGd|is armaldo
+|c|☆gGgGd|water
+|c|☆Vileman|yes
+|choice|switch 2|
+|
+|switch|p1a: Huntail|Huntail, M|100/100
+|move|p2a: Politoed|Perish Song|p2a: Politoed
+|-start|p1a: Huntail|perish3|[silent]
+|-start|p2a: Politoed|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|
+|-heal|p2a: Politoed|63/100|[from] item: Leftovers
+|-start|p1a: Huntail|perish3
+|-start|p2a: Politoed|perish3
+|upkeep
+|turn|2
+|choice|switch 2|move toxic
+|
+|switch|p1a: Ninjask|Ninjask, M|100/100
+|move|p2a: Politoed|Toxic|p1a: Ninjask
+|-status|p1a: Ninjask|tox
+|
+|-heal|p2a: Politoed|69/100|[from] item: Leftovers
+|-damage|p1a: Ninjask|94/100 tox|[from] psn
+|-start|p2a: Politoed|perish2
+|upkeep
+|turn|3
+|choice|move xscissor|move protect
+|
+|move|p2a: Politoed|Protect|p2a: Politoed
+|-singleturn|p2a: Politoed|Protect
+|move|p1a: Ninjask|X-Scissor|p2a: Politoed
+|-activate|p2a: Politoed|move: Protect
+|
+|-heal|p2a: Politoed|75/100|[from] item: Leftovers
+|-damage|p1a: Ninjask|82/100 tox|[from] psn
+|-start|p2a: Politoed|perish1
+|upkeep
+|turn|4
+|choice|move xscissor|switch 5
+|
+|switch|p2a: Armaldo|Armaldo, M|100/100
+|move|p1a: Ninjask|X-Scissor|p2a: Armaldo
+|-damage|p2a: Armaldo|57/100
+|
+|-heal|p2a: Armaldo|63/100|[from] item: Leftovers
+|-damage|p1a: Ninjask|64/100 tox|[from] psn
+|upkeep
+|turn|5
+|choice|switch 2|move knockoff
+|
+|switch|p1a: Huntail|Huntail, M|100/100
+|move|p2a: Armaldo|Knock Off|p1a: Huntail
+|-damage|p1a: Huntail|54/100
+|-enditem|p1a: Huntail|White Herb|[from] move: Knock Off|[of] p2a: Armaldo
+|
+|-heal|p2a: Armaldo|70/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|choice|move shellsmash|move stoneedge
+|
+|move|p1a: Huntail|Shell Smash|p1a: Huntail
+|-unboost|p1a: Huntail|def|1
+|-unboost|p1a: Huntail|spd|1
+|-boost|p1a: Huntail|atk|2
+|-boost|p1a: Huntail|spa|2
+|-boost|p1a: Huntail|spe|2
+|move|p2a: Armaldo|Stone Edge|p1a: Huntail
+|-damage|p1a: Huntail|0 fnt
+|faint|p1a: Huntail
+|
+|-heal|p2a: Armaldo|76/100|[from] item: Leftovers
+|upkeep
+|c|☆Vileman|how
+|c|☆gGgGd|wait
+|c|☆gGgGd|its not water
+|choice|switch 3|
+|
+|switch|p1a: Mightyena|Mightyena, M|100/100
+|turn|7
+|choice|move irontail|move earthquake
+|
+|move|p1a: Mightyena|Iron Tail|p2a: Armaldo
+|-supereffective|p2a: Armaldo
+|-damage|p2a: Armaldo|5/100
+|-damage|p1a: Mightyena|91/100|[from] item: Life Orb
+|move|p2a: Armaldo|Earthquake|p1a: Mightyena
+|-damage|p1a: Mightyena|35/100
+|
+|-heal|p2a: Armaldo|11/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|choice|move crunch|switch 2
+|
+|switch|p2a: Monferno|Monferno, M|100/100
+|move|p1a: Mightyena|Crunch|p2a: Monferno
+|-resisted|p2a: Monferno
+|-damage|p2a: Monferno|66/100
+|-damage|p1a: Mightyena|26/100|[from] item: Life Orb
+|
+|upkeep
+|turn|9
+|choice|switch 4|move stealthrock
+|
+|switch|p1a: Vibrava|Vibrava, M|100/100
+|move|p2a: Monferno|Stealth Rock|p1a: Vibrava
+|-sidestart|p1: Vileman|move: Stealth Rock
+|
+|upkeep
+|turn|10
+|choice|move defog|switch 3
+|
+|switch|p2a: Mr. Mime|Mr. Mime, M|100/100
+|move|p1a: Vibrava|Defog|p2a: Mr. Mime
+|-unboost|p2a: Mr. Mime|evasion|1
+|-sideend|p1: Vileman|Stealth Rock|[from] move: Defog|[of] p1a: Vibrava
+|
+|upkeep
+|turn|11
+|choice|switch 6|move dazzlinggleam
+|
+|switch|p1a: Simisear|Simisear, M|100/100
+|move|p2a: Mr. Mime|Dazzling Gleam|p1a: Simisear
+|-resisted|p1a: Simisear
+|-damage|p1a: Simisear|54/100
+|-damage|p2a: Mr. Mime|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|12
+|choice|move fireblast|switch 5
+|
+|switch|p2a: Politoed|Politoed, M|75/100
+|move|p1a: Simisear|Fire Blast|p2a: Politoed
+|-resisted|p2a: Politoed
+|-damage|p2a: Politoed|57/100
+|-damage|p1a: Simisear|45/100|[from] item: Life Orb
+|
+|-heal|p2a: Politoed|63/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|choice|move grassknot|move toxic
+|
+|move|p1a: Simisear|Grass Knot|p2a: Politoed
+|-supereffective|p2a: Politoed
+|-damage|p2a: Politoed|35/100
+|-damage|p1a: Simisear|35/100|[from] item: Life Orb
+|move|p2a: Politoed|Toxic|p1a: Simisear
+|-status|p1a: Simisear|tox
+|
+|-heal|p2a: Politoed|41/100|[from] item: Leftovers
+|-damage|p1a: Simisear|29/100 tox|[from] psn
+|upkeep
+|turn|14
+|choice|move grassknot|move toxic
+|
+|move|p1a: Simisear|Grass Knot|p2a: Politoed
+|-supereffective|p2a: Politoed
+|-damage|p2a: Politoed|10/100
+|-damage|p1a: Simisear|19/100 tox|[from] item: Life Orb
+|move|p2a: Politoed|Toxic|p1a: Simisear|[miss]
+|-miss|p2a: Politoed|p1a: Simisear
+|
+|-heal|p2a: Politoed|17/100|[from] item: Leftovers
+|-damage|p1a: Simisear|7/100 tox|[from] psn
+|upkeep
+|turn|15
+|choice|move knockoff|move protect
+|
+|move|p2a: Politoed|Protect|p2a: Politoed
+|-singleturn|p2a: Politoed|Protect
+|move|p1a: Simisear|Knock Off|p2a: Politoed
+|-activate|p2a: Politoed|move: Protect
+|
+|-heal|p2a: Politoed|23/100|[from] item: Leftovers
+|-damage|p1a: Simisear|0 fnt|[from] psn
+|upkeep
+|faint|p1a: Simisear
+|choice|switch 4|
+|
+|switch|p1a: Mightyena|Mightyena, M|26/100
+|turn|16
+|choice|move crunch|move protect
+|
+|move|p2a: Politoed|Protect|p2a: Politoed
+|-fail|p2a: Politoed
+|move|p1a: Mightyena|Crunch|p2a: Politoed
+|-damage|p2a: Politoed|0 fnt
+|-damage|p1a: Mightyena|16/100|[from] item: Life Orb
+|faint|p2a: Politoed
+|-ability|p1a: Mightyena|Moxie|boost
+|-boost|p1a: Mightyena|atk|1
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Monferno|Monferno, M|66/100
+|turn|17
+|choice|move suckerpunch|move machpunch
+|
+|move|p2a: Monferno|Mach Punch|p1a: Mightyena
+|-supereffective|p1a: Mightyena
+|-damage|p1a: Mightyena|0 fnt
+|faint|p1a: Mightyena
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Vibrava|Vibrava, M|100/100
+|turn|18
+|choice|move earthquake|switch 2
+|
+|switch|p2a: Armaldo|Armaldo, M|11/100
+|move|p1a: Vibrava|Earthquake|p2a: Armaldo
+|-damage|p2a: Armaldo|0 fnt
+|faint|p2a: Armaldo
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Mr. Mime|Mr. Mime, M|91/100
+|turn|19
+|choice|switch 5|move dazzlinggleam
+|
+|switch|p1a: Armaldo|Armaldo, M|100/100
+|move|p2a: Mr. Mime|Dazzling Gleam|p1a: Armaldo
+|-damage|p1a: Armaldo|46/100
+|-damage|p2a: Mr. Mime|81/100|[from] item: Life Orb
+|
+|-heal|p1a: Armaldo|53/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|choice|move stoneedge|move psychic
+|
+|move|p2a: Mr. Mime|Psychic|p1a: Armaldo
+|-damage|p1a: Armaldo|0 fnt
+|-damage|p2a: Mr. Mime|72/100|[from] item: Life Orb
+|faint|p1a: Armaldo
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Ninjask|Ninjask, M|64/100 tox
+|turn|21
+|choice|move uturn|switch 2
+|
+|switch|p2a: Monferno|Monferno, M|66/100
+|move|p1a: Ninjask|U-turn|p2a: Monferno
+|-resisted|p2a: Monferno
+|-damage|p2a: Monferno|52/100
+|choice|switch 5|
+|
+|switch|p1a: Vibrava|Vibrava, M|100/100
+|
+|upkeep
+|turn|22
+|choice|move uturn|move machpunch
+|
+|move|p2a: Monferno|Mach Punch|p1a: Vibrava
+|-damage|p1a: Vibrava|76/100
+|move|p1a: Vibrava|U-turn|p2a: Monferno
+|-resisted|p2a: Monferno
+|-crit|p2a: Monferno
+|-damage|p2a: Monferno|46/100
+|choice|switch 5|
+|
+|switch|p1a: Ninjask|Ninjask, M|64/100 tox
+|
+|-damage|p1a: Ninjask|58/100 tox|[from] psn
+|upkeep
+|turn|23
+|choice|move aerialace|move stealthrock
+|
+|move|p1a: Ninjask|Aerial Ace|p2a: Monferno
+|-supereffective|p2a: Monferno
+|-crit|p2a: Monferno
+|-damage|p2a: Monferno|0 fnt
+|faint|p2a: Monferno
+|
+|-damage|p1a: Ninjask|46/100 tox|[from] psn
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Grumpig|Grumpig, M|100/100
+|turn|24
+|choice|switch 5|move psychic
+|
+|switch|p1a: Vibrava|Vibrava, M|76/100
+|move|p2a: Grumpig|Psychic|p1a: Vibrava
+|-damage|p1a: Vibrava|41/100
+|
+|upkeep
+|turn|25
+|choice|move roost|move taunt
+|
+|move|p2a: Grumpig|Taunt|p1a: Vibrava
+|-start|p1a: Vibrava|move: Taunt
+|cant|p1a: Vibrava|move: Taunt|Roost
+|
+|upkeep
+|turn|26
+|choice|move uturn|move psychic
+|
+|move|p2a: Grumpig|Psychic|p1a: Vibrava
+|-damage|p1a: Vibrava|7/100
+|move|p1a: Vibrava|U-turn|p2a: Grumpig
+|-supereffective|p2a: Grumpig
+|-damage|p2a: Grumpig|66/100
+|choice|switch 5|
+|
+|switch|p1a: Ninjask|Ninjask, M|46/100 tox
+|
+|-damage|p1a: Ninjask|40/100 tox|[from] psn
+|upkeep
+|turn|27
+|choice|move uturn|move psychic
+|
+|move|p1a: Ninjask|U-turn|p2a: Grumpig
+|-supereffective|p2a: Grumpig
+|-damage|p2a: Grumpig|0 fnt
+|faint|p2a: Grumpig
+|choice|switch 5|
+|
+|switch|p1a: Vibrava|Vibrava, M|7/100
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Mr. Mime|Mr. Mime, M|72/100
+|turn|28
+|choice|move earthquake|move psychic
+|
+|move|p2a: Mr. Mime|Psychic|p1a: Vibrava
+|-damage|p1a: Vibrava|0 fnt
+|-damage|p2a: Mr. Mime|62/100|[from] item: Life Orb
+|faint|p1a: Vibrava
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Ninjask|Ninjask, M|40/100 tox
+|turn|29
+|choice|move xscissor|move psychic
+|
+|move|p1a: Ninjask|X-Scissor|p2a: Mr. Mime
+|-damage|p2a: Mr. Mime|0 fnt
+|faint|p2a: Mr. Mime
+|
+|-damage|p1a: Ninjask|34/100 tox|[from] psn
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Stoutland|Stoutland, M|100/100
+|turn|30
+|choice|move xscissor|move superpower
+|
+|move|p1a: Ninjask|X-Scissor|p2a: Stoutland
+|-damage|p2a: Stoutland|45/100
+|move|p2a: Stoutland|Superpower|p1a: Ninjask
+|-resisted|p1a: Ninjask
+|-damage|p1a: Ninjask|0 fnt
+|-unboost|p2a: Stoutland|atk|1
+|-unboost|p2a: Stoutland|def|1
+|faint|p1a: Ninjask
+|
+|win|gGgGd

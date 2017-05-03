@@ -1,0 +1,52 @@
+|j|all falls down ️
+|j|iGLACK
+|player|p1|all falls down ️|266
+|player|p2|iGLACK|128
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|35682,12534,43387,11052,61710,59065,48412,64562,17714,10444,44954,27596
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Metang|item
+|poke|p1|Gourgeist-*, M|item
+|poke|p1|Huntail, M|item
+|poke|p1|Murkrow, M|item
+|poke|p1|Venipede, M|item
+|poke|p1|Armaldo, M|item
+|poke|p2|Vibrava, M|item
+|poke|p2|Huntail, M|item
+|poke|p2|Drifblim, M|item
+|poke|p2|Golem, M|item
+|poke|p2|Misdreavus, M|item
+|poke|p2|Cryogonal|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 1, team 2, team 3, team 4, team 5, team 6|team 5, team 2, team 3, team 4, team 1, team 6
+|
+|start
+|switch|p1a: Metang|Metang|100/100
+|switch|p2a: Misdreavus|Misdreavus, M|100/100
+|turn|1
+|choice|move stealthrock|move taunt
+|
+|move|p2a: Misdreavus|Taunt|p1a: Metang
+|-start|p1a: Metang|move: Taunt
+|cant|p1a: Metang|move: Taunt|Stealth Rock
+|
+|upkeep
+|turn|2
+|choice|switch 4|move willowisp
+|
+|switch|p1a: Murkrow|Murkrow, M|100/100
+|move|p2a: Misdreavus|Will-O-Wisp|p1a: Murkrow
+|-status|p1a: Murkrow|brn
+|
+|-damage|p1a: Murkrow|88/100 brn|[from] brn
+|upkeep
+|turn|3
+|-message|all falls down ️ forfeited.
+|
+|win|iGLACK
+|l|all falls down ️

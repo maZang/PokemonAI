@@ -1,0 +1,214 @@
+|j|SUPREMESTGENTLEMEN
+|j|Mir Sayad
+|player|p1|SUPREMESTGENTLEMEN|114
+|player|p2|Mir Sayad|292
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|33873,37917,41568,61897,54590,21686,64658,47690,48319,28680,34859,908
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Breloom, M|item
+|poke|p1|Victini|item
+|poke|p1|Rotom-Wash|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Togekiss, M|item
+|poke|p1|Raikou|item
+|poke|p2|Gliscor, M|item
+|poke|p2|Gallade, M|item
+|poke|p2|Togekiss, M|item
+|poke|p2|Ferrothorn, M|item
+|poke|p2|Terrakion|item
+|poke|p2|Mew|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 4, team 2, team 3, team 1, team 5, team 6|team 5, team 2, team 3, team 4, team 1, team 6
+|
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: Terrakion|Terrakion|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Terrakion|atk|1
+|turn|1
+|choice|move stealthrock|switch 5
+|
+|switch|p2a: Gliscor|Gliscor, M|100/100
+|move|p1a: Landorus|Stealth Rock|p2a: Gliscor
+|-sidestart|p2: Mir Sayad|move: Stealth Rock
+|
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|2
+|choice|move uturn|move toxic
+|
+|move|p1a: Landorus|U-turn|p2a: Gliscor
+|-resisted|p2a: Gliscor
+|-damage|p2a: Gliscor|91/100 tox
+|choice|switch 4|
+|
+|switch|p1a: Breloom|Breloom, M|100/100
+|move|p2a: Gliscor|Toxic|p1a: Breloom
+|-status|p1a: Breloom|tox
+|
+|-heal|p2a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|3
+|choice|move facade|move substitute
+|
+|move|p2a: Gliscor|Substitute|p2a: Gliscor
+|-start|p2a: Gliscor|Substitute
+|-damage|p2a: Gliscor|75/100 tox
+|move|p1a: Breloom|Facade|p2a: Gliscor
+|-end|p2a: Gliscor|Substitute
+|
+|-heal|p2a: Gliscor|88/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|4
+|choice|move swordsdance|switch 4
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p2a: Ferrothorn|94/100|[from] Stealth Rock
+|move|p1a: Breloom|Swords Dance|p1a: Breloom
+|-boost|p1a: Breloom|atk|2
+|
+|-heal|p2a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|choice|move superpower|move gyroball
+|
+|move|p1a: Breloom|Superpower|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|-damage|p1a: Breloom|88/100 tox|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-unboost|p1a: Breloom|atk|1
+|-unboost|p1a: Breloom|def|1
+|faint|p2a: Ferrothorn
+|
+|-heal|p1a: Breloom|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Togekiss|Togekiss, M|100/100
+|-damage|p2a: Togekiss|76/100|[from] Stealth Rock
+|turn|6
+|choice|switch 6|move airslash
+|
+|switch|p1a: Raikou|Raikou|100/100
+|-ability|p1a: Raikou|Pressure
+|move|p2a: Togekiss|Air Slash|p1a: Raikou
+|-resisted|p1a: Raikou
+|-damage|p1a: Raikou|83/100
+|
+|-heal|p1a: Raikou|90/100|[from] item: Leftovers
+|-heal|p2a: Togekiss|82/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|choice|move calmmind|move roost
+|
+|move|p1a: Raikou|Calm Mind|p1a: Raikou
+|-boost|p1a: Raikou|spa|1
+|-boost|p1a: Raikou|spd|1
+|move|p2a: Togekiss|Roost|p2a: Togekiss
+|-heal|p2a: Togekiss|100/100
+|
+|-heal|p1a: Raikou|96/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|choice|move calmmind|switch 4
+|
+|switch|p2a: Gliscor|Gliscor, M|88/100 tox
+|-damage|p2a: Gliscor|75/100 tox|[from] Stealth Rock
+|move|p1a: Raikou|Calm Mind|p1a: Raikou
+|-boost|p1a: Raikou|spa|1
+|-boost|p1a: Raikou|spd|1
+|
+|-heal|p1a: Raikou|100/100|[from] item: Leftovers
+|-heal|p2a: Gliscor|88/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|9
+|choice|move hiddenpower|move earthquake
+|
+|move|p1a: Raikou|Hidden Power|p2a: Gliscor
+|-supereffective|p2a: Gliscor
+|-damage|p2a: Gliscor|0 fnt
+|faint|p2a: Gliscor
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Terrakion|Terrakion|100/100
+|-damage|p2a: Terrakion|94/100|[from] Stealth Rock
+|turn|10
+|choice|move thunderbolt|move rockpolish
+|
+|move|p1a: Raikou|Thunderbolt|p2a: Terrakion
+|-damage|p2a: Terrakion|0 fnt
+|faint|p2a: Terrakion
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Mew|Mew|100/100
+|-damage|p2a: Mew|88/100|[from] Stealth Rock
+|turn|11
+|choice|move substitute|move knockoff
+|
+|move|p1a: Raikou|Substitute|p1a: Raikou
+|-start|p1a: Raikou|Substitute
+|-damage|p1a: Raikou|76/100
+|move|p2a: Mew|Knock Off|p1a: Raikou
+|-end|p1a: Raikou|Substitute
+|
+|-heal|p1a: Raikou|82/100|[from] item: Leftovers
+|-heal|p2a: Mew|94/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|choice|move thunderbolt|move knockoff
+|
+|move|p1a: Raikou|Thunderbolt|p2a: Mew
+|-damage|p2a: Mew|23/100
+|move|p2a: Mew|Knock Off|p1a: Raikou
+|-damage|p1a: Raikou|52/100
+|-enditem|p1a: Raikou|Leftovers|[from] move: Knock Off|[of] p2a: Mew
+|
+|-heal|p2a: Mew|29/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|choice|move calmmind|move knockoff
+|
+|move|p1a: Raikou|Calm Mind|p1a: Raikou
+|-boost|p1a: Raikou|spa|1
+|-boost|p1a: Raikou|spd|1
+|move|p2a: Mew|Knock Off|p1a: Raikou
+|-damage|p1a: Raikou|32/100
+|
+|-heal|p2a: Mew|35/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|choice|move thunderbolt|move knockoff
+|
+|move|p1a: Raikou|Thunderbolt|p2a: Mew
+|-damage|p2a: Mew|0 fnt
+|faint|p2a: Mew
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Gallade|Gallade, M|100/100
+|-damage|p2a: Gallade|94/100|[from] Stealth Rock
+|turn|15
+|choice|move thunderbolt|move zenheadbutt mega
+|
+|detailschange|p2a: Gallade|Gallade-Mega, M
+|-mega|p2a: Gallade|Gallade|Galladite
+|move|p1a: Raikou|Thunderbolt|p2a: Gallade
+|-damage|p2a: Gallade|0 fnt
+|faint|p2a: Gallade
+|
+|upkeep
+|-message|Mir Sayad forfeited.
+|
+|win|SUPREMESTGENTLEMEN
+|l|Mir Sayad
+|l|SUPREMESTGENTLEMEN

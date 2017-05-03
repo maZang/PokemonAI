@@ -1,0 +1,323 @@
+|J|Bro Kappa♠
+|J|LUCK>SKILL
+|player|p1|Bro Kappa♠|104
+|player|p2|LUCK>SKILL|4
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|42179,62596,6946,11983,27379,346,47358,62404,14600,54640,42169,60718
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Fraxure, M|item
+|poke|p1|Cryogonal|item
+|poke|p1|Probopass, M|item
+|poke|p1|Simisage, M|item
+|poke|p1|Mightyena, M|item
+|poke|p1|Gothitelle, M|item
+|poke|p2|Lickilicky, M|item
+|poke|p2|Simisear, M|item
+|poke|p2|Relicanth, M|item
+|poke|p2|Zebstrika, M|item
+|poke|p2|Clefairy, M|item
+|poke|p2|Cryogonal|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|J|Curtain
+|c|☆LUCK>SKILL|ah PU
+|J|sSantu ♠
+|c|☆LUCK>SKILL|my fav.
+|c|☆Bro Kappa♠|che schifo
+|c|☆LUCK>SKILL|probopass :3
+|choice|team 4, team 2, team 3, team 1, team 5, team 6|team 2, team 1, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Simisage|Simisage, M|100/100
+|switch|p2a: Simisear|Simisear, M|100/100
+|turn|1
+|J|p2
+|c|☆LUCK>SKILL|scimmia che suona il piano. gif
+|choice|switch 6|move fireblast
+|
+|switch|p1a: Gothitelle|Gothitelle, M|100/100
+|move|p2a: Simisear|Fire Blast|p1a: Gothitelle
+|-damage|p1a: Gothitelle|59/100
+|-damage|p2a: Simisear|91/100|[from] item: Life Orb
+|
+|-heal|p1a: Gothitelle|65/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|J|H.M.N.I.P ❤
+|c|☆Bro Kappa♠|k io sacco sto mon solo per farti vedere
+|c|☆Bro Kappa♠|sta move
+|choice|move meanlook|switch 2
+|
+|switch|p2a: Lickilicky|Lickilicky, M|100/100
+|move|p1a: Gothitelle|Mean Look|p2a: Lickilicky
+|-activate|p2a: Lickilicky|trapped
+|
+|-heal|p1a: Gothitelle|71/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|c|☆Bro Kappa♠|l0l
+|c|☆LUCK>SKILL|giustamente
+|L|p2
+|c|☆LUCK>SKILL|se shadow tag è bannata
+|c|☆LUCK>SKILL|usi la shadow tag fai da te
+|choice|move calmmind|move bodyslam
+|
+|move|p1a: Gothitelle|Calm Mind|p1a: Gothitelle
+|-boost|p1a: Gothitelle|spa|1
+|-boost|p1a: Gothitelle|spd|1
+|move|p2a: Lickilicky|Body Slam|p1a: Gothitelle
+|-damage|p1a: Gothitelle|52/100
+|-status|p1a: Gothitelle|par
+|
+|-heal|p1a: Gothitelle|58/100 par|[from] item: Leftovers
+|upkeep
+|turn|4
+|c|☆LUCK>SKILL|ah ma ho perso
+|c|☆LUCK>SKILL|L
+|choice|move calmmind|move bodyslam
+|
+|move|p2a: Lickilicky|Body Slam|p1a: Gothitelle
+|-crit|p1a: Gothitelle
+|-damage|p1a: Gothitelle|29/100 par
+|move|p1a: Gothitelle|Calm Mind|p1a: Gothitelle
+|-boost|p1a: Gothitelle|spa|1
+|-boost|p1a: Gothitelle|spd|1
+|
+|-heal|p1a: Gothitelle|35/100 par|[from] item: Leftovers
+|upkeep
+|turn|5
+|choice|move rest|move bodyslam
+|
+|move|p2a: Lickilicky|Body Slam|p1a: Gothitelle
+|-crit|p1a: Gothitelle
+|-damage|p1a: Gothitelle|7/100 par
+|cant|p1a: Gothitelle|par
+|
+|-heal|p1a: Gothitelle|13/100 par|[from] item: Leftovers
+|upkeep
+|turn|6
+|c|☆LUCK>SKILL|a meno che
+|choice|switch 3|move bodyslam
+|
+|switch|p1a: Probopass|Probopass, M|100/100
+|move|p2a: Lickilicky|Body Slam|p1a: Probopass
+|-resisted|p1a: Probopass
+|-damage|p1a: Probopass|96/100
+|-status|p1a: Probopass|par
+|
+|-heal|p1a: Probopass|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|7
+|c|☆LUCK>SKILL|critto 2 di fila
+|c|☆LUCK>SKILL|lit.
+|c|+H.M.N.I.P ❤|vet play
+|c|☆Bro Kappa♠|well trained
+|choice|move stealthrock|switch 2
+|
+|switch|p2a: Simisear|Simisear, M|91/100
+|move|p1a: Probopass|Stealth Rock|p2a: Simisear
+|-sidestart|p2: LUCK>SKILL|move: Stealth Rock
+|
+|upkeep
+|turn|8
+|c|☆LUCK>SKILL|lucky and bad
+|c|☆LUCK>SKILL|è il mio 2° nome
+|c|☆Bro Kappa♠|se non tiro
+|c|☆Bro Kappa♠|ho perso
+|choice|move earthpower|move lowkick
+|
+|move|p2a: Simisear|Low Kick|p1a: Probopass
+|-supereffective|p1a: Probopass
+|-crit|p1a: Probopass
+|-ability|p1a: Probopass|Sturdy
+|-damage|p1a: Probopass|1/100 par
+|-damage|p2a: Simisear|81/100|[from] item: Life Orb
+|move|p1a: Probopass|Earth Power|p2a: Simisear
+|-supereffective|p2a: Simisear
+|-damage|p2a: Simisear|15/100
+|
+|-heal|p1a: Probopass|7/100 par|[from] item: Leftovers
+|upkeep
+|turn|9
+|choice|switch 3|move knockoff
+|
+|switch|p1a: Gothitelle|Gothitelle, M|13/100 par
+|move|p2a: Simisear|Knock Off|p1a: Gothitelle
+|-supereffective|p1a: Gothitelle
+|-crit|p1a: Gothitelle
+|-damage|p1a: Gothitelle|0 fnt
+|-enditem|p1a: Gothitelle|Leftovers|[from] move: Knock Off|[of] p2a: Simisear
+|-damage|p2a: Simisear|6/100|[from] item: Life Orb
+|faint|p1a: Gothitelle
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Mightyena|Mightyena, M|100/100
+|turn|10
+|choice|move suckerpunch|switch 3
+|
+|switch|p2a: Relicanth|Relicanth, M|100/100
+|-damage|p2a: Relicanth|88/100|[from] Stealth Rock
+|move|p1a: Mightyena|Sucker Punch|p2a: Relicanth|[still]
+|-fail|p1a: Mightyena
+|
+|-heal|p2a: Relicanth|94/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|c|☆Bro Kappa♠|sto schifo manc pursuit
+|c|☆Bro Kappa♠|ha
+|choice|switch 6|move headsmash
+|
+|switch|p1a: Simisage|Simisage, M|100/100
+|move|p2a: Relicanth|Head Smash|p1a: Simisage|[miss]
+|-miss|p2a: Relicanth|p1a: Simisage
+|
+|-heal|p2a: Relicanth|100/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|c|☆LUCK>SKILL|non la impara mi sa
+|c|☆LUCK>SKILL|L
+|c|☆Bro Kappa♠|lo impara
+|choice|move knockoff|switch 4
+|
+|switch|p2a: Zebstrika|Zebstrika, M|100/100
+|-damage|p2a: Zebstrika|88/100|[from] Stealth Rock
+|move|p1a: Simisage|Knock Off|p2a: Zebstrika
+|-crit|p2a: Zebstrika
+|-damage|p2a: Zebstrika|0 fnt
+|-enditem|p2a: Zebstrika|Life Orb|[from] move: Knock Off|[of] p1a: Simisage
+|-damage|p1a: Simisage|91/100|[from] item: Life Orb
+|faint|p2a: Zebstrika
+|
+|upkeep
+|c|☆LUCK>SKILL|x
+|choice||switch 6
+|
+|switch|p2a: Cryogonal|Cryogonal|100/100
+|-damage|p2a: Cryogonal|76/100|[from] Stealth Rock
+|turn|13
+|choice|move superpower|move freezedry
+|
+|move|p2a: Cryogonal|Freeze-Dry|p1a: Simisage
+|-supereffective|p1a: Simisage
+|-damage|p1a: Simisage|0 fnt
+|-damage|p2a: Cryogonal|66/100|[from] item: Life Orb
+|faint|p1a: Simisage
+|
+|upkeep
+|c|☆Bro Kappa♠|ah è faster
+|choice|switch 6|
+|
+|switch|p1a: Mightyena|Mightyena, M|100/100
+|turn|14
+|choice|move irontail|move rapidspin
+|
+|move|p2a: Cryogonal|Rapid Spin|p1a: Mightyena
+|-damage|p1a: Mightyena|95/100
+|-sideend|p2: LUCK>SKILL|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Cryogonal
+|-damage|p2a: Cryogonal|56/100|[from] item: Life Orb
+|move|p1a: Mightyena|Iron Tail|p2a: Cryogonal|[miss]
+|-miss|p1a: Mightyena|p2a: Cryogonal
+|
+|upkeep
+|turn|15
+|choice|move suckerpunch|move recover
+|
+|move|p1a: Mightyena|Sucker Punch|p2a: Cryogonal|[still]
+|-fail|p1a: Mightyena
+|move|p2a: Cryogonal|Recover|p2a: Cryogonal
+|-heal|p2a: Cryogonal|100/100
+|
+|upkeep
+|turn|16
+|choice|move irontail|switch 3
+|
+|switch|p2a: Simisear|Simisear, M|6/100
+|move|p1a: Mightyena|Iron Tail|p2a: Simisear
+|-resisted|p2a: Simisear
+|-damage|p2a: Simisear|0 fnt
+|-damage|p1a: Mightyena|85/100|[from] item: Life Orb
+|faint|p2a: Simisear
+|-ability|p1a: Mightyena|Moxie|boost
+|-boost|p1a: Mightyena|atk|1
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Relicanth|Relicanth, M|100/100
+|turn|17
+|choice|move crunch|move stealthrock
+|
+|move|p1a: Mightyena|Crunch|p2a: Relicanth
+|-damage|p2a: Relicanth|65/100
+|-damage|p1a: Mightyena|75/100|[from] item: Life Orb
+|move|p2a: Relicanth|Stealth Rock|p1a: Mightyena
+|-sidestart|p1: Bro Kappa♠|move: Stealth Rock
+|
+|-heal|p2a: Relicanth|71/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|c|☆Bro Kappa♠|damage
+|choice|move suckerpunch|move headsmash
+|
+|move|p1a: Mightyena|Sucker Punch|p2a: Relicanth
+|-damage|p2a: Relicanth|38/100
+|-damage|p1a: Mightyena|66/100|[from] item: Life Orb
+|move|p2a: Relicanth|Head Smash|p1a: Mightyena
+|-damage|p1a: Mightyena|0 fnt
+|faint|p1a: Mightyena
+|
+|-heal|p2a: Relicanth|45/100|[from] item: Leftovers
+|upkeep
+|c|☆LUCK>SKILL|max def relicanth.
+|choice|switch 2|
+|
+|switch|p1a: Cryogonal|Cryogonal|100/100
+|-damage|p1a: Cryogonal|76/100|[from] Stealth Rock
+|turn|19
+|choice|move freezedry|switch 2
+|
+|switch|p2a: Lickilicky|Lickilicky, M|100/100
+|move|p1a: Cryogonal|Freeze-Dry|p2a: Lickilicky
+|-damage|p2a: Lickilicky|75/100
+|-damage|p1a: Cryogonal|66/100|[from] item: Life Orb
+|
+|-heal|p2a: Lickilicky|81/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|c|☆Bro Kappa♠|guarda come prendo
+|c|☆Bro Kappa♠|il 10%
+|choice|move freezedry|move wish
+|
+|move|p1a: Cryogonal|Freeze-Dry|p2a: Lickilicky
+|-damage|p2a: Lickilicky|56/100
+|-damage|p1a: Cryogonal|56/100|[from] item: Life Orb
+|move|p2a: Lickilicky|Wish|p2a: Lickilicky
+|
+|-heal|p2a: Lickilicky|62/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|c|☆Bro Kappa♠|invece
+|choice|move freezedry|move bodyslam
+|
+|move|p1a: Cryogonal|Freeze-Dry|p2a: Lickilicky
+|-damage|p2a: Lickilicky|39/100
+|-damage|p1a: Cryogonal|46/100|[from] item: Life Orb
+|move|p2a: Lickilicky|Body Slam|p1a: Cryogonal
+|-damage|p1a: Cryogonal|0 fnt
+|faint|p1a: Cryogonal
+|
+|-heal|p2a: Lickilicky|89/100|[from] move: Wish|[wisher] Lickilicky
+|-heal|p2a: Lickilicky|95/100|[from] item: Leftovers
+|upkeep
+|L|Curtain
+|c|☆Bro Kappa♠|reep
+|c|☆Bro Kappa♠|ggs
+|-message|Bro Kappa♠ forfeited.
+|
+|win|LUCK>SKILL

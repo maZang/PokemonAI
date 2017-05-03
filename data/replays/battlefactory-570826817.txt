@@ -1,0 +1,204 @@
+|j|Kel9901
+|j|compooter science
+|player|p1|Kel9901|102
+|player|p2|compooter science|102
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|43872,11354,29736,42034,61717,46600,28143,60845,14432,32346,45753,13757
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Galvantula, M|item
+|poke|p1|Gardevoir, M|item
+|poke|p1|Milotic, M|item
+|poke|p1|Absol, M|item
+|poke|p1|Roserade, M|item
+|poke|p1|Metagross|item
+|poke|p2|Reuniclus, M|item
+|poke|p2|Donphan, M|item
+|poke|p2|Flygon, M|item
+|poke|p2|Cobalion|item
+|poke|p2|Dragalge, M|item
+|poke|p2|Shaymin|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|c|☆Kel9901|lol roo
+|c|☆Kel9901|is who
+|choice|team 1, team 2, team 3, team 4, team 5, team 6|team 3, team 2, team 1, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Galvantula|Galvantula, M|100/100
+|switch|p2a: Flygon|Flygon, M|100/100
+|turn|1
+|choice|move bugbuzz|move uturn
+|
+|move|p2a: Flygon|U-turn|p1a: Galvantula
+|-damage|p1a: Galvantula|65/100
+|c|☆Kel9901|who is fuka
+|choice||switch 5
+|
+|switch|p2a: Dragalge|Dragalge, M|100/100
+|move|p1a: Galvantula|Bug Buzz|p2a: Dragalge
+|-resisted|p2a: Dragalge
+|-damage|p2a: Dragalge|82/100
+|
+|upkeep
+|turn|2
+|c|☆Kel9901|weak
+|choice|switch 3|move scald
+|
+|switch|p1a: Milotic|Milotic, M|100/100
+|move|p2a: Dragalge|Scald|p1a: Milotic
+|-resisted|p1a: Milotic
+|-damage|p1a: Milotic|85/100
+|
+|upkeep
+|turn|3
+|choice|move icebeam|switch 6
+|
+|switch|p2a: Shaymin|Shaymin|100/100
+|move|p1a: Milotic|Ice Beam|p2a: Shaymin
+|-supereffective|p2a: Shaymin
+|-damage|p2a: Shaymin|30/100
+|-damage|p1a: Milotic|75/100|[from] item: Life Orb
+|
+|-heal|p2a: Shaymin|37/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|c|☆Kel9901|strong
+|choice|switch 5|move seedflare
+|
+|switch|p1a: Roserade|Roserade, M|100/100
+|move|p2a: Shaymin|Seed Flare|p1a: Roserade
+|-resisted|p1a: Roserade
+|-damage|p1a: Roserade|84/100
+|
+|-heal|p2a: Shaymin|43/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|choice|switch 5|switch 4
+|
+|switch|p2a: Cobalion|Cobalion|100/100
+|switch|p1a: Milotic|Milotic, M|75/100
+|
+|upkeep
+|turn|6
+|choice|move hydropump|move swordsdance
+|
+|move|p2a: Cobalion|Swords Dance|p2a: Cobalion
+|-boost|p2a: Cobalion|atk|2
+|move|p1a: Milotic|Hydro Pump|p2a: Cobalion
+|-damage|p2a: Cobalion|8/100
+|-damage|p1a: Milotic|65/100|[from] item: Life Orb
+|
+|upkeep
+|turn|7
+|c|☆Kel9901|>not dead
+|c|☆Kel9901|wow
+|choice|switch 2|move closecombat
+|
+|switch|p1a: Gardevoir|Gardevoir, M|100/100
+|-ability|p1a: Gardevoir|Justified|[from] ability: Trace|[of] p2a: Cobalion
+|move|p2a: Cobalion|Close Combat|p1a: Gardevoir
+|-resisted|p1a: Gardevoir
+|-damage|p1a: Gardevoir|47/100
+|-unboost|p2a: Cobalion|def|1
+|-unboost|p2a: Cobalion|spd|1
+|-damage|p2a: Cobalion|0 fnt|[from] item: Life Orb
+|faint|p2a: Cobalion
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Flygon|Flygon, M|100/100
+|turn|8
+|choice|move psyshock|move earthquake
+|
+|move|p2a: Flygon|Earthquake|p1a: Gardevoir
+|-damage|p1a: Gardevoir|0 fnt
+|faint|p1a: Gardevoir
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Absol|Absol, M|100/100
+|turn|9
+|choice|move swordsdance mega|switch 2
+|
+|switch|p2a: Donphan|Donphan, M|100/100
+|detailschange|p1a: Absol|Absol-Mega, M
+|-mega|p1a: Absol|Absol|Absolite
+|move|p1a: Absol|Swords Dance|p1a: Absol
+|-boost|p1a: Absol|atk|2
+|
+|upkeep
+|turn|10
+|choice|move knockoff|move earthquake
+|
+|move|p1a: Absol|Knock Off|p2a: Donphan
+|-damage|p2a: Donphan|39/100
+|-enditem|p2a: Donphan|Leftovers|[from] move: Knock Off|[of] p1a: Absol
+|move|p2a: Donphan|Earthquake|p1a: Absol
+|-damage|p1a: Absol|23/100
+|
+|upkeep
+|turn|11
+|choice|move suckerpunch|move iceshard
+|
+|move|p1a: Absol|Sucker Punch|p2a: Donphan
+|-damage|p2a: Donphan|0 fnt
+|faint|p2a: Donphan
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Flygon|Flygon, M|100/100
+|turn|12
+|choice|move suckerpunch|move uturn
+|
+|move|p1a: Absol|Sucker Punch|p2a: Flygon
+|-damage|p2a: Flygon|0 fnt
+|faint|p2a: Flygon
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Shaymin|Shaymin|43/100
+|turn|13
+|choice|move knockoff|move airslash
+|
+|move|p1a: Absol|Knock Off|p2a: Shaymin
+|-damage|p2a: Shaymin|0 fnt
+|-enditem|p2a: Shaymin|Leftovers|[from] move: Knock Off|[of] p1a: Absol
+|faint|p2a: Shaymin
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Dragalge|Dragalge, M|82/100
+|turn|14
+|choice|move knockoff|move dracometeor
+|
+|move|p1a: Absol|Knock Off|p2a: Dragalge
+|-damage|p2a: Dragalge|0 fnt
+|-enditem|p2a: Dragalge|Choice Specs|[from] move: Knock Off|[of] p1a: Absol
+|faint|p2a: Dragalge
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Reuniclus|Reuniclus, M|100/100
+|turn|15
+|c|☆compooter science|shitty gen 6 mechanics
+|choice|move knockoff|move focusblast
+|
+|move|p1a: Absol|Knock Off|p2a: Reuniclus
+|-supereffective|p2a: Reuniclus
+|-damage|p2a: Reuniclus|0 fnt
+|-enditem|p2a: Reuniclus|Life Orb|[from] move: Knock Off|[of] p1a: Absol
+|faint|p2a: Reuniclus
+|
+|win|Kel9901
+|c|☆Kel9901|gg
+|l|compooter science

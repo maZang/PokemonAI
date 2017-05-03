@@ -1,0 +1,225 @@
+|j|SolAnima
+|j|luismario5
+|player|p1|SolAnima|264
+|player|p2|luismario5|20
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|48460,4132,53108,35891,49559,9807,22998,619,42884,44473,9149,60435
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Dialga|item
+|poke|p1|Latias, F|item
+|poke|p1|Kyogre|item
+|poke|p1|Gengar, M|item
+|poke|p1|Arceus-*|item
+|poke|p1|Darkrai|item
+|poke|p2|Arceus-*|item
+|poke|p2|Latias, F|item
+|poke|p2|Deoxys-Defense|item
+|poke|p2|Blissey, F|item
+|poke|p2|Dialga|item
+|poke|p2|Ho-Oh|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 6, team 2, team 3, team 4, team 5, team 1|team 5, team 2, team 3, team 4, team 1, team 6
+|
+|start
+|switch|p1a: Darkrai|Darkrai|100/100
+|switch|p2a: Dialga|Dialga|100/100
+|-ability|p2a: Dialga|Pressure
+|turn|1
+|choice|move darkvoid|move stealthrock
+|
+|move|p1a: Darkrai|Dark Void|p2a: Dialga
+|-status|p2a: Dialga|slp
+|cant|p2a: Dialga|slp
+|
+|-damage|p2a: Dialga|88/100 slp|[from] ability: Bad Dreams|[of] p1a: Darkrai
+|upkeep
+|turn|2
+|choice|move nastyplot|switch 5
+|
+|switch|p2a: Arceus|Arceus-Bug|100/100
+|move|p1a: Darkrai|Nasty Plot|p1a: Darkrai
+|-boost|p1a: Darkrai|spa|2
+|
+|upkeep
+|turn|3
+|choice|move sludgebomb|move xscissor
+|
+|move|p1a: Darkrai|Sludge Bomb|p2a: Arceus
+|-damage|p2a: Arceus|35/100
+|-damage|p1a: Darkrai|91/100|[from] item: Life Orb
+|move|p2a: Arceus|X-Scissor|p1a: Darkrai
+|-supereffective|p1a: Darkrai
+|-damage|p1a: Darkrai|0 fnt
+|faint|p1a: Darkrai
+|
+|upkeep
+|c|☆SolAnima|Wait...
+|c|☆SolAnima|Isn't poison strong against bug types?
+|choice|switch 6|
+|
+|switch|p1a: Dialga|Dialga|100/100
+|-ability|p1a: Dialga|Pressure
+|turn|4
+|choice|move fireblast|move earthquake
+|
+|move|p2a: Arceus|Earthquake|p1a: Dialga
+|-supereffective|p1a: Dialga
+|-damage|p1a: Dialga|52/100
+|move|p1a: Dialga|Fire Blast|p2a: Arceus|[miss]
+|-miss|p1a: Dialga|p2a: Arceus
+|
+|-heal|p1a: Dialga|58/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|c|☆luismario5|no
+|choice|move fireblast|move earthquake
+|
+|move|p2a: Arceus|Earthquake|p1a: Dialga
+|-supereffective|p1a: Dialga
+|-damage|p1a: Dialga|9/100
+|move|p1a: Dialga|Fire Blast|p2a: Arceus
+|-supereffective|p2a: Arceus
+|-damage|p2a: Arceus|0 fnt
+|faint|p2a: Arceus
+|
+|-heal|p1a: Dialga|15/100|[from] item: Leftovers
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Ho-Oh|Ho-Oh|100/100
+|turn|6
+|choice|move stealthrock|move sacredfire
+|
+|move|p1a: Dialga|Stealth Rock|p2a: Ho-Oh
+|-sidestart|p2: luismario5|move: Stealth Rock
+|move|p2a: Ho-Oh|Sacred Fire|p1a: Dialga
+|-damage|p1a: Dialga|0 fnt
+|-damage|p2a: Ho-Oh|91/100|[from] item: Life Orb
+|faint|p1a: Dialga
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Kyogre|Kyogre|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Kyogre
+|turn|7
+|choice|move waterspout|switch 4
+|
+|switch|p2a: Blissey|Blissey, F|100/100
+|-damage|p2a: Blissey|88/100|[from] Stealth Rock
+|move|p1a: Kyogre|Water Spout|p2a: Blissey
+|-damage|p2a: Blissey|43/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+|choice|move waterspout|move toxic
+|
+|move|p1a: Kyogre|Water Spout|p2a: Blissey
+|-damage|p2a: Blissey|0 fnt
+|faint|p2a: Blissey
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Latias|Latias, F|100/100
+|-damage|p2a: Latias|88/100|[from] Stealth Rock
+|turn|9
+|choice|move waterspout|move psyshock
+|
+|move|p1a: Kyogre|Water Spout|p2a: Latias
+|-resisted|p2a: Latias
+|-damage|p2a: Latias|54/100
+|move|p2a: Latias|Psyshock|p1a: Kyogre
+|-damage|p1a: Kyogre|45/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|10
+|choice|switch 5|move defog
+|
+|switch|p1a: Arceus|Arceus-Bug|100/100
+|move|p2a: Latias|Defog|p1a: Arceus
+|-unboost|p1a: Arceus|evasion|1
+|-sideend|p2: luismario5|Stealth Rock|[from] move: Defog|[of] p2a: Latias
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|11
+|choice|move swordsdance|switch 5
+|
+|switch|p2a: Dialga|Dialga|88/100 slp
+|-ability|p2a: Dialga|Pressure
+|move|p1a: Arceus|Swords Dance|p1a: Arceus
+|-boost|p1a: Arceus|atk|2
+|
+|-weather|none
+|-heal|p2a: Dialga|94/100 slp|[from] item: Leftovers
+|upkeep
+|turn|12
+|choice|move earthquake|move toxic
+|
+|move|p1a: Arceus|Earthquake|p2a: Dialga
+|-supereffective|p2a: Dialga
+|-damage|p2a: Dialga|2/100 slp
+|cant|p2a: Dialga|slp
+|
+|-heal|p2a: Dialga|9/100 slp|[from] item: Leftovers
+|upkeep
+|turn|13
+|choice|move earthquake|move toxic
+|
+|move|p1a: Arceus|Earthquake|p2a: Dialga
+|-supereffective|p2a: Dialga
+|-damage|p2a: Dialga|0 fnt
+|faint|p2a: Dialga
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Ho-Oh|Ho-Oh|100/100
+|turn|14
+|choice|move stoneedge|move bravebird
+|
+|move|p1a: Arceus|Stone Edge|p2a: Ho-Oh
+|-supereffective|p2a: Ho-Oh
+|-crit|p2a: Ho-Oh
+|-damage|p2a: Ho-Oh|0 fnt
+|faint|p2a: Ho-Oh
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Deoxys|Deoxys-Defense|100/100
+|-ability|p2a: Deoxys|Pressure
+|turn|15
+|choice|move xscissor|move toxic
+|
+|move|p1a: Arceus|X-Scissor|p2a: Deoxys
+|-supereffective|p2a: Deoxys
+|-damage|p2a: Deoxys|0 fnt
+|faint|p2a: Deoxys
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Latias|Latias, F|54/100
+|turn|16
+|choice|move xscissor|move psyshock
+|
+|move|p1a: Arceus|X-Scissor|p2a: Latias
+|-supereffective|p2a: Latias
+|-damage|p2a: Latias|0 fnt
+|faint|p2a: Latias
+|
+|win|SolAnima
+|raw|SolAnima's rating: 1122 &rarr; <strong>1153</strong><br />(+31 for winning)
+|raw|luismario5's rating: 1202 &rarr; <strong>1171</strong><br />(-31 for losing)
+|l|luismario5

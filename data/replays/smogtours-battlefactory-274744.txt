@@ -1,0 +1,230 @@
+|J|Dokkerich
+|J|T be stuntin
+|player|p1|Dokkerich|31
+|player|p2|T be stuntin|112
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|35720,38797,22993,25588,37350,9134,49622,15307,51101,57943,63692,36751
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Jellicent, M|item
+|poke|p1|Druddigon, M|item
+|poke|p1|Hitmonlee, M|item
+|poke|p1|Venusaur, M|item
+|poke|p1|Jolteon, M|item
+|poke|p1|Banette, M|item
+|poke|p2|Sneasel, M|item
+|poke|p2|Manectric, M|item
+|poke|p2|Hoopa|item
+|poke|p2|Slowking, M|item
+|poke|p2|Smeargle, M|item
+|poke|p2|Poliwrath, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 5, team 2, team 3, team 4, team 1, team 6|team 5, team 2, team 3, team 4, team 1, team 6
+|
+|start
+|switch|p1a: Jolteon|Jolteon, M|100/100
+|switch|p2a: Smeargle|Smeargle, M|100/100
+|turn|1
+|choice|move thunderbolt|move stickyweb
+|
+|move|p1a: Jolteon|Thunderbolt|p2a: Smeargle
+|-enditem|p2a: Smeargle|Focus Sash
+|-damage|p2a: Smeargle|1/100
+|move|p2a: Smeargle|Sticky Web|p1a: Jolteon
+|-sidestart|p1: Dokkerich|move: Sticky Web
+|
+|upkeep
+|turn|2
+|choice|move thunderbolt|move explosion
+|
+|move|p1a: Jolteon|Thunderbolt|p2a: Smeargle
+|-damage|p2a: Smeargle|0 fnt
+|faint|p2a: Smeargle
+|
+|upkeep
+|J|Nintendi
+|L|Nintendi
+|choice||switch 3
+|
+|switch|p2a: Hoopa|Hoopa|100/100
+|turn|3
+|choice|move thunderbolt|move nastyplot
+|
+|move|p1a: Jolteon|Thunderbolt|p2a: Hoopa
+|-damage|p2a: Hoopa|46/100
+|move|p2a: Hoopa|Nasty Plot|p2a: Hoopa
+|-boost|p2a: Hoopa|spa|2
+|
+|-heal|p2a: Hoopa|52/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|choice|move thunderbolt|move shadowball
+|
+|move|p1a: Jolteon|Thunderbolt|p2a: Hoopa
+|-damage|p2a: Hoopa|0 fnt
+|faint|p2a: Hoopa
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Manectric|Manectric, M|100/100
+|turn|5
+|choice|move thunderbolt|move voltswitch
+|
+|move|p1a: Jolteon|Thunderbolt|p2a: Manectric
+|-ability|p2a: Manectric|Lightning Rod|boost
+|-boost|p2a: Manectric|spa|1
+|move|p2a: Manectric|Volt Switch|p1a: Jolteon
+|-immune|p1a: Jolteon|[msg]|[from] ability: Volt Absorb
+|
+|upkeep
+|turn|6
+|choice|switch 4|move hiddenpower
+|
+|switch|p1a: Venusaur|Venusaur, M|100/100
+|-activate|p1a: Venusaur|move: Sticky Web
+|-unboost|p1a: Venusaur|spe|1
+|move|p2a: Manectric|Hidden Power|p1a: Venusaur
+|-supereffective|p1a: Venusaur
+|-damage|p1a: Venusaur|17/100
+|-damage|p2a: Manectric|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|7
+|choice|move sludgebomb|move hiddenpower
+|
+|move|p2a: Manectric|Hidden Power|p1a: Venusaur
+|-supereffective|p1a: Venusaur
+|-damage|p1a: Venusaur|0 fnt
+|-damage|p2a: Manectric|81/100|[from] item: Life Orb
+|faint|p1a: Venusaur
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Banette|Banette, M|100/100
+|-activate|p1a: Banette|move: Sticky Web
+|-unboost|p1a: Banette|spe|1
+|turn|8
+|choice|move suckerpunch mega|move thunderbolt
+|
+|detailschange|p1a: Banette|Banette-Mega, M
+|-mega|p1a: Banette|Banette|Banettite
+|move|p1a: Banette|Sucker Punch|p2a: Manectric
+|-damage|p2a: Manectric|15/100
+|move|p2a: Manectric|Thunderbolt|p1a: Banette
+|-damage|p1a: Banette|7/100
+|-status|p1a: Banette|par
+|-damage|p2a: Manectric|5/100|[from] item: Life Orb
+|
+|upkeep
+|turn|9
+|choice|move willowisp|switch 6
+|
+|switch|p2a: Poliwrath|Poliwrath, M|100/100
+|move|p1a: Banette|Will-O-Wisp|p2a: Poliwrath
+|-status|p2a: Poliwrath|brn
+|
+|-damage|p2a: Poliwrath|88/100 brn|[from] brn
+|upkeep
+|turn|10
+|choice|move gunkshot|move scald
+|
+|move|p2a: Poliwrath|Scald|p1a: Banette
+|-damage|p1a: Banette|0 fnt
+|faint|p1a: Banette
+|
+|-damage|p2a: Poliwrath|76/100 brn|[from] brn
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Druddigon|Druddigon, M|100/100
+|-activate|p1a: Druddigon|move: Sticky Web
+|-unboost|p1a: Druddigon|spe|1
+|turn|11
+|choice|move stealthrock|move scald
+|
+|move|p2a: Poliwrath|Scald|p1a: Druddigon
+|-resisted|p1a: Druddigon
+|-damage|p1a: Druddigon|77/100
+|move|p1a: Druddigon|Stealth Rock|p2a: Poliwrath
+|-sidestart|p2: T be stuntin|move: Stealth Rock
+|
+|-damage|p2a: Poliwrath|64/100 brn|[from] brn
+|upkeep
+|turn|12
+|choice|switch 5|switch 4
+|
+|switch|p2a: Slowking|Slowking, M|100/100
+|-damage|p2a: Slowking|88/100|[from] Stealth Rock
+|switch|p1a: Jellicent|Jellicent, M|100/100
+|-activate|p1a: Jellicent|move: Sticky Web
+|-unboost|p1a: Jellicent|spe|1
+|
+|-heal|p2a: Slowking|94/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|choice|move willowisp|move thunderwave
+|
+|move|p1a: Jellicent|Will-O-Wisp|p2a: Slowking
+|-status|p2a: Slowking|brn
+|move|p2a: Slowking|Thunder Wave|p1a: Jellicent
+|-status|p1a: Jellicent|par
+|
+|-heal|p2a: Slowking|99/100 brn|[from] item: Leftovers
+|-damage|p2a: Slowking|88/100 brn|[from] brn
+|upkeep
+|turn|14
+|choice|move hex|switch 5
+|
+|switch|p2a: Sneasel|Sneasel, M|100/100
+|-damage|p2a: Sneasel|76/100|[from] Stealth Rock
+|move|p1a: Jellicent|Hex|p2a: Sneasel
+|-resisted|p2a: Sneasel
+|-damage|p2a: Sneasel|59/100
+|
+|upkeep
+|turn|15
+|choice|switch 3|move knockoff
+|
+|switch|p1a: Hitmonlee|Hitmonlee, M|100/100
+|-activate|p1a: Hitmonlee|move: Sticky Web
+|-unboost|p1a: Hitmonlee|spe|1
+|move|p2a: Sneasel|Knock Off|p1a: Hitmonlee
+|-resisted|p1a: Hitmonlee
+|-damage|p1a: Hitmonlee|36/100
+|-enditem|p1a: Hitmonlee|Choice Scarf|[from] move: Knock Off|[of] p2a: Sneasel
+|-damage|p2a: Sneasel|49/100|[from] item: Life Orb
+|
+|upkeep
+|turn|16
+|choice|move rapidspin|switch 5
+|
+|switch|p2a: Slowking|Slowking, M|100/100 brn
+|-damage|p2a: Slowking|88/100 brn|[from] Stealth Rock
+|move|p1a: Hitmonlee|Rapid Spin|p2a: Slowking
+|-damage|p2a: Slowking|83/100 brn
+|-sideend|p1: Dokkerich|Sticky Web|[from] move: Rapid Spin|[of] p1a: Hitmonlee
+|
+|-heal|p2a: Slowking|90/100 brn|[from] item: Leftovers
+|-damage|p2a: Slowking|77/100 brn|[from] brn
+|upkeep
+|turn|17
+|choice|move knockoff|switch 5
+|
+|switch|p2a: Sneasel|Sneasel, M|49/100
+|-damage|p2a: Sneasel|24/100|[from] Stealth Rock
+|move|p1a: Hitmonlee|Knock Off|p2a: Sneasel
+|-resisted|p2a: Sneasel
+|-damage|p2a: Sneasel|0 fnt
+|-enditem|p2a: Sneasel|Life Orb|[from] move: Knock Off|[of] p1a: Hitmonlee
+|faint|p2a: Sneasel
+|
+|upkeep
+|-message|T be stuntin forfeited.
+|
+|win|Dokkerich

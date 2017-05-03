@@ -1,0 +1,606 @@
+|j|Pipet
+|j|Abraham05
+|player|p1|Pipet|274
+|player|p2|Abraham05|170
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|46157,43168,19494,53670,63694,32730,51063,64991,44609,24685,39828,22223
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Rhyperior, M|item
+|poke|p1|Escavalier, M|item
+|poke|p1|Camerupt, M|item
+|poke|p1|Venusaur, M|item
+|poke|p1|Diancie|item
+|poke|p1|Alomomola, M|item
+|poke|p2|Rotom|item
+|poke|p2|Aggron, M|item
+|poke|p2|Bronzong|item
+|poke|p2|Blastoise, M|item
+|poke|p2|Roselia, M|item
+|poke|p2|Houndoom, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 6, team 2, team 3, team 4, team 5, team 1|team 5, team 2, team 3, team 4, team 1, team 6
+|
+|start
+|switch|p1a: Alomomola|Alomomola, M|100/100
+|switch|p2a: Roselia|Roselia, M|100/100
+|turn|1
+|choice|move protect|move gigadrain
+|
+|move|p1a: Alomomola|Protect|p1a: Alomomola
+|-singleturn|p1a: Alomomola|Protect
+|move|p2a: Roselia|Giga Drain|p1a: Alomomola
+|-activate|p1a: Alomomola|move: Protect
+|
+|upkeep
+|turn|2
+|choice|move scald|move gigadrain
+|
+|move|p2a: Roselia|Giga Drain|p1a: Alomomola
+|-supereffective|p1a: Alomomola
+|-damage|p1a: Alomomola|57/100
+|move|p1a: Alomomola|Scald|p2a: Roselia
+|-resisted|p2a: Roselia
+|-damage|p2a: Roselia|96/100
+|-status|p2a: Roselia|brn
+|
+|-heal|p1a: Alomomola|64/100|[from] item: Leftovers
+|-damage|p2a: Roselia|83/100 brn|[from] brn
+|upkeep
+|turn|3
+|choice|switch 2|move gigadrain
+|
+|switch|p1a: Escavalier|Escavalier, M|100/100
+|move|p2a: Roselia|Giga Drain|p1a: Escavalier
+|-resisted|p1a: Escavalier
+|-damage|p1a: Escavalier|96/100
+|-heal|p2a: Roselia|86/100 brn|[from] drain|[of] p1a: Escavalier
+|
+|-damage|p2a: Roselia|73/100 brn|[from] brn
+|upkeep
+|turn|4
+|choice|move megahorn|switch 6
+|
+|-curestatus|p2a: Roselia|brn|[from] ability: Natural Cure
+|switch|p2a: Houndoom|Houndoom, M|100/100
+|move|p1a: Escavalier|Megahorn|p2a: Houndoom
+|-damage|p2a: Houndoom|0 fnt
+|faint|p2a: Houndoom
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Rotom|Rotom|100/100
+|turn|5
+|choice|move knockoff|move willowisp
+|
+|move|p2a: Rotom|Will-O-Wisp|p1a: Escavalier
+|-status|p1a: Escavalier|brn
+|move|p1a: Escavalier|Knock Off|p2a: Rotom
+|-supereffective|p2a: Rotom
+|-damage|p2a: Rotom|45/100
+|-enditem|p2a: Rotom|Leftovers|[from] move: Knock Off|[of] p1a: Escavalier
+|
+|-damage|p1a: Escavalier|84/100 brn|[from] brn
+|upkeep
+|turn|6
+|choice|move knockoff|move hex
+|
+|move|p2a: Rotom|Hex|p1a: Escavalier
+|-damage|p1a: Escavalier|50/100 brn
+|move|p1a: Escavalier|Knock Off|p2a: Rotom
+|-supereffective|p2a: Rotom
+|-damage|p2a: Rotom|3/100
+|
+|-damage|p1a: Escavalier|38/100 brn|[from] brn
+|upkeep
+|turn|7
+|choice|move pursuit|move discharge
+|
+|move|p2a: Rotom|Discharge|p1a: Escavalier
+|-damage|p1a: Escavalier|16/100 brn
+|move|p1a: Escavalier|Pursuit|p2a: Rotom
+|-supereffective|p2a: Rotom
+|-crit|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|-damage|p1a: Escavalier|3/100 brn|[from] brn
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Roselia|Roselia, M|73/100
+|turn|8
+|choice|move knockoff|move gigadrain
+|
+|move|p2a: Roselia|Giga Drain|p1a: Escavalier
+|-resisted|p1a: Escavalier
+|-damage|p1a: Escavalier|0 fnt
+|-heal|p2a: Roselia|75/100|[from] drain|[of] p1a: Escavalier
+|faint|p1a: Escavalier
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Rhyperior|Rhyperior, M|100/100
+|turn|9
+|choice|switch 3|switch 3
+|
+|switch|p2a: Bronzong|Bronzong|100/100
+|switch|p1a: Camerupt|Camerupt, M|100/100
+|
+|upkeep
+|turn|10
+|choice|move fireblast mega|move stealthrock
+|
+|detailschange|p1a: Camerupt|Camerupt-Mega, M
+|-mega|p1a: Camerupt|Camerupt|Cameruptite
+|move|p1a: Camerupt|Fire Blast|p2a: Bronzong
+|-supereffective|p2a: Bronzong
+|-damage|p2a: Bronzong|0 fnt
+|faint|p2a: Bronzong
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Blastoise|Blastoise, M|100/100
+|turn|11
+|choice|move toxic|move scald
+|
+|move|p2a: Blastoise|Scald|p1a: Camerupt
+|-supereffective|p1a: Camerupt
+|-damage|p1a: Camerupt|0 fnt
+|faint|p1a: Camerupt
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Alomomola|Alomomola, M|97/100
+|turn|12
+|choice|move toxic|move refresh
+|
+|move|p2a: Blastoise|Refresh|p2a: Blastoise
+|-fail|p2a: Blastoise
+|move|p1a: Alomomola|Toxic|p2a: Blastoise
+|-status|p2a: Blastoise|tox
+|
+|-heal|p1a: Alomomola|100/100|[from] item: Leftovers
+|-damage|p2a: Blastoise|94/100 tox|[from] psn
+|upkeep
+|turn|13
+|choice|move protect|switch 3
+|
+|switch|p2a: Roselia|Roselia, M|75/100
+|move|p1a: Alomomola|Protect|p1a: Alomomola
+|-fail|p1a: Alomomola
+|
+|upkeep
+|turn|14
+|choice|move scald|move gigadrain
+|
+|move|p1a: Alomomola|Scald|p2a: Roselia
+|-resisted|p2a: Roselia
+|-damage|p2a: Roselia|70/100
+|-status|p2a: Roselia|brn
+|move|p2a: Roselia|Giga Drain|p1a: Alomomola
+|-supereffective|p1a: Alomomola
+|-damage|p1a: Alomomola|57/100
+|-heal|p2a: Roselia|100/100 brn|[from] drain|[of] p1a: Alomomola
+|
+|-heal|p1a: Alomomola|63/100|[from] item: Leftovers
+|-damage|p2a: Roselia|88/100 brn|[from] brn
+|upkeep
+|turn|15
+|choice|move scald|move synthesis
+|
+|move|p2a: Roselia|Synthesis|p2a: Roselia
+|-heal|p2a: Roselia|100/100 brn
+|move|p1a: Alomomola|Scald|p2a: Roselia
+|-resisted|p2a: Roselia
+|-damage|p2a: Roselia|96/100 brn
+|
+|-heal|p1a: Alomomola|69/100|[from] item: Leftovers
+|-damage|p2a: Roselia|83/100 brn|[from] brn
+|upkeep
+|turn|16
+|choice|move wish|move synthesis
+|
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|move|p2a: Roselia|Synthesis|p2a: Roselia
+|-heal|p2a: Roselia|100/100 brn
+|
+|-heal|p1a: Alomomola|76/100|[from] item: Leftovers
+|-damage|p2a: Roselia|88/100 brn|[from] brn
+|upkeep
+|turn|17
+|choice|move scald|move gigadrain
+|
+|move|p2a: Roselia|Giga Drain|p1a: Alomomola
+|-supereffective|p1a: Alomomola
+|-damage|p1a: Alomomola|36/100
+|-heal|p2a: Roselia|100/100 brn|[from] drain|[of] p1a: Alomomola
+|move|p1a: Alomomola|Scald|p2a: Roselia
+|-resisted|p2a: Roselia
+|-damage|p2a: Roselia|96/100 brn
+|
+|-heal|p1a: Alomomola|86/100|[from] move: Wish|[wisher] Alomomola
+|-heal|p1a: Alomomola|92/100|[from] item: Leftovers
+|-damage|p2a: Roselia|83/100 brn|[from] brn
+|upkeep
+|turn|18
+|choice|move wish|move synthesis
+|
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|move|p2a: Roselia|Synthesis|p2a: Roselia
+|-heal|p2a: Roselia|100/100 brn
+|
+|-heal|p1a: Alomomola|98/100|[from] item: Leftovers
+|-damage|p2a: Roselia|88/100 brn|[from] brn
+|upkeep
+|turn|19
+|choice|move scald|move gigadrain
+|
+|move|p2a: Roselia|Giga Drain|p1a: Alomomola
+|-supereffective|p1a: Alomomola
+|-damage|p1a: Alomomola|60/100
+|-heal|p2a: Roselia|100/100 brn|[from] drain|[of] p1a: Alomomola
+|move|p1a: Alomomola|Scald|p2a: Roselia
+|-resisted|p2a: Roselia
+|-damage|p2a: Roselia|96/100 brn
+|
+|-heal|p1a: Alomomola|100/100|[from] move: Wish|[wisher] Alomomola
+|-damage|p2a: Roselia|83/100 brn|[from] brn
+|upkeep
+|turn|20
+|choice|move wish|move gigadrain
+|
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|move|p2a: Roselia|Giga Drain|p1a: Alomomola
+|-supereffective|p1a: Alomomola
+|-damage|p1a: Alomomola|61/100
+|-heal|p2a: Roselia|100/100 brn|[from] drain|[of] p1a: Alomomola
+|
+|-heal|p1a: Alomomola|67/100|[from] item: Leftovers
+|-damage|p2a: Roselia|88/100 brn|[from] brn
+|upkeep
+|turn|21
+|choice|move scald|move gigadrain
+|
+|move|p2a: Roselia|Giga Drain|p1a: Alomomola
+|-supereffective|p1a: Alomomola
+|-damage|p1a: Alomomola|27/100
+|-heal|p2a: Roselia|100/100 brn|[from] drain|[of] p1a: Alomomola
+|move|p1a: Alomomola|Scald|p2a: Roselia
+|-resisted|p2a: Roselia
+|-crit|p2a: Roselia
+|-damage|p2a: Roselia|94/100 brn
+|
+|-heal|p1a: Alomomola|77/100|[from] move: Wish|[wisher] Alomomola
+|-heal|p1a: Alomomola|83/100|[from] item: Leftovers
+|-damage|p2a: Roselia|81/100 brn|[from] brn
+|upkeep
+|turn|22
+|choice|move wish|move gigadrain
+|
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|move|p2a: Roselia|Giga Drain|p1a: Alomomola
+|-supereffective|p1a: Alomomola
+|-damage|p1a: Alomomola|43/100
+|-heal|p2a: Roselia|100/100 brn|[from] drain|[of] p1a: Alomomola
+|
+|-heal|p1a: Alomomola|49/100|[from] item: Leftovers
+|-damage|p2a: Roselia|88/100 brn|[from] brn
+|upkeep
+|turn|23
+|choice|move protect|move gigadrain
+|
+|move|p1a: Alomomola|Protect|p1a: Alomomola
+|-singleturn|p1a: Alomomola|Protect
+|move|p2a: Roselia|Giga Drain|p1a: Alomomola
+|-activate|p1a: Alomomola|move: Protect
+|
+|-heal|p1a: Alomomola|99/100|[from] move: Wish|[wisher] Alomomola
+|-heal|p1a: Alomomola|100/100|[from] item: Leftovers
+|-damage|p2a: Roselia|76/100 brn|[from] brn
+|upkeep
+|turn|24
+|choice|move wish|move gigadrain
+|
+|move|p2a: Roselia|Giga Drain|p1a: Alomomola
+|-supereffective|p1a: Alomomola
+|-damage|p1a: Alomomola|62/100
+|-heal|p2a: Roselia|100/100 brn|[from] drain|[of] p1a: Alomomola
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|-heal|p1a: Alomomola|68/100|[from] item: Leftovers
+|-damage|p2a: Roselia|88/100 brn|[from] brn
+|upkeep
+|turn|25
+|choice|move protect|move gigadrain
+|
+|move|p1a: Alomomola|Protect|p1a: Alomomola
+|-singleturn|p1a: Alomomola|Protect
+|move|p2a: Roselia|Giga Drain|p1a: Alomomola
+|-activate|p1a: Alomomola|move: Protect
+|
+|-heal|p1a: Alomomola|100/100|[from] move: Wish|[wisher] Alomomola
+|-damage|p2a: Roselia|76/100 brn|[from] brn
+|upkeep
+|turn|26
+|choice|move scald|move sludgebomb
+|
+|move|p1a: Alomomola|Scald|p2a: Roselia
+|-resisted|p2a: Roselia
+|-damage|p2a: Roselia|70/100 brn
+|move|p2a: Roselia|Sludge Bomb|p1a: Alomomola
+|-damage|p1a: Alomomola|78/100
+|-status|p1a: Alomomola|psn
+|
+|-heal|p1a: Alomomola|85/100 psn|[from] item: Leftovers
+|-damage|p1a: Alomomola|72/100 psn|[from] psn
+|-damage|p2a: Roselia|58/100 brn|[from] brn
+|upkeep
+|turn|27
+|choice|move wish|move synthesis
+|
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|move|p2a: Roselia|Synthesis|p2a: Roselia
+|-heal|p2a: Roselia|100/100 brn
+|
+|-heal|p1a: Alomomola|78/100 psn|[from] item: Leftovers
+|-damage|p1a: Alomomola|66/100 psn|[from] psn
+|-damage|p2a: Roselia|88/100 brn|[from] brn
+|upkeep
+|turn|28
+|choice|move protect|move synthesis
+|
+|move|p1a: Alomomola|Protect|p1a: Alomomola
+|-singleturn|p1a: Alomomola|Protect
+|move|p2a: Roselia|Synthesis|p2a: Roselia
+|-heal|p2a: Roselia|100/100 brn
+|
+|-heal|p1a: Alomomola|100/100 psn|[from] move: Wish|[wisher] Alomomola
+|-damage|p1a: Alomomola|88/100 psn|[from] psn
+|-damage|p2a: Roselia|88/100 brn|[from] brn
+|upkeep
+|turn|29
+|choice|move scald|move spikes
+|
+|move|p1a: Alomomola|Scald|p2a: Roselia
+|-resisted|p2a: Roselia
+|-damage|p2a: Roselia|83/100 brn
+|move|p2a: Roselia|Spikes|p1a: Alomomola
+|-sidestart|p1: Pipet|Spikes
+|
+|-heal|p1a: Alomomola|94/100 psn|[from] item: Leftovers
+|-damage|p2a: Roselia|71/100 brn|[from] brn
+|-damage|p1a: Alomomola|82/100 psn|[from] psn
+|upkeep
+|turn|30
+|choice|move wish|move gigadrain
+|
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|move|p2a: Roselia|Giga Drain|p1a: Alomomola
+|-supereffective|p1a: Alomomola
+|-damage|p1a: Alomomola|42/100 psn
+|-heal|p2a: Roselia|100/100 brn|[from] drain|[of] p1a: Alomomola
+|
+|-heal|p1a: Alomomola|49/100 psn|[from] item: Leftovers
+|-damage|p1a: Alomomola|36/100 psn|[from] psn
+|-damage|p2a: Roselia|88/100 brn|[from] brn
+|upkeep
+|turn|31
+|choice|move protect|move gigadrain
+|
+|move|p1a: Alomomola|Protect|p1a: Alomomola
+|-singleturn|p1a: Alomomola|Protect
+|move|p2a: Roselia|Giga Drain|p1a: Alomomola
+|-activate|p1a: Alomomola|move: Protect
+|
+|-heal|p1a: Alomomola|86/100 psn|[from] move: Wish|[wisher] Alomomola
+|-heal|p1a: Alomomola|92/100 psn|[from] item: Leftovers
+|-damage|p2a: Roselia|76/100 brn|[from] brn
+|-damage|p1a: Alomomola|80/100 psn|[from] psn
+|upkeep
+|turn|32
+|choice|move wish|move gigadrain
+|
+|move|p2a: Roselia|Giga Drain|p1a: Alomomola
+|-supereffective|p1a: Alomomola
+|-damage|p1a: Alomomola|37/100 psn
+|-heal|p2a: Roselia|100/100 brn|[from] drain|[of] p1a: Alomomola
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|-heal|p1a: Alomomola|43/100 psn|[from] item: Leftovers
+|-damage|p2a: Roselia|88/100 brn|[from] brn
+|-damage|p1a: Alomomola|31/100 psn|[from] psn
+|upkeep
+|turn|33
+|choice|move protect|move sludgebomb
+|
+|move|p1a: Alomomola|Protect|p1a: Alomomola
+|-singleturn|p1a: Alomomola|Protect
+|move|p2a: Roselia|Sludge Bomb|p1a: Alomomola
+|-activate|p1a: Alomomola|move: Protect
+|
+|-heal|p1a: Alomomola|81/100 psn|[from] move: Wish|[wisher] Alomomola
+|-heal|p1a: Alomomola|87/100 psn|[from] item: Leftovers
+|-damage|p1a: Alomomola|74/100 psn|[from] psn
+|-damage|p2a: Roselia|76/100 brn|[from] brn
+|upkeep
+|turn|34
+|choice|move wish|move sludgebomb
+|
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|move|p2a: Roselia|Sludge Bomb|p1a: Alomomola
+|-damage|p1a: Alomomola|49/100 psn
+|
+|-heal|p1a: Alomomola|55/100 psn|[from] item: Leftovers
+|-damage|p2a: Roselia|64/100 brn|[from] brn
+|-damage|p1a: Alomomola|43/100 psn|[from] psn
+|upkeep
+|turn|35
+|choice|move protect|move sludgebomb
+|
+|move|p1a: Alomomola|Protect|p1a: Alomomola
+|-singleturn|p1a: Alomomola|Protect
+|move|p2a: Roselia|Sludge Bomb|p1a: Alomomola
+|-activate|p1a: Alomomola|move: Protect
+|
+|-heal|p1a: Alomomola|93/100 psn|[from] move: Wish|[wisher] Alomomola
+|-heal|p1a: Alomomola|99/100 psn|[from] item: Leftovers
+|-damage|p1a: Alomomola|87/100 psn|[from] psn
+|-damage|p2a: Roselia|52/100 brn|[from] brn
+|upkeep
+|turn|36
+|choice|move wish|switch 2
+|
+|-curestatus|p2a: Roselia|brn|[from] ability: Natural Cure
+|switch|p2a: Aggron|Aggron, M|100/100
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|-heal|p1a: Alomomola|93/100 psn|[from] item: Leftovers
+|-damage|p1a: Alomomola|80/100 psn|[from] psn
+|upkeep
+|turn|37
+|choice|move scald|move sleeptalk
+|
+|move|p2a: Aggron|Sleep Talk|p2a: Aggron
+|-fail|p2a: Aggron
+|move|p1a: Alomomola|Scald|p2a: Aggron
+|-supereffective|p2a: Aggron
+|-damage|p2a: Aggron|51/100
+|
+|-heal|p1a: Alomomola|100/100 psn|[from] move: Wish|[wisher] Alomomola
+|-damage|p1a: Alomomola|88/100 psn|[from] psn
+|upkeep
+|turn|38
+|choice|move scald|move sleeptalk
+|
+|move|p2a: Aggron|Sleep Talk|p2a: Aggron
+|-fail|p2a: Aggron
+|move|p1a: Alomomola|Scald|p2a: Aggron
+|-supereffective|p2a: Aggron
+|-damage|p2a: Aggron|0 fnt
+|faint|p2a: Aggron
+|
+|-heal|p1a: Alomomola|94/100 psn|[from] item: Leftovers
+|-damage|p1a: Alomomola|82/100 psn|[from] psn
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Roselia|Roselia, M|52/100
+|turn|39
+|choice|move scald|move synthesis
+|
+|move|p1a: Alomomola|Scald|p2a: Roselia
+|-resisted|p2a: Roselia
+|-damage|p2a: Roselia|47/100
+|move|p2a: Roselia|Synthesis|p2a: Roselia
+|-heal|p2a: Roselia|97/100
+|
+|-heal|p1a: Alomomola|88/100 psn|[from] item: Leftovers
+|-damage|p1a: Alomomola|76/100 psn|[from] psn
+|upkeep
+|turn|40
+|choice|move scald|switch 3
+|
+|switch|p2a: Blastoise|Blastoise, M|94/100 tox
+|move|p1a: Alomomola|Scald|p2a: Blastoise
+|-resisted|p2a: Blastoise
+|-damage|p2a: Blastoise|89/100 tox
+|
+|-heal|p2a: Blastoise|95/100 tox|[from] item: Leftovers
+|-heal|p1a: Alomomola|82/100 psn|[from] item: Leftovers
+|-damage|p2a: Blastoise|89/100 tox|[from] psn
+|-damage|p1a: Alomomola|70/100 psn|[from] psn
+|upkeep
+|turn|41
+|choice|move wish|move refresh
+|
+|move|p2a: Blastoise|Refresh|p2a: Blastoise
+|-curestatus|p2a: Blastoise|tox|[msg]
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|-heal|p2a: Blastoise|95/100|[from] item: Leftovers
+|-heal|p1a: Alomomola|76/100 psn|[from] item: Leftovers
+|-damage|p1a: Alomomola|63/100 psn|[from] psn
+|upkeep
+|turn|42
+|choice|move toxic|move rapidspin
+|
+|move|p2a: Blastoise|Rapid Spin|p1a: Alomomola
+|-damage|p1a: Alomomola|61/100 psn
+|move|p1a: Alomomola|Toxic|p2a: Blastoise
+|-status|p2a: Blastoise|tox
+|
+|-heal|p1a: Alomomola|100/100 psn|[from] move: Wish|[wisher] Alomomola
+|-heal|p2a: Blastoise|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Blastoise|94/100 tox|[from] psn
+|-damage|p1a: Alomomola|88/100 psn|[from] psn
+|upkeep
+|turn|43
+|choice|move protect|move scald
+|
+|move|p1a: Alomomola|Protect|p1a: Alomomola
+|-singleturn|p1a: Alomomola|Protect
+|move|p2a: Blastoise|Scald|p1a: Alomomola
+|-activate|p1a: Alomomola|move: Protect
+|
+|-heal|p2a: Blastoise|100/100 tox|[from] item: Leftovers
+|-heal|p1a: Alomomola|94/100 psn|[from] item: Leftovers
+|-damage|p2a: Blastoise|88/100 tox|[from] psn
+|-damage|p1a: Alomomola|82/100 psn|[from] psn
+|upkeep
+|turn|44
+|choice|move wish|move scald
+|
+|move|p2a: Blastoise|Scald|p1a: Alomomola
+|-resisted|p1a: Alomomola
+|-damage|p1a: Alomomola|73/100 psn
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|-heal|p2a: Blastoise|94/100 tox|[from] item: Leftovers
+|-heal|p1a: Alomomola|79/100 psn|[from] item: Leftovers
+|-damage|p2a: Blastoise|76/100 tox|[from] psn
+|-damage|p1a: Alomomola|67/100 psn|[from] psn
+|upkeep
+|turn|45
+|choice|move protect|move scald
+|
+|move|p1a: Alomomola|Protect|p1a: Alomomola
+|-singleturn|p1a: Alomomola|Protect
+|move|p2a: Blastoise|Scald|p1a: Alomomola
+|-activate|p1a: Alomomola|move: Protect
+|
+|-heal|p1a: Alomomola|100/100 psn|[from] move: Wish|[wisher] Alomomola
+|-heal|p2a: Blastoise|82/100 tox|[from] item: Leftovers
+|-damage|p2a: Blastoise|58/100 tox|[from] psn
+|-damage|p1a: Alomomola|88/100 psn|[from] psn
+|upkeep
+|turn|46
+|choice|move scald|move rapidspin
+|
+|move|p2a: Blastoise|Rapid Spin|p1a: Alomomola
+|-damage|p1a: Alomomola|85/100 psn
+|move|p1a: Alomomola|Scald|p2a: Blastoise
+|-resisted|p2a: Blastoise
+|-damage|p2a: Blastoise|52/100 tox
+|
+|-heal|p2a: Blastoise|58/100 tox|[from] item: Leftovers
+|-heal|p1a: Alomomola|92/100 psn|[from] item: Leftovers
+|-damage|p2a: Blastoise|28/100 tox|[from] psn
+|-damage|p1a: Alomomola|79/100 psn|[from] psn
+|upkeep
+|turn|47
+|-message|Abraham05 forfeited.
+|
+|win|Pipet
+|l|Abraham05
+|raw|Pipet's rating: 1054 &rarr; <strong>1081</strong><br />(+27 for winning)
+|raw|Abraham05's rating: 1000 &rarr; <strong>1000</strong><br />(+0 for losing)

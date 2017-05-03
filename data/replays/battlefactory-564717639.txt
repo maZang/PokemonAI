@@ -1,0 +1,408 @@
+|j|Kel9901
+|j|KELVIN RIUFUCKER
+|player|p1|Kel9901|266
+|player|p2|KELVIN RIUFUCKER|1
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|56338,19215,36850,58711,64957,13039,29045,1441,54219,39624,57070,54944
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Gardevoir, M|item
+|poke|p1|Mienshao, M|item
+|poke|p1|Tentacruel, M|item
+|poke|p1|Tornadus, M|
+|poke|p1|Sableye, M|item
+|poke|p1|Aromatisse, M|item
+|poke|p2|Diancie|item
+|poke|p2|Snorlax, M|item
+|poke|p2|Noivern, M|item
+|poke|p2|Galvantula, M|item
+|poke|p2|Aggron, M|item
+|poke|p2|Crobat, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|c|☆Kel9901|u scared?
+|choice|team 4, team 2, team 3, team 1, team 5, team 6|team 3, team 2, team 1, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Tornadus|Tornadus, M|100/100
+|switch|p2a: Noivern|Noivern, M|100/100
+|turn|1
+|choice|move acrobatics|move hurricane
+|
+|move|p2a: Noivern|Hurricane|p1a: Tornadus
+|-damage|p1a: Tornadus|0 fnt
+|faint|p1a: Tornadus
+|
+|upkeep
+|c|☆KELVIN RIUFUCKER|should i be
+|c|☆Kel9901|shit
+|choice|switch 6|
+|
+|switch|p1a: Aromatisse|Aromatisse, M|100/100
+|turn|2
+|c|☆Kel9901|this is gay
+|choice|move wish|switch 2
+|
+|switch|p2a: Snorlax|Snorlax, M|100/100
+|move|p1a: Aromatisse|Wish|p1a: Aromatisse
+|
+|upkeep
+|turn|3
+|c|☆Kel9901|fat fuck
+|c|☆KELVIN RIUFUCKER|is u
+|c|☆Kel9901|u
+|c|☆KELVIN RIUFUCKER|meanie
+|choice|switch 5|move bodyslam
+|
+|switch|p1a: Sableye|Sableye, M|100/100
+|move|p2a: Snorlax|Body Slam|p1a: Sableye
+|-immune|p1a: Sableye|[msg]
+|
+|upkeep
+|turn|4
+|choice|move willowisp|switch 5
+|
+|switch|p2a: Aggron|Aggron, M|100/100
+|move|p1a: Sableye|Will-O-Wisp|p2a: Aggron
+|-status|p2a: Aggron|brn
+|
+|-damage|p2a: Aggron|88/100 brn|[from] brn
+|upkeep
+|turn|5
+|c|☆KELVIN RIUFUCKER|gay
+|c|☆Kel9901|lol
+|choice|move taunt|move earthquake mega
+|
+|detailschange|p2a: Aggron|Aggron-Mega, M
+|-mega|p2a: Aggron|Aggron|Aggronite
+|move|p1a: Sableye|Taunt|p2a: Aggron
+|-start|p2a: Aggron|move: Taunt
+|move|p2a: Aggron|Earthquake|p1a: Sableye
+|-damage|p1a: Sableye|80/100
+|
+|-heal|p1a: Sableye|86/100|[from] item: Leftovers
+|-damage|p2a: Aggron|76/100 brn|[from] brn
+|upkeep
+|turn|6
+|c|☆Kel9901|wut u gona do
+|c|☆Kel9901|wow
+|c|☆Kel9901|strong
+|choice|move knockoff|switch 3
+|
+|switch|p2a: Diancie|Diancie|100/100
+|move|p1a: Sableye|Knock Off|p2a: Diancie
+|-resisted|p2a: Diancie
+|-damage|p2a: Diancie|89/100
+|-enditem|p2a: Diancie|Leftovers|[from] move: Knock Off|[of] p1a: Sableye
+|
+|-heal|p1a: Sableye|92/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|choice|switch 3|move earthpower
+|
+|switch|p1a: Tentacruel|Tentacruel, M|100/100
+|move|p2a: Diancie|Earth Power|p1a: Tentacruel
+|-supereffective|p1a: Tentacruel
+|-damage|p1a: Tentacruel|52/100
+|
+|-heal|p1a: Tentacruel|58/100|[from] item: Black Sludge
+|upkeep
+|turn|8
+|c|☆Kel9901|strong
+|c|☆KELVIN RIUFUCKER|easy money
+|choice|move scald|switch 5
+|
+|switch|p2a: Snorlax|Snorlax, M|100/100
+|move|p1a: Tentacruel|Scald|p2a: Snorlax
+|-damage|p2a: Snorlax|87/100
+|
+|-heal|p1a: Tentacruel|64/100|[from] item: Black Sludge
+|upkeep
+|turn|9
+|choice|switch 3|move earthquake
+|
+|switch|p1a: Sableye|Sableye, M|92/100
+|move|p2a: Snorlax|Earthquake|p1a: Sableye
+|-damage|p1a: Sableye|23/100
+|
+|-heal|p1a: Sableye|29/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|c|☆Kel9901|strong wow
+|c|☆KELVIN RIUFUCKER|lol
+|choice|move willowisp|move earthquake
+|
+|move|p1a: Sableye|Will-O-Wisp|p2a: Snorlax
+|-status|p2a: Snorlax|brn
+|move|p2a: Snorlax|Earthquake|p1a: Sableye
+|-damage|p1a: Sableye|0 fnt
+|faint|p1a: Sableye
+|
+|-damage|p2a: Snorlax|74/100 brn|[from] brn
+|upkeep
+|c|☆KELVIN RIUFUCKER|fegit is ded
+|choice|switch 2|
+|
+|switch|p1a: Mienshao|Mienshao, M|100/100
+|turn|11
+|choice|move knockoff|switch 6
+|
+|switch|p2a: Crobat|Crobat, M|100/100
+|move|p1a: Mienshao|Knock Off|p2a: Crobat
+|-damage|p2a: Crobat|65/100
+|-enditem|p2a: Crobat|Black Sludge|[from] move: Knock Off|[of] p1a: Mienshao
+|
+|upkeep
+|turn|12
+|choice|switch 5|move bravebird
+|
+|switch|p1a: Aromatisse|Aromatisse, M|100/100
+|move|p2a: Crobat|Brave Bird|p1a: Aromatisse
+|-damage|p1a: Aromatisse|72/100
+|-damage|p2a: Crobat|55/100|[from] recoil|[of] p1a: Aromatisse
+|
+|-heal|p1a: Aromatisse|79/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|choice|switch 3|move taunt
+|
+|switch|p1a: Tentacruel|Tentacruel, M|64/100
+|move|p2a: Crobat|Taunt|p1a: Tentacruel
+|-start|p1a: Tentacruel|move: Taunt
+|
+|-heal|p1a: Tentacruel|70/100|[from] item: Black Sludge
+|upkeep
+|turn|14
+|choice|move scald|switch 3
+|
+|switch|p2a: Aggron|Aggron-Mega, M|76/100 brn
+|move|p1a: Tentacruel|Scald|p2a: Aggron
+|-damage|p2a: Aggron|53/100 brn
+|
+|-heal|p1a: Tentacruel|76/100|[from] item: Black Sludge
+|-damage|p2a: Aggron|41/100 brn|[from] brn
+|upkeep
+|turn|15
+|c|☆KELVIN RIUFUCKER|I have surprise for u
+|choice|switch 3|move rest
+|
+|switch|p1a: Aromatisse|Aromatisse, M|79/100
+|move|p2a: Aggron|Rest|p2a: Aggron
+|-status|p2a: Aggron|slp
+|-heal|p2a: Aggron|100/100 slp|[silent]
+|-status|p2a: Aggron|slp|[from] move: Rest
+|
+|-heal|p1a: Aromatisse|85/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|c|☆Kel9901|wow
+|choice|move wish|move sleeptalk
+|
+|cant|p2a: Aggron|slp
+|move|p2a: Aggron|Sleep Talk|p2a: Aggron
+|move|p2a: Aggron|Rest|p2a: Aggron|[from]Sleep Talk
+|-fail|p2a: Aggron
+|move|p1a: Aromatisse|Wish|p1a: Aromatisse
+|
+|-heal|p1a: Aromatisse|91/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|choice|switch 3|move sleeptalk
+|
+|switch|p1a: Tentacruel|Tentacruel, M|76/100
+|cant|p2a: Aggron|slp
+|move|p2a: Aggron|Sleep Talk|p2a: Aggron
+|move|p2a: Aggron|Heavy Slam|p1a: Tentacruel|[from]Sleep Talk
+|-resisted|p1a: Tentacruel
+|-damage|p1a: Tentacruel|51/100
+|
+|-heal|p1a: Tentacruel|100/100|[from] move: Wish|[wisher] Aromatisse
+|upkeep
+|turn|18
+|choice|switch 3|move earthquake
+|
+|switch|p1a: Aromatisse|Aromatisse, M|91/100
+|-curestatus|p2a: Aggron|slp|[msg]
+|move|p2a: Aggron|Earthquake|p1a: Aromatisse
+|-damage|p1a: Aromatisse|68/100
+|
+|-heal|p1a: Aromatisse|75/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|choice|move wish|move heavyslam
+|
+|move|p2a: Aggron|Heavy Slam|p1a: Aromatisse
+|-supereffective|p1a: Aromatisse
+|-damage|p1a: Aromatisse|0 fnt
+|faint|p1a: Aromatisse
+|
+|upkeep
+|c|☆Kel9901|wow
+|c|☆Kel9901|strong
+|choice|switch 5|
+|
+|switch|p1a: Mienshao|Mienshao, M|100/100
+|turn|20
+|choice|move highjumpkick|switch 3
+|
+|switch|p2a: Crobat|Crobat, M|55/100
+|move|p1a: Mienshao|High Jump Kick|p2a: Crobat|[miss]
+|-miss|p1a: Mienshao|p2a: Crobat
+|-damage|p1a: Mienshao|51/100|[from] highjumpkick
+|
+|upkeep
+|turn|21
+|c|☆Kel9901|wow
+|c|☆KELVIN RIUFUCKER|easy money
+|choice|switch 3|move roost
+|
+|switch|p1a: Tentacruel|Tentacruel, M|100/100
+|move|p2a: Crobat|Roost|p2a: Crobat
+|-heal|p2a: Crobat|100/100
+|
+|upkeep
+|turn|22
+|c|☆Kel9901|fuk u
+|choice|move scald|move taunt
+|
+|move|p2a: Crobat|Taunt|p1a: Tentacruel
+|-start|p1a: Tentacruel|move: Taunt
+|move|p1a: Tentacruel|Scald|p2a: Crobat
+|-damage|p2a: Crobat|77/100
+|-status|p2a: Crobat|brn
+|
+|-damage|p2a: Crobat|65/100 brn|[from] brn
+|upkeep
+|turn|23
+|choice|move knockoff|switch 3
+|
+|switch|p2a: Aggron|Aggron-Mega, M|100/100
+|move|p1a: Tentacruel|Knock Off|p2a: Aggron
+|-damage|p2a: Aggron|96/100
+|
+|upkeep
+|turn|24
+|choice|move scald|move earthquake
+|
+|move|p1a: Tentacruel|Scald|p2a: Aggron
+|-damage|p2a: Aggron|75/100
+|-status|p2a: Aggron|brn
+|move|p2a: Aggron|Earthquake|p1a: Tentacruel
+|-supereffective|p1a: Tentacruel
+|-damage|p1a: Tentacruel|72/100
+|
+|-heal|p1a: Tentacruel|78/100|[from] item: Black Sludge
+|-damage|p2a: Aggron|63/100 brn|[from] brn
+|-end|p1a: Tentacruel|move: Taunt
+|upkeep
+|turn|25
+|c|☆KELVIN RIUFUCKER|are u srs
+|choice|move toxicspikes|move rest
+|
+|move|p1a: Tentacruel|Toxic Spikes|p2a: Aggron
+|-sidestart|p2: KELVIN RIUFUCKER|move: Toxic Spikes
+|move|p2a: Aggron|Rest|p2a: Aggron
+|-status|p2a: Aggron|slp
+|-heal|p2a: Aggron|100/100 slp|[silent]
+|-status|p2a: Aggron|slp|[from] move: Rest
+|
+|-heal|p1a: Tentacruel|84/100|[from] item: Black Sludge
+|upkeep
+|turn|26
+|choice|move toxicspikes|move sleeptalk
+|
+|move|p1a: Tentacruel|Toxic Spikes|p2a: Aggron
+|-sidestart|p2: KELVIN RIUFUCKER|move: Toxic Spikes
+|cant|p2a: Aggron|slp
+|move|p2a: Aggron|Sleep Talk|p2a: Aggron
+|move|p2a: Aggron|Earthquake|p1a: Tentacruel|[from]Sleep Talk
+|-supereffective|p1a: Tentacruel
+|-damage|p1a: Tentacruel|28/100
+|
+|-heal|p1a: Tentacruel|34/100|[from] item: Black Sludge
+|upkeep
+|turn|27
+|choice|move scald|move sleeptalk
+|
+|move|p1a: Tentacruel|Scald|p2a: Aggron
+|-damage|p2a: Aggron|80/100 slp
+|cant|p2a: Aggron|slp
+|move|p2a: Aggron|Sleep Talk|p2a: Aggron
+|move|p2a: Aggron|Heavy Slam|p1a: Tentacruel|[from]Sleep Talk
+|-resisted|p1a: Tentacruel
+|-damage|p1a: Tentacruel|10/100
+|
+|-heal|p1a: Tentacruel|16/100|[from] item: Black Sludge
+|upkeep
+|turn|28
+|c|☆KELVIN RIUFUCKER|oh well i still win
+|choice|move scald|move earthquake
+|
+|move|p1a: Tentacruel|Scald|p2a: Aggron
+|-damage|p2a: Aggron|60/100 slp
+|-curestatus|p2a: Aggron|slp|[msg]
+|move|p2a: Aggron|Earthquake|p1a: Tentacruel
+|-supereffective|p1a: Tentacruel
+|-damage|p1a: Tentacruel|0 fnt
+|faint|p1a: Tentacruel
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Mienshao|Mienshao, M|51/100
+|turn|29
+|c|☆KELVIN RIUFUCKER|i am skilled player
+|c|☆Kel9901|no
+|choice|move highjumpkick|switch 3
+|
+|switch|p2a: Crobat|Crobat, M|65/100 brn
+|move|p1a: Mienshao|High Jump Kick|p2a: Crobat
+|-resisted|p2a: Crobat
+|-damage|p2a: Crobat|44/100 brn
+|
+|-damage|p2a: Crobat|32/100 brn|[from] brn
+|upkeep
+|turn|30
+|choice|switch 4|move roost
+|
+|switch|p1a: Gardevoir|Gardevoir, M|100/100
+|-ability|p1a: Gardevoir|Infiltrator|[from] ability: Trace|[of] p2a: Crobat
+|move|p2a: Crobat|Roost|p2a: Crobat
+|-heal|p2a: Crobat|82/100 brn
+|
+|-damage|p2a: Crobat|70/100 brn|[from] brn
+|upkeep
+|turn|31
+|choice|move psyshock|move taunt
+|
+|move|p2a: Crobat|Taunt|p1a: Gardevoir
+|-start|p1a: Gardevoir|move: Taunt
+|move|p1a: Gardevoir|Psyshock|p2a: Crobat
+|-supereffective|p2a: Crobat
+|-damage|p2a: Crobat|0 fnt
+|faint|p2a: Crobat
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Snorlax|Snorlax, M|74/100 brn
+|turn|32
+|choice|move focusblast|move bodyslam
+|
+|move|p1a: Gardevoir|Focus Blast|p2a: Snorlax|[miss]
+|-miss|p1a: Gardevoir|p2a: Snorlax
+|move|p2a: Snorlax|Body Slam|p1a: Gardevoir
+|-damage|p1a: Gardevoir|42/100
+|-status|p1a: Gardevoir|par
+|
+|-heal|p1a: Gardevoir|49/100 par|[from] item: Leftovers
+|-damage|p2a: Snorlax|62/100 brn|[from] brn
+|upkeep
+|turn|33
+|-message|Kel9901 forfeited.
+|
+|win|KELVIN RIUFUCKER
+|l|Kel9901

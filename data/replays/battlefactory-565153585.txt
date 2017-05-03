@@ -1,0 +1,328 @@
+|j|superpowerhoppa
+|j|DPDKing
+|player|p1|superpowerhoppa|294
+|player|p2|DPDKing|101
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|26022,53720,4549,26441,59303,17864,9298,50870,16375,38152,13358,65502
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Arbok, M|item
+|poke|p1|Gabite, M|item
+|poke|p1|Grumpig, M|item
+|poke|p1|Ninjask, M|item
+|poke|p1|Avalugg, M|item
+|poke|p1|Simisear, M|item
+|poke|p2|Simisear, M|item
+|poke|p2|Stunfisk, M|item
+|poke|p2|Politoed, M|item
+|poke|p2|Ninjask, M|item
+|poke|p2|Avalugg, M|item
+|poke|p2|Altaria, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|j|CARANBA4
+|choice|team 4, team 2, team 3, team 1, team 5, team 6|team 4, team 2, team 3, team 1, team 5, team 6
+|
+|start
+|switch|p1a: Ninjask|Ninjask, M|100/100
+|switch|p2a: Ninjask|Ninjask, M|100/100
+|turn|1
+|choice|move aerialace|switch 5
+|
+|switch|p2a: Avalugg|Avalugg, M|100/100
+|move|p1a: Ninjask|Aerial Ace|p2a: Avalugg
+|-damage|p2a: Avalugg|80/100
+|
+|-heal|p2a: Avalugg|87/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|choice|switch 6|switch 3
+|
+|switch|p1a: Simisear|Simisear, M|100/100
+|switch|p2a: Politoed|Politoed, M|100/100
+|
+|upkeep
+|turn|3
+|choice|switch 4|move scald
+|
+|switch|p1a: Arbok|Arbok, M|100/100
+|move|p2a: Politoed|Scald|p1a: Arbok
+|-damage|p1a: Arbok|77/100
+|
+|-heal|p1a: Arbok|83/100|[from] item: Black Sludge
+|upkeep
+|turn|4
+|choice|move gunkshot|move scald
+|
+|move|p1a: Arbok|Gunk Shot|p2a: Politoed
+|-damage|p2a: Politoed|61/100
+|move|p2a: Politoed|Scald|p1a: Arbok
+|-damage|p1a: Arbok|62/100
+|
+|-heal|p1a: Arbok|69/100|[from] item: Black Sludge
+|-heal|p2a: Politoed|68/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|choice|move gunkshot|switch 3
+|
+|switch|p2a: Avalugg|Avalugg, M|87/100
+|move|p1a: Arbok|Gunk Shot|p2a: Avalugg|[miss]
+|-miss|p1a: Arbok|p2a: Avalugg
+|
+|-heal|p1a: Arbok|75/100|[from] item: Black Sludge
+|-heal|p2a: Avalugg|93/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|choice|move earthquake|move avalanche
+|
+|move|p1a: Arbok|Earthquake|p2a: Avalugg
+|-damage|p2a: Avalugg|82/100
+|move|p2a: Avalugg|Avalanche|p1a: Arbok
+|-damage|p1a: Arbok|9/100
+|
+|-heal|p1a: Arbok|15/100|[from] item: Black Sludge
+|-heal|p2a: Avalugg|88/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|choice|move gunkshot|move avalanche
+|
+|move|p1a: Arbok|Gunk Shot|p2a: Avalugg
+|-damage|p2a: Avalugg|69/100
+|move|p2a: Avalugg|Avalanche|p1a: Arbok
+|-damage|p1a: Arbok|0 fnt
+|faint|p1a: Arbok
+|
+|-heal|p2a: Avalugg|75/100|[from] item: Leftovers
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Simisear|Simisear, M|100/100
+|turn|8
+|choice|move fireblast|switch 2
+|
+|switch|p2a: Stunfisk|Stunfisk, M|100/100
+|move|p1a: Simisear|Fire Blast|p2a: Stunfisk
+|-damage|p2a: Stunfisk|47/100
+|-status|p2a: Stunfisk|brn
+|-damage|p1a: Simisear|91/100|[from] item: Life Orb
+|
+|-heal|p2a: Stunfisk|54/100 brn|[from] item: Leftovers
+|-damage|p2a: Stunfisk|41/100 brn|[from] brn
+|upkeep
+|turn|9
+|l|CARANBA4
+|choice|move fireblast|move earthpower
+|
+|move|p1a: Simisear|Fire Blast|p2a: Stunfisk
+|-damage|p2a: Stunfisk|0 fnt
+|-damage|p1a: Simisear|81/100|[from] item: Life Orb
+|faint|p2a: Stunfisk
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Simisear|Simisear, M|100/100
+|turn|10
+|choice|move focusblast|move rockslide
+|
+|move|p2a: Simisear|Rock Slide|p1a: Simisear
+|-supereffective|p1a: Simisear
+|-damage|p1a: Simisear|0 fnt
+|-damage|p2a: Simisear|91/100|[from] item: Life Orb
+|faint|p1a: Simisear
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Grumpig|Grumpig, M|100/100
+|turn|11
+|choice|move shadowball|move knockoff
+|
+|move|p2a: Simisear|Knock Off|p1a: Grumpig
+|-supereffective|p1a: Grumpig
+|-enditem|p1a: Grumpig|Colbur Berry|[eat]
+|-enditem|p1a: Grumpig|Colbur Berry|[weaken]
+|-damage|p1a: Grumpig|51/100
+|-damage|p2a: Simisear|81/100|[from] item: Life Orb
+|move|p1a: Grumpig|Shadow Ball|p2a: Simisear
+|-damage|p2a: Simisear|34/100
+|-unboost|p2a: Simisear|spd|1
+|
+|upkeep
+|turn|12
+|choice|move shadowball|switch 3
+|
+|switch|p2a: Politoed|Politoed, M|68/100
+|move|p1a: Grumpig|Shadow Ball|p2a: Politoed
+|-damage|p2a: Politoed|53/100
+|
+|-heal|p2a: Politoed|60/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|choice|move focusblast|move toxic
+|
+|move|p1a: Grumpig|Focus Blast|p2a: Politoed
+|-damage|p2a: Politoed|35/100
+|move|p2a: Politoed|Toxic|p1a: Grumpig
+|-status|p1a: Grumpig|tox
+|
+|-heal|p2a: Politoed|41/100|[from] item: Leftovers
+|-damage|p1a: Grumpig|44/100 tox|[from] psn
+|upkeep
+|turn|14
+|choice|move psychic|move scald
+|
+|move|p1a: Grumpig|Psychic|p2a: Politoed
+|-damage|p2a: Politoed|16/100
+|move|p2a: Politoed|Scald|p1a: Grumpig
+|-damage|p1a: Grumpig|19/100 tox
+|
+|-heal|p2a: Politoed|23/100|[from] item: Leftovers
+|-damage|p1a: Grumpig|7/100 tox|[from] psn
+|upkeep
+|turn|15
+|choice|move psychic|move protect
+|
+|move|p2a: Politoed|Protect|p2a: Politoed
+|-singleturn|p2a: Politoed|Protect
+|move|p1a: Grumpig|Psychic|p2a: Politoed
+|-activate|p2a: Politoed|move: Protect
+|
+|-heal|p2a: Politoed|29/100|[from] item: Leftovers
+|-damage|p1a: Grumpig|0 fnt|[from] psn
+|upkeep
+|faint|p1a: Grumpig
+|choice|switch 5|
+|
+|switch|p1a: Avalugg|Avalugg, M|100/100
+|turn|16
+|choice|move avalanche|move toxic
+|
+|move|p2a: Politoed|Toxic|p1a: Avalugg
+|-status|p1a: Avalugg|tox
+|move|p1a: Avalugg|Avalanche|p2a: Politoed
+|-resisted|p2a: Politoed
+|-damage|p2a: Politoed|16/100
+|
+|-heal|p2a: Politoed|22/100|[from] item: Leftovers
+|-damage|p1a: Avalugg|94/100 tox|[from] psn
+|upkeep
+|turn|17
+|choice|move rapidspin|move protect
+|
+|move|p2a: Politoed|Protect|p2a: Politoed
+|-singleturn|p2a: Politoed|Protect
+|move|p1a: Avalugg|Rapid Spin|p2a: Politoed
+|-activate|p2a: Politoed|move: Protect
+|
+|-heal|p2a: Politoed|28/100|[from] item: Leftovers
+|-heal|p1a: Avalugg|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Avalugg|88/100 tox|[from] psn
+|upkeep
+|turn|18
+|choice|move rapidspin|switch 2
+|
+|switch|p2a: Avalugg|Avalugg, M|75/100
+|move|p1a: Avalugg|Rapid Spin|p2a: Avalugg
+|-damage|p2a: Avalugg|72/100
+|
+|-heal|p1a: Avalugg|94/100 tox|[from] item: Leftovers
+|-heal|p2a: Avalugg|78/100|[from] item: Leftovers
+|-damage|p1a: Avalugg|76/100 tox|[from] psn
+|upkeep
+|turn|19
+|choice|move avalanche|switch 2
+|
+|switch|p2a: Politoed|Politoed, M|28/100
+|move|p1a: Avalugg|Avalanche|p2a: Politoed
+|-resisted|p2a: Politoed
+|-damage|p2a: Politoed|14/100
+|
+|-heal|p2a: Politoed|21/100|[from] item: Leftovers
+|-heal|p1a: Avalugg|82/100 tox|[from] item: Leftovers
+|-damage|p1a: Avalugg|58/100 tox|[from] psn
+|upkeep
+|turn|20
+|choice|move rapidspin|move perishsong
+|
+|move|p2a: Politoed|Perish Song|p2a: Politoed
+|-start|p1a: Avalugg|perish3|[silent]
+|-start|p2a: Politoed|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|move|p1a: Avalugg|Rapid Spin|p2a: Politoed
+|-damage|p2a: Politoed|15/100
+|
+|-heal|p2a: Politoed|21/100|[from] item: Leftovers
+|-heal|p1a: Avalugg|64/100 tox|[from] item: Leftovers
+|-damage|p1a: Avalugg|33/100 tox|[from] psn
+|-start|p2a: Politoed|perish3
+|-start|p1a: Avalugg|perish3
+|upkeep
+|turn|21
+|choice|move rapidspin|move protect
+|
+|move|p2a: Politoed|Protect|p2a: Politoed
+|-singleturn|p2a: Politoed|Protect
+|move|p1a: Avalugg|Rapid Spin|p2a: Politoed
+|-activate|p2a: Politoed|move: Protect
+|
+|-heal|p2a: Politoed|27/100|[from] item: Leftovers
+|-heal|p1a: Avalugg|39/100 tox|[from] item: Leftovers
+|-damage|p1a: Avalugg|3/100 tox|[from] psn
+|-start|p2a: Politoed|perish2
+|-start|p1a: Avalugg|perish2
+|upkeep
+|turn|22
+|choice|move rapidspin|move scald
+|
+|move|p2a: Politoed|Scald|p1a: Avalugg
+|-damage|p1a: Avalugg|0 fnt
+|faint|p1a: Avalugg
+|
+|-heal|p2a: Politoed|34/100|[from] item: Leftovers
+|-start|p2a: Politoed|perish1
+|upkeep
+|c|☆superpowerhoppa|cheater
+|choice|switch 2|
+|
+|switch|p1a: Gabite|Gabite, M|100/100
+|turn|23
+|choice|move dragonclaw|move toxic
+|
+|move|p1a: Gabite|Dragon Claw|p2a: Politoed
+|-damage|p2a: Politoed|3/100
+|move|p2a: Politoed|Toxic|p1a: Gabite
+|-status|p1a: Gabite|tox
+|
+|-heal|p2a: Politoed|9/100|[from] item: Leftovers
+|-damage|p1a: Gabite|94/100 tox|[from] psn
+|-start|p2a: Politoed|perish0
+|upkeep
+|faint|p2a: Politoed
+|choice||switch 2
+|
+|switch|p2a: Avalugg|Avalugg, M|78/100
+|turn|24
+|choice|move dragonclaw|move avalanche
+|
+|move|p1a: Gabite|Dragon Claw|p2a: Avalugg
+|-damage|p2a: Avalugg|64/100
+|move|p2a: Avalugg|Avalanche|p1a: Gabite
+|-supereffective|p1a: Gabite
+|-damage|p1a: Gabite|0 fnt
+|-damage|p2a: Avalugg|52/100|[from] ability: Rough Skin|[of] p1a: Gabite
+|faint|p1a: Gabite
+|
+|-heal|p2a: Avalugg|58/100|[from] item: Leftovers
+|upkeep
+|c|☆superpowerhoppa|fock you
+|-message|superpowerhoppa forfeited.
+|
+|win|DPDKing
+|l|superpowerhoppa
+|raw|superpowerhoppa's rating: 1000 &rarr; <strong>1000</strong><br />(+0 for losing)
+|raw|DPDKing's rating: 1000 &rarr; <strong>1040</strong><br />(+40 for winning)

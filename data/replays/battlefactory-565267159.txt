@@ -1,0 +1,409 @@
+|j|4ngus
+|j|wolverine97
+|player|p1|4ngus|101
+|player|p2|wolverine97|56
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|64313,33691,23716,52505,56725,9178,12009,36426,61944,41071,26608,33869
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Vaporeon, M|item
+|poke|p1|Gligar, M|item
+|poke|p1|Forretress, M|item
+|poke|p1|Noivern, M|item
+|poke|p1|Azelf|item
+|poke|p1|Entei, shiny|item
+|poke|p2|Tornadus, M|item
+|poke|p2|Arcanine, M|item
+|poke|p2|Dragalge, M|item
+|poke|p2|Shuckle, M|item
+|poke|p2|Lucario, M|item
+|poke|p2|Tentacruel, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 1, team 2, team 3, team 4, team 5, team 6|team 4, team 2, team 3, team 1, team 5, team 6
+|
+|start
+|switch|p1a: Vaporeon|Vaporeon, M|100/100
+|switch|p2a: Shuckle|Shuckle, M|100/100
+|turn|1
+|choice|move scald|switch 6
+|
+|switch|p2a: Tentacruel|Tentacruel, M|100/100
+|move|p1a: Vaporeon|Scald|p2a: Tentacruel
+|-resisted|p2a: Tentacruel
+|-crit|p2a: Tentacruel
+|-damage|p2a: Tentacruel|84/100
+|
+|-heal|p2a: Tentacruel|90/100|[from] item: Black Sludge
+|upkeep
+|turn|2
+|choice|move protect|move knockoff
+|
+|move|p1a: Vaporeon|Protect|p1a: Vaporeon
+|-singleturn|p1a: Vaporeon|Protect
+|move|p2a: Tentacruel|Knock Off|p1a: Vaporeon
+|-activate|p1a: Vaporeon|move: Protect
+|
+|-heal|p2a: Tentacruel|96/100|[from] item: Black Sludge
+|upkeep
+|turn|3
+|choice|switch 5|move knockoff
+|
+|switch|p1a: Azelf|Azelf|100/100
+|move|p2a: Tentacruel|Knock Off|p1a: Azelf
+|-supereffective|p1a: Azelf
+|-damage|p1a: Azelf|56/100
+|-enditem|p1a: Azelf|Life Orb|[from] move: Knock Off|[of] p2a: Tentacruel
+|
+|-heal|p2a: Tentacruel|100/100|[from] item: Black Sludge
+|upkeep
+|turn|4
+|choice|move nastyplot|switch 6
+|
+|switch|p2a: Shuckle|Shuckle, M|100/100
+|move|p1a: Azelf|Nasty Plot|p1a: Azelf
+|-boost|p1a: Azelf|spa|2
+|
+|upkeep
+|turn|5
+|choice|move psyshock|move encore
+|
+|move|p1a: Azelf|Psyshock|p2a: Shuckle
+|-damage|p2a: Shuckle|45/100
+|move|p2a: Shuckle|Encore|p1a: Azelf
+|-start|p1a: Azelf|Encore
+|
+|-heal|p2a: Shuckle|51/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|choice|move psyshock|move stickyweb
+|
+|move|p1a: Azelf|Psyshock|p2a: Shuckle
+|-damage|p2a: Shuckle|0 fnt
+|faint|p2a: Shuckle
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Arcanine|Arcanine, M|100/100
+|-ability|p2a: Arcanine|Intimidate|boost
+|-unboost|p1a: Azelf|atk|1
+|turn|7
+|choice|switch 5|move flareblitz
+|
+|switch|p1a: Vaporeon|Vaporeon, M|100/100
+|move|p2a: Arcanine|Flare Blitz|p1a: Vaporeon
+|-resisted|p1a: Vaporeon
+|-damage|p1a: Vaporeon|84/100
+|-status|p1a: Vaporeon|brn
+|-damage|p2a: Arcanine|94/100|[from] recoil|[of] p1a: Vaporeon
+|
+|-heal|p2a: Arcanine|99/100|[from] item: Leftovers
+|-heal|p1a: Vaporeon|90/100 brn|[from] item: Leftovers
+|-damage|p1a: Vaporeon|77/100 brn|[from] brn
+|upkeep
+|turn|8
+|choice|move wish|switch 6
+|
+|switch|p2a: Tentacruel|Tentacruel, M|100/100
+|move|p1a: Vaporeon|Wish|p1a: Vaporeon
+|
+|-heal|p1a: Vaporeon|84/100 brn|[from] item: Leftovers
+|-damage|p1a: Vaporeon|71/100 brn|[from] brn
+|upkeep
+|turn|9
+|choice|switch 5|switch 4
+|
+|switch|p2a: Tornadus|Tornadus, M|100/100
+|switch|p1a: Azelf|Azelf|56/100
+|
+|-heal|p1a: Azelf|100/100|[from] move: Wish|[wisher] Vaporeon
+|upkeep
+|turn|10
+|choice|switch 3|move hurricane
+|
+|switch|p1a: Forretress|Forretress, M|100/100
+|move|p2a: Tornadus|Hurricane|p1a: Forretress|[miss]
+|-miss|p2a: Tornadus|p1a: Forretress
+|
+|upkeep
+|turn|11
+|choice|move voltswitch|move heatwave
+|
+|move|p2a: Tornadus|Heat Wave|p1a: Forretress
+|-supereffective|p1a: Forretress
+|-ability|p1a: Forretress|Sturdy
+|-damage|p1a: Forretress|1/100
+|-damage|p2a: Tornadus|91/100|[from] item: Life Orb
+|move|p1a: Forretress|Volt Switch|p2a: Tornadus
+|-supereffective|p2a: Tornadus
+|-damage|p2a: Tornadus|61/100
+|choice|switch 4|
+|
+|switch|p1a: Noivern|Noivern, M|100/100
+|
+|upkeep
+|turn|12
+|choice|move hurricane|switch 4
+|
+|switch|p2a: Tentacruel|Tentacruel, M|100/100
+|move|p1a: Noivern|Hurricane|p2a: Tentacruel
+|-damage|p2a: Tentacruel|49/100
+|-start|p2a: Tentacruel|confusion
+|-damage|p1a: Noivern|91/100|[from] item: Life Orb
+|
+|-heal|p2a: Tentacruel|55/100|[from] item: Black Sludge
+|upkeep
+|turn|13
+|choice|move dracometeor|move knockoff
+|
+|move|p1a: Noivern|Draco Meteor|p2a: Tentacruel|[miss]
+|-miss|p1a: Noivern|p2a: Tentacruel
+|-activate|p2a: Tentacruel|confusion
+|move|p2a: Tentacruel|Knock Off|p1a: Noivern
+|-damage|p1a: Noivern|71/100
+|-enditem|p1a: Noivern|Life Orb|[from] move: Knock Off|[of] p2a: Tentacruel
+|
+|-heal|p2a: Tentacruel|61/100|[from] item: Black Sludge
+|upkeep
+|turn|14
+|choice|move hurricane|move scald
+|
+|move|p1a: Noivern|Hurricane|p2a: Tentacruel
+|-damage|p2a: Tentacruel|23/100
+|-activate|p2a: Tentacruel|confusion
+|move|p2a: Tentacruel|Scald|p1a: Noivern
+|-resisted|p1a: Noivern
+|-damage|p1a: Noivern|55/100
+|
+|-heal|p2a: Tentacruel|29/100|[from] item: Black Sludge
+|upkeep
+|turn|15
+|choice|move dracometeor|move knockoff
+|
+|move|p1a: Noivern|Draco Meteor|p2a: Tentacruel
+|-damage|p2a: Tentacruel|0 fnt
+|-unboost|p1a: Noivern|spa|2
+|faint|p2a: Tentacruel
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Lucario|Lucario, M|100/100
+|turn|16
+|choice|move flamethrower|switch 4
+|
+|switch|p2a: Tornadus|Tornadus, M|61/100
+|move|p1a: Noivern|Flamethrower|p2a: Tornadus
+|-damage|p2a: Tornadus|42/100
+|
+|upkeep
+|turn|17
+|choice|switch 4|move hurricane
+|
+|switch|p1a: Forretress|Forretress, M|1/100
+|move|p2a: Tornadus|Hurricane|p1a: Forretress|[miss]
+|-miss|p2a: Tornadus|p1a: Forretress
+|
+|-heal|p1a: Forretress|7/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|choice|move voltswitch|move grassknot
+|
+|move|p2a: Tornadus|Grass Knot|p1a: Forretress
+|-resisted|p1a: Forretress
+|-damage|p1a: Forretress|0 fnt
+|-damage|p2a: Tornadus|32/100|[from] item: Life Orb
+|faint|p1a: Forretress
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Entei|Entei, shiny|100/100
+|-ability|p1a: Entei|Pressure
+|turn|19
+|choice|move stoneedge|move tailwind
+|
+|move|p2a: Tornadus|Tailwind|p2a: Tornadus
+|-sidestart|p2: wolverine97|move: Tailwind
+|move|p1a: Entei|Stone Edge|p2a: Tornadus
+|-supereffective|p2a: Tornadus
+|-damage|p2a: Tornadus|0 fnt
+|-damage|p1a: Entei|91/100|[from] item: Life Orb
+|faint|p2a: Tornadus
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Dragalge|Dragalge, M|100/100
+|turn|20
+|choice|switch 5|move sludgebomb
+|
+|switch|p1a: Vaporeon|Vaporeon, M|71/100 brn
+|move|p2a: Dragalge|Sludge Bomb|p1a: Vaporeon
+|-crit|p1a: Vaporeon
+|-damage|p1a: Vaporeon|13/100 brn
+|
+|-heal|p1a: Vaporeon|19/100 brn|[from] item: Leftovers
+|-damage|p1a: Vaporeon|6/100 brn|[from] brn
+|upkeep
+|turn|21
+|choice|move protect|move dragonpulse
+|
+|move|p1a: Vaporeon|Protect|p1a: Vaporeon
+|-singleturn|p1a: Vaporeon|Protect
+|move|p2a: Dragalge|Dragon Pulse|p1a: Vaporeon
+|-activate|p1a: Vaporeon|move: Protect
+|
+|-heal|p1a: Vaporeon|13/100 brn|[from] item: Leftovers
+|-damage|p1a: Vaporeon|0 fnt|[from] brn
+|upkeep
+|faint|p1a: Vaporeon
+|choice|switch 5|
+|
+|switch|p1a: Entei|Entei, shiny|91/100
+|-ability|p1a: Entei|Pressure
+|turn|22
+|choice|move bulldoze|move sludgebomb
+|
+|move|p1a: Entei|Bulldoze|p2a: Dragalge
+|-supereffective|p2a: Dragalge
+|-damage|p2a: Dragalge|41/100
+|-unboost|p2a: Dragalge|spe|1
+|-damage|p1a: Entei|81/100|[from] item: Life Orb
+|move|p2a: Dragalge|Sludge Bomb|p1a: Entei
+|-damage|p1a: Entei|15/100
+|
+|-sideend|p2: wolverine97|move: Tailwind
+|upkeep
+|turn|23
+|choice|move bulldoze|move sludgebomb
+|
+|move|p1a: Entei|Bulldoze|p2a: Dragalge
+|-supereffective|p2a: Dragalge
+|-damage|p2a: Dragalge|0 fnt
+|-damage|p1a: Entei|5/100|[from] item: Life Orb
+|faint|p2a: Dragalge
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Arcanine|Arcanine, M|99/100
+|-ability|p2a: Arcanine|Intimidate|boost
+|-unboost|p1a: Entei|atk|1
+|turn|24
+|choice|switch 2|move extremespeed
+|
+|switch|p1a: Gligar|Gligar, M|100/100
+|move|p2a: Arcanine|Extreme Speed|p1a: Gligar
+|-damage|p1a: Gligar|91/100
+|
+|-heal|p2a: Arcanine|100/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|choice|move earthquake|move willowisp
+|
+|move|p2a: Arcanine|Will-O-Wisp|p1a: Gligar
+|-status|p1a: Gligar|brn
+|move|p1a: Gligar|Earthquake|p2a: Arcanine
+|-supereffective|p2a: Arcanine
+|-damage|p2a: Arcanine|79/100
+|
+|-heal|p2a: Arcanine|85/100|[from] item: Leftovers
+|-damage|p1a: Gligar|79/100 brn|[from] brn
+|upkeep
+|turn|26
+|choice|move stealthrock|move willowisp
+|
+|move|p2a: Arcanine|Will-O-Wisp|p1a: Gligar|[miss]
+|-miss|p2a: Arcanine|p1a: Gligar
+|move|p1a: Gligar|Stealth Rock|p2a: Arcanine
+|-sidestart|p2: wolverine97|move: Stealth Rock
+|
+|-heal|p2a: Arcanine|91/100|[from] item: Leftovers
+|-damage|p1a: Gligar|67/100 brn|[from] brn
+|upkeep
+|turn|27
+|choice|move earthquake|move flareblitz
+|
+|move|p2a: Arcanine|Flare Blitz|p1a: Gligar
+|-damage|p1a: Gligar|45/100 brn
+|-damage|p2a: Arcanine|85/100|[from] recoil|[of] p1a: Gligar
+|move|p1a: Gligar|Earthquake|p2a: Arcanine
+|-supereffective|p2a: Arcanine
+|-damage|p2a: Arcanine|65/100
+|
+|-heal|p2a: Arcanine|71/100|[from] item: Leftovers
+|-damage|p1a: Gligar|33/100 brn|[from] brn
+|upkeep
+|turn|28
+|choice|move roost|move flareblitz
+|
+|move|p2a: Arcanine|Flare Blitz|p1a: Gligar
+|-damage|p1a: Gligar|10/100 brn
+|-damage|p2a: Arcanine|65/100|[from] recoil|[of] p1a: Gligar
+|move|p1a: Gligar|Roost|p1a: Gligar
+|-heal|p1a: Gligar|60/100 brn
+|
+|-heal|p2a: Arcanine|71/100|[from] item: Leftovers
+|-damage|p1a: Gligar|48/100 brn|[from] brn
+|upkeep
+|turn|29
+|choice|move earthquake|move flareblitz
+|
+|move|p2a: Arcanine|Flare Blitz|p1a: Gligar
+|-damage|p1a: Gligar|26/100 brn
+|-damage|p2a: Arcanine|64/100|[from] recoil|[of] p1a: Gligar
+|move|p1a: Gligar|Earthquake|p2a: Arcanine
+|-supereffective|p2a: Arcanine
+|-damage|p2a: Arcanine|44/100
+|
+|-heal|p2a: Arcanine|50/100|[from] item: Leftovers
+|-damage|p1a: Gligar|14/100 brn|[from] brn
+|upkeep
+|turn|30
+|choice|move earthquake|move flareblitz
+|
+|move|p2a: Arcanine|Flare Blitz|p1a: Gligar
+|-damage|p1a: Gligar|0 fnt
+|-damage|p2a: Arcanine|46/100|[from] recoil|[of] p1a: Gligar
+|faint|p1a: Gligar
+|
+|-heal|p2a: Arcanine|52/100|[from] item: Leftovers
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Noivern|Noivern, M|55/100
+|turn|31
+|choice|move dracometeor|move extremespeed
+|
+|move|p2a: Arcanine|Extreme Speed|p1a: Noivern
+|-damage|p1a: Noivern|28/100
+|move|p1a: Noivern|Draco Meteor|p2a: Arcanine
+|-damage|p2a: Arcanine|0 fnt
+|-unboost|p1a: Noivern|spa|2
+|faint|p2a: Arcanine
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Lucario|Lucario, M|100/100
+|-damage|p2a: Lucario|98/100|[from] Stealth Rock
+|turn|32
+|choice|move flamethrower|move swordsdance
+|
+|move|p1a: Noivern|Flamethrower|p2a: Lucario
+|-supereffective|p2a: Lucario
+|-crit|p2a: Lucario
+|-damage|p2a: Lucario|0 fnt
+|faint|p2a: Lucario
+|
+|win|4ngus
+|raw|4ngus's rating: 1374 &rarr; <strong>1397</strong><br />(+23 for winning)
+|raw|wolverine97's rating: 1429 &rarr; <strong>1406</strong><br />(-23 for losing)
+|l|4ngus
+|c|☆wolverine97|you mother fuker

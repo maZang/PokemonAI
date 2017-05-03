@@ -1,0 +1,174 @@
+|j|Scrappie
+|j|WashingtonWailords
+|player|p1|Scrappie|#yellow
+|player|p2|WashingtonWailords|92
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|17220,30441,11232,27459,41937,49799,1824,17268,28424,48990,56024,13712
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Pelipper, M|item
+|poke|p1|Archeops, M|item
+|poke|p1|Basculin, M|item
+|poke|p1|Camerupt, M|item
+|poke|p1|Exeggutor, M|item
+|poke|p1|Omastar, M|item
+|poke|p2|Haunter, M|item
+|poke|p2|Samurott, M|item
+|poke|p2|Liepard, M|item
+|poke|p2|Skuntank, M|item
+|poke|p2|Zangoose, M|item
+|poke|p2|Carracosta, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|c|☆Scrappie|Good luck, have fun
+|j|avery is a egg
+|c|☆WashingtonWailords|no u
+|choice|team 2, team 1, team 3, team 4, team 5, team 6|team 4, team 2, team 3, team 1, team 5, team 6
+|
+|start
+|switch|p1a: Archeops|Archeops, M|100/100
+|switch|p2a: Skuntank|Skuntank, M|100/100
+|turn|1
+|choice|move headsmash|move darkpulse
+|
+|move|p1a: Archeops|Head Smash|p2a: Skuntank
+|-damage|p2a: Skuntank|0 fnt
+|-damage|p1a: Archeops|76/100|[from] ability: Aftermath|[of] p2a: Skuntank
+|-damage|p1a: Archeops|16/100|[from] recoil|[of] p2a: Skuntank
+|faint|p2a: Skuntank
+|
+|upkeep
+|c|☆WashingtonWailords|plz
+|choice||switch 2
+|
+|switch|p2a: Samurott|Samurott, M|100/100
+|turn|2
+|choice|move stealthrock|move aquajet
+|
+|move|p2a: Samurott|Aqua Jet|p1a: Archeops
+|-supereffective|p1a: Archeops
+|-damage|p1a: Archeops|0 fnt
+|faint|p1a: Archeops
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Exeggutor|Exeggutor, M|100/100
+|turn|3
+|choice|move gigadrain|switch 4
+|
+|switch|p2a: Haunter|Haunter, M|100/100
+|move|p1a: Exeggutor|Giga Drain|p2a: Haunter
+|-resisted|p2a: Haunter
+|-damage|p2a: Haunter|50/100
+|
+|upkeep
+|turn|4
+|c|☆WashingtonWailords|damn
+|c| avery is a egg|jesus
+|c|☆WashingtonWailords|wtf does that thing have
+|choice|move psychic|move sludgebomb
+|
+|move|p2a: Haunter|Sludge Bomb|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|0 fnt
+|-damage|p2a: Haunter|40/100|[from] item: Life Orb
+|faint|p1a: Exeggutor
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Camerupt|Camerupt, M|100/100
+|turn|5
+|choice|move lavaplume|move substitute
+|
+|move|p2a: Haunter|Substitute|p2a: Haunter
+|-start|p2a: Haunter|Substitute
+|-damage|p2a: Haunter|15/100
+|move|p1a: Camerupt|Lava Plume|p2a: Haunter
+|-end|p2a: Haunter|Substitute
+|
+|upkeep
+|turn|6
+|c| avery is a egg|max sptk spex lmao
+|choice|move lavaplume|move shadowball
+|
+|move|p2a: Haunter|Shadow Ball|p1a: Camerupt
+|-damage|p1a: Camerupt|38/100
+|-damage|p2a: Haunter|5/100|[from] item: Life Orb
+|move|p1a: Camerupt|Lava Plume|p2a: Haunter
+|-damage|p2a: Haunter|0 fnt
+|faint|p2a: Haunter
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Samurott|Samurott, M|100/100
+|turn|7
+|choice|switch 3|move aquajet
+|
+|switch|p1a: Basculin|Basculin, M|100/100
+|move|p2a: Samurott|Aqua Jet|p1a: Basculin
+|-resisted|p1a: Basculin
+|-damage|p1a: Basculin|83/100
+|
+|upkeep
+|turn|8
+|choice|move superpower|move megahorn
+|
+|move|p1a: Basculin|Superpower|p2a: Samurott
+|-damage|p2a: Samurott|48/100
+|-unboost|p1a: Basculin|atk|1
+|-unboost|p1a: Basculin|def|1
+|move|p2a: Samurott|Megahorn|p1a: Basculin
+|-damage|p1a: Basculin|0 fnt
+|faint|p1a: Basculin
+|
+|upkeep
+|c|☆WashingtonWailords|got em
+|l|Scrappie
+|player|p1|
+|c|☆WashingtonWailords|I shall defeat you Scrappie
+|c|☆WashingtonWailords|.....
+|c| avery is a egg|wot the heck
+|j|Scrappie
+|player|p1|Scrappie|#yellow
+|choice|switch 2|
+|
+|switch|p1a: Pelipper|Pelipper, M|100/100
+|turn|9
+|c|☆WashingtonWailords|oh hey he's back
+|choice|move hurricane|move waterfall
+|
+|move|p2a: Samurott|Waterfall|p1a: Pelipper
+|-resisted|p1a: Pelipper
+|-damage|p1a: Pelipper|87/100
+|move|p1a: Pelipper|Hurricane|p2a: Samurott
+|-damage|p2a: Samurott|7/100
+|
+|-heal|p1a: Pelipper|93/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|choice|move scald|move waterfall
+|
+|move|p2a: Samurott|Waterfall|p1a: Pelipper
+|-resisted|p1a: Pelipper
+|-damage|p1a: Pelipper|73/100
+|move|p1a: Pelipper|Scald|p2a: Samurott
+|-resisted|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|faint|p2a: Samurott
+|
+|-heal|p1a: Pelipper|80/100|[from] item: Leftovers
+|upkeep
+|-message|Scrappie forfeited.
+|
+|win|WashingtonWailords
+|c|☆Scrappie|wp
+|l|Scrappie
+|c| avery is a egg|lol
+|c|☆WashingtonWailords|gg?
+|c|☆WashingtonWailords|wtf

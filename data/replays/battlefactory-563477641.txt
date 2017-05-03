@@ -1,0 +1,429 @@
+|j|Global Silence
+|j|Smurfer#1
+|player|p1|Global Silence|164
+|player|p2|Smurfer#1|239
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|1157,45914,64015,29887,4689,44680,2129,57115,29305,7110,30915,14033
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Entei, shiny|item
+|poke|p1|Beedrill, M|item
+|poke|p1|Honchkrow, M|item
+|poke|p1|Shaymin|item
+|poke|p1|Bronzong|item
+|poke|p1|Reuniclus, M|item
+|poke|p2|Kingdra, M|item
+|poke|p2|Roserade, M|item
+|poke|p2|Entei, shiny|item
+|poke|p2|Swampert, M|item
+|poke|p2|Haxorus, M|item
+|poke|p2|Pangoro, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 3, team 2, team 1, team 4, team 5, team 6|team 3, team 2, team 1, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Honchkrow|Honchkrow, M|100/100
+|switch|p2a: Entei|Entei, shiny|100/100
+|-ability|p2a: Entei|Pressure
+|turn|1
+|choice|move bravebird|move sacredfire
+|
+|move|p2a: Entei|Sacred Fire|p1a: Honchkrow
+|-damage|p1a: Honchkrow|0 fnt
+|-damage|p2a: Entei|91/100|[from] item: Life Orb
+|faint|p1a: Honchkrow
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Reuniclus|Reuniclus, M|100/100
+|turn|2
+|c|☆Global Silence|đau vl :v
+|c|☆Smurfer#1|con đấy cũng giấy
+|choice|move psyshock|switch 4
+|
+|switch|p2a: Swampert|Swampert, M|100/100
+|move|p1a: Reuniclus|Psyshock|p2a: Swampert
+|-damage|p2a: Swampert|70/100
+|
+|-heal|p2a: Swampert|76/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|choice|move calmmind|move stealthrock
+|
+|move|p2a: Swampert|Stealth Rock|p1a: Reuniclus
+|-sidestart|p1: Global Silence|move: Stealth Rock
+|move|p1a: Reuniclus|Calm Mind|p1a: Reuniclus
+|-boost|p1a: Reuniclus|spa|1
+|-boost|p1a: Reuniclus|spd|1
+|
+|-heal|p2a: Swampert|83/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|choice|move psyshock|move roar
+|
+|move|p1a: Reuniclus|Psyshock|p2a: Swampert
+|-damage|p2a: Swampert|41/100
+|move|p2a: Swampert|Roar|p1a: Reuniclus
+|drag|p1a: Entei|Entei, shiny|100/100
+|-damage|p1a: Entei|76/100|[from] Stealth Rock
+|-ability|p1a: Entei|Pressure
+|
+|-heal|p2a: Swampert|47/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|choice|move sacredfire|move scald
+|
+|move|p1a: Entei|Sacred Fire|p2a: Swampert
+|-resisted|p2a: Swampert
+|-damage|p2a: Swampert|23/100
+|move|p2a: Swampert|Scald|p1a: Entei
+|-supereffective|p1a: Entei
+|-damage|p1a: Entei|0 fnt
+|faint|p1a: Entei
+|
+|-heal|p2a: Swampert|29/100|[from] item: Leftovers
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Shaymin|Shaymin|100/100
+|-damage|p1a: Shaymin|88/100|[from] Stealth Rock
+|turn|6
+|c|☆Smurfer#1|team đấy như cc
+|choice|move seedflare|switch 6
+|
+|switch|p2a: Pangoro|Pangoro, M|100/100
+|move|p1a: Shaymin|Seed Flare|p2a: Pangoro
+|-damage|p2a: Pangoro|8/100
+|-damage|p1a: Shaymin|78/100|[from] item: Life Orb
+|
+|upkeep
+|turn|7
+|c|☆Global Silence|:v beedrill như cứt
+|choice|move airslash|switch 2
+|
+|switch|p2a: Roserade|Roserade, M|100/100
+|move|p1a: Shaymin|Air Slash|p2a: Roserade
+|-supereffective|p2a: Roserade
+|-damage|p2a: Roserade|32/100
+|-damage|p1a: Shaymin|68/100|[from] item: Life Orb
+|
+|upkeep
+|turn|8
+|choice|move airslash|switch 2
+|
+|switch|p2a: Pangoro|Pangoro, M|8/100
+|move|p1a: Shaymin|Air Slash|p2a: Pangoro
+|-supereffective|p2a: Pangoro
+|-damage|p2a: Pangoro|0 fnt
+|-damage|p1a: Shaymin|58/100|[from] item: Life Orb
+|faint|p2a: Pangoro
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Entei|Entei, shiny|91/100
+|-ability|p2a: Entei|Pressure
+|turn|9
+|c|☆Smurfer#1|ơ vl
+|c|☆Smurfer#1|con Entei shiny đúng không :v
+|c|☆Global Silence|yup
+|c|☆Smurfer#1|may vl
+|choice|switch 5|move sacredfire
+|
+|switch|p1a: Bronzong|Bronzong|100/100
+|-damage|p1a: Bronzong|94/100|[from] Stealth Rock
+|move|p2a: Entei|Sacred Fire|p1a: Bronzong
+|-supereffective|p1a: Bronzong
+|-damage|p1a: Bronzong|4/100
+|-damage|p2a: Entei|81/100|[from] item: Life Orb
+|
+|upkeep
+|turn|10
+|c|☆Global Silence|á đù:v
+|c|☆Smurfer#1|Scald không burn
+|c|☆Smurfer#1|Sacred Fire không burn
+|c|☆Smurfer#1|Lava Plume không burn
+|c|☆Smurfer#1|fml
+|c|☆Global Silence|nhọ thì thôi :v
+|choice|move stealthrock|move extremespeed
+|
+|move|p2a: Entei|Extreme Speed|p1a: Bronzong
+|-resisted|p1a: Bronzong
+|-damage|p1a: Bronzong|0 fnt
+|-damage|p2a: Entei|71/100|[from] item: Life Orb
+|faint|p1a: Bronzong
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Reuniclus|Reuniclus, M|100/100
+|turn|11
+|choice|move psyshock|move sacredfire
+|
+|move|p2a: Entei|Sacred Fire|p1a: Reuniclus
+|-damage|p1a: Reuniclus|51/100
+|-status|p1a: Reuniclus|brn
+|-damage|p2a: Entei|61/100|[from] item: Life Orb
+|move|p1a: Reuniclus|Psyshock|p2a: Entei
+|-damage|p2a: Entei|18/100
+|
+|upkeep
+|turn|12
+|choice|move recover|switch 2
+|
+|switch|p2a: Roserade|Roserade, M|32/100
+|move|p1a: Reuniclus|Recover|p1a: Reuniclus
+|-heal|p1a: Reuniclus|100/100 brn
+|
+|upkeep
+|turn|13
+|c|☆Global Silence|???
+|c|☆Global Silence|nhường á
+|c|☆Smurfer#1|thì để dành :|
+|c|☆Smurfer#1|còn con Beedrill với con kia chả lẽ để cho con Entei chết
+|c|☆Global Silence|ồ :v
+|choice|move calmmind|move sludgebomb
+|
+|move|p2a: Roserade|Sludge Bomb|p1a: Reuniclus
+|-damage|p1a: Reuniclus|45/100 brn
+|-damage|p2a: Roserade|22/100|[from] item: Life Orb
+|move|p1a: Reuniclus|Calm Mind|p1a: Reuniclus
+|-boost|p1a: Reuniclus|spa|1
+|-boost|p1a: Reuniclus|spd|1
+|
+|upkeep
+|turn|14
+|choice|move recover|move sludgebomb
+|
+|move|p2a: Roserade|Sludge Bomb|p1a: Reuniclus
+|-damage|p1a: Reuniclus|10/100 brn
+|-damage|p2a: Roserade|12/100|[from] item: Life Orb
+|move|p1a: Reuniclus|Recover|p1a: Reuniclus
+|-heal|p1a: Reuniclus|60/100 brn
+|
+|upkeep
+|turn|15
+|choice|move recover|move synthesis
+|
+|move|p2a: Roserade|Synthesis|p2a: Roserade
+|-heal|p2a: Roserade|62/100
+|move|p1a: Reuniclus|Recover|p1a: Reuniclus
+|-heal|p1a: Reuniclus|100/100 brn
+|
+|upkeep
+|turn|16
+|choice|move calmmind|move sludgebomb
+|
+|move|p2a: Roserade|Sludge Bomb|p1a: Reuniclus
+|-damage|p1a: Reuniclus|63/100 brn
+|-damage|p2a: Roserade|52/100|[from] item: Life Orb
+|move|p1a: Reuniclus|Calm Mind|p1a: Reuniclus
+|-boost|p1a: Reuniclus|spa|1
+|-boost|p1a: Reuniclus|spd|1
+|
+|upkeep
+|turn|17
+|choice|move recover|move sludgebomb
+|
+|move|p2a: Roserade|Sludge Bomb|p1a: Reuniclus
+|-damage|p1a: Reuniclus|35/100 brn
+|-damage|p2a: Roserade|42/100|[from] item: Life Orb
+|move|p1a: Reuniclus|Recover|p1a: Reuniclus
+|-heal|p1a: Reuniclus|85/100 brn
+|
+|upkeep
+|turn|18
+|choice|move calmmind|move synthesis
+|
+|move|p2a: Roserade|Synthesis|p2a: Roserade
+|-heal|p2a: Roserade|92/100
+|move|p1a: Reuniclus|Calm Mind|p1a: Reuniclus
+|-boost|p1a: Reuniclus|spa|1
+|-boost|p1a: Reuniclus|spd|1
+|
+|upkeep
+|turn|19
+|choice|move calmmind|move sludgebomb
+|
+|move|p2a: Roserade|Sludge Bomb|p1a: Reuniclus
+|-damage|p1a: Reuniclus|62/100 brn
+|-damage|p2a: Roserade|82/100|[from] item: Life Orb
+|move|p1a: Reuniclus|Calm Mind|p1a: Reuniclus
+|-boost|p1a: Reuniclus|spa|1
+|-boost|p1a: Reuniclus|spd|1
+|
+|upkeep
+|turn|20
+|choice|move recover|move sludgebomb
+|
+|move|p2a: Roserade|Sludge Bomb|p1a: Reuniclus
+|-damage|p1a: Reuniclus|45/100 brn
+|-damage|p2a: Roserade|72/100|[from] item: Life Orb
+|move|p1a: Reuniclus|Recover|p1a: Reuniclus
+|-heal|p1a: Reuniclus|95/100 brn
+|
+|upkeep
+|turn|21
+|choice|move calmmind|move sludgebomb
+|
+|move|p2a: Roserade|Sludge Bomb|p1a: Reuniclus
+|-damage|p1a: Reuniclus|76/100 brn
+|-damage|p2a: Roserade|62/100|[from] item: Life Orb
+|move|p1a: Reuniclus|Calm Mind|p1a: Reuniclus
+|-boost|p1a: Reuniclus|spa|1
+|-boost|p1a: Reuniclus|spd|1
+|
+|upkeep
+|turn|22
+|choice|move calmmind|move sludgebomb
+|
+|move|p2a: Roserade|Sludge Bomb|p1a: Reuniclus
+|-damage|p1a: Reuniclus|60/100 brn
+|-damage|p2a: Roserade|52/100|[from] item: Life Orb
+|move|p1a: Reuniclus|Calm Mind|p1a: Reuniclus
+|-boost|p1a: Reuniclus|spa|1
+|-boost|p1a: Reuniclus|spd|1
+|
+|upkeep
+|turn|23
+|choice|move recover|move sludgebomb
+|
+|move|p2a: Roserade|Sludge Bomb|p1a: Reuniclus
+|-damage|p1a: Reuniclus|46/100 brn
+|-damage|p2a: Roserade|42/100|[from] item: Life Orb
+|move|p1a: Reuniclus|Recover|p1a: Reuniclus
+|-heal|p1a: Reuniclus|96/100 brn
+|
+|upkeep
+|turn|24
+|choice|move psyshock|move sludgebomb
+|
+|move|p2a: Roserade|Sludge Bomb|p1a: Reuniclus
+|-damage|p1a: Reuniclus|82/100 brn
+|-damage|p2a: Roserade|32/100|[from] item: Life Orb
+|move|p1a: Reuniclus|Psyshock|p2a: Roserade
+|-supereffective|p2a: Roserade
+|-damage|p2a: Roserade|0 fnt
+|faint|p2a: Roserade
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Swampert|Swampert, M|29/100
+|turn|25
+|choice|move psyshock|move earthquake
+|
+|move|p2a: Swampert|Earthquake|p1a: Reuniclus
+|-damage|p1a: Reuniclus|57/100 brn
+|move|p1a: Reuniclus|Psyshock|p2a: Swampert
+|-damage|p2a: Swampert|0 fnt
+|faint|p2a: Swampert
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Haxorus|Haxorus, M|100/100
+|-ability|p2a: Haxorus|Mold Breaker
+|turn|26
+|choice|move psyshock|move outrage
+|
+|move|p2a: Haxorus|Outrage|p1a: Reuniclus
+|-damage|p1a: Reuniclus|10/100 brn
+|move|p1a: Reuniclus|Psyshock|p2a: Haxorus
+|-damage|p2a: Haxorus|0 fnt
+|faint|p2a: Haxorus
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Entei|Entei, shiny|18/100
+|-ability|p2a: Entei|Pressure
+|turn|27
+|choice|move recover|move sacredfire
+|
+|move|p2a: Entei|Sacred Fire|p1a: Reuniclus
+|-damage|p1a: Reuniclus|0 fnt
+|-damage|p2a: Entei|8/100|[from] item: Life Orb
+|faint|p1a: Reuniclus
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Beedrill|Beedrill, M|100/100
+|-damage|p1a: Beedrill|76/100|[from] Stealth Rock
+|turn|28
+|c|☆Global Silence|dm
+|choice|move protect mega|move extremespeed
+|
+|detailschange|p1a: Beedrill|Beedrill-Mega, M
+|-mega|p1a: Beedrill|Beedrill|Beedrillite
+|move|p1a: Beedrill|Protect|p1a: Beedrill
+|-singleturn|p1a: Beedrill|Protect
+|move|p2a: Entei|Extreme Speed|p1a: Beedrill
+|-activate|p1a: Beedrill|move: Protect
+|
+|upkeep
+|turn|29
+|c|☆Global Silence|mega dc hả
+|choice|switch 5|move extremespeed
+|
+|switch|p1a: Shaymin|Shaymin|58/100
+|-damage|p1a: Shaymin|46/100|[from] Stealth Rock
+|move|p2a: Entei|Extreme Speed|p1a: Shaymin
+|-damage|p1a: Shaymin|11/100
+|-damage|p2a: Entei|0 fnt|[from] item: Life Orb
+|faint|p2a: Entei
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Kingdra|Kingdra, M|100/100
+|turn|30
+|choice|move seedflare|move agility
+|
+|move|p1a: Shaymin|Seed Flare|p2a: Kingdra
+|-damage|p2a: Kingdra|8/100
+|-unboost|p2a: Kingdra|spd|2
+|-damage|p1a: Shaymin|1/100|[from] item: Life Orb
+|move|p2a: Kingdra|Agility|p2a: Kingdra
+|-boost|p2a: Kingdra|spe|2
+|
+|upkeep
+|turn|31
+|choice|move rest|move waterfall
+|
+|move|p2a: Kingdra|Waterfall|p1a: Shaymin
+|-resisted|p1a: Shaymin
+|-damage|p1a: Shaymin|0 fnt
+|faint|p1a: Shaymin
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Beedrill|Beedrill-Mega, M|76/100
+|-damage|p1a: Beedrill|51/100|[from] Stealth Rock
+|turn|32
+|c|☆Global Silence|gg :v
+|choice|move protect|move dracometeor
+|
+|move|p1a: Beedrill|Protect|p1a: Beedrill
+|-singleturn|p1a: Beedrill|Protect
+|move|p2a: Kingdra|Draco Meteor|p1a: Beedrill
+|-activate|p1a: Beedrill|move: Protect
+|
+|upkeep
+|turn|33
+|choice|move drillrun|move dracometeor
+|
+|move|p2a: Kingdra|Draco Meteor|p1a: Beedrill
+|-damage|p1a: Beedrill|0 fnt
+|-unboost|p2a: Kingdra|spa|2
+|faint|p1a: Beedrill
+|
+|win|Smurfer#1
+|l|Global Silence

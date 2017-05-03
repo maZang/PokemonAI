@@ -1,0 +1,107 @@
+|j|KakunaMaTatas
+|j|Marvel Clambake
+|player|p1|KakunaMaTatas|115
+|player|p2|Marvel Clambake|39
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|63230,7993,21073,32860,20148,9253,12637,44587,20508,58643,32364,50714
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Vibrava, M|item
+|poke|p1|Kadabra, M|item
+|poke|p1|Rampardos, M|item
+|poke|p1|Murkrow, M|item
+|poke|p1|Clefairy, M|item
+|poke|p1|Ninetales, M|item
+|poke|p2|Stunfisk, M|item
+|poke|p2|Misdreavus, M|item
+|poke|p2|Vibrava, M|item
+|poke|p2|Ninjask, M|item
+|poke|p2|Huntail, M|item
+|poke|p2|Armaldo, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 3, team 2, team 1, team 4, team 5, team 6|team 6, team 2, team 3, team 4, team 5, team 1
+|
+|start
+|switch|p1a: Rampardos|Rampardos, M|100/100
+|switch|p2a: Armaldo|Armaldo, M|100/100
+|-ability|p1a: Rampardos|Mold Breaker
+|turn|1
+|choice|move stealthrock|move knockoff
+|
+|move|p1a: Rampardos|Stealth Rock|p2a: Armaldo
+|-sidestart|p2: Marvel Clambake|move: Stealth Rock
+|move|p2a: Armaldo|Knock Off|p1a: Rampardos
+|-damage|p1a: Rampardos|55/100
+|-enditem|p1a: Rampardos|Focus Sash|[from] move: Knock Off|[of] p2a: Armaldo
+|
+|upkeep
+|turn|2
+|choice|move headsmash|move rapidspin
+|
+|move|p1a: Rampardos|Head Smash|p2a: Armaldo
+|-supereffective|p2a: Armaldo
+|-damage|p2a: Armaldo|0 fnt
+|-damage|p1a: Rampardos|3/100|[from] recoil|[of] p2a: Armaldo
+|faint|p2a: Armaldo
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Vibrava|Vibrava, M|100/100
+|-damage|p2a: Vibrava|95/100|[from] Stealth Rock
+|turn|3
+|choice|move surf|move defog
+|
+|move|p1a: Rampardos|Surf|p2a: Vibrava
+|-damage|p2a: Vibrava|81/100
+|move|p2a: Vibrava|Defog|p1a: Rampardos
+|-unboost|p1a: Rampardos|evasion|1
+|-sideend|p2: Marvel Clambake|Stealth Rock|[from] move: Defog|[of] p2a: Vibrava
+|
+|upkeep
+|turn|4
+|choice|move stealthrock|move uturn
+|
+|move|p1a: Rampardos|Stealth Rock|p2a: Vibrava
+|-sidestart|p2: Marvel Clambake|move: Stealth Rock
+|move|p2a: Vibrava|U-turn|p1a: Rampardos
+|-damage|p1a: Rampardos|0 fnt
+|faint|p1a: Rampardos
+|choice||switch 2
+|
+|switch|p2a: Misdreavus|Misdreavus, M|100/100
+|-damage|p2a: Misdreavus|88/100|[from] Stealth Rock
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Murkrow|Murkrow, M|100/100
+|turn|5
+|choice|move thunderwave|move thunderbolt
+|
+|move|p1a: Murkrow|Thunder Wave|p2a: Misdreavus
+|-status|p2a: Misdreavus|par
+|cant|p2a: Misdreavus|par
+|
+|upkeep
+|turn|6
+|choice|move suckerpunch|move thunderbolt
+|
+|move|p1a: Murkrow|Sucker Punch|p2a: Misdreavus
+|-supereffective|p2a: Misdreavus
+|-damage|p2a: Misdreavus|0 fnt
+|-damage|p1a: Murkrow|91/100|[from] item: Life Orb
+|faint|p2a: Misdreavus
+|
+|upkeep
+|c|☆Marvel Clambake|cool
+|c|☆Marvel Clambake|bye
+|-message|Marvel Clambake forfeited.
+|
+|win|KakunaMaTatas
+|l|Marvel Clambake

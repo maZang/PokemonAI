@@ -1,0 +1,303 @@
+|j|ElRei★SP
+|j|ohno25
+|player|p1|ElRei★SP|101
+|player|p2|ohno25|236
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|29211,34571,7225,17011,21866,40409,34165,41001,37718,4800,6396,36243
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Gyarados, M|item
+|poke|p1|Excadrill, M|item
+|poke|p1|Zygarde|item
+|poke|p1|Terrakion|item
+|poke|p1|Pinsir, M|item
+|poke|p1|Bisharp, M|item
+|poke|p2|Heatran, M|item
+|poke|p2|Gyarados, M|item
+|poke|p2|Staraptor, M|item
+|poke|p2|Diancie|item
+|poke|p2|Chansey, F|item
+|poke|p2|Excadrill, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 1, team 2, team 3, team 4, team 5, team 6|team 2, team 1, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Gyarados|Gyarados, M|100/100
+|switch|p2a: Gyarados|Gyarados, M|100/100
+|-ability|p2a: Gyarados|Intimidate|boost
+|-unboost|p1a: Gyarados|atk|1
+|-ability|p1a: Gyarados|Intimidate|boost
+|-unboost|p2a: Gyarados|atk|1
+|turn|1
+|choice|move substitute|move substitute
+|
+|move|p2a: Gyarados|Substitute|p2a: Gyarados
+|-start|p2a: Gyarados|Substitute
+|-damage|p2a: Gyarados|76/100
+|move|p1a: Gyarados|Substitute|p1a: Gyarados
+|-start|p1a: Gyarados|Substitute
+|-damage|p1a: Gyarados|76/100
+|
+|-heal|p2a: Gyarados|82/100|[from] item: Leftovers
+|-heal|p1a: Gyarados|82/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|choice|move dragondance|move dragondance
+|
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|
+|-heal|p2a: Gyarados|88/100|[from] item: Leftovers
+|-heal|p1a: Gyarados|88/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|choice|move dragondance|move dragondance
+|
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|
+|-heal|p1a: Gyarados|94/100|[from] item: Leftovers
+|-heal|p2a: Gyarados|94/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|choice|move dragondance|move dragondance
+|
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|
+|-heal|p2a: Gyarados|100/100|[from] item: Leftovers
+|-heal|p1a: Gyarados|100/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|choice|move dragondance|move waterfall
+|
+|move|p2a: Gyarados|Waterfall|p1a: Gyarados
+|-resisted|p1a: Gyarados
+|-end|p1a: Gyarados|Substitute
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|
+|upkeep
+|turn|6
+|choice|move bounce|move substitute
+|
+|move|p1a: Gyarados|Bounce|p2a: Gyarados|[still]
+|-prepare|p1a: Gyarados|Bounce|p2a: Gyarados
+|move|p2a: Gyarados|Substitute|p2a: Gyarados
+|-fail|p2a: Gyarados|move: Substitute
+|
+|upkeep
+|turn|7
+|choice|move bounce|move substitute
+|
+|move|p1a: Gyarados|Bounce|p2a: Gyarados|[from]lockedmove
+|-end|p2a: Gyarados|Substitute
+|move|p2a: Gyarados|Substitute|p2a: Gyarados
+|-start|p2a: Gyarados|Substitute
+|-damage|p2a: Gyarados|76/100
+|
+|-heal|p2a: Gyarados|82/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|choice|move bounce|move dragondance
+|
+|move|p1a: Gyarados|Bounce|p2a: Gyarados|[still]
+|-prepare|p1a: Gyarados|Bounce|p2a: Gyarados
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|
+|-heal|p2a: Gyarados|88/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|choice|move bounce|move bounce
+|
+|move|p1a: Gyarados|Bounce|p2a: Gyarados|[from]lockedmove
+|-end|p2a: Gyarados|Substitute
+|move|p2a: Gyarados|Bounce|p1a: Gyarados|[still]
+|-prepare|p2a: Gyarados|Bounce|p1a: Gyarados
+|
+|-heal|p2a: Gyarados|94/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|choice|move substitute|move bounce
+|
+|move|p1a: Gyarados|Substitute|p1a: Gyarados
+|-start|p1a: Gyarados|Substitute
+|-damage|p1a: Gyarados|76/100
+|move|p2a: Gyarados|Bounce|p1a: Gyarados|[from]lockedmove
+|-end|p1a: Gyarados|Substitute
+|
+|-heal|p1a: Gyarados|82/100|[from] item: Leftovers
+|-heal|p2a: Gyarados|100/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|choice|move bounce|move waterfall
+|
+|move|p1a: Gyarados|Bounce|p2a: Gyarados|[still]
+|-prepare|p1a: Gyarados|Bounce|p2a: Gyarados
+|move|p2a: Gyarados|Waterfall|p1a: Gyarados|[miss]
+|-miss|p2a: Gyarados|p1a: Gyarados
+|
+|-heal|p1a: Gyarados|88/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|choice|move bounce|move substitute
+|
+|move|p1a: Gyarados|Bounce|p2a: Gyarados|[from]lockedmove
+|-damage|p2a: Gyarados|0 fnt
+|faint|p2a: Gyarados
+|
+|-heal|p1a: Gyarados|94/100|[from] item: Leftovers
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Chansey|Chansey, F|100/100
+|turn|13
+|choice|move substitute|move toxic
+|
+|move|p1a: Gyarados|Substitute|p1a: Gyarados
+|-start|p1a: Gyarados|Substitute
+|-damage|p1a: Gyarados|69/100
+|move|p2a: Chansey|Toxic|p1a: Gyarados
+|-fail|p1a: Gyarados
+|
+|-heal|p1a: Gyarados|76/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|choice|move waterfall|move seismictoss
+|
+|move|p1a: Gyarados|Waterfall|p2a: Chansey
+|-damage|p2a: Chansey|25/100
+|cant|p2a: Chansey|flinch
+|
+|-heal|p1a: Gyarados|82/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|choice|move bounce|move softboiled
+|
+|move|p1a: Gyarados|Bounce|p2a: Chansey|[still]
+|-prepare|p1a: Gyarados|Bounce|p2a: Chansey
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|75/100
+|
+|-heal|p1a: Gyarados|88/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|choice|move bounce|switch 2
+|
+|switch|p2a: Heatran|Heatran, M|100/100
+|-item|p2a: Heatran|Air Balloon
+|move|p1a: Gyarados|Bounce|p2a: Heatran|[from]lockedmove
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|45/100
+|-enditem|p2a: Heatran|Air Balloon
+|
+|-heal|p1a: Gyarados|94/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|choice|move waterfall|move stealthrock
+|
+|move|p1a: Gyarados|Waterfall|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|faint|p2a: Heatran
+|
+|-heal|p1a: Gyarados|100/100|[from] item: Leftovers
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Diancie|Diancie|100/100
+|turn|18
+|choice|move waterfall|move rockpolish mega
+|
+|detailschange|p2a: Diancie|Diancie-Mega
+|-mega|p2a: Diancie|Diancie|Diancite
+|move|p1a: Gyarados|Waterfall|p2a: Diancie
+|-supereffective|p2a: Diancie
+|-damage|p2a: Diancie|0 fnt
+|faint|p2a: Diancie
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Staraptor|Staraptor, M|100/100
+|turn|19
+|choice|move waterfall|move bravebird
+|
+|move|p1a: Gyarados|Waterfall|p2a: Staraptor
+|-damage|p2a: Staraptor|0 fnt
+|faint|p2a: Staraptor
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Chansey|Chansey, F|75/100
+|turn|20
+|choice|move dragondance|move softboiled
+|
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|100/100
+|
+|upkeep
+|turn|21
+|choice|move dragondance|move seismictoss
+|
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|move|p2a: Chansey|Seismic Toss|p1a: Gyarados
+|-end|p1a: Gyarados|Substitute
+|
+|upkeep
+|turn|22
+|choice|move waterfall|move seismictoss
+|
+|move|p1a: Gyarados|Waterfall|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|23
+|choice|move bounce|move rockslide
+|
+|move|p1a: Gyarados|Bounce|p2a: Excadrill|[still]
+|-prepare|p1a: Gyarados|Bounce|p2a: Excadrill
+|move|p2a: Excadrill|Rock Slide|p1a: Gyarados|[miss]
+|-miss|p2a: Excadrill|p1a: Gyarados
+|
+|upkeep
+|turn|24
+|choice|move bounce|move rockslide
+|
+|move|p1a: Gyarados|Bounce|p2a: Excadrill|[from]lockedmove
+|-resisted|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|win|ElRei★SP
+|l|ohno25

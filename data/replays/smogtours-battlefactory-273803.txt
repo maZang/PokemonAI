@@ -1,0 +1,243 @@
+|J|sedertz.
+|J|imsosorrylol!!!
+|player|p1|sedertz.|260
+|player|p2|imsosorrylol!!!|20
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|64458,20233,3690,20502,46251,12767,61745,18825,35186,26262,54325,56785
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Mismagius, M|item
+|poke|p1|Rhydon, M|item
+|poke|p1|Tauros, M|item
+|poke|p1|Skuntank, M|item
+|poke|p1|Pinsir, M|item
+|poke|p1|Torterra, M|item
+|poke|p2|Rhydon, M|item
+|poke|p2|Clefairy, M|item
+|poke|p2|Basculin, M|item
+|poke|p2|Camerupt, M|item
+|poke|p2|Kangaskhan, F|item
+|poke|p2|Hitmonchan, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 3, team 2, team 1, team 4, team 5, team 6|team 4, team 2, team 3, team 1, team 5, team 6
+|
+|start
+|switch|p1a: Tauros|Tauros, M|100/100
+|switch|p2a: Camerupt|Camerupt, M|100/100
+|turn|1
+|choice|move earthquake|move lavaplume
+|
+|move|p1a: Tauros|Earthquake|p2a: Camerupt
+|-supereffective|p2a: Camerupt
+|-damage|p2a: Camerupt|21/100
+|-damage|p1a: Tauros|91/100|[from] item: Life Orb
+|move|p2a: Camerupt|Lava Plume|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|
+|upkeep
+|c|☆imsosorrylol!!!|?
+|c|☆imsosorrylol!!!|!dt solid rock
+|c|~|/data-ability Solid Rock
+|raw|<font size="1"></font>
+|c|☆imsosorrylol!!!|yeah
+|c|☆imsosorrylol!!!|ur
+|c|☆imsosorrylol!!!|awful
+|choice|switch 6|
+|
+|switch|p1a: Torterra|Torterra, M|100/100
+|turn|2
+|choice|move earthquake|move lavaplume
+|
+|move|p1a: Torterra|Earthquake|p2a: Camerupt
+|-supereffective|p2a: Camerupt
+|-damage|p2a: Camerupt|0 fnt
+|faint|p2a: Camerupt
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Hitmonchan|Hitmonchan, M|100/100
+|turn|3
+|choice|switch 5|move icepunch
+|
+|switch|p1a: Pinsir|Pinsir, M|100/100
+|-ability|p1a: Pinsir|Mold Breaker
+|move|p2a: Hitmonchan|Ice Punch|p1a: Pinsir
+|-damage|p1a: Pinsir|53/100
+|-damage|p2a: Hitmonchan|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|4
+|choice|move earthquake|switch 4
+|
+|switch|p2a: Rhydon|Rhydon, M|100/100
+|move|p1a: Pinsir|Earthquake|p2a: Rhydon
+|-supereffective|p2a: Rhydon
+|-damage|p2a: Rhydon|52/100
+|
+|upkeep
+|turn|5
+|choice|move earthquake|move stealthrock
+|
+|move|p1a: Pinsir|Earthquake|p2a: Rhydon
+|-supereffective|p2a: Rhydon
+|-damage|p2a: Rhydon|0 fnt
+|faint|p2a: Rhydon
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Basculin|Basculin, M|100/100
+|turn|6
+|choice|move earthquake|move waterfall
+|
+|move|p2a: Basculin|Waterfall|p1a: Pinsir
+|-damage|p1a: Pinsir|0 fnt
+|faint|p1a: Pinsir
+|
+|upkeep
+|c|☆imsosorrylol!!!|nice
+|c|☆imsosorrylol!!!|water
+|c|☆imsosorrylol!!!|resist
+|c|☆imsosorrylol!!!|horse
+|choice|switch 4|
+|
+|switch|p1a: Skuntank|Skuntank, M|100/100
+|turn|7
+|choice|move hiddenpower|move waterfall
+|
+|move|p2a: Basculin|Waterfall|p1a: Skuntank
+|-damage|p1a: Skuntank|18/100
+|move|p1a: Skuntank|Hidden Power|p2a: Basculin
+|-supereffective|p2a: Basculin
+|-damage|p2a: Basculin|23/100
+|
+|upkeep
+|turn|8
+|choice|move hiddenpower|move aquajet
+|
+|move|p2a: Basculin|Aqua Jet|p1a: Skuntank
+|-damage|p1a: Skuntank|0 fnt
+|-damage|p2a: Basculin|0 fnt|[from] ability: Aftermath|[of] p1a: Skuntank
+|faint|p2a: Basculin
+|faint|p1a: Skuntank
+|
+|upkeep
+|choice|switch 2|switch 5
+|
+|switch|p2a: Kangaskhan|Kangaskhan, F|100/100
+|switch|p1a: Rhydon|Rhydon, M|100/100
+|turn|9
+|choice|switch 3|move fakeout
+|
+|switch|p1a: Mismagius|Mismagius, M|100/100
+|move|p2a: Kangaskhan|Fake Out|p1a: Mismagius
+|-damage|p1a: Mismagius|56/100
+|
+|upkeep
+|turn|10
+|choice|switch 3|move doubleedge
+|
+|switch|p1a: Rhydon|Rhydon, M|100/100
+|move|p2a: Kangaskhan|Double-Edge|p1a: Rhydon
+|-resisted|p1a: Rhydon
+|-damage|p1a: Rhydon|85/100
+|-damage|p2a: Kangaskhan|94/100|[from] recoil|[of] p1a: Rhydon
+|
+|upkeep
+|turn|11
+|choice|move earthquake|move earthquake
+|
+|move|p2a: Kangaskhan|Earthquake|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-damage|p1a: Rhydon|57/100
+|move|p1a: Rhydon|Earthquake|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|37/100
+|
+|upkeep
+|turn|12
+|choice|move earthquake|move earthquake
+|
+|move|p2a: Kangaskhan|Earthquake|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-damage|p1a: Rhydon|26/100
+|move|p1a: Rhydon|Earthquake|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|0 fnt
+|faint|p2a: Kangaskhan
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Hitmonchan|Hitmonchan, M|91/100
+|turn|13
+|choice|move earthquake|move icepunch
+|
+|move|p2a: Hitmonchan|Ice Punch|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-damage|p1a: Rhydon|0 fnt
+|-damage|p2a: Hitmonchan|81/100|[from] item: Life Orb
+|faint|p1a: Rhydon
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Mismagius|Mismagius, M|56/100
+|turn|14
+|choice|move shadowball|switch 2
+|
+|switch|p2a: Clefairy|Clefairy, M|100/100
+|move|p1a: Mismagius|Shadow Ball|p2a: Clefairy
+|-damage|p2a: Clefairy|70/100
+|-damage|p1a: Mismagius|46/100|[from] item: Life Orb
+|
+|upkeep
+|turn|15
+|choice|move taunt|switch 2
+|
+|switch|p2a: Hitmonchan|Hitmonchan, M|81/100
+|move|p1a: Mismagius|Taunt|p2a: Hitmonchan
+|-start|p2a: Hitmonchan|move: Taunt
+|
+|upkeep
+|turn|16
+|J|T be stuntin
+|choice|move dazzlinggleam|move icepunch
+|
+|move|p1a: Mismagius|Dazzling Gleam|p2a: Hitmonchan
+|-supereffective|p2a: Hitmonchan
+|-damage|p2a: Hitmonchan|1/100
+|-damage|p1a: Mismagius|37/100|[from] item: Life Orb
+|move|p2a: Hitmonchan|Ice Punch|p1a: Mismagius
+|-damage|p1a: Mismagius|0 fnt
+|-damage|p2a: Hitmonchan|0 fnt|[from] item: Life Orb
+|faint|p1a: Mismagius
+|faint|p2a: Hitmonchan
+|
+|upkeep
+|choice|switch 5|switch 2
+|
+|switch|p1a: Torterra|Torterra, M|100/100
+|switch|p2a: Clefairy|Clefairy, M|70/100
+|turn|17
+|c|☆imsosorrylol!!!|?
+|choice|move earthquake|move moonblast
+|
+|move|p1a: Torterra|Earthquake|p2a: Clefairy
+|-damage|p2a: Clefairy|5/100
+|move|p2a: Clefairy|Moonblast|p1a: Torterra
+|-damage|p1a: Torterra|76/100
+|
+|upkeep
+|turn|18
+|choice|move earthquake|move softboiled
+|
+|move|p1a: Torterra|Earthquake|p2a: Clefairy
+|-damage|p2a: Clefairy|0 fnt
+|faint|p2a: Clefairy
+|
+|win|sedertz.

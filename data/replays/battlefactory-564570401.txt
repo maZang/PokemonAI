@@ -1,0 +1,653 @@
+|j|Tdvbbc
+|j|arceus1117
+|player|p1|Tdvbbc|7
+|player|p2|arceus1117|99
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|62440,42082,2813,45381,22563,40043,40022,27905,58432,56099,3784,19953
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Roselia, M|item
+|poke|p1|Vibrava, M|item
+|poke|p1|Monferno, M|item
+|poke|p1|Raichu, M|item
+|poke|p1|Audino, M|item
+|poke|p1|Gourgeist-*, M|item
+|poke|p2|Golem, M|item
+|poke|p2|Seaking, M|item
+|poke|p2|Ninjask, M|item
+|poke|p2|Quilladin, M|item
+|poke|p2|Rampardos, M|item
+|poke|p2|Relicanth, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 2, team 1, team 3, team 4, team 5, team 6|team 3, team 2, team 1, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Vibrava|Vibrava, M|100/100
+|switch|p2a: Ninjask|Ninjask, M|100/100
+|turn|1
+|choice|move uturn|move toxic
+|
+|move|p2a: Ninjask|Toxic|p1a: Vibrava
+|-status|p1a: Vibrava|tox
+|move|p1a: Vibrava|U-turn|p2a: Ninjask
+|-resisted|p2a: Ninjask
+|-damage|p2a: Ninjask|87/100
+|choice|switch 4|
+|
+|switch|p1a: Raichu|Raichu, M|100/100
+|
+|upkeep
+|turn|2
+|choice|move voltswitch|switch 3
+|
+|switch|p2a: Golem|Golem, M|100/100
+|move|p1a: Raichu|Volt Switch|p2a: Golem
+|-immune|p2a: Golem|[msg]
+|
+|upkeep
+|turn|3
+|choice|switch 6|move stealthrock
+|
+|switch|p1a: Gourgeist|Gourgeist-Super, M|100/100
+|-item|p2a: Golem|Leftovers|[from] ability: Frisk|[of] p1a: Gourgeist|[identify]
+|move|p2a: Golem|Stealth Rock|p1a: Gourgeist
+|-sidestart|p1: Tdvbbc|move: Stealth Rock
+|
+|upkeep
+|turn|4
+|choice|move willowisp|switch 4
+|
+|switch|p2a: Quilladin|Quilladin, M|100/100
+|move|p1a: Gourgeist|Will-O-Wisp|p2a: Quilladin
+|-status|p2a: Quilladin|brn
+|
+|-damage|p2a: Quilladin|88/100 brn|[from] brn
+|upkeep
+|turn|5
+|choice|switch 4|move spikes
+|
+|switch|p1a: Vibrava|Vibrava, M|100/100 tox
+|-damage|p1a: Vibrava|95/100 tox|[from] Stealth Rock
+|move|p2a: Quilladin|Spikes|p1a: Vibrava
+|-sidestart|p1: Tdvbbc|Spikes
+|
+|-damage|p1a: Vibrava|89/100 tox|[from] psn
+|-damage|p2a: Quilladin|76/100 brn|[from] brn
+|upkeep
+|turn|6
+|choice|move defog|move roar
+|
+|move|p1a: Vibrava|Defog|p2a: Quilladin
+|-unboost|p2a: Quilladin|evasion|1
+|-sideend|p1: Tdvbbc|Spikes|[from] move: Defog|[of] p1a: Vibrava
+|-sideend|p1: Tdvbbc|Stealth Rock|[from] move: Defog|[of] p1a: Vibrava
+|move|p2a: Quilladin|Roar|p1a: Vibrava
+|drag|p1a: Gourgeist|Gourgeist-Super, M|100/100
+|-item|p2a: Quilladin|Eviolite|[from] ability: Frisk|[of] p1a: Gourgeist|[identify]
+|
+|-damage|p2a: Quilladin|64/100 brn|[from] brn
+|upkeep
+|turn|7
+|choice|move foulplay|move spikes
+|
+|move|p2a: Quilladin|Spikes|p1a: Gourgeist
+|-sidestart|p1: Tdvbbc|Spikes
+|move|p1a: Gourgeist|Foul Play|p2a: Quilladin
+|-damage|p2a: Quilladin|53/100 brn
+|
+|-damage|p2a: Quilladin|41/100 brn|[from] brn
+|upkeep
+|turn|8
+|choice|move foulplay|move synthesis
+|
+|move|p2a: Quilladin|Synthesis|p2a: Quilladin
+|-heal|p2a: Quilladin|91/100 brn
+|move|p1a: Gourgeist|Foul Play|p2a: Quilladin
+|-damage|p2a: Quilladin|81/100 brn
+|
+|-damage|p2a: Quilladin|68/100 brn|[from] brn
+|upkeep
+|turn|9
+|choice|switch 3|move spikes
+|
+|switch|p1a: Monferno|Monferno, M|100/100
+|-damage|p1a: Monferno|88/100|[from] Spikes
+|move|p2a: Quilladin|Spikes|p1a: Monferno
+|-sidestart|p1: Tdvbbc|Spikes
+|
+|-damage|p2a: Quilladin|56/100 brn|[from] brn
+|upkeep
+|turn|10
+|choice|move uturn|switch 6
+|
+|switch|p2a: Relicanth|Relicanth, M|100/100
+|move|p1a: Monferno|U-turn|p2a: Relicanth
+|-damage|p2a: Relicanth|86/100
+|choice|switch 4|
+|
+|switch|p1a: Vibrava|Vibrava, M|89/100 tox
+|
+|-damage|p1a: Vibrava|83/100 tox|[from] psn
+|upkeep
+|turn|11
+|choice|move defog|move waterfall
+|
+|move|p2a: Relicanth|Waterfall|p1a: Vibrava
+|-damage|p1a: Vibrava|36/100 tox
+|move|p1a: Vibrava|Defog|p2a: Relicanth
+|-unboost|p2a: Relicanth|evasion|1
+|-sideend|p1: Tdvbbc|Spikes|[from] move: Defog|[of] p1a: Vibrava
+|
+|-damage|p1a: Vibrava|24/100 tox|[from] psn
+|upkeep
+|turn|12
+|choice|switch 3|move waterfall
+|
+|switch|p1a: Gourgeist|Gourgeist-Super, M|100/100
+|-item|p2a: Relicanth|Stone Plate|[from] ability: Frisk|[of] p1a: Gourgeist|[identify]
+|move|p2a: Relicanth|Waterfall|p1a: Gourgeist
+|-resisted|p1a: Gourgeist
+|-damage|p1a: Gourgeist|90/100
+|
+|-heal|p1a: Gourgeist|96/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|choice|move seedbomb|switch 6
+|
+|switch|p2a: Quilladin|Quilladin, M|56/100 brn
+|move|p1a: Gourgeist|Seed Bomb|p2a: Quilladin
+|-immune|p2a: Quilladin|[msg]|[from] ability: Bulletproof
+|
+|-heal|p1a: Gourgeist|100/100|[from] item: Leftovers
+|-damage|p2a: Quilladin|44/100 brn|[from] brn
+|upkeep
+|turn|14
+|choice|switch 4|move spikes
+|
+|switch|p1a: Monferno|Monferno, M|88/100
+|move|p2a: Quilladin|Spikes|p1a: Monferno
+|-sidestart|p1: Tdvbbc|Spikes
+|
+|-damage|p2a: Quilladin|31/100 brn|[from] brn
+|upkeep
+|turn|15
+|choice|move uturn|move synthesis
+|
+|move|p1a: Monferno|U-turn|p2a: Quilladin
+|-supereffective|p2a: Quilladin
+|-damage|p2a: Quilladin|11/100 brn
+|choice|switch 5|
+|
+|switch|p1a: Audino|Audino, M|100/100
+|-damage|p1a: Audino|88/100|[from] Spikes
+|move|p2a: Quilladin|Synthesis|p2a: Quilladin
+|-heal|p2a: Quilladin|61/100 brn
+|
+|-heal|p1a: Audino|94/100|[from] item: Leftovers
+|-damage|p2a: Quilladin|48/100 brn|[from] brn
+|upkeep
+|turn|16
+|choice|move knockoff|move spikes
+|
+|move|p2a: Quilladin|Spikes|p1a: Audino
+|-sidestart|p1: Tdvbbc|Spikes
+|move|p1a: Audino|Knock Off|p2a: Quilladin
+|-damage|p2a: Quilladin|41/100 brn
+|-enditem|p2a: Quilladin|Eviolite|[from] move: Knock Off|[of] p1a: Audino
+|
+|-heal|p1a: Audino|99/100|[from] item: Leftovers
+|-damage|p2a: Quilladin|28/100 brn|[from] brn
+|upkeep
+|turn|17
+|choice|move wish|move synthesis
+|
+|move|p2a: Quilladin|Synthesis|p2a: Quilladin
+|-heal|p2a: Quilladin|78/100 brn
+|move|p1a: Audino|Wish|p1a: Audino
+|
+|-heal|p1a: Audino|100/100|[from] item: Leftovers
+|-damage|p2a: Quilladin|66/100 brn|[from] brn
+|upkeep
+|turn|18
+|choice|switch 3|move roar
+|
+|switch|p1a: Vibrava|Vibrava, M|24/100 tox
+|move|p2a: Quilladin|Roar|p1a: Vibrava
+|drag|p1a: Raichu|Raichu, M|100/100
+|-damage|p1a: Raichu|84/100|[from] Spikes
+|
+|-heal|p1a: Raichu|100/100|[from] move: Wish|[wisher] Audino
+|-damage|p2a: Quilladin|54/100 brn|[from] brn
+|upkeep
+|turn|19
+|choice|move voltswitch|move spikes
+|
+|move|p1a: Raichu|Volt Switch|p2a: Quilladin
+|-resisted|p2a: Quilladin
+|-damage|p2a: Quilladin|30/100 brn
+|choice|switch 6|
+|
+|switch|p1a: Vibrava|Vibrava, M|24/100 tox
+|move|p2a: Quilladin|Spikes|p1a: Vibrava
+|-sidestart|p1: Tdvbbc|Spikes
+|
+|-damage|p1a: Vibrava|18/100 tox|[from] psn
+|-damage|p2a: Quilladin|17/100 brn|[from] brn
+|upkeep
+|turn|20
+|choice|move defog|move synthesis
+|
+|move|p1a: Vibrava|Defog|p2a: Quilladin
+|-unboost|p2a: Quilladin|evasion|1
+|-sideend|p1: Tdvbbc|Spikes|[from] move: Defog|[of] p1a: Vibrava
+|move|p2a: Quilladin|Synthesis|p2a: Quilladin
+|-heal|p2a: Quilladin|67/100 brn
+|
+|-damage|p1a: Vibrava|6/100 tox|[from] psn
+|-damage|p2a: Quilladin|55/100 brn|[from] brn
+|upkeep
+|turn|21
+|choice|move roost|move spikes
+|
+|move|p1a: Vibrava|Roost|p1a: Vibrava
+|-heal|p1a: Vibrava|56/100 tox
+|move|p2a: Quilladin|Spikes|p1a: Vibrava
+|-sidestart|p1: Tdvbbc|Spikes
+|
+|-damage|p1a: Vibrava|38/100 tox|[from] psn
+|-damage|p2a: Quilladin|43/100 brn|[from] brn
+|upkeep
+|turn|22
+|choice|move uturn|move spikes
+|
+|move|p1a: Vibrava|U-turn|p2a: Quilladin
+|-supereffective|p2a: Quilladin
+|-damage|p2a: Quilladin|23/100 brn
+|choice|switch 5|
+|
+|switch|p1a: Monferno|Monferno, M|88/100
+|-damage|p1a: Monferno|76/100|[from] Spikes
+|move|p2a: Quilladin|Spikes|p1a: Monferno
+|-sidestart|p1: Tdvbbc|Spikes
+|
+|-damage|p2a: Quilladin|11/100 brn|[from] brn
+|upkeep
+|turn|23
+|choice|move uturn|switch 4
+|
+|switch|p2a: Golem|Golem, M|100/100
+|move|p1a: Monferno|U-turn|p2a: Golem
+|-damage|p2a: Golem|86/100
+|choice|switch 5|
+|
+|switch|p1a: Vibrava|Vibrava, M|38/100 tox
+|
+|-heal|p2a: Golem|92/100|[from] item: Leftovers
+|-damage|p1a: Vibrava|33/100 tox|[from] psn
+|upkeep
+|turn|24
+|choice|move defog|move stoneedge
+|
+|move|p1a: Vibrava|Defog|p2a: Golem
+|-unboost|p2a: Golem|evasion|1
+|-sideend|p1: Tdvbbc|Spikes|[from] move: Defog|[of] p1a: Vibrava
+|move|p2a: Golem|Stone Edge|p1a: Vibrava
+|-resisted|p1a: Vibrava
+|-crit|p1a: Vibrava
+|-damage|p1a: Vibrava|0 fnt
+|faint|p1a: Vibrava
+|
+|-heal|p2a: Golem|98/100|[from] item: Leftovers
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Gourgeist|Gourgeist-Super, M|100/100
+|-item|p2a: Golem|Leftovers|[from] ability: Frisk|[of] p1a: Gourgeist|[identify]
+|turn|25
+|choice|move foulplay|switch 3
+|
+|switch|p2a: Ninjask|Ninjask, M|87/100
+|move|p1a: Gourgeist|Foul Play|p2a: Ninjask
+|-damage|p2a: Ninjask|23/100
+|
+|upkeep
+|turn|26
+|choice|move foulplay|move aerialace
+|
+|move|p2a: Ninjask|Aerial Ace|p1a: Gourgeist
+|-supereffective|p1a: Gourgeist
+|-damage|p1a: Gourgeist|59/100
+|move|p1a: Gourgeist|Foul Play|p2a: Ninjask
+|-damage|p2a: Ninjask|0 fnt
+|faint|p2a: Ninjask
+|
+|-heal|p1a: Gourgeist|65/100|[from] item: Leftovers
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Quilladin|Quilladin, M|11/100 brn
+|turn|27
+|choice|move foulplay|move synthesis
+|
+|move|p2a: Quilladin|Synthesis|p2a: Quilladin
+|-heal|p2a: Quilladin|61/100 brn
+|move|p1a: Gourgeist|Foul Play|p2a: Quilladin
+|-damage|p2a: Quilladin|46/100 brn
+|
+|-heal|p1a: Gourgeist|71/100|[from] item: Leftovers
+|-damage|p2a: Quilladin|34/100 brn|[from] brn
+|upkeep
+|turn|28
+|choice|switch 5|move spikes
+|
+|switch|p1a: Monferno|Monferno, M|76/100
+|move|p2a: Quilladin|Spikes|p1a: Monferno
+|-sidestart|p1: Tdvbbc|Spikes
+|
+|-damage|p2a: Quilladin|22/100 brn|[from] brn
+|upkeep
+|turn|29
+|choice|move flareblitz|switch 6
+|
+|switch|p2a: Relicanth|Relicanth, M|86/100
+|move|p1a: Monferno|Flare Blitz|p2a: Relicanth
+|-resisted|p2a: Relicanth
+|-damage|p2a: Relicanth|76/100
+|-damage|p1a: Monferno|72/100|[from] recoil|[of] p2a: Relicanth
+|
+|upkeep
+|turn|30
+|choice|move uturn|move headsmash
+|
+|move|p1a: Monferno|U-turn|p2a: Relicanth
+|-damage|p2a: Relicanth|63/100
+|choice|switch 5|
+|
+|switch|p1a: Gourgeist|Gourgeist-Super, M|71/100
+|-damage|p1a: Gourgeist|59/100|[from] Spikes
+|-item|p2a: Relicanth|Stone Plate|[from] ability: Frisk|[of] p1a: Gourgeist|[identify]
+|move|p2a: Relicanth|Head Smash|p1a: Gourgeist
+|-damage|p1a: Gourgeist|13/100
+|
+|-heal|p1a: Gourgeist|19/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|choice|move synthesis|move headsmash
+|
+|move|p2a: Relicanth|Head Smash|p1a: Gourgeist
+|-damage|p1a: Gourgeist|0 fnt
+|faint|p1a: Gourgeist
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Raichu|Raichu, M|100/100
+|-damage|p1a: Raichu|88/100|[from] Spikes
+|turn|32
+|choice|move focusblast|switch 3
+|
+|switch|p2a: Golem|Golem, M|98/100
+|move|p1a: Raichu|Focus Blast|p2a: Golem|[miss]
+|-miss|p1a: Raichu|p2a: Golem
+|
+|-heal|p2a: Golem|100/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|choice|switch 2|move stealthrock
+|
+|switch|p1a: Roselia|Roselia, M|100/100
+|-damage|p1a: Roselia|88/100|[from] Spikes
+|move|p2a: Golem|Stealth Rock|p1a: Roselia
+|-sidestart|p1: Tdvbbc|move: Stealth Rock
+|
+|upkeep
+|turn|34
+|choice|move spikes|move protect
+|
+|move|p2a: Golem|Protect|p2a: Golem
+|-singleturn|p2a: Golem|Protect
+|move|p1a: Roselia|Spikes|p2a: Golem
+|-sidestart|p2: arceus1117|Spikes
+|
+|upkeep
+|turn|35
+|choice|move spikes|move stoneedge
+|
+|move|p1a: Roselia|Spikes|p2a: Golem
+|-sidestart|p2: arceus1117|Spikes
+|move|p2a: Golem|Stone Edge|p1a: Roselia
+|-damage|p1a: Roselia|35/100
+|
+|upkeep
+|turn|36
+|choice|move gigadrain|move stoneedge
+|
+|move|p1a: Roselia|Giga Drain|p2a: Golem
+|-supereffective|p2a: Golem
+|-damage|p2a: Golem|1/100
+|-heal|p1a: Roselia|94/100|[from] drain|[of] p2a: Golem
+|move|p2a: Golem|Stone Edge|p1a: Roselia
+|-damage|p1a: Roselia|46/100
+|
+|-heal|p2a: Golem|7/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|choice|move gigadrain|move earthquake
+|
+|move|p1a: Roselia|Giga Drain|p2a: Golem
+|-supereffective|p2a: Golem
+|-damage|p2a: Golem|0 fnt
+|-heal|p1a: Roselia|50/100|[from] drain|[of] p2a: Golem
+|faint|p2a: Golem
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Quilladin|Quilladin, M|22/100 brn
+|-damage|p2a: Quilladin|5/100 brn|[from] Spikes
+|turn|38
+|choice|move synthesis|move synthesis
+|
+|move|p1a: Roselia|Synthesis|p1a: Roselia
+|-heal|p1a: Roselia|99/100
+|move|p2a: Quilladin|Synthesis|p2a: Quilladin
+|-heal|p2a: Quilladin|55/100 brn
+|
+|-damage|p2a: Quilladin|43/100 brn|[from] brn
+|upkeep
+|turn|39
+|choice|move spikes|move spikes
+|
+|move|p1a: Roselia|Spikes|p2a: Quilladin
+|-sidestart|p2: arceus1117|Spikes
+|move|p2a: Quilladin|Spikes|p1a: Roselia
+|-sidestart|p1: Tdvbbc|Spikes
+|
+|-damage|p2a: Quilladin|31/100 brn|[from] brn
+|upkeep
+|turn|40
+|choice|switch 3|move synthesis
+|
+|switch|p1a: Audino|Audino, M|100/100
+|-damage|p1a: Audino|84/100|[from] Spikes
+|-damage|p1a: Audino|71/100|[from] Stealth Rock
+|move|p2a: Quilladin|Synthesis|p2a: Quilladin
+|-heal|p2a: Quilladin|81/100 brn
+|
+|-heal|p1a: Audino|78/100|[from] item: Leftovers
+|-damage|p2a: Quilladin|68/100 brn|[from] brn
+|upkeep
+|turn|41
+|choice|move wish|move spikes
+|
+|move|p2a: Quilladin|Spikes|p1a: Audino
+|-sidestart|p1: Tdvbbc|Spikes
+|move|p1a: Audino|Wish|p1a: Audino
+|
+|-heal|p1a: Audino|84/100|[from] item: Leftovers
+|-damage|p2a: Quilladin|56/100 brn|[from] brn
+|upkeep
+|turn|42
+|choice|switch 5|move roar
+|
+|switch|p1a: Monferno|Monferno, M|72/100
+|-damage|p1a: Monferno|47/100|[from] Spikes
+|-damage|p1a: Monferno|34/100|[from] Stealth Rock
+|move|p2a: Quilladin|Roar|p1a: Monferno
+|drag|p1a: Audino|Audino, M|100/100
+|-damage|p1a: Audino|88/100|[from] Stealth Rock
+|-damage|p1a: Audino|63/100|[from] Spikes
+|
+|-heal|p1a: Audino|100/100|[from] move: Wish|[wisher] Audino
+|-damage|p2a: Quilladin|44/100 brn|[from] brn
+|upkeep
+|turn|43
+|choice|move wish|move synthesis
+|
+|move|p2a: Quilladin|Synthesis|p2a: Quilladin
+|-heal|p2a: Quilladin|94/100 brn
+|move|p1a: Audino|Wish|p1a: Audino
+|
+|-damage|p2a: Quilladin|81/100 brn|[from] brn
+|upkeep
+|turn|44
+|choice|move doubleedge|move roar
+|
+|move|p1a: Audino|Double-Edge|p2a: Quilladin
+|-damage|p2a: Quilladin|60/100 brn
+|-damage|p1a: Audino|95/100|[from] recoil|[of] p2a: Quilladin
+|move|p2a: Quilladin|Roar|p1a: Audino
+|drag|p1a: Roselia|Roselia, M|99/100
+|-damage|p1a: Roselia|75/100|[from] Spikes
+|-damage|p1a: Roselia|62/100|[from] Stealth Rock
+|
+|-heal|p1a: Roselia|100/100|[from] move: Wish|[wisher] Audino
+|-damage|p2a: Quilladin|48/100 brn|[from] brn
+|upkeep
+|turn|45
+|choice|switch 3|move roar
+|
+|switch|p1a: Audino|Audino, M|100/100
+|-damage|p1a: Audino|88/100|[from] Stealth Rock
+|-damage|p1a: Audino|63/100|[from] Spikes
+|move|p2a: Quilladin|Roar|p1a: Audino
+|drag|p1a: Monferno|Monferno, M|34/100
+|-damage|p1a: Monferno|9/100|[from] Spikes
+|-damage|p1a: Monferno|0 fnt|[from] Stealth Rock
+|faint|p1a: Monferno
+|
+|-damage|p2a: Quilladin|35/100 brn|[from] brn
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Audino|Audino, M|96/100
+|-damage|p1a: Audino|84/100|[from] Stealth Rock
+|-damage|p1a: Audino|59/100|[from] Spikes
+|turn|46
+|choice|move wish|move roar
+|
+|move|p1a: Audino|Wish|p1a: Audino
+|move|p2a: Quilladin|Roar|p1a: Audino
+|drag|p1a: Raichu|Raichu, M|88/100
+|-damage|p1a: Raichu|63/100|[from] Spikes
+|-damage|p1a: Raichu|51/100|[from] Stealth Rock
+|
+|-damage|p2a: Quilladin|23/100 brn|[from] brn
+|upkeep
+|turn|47
+|choice|move thunderbolt|move roar
+|
+|move|p1a: Raichu|Thunderbolt|p2a: Quilladin
+|-resisted|p2a: Quilladin
+|-damage|p2a: Quilladin|0 fnt
+|faint|p2a: Quilladin
+|
+|-heal|p1a: Raichu|100/100|[from] move: Wish|[wisher] Audino
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Seaking|Seaking, M|100/100
+|-damage|p2a: Seaking|76/100|[from] Spikes
+|turn|48
+|choice|switch 2|move knockoff
+|
+|switch|p1a: Audino|Audino, M|92/100
+|-damage|p1a: Audino|67/100|[from] Spikes
+|-damage|p1a: Audino|55/100|[from] Stealth Rock
+|move|p2a: Seaking|Knock Off|p1a: Audino
+|-damage|p1a: Audino|27/100
+|-enditem|p1a: Audino|Leftovers|[from] move: Knock Off|[of] p2a: Seaking
+|
+|-heal|p2a: Seaking|82/100|[from] item: Leftovers
+|upkeep
+|turn|49
+|choice|move wish|move waterfall
+|
+|move|p2a: Seaking|Waterfall|p1a: Audino
+|-damage|p1a: Audino|0 fnt
+|faint|p1a: Audino
+|
+|-heal|p2a: Seaking|88/100|[from] item: Leftovers
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Roselia|Roselia, M|100/100
+|-damage|p1a: Roselia|75/100|[from] Spikes
+|-damage|p1a: Roselia|63/100|[from] Stealth Rock
+|turn|50
+|choice|move gigadrain|move knockoff
+|
+|move|p2a: Seaking|Knock Off|p1a: Roselia
+|-damage|p1a: Roselia|31/100
+|-enditem|p1a: Roselia|Eviolite|[from] move: Knock Off|[of] p2a: Seaking
+|move|p1a: Roselia|Giga Drain|p2a: Seaking
+|-supereffective|p2a: Seaking
+|-damage|p2a: Seaking|21/100
+|-heal|p1a: Roselia|67/100|[from] drain|[of] p2a: Seaking
+|
+|-heal|p2a: Seaking|27/100|[from] item: Leftovers
+|upkeep
+|turn|51
+|choice|move synthesis|move megahorn
+|
+|move|p2a: Seaking|Megahorn|p1a: Roselia
+|-damage|p1a: Roselia|8/100
+|move|p1a: Roselia|Synthesis|p1a: Roselia
+|-heal|p1a: Roselia|58/100
+|
+|-heal|p2a: Seaking|34/100|[from] item: Leftovers
+|upkeep
+|turn|52
+|choice|move gigadrain|move megahorn
+|
+|move|p2a: Seaking|Megahorn|p1a: Roselia
+|-damage|p1a: Roselia|0 fnt
+|faint|p1a: Roselia
+|
+|-heal|p2a: Seaking|40/100|[from] item: Leftovers
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Raichu|Raichu, M|100/100
+|-damage|p1a: Raichu|76/100|[from] Spikes
+|-damage|p1a: Raichu|63/100|[from] Stealth Rock
+|turn|53
+|choice|move focusblast|move knockoff
+|
+|move|p1a: Raichu|Focus Blast|p2a: Seaking|[miss]
+|-miss|p1a: Raichu|p2a: Seaking
+|move|p2a: Seaking|Knock Off|p1a: Raichu
+|-damage|p1a: Raichu|0 fnt
+|-enditem|p1a: Raichu|Choice Scarf|[from] move: Knock Off|[of] p2a: Seaking
+|faint|p1a: Raichu
+|
+|win|arceus1117
+|c|☆arceus1117|gg
+|l|Tdvbbc
+|raw|Tdvbbc's rating: 1087 &rarr; <strong>1072</strong><br />(-15 for losing)
+|raw|arceus1117's rating: 1213 &rarr; <strong>1230</strong><br />(+17 for winning)

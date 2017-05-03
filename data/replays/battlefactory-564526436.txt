@@ -1,0 +1,475 @@
+|j|Fixr
+|j|HoboOnTheRun
+|player|p1|Fixr|170
+|player|p2|HoboOnTheRun|66
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|39036,44884,48396,37664,61145,41205,28355,7339,34085,47800,21029,44006
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Mew|item
+|poke|p1|Heracross, M|item
+|poke|p1|Raikou|item
+|poke|p1|Terrakion|item
+|poke|p1|Celebi|item
+|poke|p1|Chansey, F|item
+|poke|p2|Volcarona, M|item
+|poke|p2|Jirachi|item
+|poke|p2|Garchomp, M|item
+|poke|p2|Gliscor, M|item
+|poke|p2|Togekiss, M|item
+|poke|p2|Staraptor, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 1, team 2, team 3, team 4, team 5, team 6|team 3, team 2, team 1, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Mew|Mew|100/100
+|switch|p2a: Garchomp|Garchomp, M|100/100
+|turn|1
+|choice|move willowisp|switch 3
+|
+|switch|p2a: Volcarona|Volcarona, M|100/100
+|move|p1a: Mew|Will-O-Wisp|p2a: Volcarona
+|-immune|p2a: Volcarona|[msg]
+|
+|upkeep
+|turn|2
+|choice|switch 6|move quiverdance
+|
+|switch|p1a: Chansey|Chansey, F|100/100
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|
+|upkeep
+|turn|3
+|choice|move toxic|switch 4
+|
+|switch|p2a: Gliscor|Gliscor, M|100/100
+|move|p1a: Chansey|Toxic|p2a: Gliscor
+|-status|p2a: Gliscor|tox
+|
+|upkeep
+|turn|4
+|choice|switch 6|move substitute
+|
+|switch|p1a: Mew|Mew|100/100
+|move|p2a: Gliscor|Substitute|p2a: Gliscor
+|-start|p2a: Gliscor|Substitute
+|-damage|p2a: Gliscor|75/100 tox
+|
+|-heal|p2a: Gliscor|88/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|5
+|choice|switch 6|move earthquake
+|
+|switch|p1a: Chansey|Chansey, F|100/100
+|move|p2a: Gliscor|Earthquake|p1a: Chansey
+|-damage|p1a: Chansey|77/100
+|
+|-heal|p2a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|6
+|choice|move seismictoss|move earthquake
+|
+|move|p2a: Gliscor|Earthquake|p1a: Chansey
+|-damage|p1a: Chansey|55/100
+|move|p1a: Chansey|Seismic Toss|p2a: Gliscor
+|-end|p2a: Gliscor|Substitute
+|
+|upkeep
+|turn|7
+|choice|move softboiled|move earthquake
+|
+|move|p2a: Gliscor|Earthquake|p1a: Chansey
+|-damage|p1a: Chansey|33/100
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|83/100
+|
+|upkeep
+|turn|8
+|choice|move seismictoss|switch 2
+|
+|switch|p2a: Jirachi|Jirachi|100/100
+|move|p1a: Chansey|Seismic Toss|p2a: Jirachi
+|-damage|p2a: Jirachi|76/100
+|
+|-heal|p2a: Jirachi|82/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|choice|move seismictoss|move bodyslam
+|
+|move|p2a: Jirachi|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|68/100
+|-status|p1a: Chansey|par
+|move|p1a: Chansey|Seismic Toss|p2a: Jirachi
+|-damage|p2a: Jirachi|57/100
+|
+|-heal|p2a: Jirachi|63/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|j|ragnarok97
+|choice|switch 3|move wish
+|
+|-curestatus|p1a: Chansey|par|[from] ability: Natural Cure
+|switch|p1a: Raikou|Raikou|100/100
+|-ability|p1a: Raikou|Pressure
+|move|p2a: Jirachi|Wish|p2a: Jirachi
+|
+|-heal|p2a: Jirachi|70/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|choice|move substitute|move protect
+|
+|move|p2a: Jirachi|Protect|p2a: Jirachi
+|-singleturn|p2a: Jirachi|Protect
+|move|p1a: Raikou|Substitute|p1a: Raikou
+|-start|p1a: Raikou|Substitute
+|-damage|p1a: Raikou|76/100
+|
+|-heal|p2a: Jirachi|100/100|[from] move: Wish|[wisher] Jirachi
+|-heal|p1a: Raikou|82/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|choice|move calmmind|move bodyslam
+|
+|move|p1a: Raikou|Calm Mind|p1a: Raikou
+|-boost|p1a: Raikou|spa|1
+|-boost|p1a: Raikou|spd|1
+|move|p2a: Jirachi|Body Slam|p1a: Raikou
+|-end|p1a: Raikou|Substitute
+|
+|-heal|p1a: Raikou|88/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|choice|move substitute|move bodyslam
+|
+|move|p1a: Raikou|Substitute|p1a: Raikou
+|-start|p1a: Raikou|Substitute
+|-damage|p1a: Raikou|63/100
+|move|p2a: Jirachi|Body Slam|p1a: Raikou
+|-end|p1a: Raikou|Substitute
+|
+|-heal|p1a: Raikou|69/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|choice|move thunderbolt|switch 3
+|
+|switch|p2a: Garchomp|Garchomp, M|100/100
+|move|p1a: Raikou|Thunderbolt|p2a: Garchomp
+|-immune|p2a: Garchomp|[msg]
+|
+|-heal|p1a: Raikou|76/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|choice|move substitute|move earthquake
+|
+|move|p1a: Raikou|Substitute|p1a: Raikou
+|-start|p1a: Raikou|Substitute
+|-damage|p1a: Raikou|51/100
+|move|p2a: Garchomp|Earthquake|p1a: Raikou
+|-supereffective|p1a: Raikou
+|-end|p1a: Raikou|Substitute
+|
+|-heal|p1a: Raikou|57/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|choice|move hiddenpower|move earthquake
+|
+|move|p1a: Raikou|Hidden Power|p2a: Garchomp
+|-supereffective|p2a: Garchomp
+|-enditem|p2a: Garchomp|Focus Sash
+|-damage|p2a: Garchomp|1/100
+|move|p2a: Garchomp|Earthquake|p1a: Raikou
+|-supereffective|p1a: Raikou
+|-damage|p1a: Raikou|0 fnt
+|faint|p1a: Raikou
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Terrakion|Terrakion|100/100
+|turn|17
+|choice|move stealthrock|move stealthrock
+|
+|move|p1a: Terrakion|Stealth Rock|p2a: Garchomp
+|-sidestart|p2: HoboOnTheRun|move: Stealth Rock
+|move|p2a: Garchomp|Stealth Rock|p1a: Terrakion
+|-sidestart|p1: Fixr|move: Stealth Rock
+|
+|upkeep
+|turn|18
+|choice|move stoneedge|move earthquake
+|
+|move|p1a: Terrakion|Stone Edge|p2a: Garchomp
+|-resisted|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|faint|p2a: Garchomp
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Jirachi|Jirachi|100/100
+|-damage|p2a: Jirachi|94/100|[from] Stealth Rock
+|turn|19
+|choice|switch 3|move wish
+|
+|switch|p1a: Chansey|Chansey, F|68/100
+|-damage|p1a: Chansey|55/100|[from] Stealth Rock
+|move|p2a: Jirachi|Wish|p2a: Jirachi
+|
+|-heal|p2a: Jirachi|100/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|choice|move softboiled|switch 6
+|
+|switch|p2a: Staraptor|Staraptor, M|100/100
+|-damage|p2a: Staraptor|75/100|[from] Stealth Rock
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|100/100
+|
+|-heal|p2a: Staraptor|100/100|[from] move: Wish|[wisher] Jirachi
+|upkeep
+|turn|21
+|choice|move seismictoss|move closecombat
+|
+|move|p2a: Staraptor|Close Combat|p1a: Chansey
+|-supereffective|p1a: Chansey
+|-damage|p1a: Chansey|12/100
+|-unboost|p2a: Staraptor|def|1
+|-unboost|p2a: Staraptor|spd|1
+|move|p1a: Chansey|Seismic Toss|p2a: Staraptor
+|-damage|p2a: Staraptor|68/100
+|
+|upkeep
+|turn|22
+|choice|move seismictoss|move closecombat
+|
+|move|p2a: Staraptor|Close Combat|p1a: Chansey
+|-supereffective|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|-unboost|p2a: Staraptor|def|1
+|-unboost|p2a: Staraptor|spd|1
+|faint|p1a: Chansey
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Heracross|Heracross, M|100/100
+|-damage|p1a: Heracross|88/100|[from] Stealth Rock
+|turn|23
+|choice|move rockblast mega|switch 6
+|
+|switch|p2a: Jirachi|Jirachi|100/100
+|-damage|p2a: Jirachi|94/100|[from] Stealth Rock
+|detailschange|p1a: Heracross|Heracross-Mega, M
+|-mega|p1a: Heracross|Heracross|Heracronite
+|move|p1a: Heracross|Rock Blast|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-crit|p2a: Jirachi
+|-damage|p2a: Jirachi|87/100
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|82/100
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|77/100
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|72/100
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|68/100
+|-hitcount|p2a: Jirachi|5
+|
+|-heal|p2a: Jirachi|74/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|choice|move pinmissile|move wish
+|
+|move|p1a: Heracross|Pin Missile|p2a: Jirachi
+|-damage|p2a: Jirachi|59/100
+|-damage|p2a: Jirachi|43/100
+|-damage|p2a: Jirachi|28/100
+|-damage|p2a: Jirachi|13/100
+|-crit|p2a: Jirachi
+|-damage|p2a: Jirachi|0 fnt
+|-hitcount|p2a: Jirachi|5
+|faint|p2a: Jirachi
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Togekiss|Togekiss, M|100/100
+|-damage|p2a: Togekiss|76/100|[from] Stealth Rock
+|turn|25
+|choice|move rockblast|move thunderwave
+|
+|move|p1a: Heracross|Rock Blast|p2a: Togekiss
+|-supereffective|p2a: Togekiss
+|-crit|p2a: Togekiss
+|-damage|p2a: Togekiss|40/100
+|-supereffective|p2a: Togekiss
+|-damage|p2a: Togekiss|16/100
+|-supereffective|p2a: Togekiss
+|-damage|p2a: Togekiss|0 fnt
+|-hitcount|p2a: Togekiss|3
+|faint|p2a: Togekiss
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Staraptor|Staraptor, M|68/100
+|-damage|p2a: Staraptor|43/100|[from] Stealth Rock
+|turn|26
+|choice|switch 6|move bravebird
+|
+|switch|p1a: Mew|Mew|100/100
+|-damage|p1a: Mew|88/100|[from] Stealth Rock
+|move|p2a: Staraptor|Brave Bird|p1a: Mew
+|-damage|p1a: Mew|11/100
+|-damage|p2a: Staraptor|10/100|[from] recoil|[of] p1a: Mew
+|
+|-heal|p1a: Mew|17/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|choice|move softboiled|move bravebird
+|
+|move|p2a: Staraptor|Brave Bird|p1a: Mew
+|-damage|p1a: Mew|0 fnt
+|-damage|p2a: Staraptor|3/100|[from] recoil|[of] p1a: Mew
+|faint|p1a: Mew
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Terrakion|Terrakion|100/100
+|-damage|p1a: Terrakion|94/100|[from] Stealth Rock
+|turn|28
+|choice|move closecombat|move bravebird
+|
+|move|p1a: Terrakion|Close Combat|p2a: Staraptor
+|-damage|p2a: Staraptor|0 fnt
+|-unboost|p1a: Terrakion|def|1
+|-unboost|p1a: Terrakion|spd|1
+|faint|p2a: Staraptor
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Gliscor|Gliscor, M|100/100 tox
+|-damage|p2a: Gliscor|88/100 tox|[from] Stealth Rock
+|turn|29
+|choice|move taunt|move substitute
+|
+|move|p1a: Terrakion|Taunt|p2a: Gliscor
+|-start|p2a: Gliscor|move: Taunt
+|cant|p2a: Gliscor|move: Taunt|Substitute
+|
+|-heal|p2a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|30
+|choice|move stoneedge|move earthquake
+|
+|move|p1a: Terrakion|Stone Edge|p2a: Gliscor
+|-damage|p2a: Gliscor|64/100 tox
+|move|p2a: Gliscor|Earthquake|p1a: Terrakion
+|-supereffective|p1a: Terrakion
+|-damage|p1a: Terrakion|0 fnt
+|faint|p1a: Terrakion
+|
+|-heal|p2a: Gliscor|76/100 tox|[from] ability: Poison Heal
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Heracross|Heracross-Mega, M|88/100
+|-damage|p1a: Heracross|76/100|[from] Stealth Rock
+|turn|31
+|choice|move rockblast|switch 4
+|
+|switch|p2a: Volcarona|Volcarona, M|100/100
+|-damage|p2a: Volcarona|51/100|[from] Stealth Rock
+|move|p1a: Heracross|Rock Blast|p2a: Volcarona
+|-supereffective|p2a: Volcarona
+|-damage|p2a: Volcarona|3/100
+|-supereffective|p2a: Volcarona
+|-damage|p2a: Volcarona|0 fnt
+|-hitcount|p2a: Volcarona|2
+|faint|p2a: Volcarona
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Gliscor|Gliscor, M|76/100 tox
+|-damage|p2a: Gliscor|64/100 tox|[from] Stealth Rock
+|turn|32
+|choice|move swordsdance|move protect
+|
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Heracross|Swords Dance|p1a: Heracross
+|-boost|p1a: Heracross|atk|2
+|
+|-heal|p2a: Gliscor|76/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|33
+|choice|move rockblast|move toxic
+|
+|move|p2a: Gliscor|Toxic|p1a: Heracross
+|-status|p1a: Heracross|tox
+|move|p1a: Heracross|Rock Blast|p2a: Gliscor|[miss]
+|-miss|p1a: Heracross|p2a: Gliscor
+|
+|-heal|p2a: Gliscor|89/100 tox|[from] ability: Poison Heal
+|-damage|p1a: Heracross|70/100 tox|[from] psn
+|upkeep
+|turn|34
+|c|☆Fixr|gg
+|c|☆Fixr|or not
+|choice|move rockblast|move substitute
+|
+|move|p2a: Gliscor|Substitute|p2a: Gliscor
+|-start|p2a: Gliscor|Substitute
+|-damage|p2a: Gliscor|64/100 tox
+|move|p1a: Heracross|Rock Blast|p2a: Gliscor|[miss]
+|-miss|p1a: Heracross|p2a: Gliscor
+|
+|-heal|p2a: Gliscor|76/100 tox|[from] ability: Poison Heal
+|-damage|p1a: Heracross|58/100 tox|[from] psn
+|upkeep
+|turn|35
+|choice|move swordsdance|move protect
+|
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Heracross|Swords Dance|p1a: Heracross
+|-boost|p1a: Heracross|atk|2
+|
+|-heal|p2a: Gliscor|89/100 tox|[from] ability: Poison Heal
+|-damage|p1a: Heracross|40/100 tox|[from] psn
+|upkeep
+|turn|36
+|choice|move rockblast|move earthquake
+|
+|move|p2a: Gliscor|Earthquake|p1a: Heracross
+|-resisted|p1a: Heracross
+|-crit|p1a: Heracross
+|-damage|p1a: Heracross|15/100 tox
+|move|p1a: Heracross|Rock Blast|p2a: Gliscor
+|-end|p2a: Gliscor|Substitute
+|-damage|p2a: Gliscor|66/100 tox
+|-damage|p2a: Gliscor|40/100 tox
+|-damage|p2a: Gliscor|17/100 tox
+|-damage|p2a: Gliscor|0 fnt
+|-hitcount|p2a: Gliscor|5
+|faint|p2a: Gliscor
+|
+|win|Fixr
+|c|☆Fixr|whew
+|c|☆Fixr|]lol
+|raw|Fixr's rating: 1495 &rarr; <strong>1506</strong><br />(+11 for winning)
+|raw|HoboOnTheRun's rating: 1322 &rarr; <strong>1311</strong><br />(-11 for losing)
+|c|☆HoboOnTheRun|gg
+|c|☆Fixr|gg
+|l|HoboOnTheRun

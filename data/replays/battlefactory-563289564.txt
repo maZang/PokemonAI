@@ -1,0 +1,175 @@
+|j|dvfcsx
+|j|So Fuckin Milky
+|player|p1|dvfcsx|237
+|player|p2|So Fuckin Milky|160
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|59792,27620,46648,60773,22008,9184,61316,19854,49853,38513,61819,36418
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Genesect-*|item
+|poke|p1|Deoxys-Speed|item
+|poke|p1|Klefki, M|item
+|poke|p1|Latios, M|item
+|poke|p1|Kyogre|item
+|poke|p1|Arceus-*|item
+|poke|p2|Blaziken, M|item
+|poke|p2|Arceus-*|item
+|poke|p2|Reshiram|item
+|poke|p2|Sableye, M|item
+|poke|p2|Landorus, M|item
+|poke|p2|Xerneas|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 3, team 2, team 1, team 4, team 5, team 6|team 4, team 2, team 3, team 1, team 5, team 6
+|
+|start
+|switch|p1a: Klefki|Klefki, M|100/100
+|switch|p2a: Sableye|Sableye, M|100/100
+|turn|1
+|choice|move playrough|move willowisp mega
+|
+|detailschange|p2a: Sableye|Sableye-Mega, M
+|-mega|p2a: Sableye|Sableye|Sablenite
+|move|p2a: Sableye|Will-O-Wisp|p1a: Klefki|[miss]
+|-miss|p2a: Sableye|p1a: Klefki
+|move|p1a: Klefki|Play Rough|p2a: Sableye|[miss]
+|-miss|p1a: Klefki|p2a: Sableye
+|
+|upkeep
+|turn|2
+|choice|move playrough|move willowisp
+|
+|move|p1a: Klefki|Play Rough|p2a: Sableye
+|-supereffective|p2a: Sableye
+|-damage|p2a: Sableye|65/100
+|move|p2a: Sableye|Will-O-Wisp|p1a: Klefki
+|-status|p1a: Klefki|brn
+|
+|-damage|p1a: Klefki|88/100 brn|[from] brn
+|upkeep
+|turn|3
+|choice|move playrough|move foulplay
+|
+|move|p1a: Klefki|Play Rough|p2a: Sableye
+|-supereffective|p2a: Sableye
+|-damage|p2a: Sableye|48/100
+|move|p2a: Sableye|Foul Play|p1a: Klefki
+|-resisted|p1a: Klefki
+|-damage|p1a: Klefki|73/100 brn
+|
+|-heal|p1a: Klefki|79/100 brn|[from] item: Leftovers
+|-damage|p1a: Klefki|66/100 brn|[from] brn
+|upkeep
+|turn|4
+|choice|switch 5|move recover
+|
+|switch|p1a: Kyogre|Kyogre|100/100
+|detailschange|p1a: Kyogre|Kyogre-Primal
+|-primal|p1a: Kyogre
+|-weather|PrimordialSea|[from] ability: Primordial Sea|[of] p1a: Kyogre
+|move|p2a: Sableye|Recover|p2a: Sableye
+|-heal|p2a: Sableye|98/100
+|
+|-weather|PrimordialSea|[upkeep]
+|upkeep
+|turn|5
+|choice|move calmmind|switch 3
+|
+|switch|p2a: Reshiram|Reshiram|100/100
+|-ability|p2a: Reshiram|Turboblaze
+|move|p1a: Kyogre|Calm Mind|p1a: Kyogre
+|-boost|p1a: Kyogre|spa|1
+|-boost|p1a: Kyogre|spd|1
+|
+|-weather|PrimordialSea|[upkeep]
+|upkeep
+|turn|6
+|choice|move originpulse|move toxic
+|
+|move|p1a: Kyogre|Origin Pulse|p2a: Reshiram
+|-damage|p2a: Reshiram|0 fnt
+|faint|p2a: Reshiram
+|
+|-weather|PrimordialSea|[upkeep]
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Arceus|Arceus-Ghost|100/100
+|turn|7
+|choice|move originpulse|move swordsdance
+|
+|move|p2a: Arceus|Swords Dance|p2a: Arceus
+|-boost|p2a: Arceus|atk|2
+|move|p1a: Kyogre|Origin Pulse|p2a: Arceus
+|-damage|p2a: Arceus|0 fnt
+|faint|p2a: Arceus
+|
+|-weather|PrimordialSea|[upkeep]
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Xerneas|Xerneas|100/100
+|-ability|p2a: Xerneas|Fairy Aura
+|turn|8
+|choice|move thunder|move moonblast
+|
+|move|p2a: Xerneas|Moonblast|p1a: Kyogre
+|-damage|p1a: Kyogre|56/100
+|-unboost|p1a: Kyogre|spa|1
+|-damage|p2a: Xerneas|91/100|[from] item: Life Orb
+|move|p1a: Kyogre|Thunder|p2a: Xerneas
+|-damage|p2a: Xerneas|46/100
+|-status|p2a: Xerneas|par
+|
+|-weather|PrimordialSea|[upkeep]
+|upkeep
+|turn|9
+|choice|move thunder|move moonblast
+|
+|move|p1a: Kyogre|Thunder|p2a: Xerneas
+|-damage|p2a: Xerneas|0 fnt
+|faint|p2a: Xerneas
+|
+|-weather|PrimordialSea|[upkeep]
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Landorus|Landorus, M|100/100
+|turn|10
+|choice|move icebeam|move rockslide
+|
+|move|p2a: Landorus|Rock Slide|p1a: Kyogre
+|-damage|p1a: Kyogre|24/100
+|move|p1a: Kyogre|Ice Beam|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|-weather|PrimordialSea|[upkeep]
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Blaziken|Blaziken, M|100/100
+|turn|11
+|choice|move originpulse|move protect
+|
+|move|p2a: Blaziken|Protect|p2a: Blaziken
+|-singleturn|p2a: Blaziken|Protect
+|move|p1a: Kyogre|Origin Pulse|p2a: Blaziken
+|-activate|p2a: Blaziken|move: Protect
+|
+|-weather|PrimordialSea|[upkeep]
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|turn|12
+|-message|So Fuckin Milky forfeited.
+|
+|win|dvfcsx
+|l|So Fuckin Milky
+|raw|dvfcsx's rating: 1079 &rarr; <strong>1110</strong><br />(+31 for winning)
+|raw|So Fuckin Milky's rating: 1112 &rarr; <strong>1084</strong><br />(-28 for losing)

@@ -1,0 +1,296 @@
+|J|GreninjaWarrior21
+|J|imsosorrylol
+|player|p1|GreninjaWarrior21|127
+|player|p2|imsosorrylol|10
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|4619,5802,30186,30595,49676,55816,52286,48318,58965,12897,4871,1611
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Hoopa|item
+|poke|p1|Magneton|item
+|poke|p1|Meloetta|item
+|poke|p1|Abomasnow, M|item
+|poke|p1|Rotom|item
+|poke|p1|Aggron, M|item
+|poke|p2|Abomasnow, M|item
+|poke|p2|Roselia, M|item
+|poke|p2|Manectric, M|item
+|poke|p2|Hitmontop, M|item
+|poke|p2|Gallade, M|item
+|poke|p2|Smeargle, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|c|☆imsosorrylol|wtf
+|c|☆imsosorrylol|is this
+|c|☆GreninjaWarrior21|hf
+|c|☆imsosorrylol|i got some
+|c|☆imsosorrylol|webs offense
+|c|☆GreninjaWarrior21|lol
+|c|☆imsosorrylol|BRO
+|c|☆imsosorrylol|I FOT
+|c|☆GreninjaWarrior21|are these sm tiers
+|c|☆imsosorrylol|FULL HAZARD STACK
+|c|☆GreninjaWarrior21|or gen 6 
+|c|☆imsosorrylol|LOL
+|c|☆imsosorrylol|GEN 6
+|c|☆GreninjaWarrior21|lol.
+|c|☆imsosorrylol|LOL I GOT FUCKING
+|c|☆GreninjaWarrior21|is this ru 
+|c|☆imsosorrylol|HAZARD STACK
+|c|☆imsosorrylol|WEBS
+|c|☆GreninjaWarrior21|xd
+|c|☆imsosorrylol|SPIKES
+|c|☆imsosorrylol|ROCKS
+|c|☆GreninjaWarrior21|RU?
+|c|☆imsosorrylol|SPIN TOP
+|c|☆imsosorrylol|OML
+|c|☆GreninjaWarrior21|lol
+|c|☆imsosorrylol|i think so
+|choice|team 4, team 2, team 3, team 1, team 5, team 6|team 6, team 2, team 3, team 4, team 5, team 1
+|
+|start
+|switch|p1a: Abomasnow|Abomasnow, M|100/100
+|switch|p2a: Smeargle|Smeargle, M|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Abomasnow
+|turn|1
+|choice|move blizzard|move stickyweb
+|
+|move|p2a: Smeargle|Sticky Web|p1a: Abomasnow
+|-sidestart|p1: GreninjaWarrior21|move: Sticky Web
+|move|p1a: Abomasnow|Blizzard|p2a: Smeargle
+|-enditem|p2a: Smeargle|Focus Sash
+|-damage|p2a: Smeargle|1/100
+|-damage|p1a: Abomasnow|91/100|[from] item: Life Orb
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Smeargle|0 fnt|[from] hail
+|upkeep
+|faint|p2a: Smeargle
+|choice||switch 5
+|
+|switch|p2a: Gallade|Gallade, M|100/100
+|turn|2
+|choice|move blizzard|move knockoff
+|
+|move|p2a: Gallade|Knock Off|p1a: Abomasnow
+|-damage|p1a: Abomasnow|15/100
+|-enditem|p1a: Abomasnow|Life Orb|[from] move: Knock Off|[of] p2a: Gallade
+|-damage|p2a: Gallade|91/100|[from] item: Life Orb
+|move|p1a: Abomasnow|Blizzard|p2a: Gallade
+|-crit|p2a: Gallade
+|-damage|p2a: Gallade|12/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Gallade|6/100|[from] hail
+|upkeep
+|turn|3
+|c|☆GreninjaWarrior21|how
+|choice|move iceshard|move knockoff
+|
+|move|p1a: Abomasnow|Ice Shard|p2a: Gallade
+|-damage|p2a: Gallade|0 fnt
+|faint|p2a: Gallade
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|c|☆imsosorrylol|fuck
+|choice||switch 3
+|
+|switch|p2a: Manectric|Manectric, M|100/100
+|turn|4
+|c|☆GreninjaWarrior21|meh
+|c|☆GreninjaWarrior21|this was useless anyways
+|c|☆GreninjaWarrior21|kek
+|c|☆imsosorrylol|u lose to
+|c|☆imsosorrylol|the top
+|choice|move iceshard|move voltswitch
+|
+|move|p1a: Abomasnow|Ice Shard|p2a: Manectric
+|-damage|p2a: Manectric|72/100
+|move|p2a: Manectric|Volt Switch|p1a: Abomasnow
+|-resisted|p1a: Abomasnow
+|-damage|p1a: Abomasnow|0 fnt
+|-damage|p2a: Manectric|62/100|[from] item: Life Orb
+|faint|p1a: Abomasnow
+|c|☆GreninjaWarrior21|yeah maybe 
+|choice||switch 6
+|
+|switch|p2a: Abomasnow|Abomasnow, M|100/100
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|c|☆imsosorrylol|hes
+|c|☆imsosorrylol|in
+|c|☆imsosorrylol|nice web support
+|c|☆imsosorrylol|these look like
+|choice|switch 2|
+|
+|switch|p1a: Magneton|Magneton|100/100
+|-activate|p1a: Magneton|move: Sticky Web
+|-unboost|p1a: Magneton|spe|1
+|turn|5
+|c|☆imsosorrylol|real teams
+|choice|move flashcannon|move focusblast
+|
+|move|p2a: Abomasnow|Focus Blast|p1a: Magneton
+|-supereffective|p1a: Magneton
+|-damage|p1a: Magneton|0 fnt
+|-damage|p2a: Abomasnow|91/100|[from] item: Life Orb
+|faint|p1a: Magneton
+|
+|-weather|none
+|upkeep
+|c|☆GreninjaWarrior21|oml
+|c|☆imsosorrylol|?
+|c|☆GreninjaWarrior21|r u max speed
+|c|☆GreninjaWarrior21|or a lot of speed
+|c|☆imsosorrylol|i have
+|c|☆imsosorrylol|no clue
+|c|☆GreninjaWarrior21|:\
+|c|☆GreninjaWarrior21|rofl
+|choice|switch 4|
+|
+|switch|p1a: Hoopa|Hoopa|100/100
+|-activate|p1a: Hoopa|move: Sticky Web
+|-unboost|p1a: Hoopa|spe|1
+|turn|6
+|c|☆imsosorrylol|how fast
+|c|☆imsosorrylol|can this be
+|c|☆GreninjaWarrior21|240 
+|c|☆GreninjaWarrior21|ma
+|c|☆GreninjaWarrior21|x
+|c|☆imsosorrylol|i hit
+|c|☆imsosorrylol|187
+|choice|move psyshock|move gigadrain
+|
+|move|p2a: Abomasnow|Giga Drain|p1a: Hoopa
+|-damage|p1a: Hoopa|62/100
+|-heal|p2a: Abomasnow|100/100|[from] drain|[of] p1a: Hoopa
+|-damage|p2a: Abomasnow|91/100|[from] item: Life Orb
+|move|p1a: Hoopa|Psyshock|p2a: Abomasnow
+|-damage|p2a: Abomasnow|5/100
+|-damage|p1a: Hoopa|52/100|[from] item: Life Orb
+|
+|upkeep
+|turn|7
+|choice|move shadowball|move iceshard
+|
+|move|p2a: Abomasnow|Ice Shard|p1a: Hoopa
+|-damage|p1a: Hoopa|18/100
+|-damage|p2a: Abomasnow|0 fnt|[from] item: Life Orb
+|faint|p2a: Abomasnow
+|move|p1a: Hoopa|Shadow Ball|p2: Abomasnow|[notarget]
+|-notarget
+|
+|upkeep
+|c|☆imsosorrylol|holy
+|c|☆imsosorrylol|fucking
+|c|☆imsosorrylol|shit
+|choice||switch 6
+|
+|switch|p2a: Manectric|Manectric, M|62/100
+|turn|8
+|c|☆imsosorrylol|EAT MY ASS
+|choice|move psyshock|move thunderbolt
+|
+|move|p2a: Manectric|Thunderbolt|p1a: Hoopa
+|-damage|p1a: Hoopa|0 fnt
+|-damage|p2a: Manectric|52/100|[from] item: Life Orb
+|faint|p1a: Hoopa
+|
+|upkeep
+|c|☆imsosorrylol|-XXXTENTACION 2017
+|c|☆imsosorrylol|LOL
+|c|☆GreninjaWarrior21|.
+|c|☆imsosorrylol|his new drops
+|choice|switch 6|
+|
+|switch|p1a: Aggron|Aggron, M|100/100
+|-activate|p1a: Aggron|move: Sticky Web
+|-unboost|p1a: Aggron|spe|1
+|turn|9
+|c|☆imsosorrylol|str8 flames
+|choice|move firepunch|move voltswitch
+|
+|move|p2a: Manectric|Volt Switch|p1a: Aggron
+|-damage|p1a: Aggron|21/100
+|-damage|p2a: Manectric|42/100|[from] item: Life Orb
+|choice||switch 4
+|
+|switch|p2a: Hitmontop|Hitmontop, M|100/100
+|-ability|p2a: Hitmontop|Intimidate|boost
+|-unboost|p1a: Aggron|atk|1
+|move|p1a: Aggron|Fire Punch|p2a: Hitmontop
+|-damage|p2a: Hitmontop|79/100
+|
+|-heal|p2a: Hitmontop|85/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|c|☆GreninjaWarrior21|yumm
+|c|☆GreninjaWarrior21|kek
+|choice|switch 5|move toxic
+|
+|switch|p1a: Rotom|Rotom|100/100
+|move|p2a: Hitmontop|Toxic|p1a: Rotom
+|-status|p1a: Rotom|tox
+|
+|-heal|p2a: Hitmontop|91/100|[from] item: Leftovers
+|-damage|p1a: Rotom|94/100 tox|[from] psn
+|upkeep
+|turn|11
+|choice|move willowisp|switch 2
+|
+|switch|p2a: Roselia|Roselia, M|100/100
+|move|p1a: Rotom|Will-O-Wisp|p2a: Roselia
+|-status|p2a: Roselia|brn
+|
+|-heal|p1a: Rotom|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Rotom|88/100 tox|[from] psn
+|-damage|p2a: Roselia|88/100 brn|[from] brn
+|upkeep
+|turn|12
+|choice|switch 3|move spikes
+|
+|switch|p1a: Meloetta|Meloetta|100/100
+|-activate|p1a: Meloetta|move: Sticky Web
+|-unboost|p1a: Meloetta|spe|1
+|move|p2a: Roselia|Spikes|p1a: Meloetta
+|-sidestart|p1: GreninjaWarrior21|Spikes
+|
+|-damage|p2a: Roselia|76/100 brn|[from] brn
+|upkeep
+|turn|13
+|choice|move psyshock|move sludgebomb
+|
+|move|p1a: Meloetta|Psyshock|p2a: Roselia
+|-supereffective|p2a: Roselia
+|-crit|p2a: Roselia
+|-damage|p2a: Roselia|0 fnt
+|faint|p2a: Roselia
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Hitmontop|Hitmontop, M|91/100
+|-ability|p2a: Hitmontop|Intimidate|boost
+|-unboost|p1a: Meloetta|atk|1
+|turn|14
+|c|☆imsosorrylol|whys that
+|c|☆imsosorrylol|so fast
+|c|☆GreninjaWarrior21|idk
+|choice|move psyshock|move closecombat
+|
+|move|p1a: Meloetta|Psyshock|p2a: Hitmontop
+|-supereffective|p2a: Hitmontop
+|-crit|p2a: Hitmontop
+|-damage|p2a: Hitmontop|0 fnt
+|faint|p2a: Hitmontop
+|
+|upkeep
+|c|☆imsosorrylol|g2
+|-message|imsosorrylol forfeited.
+|
+|win|GreninjaWarrior21

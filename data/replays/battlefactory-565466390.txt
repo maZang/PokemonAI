@@ -1,0 +1,319 @@
+|j|HydenMks
+|j|blackbox6500
+|player|p1|HydenMks|289
+|player|p2|blackbox6500|108
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|35922,26613,57610,4642,57782,19161,17612,21780,21406,60143,27325,55152
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Chatot, M|item
+|poke|p1|Zweilous, M|item
+|poke|p1|Marowak, M|item
+|poke|p1|Armaldo, M|item
+|poke|p1|Rapidash, M|item
+|poke|p1|Basculin, M|item
+|poke|p2|Floatzel, M|item
+|poke|p2|Ninetales, M|item
+|poke|p2|Arbok, M|item
+|poke|p2|Kadabra, M|item
+|poke|p2|Cryogonal|item
+|poke|p2|Clefairy, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 5, team 2, team 3, team 4, team 1, team 6|team 1, team 2, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Rapidash|Rapidash, M|100/100
+|switch|p2a: Floatzel|Floatzel, M|100/100
+|turn|1
+|choice|move wildcharge|move hydropump
+|
+|move|p2a: Floatzel|Hydro Pump|p1a: Rapidash|[miss]
+|-miss|p2a: Floatzel|p1a: Rapidash
+|move|p1a: Rapidash|Wild Charge|p2a: Floatzel
+|-supereffective|p2a: Floatzel
+|-damage|p2a: Floatzel|0 fnt
+|-damage|p1a: Rapidash|72/100|[from] recoil|[of] p2a: Floatzel
+|faint|p2a: Floatzel
+|
+|upkeep
+|c|☆blackbox6500|tenia que fallarlo...
+|choice||switch 2
+|
+|switch|p2a: Ninetales|Ninetales, M|100/100
+|turn|2
+|choice|switch 3|move substitute
+|
+|switch|p1a: Marowak|Marowak, M|100/100
+|move|p2a: Ninetales|Substitute|p2a: Ninetales
+|-start|p2a: Ninetales|Substitute
+|-damage|p2a: Ninetales|76/100
+|
+|-heal|p2a: Ninetales|82/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|choice|move bonemerang|move nastyplot
+|
+|move|p2a: Ninetales|Nasty Plot|p2a: Ninetales
+|-boost|p2a: Ninetales|spa|2
+|move|p1a: Marowak|Bonemerang|p2a: Ninetales
+|-supereffective|p2a: Ninetales
+|-end|p2a: Ninetales|Substitute
+|-supereffective|p2a: Ninetales
+|-damage|p2a: Ninetales|0 fnt
+|-hitcount|p2a: Ninetales|2
+|faint|p2a: Ninetales
+|
+|upkeep
+|c|☆HydenMks|xDDDDD
+|c|☆blackbox6500|la puta que me pario
+|c|☆blackbox6500|el mundo no me quiere (?)
+|choice||switch 4
+|
+|switch|p2a: Kadabra|Kadabra, M|100/100
+|turn|4
+|j|Netro1
+|choice|move stealthrock|move signalbeam
+|
+|move|p2a: Kadabra|Signal Beam|p1a: Marowak
+|-damage|p1a: Marowak|64/100
+|move|p1a: Marowak|Stealth Rock|p2a: Kadabra
+|-sidestart|p2: blackbox6500|move: Stealth Rock
+|
+|upkeep
+|turn|5
+|choice|switch 6|move signalbeam
+|
+|switch|p1a: Basculin|Basculin, M|100/100
+|move|p2a: Kadabra|Signal Beam|p1a: Basculin
+|-damage|p1a: Basculin|49/100
+|-start|p1a: Basculin|confusion
+|
+|upkeep
+|turn|6
+|c| Netro1|Yo le apuesto a Babia
+|choice|move aquajet|move thunderwave
+|
+|-activate|p1a: Basculin|confusion
+|move|p1a: Basculin|Aqua Jet|p2a: Kadabra
+|-enditem|p2a: Kadabra|Focus Sash
+|-damage|p2a: Kadabra|1/100
+|-damage|p1a: Basculin|39/100|[from] item: Life Orb
+|move|p2a: Kadabra|Thunder Wave|p1a: Basculin
+|-status|p1a: Basculin|par
+|
+|upkeep
+|turn|7
+|choice|switch 5|move psychic
+|
+|switch|p1a: Chatot|Chatot, M|100/100
+|move|p2a: Kadabra|Psychic|p1a: Chatot
+|-damage|p1a: Chatot|6/100
+|
+|upkeep
+|turn|8
+|choice|switch 4|move psychic
+|
+|switch|p1a: Armaldo|Armaldo, M|100/100
+|move|p2a: Kadabra|Psychic|p1a: Armaldo
+|-damage|p1a: Armaldo|51/100
+|
+|-heal|p1a: Armaldo|57/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|c| Netro1|/me rueda en el suelo
+|choice|move toxic|move psychic
+|
+|move|p2a: Kadabra|Psychic|p1a: Armaldo
+|-damage|p1a: Armaldo|8/100
+|move|p1a: Armaldo|Toxic|p2a: Kadabra
+|-status|p2a: Kadabra|tox
+|
+|-heal|p1a: Armaldo|15/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|choice|switch 2|move psychic
+|
+|switch|p1a: Zweilous|Zweilous, M|100/100
+|move|p2a: Kadabra|Psychic|p1a: Zweilous
+|-immune|p1a: Zweilous|[msg]
+|
+|upkeep
+|turn|11
+|choice|switch 2|move thunderwave
+|
+|switch|p1a: Armaldo|Armaldo, M|15/100
+|move|p2a: Kadabra|Thunder Wave|p1a: Armaldo
+|-status|p1a: Armaldo|par
+|
+|-heal|p1a: Armaldo|21/100 par|[from] item: Leftovers
+|upkeep
+|turn|12
+|choice|move toxic|move psychic
+|
+|move|p2a: Kadabra|Psychic|p1a: Armaldo
+|-damage|p1a: Armaldo|0 fnt
+|faint|p1a: Armaldo
+|
+|upkeep
+|c|☆blackbox6500|diois
+|c|☆HydenMks|Puta la wea
+|choice|switch 4|
+|
+|switch|p1a: Chatot|Chatot, M|6/100
+|turn|13
+|c|☆blackbox6500|cadabra op (?)
+|choice|move uturn|move psychic
+|
+|move|p2a: Kadabra|Psychic|p1a: Chatot
+|-damage|p1a: Chatot|0 fnt
+|faint|p1a: Chatot
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Rapidash|Rapidash, M|72/100
+|turn|14
+|choice|move morningsun|move thunderwave
+|
+|move|p1a: Rapidash|Morning Sun|p1a: Rapidash
+|-heal|p1a: Rapidash|100/100
+|move|p2a: Kadabra|Thunder Wave|p1a: Rapidash
+|-status|p1a: Rapidash|par
+|
+|upkeep
+|turn|15
+|choice|move flareblitz|move psychic
+|
+|move|p2a: Kadabra|Psychic|p1a: Rapidash
+|-damage|p1a: Rapidash|31/100 par
+|cant|p1a: Rapidash|par
+|
+|upkeep
+|turn|16
+|choice|move willowisp|move psychic
+|
+|move|p2a: Kadabra|Psychic|p1a: Rapidash
+|-damage|p1a: Rapidash|0 fnt
+|faint|p1a: Rapidash
+|
+|upkeep
+|c|☆HydenMks|puta la wea x2
+|choice|switch 6|
+|
+|switch|p1a: Marowak|Marowak, M|64/100
+|turn|17
+|c|☆blackbox6500|deus
+|choice|move stoneedge|move signalbeam
+|
+|move|p2a: Kadabra|Signal Beam|p1a: Marowak
+|-damage|p1a: Marowak|25/100
+|move|p1a: Marowak|Stone Edge|p2a: Kadabra
+|-damage|p2a: Kadabra|0 fnt
+|faint|p2a: Kadabra
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Cryogonal|Cryogonal|100/100
+|-damage|p2a: Cryogonal|76/100|[from] Stealth Rock
+|turn|18
+|c|☆HydenMks|c:
+|choice|move bonemerang|move rapidspin
+|
+|move|p2a: Cryogonal|Rapid Spin|p1a: Marowak
+|-damage|p1a: Marowak|21/100
+|-sideend|p2: blackbox6500|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Cryogonal
+|-damage|p2a: Cryogonal|66/100|[from] item: Life Orb
+|move|p1a: Marowak|Bonemerang|p2a: Cryogonal
+|-immune|p2a: Cryogonal|[msg]|[from] ability: Levitate
+|
+|upkeep
+|turn|19
+|choice|move knockoff|move freezedry
+|
+|move|p2a: Cryogonal|Freeze-Dry|p1a: Marowak
+|-supereffective|p1a: Marowak
+|-damage|p1a: Marowak|0 fnt
+|-damage|p2a: Cryogonal|56/100|[from] item: Life Orb
+|faint|p1a: Marowak
+|
+|upkeep
+|c|☆HydenMks|.....
+|choice|switch 5|
+|
+|switch|p1a: Basculin|Basculin, M|39/100 par
+|turn|20
+|c| Netro1|/me toca a Babia
+|choice|move aquajet|move hiddenpower
+|
+|move|p1a: Basculin|Aqua Jet|p2a: Cryogonal
+|-damage|p2a: Cryogonal|0 fnt
+|-damage|p1a: Basculin|29/100 par|[from] item: Life Orb
+|faint|p2a: Cryogonal
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Arbok|Arbok, M|100/100
+|-ability|p2a: Arbok|Intimidate|boost
+|-unboost|p1a: Basculin|atk|1
+|turn|21
+|choice|move hiddenpower|move coil
+|
+|move|p2a: Arbok|Coil|p2a: Arbok
+|-boost|p2a: Arbok|atk|1
+|-boost|p2a: Arbok|def|1
+|-boost|p2a: Arbok|accuracy|1
+|move|p1a: Basculin|Hidden Power|p2a: Arbok
+|-damage|p2a: Arbok|78/100
+|-damage|p1a: Basculin|19/100 par|[from] item: Life Orb
+|
+|-heal|p2a: Arbok|84/100|[from] item: Black Sludge
+|upkeep
+|turn|22
+|choice|move aquajet|move gunkshot
+|
+|move|p1a: Basculin|Aqua Jet|p2a: Arbok
+|-damage|p2a: Arbok|61/100
+|-damage|p1a: Basculin|9/100 par|[from] item: Life Orb
+|move|p2a: Arbok|Gunk Shot|p1a: Basculin
+|-damage|p1a: Basculin|0 fnt
+|faint|p1a: Basculin
+|
+|-heal|p2a: Arbok|67/100|[from] item: Black Sludge
+|upkeep
+|c|☆blackbox6500|t la voltie (?)
+|c|☆HydenMks|:c
+|choice|switch 2|
+|
+|switch|p1a: Zweilous|Zweilous, M|100/100
+|turn|23
+|c|☆blackbox6500|lo siento hdyen,son las reglas
+|c|☆blackbox6500|ahora perdia viteh?
+|c|☆blackbox6500|(?)
+|c|☆HydenMks|:v
+|choice|move crunch|move gunkshot
+|
+|move|p2a: Arbok|Gunk Shot|p1a: Zweilous
+|-damage|p1a: Zweilous|29/100
+|move|p1a: Zweilous|Crunch|p2a: Arbok|[miss]
+|-miss|p1a: Zweilous|p2a: Arbok
+|
+|-heal|p2a: Arbok|73/100|[from] item: Black Sludge
+|upkeep
+|turn|24
+|c| Netro1|perdia por hablar
+|c|☆blackbox6500|dios,y lo esquica
+|choice|move crunch|move gunkshot
+|
+|move|p2a: Arbok|Gunk Shot|p1a: Zweilous
+|-damage|p1a: Zweilous|0 fnt
+|faint|p1a: Zweilous
+|
+|win|blackbox6500
+|c|☆blackbox6500|bueno,ya sabes tu (?)
+|c|☆HydenMks|Puta la wea.

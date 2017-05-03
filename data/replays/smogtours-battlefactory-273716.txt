@@ -1,0 +1,70 @@
+|J|xJustiPro
+|J|R!cardo
+|player|p1|xJustiPro|101
+|player|p2|R!cardo|#bw2elesa
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|40200,28074,17082,4001,37753,16629,25993,61184,50912,46940,47374,7434
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Bronzong|item
+|poke|p1|Infernape, M|item
+|poke|p1|Chandelure, M|item
+|poke|p1|Swampert, M|item
+|poke|p1|Dragalge, M|item
+|poke|p1|Slurpuff, M|item
+|poke|p2|Blissey, F|item
+|poke|p2|Ampharos, M|item
+|poke|p2|Slurpuff, M|item
+|poke|p2|Gligar, M|item
+|poke|p2|Cobalion|item
+|poke|p2|Toxicroak, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 2, team 1, team 3, team 4, team 5, team 6|team 5, team 2, team 3, team 4, team 1, team 6
+|
+|start
+|switch|p1a: Infernape|Infernape, M|100/100
+|switch|p2a: Cobalion|Cobalion|100/100
+|turn|1
+|choice|move flareblitz|switch 4
+|
+|switch|p2a: Gligar|Gligar, M|100/100
+|move|p1a: Infernape|Flare Blitz|p2a: Gligar
+|-damage|p2a: Gligar|61/100
+|-damage|p1a: Infernape|86/100|[from] recoil|[of] p2a: Gligar
+|
+|upkeep
+|turn|2
+|choice|switch 4|switch 2
+|
+|switch|p1a: Swampert|Swampert, M|100/100
+|switch|p2a: Ampharos|Ampharos, M|100/100
+|
+|upkeep
+|turn|3
+|choice|move raindance mega|switch 4
+|
+|switch|p2a: Cobalion|Cobalion|100/100
+|detailschange|p1a: Swampert|Swampert-Mega, M
+|-mega|p1a: Swampert|Swampert|Swampertite
+|move|p1a: Swampert|Rain Dance|p1a: Swampert
+|-weather|RainDance
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|choice|move earthquake|move stealthrock
+|
+|move|p1a: Swampert|Earthquake|p2a: Cobalion
+|-supereffective|p2a: Cobalion
+|-damage|p2a: Cobalion|0 fnt
+|faint|p2a: Cobalion
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|-message|R!cardo forfeited.
+|
+|win|xJustiPro

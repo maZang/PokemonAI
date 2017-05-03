@@ -1,0 +1,259 @@
+|j|nightmare_skull
+|j|arceus1117
+|player|p1|nightmare_skull|144
+|player|p2|arceus1117|99
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|20532,34092,50696,32955,59652,8376,39753,18531,61007,19282,63136,19537
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Jynx, F|item
+|poke|p1|Liepard, M|item
+|poke|p1|Sandslash, M|item
+|poke|p1|Xatu, M|item
+|poke|p1|Swellow, M|item
+|poke|p1|Primeape, M|item
+|poke|p2|Cacturne, M|item
+|poke|p2|Miltank, F|item
+|poke|p2|Crustle, M|item
+|poke|p2|Malamar, M|item
+|poke|p2|Electivire, M|item
+|poke|p2|Golurk|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 3, team 2, team 1, team 4, team 5, team 6|team 2, team 1, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Sandslash|Sandslash, M|100/100
+|switch|p2a: Miltank|Miltank, F|100/100
+|turn|1
+|choice|move knockoff|move bodyslam
+|
+|move|p2a: Miltank|Body Slam|p1a: Sandslash
+|-damage|p1a: Sandslash|79/100
+|-status|p1a: Sandslash|par
+|-enditem|p1a: Sandslash|Lum Berry|[eat]
+|-curestatus|p1a: Sandslash|par|[msg]
+|move|p1a: Sandslash|Knock Off|p2a: Miltank
+|-damage|p2a: Miltank|81/100
+|-enditem|p2a: Miltank|Leftovers|[from] move: Knock Off|[of] p1a: Sandslash
+|
+|upkeep
+|turn|2
+|choice|move earthquake|move bodyslam
+|
+|move|p2a: Miltank|Body Slam|p1a: Sandslash
+|-damage|p1a: Sandslash|56/100
+|move|p1a: Sandslash|Earthquake|p2a: Miltank
+|-damage|p2a: Miltank|50/100
+|
+|upkeep
+|turn|3
+|choice|move earthquake|move bodyslam
+|
+|move|p2a: Miltank|Body Slam|p1a: Sandslash
+|-damage|p1a: Sandslash|35/100
+|move|p1a: Sandslash|Earthquake|p2a: Miltank
+|-damage|p2a: Miltank|23/100
+|
+|upkeep
+|turn|4
+|choice|move earthquake|move milkdrink
+|
+|move|p2a: Miltank|Milk Drink|p2a: Miltank
+|-heal|p2a: Miltank|73/100
+|move|p1a: Sandslash|Earthquake|p2a: Miltank
+|-damage|p2a: Miltank|43/100
+|
+|upkeep
+|turn|5
+|choice|move earthquake|move milkdrink
+|
+|move|p2a: Miltank|Milk Drink|p2a: Miltank
+|-heal|p2a: Miltank|93/100
+|move|p1a: Sandslash|Earthquake|p2a: Miltank
+|-damage|p2a: Miltank|62/100
+|
+|upkeep
+|turn|6
+|choice|move earthquake|move bodyslam
+|
+|move|p2a: Miltank|Body Slam|p1a: Sandslash
+|-damage|p1a: Sandslash|14/100
+|-status|p1a: Sandslash|par
+|move|p1a: Sandslash|Earthquake|p2a: Miltank
+|-damage|p2a: Miltank|35/100
+|
+|upkeep
+|turn|7
+|choice|move earthquake|move milkdrink
+|
+|move|p2a: Miltank|Milk Drink|p2a: Miltank
+|-heal|p2a: Miltank|85/100
+|cant|p1a: Sandslash|par
+|
+|upkeep
+|turn|8
+|choice|move earthquake|move stealthrock
+|
+|move|p2a: Miltank|Stealth Rock|p1a: Sandslash
+|-sidestart|p1: nightmare_skull|move: Stealth Rock
+|cant|p1a: Sandslash|par
+|
+|upkeep
+|turn|9
+|choice|move earthquake|move bodyslam
+|
+|move|p2a: Miltank|Body Slam|p1a: Sandslash
+|-damage|p1a: Sandslash|0 fnt
+|faint|p1a: Sandslash
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Jynx|Jynx, F|100/100
+|-damage|p1a: Jynx|76/100|[from] Stealth Rock
+|turn|10
+|choice|move trick|move thunderwave
+|
+|move|p1a: Jynx|Trick|p2a: Miltank
+|-activate|p1a: Jynx|move: Trick|[of] p2a: Miltank
+|-item|p2a: Miltank|Choice Scarf|[from] move: Trick
+|-enditem|p1a: Jynx|Choice Scarf|[silent]|[from] move: Trick
+|move|p2a: Miltank|Thunder Wave|p1a: Jynx
+|-status|p1a: Jynx|par
+|
+|upkeep
+|turn|11
+|choice|move focusblast|switch 3
+|
+|switch|p2a: Crustle|Crustle, M|100/100
+|move|p1a: Jynx|Focus Blast|p2a: Crustle|[miss]
+|-miss|p1a: Jynx|p2a: Crustle
+|
+|upkeep
+|turn|12
+|choice|move focusblast|move spikes
+|
+|move|p2a: Crustle|Spikes|p1a: Jynx
+|-sidestart|p1: nightmare_skull|Spikes
+|move|p1a: Jynx|Focus Blast|p2a: Crustle|[miss]
+|-miss|p1a: Jynx|p2a: Crustle
+|
+|upkeep
+|turn|13
+|choice|move focusblast|move knockoff
+|
+|move|p2a: Crustle|Knock Off|p1a: Jynx
+|-supereffective|p1a: Jynx
+|-damage|p1a: Jynx|0 fnt
+|faint|p1a: Jynx
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Primeape|Primeape, M|100/100
+|-damage|p1a: Primeape|95/100|[from] Stealth Rock
+|-damage|p1a: Primeape|82/100|[from] Spikes
+|turn|14
+|choice|move closecombat|move spikes
+|
+|move|p1a: Primeape|Close Combat|p2a: Crustle
+|-damage|p2a: Crustle|26/100
+|-unboost|p1a: Primeape|def|1
+|-unboost|p1a: Primeape|spd|1
+|move|p2a: Crustle|Spikes|p1a: Primeape
+|-sidestart|p1: nightmare_skull|Spikes
+|
+|upkeep
+|turn|15
+|choice|move closecombat|move knockoff
+|
+|move|p1a: Primeape|Close Combat|p2a: Crustle
+|-damage|p2a: Crustle|0 fnt
+|-unboost|p1a: Primeape|def|1
+|-unboost|p1a: Primeape|spd|1
+|faint|p2a: Crustle
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Golurk|Golurk|100/100
+|turn|16
+|choice|switch 2|move thunderpunch
+|
+|switch|p1a: Liepard|Liepard, M|100/100
+|-damage|p1a: Liepard|88/100|[from] Stealth Rock
+|-damage|p1a: Liepard|72/100|[from] Spikes
+|move|p2a: Golurk|Thunder Punch|p1a: Liepard
+|-damage|p1a: Liepard|0 fnt
+|faint|p1a: Liepard
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Swellow|Swellow, M|100/100
+|-damage|p1a: Swellow|76/100|[from] Stealth Rock
+|turn|17
+|choice|move hiddenpower|move thunderpunch
+|
+|move|p1a: Swellow|Hidden Power|p2a: Golurk
+|-supereffective|p2a: Golurk
+|-damage|p2a: Golurk|55/100
+|move|p2a: Golurk|Thunder Punch|p1a: Swellow
+|-supereffective|p1a: Swellow
+|-damage|p1a: Swellow|0 fnt
+|faint|p1a: Swellow
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Xatu|Xatu, M|100/100
+|-damage|p1a: Xatu|76/100|[from] Stealth Rock
+|turn|18
+|choice|move grassknot|move thunderpunch
+|
+|move|p1a: Xatu|Grass Knot|p2a: Golurk
+|-supereffective|p2a: Golurk
+|-damage|p2a: Golurk|0 fnt
+|-damage|p1a: Xatu|66/100|[from] item: Life Orb
+|faint|p2a: Golurk
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Electivire|Electivire, M|100/100
+|turn|19
+|choice|switch 2|move wildcharge
+|
+|switch|p1a: Primeape|Primeape, M|82/100
+|-damage|p1a: Primeape|66/100|[from] Spikes
+|-damage|p1a: Primeape|60/100|[from] Stealth Rock
+|move|p2a: Electivire|Wild Charge|p1a: Primeape
+|-damage|p1a: Primeape|0 fnt
+|-damage|p2a: Electivire|87/100|[from] recoil|[of] p1a: Primeape
+|-damage|p2a: Electivire|77/100|[from] item: Life Orb
+|faint|p1a: Primeape
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Xatu|Xatu, M|66/100
+|-damage|p1a: Xatu|41/100|[from] Stealth Rock
+|turn|20
+|choice|move roost|move icepunch
+|
+|move|p2a: Electivire|Ice Punch|p1a: Xatu
+|-supereffective|p1a: Xatu
+|-damage|p1a: Xatu|0 fnt
+|-damage|p2a: Electivire|67/100|[from] item: Life Orb
+|faint|p1a: Xatu
+|
+|win|arceus1117
+|raw|nightmare_skull's rating: 1133 &rarr; <strong>1122</strong><br />(-11 for losing)
+|raw|arceus1117's rating: 1342 &rarr; <strong>1351</strong><br />(+9 for winning)
+|c|☆arceus1117|gg'
+|l|nightmare_skull

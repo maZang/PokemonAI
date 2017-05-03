@@ -1,0 +1,332 @@
+|j|loganglin75
+|j|hazmah
+|player|p1|loganglin75|9
+|player|p2|hazmah|267
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|51490,3926,36736,22989,8317,58936,17981,25992,34993,17456,28216,2723
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Aerodactyl, M|item
+|poke|p1|Diancie|item
+|poke|p1|Abomasnow, M|item
+|poke|p1|Audino, M|item
+|poke|p1|Escavalier, M|item
+|poke|p1|Blastoise, M|item
+|poke|p2|Aerodactyl, M|item
+|poke|p2|Emboar, M|item
+|poke|p2|Omastar, M|item
+|poke|p2|Hitmontop, M|item
+|poke|p2|Drapion, M|item
+|poke|p2|Rotom-Mow|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|c|☆loganglin75|gl hf yo
+|c|☆hazmah|same bro
+|choice|team 3, team 2, team 1, team 4, team 5, team 6|team 6, team 2, team 3, team 4, team 5, team 1
+|
+|start
+|switch|p1a: Abomasnow|Abomasnow, M|100/100
+|switch|p2a: Rotom|Rotom-Mow|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Abomasnow
+|turn|1
+|choice|move blizzard|move voltswitch
+|
+|move|p2a: Rotom|Volt Switch|p1a: Abomasnow
+|-resisted|p1a: Abomasnow
+|-damage|p1a: Abomasnow|70/100
+|choice||switch 2
+|
+|switch|p2a: Emboar|Emboar, M|100/100
+|move|p1a: Abomasnow|Blizzard|p2a: Emboar
+|-resisted|p2a: Emboar
+|-damage|p2a: Emboar|58/100
+|-damage|p1a: Abomasnow|60/100|[from] item: Life Orb
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Emboar|52/100|[from] hail
+|upkeep
+|turn|2
+|choice|switch 6|move superpower
+|
+|switch|p1a: Blastoise|Blastoise, M|100/100
+|move|p2a: Emboar|Superpower|p1a: Blastoise
+|-damage|p1a: Blastoise|31/100
+|-unboost|p2a: Emboar|atk|1
+|-unboost|p2a: Emboar|def|1
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Emboar|46/100|[from] hail
+|-damage|p1a: Blastoise|25/100|[from] hail
+|-heal|p1a: Blastoise|31/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|choice|move scald|switch 2
+|
+|switch|p2a: Rotom|Rotom-Mow|100/100
+|move|p1a: Blastoise|Scald|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|76/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Rotom|70/100|[from] hail
+|-damage|p1a: Blastoise|25/100|[from] hail
+|-heal|p1a: Blastoise|31/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|c|☆loganglin75|why do i have foresight
+|choice|switch 4|move voltswitch
+|
+|switch|p1a: Audino|Audino, M|100/100
+|move|p2a: Rotom|Volt Switch|p1a: Audino
+|-damage|p1a: Audino|56/100
+|c|☆hazmah|because foresight rapid spin yo
+|choice||switch 4
+|
+|switch|p2a: Hitmontop|Hitmontop, M|100/100
+|-ability|p2a: Hitmontop|Intimidate|boost
+|-unboost|p1a: Audino|atk|1
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Hitmontop|94/100|[from] hail
+|-damage|p1a: Audino|50/100|[from] hail
+|-heal|p2a: Hitmontop|100/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|c|☆loganglin75|op
+|choice|switch 5|move closecombat
+|
+|switch|p1a: Escavalier|Escavalier, M|100/100
+|move|p2a: Hitmontop|Close Combat|p1a: Escavalier
+|-damage|p1a: Escavalier|58/100
+|-unboost|p2a: Hitmontop|def|1
+|-unboost|p2a: Hitmontop|spd|1
+|
+|-weather|none
+|upkeep
+|turn|6
+|choice|move megahorn|switch 5
+|
+|switch|p2a: Drapion|Drapion, M|100/100
+|move|p1a: Escavalier|Megahorn|p2a: Drapion
+|-damage|p2a: Drapion|25/100
+|
+|upkeep
+|turn|7
+|choice|move knockoff|move knockoff
+|
+|move|p2a: Drapion|Knock Off|p1a: Escavalier
+|-damage|p1a: Escavalier|11/100
+|-enditem|p1a: Escavalier|Assault Vest|[from] move: Knock Off|[of] p2a: Drapion
+|move|p1a: Escavalier|Knock Off|p2a: Drapion
+|-resisted|p2a: Drapion
+|-damage|p2a: Drapion|2/100
+|-enditem|p2a: Drapion|Shuca Berry|[from] move: Knock Off|[of] p1a: Escavalier
+|
+|upkeep
+|turn|8
+|c|☆hazmah|bruh
+|c|☆hazmah|that was... exciting
+|choice|switch 6|move knockoff
+|
+|switch|p1a: Abomasnow|Abomasnow, M|60/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Abomasnow
+|move|p2a: Drapion|Knock Off|p1a: Abomasnow
+|-damage|p1a: Abomasnow|0 fnt
+|-enditem|p1a: Abomasnow|Life Orb|[from] move: Knock Off|[of] p2a: Drapion
+|faint|p1a: Abomasnow
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Drapion|0 fnt|[from] hail
+|upkeep
+|faint|p2a: Drapion
+|c|☆loganglin75|shivers
+|choice|switch 5|switch 4
+|
+|switch|p2a: Rotom|Rotom-Mow|70/100
+|switch|p1a: Audino|Audino, M|83/100
+|turn|9
+|choice|move fireblast mega|move voltswitch
+|
+|detailschange|p1a: Audino|Audino-Mega, M
+|-mega|p1a: Audino|Audino|Audinite
+|move|p2a: Rotom|Volt Switch|p1a: Audino
+|-damage|p1a: Audino|50/100
+|choice||switch 6
+|
+|switch|p2a: Aerodactyl|Aerodactyl, M|100/100
+|-ability|p2a: Aerodactyl|Unnerve|p1: loganglin75
+|move|p1a: Audino|Fire Blast|p2a: Aerodactyl
+|-resisted|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|79/100
+|-status|p2a: Aerodactyl|brn
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Aerodactyl|73/100 brn|[from] hail
+|-damage|p1a: Audino|44/100|[from] hail
+|-damage|p2a: Aerodactyl|60/100 brn|[from] brn
+|upkeep
+|turn|10
+|c|☆hazmah|nice burn
+|c|☆hazmah|fkn noob
+|c|☆loganglin75|too good
+|choice|move surf|move stoneedge
+|
+|move|p2a: Aerodactyl|Stone Edge|p1a: Audino|[miss]
+|-miss|p2a: Aerodactyl|p1a: Audino
+|move|p1a: Audino|Surf|p2a: Aerodactyl
+|-supereffective|p2a: Aerodactyl
+|-crit|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|0 fnt
+|faint|p2a: Aerodactyl
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Audino|37/100|[from] hail
+|upkeep
+|c|☆hazmah|suck my hairy dick
+|c|☆loganglin75|:O
+|choice||switch 3
+|
+|switch|p2a: Omastar|Omastar, M|100/100
+|turn|11
+|choice|move healingwish|move stealthrock
+|
+|move|p2a: Omastar|Stealth Rock|p1a: Audino
+|-sidestart|p1: loganglin75|move: Stealth Rock
+|move|p1a: Audino|Healing Wish|p1a: Audino
+|faint|p1a: Audino
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Omastar|94/100|[from] hail
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Escavalier|Escavalier, M|11/100
+|-heal|p1a: Escavalier|100/100|[from] move: Healing Wish
+|-damage|p1a: Escavalier|88/100|[from] Stealth Rock
+|turn|12
+|choice|move ironhead|move spikes
+|
+|move|p2a: Omastar|Spikes|p1a: Escavalier
+|-sidestart|p1: loganglin75|Spikes
+|move|p1a: Escavalier|Iron Head|p2a: Omastar
+|-damage|p2a: Omastar|51/100
+|-ability|p2a: Omastar|Weak Armor|boost
+|-unboost|p2a: Omastar|def|1
+|-boost|p2a: Omastar|spe|1
+|
+|-weather|none
+|upkeep
+|turn|13
+|c|☆loganglin75|something bout to die
+|choice|move megahorn|move spikes
+|
+|move|p2a: Omastar|Spikes|p1a: Escavalier
+|-sidestart|p1: loganglin75|Spikes
+|move|p1a: Escavalier|Megahorn|p2a: Omastar
+|-damage|p2a: Omastar|0 fnt
+|faint|p2a: Omastar
+|
+|upkeep
+|c|☆hazmah|nice death
+|c|☆loganglin75|i try
+|choice||switch 2
+|
+|switch|p2a: Emboar|Emboar, M|46/100
+|turn|14
+|choice|switch 4|move flareblitz
+|
+|switch|p1a: Blastoise|Blastoise, M|31/100
+|-damage|p1a: Blastoise|18/100|[from] Stealth Rock
+|-damage|p1a: Blastoise|2/100|[from] Spikes
+|move|p2a: Emboar|Flare Blitz|p1a: Blastoise
+|-resisted|p1a: Blastoise
+|-damage|p1a: Blastoise|0 fnt
+|-damage|p2a: Emboar|46/100|[from] recoil|[of] p1a: Blastoise
+|faint|p1a: Blastoise
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Aerodactyl|Aerodactyl, M|100/100
+|-ability|p1a: Aerodactyl|Unnerve|p2: hazmah
+|-damage|p1a: Aerodactyl|76/100|[from] Stealth Rock
+|turn|15
+|choice|move earthquake|switch 5
+|
+|switch|p2a: Hitmontop|Hitmontop, M|100/100
+|-ability|p2a: Hitmontop|Intimidate|boost
+|-unboost|p1a: Aerodactyl|atk|1
+|move|p1a: Aerodactyl|Earthquake|p2a: Hitmontop
+|-damage|p2a: Hitmontop|80/100
+|-damage|p1a: Aerodactyl|66/100|[from] item: Life Orb
+|
+|-heal|p2a: Hitmontop|86/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|choice|move aerialace|move closecombat
+|
+|move|p1a: Aerodactyl|Aerial Ace|p2a: Hitmontop
+|-supereffective|p2a: Hitmontop
+|-damage|p2a: Hitmontop|48/100
+|-damage|p1a: Aerodactyl|56/100|[from] item: Life Orb
+|move|p2a: Hitmontop|Close Combat|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|0 fnt
+|-unboost|p2a: Hitmontop|def|1
+|-unboost|p2a: Hitmontop|spd|1
+|faint|p1a: Aerodactyl
+|
+|-heal|p2a: Hitmontop|54/100|[from] item: Leftovers
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Escavalier|Escavalier, M|88/100
+|-damage|p1a: Escavalier|71/100|[from] Spikes
+|-damage|p1a: Escavalier|59/100|[from] Stealth Rock
+|turn|17
+|choice|move megahorn|move closecombat
+|
+|move|p2a: Hitmontop|Close Combat|p1a: Escavalier
+|-damage|p1a: Escavalier|17/100
+|-unboost|p2a: Hitmontop|def|1
+|-unboost|p2a: Hitmontop|spd|1
+|move|p1a: Escavalier|Megahorn|p2a: Hitmontop
+|-resisted|p2a: Hitmontop
+|-damage|p2a: Hitmontop|0 fnt
+|faint|p2a: Hitmontop
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Rotom|Rotom-Mow|70/100
+|turn|18
+|choice|move megahorn|move voltswitch
+|
+|move|p2a: Rotom|Volt Switch|p1a: Escavalier
+|-damage|p1a: Escavalier|0 fnt
+|faint|p1a: Escavalier
+|choice||switch 5
+|
+|switch|p2a: Emboar|Emboar, M|46/100
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Diancie|Diancie|100/100
+|-damage|p1a: Diancie|84/100|[from] Spikes
+|-damage|p1a: Diancie|72/100|[from] Stealth Rock
+|turn|19
+|choice|move moonblast|move superpower
+|
+|move|p2a: Emboar|Superpower|p1a: Diancie
+|-damage|p1a: Diancie|0 fnt
+|-unboost|p2a: Emboar|atk|1
+|-unboost|p2a: Emboar|def|1
+|faint|p1a: Diancie
+|
+|win|hazmah
+|c|☆hazmah|gg
+|c|☆loganglin75|gg my man
+|c|☆hazmah|was fun

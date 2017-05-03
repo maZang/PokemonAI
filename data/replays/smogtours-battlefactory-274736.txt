@@ -1,0 +1,382 @@
+|J|Dokkerich
+|J|T be stuntin
+|player|p1|Dokkerich|31
+|player|p2|T be stuntin|112
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|41692,16639,53371,42803,7959,307,13562,23102,57129,10162,59070,44114
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Druddigon, M|item
+|poke|p1|Hitmontop, M|item
+|poke|p1|Smeargle, M|item
+|poke|p1|Dugtrio, M|item
+|poke|p1|Gallade, M|item
+|poke|p1|Manectric, M|item
+|poke|p2|Registeel|item
+|poke|p2|Hitmontop, M|item
+|poke|p2|Poliwrath, M|item
+|poke|p2|Hoopa|item
+|poke|p2|Venusaur, M|item
+|poke|p2|Camerupt, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 3, team 2, team 1, team 4, team 5, team 6|team 2, team 1, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Smeargle|Smeargle, M|100/100
+|switch|p2a: Hitmontop|Hitmontop, M|100/100
+|-ability|p2a: Hitmontop|Intimidate|boost
+|-unboost|p1a: Smeargle|atk|1
+|turn|1
+|choice|switch 3|move toxic
+|
+|switch|p1a: Druddigon|Druddigon, M|100/100
+|move|p2a: Hitmontop|Toxic|p1a: Druddigon
+|-status|p1a: Druddigon|tox
+|
+|-damage|p1a: Druddigon|94/100 tox|[from] psn
+|upkeep
+|turn|2
+|choice|move glare|move closecombat
+|
+|move|p2a: Hitmontop|Close Combat|p1a: Druddigon
+|-damage|p1a: Druddigon|66/100 tox
+|-damage|p2a: Hitmontop|88/100|[from] ability: Rough Skin|[of] p1a: Druddigon
+|-damage|p2a: Hitmontop|72/100|[from] item: Rocky Helmet|[of] p1a: Druddigon
+|-unboost|p2a: Hitmontop|def|1
+|-unboost|p2a: Hitmontop|spd|1
+|move|p1a: Druddigon|Glare|p2a: Hitmontop
+|-status|p2a: Hitmontop|par
+|
+|-heal|p2a: Hitmontop|78/100 par|[from] item: Leftovers
+|-damage|p1a: Druddigon|54/100 tox|[from] psn
+|upkeep
+|turn|3
+|choice|switch 2|switch 2
+|
+|switch|p1a: Hitmontop|Hitmontop, M|100/100
+|-ability|p1a: Hitmontop|Intimidate|boost
+|-unboost|p2a: Hitmontop|atk|1
+|switch|p2a: Registeel|Registeel|100/100
+|
+|upkeep
+|turn|4
+|choice|move closecombat|move thunderwave
+|
+|move|p1a: Hitmontop|Close Combat|p2a: Registeel
+|-supereffective|p2a: Registeel
+|-damage|p2a: Registeel|49/100
+|-unboost|p1a: Hitmontop|def|1
+|-unboost|p1a: Hitmontop|spd|1
+|move|p2a: Registeel|Thunder Wave|p1a: Hitmontop
+|-status|p1a: Hitmontop|par
+|
+|-heal|p2a: Registeel|55/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|choice|switch 5|move stealthrock
+|
+|switch|p1a: Gallade|Gallade, M|100/100
+|move|p2a: Registeel|Stealth Rock|p1a: Gallade
+|-sidestart|p1: Dokkerich|move: Stealth Rock
+|
+|-heal|p2a: Registeel|61/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|choice|move closecombat|move seismictoss
+|
+|move|p1a: Gallade|Close Combat|p2a: Registeel
+|-supereffective|p2a: Registeel
+|-damage|p2a: Registeel|0 fnt
+|-unboost|p1a: Gallade|def|1
+|-unboost|p1a: Gallade|spd|1
+|faint|p2a: Registeel
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Hitmontop|Hitmontop, M|78/100 par
+|-ability|p2a: Hitmontop|Intimidate|boost
+|-unboost|p1a: Gallade|atk|1
+|turn|7
+|choice|move closecombat|move closecombat
+|
+|move|p1a: Gallade|Close Combat|p2a: Hitmontop
+|-damage|p2a: Hitmontop|22/100 par
+|-unboost|p1a: Gallade|def|1
+|-unboost|p1a: Gallade|spd|1
+|move|p2a: Hitmontop|Close Combat|p1a: Gallade
+|-resisted|p1a: Gallade
+|-damage|p1a: Gallade|31/100
+|-unboost|p2a: Hitmontop|def|1
+|-unboost|p2a: Hitmontop|spd|1
+|
+|-heal|p2a: Hitmontop|28/100 par|[from] item: Leftovers
+|upkeep
+|turn|8
+|choice|move closecombat|switch 4
+|
+|switch|p2a: Hoopa|Hoopa|100/100
+|move|p1a: Gallade|Close Combat|p2a: Hoopa
+|-immune|p2a: Hoopa|[msg]
+|
+|upkeep
+|turn|9
+|choice|switch 2|switch 4
+|
+|switch|p2a: Hitmontop|Hitmontop, M|28/100 par
+|-ability|p2a: Hitmontop|Intimidate|boost
+|-unboost|p1a: Gallade|atk|1
+|switch|p1a: Druddigon|Druddigon, M|54/100 tox
+|-damage|p1a: Druddigon|41/100 tox|[from] Stealth Rock
+|
+|-heal|p2a: Hitmontop|35/100 par|[from] item: Leftovers
+|-damage|p1a: Druddigon|35/100 tox|[from] psn
+|upkeep
+|turn|10
+|choice|move stealthrock|move rapidspin
+|
+|move|p1a: Druddigon|Stealth Rock|p2a: Hitmontop
+|-sidestart|p2: T be stuntin|move: Stealth Rock
+|move|p2a: Hitmontop|Rapid Spin|p1a: Druddigon
+|-damage|p1a: Druddigon|32/100 tox
+|-damage|p2a: Hitmontop|22/100 par|[from] ability: Rough Skin|[of] p1a: Druddigon
+|-damage|p2a: Hitmontop|6/100 par|[from] item: Rocky Helmet|[of] p1a: Druddigon
+|-sideend|p2: T be stuntin|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Hitmontop
+|
+|-heal|p2a: Hitmontop|12/100 par|[from] item: Leftovers
+|-damage|p1a: Druddigon|19/100 tox|[from] psn
+|upkeep
+|turn|11
+|choice|move stealthrock|switch 3
+|
+|switch|p2a: Poliwrath|Poliwrath, M|100/100
+|move|p1a: Druddigon|Stealth Rock|p2a: Poliwrath
+|-sidestart|p2: T be stuntin|move: Stealth Rock
+|
+|-damage|p1a: Druddigon|1/100 tox|[from] psn
+|upkeep
+|turn|12
+|choice|move glare|move scald
+|
+|move|p2a: Poliwrath|Scald|p1a: Druddigon
+|-resisted|p1a: Druddigon
+|-damage|p1a: Druddigon|0 fnt
+|faint|p1a: Druddigon
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Manectric|Manectric, M|100/100
+|-damage|p1a: Manectric|88/100|[from] Stealth Rock
+|turn|13
+|choice|move flamethrower|switch 3
+|
+|switch|p2a: Hitmontop|Hitmontop, M|12/100 par
+|-damage|p2a: Hitmontop|6/100 par|[from] Stealth Rock
+|-ability|p2a: Hitmontop|Intimidate|boost
+|-unboost|p1a: Manectric|atk|1
+|move|p1a: Manectric|Flamethrower|p2a: Hitmontop
+|-damage|p2a: Hitmontop|0 fnt
+|-damage|p1a: Manectric|78/100|[from] item: Life Orb
+|faint|p2a: Hitmontop
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Hoopa|Hoopa|100/100
+|-damage|p2a: Hoopa|88/100|[from] Stealth Rock
+|turn|14
+|choice|move voltswitch|move shadowball
+|
+|move|p1a: Manectric|Volt Switch|p2a: Hoopa
+|-damage|p2a: Hoopa|52/100
+|-damage|p1a: Manectric|68/100|[from] item: Life Orb
+|choice|switch 3|
+|
+|switch|p1a: Smeargle|Smeargle, M|100/100
+|-damage|p1a: Smeargle|88/100|[from] Stealth Rock
+|move|p2a: Hoopa|Shadow Ball|p1a: Smeargle
+|-immune|p1a: Smeargle|[msg]
+|
+|upkeep
+|turn|15
+|choice|move stickyweb|move psyshock
+|
+|move|p1a: Smeargle|Sticky Web|p2a: Hoopa
+|-sidestart|p2: T be stuntin|move: Sticky Web
+|move|p2a: Hoopa|Psyshock|p1a: Smeargle
+|-damage|p1a: Smeargle|0 fnt
+|-damage|p2a: Hoopa|42/100|[from] item: Life Orb
+|faint|p1a: Smeargle
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Dugtrio|Dugtrio, M|100/100
+|-damage|p1a: Dugtrio|94/100|[from] Stealth Rock
+|turn|16
+|choice|move earthquake|move shadowball
+|
+|move|p1a: Dugtrio|Earthquake|p2a: Hoopa
+|-damage|p2a: Hoopa|0 fnt
+|-damage|p1a: Dugtrio|84/100|[from] item: Life Orb
+|faint|p2a: Hoopa
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Poliwrath|Poliwrath, M|100/100
+|-damage|p2a: Poliwrath|94/100|[from] Stealth Rock
+|-activate|p2a: Poliwrath|move: Sticky Web
+|-unboost|p2a: Poliwrath|spe|1
+|turn|17
+|choice|switch 5|move scald
+|
+|switch|p1a: Hitmontop|Hitmontop, M|100/100 par
+|-damage|p1a: Hitmontop|94/100 par|[from] Stealth Rock
+|-ability|p1a: Hitmontop|Intimidate|boost
+|-unboost|p2a: Poliwrath|atk|1
+|move|p2a: Poliwrath|Scald|p1a: Hitmontop
+|-damage|p1a: Hitmontop|64/100 par
+|
+|-heal|p2a: Poliwrath|100/100|[from] item: Leftovers
+|-heal|p1a: Hitmontop|70/100 par|[from] item: Leftovers
+|upkeep
+|turn|18
+|choice|move closecombat|move focusblast
+|
+|move|p2a: Poliwrath|Focus Blast|p1a: Hitmontop|[miss]
+|-miss|p2a: Poliwrath|p1a: Hitmontop
+|cant|p1a: Hitmontop|par
+|
+|-heal|p1a: Hitmontop|76/100 par|[from] item: Leftovers
+|upkeep
+|turn|19
+|choice|move rapidspin|move focusblast
+|
+|move|p2a: Poliwrath|Focus Blast|p1a: Hitmontop
+|-crit|p1a: Hitmontop
+|-damage|p1a: Hitmontop|10/100 par
+|move|p1a: Hitmontop|Rapid Spin|p2a: Poliwrath
+|-crit|p2a: Poliwrath
+|-damage|p2a: Poliwrath|93/100
+|-sideend|p1: Dokkerich|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Hitmontop
+|
+|-heal|p2a: Poliwrath|99/100|[from] item: Leftovers
+|-heal|p1a: Hitmontop|16/100 par|[from] item: Leftovers
+|upkeep
+|turn|20
+|choice|move closecombat|move scald
+|
+|move|p2a: Poliwrath|Scald|p1a: Hitmontop
+|-damage|p1a: Hitmontop|0 fnt
+|faint|p1a: Hitmontop
+|
+|-heal|p2a: Poliwrath|100/100|[from] item: Leftovers
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Manectric|Manectric, M|68/100
+|turn|21
+|choice|switch 5|switch 5
+|
+|switch|p1a: Dugtrio|Dugtrio, M|84/100
+|switch|p2a: Venusaur|Venusaur, M|100/100
+|-damage|p2a: Venusaur|88/100|[from] Stealth Rock
+|-activate|p2a: Venusaur|move: Sticky Web
+|-unboost|p2a: Venusaur|spe|1
+|
+|upkeep
+|turn|22
+|choice|move earthquake|move synthesis
+|
+|move|p1a: Dugtrio|Earthquake|p2a: Venusaur
+|-damage|p2a: Venusaur|22/100
+|-damage|p1a: Dugtrio|74/100|[from] item: Life Orb
+|move|p2a: Venusaur|Synthesis|p2a: Venusaur
+|-heal|p2a: Venusaur|72/100
+|
+|upkeep
+|turn|23
+|choice|move earthquake|move sludgebomb
+|
+|move|p1a: Dugtrio|Earthquake|p2a: Venusaur
+|-damage|p2a: Venusaur|7/100
+|-damage|p1a: Dugtrio|64/100|[from] item: Life Orb
+|move|p2a: Venusaur|Sludge Bomb|p1a: Dugtrio
+|-resisted|p1a: Dugtrio
+|-damage|p1a: Dugtrio|5/100
+|-damage|p2a: Venusaur|0 fnt|[from] item: Life Orb
+|faint|p2a: Venusaur
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Poliwrath|Poliwrath, M|100/100
+|-activate|p2a: Poliwrath|move: Sticky Web
+|-unboost|p2a: Poliwrath|spe|1
+|-damage|p2a: Poliwrath|94/100|[from] Stealth Rock
+|turn|24
+|choice|move earthquake|move vacuumwave
+|
+|move|p2a: Poliwrath|Vacuum Wave|p1a: Dugtrio
+|-damage|p1a: Dugtrio|0 fnt
+|faint|p1a: Dugtrio
+|
+|-heal|p2a: Poliwrath|100/100|[from] item: Leftovers
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Manectric|Manectric, M|68/100
+|turn|25
+|choice|switch 2|move scald
+|
+|switch|p1a: Gallade|Gallade, M|31/100
+|move|p2a: Poliwrath|Scald|p1a: Gallade
+|-damage|p1a: Gallade|1/100
+|
+|upkeep
+|turn|26
+|choice|switch 2|move vacuumwave
+|
+|switch|p1a: Manectric|Manectric, M|68/100
+|move|p2a: Poliwrath|Vacuum Wave|p1a: Manectric
+|-damage|p1a: Manectric|40/100
+|
+|upkeep
+|turn|27
+|choice|move thunderbolt|move vacuumwave
+|
+|move|p2a: Poliwrath|Vacuum Wave|p1a: Manectric
+|-damage|p1a: Manectric|10/100
+|move|p1a: Manectric|Thunderbolt|p2a: Poliwrath
+|-supereffective|p2a: Poliwrath
+|-damage|p2a: Poliwrath|0 fnt
+|-damage|p1a: Manectric|0 fnt|[from] item: Life Orb
+|faint|p2a: Poliwrath
+|faint|p1a: Manectric
+|
+|upkeep
+|choice|switch 2|switch 6
+|
+|switch|p1a: Gallade|Gallade, M|1/100
+|switch|p2a: Camerupt|Camerupt, M|100/100
+|-damage|p2a: Camerupt|88/100|[from] Stealth Rock
+|-activate|p2a: Camerupt|move: Sticky Web
+|-unboost|p2a: Camerupt|spe|1
+|turn|28
+|choice|move closecombat|move earthpower mega
+|
+|detailschange|p2a: Camerupt|Camerupt-Mega, M
+|-mega|p2a: Camerupt|Camerupt|Cameruptite
+|move|p1a: Gallade|Close Combat|p2a: Camerupt
+|-damage|p2a: Camerupt|0 fnt
+|-unboost|p1a: Gallade|def|1
+|-unboost|p1a: Gallade|spd|1
+|faint|p2a: Camerupt
+|
+|win|Dokkerich

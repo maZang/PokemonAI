@@ -1,0 +1,280 @@
+|j|Dom M-Houndoom
+|j|kevin1053
+|player|p1|Dom M-Houndoom|269
+|player|p2|kevin1053|163
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|35066,54079,36518,22348,6360,32606,31316,20944,32918,41288,20791,24905
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Liepard, M|item
+|poke|p1|Muk, M|item
+|poke|p1|Kangaskhan, F|item
+|poke|p1|Magmortar, M|item
+|poke|p1|Carracosta, M|item
+|poke|p1|Archeops, M|
+|poke|p2|Torterra, M|item
+|poke|p2|Charizard, M|item
+|poke|p2|Liepard, M|item
+|poke|p2|Pelipper, M|item
+|poke|p2|Mawile, M|item
+|poke|p2|Xatu, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 2, team 1, team 3, team 4, team 5, team 6|team 4, team 2, team 3, team 1, team 5, team 6
+|
+|start
+|switch|p1a: Muk|Muk, M|100/100
+|switch|p2a: Pelipper|Pelipper, M|100/100
+|turn|1
+|choice|move gunkshot|switch 5
+|
+|switch|p2a: Mawile|Mawile, M|100/100
+|move|p1a: Muk|Gunk Shot|p2a: Mawile
+|-immune|p2a: Mawile|[msg]
+|
+|upkeep
+|turn|2
+|choice|switch 4|move ironhead
+|
+|switch|p1a: Magmortar|Magmortar, M|100/100
+|move|p2a: Mawile|Iron Head|p1a: Magmortar
+|-resisted|p1a: Magmortar
+|-damage|p1a: Magmortar|50/100
+|
+|upkeep
+|turn|3
+|choice|move fireblast|switch 5
+|
+|switch|p2a: Pelipper|Pelipper, M|100/100
+|move|p1a: Magmortar|Fire Blast|p2a: Pelipper
+|-resisted|p2a: Pelipper
+|-damage|p2a: Pelipper|42/100
+|-damage|p1a: Magmortar|40/100|[from] item: Life Orb
+|
+|-heal|p2a: Pelipper|49/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|j|DinastyAndrey
+|choice|move thunderbolt|move roost
+|
+|move|p1a: Magmortar|Thunderbolt|p2a: Pelipper
+|-supereffective|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|-damage|p1a: Magmortar|30/100|[from] item: Life Orb
+|faint|p2a: Pelipper
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Charizard|Charizard, M|100/100
+|turn|5
+|choice|move thunderbolt|move earthquake
+|
+|move|p2a: Charizard|Earthquake|p1a: Magmortar
+|-supereffective|p1a: Magmortar
+|-damage|p1a: Magmortar|0 fnt
+|-damage|p2a: Charizard|91/100|[from] item: Life Orb
+|faint|p1a: Magmortar
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Kangaskhan|Kangaskhan, F|100/100
+|turn|6
+|choice|move fakeout|move airslash
+|
+|move|p1a: Kangaskhan|Fake Out|p2a: Charizard
+|-damage|p2a: Charizard|59/100
+|cant|p2a: Charizard|flinch
+|
+|upkeep
+|turn|7
+|choice|move suckerpunch|move airslash
+|
+|move|p1a: Kangaskhan|Sucker Punch|p2a: Charizard
+|-damage|p2a: Charizard|18/100
+|move|p2a: Charizard|Air Slash|p1a: Kangaskhan
+|-damage|p1a: Kangaskhan|46/100
+|-damage|p2a: Charizard|8/100|[from] item: Life Orb
+|
+|upkeep
+|turn|8
+|choice|move suckerpunch|move roost
+|
+|move|p1a: Kangaskhan|Sucker Punch|p2a: Charizard|[still]
+|-fail|p1a: Kangaskhan
+|move|p2a: Charizard|Roost|p2a: Charizard
+|-heal|p2a: Charizard|58/100
+|
+|upkeep
+|turn|9
+|choice|move suckerpunch|move roost
+|
+|move|p1a: Kangaskhan|Sucker Punch|p2a: Charizard|[still]
+|-fail|p1a: Kangaskhan
+|move|p2a: Charizard|Roost|p2a: Charizard
+|-heal|p2a: Charizard|100/100
+|
+|upkeep
+|turn|10
+|choice|switch 5|move airslash
+|
+|switch|p1a: Carracosta|Carracosta, M|100/100
+|move|p2a: Charizard|Air Slash|p1a: Carracosta
+|-resisted|p1a: Carracosta
+|-damage|p1a: Carracosta|71/100
+|-damage|p2a: Charizard|91/100|[from] item: Life Orb
+|
+|-heal|p1a: Carracosta|77/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|choice|move stealthrock|switch 4
+|
+|switch|p2a: Torterra|Torterra, M|100/100
+|move|p1a: Carracosta|Stealth Rock|p2a: Torterra
+|-sidestart|p2: kevin1053|move: Stealth Rock
+|
+|-heal|p1a: Carracosta|83/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|choice|switch 4|move stealthrock
+|
+|switch|p1a: Muk|Muk, M|100/100
+|move|p2a: Torterra|Stealth Rock|p1a: Muk
+|-sidestart|p1: Dom M-Houndoom|move: Stealth Rock
+|
+|upkeep
+|turn|13
+|choice|move focuspunch|switch 5
+|
+|-singleturn|p1a: Muk|move: Focus Punch
+|switch|p2a: Mawile|Mawile, M|100/100
+|-damage|p2a: Mawile|94/100|[from] Stealth Rock
+|move|p1a: Muk|Focus Punch|p2a: Mawile
+|-damage|p2a: Mawile|0 fnt
+|faint|p2a: Mawile
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Charizard|Charizard, M|91/100
+|-damage|p2a: Charizard|41/100|[from] Stealth Rock
+|turn|14
+|choice|switch 4|move roost
+|
+|switch|p1a: Carracosta|Carracosta, M|83/100
+|-damage|p1a: Carracosta|71/100|[from] Stealth Rock
+|move|p2a: Charizard|Roost|p2a: Charizard
+|-heal|p2a: Charizard|91/100
+|
+|-heal|p1a: Carracosta|77/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|choice|move scald|switch 3
+|
+|switch|p2a: Liepard|Liepard, M|100/100
+|-damage|p2a: Liepard|88/100|[from] Stealth Rock
+|move|p1a: Carracosta|Scald|p2a: Liepard
+|-damage|p2a: Liepard|32/100
+|
+|-heal|p1a: Carracosta|83/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|choice|move scald|move knockoff
+|
+|move|p2a: Liepard|Knock Off|p1a: Carracosta
+|-damage|p1a: Carracosta|56/100
+|-enditem|p1a: Carracosta|Leftovers|[from] move: Knock Off|[of] p2a: Liepard
+|move|p1a: Carracosta|Scald|p2a: Liepard
+|-damage|p2a: Liepard|0 fnt
+|faint|p2a: Liepard
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Torterra|Torterra, M|100/100
+|-damage|p2a: Torterra|94/100|[from] Stealth Rock
+|turn|17
+|choice|move scald|move earthquake
+|
+|move|p2a: Torterra|Earthquake|p1a: Carracosta
+|-supereffective|p1a: Carracosta
+|-damage|p1a: Carracosta|18/100
+|move|p1a: Carracosta|Scald|p2a: Torterra
+|-damage|p2a: Torterra|72/100
+|
+|-heal|p2a: Torterra|78/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|choice|move knockoff|move earthquake
+|
+|move|p2a: Torterra|Earthquake|p1a: Carracosta
+|-supereffective|p1a: Carracosta
+|-damage|p1a: Carracosta|0 fnt
+|faint|p1a: Carracosta
+|
+|-heal|p2a: Torterra|85/100|[from] item: Leftovers
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Archeops|Archeops, M|100/100
+|-damage|p1a: Archeops|76/100|[from] Stealth Rock
+|turn|19
+|choice|move acrobatics|move synthesis
+|
+|move|p1a: Archeops|Acrobatics|p2a: Torterra
+|-supereffective|p2a: Torterra
+|-damage|p2a: Torterra|5/100
+|move|p2a: Torterra|Synthesis|p2a: Torterra
+|-heal|p2a: Torterra|55/100
+|
+|-heal|p2a: Torterra|61/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|choice|move acrobatics|switch 6
+|
+|switch|p2a: Xatu|Xatu, M|100/100
+|-damage|p2a: Xatu|76/100|[from] Stealth Rock
+|move|p1a: Archeops|Acrobatics|p2a: Xatu
+|-damage|p2a: Xatu|27/100
+|
+|upkeep
+|turn|21
+|choice|move acrobatics|move heatwave
+|
+|move|p1a: Archeops|Acrobatics|p2a: Xatu
+|-damage|p2a: Xatu|0 fnt
+|faint|p2a: Xatu
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Charizard|Charizard, M|91/100
+|-damage|p2a: Charizard|41/100|[from] Stealth Rock
+|turn|22
+|choice|move acrobatics|move roost
+|
+|move|p1a: Archeops|Acrobatics|p2a: Charizard
+|-damage|p2a: Charizard|0 fnt
+|faint|p2a: Charizard
+|
+|upkeep
+|c|☆Dom M-Houndoom|gg
+|c|☆kevin1053|Bien jugado
+|choice||switch 6
+|
+|switch|p2a: Torterra|Torterra, M|61/100
+|-damage|p2a: Torterra|55/100|[from] Stealth Rock
+|turn|23
+|choice|move acrobatics|move woodhammer
+|
+|move|p1a: Archeops|Acrobatics|p2a: Torterra
+|-supereffective|p2a: Torterra
+|-damage|p2a: Torterra|0 fnt
+|faint|p2a: Torterra
+|
+|win|Dom M-Houndoom
+|l|kevin1053

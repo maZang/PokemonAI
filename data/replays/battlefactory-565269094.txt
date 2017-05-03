@@ -1,0 +1,309 @@
+|j|Defeitos Especiais
+|j|Amoeba ambulante
+|player|p1|Defeitos Especiais|102
+|player|p2|Amoeba ambulante|51
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|7732,55950,14289,20591,58891,28981,62434,39801,27826,49057,62295,51722
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Galvantula, M|item
+|poke|p1|Rhyperior, M|item
+|poke|p1|Kingdra, M|item
+|poke|p1|Honchkrow, M|item
+|poke|p1|Lucario, M|item
+|poke|p1|Tentacruel, M|item
+|poke|p2|Empoleon, M|item
+|poke|p2|Suicune|item
+|poke|p2|Tornadus, M|
+|poke|p2|Donphan, M|item
+|poke|p2|Haxorus, M|item
+|poke|p2|Cresselia, F|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|c|☆Defeitos Especiais|...
+|c|☆Defeitos Especiais|cagao
+|c|☆Amoeba ambulante|Man
+|c|☆Defeitos Especiais|do
+|c|☆Defeitos Especiais|krl
+|c|☆Amoeba ambulante|Espero que seu cu seje bem largp
+|c|☆Defeitos Especiais|se foder
+|choice|team 6, team 2, team 3, team 4, team 5, team 1|team 2, team 1, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Tentacruel|Tentacruel, M|100/100
+|switch|p2a: Suicune|Suicune|100/100
+|-ability|p2a: Suicune|Pressure
+|turn|1
+|choice|move toxicspikes|move calmmind
+|
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|move|p1a: Tentacruel|Toxic Spikes|p2a: Suicune
+|-sidestart|p2: Amoeba ambulante|move: Toxic Spikes
+|
+|upkeep
+|turn|2
+|choice|move toxicspikes|move calmmind
+|
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|move|p1a: Tentacruel|Toxic Spikes|p2a: Suicune
+|-sidestart|p2: Amoeba ambulante|move: Toxic Spikes
+|
+|upkeep
+|turn|3
+|choice|move knockoff|move calmmind
+|
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|move|p1a: Tentacruel|Knock Off|p2a: Suicune
+|-damage|p2a: Suicune|87/100
+|-enditem|p2a: Suicune|Leftovers|[from] move: Knock Off|[of] p1a: Tentacruel
+|
+|upkeep
+|turn|4
+|choice|switch 6|move calmmind
+|
+|switch|p1a: Galvantula|Galvantula, M|100/100
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|
+|upkeep
+|turn|5
+|choice|move thunder|move calmmind
+|
+|move|p1a: Galvantula|Thunder|p2a: Suicune
+|-supereffective|p2a: Suicune
+|-damage|p2a: Suicune|53/100
+|-damage|p1a: Galvantula|91/100|[from] item: Life Orb
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|
+|upkeep
+|turn|6
+|choice|move thunder|move calmmind
+|
+|move|p1a: Galvantula|Thunder|p2a: Suicune
+|-supereffective|p2a: Suicune
+|-damage|p2a: Suicune|23/100
+|-damage|p1a: Galvantula|81/100|[from] item: Life Orb
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|
+|upkeep
+|turn|7
+|choice|move thunder|move hydropump
+|
+|move|p1a: Galvantula|Thunder|p2a: Suicune
+|-supereffective|p2a: Suicune
+|-damage|p2a: Suicune|0 fnt
+|-damage|p1a: Galvantula|71/100|[from] item: Life Orb
+|faint|p2a: Suicune
+|
+|upkeep
+|c|☆Defeitos Especiais|bye
+|choice||switch 2
+|
+|switch|p2a: Empoleon|Empoleon, M|100/100
+|turn|8
+|choice|move thunder|move roar
+|
+|move|p1a: Galvantula|Thunder|p2a: Empoleon
+|-supereffective|p2a: Empoleon
+|-damage|p2a: Empoleon|19/100
+|-damage|p1a: Galvantula|61/100|[from] item: Life Orb
+|move|p2a: Empoleon|Roar|p1a: Galvantula
+|drag|p1a: Kingdra|Kingdra, M|100/100
+|
+|-heal|p2a: Empoleon|25/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|choice|move dragondance|move defog
+|
+|move|p1a: Kingdra|Dragon Dance|p1a: Kingdra
+|-boost|p1a: Kingdra|atk|1
+|-boost|p1a: Kingdra|spe|1
+|move|p2a: Empoleon|Defog|p1a: Kingdra
+|-unboost|p1a: Kingdra|evasion|1
+|-sideend|p2: Amoeba ambulante|Toxic Spikes|[from] move: Defog|[of] p2a: Empoleon
+|
+|-heal|p2a: Empoleon|31/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|choice|move outrage|move roar
+|
+|move|p1a: Kingdra|Outrage|p2a: Empoleon
+|-resisted|p2a: Empoleon
+|-damage|p2a: Empoleon|0 fnt
+|faint|p2a: Empoleon
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Tornadus|Tornadus, M|100/100
+|turn|11
+|choice|move outrage|move knockoff
+|
+|move|p1a: Kingdra|Outrage|p2a: Tornadus|[from]lockedmove
+|-damage|p2a: Tornadus|0 fnt
+|-start|p1a: Kingdra|confusion|[fatigue]
+|faint|p2a: Tornadus
+|-enditem|p1a: Kingdra|Lum Berry|[eat]
+|-end|p1a: Kingdra|confusion
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Haxorus|Haxorus, M|100/100
+|-ability|p2a: Haxorus|Mold Breaker
+|turn|12
+|choice|move outrage|move outrage
+|
+|move|p1a: Kingdra|Outrage|p2a: Haxorus
+|-supereffective|p2a: Haxorus
+|-damage|p2a: Haxorus|0 fnt
+|faint|p2a: Haxorus
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Cresselia|Cresselia, F|100/100
+|turn|13
+|c|☆Defeitos Especiais|o que tu tava falando sobre largura de cu?
+|choice|move outrage|move psyshock
+|
+|move|p1a: Kingdra|Outrage|p2a: Cresselia|[from]lockedmove
+|-damage|p2a: Cresselia|56/100
+|-start|p1a: Kingdra|confusion|[fatigue]
+|move|p2a: Cresselia|Psyshock|p1a: Kingdra
+|-damage|p1a: Kingdra|74/100
+|
+|-heal|p2a: Cresselia|62/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|choice|move outrage|move moonlight
+|
+|-activate|p1a: Kingdra|confusion
+|move|p1a: Kingdra|Outrage|p2a: Cresselia
+|-damage|p2a: Cresselia|21/100
+|move|p2a: Cresselia|Moonlight|p2a: Cresselia
+|-heal|p2a: Cresselia|71/100
+|
+|-heal|p2a: Cresselia|77/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|choice|move outrage|move moonlight
+|
+|-end|p1a: Kingdra|confusion
+|move|p1a: Kingdra|Outrage|p2a: Cresselia|[from]lockedmove
+|-damage|p2a: Cresselia|33/100
+|-start|p1a: Kingdra|confusion|[fatigue]
+|move|p2a: Cresselia|Moonlight|p2a: Cresselia
+|-heal|p2a: Cresselia|83/100
+|
+|-heal|p2a: Cresselia|89/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|choice|move outrage|move moonlight
+|
+|-activate|p1a: Kingdra|confusion
+|move|p1a: Kingdra|Outrage|p2a: Cresselia
+|-damage|p2a: Cresselia|45/100
+|move|p2a: Cresselia|Moonlight|p2a: Cresselia
+|-heal|p2a: Cresselia|95/100
+|
+|-heal|p2a: Cresselia|100/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|choice|move outrage|move moonlight
+|
+|-activate|p1a: Kingdra|confusion
+|-damage|p1a: Kingdra|51/100|[from] confusion
+|move|p2a: Cresselia|Moonlight|p2a: Cresselia
+|
+|upkeep
+|turn|18
+|c|☆Amoeba ambulante|To usando moonlight
+|c|☆Defeitos Especiais|leskal
+|c|☆Amoeba ambulante|Nao. Lalaland
+|choice|move waterfall|move moonlight
+|
+|-end|p1a: Kingdra|confusion
+|move|p1a: Kingdra|Waterfall|p2a: Cresselia
+|-damage|p2a: Cresselia|70/100
+|move|p2a: Cresselia|Moonlight|p2a: Cresselia
+|-heal|p2a: Cresselia|100/100
+|
+|upkeep
+|turn|19
+|c|☆Defeitos Especiais|não desisto até estuprá-la
+|c|☆Amoeba ambulante|So eu que posso
+|choice|move waterfall|move psyshock
+|
+|move|p1a: Kingdra|Waterfall|p2a: Cresselia
+|-crit|p2a: Cresselia
+|-damage|p2a: Cresselia|31/100
+|move|p2a: Cresselia|Psyshock|p1a: Kingdra
+|-damage|p1a: Kingdra|26/100
+|
+|-heal|p2a: Cresselia|37/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|c|☆Defeitos Especiais|noza
+|choice|move outrage|move moonlight
+|
+|move|p1a: Kingdra|Outrage|p2a: Cresselia
+|-damage|p2a: Cresselia|0 fnt
+|faint|p2a: Cresselia
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Donphan|Donphan, M|100/100
+|turn|21
+|c|☆Defeitos Especiais|adeus, vadia
+|choice|move outrage|move knockoff
+|
+|move|p1a: Kingdra|Outrage|p2a: Donphan|[from]lockedmove
+|-damage|p2a: Donphan|38/100
+|move|p2a: Donphan|Knock Off|p1a: Kingdra
+|-damage|p1a: Kingdra|0 fnt
+|faint|p1a: Kingdra
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Galvantula|Galvantula, M|61/100
+|turn|22
+|choice|move energyball|move earthquake
+|
+|move|p1a: Galvantula|Energy Ball|p2a: Donphan
+|-supereffective|p2a: Donphan
+|-damage|p2a: Donphan|0 fnt
+|-damage|p1a: Galvantula|51/100|[from] item: Life Orb
+|faint|p2a: Donphan
+|
+|win|Defeitos Especiais
+|c|☆Defeitos Especiais|bem...
+|c|☆Amoeba ambulante|Como sempre
+|c|☆Defeitos Especiais|retomando ao assunto...
+|c|☆Amoeba ambulante|Pode enfiar o dedo no meu ku
+|c|☆Amoeba ambulante|Vai
+|c|☆Amoeba ambulante|Vira o ku*
+|c|☆Defeitos Especiais|o que tu tinha dito sobre largura dio cu?
+|c|☆Amoeba ambulante|Tava falando do meu
+|c|☆Amoeba ambulante|Vai
+|c|☆Defeitos Especiais|noza
+|c|☆Defeitos Especiais|"Espero que seu cu seje bem largp"
+|c|☆Amoeba ambulante|Anda
+|c|☆Defeitos Especiais|peve
+|c|☆Amoeba ambulante|._.

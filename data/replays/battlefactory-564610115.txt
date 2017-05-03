@@ -1,0 +1,265 @@
+|j|Rio91
+|j|Leftinahurry
+|player|p1|Rio91|141
+|player|p2|Leftinahurry|114
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|44624,56948,1427,30983,33557,26916,35441,55000,37506,27672,28534,9671
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Tyranitar, M|item
+|poke|p1|Togekiss, M|item
+|poke|p1|Ferrothorn, M|item
+|poke|p1|Heatran, M|item
+|poke|p1|Thundurus, M|item
+|poke|p1|Serperior, M|item
+|poke|p2|Togekiss, M|item
+|poke|p2|Gardevoir, M|item
+|poke|p2|Weavile, M|item
+|poke|p2|Hippowdon, M|item
+|poke|p2|Serperior, M|item
+|poke|p2|Crawdaunt, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|c|☆Leftinahurry|hf
+|choice|team 3, team 2, team 1, team 4, team 5, team 6|team 3, team 2, team 1, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|switch|p2a: Weavile|Weavile, M|100/100
+|-ability|p2a: Weavile|Pressure
+|turn|1
+|choice|move leechseed|switch 5
+|
+|switch|p2a: Serperior|Serperior, M|100/100
+|move|p1a: Ferrothorn|Leech Seed|p2a: Serperior
+|-immune|p2a: Serperior|[msg]
+|
+|upkeep
+|turn|2
+|choice|move spikes|move leafstorm
+|
+|move|p2a: Serperior|Leaf Storm|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|89/100
+|-boost|p2a: Serperior|spa|2
+|-damage|p2a: Serperior|91/100|[from] item: Life Orb
+|move|p1a: Ferrothorn|Spikes|p2a: Serperior
+|-sidestart|p2: Leftinahurry|Spikes
+|
+|upkeep
+|turn|3
+|choice|move spikes|move hiddenpower
+|
+|move|p2a: Serperior|Hidden Power|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|-damage|p2a: Serperior|81/100|[from] item: Life Orb
+|faint|p1a: Ferrothorn
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Thundurus|Thundurus, M|100/100
+|turn|4
+|choice|move hiddenpower|move dragonpulse
+|
+|move|p2a: Serperior|Dragon Pulse|p1a: Thundurus
+|-damage|p1a: Thundurus|15/100
+|-damage|p2a: Serperior|71/100|[from] item: Life Orb
+|move|p1a: Thundurus|Hidden Power|p2a: Serperior
+|-supereffective|p2a: Serperior
+|-damage|p2a: Serperior|9/100
+|-damage|p1a: Thundurus|5/100|[from] item: Life Orb
+|
+|upkeep
+|turn|5
+|choice|move hiddenpower|move gigadrain
+|
+|move|p2a: Serperior|Giga Drain|p1a: Thundurus
+|-resisted|p1a: Thundurus
+|-damage|p1a: Thundurus|0 fnt
+|-heal|p2a: Serperior|11/100|[from] drain|[of] p1a: Thundurus
+|-damage|p2a: Serperior|2/100|[from] item: Life Orb
+|faint|p1a: Thundurus
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Serperior|Serperior, M|100/100
+|turn|6
+|choice|move hiddenpower|move hiddenpower
+|
+|move|p2a: Serperior|Hidden Power|p1a: Serperior
+|-supereffective|p1a: Serperior
+|-crit|p1a: Serperior
+|-damage|p1a: Serperior|0 fnt
+|-damage|p2a: Serperior|0 fnt|[from] item: Life Orb
+|faint|p1a: Serperior
+|faint|p2a: Serperior
+|
+|upkeep
+|choice|switch 2|switch 6
+|
+|switch|p2a: Crawdaunt|Crawdaunt, M|100/100
+|switch|p1a: Togekiss|Togekiss, M|100/100
+|-damage|p2a: Crawdaunt|88/100|[from] Spikes
+|turn|7
+|choice|move thunderwave|move knockoff
+|
+|move|p2a: Crawdaunt|Knock Off|p1a: Togekiss
+|-resisted|p1a: Togekiss
+|-damage|p1a: Togekiss|64/100
+|-enditem|p1a: Togekiss|Leftovers|[from] move: Knock Off|[of] p2a: Crawdaunt
+|-damage|p2a: Crawdaunt|78/100|[from] item: Life Orb
+|move|p1a: Togekiss|Thunder Wave|p2a: Crawdaunt
+|-status|p2a: Crawdaunt|par
+|
+|upkeep
+|turn|8
+|choice|move roost|move swordsdance
+|
+|move|p1a: Togekiss|Roost|p1a: Togekiss
+|-heal|p1a: Togekiss|100/100
+|cant|p2a: Crawdaunt|par
+|
+|upkeep
+|turn|9
+|choice|move airslash|move swordsdance
+|
+|move|p1a: Togekiss|Air Slash|p2a: Crawdaunt
+|-damage|p2a: Crawdaunt|13/100 par
+|cant|p2a: Crawdaunt|flinch
+|
+|upkeep
+|turn|10
+|choice|move airslash|move aquajet
+|
+|cant|p2a: Crawdaunt|par
+|move|p1a: Togekiss|Air Slash|p2a: Crawdaunt
+|-damage|p2a: Crawdaunt|0 fnt
+|faint|p2a: Crawdaunt
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Weavile|Weavile, M|100/100
+|-damage|p2a: Weavile|88/100|[from] Spikes
+|-ability|p2a: Weavile|Pressure
+|turn|11
+|choice|move airslash|move iciclecrash
+|
+|move|p2a: Weavile|Icicle Crash|p1a: Togekiss
+|-supereffective|p1a: Togekiss
+|-damage|p1a: Togekiss|2/100
+|-damage|p2a: Weavile|78/100|[from] item: Life Orb
+|move|p1a: Togekiss|Air Slash|p2a: Weavile
+|-damage|p2a: Weavile|34/100
+|
+|upkeep
+|turn|12
+|choice|switch 4|move iceshard
+|
+|switch|p1a: Heatran|Heatran, M|100/100
+|move|p2a: Weavile|Ice Shard|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|95/100
+|-damage|p2a: Weavile|24/100|[from] item: Life Orb
+|
+|upkeep
+|turn|13
+|choice|move flashcannon|switch 4
+|
+|switch|p2a: Hippowdon|Hippowdon, M|100/100
+|-damage|p2a: Hippowdon|88/100|[from] Spikes
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|move|p1a: Heatran|Flash Cannon|p2a: Hippowdon
+|-damage|p2a: Hippowdon|44/100
+|-unboost|p2a: Hippowdon|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Hippowdon|50/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|choice|move flashcannon|move earthquake
+|
+|move|p1a: Heatran|Flash Cannon|p2a: Hippowdon
+|-crit|p2a: Hippowdon
+|-damage|p2a: Hippowdon|0 fnt
+|faint|p2a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Togekiss|Togekiss, M|100/100
+|turn|15
+|choice|move flashcannon|move defog
+|
+|move|p1a: Heatran|Flash Cannon|p2a: Togekiss
+|-supereffective|p2a: Togekiss
+|-damage|p2a: Togekiss|52/100
+|move|p2a: Togekiss|Defog|p1a: Heatran
+|-unboost|p1a: Heatran|evasion|1
+|-sideend|p2: Leftinahurry|Spikes|[from] move: Defog|[of] p2a: Togekiss
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Togekiss|46/100|[from] sandstorm
+|-heal|p2a: Togekiss|52/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|choice|move flashcannon|move thunderwave
+|
+|move|p1a: Heatran|Flash Cannon|p2a: Togekiss
+|-supereffective|p2a: Togekiss
+|-damage|p2a: Togekiss|0 fnt
+|faint|p2a: Togekiss
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Weavile|Weavile, M|24/100
+|-ability|p2a: Weavile|Pressure
+|turn|17
+|choice|move flashcannon|move knockoff
+|
+|move|p1a: Heatran|Flash Cannon|p2a: Weavile
+|-supereffective|p2a: Weavile
+|-damage|p2a: Weavile|0 fnt
+|faint|p2a: Weavile
+|
+|-weather|none
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Gardevoir|Gardevoir, M|100/100
+|-ability|p2a: Gardevoir|Flash Fire|[from] ability: Trace|[of] p1a: Heatran
+|turn|18
+|choice|move flashcannon|move calmmind mega
+|
+|detailschange|p2a: Gardevoir|Gardevoir-Mega, M
+|-mega|p2a: Gardevoir|Gardevoir|Gardevoirite
+|move|p1a: Heatran|Flash Cannon|p2a: Gardevoir
+|-supereffective|p2a: Gardevoir
+|-damage|p2a: Gardevoir|20/100
+|move|p2a: Gardevoir|Calm Mind|p2a: Gardevoir
+|-boost|p2a: Gardevoir|spa|1
+|-boost|p2a: Gardevoir|spd|1
+|
+|upkeep
+|turn|19
+|choice|move flashcannon|move hypervoice
+|
+|move|p1a: Heatran|Flash Cannon|p2a: Gardevoir
+|-supereffective|p2a: Gardevoir
+|-damage|p2a: Gardevoir|0 fnt
+|faint|p2a: Gardevoir
+|
+|win|Rio91
+|l|Leftinahurry
+|raw|Rio91's rating: 1218 &rarr; <strong>1231</strong><br />(+13 for winning)
+|raw|Leftinahurry's rating: 1037 &rarr; <strong>1029</strong><br />(-8 for losing)

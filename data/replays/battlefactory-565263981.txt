@@ -1,0 +1,324 @@
+|j|Dokkerich
+|j|T be stuntin
+|player|p1|Dokkerich|31
+|player|p2|T be stuntin|112
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|47154,1423,42217,18855,25880,27980,40538,54832,61177,55346,45076,19724
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Yveltal|item
+|poke|p1|Sableye, M|item
+|poke|p1|Genesect-*|item
+|poke|p1|Deoxys-Speed|item
+|poke|p1|Arceus-*|item
+|poke|p1|Giratina|item
+|poke|p2|Diancie|item
+|poke|p2|Arceus-*|item
+|poke|p2|Blaziken, M|item
+|poke|p2|Deoxys-Attack|item
+|poke|p2|Genesect-*|item
+|poke|p2|Latias, F|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 3, team 2, team 1, team 4, team 5, team 6|team 1, team 2, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Genesect|Genesect|100/100
+|switch|p2a: Diancie|Diancie|100/100
+|-ability|p1a: Genesect|Download|boost
+|-boost|p1a: Genesect|atk|1
+|turn|1
+|choice|move ironhead|move protect mega
+|
+|detailschange|p2a: Diancie|Diancie-Mega
+|-mega|p2a: Diancie|Diancie|Diancite
+|move|p2a: Diancie|Protect|p2a: Diancie
+|-singleturn|p2a: Diancie|Protect
+|move|p1a: Genesect|Iron Head|p2a: Diancie
+|-activate|p2a: Diancie|move: Protect
+|
+|upkeep
+|turn|2
+|choice|move ironhead|switch 5
+|
+|switch|p2a: Genesect|Genesect|100/100
+|-ability|p2a: Genesect|Download|boost
+|-boost|p2a: Genesect|atk|1
+|move|p1a: Genesect|Iron Head|p2a: Genesect
+|-resisted|p2a: Genesect
+|-damage|p2a: Genesect|62/100
+|
+|upkeep
+|turn|3
+|choice|move ironhead|move ironhead
+|
+|move|p2a: Genesect|Iron Head|p1a: Genesect
+|-resisted|p1a: Genesect
+|-damage|p1a: Genesect|60/100
+|cant|p1a: Genesect|flinch
+|
+|upkeep
+|turn|4
+|choice|move ironhead|move ironhead
+|
+|move|p1a: Genesect|Iron Head|p2a: Genesect
+|-resisted|p2a: Genesect
+|-damage|p2a: Genesect|22/100
+|cant|p2a: Genesect|flinch
+|
+|upkeep
+|turn|5
+|choice|move ironhead|switch 3
+|
+|switch|p2a: Blaziken|Blaziken, M|100/100
+|move|p1a: Genesect|Iron Head|p2a: Blaziken
+|-resisted|p2a: Blaziken
+|-crit|p2a: Blaziken
+|-damage|p2a: Blaziken|38/100
+|
+|upkeep
+|turn|6
+|choice|move ironhead|move protect
+|
+|move|p2a: Blaziken|Protect|p2a: Blaziken
+|-singleturn|p2a: Blaziken|Protect
+|move|p1a: Genesect|Iron Head|p2a: Blaziken
+|-activate|p2a: Blaziken|move: Protect
+|
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|turn|7
+|choice|move ironhead|move flareblitz
+|
+|move|p1a: Genesect|Iron Head|p2a: Blaziken
+|-resisted|p2a: Blaziken
+|-damage|p2a: Blaziken|0 fnt
+|faint|p2a: Blaziken
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Genesect|Genesect|22/100
+|-ability|p2a: Genesect|Download|boost
+|-boost|p2a: Genesect|atk|1
+|turn|8
+|choice|switch 6|move explosion
+|
+|switch|p1a: Giratina|Giratina|100/100
+|-ability|p1a: Giratina|Pressure
+|move|p2a: Genesect|Explosion|p1a: Giratina
+|-immune|p1a: Giratina|[msg]
+|faint|p2a: Genesect
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Diancie|Diancie-Mega|100/100
+|turn|9
+|choice|switch 5|move diamondstorm
+|
+|switch|p1a: Arceus|Arceus-Grass|100/100
+|move|p2a: Diancie|Diamond Storm|p1a: Arceus
+|-damage|p1a: Arceus|63/100
+|
+|upkeep
+|turn|10
+|choice|move recover|switch 6
+|
+|switch|p2a: Latias|Latias, F|100/100
+|move|p1a: Arceus|Recover|p1a: Arceus
+|-heal|p1a: Arceus|100/100
+|
+|upkeep
+|turn|11
+|choice|move icebeam|move dracometeor
+|
+|move|p1a: Arceus|Ice Beam|p2a: Latias
+|-supereffective|p2a: Latias
+|-damage|p2a: Latias|73/100
+|move|p2a: Latias|Draco Meteor|p1a: Arceus
+|-damage|p1a: Arceus|54/100
+|-unboost|p2a: Latias|spa|2
+|
+|upkeep
+|turn|12
+|choice|move recover|move recover
+|
+|move|p1a: Arceus|Recover|p1a: Arceus
+|-heal|p1a: Arceus|100/100
+|move|p2a: Latias|Recover|p2a: Latias
+|-heal|p2a: Latias|100/100
+|
+|upkeep
+|turn|13
+|choice|switch 3|switch 2
+|
+|switch|p1a: Yveltal|Yveltal|100/100
+|-ability|p1a: Yveltal|Dark Aura
+|switch|p2a: Arceus|Arceus-Fighting|100/100
+|
+|upkeep
+|turn|14
+|choice|move oblivionwing|move thunderwave
+|
+|move|p2a: Arceus|Thunder Wave|p1a: Yveltal
+|-status|p1a: Yveltal|par
+|cant|p1a: Yveltal|par
+|
+|upkeep
+|turn|15
+|choice|move oblivionwing|switch 6
+|
+|switch|p2a: Diancie|Diancie-Mega|100/100
+|move|p1a: Yveltal|Oblivion Wing|p2a: Diancie
+|-resisted|p2a: Diancie
+|-crit|p2a: Diancie
+|-damage|p2a: Diancie|45/100
+|-damage|p1a: Yveltal|91/100 par|[from] item: Life Orb
+|
+|upkeep
+|turn|16
+|choice|switch 3|move diamondstorm
+|
+|switch|p1a: Arceus|Arceus-Grass|100/100
+|move|p2a: Diancie|Diamond Storm|p1a: Arceus|[miss]
+|-miss|p2a: Diancie|p1a: Arceus
+|
+|upkeep
+|turn|17
+|choice|move grassknot|switch 6
+|
+|switch|p2a: Arceus|Arceus-Fighting|100/100
+|move|p1a: Arceus|Grass Knot|p2a: Arceus
+|-damage|p2a: Arceus|58/100
+|
+|upkeep
+|turn|18
+|choice|switch 3|move recover
+|
+|switch|p1a: Yveltal|Yveltal|91/100 par
+|-ability|p1a: Yveltal|Dark Aura
+|move|p2a: Arceus|Recover|p2a: Arceus
+|-heal|p2a: Arceus|100/100
+|
+|upkeep
+|turn|19
+|choice|move oblivionwing|move judgment
+|
+|move|p2a: Arceus|Judgment|p1a: Yveltal
+|-damage|p1a: Yveltal|27/100 par
+|move|p1a: Yveltal|Oblivion Wing|p2a: Arceus
+|-supereffective|p2a: Arceus
+|-damage|p2a: Arceus|6/100
+|-heal|p1a: Yveltal|91/100 par|[from] drain|[of] p2a: Arceus
+|-damage|p1a: Yveltal|81/100 par|[from] item: Life Orb
+|
+|upkeep
+|turn|20
+|choice|move oblivionwing|move recover
+|
+|move|p2a: Arceus|Recover|p2a: Arceus
+|-heal|p2a: Arceus|56/100
+|move|p1a: Yveltal|Oblivion Wing|p2a: Arceus
+|-supereffective|p2a: Arceus
+|-damage|p2a: Arceus|0 fnt
+|-heal|p1a: Yveltal|100/100 par|[from] drain|[of] p2a: Arceus
+|-damage|p1a: Yveltal|91/100 par|[from] item: Life Orb
+|faint|p2a: Arceus
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Diancie|Diancie-Mega|45/100
+|turn|21
+|choice|switch 3|move moonblast
+|
+|switch|p1a: Arceus|Arceus-Grass|100/100
+|move|p2a: Diancie|Moonblast|p1a: Arceus
+|-damage|p1a: Arceus|66/100
+|
+|upkeep
+|turn|22
+|choice|move recover|move stealthrock
+|
+|move|p2a: Diancie|Stealth Rock|p1a: Arceus
+|-sidestart|p1: Dokkerich|move: Stealth Rock
+|move|p1a: Arceus|Recover|p1a: Arceus
+|-heal|p1a: Arceus|100/100
+|
+|upkeep
+|turn|23
+|choice|move grassknot|switch 2
+|
+|switch|p2a: Latias|Latias, F|100/100
+|move|p1a: Arceus|Grass Knot|p2a: Latias
+|-resisted|p2a: Latias
+|-damage|p2a: Latias|93/100
+|
+|upkeep
+|turn|24
+|choice|move icebeam|move psyshock
+|
+|move|p1a: Arceus|Ice Beam|p2a: Latias
+|-supereffective|p2a: Latias
+|-damage|p2a: Latias|69/100
+|move|p2a: Latias|Psyshock|p1a: Arceus
+|-damage|p1a: Arceus|68/100
+|
+|upkeep
+|turn|25
+|choice|move defog|move recover
+|
+|move|p1a: Arceus|Defog|p2a: Latias
+|-unboost|p2a: Latias|evasion|1
+|-sideend|p1: Dokkerich|Stealth Rock|[from] move: Defog|[of] p1a: Arceus
+|move|p2a: Latias|Recover|p2a: Latias
+|-heal|p2a: Latias|100/100
+|
+|upkeep
+|turn|26
+|choice|move icebeam|move psyshock
+|
+|move|p1a: Arceus|Ice Beam|p2a: Latias
+|-supereffective|p2a: Latias
+|-damage|p2a: Latias|75/100
+|-status|p2a: Latias|frz
+|cant|p2a: Latias|frz
+|
+|upkeep
+|turn|27
+|choice|move icebeam|move psyshock
+|
+|move|p1a: Arceus|Ice Beam|p2a: Latias
+|-supereffective|p2a: Latias
+|-damage|p2a: Latias|50/100 frz
+|cant|p2a: Latias|frz
+|
+|upkeep
+|turn|28
+|choice|move recover|move recover
+|
+|move|p1a: Arceus|Recover|p1a: Arceus
+|-heal|p1a: Arceus|100/100
+|cant|p2a: Latias|frz
+|
+|upkeep
+|turn|29
+|choice|move icebeam|move recover
+|
+|move|p1a: Arceus|Ice Beam|p2a: Latias
+|-supereffective|p2a: Latias
+|-damage|p2a: Latias|24/100 frz
+|cant|p2a: Latias|frz
+|
+|upkeep
+|turn|30
+|l|T be stuntin
+|player|p2|
+|-message|T be stuntin lost due to inactivity.
+|
+|win|Dokkerich

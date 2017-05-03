@@ -1,0 +1,336 @@
+|j|pokemonisfun
+|j|once a trevor
+|player|p1|pokemonisfun|183
+|player|p2|once a trevor|217
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|11671,62791,25074,18343,16138,30258,64313,40745,35397,63140,53801,19076
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Klefki, M|item
+|poke|p1|Serperior, M|item
+|poke|p1|Lopunny, M|item
+|poke|p1|Tyranitar, M|item
+|poke|p1|Excadrill, M|item
+|poke|p1|Sylveon, M|item
+|poke|p2|Conkeldurr, M|item
+|poke|p2|Garchomp, M|item
+|poke|p2|Jirachi|item
+|poke|p2|Tornadus-Therian, M|item
+|poke|p2|Skarmory, M|item
+|poke|p2|Klefki, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|c|☆pokemonisfun|is this gen6
+|choice|team 3, team 2, team 1, team 4, team 5, team 6|team 2, team 1, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Lopunny|Lopunny, M|100/100
+|switch|p2a: Garchomp|Garchomp, M|100/100
+|turn|1
+|j|Lord Iroh
+|choice|move icepunch mega|switch 6
+|
+|switch|p2a: Klefki|Klefki, M|100/100
+|detailschange|p1a: Lopunny|Lopunny-Mega, M
+|-mega|p1a: Lopunny|Lopunny|Lopunnite
+|move|p1a: Lopunny|Ice Punch|p2a: Klefki
+|-resisted|p2a: Klefki
+|-damage|p2a: Klefki|86/100
+|
+|upkeep
+|turn|2
+|l|Lord Iroh
+|choice|switch 5|move lightscreen
+|
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|move|p2a: Klefki|Light Screen|p2a: Klefki
+|-sidestart|p2: once a trevor|move: Light Screen
+|
+|upkeep
+|turn|3
+|choice|switch 4|switch 4
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|switch|p2a: Tornadus|Tornadus-Therian, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tornadus|94/100|[from] sandstorm
+|upkeep
+|turn|4
+|choice|move stealthrock|move focusblast
+|
+|move|p2a: Tornadus|Focus Blast|p1a: Tyranitar|[miss]
+|-miss|p2a: Tornadus|p1a: Tyranitar
+|move|p1a: Tyranitar|Stealth Rock|p2a: Tornadus
+|-sidestart|p2: once a trevor|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tornadus|88/100|[from] sandstorm
+|upkeep
+|turn|5
+|choice|switch 3|move focusblast
+|
+|switch|p1a: Klefki|Klefki, M|100/100
+|move|p2a: Tornadus|Focus Blast|p1a: Klefki
+|-damage|p1a: Klefki|72/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tornadus|82/100|[from] sandstorm
+|-heal|p1a: Klefki|78/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|choice|move spikes|switch 6
+|
+|switch|p2a: Garchomp|Garchomp, M|100/100
+|-damage|p2a: Garchomp|94/100|[from] Stealth Rock
+|move|p1a: Klefki|Spikes|p2a: Garchomp
+|-sidestart|p2: once a trevor|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Klefki|84/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|choice|move magnetrise|move fireblast
+|
+|move|p1a: Klefki|Magnet Rise|p1a: Klefki
+|-start|p1a: Klefki|Magnet Rise
+|move|p2a: Garchomp|Fire Blast|p1a: Klefki
+|-supereffective|p1a: Klefki
+|-crit|p1a: Klefki
+|-damage|p1a: Klefki|28/100
+|
+|-weather|none
+|-heal|p1a: Klefki|34/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|c|☆once a trevor|sorry
+|choice|move spikes|move fireblast
+|
+|move|p1a: Klefki|Spikes|p2a: Garchomp
+|-sidestart|p2: once a trevor|Spikes
+|move|p2a: Garchomp|Fire Blast|p1a: Klefki
+|-supereffective|p1a: Klefki
+|-damage|p1a: Klefki|0 fnt
+|faint|p1a: Klefki
+|
+|upkeep
+|c|☆pokemonisfun|lol u missed a fb...
+|choice|switch 6|
+|
+|switch|p1a: Sylveon|Sylveon, M|100/100
+|turn|9
+|c|☆pokemonisfun|chew this
+|c|☆once a trevor|:vc
+|c|☆once a trevor|fine
+|c|☆once a trevor|take this
+|choice|move hypervoice|move earthquake
+|
+|move|p2a: Garchomp|Earthquake|p1a: Sylveon
+|-damage|p1a: Sylveon|34/100
+|move|p1a: Sylveon|Hyper Voice|p2a: Garchomp
+|-supereffective|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|faint|p2a: Garchomp
+|
+|-sideend|p2: once a trevor|move: Light Screen
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|-damage|p2a: Skarmory|88/100|[from] Stealth Rock
+|turn|10
+|c|☆pokemonisfun|oh
+|c|☆pokemonisfun|i didnt even see light screen
+|choice|switch 4|move defog
+|
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|move|p2a: Skarmory|Defog|p1a: Excadrill
+|-unboost|p1a: Excadrill|evasion|1
+|-sideend|p2: once a trevor|Spikes|[from] move: Defog|[of] p2a: Skarmory
+|-sideend|p2: once a trevor|Stealth Rock|[from] move: Defog|[of] p2a: Skarmory
+|
+|-heal|p2a: Skarmory|94/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|c|☆pokemonisfun|fuck
+|c|☆pokemonisfun|that gets defog
+|choice|switch 3|move bravebird
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Skarmory|Brave Bird|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-crit|p1a: Tyranitar
+|-damage|p1a: Tyranitar|85/100
+|-damage|p2a: Skarmory|88/100|[from] recoil|[of] p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmory|94/100|[from] item: Leftovers
+|-heal|p1a: Tyranitar|91/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|choice|move stealthrock|switch 2
+|
+|switch|p2a: Conkeldurr|Conkeldurr, M|100/100
+|move|p1a: Tyranitar|Stealth Rock|p2a: Conkeldurr
+|-sidestart|p2: once a trevor|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Conkeldurr|94/100|[from] sandstorm
+|-heal|p1a: Tyranitar|97/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|c|☆once a trevor|time to punch
+|choice|switch 4|move drainpunch
+|
+|switch|p1a: Sylveon|Sylveon, M|34/100
+|move|p2a: Conkeldurr|Drain Punch|p1a: Sylveon
+|-resisted|p1a: Sylveon
+|-damage|p1a: Sylveon|0 fnt
+|-heal|p2a: Conkeldurr|100/100|[from] drain|[of] p1a: Sylveon
+|-damage|p2a: Conkeldurr|91/100|[from] item: Life Orb
+|faint|p1a: Sylveon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Conkeldurr|85/100|[from] sandstorm
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Lopunny|Lopunny-Mega, M|100/100
+|turn|14
+|choice|move highjumpkick|switch 4
+|
+|switch|p2a: Klefki|Klefki, M|86/100
+|-damage|p2a: Klefki|80/100|[from] Stealth Rock
+|move|p1a: Lopunny|High Jump Kick|p2a: Klefki
+|-damage|p2a: Klefki|3/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Lopunny|95/100|[from] sandstorm
+|upkeep
+|turn|15
+|choice|move icepunch|move reflect
+|
+|move|p2a: Klefki|Reflect|p2a: Klefki
+|-sidestart|p2: once a trevor|Reflect
+|move|p1a: Lopunny|Ice Punch|p2a: Klefki
+|-resisted|p2a: Klefki
+|-damage|p2a: Klefki|0 fnt
+|faint|p2a: Klefki
+|
+|-weather|none
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Conkeldurr|Conkeldurr, M|85/100
+|-damage|p2a: Conkeldurr|78/100|[from] Stealth Rock
+|turn|16
+|choice|move highjumpkick|move drainpunch
+|
+|move|p1a: Lopunny|High Jump Kick|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|43/100
+|move|p2a: Conkeldurr|Drain Punch|p1a: Lopunny
+|-supereffective|p1a: Lopunny
+|-damage|p1a: Lopunny|0 fnt
+|-heal|p2a: Conkeldurr|78/100|[from] drain|[of] p1a: Lopunny
+|-damage|p2a: Conkeldurr|69/100|[from] item: Life Orb
+|faint|p1a: Lopunny
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Serperior|Serperior, M|100/100
+|turn|17
+|choice|move leafstorm|move icepunch
+|
+|move|p1a: Serperior|Leaf Storm|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|1/100
+|-boost|p1a: Serperior|spa|2
+|-damage|p1a: Serperior|91/100|[from] item: Life Orb
+|move|p2a: Conkeldurr|Ice Punch|p1a: Serperior
+|-supereffective|p1a: Serperior
+|-damage|p1a: Serperior|0 fnt
+|faint|p1a: Serperior
+|
+|upkeep
+|c|☆once a trevor|jlkjlkho
+|choice|switch 3|
+|
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|18
+|choice|move ironhead|move machpunch
+|
+|move|p2a: Conkeldurr|Mach Punch|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|30/100
+|-damage|p2a: Conkeldurr|0 fnt|[from] item: Life Orb
+|faint|p2a: Conkeldurr
+|move|p1a: Excadrill|Iron Head|p2: Conkeldurr|[notarget]
+|-notarget
+|
+|-heal|p1a: Excadrill|36/100|[from] item: Leftovers
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Tornadus|Tornadus-Therian, M|100/100
+|-damage|p2a: Tornadus|75/100|[from] Stealth Rock
+|turn|19
+|c|☆once a trevor|take this
+|choice|switch 4|move focusblast
+|
+|switch|p1a: Tyranitar|Tyranitar, M|97/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Tornadus|Focus Blast|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|31/100
+|-unboost|p1a: Tyranitar|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tornadus|69/100|[from] sandstorm
+|-heal|p1a: Tyranitar|37/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|c|☆pokemonisfun|:(
+|c|☆pokemonisfun|gg
+|choice|move icebeam|move focusblast
+|
+|move|p2a: Tornadus|Focus Blast|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tornadus|63/100|[from] sandstorm
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Excadrill|Excadrill, M|36/100
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|21
+|choice|move ironhead|move knockoff
+|
+|move|p2a: Tornadus|Knock Off|p1a: Excadrill
+|-damage|p1a: Excadrill|13/100
+|-enditem|p1a: Excadrill|Leftovers|[from] move: Knock Off|[of] p2a: Tornadus
+|move|p1a: Excadrill|Iron Head|p2a: Tornadus
+|-damage|p2a: Tornadus|42/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tornadus|36/100|[from] sandstorm
+|upkeep
+|turn|22
+|choice|move ironhead|move knockoff
+|
+|move|p2a: Tornadus|Knock Off|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|win|once a trevor
+|l|pokemonisfun

@@ -1,0 +1,228 @@
+|j|Wazabiman777
+|j|dixoutharambe'
+|player|p1|Wazabiman777|216
+|player|p2|dixoutharambe'|96
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|55209,29674,4814,22726,55183,64675,47377,57231,55998,49299,56563,31174
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Clawitzer, M|item
+|poke|p1|Aromatisse, M|item
+|poke|p1|Braviary, M|item
+|poke|p1|Eelektross, M|item
+|poke|p1|Emboar, M|item
+|poke|p1|Diancie|item
+|poke|p2|Audino, M|item
+|poke|p2|Gurdurr, M|item
+|poke|p2|Emboar, M|item
+|poke|p2|Magneton|item
+|poke|p2|Bronzong|item
+|poke|p2|Manectric, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 6, team 2, team 3, team 4, team 5, team 1|team 5, team 2, team 3, team 4, team 1, team 6
+|
+|start
+|switch|p1a: Diancie|Diancie|100/100
+|switch|p2a: Bronzong|Bronzong|100/100
+|turn|1
+|choice|move stealthrock|move stealthrock
+|
+|move|p1a: Diancie|Stealth Rock|p2a: Bronzong
+|-sidestart|p2: dixoutharambe'|move: Stealth Rock
+|move|p2a: Bronzong|Stealth Rock|p1a: Diancie
+|-sidestart|p1: Wazabiman777|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|choice|switch 5|move earthquake
+|
+|switch|p1a: Emboar|Emboar, M|100/100
+|-damage|p1a: Emboar|88/100|[from] Stealth Rock
+|move|p2a: Bronzong|Earthquake|p1a: Emboar
+|-supereffective|p1a: Emboar
+|-damage|p1a: Emboar|9/100
+|
+|upkeep
+|turn|3
+|choice|move flareblitz|move earthquake
+|
+|move|p1a: Emboar|Flare Blitz|p2a: Bronzong
+|-supereffective|p2a: Bronzong
+|-damage|p2a: Bronzong|0 fnt
+|-damage|p1a: Emboar|0 fnt|[from] recoil|[of] p2a: Bronzong
+|faint|p2a: Bronzong
+|faint|p1a: Emboar
+|
+|upkeep
+|choice|switch 5|switch 4
+|
+|switch|p2a: Magneton|Magneton|100/100
+|switch|p1a: Diancie|Diancie|100/100
+|-damage|p2a: Magneton|94/100|[from] Stealth Rock
+|-damage|p1a: Diancie|88/100|[from] Stealth Rock
+|turn|4
+|choice|move diamondstorm|move flashcannon
+|
+|move|p2a: Magneton|Flash Cannon|p1a: Diancie
+|-supereffective|p1a: Diancie
+|-damage|p1a: Diancie|0 fnt
+|faint|p1a: Diancie
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Eelektross|Eelektross, M|100/100
+|-damage|p1a: Eelektross|88/100|[from] Stealth Rock
+|turn|5
+|choice|move flamethrower|switch 3
+|
+|switch|p2a: Emboar|Emboar, M|100/100
+|-damage|p2a: Emboar|88/100|[from] Stealth Rock
+|move|p1a: Eelektross|Flamethrower|p2a: Emboar
+|-resisted|p2a: Emboar
+|-crit|p2a: Emboar
+|-damage|p2a: Emboar|58/100
+|
+|upkeep
+|turn|6
+|choice|move gigadrain|move flareblitz
+|
+|move|p2a: Emboar|Flare Blitz|p1a: Eelektross
+|-damage|p1a: Eelektross|7/100
+|-damage|p2a: Emboar|31/100|[from] recoil|[of] p1a: Eelektross
+|move|p1a: Eelektross|Giga Drain|p2a: Emboar
+|-resisted|p2a: Emboar
+|-damage|p2a: Emboar|15/100
+|-heal|p1a: Eelektross|14/100|[from] drain|[of] p2a: Emboar
+|
+|upkeep
+|turn|7
+|choice|switch 6|move flareblitz
+|
+|switch|p1a: Clawitzer|Clawitzer, M|100/100
+|-damage|p1a: Clawitzer|88/100|[from] Stealth Rock
+|move|p2a: Emboar|Flare Blitz|p1a: Clawitzer
+|-resisted|p1a: Clawitzer
+|-damage|p1a: Clawitzer|43/100
+|-damage|p2a: Emboar|4/100|[from] recoil|[of] p1a: Clawitzer
+|
+|upkeep
+|turn|8
+|choice|move scald|move flareblitz
+|
+|move|p2a: Emboar|Flare Blitz|p1a: Clawitzer
+|-resisted|p1a: Clawitzer
+|-damage|p1a: Clawitzer|0 fnt
+|-damage|p2a: Emboar|0 fnt|[from] recoil|[of] p1a: Clawitzer
+|faint|p1a: Clawitzer
+|faint|p2a: Emboar
+|
+|upkeep
+|choice|switch 6|switch 2
+|
+|switch|p1a: Eelektross|Eelektross, M|14/100
+|switch|p2a: Gurdurr|Gurdurr, M|100/100
+|-damage|p1a: Eelektross|2/100|[from] Stealth Rock
+|-damage|p2a: Gurdurr|94/100|[from] Stealth Rock
+|turn|9
+|choice|move flamethrower|move machpunch
+|
+|move|p2a: Gurdurr|Mach Punch|p1a: Eelektross
+|-damage|p1a: Eelektross|0 fnt
+|faint|p1a: Eelektross
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Braviary|Braviary, M|100/100
+|-damage|p1a: Braviary|76/100|[from] Stealth Rock
+|turn|10
+|choice|move bravebird|switch 3
+|
+|switch|p2a: Magneton|Magneton|94/100
+|-damage|p2a: Magneton|88/100|[from] Stealth Rock
+|move|p1a: Braviary|Brave Bird|p2a: Magneton
+|-resisted|p2a: Magneton
+|-damage|p2a: Magneton|57/100
+|-damage|p1a: Braviary|68/100|[from] recoil|[of] p2a: Magneton
+|-damage|p1a: Braviary|58/100|[from] item: Life Orb
+|
+|upkeep
+|turn|11
+|choice|move superpower|move voltswitch
+|
+|move|p1a: Braviary|Superpower|p2a: Magneton
+|-supereffective|p2a: Magneton
+|-damage|p2a: Magneton|0 fnt
+|-unboost|p1a: Braviary|atk|1
+|-unboost|p1a: Braviary|def|1
+|-damage|p1a: Braviary|48/100|[from] item: Life Orb
+|faint|p2a: Magneton
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Manectric|Manectric, M|100/100
+|-damage|p2a: Manectric|88/100|[from] Stealth Rock
+|turn|12
+|choice|switch 2|move voltswitch
+|
+|switch|p1a: Aromatisse|Aromatisse, M|100/100
+|-damage|p1a: Aromatisse|88/100|[from] Stealth Rock
+|move|p2a: Manectric|Volt Switch|p1a: Aromatisse
+|-damage|p1a: Aromatisse|49/100
+|-damage|p2a: Manectric|78/100|[from] item: Life Orb
+|choice||switch 5
+|
+|switch|p2a: Audino|Audino, M|100/100
+|-damage|p2a: Audino|88/100|[from] Stealth Rock
+|
+|-heal|p1a: Aromatisse|55/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|choice|move wish|move fireblast mega
+|
+|detailschange|p2a: Audino|Audino-Mega, M
+|-mega|p2a: Audino|Audino|Audinite
+|move|p2a: Audino|Fire Blast|p1a: Aromatisse
+|-damage|p1a: Aromatisse|28/100
+|move|p1a: Aromatisse|Wish|p1a: Aromatisse
+|
+|-heal|p1a: Aromatisse|34/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|choice|switch 2|move dazzlinggleam
+|
+|switch|p1a: Braviary|Braviary, M|48/100
+|-damage|p1a: Braviary|23/100|[from] Stealth Rock
+|move|p2a: Audino|Dazzling Gleam|p1a: Braviary
+|-damage|p1a: Braviary|0 fnt
+|faint|p1a: Braviary
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Aromatisse|Aromatisse, M|34/100
+|-damage|p1a: Aromatisse|21/100|[from] Stealth Rock
+|turn|15
+|choice|move protect|move fireblast
+|
+|move|p1a: Aromatisse|Protect|p1a: Aromatisse
+|-singleturn|p1a: Aromatisse|Protect
+|move|p2a: Audino|Fire Blast|p1a: Aromatisse
+|-activate|p1a: Aromatisse|move: Protect
+|
+|-heal|p1a: Aromatisse|28/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|choice|move moonblast|move fireblast
+|
+|move|p2a: Audino|Fire Blast|p1a: Aromatisse
+|-damage|p1a: Aromatisse|0 fnt
+|faint|p1a: Aromatisse
+|
+|win|dixoutharambe'

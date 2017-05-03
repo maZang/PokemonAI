@@ -1,0 +1,516 @@
+|j|Nahin09
+|j|CQ Soul
+|player|p1|Nahin09|107
+|player|p2|CQ Soul|209
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|40985,3077,39166,29898,14361,16729,7706,61525,57095,58528,12325,47883
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Mawile, M|item
+|poke|p1|Arceus-*|item
+|poke|p1|Tyranitar, M|item
+|poke|p1|Kyogre|item
+|poke|p1|Giratina|item
+|poke|p1|Deoxys|item
+|poke|p2|Deoxys-Defense|item
+|poke|p2|Excadrill, M|item
+|poke|p2|Kyogre|item
+|poke|p2|Reshiram|item
+|poke|p2|Yveltal|item
+|poke|p2|Ho-Oh|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 6, team 2, team 3, team 4, team 5, team 1|team 1, team 2, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Deoxys|Deoxys|100/100
+|switch|p2a: Deoxys|Deoxys-Defense|100/100
+|-ability|p1a: Deoxys|Pressure
+|-ability|p2a: Deoxys|Pressure
+|turn|1
+|choice|move spikes|move toxic
+|
+|move|p1a: Deoxys|Spikes|p2a: Deoxys
+|-sidestart|p2: CQ Soul|Spikes
+|move|p2a: Deoxys|Toxic|p1a: Deoxys
+|-status|p1a: Deoxys|tox
+|
+|-damage|p1a: Deoxys|94/100 tox|[from] psn
+|upkeep
+|turn|2
+|choice|move stealthrock|move spikes
+|
+|move|p1a: Deoxys|Stealth Rock|p2a: Deoxys
+|-sidestart|p2: CQ Soul|move: Stealth Rock
+|move|p2a: Deoxys|Spikes|p1a: Deoxys
+|-sidestart|p1: Nahin09|Spikes
+|
+|-damage|p1a: Deoxys|82/100 tox|[from] psn
+|upkeep
+|turn|3
+|choice|move spikes|move spikes
+|
+|move|p1a: Deoxys|Spikes|p2a: Deoxys
+|-sidestart|p2: CQ Soul|Spikes
+|move|p2a: Deoxys|Spikes|p1a: Deoxys
+|-sidestart|p1: Nahin09|Spikes
+|
+|-damage|p1a: Deoxys|63/100 tox|[from] psn
+|upkeep
+|turn|4
+|choice|move taunt|move spikes
+|
+|move|p1a: Deoxys|Taunt|p2a: Deoxys
+|-start|p2a: Deoxys|move: Taunt
+|-enditem|p2a: Deoxys|Mental Herb
+|-end|p2a: Deoxys|move: Taunt
+|move|p2a: Deoxys|Spikes|p1a: Deoxys
+|-sidestart|p1: Nahin09|Spikes
+|
+|-damage|p1a: Deoxys|39/100 tox|[from] psn
+|upkeep
+|turn|5
+|choice|move spikes|switch 2
+|
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|-damage|p2a: Excadrill|84/100|[from] Spikes
+|-damage|p2a: Excadrill|81/100|[from] Stealth Rock
+|move|p1a: Deoxys|Spikes|p2a: Excadrill
+|-sidestart|p2: CQ Soul|Spikes
+|
+|-damage|p1a: Deoxys|8/100 tox|[from] psn
+|upkeep
+|turn|6
+|choice|move psychoboost|move rapidspin
+|
+|move|p1a: Deoxys|Psycho Boost|p2a: Excadrill|[miss]
+|-miss|p1a: Deoxys|p2a: Excadrill
+|move|p2a: Excadrill|Rapid Spin|p1a: Deoxys
+|-damage|p1a: Deoxys|0 fnt
+|-sideend|p2: CQ Soul|Spikes|[from] move: Rapid Spin|[of] p2a: Excadrill
+|-sideend|p2: CQ Soul|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Excadrill
+|-damage|p2a: Excadrill|71/100|[from] item: Life Orb
+|faint|p1a: Deoxys
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Giratina|Giratina|100/100
+|-damage|p1a: Giratina|76/100|[from] Spikes
+|-ability|p1a: Giratina|Pressure
+|turn|7
+|choice|move willowisp|move earthquake
+|
+|move|p2a: Excadrill|Earthquake|p1a: Giratina
+|-damage|p1a: Giratina|42/100
+|-damage|p2a: Excadrill|61/100|[from] item: Life Orb
+|move|p1a: Giratina|Will-O-Wisp|p2a: Excadrill
+|-status|p2a: Excadrill|brn
+|
+|-heal|p1a: Giratina|48/100|[from] item: Leftovers
+|-damage|p2a: Excadrill|48/100 brn|[from] brn
+|upkeep
+|turn|8
+|choice|move rest|move earthquake
+|
+|move|p2a: Excadrill|Earthquake|p1a: Giratina
+|-damage|p1a: Giratina|33/100
+|-damage|p2a: Excadrill|38/100 brn|[from] item: Life Orb
+|move|p1a: Giratina|Rest|p1a: Giratina
+|-status|p1a: Giratina|slp
+|-heal|p1a: Giratina|100/100 slp|[silent]
+|-status|p1a: Giratina|slp|[from] move: Rest
+|
+|-damage|p2a: Excadrill|26/100 brn|[from] brn
+|upkeep
+|turn|9
+|choice|move sleeptalk|move earthquake
+|
+|move|p2a: Excadrill|Earthquake|p1a: Giratina
+|-damage|p1a: Giratina|85/100 slp
+|-damage|p2a: Excadrill|16/100 brn|[from] item: Life Orb
+|cant|p1a: Giratina|slp
+|move|p1a: Giratina|Sleep Talk|p1a: Giratina
+|move|p1a: Giratina|Rest|p1a: Giratina|[from]Sleep Talk
+|-fail|p1a: Giratina
+|
+|-heal|p1a: Giratina|91/100 slp|[from] item: Leftovers
+|-damage|p2a: Excadrill|4/100 brn|[from] brn
+|upkeep
+|turn|10
+|choice|move sleeptalk|move earthquake
+|
+|move|p2a: Excadrill|Earthquake|p1a: Giratina
+|-damage|p1a: Giratina|76/100 slp
+|-damage|p2a: Excadrill|0 fnt|[from] item: Life Orb
+|faint|p2a: Excadrill
+|cant|p1a: Giratina|slp
+|move|p1a: Giratina|Sleep Talk|p1a: Giratina
+|move|p1a: Giratina|Rest|p1a: Giratina|[from]Sleep Talk
+|-fail|p1a: Giratina
+|
+|-heal|p1a: Giratina|82/100 slp|[from] item: Leftovers
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Kyogre|Kyogre|100/100
+|detailschange|p2a: Kyogre|Kyogre-Primal
+|-primal|p2a: Kyogre
+|-weather|PrimordialSea|[from] ability: Primordial Sea|[of] p2a: Kyogre
+|turn|11
+|choice|move sleeptalk|move calmmind
+|
+|move|p2a: Kyogre|Calm Mind|p2a: Kyogre
+|-boost|p2a: Kyogre|spa|1
+|-boost|p2a: Kyogre|spd|1
+|-curestatus|p1a: Giratina|slp|[msg]
+|move|p1a: Giratina|Sleep Talk|p1a: Giratina
+|-fail|p1a: Giratina
+|
+|-weather|PrimordialSea|[upkeep]
+|-heal|p1a: Giratina|88/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|choice|move willowisp|move icebeam
+|
+|move|p2a: Kyogre|Ice Beam|p1a: Giratina
+|-supereffective|p1a: Giratina
+|-damage|p1a: Giratina|11/100
+|move|p1a: Giratina|Will-O-Wisp|p2a: Kyogre|[miss]
+|-miss|p1a: Giratina|p2a: Kyogre
+|
+|-weather|PrimordialSea|[upkeep]
+|-heal|p1a: Giratina|17/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|choice|move roar|move calmmind
+|
+|move|p2a: Kyogre|Calm Mind|p2a: Kyogre
+|-boost|p2a: Kyogre|spa|1
+|-boost|p2a: Kyogre|spd|1
+|move|p1a: Giratina|Roar|p2a: Kyogre
+|-weather|none
+|drag|p2a: Yveltal|Yveltal|100/100
+|-ability|p2a: Yveltal|Dark Aura
+|
+|-heal|p1a: Giratina|23/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|choice|move rest|move darkpulse
+|
+|move|p2a: Yveltal|Dark Pulse|p1a: Giratina
+|-supereffective|p1a: Giratina
+|-damage|p1a: Giratina|0 fnt
+|-damage|p2a: Yveltal|91/100|[from] item: Life Orb
+|faint|p1a: Giratina
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Arceus|Arceus-Electric|100/100
+|-damage|p1a: Arceus|76/100|[from] Spikes
+|turn|15
+|choice|move judgment|switch 2
+|
+|switch|p2a: Deoxys|Deoxys-Defense|100/100
+|-ability|p2a: Deoxys|Pressure
+|move|p1a: Arceus|Judgment|p2a: Deoxys
+|-damage|p2a: Deoxys|65/100
+|
+|upkeep
+|turn|16
+|choice|move calmmind|move toxic
+|
+|move|p1a: Arceus|Calm Mind|p1a: Arceus
+|-boost|p1a: Arceus|spa|1
+|-boost|p1a: Arceus|spd|1
+|move|p2a: Deoxys|Toxic|p1a: Arceus
+|-status|p1a: Arceus|tox
+|
+|-damage|p1a: Arceus|70/100 tox|[from] psn
+|upkeep
+|turn|17
+|choice|move icebeam|move skillswap
+|
+|move|p1a: Arceus|Ice Beam|p2a: Deoxys
+|-damage|p2a: Deoxys|38/100
+|move|p2a: Deoxys|Skill Swap|p1a: Arceus
+|-fail|p1a: Arceus
+|
+|-damage|p1a: Arceus|58/100 tox|[from] psn
+|upkeep
+|turn|18
+|choice|move icebeam|move recover
+|
+|move|p1a: Arceus|Ice Beam|p2a: Deoxys
+|-damage|p2a: Deoxys|13/100
+|move|p2a: Deoxys|Recover|p2a: Deoxys
+|-heal|p2a: Deoxys|63/100
+|
+|-damage|p1a: Arceus|40/100 tox|[from] psn
+|upkeep
+|turn|19
+|choice|move calmmind|move recover
+|
+|move|p1a: Arceus|Calm Mind|p1a: Arceus
+|-boost|p1a: Arceus|spa|1
+|-boost|p1a: Arceus|spd|1
+|move|p2a: Deoxys|Recover|p2a: Deoxys
+|-heal|p2a: Deoxys|100/100
+|
+|-damage|p1a: Arceus|15/100 tox|[from] psn
+|upkeep
+|turn|20
+|choice|move recover|move recover
+|
+|move|p1a: Arceus|Recover|p1a: Arceus
+|-heal|p1a: Arceus|65/100 tox
+|move|p2a: Deoxys|Recover|p2a: Deoxys
+|-fail|p2a: Deoxys
+|
+|-damage|p1a: Arceus|35/100 tox|[from] psn
+|upkeep
+|turn|21
+|choice|move icebeam|move spikes
+|
+|move|p1a: Arceus|Ice Beam|p2a: Deoxys
+|-damage|p2a: Deoxys|66/100
+|move|p2a: Deoxys|Spikes|p1a: Arceus
+|-fail|p1a: Arceus
+|
+|-damage|p1a: Arceus|0 fnt|[from] psn
+|upkeep
+|faint|p1a: Arceus
+|choice|switch 6|
+|
+|switch|p1a: Mawile|Mawile, M|100/100
+|-damage|p1a: Mawile|76/100|[from] Spikes
+|-ability|p1a: Mawile|Intimidate|boost
+|-unboost|p2a: Deoxys|atk|1
+|turn|22
+|choice|move suckerpunch mega|move recover
+|
+|detailschange|p1a: Mawile|Mawile-Mega, M
+|-mega|p1a: Mawile|Mawile|Mawilite
+|move|p1a: Mawile|Sucker Punch|p2a: Deoxys|[still]
+|-fail|p1a: Mawile
+|move|p2a: Deoxys|Recover|p2a: Deoxys
+|-heal|p2a: Deoxys|100/100
+|
+|upkeep
+|turn|23
+|choice|move suckerpunch|switch 6
+|
+|switch|p2a: Ho-Oh|Ho-Oh|100/100
+|move|p1a: Mawile|Sucker Punch|p2a: Ho-Oh|[still]
+|-fail|p1a: Mawile
+|
+|upkeep
+|turn|24
+|choice|move playrough|move thunderwave
+|
+|move|p2a: Ho-Oh|Thunder Wave|p1a: Mawile
+|-status|p1a: Mawile|par
+|cant|p1a: Mawile|par
+|
+|upkeep
+|turn|25
+|choice|move playrough|switch 5
+|
+|switch|p2a: Kyogre|Kyogre-Primal|100/100
+|-weather|PrimordialSea|[from] ability: Primordial Sea|[of] p2a: Kyogre
+|move|p1a: Mawile|Play Rough|p2a: Kyogre
+|-damage|p2a: Kyogre|36/100
+|
+|-weather|PrimordialSea|[upkeep]
+|upkeep
+|turn|26
+|choice|move playrough|switch 5
+|
+|-weather|none
+|switch|p2a: Ho-Oh|Ho-Oh|100/100
+|cant|p1a: Mawile|par
+|
+|upkeep
+|turn|27
+|choice|move playrough|move sacredfire
+|
+|move|p2a: Ho-Oh|Sacred Fire|p1a: Mawile
+|-supereffective|p1a: Mawile
+|-damage|p1a: Mawile|0 fnt
+|-damage|p2a: Ho-Oh|91/100|[from] item: Life Orb
+|faint|p1a: Mawile
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-damage|p1a: Tyranitar|76/100|[from] Spikes
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|28
+|choice|move pursuit|move sacredfire
+|
+|move|p2a: Ho-Oh|Sacred Fire|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|52/100
+|-damage|p2a: Ho-Oh|81/100|[from] item: Life Orb
+|move|p1a: Tyranitar|Pursuit|p2a: Ho-Oh
+|-damage|p2a: Ho-Oh|66/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Ho-Oh|60/100|[from] sandstorm
+|-heal|p1a: Tyranitar|58/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|choice|move rockslide|switch 6
+|
+|switch|p2a: Deoxys|Deoxys-Defense|100/100
+|-ability|p2a: Deoxys|Pressure
+|move|p1a: Tyranitar|Rock Slide|p2a: Deoxys
+|-damage|p2a: Deoxys|78/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Deoxys|72/100|[from] sandstorm
+|-heal|p1a: Tyranitar|64/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|choice|move pursuit|move toxic
+|
+|move|p2a: Deoxys|Toxic|p1a: Tyranitar
+|-status|p1a: Tyranitar|tox
+|move|p1a: Tyranitar|Pursuit|p2a: Deoxys
+|-supereffective|p2a: Deoxys
+|-crit|p2a: Deoxys
+|-damage|p2a: Deoxys|30/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Deoxys|24/100|[from] sandstorm
+|-heal|p1a: Tyranitar|70/100 tox|[from] item: Leftovers
+|-damage|p1a: Tyranitar|64/100 tox|[from] psn
+|upkeep
+|turn|31
+|choice|move pursuit|move recover
+|
+|move|p2a: Deoxys|Recover|p2a: Deoxys
+|-heal|p2a: Deoxys|74/100
+|move|p1a: Tyranitar|Pursuit|p2a: Deoxys
+|-supereffective|p2a: Deoxys
+|-damage|p2a: Deoxys|49/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Deoxys|43/100|[from] sandstorm
+|-heal|p1a: Tyranitar|70/100 tox|[from] item: Leftovers
+|-damage|p1a: Tyranitar|58/100 tox|[from] psn
+|upkeep
+|turn|32
+|choice|move roar|move recover
+|
+|move|p2a: Deoxys|Recover|p2a: Deoxys
+|-heal|p2a: Deoxys|93/100
+|move|p1a: Tyranitar|Roar|p2a: Deoxys
+|drag|p2a: Reshiram|Reshiram|100/100
+|-ability|p2a: Reshiram|Turboblaze
+|
+|-weather|none
+|-heal|p1a: Tyranitar|64/100 tox|[from] item: Leftovers
+|-damage|p1a: Tyranitar|46/100 tox|[from] psn
+|upkeep
+|turn|33
+|choice|move stealthrock|move flamecharge
+|
+|move|p2a: Reshiram|Flame Charge|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|38/100 tox
+|-boost|p2a: Reshiram|spe|1
+|-damage|p2a: Reshiram|91/100|[from] item: Life Orb
+|move|p1a: Tyranitar|Stealth Rock|p2a: Reshiram
+|-sidestart|p2: CQ Soul|move: Stealth Rock
+|
+|-heal|p1a: Tyranitar|44/100 tox|[from] item: Leftovers
+|-damage|p1a: Tyranitar|19/100 tox|[from] psn
+|upkeep
+|turn|34
+|choice|move rockslide|move flamecharge
+|
+|move|p2a: Reshiram|Flame Charge|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|10/100 tox
+|-boost|p2a: Reshiram|spe|1
+|-damage|p2a: Reshiram|81/100|[from] item: Life Orb
+|move|p1a: Tyranitar|Rock Slide|p2a: Reshiram
+|-supereffective|p2a: Reshiram
+|-damage|p2a: Reshiram|15/100
+|
+|-heal|p1a: Tyranitar|16/100 tox|[from] item: Leftovers
+|-damage|p1a: Tyranitar|0 fnt|[from] psn
+|upkeep
+|faint|p1a: Tyranitar
+|choice|switch 4|
+|
+|switch|p1a: Kyogre|Kyogre|100/100
+|-damage|p1a: Kyogre|76/100|[from] Spikes
+|detailschange|p1a: Kyogre|Kyogre-Primal
+|-primal|p1a: Kyogre
+|-weather|PrimordialSea|[from] ability: Primordial Sea|[of] p1a: Kyogre
+|turn|35
+|choice|move originpulse|move dracometeor
+|
+|move|p2a: Reshiram|Draco Meteor|p1a: Kyogre
+|-damage|p1a: Kyogre|20/100
+|-unboost|p2a: Reshiram|spa|2
+|-damage|p2a: Reshiram|5/100|[from] item: Life Orb
+|move|p1a: Kyogre|Origin Pulse|p2a: Reshiram
+|-damage|p2a: Reshiram|0 fnt
+|faint|p2a: Reshiram
+|
+|-weather|PrimordialSea|[upkeep]
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Deoxys|Deoxys-Defense|93/100
+|-damage|p2a: Deoxys|81/100|[from] Stealth Rock
+|-ability|p2a: Deoxys|Pressure
+|turn|36
+|choice|move originpulse|move toxic
+|
+|move|p1a: Kyogre|Origin Pulse|p2a: Deoxys
+|-damage|p2a: Deoxys|7/100
+|move|p2a: Deoxys|Toxic|p1a: Kyogre
+|-status|p1a: Kyogre|tox
+|
+|-weather|PrimordialSea|[upkeep]
+|-damage|p1a: Kyogre|14/100 tox|[from] psn
+|upkeep
+|turn|37
+|c|☆CQ Soul|gg
+|choice|move originpulse|move recover
+|
+|move|p1a: Kyogre|Origin Pulse|p2a: Deoxys
+|-damage|p2a: Deoxys|0 fnt
+|faint|p2a: Deoxys
+|
+|-weather|PrimordialSea|[upkeep]
+|-damage|p1a: Kyogre|1/100 tox|[from] psn
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Yveltal|Yveltal|91/100
+|-damage|p2a: Yveltal|66/100|[from] Stealth Rock
+|-ability|p2a: Yveltal|Dark Aura
+|turn|38
+|choice|move icebeam|move suckerpunch
+|
+|move|p2a: Yveltal|Sucker Punch|p1a: Kyogre
+|-damage|p1a: Kyogre|0 fnt
+|-damage|p2a: Yveltal|56/100|[from] item: Life Orb
+|faint|p1a: Kyogre
+|-weather|none
+|
+|win|CQ Soul
+|raw|Nahin09's rating: 1000 &rarr; <strong>1000</strong><br />(+0 for losing)
+|raw|CQ Soul's rating: 1085 &rarr; <strong>1106</strong><br />(+21 for winning)
+|l|Nahin09

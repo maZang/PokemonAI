@@ -1,0 +1,334 @@
+|j|shalo 27
+|j|dawn37
+|player|p1|shalo 27|2
+|player|p2|dawn37|249
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|17374,47747,40924,58565,19211,22108,26633,25201,58995,9303,33962,58768
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Yveltal|item
+|poke|p1|Blaziken, M|item
+|poke|p1|Deoxys-Speed|item
+|poke|p1|Salamence, M|item
+|poke|p1|Klefki, M|item
+|poke|p1|Blissey, F|item
+|poke|p2|Blaziken, M|item
+|poke|p2|Deoxys-Attack|item
+|poke|p2|Kyogre|item
+|poke|p2|Arceus-*|item
+|poke|p2|Greninja, M|item
+|poke|p2|Lugia|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|l|shalo 27
+|player|p1|
+|j|shalo 27
+|player|p1|shalo 27|2
+|choice|team 3, team 2, team 1, team 4, team 5, team 6|team 1, team 2, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Deoxys|Deoxys-Speed|100/100
+|switch|p2a: Blaziken|Blaziken, M|100/100
+|-ability|p1a: Deoxys|Pressure
+|turn|1
+|choice|move stealthrock|switch 6
+|
+|switch|p2a: Lugia|Lugia|100/100
+|move|p1a: Deoxys|Stealth Rock|p2a: Lugia
+|-sidestart|p2: dawn37|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|choice|switch 6|move toxic
+|
+|switch|p1a: Blissey|Blissey, F|100/100
+|move|p2a: Lugia|Toxic|p1a: Blissey
+|-status|p1a: Blissey|tox
+|
+|-damage|p1a: Blissey|94/100 tox|[from] psn
+|upkeep
+|turn|3
+|choice|move toxic|move whirlwind
+|
+|move|p1a: Blissey|Toxic|p2a: Lugia
+|-status|p2a: Lugia|tox
+|move|p2a: Lugia|Whirlwind|p1a: Blissey
+|-curestatus|p1a: Blissey|tox|[from] ability: Natural Cure
+|drag|p1a: Deoxys|Deoxys-Speed|100/100
+|-ability|p1a: Deoxys|Pressure
+|
+|-damage|p2a: Lugia|94/100 tox|[from] psn
+|upkeep
+|turn|4
+|choice|move taunt|move toxic
+|
+|move|p1a: Deoxys|Taunt|p2a: Lugia
+|-start|p2a: Lugia|move: Taunt
+|cant|p2a: Lugia|move: Taunt|Toxic
+|
+|-heal|p2a: Lugia|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Lugia|88/100 tox|[from] psn
+|upkeep
+|turn|5
+|choice|move reflect|move icebeam
+|
+|move|p1a: Deoxys|Reflect|p1a: Deoxys
+|-sidestart|p1: shalo 27|Reflect
+|move|p2a: Lugia|Ice Beam|p1a: Deoxys
+|-damage|p1a: Deoxys|76/100
+|
+|-heal|p2a: Lugia|94/100 tox|[from] item: Leftovers
+|-damage|p2a: Lugia|76/100 tox|[from] psn
+|upkeep
+|turn|6
+|choice|move lightscreen|move icebeam
+|
+|move|p1a: Deoxys|Light Screen|p1a: Deoxys
+|-sidestart|p1: shalo 27|move: Light Screen
+|move|p2a: Lugia|Ice Beam|p1a: Deoxys
+|-damage|p1a: Deoxys|64/100
+|
+|-heal|p2a: Lugia|82/100 tox|[from] item: Leftovers
+|-damage|p2a: Lugia|58/100 tox|[from] psn
+|-end|p2a: Lugia|move: Taunt
+|upkeep
+|turn|7
+|choice|move taunt|move toxic
+|
+|move|p1a: Deoxys|Taunt|p2a: Lugia
+|-start|p2a: Lugia|move: Taunt
+|cant|p2a: Lugia|move: Taunt|Toxic
+|
+|-heal|p2a: Lugia|64/100 tox|[from] item: Leftovers
+|-damage|p2a: Lugia|34/100 tox|[from] psn
+|upkeep
+|turn|8
+|choice|switch 6|move icebeam
+|
+|switch|p1a: Blissey|Blissey, F|94/100
+|move|p2a: Lugia|Ice Beam|p1a: Blissey
+|-damage|p1a: Blissey|92/100
+|
+|-heal|p2a: Lugia|40/100 tox|[from] item: Leftovers
+|-heal|p1a: Blissey|98/100|[from] item: Leftovers
+|-damage|p2a: Lugia|4/100 tox|[from] psn
+|upkeep
+|turn|9
+|choice|move icebeam|move icebeam
+|
+|move|p2a: Lugia|Ice Beam|p1a: Blissey
+|-damage|p1a: Blissey|95/100
+|move|p1a: Blissey|Ice Beam|p2a: Lugia
+|-supereffective|p2a: Lugia
+|-damage|p2a: Lugia|0 fnt
+|faint|p2a: Lugia
+|
+|-heal|p1a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Blaziken|Blaziken, M|100/100
+|-damage|p2a: Blaziken|88/100|[from] Stealth Rock
+|turn|10
+|choice|switch 5|move lowkick
+|
+|switch|p1a: Klefki|Klefki, M|100/100
+|move|p2a: Blaziken|Low Kick|p1a: Klefki
+|-damage|p1a: Klefki|93/100
+|-damage|p2a: Blaziken|78/100|[from] item: Life Orb
+|
+|-heal|p1a: Klefki|99/100|[from] item: Leftovers
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|turn|11
+|choice|move toxic|move flareblitz
+|
+|move|p1a: Klefki|Toxic|p2a: Blaziken
+|-status|p2a: Blaziken|tox
+|move|p2a: Blaziken|Flare Blitz|p1a: Klefki
+|-supereffective|p1a: Klefki
+|-damage|p1a: Klefki|2/100
+|-damage|p2a: Blaziken|45/100 tox|[from] recoil|[of] p1a: Klefki
+|-damage|p2a: Blaziken|35/100 tox|[from] item: Life Orb
+|
+|-heal|p1a: Klefki|8/100|[from] item: Leftovers
+|-damage|p2a: Blaziken|29/100 tox|[from] psn
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|turn|12
+|choice|move playrough|move lowkick
+|
+|move|p2a: Blaziken|Low Kick|p1a: Klefki
+|-damage|p1a: Klefki|0 fnt
+|-damage|p2a: Blaziken|19/100 tox|[from] item: Life Orb
+|faint|p1a: Klefki
+|
+|-damage|p2a: Blaziken|7/100 tox|[from] psn
+|-sideend|p1: shalo 27|Reflect
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Yveltal|Yveltal|100/100
+|-ability|p1a: Yveltal|Dark Aura
+|turn|13
+|choice|move oblivionwing|move stoneedge
+|
+|move|p2a: Blaziken|Stone Edge|p1a: Yveltal
+|-supereffective|p1a: Yveltal
+|-damage|p1a: Yveltal|28/100
+|-damage|p2a: Blaziken|0 fnt|[from] item: Life Orb
+|faint|p2a: Blaziken
+|move|p1a: Yveltal|Oblivion Wing|p2: Blaziken|[notarget]
+|-notarget
+|
+|-sideend|p1: shalo 27|move: Light Screen
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Greninja|Greninja, M|100/100
+|-damage|p2a: Greninja|88/100|[from] Stealth Rock
+|turn|14
+|choice|move oblivionwing|move shadowsneak
+|
+|move|p2a: Greninja|Shadow Sneak|p1a: Yveltal
+|-start|p2a: Greninja|typechange|Ghost|[from] Protean
+|-resisted|p1a: Yveltal
+|-damage|p1a: Yveltal|20/100
+|move|p1a: Yveltal|Oblivion Wing|p2a: Greninja
+|-damage|p2a: Greninja|19/100
+|-heal|p1a: Yveltal|58/100|[from] drain|[of] p2a: Greninja
+|
+|upkeep
+|turn|15
+|choice|move oblivionwing|move toxicspikes
+|
+|move|p1a: Yveltal|Oblivion Wing|p2a: Greninja
+|-damage|p2a: Greninja|0 fnt
+|-heal|p1a: Yveltal|68/100|[from] drain|[of] p2a: Greninja
+|faint|p2a: Greninja
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Arceus|Arceus-Fighting|100/100
+|-damage|p2a: Arceus|94/100|[from] Stealth Rock
+|turn|16
+|choice|move oblivionwing|move thunderwave
+|
+|move|p1a: Yveltal|Oblivion Wing|p2a: Arceus
+|-supereffective|p2a: Arceus
+|-damage|p2a: Arceus|20/100
+|-heal|p1a: Yveltal|100/100|[from] drain|[of] p2a: Arceus
+|move|p2a: Arceus|Thunder Wave|p1a: Yveltal
+|-status|p1a: Yveltal|par
+|
+|upkeep
+|turn|17
+|choice|move oblivionwing|move judgment
+|
+|move|p2a: Arceus|Judgment|p1a: Yveltal
+|-damage|p1a: Yveltal|40/100 par
+|move|p1a: Yveltal|Oblivion Wing|p2a: Arceus
+|-supereffective|p2a: Arceus
+|-damage|p2a: Arceus|0 fnt
+|-heal|p1a: Yveltal|55/100 par|[from] drain|[of] p2a: Arceus
+|faint|p2a: Arceus
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Deoxys|Deoxys-Attack|100/100
+|-damage|p2a: Deoxys|88/100|[from] Stealth Rock
+|-ability|p2a: Deoxys|Pressure
+|turn|18
+|choice|switch 4|move knockoff
+|
+|switch|p1a: Salamence|Salamence, M|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Deoxys|atk|1
+|move|p2a: Deoxys|Knock Off|p1a: Salamence
+|-damage|p1a: Salamence|82/100
+|
+|upkeep
+|turn|19
+|choice|move doubleedge mega|switch 3
+|
+|switch|p2a: Kyogre|Kyogre|100/100
+|-damage|p2a: Kyogre|88/100|[from] Stealth Rock
+|detailschange|p2a: Kyogre|Kyogre-Primal
+|-primal|p2a: Kyogre
+|-weather|PrimordialSea|[from] ability: Primordial Sea|[of] p2a: Kyogre
+|detailschange|p1a: Salamence|Salamence-Mega, M
+|-mega|p1a: Salamence|Salamence|Salamencite
+|move|p1a: Salamence|Double-Edge|p2a: Kyogre
+|-damage|p2a: Kyogre|26/100
+|-damage|p1a: Salamence|61/100|[from] recoil|[of] p2a: Kyogre
+|
+|-weather|PrimordialSea|[upkeep]
+|upkeep
+|turn|20
+|choice|move doubleedge|move scald
+|
+|move|p1a: Salamence|Double-Edge|p2a: Kyogre
+|-damage|p2a: Kyogre|0 fnt
+|-damage|p1a: Salamence|52/100|[from] recoil|[of] p2a: Kyogre
+|faint|p2a: Kyogre
+|-weather|none
+|
+|upkeep
+|c|☆dawn37|Gg
+|choice||switch 3
+|
+|switch|p2a: Deoxys|Deoxys-Attack|88/100
+|-damage|p2a: Deoxys|76/100|[from] Stealth Rock
+|-ability|p2a: Deoxys|Pressure
+|turn|21
+|choice|move dragondance|move psychoboost
+|
+|move|p2a: Deoxys|Psycho Boost|p1a: Salamence
+|-damage|p1a: Salamence|0 fnt
+|-unboost|p2a: Deoxys|spa|2
+|faint|p1a: Salamence
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Blaziken|Blaziken, M|100/100
+|turn|22
+|choice|move flareblitz|move psychoboost
+|
+|move|p2a: Deoxys|Psycho Boost|p1a: Blaziken
+|-supereffective|p1a: Blaziken
+|-damage|p1a: Blaziken|0 fnt
+|-unboost|p2a: Deoxys|spa|2
+|faint|p1a: Blaziken
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Yveltal|Yveltal|55/100 par
+|-ability|p1a: Yveltal|Dark Aura
+|turn|23
+|choice|move oblivionwing|move psychoboost
+|
+|move|p2a: Deoxys|Psycho Boost|p1a: Yveltal
+|-immune|p1a: Yveltal|[msg]
+|move|p1a: Yveltal|Oblivion Wing|p2a: Deoxys
+|-damage|p2a: Deoxys|0 fnt
+|-heal|p1a: Yveltal|89/100 par|[from] drain|[of] p2a: Deoxys
+|faint|p2a: Deoxys
+|
+|win|shalo 27
+|raw|shalo 27's rating: 1095 &rarr; <strong>1122</strong><br />(+27 for winning)
+|raw|dawn37's rating: 1115 &rarr; <strong>1089</strong><br />(-26 for losing)
+|l|shalo 27
+|l|dawn37
+|j|dawn37

@@ -1,0 +1,441 @@
+|j|sky dust
+|j|Ash KetchumGamer
+|player|p1|sky dust|101
+|player|p2|Ash KetchumGamer|168
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|54181,35092,49711,5203,53460,26577,38430,36007,52487,54609,28602,18197
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Kangaskhan, F|item
+|poke|p1|Tyranitar, M|item
+|poke|p1|Arceus-*|item
+|poke|p1|Zekrom|item
+|poke|p1|Excadrill, M|item
+|poke|p1|Latias, F|item
+|poke|p2|Sableye, M|item
+|poke|p2|Groudon|item
+|poke|p2|Darkrai|item
+|poke|p2|Reshiram|item
+|poke|p2|Blissey, F|item
+|poke|p2|Arceus-*|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|c|☆sky dust|opa
+|c|☆sky dust|melhor tier
+|j|LukeSweep
+|c| LukeSweep|que merda
+|c| LukeSweep|hein
+|choice|team 1, team 2, team 3, team 4, team 5, team 6|team 1, team 2, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Kangaskhan|Kangaskhan, F|100/100
+|switch|p2a: Sableye|Sableye, M|100/100
+|turn|1
+|c|☆sky dust|kd meu counter
+|choice|switch 6|move willowisp
+|
+|switch|p1a: Latias|Latias, F|100/100
+|move|p2a: Sableye|Will-O-Wisp|p1a: Latias|[miss]
+|-miss|p2a: Sableye|p1a: Latias
+|
+|upkeep
+|turn|2
+|j|nono191
+|c|☆sky dust|justo
+|choice|move dracometeor|switch 5
+|
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: Latias|Draco Meteor|p2a: Blissey
+|-damage|p2a: Blissey|76/100
+|-unboost|p1a: Latias|spa|2
+|
+|-heal|p2a: Blissey|83/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|choice|switch 2|move wish
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Blissey|Wish|p2a: Blissey
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blissey|76/100|[from] sandstorm
+|-heal|p2a: Blissey|83/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|choice|move stealthrock|switch 2
+|
+|switch|p2a: Groudon|Groudon|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Groudon
+|move|p1a: Tyranitar|Stealth Rock|p2a: Groudon
+|-sidestart|p2: Ash KetchumGamer|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|choice|switch 2|move stealthrock
+|
+|switch|p1a: Latias|Latias, F|100/100
+|move|p2a: Groudon|Stealth Rock|p1a: Latias
+|-sidestart|p1: sky dust|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|choice|move dracometeor|switch 2
+|
+|switch|p2a: Blissey|Blissey, F|83/100
+|-damage|p2a: Blissey|70/100|[from] Stealth Rock
+|move|p1a: Latias|Draco Meteor|p2a: Blissey
+|-damage|p2a: Blissey|46/100
+|-unboost|p1a: Latias|spa|2
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Blissey|52/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|choice|switch 5|move wish
+|
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|-damage|p1a: Excadrill|97/100|[from] Stealth Rock
+|-item|p1a: Excadrill|Air Balloon
+|move|p2a: Blissey|Wish|p2a: Blissey
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Blissey|58/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|choice|move swordsdance|move icebeam
+|
+|move|p1a: Excadrill|Swords Dance|p1a: Excadrill
+|-boost|p1a: Excadrill|atk|2
+|move|p2a: Blissey|Ice Beam|p1a: Excadrill
+|-damage|p1a: Excadrill|76/100
+|-enditem|p1a: Excadrill|Air Balloon
+|
+|-weather|none
+|-heal|p2a: Blissey|100/100|[from] move: Wish|[wisher] Blissey
+|upkeep
+|turn|9
+|c|☆sky dust|amostra switch
+|c|☆Ash KetchumGamer|arceus voador
+|c|☆sky dust|aham
+|choice|move earthquake|switch 5
+|
+|switch|p2a: Sableye|Sableye, M|100/100
+|-damage|p2a: Sableye|88/100|[from] Stealth Rock
+|move|p1a: Excadrill|Earthquake|p2a: Sableye
+|-damage|p2a: Sableye|0 fnt
+|faint|p2a: Sableye
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Darkrai|Darkrai|100/100
+|-damage|p2a: Darkrai|88/100|[from] Stealth Rock
+|turn|10
+|choice|switch 4|move darkvoid
+|
+|switch|p1a: Zekrom|Zekrom|100/100
+|-damage|p1a: Zekrom|88/100|[from] Stealth Rock
+|-ability|p1a: Zekrom|Teravolt
+|move|p2a: Darkrai|Dark Void|p1a: Zekrom
+|-status|p1a: Zekrom|slp
+|
+|-damage|p1a: Zekrom|76/100 slp|[from] ability: Bad Dreams|[of] p2a: Darkrai
+|upkeep
+|turn|11
+|choice|move sleeptalk|move darkpulse
+|
+|cant|p1a: Zekrom|slp
+|move|p1a: Zekrom|Sleep Talk|p1a: Zekrom
+|move|p1a: Zekrom|Volt Switch|p2a: Darkrai|[from]Sleep Talk
+|-damage|p2a: Darkrai|56/100
+|c|☆sky dust|ez
+|c|☆sky dust|everytime
+|choice|switch 6|
+|
+|switch|p1a: Kangaskhan|Kangaskhan, F|100/100
+|-damage|p1a: Kangaskhan|88/100|[from] Stealth Rock
+|move|p2a: Darkrai|Dark Pulse|p1a: Kangaskhan
+|-crit|p1a: Kangaskhan
+|-damage|p1a: Kangaskhan|0 fnt
+|-damage|p2a: Darkrai|46/100|[from] item: Life Orb
+|faint|p1a: Kangaskhan
+|
+|upkeep
+|c|☆Ash KetchumGamer|?
+|c|☆sky dust|are you kidding me
+|c|☆sky dust|to digitando que nem vc
+|c|☆Ash KetchumGamer|yh
+|choice|switch 6|
+|
+|switch|p1a: Zekrom|Zekrom|76/100 slp
+|-damage|p1a: Zekrom|64/100 slp|[from] Stealth Rock
+|-ability|p1a: Zekrom|Teravolt
+|turn|12
+|choice|move sleeptalk|switch 2
+|
+|switch|p2a: Groudon|Groudon|100/100
+|-damage|p2a: Groudon|94/100|[from] Stealth Rock
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Groudon
+|cant|p1a: Zekrom|slp
+|move|p1a: Zekrom|Sleep Talk|p1a: Zekrom
+|move|p1a: Zekrom|Bolt Strike|p2a: Groudon|[from]Sleep Talk
+|-immune|p2a: Groudon|[msg]
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Groudon|100/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|c|☆Ash KetchumGamer|?
+|choice|switch 5|move dragontail
+|
+|switch|p1a: Latias|Latias, F|100/100
+|-damage|p1a: Latias|88/100|[from] Stealth Rock
+|move|p2a: Groudon|Dragon Tail|p1a: Latias
+|-supereffective|p1a: Latias
+|-damage|p1a: Latias|47/100
+|drag|p1a: Excadrill|Excadrill, M|76/100
+|-damage|p1a: Excadrill|73/100|[from] Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|14
+|c|☆Ash KetchumGamer|?
+|c| LukeSweep|?
+|choice|move rapidspin|move precipiceblades
+|
+|move|p1a: Excadrill|Rapid Spin|p2a: Groudon
+|-damage|p2a: Groudon|97/100
+|-sideend|p1: sky dust|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Excadrill
+|move|p2a: Groudon|Precipice Blades|p1a: Excadrill|[miss]
+|-miss|p2a: Groudon|p1a: Excadrill
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Groudon|100/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|c|☆sky dust|justo
+|c|☆Ash KetchumGamer|?
+|choice|move earthquake|move precipiceblades
+|
+|move|p1a: Excadrill|Earthquake|p2a: Groudon
+|-damage|p2a: Groudon|74/100
+|move|p2a: Groudon|Precipice Blades|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-crit|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Groudon|80/100|[from] item: Leftovers
+|upkeep
+|c|☆Ash KetchumGamer|?
+|c| LukeSweep|chora maluco
+|c|☆sky dust|pq n deu dragon tail de novo
+|c|☆sky dust|a switch pra latias era tão obvia
+|c|☆Ash KetchumGamer|vdd
+|c|☆sky dust|vc é ruim cara
+|choice|switch 4|
+|
+|switch|p1a: Latias|Latias, F|47/100
+|turn|16
+|c|☆Ash KetchumGamer|just play
+|c| LukeSweep|kkkkkkk
+|choice|move recover|switch 5
+|
+|switch|p2a: Blissey|Blissey, F|100/100
+|-damage|p2a: Blissey|88/100|[from] Stealth Rock
+|move|p1a: Latias|Recover|p1a: Latias
+|-heal|p1a: Latias|97/100
+|
+|-weather|none
+|-heal|p2a: Blissey|94/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|choice|move psyshock|move toxic
+|
+|move|p1a: Latias|Psyshock|p2a: Blissey
+|-damage|p2a: Blissey|36/100
+|move|p2a: Blissey|Toxic|p1a: Latias
+|-status|p1a: Latias|tox
+|
+|-heal|p2a: Blissey|42/100|[from] item: Leftovers
+|-damage|p1a: Latias|91/100 tox|[from] psn
+|upkeep
+|turn|18
+|choice|move psyshock|switch 6
+|
+|switch|p2a: Arceus|Arceus-Steel|100/100
+|-damage|p2a: Arceus|94/100|[from] Stealth Rock
+|move|p1a: Latias|Psyshock|p2a: Arceus
+|-resisted|p2a: Arceus
+|-damage|p2a: Arceus|74/100
+|
+|-damage|p1a: Latias|79/100 tox|[from] psn
+|upkeep
+|turn|19
+|c|☆sky dust|of couse
+|c|☆sky dust|course*
+|choice|switch 2|move ironhead
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Arceus|Iron Head|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-crit|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|c|☆Ash KetchumGamer|?
+|c| LukeSweep|?
+|choice|switch 3|
+|
+|switch|p1a: Arceus|Arceus-Ground|100/100
+|turn|20
+|choice|move earthquake|switch 5
+|
+|switch|p2a: Groudon|Groudon|80/100
+|-damage|p2a: Groudon|74/100|[from] Stealth Rock
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Groudon
+|move|p1a: Arceus|Earthquake|p2a: Groudon
+|-crit|p2a: Groudon
+|-damage|p2a: Groudon|28/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Groudon|34/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|c|☆sky dust|?
+|c| LukeSweep|?
+|choice|move earthquake|move stealthrock
+|
+|move|p1a: Arceus|Earthquake|p2a: Groudon
+|-damage|p2a: Groudon|5/100
+|move|p2a: Groudon|Stealth Rock|p1a: Arceus
+|-sidestart|p1: sky dust|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Groudon|11/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|choice|move earthquake|move dragontail
+|
+|move|p1a: Arceus|Earthquake|p2a: Groudon
+|-damage|p2a: Groudon|0 fnt
+|faint|p2a: Groudon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Reshiram|Reshiram|100/100
+|-damage|p2a: Reshiram|76/100|[from] Stealth Rock
+|-ability|p2a: Reshiram|Turboblaze
+|turn|23
+|choice|switch 2|move blueflare
+|
+|switch|p1a: Latias|Latias, F|79/100 tox
+|-damage|p1a: Latias|66/100 tox|[from] Stealth Rock
+|move|p2a: Reshiram|Blue Flare|p1a: Latias|[miss]
+|-miss|p2a: Reshiram|p1a: Latias
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Latias|60/100 tox|[from] psn
+|upkeep
+|turn|24
+|c|☆sky dust|?
+|choice|move recover|switch 6
+|
+|switch|p2a: Blissey|Blissey, F|42/100
+|-damage|p2a: Blissey|30/100|[from] Stealth Rock
+|move|p1a: Latias|Recover|p1a: Latias
+|-heal|p1a: Latias|100/100 tox
+|
+|-weather|none
+|-heal|p2a: Blissey|36/100|[from] item: Leftovers
+|-damage|p1a: Latias|88/100 tox|[from] psn
+|upkeep
+|turn|25
+|choice|move psyshock|move toxic
+|
+|move|p1a: Latias|Psyshock|p2a: Blissey
+|-damage|p2a: Blissey|0 fnt
+|faint|p2a: Blissey
+|
+|-damage|p1a: Latias|69/100 tox|[from] psn
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Arceus|Arceus-Steel|74/100
+|-damage|p2a: Arceus|68/100|[from] Stealth Rock
+|turn|26
+|choice|move dracometeor|move swordsdance
+|
+|move|p2a: Arceus|Swords Dance|p2a: Arceus
+|-boost|p2a: Arceus|atk|2
+|move|p1a: Latias|Draco Meteor|p2a: Arceus
+|-resisted|p2a: Arceus
+|-damage|p2a: Arceus|39/100
+|-unboost|p1a: Latias|spa|2
+|
+|-damage|p1a: Latias|45/100 tox|[from] psn
+|upkeep
+|turn|27
+|choice|move dracometeor|move swordsdance
+|
+|move|p2a: Arceus|Swords Dance|p2a: Arceus
+|-boost|p2a: Arceus|atk|2
+|move|p1a: Latias|Draco Meteor|p2a: Arceus|[miss]
+|-miss|p1a: Latias|p2a: Arceus
+|
+|-damage|p1a: Latias|13/100 tox|[from] psn
+|upkeep
+|turn|28
+|choice|move dracometeor|move ironhead
+|
+|move|p2a: Arceus|Iron Head|p1a: Latias
+|-damage|p1a: Latias|0 fnt
+|faint|p1a: Latias
+|
+|upkeep
+|c| LukeSweep|?
+|c|☆sky dust|of course
+|choice|switch 5|
+|
+|switch|p1a: Zekrom|Zekrom|64/100 slp
+|-damage|p1a: Zekrom|51/100 slp|[from] Stealth Rock
+|-ability|p1a: Zekrom|Teravolt
+|turn|29
+|choice|move boltstrike|move extremespeed
+|
+|move|p2a: Arceus|Extreme Speed|p1a: Zekrom
+|-crit|p1a: Zekrom
+|-damage|p1a: Zekrom|0 fnt
+|faint|p1a: Zekrom
+|
+|upkeep
+|c|☆sky dust|OF
+|c|☆Ash KetchumGamer|?
+|c|☆sky dust|COURSE
+|c| LukeSweep|ladrao
+|choice|switch 2|
+|
+|switch|p1a: Arceus|Arceus-Ground|100/100
+|-damage|p1a: Arceus|94/100|[from] Stealth Rock
+|turn|30
+|choice|move earthquake|move ironhead
+|
+|move|p2a: Arceus|Iron Head|p1a: Arceus
+|-damage|p1a: Arceus|0 fnt
+|faint|p1a: Arceus
+|
+|win|Ash KetchumGamer
+|c|☆Ash KetchumGamer|?
+|c|☆sky dust|é bo3

@@ -1,0 +1,387 @@
+|j|KELVIN RIUFUCKER
+|j|Kel9901
+|player|p1|KELVIN RIUFUCKER|1
+|player|p2|Kel9901|266
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|34481,17413,43116,1977,63604,14911,19461,44246,19679,46617,13350,58591
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Prinplup, M|item
+|poke|p1|Ferroseed, M|item
+|poke|p1|Mesprit|item
+|poke|p1|Zangoose, M|item
+|poke|p1|Lilligant, F|item
+|poke|p1|Articuno|item
+|poke|p2|Vileplume, M|item
+|poke|p2|Shiftry, M|item
+|poke|p2|Cryogonal|item
+|poke|p2|Ninetales, M|item
+|poke|p2|Abomasnow, M|item
+|poke|p2|Mismagius, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 1, team 2, team 3, team 4, team 5, team 6|team 6, team 2, team 3, team 4, team 5, team 1
+|
+|start
+|switch|p1a: Prinplup|Prinplup, M|100/100
+|switch|p2a: Mismagius|Mismagius, M|100/100
+|turn|1
+|choice|move stealthrock|move taunt
+|
+|move|p2a: Mismagius|Taunt|p1a: Prinplup
+|-start|p1a: Prinplup|move: Taunt
+|cant|p1a: Prinplup|move: Taunt|Stealth Rock
+|
+|upkeep
+|turn|2
+|choice|move scald|move willowisp
+|
+|move|p2a: Mismagius|Will-O-Wisp|p1a: Prinplup|[miss]
+|-miss|p2a: Mismagius|p1a: Prinplup
+|move|p1a: Prinplup|Scald|p2a: Mismagius
+|-damage|p2a: Mismagius|75/100
+|-status|p2a: Mismagius|brn
+|
+|-heal|p2a: Mismagius|82/100 brn|[from] item: Leftovers
+|-damage|p2a: Mismagius|69/100 brn|[from] brn
+|upkeep
+|turn|3
+|c|☆Kel9901|hax
+|c|☆KELVIN RIUFUCKER|k e k
+|choice|move scald|move willowisp
+|
+|move|p2a: Mismagius|Will-O-Wisp|p1a: Prinplup
+|-status|p1a: Prinplup|brn
+|move|p1a: Prinplup|Scald|p2a: Mismagius
+|-damage|p2a: Mismagius|48/100 brn
+|
+|-heal|p2a: Mismagius|54/100 brn|[from] item: Leftovers
+|-damage|p2a: Mismagius|42/100 brn|[from] brn
+|-damage|p1a: Prinplup|88/100 brn|[from] brn
+|-end|p1a: Prinplup|move: Taunt
+|upkeep
+|turn|4
+|choice|switch 4|move taunt
+|
+|switch|p1a: Zangoose|Zangoose, M|100/100
+|move|p2a: Mismagius|Taunt|p1a: Zangoose
+|-start|p1a: Zangoose|move: Taunt
+|
+|-heal|p2a: Mismagius|48/100 brn|[from] item: Leftovers
+|-damage|p2a: Mismagius|35/100 brn|[from] brn
+|-status|p1a: Zangoose|tox|[from] item: Toxic Orb
+|upkeep
+|turn|5
+|c|☆Kel9901|uhh
+|choice|move knockoff|move painsplit
+|
+|move|p2a: Mismagius|Pain Split|p1a: Zangoose
+|-sethp|p1a: Zangoose|70/100 tox|p2a: Mismagius|62/100 brn|[from] move: Pain Split
+|move|p1a: Zangoose|Knock Off|p2a: Mismagius
+|-supereffective|p2a: Mismagius
+|-damage|p2a: Mismagius|0 fnt
+|-enditem|p2a: Mismagius|Leftovers|[from] move: Knock Off|[of] p1a: Zangoose
+|faint|p2a: Mismagius
+|
+|-damage|p1a: Zangoose|64/100 tox|[from] psn
+|upkeep
+|c|☆KELVIN RIUFUCKER|uhh
+|c|☆Kel9901|oh
+|c|☆Kel9901|u can hit me
+|c|☆Kel9901|XD
+|c|☆Kel9901|expected suckz punch
+|c|☆KELVIN RIUFUCKER|XD
+|c|☆Kel9901|as only dark move
+|c|☆Kel9901|fuk u
+|choice||switch 2
+|
+|switch|p2a: Shiftry|Shiftry, M|100/100
+|turn|6
+|c|☆KELVIN RIUFUCKER|!ds toxic boost, sucker punch
+|html|<div class="infobox">No Pok&eacute;mon found.</div>
+|c|☆Kel9901|riged
+|c|☆KELVIN RIUFUCKER|XD
+|choice|switch 6|move suckerpunch
+|
+|switch|p1a: Articuno|Articuno|100/100
+|-ability|p1a: Articuno|Pressure
+|move|p2a: Shiftry|Sucker Punch|p1a: Articuno|[still]
+|-fail|p2a: Shiftry
+|
+|upkeep
+|turn|7
+|c|☆KELVIN RIUFUCKER|XD
+|choice|move icebeam|switch 4
+|
+|switch|p2a: Ninetales|Ninetales, M|100/100
+|move|p1a: Articuno|Ice Beam|p2a: Ninetales
+|-resisted|p2a: Ninetales
+|-damage|p2a: Ninetales|71/100
+|-damage|p1a: Articuno|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|8
+|c|☆Kel9901|lol
+|c|☆Kel9901|u scared
+|choice|switch 4|move fireblast
+|
+|switch|p1a: Prinplup|Prinplup, M|88/100 brn
+|move|p2a: Ninetales|Fire Blast|p1a: Prinplup
+|-resisted|p1a: Prinplup
+|-damage|p1a: Prinplup|63/100 brn
+|-damage|p2a: Ninetales|61/100|[from] item: Life Orb
+|
+|-damage|p1a: Prinplup|51/100 brn|[from] brn
+|upkeep
+|turn|9
+|c|☆KELVIN RIUFUCKER|lol u
+|c|☆Kel9901|weak
+|c|☆Kel9901|gay
+|choice|move stealthrock|switch 3
+|
+|switch|p2a: Cryogonal|Cryogonal|100/100
+|move|p1a: Prinplup|Stealth Rock|p2a: Cryogonal
+|-sidestart|p2: Kel9901|move: Stealth Rock
+|
+|-damage|p1a: Prinplup|39/100 brn|[from] brn
+|upkeep
+|turn|10
+|choice|switch 2|move rapidspin
+|
+|switch|p1a: Ferroseed|Ferroseed, M|100/100
+|move|p2a: Cryogonal|Rapid Spin|p1a: Ferroseed
+|-resisted|p1a: Ferroseed
+|-damage|p1a: Ferroseed|99/100
+|-damage|p2a: Cryogonal|88/100|[from] ability: Iron Barbs|[of] p1a: Ferroseed
+|-sideend|p2: Kel9901|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Cryogonal
+|-damage|p2a: Cryogonal|78/100|[from] item: Life Orb
+|
+|upkeep
+|turn|11
+|choice|move knockoff|switch 3
+|
+|switch|p2a: Ninetales|Ninetales, M|61/100
+|move|p1a: Ferroseed|Knock Off|p2a: Ninetales
+|-damage|p2a: Ninetales|42/100
+|-enditem|p2a: Ninetales|Life Orb|[from] move: Knock Off|[of] p1a: Ferroseed
+|
+|upkeep
+|turn|12
+|c|☆Kel9901|lol
+|c|☆Kel9901|fucka is u
+|choice|switch 2|move nastyplot
+|
+|switch|p1a: Prinplup|Prinplup, M|39/100 brn
+|move|p2a: Ninetales|Nasty Plot|p2a: Ninetales
+|-boost|p2a: Ninetales|spa|2
+|
+|-damage|p1a: Prinplup|26/100 brn|[from] brn
+|upkeep
+|turn|13
+|choice|move stealthrock|move energyball
+|
+|move|p2a: Ninetales|Energy Ball|p1a: Prinplup
+|-supereffective|p1a: Prinplup
+|-damage|p1a: Prinplup|0 fnt
+|faint|p1a: Prinplup
+|
+|upkeep
+|c|☆Kel9901|wut u gona do now
+|choice|switch 6|
+|
+|switch|p1a: Zangoose|Zangoose, M|64/100 tox
+|turn|14
+|c|☆KELVIN RIUFUCKER|fuck
+|choice|move quickattack|move fireblast
+|
+|move|p1a: Zangoose|Quick Attack|p2a: Ninetales
+|-damage|p2a: Ninetales|0 fnt
+|faint|p2a: Ninetales
+|
+|-damage|p1a: Zangoose|58/100 tox|[from] psn
+|upkeep
+|c|☆Kel9901|wow
+|c|☆Kel9901|strong
+|c|☆KELVIN RIUFUCKER|XD
+|choice||switch 4
+|
+|switch|p2a: Shiftry|Shiftry, M|100/100
+|turn|15
+|choice|switch 4|move knockoff
+|
+|switch|p1a: Articuno|Articuno|91/100
+|-ability|p1a: Articuno|Pressure
+|move|p2a: Shiftry|Knock Off|p1a: Articuno
+|-damage|p1a: Articuno|27/100
+|-enditem|p1a: Articuno|Life Orb|[from] move: Knock Off|[of] p2a: Shiftry
+|-damage|p2a: Shiftry|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|16
+|c|☆Kel9901|strong
+|c|☆KELVIN RIUFUCKER|ouch
+|choice|move roost|move explosion
+|
+|move|p1a: Articuno|Roost|p1a: Articuno
+|-heal|p1a: Articuno|77/100
+|move|p2a: Shiftry|Explosion|p1a: Articuno
+|-damage|p1a: Articuno|0 fnt
+|faint|p2a: Shiftry
+|faint|p1a: Articuno
+|
+|upkeep
+|c|☆Kel9901|fuk u
+|c|☆KELVIN RIUFUCKER|k
+|c|☆Kel9901|kkk
+|choice|switch 4|switch 5
+|
+|switch|p1a: Zangoose|Zangoose, M|58/100 tox
+|switch|p2a: Abomasnow|Abomasnow, M|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Abomasnow
+|turn|17
+|c|☆KELVIN RIUFUCKER|obama
+|c|☆KELVIN RIUFUCKER|good president
+|choice|move closecombat|move iceshard
+|
+|move|p2a: Abomasnow|Ice Shard|p1a: Zangoose
+|-damage|p1a: Zangoose|29/100 tox
+|-damage|p2a: Abomasnow|91/100|[from] item: Life Orb
+|move|p1a: Zangoose|Close Combat|p2a: Abomasnow
+|-supereffective|p2a: Abomasnow
+|-damage|p2a: Abomasnow|0 fnt
+|-unboost|p1a: Zangoose|def|1
+|-unboost|p1a: Zangoose|spd|1
+|faint|p2a: Abomasnow
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Zangoose|23/100 tox|[from] hail
+|-damage|p1a: Zangoose|18/100 tox|[from] psn
+|upkeep
+|c|☆Kel9901|hm
+|choice||switch 6
+|
+|switch|p2a: Vileplume|Vileplume, M|100/100
+|turn|18
+|choice|move facade|move synthesis
+|
+|move|p1a: Zangoose|Facade|p2a: Vileplume
+|-damage|p2a: Vileplume|0 fnt
+|faint|p2a: Vileplume
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Zangoose|12/100 tox|[from] hail
+|-damage|p1a: Zangoose|0 fnt|[from] psn
+|upkeep
+|faint|p1a: Zangoose
+|c|☆KELVIN RIUFUCKER|gg
+|c|☆Kel9901|rigged
+|choice|switch 2|switch 3
+|
+|switch|p2a: Cryogonal|Cryogonal|78/100
+|switch|p1a: Ferroseed|Ferroseed, M|99/100
+|turn|19
+|choice|move leechseed|move frostbreath
+|
+|move|p2a: Cryogonal|Frost Breath|p1a: Ferroseed
+|-crit|p1a: Ferroseed
+|-damage|p1a: Ferroseed|52/100
+|-damage|p2a: Cryogonal|68/100|[from] item: Life Orb
+|move|p1a: Ferroseed|Leech Seed|p2a: Cryogonal
+|-start|p2a: Cryogonal|move: Leech Seed
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Ferroseed|45/100|[from] hail
+|-damage|p2a: Cryogonal|56/100|[from] Leech Seed|[of] p1a: Ferroseed
+|-heal|p1a: Ferroseed|57/100|[silent]
+|upkeep
+|turn|20
+|choice|move protect|move frostbreath
+|
+|move|p1a: Ferroseed|Protect|p1a: Ferroseed
+|-singleturn|p1a: Ferroseed|Protect
+|move|p2a: Cryogonal|Frost Breath|p1a: Ferroseed
+|-activate|p1a: Ferroseed|move: Protect
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Ferroseed|51/100|[from] hail
+|-damage|p2a: Cryogonal|43/100|[from] Leech Seed|[of] p1a: Ferroseed
+|-heal|p1a: Ferroseed|63/100|[silent]
+|upkeep
+|turn|21
+|choice|move spikes|move frostbreath
+|
+|move|p2a: Cryogonal|Frost Breath|p1a: Ferroseed
+|-crit|p1a: Ferroseed
+|-damage|p1a: Ferroseed|17/100
+|-damage|p2a: Cryogonal|33/100|[from] item: Life Orb
+|move|p1a: Ferroseed|Spikes|p2a: Cryogonal
+|-sidestart|p2: Kel9901|Spikes
+|
+|-weather|none
+|-damage|p2a: Cryogonal|21/100|[from] Leech Seed|[of] p1a: Ferroseed
+|-heal|p1a: Ferroseed|29/100|[silent]
+|upkeep
+|turn|22
+|choice|move protect|move recover
+|
+|move|p1a: Ferroseed|Protect|p1a: Ferroseed
+|-singleturn|p1a: Ferroseed|Protect
+|move|p2a: Cryogonal|Recover|p2a: Cryogonal
+|-heal|p2a: Cryogonal|71/100
+|
+|-damage|p2a: Cryogonal|59/100|[from] Leech Seed|[of] p1a: Ferroseed
+|-heal|p1a: Ferroseed|41/100|[silent]
+|upkeep
+|turn|23
+|c|☆KELVIN RIUFUCKER|w t f c r i t
+|choice|move knockoff|move frostbreath
+|
+|move|p2a: Cryogonal|Frost Breath|p1a: Ferroseed
+|-crit|p1a: Ferroseed
+|-damage|p1a: Ferroseed|0 fnt
+|-damage|p2a: Cryogonal|49/100|[from] item: Life Orb
+|faint|p1a: Ferroseed
+|
+|upkeep
+|c|☆Kel9901|wow
+|choice|switch 5|
+|
+|switch|p1a: Lilligant|Lilligant, F|100/100
+|turn|24
+|choice|move sleeppowder|move frostbreath
+|
+|move|p1a: Lilligant|Sleep Powder|p2a: Cryogonal
+|-status|p2a: Cryogonal|slp
+|cant|p2a: Cryogonal|slp
+|
+|-damage|p2a: Cryogonal|36/100 slp|[from] Leech Seed|[of] p1a: Lilligant
+|upkeep
+|turn|25
+|choice|switch 3|move frostbreath
+|
+|switch|p1a: Mesprit|Mesprit|100/100
+|-curestatus|p2a: Cryogonal|slp|[msg]
+|move|p2a: Cryogonal|Frost Breath|p1a: Mesprit
+|-crit|p1a: Mesprit
+|-damage|p1a: Mesprit|42/100
+|-damage|p2a: Cryogonal|26/100|[from] item: Life Orb
+|
+|-damage|p2a: Cryogonal|14/100|[from] Leech Seed|[of] p1a: Mesprit
+|-heal|p1a: Mesprit|54/100|[silent]
+|upkeep
+|turn|26
+|choice|move psyshock|move recover
+|
+|move|p2a: Cryogonal|Recover|p2a: Cryogonal
+|-heal|p2a: Cryogonal|64/100
+|move|p1a: Mesprit|Psyshock|p2a: Cryogonal
+|-damage|p2a: Cryogonal|0 fnt
+|-damage|p1a: Mesprit|44/100|[from] item: Life Orb
+|faint|p2a: Cryogonal
+|
+|win|KELVIN RIUFUCKER
+|c|☆KELVIN RIUFUCKER|gg
+|c|☆Kel9901|gay

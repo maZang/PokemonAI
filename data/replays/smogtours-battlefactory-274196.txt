@@ -1,0 +1,281 @@
+|J|rojovsred
+|J|victordoblew
+|player|p1|rojovsred|190
+|player|p2|victordoblew|102
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|32753,28423,7388,28233,28484,5988,6391,20083,47767,12468,7292,44988
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Shaymin-Sky|item
+|poke|p1|Arceus-*|item
+|poke|p1|Aegislash, M|item
+|poke|p1|Dialga|item
+|poke|p1|Klefki, M|item
+|poke|p1|Zekrom|item
+|poke|p2|Mewtwo|item
+|poke|p2|Latios, M|item
+|poke|p2|Arceus-*|item
+|poke|p2|Rayquaza|item
+|poke|p2|Xerneas|item
+|poke|p2|Darkrai|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 1, team 2, team 3, team 4, team 5, team 6|team 6, team 2, team 3, team 4, team 5, team 1
+|
+|start
+|switch|p1a: Shaymin|Shaymin-Sky|100/100
+|switch|p2a: Darkrai|Darkrai|100/100
+|turn|1
+|choice|move airslash|switch 2
+|
+|switch|p2a: Latios|Latios, M|100/100
+|move|p1a: Shaymin|Air Slash|p2a: Latios
+|-damage|p2a: Latios|75/100
+|
+|upkeep
+|turn|2
+|choice|move airslash|move dracometeor
+|
+|move|p1a: Shaymin|Air Slash|p2a: Latios
+|-damage|p2a: Latios|50/100
+|cant|p2a: Latios|flinch
+|
+|upkeep
+|turn|3
+|choice|move airslash|move dracometeor
+|
+|move|p1a: Shaymin|Air Slash|p2a: Latios
+|-damage|p2a: Latios|25/100
+|move|p2a: Latios|Draco Meteor|p1a: Shaymin
+|-damage|p1a: Shaymin|0 fnt
+|-unboost|p2a: Latios|spa|2
+|faint|p1a: Shaymin
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Klefki|Klefki, M|100/100
+|turn|4
+|choice|move spikes|switch 3
+|
+|switch|p2a: Arceus|Arceus-Water|100/100
+|move|p1a: Klefki|Spikes|p2a: Arceus
+|-sidestart|p2: victordoblew|Spikes
+|
+|upkeep
+|turn|5
+|choice|move toxic|move judgment
+|
+|move|p1a: Klefki|Toxic|p2a: Arceus
+|-status|p2a: Arceus|tox
+|move|p2a: Arceus|Judgment|p1a: Klefki
+|-damage|p1a: Klefki|58/100
+|
+|-heal|p1a: Klefki|64/100|[from] item: Leftovers
+|-damage|p2a: Arceus|94/100 tox|[from] psn
+|upkeep
+|turn|6
+|choice|move spikes|move judgment
+|
+|move|p1a: Klefki|Spikes|p2a: Arceus
+|-sidestart|p2: victordoblew|Spikes
+|move|p2a: Arceus|Judgment|p1a: Klefki
+|-damage|p1a: Klefki|20/100
+|
+|-heal|p1a: Klefki|26/100|[from] item: Leftovers
+|-damage|p2a: Arceus|82/100 tox|[from] psn
+|upkeep
+|turn|7
+|choice|move spikes|move judgment
+|
+|move|p1a: Klefki|Spikes|p2a: Arceus
+|-sidestart|p2: victordoblew|Spikes
+|move|p2a: Arceus|Judgment|p1a: Klefki
+|-damage|p1a: Klefki|0 fnt
+|faint|p1a: Klefki
+|
+|-damage|p2a: Arceus|64/100 tox|[from] psn
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Zekrom|Zekrom|100/100
+|-ability|p1a: Zekrom|Teravolt
+|turn|8
+|choice|move dragonclaw|move defog
+|
+|move|p2a: Arceus|Defog|p1a: Zekrom
+|-unboost|p1a: Zekrom|evasion|1
+|-sideend|p2: victordoblew|Spikes|[from] move: Defog|[of] p2a: Arceus
+|move|p1a: Zekrom|Dragon Claw|p2a: Arceus
+|-damage|p2a: Arceus|32/100 tox
+|-damage|p1a: Zekrom|91/100|[from] item: Life Orb
+|
+|-damage|p2a: Arceus|8/100 tox|[from] psn
+|upkeep
+|turn|9
+|choice|move tailwind|move toxic
+|
+|move|p2a: Arceus|Toxic|p1a: Zekrom
+|-status|p1a: Zekrom|tox
+|move|p1a: Zekrom|Tailwind|p1a: Zekrom
+|-sidestart|p1: rojovsred|move: Tailwind
+|
+|-damage|p1a: Zekrom|84/100 tox|[from] psn
+|-damage|p2a: Arceus|0 fnt|[from] psn
+|upkeep
+|faint|p2a: Arceus
+|choice||switch 3
+|
+|switch|p2a: Latios|Latios, M|25/100
+|turn|10
+|choice|move dragonclaw|move memento
+|
+|move|p1a: Zekrom|Dragon Claw|p2a: Latios
+|-supereffective|p2a: Latios
+|-damage|p2a: Latios|0 fnt
+|-damage|p1a: Zekrom|74/100 tox|[from] item: Life Orb
+|faint|p2a: Latios
+|
+|-damage|p1a: Zekrom|62/100 tox|[from] psn
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Xerneas|Xerneas|100/100
+|-ability|p2a: Xerneas|Fairy Aura
+|turn|11
+|choice|move boltstrike|move moonblast
+|
+|move|p1a: Zekrom|Bolt Strike|p2a: Xerneas
+|-damage|p2a: Xerneas|0 fnt
+|-damage|p1a: Zekrom|52/100 tox|[from] item: Life Orb
+|faint|p2a: Xerneas
+|
+|-damage|p1a: Zekrom|34/100 tox|[from] psn
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Rayquaza|Rayquaza|100/100
+|-ability|p2a: Rayquaza|Air Lock
+|turn|12
+|choice|move dragonclaw|move extremespeed
+|
+|move|p2a: Rayquaza|Extreme Speed|p1a: Zekrom
+|-damage|p1a: Zekrom|0 fnt
+|-damage|p2a: Rayquaza|91/100|[from] item: Life Orb
+|faint|p1a: Zekrom
+|
+|-sideend|p1: rojovsred|move: Tailwind
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Aegislash|Aegislash, M|100/100
+|turn|13
+|choice|move toxic|move earthquake
+|
+|move|p2a: Rayquaza|Earthquake|p1a: Aegislash
+|-supereffective|p1a: Aegislash
+|-damage|p1a: Aegislash|22/100
+|-damage|p2a: Rayquaza|81/100|[from] item: Life Orb
+|move|p1a: Aegislash|Toxic|p2a: Rayquaza
+|-status|p2a: Rayquaza|tox
+|
+|-heal|p1a: Aegislash|28/100|[from] item: Leftovers
+|-damage|p2a: Rayquaza|75/100 tox|[from] psn
+|upkeep
+|turn|14
+|choice|switch 2|move swordsdance
+|
+|switch|p1a: Arceus|Arceus-Fighting|100/100
+|move|p2a: Rayquaza|Swords Dance|p2a: Rayquaza
+|-boost|p2a: Rayquaza|atk|2
+|
+|-damage|p2a: Rayquaza|63/100 tox|[from] psn
+|upkeep
+|turn|15
+|choice|move icebeam|move dragonascent
+|
+|move|p1a: Arceus|Ice Beam|p2a: Rayquaza
+|-supereffective|p2a: Rayquaza
+|-damage|p2a: Rayquaza|0 fnt
+|faint|p2a: Rayquaza
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Mewtwo|Mewtwo|100/100
+|-ability|p2a: Mewtwo|Pressure
+|turn|16
+|choice|switch 4|switch 2
+|
+|switch|p2a: Darkrai|Darkrai|100/100
+|switch|p1a: Dialga|Dialga|100/100
+|-ability|p1a: Dialga|Pressure
+|
+|upkeep
+|turn|17
+|choice|switch 2|move darkvoid
+|
+|switch|p1a: Aegislash|Aegislash, M|28/100
+|move|p2a: Darkrai|Dark Void|p1a: Aegislash
+|-status|p1a: Aegislash|slp
+|
+|-heal|p1a: Aegislash|34/100 slp|[from] item: Leftovers
+|-damage|p1a: Aegislash|22/100 slp|[from] ability: Bad Dreams|[of] p2a: Darkrai
+|upkeep
+|turn|18
+|choice|switch 4|move darkpulse
+|
+|switch|p1a: Arceus|Arceus-Fighting|100/100
+|move|p2a: Darkrai|Dark Pulse|p1a: Arceus
+|-resisted|p1a: Arceus
+|-damage|p1a: Arceus|78/100
+|-damage|p2a: Darkrai|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|19
+|choice|move thunderwave|move taunt
+|
+|move|p2a: Darkrai|Taunt|p1a: Arceus
+|-start|p1a: Arceus|move: Taunt
+|cant|p1a: Arceus|move: Taunt|Thunder Wave
+|
+|upkeep
+|turn|20
+|choice|move judgment|move thunder
+|
+|move|p2a: Darkrai|Thunder|p1a: Arceus
+|-damage|p1a: Arceus|38/100
+|-status|p1a: Arceus|par
+|-damage|p2a: Darkrai|81/100|[from] item: Life Orb
+|cant|p1a: Arceus|par
+|
+|upkeep
+|turn|21
+|choice|move judgment|move thunder
+|
+|move|p2a: Darkrai|Thunder|p1a: Arceus
+|-damage|p1a: Arceus|0 fnt
+|-damage|p2a: Darkrai|71/100|[from] item: Life Orb
+|faint|p1a: Arceus
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Dialga|Dialga|100/100
+|-ability|p1a: Dialga|Pressure
+|turn|22
+|choice|move flashcannon|move darkpulse
+|
+|move|p2a: Darkrai|Dark Pulse|p1a: Dialga
+|-damage|p1a: Dialga|41/100
+|-damage|p2a: Darkrai|61/100|[from] item: Life Orb
+|cant|p1a: Dialga|flinch
+|
+|upkeep
+|turn|23
+|-message|rojovsred forfeited.
+|
+|win|victordoblew

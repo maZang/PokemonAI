@@ -1,0 +1,353 @@
+|j|blackbox6500
+|j|Netro1
+|player|p1|blackbox6500|108
+|player|p2|Netro1|183
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|7310,29163,61564,64559,2619,23246,29540,11928,36362,40307,42622,18091
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Archeops, M|item
+|poke|p1|Flygon, M|item
+|poke|p1|Roselia, M|item
+|poke|p1|Rhyperior, M|item
+|poke|p1|Granbull, M|item
+|poke|p1|Rotom-Mow|item
+|poke|p2|Absol, M|item
+|poke|p2|Piloswine, M|item
+|poke|p2|Uxie|item
+|poke|p2|Sawk, M|item
+|poke|p2|Registeel|item
+|poke|p2|Alomomola, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|c|☆blackbox6500|....
+|c|☆blackbox6500|y kon esto ke ago io
+|l|Netro1
+|player|p2|
+|j|Netro1
+|player|p2|Netro1|183
+|choice|team 4, team 2, team 3, team 1, team 5, team 6|team 2, team 1, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Rhyperior|Rhyperior, M|100/100
+|switch|p2a: Piloswine|Piloswine, M|100/100
+|turn|1
+|l|Netro1
+|player|p2|
+|j|Netro1
+|player|p2|Netro1|183
+|choice|move earthquake|move earthquake
+|
+|move|p1a: Rhyperior|Earthquake|p2a: Piloswine
+|-damage|p2a: Piloswine|36/100
+|move|p2a: Piloswine|Earthquake|p1a: Rhyperior
+|-supereffective|p1a: Rhyperior
+|-damage|p1a: Rhyperior|49/100
+|
+|upkeep
+|turn|2
+|l|Netro1
+|player|p2|
+|j|Netro1
+|player|p2|Netro1|183
+|l|Netro1
+|player|p2|
+|j|Netro1
+|player|p2|Netro1|183
+|choice|move earthquake|switch 3
+|
+|switch|p2a: Uxie|Uxie|100/100
+|move|p1a: Rhyperior|Earthquake|p2a: Uxie
+|-immune|p2a: Uxie|[msg]|[from] ability: Levitate
+|
+|upkeep
+|turn|3
+|l|Netro1
+|player|p2|
+|j|Netro1
+|player|p2|Netro1|183
+|choice|switch 2|move uturn
+|
+|switch|p1a: Flygon|Flygon, M|100/100
+|move|p2a: Uxie|U-turn|p1a: Flygon
+|-damage|p1a: Flygon|90/100
+|l|Netro1
+|player|p2|
+|j|Netro1
+|player|p2|Netro1|183
+|choice||switch 3
+|
+|switch|p2a: Piloswine|Piloswine, M|36/100
+|
+|-heal|p1a: Flygon|96/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|choice|move earthquake|move iceshard
+|
+|move|p2a: Piloswine|Ice Shard|p1a: Flygon
+|-supereffective|p1a: Flygon
+|-damage|p1a: Flygon|16/100
+|move|p1a: Flygon|Earthquake|p2a: Piloswine
+|-damage|p2a: Piloswine|11/100
+|
+|-heal|p1a: Flygon|22/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|choice|switch 4|move iceshard
+|
+|switch|p1a: Archeops|Archeops, M|100/100
+|move|p2a: Piloswine|Ice Shard|p1a: Archeops
+|-supereffective|p1a: Archeops
+|-damage|p1a: Archeops|36/100
+|
+|upkeep
+|turn|6
+|choice|move headsmash|move iceshard
+|
+|move|p2a: Piloswine|Ice Shard|p1a: Archeops
+|-supereffective|p1a: Archeops
+|-damage|p1a: Archeops|0 fnt
+|faint|p1a: Archeops
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Granbull|Granbull, M|100/100
+|-ability|p1a: Granbull|Intimidate|boost
+|-unboost|p2a: Piloswine|atk|1
+|turn|7
+|choice|move earthquake|switch 5
+|
+|switch|p2a: Registeel|Registeel|100/100
+|move|p1a: Granbull|Earthquake|p2a: Registeel
+|-supereffective|p2a: Registeel
+|-damage|p2a: Registeel|64/100
+|
+|-heal|p2a: Registeel|70/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|choice|switch 2|move ironhead
+|
+|switch|p1a: Rhyperior|Rhyperior, M|49/100
+|move|p2a: Registeel|Iron Head|p1a: Rhyperior
+|-supereffective|p1a: Rhyperior
+|-damage|p1a: Rhyperior|24/100
+|
+|-heal|p2a: Registeel|76/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|choice|move icepunch|switch 3
+|
+|switch|p2a: Uxie|Uxie|100/100
+|move|p1a: Rhyperior|Ice Punch|p2a: Uxie
+|-damage|p2a: Uxie|73/100
+|
+|-heal|p2a: Uxie|79/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|choice|switch 6|move stealthrock
+|
+|switch|p1a: Rotom|Rotom-Mow|100/100
+|move|p2a: Uxie|Stealth Rock|p1a: Rotom
+|-sidestart|p1: blackbox6500|move: Stealth Rock
+|
+|-heal|p2a: Uxie|85/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|choice|move leafstorm|move uturn
+|
+|move|p1a: Rotom|Leaf Storm|p2a: Uxie
+|-damage|p2a: Uxie|14/100
+|-unboost|p1a: Rotom|spa|2
+|move|p2a: Uxie|U-turn|p1a: Rotom
+|-supereffective|p1a: Rotom
+|-damage|p1a: Rotom|68/100
+|choice||switch 5
+|
+|switch|p2a: Piloswine|Piloswine, M|11/100
+|
+|upkeep
+|turn|12
+|choice|switch 6|move iceshard
+|
+|switch|p1a: Rhyperior|Rhyperior, M|24/100
+|-damage|p1a: Rhyperior|17/100|[from] Stealth Rock
+|move|p2a: Piloswine|Ice Shard|p1a: Rhyperior
+|-supereffective|p1a: Rhyperior
+|-damage|p1a: Rhyperior|0 fnt
+|faint|p1a: Rhyperior
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Flygon|Flygon, M|22/100
+|-damage|p1a: Flygon|16/100|[from] Stealth Rock
+|turn|13
+|choice|move roost|move iceshard
+|
+|move|p2a: Piloswine|Ice Shard|p1a: Flygon
+|-supereffective|p1a: Flygon
+|-damage|p1a: Flygon|0 fnt
+|faint|p1a: Flygon
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Rotom|Rotom-Mow|68/100
+|-damage|p1a: Rotom|56/100|[from] Stealth Rock
+|turn|14
+|choice|move voltswitch|move iceshard
+|
+|move|p2a: Piloswine|Ice Shard|p1a: Rotom
+|-supereffective|p1a: Rotom
+|-damage|p1a: Rotom|8/100
+|move|p1a: Rotom|Volt Switch|p2a: Piloswine
+|-immune|p2a: Piloswine|[msg]
+|
+|upkeep
+|turn|15
+|choice|move voltswitch|move iceshard
+|
+|move|p2a: Piloswine|Ice Shard|p1a: Rotom
+|-supereffective|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Granbull|Granbull, M|100/100
+|-damage|p1a: Granbull|88/100|[from] Stealth Rock
+|-ability|p1a: Granbull|Intimidate|boost
+|-unboost|p2a: Piloswine|atk|1
+|turn|16
+|choice|move roar|move iceshard
+|
+|move|p2a: Piloswine|Ice Shard|p1a: Granbull
+|-damage|p1a: Granbull|78/100
+|move|p1a: Granbull|Roar|p2a: Piloswine
+|drag|p2a: Sawk|Sawk, M|100/100
+|
+|-heal|p1a: Granbull|84/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|choice|move playrough|move knockoff
+|
+|move|p2a: Sawk|Knock Off|p1a: Granbull
+|-resisted|p1a: Granbull
+|-damage|p1a: Granbull|70/100
+|-enditem|p1a: Granbull|Leftovers|[from] move: Knock Off|[of] p2a: Sawk
+|move|p1a: Granbull|Play Rough|p2a: Sawk
+|-supereffective|p2a: Sawk
+|-ability|p2a: Sawk|Sturdy
+|-damage|p2a: Sawk|1/100
+|
+|upkeep
+|turn|18
+|choice|move playrough|move knockoff
+|
+|move|p2a: Sawk|Knock Off|p1a: Granbull
+|-resisted|p1a: Granbull
+|-damage|p1a: Granbull|61/100
+|move|p1a: Granbull|Play Rough|p2a: Sawk
+|-supereffective|p2a: Sawk
+|-damage|p2a: Sawk|0 fnt
+|faint|p2a: Sawk
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Registeel|Registeel|76/100
+|turn|19
+|choice|switch 3|move ironhead
+|
+|switch|p1a: Roselia|Roselia, M|100/100
+|-damage|p1a: Roselia|88/100|[from] Stealth Rock
+|move|p2a: Registeel|Iron Head|p1a: Roselia
+|-damage|p1a: Roselia|67/100
+|
+|-heal|p2a: Registeel|82/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|choice|move synthesis|switch 2
+|
+|switch|p2a: Absol|Absol, M|100/100
+|move|p1a: Roselia|Synthesis|p1a: Roselia
+|-heal|p1a: Roselia|100/100
+|
+|upkeep
+|turn|21
+|choice|move sludgebomb|move knockoff
+|
+|move|p2a: Absol|Knock Off|p1a: Roselia
+|-damage|p1a: Roselia|23/100
+|-enditem|p1a: Roselia|Eviolite|[from] move: Knock Off|[of] p2a: Absol
+|-damage|p2a: Absol|91/100|[from] item: Life Orb
+|move|p1a: Roselia|Sludge Bomb|p2a: Absol
+|-damage|p2a: Absol|28/100
+|
+|upkeep
+|turn|22
+|choice|move gigadrain|move suckerpunch
+|
+|move|p2a: Absol|Sucker Punch|p1a: Roselia
+|-damage|p1a: Roselia|0 fnt
+|-damage|p2a: Absol|18/100|[from] item: Life Orb
+|faint|p1a: Roselia
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Granbull|Granbull, M|61/100
+|-damage|p1a: Granbull|48/100|[from] Stealth Rock
+|-ability|p1a: Granbull|Intimidate|boost
+|-unboost|p2a: Absol|atk|1
+|turn|23
+|choice|move playrough|move suckerpunch
+|
+|move|p2a: Absol|Sucker Punch|p1a: Granbull
+|-resisted|p1a: Granbull
+|-damage|p1a: Granbull|33/100
+|-damage|p2a: Absol|8/100|[from] item: Life Orb
+|move|p1a: Granbull|Play Rough|p2a: Absol
+|-supereffective|p2a: Absol
+|-damage|p2a: Absol|0 fnt
+|faint|p2a: Absol
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Uxie|Uxie|14/100
+|turn|24
+|choice|move playrough|move thunderwave
+|
+|move|p2a: Uxie|Thunder Wave|p1a: Granbull
+|-status|p1a: Granbull|par
+|cant|p1a: Granbull|par
+|
+|-heal|p2a: Uxie|20/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|choice|move playrough|move psyshock
+|
+|move|p2a: Uxie|Psyshock|p1a: Granbull
+|-damage|p1a: Granbull|14/100 par
+|move|p1a: Granbull|Play Rough|p2a: Uxie
+|-damage|p2a: Uxie|0 fnt
+|faint|p2a: Uxie
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Piloswine|Piloswine, M|11/100
+|turn|26
+|choice|move playrough|move earthquake
+|
+|move|p2a: Piloswine|Earthquake|p1a: Granbull
+|-damage|p1a: Granbull|0 fnt
+|faint|p1a: Granbull
+|
+|win|Netro1

@@ -1,0 +1,307 @@
+|J|Ninjacalibur
+|J|Dominatio
+|player|p1|Ninjacalibur|70
+|player|p2|Dominatio|210
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|12185,45264,22018,7108,46904,51701,16365,31503,40316,35697,64347,48023
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Flygon, M|item
+|poke|p1|Slowking, M|item
+|poke|p1|Archeops, M|item
+|poke|p1|Drapion, M|item
+|poke|p1|Meloetta|item
+|poke|p1|Poliwrath, M|item
+|poke|p2|Flygon, M|item
+|poke|p2|Blastoise, M|item
+|poke|p2|Rotom|item
+|poke|p2|Absol, M|item
+|poke|p2|Meloetta|item
+|poke|p2|Smeargle, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 3, team 2, team 1, team 4, team 5, team 6|team 2, team 1, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Archeops|Archeops, M|100/100
+|switch|p2a: Blastoise|Blastoise, M|100/100
+|turn|1
+|choice|move stealthrock|move scald
+|
+|move|p1a: Archeops|Stealth Rock|p2a: Blastoise
+|-sidestart|p2: Dominatio|move: Stealth Rock
+|move|p2a: Blastoise|Scald|p1a: Archeops
+|-supereffective|p1a: Archeops
+|-damage|p1a: Archeops|17/100
+|-status|p1a: Archeops|brn
+|
+|-damage|p1a: Archeops|5/100 brn|[from] brn
+|upkeep
+|turn|2
+|choice|move headsmash|move rapidspin
+|
+|move|p1a: Archeops|Head Smash|p2a: Blastoise
+|-damage|p2a: Blastoise|86/100
+|-damage|p1a: Archeops|0 fnt|[from] recoil|[of] p2a: Blastoise
+|faint|p1a: Archeops
+|move|p2a: Blastoise|Rapid Spin|p1: Archeops|[notarget]
+|-notarget
+|
+|-heal|p2a: Blastoise|92/100|[from] item: Leftovers
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Meloetta|Meloetta|100/100
+|turn|3
+|J|aherosdestiny╲✸ ✹
+|L|aherosdestiny╲✸ ✹
+|c|☆Ninjacalibur|wtf
+|c|☆Ninjacalibur|is this set
+|choice|move knockoff|move rapidspin
+|
+|move|p1a: Meloetta|Knock Off|p2a: Blastoise
+|-damage|p2a: Blastoise|79/100
+|-enditem|p2a: Blastoise|Leftovers|[from] move: Knock Off|[of] p1a: Meloetta
+|move|p2a: Blastoise|Rapid Spin|p1a: Meloetta
+|-damage|p1a: Meloetta|97/100
+|-sideend|p2: Dominatio|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Blastoise
+|
+|-heal|p1a: Meloetta|100/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|c|☆Dominatio|lmao
+|choice|switch 6|move toxic
+|
+|switch|p1a: Poliwrath|Poliwrath, M|100/100
+|move|p2a: Blastoise|Toxic|p1a: Poliwrath
+|-status|p1a: Poliwrath|tox
+|
+|-damage|p1a: Poliwrath|94/100 tox|[from] psn
+|upkeep
+|turn|5
+|choice|move hydropump|switch 6
+|
+|switch|p2a: Smeargle|Smeargle, M|100/100
+|move|p1a: Poliwrath|Hydro Pump|p2a: Smeargle
+|-enditem|p2a: Smeargle|Focus Sash
+|-damage|p2a: Smeargle|1/100
+|
+|-damage|p1a: Poliwrath|82/100 tox|[from] psn
+|upkeep
+|turn|6
+|choice|move hydropump|move stickyweb
+|
+|move|p2a: Smeargle|Sticky Web|p1a: Poliwrath
+|-sidestart|p1: Ninjacalibur|move: Sticky Web
+|move|p1a: Poliwrath|Hydro Pump|p2a: Smeargle
+|-damage|p2a: Smeargle|0 fnt
+|faint|p2a: Smeargle
+|
+|-damage|p1a: Poliwrath|64/100 tox|[from] psn
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Meloetta|Meloetta|100/100
+|turn|7
+|choice|switch 4|move psychic
+|
+|switch|p1a: Drapion|Drapion, M|100/100
+|-activate|p1a: Drapion|move: Sticky Web
+|-unboost|p1a: Drapion|spe|1
+|move|p2a: Meloetta|Psychic|p1a: Drapion
+|-immune|p1a: Drapion|[msg]
+|
+|upkeep
+|turn|8
+|choice|move knockoff|move focusblast
+|
+|move|p2a: Meloetta|Focus Blast|p1a: Drapion
+|-damage|p1a: Drapion|42/100
+|move|p1a: Drapion|Knock Off|p2a: Meloetta
+|-supereffective|p2a: Meloetta
+|-enditem|p2a: Meloetta|Colbur Berry|[eat]
+|-enditem|p2a: Meloetta|Colbur Berry|[weaken]
+|-damage|p2a: Meloetta|53/100
+|
+|upkeep
+|turn|9
+|choice|switch 2|move focusblast
+|
+|switch|p1a: Slowking|Slowking, M|100/100
+|-activate|p1a: Slowking|move: Sticky Web
+|-unboost|p1a: Slowking|spe|1
+|move|p2a: Meloetta|Focus Blast|p1a: Slowking
+|-resisted|p1a: Slowking
+|-damage|p1a: Slowking|84/100
+|
+|upkeep
+|turn|10
+|choice|move scald|move calmmind
+|
+|move|p2a: Meloetta|Calm Mind|p2a: Meloetta
+|-boost|p2a: Meloetta|spa|1
+|-boost|p2a: Meloetta|spd|1
+|move|p1a: Slowking|Scald|p2a: Meloetta
+|-damage|p2a: Meloetta|39/100
+|
+|upkeep
+|turn|11
+|choice|move thunderwave|move shadowball
+|
+|move|p2a: Meloetta|Shadow Ball|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|20/100
+|move|p1a: Slowking|Thunder Wave|p2a: Meloetta
+|-status|p2a: Meloetta|par
+|
+|upkeep
+|turn|12
+|choice|move psyshock|move shadowball
+|
+|move|p1a: Slowking|Psyshock|p2a: Meloetta
+|-resisted|p2a: Meloetta
+|-damage|p2a: Meloetta|22/100 par
+|move|p2a: Meloetta|Shadow Ball|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|0 fnt
+|faint|p1a: Slowking
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Drapion|Drapion, M|42/100
+|-activate|p1a: Drapion|move: Sticky Web
+|-unboost|p1a: Drapion|spe|1
+|turn|13
+|choice|move poisonjab|move shadowball
+|
+|move|p1a: Drapion|Poison Jab|p2a: Meloetta
+|-damage|p2a: Meloetta|0 fnt
+|faint|p2a: Meloetta
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Flygon|Flygon, M|100/100
+|turn|14
+|choice|switch 3|move earthquake
+|
+|switch|p1a: Flygon|Flygon, M|100/100
+|move|p2a: Flygon|Earthquake|p1a: Flygon
+|-immune|p1a: Flygon|[msg]|[from] ability: Levitate
+|
+|upkeep
+|turn|15
+|choice|move defog|move uturn
+|
+|move|p1a: Flygon|Defog|p2a: Flygon
+|-unboost|p2a: Flygon|evasion|1
+|-sideend|p1: Ninjacalibur|Sticky Web|[from] move: Defog|[of] p1a: Flygon
+|move|p2a: Flygon|U-turn|p1a: Flygon
+|-damage|p1a: Flygon|77/100
+|choice||switch 3
+|
+|switch|p2a: Rotom|Rotom|100/100
+|
+|upkeep
+|turn|16
+|choice|move dracometeor|move substitute
+|
+|move|p1a: Flygon|Draco Meteor|p2a: Rotom
+|-damage|p2a: Rotom|10/100
+|-unboost|p1a: Flygon|spa|2
+|-damage|p1a: Flygon|67/100|[from] item: Life Orb
+|move|p2a: Rotom|Substitute|p2a: Rotom
+|-fail|p2a: Rotom|move: Substitute|[weak]
+|
+|-heal|p2a: Rotom|16/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|c|☆Dominatio|uh oh
+|choice|move dracometeor|switch 6
+|
+|switch|p2a: Blastoise|Blastoise, M|79/100
+|move|p1a: Flygon|Draco Meteor|p2a: Blastoise
+|-damage|p2a: Blastoise|52/100
+|-unboost|p1a: Flygon|spa|2
+|-damage|p1a: Flygon|57/100|[from] item: Life Orb
+|
+|upkeep
+|turn|18
+|choice|switch 4|switch 6
+|
+|switch|p1a: Poliwrath|Poliwrath, M|64/100 tox
+|switch|p2a: Rotom|Rotom|16/100
+|
+|-heal|p2a: Rotom|22/100|[from] item: Leftovers
+|-damage|p1a: Poliwrath|58/100 tox|[from] psn
+|upkeep
+|turn|19
+|choice|switch 4|move hex
+|
+|switch|p1a: Flygon|Flygon, M|57/100
+|move|p2a: Rotom|Hex|p1a: Flygon
+|-damage|p1a: Flygon|23/100
+|
+|-heal|p2a: Rotom|28/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|choice|move dracometeor|move willowisp
+|
+|move|p1a: Flygon|Draco Meteor|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|-unboost|p1a: Flygon|spa|2
+|-damage|p1a: Flygon|13/100|[from] item: Life Orb
+|faint|p2a: Rotom
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Absol|Absol, M|100/100
+|turn|21
+|choice|move roost|move knockoff
+|
+|move|p1a: Flygon|Roost|p1a: Flygon
+|-heal|p1a: Flygon|63/100
+|move|p2a: Absol|Knock Off|p1a: Flygon
+|-damage|p1a: Flygon|0 fnt
+|-enditem|p1a: Flygon|Life Orb|[from] move: Knock Off|[of] p2a: Absol
+|-damage|p2a: Absol|91/100|[from] item: Life Orb
+|faint|p1a: Flygon
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Drapion|Drapion, M|42/100
+|turn|22
+|choice|move poisonjab|switch 3
+|
+|switch|p2a: Flygon|Flygon, M|100/100
+|move|p1a: Drapion|Poison Jab|p2a: Flygon
+|-resisted|p2a: Flygon
+|-damage|p2a: Flygon|85/100
+|-status|p2a: Flygon|psn
+|
+|-heal|p2a: Flygon|91/100 psn|[from] item: Leftovers
+|-damage|p2a: Flygon|79/100 psn|[from] psn
+|upkeep
+|turn|23
+|choice|switch 6|move earthquake
+|
+|switch|p1a: Meloetta|Meloetta|100/100
+|move|p2a: Flygon|Earthquake|p1a: Meloetta
+|-damage|p1a: Meloetta|65/100
+|
+|-heal|p2a: Flygon|85/100 psn|[from] item: Leftovers
+|-heal|p1a: Meloetta|72/100|[from] item: Leftovers
+|-damage|p2a: Flygon|73/100 psn|[from] psn
+|upkeep
+|turn|24
+|L|Dominatio
+|player|p2|
+|-message|Dominatio lost due to inactivity.
+|
+|win|Ninjacalibur

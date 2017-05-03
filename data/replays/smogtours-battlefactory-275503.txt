@@ -1,0 +1,274 @@
+|J|kratosmana
+|J|ez
+|player|p1|kratosmana|1
+|player|p2|ez|262
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|58969,13412,21453,38779,55073,37051,17843,42233,30060,48636,41204,46017
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Deoxys|item
+|poke|p1|Blaziken, M|item
+|poke|p1|Arceus-*|item
+|poke|p1|Ho-Oh|item
+|poke|p1|Darkrai|item
+|poke|p1|Kyurem-White|item
+|poke|p2|Lucario, M|item
+|poke|p2|Genesect-*|item
+|poke|p2|Arceus-*|item
+|poke|p2|Landorus, M|item
+|poke|p2|Lugia|item
+|poke|p2|Greninja, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|c|☆kratosmana|GL.
+|c|☆ez|hmm
+|choice|team 1, team 2, team 3, team 4, team 5, team 6|team 6, team 2, team 3, team 4, team 5, team 1
+|
+|start
+|switch|p1a: Deoxys|Deoxys|100/100
+|switch|p2a: Greninja|Greninja, M|100/100
+|-ability|p1a: Deoxys|Pressure
+|turn|1
+|choice|move stealthrock|move scald
+|
+|move|p1a: Deoxys|Stealth Rock|p2a: Greninja
+|-sidestart|p2: ez|move: Stealth Rock
+|move|p2a: Greninja|Scald|p1a: Deoxys
+|-start|p2a: Greninja|typechange|Water|[from] Protean
+|-damage|p1a: Deoxys|36/100
+|
+|upkeep
+|turn|2
+|choice|move taunt|move shadowsneak
+|
+|move|p2a: Greninja|Shadow Sneak|p1a: Deoxys
+|-start|p2a: Greninja|typechange|Ghost|[from] Protean
+|-supereffective|p1a: Deoxys
+|-damage|p1a: Deoxys|0 fnt
+|faint|p1a: Deoxys
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Darkrai|Darkrai|100/100
+|turn|3
+|choice|move darkvoid|move taunt
+|
+|move|p1a: Darkrai|Dark Void|p2a: Greninja|[miss]
+|-miss|p1a: Darkrai|p2a: Greninja
+|move|p2a: Greninja|Taunt|p1a: Darkrai
+|-start|p2a: Greninja|typechange|Dark|[from] Protean
+|-start|p1a: Darkrai|move: Taunt
+|
+|upkeep
+|turn|4
+|choice|move darkpulse|move toxicspikes
+|
+|move|p1a: Darkrai|Dark Pulse|p2a: Greninja
+|-resisted|p2a: Greninja
+|-damage|p2a: Greninja|53/100
+|-damage|p1a: Darkrai|91/100|[from] item: Life Orb
+|move|p2a: Greninja|Toxic Spikes|p1a: Darkrai
+|-start|p2a: Greninja|typechange|Poison|[from] Protean
+|-sidestart|p1: kratosmana|move: Toxic Spikes
+|
+|upkeep
+|turn|5
+|choice|move darkpulse|move toxicspikes
+|
+|move|p1a: Darkrai|Dark Pulse|p2a: Greninja
+|-damage|p2a: Greninja|0 fnt
+|-damage|p1a: Darkrai|81/100|[from] item: Life Orb
+|faint|p2a: Greninja
+|
+|upkeep
+|J|Bonnie00
+|choice||switch 2
+|
+|switch|p2a: Genesect|Genesect|100/100
+|-damage|p2a: Genesect|88/100|[from] Stealth Rock
+|-ability|p2a: Genesect|Download|boost
+|-boost|p2a: Genesect|spa|1
+|turn|6
+|choice|switch 4|move uturn
+|
+|switch|p1a: Ho-Oh|Ho-Oh|100/100
+|move|p2a: Genesect|U-turn|p1a: Ho-Oh
+|-resisted|p1a: Ho-Oh
+|-damage|p1a: Ho-Oh|93/100
+|choice||switch 6
+|
+|switch|p2a: Lucario|Lucario, M|100/100
+|-damage|p2a: Lucario|98/100|[from] Stealth Rock
+|
+|upkeep
+|turn|7
+|c|☆kratosmana|bro
+|c|☆kratosmana|that shit edge
+|c|☆kratosmana|no..
+|choice|move sacredfire|move stoneedge mega
+|
+|detailschange|p2a: Lucario|Lucario-Mega, M
+|-mega|p2a: Lucario|Lucario|Lucarionite
+|move|p2a: Lucario|Stone Edge|p1a: Ho-Oh
+|-supereffective|p1a: Ho-Oh
+|-damage|p1a: Ho-Oh|0 fnt
+|faint|p1a: Ho-Oh
+|
+|upkeep
+|c|☆ez|no just baiting u
+|c|☆ez|kidding!
+|choice|switch 4|
+|
+|switch|p1a: Darkrai|Darkrai|81/100
+|-status|p1a: Darkrai|psn
+|turn|8
+|choice|move darkvoid|move bulletpunch
+|
+|move|p2a: Lucario|Bullet Punch|p1a: Darkrai
+|-damage|p1a: Darkrai|37/100 psn
+|move|p1a: Darkrai|Dark Void|p2a: Lucario|[miss]
+|-miss|p1a: Darkrai|p2a: Lucario
+|
+|-damage|p1a: Darkrai|24/100 psn|[from] psn
+|upkeep
+|turn|9
+|c|☆ez|x
+|c|☆kratosmana|abort mission
+|choice|move darkvoid|move bulletpunch
+|
+|move|p2a: Lucario|Bullet Punch|p1a: Darkrai
+|-damage|p1a: Darkrai|0 fnt
+|faint|p1a: Darkrai
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Blaziken|Blaziken, M|100/100
+|-status|p1a: Blaziken|psn
+|turn|10
+|choice|move protect|move closecombat
+|
+|move|p1a: Blaziken|Protect|p1a: Blaziken
+|-singleturn|p1a: Blaziken|Protect
+|move|p2a: Lucario|Close Combat|p1a: Blaziken
+|-activate|p1a: Blaziken|move: Protect
+|
+|-damage|p1a: Blaziken|88/100 psn|[from] psn
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|turn|11
+|choice|move flareblitz|move closecombat
+|
+|move|p1a: Blaziken|Flare Blitz|p2a: Lucario
+|-supereffective|p2a: Lucario
+|-damage|p2a: Lucario|0 fnt
+|-damage|p1a: Blaziken|58/100 psn|[from] recoil|[of] p2a: Lucario
+|-damage|p1a: Blaziken|48/100 psn|[from] item: Life Orb
+|faint|p2a: Lucario
+|
+|-damage|p1a: Blaziken|36/100 psn|[from] psn
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Arceus|Arceus-Psychic|100/100
+|-damage|p2a: Arceus|88/100|[from] Stealth Rock
+|turn|12
+|choice|move flareblitz|move recover
+|
+|move|p1a: Blaziken|Flare Blitz|p2a: Arceus
+|-damage|p2a: Arceus|46/100
+|-damage|p1a: Blaziken|15/100 psn|[from] recoil|[of] p2a: Arceus
+|-damage|p1a: Blaziken|5/100 psn|[from] item: Life Orb
+|move|p2a: Arceus|Recover|p2a: Arceus
+|-heal|p2a: Arceus|96/100
+|
+|-damage|p1a: Blaziken|0 fnt|[from] psn
+|upkeep
+|faint|p1a: Blaziken
+|choice|switch 3|
+|
+|switch|p1a: Arceus|Arceus-Fairy|100/100
+|-status|p1a: Arceus|psn
+|turn|13
+|choice|move toxic|switch 6
+|
+|switch|p2a: Genesect|Genesect|88/100
+|-damage|p2a: Genesect|76/100|[from] Stealth Rock
+|-ability|p2a: Genesect|Download|boost
+|-boost|p2a: Genesect|spa|1
+|move|p1a: Arceus|Toxic|p2a: Genesect
+|-immune|p2a: Genesect|[msg]
+|
+|-damage|p1a: Arceus|88/100 psn|[from] psn
+|upkeep
+|turn|14
+|choice|move judgment|move ironhead
+|
+|move|p2a: Genesect|Iron Head|p1a: Arceus
+|-supereffective|p1a: Arceus
+|-damage|p1a: Arceus|45/100 psn
+|move|p1a: Arceus|Judgment|p2a: Genesect
+|-resisted|p2a: Genesect
+|-damage|p2a: Genesect|48/100
+|
+|-damage|p1a: Arceus|32/100 psn|[from] psn
+|upkeep
+|turn|15
+|choice|move judgment|move ironhead
+|
+|move|p2a: Genesect|Iron Head|p1a: Arceus
+|-supereffective|p1a: Arceus
+|-damage|p1a: Arceus|0 fnt
+|faint|p1a: Arceus
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Kyurem|Kyurem-White|100/100
+|-status|p1a: Kyurem|psn
+|-ability|p1a: Kyurem|Turboblaze
+|turn|16
+|choice|move icebeam|switch 6
+|
+|switch|p2a: Arceus|Arceus-Psychic|96/100
+|-damage|p2a: Arceus|84/100|[from] Stealth Rock
+|move|p1a: Kyurem|Ice Beam|p2a: Arceus
+|-damage|p2a: Arceus|25/100
+|
+|-damage|p1a: Kyurem|88/100 psn|[from] psn
+|upkeep
+|turn|17
+|choice|move icebeam|move icebeam
+|
+|move|p1a: Kyurem|Ice Beam|p2a: Arceus
+|-damage|p2a: Arceus|0 fnt
+|faint|p2a: Arceus
+|
+|-damage|p1a: Kyurem|76/100 psn|[from] psn
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Landorus|Landorus, M|100/100
+|-damage|p2a: Landorus|88/100|[from] Stealth Rock
+|turn|18
+|choice|move icebeam|move earthpower
+|
+|move|p2a: Landorus|Earth Power|p1a: Kyurem
+|-damage|p1a: Kyurem|12/100 psn
+|move|p1a: Kyurem|Ice Beam|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|-damage|p1a: Kyurem|0 fnt|[from] psn
+|upkeep
+|faint|p1a: Kyurem
+|
+|win|ez

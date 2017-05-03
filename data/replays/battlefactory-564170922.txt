@@ -1,0 +1,188 @@
+|j|To Sirius
+|j|DTayChaos
+|player|p1|To Sirius|167
+|player|p2|DTayChaos|281
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|14687,62649,26256,27016,51258,4468,53444,63586,30990,24370,15248,21630
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Arceus-*|item
+|poke|p1|Klefki, M|item
+|poke|p1|Landorus, M|item
+|poke|p1|Latios, M|item
+|poke|p1|Diancie|item
+|poke|p1|Darkrai|item
+|poke|p2|Arceus-*|item
+|poke|p2|Dialga|item
+|poke|p2|Sableye, M|item
+|poke|p2|Giratina-Origin|item
+|poke|p2|Klefki, M|item
+|poke|p2|Groudon|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 3, team 2, team 1, team 4, team 5, team 6|team 2, team 1, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Landorus|Landorus, M|100/100
+|switch|p2a: Dialga|Dialga|100/100
+|-ability|p2a: Dialga|Pressure
+|turn|1
+|choice|move knockoff|move stealthrock
+|
+|move|p1a: Landorus|Knock Off|p2a: Dialga
+|-damage|p2a: Dialga|77/100
+|-enditem|p2a: Dialga|Leftovers|[from] move: Knock Off|[of] p1a: Landorus
+|-damage|p1a: Landorus|91/100|[from] item: Life Orb
+|move|p2a: Dialga|Stealth Rock|p1a: Landorus
+|-sidestart|p1: To Sirius|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|choice|move earthpower|move toxic
+|
+|move|p1a: Landorus|Earth Power|p2a: Dialga
+|-supereffective|p2a: Dialga
+|-damage|p2a: Dialga|0 fnt
+|faint|p2a: Dialga
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Arceus|Arceus-Ground|100/100
+|turn|3
+|choice|move earthpower|move swordsdance
+|
+|move|p2a: Arceus|Swords Dance|p2a: Arceus
+|-boost|p2a: Arceus|atk|2
+|move|p1a: Landorus|Earth Power|p2a: Arceus
+|-damage|p2a: Arceus|44/100
+|
+|upkeep
+|turn|4
+|choice|move earthpower|move stoneedge
+|
+|move|p2a: Arceus|Stone Edge|p1a: Landorus
+|-damage|p1a: Landorus|16/100
+|move|p1a: Landorus|Earth Power|p2a: Arceus
+|-damage|p2a: Arceus|0 fnt
+|faint|p2a: Arceus
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Giratina|Giratina-Origin|100/100
+|turn|5
+|choice|switch 3|move dragontail
+|
+|switch|p1a: Arceus|Arceus-Poison|100/100
+|-damage|p1a: Arceus|88/100|[from] Stealth Rock
+|move|p2a: Giratina|Dragon Tail|p1a: Arceus
+|-damage|p1a: Arceus|67/100
+|drag|p1a: Diancie|Diancie|100/100
+|-damage|p1a: Diancie|88/100|[from] Stealth Rock
+|
+|upkeep
+|turn|6
+|choice|move moonblast mega|switch 6
+|
+|switch|p2a: Groudon|Groudon|100/100
+|detailschange|p2a: Groudon|Groudon-Primal
+|-primal|p2a: Groudon
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p2a: Groudon
+|detailschange|p1a: Diancie|Diancie-Mega
+|-mega|p1a: Diancie|Diancie|Diancite
+|move|p1a: Diancie|Moonblast|p2a: Groudon
+|-resisted|p2a: Groudon
+|-damage|p2a: Groudon|77/100
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|7
+|choice|switch 5|move rockpolish
+|
+|switch|p1a: Arceus|Arceus-Poison|67/100
+|-damage|p1a: Arceus|55/100|[from] Stealth Rock
+|move|p2a: Groudon|Rock Polish|p2a: Groudon
+|-boost|p2a: Groudon|spe|2
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|8
+|choice|move defog|move earthquake
+|
+|move|p2a: Groudon|Earthquake|p1a: Arceus
+|-supereffective|p1a: Arceus
+|-damage|p1a: Arceus|0 fnt
+|faint|p1a: Arceus
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Latios|Latios, M|100/100
+|-damage|p1a: Latios|88/100|[from] Stealth Rock
+|turn|9
+|choice|move dracometeor|move dragonclaw
+|
+|move|p2a: Groudon|Dragon Claw|p1a: Latios
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|0 fnt
+|faint|p1a: Latios
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Klefki|Klefki, M|100/100
+|-damage|p1a: Klefki|95/100|[from] Stealth Rock
+|turn|10
+|choice|move toxic|move rockpolish
+|
+|move|p1a: Klefki|Toxic|p2a: Groudon|[miss]
+|-miss|p1a: Klefki|p2a: Groudon
+|move|p2a: Groudon|Rock Polish|p2a: Groudon
+|-boost|p2a: Groudon|spe|2
+|
+|-weather|DesolateLand|[upkeep]
+|-heal|p1a: Klefki|100/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|choice|move toxic|move earthquake
+|
+|move|p1a: Klefki|Toxic|p2a: Groudon
+|-status|p2a: Groudon|tox
+|move|p2a: Groudon|Earthquake|p1a: Klefki
+|-supereffective|p1a: Klefki
+|-crit|p1a: Klefki
+|-damage|p1a: Klefki|0 fnt
+|faint|p1a: Klefki
+|
+|-weather|DesolateLand|[upkeep]
+|-damage|p2a: Groudon|71/100 tox|[from] psn
+|upkeep
+|c|☆To Sirius|well, crap
+|c|☆To Sirius|that d claw
+|choice|switch 3|
+|
+|switch|p1a: Landorus|Landorus, M|16/100
+|-damage|p1a: Landorus|4/100|[from] Stealth Rock
+|turn|12
+|choice|move knockoff|move dragonclaw
+|
+|move|p2a: Groudon|Dragon Claw|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|-weather|DesolateLand|[upkeep]
+|-damage|p2a: Groudon|58/100 tox|[from] psn
+|upkeep
+|-message|To Sirius forfeited.
+|
+|win|DTayChaos
+|l|To Sirius
+|raw|To Sirius's rating: 1460 &rarr; <strong>1428</strong><br />(-32 for losing)
+|raw|DTayChaos's rating: 1216 &rarr; <strong>1256</strong><br />(+40 for winning)

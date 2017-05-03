@@ -1,0 +1,141 @@
+|j|iGLACK
+|j|all falls down ️
+|player|p1|iGLACK|128
+|player|p2|all falls down ️|266
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|14342,27618,52113,27245,49684,37892,34836,42665,21549,36220,27566,7487
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Klefki, M|item
+|poke|p1|Dialga|item
+|poke|p1|Sableye, M|item
+|poke|p1|Arceus-*|item
+|poke|p1|Latias, F|item
+|poke|p1|Reshiram|item
+|poke|p2|Ferrothorn, M|item
+|poke|p2|Arceus-*|item
+|poke|p2|Blissey, F|item
+|poke|p2|Xerneas|item
+|poke|p2|Genesect-*|item
+|poke|p2|Rayquaza|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 2, team 1, team 3, team 4, team 5, team 6|team 6, team 2, team 3, team 4, team 5, team 1
+|
+|start
+|switch|p1a: Dialga|Dialga|100/100
+|switch|p2a: Rayquaza|Rayquaza|100/100
+|-ability|p2a: Rayquaza|Air Lock
+|-ability|p1a: Dialga|Pressure
+|turn|1
+|choice|move stealthrock|switch 3
+|
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: Dialga|Stealth Rock|p2a: Blissey
+|-sidestart|p2: all falls down ️|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|choice|switch 3|move icebeam
+|
+|switch|p1a: Sableye|Sableye, M|100/100
+|move|p2a: Blissey|Ice Beam|p1a: Sableye
+|-damage|p1a: Sableye|72/100
+|
+|upkeep
+|turn|3
+|j|Ssalbap
+|choice|move willowisp mega|switch 4
+|
+|switch|p2a: Xerneas|Xerneas|100/100
+|-damage|p2a: Xerneas|88/100|[from] Stealth Rock
+|-ability|p2a: Xerneas|Fairy Aura
+|detailschange|p1a: Sableye|Sableye-Mega, M
+|-mega|p1a: Sableye|Sableye|Sablenite
+|move|p1a: Sableye|Will-O-Wisp|p2a: Xerneas
+|-status|p2a: Xerneas|brn
+|
+|-damage|p2a: Xerneas|76/100 brn|[from] brn
+|upkeep
+|turn|4
+|choice|switch 2|move closecombat
+|
+|switch|p1a: Klefki|Klefki, M|100/100
+|move|p2a: Xerneas|Close Combat|p1a: Klefki
+|-damage|p1a: Klefki|78/100
+|-unboost|p2a: Xerneas|def|1
+|-unboost|p2a: Xerneas|spd|1
+|
+|-heal|p1a: Klefki|84/100|[from] item: Leftovers
+|-damage|p2a: Xerneas|63/100 brn|[from] brn
+|upkeep
+|turn|5
+|choice|move spikes|switch 4
+|
+|switch|p2a: Blissey|Blissey, F|100/100
+|-damage|p2a: Blissey|88/100|[from] Stealth Rock
+|move|p1a: Klefki|Spikes|p2a: Blissey
+|-sidestart|p2: all falls down ️|Spikes
+|
+|-heal|p1a: Klefki|90/100|[from] item: Leftovers
+|-heal|p2a: Blissey|94/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|choice|move toxic|move healbell
+|
+|move|p1a: Klefki|Toxic|p2a: Blissey
+|-status|p2a: Blissey|tox
+|move|p2a: Blissey|Heal Bell|p2a: Blissey
+|-activate|p2a: Blissey|move: Heal Bell
+|-curestatus|p2a: Blissey|tox|[msg]
+|-curestatus|p2: Xerneas|brn|[msg]
+|
+|-heal|p1a: Klefki|96/100|[from] item: Leftovers
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|choice|move thunderwave|move wish
+|
+|move|p1a: Klefki|Thunder Wave|p2a: Blissey
+|-status|p2a: Blissey|par
+|cant|p2a: Blissey|par
+|
+|-heal|p1a: Klefki|100/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|choice|move spikes|move wish
+|
+|move|p1a: Klefki|Spikes|p2a: Blissey
+|-sidestart|p2: all falls down ️|Spikes
+|move|p2a: Blissey|Wish|p2a: Blissey
+|
+|upkeep
+|turn|9
+|choice|move spikes|switch 4
+|
+|-curestatus|p2a: Blissey|par|[from] ability: Natural Cure
+|switch|p2a: Xerneas|Xerneas|63/100
+|-damage|p2a: Xerneas|47/100|[from] Spikes
+|-damage|p2a: Xerneas|34/100|[from] Stealth Rock
+|-ability|p2a: Xerneas|Fairy Aura
+|move|p1a: Klefki|Spikes|p2a: Xerneas
+|-sidestart|p2: all falls down ️|Spikes
+|
+|-heal|p2a: Xerneas|100/100|[from] move: Wish|[wisher] Blissey
+|upkeep
+|turn|10
+|choice|move thunderwave|move moonblast
+|
+|move|p1a: Klefki|Thunder Wave|p2a: Xerneas
+|-status|p2a: Xerneas|par
+|cant|p2a: Xerneas|par
+|
+|upkeep
+|turn|11
+|-message|all falls down ️ forfeited.
+|
+|win|iGLACK
+|l|all falls down ️

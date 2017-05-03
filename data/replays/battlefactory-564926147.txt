@@ -1,0 +1,368 @@
+|j|againa
+|j|luucanhphat
+|player|p1|againa|12
+|player|p2|luucanhphat|101
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|27821,45564,60664,47924,22678,39914,22246,15890,17662,53966,57043,24970
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Probopass, M|item
+|poke|p1|Electrode|item
+|poke|p1|Jumpluff, M|
+|poke|p1|Rampardos, M|item
+|poke|p1|Marowak, M|item
+|poke|p1|Leavanny, M|item
+|poke|p2|Marowak, M|item
+|poke|p2|Regice|item
+|poke|p2|Gourgeist-*, M|item
+|poke|p2|Audino, M|item
+|poke|p2|Sawsbuck, M|item
+|poke|p2|Vibrava, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 2, team 1, team 3, team 4, team 5, team 6|team 1, team 2, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Electrode|Electrode|100/100
+|switch|p2a: Marowak|Marowak, M|100/100
+|turn|1
+|choice|move hiddenpower|move bonemerang
+|
+|move|p1a: Electrode|Hidden Power|p2a: Marowak
+|-supereffective|p2a: Marowak
+|-damage|p2a: Marowak|37/100
+|-damage|p1a: Electrode|91/100|[from] item: Life Orb
+|move|p2a: Marowak|Bonemerang|p1a: Electrode
+|-supereffective|p1a: Electrode
+|-damage|p1a: Electrode|0 fnt
+|-hitcount|p1a: Electrode|1
+|faint|p1a: Electrode
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Leavanny|Leavanny, M|100/100
+|turn|2
+|choice|move stickyweb|move stealthrock
+|
+|move|p1a: Leavanny|Sticky Web|p2a: Marowak
+|-sidestart|p2: luucanhphat|move: Sticky Web
+|move|p2a: Marowak|Stealth Rock|p1a: Leavanny
+|-sidestart|p1: againa|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|choice|move leafstorm|switch 3
+|
+|switch|p2a: Gourgeist|Gourgeist-Super, M|100/100
+|-activate|p2a: Gourgeist|move: Sticky Web
+|-unboost|p2a: Gourgeist|spe|1
+|-item|p1a: Leavanny|Focus Sash|[from] ability: Frisk|[of] p2a: Gourgeist|[identify]
+|move|p1a: Leavanny|Leaf Storm|p2a: Gourgeist
+|-resisted|p2a: Gourgeist
+|-damage|p2a: Gourgeist|75/100
+|-unboost|p1a: Leavanny|spa|2
+|
+|-heal|p2a: Gourgeist|81/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|choice|move knockoff|move willowisp
+|
+|move|p1a: Leavanny|Knock Off|p2a: Gourgeist
+|-supereffective|p2a: Gourgeist
+|-damage|p2a: Gourgeist|57/100
+|-enditem|p2a: Gourgeist|Leftovers|[from] move: Knock Off|[of] p1a: Leavanny
+|move|p2a: Gourgeist|Will-O-Wisp|p1a: Leavanny
+|-status|p1a: Leavanny|brn
+|
+|-damage|p1a: Leavanny|88/100 brn|[from] brn
+|upkeep
+|turn|5
+|choice|move knockoff|move synthesis
+|
+|move|p1a: Leavanny|Knock Off|p2a: Gourgeist
+|-supereffective|p2a: Gourgeist
+|-damage|p2a: Gourgeist|48/100
+|move|p2a: Gourgeist|Synthesis|p2a: Gourgeist
+|-heal|p2a: Gourgeist|98/100
+|
+|-damage|p1a: Leavanny|76/100 brn|[from] brn
+|upkeep
+|turn|6
+|choice|switch 2|move foulplay
+|
+|switch|p1a: Probopass|Probopass, M|100/100
+|-damage|p1a: Probopass|94/100|[from] Stealth Rock
+|move|p2a: Gourgeist|Foul Play|p1a: Probopass
+|-damage|p1a: Probopass|84/100
+|
+|upkeep
+|turn|7
+|choice|move stealthrock|move willowisp
+|
+|move|p1a: Probopass|Stealth Rock|p2a: Gourgeist
+|-sidestart|p2: luucanhphat|move: Stealth Rock
+|move|p2a: Gourgeist|Will-O-Wisp|p1a: Probopass
+|-status|p1a: Probopass|brn
+|
+|-damage|p1a: Probopass|72/100 brn|[from] brn
+|upkeep
+|turn|8
+|choice|move flashcannon|move seedbomb
+|
+|move|p1a: Probopass|Flash Cannon|p2a: Gourgeist
+|-damage|p2a: Gourgeist|64/100
+|move|p2a: Gourgeist|Seed Bomb|p1a: Probopass
+|-damage|p1a: Probopass|50/100 brn
+|
+|-damage|p1a: Probopass|38/100 brn|[from] brn
+|upkeep
+|turn|9
+|choice|move flashcannon|move synthesis
+|
+|move|p1a: Probopass|Flash Cannon|p2a: Gourgeist
+|-damage|p2a: Gourgeist|30/100
+|move|p2a: Gourgeist|Synthesis|p2a: Gourgeist
+|-heal|p2a: Gourgeist|80/100
+|
+|-damage|p1a: Probopass|26/100 brn|[from] brn
+|upkeep
+|turn|10
+|choice|move flashcannon|move synthesis
+|
+|move|p1a: Probopass|Flash Cannon|p2a: Gourgeist
+|-damage|p2a: Gourgeist|46/100
+|move|p2a: Gourgeist|Synthesis|p2a: Gourgeist
+|-heal|p2a: Gourgeist|96/100
+|
+|-damage|p1a: Probopass|13/100 brn|[from] brn
+|upkeep
+|turn|11
+|choice|move flashcannon|move seedbomb
+|
+|move|p1a: Probopass|Flash Cannon|p2a: Gourgeist
+|-damage|p2a: Gourgeist|59/100
+|move|p2a: Gourgeist|Seed Bomb|p1a: Probopass
+|-damage|p1a: Probopass|0 fnt
+|faint|p1a: Probopass
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Marowak|Marowak, M|100/100
+|-damage|p1a: Marowak|94/100|[from] Stealth Rock
+|turn|12
+|choice|move knockoff|move seedbomb
+|
+|move|p1a: Marowak|Knock Off|p2a: Gourgeist
+|-supereffective|p2a: Gourgeist
+|-damage|p2a: Gourgeist|16/100
+|move|p2a: Gourgeist|Seed Bomb|p1a: Marowak
+|-supereffective|p1a: Marowak
+|-damage|p1a: Marowak|27/100
+|
+|upkeep
+|turn|13
+|choice|move knockoff|move willowisp
+|
+|move|p1a: Marowak|Knock Off|p2a: Gourgeist
+|-supereffective|p2a: Gourgeist
+|-damage|p2a: Gourgeist|0 fnt
+|faint|p2a: Gourgeist
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Regice|Regice|100/100
+|-damage|p2a: Regice|76/100|[from] Stealth Rock
+|-activate|p2a: Regice|move: Sticky Web
+|-fail|p2a: Regice|unboost|[from] ability: Clear Body|[of] p2a: Regice
+|turn|14
+|choice|switch 4|move icebeam
+|
+|switch|p1a: Rampardos|Rampardos, M|100/100
+|-damage|p1a: Rampardos|88/100|[from] Stealth Rock
+|-ability|p1a: Rampardos|Mold Breaker
+|move|p2a: Regice|Ice Beam|p1a: Rampardos
+|-crit|p1a: Rampardos
+|-damage|p1a: Rampardos|0 fnt
+|-damage|p2a: Regice|66/100|[from] item: Life Orb
+|faint|p1a: Rampardos
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Jumpluff|Jumpluff, M|100/100
+|-damage|p1a: Jumpluff|76/100|[from] Stealth Rock
+|turn|15
+|choice|move sleeppowder|move icebeam
+|
+|move|p1a: Jumpluff|Sleep Powder|p2a: Regice
+|-status|p2a: Regice|slp
+|cant|p2a: Regice|slp
+|
+|upkeep
+|turn|16
+|choice|move swordsdance|switch 4
+|
+|switch|p2a: Audino|Audino, M|100/100
+|-damage|p2a: Audino|88/100|[from] Stealth Rock
+|-activate|p2a: Audino|move: Sticky Web
+|-unboost|p2a: Audino|spe|1
+|move|p1a: Jumpluff|Swords Dance|p1a: Jumpluff
+|-boost|p1a: Jumpluff|atk|2
+|
+|-heal|p2a: Audino|94/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|choice|move swordsdance|move encore
+|
+|move|p1a: Jumpluff|Swords Dance|p1a: Jumpluff
+|-boost|p1a: Jumpluff|atk|2
+|move|p2a: Audino|Encore|p1a: Jumpluff
+|-start|p1a: Jumpluff|Encore
+|
+|-heal|p2a: Audino|99/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|choice|switch 2|switch 3
+|
+|switch|p1a: Leavanny|Leavanny, M|76/100 brn
+|-damage|p1a: Leavanny|51/100 brn|[from] Stealth Rock
+|switch|p2a: Marowak|Marowak, M|37/100
+|-activate|p2a: Marowak|move: Sticky Web
+|-unboost|p2a: Marowak|spe|1
+|-damage|p2a: Marowak|31/100|[from] Stealth Rock
+|
+|-damage|p1a: Leavanny|39/100 brn|[from] brn
+|upkeep
+|turn|19
+|choice|move leafstorm|switch 4
+|
+|switch|p2a: Regice|Regice|66/100 slp
+|-activate|p2a: Regice|move: Sticky Web
+|-fail|p2a: Regice|unboost|[from] ability: Clear Body|[of] p2a: Regice
+|-damage|p2a: Regice|41/100 slp|[from] Stealth Rock
+|move|p1a: Leavanny|Leaf Storm|p2a: Regice
+|-damage|p2a: Regice|15/100 slp
+|-unboost|p1a: Leavanny|spa|2
+|
+|-damage|p1a: Leavanny|26/100 brn|[from] brn
+|upkeep
+|turn|20
+|choice|move leafstorm|move icebeam
+|
+|move|p1a: Leavanny|Leaf Storm|p2a: Regice
+|-damage|p2a: Regice|1/100 slp
+|-unboost|p1a: Leavanny|spa|2
+|cant|p2a: Regice|slp
+|
+|-damage|p1a: Leavanny|14/100 brn|[from] brn
+|upkeep
+|turn|21
+|choice|move electroweb|move icebeam
+|
+|move|p1a: Leavanny|Electroweb|p2a: Regice
+|-damage|p2a: Regice|0 fnt
+|faint|p2a: Regice
+|
+|-damage|p1a: Leavanny|2/100 brn|[from] brn
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Sawsbuck|Sawsbuck, M|100/100
+|-damage|p2a: Sawsbuck|88/100|[from] Stealth Rock
+|-activate|p2a: Sawsbuck|move: Sticky Web
+|-unboost|p2a: Sawsbuck|spe|1
+|turn|22
+|choice|move knockoff|move doubleedge
+|
+|move|p2a: Sawsbuck|Double-Edge|p1a: Leavanny
+|-damage|p1a: Leavanny|0 fnt
+|-damage|p2a: Sawsbuck|88/100|[from] recoil|[of] p1a: Leavanny
+|faint|p1a: Leavanny
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Jumpluff|Jumpluff, M|76/100
+|-damage|p1a: Jumpluff|51/100|[from] Stealth Rock
+|turn|23
+|choice|move acrobatics|move doubleedge
+|
+|move|p1a: Jumpluff|Acrobatics|p2a: Sawsbuck
+|-supereffective|p2a: Sawsbuck
+|-damage|p2a: Sawsbuck|0 fnt
+|faint|p2a: Sawsbuck
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Audino|Audino, M|100/100
+|-activate|p2a: Audino|move: Sticky Web
+|-unboost|p2a: Audino|spe|1
+|-damage|p2a: Audino|88/100|[from] Stealth Rock
+|turn|24
+|choice|move sleeppowder|move knockoff
+|
+|move|p1a: Jumpluff|Sleep Powder|p2a: Audino
+|-status|p2a: Audino|slp
+|cant|p2a: Audino|slp
+|
+|-heal|p2a: Audino|94/100 slp|[from] item: Leftovers
+|upkeep
+|turn|25
+|choice|move swordsdance|switch 6
+|
+|switch|p2a: Vibrava|Vibrava, M|100/100
+|-damage|p2a: Vibrava|95/100|[from] Stealth Rock
+|move|p1a: Jumpluff|Swords Dance|p1a: Jumpluff
+|-boost|p1a: Jumpluff|atk|2
+|
+|upkeep
+|turn|26
+|choice|move acrobatics|move toxic
+|
+|move|p1a: Jumpluff|Acrobatics|p2a: Vibrava
+|-damage|p2a: Vibrava|8/100
+|move|p2a: Vibrava|Toxic|p1a: Jumpluff
+|-status|p1a: Jumpluff|tox
+|
+|-damage|p1a: Jumpluff|45/100 tox|[from] psn
+|upkeep
+|turn|27
+|choice|move acrobatics|move defog
+|
+|move|p1a: Jumpluff|Acrobatics|p2a: Vibrava
+|-damage|p2a: Vibrava|0 fnt
+|faint|p2a: Vibrava
+|
+|-damage|p1a: Jumpluff|32/100 tox|[from] psn
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Audino|Audino, M|100/100 slp
+|-activate|p2a: Audino|move: Sticky Web
+|-unboost|p2a: Audino|spe|1
+|-damage|p2a: Audino|88/100 slp|[from] Stealth Rock
+|turn|28
+|choice|move acrobatics|move knockoff
+|
+|move|p1a: Jumpluff|Acrobatics|p2a: Audino
+|-crit|p2a: Audino
+|-damage|p2a: Audino|0 fnt
+|faint|p2a: Audino
+|
+|-damage|p1a: Jumpluff|14/100 tox|[from] psn
+|upkeep
+|c|☆againa|gg
+|-message|luucanhphat forfeited.
+|
+|win|againa
+|l|luucanhphat
+|raw|againa's rating: 1114 &rarr; <strong>1137</strong><br />(+23 for winning)
+|raw|luucanhphat's rating: 1090 &rarr; <strong>1068</strong><br />(-22 for losing)

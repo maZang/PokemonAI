@@ -1,0 +1,249 @@
+|J|Ninjacalibur
+|J|Dominatio
+|player|p1|Ninjacalibur|70
+|player|p2|Dominatio|210
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|11049,39398,56381,3996,10010,37754,4576,47236,42805,9930,42593,14612
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Archeops, M|item
+|poke|p1|Hitmonlee, M|item
+|poke|p1|Audino, M|item
+|poke|p1|Accelgor, M|item
+|poke|p1|Samurott, M|item
+|poke|p1|Scrafty, M|item
+|poke|p2|Roselia, M|item
+|poke|p2|Clawitzer, M|item
+|poke|p2|Piloswine, M|item
+|poke|p2|Houndoom, M|item
+|poke|p2|Absol, M|item
+|poke|p2|Delphox, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 1, team 2, team 3, team 4, team 5, team 6|team 3, team 2, team 1, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Archeops|Archeops, M|100/100
+|switch|p2a: Piloswine|Piloswine, M|100/100
+|turn|1
+|choice|move taunt|move iciclecrash
+|
+|move|p1a: Archeops|Taunt|p2a: Piloswine
+|-start|p2a: Piloswine|move: Taunt
+|move|p2a: Piloswine|Icicle Crash|p1a: Archeops
+|-supereffective|p1a: Archeops
+|-enditem|p1a: Archeops|Focus Sash
+|-damage|p1a: Archeops|1/100
+|
+|upkeep
+|turn|2
+|choice|switch 5|move earthquake
+|
+|switch|p1a: Samurott|Samurott, M|100/100
+|move|p2a: Piloswine|Earthquake|p1a: Samurott
+|-damage|p1a: Samurott|42/100
+|
+|upkeep
+|turn|3
+|c|☆Dominatio|?
+|choice|move waterfall|move earthquake
+|
+|move|p1a: Samurott|Waterfall|p2a: Piloswine
+|-supereffective|p2a: Piloswine
+|-damage|p2a: Piloswine|50/100
+|cant|p2a: Piloswine|flinch
+|
+|-end|p2a: Piloswine|move: Taunt
+|upkeep
+|turn|4
+|c|☆Ninjacalibur|??
+|c|☆Dominatio|jajaa
+|choice|switch 5|move earthquake
+|
+|switch|p1a: Archeops|Archeops, M|1/100
+|move|p2a: Piloswine|Earthquake|p1a: Archeops
+|-immune|p1a: Archeops|[msg]
+|
+|upkeep
+|turn|5
+|choice|switch 5|move iceshard
+|
+|switch|p1a: Samurott|Samurott, M|42/100
+|move|p2a: Piloswine|Ice Shard|p1a: Samurott
+|-resisted|p1a: Samurott
+|-damage|p1a: Samurott|31/100
+|
+|upkeep
+|turn|6
+|choice|move waterfall|switch 3
+|
+|switch|p2a: Roselia|Roselia, M|100/100
+|move|p1a: Samurott|Waterfall|p2a: Roselia
+|-resisted|p2a: Roselia
+|-damage|p2a: Roselia|80/100
+|
+|upkeep
+|turn|7
+|J|camilas
+|choice|move megahorn|move gigadrain
+|
+|move|p1a: Samurott|Megahorn|p2a: Roselia
+|-damage|p2a: Roselia|40/100
+|move|p2a: Roselia|Giga Drain|p1a: Samurott
+|-supereffective|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|-heal|p2a: Roselia|57/100|[from] drain|[of] p1a: Samurott
+|faint|p1a: Samurott
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Archeops|Archeops, M|1/100
+|turn|8
+|choice|move stealthrock|move gigadrain
+|
+|move|p1a: Archeops|Stealth Rock|p2a: Roselia
+|-sidestart|p2: Dominatio|move: Stealth Rock
+|move|p2a: Roselia|Giga Drain|p1a: Archeops
+|-damage|p1a: Archeops|0 fnt
+|-heal|p2a: Roselia|58/100|[from] drain|[of] p1a: Archeops
+|faint|p1a: Archeops
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Scrafty|Scrafty, M|100/100
+|-ability|p1a: Scrafty|Intimidate|boost
+|-unboost|p2a: Roselia|atk|1
+|turn|9
+|choice|move dragondance|move sludgebomb
+|
+|move|p1a: Scrafty|Dragon Dance|p1a: Scrafty
+|-boost|p1a: Scrafty|atk|1
+|-boost|p1a: Scrafty|spe|1
+|move|p2a: Roselia|Sludge Bomb|p1a: Scrafty
+|-damage|p1a: Scrafty|68/100
+|-status|p1a: Scrafty|psn
+|
+|-damage|p1a: Scrafty|56/100 psn|[from] psn
+|upkeep
+|turn|10
+|choice|move knockoff|move sludgebomb
+|
+|move|p1a: Scrafty|Knock Off|p2a: Roselia
+|-damage|p2a: Roselia|0 fnt
+|-enditem|p2a: Roselia|Eviolite|[from] move: Knock Off|[of] p1a: Scrafty
+|faint|p2a: Roselia
+|
+|-damage|p1a: Scrafty|44/100 psn|[from] psn
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Piloswine|Piloswine, M|50/100
+|-damage|p2a: Piloswine|37/100|[from] Stealth Rock
+|turn|11
+|choice|move knockoff|move iceshard
+|
+|move|p2a: Piloswine|Ice Shard|p1a: Scrafty
+|-damage|p1a: Scrafty|24/100 psn
+|move|p1a: Scrafty|Knock Off|p2a: Piloswine
+|-damage|p2a: Piloswine|0 fnt
+|-enditem|p2a: Piloswine|Eviolite|[from] move: Knock Off|[of] p1a: Scrafty
+|faint|p2a: Piloswine
+|
+|-damage|p1a: Scrafty|12/100 psn|[from] psn
+|upkeep
+|c|☆Dominatio|this mons gay
+|choice||switch 4
+|
+|switch|p2a: Houndoom|Houndoom, M|100/100
+|-damage|p2a: Houndoom|76/100|[from] Stealth Rock
+|turn|12
+|choice|move highjumpkick|move suckerpunch
+|
+|move|p2a: Houndoom|Sucker Punch|p1a: Scrafty
+|-resisted|p1a: Scrafty
+|-damage|p1a: Scrafty|2/100 psn
+|-damage|p2a: Houndoom|66/100|[from] item: Life Orb
+|move|p1a: Scrafty|High Jump Kick|p2a: Houndoom
+|-supereffective|p2a: Houndoom
+|-damage|p2a: Houndoom|0 fnt
+|faint|p2a: Houndoom
+|
+|-damage|p1a: Scrafty|0 fnt|[from] psn
+|upkeep
+|faint|p1a: Scrafty
+|choice|switch 3|switch 6
+|
+|switch|p2a: Delphox|Delphox, M|100/100
+|switch|p1a: Audino|Audino, M|100/100
+|-damage|p2a: Delphox|76/100|[from] Stealth Rock
+|turn|13
+|choice|move surf mega|move fireblast
+|
+|detailschange|p1a: Audino|Audino-Mega, M
+|-mega|p1a: Audino|Audino|Audinite
+|move|p2a: Delphox|Fire Blast|p1a: Audino
+|-damage|p1a: Audino|50/100
+|move|p1a: Audino|Surf|p2a: Delphox
+|-supereffective|p2a: Delphox
+|-damage|p2a: Delphox|17/100
+|
+|upkeep
+|turn|14
+|choice|move surf|move fireblast
+|
+|move|p2a: Delphox|Fire Blast|p1a: Audino
+|-damage|p1a: Audino|0 fnt
+|faint|p1a: Audino
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Hitmonlee|Hitmonlee, M|100/100
+|turn|15
+|choice|move closecombat|move fireblast
+|
+|move|p1a: Hitmonlee|Close Combat|p2a: Delphox
+|-resisted|p2a: Delphox
+|-damage|p2a: Delphox|0 fnt
+|-unboost|p1a: Hitmonlee|def|1
+|-unboost|p1a: Hitmonlee|spd|1
+|faint|p2a: Delphox
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Clawitzer|Clawitzer, M|100/100
+|-damage|p2a: Clawitzer|88/100|[from] Stealth Rock
+|turn|16
+|choice|move closecombat|move scald
+|
+|move|p1a: Hitmonlee|Close Combat|p2a: Clawitzer
+|-damage|p2a: Clawitzer|8/100
+|-unboost|p1a: Hitmonlee|def|1
+|-unboost|p1a: Hitmonlee|spd|1
+|move|p2a: Clawitzer|Scald|p1a: Hitmonlee
+|-damage|p1a: Hitmonlee|0 fnt
+|-damage|p2a: Clawitzer|0 fnt|[from] item: Life Orb
+|faint|p1a: Hitmonlee
+|faint|p2a: Clawitzer
+|
+|upkeep
+|choice|switch 4|switch 5
+|
+|switch|p1a: Accelgor|Accelgor, M|100/100
+|switch|p2a: Absol|Absol, M|100/100
+|-damage|p2a: Absol|88/100|[from] Stealth Rock
+|turn|17
+|choice|move bugbuzz|move suckerpunch
+|
+|move|p2a: Absol|Sucker Punch|p1a: Accelgor
+|-damage|p1a: Accelgor|0 fnt
+|-damage|p2a: Absol|78/100|[from] item: Life Orb
+|faint|p1a: Accelgor
+|
+|win|Dominatio

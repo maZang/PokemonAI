@@ -1,0 +1,288 @@
+|j|To Sirius
+|j|Buudah
+|player|p1|To Sirius|167
+|player|p2|Buudah|167
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|36637,43670,51189,44161,43064,37200,55879,32930,10313,28210,54909,39657
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Weezing, M|item
+|poke|p1|Lilligant, F|item
+|poke|p1|Grumpig, M|item
+|poke|p1|Pelipper, M|item
+|poke|p1|Lanturn, M|item
+|poke|p1|Camerupt, M|item
+|poke|p2|Pawniard, M|item
+|poke|p2|Ferroseed, M|item
+|poke|p2|Vivillon, M|item
+|poke|p2|Ludicolo, M|item
+|poke|p2|Floatzel, M|item
+|poke|p2|Crustle, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 6, team 2, team 3, team 4, team 5, team 1|team 3, team 2, team 1, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Camerupt|Camerupt, M|100/100
+|switch|p2a: Vivillon|Vivillon, M|100/100
+|turn|1
+|choice|move stealthrock|move sleeppowder
+|
+|move|p2a: Vivillon|Sleep Powder|p1a: Camerupt
+|-status|p1a: Camerupt|slp
+|cant|p1a: Camerupt|slp
+|
+|upkeep
+|turn|2
+|choice|switch 5|move quiverdance
+|
+|switch|p1a: Lanturn|Lanturn, M|100/100
+|move|p2a: Vivillon|Quiver Dance|p2a: Vivillon
+|-boost|p2a: Vivillon|spa|1
+|-boost|p2a: Vivillon|spd|1
+|-boost|p2a: Vivillon|spe|1
+|
+|upkeep
+|turn|3
+|choice|move voltswitch|move energyball
+|
+|move|p2a: Vivillon|Energy Ball|p1a: Lanturn
+|-supereffective|p1a: Lanturn
+|-damage|p1a: Lanturn|33/100
+|move|p1a: Lanturn|Volt Switch|p2a: Vivillon
+|-supereffective|p2a: Vivillon
+|-enditem|p2a: Vivillon|Focus Sash
+|-damage|p2a: Vivillon|1/100
+|choice|switch 2|
+|
+|switch|p1a: Lilligant|Lilligant, F|100/100
+|
+|upkeep
+|turn|4
+|choice|move hiddenpower|move hurricane
+|
+|move|p1a: Lilligant|Hidden Power|p2a: Vivillon
+|-supereffective|p2a: Vivillon
+|-damage|p2a: Vivillon|0 fnt
+|faint|p2a: Vivillon
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Ludicolo|Ludicolo, M|100/100
+|turn|5
+|choice|switch 2|move raindance
+|
+|switch|p1a: Lanturn|Lanturn, M|33/100
+|move|p2a: Ludicolo|Rain Dance|p2a: Ludicolo
+|-weather|RainDance
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|choice|move voltswitch|move gigadrain
+|
+|move|p2a: Ludicolo|Giga Drain|p1a: Lanturn
+|-supereffective|p1a: Lanturn
+|-damage|p1a: Lanturn|0 fnt
+|-damage|p2a: Ludicolo|91/100|[from] item: Life Orb
+|faint|p1a: Lanturn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Grumpig|Grumpig, M|100/100
+|turn|7
+|choice|move toxic|switch 2
+|
+|switch|p2a: Ferroseed|Ferroseed, M|100/100
+|move|p1a: Grumpig|Toxic|p2a: Ferroseed
+|-immune|p2a: Ferroseed|[msg]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+|choice|move taunt|move thunderwave
+|
+|move|p1a: Grumpig|Taunt|p2a: Ferroseed
+|-start|p2a: Ferroseed|move: Taunt
+|cant|p2a: Ferroseed|move: Taunt|Thunder Wave
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|9
+|choice|move focusblast|move seedbomb
+|
+|move|p1a: Grumpig|Focus Blast|p2a: Ferroseed
+|-supereffective|p2a: Ferroseed
+|-damage|p2a: Ferroseed|46/100
+|move|p2a: Ferroseed|Seed Bomb|p1a: Grumpig
+|-damage|p1a: Grumpig|79/100
+|
+|-weather|none
+|-heal|p1a: Grumpig|85/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|choice|move focusblast|move seedbomb
+|
+|move|p1a: Grumpig|Focus Blast|p2a: Ferroseed|[miss]
+|-miss|p1a: Grumpig|p2a: Ferroseed
+|move|p2a: Ferroseed|Seed Bomb|p1a: Grumpig
+|-damage|p1a: Grumpig|65/100
+|
+|-heal|p1a: Grumpig|71/100|[from] item: Leftovers
+|-end|p2a: Ferroseed|move: Taunt
+|upkeep
+|turn|11
+|choice|move focusblast|move seedbomb
+|
+|move|p1a: Grumpig|Focus Blast|p2a: Ferroseed
+|-supereffective|p2a: Ferroseed
+|-damage|p2a: Ferroseed|0 fnt
+|faint|p2a: Ferroseed
+|
+|-heal|p1a: Grumpig|77/100|[from] item: Leftovers
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Crustle|Crustle, M|100/100
+|turn|12
+|choice|move toxic|move knockoff
+|
+|move|p1a: Grumpig|Toxic|p2a: Crustle
+|-status|p2a: Crustle|tox
+|move|p2a: Crustle|Knock Off|p1a: Grumpig
+|-supereffective|p1a: Grumpig
+|-damage|p1a: Grumpig|7/100
+|-enditem|p1a: Grumpig|Leftovers|[from] move: Knock Off|[of] p2a: Crustle
+|
+|-damage|p2a: Crustle|94/100 tox|[from] psn
+|upkeep
+|turn|13
+|choice|move focusblast|move knockoff
+|
+|move|p1a: Grumpig|Focus Blast|p2a: Crustle
+|-damage|p2a: Crustle|43/100 tox
+|-unboost|p2a: Crustle|spd|1
+|move|p2a: Crustle|Knock Off|p1a: Grumpig
+|-supereffective|p1a: Grumpig
+|-damage|p1a: Grumpig|0 fnt
+|faint|p1a: Grumpig
+|
+|-damage|p2a: Crustle|31/100 tox|[from] psn
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Pelipper|Pelipper, M|100/100
+|turn|14
+|choice|move scald|move knockoff
+|
+|move|p2a: Crustle|Knock Off|p1a: Pelipper
+|-damage|p1a: Pelipper|80/100
+|-enditem|p1a: Pelipper|Leftovers|[from] move: Knock Off|[of] p2a: Crustle
+|move|p1a: Pelipper|Scald|p2a: Crustle
+|-supereffective|p2a: Crustle
+|-damage|p2a: Crustle|0 fnt
+|faint|p2a: Crustle
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Ludicolo|Ludicolo, M|91/100
+|turn|15
+|choice|switch 2|move raindance
+|
+|switch|p1a: Lilligant|Lilligant, F|100/100
+|move|p2a: Ludicolo|Rain Dance|p2a: Ludicolo
+|-weather|RainDance
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|16
+|choice|move leafstorm|move icebeam
+|
+|move|p2a: Ludicolo|Ice Beam|p1a: Lilligant
+|-supereffective|p1a: Lilligant
+|-damage|p1a: Lilligant|0 fnt
+|-damage|p2a: Ludicolo|81/100|[from] item: Life Orb
+|faint|p1a: Lilligant
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Pelipper|Pelipper, M|80/100
+|turn|17
+|choice|move uturn|move icebeam
+|
+|move|p2a: Ludicolo|Ice Beam|p1a: Pelipper
+|-damage|p1a: Pelipper|29/100
+|-damage|p2a: Ludicolo|71/100|[from] item: Life Orb
+|move|p1a: Pelipper|U-turn|p2a: Ludicolo
+|-supereffective|p2a: Ludicolo
+|-damage|p2a: Ludicolo|45/100
+|choice|switch 5|
+|
+|switch|p1a: Camerupt|Camerupt, M|100/100 slp
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|18
+|choice|move stealthrock|move hydropump
+|
+|move|p2a: Ludicolo|Hydro Pump|p1a: Camerupt
+|-supereffective|p1a: Camerupt
+|-damage|p1a: Camerupt|0 fnt
+|-damage|p2a: Ludicolo|35/100|[from] item: Life Orb
+|faint|p1a: Camerupt
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Pelipper|Pelipper, M|29/100
+|turn|19
+|choice|move roost|move icebeam
+|
+|move|p2a: Ludicolo|Ice Beam|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|-damage|p2a: Ludicolo|25/100|[from] item: Life Orb
+|faint|p1a: Pelipper
+|
+|-weather|none
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Weezing|Weezing, M|100/100
+|turn|20
+|choice|move sludgebomb|move raindance
+|
+|move|p2a: Ludicolo|Rain Dance|p2a: Ludicolo
+|-weather|RainDance
+|move|p1a: Weezing|Sludge Bomb|p2a: Ludicolo
+|-supereffective|p2a: Ludicolo
+|-damage|p2a: Ludicolo|0 fnt
+|faint|p2a: Ludicolo
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Floatzel|Floatzel, M|100/100
+|turn|21
+|choice|move sludgebomb|move hydropump
+|
+|move|p2a: Floatzel|Hydro Pump|p1a: Weezing
+|-damage|p1a: Weezing|0 fnt
+|-damage|p2a: Floatzel|91/100|[from] item: Life Orb
+|faint|p1a: Weezing
+|
+|win|Buudah
+|raw|To Sirius's rating: 1439 &rarr; <strong>1413</strong><br />(-26 for losing)
+|raw|Buudah's rating: 1322 &rarr; <strong>1349</strong><br />(+27 for winning)
+|l|To Sirius

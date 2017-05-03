@@ -1,0 +1,420 @@
+|j|Aquos_stormfront
+|j|duvdusgista
+|player|p1|Aquos_stormfront|101
+|player|p2|duvdusgista|126
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|40139,36428,16097,7471,54043,20529,11370,3801,42856,25500,35089,24554
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Raichu, M|item
+|poke|p1|Drifblim, M|item
+|poke|p1|Mightyena, M|item
+|poke|p1|Regice|item
+|poke|p1|Leafeon, M|item
+|poke|p1|Lickilicky, M|item
+|poke|p2|Ampharos, M|item
+|poke|p2|Jumpluff, M|
+|poke|p2|Floatzel, M|item
+|poke|p2|Arbok, M|item
+|poke|p2|Glalie, M|item
+|poke|p2|Gabite, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 5, team 2, team 3, team 4, team 1, team 6|team 6, team 2, team 3, team 4, team 5, team 1
+|
+|start
+|switch|p1a: Leafeon|Leafeon, M|100/100
+|switch|p2a: Gabite|Gabite, M|100/100
+|turn|1
+|choice|move knockoff|move stealthrock
+|
+|move|p1a: Leafeon|Knock Off|p2a: Gabite
+|-damage|p2a: Gabite|55/100
+|-damage|p1a: Leafeon|88/100|[from] ability: Rough Skin|[of] p2a: Gabite
+|-enditem|p2a: Gabite|Eviolite|[from] move: Knock Off|[of] p1a: Leafeon
+|-damage|p1a: Leafeon|78/100|[from] item: Life Orb
+|move|p2a: Gabite|Stealth Rock|p1a: Leafeon
+|-sidestart|p1: Aquos_stormfront|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|choice|move swordsdance|move outrage
+|
+|move|p1a: Leafeon|Swords Dance|p1a: Leafeon
+|-boost|p1a: Leafeon|atk|2
+|move|p2a: Gabite|Outrage|p1a: Leafeon
+|-damage|p1a: Leafeon|28/100
+|
+|upkeep
+|turn|3
+|choice|move leafblade|move outrage
+|
+|move|p1a: Leafeon|Leaf Blade|p2a: Gabite
+|-damage|p2a: Gabite|0 fnt
+|-damage|p1a: Leafeon|16/100|[from] ability: Rough Skin|[of] p2a: Gabite
+|-damage|p1a: Leafeon|6/100|[from] item: Life Orb
+|faint|p2a: Gabite
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Jumpluff|Jumpluff, M|100/100
+|turn|4
+|choice|move batonpass|move acrobatics
+|
+|move|p2a: Jumpluff|Acrobatics|p1a: Leafeon
+|-supereffective|p1a: Leafeon
+|-damage|p1a: Leafeon|0 fnt
+|faint|p1a: Leafeon
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Drifblim|Drifblim, M|100/100
+|-damage|p1a: Drifblim|75/100|[from] Stealth Rock
+|turn|5
+|choice|move willowisp|move sleeppowder
+|
+|move|p2a: Jumpluff|Sleep Powder|p1a: Drifblim
+|-status|p1a: Drifblim|slp
+|cant|p1a: Drifblim|slp
+|
+|upkeep
+|turn|6
+|choice|move willowisp|move acrobatics
+|
+|move|p2a: Jumpluff|Acrobatics|p1a: Drifblim
+|-damage|p1a: Drifblim|30/100 slp
+|-curestatus|p1a: Drifblim|slp|[msg]
+|move|p1a: Drifblim|Will-O-Wisp|p2a: Jumpluff
+|-status|p2a: Jumpluff|brn
+|
+|-damage|p2a: Jumpluff|88/100 brn|[from] brn
+|upkeep
+|turn|7
+|c|☆duvdusgista|shit
+|choice|move acrobatics|move acrobatics
+|
+|move|p2a: Jumpluff|Acrobatics|p1a: Drifblim
+|-damage|p1a: Drifblim|6/100
+|-enditem|p1a: Drifblim|Liechi Berry|[eat]
+|-boost|p1a: Drifblim|atk|1
+|move|p1a: Drifblim|Acrobatics|p2a: Jumpluff
+|-supereffective|p2a: Jumpluff
+|-damage|p2a: Jumpluff|0 fnt
+|faint|p2a: Jumpluff
+|
+|upkeep
+|c|☆duvdusgista|shit got nerfed?
+|c|☆Aquos_stormfront|A little
+|c|☆duvdusgista|and where is your unburden?
+|c|☆Aquos_stormfront|Not sure, might be the liechi berry or it doesn't Tell you idk
+|choice||switch 3
+|
+|switch|p2a: Floatzel|Floatzel, M|100/100
+|turn|8
+|choice|move acrobatics|move surf
+|
+|move|p1a: Drifblim|Acrobatics|p2a: Floatzel
+|-damage|p2a: Floatzel|0 fnt
+|faint|p2a: Floatzel
+|
+|upkeep
+|c|☆duvdusgista|there it is
+|choice||switch 6
+|
+|switch|p2a: Ampharos|Ampharos, M|100/100
+|turn|9
+|choice|move acrobatics|move agility
+|
+|move|p1a: Drifblim|Acrobatics|p2a: Ampharos
+|-resisted|p2a: Ampharos
+|-crit|p2a: Ampharos
+|-damage|p2a: Ampharos|36/100
+|-status|p1a: Drifblim|par|[from] ability: Static|[of] p2a: Ampharos
+|move|p2a: Ampharos|Agility|p2a: Ampharos
+|-boost|p2a: Ampharos|spe|2
+|
+|upkeep
+|turn|10
+|c|☆duvdusgista|nasty
+|choice|move acrobatics|move thunderbolt
+|
+|move|p2a: Ampharos|Thunderbolt|p1a: Drifblim
+|-supereffective|p1a: Drifblim
+|-damage|p1a: Drifblim|0 fnt
+|-damage|p2a: Ampharos|26/100|[from] item: Life Orb
+|faint|p1a: Drifblim
+|
+|upkeep
+|c|☆Aquos_stormfront|Rip
+|choice|switch 4|
+|
+|switch|p1a: Regice|Regice|100/100
+|-damage|p1a: Regice|76/100|[from] Stealth Rock
+|turn|11
+|c|☆duvdusgista|tip me
+|choice|move rockpolish|move focusblast
+|
+|move|p2a: Ampharos|Focus Blast|p1a: Regice
+|-supereffective|p1a: Regice
+|-damage|p1a: Regice|9/100
+|-damage|p2a: Ampharos|16/100|[from] item: Life Orb
+|move|p1a: Regice|Rock Polish|p1a: Regice
+|-boost|p1a: Regice|spe|2
+|
+|upkeep
+|turn|12
+|c|☆duvdusgista|damn, i didnt miss...
+|choice|move icebeam|move thunderbolt
+|
+|move|p2a: Ampharos|Thunderbolt|p1a: Regice
+|-damage|p1a: Regice|0 fnt
+|-damage|p2a: Ampharos|6/100|[from] item: Life Orb
+|faint|p1a: Regice
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Lickilicky|Lickilicky, M|100/100
+|-damage|p1a: Lickilicky|88/100|[from] Stealth Rock
+|turn|13
+|choice|move knockoff|move thunderbolt
+|
+|move|p2a: Ampharos|Thunderbolt|p1a: Lickilicky
+|-damage|p1a: Lickilicky|57/100
+|-damage|p2a: Ampharos|0 fnt|[from] item: Life Orb
+|faint|p2a: Ampharos
+|move|p1a: Lickilicky|Knock Off|p2: Ampharos|[notarget]
+|-notarget
+|
+|-heal|p1a: Lickilicky|63/100|[from] item: Leftovers
+|upkeep
+|c|☆duvdusgista|wish
+|c|☆Aquos_stormfront|Nah
+|choice||switch 4
+|
+|switch|p2a: Arbok|Arbok, M|100/100
+|turn|14
+|choice|move knockoff|move coil
+|
+|move|p2a: Arbok|Coil|p2a: Arbok
+|-boost|p2a: Arbok|atk|1
+|-boost|p2a: Arbok|def|1
+|-boost|p2a: Arbok|accuracy|1
+|move|p1a: Lickilicky|Knock Off|p2a: Arbok
+|-damage|p2a: Arbok|81/100
+|-enditem|p2a: Arbok|Black Sludge|[from] move: Knock Off|[of] p1a: Lickilicky
+|
+|-heal|p1a: Lickilicky|69/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|choice|move dragontail|move coil
+|
+|move|p2a: Arbok|Coil|p2a: Arbok
+|-boost|p2a: Arbok|atk|1
+|-boost|p2a: Arbok|def|1
+|-boost|p2a: Arbok|accuracy|1
+|move|p1a: Lickilicky|Dragon Tail|p2a: Arbok
+|-damage|p2a: Arbok|72/100
+|drag|p2a: Glalie|Glalie, M|100/100
+|
+|-heal|p1a: Lickilicky|75/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|choice|move knockoff|move spikes
+|
+|move|p2a: Glalie|Spikes|p1a: Lickilicky
+|-sidestart|p1: Aquos_stormfront|Spikes
+|move|p1a: Lickilicky|Knock Off|p2a: Glalie
+|-damage|p2a: Glalie|75/100
+|-enditem|p2a: Glalie|Focus Sash|[from] move: Knock Off|[of] p1a: Lickilicky
+|
+|-heal|p1a: Lickilicky|81/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|choice|move knockoff|move spikes
+|
+|move|p2a: Glalie|Spikes|p1a: Lickilicky
+|-sidestart|p1: Aquos_stormfront|Spikes
+|move|p1a: Lickilicky|Knock Off|p2a: Glalie
+|-damage|p2a: Glalie|57/100
+|
+|-heal|p1a: Lickilicky|87/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|choice|move knockoff|move spikes
+|
+|move|p2a: Glalie|Spikes|p1a: Lickilicky
+|-sidestart|p1: Aquos_stormfront|Spikes
+|move|p1a: Lickilicky|Knock Off|p2a: Glalie
+|-damage|p2a: Glalie|41/100
+|
+|-heal|p1a: Lickilicky|94/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|choice|move knockoff|move icebeam
+|
+|move|p2a: Glalie|Ice Beam|p1a: Lickilicky
+|-damage|p1a: Lickilicky|79/100
+|move|p1a: Lickilicky|Knock Off|p2a: Glalie
+|-damage|p2a: Glalie|23/100
+|
+|-heal|p1a: Lickilicky|85/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|choice|move knockoff|move explosion
+|
+|move|p2a: Glalie|Explosion|p1a: Lickilicky
+|-damage|p1a: Lickilicky|35/100
+|faint|p2a: Glalie
+|move|p1a: Lickilicky|Knock Off|p2: Glalie|[notarget]
+|-notarget
+|
+|-heal|p1a: Lickilicky|41/100|[from] item: Leftovers
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Arbok|Arbok, M|72/100
+|turn|21
+|choice|move knockoff|move coil
+|
+|move|p2a: Arbok|Coil|p2a: Arbok
+|-boost|p2a: Arbok|atk|1
+|-boost|p2a: Arbok|def|1
+|-boost|p2a: Arbok|accuracy|1
+|move|p1a: Lickilicky|Knock Off|p2a: Arbok
+|-damage|p2a: Arbok|60/100
+|
+|-heal|p1a: Lickilicky|47/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|choice|move knockoff|move coil
+|
+|move|p2a: Arbok|Coil|p2a: Arbok
+|-boost|p2a: Arbok|atk|1
+|-boost|p2a: Arbok|def|1
+|-boost|p2a: Arbok|accuracy|1
+|move|p1a: Lickilicky|Knock Off|p2a: Arbok
+|-damage|p2a: Arbok|50/100
+|
+|-heal|p1a: Lickilicky|53/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|c|☆duvdusgista|getting slow
+|choice|move knockoff|move rest
+|
+|move|p2a: Arbok|Rest|p2a: Arbok
+|-status|p2a: Arbok|slp
+|-heal|p2a: Arbok|100/100 slp|[silent]
+|-status|p2a: Arbok|slp|[from] move: Rest
+|move|p1a: Lickilicky|Knock Off|p2a: Arbok
+|-damage|p2a: Arbok|91/100 slp
+|
+|-heal|p1a: Lickilicky|59/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|choice|move wish|move gunkshot
+|
+|cant|p2a: Arbok|slp
+|move|p1a: Lickilicky|Wish|p1a: Lickilicky
+|
+|-heal|p1a: Lickilicky|66/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|c|☆duvdusgista|i got earthquake and decent sp def
+|choice|move knockoff|move coil
+|
+|cant|p2a: Arbok|slp
+|move|p1a: Lickilicky|Knock Off|p2a: Arbok
+|-damage|p2a: Arbok|81/100 slp
+|
+|-heal|p1a: Lickilicky|100/100|[from] move: Wish|[wisher] Lickilicky
+|upkeep
+|turn|26
+|choice|move knockoff|move coil
+|
+|-curestatus|p2a: Arbok|slp|[msg]
+|move|p2a: Arbok|Coil|p2a: Arbok
+|-boost|p2a: Arbok|atk|1
+|-boost|p2a: Arbok|def|1
+|-boost|p2a: Arbok|accuracy|1
+|move|p1a: Lickilicky|Knock Off|p2a: Arbok
+|-damage|p2a: Arbok|73/100
+|
+|upkeep
+|turn|27
+|choice|switch 3|move coil
+|
+|switch|p1a: Mightyena|Mightyena, M|100/100
+|-damage|p1a: Mightyena|76/100|[from] Spikes
+|-damage|p1a: Mightyena|64/100|[from] Stealth Rock
+|move|p2a: Arbok|Coil|p2a: Arbok
+|-boost|p2a: Arbok|atk|1
+|-boost|p2a: Arbok|def|1
+|-boost|p2a: Arbok|accuracy|1
+|
+|upkeep
+|turn|28
+|choice|move suckerpunch|move gunkshot
+|
+|move|p1a: Mightyena|Sucker Punch|p2a: Arbok
+|-damage|p2a: Arbok|52/100
+|-damage|p1a: Mightyena|54/100|[from] item: Life Orb
+|move|p2a: Arbok|Gunk Shot|p1a: Mightyena
+|-damage|p1a: Mightyena|0 fnt
+|faint|p1a: Mightyena
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Raichu|Raichu, M|100/100
+|-damage|p1a: Raichu|88/100|[from] Stealth Rock
+|-damage|p1a: Raichu|63/100|[from] Spikes
+|turn|29
+|choice|move thunderbolt|move earthquake
+|
+|move|p1a: Raichu|Thunderbolt|p2a: Arbok
+|-damage|p2a: Arbok|12/100
+|-damage|p1a: Raichu|54/100|[from] item: Life Orb
+|move|p2a: Arbok|Earthquake|p1a: Raichu
+|-supereffective|p1a: Raichu
+|-damage|p1a: Raichu|0 fnt
+|faint|p1a: Raichu
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Lickilicky|Lickilicky, M|100/100
+|-damage|p1a: Lickilicky|76/100|[from] Spikes
+|-damage|p1a: Lickilicky|63/100|[from] Stealth Rock
+|turn|30
+|c|☆Aquos_stormfront|Welp, there goes that
+|choice|move knockoff|move rest
+|
+|move|p2a: Arbok|Rest|p2a: Arbok
+|-status|p2a: Arbok|slp
+|-heal|p2a: Arbok|100/100 slp|[silent]
+|-status|p2a: Arbok|slp|[from] move: Rest
+|move|p1a: Lickilicky|Knock Off|p2a: Arbok
+|-damage|p2a: Arbok|94/100 slp
+|
+|-activate|p2a: Arbok|ability: Shed Skin
+|-curestatus|p2a: Arbok|slp|[msg]
+|-heal|p1a: Lickilicky|70/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|c|☆duvdusgista|gg
+|c|☆Aquos_stormfront|Gg
+|choice|move knockoff|move gunkshot
+|
+|move|p2a: Arbok|Gunk Shot|p1a: Lickilicky
+|-damage|p1a: Lickilicky|0 fnt
+|faint|p1a: Lickilicky
+|
+|win|duvdusgista
+|l|Aquos_stormfront

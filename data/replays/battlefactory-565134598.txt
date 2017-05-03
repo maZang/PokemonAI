@@ -1,0 +1,177 @@
+|j|veexr
+|j|SunPseudo
+|player|p1|veexr|170
+|player|p2|SunPseudo|102
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|8673,38449,25579,12431,37210,17148,3096,25394,32890,6199,53946,52627
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Deoxys|item
+|poke|p1|Excadrill, M|item
+|poke|p1|Latios, M|item
+|poke|p1|Arceus-*|item
+|poke|p1|Xerneas|item
+|poke|p1|Lugia|item
+|poke|p2|Yveltal|item
+|poke|p2|Deoxys-Speed|item
+|poke|p2|Arceus-*|item
+|poke|p2|Blaziken, M|item
+|poke|p2|Landorus, M|item
+|poke|p2|Latios, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 5, team 2, team 3, team 4, team 1, team 6|team 4, team 2, team 3, team 1, team 5, team 6
+|
+|start
+|switch|p1a: Xerneas|Xerneas|100/100
+|switch|p2a: Blaziken|Blaziken, M|100/100
+|-ability|p1a: Xerneas|Fairy Aura
+|turn|1
+|choice|move geomancy|move protect
+|
+|move|p2a: Blaziken|Protect|p2a: Blaziken
+|-singleturn|p2a: Blaziken|Protect
+|move|p1a: Xerneas|Geomancy|p1a: Xerneas|[still]
+|-prepare|p1a: Xerneas|Geomancy|p1a: Xerneas
+|-enditem|p1a: Xerneas|Power Herb
+|-anim|p1a: Xerneas|Geomancy|p1a: Xerneas
+|-boost|p1a: Xerneas|spa|2
+|-boost|p1a: Xerneas|spd|2
+|-boost|p1a: Xerneas|spe|2
+|
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|turn|2
+|choice|move moonblast|move swordsdance
+|
+|move|p1a: Xerneas|Moonblast|p2a: Blaziken
+|-damage|p2a: Blaziken|0 fnt
+|faint|p2a: Blaziken
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Arceus|Arceus-Fairy|100/100
+|turn|3
+|choice|move moonblast|move toxic
+|
+|move|p1a: Xerneas|Moonblast|p2a: Arceus
+|-damage|p2a: Arceus|4/100
+|-unboost|p2a: Arceus|spa|1
+|move|p2a: Arceus|Toxic|p1a: Xerneas|[miss]
+|-miss|p2a: Arceus|p1a: Xerneas
+|
+|upkeep
+|turn|4
+|choice|move moonblast|move recover
+|
+|move|p1a: Xerneas|Moonblast|p2a: Arceus
+|-damage|p2a: Arceus|0 fnt
+|faint|p2a: Arceus
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Deoxys|Deoxys-Speed|100/100
+|-ability|p2a: Deoxys|Pressure
+|turn|5
+|choice|move moonblast|move lightscreen
+|
+|move|p2a: Deoxys|Light Screen|p2a: Deoxys
+|-sidestart|p2: SunPseudo|move: Light Screen
+|move|p1a: Xerneas|Moonblast|p2a: Deoxys
+|-damage|p2a: Deoxys|5/100
+|
+|upkeep
+|turn|6
+|choice|move moonblast|move stealthrock
+|
+|move|p2a: Deoxys|Stealth Rock|p1a: Xerneas
+|-sidestart|p1: veexr|move: Stealth Rock
+|move|p1a: Xerneas|Moonblast|p2a: Deoxys
+|-damage|p2a: Deoxys|0 fnt
+|faint|p2a: Deoxys
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Landorus|Landorus, M|100/100
+|turn|7
+|choice|move moonblast|move knockoff
+|
+|move|p1a: Xerneas|Moonblast|p2a: Landorus
+|-damage|p2a: Landorus|6/100
+|move|p2a: Landorus|Knock Off|p1a: Xerneas
+|-resisted|p1a: Xerneas
+|-damage|p1a: Xerneas|92/100
+|-damage|p2a: Landorus|0 fnt|[from] item: Life Orb
+|faint|p2a: Landorus
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Yveltal|Yveltal|100/100
+|-ability|p2a: Yveltal|Dark Aura
+|turn|8
+|choice|move thunder|move foulplay
+|
+|move|p1a: Xerneas|Thunder|p2a: Yveltal|[miss]
+|-miss|p1a: Xerneas|p2a: Yveltal
+|move|p2a: Yveltal|Foul Play|p1a: Xerneas
+|-resisted|p1a: Xerneas
+|-damage|p1a: Xerneas|73/100
+|
+|upkeep
+|turn|9
+|choice|move thunder|switch 6
+|
+|switch|p2a: Latios|Latios, M|100/100
+|move|p1a: Xerneas|Thunder|p2a: Latios
+|-resisted|p2a: Latios
+|-damage|p2a: Latios|87/100
+|-status|p2a: Latios|par
+|
+|upkeep
+|turn|10
+|choice|move moonblast|move calmmind
+|
+|move|p1a: Xerneas|Moonblast|p2a: Latios
+|-supereffective|p2a: Latios
+|-damage|p2a: Latios|0 fnt
+|faint|p2a: Latios
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Yveltal|Yveltal|100/100
+|-ability|p2a: Yveltal|Dark Aura
+|turn|11
+|choice|move thunder|move suckerpunch
+|
+|move|p2a: Yveltal|Sucker Punch|p1a: Xerneas
+|-resisted|p1a: Xerneas
+|-damage|p1a: Xerneas|55/100
+|move|p1a: Xerneas|Thunder|p2a: Yveltal
+|-supereffective|p2a: Yveltal
+|-damage|p2a: Yveltal|36/100
+|-status|p2a: Yveltal|par
+|
+|-heal|p2a: Yveltal|42/100 par|[from] item: Leftovers
+|upkeep
+|turn|12
+|choice|move thunder|move suckerpunch
+|
+|move|p2a: Yveltal|Sucker Punch|p1a: Xerneas
+|-resisted|p1a: Xerneas
+|-damage|p1a: Xerneas|38/100
+|move|p1a: Xerneas|Thunder|p2a: Yveltal
+|-supereffective|p2a: Yveltal
+|-damage|p2a: Yveltal|0 fnt
+|faint|p2a: Yveltal
+|
+|win|veexr
+|l|SunPseudo

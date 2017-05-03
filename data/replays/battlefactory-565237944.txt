@@ -1,0 +1,386 @@
+|j|2hes1r
+|j|pune44
+|player|p1|2hes1r|293
+|player|p2|pune44|262
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|37324,55688,60381,59081,6207,23774,42737,59097,21264,52643,60637,38576
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Lucario, M|item
+|poke|p1|Toxicroak, M|item
+|poke|p1|Swampert, M|item
+|poke|p1|Florges, F|item
+|poke|p1|Houndoom, M|item
+|poke|p1|Nidoqueen, F|item
+|poke|p2|Beedrill, M|item
+|poke|p2|Porygon-Z|item
+|poke|p2|Cloyster, M|item
+|poke|p2|Sableye, M|item
+|poke|p2|Diancie|item
+|poke|p2|Milotic, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 5, team 2, team 3, team 4, team 1, team 6|team 2, team 1, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Houndoom|Houndoom, M|100/100
+|switch|p2a: Porygon-Z|Porygon-Z|100/100
+|turn|1
+|choice|move sunnyday mega|move thunderbolt
+|
+|detailschange|p1a: Houndoom|Houndoom-Mega, M
+|-mega|p1a: Houndoom|Houndoom|Houndoominite
+|move|p2a: Porygon-Z|Thunderbolt|p1a: Houndoom
+|-damage|p1a: Houndoom|53/100
+|move|p1a: Houndoom|Sunny Day|p1a: Houndoom
+|-weather|SunnyDay
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Houndoom|41/100|[from] ability: Solar Power|[of] p1a: Houndoom
+|upkeep
+|turn|2
+|choice|switch 6|move thunderbolt
+|
+|switch|p1a: Nidoqueen|Nidoqueen, F|100/100
+|move|p2a: Porygon-Z|Thunderbolt|p1a: Nidoqueen
+|-immune|p1a: Nidoqueen|[msg]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|choice|move sludgewave|switch 6
+|
+|switch|p2a: Milotic|Milotic, M|100/100
+|move|p1a: Nidoqueen|Sludge Wave|p2a: Milotic
+|-damage|p2a: Milotic|45/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|choice|switch 4|move recover
+|
+|switch|p1a: Florges|Florges, F|100/100
+|move|p2a: Milotic|Recover|p2a: Milotic
+|-heal|p2a: Milotic|95/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|choice|move moonblast|move hydropump
+|
+|move|p2a: Milotic|Hydro Pump|p1a: Florges
+|-damage|p1a: Florges|83/100
+|-damage|p2a: Milotic|85/100|[from] item: Life Orb
+|move|p1a: Florges|Moonblast|p2a: Milotic
+|-damage|p2a: Milotic|55/100
+|-unboost|p2a: Milotic|spa|1
+|-ability|p2a: Milotic|Competitive|boost
+|-boost|p2a: Milotic|spa|2
+|
+|-weather|none
+|-heal|p1a: Florges|89/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|choice|move wish|move icebeam
+|
+|move|p2a: Milotic|Ice Beam|p1a: Florges
+|-damage|p1a: Florges|60/100
+|-damage|p2a: Milotic|46/100|[from] item: Life Orb
+|move|p1a: Florges|Wish|p1a: Florges
+|
+|-heal|p1a: Florges|67/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|choice|move moonblast|move recover
+|
+|move|p2a: Milotic|Recover|p2a: Milotic
+|-heal|p2a: Milotic|96/100
+|move|p1a: Florges|Moonblast|p2a: Milotic
+|-damage|p2a: Milotic|65/100
+|
+|-heal|p1a: Florges|100/100|[from] move: Wish|[wisher] Florges
+|upkeep
+|turn|8
+|choice|move wish|move hiddenpower
+|
+|move|p2a: Milotic|Hidden Power|p1a: Florges
+|-damage|p1a: Florges|81/100
+|-damage|p2a: Milotic|55/100|[from] item: Life Orb
+|move|p1a: Florges|Wish|p1a: Florges
+|
+|-heal|p1a: Florges|87/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|choice|switch 6|move icebeam
+|
+|switch|p1a: Houndoom|Houndoom-Mega, M|41/100
+|move|p2a: Milotic|Ice Beam|p1a: Houndoom
+|-resisted|p1a: Houndoom
+|-damage|p1a: Houndoom|10/100
+|-damage|p2a: Milotic|45/100|[from] item: Life Orb
+|
+|-heal|p1a: Houndoom|71/100|[from] move: Wish|[wisher] Florges
+|upkeep
+|turn|10
+|choice|move darkpulse|switch 5
+|
+|switch|p2a: Diancie|Diancie|100/100
+|move|p1a: Houndoom|Dark Pulse|p2a: Diancie
+|-resisted|p2a: Diancie
+|-damage|p2a: Diancie|84/100
+|
+|-heal|p2a: Diancie|91/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|choice|switch 2|move moonblast
+|
+|switch|p1a: Toxicroak|Toxicroak, M|100/100
+|move|p2a: Diancie|Moonblast|p1a: Toxicroak
+|-damage|p1a: Toxicroak|34/100
+|
+|-heal|p2a: Diancie|97/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|choice|move gunkshot|move stealthrock
+|
+|move|p1a: Toxicroak|Gunk Shot|p2a: Diancie
+|-damage|p2a: Diancie|37/100
+|-status|p2a: Diancie|psn
+|-damage|p1a: Toxicroak|24/100|[from] item: Life Orb
+|move|p2a: Diancie|Stealth Rock|p1a: Toxicroak
+|-sidestart|p1: 2hes1r|move: Stealth Rock
+|
+|-heal|p2a: Diancie|44/100 psn|[from] item: Leftovers
+|-damage|p2a: Diancie|31/100 psn|[from] psn
+|upkeep
+|turn|13
+|choice|move gunkshot|switch 4
+|
+|switch|p2a: Sableye|Sableye, M|100/100
+|move|p1a: Toxicroak|Gunk Shot|p2a: Sableye
+|-resisted|p2a: Sableye
+|-damage|p2a: Sableye|53/100
+|-status|p2a: Sableye|psn
+|-damage|p1a: Toxicroak|15/100|[from] item: Life Orb
+|
+|-heal|p2a: Sableye|59/100 psn|[from] item: Leftovers
+|-damage|p2a: Sableye|47/100 psn|[from] psn
+|upkeep
+|turn|14
+|choice|move gunkshot|switch 2
+|
+|switch|p2a: Beedrill|Beedrill, M|100/100
+|move|p1a: Toxicroak|Gunk Shot|p2a: Beedrill|[miss]
+|-miss|p1a: Toxicroak|p2a: Beedrill
+|
+|upkeep
+|turn|15
+|choice|move suckerpunch|move poisonjab
+|
+|move|p1a: Toxicroak|Sucker Punch|p2a: Beedrill
+|-crit|p2a: Beedrill
+|-damage|p2a: Beedrill|0 fnt
+|-damage|p1a: Toxicroak|5/100|[from] item: Life Orb
+|faint|p2a: Beedrill
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Cloyster|Cloyster, M|100/100
+|turn|16
+|choice|move drainpunch|move explosion
+|
+|move|p1a: Toxicroak|Drain Punch|p2a: Cloyster
+|-supereffective|p2a: Cloyster
+|-damage|p2a: Cloyster|22/100
+|-heal|p1a: Toxicroak|36/100|[from] drain|[of] p2a: Cloyster
+|-damage|p1a: Toxicroak|26/100|[from] item: Life Orb
+|move|p2a: Cloyster|Explosion|p1a: Toxicroak
+|-damage|p1a: Toxicroak|0 fnt
+|faint|p2a: Cloyster
+|faint|p1a: Toxicroak
+|
+|upkeep
+|choice|switch 5|switch 5
+|
+|switch|p1a: Lucario|Lucario, M|100/100
+|switch|p2a: Milotic|Milotic, M|45/100
+|-damage|p1a: Lucario|98/100|[from] Stealth Rock
+|turn|17
+|choice|move swordsdance|move recover
+|
+|move|p1a: Lucario|Swords Dance|p1a: Lucario
+|-boost|p1a: Lucario|atk|2
+|move|p2a: Milotic|Recover|p2a: Milotic
+|-heal|p2a: Milotic|95/100
+|
+|upkeep
+|turn|18
+|choice|move swordsdance|move hydropump
+|
+|move|p1a: Lucario|Swords Dance|p1a: Lucario
+|-boost|p1a: Lucario|atk|2
+|move|p2a: Milotic|Hydro Pump|p1a: Lucario
+|-damage|p1a: Lucario|0 fnt
+|-damage|p2a: Milotic|85/100|[from] item: Life Orb
+|faint|p1a: Lucario
+|
+|upkeep
+|c|☆pune44|hi
+|choice|switch 2|
+|
+|switch|p1a: Houndoom|Houndoom-Mega, M|71/100
+|-damage|p1a: Houndoom|47/100|[from] Stealth Rock
+|turn|19
+|choice|move sunnyday|move hydropump
+|
+|move|p1a: Houndoom|Sunny Day|p1a: Houndoom
+|-weather|SunnyDay
+|move|p2a: Milotic|Hydro Pump|p1a: Houndoom
+|-supereffective|p1a: Houndoom
+|-damage|p1a: Houndoom|0 fnt
+|-damage|p2a: Milotic|75/100|[from] item: Life Orb
+|faint|p1a: Houndoom
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Swampert|Swampert, M|100/100
+|-damage|p1a: Swampert|94/100|[from] Stealth Rock
+|turn|20
+|choice|move roar|move hiddenpower
+|
+|move|p2a: Milotic|Hidden Power|p1a: Swampert
+|-supereffective|p1a: Swampert
+|-damage|p1a: Swampert|11/100
+|-damage|p2a: Milotic|65/100|[from] item: Life Orb
+|move|p1a: Swampert|Roar|p2a: Milotic
+|drag|p2a: Diancie|Diancie|31/100 psn
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Swampert|17/100|[from] item: Leftovers
+|-heal|p2a: Diancie|37/100 psn|[from] item: Leftovers
+|-damage|p2a: Diancie|25/100 psn|[from] psn
+|upkeep
+|turn|21
+|choice|move scald|switch 4
+|
+|switch|p2a: Milotic|Milotic, M|65/100
+|move|p1a: Swampert|Scald|p2a: Milotic
+|-resisted|p2a: Milotic
+|-damage|p2a: Milotic|58/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Swampert|24/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|choice|move earthquake|move hiddenpower
+|
+|move|p2a: Milotic|Hidden Power|p1a: Swampert
+|-supereffective|p1a: Swampert
+|-damage|p1a: Swampert|0 fnt
+|-damage|p2a: Milotic|48/100|[from] item: Life Orb
+|faint|p1a: Swampert
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Florges|Florges, F|87/100
+|-damage|p1a: Florges|75/100|[from] Stealth Rock
+|turn|23
+|choice|move moonblast|move hydropump
+|
+|move|p2a: Milotic|Hydro Pump|p1a: Florges
+|-damage|p1a: Florges|57/100
+|-damage|p2a: Milotic|38/100|[from] item: Life Orb
+|move|p1a: Florges|Moonblast|p2a: Milotic
+|-damage|p2a: Milotic|7/100
+|
+|-weather|none
+|-heal|p1a: Florges|63/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|choice|move moonblast|move hiddenpower
+|
+|move|p2a: Milotic|Hidden Power|p1a: Florges
+|-damage|p1a: Florges|49/100
+|-damage|p2a: Milotic|0 fnt|[from] item: Life Orb
+|faint|p2a: Milotic
+|move|p1a: Florges|Moonblast|p2: Milotic|[notarget]
+|-notarget
+|
+|-heal|p1a: Florges|55/100|[from] item: Leftovers
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Porygon-Z|Porygon-Z|100/100
+|turn|25
+|choice|move moonblast|move trick
+|
+|move|p2a: Porygon-Z|Trick|p1a: Florges
+|-activate|p2a: Porygon-Z|move: Trick|[of] p1a: Florges
+|-item|p1a: Florges|Choice Scarf|[from] move: Trick
+|-item|p2a: Porygon-Z|Leftovers|[from] move: Trick
+|move|p1a: Florges|Moonblast|p2a: Porygon-Z
+|-damage|p2a: Porygon-Z|55/100
+|-unboost|p2a: Porygon-Z|spa|1
+|
+|-heal|p2a: Porygon-Z|61/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|choice|move moonblast|move thunderbolt
+|
+|move|p1a: Florges|Moonblast|p2a: Porygon-Z
+|-damage|p2a: Porygon-Z|10/100
+|-unboost|p2a: Porygon-Z|spa|1
+|move|p2a: Porygon-Z|Thunderbolt|p1a: Florges
+|-damage|p1a: Florges|43/100
+|
+|-heal|p2a: Porygon-Z|16/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|choice|move moonblast|move triattack
+|
+|move|p2a: Porygon-Z|Tri Attack|p1a: Florges
+|-damage|p1a: Florges|26/100
+|move|p1a: Florges|Moonblast|p2a: Porygon-Z
+|-damage|p2a: Porygon-Z|0 fnt
+|faint|p2a: Porygon-Z
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Sableye|Sableye, M|47/100 psn
+|turn|28
+|choice|move moonblast|move willowisp
+|
+|move|p2a: Sableye|Will-O-Wisp|p1a: Florges
+|-status|p1a: Florges|brn
+|move|p1a: Florges|Moonblast|p2a: Sableye
+|-supereffective|p2a: Sableye
+|-damage|p2a: Sableye|0 fnt
+|faint|p2a: Sableye
+|
+|-damage|p1a: Florges|13/100 brn|[from] brn
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Diancie|Diancie|25/100 psn
+|turn|29
+|choice|move moonblast|move stealthrock
+|
+|move|p1a: Florges|Moonblast|p2a: Diancie
+|-crit|p2a: Diancie
+|-damage|p2a: Diancie|0 fnt
+|faint|p2a: Diancie
+|
+|win|2hes1r
+|raw|2hes1r's rating: 1164 &rarr; <strong>1178</strong><br />(+14 for winning)
+|raw|pune44's rating: 1000 &rarr; <strong>1000</strong><br />(+0 for losing)
+|l|2hes1r

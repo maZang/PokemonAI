@@ -1,0 +1,278 @@
+|J|marcop9923
+|J|Flaress
+|player|p1|marcop9923|241
+|player|p2|Flaress|1
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|62765,54719,54274,32256,54995,46590,20685,52358,12875,17345,13992,19486
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Tangela, M|item
+|poke|p1|Stoutland, M|item
+|poke|p1|Probopass, M|item
+|poke|p1|Armaldo, M|item
+|poke|p1|Mr. Mime, M|item
+|poke|p1|Huntail, M|item
+|poke|p2|Ninetales, M|item
+|poke|p2|Grumpig, M|item
+|poke|p2|Golduck, M|item
+|poke|p2|Avalugg, M|item
+|poke|p2|Leafeon, M|item
+|poke|p2|Roselia, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|c|☆marcop9923|i play for adv cup
+|c|☆marcop9923|whenever new breed
+|c|☆marcop9923|shows up
+|choice|team 2, team 1, team 3, team 4, team 5, team 6|team 6, team 2, team 3, team 4, team 5, team 1
+|
+|start
+|switch|p1a: Stoutland|Stoutland, M|100/100
+|switch|p2a: Roselia|Roselia, M|100/100
+|turn|1
+|choice|move return|move sleeppowder
+|
+|move|p1a: Stoutland|Return|p2a: Roselia
+|-damage|p2a: Roselia|0 fnt
+|faint|p2a: Roselia
+|
+|upkeep
+|c|☆Flaress|goddamn
+|choice||switch 4
+|
+|switch|p2a: Avalugg|Avalugg, M|100/100
+|turn|2
+|choice|move return|move toxic
+|
+|move|p1a: Stoutland|Return|p2a: Avalugg
+|-damage|p2a: Avalugg|61/100
+|move|p2a: Avalugg|Toxic|p1a: Stoutland
+|-status|p1a: Stoutland|tox
+|
+|-heal|p2a: Avalugg|67/100|[from] item: Leftovers
+|-damage|p1a: Stoutland|94/100 tox|[from] psn
+|upkeep
+|turn|3
+|choice|switch 3|move recover
+|
+|switch|p1a: Probopass|Probopass, M|100/100
+|move|p2a: Avalugg|Recover|p2a: Avalugg
+|-heal|p2a: Avalugg|100/100
+|
+|upkeep
+|turn|4
+|choice|move stealthrock|switch 5
+|
+|switch|p2a: Leafeon|Leafeon, M|100/100
+|move|p1a: Probopass|Stealth Rock|p2a: Leafeon
+|-sidestart|p2: Flaress|move: Stealth Rock
+|
+|upkeep
+|turn|5
+|choice|move voltswitch|move swordsdance
+|
+|move|p2a: Leafeon|Swords Dance|p2a: Leafeon
+|-boost|p2a: Leafeon|atk|2
+|move|p1a: Probopass|Volt Switch|p2a: Leafeon
+|-resisted|p2a: Leafeon
+|-damage|p2a: Leafeon|85/100
+|choice|switch 4|
+|
+|switch|p1a: Armaldo|Armaldo, M|100/100
+|
+|upkeep
+|turn|6
+|choice|move knockoff|switch 5
+|
+|switch|p2a: Avalugg|Avalugg, M|100/100
+|-damage|p2a: Avalugg|76/100|[from] Stealth Rock
+|move|p1a: Armaldo|Knock Off|p2a: Avalugg
+|-damage|p2a: Avalugg|61/100
+|-enditem|p2a: Avalugg|Leftovers|[from] move: Knock Off|[of] p1a: Armaldo
+|
+|upkeep
+|turn|7
+|choice|move stoneedge|move rapidspin
+|
+|move|p1a: Armaldo|Stone Edge|p2a: Avalugg
+|-supereffective|p2a: Avalugg
+|-damage|p2a: Avalugg|17/100
+|move|p2a: Avalugg|Rapid Spin|p1a: Armaldo
+|-resisted|p1a: Armaldo
+|-damage|p1a: Armaldo|99/100
+|-sideend|p2: Flaress|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Avalugg
+|
+|-heal|p1a: Armaldo|100/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|choice|move stoneedge|switch 3
+|
+|switch|p2a: Golduck|Golduck, M|100/100
+|move|p1a: Armaldo|Stone Edge|p2a: Golduck
+|-crit|p2a: Golduck
+|-damage|p2a: Golduck|18/100
+|
+|upkeep
+|turn|9
+|choice|switch 2|move hydropump
+|
+|switch|p1a: Tangela|Tangela, M|100/100
+|move|p2a: Golduck|Hydro Pump|p1a: Tangela
+|-resisted|p1a: Tangela
+|-damage|p1a: Tangela|53/100
+|-damage|p2a: Golduck|8/100|[from] item: Life Orb
+|
+|upkeep
+|turn|10
+|c|☆Flaress|bro I ain't gonna trp
+|c|☆Flaress|trip
+|c|☆Flaress|these niggas are strong
+|c|☆marcop9923|yh
+|c|☆marcop9923|lmao
+|choice|switch 5|switch 6
+|
+|switch|p2a: Ninetales|Ninetales, M|100/100
+|switch|p1a: Mr. Mime|Mr. Mime, M|100/100
+|
+|upkeep
+|turn|11
+|choice|move psychic|switch 2
+|
+|switch|p2a: Grumpig|Grumpig, M|100/100
+|move|p1a: Mr. Mime|Psychic|p2a: Grumpig
+|-resisted|p2a: Grumpig
+|-damage|p2a: Grumpig|84/100
+|
+|-heal|p2a: Grumpig|90/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|choice|switch 4|move focusblast
+|
+|switch|p1a: Probopass|Probopass, M|100/100
+|move|p2a: Grumpig|Focus Blast|p1a: Probopass|[miss]
+|-miss|p2a: Grumpig|p1a: Probopass
+|
+|-heal|p2a: Grumpig|96/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|choice|move stealthrock|move taunt
+|
+|move|p2a: Grumpig|Taunt|p1a: Probopass
+|-start|p1a: Probopass|move: Taunt
+|cant|p1a: Probopass|move: Taunt|Stealth Rock
+|
+|-heal|p2a: Grumpig|100/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|choice|move voltswitch|move focusblast
+|
+|move|p2a: Grumpig|Focus Blast|p1a: Probopass|[miss]
+|-miss|p2a: Grumpig|p1a: Probopass
+|move|p1a: Probopass|Volt Switch|p2a: Grumpig
+|-damage|p2a: Grumpig|85/100
+|choice|switch 3|
+|
+|switch|p1a: Stoutland|Stoutland, M|94/100 tox
+|
+|-heal|p2a: Grumpig|91/100|[from] item: Leftovers
+|-damage|p1a: Stoutland|88/100 tox|[from] psn
+|upkeep
+|turn|15
+|choice|move return|switch 3
+|
+|switch|p2a: Avalugg|Avalugg, M|17/100
+|move|p1a: Stoutland|Return|p2a: Avalugg
+|-crit|p2a: Avalugg
+|-damage|p2a: Avalugg|0 fnt
+|faint|p2a: Avalugg
+|
+|-damage|p1a: Stoutland|76/100 tox|[from] psn
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Ninetales|Ninetales, M|100/100
+|turn|16
+|choice|move return|move fireblast
+|
+|move|p2a: Ninetales|Fire Blast|p1a: Stoutland
+|-damage|p1a: Stoutland|27/100 tox
+|move|p1a: Stoutland|Return|p2a: Ninetales
+|-damage|p2a: Ninetales|0 fnt
+|faint|p2a: Ninetales
+|
+|-damage|p1a: Stoutland|9/100 tox|[from] psn
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Leafeon|Leafeon, M|85/100
+|turn|17
+|choice|switch 5|move knockoff
+|
+|switch|p1a: Tangela|Tangela, M|86/100
+|move|p2a: Leafeon|Knock Off|p1a: Tangela
+|-damage|p1a: Tangela|64/100
+|-enditem|p1a: Tangela|Eviolite|[from] move: Knock Off|[of] p2a: Leafeon
+|-damage|p2a: Leafeon|75/100|[from] item: Life Orb
+|
+|upkeep
+|turn|18
+|choice|move hiddenpower|move xscissor
+|
+|move|p2a: Leafeon|X-Scissor|p1a: Tangela
+|-supereffective|p1a: Tangela
+|-damage|p1a: Tangela|4/100
+|-damage|p2a: Leafeon|65/100|[from] item: Life Orb
+|move|p1a: Tangela|Hidden Power|p2a: Leafeon
+|-supereffective|p2a: Leafeon
+|-damage|p2a: Leafeon|0 fnt
+|faint|p2a: Leafeon
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Grumpig|Grumpig, M|91/100
+|turn|19
+|c|☆marcop9923|why
+|c|☆marcop9923|did that kill
+|choice|move leafstorm|move shadowball
+|
+|move|p2a: Grumpig|Shadow Ball|p1a: Tangela
+|-damage|p1a: Tangela|0 fnt
+|faint|p1a: Tangela
+|
+|-heal|p2a: Grumpig|97/100|[from] item: Leftovers
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Stoutland|Stoutland, M|9/100 tox
+|turn|20
+|c|☆Flaress|I'm questioning how the leafeon
+|c|☆Flaress|didnt kill
+|choice|move crunch|move shadowball
+|
+|move|p1a: Stoutland|Crunch|p2a: Grumpig
+|-supereffective|p2a: Grumpig
+|-damage|p2a: Grumpig|0 fnt
+|faint|p2a: Grumpig
+|
+|-damage|p1a: Stoutland|3/100 tox|[from] psn
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Golduck|Golduck, M|8/100
+|turn|21
+|c|☆marcop9923|tengale
+|c|☆Flaress|gg
+|c|☆marcop9923|is fat
+|c|☆marcop9923|gg
+|choice|move crunch|move icebeam
+|
+|move|p2a: Golduck|Ice Beam|p1a: Stoutland
+|-damage|p1a: Stoutland|0 fnt
+|-damage|p2a: Golduck|0 fnt|[from] item: Life Orb
+|faint|p1a: Stoutland
+|faint|p2a: Golduck
+|
+|win|marcop9923

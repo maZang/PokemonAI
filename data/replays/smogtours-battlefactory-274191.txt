@@ -1,0 +1,290 @@
+|J|rojovsred
+|J|victordoblew
+|player|p1|rojovsred|190
+|player|p2|victordoblew|102
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|19010,4782,34296,44159,6064,61421,1853,5044,10533,64068,7730,3615
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Electivire, M|item
+|poke|p1|Hitmonchan, M|item
+|poke|p1|Mesprit|item
+|poke|p1|Malamar, M|item
+|poke|p1|Tangela, M|item
+|poke|p1|Abomasnow, M|item
+|poke|p2|Hitmonchan, M|item
+|poke|p2|Vivillon, M|item
+|poke|p2|Garbodor, M|item
+|poke|p2|Audino, M|item
+|poke|p2|Pinsir, M|item
+|poke|p2|Rotom|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 4, team 2, team 3, team 1, team 5, team 6|team 2, team 1, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Malamar|Malamar, M|100/100
+|switch|p2a: Vivillon|Vivillon, M|100/100
+|turn|1
+|choice|move switcheroo|move sleeppowder
+|
+|move|p1a: Malamar|Switcheroo|p2a: Vivillon
+|-activate|p1a: Malamar|move: Trick|[of] p2a: Vivillon
+|-item|p2a: Vivillon|Choice Scarf|[from] move: Switcheroo
+|-item|p1a: Malamar|Focus Sash|[from] move: Switcheroo
+|move|p2a: Vivillon|Sleep Powder|p1a: Malamar
+|-status|p1a: Malamar|slp
+|
+|upkeep
+|turn|2
+|choice|move knockoff|switch 5
+|
+|switch|p2a: Pinsir|Pinsir, M|100/100
+|-ability|p2a: Pinsir|Mold Breaker
+|cant|p1a: Malamar|slp
+|
+|upkeep
+|turn|3
+|choice|move psychocut|move stealthrock
+|
+|move|p2a: Pinsir|Stealth Rock|p1a: Malamar
+|-sidestart|p1: rojovsred|move: Stealth Rock
+|cant|p1a: Malamar|slp
+|
+|upkeep
+|turn|4
+|choice|move psychocut|move xscissor
+|
+|move|p2a: Pinsir|X-Scissor|p1a: Malamar
+|-supereffective|p1a: Malamar
+|-enditem|p1a: Malamar|Focus Sash
+|-damage|p1a: Malamar|1/100 slp
+|cant|p1a: Malamar|slp
+|
+|upkeep
+|turn|5
+|choice|move psychocut|move xscissor
+|
+|move|p2a: Pinsir|X-Scissor|p1a: Malamar
+|-supereffective|p1a: Malamar
+|-damage|p1a: Malamar|0 fnt
+|faint|p1a: Malamar
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Electivire|Electivire, M|100/100
+|-damage|p1a: Electivire|88/100|[from] Stealth Rock
+|turn|6
+|choice|move wildcharge|switch 3
+|
+|switch|p2a: Garbodor|Garbodor, M|100/100
+|move|p1a: Electivire|Wild Charge|p2a: Garbodor
+|-damage|p2a: Garbodor|17/100
+|-damage|p1a: Electivire|72/100|[from] item: Rocky Helmet|[of] p2a: Garbodor
+|-damage|p1a: Electivire|50/100|[from] recoil|[of] p2a: Garbodor
+|-damage|p1a: Electivire|40/100|[from] item: Life Orb
+|
+|upkeep
+|turn|7
+|choice|move earthquake|move drainpunch
+|
+|move|p1a: Electivire|Earthquake|p2a: Garbodor
+|-supereffective|p2a: Garbodor
+|-damage|p2a: Garbodor|0 fnt
+|-damage|p1a: Electivire|30/100|[from] item: Life Orb
+|faint|p2a: Garbodor
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Vivillon|Vivillon, M|100/100
+|turn|8
+|choice|move wildcharge|move sleeppowder
+|
+|move|p2a: Vivillon|Sleep Powder|p1a: Electivire
+|-status|p1a: Electivire|slp
+|cant|p1a: Electivire|slp
+|
+|upkeep
+|turn|9
+|choice|switch 5|switch 6
+|
+|switch|p2a: Rotom|Rotom|100/100
+|switch|p1a: Tangela|Tangela, M|100/100
+|-damage|p1a: Tangela|88/100|[from] Stealth Rock
+|
+|upkeep
+|turn|10
+|choice|move sleeppowder|move trick
+|
+|move|p2a: Rotom|Trick|p1a: Tangela
+|-activate|p2a: Rotom|move: Trick|[of] p1a: Tangela
+|-item|p1a: Tangela|Choice Scarf|[from] move: Trick
+|-item|p2a: Rotom|Eviolite|[from] move: Trick
+|move|p1a: Tangela|Sleep Powder|p2a: Rotom
+|-status|p2a: Rotom|slp
+|
+|upkeep
+|turn|11
+|choice|switch 5|switch 3
+|
+|switch|p2a: Pinsir|Pinsir, M|100/100
+|-ability|p2a: Pinsir|Mold Breaker
+|switch|p1a: Electivire|Electivire, M|30/100 slp
+|-damage|p1a: Electivire|18/100 slp|[from] Stealth Rock
+|
+|upkeep
+|turn|12
+|choice|move wildcharge|move xscissor
+|
+|cant|p1a: Electivire|slp
+|move|p2a: Pinsir|X-Scissor|p1a: Electivire
+|-damage|p1a: Electivire|0 fnt
+|faint|p1a: Electivire
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Mesprit|Mesprit|100/100
+|-damage|p1a: Mesprit|88/100|[from] Stealth Rock
+|turn|13
+|choice|move psychic|move xscissor
+|
+|move|p2a: Pinsir|X-Scissor|p1a: Mesprit
+|-supereffective|p1a: Mesprit
+|-damage|p1a: Mesprit|33/100
+|move|p1a: Mesprit|Psychic|p2a: Pinsir
+|-damage|p2a: Pinsir|49/100
+|
+|-heal|p1a: Mesprit|39/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|choice|move psychic|move rocktomb
+|
+|move|p2a: Pinsir|Rock Tomb|p1a: Mesprit
+|-damage|p1a: Mesprit|24/100
+|-unboost|p1a: Mesprit|spe|1
+|move|p1a: Mesprit|Psychic|p2a: Pinsir
+|-damage|p2a: Pinsir|0 fnt
+|faint|p2a: Pinsir
+|
+|-heal|p1a: Mesprit|30/100|[from] item: Leftovers
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Vivillon|Vivillon, M|100/100
+|turn|15
+|choice|switch 6|move hurricane
+|
+|switch|p1a: Abomasnow|Abomasnow, M|100/100
+|-damage|p1a: Abomasnow|76/100|[from] Stealth Rock
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Abomasnow
+|move|p2a: Vivillon|Hurricane|p1a: Abomasnow
+|-supereffective|p1a: Abomasnow
+|-damage|p1a: Abomasnow|0 fnt
+|faint|p1a: Abomasnow
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Vivillon|95/100|[from] hail
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Hitmonchan|Hitmonchan, M|100/100
+|-damage|p1a: Hitmonchan|94/100|[from] Stealth Rock
+|turn|16
+|choice|move stoneedge|switch 3
+|
+|switch|p2a: Rotom|Rotom|100/100 slp
+|move|p1a: Hitmonchan|Stone Edge|p2a: Rotom|[miss]
+|-miss|p1a: Hitmonchan|p2a: Rotom
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Rotom|94/100 slp|[from] hail
+|-damage|p1a: Hitmonchan|88/100|[from] hail
+|upkeep
+|turn|17
+|choice|switch 6|move shadowball
+|
+|switch|p1a: Mesprit|Mesprit|30/100
+|-damage|p1a: Mesprit|18/100|[from] Stealth Rock
+|cant|p2a: Rotom|slp
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Rotom|88/100 slp|[from] hail
+|-damage|p1a: Mesprit|12/100|[from] hail
+|-heal|p1a: Mesprit|18/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|choice|move psychic|move shadowball
+|
+|cant|p2a: Rotom|slp
+|move|p1a: Mesprit|Psychic|p2a: Rotom
+|-damage|p2a: Rotom|32/100 slp
+|-unboost|p2a: Rotom|spd|1
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Rotom|26/100 slp|[from] hail
+|-damage|p1a: Mesprit|12/100|[from] hail
+|-heal|p1a: Mesprit|18/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|choice|move psychic|move shadowball
+|
+|cant|p2a: Rotom|slp
+|move|p1a: Mesprit|Psychic|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|-weather|none
+|-heal|p1a: Mesprit|24/100|[from] item: Leftovers
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Vivillon|Vivillon, M|95/100
+|turn|20
+|choice|move psychic|move hurricane
+|
+|move|p2a: Vivillon|Hurricane|p1a: Mesprit
+|-damage|p1a: Mesprit|0 fnt
+|faint|p1a: Mesprit
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Tangela|Tangela, M|100/100
+|-damage|p1a: Tangela|88/100|[from] Stealth Rock
+|turn|21
+|choice|move sleeppowder|move hurricane
+|
+|move|p2a: Vivillon|Hurricane|p1a: Tangela
+|-supereffective|p1a: Tangela
+|-damage|p1a: Tangela|0 fnt
+|faint|p1a: Tangela
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Hitmonchan|Hitmonchan, M|88/100
+|-damage|p1a: Hitmonchan|82/100|[from] Stealth Rock
+|turn|22
+|choice|move stoneedge|move hurricane
+|
+|move|p2a: Vivillon|Hurricane|p1a: Hitmonchan|[miss]
+|-miss|p2a: Vivillon|p1a: Hitmonchan
+|move|p1a: Hitmonchan|Stone Edge|p2a: Vivillon|[miss]
+|-miss|p1a: Hitmonchan|p2a: Vivillon
+|
+|upkeep
+|turn|23
+|choice|move stoneedge|move hurricane
+|
+|move|p2a: Vivillon|Hurricane|p1a: Hitmonchan
+|-supereffective|p1a: Hitmonchan
+|-damage|p1a: Hitmonchan|0 fnt
+|faint|p1a: Hitmonchan
+|
+|win|victordoblew

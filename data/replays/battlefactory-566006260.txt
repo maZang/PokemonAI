@@ -1,0 +1,329 @@
+|j|Goodra Royale
+|j|Maffinx
+|player|p1|Goodra Royale|52
+|player|p2|Maffinx|265
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|25517,57574,24106,1419,22738,23309,45672,29491,41093,37970,2885,39745
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Ferrothorn, M|item
+|poke|p1|Tyranitar, M|item
+|poke|p1|Mawile, M|item
+|poke|p1|Arceus-*|item
+|poke|p1|Latias, F|item
+|poke|p1|Lugia|item
+|poke|p2|Salamence, M|item
+|poke|p2|Darkrai|item
+|poke|p2|Arceus-*|item
+|poke|p2|Landorus, M|item
+|poke|p2|Deoxys-Attack|item
+|poke|p2|Aegislash, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 3, team 2, team 1, team 4, team 5, team 6|team 1, team 2, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Mawile|Mawile, M|100/100
+|switch|p2a: Salamence|Salamence, M|100/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Mawile|atk|1
+|-ability|p1a: Mawile|Intimidate|boost
+|-unboost|p2a: Salamence|atk|1
+|turn|1
+|choice|move playrough mega|move earthquake
+|
+|detailschange|p1a: Mawile|Mawile-Mega, M
+|-mega|p1a: Mawile|Mawile|Mawilite
+|move|p2a: Salamence|Earthquake|p1a: Mawile
+|-supereffective|p1a: Mawile
+|-damage|p1a: Mawile|49/100
+|move|p1a: Mawile|Play Rough|p2a: Salamence
+|-supereffective|p2a: Salamence
+|-damage|p2a: Salamence|0 fnt
+|faint|p2a: Salamence
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Landorus|Landorus, M|100/100
+|turn|2
+|choice|switch 6|move earthpower
+|
+|switch|p1a: Lugia|Lugia|100/100
+|move|p2a: Landorus|Earth Power|p1a: Lugia
+|-immune|p1a: Lugia|[msg]
+|
+|upkeep
+|turn|3
+|choice|move icebeam|move rockslide
+|
+|move|p2a: Landorus|Rock Slide|p1a: Lugia
+|-supereffective|p1a: Lugia
+|-damage|p1a: Lugia|85/100
+|move|p1a: Lugia|Ice Beam|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|-heal|p1a: Lugia|91/100|[from] item: Leftovers
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Darkrai|Darkrai|100/100
+|turn|4
+|choice|switch 3|move darkvoid
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|move|p2a: Darkrai|Dark Void|p1a: Ferrothorn
+|-status|p1a: Ferrothorn|slp
+|
+|-damage|p1a: Ferrothorn|88/100 slp|[from] ability: Bad Dreams|[of] p2a: Darkrai
+|upkeep
+|turn|5
+|choice|switch 2|move nastyplot
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Darkrai|Nasty Plot|p2a: Darkrai
+|-boost|p2a: Darkrai|spa|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Darkrai|94/100|[from] sandstorm
+|upkeep
+|turn|6
+|choice|move rockslide|move darkvoid
+|
+|move|p2a: Darkrai|Dark Void|p1a: Tyranitar
+|-message|Sleep Clause Mod activated.
+|move|p1a: Tyranitar|Rock Slide|p2a: Darkrai
+|-damage|p2a: Darkrai|49/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Darkrai|43/100|[from] sandstorm
+|upkeep
+|turn|7
+|choice|move stealthrock|switch 3
+|
+|switch|p2a: Arceus|Arceus-Fighting|100/100
+|move|p1a: Tyranitar|Stealth Rock|p2a: Arceus
+|-sidestart|p2: Maffinx|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Arceus|94/100|[from] sandstorm
+|upkeep
+|turn|8
+|choice|switch 6|move judgment
+|
+|switch|p1a: Mawile|Mawile-Mega, M|49/100
+|move|p2a: Arceus|Judgment|p1a: Mawile
+|-damage|p1a: Mawile|0 fnt
+|faint|p1a: Mawile
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Arceus|88/100|[from] sandstorm
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Latias|Latias, F|100/100
+|turn|9
+|choice|move psyshock|move icebeam
+|
+|move|p1a: Latias|Psyshock|p2a: Arceus
+|-supereffective|p2a: Arceus
+|-damage|p2a: Arceus|18/100
+|move|p2a: Arceus|Ice Beam|p1a: Latias
+|-supereffective|p1a: Latias
+|-damage|p1a: Latias|64/100
+|
+|-weather|none
+|upkeep
+|turn|10
+|choice|move dracometeor|switch 3
+|
+|switch|p2a: Darkrai|Darkrai|43/100
+|-damage|p2a: Darkrai|30/100|[from] Stealth Rock
+|move|p1a: Latias|Draco Meteor|p2a: Darkrai
+|-damage|p2a: Darkrai|0 fnt
+|-unboost|p1a: Latias|spa|2
+|faint|p2a: Darkrai
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Deoxys|Deoxys-Attack|100/100
+|-damage|p2a: Deoxys|88/100|[from] Stealth Rock
+|-ability|p2a: Deoxys|Pressure
+|turn|11
+|c|☆Goodra Royale|ur switch was to obvious
+|choice|switch 2|move psychoboost
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|88/100 slp
+|move|p2a: Deoxys|Psycho Boost|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-crit|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|33/100 slp
+|-unboost|p2a: Deoxys|spa|2
+|-damage|p2a: Deoxys|78/100|[from] item: Life Orb
+|
+|-heal|p1a: Ferrothorn|39/100 slp|[from] item: Leftovers
+|upkeep
+|turn|12
+|choice|move spikes|switch 3
+|
+|switch|p2a: Arceus|Arceus-Fighting|18/100
+|-damage|p2a: Arceus|12/100|[from] Stealth Rock
+|cant|p1a: Ferrothorn|slp
+|
+|-heal|p1a: Ferrothorn|45/100 slp|[from] item: Leftovers
+|upkeep
+|turn|13
+|choice|move spikes|move recover
+|
+|move|p2a: Arceus|Recover|p2a: Arceus
+|-heal|p2a: Arceus|62/100
+|cant|p1a: Ferrothorn|slp
+|
+|-heal|p1a: Ferrothorn|51/100 slp|[from] item: Leftovers
+|upkeep
+|turn|14
+|choice|move spikes|move judgment
+|
+|move|p2a: Arceus|Judgment|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-crit|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|faint|p1a: Ferrothorn
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Lugia|Lugia|91/100
+|turn|15
+|choice|move toxic|move icebeam
+|
+|move|p2a: Arceus|Ice Beam|p1a: Lugia
+|-supereffective|p1a: Lugia
+|-damage|p1a: Lugia|52/100
+|move|p1a: Lugia|Toxic|p2a: Arceus
+|-status|p2a: Arceus|tox
+|
+|-heal|p1a: Lugia|58/100|[from] item: Leftovers
+|-damage|p2a: Arceus|56/100 tox|[from] psn
+|upkeep
+|turn|16
+|choice|move roost|move icebeam
+|
+|move|p2a: Arceus|Ice Beam|p1a: Lugia
+|-supereffective|p1a: Lugia
+|-crit|p1a: Lugia
+|-damage|p1a: Lugia|0 fnt
+|faint|p1a: Lugia
+|
+|-damage|p2a: Arceus|44/100 tox|[from] psn
+|upkeep
+|c|☆Goodra Royale|really?
+|choice|switch 2|
+|
+|switch|p1a: Latias|Latias, F|64/100
+|turn|17
+|choice|move recover|switch 6
+|
+|switch|p2a: Aegislash|Aegislash, M|100/100
+|-damage|p2a: Aegislash|94/100|[from] Stealth Rock
+|move|p1a: Latias|Recover|p1a: Latias
+|-heal|p1a: Latias|100/100
+|
+|-heal|p2a: Aegislash|100/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|choice|switch 4|move toxic
+|
+|switch|p1a: Arceus|Arceus-Fire|100/100
+|move|p2a: Aegislash|Toxic|p1a: Arceus
+|-status|p1a: Arceus|tox
+|
+|-damage|p1a: Arceus|94/100 tox|[from] psn
+|upkeep
+|turn|19
+|choice|move calmmind|move kingsshield
+|
+|move|p2a: Aegislash|King's Shield|p2a: Aegislash
+|-singleturn|p2a: Aegislash|Protect
+|move|p1a: Arceus|Calm Mind|p1a: Arceus
+|-boost|p1a: Arceus|spa|1
+|-boost|p1a: Arceus|spd|1
+|
+|-damage|p1a: Arceus|82/100 tox|[from] psn
+|upkeep
+|turn|20
+|choice|move overheat|move pursuit
+|
+|move|p1a: Arceus|Overheat|p2a: Aegislash
+|-supereffective|p2a: Aegislash
+|-damage|p2a: Aegislash|0 fnt
+|-unboost|p1a: Arceus|spa|2
+|faint|p2a: Aegislash
+|
+|-damage|p1a: Arceus|64/100 tox|[from] psn
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Deoxys|Deoxys-Attack|78/100
+|-damage|p2a: Deoxys|66/100|[from] Stealth Rock
+|-ability|p2a: Deoxys|Pressure
+|turn|21
+|choice|move overheat|move psychoboost
+|
+|move|p2a: Deoxys|Psycho Boost|p1a: Arceus|[miss]
+|-miss|p2a: Deoxys|p1a: Arceus
+|move|p1a: Arceus|Overheat|p2a: Deoxys
+|-crit|p2a: Deoxys
+|-damage|p2a: Deoxys|0 fnt
+|-unboost|p1a: Arceus|spa|2
+|faint|p2a: Deoxys
+|
+|-damage|p1a: Arceus|40/100 tox|[from] psn
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Arceus|Arceus-Fighting|44/100 tox
+|-damage|p2a: Arceus|38/100 tox|[from] Stealth Rock
+|turn|22
+|c|☆Goodra Royale|sorry
+|c|☆Goodra Royale|revenge for the icebeam crit
+|choice|move overheat|move judgment
+|
+|move|p2a: Arceus|Judgment|p1a: Arceus
+|-damage|p1a: Arceus|12/100 tox
+|move|p1a: Arceus|Overheat|p2a: Arceus|[miss]
+|-miss|p1a: Arceus|p2a: Arceus
+|
+|-damage|p2a: Arceus|31/100 tox|[from] psn
+|-damage|p1a: Arceus|0 fnt|[from] psn
+|upkeep
+|faint|p1a: Arceus
+|choice|switch 4|
+|
+|switch|p1a: Latias|Latias, F|100/100
+|turn|23
+|choice|move psyshock|move recover
+|
+|move|p2a: Arceus|Recover|p2a: Arceus
+|-heal|p2a: Arceus|82/100 tox
+|move|p1a: Latias|Psyshock|p2a: Arceus
+|-supereffective|p2a: Arceus
+|-damage|p2a: Arceus|1/100 tox
+|
+|-damage|p2a: Arceus|0 fnt|[from] psn
+|upkeep
+|faint|p2a: Arceus
+|
+|win|Goodra Royale
+|raw|Goodra Royale's rating: 1000 &rarr; <strong>1040</strong><br />(+40 for winning)
+|raw|Maffinx's rating: 1000 &rarr; <strong>1000</strong><br />(+0 for losing)
+|c|☆Goodra Royale|gg
+|l|Maffinx

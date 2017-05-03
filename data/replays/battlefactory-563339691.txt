@@ -1,0 +1,448 @@
+|j|Kel9901
+|j|kelvinsucksatmath
+|player|p1|Kel9901|265
+|player|p2|kelvinsucksatmath|1
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|21519,39785,62091,33327,62684,17567,35171,32980,60374,10635,52729,25910
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Slowbro, M|item
+|poke|p1|Rotom-Wash|item
+|poke|p1|Latios, M|item
+|poke|p1|Feraligatr, M|item
+|poke|p1|Ferrothorn, M|item
+|poke|p1|Azumarill, M|item
+|poke|p2|Klefki, M|item
+|poke|p2|Latios, M|item
+|poke|p2|Terrakion|item
+|poke|p2|Sableye, M|item
+|poke|p2|Jirachi|item
+|poke|p2|Talonflame, M|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|c|☆Kel9901|wow
+|c|☆kelvinsucksatmath|guess whos absolute shit at math
+|c|☆Kel9901|u
+|c|☆kelvinsucksatmath|all u could have said was
+|c|☆kelvinsucksatmath|0-4
+|c|☆kelvinsucksatmath|but no
+|choice|team 2, team 1, team 3, team 4, team 5, team 6|team 3, team 2, team 1, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|switch|p2a: Terrakion|Terrakion|100/100
+|turn|1
+|choice|move willowisp|switch 2
+|
+|switch|p2a: Latios|Latios, M|100/100
+|move|p1a: Rotom|Will-O-Wisp|p2a: Latios
+|-status|p2a: Latios|brn
+|
+|-damage|p2a: Latios|88/100 brn|[from] brn
+|upkeep
+|turn|2
+|c|☆Kel9901|lol
+|c|☆Kel9901|u scared
+|choice|switch 5|switch 6
+|
+|switch|p2a: Talonflame|Talonflame, M|100/100
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|
+|upkeep
+|turn|3
+|c|☆Kel9901|wow
+|choice|switch 5|move willowisp
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|move|p2a: Talonflame|Will-O-Wisp|p1a: Rotom
+|-status|p1a: Rotom|brn
+|
+|-damage|p1a: Rotom|88/100 brn|[from] brn
+|upkeep
+|turn|4
+|choice|move voltswitch|switch 6
+|
+|switch|p2a: Latios|Latios, M|88/100 brn
+|move|p1a: Rotom|Volt Switch|p2a: Latios
+|-resisted|p2a: Latios
+|-damage|p2a: Latios|76/100 brn
+|choice|switch 5|
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|
+|-damage|p2a: Latios|64/100 brn|[from] brn
+|upkeep
+|turn|5
+|choice|move stealthrock|switch 5
+|
+|switch|p2a: Jirachi|Jirachi|100/100
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Jirachi
+|-sidestart|p2: kelvinsucksatmath|move: Stealth Rock
+|
+|upkeep
+|turn|6
+|c|☆Kel9901|jiroochi
+|choice|move leechseed|move substitute
+|
+|move|p2a: Jirachi|Substitute|p2a: Jirachi
+|-start|p2a: Jirachi|Substitute
+|-damage|p2a: Jirachi|75/100
+|move|p1a: Ferrothorn|Leech Seed|p2a: Jirachi|[miss]
+|-miss|p1a: Ferrothorn|p2a: Jirachi
+|
+|-heal|p2a: Jirachi|82/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|c|☆Kel9901|gay
+|choice|switch 5|move firepunch
+|
+|switch|p1a: Rotom|Rotom-Wash|88/100 brn
+|move|p2a: Jirachi|Fire Punch|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|81/100 brn
+|
+|-heal|p2a: Jirachi|88/100|[from] item: Leftovers
+|-heal|p1a: Rotom|87/100 brn|[from] item: Leftovers
+|-damage|p1a: Rotom|74/100 brn|[from] brn
+|upkeep
+|turn|8
+|c|☆kelvinsucksatmath|is u
+|c|☆Kel9901|lo
+|c|☆Kel9901|l
+|choice|move voltswitch|move ironhead
+|
+|move|p2a: Jirachi|Iron Head|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|68/100 brn
+|cant|p1a: Rotom|flinch
+|
+|-heal|p2a: Jirachi|94/100|[from] item: Leftovers
+|-heal|p1a: Rotom|74/100 brn|[from] item: Leftovers
+|-damage|p1a: Rotom|62/100 brn|[from] brn
+|upkeep
+|turn|9
+|c|☆Kel9901|hax
+|c|☆kelvinsucksatmath|stalled
+|c|☆Kel9901|how to win
+|choice|move voltswitch|move ironhead
+|
+|move|p2a: Jirachi|Iron Head|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|56/100 brn
+|move|p1a: Rotom|Volt Switch|p2a: Jirachi
+|-activate|p2a: Jirachi|move: Substitute|[damage]
+|c|☆Kel9901|gay
+|c|☆Kel9901|weak
+|choice|switch 2|
+|
+|switch|p1a: Slowbro|Slowbro, M|100/100
+|
+|-heal|p2a: Jirachi|99/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|c|☆kelvinsucksatmath|ur burn
+|c|☆kelvinsucksatmath|burn reduce
+|c|☆kelvinsucksatmath|yo mama
+|choice|move scald|move toxic
+|
+|move|p2a: Jirachi|Toxic|p1a: Slowbro
+|-status|p1a: Slowbro|tox
+|move|p1a: Slowbro|Scald|p2a: Jirachi
+|-crit|p2a: Jirachi
+|-end|p2a: Jirachi|Substitute
+|
+|-heal|p2a: Jirachi|100/100|[from] item: Leftovers
+|-damage|p1a: Slowbro|94/100 tox|[from] psn
+|upkeep
+|turn|11
+|c|☆kelvinsucksatmath|by 60%
+|c|☆kelvinsucksatmath|crit
+|c|☆kelvinsucksatmath|wow
+|c|☆kelvinsucksatmath|u know what is rig
+|c|☆Kel9901|hm
+|c|☆kelvinsucksatmath|2/3 ur team water
+|c|☆kelvinsucksatmath|guess ow many of my pokeman resist woter
+|c|☆kelvinsucksatmath|1
+|choice|switch 3|switch 5
+|
+|switch|p2a: Latios|Latios, M|64/100 brn
+|-damage|p2a: Latios|52/100 brn|[from] Stealth Rock
+|switch|p1a: Latios|Latios, M|100/100
+|
+|-damage|p2a: Latios|39/100 brn|[from] brn
+|upkeep
+|turn|12
+|c|☆Kel9901|wow
+|choice|switch 5|move defog
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|move|p2a: Latios|Defog|p1a: Ferrothorn
+|-unboost|p1a: Ferrothorn|evasion|1
+|-sideend|p2: kelvinsucksatmath|Stealth Rock|[from] move: Defog|[of] p2a: Latios
+|
+|-damage|p2a: Latios|27/100 brn|[from] brn
+|upkeep
+|turn|13
+|choice|move stealthrock|move roost
+|
+|move|p2a: Latios|Roost|p2a: Latios
+|-heal|p2a: Latios|77/100 brn
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Latios
+|-sidestart|p2: kelvinsucksatmath|move: Stealth Rock
+|
+|-damage|p2a: Latios|65/100 brn|[from] brn
+|upkeep
+|turn|14
+|c|☆Kel9901|wow
+|choice|move leechseed|move defog
+|
+|move|p2a: Latios|Defog|p1a: Ferrothorn
+|-unboost|p1a: Ferrothorn|evasion|1
+|-sideend|p2: kelvinsucksatmath|Stealth Rock|[from] move: Defog|[of] p2a: Latios
+|move|p1a: Ferrothorn|Leech Seed|p2a: Latios
+|-start|p2a: Latios|move: Leech Seed
+|
+|-damage|p2a: Latios|53/100 brn|[from] Leech Seed|[of] p1a: Ferrothorn
+|-damage|p2a: Latios|40/100 brn|[from] brn
+|upkeep
+|turn|15
+|choice|move stealthrock|switch 2
+|
+|switch|p2a: Terrakion|Terrakion|100/100
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Terrakion
+|-sidestart|p2: kelvinsucksatmath|move: Stealth Rock
+|
+|upkeep
+|turn|16
+|c|☆kelvinsucksatmath|fuck ur rock
+|c|☆Kel9901|lol
+|c|☆Kel9901|roo
+|choice|move gyroball|move stealthrock
+|
+|move|p2a: Terrakion|Stealth Rock|p1a: Ferrothorn
+|-sidestart|p1: Kel9901|move: Stealth Rock
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Terrakion
+|-supereffective|p2a: Terrakion
+|-enditem|p2a: Terrakion|Focus Sash
+|-damage|p2a: Terrakion|1/100
+|
+|upkeep
+|turn|17
+|choice|switch 5|move closecombat
+|
+|switch|p1a: Latios|Latios, M|100/100
+|-damage|p1a: Latios|88/100|[from] Stealth Rock
+|move|p2a: Terrakion|Close Combat|p1a: Latios
+|-resisted|p1a: Latios
+|-damage|p1a: Latios|48/100
+|-unboost|p2a: Terrakion|def|1
+|-unboost|p2a: Terrakion|spd|1
+|
+|upkeep
+|turn|18
+|c|☆kelvinsucksatmath|eat shit
+|choice|move earthquake|move stoneedge
+|
+|move|p1a: Latios|Earthquake|p2a: Terrakion
+|-supereffective|p2a: Terrakion
+|-damage|p2a: Terrakion|0 fnt
+|-damage|p1a: Latios|38/100|[from] item: Life Orb
+|faint|p2a: Terrakion
+|
+|upkeep
+|c|☆Kel9901|lol roo is who
+|choice||switch 4
+|
+|switch|p2a: Sableye|Sableye, M|100/100
+|-damage|p2a: Sableye|88/100|[from] Stealth Rock
+|turn|19
+|c|☆Kel9901|lol
+|c|☆Kel9901|sableye
+|choice|move dracometeor|move knockoff mega
+|
+|detailschange|p2a: Sableye|Sableye-Mega, M
+|-mega|p2a: Sableye|Sableye|Sablenite
+|move|p1a: Latios|Draco Meteor|p2a: Sableye
+|-damage|p2a: Sableye|18/100
+|-unboost|p1a: Latios|spa|2
+|-damage|p1a: Latios|28/100|[from] item: Life Orb
+|move|p2a: Sableye|Knock Off|p1a: Latios
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|0 fnt
+|-enditem|p1a: Latios|Life Orb|[from] move: Knock Off|[of] p2a: Sableye
+|faint|p1a: Latios
+|
+|upkeep
+|c|☆Kel9901|wow
+|c|☆Kel9901|how did it survive
+|c|☆Kel9901|rigged
+|choice|switch 2|
+|
+|switch|p1a: Rotom|Rotom-Wash|56/100 brn
+|-damage|p1a: Rotom|44/100 brn|[from] Stealth Rock
+|turn|20
+|choice|move voltswitch|move recover
+|
+|move|p1a: Rotom|Volt Switch|p2a: Sableye
+|-damage|p2a: Sableye|0 fnt
+|faint|p2a: Sableye
+|choice|switch 6|
+|
+|switch|p1a: Azumarill|Azumarill, M|100/100
+|-damage|p1a: Azumarill|88/100|[from] Stealth Rock
+|
+|upkeep
+|c|☆Kel9901|fucka is u
+|choice||switch 5
+|
+|switch|p2a: Jirachi|Jirachi|100/100
+|-damage|p2a: Jirachi|94/100|[from] Stealth Rock
+|turn|21
+|c|☆kelvinsucksatmath|why  i have passive team
+|c|☆kelvinsucksatmath|guess how many damage dealer i have
+|c|☆kelvinsucksatmath|0
+|choice|move aquajet|move toxic
+|
+|move|p1a: Azumarill|Aqua Jet|p2a: Jirachi
+|-damage|p2a: Jirachi|62/100
+|move|p2a: Jirachi|Toxic|p1a: Azumarill|[miss]
+|-miss|p2a: Jirachi|p1a: Azumarill
+|
+|-heal|p2a: Jirachi|68/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|c|☆Kel9901|fair
+|choice|move aquajet|move toxic
+|
+|move|p1a: Azumarill|Aqua Jet|p2a: Jirachi
+|-damage|p2a: Jirachi|34/100
+|move|p2a: Jirachi|Toxic|p1a: Azumarill
+|-status|p1a: Azumarill|tox
+|
+|-heal|p2a: Jirachi|40/100|[from] item: Leftovers
+|-damage|p1a: Azumarill|82/100 tox|[from] psn
+|upkeep
+|turn|23
+|choice|move aquajet|switch 3
+|
+|switch|p2a: Klefki|Klefki, M|100/100
+|-damage|p2a: Klefki|95/100|[from] Stealth Rock
+|move|p1a: Azumarill|Aqua Jet|p2a: Klefki
+|-damage|p2a: Klefki|53/100
+|
+|-heal|p2a: Klefki|59/100|[from] item: Leftovers
+|-damage|p1a: Azumarill|69/100 tox|[from] psn
+|upkeep
+|turn|24
+|c|☆Kel9901|lol
+|choice|move aquajet|move spikes
+|
+|move|p2a: Klefki|Spikes|p1a: Azumarill
+|-sidestart|p1: Kel9901|Spikes
+|move|p1a: Azumarill|Aqua Jet|p2a: Klefki
+|-damage|p2a: Klefki|12/100
+|
+|-heal|p2a: Klefki|18/100|[from] item: Leftovers
+|-damage|p1a: Azumarill|50/100 tox|[from] psn
+|upkeep
+|turn|25
+|c|☆Kel9901|strong
+|c|☆Kel9901|tbh
+|choice|move aquajet|move spikes
+|
+|move|p2a: Klefki|Spikes|p1a: Azumarill
+|-sidestart|p1: Kel9901|Spikes
+|move|p1a: Azumarill|Aqua Jet|p2a: Klefki
+|-damage|p2a: Klefki|0 fnt
+|faint|p2a: Klefki
+|
+|-damage|p1a: Azumarill|25/100 tox|[from] psn
+|upkeep
+|c|☆Kel9901|spikes wow
+|c|☆Kel9901|do i even have a chance
+|choice||switch 3
+|
+|switch|p2a: Jirachi|Jirachi|40/100
+|-damage|p2a: Jirachi|34/100|[from] Stealth Rock
+|turn|26
+|c|☆Kel9901|die
+|choice|move aquajet|move ironhead
+|
+|move|p1a: Azumarill|Aqua Jet|p2a: Jirachi
+|-damage|p2a: Jirachi|2/100
+|move|p2a: Jirachi|Iron Head|p1a: Azumarill
+|-damage|p1a: Azumarill|0 fnt
+|faint|p1a: Azumarill
+|
+|-heal|p2a: Jirachi|8/100|[from] item: Leftovers
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Feraligatr|Feraligatr, M|100/100
+|-damage|p1a: Feraligatr|84/100|[from] Spikes
+|-damage|p1a: Feraligatr|72/100|[from] Stealth Rock
+|turn|27
+|choice|move dragondance|move toxic
+|
+|move|p2a: Jirachi|Toxic|p1a: Feraligatr
+|-status|p1a: Feraligatr|tox
+|move|p1a: Feraligatr|Dragon Dance|p1a: Feraligatr
+|-boost|p1a: Feraligatr|atk|1
+|-boost|p1a: Feraligatr|spe|1
+|
+|-heal|p2a: Jirachi|14/100|[from] item: Leftovers
+|-damage|p1a: Feraligatr|66/100 tox|[from] psn
+|upkeep
+|turn|28
+|c|☆Kel9901|shit
+|choice|move waterfall|move ironhead
+|
+|move|p1a: Feraligatr|Waterfall|p2a: Jirachi
+|-damage|p2a: Jirachi|0 fnt
+|faint|p2a: Jirachi
+|
+|-damage|p1a: Feraligatr|54/100 tox|[from] psn
+|upkeep
+|c|☆Kel9901|talon
+|c|☆kelvinsucksatmath|shut up niger
+|c|☆kelvinsucksatmath|it is passive set
+|c|☆Kel9901|wow
+|c|☆kelvinsucksatmath|fucking
+|c|☆Kel9901|rude
+|c|☆kelvinsucksatmath|taunt
+|c|☆kelvinsucksatmath|wilo
+|c|☆Kel9901|fair
+|c|☆kelvinsucksatmath|roost
+|choice||switch 6
+|
+|switch|p2a: Talonflame|Talonflame, M|100/100
+|-damage|p2a: Talonflame|51/100|[from] Stealth Rock
+|turn|29
+|choice|move waterfall|move acrobatics
+|
+|move|p2a: Talonflame|Acrobatics|p1a: Feraligatr
+|-damage|p1a: Feraligatr|18/100 tox
+|move|p1a: Feraligatr|Waterfall|p2a: Talonflame
+|-supereffective|p2a: Talonflame
+|-damage|p2a: Talonflame|0 fnt
+|faint|p2a: Talonflame
+|
+|-damage|p1a: Feraligatr|0 fnt|[from] psn
+|upkeep
+|faint|p1a: Feraligatr
+|c|☆kelvinsucksatmath|penismove
+|choice|switch 5|switch 2
+|
+|switch|p2a: Latios|Latios, M|40/100 brn
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p2a: Latios|28/100 brn|[from] Stealth Rock
+|-damage|p1a: Ferrothorn|94/100|[from] Stealth Rock
+|-damage|p1a: Ferrothorn|78/100|[from] Spikes
+|turn|30
+|-message|kelvinsucksatmath forfeited.
+|
+|win|Kel9901
+|l|kelvinsucksatmath

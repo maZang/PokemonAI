@@ -1,0 +1,332 @@
+|j|Mekaminokushi
+|j|judimakfun
+|player|p1|Mekaminokushi|163
+|player|p2|judimakfun|101
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|56105,35028,15333,43676,24882,8314,53278,25912,19770,33962,18825,20462
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Hoopa|item
+|poke|p1|Clawitzer, M|item
+|poke|p1|Hitmonlee, M|item
+|poke|p1|Scrafty, M|item
+|poke|p1|Registeel|item
+|poke|p1|Delphox, M|item
+|poke|p2|Accelgor, M|item
+|poke|p2|Manectric, M|item
+|poke|p2|Uxie|item
+|poke|p2|Sawk, M|item
+|poke|p2|Gallade, M|item
+|poke|p2|Escavalier, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 6, team 2, team 3, team 4, team 5, team 1|team 4, team 2, team 3, team 1, team 5, team 6
+|
+|start
+|switch|p1a: Delphox|Delphox, M|100/100
+|switch|p2a: Sawk|Sawk, M|100/100
+|-ability|p2a: Sawk|Mold Breaker
+|turn|1
+|choice|move psychic|move stoneedge
+|
+|move|p1a: Delphox|Psychic|p2a: Sawk
+|-supereffective|p2a: Sawk
+|-damage|p2a: Sawk|0 fnt
+|faint|p2a: Sawk
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Uxie|Uxie|100/100
+|turn|2
+|choice|move psychic|move thunderwave
+|
+|move|p1a: Delphox|Psychic|p2a: Uxie
+|-resisted|p2a: Uxie
+|-damage|p2a: Uxie|76/100
+|move|p2a: Uxie|Thunder Wave|p1a: Delphox
+|-status|p1a: Delphox|par
+|
+|-heal|p2a: Uxie|82/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|choice|move psychic|move psyshock
+|
+|move|p2a: Uxie|Psyshock|p1a: Delphox
+|-resisted|p1a: Delphox
+|-damage|p1a: Delphox|83/100 par
+|move|p1a: Delphox|Psychic|p2a: Uxie
+|-resisted|p2a: Uxie
+|-damage|p2a: Uxie|57/100
+|
+|-heal|p2a: Uxie|63/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|choice|move psychic|move psyshock
+|
+|move|p2a: Uxie|Psyshock|p1a: Delphox
+|-resisted|p1a: Delphox
+|-damage|p1a: Delphox|68/100 par
+|move|p1a: Delphox|Psychic|p2a: Uxie
+|-resisted|p2a: Uxie
+|-damage|p2a: Uxie|39/100
+|
+|-heal|p2a: Uxie|45/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|choice|move psychic|move psyshock
+|
+|move|p2a: Uxie|Psyshock|p1a: Delphox
+|-resisted|p1a: Delphox
+|-damage|p1a: Delphox|50/100 par
+|move|p1a: Delphox|Psychic|p2a: Uxie
+|-resisted|p2a: Uxie
+|-damage|p2a: Uxie|22/100
+|
+|-heal|p2a: Uxie|28/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|choice|move psychic|move psyshock
+|
+|move|p2a: Uxie|Psyshock|p1a: Delphox
+|-resisted|p1a: Delphox
+|-damage|p1a: Delphox|33/100 par
+|cant|p1a: Delphox|par
+|
+|-heal|p2a: Uxie|35/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|choice|move psychic|move psyshock
+|
+|move|p2a: Uxie|Psyshock|p1a: Delphox
+|-resisted|p1a: Delphox
+|-damage|p1a: Delphox|15/100 par
+|cant|p1a: Delphox|par
+|
+|-heal|p2a: Uxie|41/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|choice|move psychic|move psyshock
+|
+|move|p2a: Uxie|Psyshock|p1a: Delphox
+|-resisted|p1a: Delphox
+|-damage|p1a: Delphox|0 fnt
+|faint|p1a: Delphox
+|
+|-heal|p2a: Uxie|47/100|[from] item: Leftovers
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Hoopa|Hoopa|100/100
+|turn|9
+|choice|move shadowball|move uturn
+|
+|move|p2a: Uxie|U-turn|p1a: Hoopa
+|-damage|p1a: Hoopa|82/100
+|choice||switch 4
+|
+|switch|p2a: Accelgor|Accelgor, M|100/100
+|move|p1a: Hoopa|Shadow Ball|p2a: Accelgor
+|-crit|p2a: Accelgor
+|-enditem|p2a: Accelgor|Focus Sash
+|-damage|p2a: Accelgor|1/100
+|-damage|p1a: Hoopa|72/100|[from] item: Life Orb
+|
+|upkeep
+|turn|10
+|choice|move psyshock|move bugbuzz
+|
+|move|p2a: Accelgor|Bug Buzz|p1a: Hoopa
+|-damage|p1a: Hoopa|44/100
+|move|p1a: Hoopa|Psyshock|p2a: Accelgor
+|-damage|p2a: Accelgor|0 fnt
+|-damage|p1a: Hoopa|34/100|[from] item: Life Orb
+|faint|p2a: Accelgor
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Manectric|Manectric, M|100/100
+|turn|11
+|choice|move focusblast|move thunderbolt
+|
+|move|p2a: Manectric|Thunderbolt|p1a: Hoopa
+|-damage|p1a: Hoopa|0 fnt
+|faint|p1a: Hoopa
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Hitmonlee|Hitmonlee, M|100/100
+|turn|12
+|choice|move closecombat|move thunderbolt
+|
+|move|p2a: Manectric|Thunderbolt|p1a: Hitmonlee
+|-damage|p1a: Hitmonlee|44/100
+|move|p1a: Hitmonlee|Close Combat|p2a: Manectric
+|-damage|p2a: Manectric|1/100
+|-unboost|p1a: Hitmonlee|def|1
+|-unboost|p1a: Hitmonlee|spd|1
+|
+|upkeep
+|turn|13
+|choice|move closecombat|move thunderbolt
+|
+|move|p2a: Manectric|Thunderbolt|p1a: Hitmonlee
+|-damage|p1a: Hitmonlee|0 fnt
+|faint|p1a: Hitmonlee
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Scrafty|Scrafty, M|100/100
+|-ability|p1a: Scrafty|Intimidate|boost
+|-unboost|p2a: Manectric|atk|1
+|turn|14
+|choice|move knockoff|move thunderbolt
+|
+|move|p2a: Manectric|Thunderbolt|p1a: Scrafty
+|-crit|p1a: Scrafty
+|-damage|p1a: Scrafty|42/100
+|move|p1a: Scrafty|Knock Off|p2a: Manectric
+|-damage|p2a: Manectric|0 fnt
+|-enditem|p2a: Manectric|Choice Scarf|[from] move: Knock Off|[of] p1a: Scrafty
+|faint|p2a: Manectric
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Escavalier|Escavalier, M|100/100
+|turn|15
+|choice|move knockoff|move ironhead
+|
+|move|p1a: Scrafty|Knock Off|p2a: Escavalier
+|-damage|p2a: Escavalier|38/100
+|-enditem|p2a: Escavalier|Assault Vest|[from] move: Knock Off|[of] p1a: Scrafty
+|move|p2a: Escavalier|Iron Head|p1a: Scrafty
+|-damage|p1a: Scrafty|0 fnt
+|faint|p1a: Scrafty
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Clawitzer|Clawitzer, M|100/100
+|turn|16
+|choice|move icebeam|move megahorn
+|
+|move|p1a: Clawitzer|Ice Beam|p2a: Escavalier
+|-resisted|p2a: Escavalier
+|-damage|p2a: Escavalier|15/100
+|-status|p2a: Escavalier|frz
+|-damage|p1a: Clawitzer|91/100|[from] item: Life Orb
+|cant|p2a: Escavalier|frz
+|
+|upkeep
+|turn|17
+|choice|move icebeam|move megahorn
+|
+|move|p1a: Clawitzer|Ice Beam|p2a: Escavalier
+|-resisted|p2a: Escavalier
+|-damage|p2a: Escavalier|0 fnt
+|-damage|p1a: Clawitzer|81/100|[from] item: Life Orb
+|faint|p2a: Escavalier
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Gallade|Gallade, M|100/100
+|turn|18
+|choice|move icebeam|move zenheadbutt
+|
+|move|p2a: Gallade|Zen Headbutt|p1a: Clawitzer
+|-damage|p1a: Clawitzer|0 fnt
+|faint|p1a: Clawitzer
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Registeel|Registeel|100/100
+|turn|19
+|choice|move thunderwave|move zenheadbutt
+|
+|move|p2a: Gallade|Zen Headbutt|p1a: Registeel
+|-resisted|p1a: Registeel
+|-damage|p1a: Registeel|78/100
+|move|p1a: Registeel|Thunder Wave|p2a: Gallade
+|-status|p2a: Gallade|par
+|
+|-heal|p1a: Registeel|84/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|choice|move seismictoss|move zenheadbutt
+|
+|move|p1a: Registeel|Seismic Toss|p2a: Gallade
+|-damage|p2a: Gallade|64/100 par
+|move|p2a: Gallade|Zen Headbutt|p1a: Registeel|[miss]
+|-miss|p2a: Gallade|p1a: Registeel
+|
+|-heal|p1a: Registeel|90/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|choice|move seismictoss|move zenheadbutt
+|
+|move|p1a: Registeel|Seismic Toss|p2a: Gallade
+|-damage|p2a: Gallade|28/100 par
+|cant|p2a: Gallade|par
+|
+|-heal|p1a: Registeel|96/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|choice|move seismictoss|move zenheadbutt
+|
+|move|p1a: Registeel|Seismic Toss|p2a: Gallade
+|-damage|p2a: Gallade|0 fnt
+|faint|p2a: Gallade
+|
+|-heal|p1a: Registeel|100/100|[from] item: Leftovers
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Uxie|Uxie|47/100
+|turn|23
+|choice|move thunderwave|move psyshock
+|
+|move|p2a: Uxie|Psyshock|p1a: Registeel
+|-resisted|p1a: Registeel
+|-damage|p1a: Registeel|93/100
+|move|p1a: Registeel|Thunder Wave|p2a: Uxie
+|-status|p2a: Uxie|par
+|
+|-heal|p1a: Registeel|99/100|[from] item: Leftovers
+|-heal|p2a: Uxie|53/100 par|[from] item: Leftovers
+|upkeep
+|turn|24
+|choice|move seismictoss|move thunderwave
+|
+|move|p1a: Registeel|Seismic Toss|p2a: Uxie
+|-damage|p2a: Uxie|25/100 par
+|move|p2a: Uxie|Thunder Wave|p1a: Registeel
+|-status|p1a: Registeel|par
+|
+|-heal|p2a: Uxie|31/100 par|[from] item: Leftovers
+|-heal|p1a: Registeel|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|25
+|choice|move seismictoss|move psyshock
+|
+|move|p2a: Uxie|Psyshock|p1a: Registeel
+|-resisted|p1a: Registeel
+|-damage|p1a: Registeel|93/100 par
+|cant|p1a: Registeel|par
+|
+|-heal|p2a: Uxie|38/100 par|[from] item: Leftovers
+|-heal|p1a: Registeel|99/100 par|[from] item: Leftovers
+|upkeep
+|turn|26
+|-message|judimakfun forfeited.
+|
+|win|Mekaminokushi
+|l|judimakfun

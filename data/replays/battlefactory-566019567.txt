@@ -1,0 +1,499 @@
+|j|hazmah
+|j|zmandd01
+|player|p1|hazmah|267
+|player|p2|zmandd01|238
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|58447,16353,47913,52978,28364,61312,54279,62868,16478,32932,26486,45901
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Machamp, M|item
+|poke|p1|Feraligatr, M|item
+|poke|p1|Haxorus, M|item
+|poke|p1|Kingdra, M|item
+|poke|p1|Bronzong|item
+|poke|p1|Diancie|item
+|poke|p2|Gligar, M|item
+|poke|p2|Florges, F|item
+|poke|p2|Sableye, M|item
+|poke|p2|Entei, shiny|item
+|poke|p2|Umbreon, M|item
+|poke|p2|Cresselia, F|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|c|☆hazmah|haxorus is ru?
+|choice|team 6, team 2, team 3, team 4, team 5, team 1|team 3, team 2, team 1, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Diancie|Diancie|100/100
+|switch|p2a: Sableye|Sableye, M|100/100
+|turn|1
+|c|☆zmandd01|is it?
+|c|☆zmandd01|In gen 6 is UU
+|choice|move stealthrock|switch 3
+|
+|switch|p2a: Gligar|Gligar, M|100/100
+|move|p1a: Diancie|Stealth Rock|p2a: Gligar
+|-sidestart|p2: zmandd01|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|choice|switch 4|move earthquake
+|
+|switch|p1a: Kingdra|Kingdra, M|100/100
+|move|p2a: Gligar|Earthquake|p1a: Kingdra
+|-damage|p1a: Kingdra|67/100
+|
+|-heal|p1a: Kingdra|73/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|choice|move dragondance|switch 2
+|
+|switch|p2a: Florges|Florges, F|100/100
+|-damage|p2a: Florges|88/100|[from] Stealth Rock
+|move|p1a: Kingdra|Dragon Dance|p1a: Kingdra
+|-boost|p1a: Kingdra|atk|1
+|-boost|p1a: Kingdra|spe|1
+|
+|-heal|p1a: Kingdra|79/100|[from] item: Leftovers
+|-heal|p2a: Florges|94/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|choice|move ironhead|move moonblast
+|
+|move|p1a: Kingdra|Iron Head|p2a: Florges
+|-supereffective|p2a: Florges
+|-damage|p2a: Florges|18/100
+|move|p2a: Florges|Moonblast|p1a: Kingdra
+|-supereffective|p1a: Kingdra
+|-damage|p1a: Kingdra|0 fnt
+|faint|p1a: Kingdra
+|
+|-heal|p2a: Florges|24/100|[from] item: Leftovers
+|upkeep
+|c|☆hazmah|WHY IT LIVE
+|c|☆hazmah|WHAT IS MY LIFE
+|c|☆hazmah|MY LUCK
+|choice|switch 5|
+|
+|switch|p1a: Bronzong|Bronzong|100/100
+|turn|5
+|choice|move gyroball|move wish
+|
+|move|p2a: Florges|Wish|p2a: Florges
+|move|p1a: Bronzong|Gyro Ball|p2a: Florges
+|-supereffective|p2a: Florges
+|-damage|p2a: Florges|0 fnt
+|faint|p2a: Florges
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Sableye|Sableye, M|100/100
+|-damage|p2a: Sableye|88/100|[from] Stealth Rock
+|turn|6
+|choice|move toxic|move taunt
+|
+|move|p2a: Sableye|Taunt|p1a: Bronzong
+|-start|p1a: Bronzong|move: Taunt
+|cant|p1a: Bronzong|move: Taunt|Toxic
+|
+|-heal|p2a: Sableye|100/100|[from] move: Wish|[wisher] Florges
+|upkeep
+|turn|7
+|choice|switch 4|move knockoff
+|
+|switch|p1a: Diancie|Diancie|100/100
+|move|p2a: Sableye|Knock Off|p1a: Diancie
+|-resisted|p1a: Diancie
+|-damage|p1a: Diancie|89/100
+|-enditem|p1a: Diancie|Leftovers|[from] move: Knock Off|[of] p2a: Sableye
+|
+|upkeep
+|turn|8
+|choice|move moonblast|switch 6
+|
+|switch|p2a: Cresselia|Cresselia, F|100/100
+|-damage|p2a: Cresselia|88/100|[from] Stealth Rock
+|move|p1a: Diancie|Moonblast|p2a: Cresselia
+|-damage|p2a: Cresselia|61/100
+|
+|-heal|p2a: Cresselia|67/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|choice|switch 4|move thunderwave
+|
+|switch|p1a: Bronzong|Bronzong|100/100
+|move|p2a: Cresselia|Thunder Wave|p1a: Bronzong
+|-status|p1a: Bronzong|par
+|
+|-heal|p2a: Cresselia|73/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|choice|move toxic|switch 6
+|
+|switch|p2a: Sableye|Sableye, M|100/100
+|-damage|p2a: Sableye|88/100|[from] Stealth Rock
+|move|p1a: Bronzong|Toxic|p2a: Sableye
+|-status|p2a: Sableye|tox
+|
+|-heal|p2a: Sableye|94/100 tox|[from] item: Leftovers
+|-damage|p2a: Sableye|88/100 tox|[from] psn
+|upkeep
+|turn|11
+|choice|move gyroball|move knockoff
+|
+|move|p2a: Sableye|Knock Off|p1a: Bronzong
+|-supereffective|p1a: Bronzong
+|-damage|p1a: Bronzong|54/100 par
+|-enditem|p1a: Bronzong|Leftovers|[from] move: Knock Off|[of] p2a: Sableye
+|cant|p1a: Bronzong|par
+|
+|-heal|p2a: Sableye|94/100 tox|[from] item: Leftovers
+|-damage|p2a: Sableye|82/100 tox|[from] psn
+|upkeep
+|turn|12
+|c|☆hazmah|zzz
+|choice|move gyroball|move knockoff
+|
+|move|p2a: Sableye|Knock Off|p1a: Bronzong
+|-supereffective|p1a: Bronzong
+|-damage|p1a: Bronzong|25/100 par
+|move|p1a: Bronzong|Gyro Ball|p2a: Sableye
+|-damage|p2a: Sableye|11/100 tox
+|
+|-heal|p2a: Sableye|17/100 tox|[from] item: Leftovers
+|-damage|p2a: Sableye|0 fnt|[from] psn
+|upkeep
+|faint|p2a: Sableye
+|choice||switch 5
+|
+|switch|p2a: Umbreon|Umbreon, M|100/100
+|-damage|p2a: Umbreon|88/100|[from] Stealth Rock
+|turn|13
+|choice|move toxic|move foulplay
+|
+|move|p2a: Umbreon|Foul Play|p1a: Bronzong
+|-supereffective|p1a: Bronzong
+|-damage|p1a: Bronzong|0 fnt
+|faint|p1a: Bronzong
+|
+|-heal|p2a: Umbreon|94/100|[from] item: Leftovers
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Machamp|Machamp, M|100/100
+|turn|14
+|choice|move dynamicpunch|move protect
+|
+|move|p2a: Umbreon|Protect|p2a: Umbreon
+|-singleturn|p2a: Umbreon|Protect
+|move|p1a: Machamp|Dynamic Punch|p2a: Umbreon
+|-activate|p2a: Umbreon|move: Protect
+|
+|-heal|p2a: Umbreon|99/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|choice|move dynamicpunch|switch 2
+|
+|switch|p2a: Gligar|Gligar, M|100/100
+|-damage|p2a: Gligar|88/100|[from] Stealth Rock
+|move|p1a: Machamp|Dynamic Punch|p2a: Gligar
+|-resisted|p2a: Gligar
+|-damage|p2a: Gligar|70/100
+|-start|p2a: Gligar|confusion
+|
+|upkeep
+|turn|16
+|choice|move icepunch|move defog
+|
+|-activate|p2a: Gligar|confusion
+|move|p2a: Gligar|Defog|p1a: Machamp
+|-unboost|p1a: Machamp|evasion|1
+|-sideend|p2: zmandd01|Stealth Rock|[from] move: Defog|[of] p2a: Gligar
+|move|p1a: Machamp|Ice Punch|p2a: Gligar
+|-supereffective|p2a: Gligar
+|-damage|p2a: Gligar|0 fnt
+|faint|p2a: Gligar
+|
+|upkeep
+|c|☆hazmah|How is it faster is waht I don't understand
+|choice||switch 4
+|
+|switch|p2a: Entei|Entei, shiny|100/100
+|-ability|p2a: Entei|Pressure
+|turn|17
+|choice|switch 4|move sacredfire
+|
+|switch|p1a: Diancie|Diancie|89/100
+|move|p2a: Entei|Sacred Fire|p1a: Diancie
+|-resisted|p1a: Diancie
+|-damage|p1a: Diancie|68/100
+|
+|upkeep
+|turn|18
+|choice|move stealthrock|switch 6
+|
+|switch|p2a: Cresselia|Cresselia, F|73/100
+|move|p1a: Diancie|Stealth Rock|p2a: Cresselia
+|-sidestart|p2: zmandd01|move: Stealth Rock
+|
+|-heal|p2a: Cresselia|79/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|choice|move moonblast|move psyshock
+|
+|move|p2a: Cresselia|Psyshock|p1a: Diancie
+|-damage|p1a: Diancie|51/100
+|move|p1a: Diancie|Moonblast|p2a: Cresselia
+|-damage|p2a: Cresselia|52/100
+|
+|-heal|p2a: Cresselia|58/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|choice|move moonblast|move psyshock
+|
+|move|p2a: Cresselia|Psyshock|p1a: Diancie
+|-damage|p1a: Diancie|32/100
+|move|p1a: Diancie|Moonblast|p2a: Cresselia
+|-damage|p2a: Cresselia|31/100
+|
+|-heal|p2a: Cresselia|37/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|choice|switch 4|move moonlight
+|
+|switch|p1a: Machamp|Machamp, M|100/100
+|move|p2a: Cresselia|Moonlight|p2a: Cresselia
+|-heal|p2a: Cresselia|87/100
+|
+|-heal|p2a: Cresselia|93/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|choice|move knockoff|move psyshock
+|
+|move|p2a: Cresselia|Psyshock|p1a: Machamp
+|-supereffective|p1a: Machamp
+|-damage|p1a: Machamp|53/100
+|move|p1a: Machamp|Knock Off|p2a: Cresselia
+|-supereffective|p2a: Cresselia
+|-damage|p2a: Cresselia|59/100
+|-enditem|p2a: Cresselia|Leftovers|[from] move: Knock Off|[of] p1a: Machamp
+|
+|upkeep
+|turn|23
+|choice|switch 2|move moonlight
+|
+|switch|p1a: Feraligatr|Feraligatr, M|100/100
+|move|p2a: Cresselia|Moonlight|p2a: Cresselia
+|-heal|p2a: Cresselia|100/100
+|
+|upkeep
+|turn|24
+|choice|move dragondance|move thunderwave
+|
+|move|p1a: Feraligatr|Dragon Dance|p1a: Feraligatr
+|-boost|p1a: Feraligatr|atk|1
+|-boost|p1a: Feraligatr|spe|1
+|move|p2a: Cresselia|Thunder Wave|p1a: Feraligatr
+|-status|p1a: Feraligatr|par
+|
+|upkeep
+|turn|25
+|choice|move dragondance|move psyshock
+|
+|move|p2a: Cresselia|Psyshock|p1a: Feraligatr
+|-damage|p1a: Feraligatr|77/100 par
+|cant|p1a: Feraligatr|par
+|
+|upkeep
+|turn|26
+|choice|move dragondance|move psyshock
+|
+|move|p2a: Cresselia|Psyshock|p1a: Feraligatr
+|-damage|p1a: Feraligatr|52/100 par
+|cant|p1a: Feraligatr|par
+|
+|upkeep
+|turn|27
+|c|☆hazmah|can u fucking not
+|choice|move dragondance|move psyshock
+|
+|move|p2a: Cresselia|Psyshock|p1a: Feraligatr
+|-damage|p1a: Feraligatr|27/100 par
+|move|p1a: Feraligatr|Dragon Dance|p1a: Feraligatr
+|-boost|p1a: Feraligatr|atk|1
+|-boost|p1a: Feraligatr|spe|1
+|
+|upkeep
+|turn|28
+|choice|move waterfall|move psyshock
+|
+|move|p2a: Cresselia|Psyshock|p1a: Feraligatr
+|-damage|p1a: Feraligatr|4/100 par
+|move|p1a: Feraligatr|Waterfall|p2a: Cresselia
+|-damage|p2a: Cresselia|34/100
+|
+|upkeep
+|turn|29
+|choice|move waterfall|move psyshock
+|
+|move|p2a: Cresselia|Psyshock|p1a: Feraligatr
+|-damage|p1a: Feraligatr|0 fnt
+|faint|p1a: Feraligatr
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Haxorus|Haxorus, M|100/100
+|-ability|p1a: Haxorus|Mold Breaker
+|turn|30
+|choice|move outrage|move moonblast
+|
+|move|p1a: Haxorus|Outrage|p2a: Cresselia
+|-damage|p2a: Cresselia|0 fnt
+|-damage|p1a: Haxorus|91/100|[from] item: Life Orb
+|faint|p2a: Cresselia
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Umbreon|Umbreon, M|99/100
+|-damage|p2a: Umbreon|88/100|[from] Stealth Rock
+|turn|31
+|choice|move outrage|move wish
+|
+|move|p1a: Haxorus|Outrage|p2a: Umbreon|[from]lockedmove
+|-damage|p2a: Umbreon|33/100
+|-damage|p1a: Haxorus|81/100|[from] item: Life Orb
+|move|p2a: Umbreon|Wish|p2a: Umbreon
+|
+|-heal|p2a: Umbreon|39/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|choice|move outrage|move protect
+|
+|move|p2a: Umbreon|Protect|p2a: Umbreon
+|-singleturn|p2a: Umbreon|Protect
+|move|p1a: Haxorus|Outrage|p2a: Umbreon|[from]lockedmove
+|-activate|p2a: Umbreon|move: Protect
+|-start|p1a: Haxorus|confusion|[fatigue]
+|
+|-heal|p2a: Umbreon|89/100|[from] move: Wish|[wisher] Umbreon
+|-heal|p2a: Umbreon|95/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|choice|switch 4|move foulplay
+|
+|switch|p1a: Diancie|Diancie|32/100
+|move|p2a: Umbreon|Foul Play|p1a: Diancie
+|-resisted|p1a: Diancie
+|-damage|p1a: Diancie|20/100
+|
+|-heal|p2a: Umbreon|100/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|choice|move diamondstorm|move wish
+|
+|move|p2a: Umbreon|Wish|p2a: Umbreon
+|move|p1a: Diancie|Diamond Storm|p2a: Umbreon
+|-crit|p2a: Umbreon
+|-damage|p2a: Umbreon|68/100
+|
+|-heal|p2a: Umbreon|74/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|choice|move moonblast|move foulplay
+|
+|move|p2a: Umbreon|Foul Play|p1a: Diancie
+|-resisted|p1a: Diancie
+|-damage|p1a: Diancie|7/100
+|move|p1a: Diancie|Moonblast|p2a: Umbreon
+|-supereffective|p2a: Umbreon
+|-damage|p2a: Umbreon|17/100
+|
+|-heal|p2a: Umbreon|67/100|[from] move: Wish|[wisher] Umbreon
+|-heal|p2a: Umbreon|73/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|choice|move moonblast|move foulplay
+|
+|move|p2a: Umbreon|Foul Play|p1a: Diancie
+|-resisted|p1a: Diancie
+|-damage|p1a: Diancie|0 fnt
+|faint|p1a: Diancie
+|
+|-heal|p2a: Umbreon|79/100|[from] item: Leftovers
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Machamp|Machamp, M|53/100
+|turn|37
+|choice|move dynamicpunch|move protect
+|
+|move|p2a: Umbreon|Protect|p2a: Umbreon
+|-singleturn|p2a: Umbreon|Protect
+|move|p1a: Machamp|Dynamic Punch|p2a: Umbreon
+|-activate|p2a: Umbreon|move: Protect
+|
+|-heal|p2a: Umbreon|85/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|choice|move dynamicpunch|move foulplay
+|
+|move|p1a: Machamp|Dynamic Punch|p2a: Umbreon
+|-supereffective|p2a: Umbreon
+|-damage|p2a: Umbreon|15/100
+|-start|p2a: Umbreon|confusion
+|-activate|p2a: Umbreon|confusion
+|move|p2a: Umbreon|Foul Play|p1a: Machamp
+|-resisted|p1a: Machamp
+|-damage|p1a: Machamp|23/100
+|
+|-heal|p2a: Umbreon|21/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|choice|move dynamicpunch|move protect
+|
+|-activate|p2a: Umbreon|confusion
+|-damage|p2a: Umbreon|18/100|[from] confusion
+|move|p1a: Machamp|Dynamic Punch|p2a: Umbreon
+|-supereffective|p2a: Umbreon
+|-damage|p2a: Umbreon|0 fnt
+|faint|p2a: Umbreon
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Entei|Entei, shiny|100/100
+|-damage|p2a: Entei|76/100|[from] Stealth Rock
+|-ability|p2a: Entei|Pressure
+|turn|40
+|c|☆hazmah|what's that priority tho
+|c|☆zmandd01|protect
+|choice|move dynamicpunch|move sacredfire
+|
+|move|p2a: Entei|Sacred Fire|p1a: Machamp
+|-damage|p1a: Machamp|0 fnt
+|faint|p1a: Machamp
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Haxorus|Haxorus, M|81/100
+|-ability|p1a: Haxorus|Mold Breaker
+|turn|41
+|choice|move earthquake|move sacredfire
+|
+|move|p1a: Haxorus|Earthquake|p2a: Entei
+|-supereffective|p2a: Entei
+|-damage|p2a: Entei|0 fnt
+|-damage|p1a: Haxorus|71/100|[from] item: Life Orb
+|faint|p2a: Entei
+|
+|win|hazmah
+|c|☆zmandd01|gg
+|c|☆hazmah|gg
+|l|zmandd01

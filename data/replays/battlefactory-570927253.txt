@@ -1,0 +1,384 @@
+|j|vibx
+|j|ageofsandow
+|player|p1|vibx|4
+|player|p2|ageofsandow|102
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|3762,31366,54953,27697,60542,53264,59503,51931,5227,39226,32191,50851
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Skuntank, M|item
+|poke|p1|Zangoose, M|item
+|poke|p1|Poliwrath, M|item
+|poke|p1|Dodrio, M|item
+|poke|p1|Musharna, M|item
+|poke|p1|Mawile, M|item
+|poke|p2|Barbaracle, M|item
+|poke|p2|Pawniard, M|item
+|poke|p2|Hariyama, M|item
+|poke|p2|Mantine, M|item
+|poke|p2|Cacturne, M|item
+|poke|p2|Clefairy, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by vibx)
+|choice|team 3, team 2, team 1, team 4, team 5, team 6|team 5, team 2, team 3, team 4, team 1, team 6
+|
+|start
+|switch|p1a: Poliwrath|Poliwrath, M|100/100
+|switch|p2a: Cacturne|Cacturne, M|100/100
+|turn|1
+|choice|move focusblast|switch 6
+|
+|switch|p2a: Clefairy|Clefairy, M|100/100
+|move|p1a: Poliwrath|Focus Blast|p2a: Clefairy
+|-resisted|p2a: Clefairy
+|-damage|p2a: Clefairy|86/100
+|
+|upkeep
+|turn|2
+|choice|switch 3|move stealthrock
+|
+|switch|p1a: Skuntank|Skuntank, M|100/100
+|move|p2a: Clefairy|Stealth Rock|p1a: Skuntank
+|-sidestart|p1: vibx|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|choice|move defog|switch 2
+|
+|switch|p2a: Pawniard|Pawniard, M|100/100
+|move|p1a: Skuntank|Defog|p2a: Pawniard
+|-unboost|p2a: Pawniard|evasion|1
+|-ability|p2a: Pawniard|Defiant|boost
+|-boost|p2a: Pawniard|atk|2
+|-sideend|p1: vibx|Stealth Rock|[from] move: Defog|[of] p1a: Skuntank
+|
+|upkeep
+|turn|4
+|c|☆vibx|ded
+|c|☆vibx|:(
+|c|☆ageofsandow|lol
+|choice|move fireblast|move suckerpunch
+|
+|move|p2a: Pawniard|Sucker Punch|p1a: Skuntank
+|-resisted|p1a: Skuntank
+|-damage|p1a: Skuntank|56/100
+|move|p1a: Skuntank|Fire Blast|p2a: Pawniard
+|-supereffective|p2a: Pawniard
+|-damage|p2a: Pawniard|0 fnt
+|faint|p2a: Pawniard
+|
+|upkeep
+|c|☆vibx|psych
+|c|☆ageofsandow|shouldn't have done knock off but good one
+|c|☆vibx|what is ur name based off ?
+|choice||switch 3
+|
+|switch|p2a: Hariyama|Hariyama, M|100/100
+|turn|5
+|c|☆ageofsandow|oh a wrestler. many years ago though.
+|choice|switch 5|move fakeout
+|
+|switch|p1a: Musharna|Musharna, M|100/100
+|move|p2a: Hariyama|Fake Out|p1a: Musharna
+|-damage|p1a: Musharna|91/100
+|
+|-heal|p1a: Musharna|97/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|c|☆vibx|oh okay interesting
+|choice|move calmmind|switch 6
+|
+|switch|p2a: Cacturne|Cacturne, M|100/100
+|move|p1a: Musharna|Calm Mind|p1a: Musharna
+|-boost|p1a: Musharna|spa|1
+|-boost|p1a: Musharna|spd|1
+|
+|-heal|p1a: Musharna|100/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|choice|move batonpass|move darkpulse
+|
+|move|p2a: Cacturne|Dark Pulse|p1a: Musharna
+|-supereffective|p1a: Musharna
+|-damage|p1a: Musharna|37/100
+|-damage|p2a: Cacturne|91/100|[from] item: Life Orb
+|cant|p1a: Musharna|flinch
+|
+|-heal|p1a: Musharna|44/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|choice|switch 6|move darkpulse
+|
+|switch|p1a: Mawile|Mawile, M|100/100
+|move|p2a: Cacturne|Dark Pulse|p1a: Mawile
+|-resisted|p1a: Mawile
+|-damage|p1a: Mawile|34/100
+|-damage|p2a: Cacturne|81/100|[from] item: Life Orb
+|
+|upkeep
+|turn|9
+|choice|move playrough|move darkpulse
+|
+|move|p2a: Cacturne|Dark Pulse|p1a: Mawile
+|-resisted|p1a: Mawile
+|-damage|p1a: Mawile|0 fnt
+|-damage|p2a: Cacturne|71/100|[from] item: Life Orb
+|faint|p1a: Mawile
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Dodrio|Dodrio, M|100/100
+|turn|10
+|c|☆vibx|that thing is so strong
+|choice|move knockoff|switch 5
+|
+|switch|p2a: Barbaracle|Barbaracle, M|100/100
+|move|p1a: Dodrio|Knock Off|p2a: Barbaracle
+|-damage|p2a: Barbaracle|51/100
+|-enditem|p2a: Barbaracle|Shuca Berry|[from] move: Knock Off|[of] p1a: Dodrio
+|
+|upkeep
+|turn|11
+|choice|switch 6|move return
+|
+|switch|p1a: Musharna|Musharna, M|44/100
+|move|p2a: Barbaracle|Return|p1a: Musharna
+|-damage|p1a: Musharna|17/100
+|
+|-heal|p1a: Musharna|23/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|choice|move moonlight|move return
+|
+|move|p2a: Barbaracle|Return|p1a: Musharna
+|-damage|p1a: Musharna|0 fnt
+|faint|p1a: Musharna
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Poliwrath|Poliwrath, M|100/100
+|turn|13
+|c|☆ageofsandow|never used cacturne but may try it after this
+|choice|switch 2|switch 2
+|
+|switch|p2a: Clefairy|Clefairy, M|86/100
+|switch|p1a: Zangoose|Zangoose, M|100/100
+|
+|-status|p1a: Zangoose|tox|[from] item: Toxic Orb
+|upkeep
+|turn|14
+|c|☆ageofsandow|AH SHIT
+|choice|move facade|move moonblast
+|
+|move|p1a: Zangoose|Facade|p2a: Clefairy
+|-damage|p2a: Clefairy|0 fnt
+|faint|p2a: Clefairy
+|
+|-damage|p1a: Zangoose|95/100 tox|[from] psn
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Hariyama|Hariyama, M|100/100
+|turn|15
+|choice|move facade|move fakeout
+|
+|move|p2a: Hariyama|Fake Out|p1a: Zangoose
+|-damage|p1a: Zangoose|67/100 tox
+|cant|p1a: Zangoose|flinch
+|
+|-damage|p1a: Zangoose|55/100 tox|[from] psn
+|upkeep
+|turn|16
+|choice|switch 2|move bulletpunch
+|
+|switch|p1a: Poliwrath|Poliwrath, M|100/100
+|move|p2a: Hariyama|Bullet Punch|p1a: Poliwrath
+|-resisted|p1a: Poliwrath
+|-damage|p1a: Poliwrath|93/100
+|
+|-heal|p1a: Poliwrath|99/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|choice|move icebeam|move knockoff
+|
+|move|p1a: Poliwrath|Ice Beam|p2a: Hariyama
+|-damage|p2a: Hariyama|94/100
+|move|p2a: Hariyama|Knock Off|p1a: Poliwrath
+|-resisted|p1a: Poliwrath
+|-damage|p1a: Poliwrath|80/100
+|-enditem|p1a: Poliwrath|Leftovers|[from] move: Knock Off|[of] p2a: Hariyama
+|
+|upkeep
+|turn|18
+|choice|move scald|move closecombat
+|
+|move|p1a: Poliwrath|Scald|p2a: Hariyama
+|-damage|p2a: Hariyama|76/100
+|move|p2a: Hariyama|Close Combat|p1a: Poliwrath
+|-damage|p1a: Poliwrath|19/100
+|-unboost|p2a: Hariyama|def|1
+|-unboost|p2a: Hariyama|spd|1
+|
+|upkeep
+|turn|19
+|choice|move scald|switch 2
+|
+|switch|p2a: Barbaracle|Barbaracle, M|51/100
+|move|p1a: Poliwrath|Scald|p2a: Barbaracle
+|-damage|p2a: Barbaracle|5/100
+|
+|upkeep
+|turn|20
+|choice|move vacuumwave|move return
+|
+|move|p1a: Poliwrath|Vacuum Wave|p2a: Barbaracle
+|-supereffective|p2a: Barbaracle
+|-damage|p2a: Barbaracle|0 fnt
+|faint|p2a: Barbaracle
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Hariyama|Hariyama, M|76/100
+|turn|21
+|choice|move vacuumwave|move fakeout
+|
+|move|p2a: Hariyama|Fake Out|p1a: Poliwrath
+|-damage|p1a: Poliwrath|4/100
+|cant|p1a: Poliwrath|flinch
+|
+|upkeep
+|turn|22
+|choice|move vacuumwave|move bulletpunch
+|
+|move|p1a: Poliwrath|Vacuum Wave|p2a: Hariyama
+|-damage|p2a: Hariyama|68/100
+|move|p2a: Hariyama|Bullet Punch|p1a: Poliwrath
+|-resisted|p1a: Poliwrath
+|-damage|p1a: Poliwrath|0 fnt
+|faint|p1a: Poliwrath
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Dodrio|Dodrio, M|100/100
+|turn|23
+|choice|move bravebird|switch 4
+|
+|switch|p2a: Mantine|Mantine, M|100/100
+|move|p1a: Dodrio|Brave Bird|p2a: Mantine
+|-damage|p2a: Mantine|21/100
+|-damage|p1a: Dodrio|67/100|[from] recoil|[of] p2a: Mantine
+|
+|-heal|p2a: Mantine|27/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|choice|move bravebird|move scald
+|
+|move|p1a: Dodrio|Brave Bird|p2a: Mantine
+|-damage|p2a: Mantine|0 fnt
+|-damage|p1a: Dodrio|56/100|[from] recoil|[of] p2a: Mantine
+|faint|p2a: Mantine
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Cacturne|Cacturne, M|71/100
+|turn|25
+|choice|move bravebird|move suckerpunch
+|
+|move|p2a: Cacturne|Sucker Punch|p1a: Dodrio
+|-damage|p1a: Dodrio|0 fnt
+|-damage|p2a: Cacturne|61/100|[from] item: Life Orb
+|faint|p1a: Dodrio
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Skuntank|Skuntank, M|56/100
+|turn|26
+|choice|move fireblast|switch 4
+|
+|switch|p2a: Hariyama|Hariyama, M|68/100
+|move|p1a: Skuntank|Fire Blast|p2a: Hariyama
+|-crit|p2a: Hariyama
+|-damage|p2a: Hariyama|55/100
+|
+|upkeep
+|turn|27
+|choice|move darkpulse|move fakeout
+|
+|move|p2a: Hariyama|Fake Out|p1a: Skuntank
+|-crit|p1a: Skuntank
+|-damage|p1a: Skuntank|27/100
+|cant|p1a: Skuntank|flinch
+|
+|upkeep
+|turn|28
+|choice|move darkpulse|move bulletpunch
+|
+|move|p2a: Hariyama|Bullet Punch|p1a: Skuntank
+|-damage|p1a: Skuntank|7/100
+|move|p1a: Skuntank|Dark Pulse|p2a: Hariyama
+|-resisted|p2a: Hariyama
+|-damage|p2a: Hariyama|46/100
+|
+|upkeep
+|turn|29
+|choice|move fireblast|move bulletpunch
+|
+|move|p2a: Hariyama|Bullet Punch|p1a: Skuntank
+|-crit|p1a: Skuntank
+|-damage|p1a: Skuntank|0 fnt
+|-damage|p2a: Hariyama|21/100|[from] ability: Aftermath|[of] p1a: Skuntank
+|faint|p1a: Skuntank
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Zangoose|Zangoose, M|55/100 tox
+|turn|30
+|choice|move facade|move bulletpunch
+|
+|move|p2a: Hariyama|Bullet Punch|p1a: Zangoose
+|-damage|p1a: Zangoose|28/100 tox
+|move|p1a: Zangoose|Facade|p2a: Hariyama
+|-damage|p2a: Hariyama|0 fnt
+|faint|p2a: Hariyama
+|
+|-damage|p1a: Zangoose|22/100 tox|[from] psn
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Cacturne|Cacturne, M|61/100
+|turn|31
+|c|☆vibx|gg
+|choice|move quickattack|move suckerpunch
+|
+|move|p1a: Zangoose|Quick Attack|p2a: Cacturne
+|-damage|p2a: Cacturne|9/100
+|move|p2a: Cacturne|Sucker Punch|p1a: Zangoose|[still]
+|-fail|p2a: Cacturne
+|
+|-damage|p1a: Zangoose|10/100 tox|[from] psn
+|upkeep
+|turn|32
+|choice|move quickattack|move suckerpunch
+|
+|move|p1a: Zangoose|Quick Attack|p2a: Cacturne
+|-damage|p2a: Cacturne|0 fnt
+|faint|p2a: Cacturne
+|
+|win|vibx
+|raw|vibx's rating: 1225 &rarr; <strong>1236</strong><br />(+11 for winning)
+|raw|ageofsandow's rating: 1000 &rarr; <strong>1000</strong><br />(+0 for losing)
+|c|☆ageofsandow|gg
+|c|☆ageofsandow|best ive had thus far
+|c|☆vibx|good :)

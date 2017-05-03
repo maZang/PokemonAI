@@ -1,0 +1,395 @@
+|J|LUCK>SKILL
+|J|Bro Kappa♠
+|player|p1|LUCK>SKILL|4
+|player|p2|Bro Kappa♠|104
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|44613,48844,15265,26582,43168,20001,56749,41689,14266,42742,55972,26788
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Serperior, M|item
+|poke|p1|Togekiss, M|item
+|poke|p1|Slowbro, M|item
+|poke|p1|Rotom-Wash|item
+|poke|p1|Volcarona, M|item
+|poke|p1|Ferrothorn, M|item
+|poke|p2|Sylveon, M|item
+|poke|p2|Bisharp, M|item
+|poke|p2|Latios, M|item
+|poke|p2|Klefki, M|item
+|poke|p2|Hippowdon, M|item
+|poke|p2|Tornadus-Therian, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|c|☆LUCK>SKILL|ah
+|c|☆Bro Kappa♠|x
+|c|☆LUCK>SKILL|la mia main
+|c|☆Bro Kappa♠|hai defog
+|c|☆Bro Kappa♠|togekiss
+|c|☆Bro Kappa♠|?
+|c|☆LUCK>SKILL|mh
+|c|☆LUCK>SKILL|onn semrerebbe
+|c|☆LUCK>SKILL|utile volcarona
+|choice|team 6, team 2, team 3, team 4, team 5, team 1|team 1, team 2, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|switch|p2a: Sylveon|Sylveon, M|100/100
+|turn|1
+|c|☆Bro Kappa♠|D:
+|choice|move stealthrock|move batonpass
+|
+|move|p2a: Sylveon|Baton Pass|p2a: Sylveon
+|c|☆LUCK>SKILL|posso
+|c|☆LUCK>SKILL|forzarti a defoggare ig
+|choice||switch 5
+|
+|switch|p2a: Hippowdon|Hippowdon, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Hippowdon
+|-sidestart|p2: Bro Kappa♠|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|2
+|choice|switch 5|move stealthrock
+|
+|switch|p1a: Volcarona|Volcarona, M|100/100
+|move|p2a: Hippowdon|Stealth Rock|p1a: Volcarona
+|-sidestart|p1: LUCK>SKILL|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Volcarona|95/100|[from] sandstorm
+|upkeep
+|turn|3
+|choice|move fireblast|move stoneedge
+|
+|move|p1a: Volcarona|Fire Blast|p2a: Hippowdon
+|-damage|p2a: Hippowdon|53/100
+|move|p2a: Hippowdon|Stone Edge|p1a: Volcarona
+|-supereffective|p1a: Volcarona
+|-damage|p1a: Volcarona|0 fnt
+|faint|p1a: Volcarona
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Hippowdon|59/100|[from] item: Leftovers
+|upkeep
+|c|☆LUCK>SKILL|chipè
+|c|☆LUCK>SKILL|chip.
+|c|☆Bro Kappa♠|:v
+|choice|switch 6|
+|
+|switch|p1a: Serperior|Serperior, M|100/100
+|-damage|p1a: Serperior|88/100|[from] Stealth Rock
+|turn|4
+|J|Config
+|L|Config
+|c|☆LUCK>SKILL|not my favourite
+|c|☆LUCK>SKILL|serperior set
+|c|☆Bro Kappa♠|che è hp rock
+|choice|move leafstorm|switch 4
+|
+|switch|p2a: Klefki|Klefki, M|100/100
+|-damage|p2a: Klefki|95/100|[from] Stealth Rock
+|move|p1a: Serperior|Leaf Storm|p2a: Klefki
+|-resisted|p2a: Klefki
+|-damage|p2a: Klefki|66/100
+|-boost|p1a: Serperior|spa|2
+|-damage|p1a: Serperior|78/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Serperior|72/100|[from] sandstorm
+|-heal|p2a: Klefki|72/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|choice|move hiddenpower|switch 4
+|
+|switch|p2a: Hippowdon|Hippowdon, M|59/100
+|-damage|p2a: Hippowdon|53/100|[from] Stealth Rock
+|move|p1a: Serperior|Hidden Power|p2a: Hippowdon
+|-damage|p2a: Hippowdon|27/100
+|-damage|p1a: Serperior|62/100|[from] item: Life Orb
+|
+|-weather|none
+|-heal|p2a: Hippowdon|33/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|choice|move gigadrain|move earthquake
+|
+|move|p1a: Serperior|Giga Drain|p2a: Hippowdon
+|-supereffective|p2a: Hippowdon
+|-damage|p2a: Hippowdon|0 fnt
+|-heal|p1a: Serperior|86/100|[from] drain|[of] p2a: Hippowdon
+|-damage|p1a: Serperior|76/100|[from] item: Life Orb
+|faint|p2a: Hippowdon
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Latios|Latios, M|100/100
+|-damage|p2a: Latios|88/100|[from] Stealth Rock
+|turn|7
+|choice|move dragonpulse|move dracometeor
+|
+|move|p2a: Latios|Draco Meteor|p1a: Serperior
+|-damage|p1a: Serperior|0 fnt
+|-unboost|p2a: Latios|spa|2
+|faint|p1a: Serperior
+|
+|upkeep
+|c|☆Bro Kappa♠|ez
+|c|☆LUCK>SKILL|ah
+|c|☆LUCK>SKILL|him
+|choice|switch 5|
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p1a: Ferrothorn|94/100|[from] Stealth Rock
+|turn|8
+|choice|move leechseed|switch 4
+|
+|switch|p2a: Klefki|Klefki, M|72/100
+|-damage|p2a: Klefki|66/100|[from] Stealth Rock
+|move|p1a: Ferrothorn|Leech Seed|p2a: Klefki
+|-start|p2a: Klefki|move: Leech Seed
+|
+|-heal|p2a: Klefki|72/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|100/100|[from] item: Leftovers
+|-damage|p2a: Klefki|60/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|upkeep
+|turn|9
+|c|☆Bro Kappa♠|bello ferro
+|c|☆Bro Kappa♠|come si killa?
+|choice|move gyroball|switch 4
+|
+|switch|p2a: Latios|Latios, M|88/100
+|-damage|p2a: Latios|76/100|[from] Stealth Rock
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Latios
+|-damage|p2a: Latios|14/100
+|
+|upkeep
+|turn|10
+|c|☆LUCK>SKILL|proprio un bel mon
+|choice|move protect|move trick
+|
+|move|p1a: Ferrothorn|Protect|p1a: Ferrothorn
+|-singleturn|p1a: Ferrothorn|Protect
+|move|p2a: Latios|Trick|p1a: Ferrothorn
+|-activate|p1a: Ferrothorn|move: Protect
+|
+|upkeep
+|turn|11
+|choice|switch 2|switch 4
+|
+|switch|p2a: Klefki|Klefki, M|60/100
+|-damage|p2a: Klefki|54/100|[from] Stealth Rock
+|switch|p1a: Togekiss|Togekiss, M|100/100
+|-damage|p1a: Togekiss|76/100|[from] Stealth Rock
+|
+|-heal|p1a: Togekiss|82/100|[from] item: Leftovers
+|-heal|p2a: Klefki|60/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|choice|switch 2|move spikes
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p1a: Ferrothorn|94/100|[from] Stealth Rock
+|move|p2a: Klefki|Spikes|p1a: Ferrothorn
+|-sidestart|p1: LUCK>SKILL|Spikes
+|
+|-heal|p2a: Klefki|66/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|choice|move leechseed|move spikes
+|
+|move|p2a: Klefki|Spikes|p1a: Ferrothorn
+|-sidestart|p1: LUCK>SKILL|Spikes
+|move|p1a: Ferrothorn|Leech Seed|p2a: Klefki
+|-start|p2a: Klefki|move: Leech Seed
+|
+|-heal|p2a: Klefki|72/100|[from] item: Leftovers
+|-damage|p2a: Klefki|60/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|upkeep
+|turn|14
+|choice|move gyroball|move spikes
+|
+|move|p2a: Klefki|Spikes|p1a: Ferrothorn
+|-sidestart|p1: LUCK>SKILL|Spikes
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Klefki
+|-damage|p2a: Klefki|33/100
+|
+|-heal|p2a: Klefki|39/100|[from] item: Leftovers
+|-damage|p2a: Klefki|27/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|upkeep
+|turn|15
+|choice|move gyroball|move thunderwave
+|
+|move|p2a: Klefki|Thunder Wave|p1a: Ferrothorn
+|-status|p1a: Ferrothorn|par
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Klefki
+|-damage|p2a: Klefki|0 fnt
+|faint|p2a: Klefki
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Latios|Latios, M|14/100
+|-damage|p2a: Latios|1/100|[from] Stealth Rock
+|turn|16
+|choice|switch 2|move trick
+|
+|switch|p1a: Togekiss|Togekiss, M|82/100
+|-damage|p1a: Togekiss|57/100|[from] Stealth Rock
+|move|p2a: Latios|Trick|p1a: Togekiss
+|-activate|p2a: Latios|move: Trick|[of] p1a: Togekiss
+|-item|p1a: Togekiss|Choice Scarf|[from] move: Trick
+|-item|p2a: Latios|Leftovers|[from] move: Trick
+|
+|-heal|p2a: Latios|7/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|choice|move defog|move psyshock
+|
+|move|p2a: Latios|Psyshock|p1a: Togekiss
+|-damage|p1a: Togekiss|20/100
+|move|p1a: Togekiss|Defog|p2a: Latios
+|-unboost|p2a: Latios|evasion|1
+|-sideend|p2: Bro Kappa♠|Stealth Rock|[from] move: Defog|[of] p2a: Latios
+|-sideend|p1: LUCK>SKILL|Spikes|[from] move: Defog|[of] p1a: Togekiss
+|-sideend|p1: LUCK>SKILL|Stealth Rock|[from] move: Defog|[of] p1a: Togekiss
+|
+|-heal|p2a: Latios|13/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|c|☆Bro Kappa♠|veloce
+|c|☆LUCK>SKILL|e invece
+|choice|switch 2|switch 2
+|
+|switch|p2a: Bisharp|Bisharp, M|100/100
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100 par
+|
+|upkeep
+|turn|19
+|choice|move leechseed|move swordsdance
+|
+|move|p2a: Bisharp|Swords Dance|p2a: Bisharp
+|-boost|p2a: Bisharp|atk|2
+|move|p1a: Ferrothorn|Leech Seed|p2a: Bisharp
+|-start|p2a: Bisharp|move: Leech Seed
+|
+|-damage|p2a: Bisharp|88/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|upkeep
+|turn|20
+|choice|move gyroball|move knockoff
+|
+|move|p2a: Bisharp|Knock Off|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|16/100 par
+|-damage|p2a: Bisharp|76/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-enditem|p1a: Ferrothorn|Leftovers|[from] move: Knock Off|[of] p2a: Bisharp
+|-damage|p2a: Bisharp|66/100|[from] item: Life Orb
+|cant|p1a: Ferrothorn|par
+|
+|-damage|p2a: Bisharp|54/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|25/100 par|[silent]
+|upkeep
+|turn|21
+|choice|move protect|move knockoff
+|
+|move|p1a: Ferrothorn|Protect|p1a: Ferrothorn
+|-singleturn|p1a: Ferrothorn|Protect
+|move|p2a: Bisharp|Knock Off|p1a: Ferrothorn
+|-activate|p1a: Ferrothorn|move: Protect
+|
+|-damage|p2a: Bisharp|42/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|35/100 par|[silent]
+|upkeep
+|turn|22
+|choice|switch 2|move knockoff
+|
+|switch|p1a: Togekiss|Togekiss, M|20/100
+|move|p2a: Bisharp|Knock Off|p1a: Togekiss
+|-resisted|p1a: Togekiss
+|-damage|p1a: Togekiss|0 fnt
+|-enditem|p1a: Togekiss|Choice Scarf|[from] move: Knock Off|[of] p2a: Bisharp
+|-damage|p2a: Bisharp|32/100|[from] item: Life Orb
+|faint|p1a: Togekiss
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|35/100 par
+|turn|23
+|choice|move protect|switch 5
+|
+|switch|p2a: Sylveon|Sylveon, M|100/100
+|move|p1a: Ferrothorn|Protect|p1a: Ferrothorn
+|-fail|p1a: Ferrothorn
+|
+|upkeep
+|turn|24
+|c|☆LUCK>SKILL|quel fp sulla gyro
+|c|☆LUCK>SKILL|L
+|choice|move stealthrock|move hypervoice
+|
+|move|p2a: Sylveon|Hyper Voice|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|faint|p1a: Ferrothorn
+|
+|upkeep
+|c|☆Bro Kappa♠|sylveon
+|c|☆Bro Kappa♠|just wins
+|c|☆LUCK>SKILL|y
+|choice|switch 4|
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|turn|25
+|choice|move willowisp|move hypervoice
+|
+|move|p1a: Rotom|Will-O-Wisp|p2a: Sylveon
+|-status|p2a: Sylveon|brn
+|move|p2a: Sylveon|Hyper Voice|p1a: Rotom
+|-damage|p1a: Rotom|6/100
+|
+|-heal|p1a: Rotom|12/100|[from] item: Leftovers
+|-damage|p2a: Sylveon|88/100 brn|[from] brn
+|upkeep
+|turn|26
+|choice|move hydropump|move hypervoice
+|
+|move|p1a: Rotom|Hydro Pump|p2a: Sylveon
+|-damage|p2a: Sylveon|63/100 brn
+|move|p2a: Sylveon|Hyper Voice|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|-damage|p2a: Sylveon|50/100 brn|[from] brn
+|upkeep
+|c|☆LUCK>SKILL|x
+|choice|switch 3|
+|
+|switch|p1a: Slowbro|Slowbro, M|100/100
+|turn|27
+|c|☆Bro Kappa♠|525
+|c|☆LUCK>SKILL|gone
+|c|☆Bro Kappa♠|117 stab
+|choice|move psyshock|move hypervoice
+|
+|move|p2a: Sylveon|Hyper Voice|p1a: Slowbro
+|-damage|p1a: Slowbro|27/100
+|move|p1a: Slowbro|Psyshock|p2a: Sylveon
+|-damage|p2a: Sylveon|14/100 brn
+|
+|-damage|p2a: Sylveon|2/100 brn|[from] brn
+|upkeep
+|turn|28
+|c|☆Bro Kappa♠|gg
+|choice|move psyshock|move hypervoice
+|
+|move|p2a: Sylveon|Hyper Voice|p1a: Slowbro
+|-damage|p1a: Slowbro|0 fnt
+|faint|p1a: Slowbro
+|
+|win|Bro Kappa♠

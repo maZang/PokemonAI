@@ -1,0 +1,443 @@
+|j|Cityescape
+|j|Rio91
+|player|p1|Cityescape|101
+|player|p2|Rio91|141
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|788,34988,38341,28952,43802,15115,4996,48212,22158,22281,31239,56870
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Vullaby, F|item
+|poke|p1|Stunfisk, M|item
+|poke|p1|Huntail, M|item
+|poke|p1|Raichu, M|item
+|poke|p1|Glalie, M|item
+|poke|p1|Misdreavus, M|item
+|poke|p2|Misdreavus, M|item
+|poke|p2|Stoutland, M|item
+|poke|p2|Gothitelle, M|item
+|poke|p2|Avalugg, M|item
+|poke|p2|Pawniard, M|item
+|poke|p2|Quilladin, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 6, team 2, team 3, team 4, team 5, team 1|team 6, team 2, team 3, team 4, team 5, team 1
+|
+|start
+|switch|p1a: Misdreavus|Misdreavus, M|100/100
+|switch|p2a: Quilladin|Quilladin, M|100/100
+|turn|1
+|choice|move willowisp|move spikes
+|
+|move|p1a: Misdreavus|Will-O-Wisp|p2a: Quilladin
+|-status|p2a: Quilladin|brn
+|move|p2a: Quilladin|Spikes|p1a: Misdreavus
+|-sidestart|p1: Cityescape|Spikes
+|
+|-damage|p2a: Quilladin|88/100 brn|[from] brn
+|upkeep
+|turn|2
+|choice|move taunt|move spikes
+|
+|move|p1a: Misdreavus|Taunt|p2a: Quilladin
+|-start|p2a: Quilladin|move: Taunt
+|cant|p2a: Quilladin|move: Taunt|Spikes
+|
+|-damage|p2a: Quilladin|76/100 brn|[from] brn
+|upkeep
+|turn|3
+|choice|switch 6|move woodhammer
+|
+|switch|p1a: Vullaby|Vullaby, F|100/100
+|move|p2a: Quilladin|Wood Hammer|p1a: Vullaby
+|-resisted|p1a: Vullaby
+|-damage|p1a: Vullaby|96/100
+|-damage|p2a: Quilladin|74/100 brn|[from] recoil|[of] p1a: Vullaby
+|
+|-damage|p2a: Quilladin|62/100 brn|[from] brn
+|upkeep
+|turn|4
+|choice|move whirlwind|switch 5
+|
+|switch|p2a: Pawniard|Pawniard, M|100/100
+|move|p1a: Vullaby|Whirlwind|p2a: Pawniard
+|drag|p2a: Stoutland|Stoutland, M|100/100
+|
+|upkeep
+|turn|5
+|choice|move foulplay|move facade
+|
+|move|p2a: Stoutland|Facade|p1a: Vullaby
+|-damage|p1a: Vullaby|66/100
+|move|p1a: Vullaby|Foul Play|p2a: Stoutland
+|-crit|p2a: Stoutland
+|-damage|p2a: Stoutland|19/100
+|
+|upkeep
+|turn|6
+|choice|move roost|move facade
+|
+|move|p2a: Stoutland|Facade|p1a: Vullaby
+|-damage|p1a: Vullaby|32/100
+|move|p1a: Vullaby|Roost|p1a: Vullaby
+|-heal|p1a: Vullaby|82/100
+|
+|upkeep
+|turn|7
+|choice|move roost|move facade
+|
+|move|p2a: Stoutland|Facade|p1a: Vullaby
+|-damage|p1a: Vullaby|50/100
+|move|p1a: Vullaby|Roost|p1a: Vullaby
+|-heal|p1a: Vullaby|99/100
+|
+|upkeep
+|turn|8
+|choice|move roost|move facade
+|
+|move|p2a: Stoutland|Facade|p1a: Vullaby
+|-damage|p1a: Vullaby|71/100
+|move|p1a: Vullaby|Roost|p1a: Vullaby
+|-heal|p1a: Vullaby|100/100
+|
+|upkeep
+|turn|9
+|choice|move foulplay|move facade
+|
+|move|p2a: Stoutland|Facade|p1a: Vullaby
+|-damage|p1a: Vullaby|71/100
+|move|p1a: Vullaby|Foul Play|p2a: Stoutland
+|-damage|p2a: Stoutland|0 fnt
+|faint|p2a: Stoutland
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Quilladin|Quilladin, M|62/100 brn
+|turn|10
+|choice|move defog|move spikes
+|
+|move|p1a: Vullaby|Defog|p2a: Quilladin
+|-unboost|p2a: Quilladin|evasion|1
+|-sideend|p1: Cityescape|Spikes|[from] move: Defog|[of] p1a: Vullaby
+|move|p2a: Quilladin|Spikes|p1a: Vullaby
+|-sidestart|p1: Cityescape|Spikes
+|
+|-damage|p2a: Quilladin|50/100 brn|[from] brn
+|upkeep
+|turn|11
+|choice|move foulplay|move roar
+|
+|move|p1a: Vullaby|Foul Play|p2a: Quilladin
+|-damage|p2a: Quilladin|35/100 brn
+|move|p2a: Quilladin|Roar|p1a: Vullaby
+|drag|p1a: Stunfisk|Stunfisk, M|100/100
+|-damage|p1a: Stunfisk|88/100|[from] Spikes
+|
+|-heal|p1a: Stunfisk|94/100|[from] item: Leftovers
+|-damage|p2a: Quilladin|22/100 brn|[from] brn
+|upkeep
+|turn|12
+|choice|switch 2|move synthesis
+|
+|switch|p1a: Vullaby|Vullaby, F|71/100
+|move|p2a: Quilladin|Synthesis|p2a: Quilladin
+|-heal|p2a: Quilladin|72/100 brn
+|
+|-damage|p2a: Quilladin|60/100 brn|[from] brn
+|upkeep
+|turn|13
+|choice|move foulplay|move roar
+|
+|move|p1a: Vullaby|Foul Play|p2a: Quilladin
+|-damage|p2a: Quilladin|47/100 brn
+|move|p2a: Quilladin|Roar|p1a: Vullaby
+|drag|p1a: Glalie|Glalie, M|100/100
+|-damage|p1a: Glalie|88/100|[from] Spikes
+|
+|-damage|p2a: Quilladin|35/100 brn|[from] brn
+|upkeep
+|turn|14
+|choice|move taunt|move roar
+|
+|move|p1a: Glalie|Taunt|p2a: Quilladin
+|-start|p2a: Quilladin|move: Taunt
+|cant|p2a: Quilladin|move: Taunt|Roar
+|
+|-damage|p2a: Quilladin|22/100 brn|[from] brn
+|upkeep
+|turn|15
+|choice|move freezedry|move woodhammer
+|
+|move|p1a: Glalie|Freeze-Dry|p2a: Quilladin
+|-supereffective|p2a: Quilladin
+|-damage|p2a: Quilladin|0 fnt
+|faint|p2a: Quilladin
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Avalugg|Avalugg, M|100/100
+|turn|16
+|choice|move taunt|move toxic
+|
+|move|p1a: Glalie|Taunt|p2a: Avalugg
+|-start|p2a: Avalugg|move: Taunt
+|cant|p2a: Avalugg|move: Taunt|Toxic
+|
+|upkeep
+|turn|17
+|choice|switch 3|move avalanche
+|
+|switch|p1a: Huntail|Huntail, M|100/100
+|-damage|p1a: Huntail|88/100|[from] Spikes
+|move|p2a: Avalugg|Avalanche|p1a: Huntail
+|-resisted|p1a: Huntail
+|-damage|p1a: Huntail|73/100
+|
+|upkeep
+|turn|18
+|choice|move shellsmash|move avalanche
+|
+|move|p1a: Huntail|Shell Smash|p1a: Huntail
+|-unboost|p1a: Huntail|def|1
+|-unboost|p1a: Huntail|spd|1
+|-boost|p1a: Huntail|atk|2
+|-boost|p1a: Huntail|spa|2
+|-boost|p1a: Huntail|spe|2
+|-enditem|p1a: Huntail|White Herb
+|-clearnegativeboost|p1a: Huntail|[silent]
+|move|p2a: Avalugg|Avalanche|p1a: Huntail
+|-resisted|p1a: Huntail
+|-damage|p1a: Huntail|58/100
+|
+|-end|p2a: Avalugg|move: Taunt
+|upkeep
+|turn|19
+|choice|move waterfall|move toxic
+|
+|move|p1a: Huntail|Waterfall|p2a: Avalugg
+|-damage|p2a: Avalugg|61/100
+|move|p2a: Avalugg|Toxic|p1a: Huntail
+|-status|p1a: Huntail|tox
+|
+|-heal|p2a: Avalugg|67/100|[from] item: Leftovers
+|-damage|p1a: Huntail|52/100 tox|[from] psn
+|upkeep
+|turn|20
+|choice|move waterfall|move recover
+|
+|move|p1a: Huntail|Waterfall|p2a: Avalugg
+|-damage|p2a: Avalugg|25/100
+|move|p2a: Avalugg|Recover|p2a: Avalugg
+|-heal|p2a: Avalugg|76/100
+|
+|-heal|p2a: Avalugg|82/100|[from] item: Leftovers
+|-damage|p1a: Huntail|40/100 tox|[from] psn
+|upkeep
+|turn|21
+|choice|move waterfall|move recover
+|
+|move|p1a: Huntail|Waterfall|p2a: Avalugg
+|-damage|p2a: Avalugg|41/100
+|cant|p2a: Avalugg|flinch
+|
+|-heal|p2a: Avalugg|47/100|[from] item: Leftovers
+|-damage|p1a: Huntail|22/100 tox|[from] psn
+|upkeep
+|turn|22
+|choice|move waterfall|move recover
+|
+|move|p1a: Huntail|Waterfall|p2a: Avalugg
+|-damage|p2a: Avalugg|5/100
+|cant|p2a: Avalugg|flinch
+|
+|-heal|p2a: Avalugg|11/100|[from] item: Leftovers
+|-damage|p1a: Huntail|0 fnt|[from] psn
+|upkeep
+|faint|p1a: Huntail
+|choice|switch 6|
+|
+|switch|p1a: Misdreavus|Misdreavus, M|100/100
+|turn|23
+|choice|move foulplay|move avalanche
+|
+|move|p1a: Misdreavus|Foul Play|p2a: Avalugg
+|-damage|p2a: Avalugg|0 fnt
+|faint|p2a: Avalugg
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Pawniard|Pawniard, M|100/100
+|turn|24
+|choice|move willowisp|move swordsdance
+|
+|move|p1a: Misdreavus|Will-O-Wisp|p2a: Pawniard
+|-status|p2a: Pawniard|brn
+|move|p2a: Pawniard|Swords Dance|p2a: Pawniard
+|-boost|p2a: Pawniard|atk|2
+|
+|-damage|p2a: Pawniard|88/100 brn|[from] brn
+|upkeep
+|turn|25
+|choice|move taunt|move knockoff
+|
+|move|p1a: Misdreavus|Taunt|p2a: Pawniard
+|-start|p2a: Pawniard|move: Taunt
+|move|p2a: Pawniard|Knock Off|p1a: Misdreavus
+|-supereffective|p1a: Misdreavus
+|-damage|p1a: Misdreavus|29/100
+|-enditem|p1a: Misdreavus|Eviolite|[from] move: Knock Off|[of] p2a: Pawniard
+|
+|-damage|p2a: Pawniard|75/100 brn|[from] brn
+|upkeep
+|turn|26
+|choice|move foulplay|move knockoff
+|
+|move|p1a: Misdreavus|Foul Play|p2a: Pawniard
+|-resisted|p2a: Pawniard
+|-damage|p2a: Pawniard|39/100 brn
+|move|p2a: Pawniard|Knock Off|p1a: Misdreavus
+|-supereffective|p1a: Misdreavus
+|-damage|p1a: Misdreavus|0 fnt
+|faint|p1a: Misdreavus
+|
+|-damage|p2a: Pawniard|27/100 brn|[from] brn
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Raichu|Raichu, M|100/100
+|-damage|p1a: Raichu|88/100|[from] Spikes
+|turn|27
+|choice|move voltswitch|move knockoff
+|
+|move|p1a: Raichu|Volt Switch|p2a: Pawniard
+|-damage|p2a: Pawniard|0 fnt
+|faint|p2a: Pawniard
+|choice|switch 3|
+|
+|switch|p1a: Glalie|Glalie, M|88/100
+|-damage|p1a: Glalie|76/100|[from] Spikes
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Gothitelle|Gothitelle, M|100/100
+|turn|28
+|choice|move taunt|move calmmind
+|
+|move|p1a: Glalie|Taunt|p2a: Gothitelle
+|-start|p2a: Gothitelle|move: Taunt
+|cant|p2a: Gothitelle|move: Taunt|Calm Mind
+|
+|upkeep
+|turn|29
+|choice|move explosion|move psychic
+|
+|move|p1a: Glalie|Explosion|p2a: Gothitelle
+|-damage|p2a: Gothitelle|55/100
+|faint|p1a: Glalie
+|move|p2a: Gothitelle|Psychic|p1: Glalie|[notarget]
+|-notarget
+|
+|-heal|p2a: Gothitelle|61/100|[from] item: Leftovers
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Vullaby|Vullaby, F|71/100
+|turn|30
+|choice|move foulplay|move psychic
+|
+|move|p2a: Gothitelle|Psychic|p1a: Vullaby
+|-immune|p1a: Vullaby|[msg]
+|move|p1a: Vullaby|Foul Play|p2a: Gothitelle
+|-supereffective|p2a: Gothitelle
+|-damage|p2a: Gothitelle|36/100
+|
+|-heal|p2a: Gothitelle|42/100|[from] item: Leftovers
+|-end|p2a: Gothitelle|move: Taunt
+|upkeep
+|turn|31
+|choice|move foulplay|move calmmind
+|
+|move|p2a: Gothitelle|Calm Mind|p2a: Gothitelle
+|-boost|p2a: Gothitelle|spa|1
+|-boost|p2a: Gothitelle|spd|1
+|move|p1a: Vullaby|Foul Play|p2a: Gothitelle
+|-supereffective|p2a: Gothitelle
+|-damage|p2a: Gothitelle|14/100
+|
+|-heal|p2a: Gothitelle|20/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|choice|move foulplay|move rest
+|
+|move|p2a: Gothitelle|Rest|p2a: Gothitelle
+|-status|p2a: Gothitelle|slp
+|-heal|p2a: Gothitelle|100/100 slp|[silent]
+|-status|p2a: Gothitelle|slp|[from] move: Rest
+|move|p1a: Vullaby|Foul Play|p2a: Gothitelle
+|-supereffective|p2a: Gothitelle
+|-damage|p2a: Gothitelle|73/100 slp
+|
+|-heal|p2a: Gothitelle|79/100 slp|[from] item: Leftovers
+|upkeep
+|turn|33
+|choice|move whirlwind|move calmmind
+|
+|cant|p2a: Gothitelle|slp
+|move|p1a: Vullaby|Whirlwind|p2a: Gothitelle
+|drag|p2a: Misdreavus|Misdreavus, M|100/100
+|
+|upkeep
+|turn|34
+|choice|move foulplay|move thunderbolt
+|
+|move|p2a: Misdreavus|Thunderbolt|p1a: Vullaby
+|-supereffective|p1a: Vullaby
+|-damage|p1a: Vullaby|24/100
+|move|p1a: Vullaby|Foul Play|p2a: Misdreavus
+|-supereffective|p2a: Misdreavus
+|-damage|p2a: Misdreavus|52/100
+|
+|upkeep
+|turn|35
+|choice|switch 3|move nastyplot
+|
+|switch|p1a: Raichu|Raichu, M|88/100
+|-damage|p1a: Raichu|76/100|[from] Spikes
+|move|p2a: Misdreavus|Nasty Plot|p2a: Misdreavus
+|-boost|p2a: Misdreavus|spa|2
+|
+|upkeep
+|turn|36
+|choice|move thunderbolt|move shadowball
+|
+|move|p1a: Raichu|Thunderbolt|p2a: Misdreavus
+|-crit|p2a: Misdreavus
+|-damage|p2a: Misdreavus|0 fnt
+|faint|p2a: Misdreavus
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Gothitelle|Gothitelle, M|79/100 slp
+|turn|37
+|choice|switch 3|move meanlook
+|
+|switch|p1a: Vullaby|Vullaby, F|24/100
+|cant|p2a: Gothitelle|slp
+|
+|-heal|p2a: Gothitelle|85/100 slp|[from] item: Leftovers
+|upkeep
+|turn|38
+|-message|Rio91 forfeited.
+|
+|win|Cityescape
+|l|Rio91
+|raw|Cityescape's rating: 1242 &rarr; <strong>1270</strong><br />(+28 for winning)
+|raw|Rio91's rating: 1278 &rarr; <strong>1251</strong><br />(-27 for losing)

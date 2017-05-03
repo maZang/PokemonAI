@@ -1,0 +1,557 @@
+|j|ItzDrFez
+|j|Friederich Willhem
+|player|p1|ItzDrFez|169
+|player|p2|Friederich Willhem|212
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|39774,4448,9754,28390,9933,57127,51102,22108,42849,19586,40507,61723
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Hawlucha, M|item
+|poke|p1|Jirachi|item
+|poke|p1|Scizor, M|item
+|poke|p1|Gengar, M|item
+|poke|p1|Slowbro, M|item
+|poke|p1|Togekiss, M|item
+|poke|p2|Zapdos|item
+|poke|p2|Garchomp, M|item
+|poke|p2|Hippowdon, M|item
+|poke|p2|Pinsir, M|item
+|poke|p2|Alakazam, M|item
+|poke|p2|Talonflame, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ItzDrFez)
+|choice|team 1, team 2, team 3, team 4, team 5, team 6|team 3, team 2, team 1, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Hawlucha|Hawlucha, M|100/100
+|switch|p2a: Hippowdon|Hippowdon, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|turn|1
+|choice|move swordsdance|move stealthrock
+|
+|move|p1a: Hawlucha|Swords Dance|p1a: Hawlucha
+|-boost|p1a: Hawlucha|atk|2
+|move|p2a: Hippowdon|Stealth Rock|p1a: Hawlucha
+|-sidestart|p1: ItzDrFez|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hawlucha|94/100|[from] sandstorm
+|upkeep
+|turn|2
+|choice|move substitute|move stoneedge
+|
+|move|p1a: Hawlucha|Substitute|p1a: Hawlucha
+|-start|p1a: Hawlucha|Substitute
+|-damage|p1a: Hawlucha|69/100
+|move|p2a: Hippowdon|Stone Edge|p1a: Hawlucha
+|-end|p1a: Hawlucha|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hawlucha|63/100|[from] sandstorm
+|upkeep
+|turn|3
+|choice|move swordsdance|move stoneedge
+|
+|move|p1a: Hawlucha|Swords Dance|p1a: Hawlucha
+|-boost|p1a: Hawlucha|atk|2
+|move|p2a: Hippowdon|Stone Edge|p1a: Hawlucha
+|-damage|p1a: Hawlucha|30/100
+|-enditem|p1a: Hawlucha|Sitrus Berry|[eat]
+|-heal|p1a: Hawlucha|55/100|[from] item: Sitrus Berry
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hawlucha|49/100|[from] sandstorm
+|upkeep
+|turn|4
+|choice|move acrobatics|move stoneedge
+|
+|move|p1a: Hawlucha|Acrobatics|p2a: Hippowdon
+|-damage|p2a: Hippowdon|30/100
+|move|p2a: Hippowdon|Stone Edge|p1a: Hawlucha|[miss]
+|-miss|p2a: Hippowdon|p1a: Hawlucha
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hawlucha|43/100|[from] sandstorm
+|-heal|p2a: Hippowdon|36/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|choice|move acrobatics|move slackoff
+|
+|move|p1a: Hawlucha|Acrobatics|p2a: Hippowdon
+|-damage|p2a: Hippowdon|0 fnt
+|faint|p2a: Hippowdon
+|
+|-weather|none
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Pinsir|Pinsir, M|100/100
+|turn|6
+|choice|move acrobatics|move quickattack
+|
+|move|p2a: Pinsir|Quick Attack|p1a: Hawlucha
+|-crit|p1a: Hawlucha
+|-damage|p1a: Hawlucha|13/100
+|move|p1a: Hawlucha|Acrobatics|p2a: Pinsir
+|-supereffective|p2a: Pinsir
+|-damage|p2a: Pinsir|0 fnt
+|faint|p2a: Pinsir
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Alakazam|Alakazam, M|100/100
+|turn|7
+|choice|move acrobatics|move hiddenpower
+|
+|move|p1a: Hawlucha|Acrobatics|p2a: Alakazam
+|-damage|p2a: Alakazam|0 fnt
+|faint|p2a: Alakazam
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Talonflame|Talonflame, M|100/100
+|turn|8
+|choice|move acrobatics|move naturalgift
+|
+|move|p1a: Hawlucha|Acrobatics|p2a: Talonflame
+|-damage|p2a: Talonflame|0 fnt
+|faint|p2a: Talonflame
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Garchomp|Garchomp, M|100/100
+|turn|9
+|c|☆ItzDrFez|lol
+|choice|move highjumpkick|move outrage
+|
+|move|p1a: Hawlucha|High Jump Kick|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|-damage|p1a: Hawlucha|0 fnt|[from] ability: Rough Skin|[of] p2a: Garchomp
+|faint|p1a: Hawlucha
+|faint|p2a: Garchomp
+|
+|upkeep
+|choice|switch 3|switch 3
+|
+|switch|p2a: Zapdos|Zapdos|100/100
+|switch|p1a: Scizor|Scizor, M|100/100
+|-ability|p2a: Zapdos|Pressure
+|-damage|p1a: Scizor|88/100|[from] Stealth Rock
+|turn|10
+|c|☆Friederich Willhem|Kein problem
+|choice|move knockoff mega|move heatwave
+|
+|detailschange|p1a: Scizor|Scizor-Mega, M
+|-mega|p1a: Scizor|Scizor|Scizorite
+|move|p2a: Zapdos|Heat Wave|p1a: Scizor
+|-supereffective|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|faint|p1a: Scizor
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Jirachi|Jirachi|100/100
+|-damage|p1a: Jirachi|94/100|[from] Stealth Rock
+|turn|11
+|choice|switch 4|move heatwave
+|
+|switch|p1a: Gengar|Gengar, M|100/100
+|-damage|p1a: Gengar|88/100|[from] Stealth Rock
+|move|p2a: Zapdos|Heat Wave|p1a: Gengar
+|-damage|p1a: Gengar|43/100
+|
+|upkeep
+|turn|12
+|choice|move painsplit|move thunderbolt
+|
+|move|p1a: Gengar|Pain Split|p2a: Zapdos
+|-sethp|p2a: Zapdos|65/100|p1a: Gengar|95/100|[from] move: Pain Split
+|move|p2a: Zapdos|Thunderbolt|p1a: Gengar
+|-damage|p1a: Gengar|32/100
+|
+|-heal|p2a: Zapdos|71/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|choice|move painsplit|move thunderbolt
+|
+|move|p1a: Gengar|Pain Split|p2a: Zapdos
+|-sethp|p2a: Zapdos|46/100|p1a: Gengar|68/100|[from] move: Pain Split
+|move|p2a: Zapdos|Thunderbolt|p1a: Gengar
+|-damage|p1a: Gengar|4/100
+|
+|-heal|p2a: Zapdos|53/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|choice|move painsplit|move roost
+|
+|move|p1a: Gengar|Pain Split|p2a: Zapdos
+|-sethp|p2a: Zapdos|28/100|p1a: Gengar|41/100|[from] move: Pain Split
+|move|p2a: Zapdos|Roost|p2a: Zapdos
+|-heal|p2a: Zapdos|78/100
+|
+|-heal|p2a: Zapdos|84/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|choice|move painsplit|move roost
+|
+|move|p1a: Gengar|Pain Split|p2a: Zapdos
+|-sethp|p2a: Zapdos|56/100|p1a: Gengar|82/100|[from] move: Pain Split
+|move|p2a: Zapdos|Roost|p2a: Zapdos
+|-heal|p2a: Zapdos|100/100
+|
+|upkeep
+|turn|16
+|choice|move shadowball|move thunderbolt
+|
+|move|p1a: Gengar|Shadow Ball|p2a: Zapdos
+|-damage|p2a: Zapdos|50/100
+|-damage|p1a: Gengar|72/100|[from] item: Life Orb
+|move|p2a: Zapdos|Thunderbolt|p1a: Gengar
+|-damage|p1a: Gengar|2/100
+|
+|-heal|p2a: Zapdos|57/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|choice|move painsplit|move roost
+|
+|move|p1a: Gengar|Pain Split|p2a: Zapdos
+|-sethp|p2a: Zapdos|29/100|p1a: Gengar|42/100|[from] move: Pain Split
+|move|p2a: Zapdos|Roost|p2a: Zapdos
+|-heal|p2a: Zapdos|79/100
+|
+|-heal|p2a: Zapdos|85/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|choice|move shadowball|move thunderbolt
+|
+|move|p1a: Gengar|Shadow Ball|p2a: Zapdos
+|-damage|p2a: Zapdos|34/100
+|-damage|p1a: Gengar|32/100|[from] item: Life Orb
+|move|p2a: Zapdos|Thunderbolt|p1a: Gengar
+|-damage|p1a: Gengar|0 fnt
+|faint|p1a: Gengar
+|
+|-heal|p2a: Zapdos|41/100|[from] item: Leftovers
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Togekiss|Togekiss, M|100/100
+|-damage|p1a: Togekiss|76/100|[from] Stealth Rock
+|turn|19
+|c|☆Friederich Willhem|Zapdos die unbesiegbare
+|choice|move airslash|move roost
+|
+|move|p1a: Togekiss|Air Slash|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|25/100
+|cant|p2a: Zapdos|flinch
+|
+|-heal|p2a: Zapdos|31/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|choice|move aurasphere|move roost
+|
+|move|p1a: Togekiss|Aura Sphere|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-crit|p2a: Zapdos
+|-damage|p2a: Zapdos|13/100
+|move|p2a: Zapdos|Roost|p2a: Zapdos
+|-heal|p2a: Zapdos|63/100
+|
+|-heal|p2a: Zapdos|69/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|choice|move nastyplot|move thunderbolt
+|
+|move|p1a: Togekiss|Nasty Plot|p1a: Togekiss
+|-boost|p1a: Togekiss|spa|2
+|move|p2a: Zapdos|Thunderbolt|p1a: Togekiss
+|-supereffective|p1a: Togekiss
+|-damage|p1a: Togekiss|10/100
+|
+|-heal|p2a: Zapdos|75/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|choice|move aurasphere|move heatwave
+|
+|move|p1a: Togekiss|Aura Sphere|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|53/100
+|move|p2a: Zapdos|Heat Wave|p1a: Togekiss
+|-damage|p1a: Togekiss|0 fnt
+|faint|p1a: Togekiss
+|
+|-heal|p2a: Zapdos|59/100|[from] item: Leftovers
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Slowbro|Slowbro, M|100/100
+|-damage|p1a: Slowbro|88/100|[from] Stealth Rock
+|turn|23
+|choice|move scald|move roost
+|
+|move|p2a: Zapdos|Roost|p2a: Zapdos
+|-heal|p2a: Zapdos|100/100
+|move|p1a: Slowbro|Scald|p2a: Zapdos
+|-damage|p2a: Zapdos|74/100
+|-status|p2a: Zapdos|brn
+|
+|-heal|p2a: Zapdos|80/100 brn|[from] item: Leftovers
+|-heal|p1a: Slowbro|94/100|[from] item: Leftovers
+|-damage|p2a: Zapdos|68/100 brn|[from] brn
+|upkeep
+|turn|24
+|c|☆Friederich Willhem|NEIN
+|choice|switch 4|move thunderbolt
+|
+|switch|p1a: Jirachi|Jirachi|94/100
+|-damage|p1a: Jirachi|88/100|[from] Stealth Rock
+|move|p2a: Zapdos|Thunderbolt|p1a: Jirachi
+|-damage|p1a: Jirachi|62/100
+|
+|-heal|p1a: Jirachi|68/100|[from] item: Leftovers
+|-heal|p2a: Zapdos|74/100 brn|[from] item: Leftovers
+|-damage|p2a: Zapdos|61/100 brn|[from] brn
+|upkeep
+|turn|25
+|choice|move protect|move heatwave
+|
+|move|p1a: Jirachi|Protect|p1a: Jirachi
+|-singleturn|p1a: Jirachi|Protect
+|move|p2a: Zapdos|Heat Wave|p1a: Jirachi
+|-activate|p1a: Jirachi|move: Protect
+|
+|-heal|p1a: Jirachi|75/100|[from] item: Leftovers
+|-heal|p2a: Zapdos|68/100 brn|[from] item: Leftovers
+|-damage|p2a: Zapdos|55/100 brn|[from] brn
+|upkeep
+|turn|26
+|choice|switch 4|move heatwave
+|
+|switch|p1a: Slowbro|Slowbro, M|100/100
+|-damage|p1a: Slowbro|88/100|[from] Stealth Rock
+|move|p2a: Zapdos|Heat Wave|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|74/100
+|
+|-heal|p2a: Zapdos|61/100 brn|[from] item: Leftovers
+|-heal|p1a: Slowbro|80/100|[from] item: Leftovers
+|-damage|p2a: Zapdos|49/100 brn|[from] brn
+|upkeep
+|turn|27
+|choice|move psyshock|move roost
+|
+|move|p2a: Zapdos|Roost|p2a: Zapdos
+|-heal|p2a: Zapdos|99/100 brn
+|move|p1a: Slowbro|Psyshock|p2a: Zapdos
+|-crit|p2a: Zapdos
+|-damage|p2a: Zapdos|68/100 brn
+|
+|-heal|p2a: Zapdos|74/100 brn|[from] item: Leftovers
+|-heal|p1a: Slowbro|86/100|[from] item: Leftovers
+|-damage|p2a: Zapdos|62/100 brn|[from] brn
+|upkeep
+|turn|28
+|choice|move scald|move thunderbolt
+|
+|move|p2a: Zapdos|Thunderbolt|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-crit|p1a: Slowbro
+|-damage|p1a: Slowbro|0 fnt
+|faint|p1a: Slowbro
+|
+|-heal|p2a: Zapdos|68/100 brn|[from] item: Leftovers
+|-damage|p2a: Zapdos|56/100 brn|[from] brn
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Jirachi|Jirachi|75/100
+|-damage|p1a: Jirachi|68/100|[from] Stealth Rock
+|turn|29
+|choice|move wish|move heatwave
+|
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|move|p2a: Zapdos|Heat Wave|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|33/100
+|
+|-heal|p1a: Jirachi|39/100|[from] item: Leftovers
+|-heal|p2a: Zapdos|62/100 brn|[from] item: Leftovers
+|-damage|p2a: Zapdos|49/100 brn|[from] brn
+|upkeep
+|turn|30
+|choice|move bodyslam|move roost
+|
+|move|p1a: Jirachi|Body Slam|p2a: Zapdos
+|-damage|p2a: Zapdos|35/100 brn
+|move|p2a: Zapdos|Roost|p2a: Zapdos
+|-heal|p2a: Zapdos|85/100 brn
+|
+|-heal|p1a: Jirachi|89/100|[from] move: Wish|[wisher] Jirachi
+|-heal|p1a: Jirachi|95/100|[from] item: Leftovers
+|-heal|p2a: Zapdos|92/100 brn|[from] item: Leftovers
+|-damage|p2a: Zapdos|79/100 brn|[from] brn
+|upkeep
+|turn|31
+|choice|move bodyslam|move heatwave
+|
+|move|p1a: Jirachi|Body Slam|p2a: Zapdos
+|-damage|p2a: Zapdos|64/100 brn
+|move|p2a: Zapdos|Heat Wave|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|58/100
+|
+|-heal|p1a: Jirachi|64/100|[from] item: Leftovers
+|-heal|p2a: Zapdos|71/100 brn|[from] item: Leftovers
+|-damage|p2a: Zapdos|58/100 brn|[from] brn
+|upkeep
+|turn|32
+|choice|move wish|move heatwave
+|
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|move|p2a: Zapdos|Heat Wave|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|29/100
+|-status|p1a: Jirachi|brn
+|
+|-heal|p1a: Jirachi|35/100 brn|[from] item: Leftovers
+|-heal|p2a: Zapdos|64/100 brn|[from] item: Leftovers
+|-damage|p1a: Jirachi|23/100 brn|[from] brn
+|-damage|p2a: Zapdos|52/100 brn|[from] brn
+|upkeep
+|turn|33
+|c|☆Friederich Willhem|Ich gewann
+|choice|move protect|move heatwave
+|
+|move|p1a: Jirachi|Protect|p1a: Jirachi
+|-singleturn|p1a: Jirachi|Protect
+|move|p2a: Zapdos|Heat Wave|p1a: Jirachi
+|-activate|p1a: Jirachi|move: Protect
+|
+|-heal|p1a: Jirachi|73/100 brn|[from] move: Wish|[wisher] Jirachi
+|-heal|p1a: Jirachi|79/100 brn|[from] item: Leftovers
+|-heal|p2a: Zapdos|58/100 brn|[from] item: Leftovers
+|-damage|p1a: Jirachi|67/100 brn|[from] brn
+|-damage|p2a: Zapdos|46/100 brn|[from] brn
+|upkeep
+|turn|34
+|choice|move wish|move roost
+|
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|move|p2a: Zapdos|Roost|p2a: Zapdos
+|-heal|p2a: Zapdos|96/100 brn
+|
+|-heal|p1a: Jirachi|73/100 brn|[from] item: Leftovers
+|-heal|p2a: Zapdos|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Jirachi|60/100 brn|[from] brn
+|-damage|p2a: Zapdos|88/100 brn|[from] brn
+|upkeep
+|turn|35
+|choice|move ironhead|move heatwave
+|
+|move|p1a: Jirachi|Iron Head|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|83/100 brn
+|move|p2a: Zapdos|Heat Wave|p1a: Jirachi|[miss]
+|-miss|p2a: Zapdos|p1a: Jirachi
+|
+|-heal|p1a: Jirachi|100/100 brn|[from] move: Wish|[wisher] Jirachi
+|-heal|p2a: Zapdos|89/100 brn|[from] item: Leftovers
+|-damage|p1a: Jirachi|88/100 brn|[from] brn
+|-damage|p2a: Zapdos|77/100 brn|[from] brn
+|upkeep
+|turn|36
+|choice|move protect|move defog
+|
+|move|p1a: Jirachi|Protect|p1a: Jirachi
+|-singleturn|p1a: Jirachi|Protect
+|move|p2a: Zapdos|Defog|p1a: Jirachi
+|-activate|p1a: Jirachi|move: Protect
+|
+|-heal|p1a: Jirachi|94/100 brn|[from] item: Leftovers
+|-heal|p2a: Zapdos|83/100 brn|[from] item: Leftovers
+|-damage|p1a: Jirachi|82/100 brn|[from] brn
+|-damage|p2a: Zapdos|70/100 brn|[from] brn
+|upkeep
+|turn|37
+|choice|move bodyslam|move heatwave
+|
+|move|p1a: Jirachi|Body Slam|p2a: Zapdos
+|-damage|p2a: Zapdos|63/100 brn
+|move|p2a: Zapdos|Heat Wave|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|49/100 brn
+|
+|-heal|p1a: Jirachi|55/100 brn|[from] item: Leftovers
+|-heal|p2a: Zapdos|69/100 brn|[from] item: Leftovers
+|-damage|p1a: Jirachi|43/100 brn|[from] brn
+|-damage|p2a: Zapdos|57/100 brn|[from] brn
+|upkeep
+|turn|38
+|choice|move wish|move roost
+|
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|move|p2a: Zapdos|Roost|p2a: Zapdos
+|-heal|p2a: Zapdos|100/100 brn
+|
+|-heal|p1a: Jirachi|49/100 brn|[from] item: Leftovers
+|-damage|p1a: Jirachi|36/100 brn|[from] brn
+|-damage|p2a: Zapdos|88/100 brn|[from] brn
+|upkeep
+|turn|39
+|choice|move protect|move thunderbolt
+|
+|move|p1a: Jirachi|Protect|p1a: Jirachi
+|-singleturn|p1a: Jirachi|Protect
+|move|p2a: Zapdos|Thunderbolt|p1a: Jirachi
+|-activate|p1a: Jirachi|move: Protect
+|
+|-heal|p1a: Jirachi|86/100 brn|[from] move: Wish|[wisher] Jirachi
+|-heal|p1a: Jirachi|93/100 brn|[from] item: Leftovers
+|-heal|p2a: Zapdos|94/100 brn|[from] item: Leftovers
+|-damage|p1a: Jirachi|80/100 brn|[from] brn
+|-damage|p2a: Zapdos|82/100 brn|[from] brn
+|upkeep
+|turn|40
+|choice|move bodyslam|move heatwave
+|
+|move|p1a: Jirachi|Body Slam|p2a: Zapdos
+|-damage|p2a: Zapdos|75/100 brn
+|move|p2a: Zapdos|Heat Wave|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|46/100 brn
+|
+|-heal|p1a: Jirachi|52/100 brn|[from] item: Leftovers
+|-heal|p2a: Zapdos|81/100 brn|[from] item: Leftovers
+|-damage|p1a: Jirachi|39/100 brn|[from] brn
+|-damage|p2a: Zapdos|68/100 brn|[from] brn
+|upkeep
+|turn|41
+|choice|move wish|move heatwave
+|
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|move|p2a: Zapdos|Heat Wave|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|5/100 brn
+|
+|-heal|p1a: Jirachi|11/100 brn|[from] item: Leftovers
+|-heal|p2a: Zapdos|75/100 brn|[from] item: Leftovers
+|-damage|p1a: Jirachi|0 fnt|[from] brn
+|-damage|p2a: Zapdos|62/100 brn|[from] brn
+|upkeep
+|faint|p1a: Jirachi
+|
+|win|Friederich Willhem
+|raw|ItzDrFez's rating: 1043 &rarr; <strong>1025</strong><br />(-18 for losing)
+|raw|Friederich Willhem's rating: 1000 &rarr; <strong>1045</strong><br />(+45 for winning)
+|l|ItzDrFez
+|c|☆Friederich Willhem|Haha

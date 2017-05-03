@@ -1,0 +1,427 @@
+|j|chris meh
+|j|Jojo Meh
+|player|p1|chris meh|290
+|player|p2|Jojo Meh|262
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|25567,27360,14898,33729,13843,43858,41860,38889,84,21956,8638,45562
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Xatu, M|item
+|poke|p1|Archeops, M|item
+|poke|p1|Shiftry, M|item
+|poke|p1|Haunter, M|item
+|poke|p1|Audino, M|item
+|poke|p1|Samurott, M|item
+|poke|p2|Vileplume, M|item
+|poke|p2|Miltank, F|item
+|poke|p2|Golurk|item
+|poke|p2|Haunter, M|item
+|poke|p2|Primeape, M|item
+|poke|p2|Aurorus, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 2, team 1, team 3, team 4, team 5, team 6|team 3, team 2, team 1, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Archeops|Archeops, M|100/100
+|switch|p2a: Golurk|Golurk|100/100
+|turn|1
+|choice|move stealthrock|move icepunch
+|
+|move|p1a: Archeops|Stealth Rock|p2a: Golurk
+|-sidestart|p2: Jojo Meh|move: Stealth Rock
+|move|p2a: Golurk|Ice Punch|p1a: Archeops
+|-supereffective|p1a: Archeops
+|-enditem|p1a: Archeops|Focus Sash
+|-damage|p1a: Archeops|1/100
+|-damage|p2a: Golurk|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|2
+|choice|move endeavor|move rockpolish
+|
+|move|p1a: Archeops|Endeavor|p2a: Golurk
+|-immune|p2a: Golurk|[msg]
+|move|p2a: Golurk|Rock Polish|p2a: Golurk
+|-boost|p2a: Golurk|spe|2
+|
+|upkeep
+|turn|3
+|choice|move headsmash|move rockpolish
+|
+|move|p2a: Golurk|Rock Polish|p2a: Golurk
+|-boost|p2a: Golurk|spe|2
+|move|p1a: Archeops|Head Smash|p2a: Golurk
+|-resisted|p2a: Golurk
+|-damage|p2a: Golurk|65/100
+|-damage|p1a: Archeops|0 fnt|[from] recoil|[of] p2a: Golurk
+|faint|p1a: Archeops
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Haunter|Haunter, M|100/100
+|turn|4
+|choice|move shadowball|move shadowpunch
+|
+|move|p2a: Golurk|Shadow Punch|p1a: Haunter
+|-supereffective|p1a: Haunter
+|-damage|p1a: Haunter|0 fnt
+|-damage|p2a: Golurk|56/100|[from] item: Life Orb
+|faint|p1a: Haunter
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Shiftry|Shiftry, M|100/100
+|turn|5
+|j|Drewgamer
+|choice|move suckerpunch|move icepunch
+|
+|move|p1a: Shiftry|Sucker Punch|p2a: Golurk
+|-supereffective|p2a: Golurk
+|-damage|p2a: Golurk|0 fnt
+|-damage|p1a: Shiftry|91/100|[from] item: Life Orb
+|faint|p2a: Golurk
+|
+|upkeep
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolp
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolp
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolp
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolp
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolp
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolp
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolp
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolp
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolp
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolp
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolp
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolp
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolp
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolp
+|choice||switch 3
+|
+|switch|p2a: Vileplume|Vileplume, M|100/100
+|-damage|p2a: Vileplume|88/100|[from] Stealth Rock
+|turn|6
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolp
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolp
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolp
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolp
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolp
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolp
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolp
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolp
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolp
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolp
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolp
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolp
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolp
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolp
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolp
+|c|☆chris meh|!weak vileplume
+|html|<div class="infobox">Vileplume (ignoring abilities):<br /><span class="message-effect-weak">Weaknesses</span>: Fire, Flying, Ice, Psychic<br /><span class="message-effect-resist">Resistances</span>: Electric, Fairy, Fighting, <b>Grass</b>, Water<br /><span class="message-effect-immune">Immunities</span>: <font color=#999999>None</font></div>
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolp
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolp
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolp
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolp
+|c| Drewgamer|v
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolp
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolp
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolp
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolp
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolp
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolpqwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolp
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolp
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolp
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolp
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolp
+|choice|move knockoff|move sludgebomb
+|
+|move|p1a: Shiftry|Knock Off|p2a: Vileplume
+|-damage|p2a: Vileplume|15/100
+|-enditem|p2a: Vileplume|Black Sludge|[from] move: Knock Off|[of] p1a: Shiftry
+|-damage|p1a: Shiftry|81/100|[from] item: Life Orb
+|move|p2a: Vileplume|Sludge Bomb|p1a: Shiftry
+|-supereffective|p1a: Shiftry
+|-damage|p1a: Shiftry|0 fnt
+|faint|p1a: Shiftry
+|
+|upkeep
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolp
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolp
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolp
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolp
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolpqwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolp
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolp
+|c| Drewgamer|v
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolp
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolpqwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolp
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolp
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolp
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolp
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolp
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolp
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolp
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolp
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolpqwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolp
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolp
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolp
+|c| Drewgamer|vqwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolp
+|c| Drewgamer|v
+|c| Drewgamer|vqwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolp
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolp
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolp
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolpqwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolp
+|c| Drewgamer|v
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolp
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolp
+|choice|switch 2|
+|
+|switch|p1a: Xatu|Xatu, M|100/100
+|turn|7
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolpqwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolp
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolp
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolp
+|c| Drewgamer|vqwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolp
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolp
+|c| Drewgamer|v
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolpqwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolp
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolp
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolp
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolp
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolp
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolp
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolp
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolp
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolp
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolp
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolp
+|choice|move psyshock|move sludgebomb
+|
+|move|p1a: Xatu|Psyshock|p2a: Vileplume
+|-supereffective|p2a: Vileplume
+|-damage|p2a: Vileplume|0 fnt
+|-damage|p1a: Xatu|91/100|[from] item: Life Orb
+|faint|p2a: Vileplume
+|
+|upkeep
+|c| Drewgamer|fuck jonathan's pussy
+|choice||switch 5
+|
+|switch|p2a: Primeape|Primeape, M|100/100
+|-damage|p2a: Primeape|95/100|[from] Stealth Rock
+|turn|8
+|choice|move psyshock|switch 2
+|
+|switch|p2a: Miltank|Miltank, F|100/100
+|-damage|p2a: Miltank|88/100|[from] Stealth Rock
+|move|p1a: Xatu|Psyshock|p2a: Miltank
+|-damage|p2a: Miltank|63/100
+|-damage|p1a: Xatu|81/100|[from] item: Life Orb
+|
+|-heal|p2a: Miltank|70/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|c| Drewgamer|he'll enjoy it
+|choice|move heatwave|move toxic
+|
+|move|p1a: Xatu|Heat Wave|p2a: Miltank
+|-damage|p2a: Miltank|32/100
+|-damage|p1a: Xatu|71/100|[from] item: Life Orb
+|move|p2a: Miltank|Toxic|p1a: Xatu
+|move|p1a: Xatu|Toxic|p2a: Miltank|[from]Magic Bounce|[miss]
+|-miss|p1a: Xatu|p2a: Miltank
+|
+|-heal|p2a: Miltank|38/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|choice|move heatwave|move milkdrink
+|
+|move|p1a: Xatu|Heat Wave|p2a: Miltank
+|-damage|p2a: Miltank|0 fnt
+|-damage|p1a: Xatu|61/100|[from] item: Life Orb
+|faint|p2a: Miltank
+|
+|upkeep
+|l|Drewgamer
+|choice||switch 4
+|
+|switch|p2a: Haunter|Haunter, M|100/100
+|-damage|p2a: Haunter|88/100|[from] Stealth Rock
+|turn|11
+|choice|switch 5|move taunt
+|
+|switch|p1a: Audino|Audino, M|100/100
+|move|p2a: Haunter|Taunt|p1a: Audino
+|-start|p1a: Audino|move: Taunt
+|
+|upkeep
+|turn|12
+|j|Drewgamer
+|choice|move fireblast mega|move sludgebomb
+|
+|detailschange|p1a: Audino|Audino-Mega, M
+|-mega|p1a: Audino|Audino|Audinite
+|move|p2a: Haunter|Sludge Bomb|p1a: Audino
+|-supereffective|p1a: Audino
+|-damage|p1a: Audino|3/100
+|-status|p1a: Audino|psn
+|-damage|p2a: Haunter|78/100|[from] item: Life Orb
+|move|p1a: Audino|Fire Blast|p2a: Haunter|[miss]
+|-miss|p1a: Audino|p2a: Haunter
+|
+|-damage|p1a: Audino|0 fnt|[from] psn
+|upkeep
+|faint|p1a: Audino
+|choice|switch 6|
+|
+|switch|p1a: Samurott|Samurott, M|100/100
+|turn|13
+|choice|move hydropump|move shadowball
+|
+|move|p2a: Haunter|Shadow Ball|p1a: Samurott
+|-damage|p1a: Samurott|27/100
+|-damage|p2a: Haunter|68/100|[from] item: Life Orb
+|move|p1a: Samurott|Hydro Pump|p2a: Haunter
+|-damage|p2a: Haunter|0 fnt
+|-damage|p1a: Samurott|17/100|[from] item: Life Orb
+|faint|p2a: Haunter
+|
+|upkeep
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolppoiuytrewqlkjhgfdsamnbvcxzplokmijnuhbyggvtfcrdxeszwaq
+|choice||switch 2
+|
+|switch|p2a: Primeape|Primeape, M|95/100
+|-damage|p2a: Primeape|89/100|[from] Stealth Rock
+|turn|14
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolppoiuytrewqlkjhgfdsamnbvcxzplokmijnuhbyggvtfcrdxeszwaq
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolppoiuytrewqlkjhgfdsamnbvcxzplokmijnuhbyggvtfcrdxeszwaq
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolppoiuytrewqlkjhgfdsamnbvcxzplokmijnuhbyggvtfcrdxeszwaq
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolppoiuytrewqlkjhgfdsamnbvcxzplokmijnuhbyggvtfcrdxeszwaq
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolppoiuytrewqlkjhgfdsamnbvcxzplokmijnuhbyggvtfcrdxeszwaq
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolppoiuytrewqlkjhgfdsamnbvcxzplokmijnuhbyggvtfcrdxeszwaq
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolppoiuytrewqlkjhgfdsamnbvcxzplokmijnuhbyggvtfcrdxeszwaq
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolppoiuytrewqlkjhgfdsamnbvcxzplokmijnuhbyggvtfcrdxeszwaq
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolppoiuytrewqlkjhgfdsamnbvcxzplokmijnuhbyggvtfcrdxeszwaq
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolppoiuytrewqlkjhgfdsamnbvcxzplokmijnuhbyggvtfcrdxeszwaq
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolppoiuytrewqlkjhgfdsamnbvcxzplokmijnuhbyggvtfcrdxeszwaq
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolppoiuytrewqlkjhgfdsamnbvcxzplokmijnuhbyggvtfcrdxeszwaq
+|c| Drewgamer|v
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolppoiuytrewqlkjhgfdsamnbvcxzplokmijnuhbyggvtfcrdxeszwaqqwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolppoiuytrewqlkjhgfdsamnbvcxzplokmijnuhbyggvtfcrdxeszwaq
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolppoiuytrewqlkjhgfdsamnbvcxzplokmijnuhbyggvtfcrdxeszwaq
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolppoiuytrewqlkjhgfdsamnbvcxzplokmijnuhbyggvtfcrdxeszwaq
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolppoiuytrewqlkjhgfdsamnbvcxzplokmijnuhbyggvtfcrdxeszwaq
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolppoiuytrewqlkjhgfdsamnbvcxzplokmijnuhbyggvtfcrdxeszwaq
+|c| Drewgamer|v
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolppoiuytrewqlkjhgfdsamnbvcxzplokmijnuhbyggvtfcrdxeszwaq
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolppoiuytrewqlkjhgfdsamnbvcxzplokmijnuhbyggvtfcrdxeszwaq
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolppoiuytrewqlkjhgfdsamnbvcxzplokmijnuhbyggvtfcrdxeszwaq
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolppoiuytrewqlkjhgfdsamnbvcxzplokmijnuhbyggvtfcrdxeszwaq
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolppoiuytrewqlkjhgfdsamnbvcxzplokmijnuhbyggvtfcrdxeszwaq
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolppoiuytrewqlkjhgfdsamnbvcxzplokmijnuhbyggvtfcrdxeszwaqqwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolppoiuytrewqlkjhgfdsamnbvcxzplokmijnuhbyggvtfcrdxeszwaq
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolppoiuytrewqlkjhgfdsamnbvcxzplokmijnuhbyggvtfcrdxeszwaq
+|choice|move aquajet|move encore
+|
+|move|p1a: Samurott|Aqua Jet|p2a: Primeape
+|-damage|p2a: Primeape|41/100
+|-damage|p1a: Samurott|7/100|[from] item: Life Orb
+|move|p2a: Primeape|Encore|p1a: Samurott
+|-start|p1a: Samurott|Encore
+|
+|upkeep
+|turn|15
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolppoiuytrewqlkjhgfdsamnbvcxzplokmijnuhbyggvtfcrdxeszwaq
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolppoiuytrewqlkjhgfdsamnbvcxzplokmijnuhbyggvtfcrdxeszwaqqwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolppoiuytrewqlkjhgfdsamnbvcxzplokmijnuhbyggvtfcrdxeszwaq
+|c| Drewgamer|v
+|c| Drewgamer|vqwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolppoiuytrewqlkjhgfdsamnbvcxzplokmijnuhbyggvtfcrdxeszwaq
+|c| Drewgamer|vqwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolppoiuytrewqlkjhgfdsamnbvcxzplokmijnuhbyggvtfcrdxeszwaq
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolppoiuytrewqlkjhgfdsamnbvcxzplokmijnuhbyggvtfcrdxeszwaq
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolppoiuytrewqlkjhgfdsamnbvcxzplokmijnuhbyggvtfcrdxeszwaq
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolppoiuytrewqlkjhgfdsamnbvcxzplokmijnuhbyggvtfcrdxeszwaq
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolppoiuytrewqlkjhgfdsamnbvcxzplokmijnuhbyggvtfcrdxeszwaq
+|c| Drewgamer|v
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolppoiuytrewqlkjhgfdsamnbvcxzplokmijnuhbyggvtfcrdxeszwaq
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolppoiuytrewqlkjhgfdsamnbvcxzplokmijnuhbyggvtfcrdxeszwaqqwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolppoiuytrewqlkjhgfdsamnbvcxzplokmijnuhbyggvtfcrdxeszwaq
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolppoiuytrewqlkjhgfdsamnbvcxzplokmijnuhbyggvtfcrdxeszwaq
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolppoiuytrewqlkjhgfdsamnbvcxzplokmijnuhbyggvtfcrdxeszwaqqwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolppoiuytrewqlkjhgfdsamnbvcxzplokmijnuhbyggvtfcrdxeszwaq
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolppoiuytrewqlkjhgfdsamnbvcxzplokmijnuhbyggvtfcrdxeszwaqqwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolppoiuytrewqlkjhgfdsamnbvcxzplokmijnuhbyggvtfcrdxeszwaq
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolppoiuytrewqlkjhgfdsamnbvcxzplokmijnuhbyggvtfcrdxeszwaq
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolppoiuytrewqlkjhgfdsamnbvcxzplokmijnuhbyggvtfcrdxeszwaq
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolppoiuytrewqlkjhgfdsamnbvcxzplokmijnuhbyggvtfcrdxeszwaqqwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolppoiuytrewqlkjhgfdsamnbvcxzplokmijnuhbyggvtfcrdxeszwaq
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolppoiuytrewqlkjhgfdsamnbvcxzplokmijnuhbyggvtfcrdxeszwaq
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolppoiuytrewqlkjhgfdsamnbvcxzplokmijnuhbyggvtfcrdxeszwaq
+|choice|move aquajet|switch 6
+|
+|switch|p2a: Aurorus|Aurorus, M|100/100
+|-damage|p2a: Aurorus|76/100|[from] Stealth Rock
+|move|p1a: Samurott|Aqua Jet|p2a: Aurorus
+|-supereffective|p2a: Aurorus
+|-damage|p2a: Aurorus|17/100
+|-damage|p1a: Samurott|0 fnt|[from] item: Life Orb
+|faint|p1a: Samurott
+|
+|upkeep
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolppoiuytrewqlkjhgfdsamnbvcxzplokmijnuhbyggvtfcrdxeszwaq
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolppoiuytrewqlkjhgfdsamnbvcxzplokmijnuhbyggvtfcrdxeszwaq
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolppoiuytrewqlkjhgfdsamnbvcxzplokmijnuhbyggvtfcrdxeszwaq
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolppoiuytrewqlkjhgfdsamnbvcxzplokmijnuhbyggvtfcrdxeszwaq
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolppoiuytrewqlkjhgfdsamnbvcxzplokmijnuhbyggvtfcrdxeszwaq
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolppoiuytrewqlkjhgfdsamnbvcxzplokmijnuhbyggvtfcrdxeszwaq
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolppoiuytrewqlkjhgfdsamnbvcxzplokmijnuhbyggvtfcrdxeszwaq
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolppoiuytrewqlkjhgfdsamnbvcxzplokmijnuhbyggvtfcrdxeszwaq
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolppoiuytrewqlkjhgfdsamnbvcxzplokmijnuhbyggvtfcrdxeszwaq
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolppoiuytrewqlkjhgfdsamnbvcxzplokmijnuhbyggvtfcrdxeszwaqqwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolppoiuytrewqlkjhgfdsamnbvcxzplokmijnuhbyggvtfcrdxeszwaq
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolppoiuytrewqlkjhgfdsamnbvcxzplokmijnuhbyggvtfcrdxeszwaq
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolppoiuytrewqlkjhgfdsamnbvcxzplokmijnuhbyggvtfcrdxeszwaq
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolppoiuytrewqlkjhgfdsamnbvcxzplokmijnuhbyggvtfcrdxeszwaq
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolppoiuytrewqlkjhgfdsamnbvcxzplokmijnuhbyggvtfcrdxeszwaq
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolppoiuytrewqlkjhgfdsamnbvcxzplokmijnuhbyggvtfcrdxeszwaqqwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolppoiuytrewqlkjhgfdsamnbvcxzplokmijnuhbyggvtfcrdxeszwaq
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolppoiuytrewqlkjhgfdsamnbvcxzplokmijnuhbyggvtfcrdxeszwaq
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolppoiuytrewqlkjhgfdsamnbvcxzplokmijnuhbyggvtfcrdxeszwaq
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolppoiuytrewqlkjhgfdsamnbvcxzplokmijnuhbyggvtfcrdxeszwaq
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolppoiuytrewqlkjhgfdsamnbvcxzplokmijnuhbyggvtfcrdxeszwaq
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolppoiuytrewqlkjhgfdsamnbvcxzplokmijnuhbyggvtfcrdxeszwaq
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolppoiuytrewqlkjhgfdsamnbvcxzplokmijnuhbyggvtfcrdxeszwaq
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolppoiuytrewqlkjhgfdsamnbvcxzplokmijnuhbyggvtfcrdxeszwaq
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolppoiuytrewqlkjhgfdsamnbvcxzplokmijnuhbyggvtfcrdxeszwaq
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolppoiuytrewqlkjhgfdsamnbvcxzplokmijnuhbyggvtfcrdxeszwaq
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolppoiuytrewqlkjhgfdsamnbvcxzplokmijnuhbyggvtfcrdxeszwaq
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolppoiuytrewqlkjhgfdsamnbvcxzplokmijnuhbyggvtfcrdxeszwaq
+|choice|switch 5|
+|
+|switch|p1a: Xatu|Xatu, M|61/100
+|turn|16
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolppoiuytrewqlkjhgfdsamnbvcxzplokmijnuhbyggvtfcrdxeszwaq
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolppoiuytrewqlkjhgfdsamnbvcxzplokmijnuhbyggvtfcrdxeszwaq
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolppoiuytrewqlkjhgfdsamnbvcxzplokmijnuhbyggvtfcrdxeszwaq
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolppoiuytrewqlkjhgfdsamnbvcxzplokmijnuhbyggvtfcrdxeszwaq
+|c| Drewgamer|qwertyuiopasdfghjkklzxcvbnmqazwsxedcrfvtgbyhnujmikolppoiuytrewqlkjhgfdsamnbvcxzplokmijnuhbyggvtfcrdxeszwaq
+|choice|move grassknot|move hypervoice
+|
+|move|p1a: Xatu|Grass Knot|p2a: Aurorus
+|-supereffective|p2a: Aurorus
+|-damage|p2a: Aurorus|0 fnt
+|-damage|p1a: Xatu|51/100|[from] item: Life Orb
+|faint|p2a: Aurorus
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Primeape|Primeape, M|41/100
+|-damage|p2a: Primeape|35/100|[from] Stealth Rock
+|turn|17
+|choice|move psyshock|move stoneedge
+|
+|move|p2a: Primeape|Stone Edge|p1a: Xatu|[miss]
+|-miss|p2a: Primeape|p1a: Xatu
+|move|p1a: Xatu|Psyshock|p2a: Primeape
+|-supereffective|p2a: Primeape
+|-damage|p2a: Primeape|0 fnt
+|-damage|p1a: Xatu|41/100|[from] item: Life Orb
+|faint|p2a: Primeape
+|
+|win|chris meh

@@ -1,0 +1,596 @@
+|j|Serene's Grace
+|j|Champof201617©
+|player|p1|Serene's Grace|1
+|player|p2|Champof201617©|10
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|1897,58299,2948,49835,39685,20896,5136,8367,23872,41364,23567,48817
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Slowbro, M|item
+|poke|p1|Thundurus-Therian, M|item
+|poke|p1|Gyarados, M|item
+|poke|p1|Chansey, F|item
+|poke|p1|Bisharp, M|item
+|poke|p1|Mew|item
+|poke|p2|Victini|item
+|poke|p2|Manectric, M|item
+|poke|p2|Sylveon, M|item
+|poke|p2|Latias, F|item
+|poke|p2|Excadrill, M|item
+|poke|p2|Skarmory, F|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|c|☆Serene's Grace|im watching this show.
+|c|☆Serene's Grace|its really dark
+|c|☆Champof201617©|name
+|c|☆Serene's Grace|kinda girly but its still
+|l|Serene's Grace
+|player|p1|
+|j|Serene's Grace
+|player|p1|Serene's Grace|1
+|c|☆Serene's Grace|13 Reasons Why
+|c|☆Serene's Grace|its about suicide
+|choice|team 5, team 2, team 3, team 4, team 1, team 6|team 2, team 1, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Bisharp|Bisharp, M|100/100
+|switch|p2a: Manectric|Manectric, M|100/100
+|turn|1
+|choice|move knockoff|move overheat mega
+|
+|detailschange|p2a: Manectric|Manectric-Mega, M
+|-mega|p2a: Manectric|Manectric|Manectite
+|-ability|p2a: Manectric|Intimidate|boost
+|-unboost|p1a: Bisharp|atk|1
+|-ability|p1a: Bisharp|Defiant|boost
+|-boost|p1a: Bisharp|atk|2
+|move|p2a: Manectric|Overheat|p1a: Bisharp
+|-supereffective|p1a: Bisharp
+|-damage|p1a: Bisharp|0 fnt
+|-unboost|p2a: Manectric|spa|2
+|faint|p1a: Bisharp
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Gyarados|Gyarados, M|100/100
+|-ability|p1a: Gyarados|Intimidate|boost
+|-unboost|p2a: Manectric|atk|1
+|turn|2
+|choice|switch 2|switch 4
+|
+|switch|p2a: Latias|Latias, F|100/100
+|switch|p1a: Thundurus|Thundurus-Therian, M|100/100
+|
+|upkeep
+|turn|3
+|c|☆Champof201617©|ez
+|choice|move hiddenpower|move psyshock
+|
+|move|p2a: Latias|Psyshock|p1a: Thundurus
+|-damage|p1a: Thundurus|31/100
+|-damage|p2a: Latias|91/100|[from] item: Life Orb
+|move|p1a: Thundurus|Hidden Power|p2a: Latias
+|-supereffective|p2a: Latias
+|-damage|p2a: Latias|46/100
+|
+|-heal|p1a: Thundurus|37/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|c|☆Champof201617©|why stay
+|choice|switch 4|move psyshock
+|
+|switch|p1a: Chansey|Chansey, F|100/100
+|move|p2a: Latias|Psyshock|p1a: Chansey
+|-damage|p1a: Chansey|69/100
+|-damage|p2a: Latias|36/100|[from] item: Life Orb
+|
+|upkeep
+|turn|5
+|c|☆Serene's Grace|cause i have no clue
+|c|☆Serene's Grace|what im doing
+|c|☆Champof201617©|lol
+|choice|move stealthrock|switch 5
+|
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|move|p1a: Chansey|Stealth Rock|p2a: Excadrill
+|-sidestart|p2: Champof201617©|move: Stealth Rock
+|
+|upkeep
+|turn|6
+|choice|switch 2|move rapidspin
+|
+|switch|p1a: Gyarados|Gyarados, M|100/100
+|-ability|p1a: Gyarados|Intimidate|boost
+|-unboost|p2a: Excadrill|atk|1
+|move|p2a: Excadrill|Rapid Spin|p1a: Gyarados
+|-damage|p1a: Gyarados|94/100
+|-sideend|p2: Champof201617©|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Excadrill
+|
+|-heal|p1a: Gyarados|100/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|choice|move dragondance|switch 4
+|
+|switch|p2a: Manectric|Manectric-Mega, M|100/100
+|-ability|p2a: Manectric|Intimidate|boost
+|-unboost|p1a: Gyarados|atk|1
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|
+|upkeep
+|turn|8
+|choice|switch 4|move voltswitch
+|
+|switch|p1a: Thundurus|Thundurus-Therian, M|37/100
+|move|p2a: Manectric|Volt Switch|p1a: Thundurus
+|-heal|p1a: Thundurus|62/100|[from] ability: Volt Absorb|[of] p2a: Manectric
+|
+|-heal|p1a: Thundurus|68/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|choice|move focusblast|switch 4
+|
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|move|p1a: Thundurus|Focus Blast|p2a: Excadrill|[miss]
+|-miss|p1a: Thundurus|p2a: Excadrill
+|
+|-heal|p1a: Thundurus|74/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|c|☆Serene's Grace|wow
+|choice|move focusblast|move rockslide
+|
+|move|p2a: Excadrill|Rock Slide|p1a: Thundurus
+|-supereffective|p1a: Thundurus
+|-damage|p1a: Thundurus|0 fnt
+|faint|p1a: Thundurus
+|
+|upkeep
+|c|☆Serene's Grace|woow
+|choice|switch 5|
+|
+|switch|p1a: Slowbro|Slowbro, M|100/100
+|turn|11
+|choice|move calmmind|switch 4
+|
+|switch|p2a: Manectric|Manectric-Mega, M|100/100
+|-ability|p2a: Manectric|Intimidate|boost
+|-unboost|p1a: Slowbro|atk|1
+|move|p1a: Slowbro|Calm Mind|p1a: Slowbro
+|-boost|p1a: Slowbro|spa|1
+|-boost|p1a: Slowbro|spd|1
+|
+|upkeep
+|turn|12
+|choice|move calmmind mega|move thunderbolt
+|
+|detailschange|p1a: Slowbro|Slowbro-Mega, M
+|-mega|p1a: Slowbro|Slowbro|Slowbronite
+|move|p2a: Manectric|Thunderbolt|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|49/100
+|move|p1a: Slowbro|Calm Mind|p1a: Slowbro
+|-boost|p1a: Slowbro|spa|1
+|-boost|p1a: Slowbro|spd|1
+|
+|upkeep
+|turn|13
+|choice|move slackoff|move thunderbolt
+|
+|move|p2a: Manectric|Thunderbolt|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|6/100
+|move|p1a: Slowbro|Slack Off|p1a: Slowbro
+|-heal|p1a: Slowbro|56/100
+|
+|upkeep
+|turn|14
+|choice|move slackoff|move thunderbolt
+|
+|move|p2a: Manectric|Thunderbolt|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|15/100
+|move|p1a: Slowbro|Slack Off|p1a: Slowbro
+|-heal|p1a: Slowbro|65/100
+|
+|upkeep
+|turn|15
+|choice|move slackoff|move thunderbolt
+|
+|move|p2a: Manectric|Thunderbolt|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|24/100
+|move|p1a: Slowbro|Slack Off|p1a: Slowbro
+|-heal|p1a: Slowbro|74/100
+|
+|upkeep
+|turn|16
+|choice|move slackoff|move thunderbolt
+|
+|move|p2a: Manectric|Thunderbolt|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|29/100
+|move|p1a: Slowbro|Slack Off|p1a: Slowbro
+|-heal|p1a: Slowbro|79/100
+|
+|upkeep
+|turn|17
+|choice|move calmmind|move thunderbolt
+|
+|move|p2a: Manectric|Thunderbolt|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|38/100
+|move|p1a: Slowbro|Calm Mind|p1a: Slowbro
+|-boost|p1a: Slowbro|spa|1
+|-boost|p1a: Slowbro|spd|1
+|
+|upkeep
+|turn|18
+|choice|move slackoff|move thunderbolt
+|
+|move|p2a: Manectric|Thunderbolt|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|5/100
+|move|p1a: Slowbro|Slack Off|p1a: Slowbro
+|-heal|p1a: Slowbro|55/100
+|
+|upkeep
+|turn|19
+|choice|move slackoff|move voltswitch
+|
+|move|p2a: Manectric|Volt Switch|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|30/100
+|choice||switch 6
+|
+|switch|p2a: Skarmory|Skarmory, F|100/100
+|move|p1a: Slowbro|Slack Off|p1a: Slowbro
+|-heal|p1a: Slowbro|80/100
+|
+|upkeep
+|turn|20
+|choice|move scald|move taunt
+|
+|move|p2a: Skarmory|Taunt|p1a: Slowbro
+|-start|p1a: Slowbro|move: Taunt
+|move|p1a: Slowbro|Scald|p2a: Skarmory
+|-ability|p2a: Skarmory|Sturdy
+|-damage|p2a: Skarmory|1/100
+|
+|upkeep
+|turn|21
+|choice|move scald|move bravebird
+|-enditem|p2a: Skarmory|Custap Berry|[eat]
+|-activate|p2a: Skarmory|item: Custap Berry
+|
+|move|p2a: Skarmory|Brave Bird|p1a: Slowbro
+|-damage|p1a: Slowbro|61/100
+|-damage|p2a: Skarmory|0 fnt|[from] recoil|[of] p1a: Slowbro
+|faint|p2a: Skarmory
+|move|p1a: Slowbro|Scald|p2: Skarmory|[notarget]
+|-notarget
+|
+|upkeep
+|c|☆Serene's Grace|rekt fam
+|choice||switch 6
+|
+|switch|p2a: Manectric|Manectric-Mega, M|100/100
+|-ability|p2a: Manectric|Intimidate|boost
+|-unboost|p1a: Slowbro|atk|1
+|turn|22
+|choice|move psyshock|move thunderbolt
+|
+|move|p2a: Manectric|Thunderbolt|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|30/100
+|-status|p1a: Slowbro|par
+|move|p1a: Slowbro|Psyshock|p2a: Manectric
+|-damage|p2a: Manectric|0 fnt
+|faint|p2a: Manectric
+|
+|-end|p1a: Slowbro|move: Taunt
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Victini|Victini|100/100
+|turn|23
+|choice|move slackoff|move boltstrike
+|
+|move|p2a: Victini|Bolt Strike|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|0 fnt
+|faint|p1a: Slowbro
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Mew|Mew|100/100
+|turn|24
+|choice|move knockoff|switch 3
+|
+|switch|p2a: Sylveon|Sylveon, M|100/100
+|move|p1a: Mew|Knock Off|p2a: Sylveon
+|-resisted|p2a: Sylveon
+|-damage|p2a: Sylveon|87/100
+|-enditem|p2a: Sylveon|Choice Specs|[from] move: Knock Off|[of] p1a: Mew
+|
+|upkeep
+|turn|25
+|choice|move willowisp|move batonpass
+|
+|move|p1a: Mew|Will-O-Wisp|p2a: Sylveon
+|-status|p2a: Sylveon|brn
+|move|p2a: Sylveon|Baton Pass|p2a: Sylveon
+|c|☆Champof201617©|wut
+|choice||switch 5
+|
+|switch|p2a: Latias|Latias, F|36/100
+|
+|upkeep
+|turn|26
+|choice|move knockoff|move dracometeor
+|
+|move|p2a: Latias|Draco Meteor|p1a: Mew
+|-damage|p1a: Mew|40/100
+|-unboost|p2a: Latias|spa|2
+|-damage|p2a: Latias|26/100|[from] item: Life Orb
+|move|p1a: Mew|Knock Off|p2a: Latias
+|-supereffective|p2a: Latias
+|-damage|p2a: Latias|0 fnt
+|-enditem|p2a: Latias|Life Orb|[from] move: Knock Off|[of] p1a: Mew
+|faint|p2a: Latias
+|
+|-heal|p1a: Mew|46/100|[from] item: Leftovers
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Sylveon|Sylveon, M|87/100 brn
+|turn|27
+|choice|move softboiled|move hypervoice
+|
+|move|p1a: Mew|Soft-Boiled|p1a: Mew
+|-heal|p1a: Mew|96/100
+|move|p2a: Sylveon|Hyper Voice|p1a: Mew
+|-crit|p1a: Mew
+|-damage|p1a: Mew|25/100
+|
+|-heal|p1a: Mew|31/100|[from] item: Leftovers
+|-damage|p2a: Sylveon|74/100 brn|[from] brn
+|upkeep
+|turn|28
+|choice|move softboiled|move shadowball
+|
+|move|p1a: Mew|Soft-Boiled|p1a: Mew
+|-heal|p1a: Mew|81/100
+|move|p2a: Sylveon|Shadow Ball|p1a: Mew
+|-supereffective|p1a: Mew
+|-damage|p1a: Mew|33/100
+|-unboost|p1a: Mew|spd|1
+|
+|-heal|p1a: Mew|39/100|[from] item: Leftovers
+|-damage|p2a: Sylveon|62/100 brn|[from] brn
+|upkeep
+|turn|29
+|choice|switch 2|move psyshock
+|
+|switch|p1a: Chansey|Chansey, F|69/100
+|move|p2a: Sylveon|Psyshock|p1a: Chansey
+|-damage|p1a: Chansey|49/100
+|
+|-damage|p2a: Sylveon|49/100 brn|[from] brn
+|upkeep
+|turn|30
+|choice|move softboiled|move psyshock
+|
+|move|p2a: Sylveon|Psyshock|p1a: Chansey
+|-damage|p1a: Chansey|29/100
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|79/100
+|
+|-damage|p2a: Sylveon|37/100 brn|[from] brn
+|upkeep
+|turn|31
+|choice|switch 4|move batonpass
+|
+|switch|p1a: Gyarados|Gyarados, M|100/100
+|-ability|p1a: Gyarados|Intimidate|boost
+|-unboost|p2a: Sylveon|atk|1
+|move|p2a: Sylveon|Baton Pass|p2a: Sylveon
+|choice||switch 3
+|
+|switch|p2a: Victini|Victini|100/100
+|
+|upkeep
+|turn|32
+|choice|switch 2|move boltstrike
+|
+|switch|p1a: Mew|Mew|39/100
+|move|p2a: Victini|Bolt Strike|p1a: Mew
+|-damage|p1a: Mew|8/100
+|
+|-heal|p1a: Mew|14/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|choice|move softboiled|move boltstrike
+|
+|move|p2a: Victini|Bolt Strike|p1a: Mew
+|-damage|p1a: Mew|0 fnt
+|faint|p1a: Mew
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Chansey|Chansey, F|79/100
+|turn|34
+|choice|switch 2|switch 3
+|
+|switch|p2a: Sylveon|Sylveon, M|37/100 brn
+|switch|p1a: Gyarados|Gyarados, M|100/100
+|-ability|p1a: Gyarados|Intimidate|boost
+|-unboost|p2a: Sylveon|atk|1
+|
+|-damage|p2a: Sylveon|24/100 brn|[from] brn
+|upkeep
+|turn|35
+|choice|move dragondance|move hypervoice
+|
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|move|p2a: Sylveon|Hyper Voice|p1a: Gyarados
+|-damage|p1a: Gyarados|44/100
+|
+|-heal|p1a: Gyarados|50/100|[from] item: Leftovers
+|-damage|p2a: Sylveon|12/100 brn|[from] brn
+|upkeep
+|turn|36
+|choice|move waterfall|move hypervoice
+|
+|move|p1a: Gyarados|Waterfall|p2a: Sylveon
+|-damage|p2a: Sylveon|0 fnt
+|faint|p2a: Sylveon
+|
+|-heal|p1a: Gyarados|57/100|[from] item: Leftovers
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|37
+|choice|move waterfall|move rockslide
+|
+|move|p2a: Excadrill|Rock Slide|p1a: Gyarados
+|-supereffective|p1a: Gyarados
+|-damage|p1a: Gyarados|0 fnt
+|faint|p1a: Gyarados
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Chansey|Chansey, F|79/100
+|turn|38
+|choice|move stealthrock|move rockslide
+|
+|move|p2a: Excadrill|Rock Slide|p1a: Chansey
+|-damage|p1a: Chansey|59/100
+|move|p1a: Chansey|Stealth Rock|p2a: Excadrill
+|-sidestart|p2: Champof201617©|move: Stealth Rock
+|
+|upkeep
+|turn|39
+|choice|move softboiled|move rockslide
+|
+|move|p2a: Excadrill|Rock Slide|p1a: Chansey
+|-damage|p1a: Chansey|40/100
+|cant|p1a: Chansey|flinch
+|
+|upkeep
+|turn|40
+|choice|move softboiled|move rockslide
+|
+|move|p2a: Excadrill|Rock Slide|p1a: Chansey
+|-damage|p1a: Chansey|22/100
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|72/100
+|
+|upkeep
+|turn|41
+|choice|move softboiled|move rockslide
+|
+|move|p2a: Excadrill|Rock Slide|p1a: Chansey
+|-damage|p1a: Chansey|53/100
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|100/100
+|
+|upkeep
+|turn|42
+|choice|move seismictoss|move rockslide
+|
+|move|p2a: Excadrill|Rock Slide|p1a: Chansey
+|-damage|p1a: Chansey|81/100
+|cant|p1a: Chansey|flinch
+|
+|upkeep
+|turn|43
+|choice|move seismictoss|move rockslide
+|
+|move|p2a: Excadrill|Rock Slide|p1a: Chansey
+|-damage|p1a: Chansey|63/100
+|move|p1a: Chansey|Seismic Toss|p2a: Excadrill
+|-damage|p2a: Excadrill|73/100
+|
+|upkeep
+|turn|44
+|choice|move softboiled|move rockslide
+|
+|move|p2a: Excadrill|Rock Slide|p1a: Chansey
+|-damage|p1a: Chansey|44/100
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|94/100
+|
+|upkeep
+|turn|45
+|choice|move seismictoss|move rockslide
+|
+|move|p2a: Excadrill|Rock Slide|p1a: Chansey
+|-damage|p1a: Chansey|74/100
+|cant|p1a: Chansey|flinch
+|
+|upkeep
+|turn|46
+|choice|move seismictoss|move rockslide
+|
+|move|p2a: Excadrill|Rock Slide|p1a: Chansey|[miss]
+|-miss|p2a: Excadrill|p1a: Chansey
+|move|p1a: Chansey|Seismic Toss|p2a: Excadrill
+|-damage|p2a: Excadrill|45/100
+|
+|upkeep
+|turn|47
+|choice|move seismictoss|move rockslide
+|
+|move|p2a: Excadrill|Rock Slide|p1a: Chansey
+|-damage|p1a: Chansey|54/100
+|move|p1a: Chansey|Seismic Toss|p2a: Excadrill
+|-damage|p2a: Excadrill|17/100
+|
+|upkeep
+|turn|48
+|choice|move softboiled|switch 3
+|
+|switch|p2a: Victini|Victini|100/100
+|-damage|p2a: Victini|76/100|[from] Stealth Rock
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|100/100
+|
+|upkeep
+|turn|49
+|choice|move softboiled|move vcreate
+|
+|move|p2a: Victini|V-create|p1a: Chansey
+|-damage|p1a: Chansey|17/100
+|-unboost|p2a: Victini|spe|1
+|-unboost|p2a: Victini|def|1
+|-unboost|p2a: Victini|spd|1
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|67/100
+|
+|upkeep
+|turn|50
+|choice|move softboiled|move vcreate
+|
+|move|p2a: Victini|V-create|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|-unboost|p2a: Victini|spe|1
+|-unboost|p2a: Victini|def|1
+|-unboost|p2a: Victini|spd|1
+|faint|p1a: Chansey
+|
+|win|Champof201617©

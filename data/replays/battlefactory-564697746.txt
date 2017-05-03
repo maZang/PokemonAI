@@ -1,0 +1,1492 @@
+|j|zorse
+|j|Mesh123
+|player|p1|zorse|241
+|player|p2|Mesh123|99
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|49944,46752,54292,46154,56282,28864,31799,2383,10869,43798,59765,59719
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Hitmonchan, M|item
+|poke|p1|Clefairy, M|item
+|poke|p1|Tangela, M|item
+|poke|p1|Poliwrath, M|item
+|poke|p1|Vileplume, M|item
+|poke|p1|Klinklang|item
+|poke|p2|Kangaskhan, F|item
+|poke|p2|Mesprit|item
+|poke|p2|Malamar, M|item
+|poke|p2|Basculin, M|item
+|poke|p2|Roselia, M|item
+|poke|p2|Skuntank, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|c|☆Mesh123|gl hf
+|c|☆zorse|bad luck
+|c|☆zorse|hope your slowbro gets critted
+|c|☆Mesh123|insane
+|c|☆zorse|lmao
+|c|☆zorse|great luck
+|c|☆Mesh123|hope your mim gets para'd
+|j|WeirdOwlKnight
+|c|☆zorse|too soon
+|j|pokelife73
+|j|Mythlore
+|choice|team 2, team 1, team 3, team 4, team 5, team 6|team 2, team 1, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Clefairy|Clefairy, M|100/100
+|switch|p2a: Mesprit|Mesprit|100/100
+|turn|1
+|choice|move thunderwave|move stealthrock
+|
+|move|p2a: Mesprit|Stealth Rock|p1a: Clefairy
+|-sidestart|p1: zorse|move: Stealth Rock
+|move|p1a: Clefairy|Thunder Wave|p2a: Mesprit
+|-status|p2a: Mesprit|par
+|
+|upkeep
+|turn|2
+|c| Mythlore|clefairy is a monster in PU
+|choice|move stealthrock|move uturn
+|
+|move|p1a: Clefairy|Stealth Rock|p2a: Mesprit
+|-sidestart|p2: Mesh123|move: Stealth Rock
+|cant|p2a: Mesprit|par
+|
+|upkeep
+|turn|3
+|c|☆Mesh123|and so it begins
+|choice|move moonblast|move uturn
+|
+|move|p1a: Clefairy|Moonblast|p2a: Mesprit
+|-damage|p2a: Mesprit|80/100 par
+|move|p2a: Mesprit|U-turn|p1a: Clefairy
+|-resisted|p1a: Clefairy
+|-damage|p1a: Clefairy|92/100
+|choice||switch 5
+|
+|switch|p2a: Roselia|Roselia, M|100/100
+|-damage|p2a: Roselia|88/100|[from] Stealth Rock
+|
+|upkeep
+|turn|4
+|choice|switch 5|move spikes
+|
+|switch|p1a: Vileplume|Vileplume, M|100/100
+|-damage|p1a: Vileplume|88/100|[from] Stealth Rock
+|move|p2a: Roselia|Spikes|p1a: Vileplume
+|-sidestart|p1: zorse|Spikes
+|
+|-heal|p1a: Vileplume|94/100|[from] item: Black Sludge
+|upkeep
+|turn|5
+|choice|move sludgebomb|move sludgebomb
+|
+|move|p2a: Roselia|Sludge Bomb|p1a: Vileplume
+|-damage|p1a: Vileplume|63/100
+|move|p1a: Vileplume|Sludge Bomb|p2a: Roselia
+|-damage|p2a: Roselia|66/100
+|
+|-heal|p1a: Vileplume|70/100|[from] item: Black Sludge
+|upkeep
+|turn|6
+|choice|switch 2|move sludgebomb
+|
+|switch|p1a: Hitmonchan|Hitmonchan, M|100/100
+|-damage|p1a: Hitmonchan|94/100|[from] Stealth Rock
+|-damage|p1a: Hitmonchan|82/100|[from] Spikes
+|move|p2a: Roselia|Sludge Bomb|p1a: Hitmonchan
+|-crit|p1a: Hitmonchan
+|-damage|p1a: Hitmonchan|25/100
+|
+|upkeep
+|turn|7
+|c| WeirdOwlKnight|those are both horrible NU teams
+|c|☆zorse|my team is fucking trash
+|c| Mythlore|wait this is NU?
+|c| Mythlore|thought it was PU LOL
+|c|☆zorse|who puts 2 grass types on a team
+|c|☆Mesh123|gen 6 nu i think lol
+|c| WeirdOwlKnight|yeah Kang and Skunk
+|c|☆zorse|yea
+|choice|move rapidspin|switch 5
+|
+|switch|p2a: Mesprit|Mesprit|80/100 par
+|-damage|p2a: Mesprit|68/100 par|[from] Stealth Rock
+|move|p1a: Hitmonchan|Rapid Spin|p2a: Mesprit
+|-damage|p2a: Mesprit|62/100 par
+|-sideend|p1: zorse|Spikes|[from] move: Rapid Spin|[of] p1a: Hitmonchan
+|-sideend|p1: zorse|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Hitmonchan
+|-damage|p1a: Hitmonchan|15/100|[from] item: Life Orb
+|
+|-heal|p2a: Mesprit|68/100 par|[from] item: Leftovers
+|upkeep
+|turn|8
+|c|☆zorse|love battle factory though
+|choice|switch 5|move psychic
+|
+|switch|p1a: Clefairy|Clefairy, M|92/100
+|move|p2a: Mesprit|Psychic|p1a: Clefairy
+|-damage|p1a: Clefairy|72/100
+|
+|-heal|p2a: Mesprit|74/100 par|[from] item: Leftovers
+|upkeep
+|turn|9
+|choice|move moonblast|move uturn
+|
+|move|p1a: Clefairy|Moonblast|p2a: Mesprit
+|-damage|p2a: Mesprit|54/100 par
+|cant|p2a: Mesprit|par
+|
+|-heal|p2a: Mesprit|60/100 par|[from] item: Leftovers
+|upkeep
+|turn|10
+|choice|move moonblast|switch 6
+|
+|switch|p2a: Skuntank|Skuntank, M|100/100
+|-damage|p2a: Skuntank|88/100|[from] Stealth Rock
+|move|p1a: Clefairy|Moonblast|p2a: Skuntank
+|-damage|p2a: Skuntank|58/100
+|-unboost|p2a: Skuntank|spa|1
+|
+|upkeep
+|turn|11
+|choice|switch 5|move defog
+|
+|switch|p1a: Hitmonchan|Hitmonchan, M|15/100
+|move|p2a: Skuntank|Defog|p1a: Hitmonchan
+|-unboost|p1a: Hitmonchan|evasion|1
+|-sideend|p2: Mesh123|Stealth Rock|[from] move: Defog|[of] p2a: Skuntank
+|
+|upkeep
+|turn|12
+|c| WeirdOwlKnight|skuntank going for defog
+|c| WeirdOwlKnight|;-;
+|c| WeirdOwlKnight|why couldn't it have been me
+|choice|move drainpunch|switch 6
+|
+|switch|p2a: Mesprit|Mesprit|60/100 par
+|move|p1a: Hitmonchan|Drain Punch|p2a: Mesprit
+|-resisted|p2a: Mesprit
+|-damage|p2a: Mesprit|41/100 par
+|-heal|p1a: Hitmonchan|30/100|[from] drain|[of] p2a: Mesprit
+|-damage|p1a: Hitmonchan|20/100|[from] item: Life Orb
+|
+|-heal|p2a: Mesprit|47/100 par|[from] item: Leftovers
+|upkeep
+|turn|13
+|choice|move stoneedge|move thunderwave
+|
+|move|p1a: Hitmonchan|Stone Edge|p2a: Mesprit
+|-damage|p2a: Mesprit|20/100 par
+|-damage|p1a: Hitmonchan|10/100|[from] item: Life Orb
+|move|p2a: Mesprit|Thunder Wave|p1a: Hitmonchan
+|-status|p1a: Hitmonchan|par
+|
+|-heal|p2a: Mesprit|26/100 par|[from] item: Leftovers
+|upkeep
+|turn|14
+|choice|move stoneedge|move psychic
+|
+|cant|p1a: Hitmonchan|par
+|move|p2a: Mesprit|Psychic|p1a: Hitmonchan
+|-supereffective|p1a: Hitmonchan
+|-damage|p1a: Hitmonchan|0 fnt
+|faint|p1a: Hitmonchan
+|
+|-heal|p2a: Mesprit|32/100 par|[from] item: Leftovers
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Poliwrath|Poliwrath, M|100/100
+|turn|15
+|c|☆zorse|i have no offensive presence on this team lol
+|choice|move hydropump|move thunderwave
+|
+|move|p1a: Poliwrath|Hydro Pump|p2a: Mesprit
+|-damage|p2a: Mesprit|0 fnt
+|faint|p2a: Mesprit
+|
+|upkeep
+|c| WeirdOwlKnight|clefairy is a threat
+|c|☆zorse|good thing he doesnt have 2 poison types
+|c|☆zorse|wait
+|c| pokelife73|if only you had a steel type
+|c| pokelife73|oh wait
+|choice||switch 5
+|
+|switch|p2a: Roselia|Roselia, M|66/100
+|turn|16
+|choice|switch 6|move gigadrain
+|
+|switch|p1a: Klinklang|Klinklang|100/100
+|move|p2a: Roselia|Giga Drain|p1a: Klinklang
+|-resisted|p1a: Klinklang
+|-damage|p1a: Klinklang|84/100
+|-heal|p2a: Roselia|74/100|[from] drain|[of] p1a: Klinklang
+|
+|-heal|p1a: Klinklang|90/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|choice|move substitute|switch 4
+|
+|switch|p2a: Basculin|Basculin, M|100/100
+|move|p1a: Klinklang|Substitute|p1a: Klinklang
+|-start|p1a: Klinklang|Substitute
+|-damage|p1a: Klinklang|65/100
+|
+|-heal|p1a: Klinklang|71/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|j|TeamZorse
+|choice|move shiftgear|move waterfall
+|
+|move|p2a: Basculin|Waterfall|p1a: Klinklang
+|-crit|p1a: Klinklang
+|-end|p1a: Klinklang|Substitute
+|move|p1a: Klinklang|Shift Gear|p1a: Klinklang
+|-boost|p1a: Klinklang|spe|2
+|-boost|p1a: Klinklang|atk|1
+|
+|-heal|p1a: Klinklang|77/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|c| TeamZorse|Sorry mesh but Zorse has Klingklang
+|l|pokelife73
+|c|☆zorse|im brain
+|c|☆zorse|look
+|c|☆zorse|clicking shift gear recklessly
+|choice|move return|move waterfall
+|
+|move|p1a: Klinklang|Return|p2a: Basculin
+|-crit|p2a: Basculin
+|-damage|p2a: Basculin|0 fnt
+|faint|p2a: Basculin
+|
+|-heal|p1a: Klinklang|83/100|[from] item: Leftovers
+|upkeep
+|l|AlsoTeamZorse
+|j|Mythlore
+|c| WeirdOwlKnight|and critting
+|c|☆Mesh123|rip
+|c| WeirdOwlKnight|you are indeed brain
+|c| TeamZorse|Mesh crit the sub
+|c| TeamZorse|so it was a crit4crit
+|c|☆Mesh123|mine didnt matter lmao
+|c|☆zorse|crit my hitmonchan too that haxy bastard
+|choice||switch 2
+|
+|switch|p2a: Kangaskhan|Kangaskhan, F|100/100
+|turn|20
+|choice|move geargrind|move fakeout
+|
+|move|p2a: Kangaskhan|Fake Out|p1a: Klinklang
+|-resisted|p1a: Klinklang
+|-damage|p1a: Klinklang|71/100
+|cant|p1a: Klinklang|flinch
+|
+|-heal|p1a: Klinklang|77/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|choice|move geargrind|move earthquake
+|
+|move|p1a: Klinklang|Gear Grind|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|61/100
+|-damage|p2a: Kangaskhan|21/100
+|-hitcount|p2a: Kangaskhan|2
+|move|p2a: Kangaskhan|Earthquake|p1a: Klinklang
+|-supereffective|p1a: Klinklang
+|-damage|p1a: Klinklang|6/100
+|
+|-heal|p1a: Klinklang|12/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|choice|move return|move suckerpunch
+|
+|move|p2a: Kangaskhan|Sucker Punch|p1a: Klinklang
+|-damage|p1a: Klinklang|0 fnt
+|faint|p1a: Klinklang
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Vileplume|Vileplume, M|70/100
+|turn|23
+|choice|move synthesis|move doubleedge
+|
+|move|p2a: Kangaskhan|Double-Edge|p1a: Vileplume
+|-damage|p1a: Vileplume|23/100
+|-damage|p2a: Kangaskhan|5/100|[from] recoil|[of] p1a: Vileplume
+|move|p1a: Vileplume|Synthesis|p1a: Vileplume
+|-heal|p1a: Vileplume|73/100
+|
+|-heal|p1a: Vileplume|79/100|[from] item: Black Sludge
+|upkeep
+|turn|24
+|choice|move gigadrain|move earthquake
+|
+|move|p2a: Kangaskhan|Earthquake|p1a: Vileplume
+|-damage|p1a: Vileplume|56/100
+|move|p1a: Vileplume|Giga Drain|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|0 fnt
+|-heal|p1a: Vileplume|59/100|[from] drain|[of] p2a: Kangaskhan
+|faint|p2a: Kangaskhan
+|
+|-heal|p1a: Vileplume|65/100|[from] item: Black Sludge
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Skuntank|Skuntank, M|58/100
+|turn|25
+|choice|switch 6|move fireblast
+|
+|switch|p1a: Poliwrath|Poliwrath, M|100/100
+|move|p2a: Skuntank|Fire Blast|p1a: Poliwrath
+|-resisted|p1a: Poliwrath
+|-damage|p1a: Poliwrath|84/100
+|
+|upkeep
+|turn|26
+|choice|move icebeam|move hiddenpower
+|
+|move|p2a: Skuntank|Hidden Power|p1a: Poliwrath
+|-supereffective|p1a: Poliwrath
+|-crit|p1a: Poliwrath
+|-damage|p1a: Poliwrath|28/100
+|move|p1a: Poliwrath|Ice Beam|p2a: Skuntank
+|-damage|p2a: Skuntank|9/100
+|
+|upkeep
+|turn|27
+|choice|switch 6|move hiddenpower
+|
+|switch|p1a: Vileplume|Vileplume, M|65/100
+|move|p2a: Skuntank|Hidden Power|p1a: Vileplume
+|-resisted|p1a: Vileplume
+|-damage|p1a: Vileplume|61/100
+|
+|-heal|p1a: Vileplume|67/100|[from] item: Black Sludge
+|upkeep
+|turn|28
+|choice|move synthesis|move fireblast
+|
+|move|p2a: Skuntank|Fire Blast|p1a: Vileplume
+|-supereffective|p1a: Vileplume
+|-damage|p1a: Vileplume|0 fnt
+|faint|p1a: Vileplume
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Poliwrath|Poliwrath, M|28/100
+|turn|29
+|choice|move vacuumwave|move hiddenpower
+|
+|move|p1a: Poliwrath|Vacuum Wave|p2a: Skuntank
+|-damage|p2a: Skuntank|0 fnt
+|faint|p2a: Skuntank
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Malamar|Malamar, M|100/100
+|turn|30
+|choice|switch 3|move switcheroo
+|
+|switch|p1a: Tangela|Tangela, M|100/100
+|move|p2a: Malamar|Switcheroo|p1a: Tangela
+|-activate|p2a: Malamar|move: Trick|[of] p1a: Tangela
+|-item|p1a: Tangela|Choice Scarf|[from] move: Switcheroo
+|-item|p2a: Malamar|Eviolite|[from] move: Switcheroo
+|
+|upkeep
+|turn|31
+|choice|move leechseed|move superpower
+|
+|move|p2a: Malamar|Superpower|p1a: Tangela
+|-damage|p1a: Tangela|74/100
+|-boost|p2a: Malamar|atk|1
+|-boost|p2a: Malamar|def|1
+|move|p1a: Tangela|Leech Seed|p2a: Malamar
+|-start|p2a: Malamar|move: Leech Seed
+|
+|-damage|p2a: Malamar|88/100|[from] Leech Seed|[of] p1a: Tangela
+|-heal|p1a: Tangela|86/100|[silent]
+|upkeep
+|turn|32
+|choice|switch 5|switch 4
+|
+|switch|p2a: Roselia|Roselia, M|74/100
+|switch|p1a: Clefairy|Clefairy, M|72/100
+|
+|upkeep
+|turn|33
+|choice|move thunderwave|move sludgebomb
+|
+|move|p2a: Roselia|Sludge Bomb|p1a: Clefairy
+|-supereffective|p1a: Clefairy
+|-damage|p1a: Clefairy|31/100
+|move|p1a: Clefairy|Thunder Wave|p2a: Roselia
+|-status|p2a: Roselia|par
+|
+|upkeep
+|turn|34
+|choice|move softboiled|move sludgebomb
+|
+|move|p1a: Clefairy|Soft-Boiled|p1a: Clefairy
+|-heal|p1a: Clefairy|81/100
+|move|p2a: Roselia|Sludge Bomb|p1a: Clefairy
+|-supereffective|p1a: Clefairy
+|-damage|p1a: Clefairy|43/100
+|-status|p1a: Clefairy|psn
+|
+|upkeep
+|turn|35
+|choice|move softboiled|switch 4
+|
+|-curestatus|p2a: Roselia|par|[from] ability: Natural Cure
+|switch|p2a: Malamar|Malamar, M|88/100
+|move|p1a: Clefairy|Soft-Boiled|p1a: Clefairy
+|-heal|p1a: Clefairy|93/100 psn
+|
+|upkeep
+|turn|36
+|choice|move thunderwave|switch 4
+|
+|switch|p2a: Roselia|Roselia, M|74/100
+|move|p1a: Clefairy|Thunder Wave|p2a: Roselia
+|-status|p2a: Roselia|par
+|
+|upkeep
+|turn|37
+|choice|move stealthrock|move sludgebomb
+|
+|move|p1a: Clefairy|Stealth Rock|p2a: Roselia
+|-sidestart|p2: Mesh123|move: Stealth Rock
+|move|p2a: Roselia|Sludge Bomb|p1a: Clefairy
+|-supereffective|p1a: Clefairy
+|-damage|p1a: Clefairy|56/100 psn
+|
+|upkeep
+|turn|38
+|choice|move softboiled|switch 4
+|
+|-curestatus|p2a: Roselia|par|[from] ability: Natural Cure
+|switch|p2a: Malamar|Malamar, M|88/100
+|-damage|p2a: Malamar|76/100|[from] Stealth Rock
+|move|p1a: Clefairy|Soft-Boiled|p1a: Clefairy
+|-heal|p1a: Clefairy|100/100 psn
+|
+|upkeep
+|turn|39
+|c| Mythlore|shame its not CM
+|c|☆zorse|i have literally zero offense
+|choice|move thunderwave|move knockoff
+|
+|move|p2a: Malamar|Knock Off|p1a: Clefairy
+|-resisted|p1a: Clefairy
+|-damage|p1a: Clefairy|75/100 psn
+|-enditem|p1a: Clefairy|Eviolite|[from] move: Knock Off|[of] p2a: Malamar
+|move|p1a: Clefairy|Thunder Wave|p2a: Malamar
+|-status|p2a: Malamar|par
+|
+|upkeep
+|turn|40
+|choice|switch 5|switch 4
+|
+|switch|p1a: Tangela|Tangela, M|100/100
+|switch|p2a: Roselia|Roselia, M|74/100
+|-damage|p2a: Roselia|62/100|[from] Stealth Rock
+|
+|upkeep
+|turn|41
+|choice|move hiddenpower|move gigadrain
+|
+|move|p1a: Tangela|Hidden Power|p2a: Roselia
+|-supereffective|p2a: Roselia
+|-damage|p2a: Roselia|45/100
+|move|p2a: Roselia|Giga Drain|p1a: Tangela
+|-resisted|p1a: Tangela
+|-damage|p1a: Tangela|73/100
+|-heal|p2a: Roselia|60/100|[from] drain|[of] p1a: Tangela
+|
+|upkeep
+|turn|42
+|c|☆zorse|damageeeeeeee
+|choice|move hiddenpower|move synthesis
+|
+|move|p1a: Tangela|Hidden Power|p2a: Roselia
+|-supereffective|p2a: Roselia
+|-damage|p2a: Roselia|43/100
+|move|p2a: Roselia|Synthesis|p2a: Roselia
+|-heal|p2a: Roselia|93/100
+|
+|upkeep
+|turn|43
+|choice|move hiddenpower|move sludgebomb
+|
+|move|p1a: Tangela|Hidden Power|p2a: Roselia
+|-supereffective|p2a: Roselia
+|-damage|p2a: Roselia|77/100
+|move|p2a: Roselia|Sludge Bomb|p1a: Tangela
+|-supereffective|p1a: Tangela
+|-damage|p1a: Tangela|0 fnt
+|faint|p1a: Tangela
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Poliwrath|Poliwrath, M|28/100
+|turn|44
+|choice|move icebeam|switch 4
+|
+|switch|p2a: Malamar|Malamar, M|76/100 par
+|-damage|p2a: Malamar|63/100 par|[from] Stealth Rock
+|move|p1a: Poliwrath|Ice Beam|p2a: Malamar
+|-damage|p2a: Malamar|17/100 par
+|
+|upkeep
+|turn|45
+|choice|move icebeam|move psychocut
+|
+|move|p1a: Poliwrath|Ice Beam|p2a: Malamar
+|-damage|p2a: Malamar|0 fnt
+|faint|p2a: Malamar
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Roselia|Roselia, M|77/100
+|-damage|p2a: Roselia|64/100|[from] Stealth Rock
+|turn|46
+|choice|move icebeam|move gigadrain
+|
+|move|p1a: Poliwrath|Ice Beam|p2a: Roselia
+|-supereffective|p2a: Roselia
+|-damage|p2a: Roselia|25/100
+|move|p2a: Roselia|Giga Drain|p1a: Poliwrath
+|-supereffective|p1a: Poliwrath
+|-damage|p1a: Poliwrath|0 fnt
+|-heal|p2a: Roselia|41/100|[from] drain|[of] p1a: Poliwrath
+|faint|p1a: Poliwrath
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Clefairy|Clefairy, M|75/100 psn
+|turn|47
+|choice|move thunderwave|move synthesis
+|
+|move|p2a: Roselia|Synthesis|p2a: Roselia
+|-heal|p2a: Roselia|91/100
+|move|p1a: Clefairy|Thunder Wave|p2a: Roselia
+|-status|p2a: Roselia|par
+|
+|upkeep
+|turn|48
+|choice|move moonblast|move sludgebomb
+|
+|move|p1a: Clefairy|Moonblast|p2a: Roselia
+|-resisted|p2a: Roselia
+|-crit|p2a: Roselia
+|-damage|p2a: Roselia|81/100 par
+|move|p2a: Roselia|Sludge Bomb|p1a: Clefairy
+|-supereffective|p1a: Clefairy
+|-damage|p1a: Clefairy|14/100 psn
+|
+|upkeep
+|turn|49
+|c|☆zorse|gg :)
+|choice|move softboiled|move sludgebomb
+|
+|move|p1a: Clefairy|Soft-Boiled|p1a: Clefairy
+|-heal|p1a: Clefairy|64/100 psn
+|cant|p2a: Roselia|par
+|
+|upkeep
+|turn|50
+|choice|move moonblast|move sludgebomb
+|
+|move|p1a: Clefairy|Moonblast|p2a: Roselia
+|-resisted|p2a: Roselia
+|-damage|p2a: Roselia|74/100 par
+|cant|p2a: Roselia|par
+|
+|upkeep
+|turn|51
+|c|☆Mesh123|not if hax has any say in this
+|choice|move moonblast|move sludgebomb
+|
+|move|p1a: Clefairy|Moonblast|p2a: Roselia
+|-resisted|p2a: Roselia
+|-damage|p2a: Roselia|67/100 par
+|-unboost|p2a: Roselia|spa|1
+|move|p2a: Roselia|Sludge Bomb|p1a: Clefairy
+|-supereffective|p1a: Clefairy
+|-damage|p1a: Clefairy|22/100 psn
+|
+|upkeep
+|turn|52
+|c| WeirdOwlKnight|ah a crit did 10%
+|c|☆zorse|fuck paras i need that 30
+|choice|move softboiled|move sludgebomb
+|
+|move|p1a: Clefairy|Soft-Boiled|p1a: Clefairy
+|-heal|p1a: Clefairy|72/100 psn
+|move|p2a: Roselia|Sludge Bomb|p1a: Clefairy
+|-supereffective|p1a: Clefairy
+|-damage|p1a: Clefairy|35/100 psn
+|
+|upkeep
+|turn|53
+|choice|move softboiled|move gigadrain
+|
+|move|p1a: Clefairy|Soft-Boiled|p1a: Clefairy
+|-heal|p1a: Clefairy|85/100 psn
+|move|p2a: Roselia|Giga Drain|p1a: Clefairy
+|-damage|p1a: Clefairy|67/100 psn
+|-heal|p2a: Roselia|77/100 par|[from] drain|[of] p1a: Clefairy
+|
+|upkeep
+|turn|54
+|choice|move moonblast|move gigadrain
+|
+|move|p1a: Clefairy|Moonblast|p2a: Roselia
+|-resisted|p2a: Roselia
+|-damage|p2a: Roselia|71/100 par
+|-unboost|p2a: Roselia|spa|1
+|move|p2a: Roselia|Giga Drain|p1a: Clefairy
+|-damage|p1a: Clefairy|55/100 psn
+|-heal|p2a: Roselia|77/100 par|[from] drain|[of] p1a: Clefairy
+|
+|upkeep
+|turn|55
+|choice|move moonblast|move gigadrain
+|
+|move|p1a: Clefairy|Moonblast|p2a: Roselia
+|-resisted|p2a: Roselia
+|-crit|p2a: Roselia
+|-damage|p2a: Roselia|68/100 par
+|move|p2a: Roselia|Giga Drain|p1a: Clefairy
+|-damage|p1a: Clefairy|42/100 psn
+|-heal|p2a: Roselia|75/100 par|[from] drain|[of] p1a: Clefairy
+|
+|upkeep
+|turn|56
+|choice|move moonblast|move spikes
+|
+|move|p1a: Clefairy|Moonblast|p2a: Roselia
+|-resisted|p2a: Roselia
+|-damage|p2a: Roselia|68/100 par
+|-unboost|p2a: Roselia|spa|1
+|cant|p2a: Roselia|par
+|
+|upkeep
+|turn|57
+|choice|move moonblast|move gigadrain
+|
+|move|p1a: Clefairy|Moonblast|p2a: Roselia
+|-resisted|p2a: Roselia
+|-crit|p2a: Roselia
+|-damage|p2a: Roselia|57/100 par
+|move|p2a: Roselia|Giga Drain|p1a: Clefairy
+|-damage|p1a: Clefairy|32/100 psn
+|-heal|p2a: Roselia|63/100 par|[from] drain|[of] p1a: Clefairy
+|
+|upkeep
+|turn|58
+|choice|move softboiled|move spikes
+|
+|move|p1a: Clefairy|Soft-Boiled|p1a: Clefairy
+|-heal|p1a: Clefairy|82/100 psn
+|move|p2a: Roselia|Spikes|p1a: Clefairy
+|-sidestart|p1: zorse|Spikes
+|
+|upkeep
+|turn|59
+|c| TeamZorse|Worse loses
+|c| TeamZorse|*zorse
+|c|☆zorse|duh
+|c|☆zorse|lol
+|c|☆zorse|but im gonna make it painful
+|choice|move stealthrock|move gigadrain
+|
+|move|p1a: Clefairy|Stealth Rock|p2a: Roselia
+|-fail|p2a: Roselia
+|move|p2a: Roselia|Giga Drain|p1a: Clefairy
+|-damage|p1a: Clefairy|73/100 psn
+|-heal|p2a: Roselia|68/100 par|[from] drain|[of] p1a: Clefairy
+|
+|upkeep
+|turn|60
+|c|☆Mesh123|dont do this lmao
+|c| Mythlore|zorse might win this stall fest
+|c| Mythlore|with paras
+|c|☆Mesh123|its 1:30am for me lol
+|c|☆zorse|lol
+|choice|move moonblast|move gigadrain
+|
+|move|p1a: Clefairy|Moonblast|p2a: Roselia
+|-resisted|p2a: Roselia
+|-damage|p2a: Roselia|61/100 par
+|-unboost|p2a: Roselia|spa|1
+|cant|p2a: Roselia|par
+|
+|upkeep
+|turn|61
+|c|☆zorse|ill only click moonblast
+|choice|move moonblast|move synthesis
+|
+|move|p1a: Clefairy|Moonblast|p2a: Roselia
+|-resisted|p2a: Roselia
+|-damage|p2a: Roselia|54/100 par
+|-unboost|p2a: Roselia|spa|1
+|cant|p2a: Roselia|par
+|
+|upkeep
+|turn|62
+|c| Mythlore|actually im p sure zorse wins this
+|c|☆zorse|dont click synthesis or ill kill you
+|c| Mythlore|you stall 6 synthesis before 8 soft boiled
+|c| Mythlore|and you have paras
+|choice|move thunderwave|move synthesis
+|
+|move|p1a: Clefairy|Thunder Wave|p2a: Roselia
+|-fail|p2a: Roselia|par
+|move|p2a: Roselia|Synthesis|p2a: Roselia
+|-heal|p2a: Roselia|100/100 par
+|
+|upkeep
+|turn|63
+|choice|move stealthrock|move gigadrain
+|
+|move|p1a: Clefairy|Stealth Rock|p2a: Roselia
+|-fail|p2a: Roselia
+|move|p2a: Roselia|Giga Drain|p1a: Clefairy
+|-damage|p1a: Clefairy|66/100 psn
+|
+|upkeep
+|turn|64
+|l|TeamZorse
+|choice|move stealthrock|move spikes
+|
+|move|p1a: Clefairy|Stealth Rock|p2a: Roselia
+|-fail|p2a: Roselia
+|move|p2a: Roselia|Spikes|p1a: Clefairy
+|-sidestart|p1: zorse|Spikes
+|
+|upkeep
+|turn|65
+|choice|move stealthrock|move spikes
+|
+|move|p1a: Clefairy|Stealth Rock|p2a: Roselia
+|-fail|p2a: Roselia
+|cant|p2a: Roselia|par
+|
+|upkeep
+|turn|66
+|c|☆zorse|yea i have more pp lol
+|choice|move moonblast|move spikes
+|
+|move|p1a: Clefairy|Moonblast|p2a: Roselia
+|-resisted|p2a: Roselia
+|-damage|p2a: Roselia|94/100 par
+|cant|p2a: Roselia|par
+|
+|upkeep
+|turn|67
+|choice|move thunderwave|move spikes
+|
+|move|p1a: Clefairy|Thunder Wave|p2a: Roselia
+|-fail|p2a: Roselia|par
+|move|p2a: Roselia|Spikes|p1a: Clefairy
+|-sidestart|p1: zorse|Spikes
+|
+|upkeep
+|turn|68
+|c|☆Mesh123|ye but i have paras on my side
+|choice|move stealthrock|move spikes
+|
+|move|p1a: Clefairy|Stealth Rock|p2a: Roselia
+|-fail|p2a: Roselia
+|move|p2a: Roselia|Spikes|p1a: Clefairy
+|-fail|p1a: Clefairy
+|
+|upkeep
+|turn|69
+|choice|move stealthrock|move spikes
+|
+|move|p1a: Clefairy|Stealth Rock|p2a: Roselia
+|-fail|p2a: Roselia
+|move|p2a: Roselia|Spikes|p1a: Clefairy
+|-fail|p1a: Clefairy
+|
+|upkeep
+|turn|70
+|choice|move stealthrock|move spikes
+|
+|move|p1a: Clefairy|Stealth Rock|p2a: Roselia
+|-fail|p2a: Roselia
+|move|p2a: Roselia|Spikes|p1a: Clefairy
+|-fail|p1a: Clefairy
+|
+|upkeep
+|turn|71
+|c|☆zorse|predicted
+|choice|move stealthrock|move spikes
+|
+|move|p1a: Clefairy|Stealth Rock|p2a: Roselia
+|-fail|p2a: Roselia
+|move|p2a: Roselia|Spikes|p1a: Clefairy
+|-fail|p1a: Clefairy
+|
+|upkeep
+|turn|72
+|c| Mythlore|you guys realize
+|c|☆zorse|intense hazard stacking
+|c| Mythlore|theres no point in pp stalling
+|c|☆zorse|why
+|c| Mythlore|you have to stall out the recovery first
+|c| Mythlore|or moves
+|choice|move stealthrock|move spikes
+|
+|move|p1a: Clefairy|Stealth Rock|p2a: Roselia
+|-fail|p2a: Roselia
+|move|p2a: Roselia|Spikes|p1a: Clefairy
+|-fail|p1a: Clefairy
+|
+|upkeep
+|turn|73
+|c| WeirdOwlKnight|yeah zorse should win this
+|c|☆Mesh123|i have paras on my side
+|c|☆Mesh123|the one time they can help lol
+|choice|move stealthrock|move spikes
+|
+|move|p1a: Clefairy|Stealth Rock|p2a: Roselia
+|-fail|p2a: Roselia
+|move|p2a: Roselia|Spikes|p1a: Clefairy
+|-fail|p1a: Clefairy
+|
+|upkeep
+|turn|74
+|c| WeirdOwlKnight|cuz roselia will struggle as he recovers
+|c| WeirdOwlKnight|when was the last full para
+|choice|move stealthrock|move spikes
+|
+|move|p1a: Clefairy|Stealth Rock|p2a: Roselia
+|-fail|p2a: Roselia
+|move|p2a: Roselia|Spikes|p1a: Clefairy
+|-fail|p1a: Clefairy
+|
+|upkeep
+|turn|75
+|c| Mythlore|turn 66
+|choice|move stealthrock|move spikes
+|
+|move|p1a: Clefairy|Stealth Rock|p2a: Roselia
+|-fail|p2a: Roselia
+|move|p2a: Roselia|Spikes|p1a: Clefairy
+|-fail|p1a: Clefairy
+|
+|upkeep
+|turn|76
+|choice|move stealthrock|move spikes
+|
+|move|p1a: Clefairy|Stealth Rock|p2a: Roselia
+|-fail|p2a: Roselia
+|move|p2a: Roselia|Spikes|p1a: Clefairy
+|-fail|p1a: Clefairy
+|
+|upkeep
+|turn|77
+|choice|move stealthrock|move spikes
+|
+|move|p1a: Clefairy|Stealth Rock|p2a: Roselia
+|-fail|p2a: Roselia
+|cant|p2a: Roselia|par
+|
+|upkeep
+|turn|78
+|choice|move stealthrock|move spikes
+|
+|move|p1a: Clefairy|Stealth Rock|p2a: Roselia
+|-fail|p2a: Roselia
+|move|p2a: Roselia|Spikes|p1a: Clefairy
+|-fail|p1a: Clefairy
+|
+|upkeep
+|turn|79
+|choice|move stealthrock|move spikes
+|
+|move|p1a: Clefairy|Stealth Rock|p2a: Roselia
+|-fail|p2a: Roselia
+|move|p2a: Roselia|Spikes|p1a: Clefairy
+|-fail|p1a: Clefairy
+|
+|upkeep
+|turn|80
+|choice|move stealthrock|move spikes
+|
+|move|p1a: Clefairy|Stealth Rock|p2a: Roselia
+|-fail|p2a: Roselia
+|move|p2a: Roselia|Spikes|p1a: Clefairy
+|-fail|p1a: Clefairy
+|
+|upkeep
+|turn|81
+|choice|move stealthrock|move spikes
+|
+|move|p1a: Clefairy|Stealth Rock|p2a: Roselia
+|-fail|p2a: Roselia
+|move|p2a: Roselia|Spikes|p1a: Clefairy
+|-fail|p1a: Clefairy
+|
+|upkeep
+|turn|82
+|choice|move stealthrock|move spikes
+|
+|move|p1a: Clefairy|Stealth Rock|p2a: Roselia
+|-fail|p2a: Roselia
+|move|p2a: Roselia|Spikes|p1a: Clefairy
+|-fail|p1a: Clefairy
+|
+|upkeep
+|turn|83
+|c|☆zorse|just crit me
+|c|☆zorse|pls
+|c|☆Mesh123|im like -4 lmao
+|c| Mythlore|^
+|choice|move stealthrock|move spikes
+|
+|move|p1a: Clefairy|Stealth Rock|p2a: Roselia
+|-fail|p2a: Roselia
+|move|p2a: Roselia|Spikes|p1a: Clefairy
+|-fail|p1a: Clefairy
+|
+|upkeep
+|turn|84
+|c|☆zorse|that doesnt matter
+|c|☆zorse|it blows through it
+|c| Mythlore|crits only ignore stat boosts not drops
+|c| Mythlore|afaik
+|c| WeirdOwlKnight|nope both i think
+|c| WeirdOwlKnight|just not burn
+|choice|move stealthrock|move spikes
+|
+|move|p1a: Clefairy|Stealth Rock|p2a: Roselia
+|-fail|p2a: Roselia
+|cant|p2a: Roselia|par
+|
+|upkeep
+|turn|85
+|c|☆zorse|Critical hits ignore all stat stage modifiers
+|c| Mythlore|i may be thinking of burn
+|choice|move stealthrock|move spikes
+|
+|move|p1a: Clefairy|Stealth Rock|p2a: Roselia
+|-fail|p2a: Roselia
+|move|p2a: Roselia|Spikes|p1a: Clefairy
+|-fail|p1a: Clefairy
+|
+|upkeep
+|turn|86
+|c| Mythlore|but im pretty ive crit at -stats and done nothing
+|choice|move stealthrock|move gigadrain
+|
+|move|p1a: Clefairy|Stealth Rock|p2a: Roselia
+|-fail|p2a: Roselia
+|move|p2a: Roselia|Giga Drain|p1a: Clefairy
+|-damage|p1a: Clefairy|59/100 psn
+|-heal|p2a: Roselia|98/100 par|[from] drain|[of] p1a: Clefairy
+|
+|upkeep
+|turn|87
+|choice|move stealthrock|move gigadrain
+|
+|move|p1a: Clefairy|Stealth Rock|p2a: Roselia
+|-fail|p2a: Roselia
+|move|p2a: Roselia|Giga Drain|p1a: Clefairy
+|-damage|p1a: Clefairy|53/100 psn
+|-heal|p2a: Roselia|100/100 par|[from] drain|[of] p1a: Clefairy
+|
+|upkeep
+|turn|88
+|choice|move stealthrock|move spikes
+|
+|move|p1a: Clefairy|Stealth Rock|p2a: Roselia
+|-fail|p2a: Roselia
+|move|p2a: Roselia|Spikes|p1a: Clefairy
+|-fail|p1a: Clefairy
+|
+|upkeep
+|turn|89
+|choice|move softboiled|move spikes
+|
+|move|p1a: Clefairy|Soft-Boiled|p1a: Clefairy
+|-heal|p1a: Clefairy|100/100 psn
+|cant|p2a: Roselia|par
+|
+|upkeep
+|turn|90
+|choice|move stealthrock|move spikes
+|
+|move|p1a: Clefairy|Stealth Rock|p2a: Roselia
+|-fail|p2a: Roselia
+|move|p2a: Roselia|Spikes|p1a: Clefairy
+|-fail|p1a: Clefairy
+|
+|upkeep
+|turn|91
+|choice|move stealthrock|move spikes
+|
+|move|p1a: Clefairy|Stealth Rock|p2a: Roselia
+|-fail|p2a: Roselia
+|move|p2a: Roselia|Spikes|p1a: Clefairy
+|-fail|p1a: Clefairy
+|
+|upkeep
+|turn|92
+|choice|move stealthrock|move spikes
+|
+|move|p1a: Clefairy|Stealth Rock|p2a: Roselia
+|-fail|p2a: Roselia
+|move|p2a: Roselia|Spikes|p1a: Clefairy
+|-fail|p1a: Clefairy
+|
+|upkeep
+|turn|93
+|choice|move stealthrock|move spikes
+|
+|move|p1a: Clefairy|Stealth Rock|p2a: Roselia
+|-fail|p2a: Roselia
+|move|p2a: Roselia|Spikes|p1a: Clefairy
+|-fail|p1a: Clefairy
+|
+|upkeep
+|turn|94
+|choice|move stealthrock|move spikes
+|
+|move|p1a: Clefairy|Stealth Rock|p2a: Roselia
+|-fail|p2a: Roselia
+|move|p2a: Roselia|Spikes|p1a: Clefairy
+|-fail|p1a: Clefairy
+|
+|upkeep
+|turn|95
+|c|☆Mesh123|if we are playing this game
+|c|☆zorse|lol
+|c|☆Mesh123|then we are doing it right
+|choice|move thunderwave|move spikes
+|
+|move|p1a: Clefairy|Thunder Wave|p2a: Roselia
+|-fail|p2a: Roselia|par
+|move|p2a: Roselia|Spikes|p1a: Clefairy
+|-fail|p1a: Clefairy
+|
+|upkeep
+|turn|96
+|c| WeirdOwlKnight|how many rocks are there inside clefairy
+|c|☆Mesh123|at 13 mins past the next hour, whoever has the most hp wins if this is still going
+|c|☆Mesh123|since thats the one hour mark lol
+|choice|move thunderwave|move spikes
+|
+|move|p1a: Clefairy|Thunder Wave|p2a: Roselia
+|-fail|p2a: Roselia|par
+|move|p2a: Roselia|Spikes|p1a: Clefairy
+|-fail|p1a: Clefairy
+|
+|upkeep
+|turn|97
+|choice|move thunderwave|move spikes
+|
+|move|p1a: Clefairy|Thunder Wave|p2a: Roselia
+|-fail|p2a: Roselia|par
+|cant|p2a: Roselia|par
+|
+|upkeep
+|turn|98
+|choice|move thunderwave|move spikes
+|
+|move|p1a: Clefairy|Thunder Wave|p2a: Roselia
+|-fail|p2a: Roselia|par
+|move|p2a: Roselia|Spikes|p1a: Clefairy
+|-fail|p1a: Clefairy
+|
+|upkeep
+|turn|99
+|c|☆zorse|i needa make dinner and watch 13 reasons why
+|c|☆zorse|ftge
+|choice|move thunderwave|move spikes
+|
+|move|p1a: Clefairy|Thunder Wave|p2a: Roselia
+|-fail|p2a: Roselia|par
+|move|p2a: Roselia|Spikes|p1a: Clefairy
+|-fail|p1a: Clefairy
+|
+|upkeep
+|turn|100
+|c| WeirdOwlKnight|tell me whomever wins this battle
+|c|☆Mesh123|i need to sleep
+|c| Mythlore|you only say that because its the only way you win mesh
+|c| Mythlore|lol
+|c|☆zorse|need to JO
+|c|☆Mesh123|give me my deserved w and stop being a brain
+|choice|move thunderwave|move spikes
+|
+|move|p1a: Clefairy|Thunder Wave|p2a: Roselia
+|-fail|p2a: Roselia|par
+|move|p2a: Roselia|Spikes|p1a: Clefairy
+|-fail|p1a: Clefairy
+|
+|upkeep
+|turn|101
+|c|☆zorse|lol i win the stall war unless you crit
+|choice|move thunderwave|move spikes
+|
+|move|p1a: Clefairy|Thunder Wave|p2a: Roselia
+|-fail|p2a: Roselia|par
+|cant|p2a: Roselia|par
+|
+|upkeep
+|turn|102
+|choice|move thunderwave|move gigadrain
+|
+|move|p1a: Clefairy|Thunder Wave|p2a: Roselia
+|-fail|p2a: Roselia|par
+|cant|p2a: Roselia|par
+|
+|upkeep
+|turn|103
+|choice|move thunderwave|move gigadrain
+|
+|move|p1a: Clefairy|Thunder Wave|p2a: Roselia
+|-fail|p2a: Roselia|par
+|move|p2a: Roselia|Giga Drain|p1a: Clefairy
+|-damage|p1a: Clefairy|93/100 psn
+|
+|upkeep
+|turn|104
+|choice|move thunderwave|move gigadrain
+|
+|move|p1a: Clefairy|Thunder Wave|p2a: Roselia
+|-fail|p2a: Roselia|par
+|cant|p2a: Roselia|par
+|
+|upkeep
+|turn|105
+|choice|move thunderwave|move gigadrain
+|
+|move|p1a: Clefairy|Thunder Wave|p2a: Roselia
+|-fail|p2a: Roselia|par
+|move|p2a: Roselia|Giga Drain|p1a: Clefairy
+|-damage|p1a: Clefairy|87/100 psn
+|
+|upkeep
+|turn|106
+|c| WeirdOwlKnight|watch him get para'd every turn now lmao
+|choice|move thunderwave|move gigadrain
+|
+|move|p1a: Clefairy|Thunder Wave|p2a: Roselia
+|-fail|p2a: Roselia|par
+|move|p2a: Roselia|Giga Drain|p1a: Clefairy
+|-damage|p1a: Clefairy|80/100 psn
+|
+|upkeep
+|turn|107
+|choice|move thunderwave|move gigadrain
+|
+|move|p1a: Clefairy|Thunder Wave|p2a: Roselia
+|-fail|p2a: Roselia|par
+|move|p2a: Roselia|Giga Drain|p1a: Clefairy
+|-damage|p1a: Clefairy|73/100 psn
+|
+|upkeep
+|turn|108
+|choice|move thunderwave|move gigadrain
+|
+|move|p1a: Clefairy|Thunder Wave|p2a: Roselia
+|-fail|p2a: Roselia|par
+|move|p2a: Roselia|Giga Drain|p1a: Clefairy
+|-damage|p1a: Clefairy|67/100 psn
+|
+|upkeep
+|turn|109
+|c| WeirdOwlKnight|set up the last spike yo
+|choice|move thunderwave|move sludgebomb
+|
+|move|p1a: Clefairy|Thunder Wave|p2a: Roselia
+|-fail|p2a: Roselia|par
+|move|p2a: Roselia|Sludge Bomb|p1a: Clefairy
+|-supereffective|p1a: Clefairy
+|-damage|p1a: Clefairy|51/100 psn
+|
+|upkeep
+|turn|110
+|c| WeirdOwlKnight|its triggering me
+|choice|move softboiled|move sludgebomb
+|
+|move|p1a: Clefairy|Soft-Boiled|p1a: Clefairy
+|-heal|p1a: Clefairy|100/100 psn
+|cant|p2a: Roselia|par
+|
+|upkeep
+|turn|111
+|choice|move thunderwave|move spikes
+|
+|move|p1a: Clefairy|Thunder Wave|p2a: Roselia
+|-fail|p2a: Roselia|par
+|move|p2a: Roselia|Spikes|p1a: Clefairy
+|-fail|p1a: Clefairy
+|
+|upkeep
+|turn|112
+|c| Mythlore|doesnt zorse click moonblast once and win by the most hp thing mesh said earlier
+|choice|move thunderwave|move sludgebomb
+|
+|move|p1a: Clefairy|Thunder Wave|p2a: Roselia
+|-fail|p2a: Roselia|par
+|cant|p2a: Roselia|par
+|
+|upkeep
+|turn|113
+|c|☆Mesh123|jusj
+|c|☆Mesh123|hush
+|choice|move thunderwave|move sludgebomb
+|
+|move|p1a: Clefairy|Thunder Wave|p2a: Roselia
+|-fail|p2a: Roselia|par
+|move|p2a: Roselia|Sludge Bomb|p1a: Clefairy
+|-supereffective|p1a: Clefairy
+|-damage|p1a: Clefairy|85/100 psn
+|
+|upkeep
+|turn|114
+|c| Mythlore|oh wait he has sludge bombs
+|c|☆zorse|also who says i agree to that lol
+|choice|move thunderwave|move sludgebomb
+|
+|move|p1a: Clefairy|Thunder Wave|p2a: Roselia
+|-fail|p2a: Roselia|par
+|move|p2a: Roselia|Sludge Bomb|p1a: Clefairy
+|-supereffective|p1a: Clefairy
+|-damage|p1a: Clefairy|67/100 psn
+|
+|upkeep
+|turn|115
+|choice|move thunderwave|move sludgebomb
+|
+|move|p1a: Clefairy|Thunder Wave|p2a: Roselia
+|-fail|p2a: Roselia|par
+|move|p2a: Roselia|Sludge Bomb|p1a: Clefairy
+|-supereffective|p1a: Clefairy
+|-damage|p1a: Clefairy|49/100 psn
+|
+|upkeep
+|turn|116
+|choice|move softboiled|move sludgebomb
+|
+|move|p1a: Clefairy|Soft-Boiled|p1a: Clefairy
+|-heal|p1a: Clefairy|99/100 psn
+|move|p2a: Roselia|Sludge Bomb|p1a: Clefairy
+|-supereffective|p1a: Clefairy
+|-damage|p1a: Clefairy|81/100 psn
+|
+|upkeep
+|turn|117
+|choice|move thunderwave|move sludgebomb
+|
+|move|p1a: Clefairy|Thunder Wave|p2a: Roselia
+|-fail|p2a: Roselia|par
+|move|p2a: Roselia|Sludge Bomb|p1a: Clefairy
+|-supereffective|p1a: Clefairy
+|-damage|p1a: Clefairy|64/100 psn
+|
+|upkeep
+|turn|118
+|choice|move moonblast|move sludgebomb
+|
+|move|p1a: Clefairy|Moonblast|p2a: Roselia
+|-resisted|p2a: Roselia
+|-damage|p2a: Roselia|93/100 par
+|-unboost|p2a: Roselia|spa|1
+|cant|p2a: Roselia|par
+|
+|upkeep
+|turn|119
+|choice|move thunderwave|move sludgebomb
+|
+|move|p1a: Clefairy|Thunder Wave|p2a: Roselia
+|-fail|p2a: Roselia|par
+|cant|p2a: Roselia|par
+|
+|upkeep
+|turn|120
+|choice|move thunderwave|move synthesis
+|
+|move|p1a: Clefairy|Thunder Wave|p2a: Roselia
+|-fail|p2a: Roselia|par
+|cant|p2a: Roselia|par
+|
+|upkeep
+|turn|121
+|c|☆zorse|LOL
+|choice|move thunderwave|move synthesis
+|
+|move|p1a: Clefairy|Thunder Wave|p2a: Roselia
+|-fail|p2a: Roselia|par
+|cant|p2a: Roselia|par
+|
+|upkeep
+|turn|122
+|c|☆Mesh123|this is it boys
+|choice|move moonblast|move synthesis
+|
+|move|p1a: Clefairy|Moonblast|p2a: Roselia
+|-resisted|p2a: Roselia
+|-damage|p2a: Roselia|86/100 par
+|cant|p2a: Roselia|par
+|
+|upkeep
+|turn|123
+|choice|move thunderwave|move synthesis
+|
+|move|p1a: Clefairy|Thunder Wave|p2a: Roselia
+|-fail|p2a: Roselia|par
+|move|p2a: Roselia|Synthesis|p2a: Roselia
+|-heal|p2a: Roselia|100/100 par
+|
+|upkeep
+|turn|124
+|choice|move moonblast|move synthesis
+|
+|move|p1a: Clefairy|Moonblast|p2a: Roselia
+|-resisted|p2a: Roselia
+|-damage|p2a: Roselia|94/100 par
+|move|p2a: Roselia|Synthesis|p2a: Roselia
+|-heal|p2a: Roselia|100/100 par
+|
+|upkeep
+|turn|125
+|choice|move moonblast|move synthesis
+|
+|move|p1a: Clefairy|Moonblast|p2a: Roselia
+|-resisted|p2a: Roselia
+|-damage|p2a: Roselia|94/100 par
+|cant|p2a: Roselia|par
+|
+|upkeep
+|turn|126
+|choice|move moonblast|move synthesis
+|
+|move|p1a: Clefairy|Moonblast|p2a: Roselia
+|-resisted|p2a: Roselia
+|-damage|p2a: Roselia|86/100 par
+|cant|p2a: Roselia|par
+|
+|upkeep
+|turn|127
+|c|☆zorse|omg
+|choice|move moonblast|move synthesis
+|
+|move|p1a: Clefairy|Moonblast|p2a: Roselia
+|-resisted|p2a: Roselia
+|-damage|p2a: Roselia|79/100 par
+|move|p2a: Roselia|Synthesis|p2a: Roselia
+|-heal|p2a: Roselia|100/100 par
+|
+|upkeep
+|turn|128
+|c| WeirdOwlKnight|lmao he might actually do it
+|choice|move moonblast|move synthesis
+|
+|move|p1a: Clefairy|Moonblast|p2a: Roselia
+|-resisted|p2a: Roselia
+|-damage|p2a: Roselia|94/100 par
+|cant|p2a: Roselia|par
+|
+|upkeep
+|turn|129
+|c|☆zorse|hahahaha
+|c|☆zorse|hes gotta get insane luck
+|c|☆zorse|but hes gonna do it
+|choice|move moonblast|move synthesis
+|
+|move|p1a: Clefairy|Moonblast|p2a: Roselia
+|-resisted|p2a: Roselia
+|-crit|p2a: Roselia
+|-damage|p2a: Roselia|83/100 par
+|move|p2a: Roselia|Synthesis|p2a: Roselia
+|-heal|p2a: Roselia|100/100 par
+|
+|upkeep
+|turn|130
+|choice|move moonblast|move synthesis
+|
+|move|p1a: Clefairy|Moonblast|p2a: Roselia
+|-resisted|p2a: Roselia
+|-damage|p2a: Roselia|94/100 par
+|move|p2a: Roselia|Synthesis|p2a: Roselia
+|-heal|p2a: Roselia|100/100 par
+|
+|upkeep
+|turn|131
+|c| WeirdOwlKnight|you got the crit
+|choice|move softboiled|move sludgebomb
+|
+|move|p1a: Clefairy|Soft-Boiled|p1a: Clefairy
+|-heal|p1a: Clefairy|100/100 psn
+|move|p2a: Roselia|Sludge Bomb|p1a: Clefairy
+|-supereffective|p1a: Clefairy
+|-damage|p1a: Clefairy|85/100 psn
+|
+|upkeep
+|turn|132
+|choice|move moonblast|move struggle
+|
+|move|p1a: Clefairy|Moonblast|p2a: Roselia
+|-resisted|p2a: Roselia
+|-damage|p2a: Roselia|94/100 par
+|-activate|p2a: Roselia|move: Struggle
+|move|p2a: Roselia|Struggle|p1a: Clefairy
+|-damage|p1a: Clefairy|72/100 psn
+|-damage|p2a: Roselia|69/100 par|[from] recoil
+|
+|upkeep
+|turn|133
+|choice|move moonblast|move struggle
+|
+|move|p1a: Clefairy|Moonblast|p2a: Roselia
+|-resisted|p2a: Roselia
+|-damage|p2a: Roselia|62/100 par
+|-activate|p2a: Roselia|move: Struggle
+|move|p2a: Roselia|Struggle|p1a: Clefairy
+|-damage|p1a: Clefairy|60/100 psn
+|-damage|p2a: Roselia|37/100 par|[from] recoil
+|
+|upkeep
+|turn|134
+|choice|move softboiled|move struggle
+|
+|move|p1a: Clefairy|Soft-Boiled|p1a: Clefairy
+|-heal|p1a: Clefairy|100/100 psn
+|-activate|p2a: Roselia|move: Struggle
+|move|p2a: Roselia|Struggle|p1a: Clefairy
+|-damage|p1a: Clefairy|88/100 psn
+|-damage|p2a: Roselia|12/100 par|[from] recoil
+|
+|upkeep
+|turn|135
+|c| Mythlore|gg boys
+|c| Mythlore|not 1400 turns smh
+|c|☆zorse|GG
+|c|☆zorse|DICKSOUT
+|c|☆Mesh123|oh now my wifi is out
+|-message|Mesh123 forfeited.
+|
+|win|zorse
+|l|Mesh123
+|c| WeirdOwlKnight|all but 3 pp
+|c| WeirdOwlKnight|LMAO

@@ -1,0 +1,263 @@
+|j|TheMapleLeafeons17
+|j|DTayChaos
+|player|p1|TheMapleLeafeons17|54
+|player|p2|DTayChaos|281
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|37606,62921,38718,4357,43538,20805,6978,40301,9310,7589,28695,63129
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Monferno, M|item
+|poke|p1|Mr. Mime, M|item
+|poke|p1|Murkrow, M|item
+|poke|p1|Avalugg, M|item
+|poke|p1|Sawsbuck, M|item
+|poke|p1|Klang|item
+|poke|p2|Vibrava, M|item
+|poke|p2|Quilladin, M|item
+|poke|p2|Chatot, M|item
+|poke|p2|Rampardos, M|item
+|poke|p2|Klang|item
+|poke|p2|Electrode|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 1, team 2, team 3, team 4, team 5, team 6|team 4, team 2, team 3, team 1, team 5, team 6
+|
+|start
+|switch|p1a: Monferno|Monferno, M|100/100
+|switch|p2a: Rampardos|Rampardos, M|100/100
+|-ability|p2a: Rampardos|Mold Breaker
+|turn|1
+|choice|move machpunch|move stealthrock
+|
+|move|p1a: Monferno|Mach Punch|p2a: Rampardos
+|-supereffective|p2a: Rampardos
+|-damage|p2a: Rampardos|37/100
+|move|p2a: Rampardos|Stealth Rock|p1a: Monferno
+|-sidestart|p1: TheMapleLeafeons17|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|choice|move machpunch|move surf
+|
+|move|p1a: Monferno|Mach Punch|p2a: Rampardos
+|-supereffective|p2a: Rampardos
+|-damage|p2a: Rampardos|0 fnt
+|faint|p2a: Rampardos
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Vibrava|Vibrava, M|100/100
+|turn|3
+|choice|move flareblitz|move earthquake
+|
+|move|p1a: Monferno|Flare Blitz|p2a: Vibrava
+|-resisted|p2a: Vibrava
+|-damage|p2a: Vibrava|70/100
+|-damage|p1a: Monferno|89/100|[from] recoil|[of] p2a: Vibrava
+|move|p2a: Vibrava|Earthquake|p1a: Monferno
+|-supereffective|p1a: Monferno
+|-damage|p1a: Monferno|12/100
+|
+|upkeep
+|turn|4
+|choice|move stealthrock|move roost
+|
+|move|p1a: Monferno|Stealth Rock|p2a: Vibrava
+|-sidestart|p2: DTayChaos|move: Stealth Rock
+|move|p2a: Vibrava|Roost|p2a: Vibrava
+|-heal|p2a: Vibrava|100/100
+|
+|upkeep
+|turn|5
+|choice|move machpunch|move earthquake
+|
+|move|p1a: Monferno|Mach Punch|p2a: Vibrava
+|-damage|p2a: Vibrava|77/100
+|move|p2a: Vibrava|Earthquake|p1a: Monferno
+|-supereffective|p1a: Monferno
+|-damage|p1a: Monferno|0 fnt
+|faint|p1a: Monferno
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Avalugg|Avalugg, M|100/100
+|-damage|p1a: Avalugg|76/100|[from] Stealth Rock
+|turn|6
+|choice|move avalanche|move toxic
+|
+|move|p2a: Vibrava|Toxic|p1a: Avalugg
+|-status|p1a: Avalugg|tox
+|move|p1a: Avalugg|Avalanche|p2a: Vibrava
+|-supereffective|p2a: Vibrava
+|-damage|p2a: Vibrava|0 fnt
+|faint|p2a: Vibrava
+|
+|-heal|p1a: Avalugg|82/100 tox|[from] item: Leftovers
+|-damage|p1a: Avalugg|76/100 tox|[from] psn
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Klang|Klang|100/100
+|-damage|p2a: Klang|94/100|[from] Stealth Rock
+|turn|7
+|choice|move rapidspin|move shiftgear
+|
+|move|p2a: Klang|Shift Gear|p2a: Klang
+|-boost|p2a: Klang|spe|2
+|-boost|p2a: Klang|atk|1
+|move|p1a: Avalugg|Rapid Spin|p2a: Klang
+|-resisted|p2a: Klang
+|-damage|p2a: Klang|93/100
+|-sideend|p1: TheMapleLeafeons17|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Avalugg
+|
+|-heal|p1a: Avalugg|82/100 tox|[from] item: Leftovers
+|-damage|p1a: Avalugg|69/100 tox|[from] psn
+|upkeep
+|turn|8
+|choice|move avalanche|move shiftgear
+|
+|move|p2a: Klang|Shift Gear|p2a: Klang
+|-boost|p2a: Klang|spe|2
+|-boost|p2a: Klang|atk|1
+|move|p1a: Avalugg|Avalanche|p2a: Klang
+|-resisted|p2a: Klang
+|-damage|p2a: Klang|85/100
+|
+|-heal|p1a: Avalugg|76/100 tox|[from] item: Leftovers
+|-damage|p1a: Avalugg|57/100 tox|[from] psn
+|upkeep
+|turn|9
+|choice|move avalanche|move shiftgear
+|
+|move|p2a: Klang|Shift Gear|p2a: Klang
+|-boost|p2a: Klang|spe|2
+|-boost|p2a: Klang|atk|1
+|move|p1a: Avalugg|Avalanche|p2a: Klang
+|-resisted|p2a: Klang
+|-damage|p2a: Klang|78/100
+|
+|-heal|p1a: Avalugg|63/100 tox|[from] item: Leftovers
+|-damage|p1a: Avalugg|39/100 tox|[from] psn
+|upkeep
+|turn|10
+|choice|move avalanche|move shiftgear
+|
+|move|p2a: Klang|Shift Gear|p2a: Klang
+|-boost|p2a: Klang|spe|0
+|-boost|p2a: Klang|atk|1
+|move|p1a: Avalugg|Avalanche|p2a: Klang
+|-resisted|p2a: Klang
+|-damage|p2a: Klang|71/100
+|
+|-heal|p1a: Avalugg|45/100 tox|[from] item: Leftovers
+|-damage|p1a: Avalugg|14/100 tox|[from] psn
+|upkeep
+|turn|11
+|choice|move avalanche|move shiftgear
+|
+|move|p2a: Klang|Shift Gear|p2a: Klang
+|-boost|p2a: Klang|spe|0
+|-boost|p2a: Klang|atk|1
+|move|p1a: Avalugg|Avalanche|p2a: Klang
+|-resisted|p2a: Klang
+|-damage|p2a: Klang|63/100
+|
+|-heal|p1a: Avalugg|21/100 tox|[from] item: Leftovers
+|-damage|p1a: Avalugg|0 fnt|[from] psn
+|upkeep
+|faint|p1a: Avalugg
+|choice|switch 6|
+|
+|switch|p1a: Klang|Klang|100/100
+|turn|12
+|choice|move shiftgear|move geargrind
+|
+|move|p2a: Klang|Gear Grind|p1a: Klang
+|-resisted|p1a: Klang
+|-damage|p1a: Klang|85/100
+|-resisted|p1a: Klang
+|-damage|p1a: Klang|70/100
+|-hitcount|p1a: Klang|2
+|move|p1a: Klang|Shift Gear|p1a: Klang
+|-boost|p1a: Klang|spe|2
+|-boost|p1a: Klang|atk|1
+|
+|upkeep
+|turn|13
+|choice|move shiftgear|move geargrind
+|
+|move|p2a: Klang|Gear Grind|p1a: Klang
+|-resisted|p1a: Klang
+|-crit|p1a: Klang
+|-damage|p1a: Klang|46/100
+|-resisted|p1a: Klang
+|-damage|p1a: Klang|31/100
+|-hitcount|p1a: Klang|2
+|move|p1a: Klang|Shift Gear|p1a: Klang
+|-boost|p1a: Klang|spe|2
+|-boost|p1a: Klang|atk|1
+|
+|upkeep
+|turn|14
+|choice|move rest|move geargrind
+|
+|move|p2a: Klang|Gear Grind|p1a: Klang
+|-resisted|p1a: Klang
+|-damage|p1a: Klang|16/100
+|-resisted|p1a: Klang
+|-damage|p1a: Klang|0 fnt
+|-hitcount|p1a: Klang|2
+|faint|p1a: Klang
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Mr. Mime|Mr. Mime, M|100/100
+|turn|15
+|choice|move focusblast|move geargrind
+|
+|move|p2a: Klang|Gear Grind|p1a: Mr. Mime
+|-supereffective|p1a: Mr. Mime
+|-damage|p1a: Mr. Mime|0 fnt
+|-hitcount|p1a: Mr. Mime|1
+|faint|p1a: Mr. Mime
+|
+|upkeep
+|c|☆DTayChaos|GG
+|choice|switch 5|
+|
+|switch|p1a: Sawsbuck|Sawsbuck, M|100/100
+|turn|16
+|choice|move hornleech|move geargrind
+|
+|move|p2a: Klang|Gear Grind|p1a: Sawsbuck
+|-crit|p1a: Sawsbuck
+|-damage|p1a: Sawsbuck|0 fnt
+|-hitcount|p1a: Sawsbuck|1
+|faint|p1a: Sawsbuck
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Murkrow|Murkrow, M|100/100
+|turn|17
+|choice|move suckerpunch|move geargrind
+|
+|move|p1a: Murkrow|Sucker Punch|p2a: Klang
+|-damage|p2a: Klang|38/100
+|-damage|p1a: Murkrow|91/100|[from] item: Life Orb
+|move|p2a: Klang|Gear Grind|p1a: Murkrow
+|-damage|p1a: Murkrow|0 fnt
+|-hitcount|p1a: Murkrow|1
+|faint|p1a: Murkrow
+|
+|win|DTayChaos
+|raw|TheMapleLeafeons17's rating: 1145 &rarr; <strong>1124</strong><br />(-21 for losing)
+|raw|DTayChaos's rating: 1207 &rarr; <strong>1227</strong><br />(+20 for winning)
+|l|TheMapleLeafeons17

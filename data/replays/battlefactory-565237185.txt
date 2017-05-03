@@ -1,0 +1,478 @@
+|j|DinastyAndrey
+|j|Dom M-Houndoom
+|player|p1|DinastyAndrey|238
+|player|p2|Dom M-Houndoom|269
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|45380,56522,20437,15678,32767,40949,53923,25495,56218,49696,41725,10075
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Raikou|item
+|poke|p1|Staraptor, M|item
+|poke|p1|Scizor, M|item
+|poke|p1|Heatran, M|item
+|poke|p1|Thundurus-Therian, M|item
+|poke|p1|Breloom, M|item
+|poke|p2|Breloom, M|item
+|poke|p2|Thundurus, M|item
+|poke|p2|Ferrothorn, M|item
+|poke|p2|Rotom-Wash|item
+|poke|p2|Dragonite, M|item
+|poke|p2|Mew|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|j|zzAndrewProsx9
+|c|☆Dom M-Houndoom|uff
+|l|zzAndrewProsx9
+|choice|team 5, team 2, team 3, team 4, team 1, team 6|team 6, team 2, team 3, team 4, team 5, team 1
+|
+|start
+|switch|p1a: Thundurus|Thundurus-Therian, M|100/100
+|switch|p2a: Mew|Mew|100/100
+|turn|1
+|j|zzAndrewProsx9
+|j|poketrainershiny
+|choice|move nastyplot|move knockoff
+|
+|move|p1a: Thundurus|Nasty Plot|p1a: Thundurus
+|-boost|p1a: Thundurus|spa|2
+|move|p2a: Mew|Knock Off|p1a: Thundurus
+|-damage|p1a: Thundurus|69/100
+|-enditem|p1a: Thundurus|Leftovers|[from] move: Knock Off|[of] p2a: Mew
+|
+|upkeep
+|turn|2
+|c| poketrainershiny|hola
+|l|zzAndrewProsx9
+|l|poketrainershiny
+|choice|move thunderbolt|move willowisp
+|
+|move|p1a: Thundurus|Thunderbolt|p2a: Mew
+|-damage|p2a: Mew|21/100
+|move|p2a: Mew|Will-O-Wisp|p1a: Thundurus
+|-status|p1a: Thundurus|brn
+|
+|-heal|p2a: Mew|27/100|[from] item: Leftovers
+|-damage|p1a: Thundurus|57/100 brn|[from] brn
+|upkeep
+|turn|3
+|choice|move thunderbolt|switch 3
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|move|p1a: Thundurus|Thunderbolt|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|61/100
+|
+|-heal|p2a: Ferrothorn|68/100|[from] item: Leftovers
+|-damage|p1a: Thundurus|44/100 brn|[from] brn
+|upkeep
+|turn|4
+|choice|move focusblast|move protect
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Thundurus|Focus Blast|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|move: Protect
+|
+|-heal|p2a: Ferrothorn|74/100|[from] item: Leftovers
+|-damage|p1a: Thundurus|32/100 brn|[from] brn
+|upkeep
+|turn|5
+|choice|move thunderbolt|move stealthrock
+|
+|move|p1a: Thundurus|Thunderbolt|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|36/100
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Thundurus
+|-sidestart|p1: DinastyAndrey|move: Stealth Rock
+|
+|-heal|p2a: Ferrothorn|43/100|[from] item: Leftovers
+|-damage|p1a: Thundurus|20/100 brn|[from] brn
+|upkeep
+|turn|6
+|choice|switch 4|move protect
+|
+|switch|p1a: Heatran|Heatran, M|100/100
+|-damage|p1a: Heatran|88/100|[from] Stealth Rock
+|-item|p1a: Heatran|Air Balloon
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-fail|p2a: Ferrothorn
+|
+|-heal|p2a: Ferrothorn|49/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|choice|move stealthrock|move leechseed
+|
+|move|p1a: Heatran|Stealth Rock|p2a: Ferrothorn
+|-sidestart|p2: Dom M-Houndoom|move: Stealth Rock
+|move|p2a: Ferrothorn|Leech Seed|p1a: Heatran
+|-start|p1a: Heatran|move: Leech Seed
+|
+|-heal|p2a: Ferrothorn|55/100|[from] item: Leftovers
+|-damage|p1a: Heatran|76/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|66/100|[silent]
+|upkeep
+|turn|8
+|choice|switch 4|move protect
+|
+|switch|p1a: Thundurus|Thundurus-Therian, M|20/100 brn
+|-damage|p1a: Thundurus|0 fnt|[from] Stealth Rock
+|faint|p1a: Thundurus
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-fail|p2a: Ferrothorn
+|
+|-heal|p2a: Ferrothorn|73/100|[from] item: Leftovers
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Heatran|Heatran, M|76/100
+|-damage|p1a: Heatran|64/100|[from] Stealth Rock
+|-item|p1a: Heatran|Air Balloon
+|turn|9
+|choice|move fireblast|move protect
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Heatran|Fire Blast|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|move: Protect
+|
+|-heal|p2a: Ferrothorn|79/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|choice|move fireblast|switch 4
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|-damage|p2a: Rotom|88/100|[from] Stealth Rock
+|move|p1a: Heatran|Fire Blast|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|56/100
+|
+|-heal|p2a: Rotom|62/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|choice|switch 5|move voltswitch
+|
+|switch|p1a: Raikou|Raikou|100/100
+|-damage|p1a: Raikou|88/100|[from] Stealth Rock
+|-ability|p1a: Raikou|Pressure
+|move|p2a: Rotom|Volt Switch|p1a: Raikou
+|-resisted|p1a: Raikou
+|-damage|p1a: Raikou|80/100
+|choice||switch 4
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|79/100
+|-damage|p2a: Ferrothorn|73/100|[from] Stealth Rock
+|
+|-heal|p2a: Ferrothorn|79/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|choice|move voltswitch|move protect
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Raikou|Volt Switch|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|move: Protect
+|
+|-heal|p2a: Ferrothorn|85/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|choice|move voltswitch|move gyroball
+|
+|move|p1a: Raikou|Volt Switch|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|74/100
+|choice|switch 5|
+|
+|switch|p1a: Heatran|Heatran, M|64/100
+|-damage|p1a: Heatran|51/100|[from] Stealth Rock
+|-item|p1a: Heatran|Air Balloon
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|43/100
+|-enditem|p1a: Heatran|Air Balloon
+|
+|-heal|p2a: Ferrothorn|80/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|choice|move fireblast|move protect
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Heatran|Fire Blast|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|move: Protect
+|
+|-heal|p2a: Ferrothorn|86/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|choice|move fireblast|switch 4
+|
+|switch|p2a: Rotom|Rotom-Wash|62/100
+|-damage|p2a: Rotom|50/100|[from] Stealth Rock
+|move|p1a: Heatran|Fire Blast|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|19/100
+|
+|-heal|p2a: Rotom|25/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|choice|move fireblast|move painsplit
+|
+|move|p1a: Heatran|Fire Blast|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Thundurus|Thundurus, M|100/100
+|-damage|p2a: Thundurus|76/100|[from] Stealth Rock
+|turn|17
+|choice|switch 5|move focusblast
+|
+|switch|p1a: Raikou|Raikou|80/100
+|-damage|p1a: Raikou|67/100|[from] Stealth Rock
+|-ability|p1a: Raikou|Pressure
+|move|p2a: Thundurus|Focus Blast|p1a: Raikou
+|-damage|p1a: Raikou|29/100
+|-damage|p2a: Thundurus|66/100|[from] item: Life Orb
+|
+|upkeep
+|turn|18
+|choice|move thunderbolt|move focusblast
+|
+|move|p1a: Raikou|Thunderbolt|p2a: Thundurus
+|-damage|p2a: Thundurus|6/100
+|move|p2a: Thundurus|Focus Blast|p1a: Raikou
+|-damage|p1a: Raikou|0 fnt
+|-damage|p2a: Thundurus|0 fnt|[from] item: Life Orb
+|faint|p1a: Raikou
+|faint|p2a: Thundurus
+|
+|upkeep
+|choice|switch 2|switch 3
+|
+|switch|p1a: Staraptor|Staraptor, M|100/100
+|switch|p2a: Mew|Mew|27/100
+|-damage|p1a: Staraptor|75/100|[from] Stealth Rock
+|-damage|p2a: Mew|15/100|[from] Stealth Rock
+|turn|19
+|choice|move bravebird|move willowisp
+|
+|move|p1a: Staraptor|Brave Bird|p2a: Mew
+|-damage|p2a: Mew|0 fnt
+|-damage|p1a: Staraptor|69/100|[from] recoil|[of] p2a: Mew
+|faint|p2a: Mew
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|86/100
+|-damage|p2a: Ferrothorn|80/100|[from] Stealth Rock
+|turn|20
+|choice|switch 5|move leechseed
+|
+|switch|p1a: Heatran|Heatran, M|43/100
+|-damage|p1a: Heatran|31/100|[from] Stealth Rock
+|move|p2a: Ferrothorn|Leech Seed|p1a: Heatran
+|-start|p1a: Heatran|move: Leech Seed
+|
+|-heal|p2a: Ferrothorn|86/100|[from] item: Leftovers
+|-damage|p1a: Heatran|18/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|97/100|[silent]
+|upkeep
+|turn|21
+|choice|move fireblast|move protect
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Heatran|Fire Blast|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|move: Protect
+|
+|-heal|p2a: Ferrothorn|100/100|[from] item: Leftovers
+|-damage|p1a: Heatran|6/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|upkeep
+|turn|22
+|choice|move fireblast|switch 5
+|
+|switch|p2a: Dragonite|Dragonite, M|100/100
+|-damage|p2a: Dragonite|76/100|[from] Stealth Rock
+|move|p1a: Heatran|Fire Blast|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|44/100
+|
+|-damage|p1a: Heatran|0 fnt|[from] Leech Seed|[of] p2a: Dragonite
+|-heal|p2a: Dragonite|50/100|[silent]
+|upkeep
+|faint|p1a: Heatran
+|c|☆Dom M-Houndoom|wtf xD
+|choice|switch 5|
+|
+|switch|p1a: Staraptor|Staraptor, M|69/100
+|-damage|p1a: Staraptor|44/100|[from] Stealth Rock
+|turn|23
+|c|☆Dom M-Houndoom|nunca fallo una jajaja
+|choice|move bravebird|switch 5
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p2a: Ferrothorn|94/100|[from] Stealth Rock
+|move|p1a: Staraptor|Brave Bird|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|50/100
+|-damage|p1a: Staraptor|32/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-damage|p1a: Staraptor|15/100|[from] recoil|[of] p2a: Ferrothorn
+|
+|-heal|p2a: Ferrothorn|56/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|c|☆DinastyAndrey|seh xd
+|choice|move bravebird|move protect
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Staraptor|Brave Bird|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|move: Protect
+|
+|-heal|p2a: Ferrothorn|62/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|choice|move bravebird|move leechseed
+|
+|move|p1a: Staraptor|Brave Bird|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|17/100
+|-damage|p1a: Staraptor|3/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-damage|p1a: Staraptor|0 fnt|[from] recoil|[of] p2a: Ferrothorn
+|faint|p1a: Staraptor
+|move|p2a: Ferrothorn|Leech Seed|p1: Staraptor|[notarget]
+|-notarget
+|
+|-heal|p2a: Ferrothorn|23/100|[from] item: Leftovers
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Breloom|Breloom, M|100/100
+|-damage|p1a: Breloom|94/100|[from] Stealth Rock
+|turn|26
+|choice|move swordsdance|move protect
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Breloom|Swords Dance|p1a: Breloom
+|-boost|p1a: Breloom|atk|2
+|
+|-heal|p2a: Ferrothorn|29/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|choice|move swordsdance|move gyroball
+|
+|move|p1a: Breloom|Swords Dance|p1a: Breloom
+|-boost|p1a: Breloom|atk|2
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Breloom
+|-damage|p1a: Breloom|42/100
+|
+|-heal|p2a: Ferrothorn|36/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|choice|move machpunch|move protect
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Breloom|Mach Punch|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|move: Protect
+|
+|-heal|p2a: Ferrothorn|42/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|choice|move machpunch|move gyroball
+|
+|move|p1a: Breloom|Mach Punch|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|-damage|p1a: Breloom|30/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-damage|p1a: Breloom|20/100|[from] item: Life Orb
+|faint|p2a: Ferrothorn
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Dragonite|Dragonite, M|50/100
+|-damage|p2a: Dragonite|25/100|[from] Stealth Rock
+|turn|30
+|choice|move machpunch|move extremespeed
+|
+|move|p2a: Dragonite|Extreme Speed|p1a: Breloom
+|-damage|p1a: Breloom|0 fnt
+|faint|p1a: Breloom
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Scizor|Scizor, M|100/100
+|-damage|p1a: Scizor|88/100|[from] Stealth Rock
+|turn|31
+|choice|move bulletpunch mega|move firepunch
+|
+|detailschange|p1a: Scizor|Scizor-Mega, M
+|-mega|p1a: Scizor|Scizor|Scizorite
+|move|p1a: Scizor|Bullet Punch|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Breloom|Breloom, M|100/100
+|-damage|p2a: Breloom|94/100|[from] Stealth Rock
+|turn|32
+|choice|move bulletpunch|move spore
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Breloom
+|-damage|p2a: Breloom|45/100
+|move|p2a: Breloom|Spore|p1a: Scizor
+|-status|p1a: Scizor|slp
+|
+|upkeep
+|turn|33
+|choice|move bulletpunch|move machpunch
+|
+|move|p2a: Breloom|Mach Punch|p1a: Scizor
+|-damage|p1a: Scizor|65/100 slp
+|-damage|p2a: Breloom|35/100|[from] item: Life Orb
+|cant|p1a: Scizor|slp
+|
+|upkeep
+|turn|34
+|choice|move bulletpunch|move swordsdance
+|
+|cant|p1a: Scizor|slp
+|move|p2a: Breloom|Swords Dance|p2a: Breloom
+|-boost|p2a: Breloom|atk|2
+|
+|upkeep
+|turn|35
+|c|☆Dom M-Houndoom|pfff
+|choice|move bulletpunch|move machpunch
+|
+|move|p2a: Breloom|Mach Punch|p1a: Scizor
+|-damage|p1a: Scizor|21/100 slp
+|-damage|p2a: Breloom|25/100|[from] item: Life Orb
+|cant|p1a: Scizor|slp
+|
+|upkeep
+|turn|36
+|c|☆DinastyAndrey|bruh
+|c|☆DinastyAndrey|puro hax
+|choice|move bulletpunch|move machpunch
+|
+|move|p2a: Breloom|Mach Punch|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|-damage|p2a: Breloom|15/100|[from] item: Life Orb
+|faint|p1a: Scizor
+|
+|win|Dom M-Houndoom
+|c|☆Dom M-Houndoom|jajajaja
+|c|☆Dom M-Houndoom|gg
+|c|☆DinastyAndrey|suerte
+|c|☆Dom M-Houndoom|como la de tu heatran?
+|c|☆DinastyAndrey|3fire blast acertados

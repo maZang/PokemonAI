@@ -1,0 +1,610 @@
+|j|Panther-T
+|j|samjo
+|player|p1|Panther-T|93
+|player|p2|samjo|153
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|42014,1964,39615,37100,19798,7922,59615,39175,357,11341,9778,56896
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Cloyster, M|item
+|poke|p1|Shaymin|item
+|poke|p1|Kingdra, M|item
+|poke|p1|Metagross|item
+|poke|p1|Slurpuff, M|item
+|poke|p1|Umbreon, M|item
+|poke|p2|Forretress, M|item
+|poke|p2|Aggron, M|item
+|poke|p2|Dragalge, M|item
+|poke|p2|Umbreon, M|item
+|poke|p2|Nidoqueen, F|item
+|poke|p2|Feraligatr, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|c|☆samjo|hf :]
+|c|☆Panther-T|u2
+|choice|team 2, team 1, team 3, team 4, team 5, team 6|team 5, team 2, team 3, team 4, team 1, team 6
+|
+|start
+|switch|p1a: Shaymin|Shaymin|100/100
+|switch|p2a: Nidoqueen|Nidoqueen, F|100/100
+|turn|1
+|choice|switch 4|move stealthrock
+|
+|switch|p1a: Metagross|Metagross|100/100
+|move|p2a: Nidoqueen|Stealth Rock|p1a: Metagross
+|-sidestart|p1: Panther-T|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|choice|move zenheadbutt|switch 4
+|
+|switch|p2a: Umbreon|Umbreon, M|100/100
+|move|p1a: Metagross|Zen Headbutt|p2a: Umbreon
+|-immune|p2a: Umbreon|[msg]
+|
+|upkeep
+|turn|3
+|choice|move stealthrock|switch 5
+|
+|switch|p2a: Forretress|Forretress, M|100/100
+|move|p1a: Metagross|Stealth Rock|p2a: Forretress
+|-sidestart|p2: samjo|move: Stealth Rock
+|
+|upkeep
+|turn|4
+|choice|switch 4|move spikes
+|
+|switch|p1a: Shaymin|Shaymin|100/100
+|-damage|p1a: Shaymin|88/100|[from] Stealth Rock
+|move|p2a: Forretress|Spikes|p1a: Shaymin
+|-sidestart|p1: Panther-T|Spikes
+|
+|-heal|p1a: Shaymin|94/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|choice|move substitute|switch 3
+|
+|switch|p2a: Dragalge|Dragalge, M|100/100
+|-damage|p2a: Dragalge|88/100|[from] Stealth Rock
+|move|p1a: Shaymin|Substitute|p1a: Shaymin
+|-start|p1a: Shaymin|Substitute
+|-damage|p1a: Shaymin|69/100
+|
+|-heal|p1a: Shaymin|76/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|choice|move leechseed|move sludgewave
+|
+|move|p1a: Shaymin|Leech Seed|p2a: Dragalge
+|-start|p2a: Dragalge|move: Leech Seed
+|move|p2a: Dragalge|Sludge Wave|p1a: Shaymin
+|-supereffective|p1a: Shaymin
+|-end|p1a: Shaymin|Substitute
+|
+|-heal|p1a: Shaymin|82/100|[from] item: Leftovers
+|-damage|p2a: Dragalge|76/100|[from] Leech Seed|[of] p1a: Shaymin
+|-heal|p1a: Shaymin|93/100|[silent]
+|upkeep
+|turn|7
+|choice|move substitute|switch 3
+|
+|switch|p2a: Forretress|Forretress, M|100/100
+|-damage|p2a: Forretress|88/100|[from] Stealth Rock
+|move|p1a: Shaymin|Substitute|p1a: Shaymin
+|-start|p1a: Shaymin|Substitute
+|-damage|p1a: Shaymin|69/100
+|
+|-heal|p1a: Shaymin|75/100|[from] item: Leftovers
+|-heal|p2a: Forretress|94/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|choice|move airslash|move rapidspin
+|
+|move|p1a: Shaymin|Air Slash|p2a: Forretress
+|-damage|p2a: Forretress|61/100
+|move|p2a: Forretress|Rapid Spin|p1a: Shaymin
+|-activate|p1a: Shaymin|move: Substitute|[damage]
+|-sideend|p2: samjo|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Forretress
+|
+|-heal|p1a: Shaymin|81/100|[from] item: Leftovers
+|-heal|p2a: Forretress|67/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|choice|move airslash|switch 4
+|
+|switch|p2a: Nidoqueen|Nidoqueen, F|100/100
+|move|p1a: Shaymin|Air Slash|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|76/100
+|
+|-heal|p1a: Shaymin|87/100|[from] item: Leftovers
+|-heal|p2a: Nidoqueen|82/100|[from] item: Black Sludge
+|upkeep
+|turn|10
+|choice|move seedflare|move roar
+|
+|move|p1a: Shaymin|Seed Flare|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|30/100
+|move|p2a: Nidoqueen|Roar|p1a: Shaymin
+|drag|p1a: Umbreon|Umbreon, M|100/100
+|-damage|p1a: Umbreon|88/100|[from] Stealth Rock
+|-damage|p1a: Umbreon|76/100|[from] Spikes
+|
+|-heal|p2a: Nidoqueen|36/100|[from] item: Black Sludge
+|-heal|p1a: Umbreon|82/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|j|bossmania30
+|choice|move foulplay|move earthpower
+|
+|move|p2a: Nidoqueen|Earth Power|p1a: Umbreon
+|-damage|p1a: Umbreon|59/100
+|move|p1a: Umbreon|Foul Play|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|17/100
+|
+|-heal|p2a: Nidoqueen|23/100|[from] item: Black Sludge
+|-heal|p1a: Umbreon|65/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|choice|move wish|switch 5
+|
+|switch|p2a: Umbreon|Umbreon, M|100/100
+|move|p1a: Umbreon|Wish|p1a: Umbreon
+|
+|-heal|p1a: Umbreon|71/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|choice|switch 5|move wish
+|
+|switch|p1a: Slurpuff|Slurpuff, M|100/100
+|-damage|p1a: Slurpuff|88/100|[from] Spikes
+|-damage|p1a: Slurpuff|76/100|[from] Stealth Rock
+|move|p2a: Umbreon|Wish|p2a: Umbreon
+|
+|-heal|p1a: Slurpuff|100/100|[from] move: Wish|[wisher] Umbreon
+|upkeep
+|turn|14
+|choice|move drainpunch|switch 5
+|
+|switch|p2a: Nidoqueen|Nidoqueen, F|23/100
+|move|p1a: Slurpuff|Drain Punch|p2a: Nidoqueen
+|-resisted|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|16/100
+|
+|-heal|p2a: Nidoqueen|68/100|[from] move: Wish|[wisher] Umbreon
+|-heal|p2a: Nidoqueen|74/100|[from] item: Black Sludge
+|upkeep
+|turn|15
+|choice|switch 4|move earthpower
+|
+|switch|p1a: Metagross|Metagross|100/100
+|-damage|p1a: Metagross|88/100|[from] Spikes
+|-damage|p1a: Metagross|82/100|[from] Stealth Rock
+|move|p2a: Nidoqueen|Earth Power|p1a: Metagross
+|-supereffective|p1a: Metagross
+|-enditem|p1a: Metagross|Shuca Berry|[eat]
+|-enditem|p1a: Metagross|Shuca Berry|[weaken]
+|-damage|p1a: Metagross|46/100
+|
+|-heal|p2a: Nidoqueen|80/100|[from] item: Black Sludge
+|upkeep
+|turn|16
+|choice|move stealthrock|move earthpower
+|
+|move|p1a: Metagross|Stealth Rock|p2a: Nidoqueen
+|-sidestart|p2: samjo|move: Stealth Rock
+|move|p2a: Nidoqueen|Earth Power|p1a: Metagross
+|-supereffective|p1a: Metagross
+|-damage|p1a: Metagross|0 fnt
+|faint|p1a: Metagross
+|
+|-heal|p2a: Nidoqueen|86/100|[from] item: Black Sludge
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Kingdra|Kingdra, M|100/100
+|-damage|p1a: Kingdra|88/100|[from] Spikes
+|-damage|p1a: Kingdra|76/100|[from] Stealth Rock
+|turn|17
+|l|bossmania30
+|j|GrammarPolice1.1
+|choice|move waterfall|switch 5
+|
+|switch|p2a: Umbreon|Umbreon, M|100/100
+|-damage|p2a: Umbreon|88/100|[from] Stealth Rock
+|move|p1a: Kingdra|Waterfall|p2a: Umbreon
+|-damage|p2a: Umbreon|74/100
+|
+|-heal|p2a: Umbreon|80/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|choice|move focusenergy|move foulplay
+|
+|move|p1a: Kingdra|Focus Energy|p1a: Kingdra
+|-start|p1a: Kingdra|move: Focus Energy
+|move|p2a: Umbreon|Foul Play|p1a: Kingdra
+|-damage|p1a: Kingdra|40/100
+|
+|-heal|p2a: Umbreon|86/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|choice|move dracometeor|move foulplay
+|
+|move|p1a: Kingdra|Draco Meteor|p2a: Umbreon
+|-crit|p2a: Umbreon
+|-damage|p2a: Umbreon|0 fnt
+|-unboost|p1a: Kingdra|spa|2
+|faint|p2a: Umbreon
+|
+|upkeep
+|c| GrammarPolice1.1|Sorry I am late:(
+|choice||switch 2
+|
+|switch|p2a: Aggron|Aggron, M|100/100
+|-damage|p2a: Aggron|94/100|[from] Stealth Rock
+|turn|20
+|choice|move dracometeor|move earthquake mega
+|
+|detailschange|p2a: Aggron|Aggron-Mega, M
+|-mega|p2a: Aggron|Aggron|Aggronite
+|move|p1a: Kingdra|Draco Meteor|p2a: Aggron|[miss]
+|-miss|p1a: Kingdra|p2a: Aggron
+|move|p2a: Aggron|Earthquake|p1a: Kingdra
+|-damage|p1a: Kingdra|5/100
+|
+|upkeep
+|turn|21
+|choice|move dracometeor|move roar
+|
+|move|p1a: Kingdra|Draco Meteor|p2a: Aggron
+|-resisted|p2a: Aggron
+|-crit|p2a: Aggron
+|-damage|p2a: Aggron|28/100
+|-unboost|p1a: Kingdra|spa|2
+|move|p2a: Aggron|Roar|p1a: Kingdra
+|drag|p1a: Shaymin|Shaymin|87/100
+|-damage|p1a: Shaymin|75/100|[from] Stealth Rock
+|-damage|p1a: Shaymin|62/100|[from] Spikes
+|
+|-heal|p1a: Shaymin|69/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|c| GrammarPolice1.1|Wait...steelix mega is released?
+|choice|move leechseed|move roar
+|
+|move|p1a: Shaymin|Leech Seed|p2a: Aggron
+|-start|p2a: Aggron|move: Leech Seed
+|move|p2a: Aggron|Roar|p1a: Shaymin
+|drag|p1a: Kingdra|Kingdra, M|5/100
+|-damage|p1a: Kingdra|0 fnt|[from] Spikes
+|faint|p1a: Kingdra
+|
+|upkeep
+|c| GrammarPolice1.1|Nvm
+|choice|switch 6|
+|
+|switch|p1a: Shaymin|Shaymin|69/100
+|-damage|p1a: Shaymin|56/100|[from] Spikes
+|-damage|p1a: Shaymin|44/100|[from] Stealth Rock
+|turn|23
+|choice|move airslash|move roar
+|
+|move|p1a: Shaymin|Air Slash|p2a: Aggron
+|-resisted|p2a: Aggron
+|-damage|p2a: Aggron|16/100
+|move|p2a: Aggron|Roar|p1a: Shaymin
+|drag|p1a: Umbreon|Umbreon, M|71/100
+|-damage|p1a: Umbreon|59/100|[from] Spikes
+|-damage|p1a: Umbreon|46/100|[from] Stealth Rock
+|
+|-heal|p1a: Umbreon|52/100|[from] item: Leftovers
+|-damage|p2a: Aggron|4/100|[from] Leech Seed|[of] p1a: Umbreon
+|-heal|p1a: Umbreon|63/100|[silent]
+|upkeep
+|turn|24
+|choice|move protect|switch 4
+|
+|switch|p2a: Forretress|Forretress, M|67/100
+|-damage|p2a: Forretress|55/100|[from] Stealth Rock
+|move|p1a: Umbreon|Protect|p1a: Umbreon
+|-fail|p1a: Umbreon
+|
+|-heal|p1a: Umbreon|69/100|[from] item: Leftovers
+|-heal|p2a: Forretress|61/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|choice|move wish|move rapidspin
+|
+|move|p1a: Umbreon|Wish|p1a: Umbreon
+|move|p2a: Forretress|Rapid Spin|p1a: Umbreon
+|-damage|p1a: Umbreon|66/100
+|-sideend|p2: samjo|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Forretress
+|
+|-heal|p1a: Umbreon|72/100|[from] item: Leftovers
+|-heal|p2a: Forretress|67/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|choice|switch 5|move spikes
+|
+|switch|p1a: Shaymin|Shaymin|44/100
+|-damage|p1a: Shaymin|32/100|[from] Spikes
+|-damage|p1a: Shaymin|19/100|[from] Stealth Rock
+|move|p2a: Forretress|Spikes|p1a: Shaymin
+|-sidestart|p1: Panther-T|Spikes
+|
+|-heal|p1a: Shaymin|77/100|[from] move: Wish|[wisher] Umbreon
+|-heal|p1a: Shaymin|83/100|[from] item: Leftovers
+|-heal|p2a: Forretress|73/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|choice|move substitute|move voltswitch
+|
+|move|p1a: Shaymin|Substitute|p1a: Shaymin
+|-start|p1a: Shaymin|Substitute
+|-damage|p1a: Shaymin|58/100
+|move|p2a: Forretress|Volt Switch|p1a: Shaymin
+|-resisted|p1a: Shaymin
+|-activate|p1a: Shaymin|move: Substitute|[damage]
+|choice||switch 3
+|
+|switch|p2a: Dragalge|Dragalge, M|76/100
+|
+|-heal|p1a: Shaymin|64/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|choice|move leechseed|move sludgewave
+|
+|move|p1a: Shaymin|Leech Seed|p2a: Dragalge
+|-start|p2a: Dragalge|move: Leech Seed
+|move|p2a: Dragalge|Sludge Wave|p1a: Shaymin
+|-supereffective|p1a: Shaymin
+|-end|p1a: Shaymin|Substitute
+|
+|-heal|p1a: Shaymin|70/100|[from] item: Leftovers
+|-damage|p2a: Dragalge|63/100|[from] Leech Seed|[of] p1a: Shaymin
+|-heal|p1a: Shaymin|82/100|[silent]
+|upkeep
+|turn|29
+|choice|move substitute|move sludgewave
+|
+|move|p1a: Shaymin|Substitute|p1a: Shaymin
+|-start|p1a: Shaymin|Substitute
+|-damage|p1a: Shaymin|57/100
+|move|p2a: Dragalge|Sludge Wave|p1a: Shaymin
+|-supereffective|p1a: Shaymin
+|-end|p1a: Shaymin|Substitute
+|
+|-heal|p1a: Shaymin|63/100|[from] item: Leftovers
+|-damage|p2a: Dragalge|51/100|[from] Leech Seed|[of] p1a: Shaymin
+|-heal|p1a: Shaymin|75/100|[silent]
+|upkeep
+|turn|30
+|choice|move substitute|switch 5
+|
+|switch|p2a: Nidoqueen|Nidoqueen, F|86/100
+|move|p1a: Shaymin|Substitute|p1a: Shaymin
+|-start|p1a: Shaymin|Substitute
+|-damage|p1a: Shaymin|50/100
+|
+|-heal|p1a: Shaymin|56/100|[from] item: Leftovers
+|-heal|p2a: Nidoqueen|92/100|[from] item: Black Sludge
+|upkeep
+|turn|31
+|choice|move seedflare|move roar
+|
+|move|p1a: Shaymin|Seed Flare|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|37/100
+|move|p2a: Nidoqueen|Roar|p1a: Shaymin
+|drag|p1a: Slurpuff|Slurpuff, M|100/100
+|-damage|p1a: Slurpuff|88/100|[from] Stealth Rock
+|-damage|p1a: Slurpuff|71/100|[from] Spikes
+|
+|-heal|p2a: Nidoqueen|43/100|[from] item: Black Sludge
+|upkeep
+|turn|32
+|choice|move return|move roar
+|
+|move|p1a: Slurpuff|Return|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|26/100
+|move|p2a: Nidoqueen|Roar|p1a: Slurpuff
+|drag|p1a: Umbreon|Umbreon, M|72/100
+|-damage|p1a: Umbreon|56/100|[from] Spikes
+|-damage|p1a: Umbreon|43/100|[from] Stealth Rock
+|
+|-heal|p2a: Nidoqueen|32/100|[from] item: Black Sludge
+|-heal|p1a: Umbreon|49/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|choice|move wish|switch 3
+|
+|switch|p2a: Forretress|Forretress, M|73/100
+|move|p1a: Umbreon|Wish|p1a: Umbreon
+|
+|-heal|p1a: Umbreon|55/100|[from] item: Leftovers
+|-heal|p2a: Forretress|80/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|choice|switch 4|move spikes
+|
+|switch|p1a: Shaymin|Shaymin|56/100
+|-damage|p1a: Shaymin|44/100|[from] Stealth Rock
+|-damage|p1a: Shaymin|27/100|[from] Spikes
+|move|p2a: Forretress|Spikes|p1a: Shaymin
+|-sidestart|p1: Panther-T|Spikes
+|
+|-heal|p1a: Shaymin|85/100|[from] move: Wish|[wisher] Umbreon
+|-heal|p1a: Shaymin|91/100|[from] item: Leftovers
+|-heal|p2a: Forretress|86/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|choice|move substitute|move gyroball
+|
+|move|p1a: Shaymin|Substitute|p1a: Shaymin
+|-start|p1a: Shaymin|Substitute
+|-damage|p1a: Shaymin|66/100
+|move|p2a: Forretress|Gyro Ball|p1a: Shaymin
+|-end|p1a: Shaymin|Substitute
+|
+|-heal|p1a: Shaymin|72/100|[from] item: Leftovers
+|-heal|p2a: Forretress|92/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|choice|move airslash|move gyroball
+|
+|move|p1a: Shaymin|Air Slash|p2a: Forretress
+|-damage|p2a: Forretress|62/100
+|move|p2a: Forretress|Gyro Ball|p1a: Shaymin
+|-damage|p1a: Shaymin|41/100
+|
+|-heal|p1a: Shaymin|47/100|[from] item: Leftovers
+|-heal|p2a: Forretress|68/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|choice|move leechseed|move voltswitch
+|
+|move|p1a: Shaymin|Leech Seed|p2a: Forretress
+|-start|p2a: Forretress|move: Leech Seed
+|move|p2a: Forretress|Volt Switch|p1a: Shaymin
+|-resisted|p1a: Shaymin
+|-damage|p1a: Shaymin|42/100
+|choice||switch 5
+|
+|switch|p2a: Dragalge|Dragalge, M|51/100
+|
+|-heal|p1a: Shaymin|48/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|choice|switch 4|move sludgewave
+|
+|switch|p1a: Umbreon|Umbreon, M|55/100
+|-damage|p1a: Umbreon|43/100|[from] Stealth Rock
+|-damage|p1a: Umbreon|18/100|[from] Spikes
+|move|p2a: Dragalge|Sludge Wave|p1a: Umbreon
+|-crit|p1a: Umbreon
+|-damage|p1a: Umbreon|0 fnt
+|faint|p1a: Umbreon
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Cloyster|Cloyster, M|100/100
+|-damage|p1a: Cloyster|76/100|[from] Spikes
+|-damage|p1a: Cloyster|51/100|[from] Stealth Rock
+|turn|39
+|choice|move rapidspin|move sludgewave
+|
+|move|p1a: Cloyster|Rapid Spin|p2a: Dragalge
+|-damage|p2a: Dragalge|44/100
+|-sideend|p1: Panther-T|Spikes|[from] move: Rapid Spin|[of] p1a: Cloyster
+|-sideend|p1: Panther-T|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Cloyster
+|move|p2a: Dragalge|Sludge Wave|p1a: Cloyster
+|-damage|p1a: Cloyster|0 fnt
+|faint|p1a: Cloyster
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Slurpuff|Slurpuff, M|71/100
+|turn|40
+|choice|move playrough|move sludgewave
+|
+|move|p1a: Slurpuff|Play Rough|p2a: Dragalge
+|-damage|p2a: Dragalge|7/100
+|move|p2a: Dragalge|Sludge Wave|p1a: Slurpuff
+|-supereffective|p1a: Slurpuff
+|-damage|p1a: Slurpuff|0 fnt
+|faint|p1a: Slurpuff
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Shaymin|Shaymin|48/100
+|turn|41
+|choice|move airslash|move sludgewave
+|
+|move|p1a: Shaymin|Air Slash|p2a: Dragalge
+|-damage|p2a: Dragalge|0 fnt
+|faint|p2a: Dragalge
+|
+|-heal|p1a: Shaymin|54/100|[from] item: Leftovers
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Feraligatr|Feraligatr, M|100/100
+|turn|42
+|choice|move seedflare|switch 4
+|
+|switch|p2a: Aggron|Aggron-Mega, M|4/100
+|move|p1a: Shaymin|Seed Flare|p2a: Aggron
+|-resisted|p2a: Aggron
+|-damage|p2a: Aggron|0 fnt
+|faint|p2a: Aggron
+|
+|-heal|p1a: Shaymin|61/100|[from] item: Leftovers
+|upkeep
+|j|hayburner
+|choice||switch 5
+|
+|switch|p2a: Forretress|Forretress, M|68/100
+|turn|43
+|choice|move airslash|move gyroball
+|
+|move|p1a: Shaymin|Air Slash|p2a: Forretress
+|-damage|p2a: Forretress|38/100
+|move|p2a: Forretress|Gyro Ball|p1a: Shaymin
+|-damage|p1a: Shaymin|26/100
+|
+|-heal|p1a: Shaymin|32/100|[from] item: Leftovers
+|-heal|p2a: Forretress|44/100|[from] item: Leftovers
+|upkeep
+|turn|44
+|choice|move airslash|move gyroball
+|
+|move|p1a: Shaymin|Air Slash|p2a: Forretress
+|-crit|p2a: Forretress
+|-damage|p2a: Forretress|0 fnt
+|faint|p2a: Forretress
+|
+|-heal|p1a: Shaymin|38/100|[from] item: Leftovers
+|upkeep
+|c|☆samjo|lol
+|c|☆samjo|gg
+|choice||switch 3
+|
+|switch|p2a: Nidoqueen|Nidoqueen, F|32/100
+|turn|45
+|c| GrammarPolice1.1|Bg*
+|c|☆Panther-T|I had no other play.
+|choice|move seedflare|move icebeam
+|
+|move|p1a: Shaymin|Seed Flare|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|0 fnt
+|faint|p2a: Nidoqueen
+|
+|-heal|p1a: Shaymin|44/100|[from] item: Leftovers
+|upkeep
+|c| GrammarPolice1.1|Jk
+|c| GrammarPolice1.1|Gg
+|choice||switch 4
+|
+|switch|p2a: Feraligatr|Feraligatr, M|100/100
+|turn|46
+|choice|move seedflare|move superpower
+|
+|move|p1a: Shaymin|Seed Flare|p2a: Feraligatr
+|-supereffective|p2a: Feraligatr
+|-damage|p2a: Feraligatr|0 fnt
+|faint|p2a: Feraligatr
+|
+|win|Panther-T
+|c| GrammarPolice1.1|Miss
+|c| GrammarPolice1.1|Darn
+|c|☆Panther-T|gg
+|l|samjo
+|l|Panther-T
+|c| GrammarPolice1.1|Gg
+|l|hayburner
+|l|GrammarPolice1.1
+|j|xdaf

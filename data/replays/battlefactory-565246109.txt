@@ -1,0 +1,785 @@
+|j|wolverine97
+|j|varunsn
+|player|p1|wolverine97|56
+|player|p2|varunsn|101
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|28637,64885,35853,25042,18681,51687,60539,32456,36327,33036,9210,18611
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Florges, F|item
+|poke|p1|Porygon2|item
+|poke|p1|Froslass, F|item
+|poke|p1|Gyarados, M|item
+|poke|p1|Crobat, M|item
+|poke|p1|Swampert, M|item
+|poke|p2|Tornadus, M|
+|poke|p2|Absol, M|item
+|poke|p2|Infernape, M|item
+|poke|p2|Roserade, M|item
+|poke|p2|Feraligatr, M|item
+|poke|p2|Blissey, F|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 6, team 2, team 3, team 4, team 5, team 1|team 1, team 2, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Swampert|Swampert, M|100/100
+|switch|p2a: Tornadus|Tornadus, M|100/100
+|turn|1
+|choice|switch 2|move acrobatics
+|
+|switch|p1a: Porygon2|Porygon2|100/100
+|-ability|p1a: Porygon2|Defiant|[from] ability: Trace|[of] p2a: Tornadus
+|move|p2a: Tornadus|Acrobatics|p1a: Porygon2
+|-damage|p1a: Porygon2|65/100
+|
+|upkeep
+|turn|2
+|choice|move thunderwave|move superpower
+|
+|move|p2a: Tornadus|Superpower|p1a: Porygon2
+|-supereffective|p1a: Porygon2
+|-damage|p1a: Porygon2|12/100
+|-unboost|p2a: Tornadus|atk|1
+|-unboost|p2a: Tornadus|def|1
+|move|p1a: Porygon2|Thunder Wave|p2a: Tornadus
+|-status|p2a: Tornadus|par
+|
+|upkeep
+|turn|3
+|choice|move recover|switch 6
+|
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: Porygon2|Recover|p1a: Porygon2
+|-heal|p1a: Porygon2|62/100
+|
+|upkeep
+|turn|4
+|choice|switch 3|move toxic
+|
+|switch|p1a: Froslass|Froslass, F|100/100
+|move|p2a: Blissey|Toxic|p1a: Froslass
+|-status|p1a: Froslass|tox
+|
+|-damage|p1a: Froslass|94/100 tox|[from] psn
+|upkeep
+|turn|5
+|choice|move spikes|move healbell
+|
+|move|p1a: Froslass|Spikes|p2a: Blissey
+|-sidestart|p2: varunsn|Spikes
+|move|p2a: Blissey|Heal Bell|p2a: Blissey
+|-activate|p2a: Blissey|move: Heal Bell
+|-curestatus|p2: Tornadus|par|[msg]
+|
+|-damage|p1a: Froslass|82/100 tox|[from] psn
+|upkeep
+|turn|6
+|choice|move spikes|switch 2
+|
+|switch|p2a: Absol|Absol, M|100/100
+|-damage|p2a: Absol|88/100|[from] Spikes
+|move|p1a: Froslass|Spikes|p2a: Absol
+|-sidestart|p2: varunsn|Spikes
+|
+|-damage|p1a: Froslass|64/100 tox|[from] psn
+|upkeep
+|turn|7
+|choice|move destinybond|move swordsdance mega
+|
+|detailschange|p2a: Absol|Absol-Mega, M
+|-mega|p2a: Absol|Absol|Absolite
+|move|p1a: Froslass|Destiny Bond|p1a: Froslass
+|-singlemove|p1a: Froslass|Destiny Bond
+|move|p2a: Absol|Swords Dance|p2a: Absol
+|-boost|p2a: Absol|atk|2
+|
+|-damage|p1a: Froslass|39/100 tox|[from] psn
+|upkeep
+|turn|8
+|choice|move destinybond|move swordsdance
+|
+|move|p2a: Absol|Swords Dance|p2a: Absol
+|-boost|p2a: Absol|atk|2
+|move|p1a: Froslass|Destiny Bond|p1a: Froslass
+|-singlemove|p1a: Froslass|Destiny Bond
+|
+|-damage|p1a: Froslass|9/100 tox|[from] psn
+|upkeep
+|turn|9
+|choice|move icywind|move swordsdance
+|
+|move|p2a: Absol|Swords Dance|p2a: Absol
+|-boost|p2a: Absol|atk|2
+|move|p1a: Froslass|Icy Wind|p2a: Absol
+|-damage|p2a: Absol|57/100
+|-unboost|p2a: Absol|spe|1
+|
+|-damage|p1a: Froslass|0 fnt|[from] psn
+|upkeep
+|faint|p1a: Froslass
+|choice|switch 6|
+|
+|switch|p1a: Florges|Florges, F|100/100
+|turn|10
+|choice|move moonblast|move suckerpunch
+|
+|move|p2a: Absol|Sucker Punch|p1a: Florges
+|-resisted|p1a: Florges
+|-damage|p1a: Florges|17/100
+|move|p1a: Florges|Moonblast|p2a: Absol
+|-supereffective|p2a: Absol
+|-damage|p2a: Absol|0 fnt
+|faint|p2a: Absol
+|
+|-heal|p1a: Florges|23/100|[from] item: Leftovers
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Tornadus|Tornadus, M|100/100
+|turn|11
+|choice|move protect|move acrobatics
+|
+|move|p1a: Florges|Protect|p1a: Florges
+|-singleturn|p1a: Florges|Protect
+|move|p2a: Tornadus|Acrobatics|p1a: Florges
+|-activate|p1a: Florges|move: Protect
+|
+|-heal|p1a: Florges|29/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|choice|switch 2|move acrobatics
+|
+|switch|p1a: Swampert|Swampert, M|100/100
+|move|p2a: Tornadus|Acrobatics|p1a: Swampert
+|-damage|p1a: Swampert|69/100
+|
+|-heal|p1a: Swampert|75/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|choice|move roar|move acrobatics
+|
+|move|p2a: Tornadus|Acrobatics|p1a: Swampert
+|-damage|p1a: Swampert|37/100
+|move|p1a: Swampert|Roar|p2a: Tornadus
+|drag|p2a: Blissey|Blissey, F|100/100
+|-damage|p2a: Blissey|84/100|[from] Spikes
+|
+|-heal|p2a: Blissey|90/100|[from] item: Leftovers
+|-heal|p1a: Swampert|44/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|choice|move stealthrock|move toxic
+|
+|move|p2a: Blissey|Toxic|p1a: Swampert
+|-status|p1a: Swampert|tox
+|move|p1a: Swampert|Stealth Rock|p2a: Blissey
+|-sidestart|p2: varunsn|move: Stealth Rock
+|
+|-heal|p2a: Blissey|96/100|[from] item: Leftovers
+|-heal|p1a: Swampert|50/100 tox|[from] item: Leftovers
+|-damage|p1a: Swampert|44/100 tox|[from] psn
+|upkeep
+|turn|15
+|choice|switch 2|move seismictoss
+|
+|switch|p1a: Florges|Florges, F|29/100
+|move|p2a: Blissey|Seismic Toss|p1a: Florges
+|-damage|p1a: Florges|1/100
+|
+|-heal|p1a: Florges|7/100|[from] item: Leftovers
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|choice|move aromatherapy|move seismictoss
+|
+|move|p1a: Florges|Aromatherapy|p1a: Florges
+|-activate|p1a: Florges|move: Aromatherapy
+|-curestatus|p1: Swampert|tox|[msg]
+|move|p2a: Blissey|Seismic Toss|p1a: Florges
+|-damage|p1a: Florges|0 fnt
+|faint|p1a: Florges
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Crobat|Crobat, M|100/100
+|turn|17
+|choice|move taunt|move seismictoss
+|
+|move|p1a: Crobat|Taunt|p2a: Blissey
+|-start|p2a: Blissey|move: Taunt
+|move|p2a: Blissey|Seismic Toss|p1a: Crobat
+|-damage|p1a: Crobat|74/100
+|
+|-heal|p1a: Crobat|80/100|[from] item: Black Sludge
+|upkeep
+|turn|18
+|choice|move bravebird|switch 5
+|
+|switch|p2a: Feraligatr|Feraligatr, M|100/100
+|-damage|p2a: Feraligatr|84/100|[from] Spikes
+|-damage|p2a: Feraligatr|71/100|[from] Stealth Rock
+|move|p1a: Crobat|Brave Bird|p2a: Feraligatr
+|-damage|p2a: Feraligatr|32/100
+|-damage|p1a: Crobat|68/100|[from] recoil|[of] p2a: Feraligatr
+|
+|-heal|p1a: Crobat|74/100|[from] item: Black Sludge
+|upkeep
+|turn|19
+|choice|move bravebird|move aquajet
+|
+|move|p2a: Feraligatr|Aqua Jet|p1a: Crobat
+|-damage|p1a: Crobat|39/100
+|-damage|p2a: Feraligatr|22/100|[from] item: Life Orb
+|move|p1a: Crobat|Brave Bird|p2a: Feraligatr
+|-damage|p2a: Feraligatr|0 fnt
+|-damage|p1a: Crobat|33/100|[from] recoil|[of] p2a: Feraligatr
+|faint|p2a: Feraligatr
+|
+|-heal|p1a: Crobat|39/100|[from] item: Black Sludge
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Tornadus|Tornadus, M|100/100
+|-damage|p2a: Tornadus|76/100|[from] Stealth Rock
+|turn|20
+|choice|switch 3|move acrobatics
+|
+|switch|p1a: Porygon2|Porygon2|62/100
+|-ability|p1a: Porygon2|Defiant|[from] ability: Trace|[of] p2a: Tornadus
+|move|p2a: Tornadus|Acrobatics|p1a: Porygon2
+|-damage|p1a: Porygon2|28/100
+|
+|upkeep
+|turn|21
+|choice|move thunderwave|move acrobatics
+|
+|move|p2a: Tornadus|Acrobatics|p1a: Porygon2
+|-damage|p1a: Porygon2|0 fnt
+|faint|p1a: Porygon2
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Gyarados|Gyarados, M|100/100
+|-ability|p1a: Gyarados|Intimidate|boost
+|-unboost|p2a: Tornadus|atk|1
+|-ability|p2a: Tornadus|Defiant|boost
+|-boost|p2a: Tornadus|atk|2
+|turn|22
+|choice|move dragondance|move acrobatics
+|
+|move|p2a: Tornadus|Acrobatics|p1a: Gyarados
+|-damage|p1a: Gyarados|3/100
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|
+|-heal|p1a: Gyarados|9/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|choice|move waterfall|move acrobatics
+|
+|move|p1a: Gyarados|Waterfall|p2a: Tornadus
+|-damage|p2a: Tornadus|0 fnt
+|faint|p2a: Tornadus
+|
+|-heal|p1a: Gyarados|15/100|[from] item: Leftovers
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Infernape|Infernape, M|100/100
+|-damage|p2a: Infernape|84/100|[from] Spikes
+|-damage|p2a: Infernape|72/100|[from] Stealth Rock
+|turn|24
+|choice|move waterfall|move fakeout
+|
+|move|p2a: Infernape|Fake Out|p1a: Gyarados
+|-damage|p1a: Gyarados|0 fnt
+|faint|p1a: Gyarados
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Crobat|Crobat, M|39/100
+|turn|25
+|choice|move bravebird|switch 5
+|
+|switch|p2a: Blissey|Blissey, F|100/100
+|-damage|p2a: Blissey|88/100|[from] Stealth Rock
+|-damage|p2a: Blissey|71/100|[from] Spikes
+|move|p1a: Crobat|Brave Bird|p2a: Blissey
+|-damage|p2a: Blissey|41/100
+|-damage|p1a: Crobat|20/100|[from] recoil|[of] p2a: Blissey
+|
+|-heal|p1a: Crobat|26/100|[from] item: Black Sludge
+|-heal|p2a: Blissey|47/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|choice|move roost|move softboiled
+|
+|move|p1a: Crobat|Roost|p1a: Crobat
+|-heal|p1a: Crobat|76/100
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|97/100
+|
+|-heal|p1a: Crobat|82/100|[from] item: Black Sludge
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|choice|move taunt|move softboiled
+|
+|move|p1a: Crobat|Taunt|p2a: Blissey
+|-start|p2a: Blissey|move: Taunt
+|cant|p2a: Blissey|move: Taunt|Soft-Boiled
+|
+|-heal|p1a: Crobat|88/100|[from] item: Black Sludge
+|upkeep
+|turn|28
+|choice|move bravebird|move seismictoss
+|
+|move|p1a: Crobat|Brave Bird|p2a: Blissey
+|-damage|p2a: Blissey|68/100
+|-damage|p1a: Crobat|68/100|[from] recoil|[of] p2a: Blissey
+|move|p2a: Blissey|Seismic Toss|p1a: Crobat
+|-damage|p1a: Crobat|41/100
+|
+|-heal|p1a: Crobat|47/100|[from] item: Black Sludge
+|-heal|p2a: Blissey|74/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|choice|move roost|move seismictoss
+|
+|move|p1a: Crobat|Roost|p1a: Crobat
+|-heal|p1a: Crobat|97/100
+|move|p2a: Blissey|Seismic Toss|p1a: Crobat
+|-damage|p1a: Crobat|70/100
+|
+|-heal|p1a: Crobat|76/100|[from] item: Black Sludge
+|-heal|p2a: Blissey|80/100|[from] item: Leftovers
+|-end|p2a: Blissey|move: Taunt
+|upkeep
+|turn|30
+|choice|move bravebird|move seismictoss
+|
+|move|p1a: Crobat|Brave Bird|p2a: Blissey
+|-damage|p2a: Blissey|46/100
+|-damage|p1a: Crobat|55/100|[from] recoil|[of] p2a: Blissey
+|move|p2a: Blissey|Seismic Toss|p1a: Crobat
+|-damage|p1a: Crobat|28/100
+|
+|-heal|p1a: Crobat|34/100|[from] item: Black Sludge
+|-heal|p2a: Blissey|52/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|choice|move roost|move softboiled
+|
+|move|p1a: Crobat|Roost|p1a: Crobat
+|-heal|p1a: Crobat|84/100
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|100/100
+|
+|-heal|p1a: Crobat|90/100|[from] item: Black Sludge
+|upkeep
+|turn|32
+|choice|move bravebird|move seismictoss
+|
+|move|p1a: Crobat|Brave Bird|p2a: Blissey
+|-damage|p2a: Blissey|69/100
+|-damage|p1a: Crobat|71/100|[from] recoil|[of] p2a: Blissey
+|move|p2a: Blissey|Seismic Toss|p1a: Crobat
+|-damage|p1a: Crobat|44/100
+|
+|-heal|p1a: Crobat|50/100|[from] item: Black Sludge
+|-heal|p2a: Blissey|76/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|choice|move taunt|move seismictoss
+|
+|move|p1a: Crobat|Taunt|p2a: Blissey
+|-start|p2a: Blissey|move: Taunt
+|move|p2a: Blissey|Seismic Toss|p1a: Crobat
+|-damage|p1a: Crobat|23/100
+|
+|-heal|p1a: Crobat|29/100|[from] item: Black Sludge
+|-heal|p2a: Blissey|82/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|choice|move roost|move seismictoss
+|
+|move|p1a: Crobat|Roost|p1a: Crobat
+|-heal|p1a: Crobat|80/100
+|move|p2a: Blissey|Seismic Toss|p1a: Crobat
+|-damage|p1a: Crobat|53/100
+|
+|-heal|p1a: Crobat|59/100|[from] item: Black Sludge
+|-heal|p2a: Blissey|88/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|choice|move taunt|move seismictoss
+|
+|move|p1a: Crobat|Taunt|p2a: Blissey
+|-fail|p2a: Blissey
+|move|p2a: Blissey|Seismic Toss|p1a: Crobat
+|-damage|p1a: Crobat|32/100
+|
+|-heal|p1a: Crobat|38/100|[from] item: Black Sludge
+|-heal|p2a: Blissey|94/100|[from] item: Leftovers
+|-end|p2a: Blissey|move: Taunt
+|upkeep
+|turn|36
+|choice|move roost|move seismictoss
+|
+|move|p1a: Crobat|Roost|p1a: Crobat
+|-heal|p1a: Crobat|88/100
+|move|p2a: Blissey|Seismic Toss|p1a: Crobat
+|-damage|p1a: Crobat|62/100
+|
+|-heal|p1a: Crobat|68/100|[from] item: Black Sludge
+|-heal|p2a: Blissey|99/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|choice|move taunt|move seismictoss
+|
+|move|p1a: Crobat|Taunt|p2a: Blissey
+|-start|p2a: Blissey|move: Taunt
+|move|p2a: Blissey|Seismic Toss|p1a: Crobat
+|-damage|p1a: Crobat|41/100
+|
+|-heal|p1a: Crobat|47/100|[from] item: Black Sludge
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|choice|move roost|move seismictoss
+|
+|move|p1a: Crobat|Roost|p1a: Crobat
+|-heal|p1a: Crobat|97/100
+|move|p2a: Blissey|Seismic Toss|p1a: Crobat
+|-damage|p1a: Crobat|70/100
+|
+|-heal|p1a: Crobat|77/100|[from] item: Black Sludge
+|upkeep
+|turn|39
+|choice|move taunt|move seismictoss
+|
+|move|p1a: Crobat|Taunt|p2a: Blissey
+|-fail|p2a: Blissey
+|move|p2a: Blissey|Seismic Toss|p1a: Crobat
+|-damage|p1a: Crobat|50/100
+|
+|-heal|p1a: Crobat|56/100|[from] item: Black Sludge
+|-end|p2a: Blissey|move: Taunt
+|upkeep
+|turn|40
+|choice|move taunt|move seismictoss
+|
+|move|p1a: Crobat|Taunt|p2a: Blissey
+|-start|p2a: Blissey|move: Taunt
+|move|p2a: Blissey|Seismic Toss|p1a: Crobat
+|-damage|p1a: Crobat|29/100
+|
+|-heal|p1a: Crobat|35/100|[from] item: Black Sludge
+|upkeep
+|turn|41
+|choice|move roost|move seismictoss
+|
+|move|p1a: Crobat|Roost|p1a: Crobat
+|-heal|p1a: Crobat|85/100
+|move|p2a: Blissey|Seismic Toss|p1a: Crobat
+|-damage|p1a: Crobat|59/100
+|
+|-heal|p1a: Crobat|65/100|[from] item: Black Sludge
+|upkeep
+|turn|42
+|choice|move taunt|move seismictoss
+|
+|move|p1a: Crobat|Taunt|p2a: Blissey
+|-fail|p2a: Blissey
+|move|p2a: Blissey|Seismic Toss|p1a: Crobat
+|-damage|p1a: Crobat|38/100
+|
+|-heal|p1a: Crobat|44/100|[from] item: Black Sludge
+|-end|p2a: Blissey|move: Taunt
+|upkeep
+|turn|43
+|choice|move taunt|move seismictoss
+|
+|move|p1a: Crobat|Taunt|p2a: Blissey
+|-start|p2a: Blissey|move: Taunt
+|move|p2a: Blissey|Seismic Toss|p1a: Crobat
+|-damage|p1a: Crobat|17/100
+|
+|-heal|p1a: Crobat|24/100|[from] item: Black Sludge
+|upkeep
+|turn|44
+|choice|move roost|move seismictoss
+|
+|move|p1a: Crobat|Roost|p1a: Crobat
+|-heal|p1a: Crobat|74/100
+|move|p2a: Blissey|Seismic Toss|p1a: Crobat
+|-damage|p1a: Crobat|47/100
+|
+|-heal|p1a: Crobat|53/100|[from] item: Black Sludge
+|upkeep
+|turn|45
+|choice|move taunt|move seismictoss
+|
+|move|p1a: Crobat|Taunt|p2a: Blissey
+|-fail|p2a: Blissey
+|move|p2a: Blissey|Seismic Toss|p1a: Crobat
+|-damage|p1a: Crobat|26/100
+|
+|-heal|p1a: Crobat|32/100|[from] item: Black Sludge
+|-end|p2a: Blissey|move: Taunt
+|upkeep
+|turn|46
+|choice|move roost|move seismictoss
+|
+|move|p1a: Crobat|Roost|p1a: Crobat
+|-heal|p1a: Crobat|83/100
+|move|p2a: Blissey|Seismic Toss|p1a: Crobat
+|-damage|p1a: Crobat|56/100
+|
+|-heal|p1a: Crobat|62/100|[from] item: Black Sludge
+|upkeep
+|turn|47
+|choice|move taunt|move seismictoss
+|
+|move|p1a: Crobat|Taunt|p2a: Blissey
+|-start|p2a: Blissey|move: Taunt
+|move|p2a: Blissey|Seismic Toss|p1a: Crobat
+|-damage|p1a: Crobat|35/100
+|
+|-heal|p1a: Crobat|41/100|[from] item: Black Sludge
+|upkeep
+|turn|48
+|choice|move roost|move seismictoss
+|
+|move|p1a: Crobat|Roost|p1a: Crobat
+|-heal|p1a: Crobat|91/100
+|move|p2a: Blissey|Seismic Toss|p1a: Crobat
+|-damage|p1a: Crobat|65/100
+|
+|-heal|p1a: Crobat|71/100|[from] item: Black Sludge
+|upkeep
+|turn|49
+|choice|move taunt|move seismictoss
+|
+|move|p1a: Crobat|Taunt|p2a: Blissey
+|-fail|p2a: Blissey
+|move|p2a: Blissey|Seismic Toss|p1a: Crobat
+|-damage|p1a: Crobat|44/100
+|
+|-heal|p1a: Crobat|50/100|[from] item: Black Sludge
+|-end|p2a: Blissey|move: Taunt
+|upkeep
+|turn|50
+|choice|move taunt|move seismictoss
+|
+|move|p1a: Crobat|Taunt|p2a: Blissey
+|-start|p2a: Blissey|move: Taunt
+|move|p2a: Blissey|Seismic Toss|p1a: Crobat
+|-damage|p1a: Crobat|23/100
+|
+|-heal|p1a: Crobat|29/100|[from] item: Black Sludge
+|upkeep
+|turn|51
+|choice|move roost|move seismictoss
+|
+|move|p1a: Crobat|Roost|p1a: Crobat
+|-heal|p1a: Crobat|80/100
+|move|p2a: Blissey|Seismic Toss|p1a: Crobat
+|-damage|p1a: Crobat|53/100
+|
+|-heal|p1a: Crobat|59/100|[from] item: Black Sludge
+|upkeep
+|turn|52
+|choice|move taunt|move seismictoss
+|
+|move|p1a: Crobat|Taunt|p2a: Blissey
+|-fail|p2a: Blissey
+|move|p2a: Blissey|Seismic Toss|p1a: Crobat
+|-damage|p1a: Crobat|32/100
+|
+|-heal|p1a: Crobat|38/100|[from] item: Black Sludge
+|-end|p2a: Blissey|move: Taunt
+|upkeep
+|turn|53
+|choice|move roost|move seismictoss
+|
+|move|p1a: Crobat|Roost|p1a: Crobat
+|-heal|p1a: Crobat|88/100
+|move|p2a: Blissey|Seismic Toss|p1a: Crobat
+|-damage|p1a: Crobat|62/100
+|
+|-heal|p1a: Crobat|68/100|[from] item: Black Sludge
+|upkeep
+|turn|54
+|choice|move taunt|move seismictoss
+|
+|move|p1a: Crobat|Taunt|p2a: Blissey
+|-start|p2a: Blissey|move: Taunt
+|move|p2a: Blissey|Seismic Toss|p1a: Crobat
+|-damage|p1a: Crobat|41/100
+|
+|-heal|p1a: Crobat|47/100|[from] item: Black Sludge
+|upkeep
+|turn|55
+|choice|move roost|move seismictoss
+|
+|move|p1a: Crobat|Roost|p1a: Crobat
+|-heal|p1a: Crobat|97/100
+|move|p2a: Blissey|Seismic Toss|p1a: Crobat
+|-damage|p1a: Crobat|70/100
+|
+|-heal|p1a: Crobat|77/100|[from] item: Black Sludge
+|upkeep
+|turn|56
+|choice|move taunt|move seismictoss
+|
+|move|p1a: Crobat|Taunt|p2a: Blissey
+|-fail|p2a: Blissey
+|move|p2a: Blissey|Seismic Toss|p1a: Crobat
+|-damage|p1a: Crobat|50/100
+|
+|-heal|p1a: Crobat|56/100|[from] item: Black Sludge
+|-end|p2a: Blissey|move: Taunt
+|upkeep
+|turn|57
+|choice|move taunt|move seismictoss
+|
+|move|p1a: Crobat|Taunt|p2a: Blissey
+|-start|p2a: Blissey|move: Taunt
+|move|p2a: Blissey|Seismic Toss|p1a: Crobat
+|-damage|p1a: Crobat|29/100
+|
+|-heal|p1a: Crobat|35/100|[from] item: Black Sludge
+|upkeep
+|turn|58
+|choice|move roost|move struggle
+|
+|move|p1a: Crobat|Roost|p1a: Crobat
+|-heal|p1a: Crobat|85/100
+|-activate|p2a: Blissey|move: Struggle
+|move|p2a: Blissey|Struggle|p1a: Crobat
+|-damage|p1a: Crobat|84/100
+|-damage|p2a: Blissey|76/100|[from] recoil
+|
+|-heal|p1a: Crobat|90/100|[from] item: Black Sludge
+|-heal|p2a: Blissey|82/100|[from] item: Leftovers
+|upkeep
+|turn|59
+|choice|move taunt|move struggle
+|
+|move|p1a: Crobat|Taunt|p2a: Blissey
+|-fail|p2a: Blissey
+|-activate|p2a: Blissey|move: Struggle
+|move|p2a: Blissey|Struggle|p1a: Crobat
+|-damage|p1a: Crobat|89/100
+|-damage|p2a: Blissey|57/100|[from] recoil
+|
+|-heal|p1a: Crobat|95/100|[from] item: Black Sludge
+|-heal|p2a: Blissey|63/100|[from] item: Leftovers
+|-end|p2a: Blissey|move: Taunt
+|upkeep
+|turn|60
+|choice|move taunt|move softboiled
+|
+|move|p1a: Crobat|Taunt|p2a: Blissey
+|-start|p2a: Blissey|move: Taunt
+|cant|p2a: Blissey|move: Taunt|Soft-Boiled
+|
+|-heal|p1a: Crobat|100/100|[from] item: Black Sludge
+|-heal|p2a: Blissey|69/100|[from] item: Leftovers
+|upkeep
+|turn|61
+|choice|move taunt|switch 5
+|
+|switch|p2a: Infernape|Infernape, M|72/100
+|-damage|p2a: Infernape|60/100|[from] Stealth Rock
+|-damage|p2a: Infernape|43/100|[from] Spikes
+|move|p1a: Crobat|Taunt|p2a: Infernape
+|-start|p2a: Infernape|move: Taunt
+|
+|upkeep
+|turn|62
+|choice|move bravebird|move fakeout
+|
+|move|p2a: Infernape|Fake Out|p1a: Crobat
+|-damage|p1a: Crobat|88/100
+|cant|p1a: Crobat|flinch
+|
+|-heal|p1a: Crobat|94/100|[from] item: Black Sludge
+|upkeep
+|turn|63
+|choice|move bravebird|switch 5
+|
+|switch|p2a: Blissey|Blissey, F|69/100
+|-damage|p2a: Blissey|57/100|[from] Stealth Rock
+|-damage|p2a: Blissey|40/100|[from] Spikes
+|move|p1a: Crobat|Brave Bird|p2a: Blissey
+|-damage|p2a: Blissey|6/100
+|-damage|p1a: Crobat|73/100|[from] recoil|[of] p2a: Blissey
+|
+|-heal|p1a: Crobat|79/100|[from] item: Black Sludge
+|-heal|p2a: Blissey|12/100|[from] item: Leftovers
+|upkeep
+|turn|64
+|choice|move bravebird|move softboiled
+|
+|move|p1a: Crobat|Brave Bird|p2a: Blissey
+|-damage|p2a: Blissey|0 fnt
+|-damage|p1a: Crobat|72/100|[from] recoil|[of] p2a: Blissey
+|faint|p2a: Blissey
+|
+|-heal|p1a: Crobat|78/100|[from] item: Black Sludge
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Infernape|Infernape, M|43/100
+|-damage|p2a: Infernape|27/100|[from] Spikes
+|-damage|p2a: Infernape|14/100|[from] Stealth Rock
+|turn|65
+|choice|move bravebird|move fakeout
+|
+|move|p2a: Infernape|Fake Out|p1a: Crobat
+|-crit|p1a: Crobat
+|-damage|p1a: Crobat|59/100
+|cant|p1a: Crobat|flinch
+|
+|-heal|p1a: Crobat|65/100|[from] item: Black Sludge
+|upkeep
+|turn|66
+|choice|move bravebird|move overheat
+|
+|move|p1a: Crobat|Brave Bird|p2a: Infernape
+|-supereffective|p2a: Infernape
+|-damage|p2a: Infernape|0 fnt
+|-damage|p1a: Crobat|62/100|[from] recoil|[of] p2a: Infernape
+|faint|p2a: Infernape
+|
+|-heal|p1a: Crobat|68/100|[from] item: Black Sludge
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Roserade|Roserade, M|100/100
+|-damage|p2a: Roserade|84/100|[from] Spikes
+|-damage|p2a: Roserade|72/100|[from] Stealth Rock
+|turn|67
+|choice|move bravebird|move gigadrain
+|
+|move|p1a: Crobat|Brave Bird|p2a: Roserade
+|-supereffective|p2a: Roserade
+|-damage|p2a: Roserade|0 fnt
+|-damage|p1a: Crobat|51/100|[from] recoil|[of] p2a: Roserade
+|faint|p2a: Roserade
+|
+|win|wolverine97
+|raw|wolverine97's rating: 1412 &rarr; <strong>1424</strong><br />(+12 for winning)
+|raw|varunsn's rating: 1265 &rarr; <strong>1250</strong><br />(-15 for losing)
+|c|☆wolverine97|gg

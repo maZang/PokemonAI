@@ -1,0 +1,351 @@
+|j|SolAnima
+|j|wutispokermanslol
+|player|p1|SolAnima|2
+|player|p2|wutispokermanslol|167
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|47654,37612,7494,25519,10279,43703,48868,25701,16990,4124,19016,53055
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Manectric, M|item
+|poke|p1|Miltank, F|item
+|poke|p1|Pyroar, M|item
+|poke|p1|Grumpig, M|item
+|poke|p1|Hitmonchan, M|item
+|poke|p1|Torterra, M|item
+|poke|p2|Skuntank, M|item
+|poke|p2|Musharna, M|item
+|poke|p2|Miltank, F|item
+|poke|p2|Magmortar, M|item
+|poke|p2|Manectric, M|item
+|poke|p2|Tangela, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 2, team 1, team 3, team 4, team 5, team 6|team 4, team 2, team 3, team 1, team 5, team 6
+|
+|start
+|switch|p1a: Miltank|Miltank, F|100/100
+|switch|p2a: Magmortar|Magmortar, M|100/100
+|turn|1
+|choice|move toxic|move fireblast
+|
+|move|p2a: Magmortar|Fire Blast|p1a: Miltank
+|-damage|p1a: Miltank|2/100
+|-damage|p2a: Magmortar|91/100|[from] item: Life Orb
+|move|p1a: Miltank|Toxic|p2a: Magmortar
+|-status|p2a: Magmortar|tox
+|
+|-heal|p1a: Miltank|8/100|[from] item: Leftovers
+|-damage|p2a: Magmortar|84/100 tox|[from] psn
+|upkeep
+|turn|2
+|choice|move bodyslam|move earthquake
+|
+|move|p2a: Magmortar|Earthquake|p1a: Miltank
+|-damage|p1a: Miltank|0 fnt
+|-damage|p2a: Magmortar|74/100 tox|[from] item: Life Orb
+|faint|p1a: Miltank
+|
+|-damage|p2a: Magmortar|62/100 tox|[from] psn
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Pyroar|Pyroar, M|100/100
+|-ability|p1a: Pyroar|Unnerve|p2: wutispokermanslol
+|turn|3
+|choice|move hypervoice|move earthquake
+|
+|move|p1a: Pyroar|Hyper Voice|p2a: Magmortar
+|-damage|p2a: Magmortar|0 fnt
+|-damage|p1a: Pyroar|91/100|[from] item: Life Orb
+|faint|p2a: Magmortar
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Musharna|Musharna, M|100/100
+|turn|4
+|choice|move willowisp|move psyshock
+|
+|move|p1a: Pyroar|Will-O-Wisp|p2a: Musharna
+|-status|p2a: Musharna|brn
+|-activate|p2a: Musharna|ability: Synchronize
+|-immune|p1a: Pyroar|[msg]
+|move|p2a: Musharna|Psyshock|p1a: Pyroar
+|-damage|p1a: Pyroar|51/100
+|
+|-damage|p2a: Musharna|88/100 brn|[from] brn
+|upkeep
+|turn|5
+|choice|switch 4|move calmmind
+|
+|switch|p1a: Grumpig|Grumpig, M|100/100
+|move|p2a: Musharna|Calm Mind|p2a: Musharna
+|-boost|p2a: Musharna|spa|1
+|-boost|p2a: Musharna|spd|1
+|
+|-heal|p2a: Musharna|94/100 brn|[from] item: Leftovers
+|-damage|p2a: Musharna|82/100 brn|[from] brn
+|upkeep
+|turn|6
+|choice|move calmmind|move batonpass
+|
+|move|p1a: Grumpig|Calm Mind|p1a: Grumpig
+|-boost|p1a: Grumpig|spa|1
+|-boost|p1a: Grumpig|spd|1
+|move|p2a: Musharna|Baton Pass|p2a: Musharna
+|choice||switch 4
+|
+|switch|p2a: Skuntank|Skuntank, M|100/100
+|
+|upkeep
+|turn|7
+|choice|move focusblast|move darkpulse
+|
+|move|p2a: Skuntank|Dark Pulse|p1a: Grumpig
+|-supereffective|p1a: Grumpig
+|-damage|p1a: Grumpig|29/100
+|move|p1a: Grumpig|Focus Blast|p2a: Skuntank
+|-damage|p2a: Skuntank|52/100
+|
+|-heal|p1a: Grumpig|35/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|choice|move focusblast|move darkpulse
+|
+|move|p2a: Skuntank|Dark Pulse|p1a: Grumpig
+|-supereffective|p1a: Grumpig
+|-damage|p1a: Grumpig|0 fnt
+|faint|p1a: Grumpig
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Hitmonchan|Hitmonchan, M|100/100
+|turn|9
+|choice|move closecombat|move fireblast
+|
+|move|p2a: Skuntank|Fire Blast|p1a: Hitmonchan
+|-damage|p1a: Hitmonchan|46/100
+|move|p1a: Hitmonchan|Close Combat|p2a: Skuntank
+|-damage|p2a: Skuntank|0 fnt
+|-damage|p1a: Hitmonchan|21/100|[from] ability: Aftermath|[of] p2a: Skuntank
+|-unboost|p1a: Hitmonchan|def|1
+|-unboost|p1a: Hitmonchan|spd|1
+|-damage|p1a: Hitmonchan|11/100|[from] item: Life Orb
+|faint|p2a: Skuntank
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Musharna|Musharna, M|82/100 brn
+|turn|10
+|choice|switch 6|move psyshock
+|
+|switch|p1a: Torterra|Torterra, M|100/100
+|move|p2a: Musharna|Psyshock|p1a: Torterra
+|-damage|p1a: Torterra|72/100
+|
+|-heal|p2a: Musharna|88/100 brn|[from] item: Leftovers
+|-damage|p2a: Musharna|76/100 brn|[from] brn
+|upkeep
+|turn|11
+|choice|move rockpolish|switch 3
+|
+|switch|p2a: Miltank|Miltank, F|100/100
+|move|p1a: Torterra|Rock Polish|p1a: Torterra
+|-boost|p1a: Torterra|spe|2
+|
+|upkeep
+|turn|12
+|choice|move earthquake|move toxic
+|
+|move|p1a: Torterra|Earthquake|p2a: Miltank
+|-crit|p2a: Miltank
+|-damage|p2a: Miltank|50/100
+|move|p2a: Miltank|Toxic|p1a: Torterra
+|-status|p1a: Torterra|tox
+|
+|-heal|p2a: Miltank|56/100|[from] item: Leftovers
+|-damage|p1a: Torterra|66/100 tox|[from] psn
+|upkeep
+|turn|13
+|choice|move earthquake|move milkdrink
+|
+|move|p1a: Torterra|Earthquake|p2a: Miltank
+|-damage|p2a: Miltank|20/100
+|move|p2a: Miltank|Milk Drink|p2a: Miltank
+|-heal|p2a: Miltank|70/100
+|
+|-heal|p2a: Miltank|76/100|[from] item: Leftovers
+|-damage|p1a: Torterra|54/100 tox|[from] psn
+|upkeep
+|turn|14
+|choice|move woodhammer|move stealthrock
+|
+|move|p1a: Torterra|Wood Hammer|p2a: Miltank
+|-ability|p2a: Miltank|Sap Sipper|boost
+|-boost|p2a: Miltank|atk|1
+|move|p2a: Miltank|Stealth Rock|p1a: Torterra
+|-sidestart|p1: SolAnima|move: Stealth Rock
+|
+|-heal|p2a: Miltank|82/100|[from] item: Leftovers
+|-damage|p1a: Torterra|36/100 tox|[from] psn
+|upkeep
+|turn|15
+|c|☆SolAnima|That's...super convenient
+|choice|move earthquake|move bodyslam
+|
+|move|p1a: Torterra|Earthquake|p2a: Miltank
+|-damage|p2a: Miltank|47/100
+|move|p2a: Miltank|Body Slam|p1a: Torterra
+|-damage|p1a: Torterra|2/100 tox
+|
+|-heal|p2a: Miltank|53/100|[from] item: Leftovers
+|-damage|p1a: Torterra|0 fnt|[from] psn
+|upkeep
+|faint|p1a: Torterra
+|c|☆wutispokermanslol|:)
+|choice|switch 6|
+|
+|switch|p1a: Hitmonchan|Hitmonchan, M|11/100
+|-damage|p1a: Hitmonchan|5/100|[from] Stealth Rock
+|turn|16
+|c|☆wutispokermanslol|Yours wasn't thick fat, also sap sipper no?
+|choice|move closecombat|switch 3
+|
+|switch|p2a: Musharna|Musharna, M|76/100 brn
+|move|p1a: Hitmonchan|Close Combat|p2a: Musharna
+|-resisted|p2a: Musharna
+|-damage|p2a: Musharna|49/100 brn
+|-unboost|p1a: Hitmonchan|def|1
+|-unboost|p1a: Hitmonchan|spd|1
+|-damage|p1a: Hitmonchan|0 fnt|[from] item: Life Orb
+|faint|p1a: Hitmonchan
+|
+|-heal|p2a: Musharna|56/100 brn|[from] item: Leftovers
+|-damage|p2a: Musharna|43/100 brn|[from] brn
+|upkeep
+|c|☆SolAnima|Yeah
+|c|☆SolAnima|But didn't expect the same on both
+|c|☆SolAnima|Also, I have really nothing to deal with all these tanks
+|choice|switch 4|
+|
+|switch|p1a: Pyroar|Pyroar, M|51/100
+|-ability|p1a: Pyroar|Unnerve|p2: wutispokermanslol
+|-damage|p1a: Pyroar|26/100|[from] Stealth Rock
+|turn|17
+|c|☆wutispokermanslol|I took a shot with FB on magmortar to scout for it
+|choice|move fireblast|move psyshock
+|
+|move|p1a: Pyroar|Fire Blast|p2a: Musharna
+|-damage|p2a: Musharna|0 fnt
+|-damage|p1a: Pyroar|16/100|[from] item: Life Orb
+|faint|p2a: Musharna
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Manectric|Manectric, M|100/100
+|turn|18
+|choice|move fireblast|move voltswitch
+|
+|move|p1a: Pyroar|Fire Blast|p2a: Manectric
+|-damage|p2a: Manectric|0 fnt
+|-damage|p1a: Pyroar|7/100|[from] item: Life Orb
+|faint|p2a: Manectric
+|
+|upkeep
+|c|☆wutispokermanslol|uhhh
+|c|☆wutispokermanslol|okay...?
+|choice||switch 6
+|
+|switch|p2a: Tangela|Tangela, M|100/100
+|turn|19
+|choice|move fireblast|move gigadrain
+|
+|move|p1a: Pyroar|Fire Blast|p2a: Tangela|[miss]
+|-miss|p1a: Pyroar|p2a: Tangela
+|move|p2a: Tangela|Giga Drain|p1a: Pyroar
+|-resisted|p1a: Pyroar
+|-damage|p1a: Pyroar|0 fnt
+|faint|p1a: Pyroar
+|
+|upkeep
+|c|☆SolAnima|ARE YOU SERIOUS
+|c|☆SolAnima|?
+|c|☆SolAnima|THAT IS SO CONVENIENT
+|c|☆wutispokermanslol|missed 2 in a row last game, then got toxic'd by sludge bomb first try, then immediately critted lol
+|c|☆SolAnima|Oh my gosh
+|c|☆SolAnima|That's the last few games i've had
+|choice|switch 2|
+|
+|switch|p1a: Manectric|Manectric, M|100/100
+|-damage|p1a: Manectric|88/100|[from] Stealth Rock
+|turn|20
+|choice|move overheat|move sleeppowder
+|
+|move|p1a: Manectric|Overheat|p2a: Tangela
+|-supereffective|p2a: Tangela
+|-damage|p2a: Tangela|0 fnt
+|-unboost|p1a: Manectric|spa|2
+|-damage|p1a: Manectric|78/100|[from] item: Life Orb
+|faint|p2a: Tangela
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Miltank|Miltank, F|53/100
+|turn|21
+|c|☆SolAnima|If I lose because of this...
+|choice|move thunderbolt|move milkdrink
+|
+|move|p1a: Manectric|Thunderbolt|p2a: Miltank
+|-damage|p2a: Miltank|23/100
+|-damage|p1a: Manectric|68/100|[from] item: Life Orb
+|move|p2a: Miltank|Milk Drink|p2a: Miltank
+|-heal|p2a: Miltank|73/100
+|
+|-heal|p2a: Miltank|79/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|choice|move thunderbolt|move milkdrink
+|
+|move|p1a: Manectric|Thunderbolt|p2a: Miltank
+|-damage|p2a: Miltank|47/100
+|-damage|p1a: Manectric|58/100|[from] item: Life Orb
+|move|p2a: Miltank|Milk Drink|p2a: Miltank
+|-heal|p2a: Miltank|97/100
+|
+|-heal|p2a: Miltank|100/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|choice|move thunderbolt|move bodyslam
+|
+|move|p1a: Manectric|Thunderbolt|p2a: Miltank
+|-damage|p2a: Miltank|72/100
+|-damage|p1a: Manectric|48/100|[from] item: Life Orb
+|move|p2a: Miltank|Body Slam|p1a: Manectric
+|-damage|p1a: Manectric|6/100
+|
+|-heal|p2a: Miltank|78/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|c|☆wutispokermanslol|gg, sorry dude
+|c|☆SolAnima|Oh my gosh
+|c|☆wutispokermanslol|<3
+|choice|move thunderbolt|move milkdrink
+|
+|move|p1a: Manectric|Thunderbolt|p2a: Miltank
+|-damage|p2a: Miltank|47/100
+|-damage|p1a: Manectric|0 fnt|[from] item: Life Orb
+|faint|p1a: Manectric
+|
+|win|wutispokermanslol
+|raw|SolAnima's rating: 1164 &rarr; <strong>1131</strong><br />(-33 for losing)
+|raw|wutispokermanslol's rating: 1040 &rarr; <strong>1086</strong><br />(+46 for winning)
+|c|☆SolAnima|I was cheated
+|l|wutispokermanslol

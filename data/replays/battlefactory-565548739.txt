@@ -1,0 +1,52 @@
+|j|Pressor Rakito
+|j|gen one lappen
+|player|p1|Pressor Rakito|276
+|player|p2|gen one lappen|265
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|182,20607,61580,39726,25349,16980,7404,11509,29782,36509,39084,40823
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Jirachi|item
+|poke|p1|Thundurus-Therian, M|item
+|poke|p1|Hawlucha, M|item
+|poke|p1|Scizor, M|item
+|poke|p1|Latios, M|item
+|poke|p1|Heatran, M|item
+|poke|p2|Latias, F|item
+|poke|p2|Victini|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Diggersby, M|item
+|poke|p2|Magnezone|item
+|poke|p2|Crawdaunt, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 2, team 1, team 3, team 4, team 5, team 6|team 6, team 2, team 3, team 4, team 5, team 1
+|
+|start
+|switch|p1a: Thundurus|Thundurus-Therian, M|100/100
+|switch|p2a: Crawdaunt|Crawdaunt, M|100/100
+|turn|1
+|choice|move nastyplot|switch 4
+|
+|switch|p2a: Diggersby|Diggersby, M|100/100
+|move|p1a: Thundurus|Nasty Plot|p1a: Thundurus
+|-boost|p1a: Thundurus|spa|2
+|
+|upkeep
+|turn|2
+|choice|move focusblast|move return
+|
+|move|p1a: Thundurus|Focus Blast|p2a: Diggersby
+|-supereffective|p2a: Diggersby
+|-damage|p2a: Diggersby|0 fnt
+|faint|p2a: Diggersby
+|
+|upkeep
+|-message|gen one lappen forfeited.
+|
+|win|Pressor Rakito
+|l|gen one lappen

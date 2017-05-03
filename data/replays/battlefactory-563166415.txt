@@ -1,0 +1,492 @@
+|j|Jimmyvgpppp
+|j|RaichuReturns
+|player|p1|Jimmyvgpppp|265
+|player|p2|RaichuReturns|169
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|45405,59043,60435,32234,60655,20466,33115,10945,10440,9189,28568,63881
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Honchkrow, M|item
+|poke|p1|Aggron, M|item
+|poke|p1|Swampert, M|item
+|poke|p1|Hoopa|item
+|poke|p1|Roserade, M|item
+|poke|p1|Crobat, M|item
+|poke|p2|Gardevoir, M|item
+|poke|p2|Hoopa|item
+|poke|p2|Tentacruel, M|item
+|poke|p2|Tornadus, M|
+|poke|p2|Umbreon, M|item
+|poke|p2|Swampert, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 6, team 2, team 3, team 4, team 5, team 1|team 6, team 2, team 3, team 4, team 5, team 1
+|
+|start
+|switch|p1a: Crobat|Crobat, M|100/100
+|switch|p2a: Swampert|Swampert, M|100/100
+|turn|1
+|choice|move taunt|move stealthrock
+|
+|move|p1a: Crobat|Taunt|p2a: Swampert
+|-start|p2a: Swampert|move: Taunt
+|cant|p2a: Swampert|move: Taunt|Stealth Rock
+|
+|upkeep
+|turn|2
+|choice|switch 5|move scald
+|
+|switch|p1a: Roserade|Roserade, M|100/100
+|move|p2a: Swampert|Scald|p1a: Roserade
+|-resisted|p1a: Roserade
+|-crit|p1a: Roserade
+|-damage|p1a: Roserade|87/100
+|
+|-heal|p1a: Roserade|93/100|[from] item: Black Sludge
+|upkeep
+|turn|3
+|choice|move spikes|switch 3
+|
+|switch|p2a: Tentacruel|Tentacruel, M|100/100
+|move|p1a: Roserade|Spikes|p2a: Tentacruel
+|-sidestart|p2: RaichuReturns|Spikes
+|
+|-heal|p1a: Roserade|99/100|[from] item: Black Sludge
+|upkeep
+|turn|4
+|choice|switch 6|move rapidspin
+|
+|switch|p1a: Honchkrow|Honchkrow, M|100/100
+|move|p2a: Tentacruel|Rapid Spin|p1a: Honchkrow
+|-damage|p1a: Honchkrow|95/100
+|-sideend|p2: RaichuReturns|Spikes|[from] move: Rapid Spin|[of] p2a: Tentacruel
+|
+|upkeep
+|turn|5
+|choice|move bravebird|move scald
+|
+|move|p1a: Honchkrow|Brave Bird|p2a: Tentacruel
+|-damage|p2a: Tentacruel|50/100
+|-damage|p1a: Honchkrow|78/100|[from] recoil|[of] p2a: Tentacruel
+|move|p2a: Tentacruel|Scald|p1a: Honchkrow
+|-damage|p1a: Honchkrow|34/100
+|
+|-heal|p2a: Tentacruel|56/100|[from] item: Black Sludge
+|upkeep
+|turn|6
+|choice|switch 3|move scald
+|
+|switch|p1a: Swampert|Swampert, M|100/100
+|move|p2a: Tentacruel|Scald|p1a: Swampert
+|-damage|p1a: Swampert|86/100
+|
+|-heal|p2a: Tentacruel|63/100|[from] item: Black Sludge
+|upkeep
+|turn|7
+|choice|move curse|move toxicspikes
+|
+|move|p2a: Tentacruel|Toxic Spikes|p1a: Swampert
+|-sidestart|p1: Jimmyvgpppp|move: Toxic Spikes
+|move|p1a: Swampert|Curse|p1a: Swampert
+|-unboost|p1a: Swampert|spe|1
+|-boost|p1a: Swampert|atk|1
+|-boost|p1a: Swampert|def|1
+|
+|-heal|p2a: Tentacruel|69/100|[from] item: Black Sludge
+|upkeep
+|turn|8
+|choice|move earthquake|switch 3
+|
+|switch|p2a: Swampert|Swampert, M|100/100
+|move|p1a: Swampert|Earthquake|p2a: Swampert
+|-damage|p2a: Swampert|65/100
+|
+|-heal|p2a: Swampert|71/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|choice|move earthquake|move roar
+|
+|move|p1a: Swampert|Earthquake|p2a: Swampert
+|-damage|p2a: Swampert|31/100
+|move|p2a: Swampert|Roar|p1a: Swampert
+|drag|p1a: Aggron|Aggron, M|100/100
+|
+|-heal|p2a: Swampert|37/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|choice|move earthquake mega|move scald
+|
+|detailschange|p1a: Aggron|Aggron-Mega, M
+|-mega|p1a: Aggron|Aggron|Aggronite
+|move|p2a: Swampert|Scald|p1a: Aggron
+|-damage|p1a: Aggron|75/100
+|-status|p1a: Aggron|brn
+|move|p1a: Aggron|Earthquake|p2a: Swampert
+|-damage|p2a: Swampert|27/100
+|
+|-heal|p2a: Swampert|34/100|[from] item: Leftovers
+|-damage|p1a: Aggron|63/100 brn|[from] brn
+|upkeep
+|turn|11
+|choice|move stealthrock|move stealthrock
+|
+|move|p2a: Swampert|Stealth Rock|p1a: Aggron
+|-sidestart|p1: Jimmyvgpppp|move: Stealth Rock
+|move|p1a: Aggron|Stealth Rock|p2a: Swampert
+|-sidestart|p2: RaichuReturns|move: Stealth Rock
+|
+|-heal|p2a: Swampert|40/100|[from] item: Leftovers
+|-damage|p1a: Aggron|50/100 brn|[from] brn
+|upkeep
+|turn|12
+|choice|move earthquake|move stealthrock
+|
+|move|p2a: Swampert|Stealth Rock|p1a: Aggron
+|-fail|p1a: Aggron
+|move|p1a: Aggron|Earthquake|p2a: Swampert
+|-damage|p2a: Swampert|30/100
+|
+|-heal|p2a: Swampert|36/100|[from] item: Leftovers
+|-damage|p1a: Aggron|38/100 brn|[from] brn
+|upkeep
+|turn|13
+|choice|move earthquake|move earthquake
+|
+|move|p2a: Swampert|Earthquake|p1a: Aggron
+|-supereffective|p1a: Aggron
+|-damage|p1a: Aggron|13/100 brn
+|move|p1a: Aggron|Earthquake|p2a: Swampert
+|-damage|p2a: Swampert|27/100
+|
+|-heal|p2a: Swampert|33/100|[from] item: Leftovers
+|-damage|p1a: Aggron|1/100 brn|[from] brn
+|upkeep
+|turn|14
+|choice|move earthquake|move roar
+|
+|move|p1a: Aggron|Earthquake|p2a: Swampert
+|-damage|p2a: Swampert|23/100
+|move|p2a: Swampert|Roar|p1a: Aggron
+|drag|p1a: Hoopa|Hoopa|100/100
+|-damage|p1a: Hoopa|88/100|[from] Stealth Rock
+|-status|p1a: Hoopa|psn
+|
+|-heal|p2a: Swampert|29/100|[from] item: Leftovers
+|-damage|p1a: Hoopa|76/100 psn|[from] psn
+|upkeep
+|turn|15
+|l|Jimmyvgpppp
+|player|p1|
+|j|Jimmyvgpppp
+|player|p1|Jimmyvgpppp|265
+|choice|move shadowball|switch 5
+|
+|switch|p2a: Umbreon|Umbreon, M|100/100
+|-damage|p2a: Umbreon|88/100|[from] Stealth Rock
+|move|p1a: Hoopa|Shadow Ball|p2a: Umbreon
+|-resisted|p2a: Umbreon
+|-damage|p2a: Umbreon|72/100
+|-damage|p1a: Hoopa|66/100 psn|[from] item: Life Orb
+|
+|-heal|p2a: Umbreon|78/100|[from] item: Leftovers
+|-damage|p1a: Hoopa|54/100 psn|[from] psn
+|upkeep
+|turn|16
+|choice|move focusblast|move foulplay
+|
+|move|p1a: Hoopa|Focus Blast|p2a: Umbreon
+|-supereffective|p2a: Umbreon
+|-damage|p2a: Umbreon|5/100
+|-unboost|p2a: Umbreon|spd|1
+|-damage|p1a: Hoopa|44/100 psn|[from] item: Life Orb
+|move|p2a: Umbreon|Foul Play|p1a: Hoopa
+|-supereffective|p1a: Hoopa
+|-damage|p1a: Hoopa|0 fnt
+|faint|p1a: Hoopa
+|
+|-heal|p2a: Umbreon|11/100|[from] item: Leftovers
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Roserade|Roserade, M|99/100
+|-sideend|p1: Jimmyvgpppp|move: Toxic Spikes|[of] p1a: Roserade
+|-damage|p1a: Roserade|87/100|[from] Stealth Rock
+|turn|17
+|choice|move gigadrain|move protect
+|
+|move|p2a: Umbreon|Protect|p2a: Umbreon
+|-singleturn|p2a: Umbreon|Protect
+|move|p1a: Roserade|Giga Drain|p2a: Umbreon
+|-activate|p2a: Umbreon|move: Protect
+|
+|-heal|p1a: Roserade|93/100|[from] item: Black Sludge
+|-heal|p2a: Umbreon|17/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|choice|move gigadrain|switch 4
+|
+|switch|p2a: Tornadus|Tornadus, M|100/100
+|-damage|p2a: Tornadus|76/100|[from] Stealth Rock
+|move|p1a: Roserade|Giga Drain|p2a: Tornadus
+|-resisted|p2a: Tornadus
+|-crit|p2a: Tornadus
+|-damage|p2a: Tornadus|46/100
+|-heal|p1a: Roserade|100/100|[from] drain|[of] p2a: Tornadus
+|
+|upkeep
+|turn|19
+|choice|switch 4|move acrobatics
+|
+|switch|p1a: Aggron|Aggron-Mega, M|1/100 brn
+|-damage|p1a: Aggron|0 fnt|[from] Stealth Rock
+|faint|p1a: Aggron
+|move|p2a: Tornadus|Acrobatics|p1: Aggron|[notarget]
+|-notarget
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Swampert|Swampert, M|86/100
+|-damage|p1a: Swampert|80/100|[from] Stealth Rock
+|turn|20
+|choice|move icebeam|move uturn
+|
+|move|p2a: Tornadus|U-turn|p1a: Swampert
+|-damage|p1a: Swampert|58/100
+|choice||switch 3
+|
+|switch|p2a: Tentacruel|Tentacruel, M|69/100
+|-damage|p2a: Tentacruel|56/100|[from] Stealth Rock
+|move|p1a: Swampert|Ice Beam|p2a: Tentacruel
+|-resisted|p2a: Tentacruel
+|-crit|p2a: Tentacruel
+|-damage|p2a: Tentacruel|47/100
+|
+|-heal|p2a: Tentacruel|53/100|[from] item: Black Sludge
+|upkeep
+|turn|21
+|choice|move earthquake|move knockoff
+|
+|move|p2a: Tentacruel|Knock Off|p1a: Swampert
+|-damage|p1a: Swampert|44/100
+|-enditem|p1a: Swampert|Chesto Berry|[from] move: Knock Off|[of] p2a: Tentacruel
+|move|p1a: Swampert|Earthquake|p2a: Tentacruel
+|-supereffective|p2a: Tentacruel
+|-damage|p2a: Tentacruel|0 fnt
+|faint|p2a: Tentacruel
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Hoopa|Hoopa|100/100
+|-damage|p2a: Hoopa|88/100|[from] Stealth Rock
+|turn|22
+|choice|move earthquake|move nastyplot
+|
+|move|p2a: Hoopa|Nasty Plot|p2a: Hoopa
+|-boost|p2a: Hoopa|spa|2
+|move|p1a: Swampert|Earthquake|p2a: Hoopa
+|-damage|p2a: Hoopa|23/100
+|
+|upkeep
+|turn|23
+|choice|move earthquake|move shadowball
+|
+|move|p2a: Hoopa|Shadow Ball|p1a: Swampert
+|-damage|p1a: Swampert|0 fnt
+|-damage|p2a: Hoopa|13/100|[from] item: Life Orb
+|faint|p1a: Swampert
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Crobat|Crobat, M|100/100
+|-damage|p1a: Crobat|76/100|[from] Stealth Rock
+|turn|24
+|choice|move bravebird|move psyshock
+|
+|move|p1a: Crobat|Brave Bird|p2a: Hoopa
+|-damage|p2a: Hoopa|0 fnt
+|-damage|p1a: Crobat|72/100|[from] recoil|[of] p2a: Hoopa
+|faint|p2a: Hoopa
+|
+|-heal|p1a: Crobat|79/100|[from] item: Black Sludge
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Gardevoir|Gardevoir, M|100/100
+|-damage|p2a: Gardevoir|88/100|[from] Stealth Rock
+|-ability|p2a: Gardevoir|Infiltrator|[from] ability: Trace|[of] p1a: Crobat
+|turn|25
+|choice|move defog|move psyshock
+|
+|move|p1a: Crobat|Defog|p2a: Gardevoir
+|-unboost|p2a: Gardevoir|evasion|1
+|-sideend|p2: RaichuReturns|Stealth Rock|[from] move: Defog|[of] p2a: Gardevoir
+|-sideend|p1: Jimmyvgpppp|Stealth Rock|[from] move: Defog|[of] p1a: Crobat
+|move|p2a: Gardevoir|Psyshock|p1a: Crobat
+|-supereffective|p1a: Crobat
+|-crit|p1a: Crobat
+|-damage|p1a: Crobat|0 fnt
+|faint|p1a: Crobat
+|
+|-heal|p2a: Gardevoir|94/100|[from] item: Leftovers
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Honchkrow|Honchkrow, M|34/100
+|turn|26
+|choice|move bravebird|move moonblast
+|
+|move|p1a: Honchkrow|Brave Bird|p2a: Gardevoir
+|-damage|p2a: Gardevoir|0 fnt
+|-damage|p1a: Honchkrow|9/100|[from] recoil|[of] p2a: Gardevoir
+|faint|p2a: Gardevoir
+|-ability|p1a: Honchkrow|Moxie|boost
+|-boost|p1a: Honchkrow|atk|1
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Tornadus|Tornadus, M|46/100
+|turn|27
+|choice|move bravebird|move acrobatics
+|
+|move|p1a: Honchkrow|Brave Bird|p2a: Tornadus
+|-damage|p2a: Tornadus|0 fnt
+|-damage|p1a: Honchkrow|0 fnt|[from] recoil|[of] p2a: Tornadus
+|faint|p2a: Tornadus
+|faint|p1a: Honchkrow
+|
+|upkeep
+|choice|switch 4|switch 5
+|
+|switch|p1a: Roserade|Roserade, M|100/100
+|switch|p2a: Swampert|Swampert, M|29/100
+|turn|28
+|choice|move gigadrain|move earthquake
+|
+|move|p1a: Roserade|Giga Drain|p2a: Swampert
+|-supereffective|p2a: Swampert
+|-damage|p2a: Swampert|0 fnt
+|faint|p2a: Swampert
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Umbreon|Umbreon, M|17/100
+|turn|29
+|choice|move sludgebomb|move protect
+|
+|move|p2a: Umbreon|Protect|p2a: Umbreon
+|-singleturn|p2a: Umbreon|Protect
+|move|p1a: Roserade|Sludge Bomb|p2a: Umbreon
+|-activate|p2a: Umbreon|move: Protect
+|
+|-heal|p2a: Umbreon|23/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|choice|move sludgebomb|move wish
+|
+|move|p1a: Roserade|Sludge Bomb|p2a: Umbreon
+|-damage|p2a: Umbreon|2/100
+|move|p2a: Umbreon|Wish|p2a: Umbreon
+|
+|-heal|p2a: Umbreon|8/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|choice|move spikes|move protect
+|
+|move|p2a: Umbreon|Protect|p2a: Umbreon
+|-singleturn|p2a: Umbreon|Protect
+|move|p1a: Roserade|Spikes|p2a: Umbreon
+|-sidestart|p2: RaichuReturns|Spikes
+|
+|-heal|p2a: Umbreon|58/100|[from] move: Wish|[wisher] Umbreon
+|-heal|p2a: Umbreon|64/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|choice|move sludgebomb|move foulplay
+|
+|move|p1a: Roserade|Sludge Bomb|p2a: Umbreon
+|-damage|p2a: Umbreon|47/100
+|move|p2a: Umbreon|Foul Play|p1a: Roserade
+|-damage|p1a: Roserade|71/100
+|
+|-heal|p1a: Roserade|78/100|[from] item: Black Sludge
+|-heal|p2a: Umbreon|53/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|choice|move sludgebomb|move wish
+|
+|move|p1a: Roserade|Sludge Bomb|p2a: Umbreon
+|-damage|p2a: Umbreon|33/100
+|move|p2a: Umbreon|Wish|p2a: Umbreon
+|
+|-heal|p1a: Roserade|84/100|[from] item: Black Sludge
+|-heal|p2a: Umbreon|39/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|choice|move spikes|move foulplay
+|
+|move|p1a: Roserade|Spikes|p2a: Umbreon
+|-sidestart|p2: RaichuReturns|Spikes
+|move|p2a: Umbreon|Foul Play|p1a: Roserade
+|-damage|p1a: Roserade|55/100
+|
+|-heal|p2a: Umbreon|89/100|[from] move: Wish|[wisher] Umbreon
+|-heal|p1a: Roserade|61/100|[from] item: Black Sludge
+|-heal|p2a: Umbreon|95/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|choice|move gigadrain|move foulplay
+|
+|move|p1a: Roserade|Giga Drain|p2a: Umbreon
+|-damage|p2a: Umbreon|79/100
+|-heal|p1a: Roserade|70/100|[from] drain|[of] p2a: Umbreon
+|move|p2a: Umbreon|Foul Play|p1a: Roserade
+|-damage|p1a: Roserade|44/100
+|
+|-heal|p1a: Roserade|51/100|[from] item: Black Sludge
+|-heal|p2a: Umbreon|85/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|choice|move gigadrain|move foulplay
+|
+|move|p1a: Roserade|Giga Drain|p2a: Umbreon
+|-damage|p2a: Umbreon|70/100
+|-heal|p1a: Roserade|60/100|[from] drain|[of] p2a: Umbreon
+|move|p2a: Umbreon|Foul Play|p1a: Roserade
+|-crit|p1a: Roserade
+|-damage|p1a: Roserade|20/100
+|
+|-heal|p1a: Roserade|27/100|[from] item: Black Sludge
+|-heal|p2a: Umbreon|76/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|choice|move gigadrain|move foulplay
+|
+|move|p1a: Roserade|Giga Drain|p2a: Umbreon
+|-damage|p2a: Umbreon|59/100
+|-heal|p1a: Roserade|37/100|[from] drain|[of] p2a: Umbreon
+|move|p2a: Umbreon|Foul Play|p1a: Roserade
+|-damage|p1a: Roserade|8/100
+|
+|-heal|p1a: Roserade|14/100|[from] item: Black Sludge
+|-heal|p2a: Umbreon|65/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|choice|move gigadrain|move foulplay
+|
+|move|p1a: Roserade|Giga Drain|p2a: Umbreon
+|-crit|p2a: Umbreon
+|-damage|p2a: Umbreon|43/100
+|-heal|p1a: Roserade|27/100|[from] drain|[of] p2a: Umbreon
+|move|p2a: Umbreon|Foul Play|p1a: Roserade
+|-damage|p1a: Roserade|0 fnt
+|faint|p1a: Roserade
+|
+|win|RaichuReturns

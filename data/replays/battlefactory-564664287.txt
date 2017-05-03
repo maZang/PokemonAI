@@ -1,0 +1,213 @@
+|j|LordVendetta ͜..
+|j|El Nuv de PA!
+|player|p1|LordVendetta ͜..|265
+|player|p2|El Nuv de PA!|249
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|2653,40422,23440,44698,21228,34517,1295,60557,45044,57668,33119,64922
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Tyranitar, M|item
+|poke|p1|Dialga|item
+|poke|p1|Mawile, M|item
+|poke|p1|Mewtwo|item
+|poke|p1|Arceus-*|item
+|poke|p1|Groudon|item
+|poke|p2|Arceus-*|item
+|poke|p2|Deoxys|item
+|poke|p2|Mawile, M|item
+|poke|p2|Latias, F|item
+|poke|p2|Groudon|item
+|poke|p2|Zekrom|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|c|☆El Nuv de PA!|Ubers (?)
+|c|☆LordVendetta ͜..|ubers JAJAJAJAJAJJAJA
+|c|☆El Nuv de PA!|¿Y DONDE ESTA MI PHEROMOSA?
+|c|☆LordVendetta ͜..|JAJAJA
+|choice|team 5, team 2, team 3, team 4, team 1, team 6|team 2, team 1, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Arceus|Arceus-Ground|100/100
+|switch|p2a: Deoxys|Deoxys|100/100
+|-ability|p2a: Deoxys|Pressure
+|turn|1
+|choice|move swordsdance|move stealthrock
+|
+|move|p2a: Deoxys|Stealth Rock|p1a: Arceus
+|-sidestart|p1: LordVendetta ͜..|move: Stealth Rock
+|move|p1a: Arceus|Swords Dance|p1a: Arceus
+|-boost|p1a: Arceus|atk|2
+|
+|upkeep
+|turn|2
+|choice|move swordsdance|move psychoboost
+|
+|move|p2a: Deoxys|Psycho Boost|p1a: Arceus
+|-damage|p1a: Arceus|39/100
+|-unboost|p2a: Deoxys|spa|2
+|move|p1a: Arceus|Swords Dance|p1a: Arceus
+|-boost|p1a: Arceus|atk|2
+|
+|upkeep
+|turn|3
+|choice|move earthquake|move psychoboost
+|
+|move|p2a: Deoxys|Psycho Boost|p1a: Arceus
+|-damage|p1a: Arceus|8/100
+|-unboost|p2a: Deoxys|spa|2
+|move|p1a: Arceus|Earthquake|p2a: Deoxys
+|-enditem|p2a: Deoxys|Focus Sash
+|-damage|p2a: Deoxys|1/100
+|
+|upkeep
+|turn|4
+|choice|move recover|move psychoboost
+|
+|move|p2a: Deoxys|Psycho Boost|p1a: Arceus
+|-damage|p1a: Arceus|0 fnt
+|-unboost|p2a: Deoxys|spa|2
+|faint|p1a: Arceus
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Dialga|Dialga|100/100
+|-damage|p1a: Dialga|94/100|[from] Stealth Rock
+|-ability|p1a: Dialga|Pressure
+|turn|5
+|choice|move flashcannon|move spikes
+|
+|move|p2a: Deoxys|Spikes|p1a: Dialga
+|-sidestart|p1: LordVendetta ͜..|Spikes
+|move|p1a: Dialga|Flash Cannon|p2a: Deoxys
+|-damage|p2a: Deoxys|0 fnt
+|faint|p2a: Deoxys
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Groudon|Groudon|100/100
+|detailschange|p2a: Groudon|Groudon-Primal
+|-primal|p2a: Groudon
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p2a: Groudon
+|turn|6
+|choice|switch 6|move rockpolish
+|
+|switch|p1a: Groudon|Groudon|100/100
+|-damage|p1a: Groudon|88/100|[from] Spikes
+|-damage|p1a: Groudon|82/100|[from] Stealth Rock
+|detailschange|p1a: Groudon|Groudon-Primal
+|-primal|p1a: Groudon
+|move|p2a: Groudon|Rock Polish|p2a: Groudon
+|-boost|p2a: Groudon|spe|2
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|7
+|choice|move rest|move precipiceblades
+|
+|move|p2a: Groudon|Precipice Blades|p1a: Groudon
+|-supereffective|p1a: Groudon
+|-damage|p1a: Groudon|0 fnt
+|faint|p1a: Groudon
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-damage|p1a: Tyranitar|88/100|[from] Stealth Rock
+|-damage|p1a: Tyranitar|76/100|[from] Spikes
+|-ability|p1a: Tyranitar|Sand Stream|[from] desolateland|[fail]
+|turn|8
+|choice|move rockslide|move precipiceblades
+|
+|move|p2a: Groudon|Precipice Blades|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Mewtwo|Mewtwo|100/100
+|-damage|p1a: Mewtwo|88/100|[from] Stealth Rock
+|-damage|p1a: Mewtwo|76/100|[from] Spikes
+|-ability|p1a: Mewtwo|Pressure
+|turn|9
+|c|☆El Nuv de PA!|Miutu
+|choice|move psystrike|move precipiceblades
+|
+|move|p2a: Groudon|Precipice Blades|p1a: Mewtwo
+|-damage|p1a: Mewtwo|0 fnt
+|faint|p1a: Mewtwo
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|c|☆LordVendetta ͜..|K BERGA
+|choice|switch 3|
+|
+|switch|p1a: Mawile|Mawile, M|100/100
+|-damage|p1a: Mawile|95/100|[from] Stealth Rock
+|-damage|p1a: Mawile|82/100|[from] Spikes
+|-ability|p1a: Mawile|Intimidate|boost
+|-unboost|p2a: Groudon|atk|1
+|turn|10
+|c|☆LordVendetta ͜..|MEJOR HUBIRA IDO A VER AL CHANFLE XD
+|choice|move suckerpunch mega|move swordsdance
+|
+|detailschange|p1a: Mawile|Mawile-Mega, M
+|-mega|p1a: Mawile|Mawile|Mawilite
+|move|p1a: Mawile|Sucker Punch|p2a: Groudon|[still]
+|-fail|p1a: Mawile
+|move|p2a: Groudon|Swords Dance|p2a: Groudon
+|-boost|p2a: Groudon|atk|2
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|11
+|c|☆El Nuv de PA!|JAJAJAJAA
+|choice|move playrough|move precipiceblades
+|
+|move|p2a: Groudon|Precipice Blades|p1a: Mawile|[miss]
+|-miss|p2a: Groudon|p1a: Mawile
+|move|p1a: Mawile|Play Rough|p2a: Groudon
+|-resisted|p2a: Groudon
+|-damage|p2a: Groudon|75/100
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|12
+|c|☆El Nuv de PA!|:V
+|choice|move playrough|move precipiceblades
+|
+|move|p2a: Groudon|Precipice Blades|p1a: Mawile
+|-supereffective|p1a: Mawile
+|-damage|p1a: Mawile|0 fnt
+|faint|p1a: Mawile
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Dialga|Dialga|94/100
+|-damage|p1a: Dialga|88/100|[from] Stealth Rock
+|-damage|p1a: Dialga|76/100|[from] Spikes
+|-ability|p1a: Dialga|Pressure
+|turn|13
+|choice|move dracometeor|move precipiceblades
+|
+|move|p2a: Groudon|Precipice Blades|p1a: Dialga
+|-supereffective|p1a: Dialga
+|-enditem|p1a: Dialga|Shuca Berry|[eat]
+|-enditem|p1a: Dialga|Shuca Berry|[weaken]
+|-damage|p1a: Dialga|0 fnt
+|faint|p1a: Dialga
+|
+|win|El Nuv de PA!
+|c|☆El Nuv de PA!|Ni con la baya :v
+|c|☆LordVendetta ͜..|OTRA XD

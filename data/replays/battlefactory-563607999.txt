@@ -1,0 +1,367 @@
+|j|garyM0F0oak
+|j|trreecko
+|player|p1|garyM0F0oak|161
+|player|p2|trreecko|2
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|16286,43099,44436,30786,28058,56057,14487,21889,60272,62802,28367,45869
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Pawniard, M|item
+|poke|p1|Chatot, M|item
+|poke|p1|Audino, M|item
+|poke|p1|Camerupt, M|item
+|poke|p1|Rotom-Frost|item
+|poke|p1|Raichu, M|item
+|poke|p2|Stunfisk, M|item
+|poke|p2|Dodrio, M|item
+|poke|p2|Floatzel, M|item
+|poke|p2|Regice|item
+|poke|p2|Arbok, M|item
+|poke|p2|Vibrava, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 2, team 1, team 3, team 4, team 5, team 6|team 1, team 2, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Chatot|Chatot, M|100/100
+|switch|p2a: Stunfisk|Stunfisk, M|100/100
+|turn|1
+|choice|move boomburst|move discharge
+|
+|move|p1a: Chatot|Boomburst|p2a: Stunfisk
+|-damage|p2a: Stunfisk|38/100
+|move|p2a: Stunfisk|Discharge|p1a: Chatot
+|-supereffective|p1a: Chatot
+|-damage|p1a: Chatot|4/100
+|
+|-heal|p2a: Stunfisk|44/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|choice|move boomburst|move protect
+|
+|move|p2a: Stunfisk|Protect|p2a: Stunfisk
+|-singleturn|p2a: Stunfisk|Protect
+|move|p1a: Chatot|Boomburst|p2a: Stunfisk
+|-activate|p2a: Stunfisk|move: Protect
+|
+|-heal|p2a: Stunfisk|50/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|choice|move boomburst|move stealthrock
+|
+|move|p1a: Chatot|Boomburst|p2a: Stunfisk
+|-damage|p2a: Stunfisk|0 fnt
+|faint|p2a: Stunfisk
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Floatzel|Floatzel, M|100/100
+|turn|4
+|choice|switch 5|move surf
+|
+|switch|p1a: Rotom|Rotom-Frost|100/100
+|move|p2a: Floatzel|Surf|p1a: Rotom
+|-damage|p1a: Rotom|47/100
+|
+|upkeep
+|turn|5
+|choice|move thunderbolt|move surf
+|
+|move|p2a: Floatzel|Surf|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Raichu|Raichu, M|100/100
+|turn|6
+|choice|move thunderbolt|switch 6
+|
+|switch|p2a: Vibrava|Vibrava, M|100/100
+|move|p1a: Raichu|Thunderbolt|p2a: Vibrava
+|-immune|p2a: Vibrava|[msg]
+|
+|upkeep
+|turn|7
+|choice|switch 5|move earthquake
+|
+|switch|p1a: Chatot|Chatot, M|4/100
+|move|p2a: Vibrava|Earthquake|p1a: Chatot
+|-immune|p1a: Chatot|[msg]
+|
+|upkeep
+|turn|8
+|choice|move boomburst|move uturn
+|
+|move|p1a: Chatot|Boomburst|p2a: Vibrava
+|-damage|p2a: Vibrava|20/100
+|move|p2a: Vibrava|U-turn|p1a: Chatot
+|-resisted|p1a: Chatot
+|-damage|p1a: Chatot|0 fnt
+|faint|p1a: Chatot
+|choice||switch 4
+|
+|switch|p2a: Regice|Regice|100/100
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Camerupt|Camerupt, M|100/100
+|turn|9
+|choice|move stealthrock|switch 4
+|
+|switch|p2a: Vibrava|Vibrava, M|20/100
+|move|p1a: Camerupt|Stealth Rock|p2a: Vibrava
+|-sidestart|p2: trreecko|move: Stealth Rock
+|
+|upkeep
+|turn|10
+|choice|move lavaplume|move defog
+|
+|move|p2a: Vibrava|Defog|p1a: Camerupt
+|-unboost|p1a: Camerupt|evasion|1
+|-sideend|p2: trreecko|Stealth Rock|[from] move: Defog|[of] p2a: Vibrava
+|move|p1a: Camerupt|Lava Plume|p2a: Vibrava
+|-resisted|p2a: Vibrava
+|-damage|p2a: Vibrava|8/100
+|
+|upkeep
+|turn|11
+|choice|move stealthrock|move roost
+|
+|move|p2a: Vibrava|Roost|p2a: Vibrava
+|-heal|p2a: Vibrava|58/100
+|move|p1a: Camerupt|Stealth Rock|p2a: Vibrava
+|-sidestart|p2: trreecko|move: Stealth Rock
+|
+|upkeep
+|turn|12
+|choice|move toxic|move defog
+|
+|move|p2a: Vibrava|Defog|p1a: Camerupt
+|-unboost|p1a: Camerupt|evasion|1
+|-sideend|p2: trreecko|Stealth Rock|[from] move: Defog|[of] p2a: Vibrava
+|move|p1a: Camerupt|Toxic|p2a: Vibrava
+|-status|p2a: Vibrava|tox
+|
+|-damage|p2a: Vibrava|52/100 tox|[from] psn
+|upkeep
+|turn|13
+|choice|move stealthrock|move earthquake
+|
+|move|p2a: Vibrava|Earthquake|p1a: Camerupt
+|-supereffective|p1a: Camerupt
+|-damage|p1a: Camerupt|49/100
+|move|p1a: Camerupt|Stealth Rock|p2a: Vibrava
+|-sidestart|p2: trreecko|move: Stealth Rock
+|
+|-heal|p1a: Camerupt|55/100|[from] item: Leftovers
+|-damage|p2a: Vibrava|40/100 tox|[from] psn
+|upkeep
+|turn|14
+|choice|move lavaplume|move defog
+|
+|move|p2a: Vibrava|Defog|p1a: Camerupt
+|-unboost|p1a: Camerupt|evasion|1
+|-sideend|p2: trreecko|Stealth Rock|[from] move: Defog|[of] p2a: Vibrava
+|move|p1a: Camerupt|Lava Plume|p2a: Vibrava
+|-resisted|p2a: Vibrava
+|-damage|p2a: Vibrava|29/100 tox
+|
+|-heal|p1a: Camerupt|61/100|[from] item: Leftovers
+|-damage|p2a: Vibrava|11/100 tox|[from] psn
+|upkeep
+|turn|15
+|choice|move stealthrock|move earthquake
+|
+|move|p2a: Vibrava|Earthquake|p1a: Camerupt
+|-supereffective|p1a: Camerupt
+|-damage|p1a: Camerupt|8/100
+|move|p1a: Camerupt|Stealth Rock|p2a: Vibrava
+|-sidestart|p2: trreecko|move: Stealth Rock
+|
+|-heal|p1a: Camerupt|14/100|[from] item: Leftovers
+|-damage|p2a: Vibrava|0 fnt|[from] psn
+|upkeep
+|faint|p2a: Vibrava
+|choice||switch 4
+|
+|switch|p2a: Regice|Regice|100/100
+|-damage|p2a: Regice|76/100|[from] Stealth Rock
+|turn|16
+|choice|move lavaplume|move icebeam
+|
+|move|p2a: Regice|Ice Beam|p1a: Camerupt
+|-damage|p1a: Camerupt|0 fnt
+|-damage|p2a: Regice|66/100|[from] item: Life Orb
+|faint|p1a: Camerupt
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Pawniard|Pawniard, M|100/100
+|turn|17
+|choice|move ironhead|move focusblast
+|
+|move|p1a: Pawniard|Iron Head|p2a: Regice
+|-supereffective|p2a: Regice
+|-damage|p2a: Regice|0 fnt
+|faint|p2a: Regice
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Floatzel|Floatzel, M|100/100
+|-damage|p2a: Floatzel|88/100|[from] Stealth Rock
+|turn|18
+|choice|move knockoff|move hydropump
+|
+|move|p2a: Floatzel|Hydro Pump|p1a: Pawniard
+|-damage|p1a: Pawniard|11/100
+|move|p1a: Pawniard|Knock Off|p2a: Floatzel
+|-damage|p2a: Floatzel|15/100
+|-enditem|p2a: Floatzel|Choice Scarf|[from] move: Knock Off|[of] p1a: Pawniard
+|
+|upkeep
+|turn|19
+|choice|move suckerpunch|move surf
+|
+|move|p1a: Pawniard|Sucker Punch|p2a: Floatzel
+|-damage|p2a: Floatzel|0 fnt
+|faint|p2a: Floatzel
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Dodrio|Dodrio, M|100/100
+|-damage|p2a: Dodrio|76/100|[from] Stealth Rock
+|turn|20
+|choice|move suckerpunch|move return
+|
+|move|p1a: Pawniard|Sucker Punch|p2a: Dodrio
+|-damage|p2a: Dodrio|17/100
+|move|p2a: Dodrio|Return|p1a: Pawniard
+|-resisted|p1a: Pawniard
+|-crit|p1a: Pawniard
+|-damage|p1a: Pawniard|0 fnt
+|faint|p1a: Pawniard
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Audino|Audino, M|100/100
+|turn|21
+|choice|move knockoff|move return
+|
+|move|p2a: Dodrio|Return|p1a: Audino
+|-damage|p1a: Audino|37/100
+|move|p1a: Audino|Knock Off|p2a: Dodrio
+|-damage|p2a: Dodrio|0 fnt
+|-enditem|p2a: Dodrio|Choice Band|[from] move: Knock Off|[of] p1a: Audino
+|faint|p2a: Dodrio
+|
+|-heal|p1a: Audino|43/100|[from] item: Leftovers
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Arbok|Arbok, M|100/100
+|-damage|p2a: Arbok|88/100|[from] Stealth Rock
+|-ability|p2a: Arbok|Intimidate|boost
+|-unboost|p1a: Audino|atk|1
+|turn|22
+|choice|move protect|move coil
+|
+|move|p1a: Audino|Protect|p1a: Audino
+|-singleturn|p1a: Audino|Protect
+|move|p2a: Arbok|Coil|p2a: Arbok
+|-boost|p2a: Arbok|atk|1
+|-boost|p2a: Arbok|def|1
+|-boost|p2a: Arbok|accuracy|1
+|
+|-heal|p2a: Arbok|94/100|[from] item: Black Sludge
+|-heal|p1a: Audino|49/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|choice|move encore|move coil
+|
+|move|p2a: Arbok|Coil|p2a: Arbok
+|-boost|p2a: Arbok|atk|1
+|-boost|p2a: Arbok|def|1
+|-boost|p2a: Arbok|accuracy|1
+|move|p1a: Audino|Encore|p2a: Arbok
+|-start|p2a: Arbok|Encore
+|
+|-heal|p2a: Arbok|100/100|[from] item: Black Sludge
+|-heal|p1a: Audino|55/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|choice|move knockoff|move coil
+|
+|move|p2a: Arbok|Coil|p2a: Arbok
+|-boost|p2a: Arbok|atk|1
+|-boost|p2a: Arbok|def|1
+|-boost|p2a: Arbok|accuracy|1
+|move|p1a: Audino|Knock Off|p2a: Arbok
+|-damage|p2a: Arbok|93/100
+|-enditem|p2a: Arbok|Black Sludge|[from] move: Knock Off|[of] p1a: Audino
+|
+|-heal|p1a: Audino|61/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|choice|switch 5|move coil
+|
+|switch|p1a: Raichu|Raichu, M|100/100
+|move|p2a: Arbok|Coil|p2a: Arbok
+|-boost|p2a: Arbok|atk|1
+|-boost|p2a: Arbok|def|1
+|-boost|p2a: Arbok|accuracy|1
+|
+|upkeep
+|turn|26
+|choice|move thunderbolt|move coil
+|
+|move|p1a: Raichu|Thunderbolt|p2a: Arbok
+|-damage|p2a: Arbok|17/100
+|-damage|p1a: Raichu|91/100|[from] item: Life Orb
+|move|p2a: Arbok|Coil|p2a: Arbok
+|-boost|p2a: Arbok|atk|1
+|-boost|p2a: Arbok|def|1
+|-boost|p2a: Arbok|accuracy|1
+|
+|-end|p2a: Arbok|Encore
+|upkeep
+|turn|27
+|choice|move thunderbolt|move suckerpunch
+|
+|move|p2a: Arbok|Sucker Punch|p1a: Raichu
+|-damage|p1a: Raichu|0 fnt
+|faint|p1a: Raichu
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Audino|Audino, M|94/100
+|turn|28
+|choice|move protect|move gunkshot
+|
+|move|p1a: Audino|Protect|p1a: Audino
+|-singleturn|p1a: Audino|Protect
+|move|p2a: Arbok|Gunk Shot|p1a: Audino
+|-activate|p1a: Audino|move: Protect
+|
+|-heal|p1a: Audino|99/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|choice|move knockoff|move gunkshot
+|
+|move|p2a: Arbok|Gunk Shot|p1a: Audino
+|-damage|p1a: Audino|0 fnt
+|faint|p1a: Audino
+|
+|win|trreecko

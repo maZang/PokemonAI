@@ -1,0 +1,302 @@
+|j|TvdimaisTv
+|j|Mostarda123
+|player|p1|TvdimaisTv|169
+|player|p2|Mostarda123|1
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|65240,63374,3684,33698,41426,13138,56018,31020,64949,14457,47468,63930
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Mr. Mime, M|item
+|poke|p1|Vibrava, M|item
+|poke|p1|Rampardos, M|item
+|poke|p1|Purugly, M|item
+|poke|p1|Simisear, M|item
+|poke|p1|Murkrow, M|item
+|poke|p2|Rapidash, M|item
+|poke|p2|Camerupt, M|item
+|poke|p2|Murkrow, M|item
+|poke|p2|Gorebyss, M|item
+|poke|p2|Zebstrika, M|item
+|poke|p2|Stunfisk, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 2, team 1, team 3, team 4, team 5, team 6|team 6, team 2, team 3, team 4, team 5, team 1
+|
+|start
+|switch|p1a: Vibrava|Vibrava, M|100/100
+|switch|p2a: Stunfisk|Stunfisk, M|100/100
+|turn|1
+|choice|move earthquake|move protect
+|
+|move|p2a: Stunfisk|Protect|p2a: Stunfisk
+|-singleturn|p2a: Stunfisk|Protect
+|move|p1a: Vibrava|Earthquake|p2a: Stunfisk
+|-activate|p2a: Stunfisk|move: Protect
+|
+|upkeep
+|turn|2
+|choice|move defog|move discharge
+|
+|move|p1a: Vibrava|Defog|p2a: Stunfisk
+|-unboost|p2a: Stunfisk|evasion|1
+|move|p2a: Stunfisk|Discharge|p1a: Vibrava
+|-immune|p1a: Vibrava|[msg]
+|
+|upkeep
+|turn|3
+|choice|move earthquake|move stealthrock
+|
+|move|p1a: Vibrava|Earthquake|p2a: Stunfisk
+|-supereffective|p2a: Stunfisk
+|-damage|p2a: Stunfisk|69/100
+|move|p2a: Stunfisk|Stealth Rock|p1a: Vibrava
+|-sidestart|p1: TvdimaisTv|move: Stealth Rock
+|
+|-heal|p2a: Stunfisk|75/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|choice|move earthquake|move earthpower
+|
+|move|p1a: Vibrava|Earthquake|p2a: Stunfisk
+|-supereffective|p2a: Stunfisk
+|-damage|p2a: Stunfisk|40/100
+|move|p2a: Stunfisk|Earth Power|p1a: Vibrava
+|-immune|p1a: Vibrava|[msg]|[from] ability: Levitate
+|
+|-heal|p2a: Stunfisk|46/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|choice|move earthquake|move protect
+|
+|move|p2a: Stunfisk|Protect|p2a: Stunfisk
+|-singleturn|p2a: Stunfisk|Protect
+|move|p1a: Vibrava|Earthquake|p2a: Stunfisk
+|-activate|p2a: Stunfisk|move: Protect
+|
+|-heal|p2a: Stunfisk|53/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|choice|move uturn|switch 3
+|
+|switch|p2a: Murkrow|Murkrow, M|100/100
+|move|p1a: Vibrava|U-turn|p2a: Murkrow
+|-damage|p2a: Murkrow|67/100
+|choice|switch 6|
+|
+|switch|p1a: Murkrow|Murkrow, M|100/100
+|-damage|p1a: Murkrow|76/100|[from] Stealth Rock
+|
+|upkeep
+|turn|7
+|choice|move suckerpunch|move suckerpunch
+|
+|move|p1a: Murkrow|Sucker Punch|p2a: Murkrow
+|-resisted|p2a: Murkrow
+|-damage|p2a: Murkrow|14/100
+|-damage|p1a: Murkrow|66/100|[from] item: Life Orb
+|move|p2a: Murkrow|Sucker Punch|p1a: Murkrow|[still]
+|-fail|p2a: Murkrow
+|
+|upkeep
+|turn|8
+|choice|move pursuit|move bravebird
+|
+|move|p1a: Murkrow|Pursuit|p2a: Murkrow
+|-resisted|p2a: Murkrow
+|-damage|p2a: Murkrow|0 fnt
+|-damage|p1a: Murkrow|56/100|[from] item: Life Orb
+|faint|p2a: Murkrow
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Stunfisk|Stunfisk, M|53/100
+|turn|9
+|choice|move suckerpunch|move protect
+|
+|move|p2a: Stunfisk|Protect|p2a: Stunfisk
+|-singleturn|p2a: Stunfisk|Protect
+|move|p1a: Murkrow|Sucker Punch|p2a: Stunfisk|[still]
+|-fail|p1a: Murkrow
+|
+|-heal|p2a: Stunfisk|59/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|choice|move suckerpunch|switch 2
+|
+|switch|p2a: Camerupt|Camerupt, M|100/100
+|move|p1a: Murkrow|Sucker Punch|p2a: Camerupt|[still]
+|-fail|p1a: Murkrow
+|
+|upkeep
+|turn|11
+|choice|move bravebird|move toxic
+|
+|move|p1a: Murkrow|Brave Bird|p2a: Camerupt
+|-damage|p2a: Camerupt|16/100
+|-damage|p1a: Murkrow|19/100|[from] recoil|[of] p2a: Camerupt
+|-damage|p1a: Murkrow|9/100|[from] item: Life Orb
+|move|p2a: Camerupt|Toxic|p1a: Murkrow
+|-status|p1a: Murkrow|tox
+|
+|-heal|p2a: Camerupt|23/100|[from] item: Leftovers
+|-damage|p1a: Murkrow|3/100 tox|[from] psn
+|upkeep
+|turn|12
+|choice|move suckerpunch|move earthpower
+|
+|move|p1a: Murkrow|Sucker Punch|p2a: Camerupt
+|-damage|p2a: Camerupt|0 fnt
+|-damage|p1a: Murkrow|0 fnt|[from] item: Life Orb
+|faint|p2a: Camerupt
+|faint|p1a: Murkrow
+|
+|upkeep
+|choice|switch 2|switch 5
+|
+|switch|p2a: Zebstrika|Zebstrika, M|100/100
+|switch|p1a: Mr. Mime|Mr. Mime, M|100/100
+|-damage|p1a: Mr. Mime|88/100|[from] Stealth Rock
+|turn|13
+|choice|move psychic|move voltswitch
+|
+|move|p2a: Zebstrika|Volt Switch|p1a: Mr. Mime
+|-damage|p1a: Mr. Mime|46/100
+|-damage|p2a: Zebstrika|91/100|[from] item: Life Orb
+|choice||switch 2
+|
+|switch|p2a: Stunfisk|Stunfisk, M|59/100
+|move|p1a: Mr. Mime|Psychic|p2a: Stunfisk
+|-damage|p2a: Stunfisk|9/100
+|-unboost|p2a: Stunfisk|spd|1
+|
+|-heal|p2a: Stunfisk|15/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|choice|switch 6|move protect
+|
+|switch|p1a: Vibrava|Vibrava, M|100/100
+|-damage|p1a: Vibrava|95/100|[from] Stealth Rock
+|move|p2a: Stunfisk|Protect|p2a: Stunfisk
+|-fail|p2a: Stunfisk
+|
+|-heal|p2a: Stunfisk|21/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|choice|move earthquake|switch 6
+|
+|switch|p2a: Rapidash|Rapidash, M|100/100
+|move|p1a: Vibrava|Earthquake|p2a: Rapidash
+|-supereffective|p2a: Rapidash
+|-damage|p2a: Rapidash|20/100
+|
+|upkeep
+|turn|16
+|choice|move earthquake|move morningsun
+|
+|move|p2a: Rapidash|Morning Sun|p2a: Rapidash
+|-heal|p2a: Rapidash|70/100
+|move|p1a: Vibrava|Earthquake|p2a: Rapidash
+|-supereffective|p2a: Rapidash
+|-damage|p2a: Rapidash|0 fnt
+|faint|p2a: Rapidash
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Gorebyss|Gorebyss, M|100/100
+|turn|17
+|choice|move uturn|move shellsmash
+|
+|move|p2a: Gorebyss|Shell Smash|p2a: Gorebyss
+|-unboost|p2a: Gorebyss|def|1
+|-unboost|p2a: Gorebyss|spd|1
+|-boost|p2a: Gorebyss|atk|2
+|-boost|p2a: Gorebyss|spa|2
+|-boost|p2a: Gorebyss|spe|2
+|-enditem|p2a: Gorebyss|White Herb
+|-clearnegativeboost|p2a: Gorebyss|[silent]
+|move|p1a: Vibrava|U-turn|p2a: Gorebyss
+|-damage|p2a: Gorebyss|86/100
+|choice|switch 4|
+|
+|switch|p1a: Purugly|Purugly, M|100/100
+|-damage|p1a: Purugly|88/100|[from] Stealth Rock
+|
+|upkeep
+|turn|18
+|choice|move fakeout|move icebeam
+|
+|move|p1a: Purugly|Fake Out|p2a: Gorebyss
+|-damage|p2a: Gorebyss|61/100
+|-damage|p1a: Purugly|78/100|[from] item: Life Orb
+|cant|p2a: Gorebyss|flinch
+|
+|upkeep
+|turn|19
+|choice|move suckerpunch|move icebeam
+|
+|move|p1a: Purugly|Sucker Punch|p2a: Gorebyss
+|-crit|p2a: Gorebyss
+|-damage|p2a: Gorebyss|9/100
+|-damage|p1a: Purugly|68/100|[from] item: Life Orb
+|move|p2a: Gorebyss|Ice Beam|p1a: Purugly
+|-damage|p1a: Purugly|0 fnt
+|faint|p1a: Purugly
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Mr. Mime|Mr. Mime, M|46/100
+|-damage|p1a: Mr. Mime|34/100|[from] Stealth Rock
+|turn|20
+|choice|move dazzlinggleam|move icebeam
+|
+|move|p2a: Gorebyss|Ice Beam|p1a: Mr. Mime
+|-damage|p1a: Mr. Mime|0 fnt
+|faint|p1a: Mr. Mime
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Rampardos|Rampardos, M|100/100
+|-damage|p1a: Rampardos|88/100|[from] Stealth Rock
+|-ability|p1a: Rampardos|Mold Breaker
+|turn|21
+|choice|move surf|move hydropump
+|
+|move|p2a: Gorebyss|Hydro Pump|p1a: Rampardos
+|-supereffective|p1a: Rampardos
+|-damage|p1a: Rampardos|0 fnt
+|faint|p1a: Rampardos
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Simisear|Simisear, M|100/100
+|-damage|p1a: Simisear|75/100|[from] Stealth Rock
+|turn|22
+|choice|move fireblast|move hydropump
+|
+|move|p2a: Gorebyss|Hydro Pump|p1a: Simisear
+|-supereffective|p1a: Simisear
+|-damage|p1a: Simisear|0 fnt
+|faint|p1a: Simisear
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Vibrava|Vibrava, M|95/100
+|-damage|p1a: Vibrava|89/100|[from] Stealth Rock
+|turn|23
+|choice|move roost|move icebeam
+|
+|move|p2a: Gorebyss|Ice Beam|p1a: Vibrava
+|-supereffective|p1a: Vibrava
+|-damage|p1a: Vibrava|0 fnt
+|faint|p1a: Vibrava
+|
+|win|Mostarda123

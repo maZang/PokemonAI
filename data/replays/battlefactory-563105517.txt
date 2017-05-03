@@ -1,0 +1,785 @@
+|j|potato25
+|j|xdcgfhvgbhnm
+|player|p1|potato25|101
+|player|p2|xdcgfhvgbhnm|170
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|47542,9129,34422,62664,52735,51311,4219,63819,21843,25221,20961,11775
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Rotom-Wash|item
+|poke|p1|Chansey, F|item
+|poke|p1|Mew|item
+|poke|p1|Slowbro, M|item
+|poke|p1|Dragonite, M|item
+|poke|p1|Heatran, M|item
+|poke|p2|Thundurus, M|item
+|poke|p2|Altaria, M|item
+|poke|p2|Skarmory, M|item
+|poke|p2|Garchomp, M|item
+|poke|p2|Celebi|item
+|poke|p2|Jirachi|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 1, team 2, team 3, team 4, team 5, team 6|team 1, team 2, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|switch|p2a: Thundurus|Thundurus, M|100/100
+|turn|1
+|choice|switch 2|move nastyplot
+|
+|switch|p1a: Chansey|Chansey, F|100/100
+|move|p2a: Thundurus|Nasty Plot|p2a: Thundurus
+|-boost|p2a: Thundurus|spa|2
+|
+|upkeep
+|turn|2
+|choice|move seismictoss|move focusblast
+|
+|move|p2a: Thundurus|Focus Blast|p1a: Chansey
+|-supereffective|p1a: Chansey
+|-damage|p1a: Chansey|54/100
+|move|p1a: Chansey|Seismic Toss|p2a: Thundurus
+|-damage|p2a: Thundurus|67/100
+|
+|-heal|p2a: Thundurus|73/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|choice|move softboiled|move nastyplot
+|
+|move|p2a: Thundurus|Nasty Plot|p2a: Thundurus
+|-boost|p2a: Thundurus|spa|2
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|100/100
+|
+|-heal|p2a: Thundurus|79/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|choice|move seismictoss|move thunderbolt
+|
+|move|p2a: Thundurus|Thunderbolt|p1a: Chansey
+|-damage|p1a: Chansey|60/100
+|-status|p1a: Chansey|par
+|move|p1a: Chansey|Seismic Toss|p2a: Thundurus
+|-damage|p2a: Thundurus|46/100
+|
+|-heal|p2a: Thundurus|52/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|choice|move seismictoss|move thunderbolt
+|
+|move|p2a: Thundurus|Thunderbolt|p1a: Chansey
+|-damage|p1a: Chansey|23/100 par
+|move|p1a: Chansey|Seismic Toss|p2a: Thundurus
+|-damage|p2a: Thundurus|18/100
+|
+|-heal|p2a: Thundurus|24/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|choice|move seismictoss|move thunderbolt
+|
+|move|p2a: Thundurus|Thunderbolt|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|
+|-heal|p2a: Thundurus|30/100|[from] item: Leftovers
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Dragonite|Dragonite, M|100/100
+|turn|7
+|choice|move extremespeed|switch 3
+|
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|move|p1a: Dragonite|Extreme Speed|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|88/100
+|
+|-heal|p2a: Skarmory|94/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|choice|switch 3|move whirlwind
+|
+|switch|p1a: Mew|Mew|100/100
+|move|p2a: Skarmory|Whirlwind|p1a: Mew
+|drag|p1a: Slowbro|Slowbro, M|100/100
+|
+|-heal|p2a: Skarmory|99/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|choice|move fireblast mega|switch 3
+|
+|switch|p2a: Thundurus|Thundurus, M|30/100
+|detailschange|p1a: Slowbro|Slowbro-Mega, M
+|-mega|p1a: Slowbro|Slowbro|Slowbronite
+|move|p1a: Slowbro|Fire Blast|p2a: Thundurus
+|-damage|p2a: Thundurus|0 fnt
+|faint|p2a: Thundurus
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Celebi|Celebi|100/100
+|turn|10
+|choice|move fireblast|move nastyplot
+|
+|move|p2a: Celebi|Nasty Plot|p2a: Celebi
+|-boost|p2a: Celebi|spa|2
+|move|p1a: Slowbro|Fire Blast|p2a: Celebi|[miss]
+|-miss|p1a: Slowbro|p2a: Celebi
+|
+|upkeep
+|turn|11
+|choice|switch 6|move gigadrain
+|
+|switch|p1a: Heatran|Heatran, M|100/100
+|move|p2a: Celebi|Giga Drain|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|87/100
+|
+|upkeep
+|turn|12
+|choice|move overheat|switch 4
+|
+|switch|p2a: Garchomp|Garchomp, M|100/100
+|move|p1a: Heatran|Overheat|p2a: Garchomp
+|-resisted|p2a: Garchomp
+|-damage|p2a: Garchomp|73/100
+|-unboost|p1a: Heatran|spa|2
+|
+|upkeep
+|turn|13
+|choice|switch 2|move stealthrock
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|move|p2a: Garchomp|Stealth Rock|p1a: Rotom
+|-sidestart|p1: potato25|move: Stealth Rock
+|
+|upkeep
+|turn|14
+|choice|move willowisp|switch 4
+|
+|switch|p2a: Celebi|Celebi|100/100
+|move|p1a: Rotom|Will-O-Wisp|p2a: Celebi
+|-status|p2a: Celebi|brn
+|
+|-damage|p2a: Celebi|88/100 brn|[from] brn
+|upkeep
+|turn|15
+|choice|move voltswitch|move gigadrain
+|
+|move|p2a: Celebi|Giga Drain|p1a: Rotom
+|-supereffective|p1a: Rotom
+|-damage|p1a: Rotom|47/100
+|-heal|p2a: Celebi|100/100 brn|[from] drain|[of] p1a: Rotom
+|move|p1a: Rotom|Volt Switch|p2a: Celebi
+|-resisted|p2a: Celebi
+|-damage|p2a: Celebi|91/100 brn
+|choice|switch 4|
+|
+|switch|p1a: Mew|Mew|100/100
+|-damage|p1a: Mew|88/100|[from] Stealth Rock
+|
+|-heal|p1a: Mew|94/100|[from] item: Leftovers
+|-heal|p2a: Celebi|97/100 brn|[from] item: Leftovers
+|-damage|p2a: Celebi|85/100 brn|[from] brn
+|upkeep
+|turn|16
+|choice|move defog|move nastyplot
+|
+|move|p1a: Mew|Defog|p2a: Celebi
+|-unboost|p2a: Celebi|evasion|1
+|-sideend|p1: potato25|Stealth Rock|[from] move: Defog|[of] p1a: Mew
+|move|p2a: Celebi|Nasty Plot|p2a: Celebi
+|-boost|p2a: Celebi|spa|2
+|
+|-heal|p1a: Mew|100/100|[from] item: Leftovers
+|-heal|p2a: Celebi|91/100 brn|[from] item: Leftovers
+|-damage|p2a: Celebi|78/100 brn|[from] brn
+|upkeep
+|turn|17
+|choice|move knockoff|move gigadrain
+|
+|move|p1a: Mew|Knock Off|p2a: Celebi
+|-supereffective|p2a: Celebi
+|-damage|p2a: Celebi|42/100 brn
+|-enditem|p2a: Celebi|Leftovers|[from] move: Knock Off|[of] p1a: Mew
+|move|p2a: Celebi|Giga Drain|p1a: Mew
+|-damage|p1a: Mew|57/100
+|-heal|p2a: Celebi|64/100 brn|[from] drain|[of] p1a: Mew
+|
+|-heal|p1a: Mew|64/100|[from] item: Leftovers
+|-damage|p2a: Celebi|51/100 brn|[from] brn
+|upkeep
+|turn|18
+|choice|switch 2|move nastyplot
+|
+|switch|p1a: Heatran|Heatran, M|87/100
+|move|p2a: Celebi|Nasty Plot|p2a: Celebi
+|-boost|p2a: Celebi|spa|2
+|
+|-damage|p2a: Celebi|39/100 brn|[from] brn
+|upkeep
+|turn|19
+|choice|move overheat|move gigadrain
+|
+|move|p1a: Heatran|Overheat|p2a: Celebi
+|-supereffective|p2a: Celebi
+|-damage|p2a: Celebi|0 fnt
+|-unboost|p1a: Heatran|spa|2
+|faint|p2a: Celebi
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Altaria|Altaria, M|100/100
+|-ability|p2a: Altaria|Cloud Nine
+|turn|20
+|choice|switch 6|move dragondance mega
+|
+|switch|p1a: Slowbro|Slowbro-Mega, M|100/100
+|detailschange|p2a: Altaria|Altaria-Mega, M
+|-mega|p2a: Altaria|Altaria|Altarianite
+|move|p2a: Altaria|Dragon Dance|p2a: Altaria
+|-boost|p2a: Altaria|atk|1
+|-boost|p2a: Altaria|spe|1
+|
+|upkeep
+|turn|21
+|choice|move psyshock|move return
+|
+|move|p2a: Altaria|Return|p1a: Slowbro
+|-damage|p1a: Slowbro|64/100
+|move|p1a: Slowbro|Psyshock|p2a: Altaria
+|-damage|p2a: Altaria|70/100
+|
+|upkeep
+|turn|22
+|choice|move psyshock|move dragondance
+|
+|move|p2a: Altaria|Dragon Dance|p2a: Altaria
+|-boost|p2a: Altaria|atk|1
+|-boost|p2a: Altaria|spe|1
+|move|p1a: Slowbro|Psyshock|p2a: Altaria
+|-crit|p2a: Altaria
+|-damage|p2a: Altaria|19/100
+|
+|upkeep
+|turn|23
+|choice|move psyshock|move roost
+|
+|move|p2a: Altaria|Roost|p2a: Altaria
+|-heal|p2a: Altaria|70/100
+|move|p1a: Slowbro|Psyshock|p2a: Altaria
+|-damage|p2a: Altaria|36/100
+|
+|upkeep
+|turn|24
+|choice|move psyshock|move roost
+|
+|move|p2a: Altaria|Roost|p2a: Altaria
+|-heal|p2a: Altaria|86/100
+|move|p1a: Slowbro|Psyshock|p2a: Altaria
+|-damage|p2a: Altaria|51/100
+|
+|upkeep
+|turn|25
+|choice|move scald|move roost
+|
+|move|p2a: Altaria|Roost|p2a: Altaria
+|-heal|p2a: Altaria|100/100
+|move|p1a: Slowbro|Scald|p2a: Altaria
+|-resisted|p2a: Altaria
+|-damage|p2a: Altaria|81/100
+|
+|upkeep
+|turn|26
+|choice|move scald|move return
+|
+|move|p2a: Altaria|Return|p1a: Slowbro
+|-damage|p1a: Slowbro|12/100
+|move|p1a: Slowbro|Scald|p2a: Altaria
+|-resisted|p2a: Altaria
+|-damage|p2a: Altaria|63/100
+|-status|p2a: Altaria|brn
+|
+|-damage|p2a: Altaria|51/100 brn|[from] brn
+|upkeep
+|turn|27
+|choice|move psyshock|move healbell
+|
+|move|p2a: Altaria|Heal Bell|p2a: Altaria
+|-activate|p2a: Altaria|move: Heal Bell
+|-curestatus|p2a: Altaria|brn|[msg]
+|move|p1a: Slowbro|Psyshock|p2a: Altaria
+|-damage|p2a: Altaria|17/100
+|
+|upkeep
+|turn|28
+|choice|switch 3|move roost
+|
+|switch|p1a: Dragonite|Dragonite, M|100/100
+|move|p2a: Altaria|Roost|p2a: Altaria
+|-heal|p2a: Altaria|67/100
+|
+|upkeep
+|turn|29
+|choice|move extremespeed|move return
+|
+|move|p1a: Dragonite|Extreme Speed|p2a: Altaria
+|-damage|p2a: Altaria|36/100
+|move|p2a: Altaria|Return|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Heatran|Heatran, M|87/100
+|turn|30
+|choice|move flashcannon|move roost
+|
+|move|p1a: Heatran|Flash Cannon|p2a: Altaria
+|-supereffective|p2a: Altaria
+|-crit|p2a: Altaria
+|-damage|p2a: Altaria|0 fnt
+|faint|p2a: Altaria
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Jirachi|Jirachi|100/100
+|turn|31
+|choice|switch 4|move substitute
+|
+|switch|p1a: Rotom|Rotom-Wash|47/100
+|move|p2a: Jirachi|Substitute|p2a: Jirachi
+|-start|p2a: Jirachi|Substitute
+|-damage|p2a: Jirachi|75/100
+|
+|-heal|p2a: Jirachi|82/100|[from] item: Leftovers
+|-heal|p1a: Rotom|53/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|choice|move voltswitch|move ironhead
+|
+|move|p2a: Jirachi|Iron Head|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|47/100
+|cant|p1a: Rotom|flinch
+|
+|-heal|p2a: Jirachi|88/100|[from] item: Leftovers
+|-heal|p1a: Rotom|53/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|choice|move voltswitch|move toxic
+|
+|move|p2a: Jirachi|Toxic|p1a: Rotom
+|-status|p1a: Rotom|tox
+|move|p1a: Rotom|Volt Switch|p2a: Jirachi
+|-activate|p2a: Jirachi|move: Substitute|[damage]
+|choice|switch 3|
+|
+|switch|p1a: Slowbro|Slowbro-Mega, M|12/100
+|
+|-heal|p2a: Jirachi|94/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|choice|move psyshock|move ironhead
+|
+|move|p2a: Jirachi|Iron Head|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|4/100
+|cant|p1a: Slowbro|flinch
+|
+|-heal|p2a: Jirachi|99/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|choice|move psyshock|move ironhead
+|
+|move|p2a: Jirachi|Iron Head|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|0 fnt
+|faint|p1a: Slowbro
+|
+|-heal|p2a: Jirachi|100/100|[from] item: Leftovers
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Mew|Mew|64/100
+|turn|36
+|choice|move knockoff|move toxic
+|
+|move|p2a: Jirachi|Toxic|p1a: Mew
+|-status|p1a: Mew|tox
+|-activate|p1a: Mew|ability: Synchronize
+|-immune|p2a: Jirachi|[msg]
+|move|p1a: Mew|Knock Off|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-end|p2a: Jirachi|Substitute
+|
+|-heal|p1a: Mew|70/100 tox|[from] item: Leftovers
+|-damage|p1a: Mew|64/100 tox|[from] psn
+|upkeep
+|turn|37
+|choice|switch 4|move substitute
+|
+|switch|p1a: Heatran|Heatran, M|87/100
+|move|p2a: Jirachi|Substitute|p2a: Jirachi
+|-start|p2a: Jirachi|Substitute
+|-damage|p2a: Jirachi|75/100
+|
+|-heal|p2a: Jirachi|82/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|choice|move earthpower|move ironhead
+|
+|move|p1a: Heatran|Earth Power|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-end|p2a: Jirachi|Substitute
+|move|p2a: Jirachi|Iron Head|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|80/100
+|
+|-heal|p2a: Jirachi|88/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|choice|switch 3|switch 3
+|
+|switch|p1a: Rotom|Rotom-Wash|53/100 tox
+|switch|p2a: Skarmory|Skarmory, M|99/100
+|
+|-heal|p1a: Rotom|59/100 tox|[from] item: Leftovers
+|-heal|p2a: Skarmory|100/100|[from] item: Leftovers
+|-damage|p1a: Rotom|53/100 tox|[from] psn
+|upkeep
+|turn|40
+|choice|move willowisp|switch 4
+|
+|switch|p2a: Garchomp|Garchomp, M|73/100
+|move|p1a: Rotom|Will-O-Wisp|p2a: Garchomp
+|-status|p2a: Garchomp|brn
+|
+|-heal|p1a: Rotom|59/100 tox|[from] item: Leftovers
+|-damage|p2a: Garchomp|60/100 brn|[from] brn
+|-damage|p1a: Rotom|47/100 tox|[from] psn
+|upkeep
+|turn|41
+|choice|switch 4|move stealthrock
+|
+|switch|p1a: Mew|Mew|64/100 tox
+|move|p2a: Garchomp|Stealth Rock|p1a: Mew
+|-sidestart|p1: potato25|move: Stealth Rock
+|
+|-heal|p1a: Mew|70/100 tox|[from] item: Leftovers
+|-damage|p1a: Mew|64/100 tox|[from] psn
+|-damage|p2a: Garchomp|48/100 brn|[from] brn
+|upkeep
+|turn|42
+|choice|switch 3|switch 3
+|
+|switch|p1a: Heatran|Heatran, M|80/100
+|-damage|p1a: Heatran|67/100|[from] Stealth Rock
+|switch|p2a: Jirachi|Jirachi|88/100
+|
+|-heal|p2a: Jirachi|94/100|[from] item: Leftovers
+|upkeep
+|turn|43
+|choice|move overheat|switch 4
+|
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|move|p1a: Heatran|Overheat|p2a: Skarmory|[miss]
+|-miss|p1a: Heatran|p2a: Skarmory
+|
+|upkeep
+|turn|44
+|choice|move overheat|move roost
+|
+|move|p1a: Heatran|Overheat|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-ability|p2a: Skarmory|Sturdy
+|-damage|p2a: Skarmory|1/100
+|-unboost|p1a: Heatran|spa|2
+|move|p2a: Skarmory|Roost|p2a: Skarmory
+|-heal|p2a: Skarmory|51/100
+|
+|-heal|p2a: Skarmory|57/100|[from] item: Leftovers
+|upkeep
+|turn|45
+|choice|move overheat|switch 3
+|
+|switch|p2a: Garchomp|Garchomp, M|48/100 brn
+|move|p1a: Heatran|Overheat|p2a: Garchomp|[miss]
+|-miss|p1a: Heatran|p2a: Garchomp
+|
+|-damage|p2a: Garchomp|35/100 brn|[from] brn
+|upkeep
+|turn|46
+|choice|switch 4|move dragontail
+|
+|switch|p1a: Rotom|Rotom-Wash|47/100 tox
+|-damage|p1a: Rotom|34/100 tox|[from] Stealth Rock
+|move|p2a: Garchomp|Dragon Tail|p1a: Rotom
+|-damage|p1a: Rotom|25/100 tox
+|drag|p1a: Mew|Mew|64/100 tox
+|-damage|p1a: Mew|51/100 tox|[from] Stealth Rock
+|
+|-heal|p1a: Mew|57/100 tox|[from] item: Leftovers
+|-damage|p1a: Mew|51/100 tox|[from] psn
+|-damage|p2a: Garchomp|23/100 brn|[from] brn
+|upkeep
+|turn|47
+|choice|move defog|switch 3
+|
+|switch|p2a: Skarmory|Skarmory, M|57/100
+|move|p1a: Mew|Defog|p2a: Skarmory
+|-unboost|p2a: Skarmory|evasion|1
+|-sideend|p1: potato25|Stealth Rock|[from] move: Defog|[of] p1a: Mew
+|
+|-heal|p1a: Mew|57/100 tox|[from] item: Leftovers
+|-heal|p2a: Skarmory|63/100|[from] item: Leftovers
+|-damage|p1a: Mew|45/100 tox|[from] psn
+|upkeep
+|turn|48
+|choice|move willowisp|move bravebird
+|
+|move|p1a: Mew|Will-O-Wisp|p2a: Skarmory
+|-status|p2a: Skarmory|brn
+|move|p2a: Skarmory|Brave Bird|p1a: Mew
+|-damage|p1a: Mew|34/100 tox
+|-damage|p2a: Skarmory|59/100 brn|[from] recoil|[of] p1a: Mew
+|
+|-heal|p1a: Mew|41/100 tox|[from] item: Leftovers
+|-heal|p2a: Skarmory|65/100 brn|[from] item: Leftovers
+|-damage|p1a: Mew|22/100 tox|[from] psn
+|-damage|p2a: Skarmory|52/100 brn|[from] brn
+|upkeep
+|turn|49
+|choice|switch 3|move roost
+|
+|switch|p1a: Rotom|Rotom-Wash|25/100 tox
+|move|p2a: Skarmory|Roost|p2a: Skarmory
+|-heal|p2a: Skarmory|100/100 brn
+|
+|-heal|p1a: Rotom|31/100 tox|[from] item: Leftovers
+|-damage|p1a: Rotom|25/100 tox|[from] psn
+|-damage|p2a: Skarmory|88/100 brn|[from] brn
+|upkeep
+|turn|50
+|choice|move painsplit|move bravebird
+|
+|move|p1a: Rotom|Pain Split|p2a: Skarmory
+|-sethp|p2a: Skarmory|55/100 brn|p1a: Rotom|61/100 tox|[from] move: Pain Split
+|move|p2a: Skarmory|Brave Bird|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|55/100 tox
+|-damage|p2a: Skarmory|53/100 brn|[from] recoil|[of] p1a: Rotom
+|
+|-heal|p1a: Rotom|61/100 tox|[from] item: Leftovers
+|-heal|p2a: Skarmory|59/100 brn|[from] item: Leftovers
+|-damage|p1a: Rotom|49/100 tox|[from] psn
+|-damage|p2a: Skarmory|47/100 brn|[from] brn
+|upkeep
+|turn|51
+|choice|move voltswitch|switch 3
+|
+|switch|p2a: Garchomp|Garchomp, M|23/100 brn
+|move|p1a: Rotom|Volt Switch|p2a: Garchomp
+|-immune|p2a: Garchomp|[msg]
+|
+|-heal|p1a: Rotom|55/100 tox|[from] item: Leftovers
+|-damage|p2a: Garchomp|11/100 brn|[from] brn
+|-damage|p1a: Rotom|37/100 tox|[from] psn
+|upkeep
+|turn|52
+|choice|move hydropump|move stealthrock
+|
+|move|p2a: Garchomp|Stealth Rock|p1a: Rotom
+|-sidestart|p1: potato25|move: Stealth Rock
+|move|p1a: Rotom|Hydro Pump|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|faint|p2a: Garchomp
+|
+|-heal|p1a: Rotom|43/100 tox|[from] item: Leftovers
+|-damage|p1a: Rotom|19/100 tox|[from] psn
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Jirachi|Jirachi|94/100
+|turn|53
+|choice|move voltswitch|move substitute
+|
+|move|p2a: Jirachi|Substitute|p2a: Jirachi
+|-start|p2a: Jirachi|Substitute
+|-damage|p2a: Jirachi|69/100
+|move|p1a: Rotom|Volt Switch|p2a: Jirachi
+|-activate|p2a: Jirachi|move: Substitute|[damage]
+|choice|switch 3|
+|
+|switch|p1a: Mew|Mew|22/100 tox
+|-damage|p1a: Mew|10/100 tox|[from] Stealth Rock
+|
+|-heal|p2a: Jirachi|75/100|[from] item: Leftovers
+|-heal|p1a: Mew|16/100 tox|[from] item: Leftovers
+|-damage|p1a: Mew|10/100 tox|[from] psn
+|upkeep
+|turn|54
+|choice|move softboiled|move ironhead
+|
+|move|p2a: Jirachi|Iron Head|p1a: Mew
+|-damage|p1a: Mew|0 fnt
+|faint|p1a: Mew
+|
+|-heal|p2a: Jirachi|81/100|[from] item: Leftovers
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Heatran|Heatran, M|67/100
+|-damage|p1a: Heatran|55/100|[from] Stealth Rock
+|turn|55
+|choice|move earthpower|move substitute
+|
+|move|p1a: Heatran|Earth Power|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-end|p2a: Jirachi|Substitute
+|move|p2a: Jirachi|Substitute|p2a: Jirachi
+|-start|p2a: Jirachi|Substitute
+|-damage|p2a: Jirachi|56/100
+|
+|-heal|p2a: Jirachi|63/100|[from] item: Leftovers
+|upkeep
+|turn|56
+|choice|move earthpower|switch 3
+|
+|switch|p2a: Skarmory|Skarmory, M|47/100 brn
+|move|p1a: Heatran|Earth Power|p2a: Skarmory
+|-immune|p2a: Skarmory|[msg]
+|
+|-heal|p2a: Skarmory|53/100 brn|[from] item: Leftovers
+|-damage|p2a: Skarmory|41/100 brn|[from] brn
+|upkeep
+|turn|57
+|choice|switch 3|move roost
+|
+|switch|p1a: Rotom|Rotom-Wash|19/100 tox
+|-damage|p1a: Rotom|7/100 tox|[from] Stealth Rock
+|move|p2a: Skarmory|Roost|p2a: Skarmory
+|-heal|p2a: Skarmory|91/100 brn
+|
+|-heal|p1a: Rotom|13/100 tox|[from] item: Leftovers
+|-heal|p2a: Skarmory|97/100 brn|[from] item: Leftovers
+|-damage|p1a: Rotom|7/100 tox|[from] psn
+|-damage|p2a: Skarmory|85/100 brn|[from] brn
+|upkeep
+|turn|58
+|choice|move painsplit|switch 3
+|
+|switch|p2a: Jirachi|Jirachi|63/100
+|move|p1a: Rotom|Pain Split|p2a: Jirachi
+|-sethp|p2a: Jirachi|34/100|p1a: Rotom|45/100 tox|[from] move: Pain Split
+|
+|-heal|p2a: Jirachi|40/100|[from] item: Leftovers
+|-heal|p1a: Rotom|51/100 tox|[from] item: Leftovers
+|-damage|p1a: Rotom|39/100 tox|[from] psn
+|upkeep
+|turn|59
+|choice|move hydropump|move substitute
+|
+|move|p2a: Jirachi|Substitute|p2a: Jirachi
+|-start|p2a: Jirachi|Substitute
+|-damage|p2a: Jirachi|15/100
+|move|p1a: Rotom|Hydro Pump|p2a: Jirachi|[miss]
+|-miss|p1a: Rotom|p2a: Jirachi
+|
+|-heal|p2a: Jirachi|21/100|[from] item: Leftovers
+|-heal|p1a: Rotom|45/100 tox|[from] item: Leftovers
+|-damage|p1a: Rotom|27/100 tox|[from] psn
+|upkeep
+|turn|60
+|choice|switch 3|move ironhead
+|
+|switch|p1a: Heatran|Heatran, M|55/100
+|-damage|p1a: Heatran|43/100|[from] Stealth Rock
+|move|p2a: Jirachi|Iron Head|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|34/100
+|
+|-heal|p2a: Jirachi|27/100|[from] item: Leftovers
+|upkeep
+|turn|61
+|choice|move earthpower|move ironhead
+|
+|move|p1a: Heatran|Earth Power|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-end|p2a: Jirachi|Substitute
+|move|p2a: Jirachi|Iron Head|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|27/100
+|
+|-heal|p2a: Jirachi|34/100|[from] item: Leftovers
+|upkeep
+|turn|62
+|choice|switch 3|switch 3
+|
+|switch|p1a: Rotom|Rotom-Wash|27/100 tox
+|-damage|p1a: Rotom|15/100 tox|[from] Stealth Rock
+|switch|p2a: Skarmory|Skarmory, M|85/100 brn
+|
+|-heal|p1a: Rotom|21/100 tox|[from] item: Leftovers
+|-heal|p2a: Skarmory|91/100 brn|[from] item: Leftovers
+|-damage|p1a: Rotom|15/100 tox|[from] psn
+|-damage|p2a: Skarmory|78/100 brn|[from] brn
+|upkeep
+|turn|63
+|choice|move voltswitch|switch 3
+|
+|switch|p2a: Jirachi|Jirachi|34/100
+|move|p1a: Rotom|Volt Switch|p2a: Jirachi
+|-damage|p2a: Jirachi|11/100
+|choice|switch 3|
+|
+|switch|p1a: Heatran|Heatran, M|27/100
+|-damage|p1a: Heatran|14/100|[from] Stealth Rock
+|
+|-heal|p2a: Jirachi|17/100|[from] item: Leftovers
+|upkeep
+|turn|64
+|choice|move overheat|switch 3
+|
+|switch|p2a: Skarmory|Skarmory, M|78/100 brn
+|move|p1a: Heatran|Overheat|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-damage|p2a: Skarmory|0 fnt
+|-unboost|p1a: Heatran|spa|2
+|faint|p2a: Skarmory
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Jirachi|Jirachi|17/100
+|turn|65
+|choice|switch 3|move ironhead
+|
+|switch|p1a: Rotom|Rotom-Wash|15/100 tox
+|-damage|p1a: Rotom|3/100 tox|[from] Stealth Rock
+|move|p2a: Jirachi|Iron Head|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|-heal|p2a: Jirachi|24/100|[from] item: Leftovers
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Heatran|Heatran, M|14/100
+|-damage|p1a: Heatran|2/100|[from] Stealth Rock
+|turn|66
+|c|☆potato25|GG.
+|-message|xdcgfhvgbhnm forfeited.
+|
+|win|potato25
+|l|xdcgfhvgbhnm

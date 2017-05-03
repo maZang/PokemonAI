@@ -1,0 +1,269 @@
+|j|ZeArcanine
+|j|wolverine97
+|player|p1|ZeArcanine|52
+|player|p2|wolverine97|56
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|33206,53847,52636,51961,5951,50698,23283,23426,41305,5103,22860,17739
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Scyther, M|item
+|poke|p1|Piloswine, M|item
+|poke|p1|Lilligant, F|item
+|poke|p1|Skuntank, M|item
+|poke|p1|Charizard, M|item
+|poke|p1|Tauros, M|item
+|poke|p2|Ferroseed, M|item
+|poke|p2|Basculin, M|item
+|poke|p2|Sliggoo, M|item
+|poke|p2|Haunter, M|item
+|poke|p2|Grumpig, M|item
+|poke|p2|Mantine, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 2, team 1, team 3, team 4, team 5, team 6|team 4, team 2, team 3, team 1, team 5, team 6
+|
+|start
+|switch|p1a: Piloswine|Piloswine, M|100/100
+|switch|p2a: Haunter|Haunter, M|100/100
+|turn|1
+|choice|move stealthrock|move taunt
+|
+|move|p2a: Haunter|Taunt|p1a: Piloswine
+|-start|p1a: Piloswine|move: Taunt
+|cant|p1a: Piloswine|move: Taunt|Stealth Rock
+|
+|upkeep
+|turn|2
+|choice|move iciclecrash|switch 2
+|
+|switch|p2a: Basculin|Basculin, M|100/100
+|move|p1a: Piloswine|Icicle Crash|p2a: Basculin
+|-resisted|p2a: Basculin
+|-damage|p2a: Basculin|68/100
+|
+|upkeep
+|turn|3
+|choice|switch 3|move waterfall
+|
+|switch|p1a: Lilligant|Lilligant, F|100/100
+|move|p2a: Basculin|Waterfall|p1a: Lilligant
+|-resisted|p1a: Lilligant
+|-damage|p1a: Lilligant|50/100
+|
+|upkeep
+|turn|4
+|choice|move sleeppowder|move waterfall
+|
+|move|p1a: Lilligant|Sleep Powder|p2a: Basculin
+|-status|p2a: Basculin|slp
+|cant|p2a: Basculin|slp
+|
+|upkeep
+|turn|5
+|choice|switch 4|switch 2
+|
+|switch|p1a: Skuntank|Skuntank, M|100/100
+|switch|p2a: Haunter|Haunter, M|100/100
+|
+|upkeep
+|turn|6
+|choice|move darkpulse|move destinybond
+|
+|move|p2a: Haunter|Destiny Bond|p2a: Haunter
+|-singlemove|p2a: Haunter|Destiny Bond
+|move|p1a: Skuntank|Dark Pulse|p2a: Haunter
+|-supereffective|p2a: Haunter
+|-damage|p2a: Haunter|0 fnt
+|faint|p2a: Haunter
+|-activate|p2a: Haunter|move: Destiny Bond
+|faint|p1a: Skuntank
+|
+|upkeep
+|choice|switch 4|switch 6
+|
+|switch|p1a: Lilligant|Lilligant, F|50/100
+|switch|p2a: Mantine|Mantine, M|100/100
+|turn|7
+|choice|switch 6|move airslash
+|
+|switch|p1a: Tauros|Tauros, M|100/100
+|move|p2a: Mantine|Air Slash|p1a: Tauros
+|-damage|p1a: Tauros|60/100
+|
+|upkeep
+|turn|8
+|choice|move rockclimb|switch 4
+|
+|switch|p2a: Ferroseed|Ferroseed, M|100/100
+|move|p1a: Tauros|Rock Climb|p2a: Ferroseed
+|-resisted|p2a: Ferroseed
+|-damage|p2a: Ferroseed|78/100
+|-damage|p1a: Tauros|48/100|[from] ability: Iron Barbs|[of] p2a: Ferroseed
+|
+|upkeep
+|turn|9
+|choice|move fireblast|move thunderwave
+|
+|move|p1a: Tauros|Fire Blast|p2a: Ferroseed
+|-supereffective|p2a: Ferroseed
+|-damage|p2a: Ferroseed|14/100
+|move|p2a: Ferroseed|Thunder Wave|p1a: Tauros
+|-status|p1a: Tauros|par
+|
+|upkeep
+|turn|10
+|choice|move fireblast|move stealthrock
+|
+|cant|p1a: Tauros|par
+|move|p2a: Ferroseed|Stealth Rock|p1a: Tauros
+|-sidestart|p1: ZeArcanine|move: Stealth Rock
+|
+|upkeep
+|turn|11
+|choice|move fireblast|switch 4
+|
+|switch|p2a: Mantine|Mantine, M|100/100
+|move|p1a: Tauros|Fire Blast|p2a: Mantine
+|-resisted|p2a: Mantine
+|-damage|p2a: Mantine|94/100
+|
+|-heal|p2a: Mantine|99/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|choice|move zenheadbutt|move scald
+|
+|move|p2a: Mantine|Scald|p1a: Tauros
+|-damage|p1a: Tauros|7/100 par
+|move|p1a: Tauros|Zen Headbutt|p2a: Mantine
+|-crit|p2a: Mantine
+|-damage|p2a: Mantine|38/100
+|
+|-heal|p2a: Mantine|44/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|choice|move zenheadbutt|move scald
+|
+|move|p2a: Mantine|Scald|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|
+|-heal|p2a: Mantine|50/100|[from] item: Leftovers
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Lilligant|Lilligant, F|50/100
+|-damage|p1a: Lilligant|38/100|[from] Stealth Rock
+|turn|14
+|choice|move healingwish|switch 2
+|
+|switch|p2a: Basculin|Basculin, M|68/100 slp
+|move|p1a: Lilligant|Healing Wish|p1a: Lilligant
+|faint|p1a: Lilligant
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Scyther|Scyther, M|100/100
+|-heal|p1a: Scyther|100/100|[from] move: Healing Wish
+|-damage|p1a: Scyther|51/100|[from] Stealth Rock
+|turn|15
+|choice|move aerialace|switch 2
+|
+|switch|p2a: Mantine|Mantine, M|50/100
+|move|p1a: Scyther|Aerial Ace|p2a: Mantine
+|-damage|p2a: Mantine|0 fnt
+|faint|p2a: Mantine
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Sliggoo|Sliggoo, M|100/100
+|turn|16
+|choice|move aerialace|move curse
+|
+|move|p1a: Scyther|Aerial Ace|p2a: Sliggoo
+|-damage|p2a: Sliggoo|46/100
+|move|p2a: Sliggoo|Curse|p2a: Sliggoo
+|-unboost|p2a: Sliggoo|spe|1
+|-boost|p2a: Sliggoo|atk|1
+|-boost|p2a: Sliggoo|def|1
+|
+|upkeep
+|turn|17
+|choice|move aerialace|move outrage
+|
+|move|p1a: Scyther|Aerial Ace|p2a: Sliggoo
+|-damage|p2a: Sliggoo|8/100
+|move|p2a: Sliggoo|Outrage|p1a: Scyther
+|-damage|p1a: Scyther|0 fnt
+|faint|p1a: Scyther
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Piloswine|Piloswine, M|100/100
+|-damage|p1a: Piloswine|88/100|[from] Stealth Rock
+|turn|18
+|choice|move iceshard|move outrage
+|
+|move|p1a: Piloswine|Ice Shard|p2a: Sliggoo
+|-supereffective|p2a: Sliggoo
+|-damage|p2a: Sliggoo|0 fnt
+|faint|p2a: Sliggoo
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Basculin|Basculin, M|68/100 slp
+|turn|19
+|choice|move earthquake|move waterfall
+|
+|-curestatus|p2a: Basculin|slp|[msg]
+|move|p2a: Basculin|Waterfall|p1a: Piloswine
+|-supereffective|p1a: Piloswine
+|-damage|p1a: Piloswine|0 fnt
+|faint|p1a: Piloswine
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Charizard|Charizard, M|100/100
+|-damage|p1a: Charizard|51/100|[from] Stealth Rock
+|turn|20
+|choice|move hiddenpower|switch 4
+|
+|switch|p2a: Ferroseed|Ferroseed, M|14/100
+|move|p1a: Charizard|Hidden Power|p2a: Ferroseed
+|-resisted|p2a: Ferroseed
+|-damage|p2a: Ferroseed|9/100
+|-damage|p1a: Charizard|41/100|[from] item: Life Orb
+|
+|upkeep
+|turn|21
+|choice|move airslash|move thunderwave
+|
+|move|p1a: Charizard|Air Slash|p2a: Ferroseed
+|-damage|p2a: Ferroseed|0 fnt
+|-damage|p1a: Charizard|31/100|[from] item: Life Orb
+|faint|p2a: Ferroseed
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Basculin|Basculin, M|68/100
+|turn|22
+|choice|move hiddenpower|move aquajet
+|
+|move|p2a: Basculin|Aqua Jet|p1a: Charizard
+|-supereffective|p1a: Charizard
+|-damage|p1a: Charizard|0 fnt
+|faint|p1a: Charizard
+|
+|win|wolverine97
+|raw|ZeArcanine's rating: 1187 &rarr; <strong>1175</strong><br />(-12 for losing)
+|raw|wolverine97's rating: 1403 &rarr; <strong>1412</strong><br />(+9 for winning)
+|l|ZeArcanine

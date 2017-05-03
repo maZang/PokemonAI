@@ -50,3 +50,40 @@ def spiderman():
 		time.sleep(30 * 60)
 		print('Woke up at: ' + str(datetime.now()))
 
+def bulk_search():
+	try: 
+		with open(DATAFOLDER + SEEN_GAMES, 'r') as f:
+			seen_games = set([line.strip() for line in f])
+		# set up options to download into data folder
+		chromeOptions = webdriver.ChromeOptions()
+		prefs = {'download.default_directory' : os.path.abspath(DATAFOLDER), 
+				'directory_upgrade' : True,
+				'extensions_to_open': ""}
+		chromeOptions.add_experimental_option('prefs', prefs)
+		driver = webdriver.Chrome(executable_path=DRIVERFOLDER, chrome_options=chromeOptions)
+		driver.get(SEARCHURL)
+		delay = 3
+		try:
+			for i in range(1000):
+				element_present = EC.presence_of_element_located((By.NAME, "moreResults"))
+				WebDriverWait(driver, delay).until(element_present)
+				more_button = driver.find_element(By.NAME, 'moreResults')
+				more_button.click()
+		except:
+			print("No more clicks")
+		replays_soup = BeautifulSoup(driver.page_source, 'html.parser')
+		for link in replays_soup.findAll('a', href=True):
+			if SEARCH_FORMAT not in link['href'] or link['href'][1:] in seen_games:
+				continue
+			url = BASEURL + link['href'][1:] + '.log'
+			logreq =  urllib.request.Request(url, headers={'User-Agent' : 'Magic Browser'})
+			logpage = urllib.request.urlopen(logreq)
+			with open(DATAFOLDER + link['href'][1:] + '.txt', 'wb') as f:
+				f.write(logpage.read())
+			seen_games.add(link['href'][1:])
+		print(len(seen_games))
+		with open(DATAFOLDER + SEEN_GAMES, 'w') as f:
+			for game in seen_games:
+				f.write(game + "\n")
+	except (urllib.error.HTTPError,urllib.error.URLError) as e:
+		print(e.fp.read())

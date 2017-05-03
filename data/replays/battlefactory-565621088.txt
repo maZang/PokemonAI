@@ -1,0 +1,192 @@
+|j|Harris'Gxe
+|j|HarrisIsAwesome
+|player|p1|Harris'Gxe|1
+|player|p2|HarrisIsAwesome|267
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|64367,37711,57125,11004,25468,15801,53311,41717,20551,53834,60318,7625
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Meloetta|item
+|poke|p1|Emboar, M|item
+|poke|p1|Flygon, M|item
+|poke|p1|Diancie|item
+|poke|p1|Spiritomb, M|item
+|poke|p1|Banette, M|item
+|poke|p2|Alomomola, M|item
+|poke|p2|Smeargle, M|item
+|poke|p2|Jellicent, M|item
+|poke|p2|Hitmonlee, M|item
+|poke|p2|Togetic, M|item
+|poke|p2|Camerupt, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 1, team 2, team 3, team 4, team 5, team 6|team 2, team 1, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Meloetta|Meloetta|100/100
+|switch|p2a: Smeargle|Smeargle, M|100/100
+|turn|1
+|j|Bad Luck Tace
+|choice|move thunderwave|move darkvoid
+|
+|move|p2a: Smeargle|Dark Void|p1a: Meloetta
+|-status|p1a: Meloetta|slp
+|cant|p1a: Meloetta|slp
+|
+|upkeep
+|turn|2
+|choice|move knockoff|move stickyweb
+|
+|move|p2a: Smeargle|Sticky Web|p1a: Meloetta
+|-sidestart|p1: Harris'Gxe|move: Sticky Web
+|cant|p1a: Meloetta|slp
+|
+|upkeep
+|turn|3
+|choice|move thunderwave|move stealthrock
+|
+|move|p2a: Smeargle|Stealth Rock|p1a: Meloetta
+|-sidestart|p1: Harris'Gxe|move: Stealth Rock
+|-curestatus|p1a: Meloetta|slp|[msg]
+|move|p1a: Meloetta|Thunder Wave|p2a: Smeargle
+|-status|p2a: Smeargle|par
+|
+|upkeep
+|turn|4
+|choice|move knockoff|move explosion
+|
+|move|p1a: Meloetta|Knock Off|p2a: Smeargle
+|-damage|p2a: Smeargle|61/100 par
+|-enditem|p2a: Smeargle|Focus Sash|[from] move: Knock Off|[of] p1a: Meloetta
+|move|p2a: Smeargle|Explosion|p1a: Meloetta
+|-crit|p1a: Meloetta
+|-damage|p1a: Meloetta|57/100
+|faint|p2a: Smeargle
+|
+|-heal|p1a: Meloetta|63/100|[from] item: Leftovers
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Hitmonlee|Hitmonlee, M|100/100
+|turn|5
+|choice|move thunderwave|move knockoff
+|
+|move|p2a: Hitmonlee|Knock Off|p1a: Meloetta
+|-supereffective|p1a: Meloetta
+|-damage|p1a: Meloetta|0 fnt
+|-enditem|p1a: Meloetta|Leftovers|[from] move: Knock Off|[of] p2a: Hitmonlee
+|-damage|p2a: Hitmonlee|91/100|[from] item: Life Orb
+|faint|p1a: Meloetta
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Banette|Banette, M|100/100
+|-activate|p1a: Banette|move: Sticky Web
+|-unboost|p1a: Banette|spe|1
+|-damage|p1a: Banette|88/100|[from] Stealth Rock
+|turn|6
+|choice|move gunkshot mega|move knockoff
+|
+|detailschange|p1a: Banette|Banette-Mega, M
+|-mega|p1a: Banette|Banette|Banettite
+|move|p2a: Hitmonlee|Knock Off|p1a: Banette
+|-supereffective|p1a: Banette
+|-damage|p1a: Banette|2/100
+|-damage|p2a: Hitmonlee|81/100|[from] item: Life Orb
+|move|p1a: Banette|Gunk Shot|p2a: Hitmonlee
+|-damage|p2a: Hitmonlee|0 fnt
+|faint|p2a: Hitmonlee
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Camerupt|Camerupt, M|100/100
+|turn|7
+|choice|move knockoff|move hiddenpower mega
+|
+|detailschange|p2a: Camerupt|Camerupt-Mega, M
+|-mega|p2a: Camerupt|Camerupt|Cameruptite
+|move|p2a: Camerupt|Hidden Power|p1a: Banette
+|-damage|p1a: Banette|0 fnt
+|faint|p1a: Banette
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Flygon|Flygon, M|100/100
+|-damage|p1a: Flygon|95/100|[from] Stealth Rock
+|turn|8
+|choice|switch 4|move hiddenpower
+|
+|switch|p1a: Diancie|Diancie|100/100
+|-activate|p1a: Diancie|move: Sticky Web
+|-fail|p1a: Diancie|unboost|[from] ability: Clear Body|[of] p1a: Diancie
+|-damage|p1a: Diancie|88/100|[from] Stealth Rock
+|move|p2a: Camerupt|Hidden Power|p1a: Diancie
+|-damage|p1a: Diancie|73/100
+|
+|-heal|p1a: Diancie|79/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|choice|switch 4|move hiddenpower
+|
+|switch|p1a: Flygon|Flygon, M|95/100
+|-damage|p1a: Flygon|89/100|[from] Stealth Rock
+|move|p2a: Camerupt|Hidden Power|p1a: Flygon
+|-supereffective|p1a: Flygon
+|-damage|p1a: Flygon|0 fnt
+|faint|p1a: Flygon
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Spiritomb|Spiritomb, M|100/100
+|-damage|p1a: Spiritomb|88/100|[from] Stealth Rock
+|-activate|p1a: Spiritomb|move: Sticky Web
+|-unboost|p1a: Spiritomb|spe|1
+|turn|10
+|choice|move foulplay|move fireblast
+|
+|move|p2a: Camerupt|Fire Blast|p1a: Spiritomb
+|-damage|p1a: Spiritomb|0 fnt
+|faint|p1a: Spiritomb
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Emboar|Emboar, M|100/100
+|-damage|p1a: Emboar|88/100|[from] Stealth Rock
+|-activate|p1a: Emboar|move: Sticky Web
+|-unboost|p1a: Emboar|spe|1
+|turn|11
+|choice|move superpower|move earthpower
+|
+|move|p1a: Emboar|Superpower|p2a: Camerupt
+|-damage|p2a: Camerupt|22/100
+|-unboost|p1a: Emboar|atk|1
+|-unboost|p1a: Emboar|def|1
+|move|p2a: Camerupt|Earth Power|p1a: Emboar
+|-supereffective|p1a: Emboar
+|-damage|p1a: Emboar|0 fnt
+|faint|p1a: Emboar
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Diancie|Diancie|79/100
+|-activate|p1a: Diancie|move: Sticky Web
+|-fail|p1a: Diancie|unboost|[from] ability: Clear Body|[of] p1a: Diancie
+|-damage|p1a: Diancie|67/100|[from] Stealth Rock
+|turn|12
+|choice|move diamondstorm|move earthpower
+|
+|move|p2a: Camerupt|Earth Power|p1a: Diancie
+|-supereffective|p1a: Diancie
+|-damage|p1a: Diancie|0 fnt
+|faint|p1a: Diancie
+|
+|win|HarrisIsAwesome

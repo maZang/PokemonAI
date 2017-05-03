@@ -1,0 +1,382 @@
+|j|Buudah
+|j|wolverine97
+|player|p1|Buudah|167
+|player|p2|wolverine97|56
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|41033,17993,59576,42725,40914,12402,49411,44614,35116,55151,7084,59243
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Pelipper, M|item
+|poke|p1|Exeggutor, M|item
+|poke|p1|Klinklang|item
+|poke|p1|Claydol|item
+|poke|p1|Torterra, M|item
+|poke|p1|Primeape, M|item
+|poke|p2|Crustle, M|item
+|poke|p2|Torterra, M|item
+|poke|p2|Kangaskhan, F|item
+|poke|p2|Jynx, F|item
+|poke|p2|Mantine, M|item
+|poke|p2|Basculin, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 6, team 2, team 3, team 4, team 5, team 1|team 4, team 2, team 3, team 1, team 5, team 6
+|
+|start
+|switch|p1a: Primeape|Primeape, M|100/100
+|switch|p2a: Jynx|Jynx, F|100/100
+|turn|1
+|choice|switch 3|switch 5
+|
+|switch|p1a: Klinklang|Klinklang|100/100
+|switch|p2a: Mantine|Mantine, M|100/100
+|
+|upkeep
+|turn|2
+|choice|move substitute|move scald
+|
+|move|p1a: Klinklang|Substitute|p1a: Klinklang
+|-start|p1a: Klinklang|Substitute
+|-damage|p1a: Klinklang|75/100
+|move|p2a: Mantine|Scald|p1a: Klinklang
+|-end|p1a: Klinklang|Substitute
+|
+|-heal|p1a: Klinklang|81/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|choice|switch 2|move scald
+|
+|switch|p1a: Exeggutor|Exeggutor, M|100/100
+|move|p2a: Mantine|Scald|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|87/100
+|
+|upkeep
+|turn|4
+|choice|move sleeppowder|move toxic
+|
+|move|p2a: Mantine|Toxic|p1a: Exeggutor
+|-status|p1a: Exeggutor|tox
+|-enditem|p1a: Exeggutor|Lum Berry|[eat]
+|-curestatus|p1a: Exeggutor|tox|[msg]
+|move|p1a: Exeggutor|Sleep Powder|p2a: Mantine
+|-status|p2a: Mantine|slp
+|
+|upkeep
+|turn|5
+|choice|move psychic|switch 4
+|
+|switch|p2a: Crustle|Crustle, M|100/100
+|move|p1a: Exeggutor|Psychic|p2a: Crustle
+|-damage|p2a: Crustle|24/100
+|
+|upkeep
+|turn|6
+|choice|move gigadrain|move spikes
+|-enditem|p2a: Crustle|Custap Berry|[eat]
+|-activate|p2a: Crustle|item: Custap Berry
+|
+|move|p2a: Crustle|Spikes|p1a: Exeggutor
+|-sidestart|p1: Buudah|Spikes
+|move|p1a: Exeggutor|Giga Drain|p2a: Crustle
+|-damage|p2a: Crustle|0 fnt
+|-heal|p1a: Exeggutor|96/100|[from] drain|[of] p2a: Crustle
+|faint|p2a: Crustle
+|
+|-item|p1a: Exeggutor|Lum Berry|[from] ability: Harvest
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Jynx|Jynx, F|100/100
+|turn|7
+|choice|switch 2|move nastyplot
+|
+|switch|p1a: Klinklang|Klinklang|81/100
+|-damage|p1a: Klinklang|69/100|[from] Spikes
+|move|p2a: Jynx|Nasty Plot|p2a: Jynx
+|-boost|p2a: Jynx|spa|2
+|
+|-heal|p1a: Klinklang|75/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|choice|move shiftgear|move lovelykiss
+|
+|move|p2a: Jynx|Lovely Kiss|p1a: Klinklang
+|-status|p1a: Klinklang|slp
+|cant|p1a: Klinklang|slp
+|
+|-heal|p1a: Klinklang|81/100 slp|[from] item: Leftovers
+|upkeep
+|turn|9
+|choice|move shiftgear|move psychic
+|
+|move|p2a: Jynx|Psychic|p1a: Klinklang
+|-resisted|p1a: Klinklang
+|-damage|p1a: Klinklang|3/100 slp
+|-damage|p2a: Jynx|91/100|[from] item: Life Orb
+|-curestatus|p1a: Klinklang|slp|[msg]
+|move|p1a: Klinklang|Shift Gear|p1a: Klinklang
+|-boost|p1a: Klinklang|spe|2
+|-boost|p1a: Klinklang|atk|1
+|
+|-heal|p1a: Klinklang|9/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|choice|move return|switch 4
+|
+|switch|p2a: Mantine|Mantine, M|100/100 slp
+|move|p1a: Klinklang|Return|p2a: Mantine
+|-damage|p2a: Mantine|48/100 slp
+|
+|-heal|p1a: Klinklang|15/100|[from] item: Leftovers
+|-heal|p2a: Mantine|54/100 slp|[from] item: Leftovers
+|upkeep
+|turn|11
+|choice|move return|move scald
+|
+|move|p1a: Klinklang|Return|p2a: Mantine
+|-damage|p2a: Mantine|3/100 slp
+|cant|p2a: Mantine|slp
+|
+|-heal|p1a: Klinklang|21/100|[from] item: Leftovers
+|-heal|p2a: Mantine|9/100 slp|[from] item: Leftovers
+|upkeep
+|turn|12
+|choice|move return|move scald
+|
+|move|p1a: Klinklang|Return|p2a: Mantine
+|-damage|p2a: Mantine|0 fnt
+|faint|p2a: Mantine
+|
+|-heal|p1a: Klinklang|27/100|[from] item: Leftovers
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Basculin|Basculin, M|100/100
+|turn|13
+|choice|switch 6|move aquajet
+|
+|switch|p1a: Pelipper|Pelipper, M|100/100
+|move|p2a: Basculin|Aqua Jet|p1a: Pelipper
+|-resisted|p1a: Pelipper
+|-damage|p1a: Pelipper|88/100
+|
+|-heal|p1a: Pelipper|95/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|choice|move hurricane|switch 4
+|
+|switch|p2a: Jynx|Jynx, F|91/100
+|move|p1a: Pelipper|Hurricane|p2a: Jynx|[miss]
+|-miss|p1a: Pelipper|p2a: Jynx
+|
+|-heal|p1a: Pelipper|100/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|choice|switch 6|move lovelykiss
+|
+|switch|p1a: Klinklang|Klinklang|27/100
+|-damage|p1a: Klinklang|15/100|[from] Spikes
+|move|p2a: Jynx|Lovely Kiss|p1a: Klinklang
+|-status|p1a: Klinklang|slp
+|
+|-heal|p1a: Klinklang|21/100 slp|[from] item: Leftovers
+|upkeep
+|turn|16
+|choice|move return|move nastyplot
+|
+|move|p2a: Jynx|Nasty Plot|p2a: Jynx
+|-boost|p2a: Jynx|spa|2
+|cant|p1a: Klinklang|slp
+|
+|-heal|p1a: Klinklang|27/100 slp|[from] item: Leftovers
+|upkeep
+|turn|17
+|choice|move shiftgear|move psychic
+|
+|move|p2a: Jynx|Psychic|p1a: Klinklang
+|-resisted|p1a: Klinklang
+|-damage|p1a: Klinklang|0 fnt
+|-damage|p2a: Jynx|81/100|[from] item: Life Orb
+|faint|p1a: Klinklang
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Primeape|Primeape, M|100/100
+|-damage|p1a: Primeape|88/100|[from] Spikes
+|turn|18
+|choice|move uturn|switch 2
+|
+|switch|p2a: Torterra|Torterra, M|100/100
+|move|p1a: Primeape|U-turn|p2a: Torterra
+|-supereffective|p2a: Torterra
+|-damage|p2a: Torterra|42/100
+|choice|switch 2|
+|
+|switch|p1a: Exeggutor|Exeggutor, M|96/100
+|-damage|p1a: Exeggutor|83/100|[from] Spikes
+|
+|upkeep
+|turn|19
+|choice|move psychic|move stoneedge
+|
+|move|p2a: Torterra|Stone Edge|p1a: Exeggutor
+|-damage|p1a: Exeggutor|52/100
+|move|p1a: Exeggutor|Psychic|p2a: Torterra
+|-damage|p2a: Torterra|0 fnt
+|faint|p2a: Torterra
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Kangaskhan|Kangaskhan, F|100/100
+|turn|20
+|choice|move sleeppowder|move doubleedge
+|
+|move|p2a: Kangaskhan|Double-Edge|p1a: Exeggutor
+|-damage|p1a: Exeggutor|0 fnt
+|-damage|p2a: Kangaskhan|82/100|[from] recoil|[of] p1a: Exeggutor
+|faint|p1a: Exeggutor
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Claydol|Claydol|100/100
+|turn|21
+|choice|move rapidspin|switch 4
+|
+|switch|p2a: Basculin|Basculin, M|100/100
+|move|p1a: Claydol|Rapid Spin|p2a: Basculin
+|-damage|p2a: Basculin|95/100
+|-sideend|p1: Buudah|Spikes|[from] move: Rapid Spin|[of] p1a: Claydol
+|
+|upkeep
+|turn|22
+|choice|switch 6|switch 2
+|
+|switch|p2a: Jynx|Jynx, F|81/100
+|switch|p1a: Pelipper|Pelipper, M|100/100
+|
+|upkeep
+|turn|23
+|choice|move scald|move lovelykiss
+|
+|move|p2a: Jynx|Lovely Kiss|p1a: Pelipper
+|-status|p1a: Pelipper|slp
+|cant|p1a: Pelipper|slp
+|
+|upkeep
+|turn|24
+|choice|move scald|move psychic
+|
+|move|p2a: Jynx|Psychic|p1a: Pelipper
+|-damage|p1a: Pelipper|19/100 slp
+|-damage|p2a: Jynx|71/100|[from] item: Life Orb
+|cant|p1a: Pelipper|slp
+|
+|-heal|p1a: Pelipper|25/100 slp|[from] item: Leftovers
+|upkeep
+|turn|25
+|choice|move scald|switch 4
+|
+|switch|p2a: Kangaskhan|Kangaskhan, F|82/100
+|cant|p1a: Pelipper|slp
+|
+|-heal|p1a: Pelipper|32/100 slp|[from] item: Leftovers
+|upkeep
+|turn|26
+|choice|move scald|move doubleedge
+|
+|move|p2a: Kangaskhan|Double-Edge|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|-damage|p2a: Kangaskhan|72/100|[from] recoil|[of] p1a: Pelipper
+|faint|p1a: Pelipper
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Torterra|Torterra, M|100/100
+|turn|27
+|choice|move stealthrock|move doubleedge
+|
+|move|p2a: Kangaskhan|Double-Edge|p1a: Torterra
+|-damage|p1a: Torterra|49/100
+|-damage|p2a: Kangaskhan|53/100|[from] recoil|[of] p1a: Torterra
+|move|p1a: Torterra|Stealth Rock|p2a: Kangaskhan
+|-sidestart|p2: wolverine97|move: Stealth Rock
+|
+|-heal|p1a: Torterra|55/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|choice|move synthesis|move doubleedge
+|
+|move|p2a: Kangaskhan|Double-Edge|p1a: Torterra
+|-damage|p1a: Torterra|9/100
+|-damage|p2a: Kangaskhan|37/100|[from] recoil|[of] p1a: Torterra
+|move|p1a: Torterra|Synthesis|p1a: Torterra
+|-heal|p1a: Torterra|59/100
+|
+|-heal|p1a: Torterra|65/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|choice|move synthesis|move doubleedge
+|
+|move|p2a: Kangaskhan|Double-Edge|p1a: Torterra
+|-damage|p1a: Torterra|14/100
+|-damage|p2a: Kangaskhan|18/100|[from] recoil|[of] p1a: Torterra
+|move|p1a: Torterra|Synthesis|p1a: Torterra
+|-heal|p1a: Torterra|64/100
+|
+|-heal|p1a: Torterra|70/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|choice|move synthesis|switch 4
+|
+|switch|p2a: Jynx|Jynx, F|71/100
+|-damage|p2a: Jynx|46/100|[from] Stealth Rock
+|move|p1a: Torterra|Synthesis|p1a: Torterra
+|-heal|p1a: Torterra|100/100
+|
+|upkeep
+|turn|31
+|choice|switch 6|move lovelykiss
+|
+|switch|p1a: Claydol|Claydol|100/100
+|move|p2a: Jynx|Lovely Kiss|p1a: Claydol
+|-status|p1a: Claydol|slp
+|
+|upkeep
+|turn|32
+|choice|move shadowball|move icebeam
+|
+|move|p2a: Jynx|Ice Beam|p1a: Claydol
+|-supereffective|p1a: Claydol
+|-damage|p1a: Claydol|0 fnt
+|-damage|p2a: Jynx|36/100|[from] item: Life Orb
+|faint|p1a: Claydol
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Primeape|Primeape, M|88/100
+|turn|33
+|choice|move uturn|move psychic
+|
+|move|p2a: Jynx|Psychic|p1a: Primeape
+|-supereffective|p1a: Primeape
+|-damage|p1a: Primeape|0 fnt
+|-damage|p2a: Jynx|26/100|[from] item: Life Orb
+|faint|p1a: Primeape
+|
+|upkeep
+|-message|Buudah forfeited.
+|
+|win|wolverine97
+|l|Buudah
+|raw|Buudah's rating: 1347 &rarr; <strong>1329</strong><br />(-18 for losing)
+|raw|wolverine97's rating: 1381 &rarr; <strong>1399</strong><br />(+18 for winning)

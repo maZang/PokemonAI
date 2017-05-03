@@ -1,0 +1,299 @@
+|j|Kheaven
+|j|deothagawd
+|player|p1|Kheaven|148
+|player|p2|deothagawd|266
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|59483,1335,9156,33163,22703,12710,33167,36331,1054,39926,60680,10580
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Sawk, M|item
+|poke|p1|Gastrodon, M|item
+|poke|p1|Braviary, M|item
+|poke|p1|Rotom-Mow|item
+|poke|p1|Jellicent, M|item
+|poke|p1|Diancie|item
+|poke|p2|Braviary, M|item
+|poke|p2|Escavalier, M|item
+|poke|p2|Aerodactyl, M|item
+|poke|p2|Seismitoad, M|item
+|poke|p2|Vivillon, M|item
+|poke|p2|Hitmontop, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 2, team 1, team 3, team 4, team 5, team 6|team 2, team 1, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Gastrodon|Gastrodon, M|100/100
+|switch|p2a: Escavalier|Escavalier, M|100/100
+|turn|1
+|choice|move earthpower|move knockoff
+|
+|move|p1a: Gastrodon|Earth Power|p2a: Escavalier
+|-damage|p2a: Escavalier|69/100
+|move|p2a: Escavalier|Knock Off|p1a: Gastrodon
+|-damage|p1a: Gastrodon|58/100
+|-enditem|p1a: Gastrodon|Leftovers|[from] move: Knock Off|[of] p2a: Escavalier
+|
+|upkeep
+|turn|2
+|choice|move earthpower|switch 5
+|
+|switch|p2a: Vivillon|Vivillon, M|100/100
+|move|p1a: Gastrodon|Earth Power|p2a: Vivillon
+|-immune|p2a: Vivillon|[msg]
+|
+|upkeep
+|turn|3
+|choice|switch 4|move substitute
+|
+|switch|p1a: Rotom|Rotom-Mow|100/100
+|move|p2a: Vivillon|Substitute|p2a: Vivillon
+|-start|p2a: Vivillon|Substitute
+|-damage|p2a: Vivillon|76/100
+|
+|-heal|p2a: Vivillon|82/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|choice|move thunderbolt|move quiverdance
+|
+|move|p2a: Vivillon|Quiver Dance|p2a: Vivillon
+|-boost|p2a: Vivillon|spa|1
+|-boost|p2a: Vivillon|spd|1
+|-boost|p2a: Vivillon|spe|1
+|move|p1a: Rotom|Thunderbolt|p2a: Vivillon
+|-supereffective|p2a: Vivillon
+|-end|p2a: Vivillon|Substitute
+|
+|-heal|p2a: Vivillon|88/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|choice|move thunderbolt|move hurricane
+|
+|move|p2a: Vivillon|Hurricane|p1a: Rotom
+|-damage|p1a: Rotom|8/100
+|move|p1a: Rotom|Thunderbolt|p2a: Vivillon
+|-supereffective|p2a: Vivillon
+|-damage|p2a: Vivillon|0 fnt
+|faint|p2a: Vivillon
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Escavalier|Escavalier, M|69/100
+|turn|6
+|choice|switch 5|move ironhead
+|
+|switch|p1a: Jellicent|Jellicent, M|100/100
+|move|p2a: Escavalier|Iron Head|p1a: Jellicent
+|-resisted|p1a: Jellicent
+|-damage|p1a: Jellicent|74/100
+|
+|-heal|p1a: Jellicent|80/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|choice|move willowisp|switch 4
+|
+|switch|p2a: Seismitoad|Seismitoad, M|100/100
+|move|p1a: Jellicent|Will-O-Wisp|p2a: Seismitoad
+|-status|p2a: Seismitoad|brn
+|
+|-heal|p1a: Jellicent|86/100|[from] item: Leftovers
+|-damage|p2a: Seismitoad|88/100 brn|[from] brn
+|upkeep
+|turn|8
+|choice|move hex|move grassknot
+|
+|move|p2a: Seismitoad|Grass Knot|p1a: Jellicent
+|-supereffective|p1a: Jellicent
+|-damage|p1a: Jellicent|38/100
+|move|p1a: Jellicent|Hex|p2a: Seismitoad
+|-damage|p2a: Seismitoad|45/100 brn
+|
+|-heal|p2a: Seismitoad|51/100 brn|[from] item: Leftovers
+|-heal|p1a: Jellicent|44/100|[from] item: Leftovers
+|-damage|p2a: Seismitoad|39/100 brn|[from] brn
+|upkeep
+|turn|9
+|choice|switch 3|move grassknot
+|
+|switch|p1a: Braviary|Braviary, M|100/100
+|move|p2a: Seismitoad|Grass Knot|p1a: Braviary
+|-resisted|p1a: Braviary
+|-damage|p1a: Braviary|90/100
+|
+|-heal|p2a: Seismitoad|45/100 brn|[from] item: Leftovers
+|-damage|p2a: Seismitoad|32/100 brn|[from] brn
+|upkeep
+|turn|10
+|choice|move return|move hydropump
+|
+|move|p1a: Braviary|Return|p2a: Seismitoad
+|-damage|p2a: Seismitoad|0 fnt
+|faint|p2a: Seismitoad
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Aerodactyl|Aerodactyl, M|100/100
+|-ability|p2a: Aerodactyl|Unnerve|p1: Kheaven
+|turn|11
+|choice|switch 4|move stoneedge
+|
+|switch|p1a: Gastrodon|Gastrodon, M|58/100
+|move|p2a: Aerodactyl|Stone Edge|p1a: Gastrodon|[miss]
+|-miss|p2a: Aerodactyl|p1a: Gastrodon
+|
+|upkeep
+|turn|12
+|choice|move recover|move stoneedge
+|
+|move|p2a: Aerodactyl|Stone Edge|p1a: Gastrodon|[miss]
+|-miss|p2a: Aerodactyl|p1a: Gastrodon
+|move|p1a: Gastrodon|Recover|p1a: Gastrodon
+|-heal|p1a: Gastrodon|100/100
+|
+|upkeep
+|turn|13
+|choice|move scald|move stoneedge
+|
+|move|p2a: Aerodactyl|Stone Edge|p1a: Gastrodon
+|-resisted|p1a: Gastrodon
+|-damage|p1a: Gastrodon|79/100
+|-damage|p2a: Aerodactyl|91/100|[from] item: Life Orb
+|move|p1a: Gastrodon|Scald|p2a: Aerodactyl
+|-supereffective|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|19/100
+|
+|upkeep
+|turn|14
+|choice|move scald|switch 6
+|
+|switch|p2a: Hitmontop|Hitmontop, M|100/100
+|-ability|p2a: Hitmontop|Intimidate|boost
+|-unboost|p1a: Gastrodon|atk|1
+|move|p1a: Gastrodon|Scald|p2a: Hitmontop
+|-damage|p2a: Hitmontop|72/100
+|
+|-heal|p2a: Hitmontop|78/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|choice|move scald|move toxic
+|
+|move|p2a: Hitmontop|Toxic|p1a: Gastrodon
+|-status|p1a: Gastrodon|tox
+|move|p1a: Gastrodon|Scald|p2a: Hitmontop
+|-damage|p2a: Hitmontop|53/100
+|-status|p2a: Hitmontop|brn
+|
+|-heal|p2a: Hitmontop|59/100 brn|[from] item: Leftovers
+|-damage|p2a: Hitmontop|47/100 brn|[from] brn
+|-damage|p1a: Gastrodon|73/100 tox|[from] psn
+|upkeep
+|turn|16
+|choice|move earthpower|move closecombat
+|
+|move|p2a: Hitmontop|Close Combat|p1a: Gastrodon
+|-damage|p1a: Gastrodon|58/100 tox
+|-unboost|p2a: Hitmontop|def|1
+|-unboost|p2a: Hitmontop|spd|1
+|move|p1a: Gastrodon|Earth Power|p2a: Hitmontop
+|-damage|p2a: Hitmontop|1/100 brn
+|
+|-heal|p2a: Hitmontop|7/100 brn|[from] item: Leftovers
+|-damage|p2a: Hitmontop|0 fnt|[from] brn
+|-damage|p1a: Gastrodon|45/100 tox|[from] psn
+|upkeep
+|faint|p2a: Hitmontop
+|choice||switch 2
+|
+|switch|p2a: Braviary|Braviary, M|100/100
+|turn|17
+|choice|move recover|move bravebird
+|
+|move|p2a: Braviary|Brave Bird|p1a: Gastrodon
+|-damage|p1a: Gastrodon|3/100 tox
+|-damage|p2a: Braviary|83/100|[from] recoil|[of] p1a: Gastrodon
+|move|p1a: Gastrodon|Recover|p1a: Gastrodon
+|-heal|p1a: Gastrodon|53/100 tox
+|
+|-damage|p1a: Gastrodon|35/100 tox|[from] psn
+|upkeep
+|turn|18
+|choice|switch 6|move bravebird
+|
+|switch|p1a: Diancie|Diancie|100/100
+|move|p2a: Braviary|Brave Bird|p1a: Diancie
+|-resisted|p1a: Diancie
+|-damage|p1a: Diancie|78/100
+|-damage|p2a: Braviary|76/100|[from] recoil|[of] p1a: Diancie
+|
+|-heal|p1a: Diancie|84/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|choice|move stealthrock|switch 4
+|
+|switch|p2a: Escavalier|Escavalier, M|69/100
+|move|p1a: Diancie|Stealth Rock|p2a: Escavalier
+|-sidestart|p2: deothagawd|move: Stealth Rock
+|
+|-heal|p1a: Diancie|91/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|choice|switch 2|move ironhead
+|
+|switch|p1a: Sawk|Sawk, M|100/100
+|move|p2a: Escavalier|Iron Head|p1a: Sawk
+|-ability|p1a: Sawk|Sturdy
+|-damage|p1a: Sawk|1/100
+|
+|upkeep
+|turn|21
+|choice|move closecombat|move ironhead
+|
+|move|p1a: Sawk|Close Combat|p2a: Escavalier
+|-damage|p2a: Escavalier|0 fnt
+|-unboost|p1a: Sawk|def|1
+|-unboost|p1a: Sawk|spd|1
+|faint|p2a: Escavalier
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Aerodactyl|Aerodactyl, M|19/100
+|-ability|p2a: Aerodactyl|Unnerve|p1: Kheaven
+|-damage|p2a: Aerodactyl|0 fnt|[from] Stealth Rock
+|faint|p2a: Aerodactyl
+|choice||switch 4
+|
+|switch|p2a: Braviary|Braviary, M|76/100
+|-damage|p2a: Braviary|52/100|[from] Stealth Rock
+|turn|22
+|choice|switch 2|move superpower
+|
+|switch|p1a: Diancie|Diancie|91/100
+|move|p2a: Braviary|Superpower|p1a: Diancie
+|-damage|p1a: Diancie|57/100
+|-unboost|p2a: Braviary|atk|1
+|-unboost|p2a: Braviary|def|1
+|
+|-heal|p1a: Diancie|63/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|choice|move diamondstorm|move superpower
+|
+|move|p2a: Braviary|Superpower|p1a: Diancie
+|-damage|p1a: Diancie|44/100
+|-unboost|p2a: Braviary|atk|1
+|-unboost|p2a: Braviary|def|1
+|move|p1a: Diancie|Diamond Storm|p2a: Braviary
+|-supereffective|p2a: Braviary
+|-crit|p2a: Braviary
+|-damage|p2a: Braviary|0 fnt
+|-boost|p1a: Diancie|def|1
+|faint|p2a: Braviary
+|
+|win|Kheaven
+|l|deothagawd

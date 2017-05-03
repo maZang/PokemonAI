@@ -1,0 +1,241 @@
+|j|ramon190
+|j|Cl46
+|player|p1|ramon190|161
+|player|p2|Cl46|169
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|235,15828,20220,38387,5971,58028,40844,40442,52942,63622,46702,14171
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Escavalier, M|item
+|poke|p1|Vivillon, M|item
+|poke|p1|Seismitoad, M|item
+|poke|p1|Hitmontop, M|item
+|poke|p1|Magneton|item
+|poke|p1|Golbat, M|item
+|poke|p2|Smeargle, M|item
+|poke|p2|Abomasnow, M|item
+|poke|p2|Malamar, M|item
+|poke|p2|Absol, M|item
+|poke|p2|Venusaur, M|item
+|poke|p2|Alomomola, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 2, team 1, team 3, team 4, team 5, team 6|team 1, team 2, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Vivillon|Vivillon, M|100/100
+|switch|p2a: Smeargle|Smeargle, M|100/100
+|turn|1
+|choice|move sleeppowder|move stealthrock
+|
+|move|p1a: Vivillon|Sleep Powder|p2a: Smeargle
+|-status|p2a: Smeargle|slp
+|cant|p2a: Smeargle|slp
+|
+|upkeep
+|turn|2
+|choice|move substitute|move stealthrock
+|
+|move|p1a: Vivillon|Substitute|p1a: Vivillon
+|-start|p1a: Vivillon|Substitute
+|-damage|p1a: Vivillon|76/100
+|cant|p2a: Smeargle|slp
+|
+|-heal|p1a: Vivillon|82/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|choice|move quiverdance|move stealthrock
+|
+|move|p1a: Vivillon|Quiver Dance|p1a: Vivillon
+|-boost|p1a: Vivillon|spa|1
+|-boost|p1a: Vivillon|spd|1
+|-boost|p1a: Vivillon|spe|1
+|-curestatus|p2a: Smeargle|slp|[msg]
+|move|p2a: Smeargle|Stealth Rock|p1a: Vivillon
+|-sidestart|p1: ramon190|move: Stealth Rock
+|
+|-heal|p1a: Vivillon|88/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|choice|move sleeppowder|move stickyweb
+|
+|move|p1a: Vivillon|Sleep Powder|p2a: Smeargle
+|-status|p2a: Smeargle|slp
+|cant|p2a: Smeargle|slp
+|
+|-heal|p1a: Vivillon|94/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|choice|move quiverdance|move stickyweb
+|
+|move|p1a: Vivillon|Quiver Dance|p1a: Vivillon
+|-boost|p1a: Vivillon|spa|1
+|-boost|p1a: Vivillon|spd|1
+|-boost|p1a: Vivillon|spe|1
+|cant|p2a: Smeargle|slp
+|
+|-heal|p1a: Vivillon|99/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|choice|move quiverdance|move stickyweb
+|
+|move|p1a: Vivillon|Quiver Dance|p1a: Vivillon
+|-boost|p1a: Vivillon|spa|1
+|-boost|p1a: Vivillon|spd|1
+|-boost|p1a: Vivillon|spe|1
+|cant|p2a: Smeargle|slp
+|
+|-heal|p1a: Vivillon|100/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|choice|move quiverdance|move stickyweb
+|
+|move|p1a: Vivillon|Quiver Dance|p1a: Vivillon
+|-boost|p1a: Vivillon|spa|1
+|-boost|p1a: Vivillon|spd|1
+|-boost|p1a: Vivillon|spe|1
+|-curestatus|p2a: Smeargle|slp|[msg]
+|move|p2a: Smeargle|Sticky Web|p1a: Vivillon
+|-sidestart|p1: ramon190|move: Sticky Web
+|
+|upkeep
+|turn|8
+|choice|move sleeppowder|move explosion
+|
+|move|p1a: Vivillon|Sleep Powder|p2a: Smeargle
+|-status|p2a: Smeargle|slp
+|cant|p2a: Smeargle|slp
+|
+|upkeep
+|turn|9
+|choice|move quiverdance|move stickyweb
+|
+|move|p1a: Vivillon|Quiver Dance|p1a: Vivillon
+|-boost|p1a: Vivillon|spa|1
+|-boost|p1a: Vivillon|spd|1
+|-boost|p1a: Vivillon|spe|1
+|-curestatus|p2a: Smeargle|slp|[msg]
+|move|p2a: Smeargle|Sticky Web|p1a: Vivillon
+|-fail|p1a: Vivillon
+|
+|upkeep
+|turn|10
+|choice|move sleeppowder|move explosion
+|
+|move|p1a: Vivillon|Sleep Powder|p2a: Smeargle
+|-status|p2a: Smeargle|slp
+|cant|p2a: Smeargle|slp
+|
+|upkeep
+|turn|11
+|c|☆ramon190|Be quick
+|choice|move quiverdance|move explosion
+|
+|move|p1a: Vivillon|Quiver Dance|p1a: Vivillon
+|-boost|p1a: Vivillon|spa|1
+|-boost|p1a: Vivillon|spd|1
+|-boost|p1a: Vivillon|spe|1
+|cant|p2a: Smeargle|slp
+|
+|upkeep
+|turn|12
+|choice|move hurricane|move explosion
+|
+|move|p1a: Vivillon|Hurricane|p2a: Smeargle
+|-enditem|p2a: Smeargle|Focus Sash
+|-damage|p2a: Smeargle|1/100 slp
+|-curestatus|p2a: Smeargle|slp|[msg]
+|move|p2a: Smeargle|Explosion|p1a: Vivillon
+|-end|p1a: Vivillon|Substitute
+|faint|p2a: Smeargle
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Venusaur|Venusaur, M|100/100
+|turn|13
+|choice|move substitute|move hiddenpower
+|
+|move|p1a: Vivillon|Substitute|p1a: Vivillon
+|-start|p1a: Vivillon|Substitute
+|-damage|p1a: Vivillon|76/100
+|move|p2a: Venusaur|Hidden Power|p1a: Vivillon
+|-supereffective|p1a: Vivillon
+|-activate|p1a: Vivillon|move: Substitute|[damage]
+|-damage|p2a: Venusaur|91/100|[from] item: Life Orb
+|
+|-heal|p1a: Vivillon|82/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|choice|move hurricane|move hiddenpower
+|
+|move|p1a: Vivillon|Hurricane|p2a: Venusaur
+|-supereffective|p2a: Venusaur
+|-damage|p2a: Venusaur|0 fnt
+|faint|p2a: Venusaur
+|
+|-heal|p1a: Vivillon|88/100|[from] item: Leftovers
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Absol|Absol, M|100/100
+|turn|15
+|choice|move hurricane|move suckerpunch
+|
+|move|p2a: Absol|Sucker Punch|p1a: Vivillon
+|-end|p1a: Vivillon|Substitute
+|-damage|p2a: Absol|91/100|[from] item: Life Orb
+|move|p1a: Vivillon|Hurricane|p2a: Absol
+|-damage|p2a: Absol|0 fnt
+|faint|p2a: Absol
+|
+|-heal|p1a: Vivillon|94/100|[from] item: Leftovers
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Abomasnow|Abomasnow, M|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Abomasnow
+|turn|16
+|choice|move hurricane|move iceshard
+|
+|move|p2a: Abomasnow|Ice Shard|p1a: Vivillon
+|-supereffective|p1a: Vivillon
+|-damage|p1a: Vivillon|13/100
+|-damage|p2a: Abomasnow|91/100|[from] item: Life Orb
+|move|p1a: Vivillon|Hurricane|p2a: Abomasnow
+|-supereffective|p2a: Abomasnow
+|-damage|p2a: Abomasnow|0 fnt
+|faint|p2a: Abomasnow
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Vivillon|7/100|[from] hail
+|-heal|p1a: Vivillon|13/100|[from] item: Leftovers
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Malamar|Malamar, M|100/100
+|turn|17
+|choice|move hurricane|move superpower
+|
+|move|p1a: Vivillon|Hurricane|p2a: Malamar
+|-damage|p2a: Malamar|0 fnt
+|faint|p2a: Malamar
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Vivillon|7/100|[from] hail
+|-heal|p1a: Vivillon|13/100|[from] item: Leftovers
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Alomomola|Alomomola, M|100/100
+|turn|18
+|choice|move hurricane|move scald
+|
+|move|p1a: Vivillon|Hurricane|p2a: Alomomola
+|-damage|p2a: Alomomola|0 fnt
+|faint|p2a: Alomomola
+|
+|win|ramon190

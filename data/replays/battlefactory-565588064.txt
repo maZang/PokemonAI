@@ -1,0 +1,460 @@
+|j|Shiruga
+|j|Elekable Best
+|player|p1|Shiruga|163
+|player|p2|Elekable Best|92
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|2861,36428,4400,44361,28869,26690,10067,1079,10200,21410,32964,14215
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Fraxure, M|item
+|poke|p1|Prinplup, M|item
+|poke|p1|Rapidash, M|item
+|poke|p1|Audino, M|item
+|poke|p1|Dodrio, M|item
+|poke|p1|Pawniard, M|item
+|poke|p2|Murkrow, M|item
+|poke|p2|Basculin, M|item
+|poke|p2|Stoutland, M|item
+|poke|p2|Mr. Mime, M|item
+|poke|p2|Vibrava, M|item
+|poke|p2|Gourgeist-*, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|c|☆Shiruga|ah beau tier
+|c|☆Elekable Best|Du PU
+|c|☆Shiruga|ce que j'ai fait le moins dans ma vie
+|c|☆Elekable Best|moi j'en ai fait à une époque
+|c|☆Elekable Best|mdr j'ai aucun poseur d'hazards
+|choice|team 2, team 1, team 3, team 4, team 5, team 6|team 3, team 2, team 1, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Prinplup|Prinplup, M|100/100
+|switch|p2a: Stoutland|Stoutland, M|100/100
+|turn|1
+|choice|move scald|move superpower
+|
+|move|p2a: Stoutland|Superpower|p1a: Prinplup
+|-damage|p1a: Prinplup|64/100
+|-unboost|p2a: Stoutland|atk|1
+|-unboost|p2a: Stoutland|def|1
+|move|p1a: Prinplup|Scald|p2a: Stoutland
+|-damage|p2a: Stoutland|71/100
+|
+|upkeep
+|turn|2
+|choice|move scald|switch 6
+|
+|switch|p2a: Gourgeist|Gourgeist-Small, M|100/100
+|-item|p1a: Prinplup|Eviolite|[from] ability: Frisk|[of] p2a: Gourgeist|[identify]
+|move|p1a: Prinplup|Scald|p2a: Gourgeist
+|-resisted|p2a: Gourgeist
+|-damage|p2a: Gourgeist|84/100
+|
+|-heal|p2a: Gourgeist|90/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|choice|switch 4|move substitute
+|
+|switch|p1a: Audino|Audino, M|100/100
+|move|p2a: Gourgeist|Substitute|p2a: Gourgeist
+|-start|p2a: Gourgeist|Substitute
+|-damage|p2a: Gourgeist|65/100
+|
+|-heal|p2a: Gourgeist|71/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|choice|move knockoff|move leechseed
+|
+|move|p2a: Gourgeist|Leech Seed|p1a: Audino
+|-start|p1a: Audino|move: Leech Seed
+|move|p1a: Audino|Knock Off|p2a: Gourgeist
+|-supereffective|p2a: Gourgeist
+|-end|p2a: Gourgeist|Substitute
+|
+|-heal|p2a: Gourgeist|78/100|[from] item: Leftovers
+|-damage|p1a: Audino|88/100|[from] Leech Seed|[of] p2a: Gourgeist
+|-heal|p2a: Gourgeist|95/100|[silent]
+|upkeep
+|turn|5
+|choice|move toxic|move substitute
+|
+|move|p2a: Gourgeist|Substitute|p2a: Gourgeist
+|-start|p2a: Gourgeist|Substitute
+|-damage|p2a: Gourgeist|70/100
+|move|p1a: Audino|Toxic|p2a: Gourgeist|[miss]
+|-miss|p1a: Audino|p2a: Gourgeist
+|
+|-heal|p2a: Gourgeist|77/100|[from] item: Leftovers
+|-heal|p1a: Audino|94/100|[from] item: Leftovers
+|-damage|p1a: Audino|82/100|[from] Leech Seed|[of] p2a: Gourgeist
+|-heal|p2a: Gourgeist|94/100|[silent]
+|upkeep
+|turn|6
+|choice|move knockoff|move willowisp
+|
+|move|p2a: Gourgeist|Will-O-Wisp|p1a: Audino
+|-status|p1a: Audino|brn
+|move|p1a: Audino|Knock Off|p2a: Gourgeist
+|-supereffective|p2a: Gourgeist
+|-activate|p2a: Gourgeist|move: Substitute|[damage]
+|
+|-heal|p2a: Gourgeist|100/100|[from] item: Leftovers
+|-heal|p1a: Audino|88/100 brn|[from] item: Leftovers
+|-damage|p1a: Audino|75/100 brn|[from] Leech Seed|[of] p2a: Gourgeist
+|-damage|p1a: Audino|63/100 brn|[from] brn
+|upkeep
+|turn|7
+|choice|move wish|move seedbomb
+|
+|move|p2a: Gourgeist|Seed Bomb|p1a: Audino
+|-damage|p1a: Audino|39/100 brn
+|move|p1a: Audino|Wish|p1a: Audino
+|
+|-heal|p1a: Audino|45/100 brn|[from] item: Leftovers
+|-damage|p1a: Audino|33/100 brn|[from] Leech Seed|[of] p2a: Gourgeist
+|-damage|p1a: Audino|20/100 brn|[from] brn
+|upkeep
+|turn|8
+|c|☆Shiruga|en vrai en jouant ce match je comprend pourquoi je fais jamais du PU lol
+|c|☆Elekable Best|mdr
+|choice|switch 5|move leechseed
+|
+|switch|p1a: Dodrio|Dodrio, M|100/100
+|move|p2a: Gourgeist|Leech Seed|p1a: Dodrio
+|-start|p1a: Dodrio|move: Leech Seed
+|
+|-damage|p1a: Dodrio|88/100|[from] Leech Seed|[of] p2a: Gourgeist
+|upkeep
+|turn|9
+|choice|switch 3|move willowisp
+|
+|switch|p1a: Rapidash|Rapidash, M|100/100
+|move|p2a: Gourgeist|Will-O-Wisp|p1a: Rapidash
+|-start|p1a: Rapidash|ability: Flash Fire
+|
+|upkeep
+|turn|10
+|c|☆Elekable Best|bien joué ;)
+|choice|move flareblitz|move leechseed
+|
+|move|p1a: Rapidash|Flare Blitz|p2a: Gourgeist
+|-supereffective|p2a: Gourgeist
+|-end|p2a: Gourgeist|Substitute
+|-damage|p1a: Rapidash|96/100|[from] recoil|[of] p2a: Gourgeist
+|move|p2a: Gourgeist|Leech Seed|p1a: Rapidash
+|-start|p1a: Rapidash|move: Leech Seed
+|
+|-damage|p1a: Rapidash|84/100|[from] Leech Seed|[of] p2a: Gourgeist
+|upkeep
+|turn|11
+|choice|move willowisp|switch 5
+|
+|switch|p2a: Vibrava|Vibrava, M|100/100
+|move|p1a: Rapidash|Will-O-Wisp|p2a: Vibrava
+|-status|p2a: Vibrava|brn
+|
+|-damage|p1a: Rapidash|72/100|[from] Leech Seed|[of] p2a: Vibrava
+|-damage|p2a: Vibrava|88/100 brn|[from] brn
+|upkeep
+|turn|12
+|choice|switch 5|move uturn
+|
+|-end|p1a: Rapidash|ability: Flash Fire|[silent]
+|switch|p1a: Audino|Audino, M|54/100 brn
+|move|p2a: Vibrava|U-turn|p1a: Audino
+|-damage|p1a: Audino|48/100 brn
+|choice||switch 2
+|
+|switch|p2a: Basculin|Basculin, M|100/100
+|
+|-heal|p1a: Audino|54/100 brn|[from] item: Leftovers
+|-damage|p1a: Audino|42/100 brn|[from] brn
+|upkeep
+|turn|13
+|choice|move protect|move waterfall
+|
+|move|p1a: Audino|Protect|p1a: Audino
+|-singleturn|p1a: Audino|Protect
+|move|p2a: Basculin|Waterfall|p1a: Audino
+|-activate|p1a: Audino|move: Protect
+|
+|-heal|p1a: Audino|48/100 brn|[from] item: Leftovers
+|-damage|p1a: Audino|36/100 brn|[from] brn
+|upkeep
+|turn|14
+|choice|switch 4|switch 5
+|
+|switch|p2a: Gourgeist|Gourgeist-Small, M|100/100
+|-item|p1a: Audino|Leftovers|[from] ability: Frisk|[of] p2a: Gourgeist|[identify]
+|switch|p1a: Prinplup|Prinplup, M|64/100
+|
+|upkeep
+|turn|15
+|choice|move stealthrock|move leechseed
+|
+|move|p2a: Gourgeist|Leech Seed|p1a: Prinplup
+|-start|p1a: Prinplup|move: Leech Seed
+|move|p1a: Prinplup|Stealth Rock|p2a: Gourgeist
+|-sidestart|p2: Elekable Best|move: Stealth Rock
+|
+|-damage|p1a: Prinplup|52/100|[from] Leech Seed|[of] p2a: Gourgeist
+|upkeep
+|turn|16
+|choice|switch 5|switch 5
+|
+|switch|p2a: Basculin|Basculin, M|100/100
+|-damage|p2a: Basculin|88/100|[from] Stealth Rock
+|switch|p1a: Rapidash|Rapidash, M|72/100
+|
+|upkeep
+|turn|17
+|choice|move wildcharge|switch 2
+|
+|switch|p2a: Vibrava|Vibrava, M|88/100 brn
+|-damage|p2a: Vibrava|82/100 brn|[from] Stealth Rock
+|move|p1a: Rapidash|Wild Charge|p2a: Vibrava
+|-immune|p2a: Vibrava|[msg]
+|
+|-damage|p2a: Vibrava|70/100 brn|[from] brn
+|upkeep
+|turn|18
+|choice|switch 3|move defog
+|
+|switch|p1a: Dodrio|Dodrio, M|88/100
+|move|p2a: Vibrava|Defog|p1a: Dodrio
+|-unboost|p1a: Dodrio|evasion|1
+|-sideend|p2: Elekable Best|Stealth Rock|[from] move: Defog|[of] p2a: Vibrava
+|
+|-damage|p2a: Vibrava|58/100 brn|[from] brn
+|upkeep
+|turn|19
+|choice|move bravebird|move roost
+|
+|move|p1a: Dodrio|Brave Bird|p2a: Vibrava
+|-damage|p2a: Vibrava|0 fnt
+|-damage|p1a: Dodrio|66/100|[from] recoil|[of] p2a: Vibrava
+|faint|p2a: Vibrava
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Mr. Mime|Mr. Mime, M|100/100
+|turn|20
+|choice|move bravebird|move focusblast
+|
+|move|p2a: Mr. Mime|Focus Blast|p1a: Dodrio
+|-damage|p1a: Dodrio|4/100
+|move|p1a: Dodrio|Brave Bird|p2a: Mr. Mime
+|-damage|p2a: Mr. Mime|0 fnt
+|-damage|p1a: Dodrio|0 fnt|[from] recoil|[of] p2a: Mr. Mime
+|faint|p2a: Mr. Mime
+|faint|p1a: Dodrio
+|
+|upkeep
+|choice|switch 3|switch 2
+|
+|switch|p1a: Rapidash|Rapidash, M|72/100
+|switch|p2a: Basculin|Basculin, M|88/100
+|turn|21
+|choice|move wildcharge|move aquajet
+|
+|move|p2a: Basculin|Aqua Jet|p1a: Rapidash
+|-supereffective|p1a: Rapidash
+|-damage|p1a: Rapidash|0 fnt
+|-damage|p2a: Basculin|79/100|[from] item: Life Orb
+|faint|p1a: Rapidash
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Pawniard|Pawniard, M|100/100
+|turn|22
+|choice|move swordsdance|move superpower
+|
+|move|p2a: Basculin|Superpower|p1a: Pawniard
+|-supereffective|p1a: Pawniard
+|-damage|p1a: Pawniard|0 fnt
+|-unboost|p2a: Basculin|atk|1
+|-unboost|p2a: Basculin|def|1
+|-damage|p2a: Basculin|69/100|[from] item: Life Orb
+|faint|p1a: Pawniard
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Fraxure|Fraxure, M|100/100
+|-ability|p1a: Fraxure|Mold Breaker
+|turn|23
+|choice|move dragondance|move icebeam
+|
+|move|p2a: Basculin|Ice Beam|p1a: Fraxure
+|-supereffective|p1a: Fraxure
+|-damage|p1a: Fraxure|36/100
+|-damage|p2a: Basculin|59/100|[from] item: Life Orb
+|move|p1a: Fraxure|Dragon Dance|p1a: Fraxure
+|-boost|p1a: Fraxure|atk|1
+|-boost|p1a: Fraxure|spe|1
+|
+|upkeep
+|turn|24
+|choice|move dualchop|move aquajet
+|
+|move|p2a: Basculin|Aqua Jet|p1a: Fraxure
+|-resisted|p1a: Fraxure
+|-damage|p1a: Fraxure|25/100
+|-damage|p2a: Basculin|50/100|[from] item: Life Orb
+|move|p1a: Fraxure|Dual Chop|p2a: Basculin
+|-damage|p2a: Basculin|0 fnt
+|-hitcount|p2a: Basculin|1
+|faint|p2a: Basculin
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Murkrow|Murkrow, M|100/100
+|turn|25
+|choice|move outrage|move suckerpunch
+|
+|move|p2a: Murkrow|Sucker Punch|p1a: Fraxure
+|-damage|p1a: Fraxure|0 fnt
+|-damage|p2a: Murkrow|91/100|[from] item: Life Orb
+|faint|p1a: Fraxure
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Prinplup|Prinplup, M|52/100
+|turn|26
+|choice|move scald|switch 5
+|
+|switch|p2a: Gourgeist|Gourgeist-Small, M|100/100
+|-item|p1a: Prinplup|Eviolite|[from] ability: Frisk|[of] p2a: Gourgeist|[identify]
+|move|p1a: Prinplup|Scald|p2a: Gourgeist
+|-resisted|p2a: Gourgeist
+|-damage|p2a: Gourgeist|84/100
+|
+|-heal|p2a: Gourgeist|90/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|choice|move scald|move substitute
+|
+|move|p2a: Gourgeist|Substitute|p2a: Gourgeist
+|-start|p2a: Gourgeist|Substitute
+|-damage|p2a: Gourgeist|65/100
+|move|p1a: Prinplup|Scald|p2a: Gourgeist
+|-resisted|p2a: Gourgeist
+|-activate|p2a: Gourgeist|move: Substitute|[damage]
+|
+|-heal|p2a: Gourgeist|71/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|c|☆Shiruga|je pense comprendre maintenant pourquoi je ne m'amuse pas
+|choice|move scald|move seedbomb
+|
+|move|p2a: Gourgeist|Seed Bomb|p1a: Prinplup
+|-supereffective|p1a: Prinplup
+|-damage|p1a: Prinplup|22/100
+|move|p1a: Prinplup|Scald|p2a: Gourgeist
+|-resisted|p2a: Gourgeist
+|-end|p2a: Gourgeist|Substitute
+|
+|-heal|p2a: Gourgeist|77/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|c|☆Shiruga|et que je ne progresse pas
+|choice|move scald|move seedbomb
+|
+|move|p2a: Gourgeist|Seed Bomb|p1a: Prinplup
+|-supereffective|p1a: Prinplup
+|-damage|p1a: Prinplup|0 fnt
+|faint|p1a: Prinplup
+|
+|-heal|p2a: Gourgeist|84/100|[from] item: Leftovers
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Audino|Audino, M|69/100 brn
+|turn|30
+|c|☆Elekable Best|pourquoi ?
+|c|☆Shiruga|ça doit être parce que justement je ne m'amuse pas à faire des matchs
+|choice|move knockoff|move substitute
+|
+|move|p2a: Gourgeist|Substitute|p2a: Gourgeist
+|-start|p2a: Gourgeist|Substitute
+|-damage|p2a: Gourgeist|59/100
+|move|p1a: Audino|Knock Off|p2a: Gourgeist
+|-supereffective|p2a: Gourgeist
+|-activate|p2a: Gourgeist|move: Substitute|[damage]
+|
+|-heal|p2a: Gourgeist|65/100|[from] item: Leftovers
+|-heal|p1a: Audino|75/100 brn|[from] item: Leftovers
+|-damage|p1a: Audino|62/100 brn|[from] brn
+|upkeep
+|turn|31
+|c|☆Elekable Best|C'est à dire ?
+|c|☆Shiruga|du coup ça ne m'interesse pas de progresser dans un domaine qui ne m'amuse pas
+|choice|move knockoff|move leechseed
+|
+|move|p2a: Gourgeist|Leech Seed|p1a: Audino|[miss]
+|-miss|p2a: Gourgeist|p1a: Audino
+|move|p1a: Audino|Knock Off|p2a: Gourgeist
+|-supereffective|p2a: Gourgeist
+|-end|p2a: Gourgeist|Substitute
+|
+|-heal|p2a: Gourgeist|71/100|[from] item: Leftovers
+|-heal|p1a: Audino|69/100 brn|[from] item: Leftovers
+|-damage|p1a: Audino|56/100 brn|[from] brn
+|upkeep
+|turn|32
+|choice|move knockoff|move substitute
+|
+|move|p2a: Gourgeist|Substitute|p2a: Gourgeist
+|-start|p2a: Gourgeist|Substitute
+|-damage|p2a: Gourgeist|46/100
+|move|p1a: Audino|Knock Off|p2a: Gourgeist
+|-supereffective|p2a: Gourgeist
+|-activate|p2a: Gourgeist|move: Substitute|[damage]
+|
+|-heal|p2a: Gourgeist|52/100|[from] item: Leftovers
+|-heal|p1a: Audino|62/100 brn|[from] item: Leftovers
+|-damage|p1a: Audino|50/100 brn|[from] brn
+|upkeep
+|turn|33
+|c|☆Elekable Best|Tu veux dire que tu n'aimes la strat ?
+|choice|move knockoff|move leechseed
+|
+|move|p2a: Gourgeist|Leech Seed|p1a: Audino
+|-start|p1a: Audino|move: Leech Seed
+|move|p1a: Audino|Knock Off|p2a: Gourgeist
+|-supereffective|p2a: Gourgeist
+|-end|p2a: Gourgeist|Substitute
+|
+|-heal|p2a: Gourgeist|59/100|[from] item: Leftovers
+|-heal|p1a: Audino|56/100 brn|[from] item: Leftovers
+|-damage|p1a: Audino|43/100 brn|[from] Leech Seed|[of] p2a: Gourgeist
+|-heal|p2a: Gourgeist|76/100|[silent]
+|-damage|p1a: Audino|31/100 brn|[from] brn
+|upkeep
+|turn|34
+|c|☆Shiruga|je pense ouai
+|choice|move knockoff|move seedbomb
+|
+|move|p2a: Gourgeist|Seed Bomb|p1a: Audino
+|-damage|p1a: Audino|7/100 brn
+|move|p1a: Audino|Knock Off|p2a: Gourgeist
+|-supereffective|p2a: Gourgeist
+|-damage|p2a: Gourgeist|62/100
+|-enditem|p2a: Gourgeist|Leftovers|[from] move: Knock Off|[of] p1a: Audino
+|
+|-heal|p1a: Audino|13/100 brn|[from] item: Leftovers
+|-damage|p1a: Audino|0 fnt|[from] Leech Seed|[of] p2a: Gourgeist
+|-heal|p2a: Gourgeist|79/100|[silent]
+|upkeep
+|faint|p1a: Audino
+|
+|win|Elekable Best
+|c|☆Elekable Best|J'pense pas
+|c|☆Elekable Best|sinon tu aurais arrêté depuis longtemps

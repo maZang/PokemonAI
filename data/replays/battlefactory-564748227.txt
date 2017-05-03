@@ -1,0 +1,597 @@
+|j|Dragonmaster011
+|j|enomen
+|player|p1|Dragonmaster011|70
+|player|p2|enomen|209
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|41931,17870,1606,39983,59593,38796,52471,23543,29257,32531,62152,35717
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Crustle, M|item
+|poke|p1|Sandslash, M|item
+|poke|p1|Kangaskhan, F|item
+|poke|p1|Samurott, M|item
+|poke|p1|Liepard, M|item
+|poke|p1|Musharna, M|item
+|poke|p2|Malamar, M|item
+|poke|p2|Skuntank, M|item
+|poke|p2|Torterra, M|item
+|poke|p2|Articuno|item
+|poke|p2|Clefairy, M|item
+|poke|p2|Primeape, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|c|☆enomen|넌 D졌어
+|c|☆Dragonmaster011|캥카가 메가가 아니라니!!!
+|choice|team 3, team 2, team 1, team 4, team 5, team 6|team 6, team 2, team 3, team 4, team 5, team 1
+|
+|start
+|switch|p1a: Kangaskhan|Kangaskhan, F|100/100
+|switch|p2a: Primeape|Primeape, M|100/100
+|turn|1
+|choice|move fakeout|move closecombat
+|
+|move|p1a: Kangaskhan|Fake Out|p2a: Primeape
+|-damage|p2a: Primeape|55/100
+|cant|p2a: Primeape|flinch
+|
+|upkeep
+|turn|2
+|choice|move suckerpunch|move closecombat
+|
+|move|p1a: Kangaskhan|Sucker Punch|p2a: Primeape
+|-resisted|p2a: Primeape
+|-damage|p2a: Primeape|31/100
+|move|p2a: Primeape|Close Combat|p1a: Kangaskhan
+|-supereffective|p1a: Kangaskhan
+|-damage|p1a: Kangaskhan|0 fnt
+|-unboost|p2a: Primeape|def|1
+|-unboost|p2a: Primeape|spd|1
+|faint|p1a: Kangaskhan
+|
+|upkeep
+|c|☆enomen|어디서 나대?
+|choice|switch 6|
+|
+|switch|p1a: Musharna|Musharna, M|100/100
+|turn|3
+|c|☆enomen|소이다가 45나 딸게 만드는 주제에!
+|c|☆enomen|*속이다
+|choice|move barrier|move closecombat
+|
+|move|p2a: Primeape|Close Combat|p1a: Musharna
+|-resisted|p1a: Musharna
+|-damage|p1a: Musharna|75/100
+|-unboost|p2a: Primeape|def|1
+|-unboost|p2a: Primeape|spd|1
+|move|p1a: Musharna|Barrier|p1a: Musharna
+|-boost|p1a: Musharna|def|2
+|
+|-heal|p1a: Musharna|81/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|choice|move barrier|switch 6
+|
+|switch|p2a: Malamar|Malamar, M|100/100
+|move|p1a: Musharna|Barrier|p1a: Musharna
+|-boost|p1a: Musharna|def|2
+|
+|-heal|p1a: Musharna|87/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|choice|move barrier|move knockoff
+|
+|move|p2a: Malamar|Knock Off|p1a: Musharna
+|-supereffective|p1a: Musharna
+|-damage|p1a: Musharna|69/100
+|-enditem|p1a: Musharna|Leftovers|[from] move: Knock Off|[of] p2a: Malamar
+|move|p1a: Musharna|Barrier|p1a: Musharna
+|-boost|p1a: Musharna|def|2
+|
+|upkeep
+|turn|6
+|choice|move storedpower|move knockoff
+|
+|move|p2a: Malamar|Knock Off|p1a: Musharna
+|-supereffective|p1a: Musharna
+|-damage|p1a: Musharna|59/100
+|move|p1a: Musharna|Stored Power|p2a: Malamar
+|-immune|p2a: Malamar|[msg]
+|
+|upkeep
+|turn|7
+|choice|move moonlight|move knockoff
+|
+|move|p2a: Malamar|Knock Off|p1a: Musharna
+|-supereffective|p1a: Musharna
+|-crit|p1a: Musharna
+|-damage|p1a: Musharna|8/100
+|move|p1a: Musharna|Moonlight|p1a: Musharna
+|-heal|p1a: Musharna|58/100
+|
+|upkeep
+|turn|8
+|c|☆enomen|ㅁㅊ놈ㅋㅋ
+|choice|move moonlight|switch 2
+|
+|switch|p2a: Skuntank|Skuntank, M|100/100
+|move|p1a: Musharna|Moonlight|p1a: Musharna
+|-heal|p1a: Musharna|100/100
+|
+|upkeep
+|turn|9
+|c|☆Dragonmaster011|너 때릴게 없음ㅋㅋ
+|choice|move calmmind|move darkpulse
+|
+|move|p2a: Skuntank|Dark Pulse|p1a: Musharna
+|-supereffective|p1a: Musharna
+|-damage|p1a: Musharna|44/100
+|move|p1a: Musharna|Calm Mind|p1a: Musharna
+|-boost|p1a: Musharna|spa|1
+|-boost|p1a: Musharna|spd|1
+|
+|upkeep
+|turn|10
+|c|☆enomen|어쩟ㄹㅋㅋㅋ
+|choice|move moonlight|move darkpulse
+|
+|move|p2a: Skuntank|Dark Pulse|p1a: Musharna
+|-supereffective|p1a: Musharna
+|-damage|p1a: Musharna|5/100
+|move|p1a: Musharna|Moonlight|p1a: Musharna
+|-heal|p1a: Musharna|55/100
+|
+|upkeep
+|turn|11
+|c|☆enomen|ㅆㅂ
+|choice|move moonlight|switch 5
+|
+|switch|p2a: Clefairy|Clefairy, M|100/100
+|move|p1a: Musharna|Moonlight|p1a: Musharna
+|-heal|p1a: Musharna|100/100
+|
+|upkeep
+|turn|12
+|choice|move calmmind|move thunderwave
+|
+|move|p2a: Clefairy|Thunder Wave|p1a: Musharna
+|-status|p1a: Musharna|par
+|-activate|p1a: Musharna|ability: Synchronize
+|-status|p2a: Clefairy|par
+|cant|p1a: Musharna|par
+|
+|upkeep
+|turn|13
+|c|☆enomen|엌
+|choice|move calmmind|switch 5
+|
+|switch|p2a: Skuntank|Skuntank, M|100/100
+|move|p1a: Musharna|Calm Mind|p1a: Musharna
+|-boost|p1a: Musharna|spa|1
+|-boost|p1a: Musharna|spd|1
+|
+|upkeep
+|turn|14
+|c|☆Dragonmaster011|엌
+|choice|move calmmind|move darkpulse
+|
+|move|p2a: Skuntank|Dark Pulse|p1a: Musharna
+|-supereffective|p1a: Musharna
+|-damage|p1a: Musharna|72/100 par
+|move|p1a: Musharna|Calm Mind|p1a: Musharna
+|-boost|p1a: Musharna|spa|1
+|-boost|p1a: Musharna|spd|1
+|
+|upkeep
+|turn|15
+|choice|move calmmind|move darkpulse
+|
+|move|p2a: Skuntank|Dark Pulse|p1a: Musharna
+|-supereffective|p1a: Musharna
+|-damage|p1a: Musharna|47/100 par
+|cant|p1a: Musharna|flinch
+|
+|upkeep
+|turn|16
+|c|☆enomen|아 제발
+|choice|move moonlight|move darkpulse
+|
+|move|p2a: Skuntank|Dark Pulse|p1a: Musharna
+|-supereffective|p1a: Musharna
+|-damage|p1a: Musharna|22/100 par
+|move|p1a: Musharna|Moonlight|p1a: Musharna
+|-heal|p1a: Musharna|71/100 par
+|
+|upkeep
+|turn|17
+|choice|move calmmind|move darkpulse
+|
+|move|p2a: Skuntank|Dark Pulse|p1a: Musharna
+|-supereffective|p1a: Musharna
+|-damage|p1a: Musharna|48/100 par
+|move|p1a: Musharna|Calm Mind|p1a: Musharna
+|-boost|p1a: Musharna|spa|1
+|-boost|p1a: Musharna|spd|1
+|
+|upkeep
+|turn|18
+|choice|move moonlight|move darkpulse
+|
+|move|p2a: Skuntank|Dark Pulse|p1a: Musharna
+|-supereffective|p1a: Musharna
+|-damage|p1a: Musharna|27/100 par
+|move|p1a: Musharna|Moonlight|p1a: Musharna
+|-heal|p1a: Musharna|77/100 par
+|
+|upkeep
+|turn|19
+|c|☆enomen|ㅁㅊ놈
+|c|☆Dragonmaster011|깔깔
+|choice|move calmmind|move fireblast
+|
+|move|p2a: Skuntank|Fire Blast|p1a: Musharna
+|-damage|p1a: Musharna|70/100 par
+|move|p1a: Musharna|Calm Mind|p1a: Musharna
+|-boost|p1a: Musharna|spa|1
+|-boost|p1a: Musharna|spd|1
+|
+|upkeep
+|turn|20
+|c|☆Dragonmaster011|할게 없다
+|choice|move calmmind|move fireblast
+|
+|move|p2a: Skuntank|Fire Blast|p1a: Musharna
+|-damage|p1a: Musharna|62/100 par
+|move|p1a: Musharna|Calm Mind|p1a: Musharna
+|-boost|p1a: Musharna|spa|1
+|-boost|p1a: Musharna|spd|1
+|
+|upkeep
+|turn|21
+|c|☆enomen|ㅆㅂ?
+|choice|move moonlight|move defog
+|
+|move|p2a: Skuntank|Defog|p1a: Musharna
+|-unboost|p1a: Musharna|evasion|1
+|move|p1a: Musharna|Moonlight|p1a: Musharna
+|-heal|p1a: Musharna|100/100 par
+|
+|upkeep
+|turn|22
+|choice|move storedpower|move defog
+|
+|move|p2a: Skuntank|Defog|p1a: Musharna
+|-unboost|p1a: Musharna|evasion|1
+|cant|p1a: Musharna|par
+|
+|upkeep
+|turn|23
+|choice|move storedpower|move defog
+|
+|move|p2a: Skuntank|Defog|p1a: Musharna
+|-unboost|p1a: Musharna|evasion|1
+|move|p1a: Musharna|Stored Power|p2a: Skuntank
+|-immune|p2a: Skuntank|[msg]
+|
+|upkeep
+|turn|24
+|c|☆Dragonmaster011|때릴게,,,,
+|c|☆Dragonmaster011|ㅋㅋㅋ
+|c|☆enomen|물라잇쓰지
+|choice|move storedpower|move defog
+|
+|move|p2a: Skuntank|Defog|p1a: Musharna
+|-unboost|p1a: Musharna|evasion|1
+|move|p1a: Musharna|Stored Power|p2a: Skuntank
+|-immune|p2a: Skuntank|[msg]
+|
+|upkeep
+|turn|25
+|c|☆enomen|문라잇써
+|c|☆Dragonmaster011|ㄴㄴ
+|choice|move storedpower|move fireblast
+|
+|move|p2a: Skuntank|Fire Blast|p1a: Musharna
+|-damage|p1a: Musharna|95/100 par
+|cant|p1a: Musharna|par
+|
+|upkeep
+|turn|26
+|choice|move calmmind|move fireblast
+|
+|move|p2a: Skuntank|Fire Blast|p1a: Musharna
+|-damage|p1a: Musharna|89/100 par
+|cant|p1a: Musharna|par
+|
+|upkeep
+|turn|27
+|choice|move calmmind|move fireblast
+|
+|move|p2a: Skuntank|Fire Blast|p1a: Musharna
+|-damage|p1a: Musharna|83/100 par
+|move|p1a: Musharna|Calm Mind|p1a: Musharna
+|-boost|p1a: Musharna|spa|0
+|-boost|p1a: Musharna|spd|0
+|
+|upkeep
+|turn|28
+|c|☆enomen|쓰라고
+|c|☆Dragonmaster011|농락잼
+|choice|move calmmind|move fireblast
+|
+|move|p2a: Skuntank|Fire Blast|p1a: Musharna
+|-damage|p1a: Musharna|78/100 par
+|cant|p1a: Musharna|par
+|
+|upkeep
+|turn|29
+|choice|move calmmind|move darkpulse
+|
+|move|p2a: Skuntank|Dark Pulse|p1a: Musharna
+|-supereffective|p1a: Musharna
+|-damage|p1a: Musharna|62/100 par
+|move|p1a: Musharna|Calm Mind|p1a: Musharna
+|-boost|p1a: Musharna|spa|0
+|-boost|p1a: Musharna|spd|0
+|
+|upkeep
+|turn|30
+|choice|move storedpower|move darkpulse
+|
+|move|p2a: Skuntank|Dark Pulse|p1a: Musharna
+|-supereffective|p1a: Musharna
+|-damage|p1a: Musharna|46/100 par
+|cant|p1a: Musharna|par
+|
+|upkeep
+|turn|31
+|choice|move moonlight|move fireblast
+|
+|move|p2a: Skuntank|Fire Blast|p1a: Musharna
+|-damage|p1a: Musharna|40/100 par
+|move|p1a: Musharna|Moonlight|p1a: Musharna
+|-heal|p1a: Musharna|89/100 par
+|
+|upkeep
+|turn|32
+|c|☆enomen|이제 이김
+|choice|move storedpower|move darkpulse
+|
+|move|p2a: Skuntank|Dark Pulse|p1a: Musharna
+|-supereffective|p1a: Musharna
+|-damage|p1a: Musharna|74/100 par
+|cant|p1a: Musharna|flinch
+|
+|upkeep
+|turn|33
+|choice|move storedpower|move darkpulse
+|
+|move|p2a: Skuntank|Dark Pulse|p1a: Musharna
+|-supereffective|p1a: Musharna
+|-damage|p1a: Musharna|58/100 par
+|move|p1a: Musharna|Stored Power|p2a: Skuntank
+|-immune|p2a: Skuntank|[msg]
+|
+|upkeep
+|turn|34
+|c|☆Dragonmaster011|잘해봐
+|choice|move storedpower|move darkpulse
+|
+|move|p2a: Skuntank|Dark Pulse|p1a: Musharna
+|-supereffective|p1a: Musharna
+|-damage|p1a: Musharna|41/100 par
+|move|p1a: Musharna|Stored Power|p2a: Skuntank
+|-immune|p2a: Skuntank|[msg]
+|
+|upkeep
+|turn|35
+|choice|move storedpower|move darkpulse
+|
+|move|p2a: Skuntank|Dark Pulse|p1a: Musharna
+|-supereffective|p1a: Musharna
+|-damage|p1a: Musharna|24/100 par
+|move|p1a: Musharna|Stored Power|p2a: Skuntank
+|-immune|p2a: Skuntank|[msg]
+|
+|upkeep
+|turn|36
+|choice|move storedpower|move hiddenpower
+|
+|move|p2a: Skuntank|Hidden Power|p1a: Musharna
+|-damage|p1a: Musharna|21/100 par
+|move|p1a: Musharna|Stored Power|p2a: Skuntank
+|-immune|p2a: Skuntank|[msg]
+|
+|upkeep
+|turn|37
+|choice|move calmmind|move hiddenpower
+|
+|move|p2a: Skuntank|Hidden Power|p1a: Musharna
+|-damage|p1a: Musharna|18/100 par
+|move|p1a: Musharna|Calm Mind|p1a: Musharna
+|-boost|p1a: Musharna|spa|0
+|-boost|p1a: Musharna|spd|0
+|
+|upkeep
+|turn|38
+|choice|move storedpower|move hiddenpower
+|
+|move|p2a: Skuntank|Hidden Power|p1a: Musharna
+|-damage|p1a: Musharna|14/100 par
+|cant|p1a: Musharna|par
+|
+|upkeep
+|turn|39
+|choice|move storedpower|move hiddenpower
+|
+|move|p2a: Skuntank|Hidden Power|p1a: Musharna
+|-damage|p1a: Musharna|11/100 par
+|move|p1a: Musharna|Stored Power|p2a: Skuntank
+|-immune|p2a: Skuntank|[msg]
+|
+|upkeep
+|turn|40
+|choice|move storedpower|move hiddenpower
+|
+|move|p2a: Skuntank|Hidden Power|p1a: Musharna
+|-damage|p1a: Musharna|7/100 par
+|move|p1a: Musharna|Stored Power|p2a: Skuntank
+|-immune|p2a: Skuntank|[msg]
+|
+|upkeep
+|turn|41
+|choice|move barrier|move hiddenpower
+|
+|move|p2a: Skuntank|Hidden Power|p1a: Musharna
+|-damage|p1a: Musharna|4/100 par
+|cant|p1a: Musharna|par
+|
+|upkeep
+|turn|42
+|choice|move calmmind|move darkpulse
+|
+|move|p2a: Skuntank|Dark Pulse|p1a: Musharna
+|-supereffective|p1a: Musharna
+|-damage|p1a: Musharna|0 fnt
+|faint|p1a: Musharna
+|
+|upkeep
+|c|☆enomen|드디어
+|choice|switch 2|
+|
+|switch|p1a: Sandslash|Sandslash, M|100/100
+|turn|43
+|choice|move stealthrock|move hiddenpower
+|
+|move|p2a: Skuntank|Hidden Power|p1a: Sandslash
+|-supereffective|p1a: Sandslash
+|-damage|p1a: Sandslash|42/100
+|move|p1a: Sandslash|Stealth Rock|p2a: Skuntank
+|-sidestart|p2: enomen|move: Stealth Rock
+|
+|upkeep
+|turn|44
+|c|☆Dragonmaster011|껄껄
+|choice|move earthquake|move defog
+|
+|move|p2a: Skuntank|Defog|p1a: Sandslash
+|-unboost|p1a: Sandslash|evasion|1
+|-sideend|p2: enomen|Stealth Rock|[from] move: Defog|[of] p2a: Skuntank
+|move|p1a: Sandslash|Earthquake|p2a: Skuntank
+|-supereffective|p2a: Skuntank
+|-damage|p2a: Skuntank|0 fnt
+|faint|p2a: Skuntank
+|
+|upkeep
+|c|☆enomen|히힛
+|choice||switch 4
+|
+|switch|p2a: Articuno|Articuno|100/100
+|-ability|p2a: Articuno|Pressure
+|turn|45
+|choice|move knockoff|move freezedry
+|
+|move|p2a: Articuno|Freeze-Dry|p1a: Sandslash
+|-supereffective|p1a: Sandslash
+|-damage|p1a: Sandslash|0 fnt
+|-damage|p2a: Articuno|91/100|[from] item: Life Orb
+|faint|p1a: Sandslash
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Samurott|Samurott, M|100/100
+|turn|46
+|c|☆enomen|생구다 히힛
+|choice|move waterfall|move freezedry
+|
+|move|p2a: Articuno|Freeze-Dry|p1a: Samurott
+|-supereffective|p1a: Samurott
+|-damage|p1a: Samurott|7/100
+|-damage|p2a: Articuno|81/100|[from] item: Life Orb
+|move|p1a: Samurott|Waterfall|p2a: Articuno
+|-damage|p2a: Articuno|0 fnt
+|-damage|p1a: Samurott|0 fnt|[from] item: Life Orb
+|faint|p2a: Articuno
+|faint|p1a: Samurott
+|
+|upkeep
+|choice|switch 3|switch 3
+|
+|switch|p1a: Crustle|Crustle, M|100/100
+|switch|p2a: Torterra|Torterra, M|100/100
+|turn|47
+|choice|move knockoff|move earthquake
+|
+|move|p1a: Crustle|Knock Off|p2a: Torterra
+|-damage|p2a: Torterra|80/100
+|-enditem|p2a: Torterra|Leftovers|[from] move: Knock Off|[of] p1a: Crustle
+|move|p2a: Torterra|Earthquake|p1a: Crustle
+|-damage|p1a: Crustle|52/100
+|
+|upkeep
+|turn|48
+|choice|move rockblast|move earthquake
+|
+|move|p1a: Crustle|Rock Blast|p2a: Torterra
+|-resisted|p2a: Torterra
+|-damage|p2a: Torterra|77/100
+|-resisted|p2a: Torterra
+|-crit|p2a: Torterra
+|-damage|p2a: Torterra|71/100
+|-hitcount|p2a: Torterra|2
+|move|p2a: Torterra|Earthquake|p1a: Crustle
+|-damage|p1a: Crustle|10/100
+|
+|upkeep
+|turn|49
+|choice|move stealthrock|move synthesis
+|-enditem|p1a: Crustle|Custap Berry|[eat]
+|-activate|p1a: Crustle|item: Custap Berry
+|
+|move|p1a: Crustle|Stealth Rock|p2a: Torterra
+|-sidestart|p2: enomen|move: Stealth Rock
+|move|p2a: Torterra|Synthesis|p2a: Torterra
+|-heal|p2a: Torterra|100/100
+|
+|upkeep
+|turn|50
+|choice|move spikes|move earthquake
+|
+|move|p1a: Crustle|Spikes|p2a: Torterra
+|-sidestart|p2: enomen|Spikes
+|move|p2a: Torterra|Earthquake|p1a: Crustle
+|-damage|p1a: Crustle|0 fnt
+|faint|p1a: Crustle
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Liepard|Liepard, M|100/100
+|turn|51
+|choice|move uturn|move earthquake
+|
+|move|p1a: Liepard|U-turn|p2a: Torterra
+|-supereffective|p2a: Torterra
+|-damage|p2a: Torterra|74/100
+|move|p2a: Torterra|Earthquake|p1a: Liepard
+|-damage|p1a: Liepard|9/100
+|
+|upkeep
+|turn|52
+|choice|move suckerpunch|move synthesis
+|
+|move|p1a: Liepard|Sucker Punch|p2a: Torterra|[still]
+|-fail|p1a: Liepard
+|move|p2a: Torterra|Synthesis|p2a: Torterra
+|-heal|p2a: Torterra|100/100
+|
+|upkeep
+|turn|53
+|-message|Dragonmaster011 forfeited.
+|
+|win|enomen
+|c|☆enomen|ㅋㅋㅋㅋ
+|l|Dragonmaster011

@@ -1,0 +1,279 @@
+|j|bnast
+|j|BadPlayer223443232
+|player|p1|bnast|221
+|player|p2|BadPlayer223443232|124
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|35016,50125,23872,1447,51578,43577,63724,22983,60660,43777,336,58943
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Ninjask, M|item
+|poke|p1|Vullaby, F|item
+|poke|p1|Bouffalant, M|item
+|poke|p1|Basculin, M|item
+|poke|p1|Electrode|item
+|poke|p1|Clefairy, M|item
+|poke|p2|Prinplup, M|item
+|poke|p2|Grumpig, M|item
+|poke|p2|Mr. Mime, M|item
+|poke|p2|Zebstrika, M|item
+|poke|p2|Bouffalant, M|item
+|poke|p2|Cryogonal|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 1, team 2, team 3, team 4, team 5, team 6|team 1, team 2, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Ninjask|Ninjask, M|100/100
+|switch|p2a: Prinplup|Prinplup, M|100/100
+|turn|1
+|choice|move uturn|move stealthrock
+|
+|move|p1a: Ninjask|U-turn|p2a: Prinplup
+|-damage|p2a: Prinplup|71/100
+|choice|switch 5|
+|
+|switch|p1a: Electrode|Electrode|100/100
+|move|p2a: Prinplup|Stealth Rock|p1a: Electrode
+|-sidestart|p1: bnast|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|choice|switch 3|switch 4
+|
+|switch|p1a: Bouffalant|Bouffalant, M|100/100
+|-damage|p1a: Bouffalant|88/100|[from] Stealth Rock
+|switch|p2a: Zebstrika|Zebstrika, M|100/100
+|
+|upkeep
+|turn|3
+|choice|move pursuit|move voltswitch
+|
+|move|p2a: Zebstrika|Volt Switch|p1a: Bouffalant
+|-damage|p1a: Bouffalant|65/100
+|-damage|p2a: Zebstrika|91/100|[from] item: Life Orb
+|choice||switch 6
+|
+|-activate|p2a: Zebstrika|move: Pursuit
+|move|p1a: Bouffalant|Pursuit|p2a: Zebstrika|[from]Pursuit
+|-damage|p2a: Zebstrika|42/100
+|switch|p2a: Cryogonal|Cryogonal|100/100
+|
+|upkeep
+|turn|4
+|choice|move return|move hiddenpower
+|
+|move|p2a: Cryogonal|Hidden Power|p1a: Bouffalant
+|-supereffective|p1a: Bouffalant
+|-damage|p1a: Bouffalant|49/100
+|move|p1a: Bouffalant|Return|p2a: Cryogonal
+|-damage|p2a: Cryogonal|5/100
+|
+|-heal|p2a: Cryogonal|11/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|choice|move return|move freezedry
+|
+|move|p2a: Cryogonal|Freeze-Dry|p1a: Bouffalant
+|-damage|p1a: Bouffalant|37/100
+|move|p1a: Bouffalant|Return|p2a: Cryogonal
+|-damage|p2a: Cryogonal|0 fnt
+|faint|p2a: Cryogonal
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Bouffalant|Bouffalant, M|100/100
+|turn|6
+|choice|switch 6|move return
+|
+|switch|p1a: Clefairy|Clefairy, M|100/100
+|move|p2a: Bouffalant|Return|p1a: Clefairy
+|-damage|p1a: Clefairy|44/100
+|
+|upkeep
+|turn|7
+|choice|move stealthrock|move substitute
+|
+|move|p2a: Bouffalant|Substitute|p2a: Bouffalant
+|-start|p2a: Bouffalant|Substitute
+|-damage|p2a: Bouffalant|76/100
+|move|p1a: Clefairy|Stealth Rock|p2a: Bouffalant
+|-sidestart|p2: BadPlayer223443232|move: Stealth Rock
+|
+|-heal|p2a: Bouffalant|82/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|choice|move moonblast|move swordsdance
+|
+|move|p2a: Bouffalant|Swords Dance|p2a: Bouffalant
+|-boost|p2a: Bouffalant|atk|2
+|move|p1a: Clefairy|Moonblast|p2a: Bouffalant
+|-activate|p2a: Bouffalant|move: Substitute|[damage]
+|
+|-heal|p2a: Bouffalant|88/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|choice|move moonblast|move return
+|
+|move|p2a: Bouffalant|Return|p1a: Clefairy
+|-damage|p1a: Clefairy|0 fnt
+|faint|p1a: Clefairy
+|
+|-heal|p2a: Bouffalant|94/100|[from] item: Leftovers
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Electrode|Electrode|100/100
+|-damage|p1a: Electrode|88/100|[from] Stealth Rock
+|turn|10
+|choice|move voltswitch|move substitute
+|
+|move|p1a: Electrode|Volt Switch|p2a: Bouffalant
+|-crit|p2a: Bouffalant
+|-end|p2a: Bouffalant|Substitute
+|-damage|p1a: Electrode|78/100|[from] item: Life Orb
+|choice|switch 6|
+|
+|switch|p1a: Bouffalant|Bouffalant, M|37/100
+|-damage|p1a: Bouffalant|24/100|[from] Stealth Rock
+|move|p2a: Bouffalant|Substitute|p2a: Bouffalant
+|-start|p2a: Bouffalant|Substitute
+|-damage|p2a: Bouffalant|69/100
+|
+|-heal|p2a: Bouffalant|75/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|choice|move return|move return
+|
+|move|p2a: Bouffalant|Return|p1a: Bouffalant
+|-damage|p1a: Bouffalant|0 fnt
+|faint|p1a: Bouffalant
+|
+|-heal|p2a: Bouffalant|81/100|[from] item: Leftovers
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Electrode|Electrode|78/100
+|-damage|p1a: Electrode|66/100|[from] Stealth Rock
+|turn|12
+|choice|move thunderbolt|move return
+|
+|move|p1a: Electrode|Thunderbolt|p2a: Bouffalant
+|-end|p2a: Bouffalant|Substitute
+|-damage|p1a: Electrode|56/100|[from] item: Life Orb
+|move|p2a: Bouffalant|Return|p1a: Electrode
+|-damage|p1a: Electrode|0 fnt
+|faint|p1a: Electrode
+|
+|-heal|p2a: Bouffalant|87/100|[from] item: Leftovers
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Basculin|Basculin, M|100/100
+|-damage|p1a: Basculin|88/100|[from] Stealth Rock
+|turn|13
+|choice|move superpower|switch 3
+|
+|switch|p2a: Mr. Mime|Mr. Mime, M|100/100
+|-damage|p2a: Mr. Mime|88/100|[from] Stealth Rock
+|move|p1a: Basculin|Superpower|p2a: Mr. Mime
+|-resisted|p2a: Mr. Mime
+|-damage|p2a: Mr. Mime|66/100
+|-unboost|p1a: Basculin|atk|1
+|-unboost|p1a: Basculin|def|1
+|-damage|p1a: Basculin|79/100|[from] item: Life Orb
+|
+|upkeep
+|turn|14
+|choice|switch 2|move dazzlinggleam
+|
+|switch|p1a: Vullaby|Vullaby, F|100/100
+|-damage|p1a: Vullaby|76/100|[from] Stealth Rock
+|move|p2a: Mr. Mime|Dazzling Gleam|p1a: Vullaby
+|-supereffective|p1a: Vullaby
+|-damage|p1a: Vullaby|30/100
+|
+|upkeep
+|turn|15
+|choice|move defog|move dazzlinggleam
+|
+|move|p2a: Mr. Mime|Dazzling Gleam|p1a: Vullaby
+|-supereffective|p1a: Vullaby
+|-damage|p1a: Vullaby|0 fnt
+|faint|p1a: Vullaby
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Basculin|Basculin, M|79/100
+|-damage|p1a: Basculin|66/100|[from] Stealth Rock
+|turn|16
+|choice|move waterfall|switch 4
+|
+|switch|p2a: Prinplup|Prinplup, M|71/100
+|-damage|p2a: Prinplup|59/100|[from] Stealth Rock
+|move|p1a: Basculin|Waterfall|p2a: Prinplup
+|-resisted|p2a: Prinplup
+|-damage|p2a: Prinplup|41/100
+|-damage|p1a: Basculin|57/100|[from] item: Life Orb
+|
+|upkeep
+|turn|17
+|choice|move superpower|move scald
+|
+|move|p1a: Basculin|Superpower|p2a: Prinplup
+|-damage|p2a: Prinplup|13/100
+|-unboost|p1a: Basculin|atk|1
+|-unboost|p1a: Basculin|def|1
+|-damage|p1a: Basculin|47/100|[from] item: Life Orb
+|move|p2a: Prinplup|Scald|p1a: Basculin
+|-resisted|p1a: Basculin
+|-damage|p1a: Basculin|8/100
+|-status|p1a: Basculin|brn
+|
+|-damage|p1a: Basculin|0 fnt|[from] brn
+|upkeep
+|faint|p1a: Basculin
+|choice|switch 5|
+|
+|switch|p1a: Ninjask|Ninjask, M|100/100
+|-damage|p1a: Ninjask|51/100|[from] Stealth Rock
+|turn|18
+|choice|move xscissor|move scald
+|
+|move|p1a: Ninjask|X-Scissor|p2a: Prinplup
+|-damage|p2a: Prinplup|0 fnt
+|faint|p2a: Prinplup
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Grumpig|Grumpig, M|100/100
+|-damage|p2a: Grumpig|88/100|[from] Stealth Rock
+|turn|19
+|choice|move xscissor|move psychic
+|
+|move|p1a: Ninjask|X-Scissor|p2a: Grumpig
+|-supereffective|p2a: Grumpig
+|-damage|p2a: Grumpig|0 fnt
+|faint|p2a: Grumpig
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Bouffalant|Bouffalant, M|87/100
+|-damage|p2a: Bouffalant|75/100|[from] Stealth Rock
+|turn|20
+|choice|move xscissor|move return
+|
+|move|p1a: Ninjask|X-Scissor|p2a: Bouffalant
+|-damage|p2a: Bouffalant|27/100
+|move|p2a: Bouffalant|Return|p1a: Ninjask
+|-damage|p1a: Ninjask|0 fnt
+|faint|p1a: Ninjask
+|
+|win|BadPlayer223443232
+|l|bnast

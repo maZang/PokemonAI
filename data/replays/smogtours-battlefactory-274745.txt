@@ -1,0 +1,680 @@
+|J|Dokkerich
+|J|T be stuntin
+|player|p1|Dokkerich|31
+|player|p2|T be stuntin|112
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|3277,42966,20589,31984,17637,45808,63728,430,40047,8908,20015,52848
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Solrock|item
+|poke|p1|Swanna, M|item
+|poke|p1|Chatot, M|item
+|poke|p1|Seaking, M|item
+|poke|p1|Clefairy, M|item
+|poke|p1|Arbok, M|item
+|poke|p2|Vibrava, M|item
+|poke|p2|Avalugg, M|item
+|poke|p2|Tangela, M|item
+|poke|p2|Electrode|item
+|poke|p2|Metang|item
+|poke|p2|Lickilicky, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|J|bedan
+|choice|team 5, team 2, team 3, team 4, team 1, team 6|team 4, team 2, team 3, team 1, team 5, team 6
+|
+|start
+|switch|p1a: Clefairy|Clefairy, M|100/100
+|switch|p2a: Electrode|Electrode|100/100
+|turn|1
+|choice|move calmmind|move voltswitch
+|
+|move|p2a: Electrode|Volt Switch|p1a: Clefairy
+|-crit|p1a: Clefairy
+|-damage|p1a: Clefairy|44/100
+|-damage|p2a: Electrode|91/100|[from] item: Life Orb
+|choice||switch 5
+|
+|switch|p2a: Metang|Metang|100/100
+|move|p1a: Clefairy|Calm Mind|p1a: Clefairy
+|-boost|p1a: Clefairy|spa|1
+|-boost|p1a: Clefairy|spd|1
+|
+|upkeep
+|turn|2
+|choice|switch 4|move stealthrock
+|
+|switch|p1a: Seaking|Seaking, M|100/100
+|move|p2a: Metang|Stealth Rock|p1a: Seaking
+|-sidestart|p1: Dokkerich|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|choice|move knockoff|switch 3
+|
+|switch|p2a: Tangela|Tangela, M|100/100
+|move|p1a: Seaking|Knock Off|p2a: Tangela
+|-damage|p2a: Tangela|88/100
+|-enditem|p2a: Tangela|Eviolite|[from] move: Knock Off|[of] p1a: Seaking
+|
+|upkeep
+|turn|4
+|choice|switch 2|switch 5
+|
+|switch|p1a: Swanna|Swanna, M|100/100
+|-damage|p1a: Swanna|76/100|[from] Stealth Rock
+|switch|p2a: Electrode|Electrode|91/100
+|
+|upkeep
+|turn|5
+|choice|switch 2|switch 5
+|
+|switch|p2a: Tangela|Tangela, M|100/100
+|switch|p1a: Seaking|Seaking, M|100/100
+|-damage|p1a: Seaking|88/100|[from] Stealth Rock
+|
+|-heal|p1a: Seaking|94/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|choice|switch 2|move sleeppowder
+|
+|switch|p1a: Swanna|Swanna, M|76/100
+|-damage|p1a: Swanna|51/100|[from] Stealth Rock
+|move|p2a: Tangela|Sleep Powder|p1a: Swanna
+|-status|p1a: Swanna|slp
+|
+|upkeep
+|turn|7
+|choice|move roost|switch 5
+|
+|switch|p2a: Electrode|Electrode|91/100
+|cant|p1a: Swanna|slp
+|
+|upkeep
+|turn|8
+|choice|move roost|move voltswitch
+|
+|move|p2a: Electrode|Volt Switch|p1a: Swanna
+|-supereffective|p1a: Swanna
+|-damage|p1a: Swanna|0 fnt
+|-damage|p2a: Electrode|81/100|[from] item: Life Orb
+|faint|p1a: Swanna
+|choice||switch 3
+|
+|switch|p2a: Metang|Metang|100/100
+|
+|upkeep
+|J|tamahome
+|L|tamahome
+|choice|switch 6|
+|
+|switch|p1a: Arbok|Arbok, M|100/100
+|-damage|p1a: Arbok|88/100|[from] Stealth Rock
+|turn|9
+|choice|move coil|move zenheadbutt
+|
+|move|p1a: Arbok|Coil|p1a: Arbok
+|-boost|p1a: Arbok|atk|1
+|-boost|p1a: Arbok|def|1
+|-boost|p1a: Arbok|accuracy|1
+|move|p2a: Metang|Zen Headbutt|p1a: Arbok
+|-supereffective|p1a: Arbok
+|-damage|p1a: Arbok|44/100
+|
+|-heal|p1a: Arbok|50/100|[from] item: Black Sludge
+|upkeep
+|turn|10
+|choice|move coil|switch 2
+|
+|switch|p2a: Avalugg|Avalugg, M|100/100
+|move|p1a: Arbok|Coil|p1a: Arbok
+|-boost|p1a: Arbok|atk|1
+|-boost|p1a: Arbok|def|1
+|-boost|p1a: Arbok|accuracy|1
+|
+|-heal|p1a: Arbok|56/100|[from] item: Black Sludge
+|upkeep
+|turn|11
+|choice|move gunkshot|move roar
+|
+|move|p1a: Arbok|Gunk Shot|p2a: Avalugg
+|-damage|p2a: Avalugg|64/100
+|move|p2a: Avalugg|Roar|p1a: Arbok
+|drag|p1a: Solrock|Solrock|100/100
+|-damage|p1a: Solrock|88/100|[from] Stealth Rock
+|
+|-heal|p2a: Avalugg|70/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|choice|move willowisp|switch 2
+|
+|switch|p2a: Metang|Metang|100/100
+|move|p1a: Solrock|Will-O-Wisp|p2a: Metang
+|-status|p2a: Metang|brn
+|
+|-damage|p2a: Metang|88/100 brn|[from] brn
+|upkeep
+|turn|13
+|choice|move stealthrock|move toxic
+|
+|move|p1a: Solrock|Stealth Rock|p2a: Metang
+|-sidestart|p2: T be stuntin|move: Stealth Rock
+|move|p2a: Metang|Toxic|p1a: Solrock
+|-status|p1a: Solrock|tox
+|
+|-damage|p1a: Solrock|82/100 tox|[from] psn
+|-damage|p2a: Metang|76/100 brn|[from] brn
+|upkeep
+|turn|14
+|choice|switch 5|move meteormash
+|
+|switch|p1a: Arbok|Arbok, M|56/100
+|-damage|p1a: Arbok|44/100|[from] Stealth Rock
+|move|p2a: Metang|Meteor Mash|p1a: Arbok
+|-damage|p1a: Arbok|27/100
+|-boost|p2a: Metang|atk|1
+|
+|-heal|p1a: Arbok|33/100|[from] item: Black Sludge
+|-damage|p2a: Metang|63/100 brn|[from] brn
+|upkeep
+|turn|15
+|choice|move coil|move zenheadbutt
+|
+|move|p1a: Arbok|Coil|p1a: Arbok
+|-boost|p1a: Arbok|atk|1
+|-boost|p1a: Arbok|def|1
+|-boost|p1a: Arbok|accuracy|1
+|move|p2a: Metang|Zen Headbutt|p1a: Arbok
+|-supereffective|p1a: Arbok
+|-damage|p1a: Arbok|3/100
+|
+|-heal|p1a: Arbok|9/100|[from] item: Black Sludge
+|-damage|p2a: Metang|51/100 brn|[from] brn
+|upkeep
+|turn|16
+|choice|move rest|move meteormash
+|
+|move|p1a: Arbok|Rest|p1a: Arbok
+|-status|p1a: Arbok|slp
+|-heal|p1a: Arbok|100/100 slp|[silent]
+|-status|p1a: Arbok|slp|[from] move: Rest
+|move|p2a: Metang|Meteor Mash|p1a: Arbok
+|-damage|p1a: Arbok|84/100 slp
+|
+|-heal|p1a: Arbok|90/100 slp|[from] item: Black Sludge
+|-damage|p2a: Metang|39/100 brn|[from] brn
+|upkeep
+|turn|17
+|choice|move coil|switch 2
+|
+|switch|p2a: Avalugg|Avalugg, M|70/100
+|-damage|p2a: Avalugg|45/100|[from] Stealth Rock
+|cant|p1a: Arbok|slp
+|
+|-activate|p1a: Arbok|ability: Shed Skin
+|-curestatus|p1a: Arbok|slp|[msg]
+|-heal|p1a: Arbok|96/100|[from] item: Black Sludge
+|-heal|p2a: Avalugg|51/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|choice|move gunkshot|move recover
+|
+|move|p1a: Arbok|Gunk Shot|p2a: Avalugg
+|-damage|p2a: Avalugg|21/100
+|move|p2a: Avalugg|Recover|p2a: Avalugg
+|-heal|p2a: Avalugg|71/100
+|
+|-heal|p1a: Arbok|100/100|[from] item: Black Sludge
+|-heal|p2a: Avalugg|77/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|choice|move gunkshot|move roar
+|
+|move|p1a: Arbok|Gunk Shot|p2a: Avalugg
+|-damage|p2a: Avalugg|52/100
+|move|p2a: Avalugg|Roar|p1a: Arbok
+|drag|p1a: Seaking|Seaking, M|94/100
+|-damage|p1a: Seaking|82/100|[from] Stealth Rock
+|
+|-heal|p1a: Seaking|88/100|[from] item: Leftovers
+|-heal|p2a: Avalugg|58/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|choice|move knockoff|move recover
+|
+|move|p1a: Seaking|Knock Off|p2a: Avalugg
+|-crit|p2a: Avalugg
+|-damage|p2a: Avalugg|34/100
+|-enditem|p2a: Avalugg|Leftovers|[from] move: Knock Off|[of] p1a: Seaking
+|move|p2a: Avalugg|Recover|p2a: Avalugg
+|-heal|p2a: Avalugg|84/100
+|
+|-heal|p1a: Seaking|94/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|choice|move waterfall|move rapidspin
+|
+|move|p1a: Seaking|Waterfall|p2a: Avalugg
+|-damage|p2a: Avalugg|66/100
+|cant|p2a: Avalugg|flinch
+|
+|-heal|p1a: Seaking|100/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|choice|move waterfall|move rapidspin
+|
+|move|p1a: Seaking|Waterfall|p2a: Avalugg
+|-damage|p2a: Avalugg|47/100
+|move|p2a: Avalugg|Rapid Spin|p1a: Seaking
+|-damage|p1a: Seaking|93/100
+|-sideend|p2: T be stuntin|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Avalugg
+|
+|-heal|p1a: Seaking|99/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|choice|switch 4|move recover
+|
+|switch|p1a: Clefairy|Clefairy, M|44/100
+|move|p2a: Avalugg|Recover|p2a: Avalugg
+|-heal|p2a: Avalugg|97/100
+|
+|upkeep
+|turn|24
+|choice|move softboiled|switch 2
+|
+|switch|p2a: Metang|Metang|39/100 brn
+|move|p1a: Clefairy|Soft-Boiled|p1a: Clefairy
+|-heal|p1a: Clefairy|94/100
+|
+|-damage|p2a: Metang|26/100 brn|[from] brn
+|upkeep
+|turn|25
+|choice|move calmmind|switch 3
+|
+|switch|p2a: Electrode|Electrode|81/100
+|move|p1a: Clefairy|Calm Mind|p1a: Clefairy
+|-boost|p1a: Clefairy|spa|1
+|-boost|p1a: Clefairy|spd|1
+|
+|upkeep
+|turn|26
+|choice|move calmmind|move voltswitch
+|
+|move|p2a: Electrode|Volt Switch|p1a: Clefairy
+|-damage|p1a: Clefairy|68/100
+|-damage|p2a: Electrode|71/100|[from] item: Life Orb
+|choice||switch 2
+|
+|switch|p2a: Avalugg|Avalugg, M|97/100
+|move|p1a: Clefairy|Calm Mind|p1a: Clefairy
+|-boost|p1a: Clefairy|spa|1
+|-boost|p1a: Clefairy|spd|1
+|
+|upkeep
+|turn|27
+|choice|move moonblast|move avalanche
+|
+|move|p1a: Clefairy|Moonblast|p2a: Avalugg
+|-damage|p2a: Avalugg|52/100
+|move|p2a: Avalugg|Avalanche|p1a: Clefairy
+|-damage|p1a: Clefairy|34/100
+|
+|upkeep
+|turn|28
+|choice|move softboiled|move roar
+|
+|move|p1a: Clefairy|Soft-Boiled|p1a: Clefairy
+|-heal|p1a: Clefairy|84/100
+|move|p2a: Avalugg|Roar|p1a: Clefairy
+|drag|p1a: Solrock|Solrock|82/100 tox
+|-damage|p1a: Solrock|70/100 tox|[from] Stealth Rock
+|
+|-damage|p1a: Solrock|64/100 tox|[from] psn
+|upkeep
+|turn|29
+|choice|move willowisp|move rapidspin
+|
+|move|p1a: Solrock|Will-O-Wisp|p2a: Avalugg
+|-status|p2a: Avalugg|brn
+|move|p2a: Avalugg|Rapid Spin|p1a: Solrock
+|-resisted|p1a: Solrock
+|-damage|p1a: Solrock|63/100 tox
+|
+|-damage|p1a: Solrock|50/100 tox|[from] psn
+|-damage|p2a: Avalugg|40/100 brn|[from] brn
+|upkeep
+|turn|30
+|choice|move stealthrock|move recover
+|
+|move|p1a: Solrock|Stealth Rock|p2a: Avalugg
+|-sidestart|p2: T be stuntin|move: Stealth Rock
+|move|p2a: Avalugg|Recover|p2a: Avalugg
+|-heal|p2a: Avalugg|90/100 brn
+|
+|-damage|p1a: Solrock|32/100 tox|[from] psn
+|-damage|p2a: Avalugg|78/100 brn|[from] brn
+|upkeep
+|turn|31
+|choice|switch 5|move roar
+|
+|switch|p1a: Clefairy|Clefairy, M|84/100
+|move|p2a: Avalugg|Roar|p1a: Clefairy
+|drag|p1a: Arbok|Arbok, M|100/100
+|-damage|p1a: Arbok|88/100|[from] Stealth Rock
+|
+|-heal|p1a: Arbok|94/100|[from] item: Black Sludge
+|-damage|p2a: Avalugg|65/100 brn|[from] brn
+|upkeep
+|turn|32
+|choice|move coil|move rapidspin
+|
+|move|p1a: Arbok|Coil|p1a: Arbok
+|-boost|p1a: Arbok|atk|1
+|-boost|p1a: Arbok|def|1
+|-boost|p1a: Arbok|accuracy|1
+|move|p2a: Avalugg|Rapid Spin|p1a: Arbok
+|-damage|p1a: Arbok|92/100
+|-sideend|p2: T be stuntin|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Avalugg
+|
+|-heal|p1a: Arbok|98/100|[from] item: Black Sludge
+|-damage|p2a: Avalugg|53/100 brn|[from] brn
+|upkeep
+|turn|33
+|choice|move coil|move recover
+|
+|move|p1a: Arbok|Coil|p1a: Arbok
+|-boost|p1a: Arbok|atk|1
+|-boost|p1a: Arbok|def|1
+|-boost|p1a: Arbok|accuracy|1
+|move|p2a: Avalugg|Recover|p2a: Avalugg
+|-heal|p2a: Avalugg|100/100 brn
+|
+|-heal|p1a: Arbok|100/100|[from] item: Black Sludge
+|-damage|p2a: Avalugg|88/100 brn|[from] brn
+|upkeep
+|turn|34
+|L|bedan
+|choice|move earthquake|move roar
+|
+|move|p1a: Arbok|Earthquake|p2a: Avalugg
+|-damage|p2a: Avalugg|67/100 brn
+|move|p2a: Avalugg|Roar|p1a: Arbok
+|drag|p1a: Clefairy|Clefairy, M|84/100
+|
+|-damage|p2a: Avalugg|54/100 brn|[from] brn
+|upkeep
+|turn|35
+|choice|move calmmind|move roar
+|
+|move|p1a: Clefairy|Calm Mind|p1a: Clefairy
+|-boost|p1a: Clefairy|spa|1
+|-boost|p1a: Clefairy|spd|1
+|move|p2a: Avalugg|Roar|p1a: Clefairy
+|drag|p1a: Arbok|Arbok, M|100/100
+|-damage|p1a: Arbok|88/100|[from] Stealth Rock
+|
+|-heal|p1a: Arbok|94/100|[from] item: Black Sludge
+|-damage|p2a: Avalugg|42/100 brn|[from] brn
+|upkeep
+|turn|36
+|choice|move coil|switch 4
+|
+|switch|p2a: Vibrava|Vibrava, M|100/100
+|move|p1a: Arbok|Coil|p1a: Arbok
+|-boost|p1a: Arbok|atk|1
+|-boost|p1a: Arbok|def|1
+|-boost|p1a: Arbok|accuracy|1
+|
+|-heal|p1a: Arbok|100/100|[from] item: Black Sludge
+|upkeep
+|turn|37
+|choice|move coil|move earthquake
+|
+|move|p1a: Arbok|Coil|p1a: Arbok
+|-boost|p1a: Arbok|atk|1
+|-boost|p1a: Arbok|def|1
+|-boost|p1a: Arbok|accuracy|1
+|move|p2a: Vibrava|Earthquake|p1a: Arbok
+|-supereffective|p1a: Arbok
+|-damage|p1a: Arbok|61/100
+|
+|-heal|p1a: Arbok|68/100|[from] item: Black Sludge
+|upkeep
+|turn|38
+|choice|move coil|move earthquake
+|
+|move|p1a: Arbok|Coil|p1a: Arbok
+|-boost|p1a: Arbok|atk|1
+|-boost|p1a: Arbok|def|1
+|-boost|p1a: Arbok|accuracy|1
+|move|p2a: Vibrava|Earthquake|p1a: Arbok
+|-supereffective|p1a: Arbok
+|-damage|p1a: Arbok|40/100
+|
+|-heal|p1a: Arbok|46/100|[from] item: Black Sludge
+|upkeep
+|turn|39
+|choice|move coil|move earthquake
+|
+|move|p1a: Arbok|Coil|p1a: Arbok
+|-boost|p1a: Arbok|atk|1
+|-boost|p1a: Arbok|def|1
+|-boost|p1a: Arbok|accuracy|1
+|move|p2a: Vibrava|Earthquake|p1a: Arbok
+|-supereffective|p1a: Arbok
+|-damage|p1a: Arbok|22/100
+|
+|-heal|p1a: Arbok|28/100|[from] item: Black Sludge
+|upkeep
+|turn|40
+|choice|move gunkshot|switch 4
+|
+|switch|p2a: Avalugg|Avalugg, M|42/100 brn
+|move|p1a: Arbok|Gunk Shot|p2a: Avalugg
+|-damage|p2a: Avalugg|0 fnt
+|faint|p2a: Avalugg
+|
+|-heal|p1a: Arbok|34/100|[from] item: Black Sludge
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Electrode|Electrode|71/100
+|turn|41
+|choice|move rest|move signalbeam
+|
+|move|p2a: Electrode|Signal Beam|p1a: Arbok
+|-resisted|p1a: Arbok
+|-damage|p1a: Arbok|23/100
+|-damage|p2a: Electrode|61/100|[from] item: Life Orb
+|move|p1a: Arbok|Rest|p1a: Arbok
+|-status|p1a: Arbok|slp
+|-heal|p1a: Arbok|100/100 slp|[silent]
+|-status|p1a: Arbok|slp|[from] move: Rest
+|
+|upkeep
+|turn|42
+|choice|switch 4|move thunderbolt
+|
+|switch|p1a: Seaking|Seaking, M|99/100
+|-damage|p1a: Seaking|87/100|[from] Stealth Rock
+|move|p2a: Electrode|Thunderbolt|p1a: Seaking
+|-ability|p1a: Seaking|Lightning Rod|boost
+|-boost|p1a: Seaking|spa|1
+|
+|-heal|p1a: Seaking|93/100|[from] item: Leftovers
+|upkeep
+|turn|43
+|choice|move megahorn|switch 6
+|
+|switch|p2a: Lickilicky|Lickilicky, M|100/100
+|move|p1a: Seaking|Megahorn|p2a: Lickilicky
+|-damage|p2a: Lickilicky|71/100
+|
+|-heal|p1a: Seaking|99/100|[from] item: Leftovers
+|-heal|p2a: Lickilicky|77/100|[from] item: Leftovers
+|upkeep
+|turn|44
+|choice|move knockoff|move wish
+|
+|move|p1a: Seaking|Knock Off|p2a: Lickilicky
+|-damage|p2a: Lickilicky|50/100
+|-enditem|p2a: Lickilicky|Leftovers|[from] move: Knock Off|[of] p1a: Seaking
+|move|p2a: Lickilicky|Wish|p2a: Lickilicky
+|
+|-heal|p1a: Seaking|100/100|[from] item: Leftovers
+|upkeep
+|turn|45
+|choice|move megahorn|move protect
+|
+|move|p2a: Lickilicky|Protect|p2a: Lickilicky
+|-singleturn|p2a: Lickilicky|Protect
+|move|p1a: Seaking|Megahorn|p2a: Lickilicky
+|-activate|p2a: Lickilicky|move: Protect
+|
+|-heal|p2a: Lickilicky|99/100|[from] move: Wish|[wisher] Lickilicky
+|upkeep
+|turn|46
+|choice|move waterfall|move healbell
+|
+|move|p1a: Seaking|Waterfall|p2a: Lickilicky
+|-damage|p2a: Lickilicky|68/100
+|move|p2a: Lickilicky|Heal Bell|p2a: Lickilicky
+|-activate|p2a: Lickilicky|move: Heal Bell
+|-curestatus|p2: Metang|brn|[msg]
+|
+|upkeep
+|turn|47
+|choice|move waterfall|move wish
+|
+|move|p1a: Seaking|Waterfall|p2a: Lickilicky
+|-damage|p2a: Lickilicky|40/100
+|move|p2a: Lickilicky|Wish|p2a: Lickilicky
+|
+|upkeep
+|turn|48
+|choice|move waterfall|move knockoff
+|
+|move|p1a: Seaking|Waterfall|p2a: Lickilicky
+|-damage|p2a: Lickilicky|7/100
+|move|p2a: Lickilicky|Knock Off|p1a: Seaking
+|-damage|p1a: Seaking|70/100
+|-enditem|p1a: Seaking|Leftovers|[from] move: Knock Off|[of] p2a: Lickilicky
+|
+|-heal|p2a: Lickilicky|57/100|[from] move: Wish|[wisher] Lickilicky
+|upkeep
+|turn|49
+|choice|move waterfall|move wish
+|
+|move|p1a: Seaking|Waterfall|p2a: Lickilicky
+|-damage|p2a: Lickilicky|24/100
+|move|p2a: Lickilicky|Wish|p2a: Lickilicky
+|
+|upkeep
+|turn|50
+|choice|switch 4|move protect
+|
+|switch|p1a: Arbok|Arbok, M|100/100 slp
+|-damage|p1a: Arbok|88/100 slp|[from] Stealth Rock
+|move|p2a: Lickilicky|Protect|p2a: Lickilicky
+|-fail|p2a: Lickilicky
+|
+|-heal|p2a: Lickilicky|74/100|[from] move: Wish|[wisher] Lickilicky
+|-activate|p1a: Arbok|ability: Shed Skin
+|-curestatus|p1a: Arbok|slp|[msg]
+|-heal|p1a: Arbok|94/100|[from] item: Black Sludge
+|upkeep
+|turn|51
+|choice|move coil|move knockoff
+|
+|move|p1a: Arbok|Coil|p1a: Arbok
+|-boost|p1a: Arbok|atk|1
+|-boost|p1a: Arbok|def|1
+|-boost|p1a: Arbok|accuracy|1
+|move|p2a: Lickilicky|Knock Off|p1a: Arbok
+|-damage|p1a: Arbok|75/100
+|-enditem|p1a: Arbok|Black Sludge|[from] move: Knock Off|[of] p2a: Lickilicky
+|
+|upkeep
+|turn|52
+|choice|move coil|switch 4
+|
+|switch|p2a: Vibrava|Vibrava, M|100/100
+|move|p1a: Arbok|Coil|p1a: Arbok
+|-boost|p1a: Arbok|atk|1
+|-boost|p1a: Arbok|def|1
+|-boost|p1a: Arbok|accuracy|1
+|
+|upkeep
+|turn|53
+|choice|move coil|move earthquake
+|
+|move|p1a: Arbok|Coil|p1a: Arbok
+|-boost|p1a: Arbok|atk|1
+|-boost|p1a: Arbok|def|1
+|-boost|p1a: Arbok|accuracy|1
+|move|p2a: Vibrava|Earthquake|p1a: Arbok
+|-supereffective|p1a: Arbok
+|-damage|p1a: Arbok|47/100
+|
+|upkeep
+|turn|54
+|choice|move coil|move earthquake
+|
+|move|p1a: Arbok|Coil|p1a: Arbok
+|-boost|p1a: Arbok|atk|1
+|-boost|p1a: Arbok|def|1
+|-boost|p1a: Arbok|accuracy|1
+|move|p2a: Vibrava|Earthquake|p1a: Arbok
+|-supereffective|p1a: Arbok
+|-damage|p1a: Arbok|22/100
+|
+|upkeep
+|turn|55
+|choice|move rest|switch 4
+|
+|switch|p2a: Lickilicky|Lickilicky, M|74/100
+|move|p1a: Arbok|Rest|p1a: Arbok
+|-status|p1a: Arbok|slp
+|-heal|p1a: Arbok|100/100 slp|[silent]
+|-status|p1a: Arbok|slp|[from] move: Rest
+|
+|-activate|p1a: Arbok|ability: Shed Skin
+|-curestatus|p1a: Arbok|slp|[msg]
+|upkeep
+|turn|56
+|choice|move earthquake|move wish
+|
+|move|p1a: Arbok|Earthquake|p2a: Lickilicky
+|-damage|p2a: Lickilicky|20/100
+|move|p2a: Lickilicky|Wish|p2a: Lickilicky
+|
+|upkeep
+|turn|57
+|choice|move coil|switch 4
+|
+|switch|p2a: Vibrava|Vibrava, M|100/100
+|move|p1a: Arbok|Coil|p1a: Arbok
+|-boost|p1a: Arbok|atk|1
+|-boost|p1a: Arbok|def|1
+|-boost|p1a: Arbok|accuracy|1
+|
+|upkeep
+|turn|58
+|choice|move coil|move earthquake
+|
+|move|p1a: Arbok|Coil|p1a: Arbok
+|-boost|p1a: Arbok|atk|1
+|-boost|p1a: Arbok|def|1
+|-boost|p1a: Arbok|accuracy|1
+|move|p2a: Vibrava|Earthquake|p1a: Arbok
+|-supereffective|p1a: Arbok
+|-damage|p1a: Arbok|80/100
+|
+|upkeep
+|turn|59
+|-message|T be stuntin forfeited.
+|
+|win|Dokkerich

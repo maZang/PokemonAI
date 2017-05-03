@@ -1,0 +1,319 @@
+|J|H.M.N.I.P ❤
+|J|Curtain
+|player|p1|H.M.N.I.P ❤|1
+|player|p2|Curtain|39
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|38606,26645,37335,7137,16112,41374,55263,16985,59046,47176,32178,52842
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Uxie|item
+|poke|p1|Golbat, M|item
+|poke|p1|Exploud, M|item
+|poke|p1|Braviary, M|item
+|poke|p1|Virizion|item
+|poke|p1|Qwilfish, M|item
+|poke|p2|Vivillon, M|item
+|poke|p2|Seismitoad, M|item
+|poke|p2|Delphox, M|item
+|poke|p2|Hitmontop, M|item
+|poke|p2|Togetic, M|item
+|poke|p2|Malamar, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|J|sSantu ♠
+|c|☆H.M.N.I.P ❤|hf!
+|J|Frania ♡
+|L|Frania ♡
+|L|sSantu ♠
+|c|☆Curtain|u2
+|choice|team 4, team 2, team 3, team 1, team 5, team 6|team 2, team 1, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Braviary|Braviary, M|100/100
+|switch|p2a: Seismitoad|Seismitoad, M|100/100
+|turn|1
+|choice|move uturn|move stealthrock
+|
+|move|p1a: Braviary|U-turn|p2a: Seismitoad
+|-crit|p2a: Seismitoad
+|-damage|p2a: Seismitoad|65/100
+|choice|switch 4|
+|
+|switch|p1a: Uxie|Uxie|100/100
+|move|p2a: Seismitoad|Stealth Rock|p1a: Uxie
+|-sidestart|p1: H.M.N.I.P ❤|move: Stealth Rock
+|
+|-heal|p2a: Seismitoad|71/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|choice|move stealthrock|switch 6
+|
+|switch|p2a: Malamar|Malamar, M|100/100
+|move|p1a: Uxie|Stealth Rock|p2a: Malamar
+|-sidestart|p2: Curtain|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|choice|move uturn|move knockoff
+|
+|move|p1a: Uxie|U-turn|p2a: Malamar
+|-supereffective|p2a: Malamar
+|-damage|p2a: Malamar|57/100
+|choice|switch 5|
+|
+|switch|p1a: Virizion|Virizion|100/100
+|-damage|p1a: Virizion|94/100|[from] Stealth Rock
+|move|p2a: Malamar|Knock Off|p1a: Virizion
+|-resisted|p1a: Virizion
+|-crit|p1a: Virizion
+|-damage|p1a: Virizion|63/100
+|-ability|p1a: Virizion|Justified|boost
+|-boost|p1a: Virizion|atk|1
+|-enditem|p1a: Virizion|Lum Berry|[from] move: Knock Off|[of] p2a: Malamar
+|
+|-heal|p2a: Malamar|63/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|choice|move swordsdance|switch 4
+|
+|switch|p2a: Hitmontop|Hitmontop, M|100/100
+|-damage|p2a: Hitmontop|94/100|[from] Stealth Rock
+|-ability|p2a: Hitmontop|Intimidate|boost
+|-unboost|p1a: Virizion|atk|1
+|move|p1a: Virizion|Swords Dance|p1a: Virizion
+|-boost|p1a: Virizion|atk|2
+|
+|-heal|p2a: Hitmontop|100/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|J|Tricking
+|choice|move zenheadbutt|move rapidspin
+|
+|move|p1a: Virizion|Zen Headbutt|p2a: Hitmontop|[miss]
+|-miss|p1a: Virizion|p2a: Hitmontop
+|move|p2a: Hitmontop|Rapid Spin|p1a: Virizion
+|-damage|p1a: Virizion|57/100
+|-sideend|p2: Curtain|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Hitmontop
+|
+|upkeep
+|turn|6
+|choice|move zenheadbutt|move closecombat
+|
+|move|p1a: Virizion|Zen Headbutt|p2a: Hitmontop
+|-supereffective|p2a: Hitmontop
+|-damage|p2a: Hitmontop|32/100
+|move|p2a: Hitmontop|Close Combat|p1a: Virizion
+|-damage|p1a: Virizion|2/100
+|-unboost|p2a: Hitmontop|def|1
+|-unboost|p2a: Hitmontop|spd|1
+|
+|-heal|p2a: Hitmontop|38/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|choice|move zenheadbutt|move toxic
+|
+|move|p1a: Virizion|Zen Headbutt|p2a: Hitmontop
+|-supereffective|p2a: Hitmontop
+|-damage|p2a: Hitmontop|0 fnt
+|faint|p2a: Hitmontop
+|
+|upkeep
+|J|Bonnie00
+|choice||switch 5
+|
+|switch|p2a: Togetic|Togetic, M|100/100
+|turn|8
+|choice|move zenheadbutt|move dazzlinggleam
+|
+|move|p1a: Virizion|Zen Headbutt|p2a: Togetic|[miss]
+|-miss|p1a: Virizion|p2a: Togetic
+|move|p2a: Togetic|Dazzling Gleam|p1a: Virizion
+|-supereffective|p1a: Virizion
+|-damage|p1a: Virizion|0 fnt
+|faint|p1a: Virizion
+|
+|upkeep
+|c|☆H.M.N.I.P ❤|..
+|choice|switch 5|
+|
+|switch|p1a: Uxie|Uxie|100/100
+|-damage|p1a: Uxie|88/100|[from] Stealth Rock
+|turn|9
+|c|☆Curtain|it bounce
+|choice|move thunderwave|move nastyplot
+|
+|move|p1a: Uxie|Thunder Wave|p2a: Togetic
+|-status|p2a: Togetic|par
+|move|p2a: Togetic|Nasty Plot|p2a: Togetic
+|-boost|p2a: Togetic|spa|2
+|
+|-heal|p1a: Uxie|94/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|choice|move stealthrock|move batonpass
+|
+|move|p1a: Uxie|Stealth Rock|p2a: Togetic
+|-sidestart|p2: Curtain|move: Stealth Rock
+|move|p2a: Togetic|Baton Pass|p2a: Togetic
+|choice||switch 3
+|
+|switch|p2a: Delphox|Delphox, M|100/100
+|-damage|p2a: Delphox|76/100|[from] Stealth Rock
+|
+|-heal|p1a: Uxie|100/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|c|@Tricking|azz
+|c|@Tricking|due pietro
+|choice|move thunderwave|move fireblast
+|
+|move|p2a: Delphox|Fire Blast|p1a: Uxie
+|-damage|p1a: Uxie|0 fnt
+|-damage|p2a: Delphox|66/100|[from] item: Life Orb
+|faint|p1a: Uxie
+|
+|upkeep
+|c|@Tricking|in lotta
+|c|@Tricking|tra loro.
+|c|☆H.M.N.I.P ❤|He knows
+|c|@Tricking|manca monna.
+|choice|switch 4|
+|
+|switch|p1a: Braviary|Braviary, M|100/100
+|-damage|p1a: Braviary|76/100|[from] Stealth Rock
+|turn|12
+|choice|move bravebird|switch 6
+|
+|switch|p2a: Seismitoad|Seismitoad, M|71/100
+|-damage|p2a: Seismitoad|65/100|[from] Stealth Rock
+|move|p1a: Braviary|Brave Bird|p2a: Seismitoad
+|-damage|p2a: Seismitoad|0 fnt
+|-damage|p1a: Braviary|51/100|[from] recoil|[of] p2a: Seismitoad
+|faint|p2a: Seismitoad
+|
+|upkeep
+|c|☆H.M.N.I.P ❤|A che round stai Trick?
+|choice||switch 3
+|
+|switch|p2a: Togetic|Togetic, M|100/100 par
+|-damage|p2a: Togetic|76/100 par|[from] Stealth Rock
+|turn|13
+|J|Eternal Spirit +_+
+|L|Eternal Spirit +_+
+|c|@Tricking|4
+|c|@Tricking|se 
+|choice|switch 2|move batonpass
+|
+|switch|p1a: Golbat|Golbat, M|100/100
+|-damage|p1a: Golbat|76/100|[from] Stealth Rock
+|move|p2a: Togetic|Baton Pass|p2a: Togetic
+|c|@Tricking|lo posta
+|choice||switch 6
+|
+|switch|p2a: Delphox|Delphox, M|66/100
+|-damage|p2a: Delphox|41/100|[from] Stealth Rock
+|
+|upkeep
+|turn|14
+|J|Eternal Spirit +_+
+|c|@Tricking|voglio
+|c|@Tricking|vedermi
+|c|@Tricking|la juve
+|c|@Tricking|sigh
+|c|☆H.M.N.I.P ❤|2-0
+|c|☆H.M.N.I.P ❤|Stiamo
+|c|@Tricking|lo so
+|choice|move bravebird|move psychic
+|
+|move|p2a: Delphox|Psychic|p1a: Golbat
+|-supereffective|p1a: Golbat
+|-damage|p1a: Golbat|0 fnt
+|-damage|p2a: Delphox|31/100|[from] item: Life Orb
+|faint|p1a: Golbat
+|
+|upkeep
+|c|@Tricking|andavo in salotto
+|L|Eternal Spirit +_+
+|c|@Tricking|a vedermi i gol
+|choice|switch 2|
+|
+|switch|p1a: Braviary|Braviary, M|51/100
+|-damage|p1a: Braviary|26/100|[from] Stealth Rock
+|turn|15
+|c|@Tricking|xd
+|choice|move return|switch 4
+|
+|switch|p2a: Malamar|Malamar, M|63/100
+|-damage|p2a: Malamar|51/100|[from] Stealth Rock
+|move|p1a: Braviary|Return|p2a: Malamar
+|-damage|p2a: Malamar|0 fnt
+|faint|p2a: Malamar
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Togetic|Togetic, M|76/100 par
+|-damage|p2a: Togetic|51/100 par|[from] Stealth Rock
+|turn|16
+|choice|move return|move dazzlinggleam
+|
+|move|p1a: Braviary|Return|p2a: Togetic
+|-damage|p2a: Togetic|23/100 par
+|move|p2a: Togetic|Dazzling Gleam|p1a: Braviary
+|-damage|p1a: Braviary|0 fnt
+|faint|p1a: Braviary
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Exploud|Exploud, M|100/100
+|-damage|p1a: Exploud|88/100|[from] Stealth Rock
+|turn|17
+|choice|move boomburst|move dazzlinggleam
+|
+|move|p1a: Exploud|Boomburst|p2a: Togetic
+|-damage|p2a: Togetic|0 fnt
+|faint|p2a: Togetic
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Vivillon|Vivillon, M|100/100
+|-damage|p2a: Vivillon|51/100|[from] Stealth Rock
+|turn|18
+|choice|switch 6|move hurricane
+|
+|switch|p1a: Qwilfish|Qwilfish, M|100/100
+|-damage|p1a: Qwilfish|88/100|[from] Stealth Rock
+|-ability|p1a: Qwilfish|Intimidate|boost
+|-unboost|p2a: Vivillon|atk|1
+|move|p2a: Vivillon|Hurricane|p1a: Qwilfish
+|-damage|p1a: Qwilfish|3/100
+|
+|-heal|p2a: Vivillon|57/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|choice|move explosion|move hurricane
+|
+|move|p2a: Vivillon|Hurricane|p1a: Qwilfish
+|-damage|p1a: Qwilfish|0 fnt
+|faint|p1a: Qwilfish
+|
+|-heal|p2a: Vivillon|63/100|[from] item: Leftovers
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Exploud|Exploud, M|88/100
+|-damage|p1a: Exploud|76/100|[from] Stealth Rock
+|turn|20
+|choice|move boomburst|move hurricane
+|
+|move|p2a: Vivillon|Hurricane|p1a: Exploud
+|-crit|p1a: Exploud
+|-damage|p1a: Exploud|0 fnt
+|faint|p1a: Exploud
+|
+|win|Curtain

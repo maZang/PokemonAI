@@ -1,0 +1,268 @@
+|j|Lucas153
+|j|PownBear2.0
+|player|p1|Lucas153|163
+|player|p2|PownBear2.0|24
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|7949,5114,55311,38642,35146,6379,61522,59811,11099,58597,18253,40729
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Azelf|item
+|poke|p1|Forretress, M|item
+|poke|p1|Sableye, M|item
+|poke|p1|Feraligatr, M|item
+|poke|p1|Heliolisk, M|item
+|poke|p1|Honchkrow, M|item
+|poke|p2|Feraligatr, M|item
+|poke|p2|Toxicroak, M|item
+|poke|p2|Bronzong|item
+|poke|p2|Mienshao, M|item
+|poke|p2|Goodra, M|item
+|poke|p2|Galvantula, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 1, team 2, team 3, team 4, team 5, team 6|team 3, team 2, team 1, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Azelf|Azelf|100/100
+|switch|p2a: Bronzong|Bronzong|100/100
+|turn|1
+|choice|move taunt|switch 6
+|
+|switch|p2a: Galvantula|Galvantula, M|100/100
+|move|p1a: Azelf|Taunt|p2a: Galvantula
+|-start|p2a: Galvantula|move: Taunt
+|
+|upkeep
+|turn|2
+|choice|move stealthrock|move bugbuzz
+|
+|move|p1a: Azelf|Stealth Rock|p2a: Galvantula
+|-sidestart|p2: PownBear2.0|move: Stealth Rock
+|move|p2a: Galvantula|Bug Buzz|p1a: Azelf
+|-supereffective|p1a: Azelf
+|-enditem|p1a: Azelf|Focus Sash
+|-damage|p1a: Azelf|1/100
+|
+|upkeep
+|turn|3
+|choice|move explosion|switch 6
+|
+|switch|p2a: Bronzong|Bronzong|100/100
+|-damage|p2a: Bronzong|94/100|[from] Stealth Rock
+|move|p1a: Azelf|Explosion|p2a: Bronzong
+|-resisted|p2a: Bronzong
+|-damage|p2a: Bronzong|67/100
+|faint|p1a: Azelf
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Sableye|Sableye, M|100/100
+|turn|4
+|choice|move taunt|move reflect
+|
+|move|p1a: Sableye|Taunt|p2a: Bronzong
+|-start|p2a: Bronzong|move: Taunt
+|cant|p2a: Bronzong|move: Taunt|Reflect
+|
+|upkeep
+|turn|5
+|choice|move knockoff|switch 6
+|
+|switch|p2a: Galvantula|Galvantula, M|100/100
+|-damage|p2a: Galvantula|76/100|[from] Stealth Rock
+|move|p1a: Sableye|Knock Off|p2a: Galvantula
+|-damage|p2a: Galvantula|29/100
+|-enditem|p2a: Galvantula|Choice Specs|[from] move: Knock Off|[of] p1a: Sableye
+|
+|upkeep
+|turn|6
+|choice|move knockoff|move bugbuzz
+|
+|move|p2a: Galvantula|Bug Buzz|p1a: Sableye
+|-damage|p1a: Sableye|57/100
+|move|p1a: Sableye|Knock Off|p2a: Galvantula
+|-damage|p2a: Galvantula|0 fnt
+|faint|p2a: Galvantula
+|
+|-heal|p1a: Sableye|63/100|[from] item: Leftovers
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Mienshao|Mienshao, M|100/100
+|-damage|p2a: Mienshao|95/100|[from] Stealth Rock
+|turn|7
+|choice|move willowisp|move knockoff
+|
+|move|p1a: Sableye|Will-O-Wisp|p2a: Mienshao|[miss]
+|-miss|p1a: Sableye|p2a: Mienshao
+|move|p2a: Mienshao|Knock Off|p1a: Sableye
+|-damage|p1a: Sableye|4/100
+|-enditem|p1a: Sableye|Leftovers|[from] move: Knock Off|[of] p2a: Mienshao
+|-damage|p2a: Mienshao|85/100|[from] item: Life Orb
+|
+|upkeep
+|turn|8
+|choice|move recover|switch 6
+|
+|switch|p2a: Bronzong|Bronzong|67/100
+|-damage|p2a: Bronzong|60/100|[from] Stealth Rock
+|move|p1a: Sableye|Recover|p1a: Sableye
+|-heal|p1a: Sableye|54/100
+|
+|upkeep
+|turn|9
+|choice|move taunt|switch 5
+|
+|switch|p2a: Goodra|Goodra, M|100/100
+|-damage|p2a: Goodra|88/100|[from] Stealth Rock
+|move|p1a: Sableye|Taunt|p2a: Goodra
+|-start|p2a: Goodra|move: Taunt
+|
+|upkeep
+|turn|10
+|choice|move recover|move dracometeor
+|
+|move|p1a: Sableye|Recover|p1a: Sableye
+|-heal|p1a: Sableye|100/100
+|move|p2a: Goodra|Draco Meteor|p1a: Sableye
+|-crit|p1a: Sableye
+|-damage|p1a: Sableye|0 fnt
+|-unboost|p2a: Goodra|spa|2
+|-damage|p2a: Goodra|78/100|[from] item: Life Orb
+|faint|p1a: Sableye
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Feraligatr|Feraligatr, M|100/100
+|turn|11
+|choice|move dragondance|switch 5
+|
+|switch|p2a: Bronzong|Bronzong|60/100
+|-damage|p2a: Bronzong|54/100|[from] Stealth Rock
+|move|p1a: Feraligatr|Dragon Dance|p1a: Feraligatr
+|-boost|p1a: Feraligatr|atk|1
+|-boost|p1a: Feraligatr|spe|1
+|
+|upkeep
+|turn|12
+|choice|move crunch|move reflect
+|
+|move|p1a: Feraligatr|Crunch|p2a: Bronzong
+|-supereffective|p2a: Bronzong
+|-damage|p2a: Bronzong|0 fnt
+|faint|p2a: Bronzong
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Toxicroak|Toxicroak, M|100/100
+|-damage|p2a: Toxicroak|94/100|[from] Stealth Rock
+|turn|13
+|choice|move icepunch|move drainpunch
+|
+|move|p1a: Feraligatr|Ice Punch|p2a: Toxicroak
+|-damage|p2a: Toxicroak|3/100
+|move|p2a: Toxicroak|Drain Punch|p1a: Feraligatr
+|-crit|p1a: Feraligatr
+|-damage|p1a: Feraligatr|25/100
+|-heal|p2a: Toxicroak|41/100|[from] drain|[of] p1a: Feraligatr
+|-damage|p2a: Toxicroak|31/100|[from] item: Life Orb
+|
+|upkeep
+|turn|14
+|choice|move icepunch|move suckerpunch
+|
+|move|p2a: Toxicroak|Sucker Punch|p1a: Feraligatr
+|-damage|p1a: Feraligatr|0 fnt
+|-damage|p2a: Toxicroak|22/100|[from] item: Life Orb
+|faint|p1a: Feraligatr
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Forretress|Forretress, M|100/100
+|turn|15
+|choice|move voltswitch|move drainpunch
+|
+|move|p2a: Toxicroak|Drain Punch|p1a: Forretress
+|-damage|p1a: Forretress|75/100
+|-heal|p2a: Toxicroak|37/100|[from] drain|[of] p1a: Forretress
+|-damage|p2a: Toxicroak|27/100|[from] item: Life Orb
+|move|p1a: Forretress|Volt Switch|p2a: Toxicroak
+|-damage|p2a: Toxicroak|11/100
+|choice|switch 6|
+|
+|switch|p1a: Honchkrow|Honchkrow, M|100/100
+|
+|upkeep
+|turn|16
+|choice|move heatwave|move suckerpunch
+|
+|move|p2a: Toxicroak|Sucker Punch|p1a: Honchkrow
+|-resisted|p1a: Honchkrow
+|-damage|p1a: Honchkrow|74/100
+|-damage|p2a: Toxicroak|1/100|[from] item: Life Orb
+|move|p1a: Honchkrow|Heat Wave|p2a: Toxicroak
+|-damage|p2a: Toxicroak|0 fnt
+|faint|p2a: Toxicroak
+|-ability|p1a: Honchkrow|Moxie|boost
+|-boost|p1a: Honchkrow|atk|1
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Feraligatr|Feraligatr, M|100/100
+|-damage|p2a: Feraligatr|88/100|[from] Stealth Rock
+|turn|17
+|choice|switch 6|move dragondance
+|
+|switch|p1a: Forretress|Forretress, M|75/100
+|move|p2a: Feraligatr|Dragon Dance|p2a: Feraligatr
+|-boost|p2a: Feraligatr|atk|1
+|-boost|p2a: Feraligatr|spe|1
+|
+|-heal|p1a: Forretress|81/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|choice|move spikes|move dragondance
+|
+|move|p2a: Feraligatr|Dragon Dance|p2a: Feraligatr
+|-boost|p2a: Feraligatr|atk|1
+|-boost|p2a: Feraligatr|spe|1
+|move|p1a: Forretress|Spikes|p2a: Feraligatr
+|-sidestart|p2: PownBear2.0|Spikes
+|
+|-heal|p1a: Forretress|87/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|choice|move voltswitch|move waterfall
+|
+|move|p2a: Feraligatr|Waterfall|p1a: Forretress
+|-damage|p1a: Forretress|18/100
+|move|p1a: Forretress|Volt Switch|p2a: Feraligatr
+|-supereffective|p2a: Feraligatr
+|-damage|p2a: Feraligatr|61/100
+|choice|switch 5|
+|
+|switch|p1a: Heliolisk|Heliolisk, M|100/100
+|
+|upkeep
+|turn|20
+|choice|move thunderbolt|move crunch
+|
+|move|p2a: Feraligatr|Crunch|p1a: Heliolisk
+|-damage|p1a: Heliolisk|0 fnt
+|faint|p1a: Heliolisk
+|
+|upkeep
+|-message|Lucas153 forfeited.
+|
+|win|PownBear2.0
+|l|Lucas153
+|c|☆PownBear2.0|:v

@@ -1,0 +1,502 @@
+|j|xPyroniz
+|j|Itsyaboiraboi
+|player|p1|xPyroniz|238
+|player|p2|Itsyaboiraboi|169
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|48936,52801,22108,59588,26419,23981,54906,30042,7881,36746,7894,37356
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Conkeldurr, M|item
+|poke|p1|Rotom-Wash|item
+|poke|p1|Sableye, M|item
+|poke|p1|Thundurus, M|item
+|poke|p1|Hippowdon, M|item
+|poke|p1|Excadrill, M|item
+|poke|p2|Heatran, M|item
+|poke|p2|Latios, M|item
+|poke|p2|Metagross|item
+|poke|p2|Scolipede, M|item
+|poke|p2|Volcarona, M|item
+|poke|p2|Diggersby, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|c|☆Itsyaboiraboi|i like my mega
+|c|☆xPyroniz|k
+|c|☆Itsyaboiraboi|can u spot it
+|c|☆xPyroniz|metagross
+|c|☆Itsyaboiraboi|can u tell me
+|c|☆Itsyaboiraboi|what u have
+|c|☆Itsyaboiraboi|that beats it
+|c|☆Itsyaboiraboi|:)
+|c|☆xPyroniz|;)
+|j|Carver47
+|choice|team 5, team 2, team 3, team 4, team 1, team 6|team 2, team 1, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Hippowdon|Hippowdon, M|100/100
+|switch|p2a: Latios|Latios, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|turn|1
+|choice|move stealthrock|move dracometeor
+|
+|move|p2a: Latios|Draco Meteor|p1a: Hippowdon
+|-damage|p1a: Hippowdon|4/100
+|-unboost|p2a: Latios|spa|2
+|-damage|p2a: Latios|91/100|[from] item: Life Orb
+|move|p1a: Hippowdon|Stealth Rock|p2a: Latios
+|-sidestart|p2: Itsyaboiraboi|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|85/100|[from] sandstorm
+|-heal|p1a: Hippowdon|10/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|c| Carver47|Why is OU always seeming to happen
+|choice|move stoneedge|move earthquake
+|
+|move|p2a: Latios|Earthquake|p1a: Hippowdon
+|-damage|p1a: Hippowdon|0 fnt
+|-damage|p2a: Latios|75/100|[from] item: Life Orb
+|faint|p1a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|69/100|[from] sandstorm
+|upkeep
+|c|☆Itsyaboiraboi|LOL]
+|c|☆Itsyaboiraboi|EQ LATI
+|c|☆Itsyaboiraboi|NEW META
+|c| Carver47|The hell
+|c|☆Itsyaboiraboi|LOL
+|c| Carver47|Ew lat
+|c| Carver47|EQ*
+|c| Carver47|not ew
+|c| Carver47|my fat fingers misclicked
+|c|☆Itsyaboiraboi|it hits heatran
+|choice|switch 6|
+|
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|3
+|choice|move earthquake|move defog
+|
+|move|p2a: Latios|Defog|p1a: Excadrill
+|-unboost|p1a: Excadrill|evasion|1
+|-sideend|p2: Itsyaboiraboi|Stealth Rock|[from] move: Defog|[of] p2a: Latios
+|move|p1a: Excadrill|Earthquake|p2a: Latios
+|-damage|p2a: Latios|12/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|6/100|[from] sandstorm
+|upkeep
+|turn|4
+|c| Carver47|I, dead
+|c| Carver47|im desd
+|choice|move earthquake|move earthquake
+|
+|move|p2a: Latios|Earthquake|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|38/100
+|-damage|p2a: Latios|0 fnt|[from] item: Life Orb
+|faint|p2a: Latios
+|move|p1a: Excadrill|Earthquake|p2: Latios|[notarget]
+|-notarget
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Excadrill|44/100|[from] item: Leftovers
+|upkeep
+|c| Carver47|AUGH
+|c|☆Itsyaboiraboi|LOL
+|c|☆xPyroniz|the fuck
+|c|☆xPyroniz|nigga
+|choice||switch 4
+|
+|switch|p2a: Scolipede|Scolipede, M|100/100
+|turn|5
+|c| Carver47|The fuck
+|c| Carver47|do they give pre sand teamsb
+|c|☆Itsyaboiraboi|he doesnt have a sand team
+|c|☆Itsyaboiraboi|he just has exca + hippo
+|c|☆Itsyaboiraboi|hes mold breaker exca
+|c| Carver47|O
+|choice|move earthquake|move earthquake
+|
+|move|p2a: Scolipede|Earthquake|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|-damage|p2a: Scolipede|91/100|[from] item: Life Orb
+|faint|p1a: Excadrill
+|
+|-weather|none
+|-ability|p2a: Scolipede|Speed Boost|boost
+|-boost|p2a: Scolipede|spe|1
+|upkeep
+|c|☆Itsyaboiraboi|scoli is a threat
+|c|☆Itsyaboiraboi|but ur team
+|c|☆Itsyaboiraboi|hard counters
+|choice|switch 4|
+|
+|switch|p1a: Thundurus|Thundurus, M|100/100
+|turn|6
+|c| Carver47|I legit sweeped my oppenent
+|c| Carver47|eith a smaurott
+|c| Carver47|5-0
+|choice|move thunderwave|move poisonjab
+|
+|move|p1a: Thundurus|Thunder Wave|p2a: Scolipede
+|-status|p2a: Scolipede|par
+|cant|p2a: Scolipede|par
+|
+|-ability|p2a: Scolipede|Speed Boost|boost
+|-boost|p2a: Scolipede|spe|1
+|upkeep
+|turn|7
+|choice|move thunderbolt|move poisonjab
+|
+|move|p1a: Thundurus|Thunderbolt|p2a: Scolipede
+|-damage|p2a: Scolipede|0 fnt
+|-damage|p1a: Thundurus|91/100|[from] item: Life Orb
+|faint|p2a: Scolipede
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Diggersby|Diggersby, M|100/100
+|turn|8
+|c| Carver47|Hidden power ice?
+|choice|move focusblast|move swordsdance
+|
+|move|p1a: Thundurus|Focus Blast|p2a: Diggersby
+|-supereffective|p2a: Diggersby
+|-damage|p2a: Diggersby|0 fnt
+|-damage|p1a: Thundurus|81/100|[from] item: Life Orb
+|faint|p2a: Diggersby
+|
+|upkeep
+|c| Carver47|O
+|c|☆Itsyaboiraboi|what
+|c|☆Itsyaboiraboi|the
+|c|☆Itsyaboiraboi|fuck
+|c| Carver47|DF
+|c|☆xPyroniz|;))))))))
+|choice||switch 5
+|
+|switch|p2a: Volcarona|Volcarona, M|100/100
+|turn|9
+|c| Carver47|Itsya
+|j|PikachuGods
+|c| PikachuGods|ooo
+|j|ak47master101
+|c| Carver47|your whole team
+|c| PikachuGods|finally coming to an end
+|c| Carver47|execpt latios
+|c| Carver47|is hard counted by thundrus
+|choice|move thunderbolt|move fireblast
+|
+|move|p1a: Thundurus|Thunderbolt|p2a: Volcarona
+|-damage|p2a: Volcarona|46/100
+|-damage|p1a: Thundurus|71/100|[from] item: Life Orb
+|move|p2a: Volcarona|Fire Blast|p1a: Thundurus
+|-damage|p1a: Thundurus|0 fnt
+|faint|p1a: Thundurus
+|
+|upkeep
+|c| Carver47|Y no tw
+|c|☆Itsyaboiraboi|tbolt was smarter
+|c| Carver47|All you have is fucking tanks left
+|choice|switch 2|
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|turn|10
+|choice|move hydropump|move gigadrain
+|
+|move|p2a: Volcarona|Giga Drain|p1a: Rotom
+|-supereffective|p1a: Rotom
+|-crit|p1a: Rotom
+|-damage|p1a: Rotom|10/100
+|-heal|p2a: Volcarona|87/100|[from] drain|[of] p1a: Rotom
+|move|p1a: Rotom|Hydro Pump|p2a: Volcarona
+|-supereffective|p2a: Volcarona
+|-damage|p2a: Volcarona|16/100
+|
+|-heal|p1a: Rotom|16/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|c| Carver47|dam
+|c|☆xPyroniz|fuck u and ur crits
+|c|☆Itsyaboiraboi|lol
+|choice|move hydropump|move bugbuzz
+|
+|move|p2a: Volcarona|Bug Buzz|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|upkeep
+|c| ak47master101|y no dance
+|c| Carver47|Sad luck
+|choice|switch 5|
+|
+|switch|p1a: Conkeldurr|Conkeldurr, M|100/100
+|turn|12
+|c|☆Itsyaboiraboi|why would i quiver.
+|choice|move machpunch|move fireblast
+|
+|move|p1a: Conkeldurr|Mach Punch|p2a: Volcarona
+|-resisted|p2a: Volcarona
+|-damage|p2a: Volcarona|0 fnt
+|-damage|p1a: Conkeldurr|91/100|[from] item: Life Orb
+|faint|p2a: Volcarona
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Metagross|Metagross|100/100
+|turn|13
+|c| Carver47|O boy
+|c| Carver47|its a real clutch here
+|choice|move drainpunch|move meteormash mega
+|
+|detailschange|p2a: Metagross|Metagross-Mega
+|-mega|p2a: Metagross|Metagross|Metagrossite
+|move|p2a: Metagross|Meteor Mash|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|24/100
+|move|p1a: Conkeldurr|Drain Punch|p2a: Metagross
+|-crit|p2a: Metagross
+|-damage|p2a: Metagross|38/100
+|-heal|p1a: Conkeldurr|51/100|[from] drain|[of] p2a: Metagross
+|-damage|p1a: Conkeldurr|41/100|[from] item: Life Orb
+|
+|upkeep
+|turn|14
+|c| ak47master101|clutch
+|c|☆Itsyaboiraboi|why did u stay in.
+|c| PikachuGods|ZEN
+|c|☆Itsyaboiraboi|that
+|c|☆Itsyaboiraboi|was
+|c|☆Itsyaboiraboi|the dumbest
+|c|☆Itsyaboiraboi|play
+|c|☆Itsyaboiraboi|ive ever seen
+|c| Carver47|I'm ded
+|choice|move machpunch|move meteormash
+|
+|move|p1a: Conkeldurr|Mach Punch|p2a: Metagross
+|-damage|p2a: Metagross|13/100
+|-damage|p1a: Conkeldurr|31/100|[from] item: Life Orb
+|move|p2a: Metagross|Meteor Mash|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|0 fnt
+|faint|p1a: Conkeldurr
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Sableye|Sableye, M|100/100
+|turn|15
+|c| ak47master101|he wanted to succ u dry
+|c| ak47master101|here comes mega
+|choice|move shadowball mega|switch 2
+|
+|switch|p2a: Heatran|Heatran, M|100/100
+|detailschange|p1a: Sableye|Sableye-Mega, M
+|-mega|p1a: Sableye|Sableye|Sablenite
+|move|p1a: Sableye|Shadow Ball|p2a: Heatran
+|-damage|p2a: Heatran|85/100
+|-unboost|p2a: Heatran|spd|1
+|
+|-heal|p2a: Heatran|91/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|c| Carver47|Hmm
+|c| Carver47|sablye better be mega
+|c|☆Itsyaboiraboi|fucking mispredict
+|c|☆Itsyaboiraboi|cries
+|c| Carver47|lol
+|choice|move calmmind|switch 2
+|
+|switch|p2a: Metagross|Metagross-Mega|13/100
+|move|p1a: Sableye|Calm Mind|p1a: Sableye
+|-boost|p1a: Sableye|spa|1
+|-boost|p1a: Sableye|spd|1
+|
+|upkeep
+|turn|17
+|choice|move shadowball|move meteormash
+|
+|move|p2a: Metagross|Meteor Mash|p1a: Sableye
+|-damage|p1a: Sableye|53/100
+|move|p1a: Sableye|Shadow Ball|p2a: Metagross
+|-supereffective|p2a: Metagross
+|-damage|p2a: Metagross|0 fnt
+|faint|p2a: Metagross
+|
+|upkeep
+|c| Carver47|Itsya
+|choice||switch 2
+|
+|switch|p2a: Heatran|Heatran, M|91/100
+|turn|18
+|c| Carver47|dont fucking lose
+|choice|move recover|move lavaplume
+|
+|move|p2a: Heatran|Lava Plume|p1a: Sableye
+|-damage|p1a: Sableye|30/100
+|move|p1a: Sableye|Recover|p1a: Sableye
+|-heal|p1a: Sableye|80/100
+|
+|-heal|p2a: Heatran|97/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|c| ak47master101|CLUTCH
+|c| PikachuGods|oooo
+|c| PikachuGods|this is gonna be uh
+|choice|move shadowball|move lavaplume
+|
+|move|p2a: Heatran|Lava Plume|p1a: Sableye
+|-damage|p1a: Sableye|57/100
+|-status|p1a: Sableye|brn
+|move|p1a: Sableye|Shadow Ball|p2a: Heatran
+|-damage|p2a: Heatran|73/100
+|
+|-heal|p2a: Heatran|79/100|[from] item: Leftovers
+|-damage|p1a: Sableye|44/100 brn|[from] brn
+|upkeep
+|turn|20
+|c| PikachuGods|annoying
+|choice|move recover|move lavaplume
+|
+|move|p2a: Heatran|Lava Plume|p1a: Sableye
+|-damage|p1a: Sableye|20/100 brn
+|move|p1a: Sableye|Recover|p1a: Sableye
+|-heal|p1a: Sableye|70/100 brn
+|
+|-heal|p2a: Heatran|85/100|[from] item: Leftovers
+|-damage|p1a: Sableye|58/100 brn|[from] brn
+|upkeep
+|turn|21
+|c| PikachuGods|just crit this
+|choice|move recover|move lavaplume
+|
+|move|p2a: Heatran|Lava Plume|p1a: Sableye
+|-damage|p1a: Sableye|35/100 brn
+|move|p1a: Sableye|Recover|p1a: Sableye
+|-heal|p1a: Sableye|85/100 brn
+|
+|-heal|p2a: Heatran|92/100|[from] item: Leftovers
+|-damage|p1a: Sableye|72/100 brn|[from] brn
+|upkeep
+|turn|22
+|choice|move recover|move lavaplume
+|
+|move|p2a: Heatran|Lava Plume|p1a: Sableye
+|-damage|p1a: Sableye|48/100 brn
+|move|p1a: Sableye|Recover|p1a: Sableye
+|-heal|p1a: Sableye|98/100 brn
+|
+|-heal|p2a: Heatran|98/100|[from] item: Leftovers
+|-damage|p1a: Sableye|86/100 brn|[from] brn
+|upkeep
+|turn|23
+|choice|move shadowball|move lavaplume
+|
+|move|p2a: Heatran|Lava Plume|p1a: Sableye
+|-damage|p1a: Sableye|61/100 brn
+|move|p1a: Sableye|Shadow Ball|p2a: Heatran
+|-damage|p2a: Heatran|73/100
+|-unboost|p2a: Heatran|spd|1
+|
+|-heal|p2a: Heatran|79/100|[from] item: Leftovers
+|-damage|p1a: Sableye|49/100 brn|[from] brn
+|upkeep
+|turn|24
+|c|☆xPyroniz|yesss
+|choice|move recover|move lavaplume
+|
+|move|p2a: Heatran|Lava Plume|p1a: Sableye
+|-damage|p1a: Sableye|25/100 brn
+|move|p1a: Sableye|Recover|p1a: Sableye
+|-heal|p1a: Sableye|75/100 brn
+|
+|-heal|p2a: Heatran|85/100|[from] item: Leftovers
+|-damage|p1a: Sableye|63/100 brn|[from] brn
+|upkeep
+|turn|25
+|c| Carver47|Itsya
+|c| Carver47|yiur only hope
+|c| Carver47|is to crit
+|choice|move recover|move lavaplume
+|
+|move|p2a: Heatran|Lava Plume|p1a: Sableye
+|-damage|p1a: Sableye|42/100 brn
+|move|p1a: Sableye|Recover|p1a: Sableye
+|-heal|p1a: Sableye|92/100 brn
+|
+|-heal|p2a: Heatran|91/100|[from] item: Leftovers
+|-damage|p1a: Sableye|79/100 brn|[from] brn
+|upkeep
+|turn|26
+|c|☆Itsyaboiraboi|thanks captian obvious
+|c|☆Itsyaboiraboi|i didnt know that already?
+|choice|move recover|move lavaplume
+|
+|move|p2a: Heatran|Lava Plume|p1a: Sableye
+|-crit|p1a: Sableye
+|-damage|p1a: Sableye|25/100 brn
+|move|p1a: Sableye|Recover|p1a: Sableye
+|-heal|p1a: Sableye|75/100 brn
+|
+|-heal|p2a: Heatran|98/100|[from] item: Leftovers
+|-damage|p1a: Sableye|62/100 brn|[from] brn
+|upkeep
+|turn|27
+|c|☆xPyroniz|fuck u
+|c| PikachuGods|aw
+|c| Carver47|;/;
+|choice|move recover|move lavaplume
+|
+|move|p2a: Heatran|Lava Plume|p1a: Sableye
+|-damage|p1a: Sableye|39/100 brn
+|move|p1a: Sableye|Recover|p1a: Sableye
+|-heal|p1a: Sableye|89/100 brn
+|
+|-heal|p2a: Heatran|100/100|[from] item: Leftovers
+|-damage|p1a: Sableye|77/100 brn|[from] brn
+|upkeep
+|turn|28
+|c| Carver47|so rood
+|c| PikachuGods|Hes gonna run out eventually
+|c| ak47master101|finsish it
+|choice|move calmmind|move lavaplume
+|
+|move|p2a: Heatran|Lava Plume|p1a: Sableye
+|-damage|p1a: Sableye|53/100 brn
+|move|p1a: Sableye|Calm Mind|p1a: Sableye
+|-boost|p1a: Sableye|spa|1
+|-boost|p1a: Sableye|spd|1
+|
+|-damage|p1a: Sableye|40/100 brn|[from] brn
+|upkeep
+|turn|29
+|c| Carver47|Recovers are getting lowes
+|c|☆xPyroniz|if u crit now
+|choice|move recover|move lavaplume
+|
+|move|p2a: Heatran|Lava Plume|p1a: Sableye
+|-crit|p1a: Sableye
+|-damage|p1a: Sableye|0 fnt
+|faint|p1a: Sableye
+|
+|win|Itsyaboiraboi
+|c|☆xPyroniz|ya
+|c|☆xPyroniz|ofc
+|c| ak47master101|OGHHHHHHH
+|c| PikachuGods|YES
+|c|☆Itsyaboiraboi|rip
+|c| ak47master101|H
+|c|☆xPyroniz|smh
+|c| ak47master101|HRAPE RAPE
+|c| Carver47|AHHHA
+|c| ak47master101|RAPE
+|l|xPyroniz
+|c| Carver47|IM DESD
+|c| PikachuGods|LOL

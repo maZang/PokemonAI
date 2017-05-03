@@ -1,0 +1,406 @@
+|j|SolAnima
+|j|RVGuardians
+|player|p1|SolAnima|2
+|player|p2|RVGuardians|92
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|48953,42069,13908,34506,20175,18842,37125,40583,20308,23495,23521,17605
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Greninja, M|item
+|poke|p1|Diancie|item
+|poke|p1|Tyranitar, M|item
+|poke|p1|Arceus-*|item
+|poke|p1|Rayquaza|item
+|poke|p1|Dialga|item
+|poke|p2|Arceus-*|item
+|poke|p2|Scizor, M|item
+|poke|p2|Deoxys-Attack|item
+|poke|p2|Rayquaza|item
+|poke|p2|Ho-Oh|item
+|poke|p2|Tyranitar, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 1, team 2, team 3, team 4, team 5, team 6|team 2, team 1, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Greninja|Greninja, M|100/100
+|switch|p2a: Scizor|Scizor, M|100/100
+|turn|1
+|choice|switch 6|move bulletpunch mega
+|
+|switch|p1a: Dialga|Dialga|100/100
+|-ability|p1a: Dialga|Pressure
+|detailschange|p2a: Scizor|Scizor-Mega, M
+|-mega|p2a: Scizor|Scizor|Scizorite
+|move|p2a: Scizor|Bullet Punch|p1a: Dialga
+|-resisted|p1a: Dialga
+|-damage|p1a: Dialga|90/100
+|
+|-heal|p1a: Dialga|96/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|choice|move fireblast|switch 5
+|
+|switch|p2a: Ho-Oh|Ho-Oh|100/100
+|move|p1a: Dialga|Fire Blast|p2a: Ho-Oh
+|-resisted|p2a: Ho-Oh
+|-damage|p2a: Ho-Oh|91/100
+|
+|-heal|p1a: Dialga|100/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|choice|switch 2|move sacredfire
+|
+|switch|p1a: Diancie|Diancie|100/100
+|move|p2a: Ho-Oh|Sacred Fire|p1a: Diancie
+|-resisted|p1a: Diancie
+|-damage|p1a: Diancie|60/100
+|-status|p1a: Diancie|brn
+|-damage|p2a: Ho-Oh|81/100|[from] item: Life Orb
+|
+|-damage|p1a: Diancie|48/100 brn|[from] brn
+|upkeep
+|turn|4
+|choice|move diamondstorm mega|switch 5
+|
+|switch|p2a: Scizor|Scizor-Mega, M|100/100
+|detailschange|p1a: Diancie|Diancie-Mega
+|-mega|p1a: Diancie|Diancie|Diancite
+|move|p1a: Diancie|Diamond Storm|p2a: Scizor
+|-damage|p2a: Scizor|85/100
+|-boost|p1a: Diancie|def|1
+|
+|-damage|p1a: Diancie|35/100 brn|[from] brn
+|upkeep
+|turn|5
+|choice|move earthpower|move bulletpunch
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Diancie
+|-supereffective|p1a: Diancie
+|-damage|p1a: Diancie|0 fnt
+|faint|p1a: Diancie
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Dialga|Dialga|100/100
+|-ability|p1a: Dialga|Pressure
+|turn|6
+|choice|move fireblast|switch 5
+|
+|switch|p2a: Ho-Oh|Ho-Oh|100/100
+|move|p1a: Dialga|Fire Blast|p2a: Ho-Oh
+|-resisted|p2a: Ho-Oh
+|-damage|p2a: Ho-Oh|91/100
+|
+|upkeep
+|turn|7
+|choice|move dracometeor|move sacredfire
+|
+|move|p2a: Ho-Oh|Sacred Fire|p1a: Dialga
+|-damage|p1a: Dialga|43/100
+|-damage|p2a: Ho-Oh|81/100|[from] item: Life Orb
+|move|p1a: Dialga|Draco Meteor|p2a: Ho-Oh
+|-damage|p2a: Ho-Oh|44/100
+|-unboost|p1a: Dialga|spa|2
+|
+|-heal|p1a: Dialga|50/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|choice|switch 6|move recover
+|
+|switch|p1a: Greninja|Greninja, M|100/100
+|move|p2a: Ho-Oh|Recover|p2a: Ho-Oh
+|-heal|p2a: Ho-Oh|94/100
+|
+|upkeep
+|turn|9
+|choice|move scald|move bravebird
+|
+|move|p1a: Greninja|Scald|p2a: Ho-Oh
+|-start|p1a: Greninja|typechange|Water|[from] Protean
+|-supereffective|p2a: Ho-Oh
+|-damage|p2a: Ho-Oh|68/100
+|move|p2a: Ho-Oh|Brave Bird|p1a: Greninja
+|-enditem|p1a: Greninja|Focus Sash
+|-damage|p1a: Greninja|1/100
+|-damage|p2a: Ho-Oh|45/100|[from] recoil|[of] p1a: Greninja
+|-damage|p2a: Ho-Oh|35/100|[from] item: Life Orb
+|
+|upkeep
+|turn|10
+|choice|move scald|switch 4
+|
+|switch|p2a: Rayquaza|Rayquaza|100/100
+|-ability|p2a: Rayquaza|Air Lock
+|move|p1a: Greninja|Scald|p2a: Rayquaza
+|-resisted|p2a: Rayquaza
+|-damage|p2a: Rayquaza|88/100
+|
+|upkeep
+|turn|11
+|choice|move shadowsneak|move extremespeed
+|
+|move|p2a: Rayquaza|Extreme Speed|p1a: Greninja
+|-damage|p1a: Greninja|0 fnt
+|-damage|p2a: Rayquaza|78/100|[from] item: Life Orb
+|faint|p1a: Greninja
+|
+|upkeep
+|c|☆SolAnima|How were you faster?
+|c|☆SolAnima|Honest question
+|c|☆SolAnima|I clicked shadow sneak and you were faster
+|c|☆RVGuardians|extreme speed has higher priority
+|c|☆RVGuardians|+2 instead of +1
+|c|☆SolAnima|Ugh
+|choice|switch 3|
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|12
+|c|☆RVGuardians|Yeah, thats why i made that play
+|choice|move rockslide|switch 5
+|
+|switch|p2a: Scizor|Scizor-Mega, M|85/100
+|move|p1a: Tyranitar|Rock Slide|p2a: Scizor
+|-damage|p2a: Scizor|65/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|13
+|choice|move roar|move bulletpunch
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-crit|p1a: Tyranitar
+|-damage|p1a: Tyranitar|32/100
+|move|p1a: Tyranitar|Roar|p2a: Scizor
+|drag|p2a: Rayquaza|Rayquaza|78/100
+|-ability|p2a: Rayquaza|Air Lock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|14
+|c|☆SolAnima|Crit?
+|c|☆SolAnima|ReallY?
+|c|☆RVGuardians|sry man
+|c|☆RVGuardians|should not matter though
+|choice|move rockslide|move earthquake
+|
+|move|p2a: Rayquaza|Earthquake|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-enditem|p1a: Tyranitar|Shuca Berry|[eat]
+|-enditem|p1a: Tyranitar|Shuca Berry|[weaken]
+|-damage|p1a: Tyranitar|0 fnt
+|-damage|p2a: Rayquaza|68/100|[from] item: Life Orb
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|c|☆RVGuardians|nvm it did
+|c|☆RVGuardians|not in the long run though
+|c|☆SolAnima|Whatever man
+|c|☆SolAnima|Whatever
+|c|☆SolAnima|When your mon does 50 on resist
+|c|☆SolAnima|It's just whatever
+|choice|switch 5|
+|
+|switch|p1a: Rayquaza|Rayquaza|100/100
+|-ability|p1a: Rayquaza|Air Lock
+|turn|15
+|c|☆RVGuardians|resist?
+|c|☆RVGuardians|What do you mean?
+|choice|move swordsdance|move extremespeed
+|
+|move|p2a: Rayquaza|Extreme Speed|p1a: Rayquaza
+|-damage|p1a: Rayquaza|55/100
+|-damage|p2a: Rayquaza|58/100|[from] item: Life Orb
+|move|p1a: Rayquaza|Swords Dance|p1a: Rayquaza
+|-boost|p1a: Rayquaza|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|16
+|choice|move extremespeed|move extremespeed
+|
+|move|p1a: Rayquaza|Extreme Speed|p2a: Rayquaza
+|-crit|p2a: Rayquaza
+|-damage|p2a: Rayquaza|0 fnt
+|-damage|p1a: Rayquaza|45/100|[from] item: Life Orb
+|faint|p2a: Rayquaza
+|
+|-weather|none
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|17
+|choice|move earthquake|move rockslide
+|
+|move|p1a: Rayquaza|Earthquake|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-enditem|p2a: Tyranitar|Shuca Berry|[eat]
+|-enditem|p2a: Tyranitar|Shuca Berry|[weaken]
+|-damage|p2a: Tyranitar|11/100
+|-damage|p1a: Rayquaza|35/100|[from] item: Life Orb
+|move|p2a: Tyranitar|Rock Slide|p1a: Rayquaza
+|-supereffective|p1a: Rayquaza
+|-damage|p1a: Rayquaza|0 fnt
+|faint|p1a: Rayquaza
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|c|☆SolAnima|Wow
+|c|☆SolAnima|You barely lived
+|choice|switch 6|
+|
+|switch|p1a: Dialga|Dialga|50/100
+|-ability|p1a: Dialga|Pressure
+|turn|18
+|choice|move fireblast|move lowkick
+|
+|move|p1a: Dialga|Fire Blast|p2a: Tyranitar|[miss]
+|-miss|p1a: Dialga|p2a: Tyranitar
+|move|p2a: Tyranitar|Low Kick|p1a: Dialga
+|-supereffective|p1a: Dialga
+|-damage|p1a: Dialga|0 fnt
+|faint|p1a: Dialga
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|c|☆RVGuardians|that would not have killed me
+|c|☆SolAnima|Yes
+|c|☆RVGuardians|Resist
+|c|☆RVGuardians|not Stab
+|c|☆SolAnima|Yes it would have
+|c|☆RVGuardians|Sand SPDef Boost
+|c|☆SolAnima|Definitely yes
+|c|☆RVGuardians|It would not
+|c|☆SolAnima|Pretty sure it would
+|choice|switch 4|
+|
+|switch|p1a: Arceus|Arceus-Bug|100/100
+|turn|19
+|c|☆RVGuardians|252+ SpA Dialga Fire Blast vs. 248 HP / 252+ SpD Tyranitar in Sand: 35-42 (8.6 - 10.4%) -- possibly the worst move ever
+|choice|move earthquake|move rockslide
+|
+|move|p1a: Arceus|Earthquake|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Arceus|94/100|[from] sandstorm
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Ho-Oh|Ho-Oh|68/100
+|turn|20
+|choice|move stoneedge|move bravebird
+|
+|move|p1a: Arceus|Stone Edge|p2a: Ho-Oh
+|-supereffective|p2a: Ho-Oh
+|-damage|p2a: Ho-Oh|0 fnt
+|faint|p2a: Ho-Oh
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Arceus|88/100|[from] sandstorm
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Deoxys|Deoxys-Attack|100/100
+|-ability|p2a: Deoxys|Pressure
+|turn|21
+|choice|move swordsdance|move psychoboost
+|
+|move|p2a: Deoxys|Psycho Boost|p1a: Arceus|[miss]
+|-miss|p2a: Deoxys|p1a: Arceus
+|move|p1a: Arceus|Swords Dance|p1a: Arceus
+|-boost|p1a: Arceus|atk|2
+|
+|-weather|none
+|upkeep
+|turn|22
+|choice|move xscissor|move psychoboost
+|
+|move|p2a: Deoxys|Psycho Boost|p1a: Arceus|[miss]
+|-miss|p2a: Deoxys|p1a: Arceus
+|move|p1a: Arceus|X-Scissor|p2a: Deoxys
+|-supereffective|p2a: Deoxys
+|-damage|p2a: Deoxys|0 fnt
+|faint|p2a: Deoxys
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Scizor|Scizor-Mega, M|65/100
+|turn|23
+|choice|move stoneedge|move toxic
+|
+|move|p1a: Arceus|Stone Edge|p2a: Scizor
+|-crit|p2a: Scizor
+|-damage|p2a: Scizor|9/100
+|move|p2a: Scizor|Toxic|p1a: Arceus|[miss]
+|-miss|p2a: Scizor|p1a: Arceus
+|
+|upkeep
+|turn|24
+|choice|move xscissor|move bulletpunch
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Arceus
+|-damage|p1a: Arceus|65/100
+|move|p1a: Arceus|X-Scissor|p2a: Scizor
+|-resisted|p2a: Scizor
+|-crit|p2a: Scizor
+|-damage|p2a: Scizor|0 fnt
+|faint|p2a: Scizor
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Arceus|Arceus-Ghost|100/100
+|turn|25
+|choice|move xscissor|move shadowforce
+|
+|move|p2a: Arceus|Shadow Force|p1a: Arceus|[still]
+|-prepare|p2a: Arceus|Shadow Force|p1a: Arceus
+|move|p1a: Arceus|X-Scissor|p2a: Arceus|[miss]
+|-miss|p1a: Arceus|p2a: Arceus
+|
+|upkeep
+|turn|26
+|choice|move xscissor|move shadowforce
+|
+|move|p1a: Arceus|X-Scissor|p2a: Arceus|[miss]
+|-miss|p1a: Arceus|p2a: Arceus
+|move|p2a: Arceus|Shadow Force|p1a: Arceus|[from]lockedmove
+|-damage|p1a: Arceus|6/100
+|
+|upkeep
+|turn|27
+|c|☆SolAnima|Huff
+|c|☆SolAnima|Welp
+|c|☆RVGuardians|gg
+|c|☆SolAnima|I brought it back
+|c|☆SolAnima|JUST TO MISS
+|choice|move xscissor|move extremespeed
+|
+|move|p2a: Arceus|Extreme Speed|p1a: Arceus
+|-damage|p1a: Arceus|0 fnt
+|faint|p1a: Arceus
+|
+|win|RVGuardians
+|c|☆RVGuardians|dude
+|raw|SolAnima's rating: 1102 &rarr; <strong>1070</strong><br />(-32 for losing)
+|raw|RVGuardians's rating: 1000 &rarr; <strong>1051</strong><br />(+51 for winning)
+|c|☆RVGuardians|i missed 3 moves
+|c|☆RVGuardians|its just the game
+|c|☆SolAnima|I missed it when its important
+|c|☆RVGuardians|?
+|c|☆RVGuardians|agaijn
+|c|☆RVGuardians|fire blast didnt kill

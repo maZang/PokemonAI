@@ -1,0 +1,303 @@
+|j|LordVendetta ͜..
+|j|El Nuv de PA!
+|player|p1|LordVendetta ͜..|265
+|player|p2|El Nuv de PA!|249
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|21340,3642,43171,48097,37826,37957,63278,22919,56253,35356,54513,19674
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Rotom-Mow|item
+|poke|p1|Emboar, M|item
+|poke|p1|Scrafty, M|item
+|poke|p1|Seismitoad, M|item
+|poke|p1|Flygon, M|item
+|poke|p1|Jolteon, M|item
+|poke|p2|Smeargle, M|item
+|poke|p2|Sigilyph, M|item
+|poke|p2|Fletchinder, M|
+|poke|p2|Houndoom, M|item
+|poke|p2|Scrafty, M|item
+|poke|p2|Sawk, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|c|☆El Nuv de PA!|Jolteon *o*
+|c|☆LordVendetta ͜..|y cual es esta tier?
+|c|☆El Nuv de PA!|RU
+|c|☆El Nuv de PA!|Supongo
+|choice|team 2, team 1, team 3, team 4, team 5, team 6|team 1, team 2, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Emboar|Emboar, M|100/100
+|switch|p2a: Smeargle|Smeargle, M|100/100
+|turn|1
+|choice|switch 2|move stealthrock
+|
+|switch|p1a: Rotom|Rotom-Mow|100/100
+|move|p2a: Smeargle|Stealth Rock|p1a: Rotom
+|-sidestart|p1: LordVendetta ͜..|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|choice|move thunderbolt|move stickyweb
+|
+|move|p1a: Rotom|Thunderbolt|p2a: Smeargle
+|-enditem|p2a: Smeargle|Focus Sash
+|-damage|p2a: Smeargle|1/100
+|move|p2a: Smeargle|Sticky Web|p1a: Rotom
+|-sidestart|p1: LordVendetta ͜..|move: Sticky Web
+|
+|upkeep
+|turn|3
+|c|☆LordVendetta ͜..|la santa bendita xd
+|c|☆El Nuv de PA!|:v
+|choice|move thunderbolt|move explosion
+|
+|move|p1a: Rotom|Thunderbolt|p2a: Smeargle
+|-damage|p2a: Smeargle|0 fnt
+|faint|p2a: Smeargle
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Houndoom|Houndoom, M|100/100
+|turn|4
+|choice|move thunderbolt|move nastyplot
+|
+|move|p2a: Houndoom|Nasty Plot|p2a: Houndoom
+|-boost|p2a: Houndoom|spa|2
+|move|p1a: Rotom|Thunderbolt|p2a: Houndoom
+|-damage|p2a: Houndoom|11/100
+|
+|upkeep
+|turn|5
+|choice|switch 5|move fireblast
+|
+|switch|p1a: Flygon|Flygon, M|100/100
+|-damage|p1a: Flygon|95/100|[from] Stealth Rock
+|move|p2a: Houndoom|Fire Blast|p1a: Flygon
+|-resisted|p1a: Flygon
+|-damage|p1a: Flygon|0 fnt
+|-damage|p2a: Houndoom|1/100|[from] item: Life Orb
+|faint|p1a: Flygon
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Seismitoad|Seismitoad, M|100/100
+|-activate|p1a: Seismitoad|move: Sticky Web
+|-unboost|p1a: Seismitoad|spe|1
+|-damage|p1a: Seismitoad|94/100|[from] Stealth Rock
+|turn|6
+|choice|move earthquake|move suckerpunch
+|
+|move|p2a: Houndoom|Sucker Punch|p1a: Seismitoad
+|-damage|p1a: Seismitoad|70/100
+|-damage|p2a: Houndoom|0 fnt|[from] item: Life Orb
+|faint|p2a: Houndoom
+|move|p1a: Seismitoad|Earthquake|p2: Houndoom|[notarget]
+|-notarget
+|
+|-heal|p1a: Seismitoad|76/100|[from] item: Leftovers
+|upkeep
+|c|☆LordVendetta ͜..|nasty conn sucker xdxd
+|choice||switch 2
+|
+|switch|p2a: Sigilyph|Sigilyph, M|100/100
+|turn|7
+|choice|move knockoff|move calmmind
+|
+|move|p2a: Sigilyph|Calm Mind|p2a: Sigilyph
+|-boost|p2a: Sigilyph|spa|1
+|-boost|p2a: Sigilyph|spd|1
+|move|p1a: Seismitoad|Knock Off|p2a: Sigilyph
+|-supereffective|p2a: Sigilyph
+|-damage|p2a: Sigilyph|53/100
+|-enditem|p2a: Sigilyph|Flame Orb|[from] move: Knock Off|[of] p1a: Seismitoad
+|
+|-heal|p1a: Seismitoad|82/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|choice|move knockoff|move roost
+|
+|move|p2a: Sigilyph|Roost|p2a: Sigilyph
+|-heal|p2a: Sigilyph|100/100
+|move|p1a: Seismitoad|Knock Off|p2a: Sigilyph
+|-supereffective|p2a: Sigilyph
+|-damage|p2a: Sigilyph|65/100
+|
+|-heal|p1a: Seismitoad|88/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|choice|move knockoff|move calmmind
+|
+|move|p2a: Sigilyph|Calm Mind|p2a: Sigilyph
+|-boost|p2a: Sigilyph|spa|1
+|-boost|p2a: Sigilyph|spd|1
+|move|p1a: Seismitoad|Knock Off|p2a: Sigilyph
+|-supereffective|p2a: Sigilyph
+|-crit|p2a: Sigilyph
+|-damage|p2a: Sigilyph|18/100
+|
+|-heal|p1a: Seismitoad|95/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|choice|move knockoff|move roost
+|
+|move|p2a: Sigilyph|Roost|p2a: Sigilyph
+|-heal|p2a: Sigilyph|68/100
+|move|p1a: Seismitoad|Knock Off|p2a: Sigilyph
+|-supereffective|p2a: Sigilyph
+|-damage|p2a: Sigilyph|33/100
+|
+|-heal|p1a: Seismitoad|100/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|choice|move knockoff|move roost
+|
+|move|p2a: Sigilyph|Roost|p2a: Sigilyph
+|-heal|p2a: Sigilyph|83/100
+|move|p1a: Seismitoad|Knock Off|p2a: Sigilyph
+|-supereffective|p2a: Sigilyph
+|-damage|p2a: Sigilyph|47/100
+|
+|upkeep
+|turn|12
+|choice|move knockoff|move roost
+|
+|move|p2a: Sigilyph|Roost|p2a: Sigilyph
+|-heal|p2a: Sigilyph|97/100
+|move|p1a: Seismitoad|Knock Off|p2a: Sigilyph
+|-supereffective|p2a: Sigilyph
+|-damage|p2a: Sigilyph|65/100
+|
+|upkeep
+|turn|13
+|choice|move stealthrock|move airslash
+|
+|move|p2a: Sigilyph|Air Slash|p1a: Seismitoad
+|-damage|p1a: Seismitoad|51/100
+|move|p1a: Seismitoad|Stealth Rock|p2a: Sigilyph
+|-sidestart|p2: El Nuv de PA!|move: Stealth Rock
+|
+|-heal|p1a: Seismitoad|57/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|choice|move knockoff|move airslash
+|
+|move|p2a: Sigilyph|Air Slash|p1a: Seismitoad
+|-damage|p1a: Seismitoad|5/100
+|move|p1a: Seismitoad|Knock Off|p2a: Sigilyph
+|-supereffective|p2a: Sigilyph
+|-damage|p2a: Sigilyph|33/100
+|
+|-heal|p1a: Seismitoad|11/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|choice|move knockoff|move airslash
+|
+|move|p2a: Sigilyph|Air Slash|p1a: Seismitoad
+|-crit|p1a: Seismitoad
+|-damage|p1a: Seismitoad|0 fnt
+|faint|p1a: Seismitoad
+|
+|upkeep
+|c|☆LordVendetta ͜..|k wen serbisio
+|choice|switch 5|
+|
+|switch|p1a: Rotom|Rotom-Mow|100/100
+|-damage|p1a: Rotom|88/100|[from] Stealth Rock
+|turn|16
+|choice|move thunderbolt|move psychoshift
+|
+|move|p2a: Sigilyph|Psycho Shift|p1a: Rotom
+|-fail|p1a: Rotom
+|move|p1a: Rotom|Thunderbolt|p2a: Sigilyph
+|-supereffective|p2a: Sigilyph
+|-damage|p2a: Sigilyph|0 fnt
+|faint|p2a: Sigilyph
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Scrafty|Scrafty, M|100/100
+|-damage|p2a: Scrafty|95/100|[from] Stealth Rock
+|-ability|p2a: Scrafty|Intimidate|boost
+|-unboost|p1a: Rotom|atk|1
+|turn|17
+|choice|move thunderbolt|move dragondance
+|
+|move|p1a: Rotom|Thunderbolt|p2a: Scrafty
+|-damage|p2a: Scrafty|26/100
+|move|p2a: Scrafty|Dragon Dance|p2a: Scrafty
+|-boost|p2a: Scrafty|atk|1
+|-boost|p2a: Scrafty|spe|1
+|
+|upkeep
+|turn|18
+|choice|move thunderbolt|move highjumpkick
+|
+|move|p2a: Scrafty|High Jump Kick|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Emboar|Emboar, M|100/100
+|-damage|p1a: Emboar|88/100|[from] Stealth Rock
+|-activate|p1a: Emboar|move: Sticky Web
+|-unboost|p1a: Emboar|spe|1
+|turn|19
+|c|☆El Nuv de PA!|Mira a mi maic manko
+|choice|move suckerpunch|move highjumpkick
+|
+|move|p1a: Emboar|Sucker Punch|p2a: Scrafty
+|-resisted|p2a: Scrafty
+|-damage|p2a: Scrafty|14/100
+|move|p2a: Scrafty|High Jump Kick|p1a: Emboar
+|-damage|p1a: Emboar|0 fnt
+|faint|p1a: Emboar
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Jolteon|Jolteon, M|100/100
+|-activate|p1a: Jolteon|move: Sticky Web
+|-unboost|p1a: Jolteon|spe|1
+|-damage|p1a: Jolteon|88/100|[from] Stealth Rock
+|turn|20
+|choice|move voltswitch|move knockoff
+|
+|move|p2a: Scrafty|Knock Off|p1a: Jolteon
+|-damage|p1a: Jolteon|0 fnt
+|-enditem|p1a: Jolteon|Life Orb|[from] move: Knock Off|[of] p2a: Scrafty
+|faint|p1a: Jolteon
+|
+|upkeep
+|c|☆LordVendetta ͜..|jolt pls
+|choice|switch 3|
+|
+|switch|p1a: Scrafty|Scrafty, M|100/100
+|-damage|p1a: Scrafty|95/100|[from] Stealth Rock
+|-activate|p1a: Scrafty|move: Sticky Web
+|-unboost|p1a: Scrafty|spe|1
+|-ability|p1a: Scrafty|Intimidate|boost
+|-unboost|p2a: Scrafty|atk|1
+|turn|21
+|c|☆El Nuv de PA!|:v
+|choice|move highjumpkick|move highjumpkick
+|
+|move|p2a: Scrafty|High Jump Kick|p1a: Scrafty
+|-supereffective|p1a: Scrafty
+|-damage|p1a: Scrafty|0 fnt
+|faint|p1a: Scrafty
+|
+|win|El Nuv de PA!
+|c|☆LordVendetta ͜..|gg
+|c|☆El Nuv de PA!|gg
+|c|☆El Nuv de PA!|io me boi
+|c|☆LordVendetta ͜..|chau
+|l|LordVendetta ͜..

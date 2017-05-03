@@ -1,0 +1,321 @@
+|j|chris meh
+|j|once a trevor
+|player|p1|chris meh|102
+|player|p2|once a trevor|217
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|57868,18730,32380,52358,61309,51405,1215,57018,26348,34454,59435,58966
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Stunfisk, M|item
+|poke|p1|Mr. Mime, M|item
+|poke|p1|Gothitelle, M|item
+|poke|p1|Electrode|item
+|poke|p1|Altaria, M|item
+|poke|p1|Swanna, M|item
+|poke|p2|Probopass, M|item
+|poke|p2|Cryogonal|item
+|poke|p2|Gourgeist-*, M|item
+|poke|p2|Altaria, M|item
+|poke|p2|Ninjask, M|item
+|poke|p2|Purugly, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 1, team 2, team 3, team 4, team 5, team 6|team 1, team 2, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Stunfisk|Stunfisk, M|100/100
+|switch|p2a: Probopass|Probopass, M|100/100
+|turn|1
+|choice|move stealthrock|switch 2
+|
+|switch|p2a: Cryogonal|Cryogonal|100/100
+|move|p1a: Stunfisk|Stealth Rock|p2a: Cryogonal
+|-sidestart|p2: once a trevor|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|choice|move discharge|move freezedry
+|
+|move|p2a: Cryogonal|Freeze-Dry|p1a: Stunfisk
+|-supereffective|p1a: Stunfisk
+|-damage|p1a: Stunfisk|41/100
+|-damage|p2a: Cryogonal|91/100|[from] item: Life Orb
+|move|p1a: Stunfisk|Discharge|p2a: Cryogonal
+|-damage|p2a: Cryogonal|69/100
+|-status|p2a: Cryogonal|par
+|
+|upkeep
+|turn|3
+|choice|switch 6|move rapidspin
+|
+|switch|p1a: Swanna|Swanna, M|100/100
+|cant|p2a: Cryogonal|par
+|
+|upkeep
+|turn|4
+|choice|move hurricane|move recover
+|
+|move|p1a: Swanna|Hurricane|p2a: Cryogonal
+|-damage|p2a: Cryogonal|12/100 par
+|-damage|p1a: Swanna|91/100|[from] item: Life Orb
+|move|p2a: Cryogonal|Recover|p2a: Cryogonal
+|-heal|p2a: Cryogonal|62/100 par
+|
+|upkeep
+|turn|5
+|choice|move hurricane|move freezedry
+|
+|move|p1a: Swanna|Hurricane|p2a: Cryogonal
+|-damage|p2a: Cryogonal|12/100 par
+|-damage|p1a: Swanna|81/100|[from] item: Life Orb
+|cant|p2a: Cryogonal|par
+|
+|upkeep
+|turn|6
+|choice|move scald|move freezedry
+|
+|move|p1a: Swanna|Scald|p2a: Cryogonal
+|-damage|p2a: Cryogonal|0 fnt
+|-damage|p1a: Swanna|71/100|[from] item: Life Orb
+|faint|p2a: Cryogonal
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Probopass|Probopass, M|100/100
+|-damage|p2a: Probopass|94/100|[from] Stealth Rock
+|turn|7
+|choice|move scald|move voltswitch
+|
+|move|p1a: Swanna|Scald|p2a: Probopass
+|-supereffective|p2a: Probopass
+|-enditem|p2a: Probopass|Passho Berry|[eat]
+|-enditem|p2a: Probopass|Passho Berry|[weaken]
+|-damage|p2a: Probopass|63/100
+|-damage|p1a: Swanna|62/100|[from] item: Life Orb
+|move|p2a: Probopass|Volt Switch|p1a: Swanna
+|-supereffective|p1a: Swanna
+|-damage|p1a: Swanna|0 fnt
+|faint|p1a: Swanna
+|choice||switch 6
+|
+|switch|p2a: Purugly|Purugly, M|100/100
+|-damage|p2a: Purugly|88/100|[from] Stealth Rock
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Altaria|Altaria, M|100/100
+|turn|8
+|choice|move hiddenpower|move fakeout
+|
+|move|p2a: Purugly|Fake Out|p1a: Altaria
+|-damage|p1a: Altaria|78/100
+|-damage|p2a: Purugly|78/100|[from] item: Life Orb
+|cant|p1a: Altaria|flinch
+|
+|upkeep
+|turn|9
+|choice|move hiddenpower|move knockoff
+|
+|move|p2a: Purugly|Knock Off|p1a: Altaria
+|-damage|p1a: Altaria|42/100
+|-enditem|p1a: Altaria|Life Orb|[from] move: Knock Off|[of] p2a: Purugly
+|-damage|p2a: Purugly|68/100|[from] item: Life Orb
+|move|p1a: Altaria|Hidden Power|p2a: Purugly
+|-supereffective|p2a: Purugly
+|-damage|p2a: Purugly|13/100
+|
+|upkeep
+|turn|10
+|choice|move hiddenpower|move return
+|
+|move|p2a: Purugly|Return|p1a: Altaria
+|-damage|p1a: Altaria|0 fnt
+|-damage|p2a: Purugly|3/100|[from] item: Life Orb
+|faint|p1a: Altaria
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Electrode|Electrode|100/100
+|turn|11
+|choice|move hiddenpower|move suckerpunch
+|
+|move|p2a: Purugly|Sucker Punch|p1a: Electrode
+|-damage|p1a: Electrode|53/100
+|-damage|p2a: Purugly|0 fnt|[from] item: Life Orb
+|faint|p2a: Purugly
+|move|p1a: Electrode|Hidden Power|p2: Purugly|[notarget]
+|-notarget
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Probopass|Probopass, M|63/100
+|-damage|p2a: Probopass|57/100|[from] Stealth Rock
+|turn|12
+|choice|move thunderbolt|move stealthrock
+|
+|move|p1a: Electrode|Thunderbolt|p2a: Probopass
+|-damage|p2a: Probopass|24/100
+|-damage|p1a: Electrode|43/100|[from] item: Life Orb
+|move|p2a: Probopass|Stealth Rock|p1a: Electrode
+|-sidestart|p1: chris meh|move: Stealth Rock
+|
+|upkeep
+|turn|13
+|choice|move thunderbolt|move stealthrock
+|
+|move|p1a: Electrode|Thunderbolt|p2a: Probopass
+|-damage|p2a: Probopass|0 fnt
+|-damage|p1a: Electrode|33/100|[from] item: Life Orb
+|faint|p2a: Probopass
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Gourgeist|Gourgeist-Small, M|100/100
+|-damage|p2a: Gourgeist|88/100|[from] Stealth Rock
+|-item|p1a: Electrode|Life Orb|[from] ability: Frisk|[of] p2a: Gourgeist|[identify]
+|turn|14
+|choice|move hiddenpower|move foulplay
+|
+|move|p1a: Electrode|Hidden Power|p2a: Gourgeist
+|-supereffective|p2a: Gourgeist
+|-damage|p2a: Gourgeist|25/100
+|-damage|p1a: Electrode|23/100|[from] item: Life Orb
+|move|p2a: Gourgeist|Foul Play|p1a: Electrode
+|-crit|p1a: Electrode
+|-damage|p1a: Electrode|0 fnt
+|faint|p1a: Electrode
+|
+|-heal|p2a: Gourgeist|31/100|[from] item: Leftovers
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Mr. Mime|Mr. Mime, M|100/100
+|-damage|p1a: Mr. Mime|88/100|[from] Stealth Rock
+|turn|15
+|choice|move psychic|move foulplay
+|
+|move|p1a: Mr. Mime|Psychic|p2a: Gourgeist
+|-damage|p2a: Gourgeist|0 fnt
+|faint|p2a: Gourgeist
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Ninjask|Ninjask, M|100/100
+|-damage|p2a: Ninjask|51/100|[from] Stealth Rock
+|turn|16
+|choice|move psychic|move xscissor
+|
+|move|p1a: Mr. Mime|Psychic|p2a: Ninjask
+|-damage|p2a: Ninjask|0 fnt
+|faint|p2a: Ninjask
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Altaria|Altaria, M|100/100
+|-damage|p2a: Altaria|75/100|[from] Stealth Rock
+|turn|17
+|choice|move psychic|move roost
+|
+|move|p1a: Mr. Mime|Psychic|p2a: Altaria
+|-damage|p2a: Altaria|38/100
+|move|p2a: Altaria|Roost|p2a: Altaria
+|-heal|p2a: Altaria|88/100
+|
+|-heal|p2a: Altaria|94/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|choice|switch 6|move dragondance
+|
+|switch|p1a: Stunfisk|Stunfisk, M|41/100
+|-damage|p1a: Stunfisk|35/100|[from] Stealth Rock
+|move|p2a: Altaria|Dragon Dance|p2a: Altaria
+|-boost|p2a: Altaria|atk|1
+|-boost|p2a: Altaria|spe|1
+|
+|-heal|p2a: Altaria|100/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|choice|move discharge|move substitute
+|
+|move|p2a: Altaria|Substitute|p2a: Altaria
+|-start|p2a: Altaria|Substitute
+|-damage|p2a: Altaria|75/100
+|move|p1a: Stunfisk|Discharge|p2a: Altaria
+|-end|p2a: Altaria|Substitute
+|
+|-heal|p2a: Altaria|82/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|choice|move discharge|move dragondance
+|
+|move|p2a: Altaria|Dragon Dance|p2a: Altaria
+|-boost|p2a: Altaria|atk|1
+|-boost|p2a: Altaria|spe|1
+|move|p1a: Stunfisk|Discharge|p2a: Altaria
+|-damage|p2a: Altaria|58/100
+|
+|-heal|p2a: Altaria|65/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|choice|switch 6|move dragonclaw
+|
+|switch|p1a: Mr. Mime|Mr. Mime, M|88/100
+|-damage|p1a: Mr. Mime|76/100|[from] Stealth Rock
+|move|p2a: Altaria|Dragon Claw|p1a: Mr. Mime
+|-immune|p1a: Mr. Mime|[msg]
+|
+|-heal|p2a: Altaria|71/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|choice|move dazzlinggleam|move substitute
+|
+|move|p2a: Altaria|Substitute|p2a: Altaria
+|-start|p2a: Altaria|Substitute
+|-damage|p2a: Altaria|46/100
+|move|p1a: Mr. Mime|Dazzling Gleam|p2a: Altaria
+|-supereffective|p2a: Altaria
+|-end|p2a: Altaria|Substitute
+|
+|-heal|p2a: Altaria|52/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|choice|move dazzlinggleam|move roost
+|
+|move|p2a: Altaria|Roost|p2a: Altaria
+|-heal|p2a: Altaria|100/100
+|move|p1a: Mr. Mime|Dazzling Gleam|p2a: Altaria
+|-supereffective|p2a: Altaria
+|-damage|p2a: Altaria|23/100
+|
+|-heal|p2a: Altaria|29/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|choice|move dazzlinggleam|move roost
+|
+|move|p2a: Altaria|Roost|p2a: Altaria
+|-heal|p2a: Altaria|79/100
+|move|p1a: Mr. Mime|Dazzling Gleam|p2a: Altaria
+|-supereffective|p2a: Altaria
+|-damage|p2a: Altaria|11/100
+|
+|-heal|p2a: Altaria|17/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|c|☆once a trevor|gg
+|-message|once a trevor forfeited.
+|
+|win|chris meh
+|l|once a trevor
+|raw|chris meh's rating: 1167 &rarr; <strong>1205</strong><br />(+38 for winning)
+|raw|once a trevor's rating: 1363 &rarr; <strong>1333</strong><br />(-30 for losing)

@@ -1,0 +1,88 @@
+|j|Genji San
+|j|gy8uit6y7u8
+|player|p1|Genji San|151
+|player|p2|gy8uit6y7u8|2
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|42110,36706,61255,25652,49937,19877,2619,29966,11174,5676,37111,49216
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Hitmonlee, M|item
+|poke|p1|Bronzong|item
+|poke|p1|Delphox, M|item
+|poke|p1|Spiritomb, M|item
+|poke|p1|Jellicent, M|item
+|poke|p1|Sneasel, M|item
+|poke|p2|Clawitzer, M|item
+|poke|p2|Gallade, M|item
+|poke|p2|Uxie|item
+|poke|p2|Hitmontop, M|item
+|poke|p2|Emboar, M|item
+|poke|p2|Rotom-Mow|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 5, team 2, team 3, team 4, team 1, team 6|team 6, team 2, team 3, team 4, team 5, team 1
+|
+|start
+|switch|p1a: Jellicent|Jellicent, M|100/100
+|switch|p2a: Rotom|Rotom-Mow|100/100
+|turn|1
+|c|☆Genji San|good luck
+|choice|move willowisp|move thunderbolt
+|
+|move|p2a: Rotom|Thunderbolt|p1a: Jellicent
+|-supereffective|p1a: Jellicent
+|-damage|p1a: Jellicent|0 fnt
+|faint|p1a: Jellicent
+|
+|upkeep
+|c|☆gy8uit6y7u8|u2
+|choice|switch 2|
+|
+|switch|p1a: Bronzong|Bronzong|100/100
+|turn|2
+|choice|move earthquake|move thunderbolt
+|
+|move|p2a: Rotom|Thunderbolt|p1a: Bronzong
+|-damage|p1a: Bronzong|45/100
+|-status|p1a: Bronzong|par
+|move|p1a: Bronzong|Earthquake|p2a: Rotom
+|-immune|p2a: Rotom|[msg]|[from] ability: Levitate
+|
+|-heal|p1a: Bronzong|51/100 par|[from] item: Leftovers
+|upkeep
+|turn|3
+|choice|move trickroom|move thunderbolt
+|
+|move|p2a: Rotom|Thunderbolt|p1a: Bronzong
+|-damage|p1a: Bronzong|1/100 par
+|cant|p1a: Bronzong|par
+|
+|-heal|p1a: Bronzong|7/100 par|[from] item: Leftovers
+|upkeep
+|turn|4
+|choice|switch 3|move thunderbolt
+|
+|switch|p1a: Delphox|Delphox, M|100/100
+|move|p2a: Rotom|Thunderbolt|p1a: Delphox
+|-damage|p1a: Delphox|32/100
+|
+|upkeep
+|turn|5
+|choice|move fireblast|move thunderbolt
+|
+|move|p1a: Delphox|Fire Blast|p2a: Rotom|[miss]
+|-miss|p1a: Delphox|p2a: Rotom
+|move|p2a: Rotom|Thunderbolt|p1a: Delphox
+|-crit|p1a: Delphox
+|-damage|p1a: Delphox|0 fnt
+|faint|p1a: Delphox
+|
+|upkeep
+|-message|Genji San forfeited.
+|
+|win|gy8uit6y7u8
+|l|Genji San

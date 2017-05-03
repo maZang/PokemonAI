@@ -1,0 +1,566 @@
+|j|Tsunderines
+|j|ItsJustPixelsBro
+|player|p1|Tsunderines|216
+|player|p2|ItsJustPixelsBro|161
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|56525,47342,1841,39349,23683,33303,11462,11922,2195,24228,54154,39096
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Aerodactyl, M|item
+|poke|p1|Flygon, M|item
+|poke|p1|Druddigon, M|item
+|poke|p1|Gastrodon, M|item
+|poke|p1|Venusaur, M|item
+|poke|p1|Registeel|item
+|poke|p2|Rhyperior, M|item
+|poke|p2|Hitmonlee, M|item
+|poke|p2|Diancie|item
+|poke|p2|Slowking, M|item
+|poke|p2|Fletchinder, M|
+|poke|p2|Aromatisse, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 6, team 2, team 3, team 4, team 5, team 1|team 4, team 2, team 3, team 1, team 5, team 6
+|
+|start
+|switch|p1a: Registeel|Registeel|100/100
+|switch|p2a: Slowking|Slowking, M|100/100
+|turn|1
+|choice|move curse|move fireblast
+|
+|move|p1a: Registeel|Curse|p1a: Registeel
+|-unboost|p1a: Registeel|spe|1
+|-boost|p1a: Registeel|atk|1
+|-boost|p1a: Registeel|def|1
+|move|p2a: Slowking|Fire Blast|p1a: Registeel
+|-supereffective|p1a: Registeel
+|-damage|p1a: Registeel|76/100
+|
+|-heal|p1a: Registeel|82/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|c|☆ItsJustPixelsBro|!weakness steel
+|html|<div class="infobox">Steel:<br /><span class="message-effect-weak">Weaknesses</span>: Fighting, Fire, Ground<br /><span class="message-effect-resist">Resistances</span>: Bug, Dragon, Fairy, Flying, Grass, Ice, Normal, Psychic, Rock, Steel<br /><span class="message-effect-immune">Immunities</span>: Poison</div>
+|choice|move curse|move thunderwave
+|
+|move|p2a: Slowking|Thunder Wave|p1a: Registeel
+|-status|p1a: Registeel|par
+|move|p1a: Registeel|Curse|p1a: Registeel
+|-unboost|p1a: Registeel|spe|1
+|-boost|p1a: Registeel|atk|1
+|-boost|p1a: Registeel|def|1
+|
+|-heal|p1a: Registeel|88/100 par|[from] item: Leftovers
+|upkeep
+|turn|3
+|choice|move curse|move fireblast
+|
+|move|p2a: Slowking|Fire Blast|p1a: Registeel
+|-supereffective|p1a: Registeel
+|-damage|p1a: Registeel|64/100 par
+|move|p1a: Registeel|Curse|p1a: Registeel
+|-unboost|p1a: Registeel|spe|1
+|-boost|p1a: Registeel|atk|1
+|-boost|p1a: Registeel|def|1
+|
+|-heal|p1a: Registeel|70/100 par|[from] item: Leftovers
+|upkeep
+|turn|4
+|choice|move ironhead|move fireblast
+|
+|move|p2a: Slowking|Fire Blast|p1a: Registeel
+|-supereffective|p1a: Registeel
+|-damage|p1a: Registeel|43/100 par
+|cant|p1a: Registeel|par
+|
+|-heal|p1a: Registeel|49/100 par|[from] item: Leftovers
+|upkeep
+|turn|5
+|choice|move rest|move fireblast
+|
+|move|p2a: Slowking|Fire Blast|p1a: Registeel
+|-supereffective|p1a: Registeel
+|-damage|p1a: Registeel|24/100 par
+|move|p1a: Registeel|Rest|p1a: Registeel
+|-status|p1a: Registeel|slp
+|-heal|p1a: Registeel|100/100 slp|[silent]
+|-status|p1a: Registeel|slp|[from] move: Rest
+|
+|upkeep
+|turn|6
+|choice|move sleeptalk|move fireblast
+|
+|move|p2a: Slowking|Fire Blast|p1a: Registeel
+|-supereffective|p1a: Registeel
+|-damage|p1a: Registeel|77/100 slp
+|cant|p1a: Registeel|slp
+|move|p1a: Registeel|Sleep Talk|p1a: Registeel
+|move|p1a: Registeel|Rest|p1a: Registeel|[from]Sleep Talk
+|-fail|p1a: Registeel
+|
+|-heal|p1a: Registeel|83/100 slp|[from] item: Leftovers
+|upkeep
+|turn|7
+|choice|move sleeptalk|move fireblast
+|
+|move|p2a: Slowking|Fire Blast|p1a: Registeel|[miss]
+|-miss|p2a: Slowking|p1a: Registeel
+|cant|p1a: Registeel|slp
+|move|p1a: Registeel|Sleep Talk|p1a: Registeel
+|move|p1a: Registeel|Iron Head|p2a: Slowking|[from]Sleep Talk
+|-resisted|p2a: Slowking
+|-crit|p2a: Slowking
+|-damage|p2a: Slowking|57/100
+|
+|-heal|p1a: Registeel|89/100 slp|[from] item: Leftovers
+|upkeep
+|turn|8
+|choice|move curse|switch 4
+|
+|switch|p2a: Rhyperior|Rhyperior, M|100/100
+|-curestatus|p1a: Registeel|slp|[msg]
+|move|p1a: Registeel|Curse|p1a: Registeel
+|-unboost|p1a: Registeel|spe|1
+|-boost|p1a: Registeel|atk|1
+|-boost|p1a: Registeel|def|1
+|
+|-heal|p1a: Registeel|95/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|choice|move ironhead|move earthquake
+|
+|move|p2a: Rhyperior|Earthquake|p1a: Registeel
+|-supereffective|p1a: Registeel
+|-damage|p1a: Registeel|74/100
+|move|p1a: Registeel|Iron Head|p2a: Rhyperior
+|-supereffective|p2a: Rhyperior
+|-damage|p2a: Rhyperior|39/100
+|
+|-heal|p2a: Rhyperior|45/100|[from] item: Leftovers
+|-heal|p1a: Registeel|80/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|choice|move ironhead|move earthquake
+|
+|move|p2a: Rhyperior|Earthquake|p1a: Registeel
+|-supereffective|p1a: Registeel
+|-damage|p1a: Registeel|55/100
+|move|p1a: Registeel|Iron Head|p2a: Rhyperior
+|-supereffective|p2a: Rhyperior
+|-damage|p2a: Rhyperior|0 fnt
+|faint|p2a: Rhyperior
+|
+|-heal|p1a: Registeel|61/100|[from] item: Leftovers
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Hitmonlee|Hitmonlee, M|100/100
+|turn|11
+|choice|move ironhead|move highjumpkick
+|
+|move|p2a: Hitmonlee|High Jump Kick|p1a: Registeel
+|-supereffective|p1a: Registeel
+|-damage|p1a: Registeel|10/100
+|-damage|p2a: Hitmonlee|91/100|[from] item: Life Orb
+|move|p1a: Registeel|Iron Head|p2a: Hitmonlee
+|-damage|p2a: Hitmonlee|0 fnt
+|faint|p2a: Hitmonlee
+|
+|-heal|p1a: Registeel|16/100|[from] item: Leftovers
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Slowking|Slowking, M|90/100
+|turn|12
+|choice|move rest|move fireblast
+|
+|move|p2a: Slowking|Fire Blast|p1a: Registeel|[miss]
+|-miss|p2a: Slowking|p1a: Registeel
+|move|p1a: Registeel|Rest|p1a: Registeel
+|-status|p1a: Registeel|slp
+|-heal|p1a: Registeel|100/100 slp|[silent]
+|-status|p1a: Registeel|slp|[from] move: Rest
+|
+|upkeep
+|turn|13
+|choice|move curse|switch 3
+|
+|switch|p2a: Diancie|Diancie|100/100
+|cant|p1a: Registeel|slp
+|
+|upkeep
+|turn|14
+|choice|move sleeptalk|move earthpower
+|
+|move|p2a: Diancie|Earth Power|p1a: Registeel
+|-supereffective|p1a: Registeel
+|-damage|p1a: Registeel|66/100 slp
+|-damage|p2a: Diancie|91/100|[from] item: Life Orb
+|cant|p1a: Registeel|slp
+|move|p1a: Registeel|Sleep Talk|p1a: Registeel
+|move|p1a: Registeel|Rest|p1a: Registeel|[from]Sleep Talk
+|-fail|p1a: Registeel
+|
+|-heal|p1a: Registeel|72/100 slp|[from] item: Leftovers
+|upkeep
+|turn|15
+|choice|move sleeptalk|move earthpower
+|
+|move|p2a: Diancie|Earth Power|p1a: Registeel
+|-supereffective|p1a: Registeel
+|-damage|p1a: Registeel|35/100 slp
+|-damage|p2a: Diancie|81/100|[from] item: Life Orb
+|-curestatus|p1a: Registeel|slp|[msg]
+|move|p1a: Registeel|Sleep Talk|p1a: Registeel
+|-fail|p1a: Registeel
+|
+|-heal|p1a: Registeel|41/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|choice|move rest|move earthpower
+|
+|move|p2a: Diancie|Earth Power|p1a: Registeel
+|-supereffective|p1a: Registeel
+|-damage|p1a: Registeel|2/100
+|-damage|p2a: Diancie|71/100|[from] item: Life Orb
+|move|p1a: Registeel|Rest|p1a: Registeel
+|-status|p1a: Registeel|slp
+|-heal|p1a: Registeel|100/100 slp|[silent]
+|-status|p1a: Registeel|slp|[from] move: Rest
+|
+|upkeep
+|turn|17
+|choice|move sleeptalk|move diamondstorm
+|
+|move|p2a: Diancie|Diamond Storm|p1a: Registeel
+|-resisted|p1a: Registeel
+|-damage|p1a: Registeel|95/100 slp
+|-boost|p2a: Diancie|def|1
+|-damage|p2a: Diancie|61/100|[from] item: Life Orb
+|cant|p1a: Registeel|slp
+|move|p1a: Registeel|Sleep Talk|p1a: Registeel
+|move|p1a: Registeel|Rest|p1a: Registeel|[from]Sleep Talk
+|-fail|p1a: Registeel
+|
+|-heal|p1a: Registeel|100/100 slp|[from] item: Leftovers
+|upkeep
+|turn|18
+|choice|move sleeptalk|switch 6
+|
+|switch|p2a: Aromatisse|Aromatisse, M|100/100
+|cant|p1a: Registeel|slp
+|move|p1a: Registeel|Sleep Talk|p1a: Registeel
+|move|p1a: Registeel|Rest|p1a: Registeel|[from]Sleep Talk
+|-fail|p1a: Registeel
+|
+|upkeep
+|turn|19
+|choice|move curse|move wish
+|
+|move|p2a: Aromatisse|Wish|p2a: Aromatisse
+|-curestatus|p1a: Registeel|slp|[msg]
+|move|p1a: Registeel|Curse|p1a: Registeel
+|-unboost|p1a: Registeel|spe|1
+|-boost|p1a: Registeel|atk|1
+|-boost|p1a: Registeel|def|1
+|
+|upkeep
+|turn|20
+|choice|move ironhead|switch 6
+|
+|switch|p2a: Diancie|Diancie|61/100
+|move|p1a: Registeel|Iron Head|p2a: Diancie
+|-supereffective|p2a: Diancie
+|-damage|p2a: Diancie|0 fnt
+|faint|p2a: Diancie
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Fletchinder|Fletchinder, M|100/100
+|turn|21
+|choice|move ironhead|move swordsdance
+|
+|move|p2a: Fletchinder|Swords Dance|p2a: Fletchinder
+|-boost|p2a: Fletchinder|atk|2
+|move|p1a: Registeel|Iron Head|p2a: Fletchinder
+|-resisted|p2a: Fletchinder
+|-damage|p2a: Fletchinder|43/100
+|
+|upkeep
+|turn|22
+|choice|move curse|move acrobatics
+|
+|move|p2a: Fletchinder|Acrobatics|p1a: Registeel
+|-resisted|p1a: Registeel
+|-damage|p1a: Registeel|92/100
+|move|p1a: Registeel|Curse|p1a: Registeel
+|-unboost|p1a: Registeel|spe|1
+|-boost|p1a: Registeel|atk|1
+|-boost|p1a: Registeel|def|1
+|
+|-heal|p1a: Registeel|98/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|choice|move ironhead|move willowisp
+|
+|move|p2a: Fletchinder|Will-O-Wisp|p1a: Registeel|[miss]
+|-miss|p2a: Fletchinder|p1a: Registeel
+|move|p1a: Registeel|Iron Head|p2a: Fletchinder
+|-resisted|p2a: Fletchinder
+|-damage|p2a: Fletchinder|0 fnt
+|faint|p2a: Fletchinder
+|
+|-heal|p1a: Registeel|100/100|[from] item: Leftovers
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Slowking|Slowking, M|100/100
+|turn|24
+|choice|move ironhead|move thunderwave
+|
+|move|p2a: Slowking|Thunder Wave|p1a: Registeel
+|-status|p1a: Registeel|par
+|cant|p1a: Registeel|par
+|
+|upkeep
+|turn|25
+|choice|move rest|move scald
+|
+|move|p2a: Slowking|Scald|p1a: Registeel
+|-damage|p1a: Registeel|86/100 par
+|move|p1a: Registeel|Rest|p1a: Registeel
+|-status|p1a: Registeel|slp
+|-heal|p1a: Registeel|100/100 slp|[silent]
+|-status|p1a: Registeel|slp|[from] move: Rest
+|
+|upkeep
+|turn|26
+|choice|move sleeptalk|move psyshock
+|
+|move|p2a: Slowking|Psyshock|p1a: Registeel
+|-resisted|p1a: Registeel
+|-damage|p1a: Registeel|98/100 slp
+|cant|p1a: Registeel|slp
+|move|p1a: Registeel|Sleep Talk|p1a: Registeel
+|move|p1a: Registeel|Curse|p1a: Registeel|[from]Sleep Talk
+|
+|-heal|p1a: Registeel|100/100 slp|[from] item: Leftovers
+|upkeep
+|turn|27
+|choice|move sleeptalk|move scald
+|
+|move|p2a: Slowking|Scald|p1a: Registeel
+|-damage|p1a: Registeel|87/100 slp
+|cant|p1a: Registeel|slp
+|move|p1a: Registeel|Sleep Talk|p1a: Registeel
+|move|p1a: Registeel|Iron Head|p2a: Slowking|[from]Sleep Talk
+|-resisted|p2a: Slowking
+|-damage|p2a: Slowking|59/100
+|
+|-heal|p1a: Registeel|93/100 slp|[from] item: Leftovers
+|upkeep
+|turn|28
+|choice|move sleeptalk|move scald
+|
+|move|p2a: Slowking|Scald|p1a: Registeel
+|-damage|p1a: Registeel|80/100 slp
+|-curestatus|p1a: Registeel|slp|[msg]
+|move|p1a: Registeel|Sleep Talk|p1a: Registeel
+|-fail|p1a: Registeel
+|
+|-heal|p1a: Registeel|86/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|choice|move sleeptalk|move fireblast
+|
+|move|p2a: Slowking|Fire Blast|p1a: Registeel
+|-supereffective|p1a: Registeel
+|-damage|p1a: Registeel|60/100
+|move|p1a: Registeel|Sleep Talk|p1a: Registeel
+|-fail|p1a: Registeel
+|
+|-heal|p1a: Registeel|66/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|choice|move ironhead|move thunderwave
+|
+|move|p2a: Slowking|Thunder Wave|p1a: Registeel
+|-status|p1a: Registeel|par
+|move|p1a: Registeel|Iron Head|p2a: Slowking
+|-resisted|p2a: Slowking
+|-damage|p2a: Slowking|17/100
+|
+|-heal|p1a: Registeel|72/100 par|[from] item: Leftovers
+|upkeep
+|turn|31
+|choice|move ironhead|move thunderwave
+|
+|move|p2a: Slowking|Thunder Wave|p1a: Registeel
+|-fail|p1a: Registeel|par
+|cant|p1a: Registeel|par
+|
+|-heal|p1a: Registeel|78/100 par|[from] item: Leftovers
+|upkeep
+|turn|32
+|choice|move ironhead|move scald
+|
+|move|p2a: Slowking|Scald|p1a: Registeel
+|-crit|p1a: Registeel
+|-damage|p1a: Registeel|57/100 par
+|cant|p1a: Registeel|par
+|
+|-heal|p1a: Registeel|63/100 par|[from] item: Leftovers
+|upkeep
+|turn|33
+|choice|move rest|switch 6
+|
+|switch|p2a: Aromatisse|Aromatisse, M|100/100
+|move|p1a: Registeel|Rest|p1a: Registeel
+|-status|p1a: Registeel|slp
+|-heal|p1a: Registeel|100/100 slp|[silent]
+|-status|p1a: Registeel|slp|[from] move: Rest
+|
+|upkeep
+|turn|34
+|choice|move sleeptalk|move moonblast
+|
+|move|p2a: Aromatisse|Moonblast|p1a: Registeel
+|-resisted|p1a: Registeel
+|-damage|p1a: Registeel|92/100 slp
+|cant|p1a: Registeel|slp
+|move|p1a: Registeel|Sleep Talk|p1a: Registeel
+|move|p1a: Registeel|Rest|p1a: Registeel|[from]Sleep Talk
+|-fail|p1a: Registeel
+|
+|-heal|p1a: Registeel|98/100 slp|[from] item: Leftovers
+|upkeep
+|turn|35
+|choice|move sleeptalk|move wish
+|
+|move|p2a: Aromatisse|Wish|p2a: Aromatisse
+|cant|p1a: Registeel|slp
+|move|p1a: Registeel|Sleep Talk|p1a: Registeel
+|move|p1a: Registeel|Curse|p1a: Registeel|[from]Sleep Talk
+|
+|-heal|p1a: Registeel|100/100 slp|[from] item: Leftovers
+|upkeep
+|turn|36
+|choice|move sleeptalk|switch 6
+|
+|switch|p2a: Slowking|Slowking, M|50/100
+|-curestatus|p1a: Registeel|slp|[msg]
+|move|p1a: Registeel|Sleep Talk|p1a: Registeel
+|-fail|p1a: Registeel
+|
+|-heal|p2a: Slowking|100/100|[from] move: Wish|[wisher] Aromatisse
+|upkeep
+|turn|37
+|choice|move sleeptalk|move thunderwave
+|
+|move|p2a: Slowking|Thunder Wave|p1a: Registeel
+|-status|p1a: Registeel|par
+|move|p1a: Registeel|Sleep Talk|p1a: Registeel
+|-fail|p1a: Registeel
+|
+|upkeep
+|turn|38
+|choice|move sleeptalk|switch 6
+|
+|switch|p2a: Aromatisse|Aromatisse, M|100/100
+|move|p1a: Registeel|Sleep Talk|p1a: Registeel
+|-fail|p1a: Registeel
+|
+|upkeep
+|turn|39
+|choice|move ironhead|move protect
+|
+|move|p2a: Aromatisse|Protect|p2a: Aromatisse
+|-singleturn|p2a: Aromatisse|Protect
+|move|p1a: Registeel|Iron Head|p2a: Aromatisse
+|-activate|p2a: Aromatisse|move: Protect
+|
+|upkeep
+|turn|40
+|choice|move ironhead|move wish
+|
+|move|p2a: Aromatisse|Wish|p2a: Aromatisse
+|move|p1a: Registeel|Iron Head|p2a: Aromatisse
+|-supereffective|p2a: Aromatisse
+|-damage|p2a: Aromatisse|0 fnt
+|faint|p2a: Aromatisse
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Slowking|Slowking, M|100/100
+|turn|41
+|choice|move ironhead|move scald
+|
+|move|p2a: Slowking|Scald|p1a: Registeel
+|-damage|p1a: Registeel|87/100 par
+|move|p1a: Registeel|Iron Head|p2a: Slowking
+|-resisted|p2a: Slowking
+|-damage|p2a: Slowking|58/100
+|
+|-heal|p2a: Slowking|100/100|[from] move: Wish|[wisher] Aromatisse
+|-heal|p1a: Registeel|93/100 par|[from] item: Leftovers
+|upkeep
+|turn|42
+|choice|move ironhead|move psyshock
+|
+|move|p2a: Slowking|Psyshock|p1a: Registeel
+|-resisted|p1a: Registeel
+|-crit|p1a: Registeel
+|-damage|p1a: Registeel|79/100 par
+|cant|p1a: Registeel|par
+|
+|-heal|p1a: Registeel|85/100 par|[from] item: Leftovers
+|upkeep
+|turn|43
+|choice|move ironhead|move psyshock
+|
+|move|p2a: Slowking|Psyshock|p1a: Registeel
+|-resisted|p1a: Registeel
+|-damage|p1a: Registeel|83/100 par
+|move|p1a: Registeel|Iron Head|p2a: Slowking
+|-resisted|p2a: Slowking
+|-damage|p2a: Slowking|60/100
+|
+|-heal|p1a: Registeel|89/100 par|[from] item: Leftovers
+|upkeep
+|turn|44
+|choice|move ironhead|move scald
+|
+|move|p2a: Slowking|Scald|p1a: Registeel
+|-damage|p1a: Registeel|73/100 par
+|cant|p1a: Registeel|par
+|
+|-heal|p1a: Registeel|79/100 par|[from] item: Leftovers
+|upkeep
+|turn|45
+|choice|move ironhead|move scald
+|
+|move|p2a: Slowking|Scald|p1a: Registeel
+|-damage|p1a: Registeel|65/100 par
+|move|p1a: Registeel|Iron Head|p2a: Slowking
+|-resisted|p2a: Slowking
+|-damage|p2a: Slowking|17/100
+|
+|-heal|p1a: Registeel|71/100 par|[from] item: Leftovers
+|upkeep
+|turn|46
+|choice|move ironhead|move scald
+|
+|move|p2a: Slowking|Scald|p1a: Registeel
+|-damage|p1a: Registeel|55/100 par
+|move|p1a: Registeel|Iron Head|p2a: Slowking
+|-resisted|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|faint|p2a: Slowking
+|
+|win|Tsunderines
+|l|ItsJustPixelsBro
