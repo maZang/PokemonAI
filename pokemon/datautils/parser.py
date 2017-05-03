@@ -407,13 +407,14 @@ class PokemonShowdownReplayParser(object):
 		pokemon.status = ""
 
 	def processDamage(self, line):
-		matches = re.search("\|-damage\|(p[12])a:\s+([^|]+)\|([^|]+)", line).groups()
+		matches = re.search("\|-damage\|(p[12])a:\s+([^|]+)\|([\d]+)", line).groups()
 		player = matches[0]
 		nickname = matches[1]
 		health = matches[2].split('/')[0]
 
 		pokemon = self.players[player].getPokemonByNickname(nickname)
 		pokemon.health = health
+		print(health)
 
 	def processItemFromMove(self, line):
 		matches = re.search("\|-item\|(p[12])a:\s+([^|]+)\|([^|]+)", line).groups()
