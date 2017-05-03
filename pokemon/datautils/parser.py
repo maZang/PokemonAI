@@ -545,6 +545,13 @@ class PokemonShowdownReplayParser(object):
 			self.prefixHandler("Genesect", species, player)
 
 		pokemon = self.players[player].getPokemonBySpecies(species)
+
+		# When pokemon has not mega-evolved yet, but the pokemon in the players inventory is -Mega.
+		if self.simulate and player == self.winner:
+			if not pokemon:
+				pokemon = self.players[player].getPokemonByNickname(nickname)
+				pokemon.species = species
+
 		if pokemon == None:
 			pokemon = Pokemon()
 			pokemon.nickname = nickname
@@ -576,6 +583,13 @@ class PokemonShowdownReplayParser(object):
 			self.prefixHandler("Genesect", species, player)
 
 		pokemon = self.players[player].getPokemonBySpecies(species)
+
+		# When pokemon has not mega-evolved yet, but the pokemon in the players inventory is -Mega.
+		if self.simulate and player == self.winner:
+			if not pokemon:
+				pokemon = self.players[player].getPokemonByNickname(nickname)
+				pokemon.species = species
+
 		if pokemon == None:
 			pokemon = Pokemon()
 			pokemon.nickname = nickname
@@ -601,6 +615,13 @@ class PokemonShowdownReplayParser(object):
 			self.prefixHandler("Genesect", species, player)
 
 		pokemon = self.players[player].getPokemonBySpecies(species)
+
+		# When pokemon has not mega-evolved yet, but the pokemon in the players inventory is -Mega.
+		if self.simulate and player == self.winner:
+			if not pokemon:
+				pokemon = self.players[player].getPokemonByNickname(nickname)
+				pokemon.species = species
+
 		if pokemon == None:
 			pokemon = Pokemon()
 			pokemon.nickname = nickname
@@ -619,9 +640,16 @@ class PokemonShowdownReplayParser(object):
 
 		pokemon = self.players[player].getPokemonByNickname(nickname)
 
-		# This is so that moves from Magic Bounce don't get added to moveset.
-		if "[from]" not in line and "Struggle" not in line:
-			pokemon.moves.add(move)
+		if self.simulate:
+			if player == self.opponent:
+				# This is so that moves from Magic Bounce don't get added to moveset.
+				if "[from]" not in line and "Struggle" not in line:
+					pokemon.moves.add(move)
+		else:
+			# This is so that moves from Magic Bounce don't get added to moveset.
+			if "[from]" not in line and "Struggle" not in line:
+				pokemon.moves.add(move)
+
 		assert(len(pokemon.moves) <= 4)
 
 		# Encode winner and opponent player states as well as turn information.
