@@ -16,7 +16,8 @@ DATAFOLDER = 'data/replays/'
 FACTORYSETS = 'data/factory-sets.json'
 
 class PokemonShowdownReplayParser(object):
-	def __init__(self, log=""):
+	def __init__(self, name="", log=""):
+		self.name = name
 		self.log = log
 		self.players = {}
 		self.players["p1"] = Player("p1")
@@ -83,15 +84,16 @@ class PokemonShowdownReplayParser(object):
 	def generateEncodingObject(self):
 		# 80-10-10 Training-Validation-Testing Split
 		weighted_data_types = [DATA_TYPES[0]] * 8 + [DATA_TYPES[1]] + [DATA_TYPES[2]]
-		obj = PokemonShowdownEncoding(name=self.log, data_type=random.choice(weighted_data_types), num_turns=self.turnNumber+1)
+		obj = PokemonShowdownEncoding(name=self.name, data_type=random.choice(weighted_data_types), num_turns=self.turnNumber+1)
 
 		obj.encodeLabels(self.turnList, self.winner)
 		obj.encodeOpponentsLastMove(self.opponentTurnList)
 		obj.encodePokemon(self.pokemonEncoding)
 		print obj.data_type
-		# obj.save()
-		for pokemon in obj.pokemon:
-			print(pokemon)
+		obj.save()
+
+		# for pokemon in obj.pokemon:
+		# 	print(pokemon)
 
 		return obj
 
@@ -640,11 +642,11 @@ class PokemonShowdownReplayParser(object):
 			i += 1
 
 def main():
-	with open(DATAFOLDER + BATTLEFILE) as file:
-	 	data = file.read()
-	 	parser = PokemonShowdownReplayParser(data)
-	 	parser.run()
-	'''
+	# with open(DATAFOLDER + BATTLEFILE) as file:
+	#  	data = file.read()
+	#  	parser = PokemonShowdownReplayParser(data)
+	#  	parser.run()
+
 	counter = 0
 	for filename in os.listdir(DATAFOLDER):
 		print("Counter: " + str(counter))
@@ -652,13 +654,12 @@ def main():
 			print(filename)
 			file = os.path.join(DATAFOLDER, filename)
 			data = open(file).read()
-			parser = PokemonShowdownReplayParser(data)
+			parser = PokemonShowdownReplayParser(name=filename.split(".")[0], log=data)
 			parser.run()
 			# print(output)
 			print("================================================")
 		counter += 1
-	'''
-	
+
 
 if __name__ == "__main__":
 	main()
