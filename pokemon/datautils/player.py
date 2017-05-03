@@ -36,6 +36,7 @@ class Player(object):
 			pokemon.status = ""
 			pokemon.moves = set()
 			pokemon.resetMega()
+			pokemon.health = 100
 
 	def resetStatuses(self):
 		'''
@@ -50,3 +51,10 @@ class Player(object):
 		'''
 		for pokemon in self.pokemon:
 			pokemon.resetMega()
+
+	def resetHealth(self):
+		'''
+		Resets health.
+		'''
+		for pokemon in self.pokemon:
+			pokemon.health = 100

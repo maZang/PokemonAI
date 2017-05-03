@@ -14,8 +14,7 @@ def getActionIDFromString(actionString, pokemon=None):
 	if actionString in ['switch', 'mega']:
 		actionID = POKEMON_LIST[pokemon]
 	else:
-		# ??????????
-		if actionString == 'Hidden Power':
+		if actionString == 'Struggle':
 			actionID = MOVE_LIST['<UNK>']
 		else:
 			actionID = MOVE_LIST[actionString]

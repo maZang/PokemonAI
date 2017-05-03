@@ -1,11 +1,12 @@
 class Pokemon(object):
-	def __init__(self, species="", nickname="", item="", ability="", status=""):
+	def __init__(self, species="", nickname="", item="", ability="", status="", health=100):
 		self.species = species
 		self.nickname = nickname
 		self.item = item
 		self.ability = ability
 		self.status = status
 		self.moves = set()
+		self.health = 100
 
 	def __repr__(self):
 		return "(Pokemon: (species={}, nickname={}, item={}, ability={}))".format(self.species, self.nickname, self.item, self.ability)
