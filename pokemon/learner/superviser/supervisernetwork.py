@@ -1,5 +1,5 @@
 from datautils.replaydataiter import ReplayDataIter
-from datautils.parser import encode
+from datautils.encoding import *
 import tensorflow as tf
 import datautils.const as const
 import os, pickle
