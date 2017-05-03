@@ -13,7 +13,6 @@ from turn import *
 
 BATTLEFILE = 'battlefactory-566258957.txt'
 DATAFOLDER = 'data/replays/'
-PARSED_FOLDER = 'data/parsed_replays/'
 FACTORYSETS = 'data/factory-sets.json'
 
 class PokemonShowdownReplayParser(object):
@@ -88,9 +87,8 @@ class PokemonShowdownReplayParser(object):
 		obj.encodeLabels(self.turnList, self.winner)
 		obj.encodeOpponentsLastMove(self.opponentTurnList)
 		obj.encodePokemon(self.pokemonEncoding)
-
-		# for turnNumber, lst in self.pokemonEncoding.items():
-			# print lst[0]
+		print obj.data_type
+		# obj.save()
 
 		return obj
 
