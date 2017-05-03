@@ -482,11 +482,14 @@ class PokemonShowdownReplayParser(object):
 	def processPoke(self, line):
 		fields = line.split("|")
 		player = fields[2]
-		species = fields[3].replace("/,.*$/", "")
+		species = fields[3].replace("/,.*$/", "").split(',')[0]
 
-		if self.simulate == False:
+		if "Arceus" in species:
+			species = "Arceus"
+
+		if not self.simulate:
 			pokemon = Pokemon()
-			pokemon.species = species.split(',')[0]
+			pokemon.species = species
 			self.players[player].pokemon.append(pokemon)
 
 	def processWinner(self, line):
@@ -806,7 +809,6 @@ class Player(object):
 		output += "Player: "+self.username+"\n"
 		output += "-------------------------\n"
 		for pokemon in self.pokemon:
-			print(pokemon)
 			output += pokemon.getTeamFormatString() + "\n"
 		return output
 
