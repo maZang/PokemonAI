@@ -147,4 +147,4 @@ class PokemonShowdownEncoding(object):
 		for turnNumber, lst in pokemonEncoding.items():
 			for i in range(0, 12):
 				self.pokemon[i][turnNumber] = lst[i][:, :POKE_DESCRIPTOR_SIZE]
-				self.other_data[turnNumber, i] = lst[i][:, POKE_DESCRIPTOR_SIZE]
+				self.other_data[turnNumber, i] = lst[i][:, POKE_DESCRIPTOR_SIZE] / 100.
