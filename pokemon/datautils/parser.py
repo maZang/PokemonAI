@@ -43,21 +43,15 @@ def encodePokemonObject(pokemon):
 	'''
 	pokemon_encoding = np.zeros((1, POKE_DESCRIPTOR_SIZE))
 
-	pokemon_id = POKEMON_LIST[pokemon.species]
+	pokemon_id = POKEMON_LIST[pokemon.species or '<UNK>']
 
 	move_ids = []
 
 	# Encodes pokemon item
-	if pokemon.item in ITEM_LIST:
-		item_id = ITEM_LIST[pokemon.item]
-	else:
-		item_id = ITEM_LIST['<UNK>']
+	item_id = ITEM_LIST[pokemon.item if pokemon.item in ITEM_LIST else '<UNK>']
 
 	for move in pokemon.moves:
-		if move in MOVE_LIST:
-			move_ids.append(MOVE_LIST[move])
-		else:
-			move_ids.append(MOVE_LIST['<UNK>'])
+		move_ids.append(MOVE_LIST[move if move in MOVE_LIST else '<UNK>'])
 
 	if len(move_ids) < 4:
 		num_unk_moves = 4 - len(move_ids)
@@ -184,14 +178,14 @@ class PokemonShowdownReplayParser(object):
 		self.turnNumber = -1
 		self.turnList = {}
 		self.opponentTurnList = {}
-		self.opponentPokemonEncoding = {}
+		self.pokemonEncoding = {}
 
 		self.lines = None
 
 		self.simulate = False
 
 	def run(self):
-		''' 
+		'''
 		First parses through the log file to fill in pokemon sets.
 		Then parses through the log file again to simulate the battle.
 		'''
@@ -210,7 +204,7 @@ class PokemonShowdownReplayParser(object):
 		self.simulate = True
 		self.players[self.opponent].reset()
 		self.parse()
-		
+
 
 
 		'''
@@ -740,20 +734,28 @@ class PokemonShowdownReplayParser(object):
 			else:
 				self.opponentTurnList[turnNumber] = [turn]
 
-		self.encodeOpponentsPokemon(max(0, self.turnNumber))
+		self.encodePokemon(max(0, self.turnNumber), "p1")
+		self.encodePokemon(max(0, self.turnNumber), "p2")
 
-	def encodeOpponentsPokemon(self, turnNumber):
-		opponent = self.players[self.opponent]
-		currentPokemon = opponent.currentPokemon
+	def encodePokemon(self, turnNumber, player):
+		playerPokemon = self.players[player]
+		currentPokemon = playerPokemon.currentPokemon
 		if not currentPokemon:
 			return
 
-		self.opponentPokemonEncoding[turnNumber] = []
-		self.opponentPokemonEncoding[turnNumber].append(encodePokemonObject(currentPokemon))
-		for pokemon in opponent.pokemon:
+		self.pokemonEncoding[turnNumber] = [Pokemon()]*12
+
+		idx = 0
+		if player != self.winner:
+			idx = 6
+
+		# 0-5 = Winner's pokemon, 6-11 = Opponent's pokemon
+		self.pokemonEncoding[turnNumber][idx] = encodePokemonObject(currentPokemon)
+
+		for i, pokemon in enumerate(playerPokemon.pokemon):
 			if pokemon == currentPokemon:
 				continue
-			self.opponentPokemonEncoding[turnNumber].append(encodePokemonObject(pokemon))
+			self.pokemonEncoding[turnNumber][i+idx] = encodePokemonObject(pokemon)
 
 
 class Player(object):
