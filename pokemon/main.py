@@ -7,7 +7,7 @@ def runSupervised():
 	supnet.trainNetwork()
 
 def main():
-	replay.bulk_search()
+	replay.spiderman()
 	#runPokemonShowdown()
 	#runAgainstItself()
 	#replay.crawl()
