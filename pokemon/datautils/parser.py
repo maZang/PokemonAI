@@ -242,7 +242,6 @@ class PokemonShowdownReplayParser(object):
 		for item in self.opponentPokemonEncoding.iteritems():
 			print(item)
 		obj.encodePokemon(self.pokemonEncoding)
-		# obj.encodeWinnerPokemon(self.players[self.winner].pokemon)
 
 		return obj
 
