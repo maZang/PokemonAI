@@ -28,7 +28,7 @@ def encodePokemonObject(pokemon):
 	Input: Pokemon object
 	Output: Pokemon encoding object with shape (1, POKE_DESCRIPTOR_SIZE)
 	'''
-	pokemon_encoding = np.zeros((1, POKE_DESCRIPTOR_SIZE))
+	pokemon_encoding = np.zeros((1, POKE_DESCRIPTOR_SIZE+1))
 
 	if pokemon.species == "Gourgeist":
 		pokemon.species = "Gourgeist-Super"
@@ -102,7 +102,7 @@ class PokemonShowdownEncoding(object):
 			pickle.dump(self, f)
 
 	def encodeLabels(self, turnList, winner):
-		for turnNumber, lst in turnList.iteritems():
+		for turnNumber, lst in turnList.items():
 			if len(lst) > 2:
 				raise Exception("List {} has more than 2 actions".format(lst))
 
@@ -129,9 +129,9 @@ class PokemonShowdownEncoding(object):
 			return
 
 		index = 0
-		turnNumbers = opponentTurnList.keys()
+		turnNumbers = list(opponentTurnList.keys())
 		nextTurnNumber = turnNumbers[index+1]
-		for turnNumber, lst in opponentTurnList.iteritems():
+		for turnNumber, lst in opponentTurnList.items():
 			# Only care about the last move in sequence of multiple moves
 			actionID = getActionIDFromString(lst[-1].action, pokemon=lst[-1].pokemon.species)
 			for x in range(turnNumber, nextTurnNumber):
@@ -144,6 +144,7 @@ class PokemonShowdownEncoding(object):
 				nextTurnNumber = turnNumbers[index+1]
 
 	def encodePokemon(self, pokemonEncoding):
-		for turnNumber, lst in pokemonEncoding.iteritems():
+		for turnNumber, lst in pokemonEncoding.items():
 			for i in range(0, 12):
-				self.pokemon[i][turnNumber] = lst[i]
+				self.pokemon[i][turnNumber] = lst[i][:, :POKE_DESCRIPTOR_SIZE]
+				self.other_data[turnNumber, i] = lst[i][:, POKE_DESCRIPTOR_SIZE]

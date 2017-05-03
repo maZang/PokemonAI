@@ -89,7 +89,7 @@ class PokemonShowdownReplayParser(object):
 		obj.encodeLabels(self.turnList, self.winner)
 		obj.encodeOpponentsLastMove(self.opponentTurnList)
 		obj.encodePokemon(self.pokemonEncoding)
-		print obj.data_type
+		print(obj.data_type)
 		obj.save()
 
 		# for pokemon in obj.pokemon:
