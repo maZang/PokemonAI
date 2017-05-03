@@ -56,6 +56,7 @@ class PokemonShowdownReplayParser(object):
 		self.players[self.opponent].resetPokemon()
 		self.players[self.winner].resetStatuses()
 		self.players[self.winner].resetMega()
+		self.players[self.winner].resetHealth()
 
 		self.parse()
 
@@ -89,6 +90,8 @@ class PokemonShowdownReplayParser(object):
 		obj.encodePokemon(self.pokemonEncoding)
 		print obj.data_type
 		# obj.save()
+		for pokemon in obj.pokemon:
+			print(pokemon)
 
 		return obj
 
@@ -412,7 +415,6 @@ class PokemonShowdownReplayParser(object):
 
 		pokemon = self.players[player].getPokemonByNickname(nickname)
 		pokemon.health = health
-		print(health)
 
 	def processItemFromMove(self, line):
 		matches = re.search("\|-item\|(p[12])a:\s+([^|]+)\|([^|]+)", line).groups()
@@ -638,12 +640,10 @@ class PokemonShowdownReplayParser(object):
 			i += 1
 
 def main():
-	'''
 	with open(DATAFOLDER + BATTLEFILE) as file:
 	 	data = file.read()
 	 	parser = PokemonShowdownReplayParser(data)
 	 	parser.run()
-
 	'''
 	counter = 0
 	for filename in os.listdir(DATAFOLDER):
@@ -657,6 +657,7 @@ def main():
 			# print(output)
 			print("================================================")
 		counter += 1
+	'''
 	
 
 if __name__ == "__main__":

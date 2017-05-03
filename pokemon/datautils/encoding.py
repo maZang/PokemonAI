@@ -37,9 +37,6 @@ def encodePokemonObject(pokemon):
 
 	move_ids = []
 
-	# Encodes pokemon item
-	item_id = ITEM_LIST[pokemon.item if pokemon.item in ITEM_LIST else '<UNK>']
-
 	for move in pokemon.moves:
 		move_ids.append(MOVE_LIST[move if move in MOVE_LIST else '<UNK>'])
 
@@ -49,6 +46,9 @@ def encodePokemonObject(pokemon):
 			move_ids.append(MOVE_LIST['<UNK>'])
 
 	assert(len(move_ids) == 4)
+
+	# Encodes pokemon item
+	item_id = ITEM_LIST[pokemon.item if pokemon.item in ITEM_LIST else '<UNK>']
 
 	if pokemon.status == "psn":
 		status_key = "POISONED"
@@ -72,6 +72,7 @@ def encodePokemonObject(pokemon):
 		pokemon_encoding[:, i+1] = move_ids[i]
 	pokemon_encoding[:, 5] = item_id
 	pokemon_encoding[:, 6] = status_id
+	pokemon_encoding[:, 7] = pokemon.health
 
 	return pokemon_encoding
 
