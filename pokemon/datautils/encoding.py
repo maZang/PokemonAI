@@ -96,7 +96,7 @@ class PokemonShowdownEncoding(object):
 	def load(self, filename):
 		print(filename)
 		with open(filename, 'rb') as f:
-			obj = pickle.load(f)
+			obj = pickle.load(f, encoding='latin1')
 		encoding = self(obj['name'], obj['data_type'], obj['num_turns'])
 		encoding.pokemon = obj['pokemon']
 		encoding.other_data = obj['other_data']
@@ -107,7 +107,7 @@ class PokemonShowdownEncoding(object):
 	def save(self):
 		with open((PARSED_FOLDER + self.data_type + '/' + self.name + '.p'), 'wb') as f:
 			pickle.dump({'name' : self.name, 'data_type' : self.data_type, 'num_turns' : self.num_turns,
-				'pokemon' : self.pokemon, 'other_data' : self.other_data, 'labels' : self.labels, 
+				'pokemon' : self.pokemon, 'other_data' : self.other_data, 'labels' : self.labels,
 				'last_move_data' : self.last_move_data}, f)
 
 	def encodeLabels(self, turnList, winner):
