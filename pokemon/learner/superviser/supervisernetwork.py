@@ -29,9 +29,9 @@ class PokemonNetworkConfig(object):
 	number_items = const.NUMBER_ITEMS
 	number_status = len(const.STATUS_EFFECTS) 
 	kernels_poke=[1,2,3,4,5,6,7]
-	feature_maps_poke=[50,60,70,80,90,100,110,120]
+	feature_maps_poke=[50,60,70,80,90,100,110]
 	kernels_team=[1,2,3,4,5,6]
-	feature_maps_team=[50,60,70,80,90,100,110]
+	feature_maps_team=[50,60,70,80,90,100]
 	num_steps = 8
 	save_folder = 'data/models/'
 	model_name = 'supervised_network/'
@@ -39,10 +39,11 @@ class PokemonNetworkConfig(object):
 class PokemonNetwork(object):
 
 	def _add_placeholder(self):
+		print(self.config.number_pokemon, self.config.number_moves, self.config.number_items, self.config.number_status)
 		self.poke_placeholders = [tf.placeholder(tf.int32, shape=(None, self.config.poke_descriptor_size)) for _ in range(12)]
 		self.x_data_placeholder = tf.placeholder(tf.float32, shape=(None, self.config.number_non_embedding))
 		self.last_move_placeholder = tf.placeholder(tf.int32, shape=(None, self.config.last_move_data))
-		self.y_placeholder = tf.placeholder(tf.int32, shape=(None, self.config.number_classes))
+		self.y_placeholder = tf.placeholder(tf.int32, shape=(None,))
 		self.dropout_placeholder = tf.placeholder(tf.float32)
 
 	def _add_embedding(self):
@@ -56,15 +57,12 @@ class PokemonNetwork(object):
 			 [None, poke_descriptor_size, embedding_size] 
 		'''
 		with tf.device('/cpu:0'):
-			poke_embeddings = tf.get_variable('poke_embeddings', shape=(self.config.number_pokemon, self.config.embedding_size))
-			move_embeddings = tf.get_variable('move_embeddings', shape=(self.config.number_moves, self.config.embedding_size))
-			item_embeddings = tf.get_variable('item_embeddings', shape=(self.config.number_items, self.config.embedding_size))
-			status_embeddings = tf.get_variable('status_embeddings', shape=(self.config.number_status, self.config.embedding_size))
-			self.embedding_inputs = [tf.reshape(tf.nn.embedding_lookup([poke_embeddings,move_embeddings,item_embeddings,
-				status_embeddings], placeholder), (-1, self.config.poke_descriptor_size, self.config.embedding_size))
+			all_embeddings = tf.get_variable('poke_embeddings', shape=(self.config.number_pokemon+self.config.number_moves+\
+				self.config.number_items+self.config.number_status, self.config.embedding_size))
+			self.embedding_inputs = [tf.reshape(tf.nn.embedding_lookup(all_embeddings, placeholder), 
+				(-1, self.config.poke_descriptor_size, self.config.embedding_size))
 				for placeholder in self.poke_placeholders] 
-			self.last_move_embeddings = tf.nn.embedding_lookup([poke_embeddings,move_embeddings,item_embeddings,
-				status_embeddings], self.last_move_placeholder)
+			self.last_move_embeddings = tf.nn.embedding_lookup(all_embeddings, self.last_move_placeholder)
 
 	def _network_model(self):
 		'''
@@ -86,22 +84,22 @@ class PokemonNetwork(object):
 				[layer.append(tf.squeeze(pool)) for layer,pool in zip(layers,pools)]
 			conv_outputs = [tf.concat(layer,1) for layer in layers] # each output is of size [None,sum(feature_maps)]
 		with tf.variable_scope('OwnTeamConvNet'):
-			own_player_conv = tf.concat(conv_outputs[:6], 0)
+			own_player_conv = tf.expand_dims(tf.stack(conv_outputs[:6], axis=1), -1)
 			layers = []
 			for idx,kernel_height in enumerate(self.config.kernels_team):
 				conv_filter = tf.get_variable('OwnTeamKernelHeight' + str(kernel_height),
-									shape=(kernel_height,self.config.embedding_size,1,self.config.feature_maps_team[idx]))
+								shape=(kernel_height,np.sum(self.config.feature_maps_poke),1,self.config.feature_maps_team[idx]))
 				conv_layer = tf.nn.conv2d(own_player_conv,conv_filter,strides=[1,1,1,1],padding='VALID')
 				new_height = 6 - kernel_height + 1
 				pool = tf.nn.max_pool(tf.tanh(conv_layer),[1,new_height,1,1],[1,1,1,1],'VALID')
 				layers.append(tf.squeeze(pool))
 			own_team_output = tf.concat(layers, 1)
 		with tf.variable_scope('OppTeamConvNet'):
-			opp_player_conv = tf.concat(conv_outputs[6:], 0)
+			opp_player_conv = tf.expand_dims(tf.stack(conv_outputs[6:], axis=1), -1)
 			layers = []
 			for idx,kernel_height in enumerate(self.config.kernels_team):
 				conv_filter = tf.get_variable('OppTeamKernelHeight' + str(kernel_height),
-									shape=(kernel_height,self.config.embedding_size,1,self.config.feature_maps_team[idx]))
+								shape=(kernel_height,np.sum(self.config.feature_maps_poke),1,self.config.feature_maps_team[idx]))
 				conv_layer = tf.nn.conv2d(own_player_conv,conv_filter,strides=[1,1,1,1],padding='VALID')
 				new_height = 6 - kernel_height + 1
 				pool = tf.nn.max_pool(tf.tanh(conv_layer),[1,new_height,1,1],[1,1,1,1],'VALID')
@@ -122,10 +120,12 @@ class PokemonNetwork(object):
 			carry = 1.0 - transform
 			highway_output = transform * a + carry * output 
 		with tf.variable_scope('MemoryLayer'): # uses an LSTM to remember previous moves
-			cell = tf.contrib.rnn.BasicLSTMCell(self.config.memory_layer_size)
-			dropout_cell = tf.contrib.rnn.DropoutWrapper(cell, input_keep_prob=self.dropout_placeholder,
-				output_keep_prob=self.dropout_placeholder)
-			stacked_cell = tf.contrib.rnn.MultiRNNCell([dropout_cell] * self.config.memory_layer_depth)
+			def get_cell():
+				cell = tf.contrib.rnn.BasicLSTMCell(self.config.memory_layer_size)
+				dropout_cell = tf.contrib.rnn.DropoutWrapper(cell, input_keep_prob=self.dropout_placeholder,
+					output_keep_prob=self.dropout_placeholder)
+				return cell
+			stacked_cell = tf.contrib.rnn.MultiRNNCell([get_cell() for _ in range(self.config.memory_layer_depth)])
 			lstm_input = tf.reshape(highway_output, (self.config.batch_size, self.config.num_steps, highway_size))
 			self.initial_state = stacked_cell.zero_state(self.config.batch_size, tf.float32)
 			rnn_output, self.final_rnn_state = tf.nn.dynamic_rnn(stacked_cell,lstm_input,initial_state=self.initial_state)
@@ -133,7 +133,7 @@ class PokemonNetwork(object):
 		with tf.variable_scope('OutputScores'):
 			score_w = tf.get_variable('score_w', shape=(self.config.memory_layer_size, self.config.number_classes))
 			score_b = tf.get_variable('score_b', shape=(self.config.number_classes,))
-			self.scores = tf.matmul(output, score_w) + score_b
+			self.scores = tf.matmul(rnn_output, score_w) + score_b
 
 	def _add_loss(self):
 		self.predictions = tf.argmax(self.scores,1)
@@ -169,11 +169,12 @@ class PokemonNetwork(object):
 		for i,sample in enumerate(self.data_iter.sample(self.config.batch_size, self.config.num_steps, sample_set)):
 			# sample is a list of [poke1matrix, poke2matrix, ..., poke12matrix, other_x_state, y]
 			feed_dict1 = {self.poke_placeholders[i] : sample[i] for i in range(12)} 
-			feed_dict_rest = {self.x_data_placeholder: sample[13], 
-							self.last_move_placeholder: sample[14], self.y_placeholder: sample[15],
+			feed_dict_rest = {self.x_data_placeholder: sample[12], 
+							self.last_move_placeholder: sample[13], 
+							self.y_placeholder: sample[14],
 							self.dropout_placeholder: dp}
 			feed_dict = {**feed_dict1, **feed_dict_rest}
-			loss, _ = session.run([self.loss, train_op])
+			loss, _ = session.run([self.loss, train_op], feed_dict=feed_dict)
 			total_loss.append(loss)
 
 			if (i % 100) == 0 and to_print:
@@ -187,7 +188,7 @@ class PokemonNetwork(object):
 		feed_dict1 = {self.poke_placeholders[i] :  sample[i] for i in range(12)} 
 		feed_dict_rest = {self.x_data_placeholder: sample[13], self.dropout_placeholder: dp}
 		feed_dict = {**feed_dict1, **feed_dict_rest}
-		pred, next_state = sess.run([self.predictions, self.final_rnn_state])
+		pred, next_state = sess.run([self.predictions, self.final_rnn_state], feed_dict=feed_dict)
 		return pred, next_state
 
 def trainNetwork():

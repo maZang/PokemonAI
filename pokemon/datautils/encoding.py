@@ -5,7 +5,7 @@ PARSED_FOLDER = 'data/parsed_replays/'
 
 def encode(network_config, replay_file):
 	encoding = PokemonShowdownEncoding.load(replay_file)
-	return [encoding.pokemon + [encoding.other_data, encoding.last_move_data, encoding.labels]]
+	return encoding.pokemon + [encoding.other_data, encoding.last_move_data, encoding.labels]
 
 
 def getActionIDFromString(actionString, pokemon=None):

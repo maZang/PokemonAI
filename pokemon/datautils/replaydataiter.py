@@ -38,7 +38,6 @@ class ReplayDataIter(object):
 
 	def get_idxs(self, num_steps, type):
 		data = self.get_data(type)
-		print(data)
 		return np.random.permutation([(i,j) for i in range(len(data)) 
 					for j in range(data[i][-1].shape[0] - num_steps + 1)])
 
@@ -50,7 +49,11 @@ class ReplayDataIter(object):
 		data = self.get_data(type)
 		currBatch = 0
 		while currBatch < idxs.shape[0]:
-			eps,seq = idxs[currBatch]
-			yield [set[seq:seq+num_steps] for set in data[eps]]
+			all_sets = [[] for _ in range(len(data[0]))]
+			for eps,seq in idxs[currBatch*batch_size:(currBatch+1)*batch_size]:
+				[all_sets_set.append(set[seq:seq+num_steps]) for set,all_sets_set in zip(data[eps],all_sets)]
+			final_batch = [np.concatenate(sets, axis=0) for sets in all_sets]
+			final_batch[-1] = np.where(final_batch[-1] == 1)[1] # quick hack
+			yield final_batch
 			currBatch += 1
 
