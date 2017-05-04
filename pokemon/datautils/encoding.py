@@ -1,6 +1,6 @@
 import numpy as np
 
-from const import *
+from datautils.const import *
 PARSED_FOLDER = 'data/parsed_replays/'
 
 def encode(network_config, replay_file):
@@ -96,7 +96,7 @@ class PokemonShowdownEncoding(object):
 	def load(self, filename):
 		print(filename)
 		with open(filename, 'rb') as f:
-			obj = pickle.load(f)
+			obj = pickle.load(f, encoding='latin1')
 		encoding = self(obj['name'], obj['data_type'], obj['num_turns'])
 		encoding.pokemon = obj['pokemon']
 		encoding.other_data = obj['other_data']
