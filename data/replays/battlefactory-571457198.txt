@@ -1,0 +1,214 @@
+|j|BILL 157
+|j|VzlMach
+|player|p1|BILL 157|101
+|player|p2|VzlMach|101
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|13984,40183,23096,34309,47404,25916,28788,32078,31841,51364,1931,5220
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Arceus-*|item
+|poke|p1|Dialga|item
+|poke|p1|Klefki, M|item
+|poke|p1|Kyogre|item
+|poke|p1|Darkrai|item
+|poke|p1|Xerneas|item
+|poke|p2|Giratina|item
+|poke|p2|Sableye, M|item
+|poke|p2|Kyurem-White|item
+|poke|p2|Greninja, M|item
+|poke|p2|Arceus-*|item
+|poke|p2|Genesect-*|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by BILL 157)
+|choice|team 3, team 2, team 1, team 4, team 5, team 6|team 2, team 1, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Klefki|Klefki, M|100/100
+|switch|p2a: Sableye|Sableye, M|100/100
+|turn|1
+|choice|move playrough|move protect mega
+|
+|detailschange|p2a: Sableye|Sableye-Mega, M
+|-mega|p2a: Sableye|Sableye|Sablenite
+|move|p2a: Sableye|Protect|p2a: Sableye
+|-singleturn|p2a: Sableye|Protect
+|move|p1a: Klefki|Play Rough|p2a: Sableye
+|-activate|p2a: Sableye|move: Protect
+|
+|upkeep
+|turn|2
+|choice|move playrough|move willowisp
+|
+|move|p1a: Klefki|Play Rough|p2a: Sableye
+|-supereffective|p2a: Sableye
+|-damage|p2a: Sableye|63/100
+|move|p2a: Sableye|Will-O-Wisp|p1a: Klefki
+|-status|p1a: Klefki|brn
+|
+|-damage|p1a: Klefki|88/100 brn|[from] brn
+|upkeep
+|turn|3
+|choice|move spikes|move recover
+|
+|move|p1a: Klefki|Spikes|p2a: Sableye
+|move|p2a: Sableye|Spikes|p1a: Klefki|[from]Magic Bounce
+|-sidestart|p1: BILL 157|Spikes
+|move|p2a: Sableye|Recover|p2a: Sableye
+|-heal|p2a: Sableye|100/100
+|
+|-heal|p1a: Klefki|94/100 brn|[from] item: Leftovers
+|-damage|p1a: Klefki|82/100 brn|[from] brn
+|upkeep
+|turn|4
+|choice|move playrough|move foulplay
+|
+|move|p1a: Klefki|Play Rough|p2a: Sableye
+|-supereffective|p2a: Sableye
+|-damage|p2a: Sableye|82/100
+|-unboost|p2a: Sableye|atk|1
+|move|p2a: Sableye|Foul Play|p1a: Klefki
+|-resisted|p1a: Klefki
+|-damage|p1a: Klefki|65/100 brn
+|
+|-heal|p1a: Klefki|71/100 brn|[from] item: Leftovers
+|-damage|p1a: Klefki|59/100 brn|[from] brn
+|upkeep
+|turn|5
+|choice|switch 6|move protect
+|
+|switch|p1a: Xerneas|Xerneas|100/100
+|-damage|p1a: Xerneas|88/100|[from] Spikes
+|-ability|p1a: Xerneas|Fairy Aura
+|move|p2a: Sableye|Protect|p2a: Sableye
+|-fail|p2a: Sableye
+|
+|upkeep
+|turn|6
+|choice|move geomancy|switch 6
+|
+|switch|p2a: Genesect|Genesect|100/100
+|-ability|p2a: Genesect|Download|boost
+|-boost|p2a: Genesect|spa|1
+|move|p1a: Xerneas|Geomancy|p1a: Xerneas|[still]
+|-prepare|p1a: Xerneas|Geomancy|p1a: Xerneas
+|-enditem|p1a: Xerneas|Power Herb
+|-anim|p1a: Xerneas|Geomancy|p1a: Xerneas
+|-boost|p1a: Xerneas|spa|2
+|-boost|p1a: Xerneas|spd|2
+|-boost|p1a: Xerneas|spe|2
+|
+|upkeep
+|turn|7
+|choice|move hiddenpower|move ironhead
+|
+|move|p1a: Xerneas|Hidden Power|p2a: Genesect
+|-damage|p2a: Genesect|46/100
+|move|p2a: Genesect|Iron Head|p1a: Xerneas
+|-supereffective|p1a: Xerneas
+|-damage|p1a: Xerneas|31/100
+|
+|upkeep
+|turn|8
+|choice|move hiddenpower|move ironhead
+|
+|move|p1a: Xerneas|Hidden Power|p2a: Genesect
+|-damage|p2a: Genesect|0 fnt
+|faint|p2a: Genesect
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Giratina|Giratina|100/100
+|-ability|p2a: Giratina|Pressure
+|turn|9
+|choice|move moonblast|move roar
+|
+|move|p1a: Xerneas|Moonblast|p2a: Giratina
+|-supereffective|p2a: Giratina
+|-crit|p2a: Giratina
+|-damage|p2a: Giratina|0 fnt
+|faint|p2a: Giratina
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Greninja|Greninja, M|100/100
+|turn|10
+|choice|move moonblast|move scald
+|
+|move|p1a: Xerneas|Moonblast|p2a: Greninja
+|-supereffective|p2a: Greninja
+|-enditem|p2a: Greninja|Focus Sash
+|-damage|p2a: Greninja|1/100
+|move|p2a: Greninja|Scald|p1a: Xerneas
+|-start|p2a: Greninja|typechange|Water|[from] Protean
+|-damage|p1a: Xerneas|21/100
+|
+|upkeep
+|turn|11
+|choice|move moonblast|move shadowsneak
+|
+|move|p2a: Greninja|Shadow Sneak|p1a: Xerneas
+|-start|p2a: Greninja|typechange|Ghost|[from] Protean
+|-damage|p1a: Xerneas|7/100
+|move|p1a: Xerneas|Moonblast|p2a: Greninja
+|-damage|p2a: Greninja|0 fnt
+|faint|p2a: Greninja
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Kyurem|Kyurem-White|100/100
+|-ability|p2a: Kyurem|Turboblaze
+|turn|12
+|j|naruto0412
+|choice|move moonblast|move earthpower
+|
+|move|p1a: Xerneas|Moonblast|p2a: Kyurem
+|-supereffective|p2a: Kyurem
+|-damage|p2a: Kyurem|0 fnt
+|faint|p2a: Kyurem
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Sableye|Sableye-Mega, M|82/100
+|turn|13
+|choice|move moonblast|move protect
+|
+|move|p2a: Sableye|Protect|p2a: Sableye
+|-singleturn|p2a: Sableye|Protect
+|move|p1a: Xerneas|Moonblast|p2a: Sableye
+|-activate|p2a: Sableye|move: Protect
+|
+|upkeep
+|turn|14
+|choice|move moonblast|move willowisp
+|
+|move|p1a: Xerneas|Moonblast|p2a: Sableye
+|-supereffective|p2a: Sableye
+|-damage|p2a: Sableye|0 fnt
+|faint|p2a: Sableye
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Arceus|Arceus-Fighting|100/100
+|turn|15
+|choice|move moonblast|move thunderwave
+|
+|move|p1a: Xerneas|Moonblast|p2a: Arceus
+|-supereffective|p2a: Arceus
+|-damage|p2a: Arceus|0 fnt
+|faint|p2a: Arceus
+|
+|win|BILL 157
+|raw|BILL 157's rating: 1092 &rarr; <strong>1128</strong><br />(+36 for winning)
+|raw|VzlMach's rating: 1224 &rarr; <strong>1190</strong><br />(-34 for losing)
+|c|☆VzlMach|gg
+|c|☆BILL 157|gg

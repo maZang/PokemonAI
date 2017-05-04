@@ -1,0 +1,283 @@
+|j|Henryk Wieniawski
+|j|arceus1117
+|player|p1|Henryk Wieniawski|269
+|player|p2|arceus1117|99
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|46079,12473,40845,21611,2852,40939,46072,18815,60630,1830,51149,39009
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Arceus-*|item
+|poke|p1|Scizor, M|item
+|poke|p1|Landorus, M|item
+|poke|p1|Shaymin-Sky|item
+|poke|p1|Deoxys|item
+|poke|p1|Blissey, F|item
+|poke|p2|Kyogre|item
+|poke|p2|Ho-Oh|item
+|poke|p2|Arceus-*|item
+|poke|p2|Darkrai|item
+|poke|p2|Kangaskhan, F|item
+|poke|p2|Dialga|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by arceus1117)
+|choice|team 5, team 2, team 3, team 4, team 1, team 6|team 5, team 2, team 3, team 4, team 1, team 6
+|
+|start
+|switch|p1a: Deoxys|Deoxys|100/100
+|switch|p2a: Kangaskhan|Kangaskhan, F|100/100
+|-ability|p1a: Deoxys|Pressure
+|turn|1
+|choice|move stealthrock|move fakeout mega
+|
+|detailschange|p2a: Kangaskhan|Kangaskhan-Mega, F
+|-mega|p2a: Kangaskhan|Kangaskhan|Kangaskhanite
+|move|p2a: Kangaskhan|Fake Out|p1a: Deoxys
+|-damage|p1a: Deoxys|47/100
+|-damage|p1a: Deoxys|17/100
+|-hitcount|p1a: Deoxys|2
+|cant|p1a: Deoxys|flinch
+|
+|upkeep
+|turn|2
+|choice|move stealthrock|move return
+|
+|move|p1a: Deoxys|Stealth Rock|p2a: Kangaskhan
+|-sidestart|p2: arceus1117|move: Stealth Rock
+|move|p2a: Kangaskhan|Return|p1a: Deoxys
+|-damage|p1a: Deoxys|0 fnt
+|-hitcount|p1a: Deoxys|1
+|faint|p1a: Deoxys
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Scizor|Scizor, M|100/100
+|turn|3
+|choice|move toxic mega|switch 2
+|
+|switch|p2a: Ho-Oh|Ho-Oh|100/100
+|-damage|p2a: Ho-Oh|51/100|[from] Stealth Rock
+|detailschange|p1a: Scizor|Scizor-Mega, M
+|-mega|p1a: Scizor|Scizor|Scizorite
+|move|p1a: Scizor|Toxic|p2a: Ho-Oh
+|-status|p2a: Ho-Oh|tox
+|
+|-damage|p2a: Ho-Oh|45/100 tox|[from] psn
+|upkeep
+|turn|4
+|choice|switch 5|move sacredfire
+|
+|switch|p1a: Arceus|Arceus-Ground|100/100
+|move|p2a: Ho-Oh|Sacred Fire|p1a: Arceus
+|-damage|p1a: Arceus|33/100
+|
+|-damage|p2a: Ho-Oh|33/100 tox|[from] psn
+|upkeep
+|turn|5
+|choice|move stoneedge|switch 3
+|
+|switch|p2a: Arceus|Arceus-Dragon|100/100
+|-damage|p2a: Arceus|88/100|[from] Stealth Rock
+|move|p1a: Arceus|Stone Edge|p2a: Arceus
+|-damage|p2a: Arceus|70/100
+|
+|upkeep
+|turn|6
+|choice|switch 5|move defog
+|
+|switch|p1a: Scizor|Scizor-Mega, M|100/100
+|move|p2a: Arceus|Defog|p1a: Scizor
+|-unboost|p1a: Scizor|evasion|1
+|-sideend|p2: arceus1117|Stealth Rock|[from] move: Defog|[of] p2a: Arceus
+|
+|upkeep
+|turn|7
+|choice|switch 3|switch 3
+|
+|switch|p2a: Ho-Oh|Ho-Oh|66/100 tox
+|switch|p1a: Landorus|Landorus, M|100/100
+|
+|-damage|p2a: Ho-Oh|60/100 tox|[from] psn
+|upkeep
+|turn|8
+|choice|move rockslide|switch 6
+|
+|switch|p2a: Dialga|Dialga|100/100
+|-ability|p2a: Dialga|Pressure
+|move|p1a: Landorus|Rock Slide|p2a: Dialga
+|-resisted|p2a: Dialga
+|-damage|p2a: Dialga|88/100
+|
+|-heal|p2a: Dialga|94/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|choice|move earthpower|move dracometeor
+|
+|move|p1a: Landorus|Earth Power|p2a: Dialga
+|-supereffective|p2a: Dialga
+|-damage|p2a: Dialga|7/100
+|move|p2a: Dialga|Draco Meteor|p1a: Landorus
+|-damage|p1a: Landorus|16/100
+|-unboost|p2a: Dialga|spa|2
+|
+|-heal|p2a: Dialga|13/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|choice|move earthpower|switch 6
+|
+|switch|p2a: Ho-Oh|Ho-Oh|93/100 tox
+|move|p1a: Landorus|Earth Power|p2a: Ho-Oh
+|-immune|p2a: Ho-Oh|[msg]
+|
+|-damage|p2a: Ho-Oh|87/100 tox|[from] psn
+|upkeep
+|turn|11
+|choice|move rockslide|switch 2
+|
+|switch|p2a: Kangaskhan|Kangaskhan-Mega, F|100/100
+|move|p1a: Landorus|Rock Slide|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|71/100
+|
+|upkeep
+|turn|12
+|choice|switch 3|move fakeout
+|
+|switch|p1a: Scizor|Scizor-Mega, M|100/100
+|move|p2a: Kangaskhan|Fake Out|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|93/100
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|89/100
+|-hitcount|p1a: Scizor|2
+|
+|upkeep
+|turn|13
+|choice|switch 3|switch 6
+|
+|switch|p2a: Dialga|Dialga|13/100
+|-ability|p2a: Dialga|Pressure
+|switch|p1a: Landorus|Landorus, M|16/100
+|
+|-heal|p2a: Dialga|19/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|choice|move earthpower|switch 6
+|
+|switch|p2a: Kangaskhan|Kangaskhan-Mega, F|71/100
+|move|p1a: Landorus|Earth Power|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|0 fnt
+|faint|p2a: Kangaskhan
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Darkrai|Darkrai|100/100
+|turn|15
+|choice|move earthpower|move darkvoid
+|
+|move|p2a: Darkrai|Dark Void|p1a: Landorus
+|-status|p1a: Landorus|slp
+|cant|p1a: Landorus|slp
+|
+|-damage|p1a: Landorus|4/100 slp|[from] ability: Bad Dreams|[of] p2a: Darkrai
+|upkeep
+|turn|16
+|choice|move earthpower|move nastyplot
+|
+|move|p2a: Darkrai|Nasty Plot|p2a: Darkrai
+|-boost|p2a: Darkrai|spa|2
+|cant|p1a: Landorus|slp
+|
+|-damage|p1a: Landorus|0 fnt|[from] ability: Bad Dreams|[of] p2a: Darkrai
+|upkeep
+|faint|p1a: Landorus
+|choice|switch 4|
+|
+|switch|p1a: Shaymin|Shaymin-Sky|100/100
+|turn|17
+|choice|move airslash|move sludgebomb
+|
+|move|p1a: Shaymin|Air Slash|p2a: Darkrai|[miss]
+|-miss|p1a: Shaymin|p2a: Darkrai
+|move|p2a: Darkrai|Sludge Bomb|p1a: Shaymin
+|-supereffective|p1a: Shaymin
+|-damage|p1a: Shaymin|0 fnt
+|-damage|p2a: Darkrai|91/100|[from] item: Life Orb
+|faint|p1a: Shaymin
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Blissey|Blissey, F|100/100
+|turn|18
+|choice|move toxic|switch 6
+|
+|switch|p2a: Dialga|Dialga|19/100
+|-ability|p2a: Dialga|Pressure
+|move|p1a: Blissey|Toxic|p2a: Dialga|[miss]
+|-miss|p1a: Blissey|p2a: Dialga
+|
+|-heal|p2a: Dialga|26/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|choice|switch 3|move stealthrock
+|
+|switch|p1a: Scizor|Scizor-Mega, M|89/100
+|move|p2a: Dialga|Stealth Rock|p1a: Scizor
+|-sidestart|p1: Henryk Wieniawski|move: Stealth Rock
+|
+|-heal|p2a: Dialga|32/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|choice|move defog|move fireblast
+|
+|move|p2a: Dialga|Fire Blast|p1a: Scizor
+|-supereffective|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|faint|p1a: Scizor
+|
+|-heal|p2a: Dialga|38/100|[from] item: Leftovers
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Arceus|Arceus-Ground|33/100
+|-damage|p1a: Arceus|27/100|[from] Stealth Rock
+|turn|21
+|choice|move earthquake|move dracometeor
+|
+|move|p1a: Arceus|Earthquake|p2a: Dialga
+|-supereffective|p2a: Dialga
+|-damage|p2a: Dialga|0 fnt
+|faint|p2a: Dialga
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Darkrai|Darkrai|91/100
+|turn|22
+|choice|move extremespeed|move darkpulse
+|
+|move|p1a: Arceus|Extreme Speed|p2a: Darkrai
+|-damage|p2a: Darkrai|57/100
+|move|p2a: Darkrai|Dark Pulse|p1a: Arceus
+|-damage|p1a: Arceus|0 fnt
+|-damage|p2a: Darkrai|47/100|[from] item: Life Orb
+|faint|p1a: Arceus
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Blissey|Blissey, F|100/100
+|-damage|p1a: Blissey|88/100|[from] Stealth Rock
+|turn|23
+|-message|Henryk Wieniawski forfeited.
+|
+|win|arceus1117
+|l|Henryk Wieniawski
+|raw|Henryk Wieniawski's rating: 1087 &rarr; <strong>1070</strong><br />(-17 for losing)
+|raw|arceus1117's rating: 1184 &rarr; <strong>1203</strong><br />(+19 for winning)

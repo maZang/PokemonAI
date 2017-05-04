@@ -1,0 +1,594 @@
+|j|joshroom
+|j|RAFAELKEN
+|player|p1|joshroom|266
+|player|p2|RAFAELKEN|101
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|1153,40339,38084,2045,42480,3477,4897,19109,54106,34219,21437,31081
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Milotic, M|item
+|poke|p1|Aggron, M|item
+|poke|p1|Forretress, M|item
+|poke|p1|Yanmega, M|item
+|poke|p1|Haxorus, M|item
+|poke|p1|Whimsicott, M|item
+|poke|p2|Pangoro, M|item
+|poke|p2|Gligar, M|item
+|poke|p2|Swampert, M|item
+|poke|p2|Absol, M|item
+|poke|p2|Dragalge, M|item
+|poke|p2|Snorlax, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 3, team 2, team 1, team 4, team 5, team 6|team 4, team 2, team 3, team 1, team 5, team 6
+|
+|start
+|switch|p1a: Forretress|Forretress, M|100/100
+|switch|p2a: Absol|Absol, M|100/100
+|turn|1
+|choice|move gyroball|move knockoff mega
+|
+|detailschange|p2a: Absol|Absol-Mega, M
+|-mega|p2a: Absol|Absol|Absolite
+|move|p2a: Absol|Knock Off|p1a: Forretress
+|-damage|p1a: Forretress|70/100
+|-enditem|p1a: Forretress|Leftovers|[from] move: Knock Off|[of] p2a: Absol
+|move|p1a: Forretress|Gyro Ball|p2a: Absol
+|-damage|p2a: Absol|36/100
+|
+|upkeep
+|turn|2
+|choice|move gyroball|move fireblast
+|
+|move|p2a: Absol|Fire Blast|p1a: Forretress|[miss]
+|-miss|p2a: Absol|p1a: Forretress
+|move|p1a: Forretress|Gyro Ball|p2a: Absol
+|-damage|p2a: Absol|0 fnt
+|faint|p2a: Absol
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Gligar|Gligar, M|100/100
+|turn|3
+|choice|move gyroball|move defog
+|
+|move|p2a: Gligar|Defog|p1a: Forretress
+|-unboost|p1a: Forretress|evasion|1
+|move|p1a: Forretress|Gyro Ball|p2a: Gligar
+|-damage|p2a: Gligar|87/100
+|
+|upkeep
+|turn|4
+|choice|move gyroball|move toxic
+|
+|move|p2a: Gligar|Toxic|p1a: Forretress
+|-immune|p1a: Forretress|[msg]
+|move|p1a: Forretress|Gyro Ball|p2a: Gligar
+|-damage|p2a: Gligar|72/100
+|
+|upkeep
+|turn|5
+|choice|move gyroball|move earthquake
+|
+|move|p2a: Gligar|Earthquake|p1a: Forretress
+|-damage|p1a: Forretress|57/100
+|move|p1a: Forretress|Gyro Ball|p2a: Gligar
+|-damage|p2a: Gligar|58/100
+|
+|upkeep
+|turn|6
+|choice|move spikes|move roost
+|
+|move|p2a: Gligar|Roost|p2a: Gligar
+|-heal|p2a: Gligar|100/100
+|move|p1a: Forretress|Spikes|p2a: Gligar
+|-sidestart|p2: RAFAELKEN|Spikes
+|
+|upkeep
+|turn|7
+|choice|move voltswitch|move earthquake
+|
+|move|p2a: Gligar|Earthquake|p1a: Forretress
+|-damage|p1a: Forretress|40/100
+|move|p1a: Forretress|Volt Switch|p2a: Gligar
+|-immune|p2a: Gligar|[msg]
+|
+|upkeep
+|turn|8
+|choice|move gyroball|move earthquake
+|
+|move|p2a: Gligar|Earthquake|p1a: Forretress
+|-damage|p1a: Forretress|25/100
+|move|p1a: Forretress|Gyro Ball|p2a: Gligar
+|-damage|p2a: Gligar|87/100
+|
+|upkeep
+|turn|9
+|choice|move gyroball|move earthquake
+|
+|move|p2a: Gligar|Earthquake|p1a: Forretress
+|-damage|p1a: Forretress|10/100
+|move|p1a: Forretress|Gyro Ball|p2a: Gligar
+|-damage|p2a: Gligar|72/100
+|
+|upkeep
+|turn|10
+|choice|move gyroball|move earthquake
+|
+|move|p2a: Gligar|Earthquake|p1a: Forretress
+|-damage|p1a: Forretress|0 fnt
+|faint|p1a: Forretress
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Yanmega|Yanmega, M|100/100
+|turn|11
+|choice|move airslash|move roost
+|
+|move|p1a: Yanmega|Air Slash|p2a: Gligar
+|-damage|p2a: Gligar|37/100
+|-damage|p1a: Yanmega|91/100|[from] item: Life Orb
+|move|p2a: Gligar|Roost|p2a: Gligar
+|-heal|p2a: Gligar|87/100
+|
+|-ability|p1a: Yanmega|Speed Boost|boost
+|-boost|p1a: Yanmega|spe|1
+|upkeep
+|turn|12
+|choice|move airslash|move toxic
+|
+|move|p1a: Yanmega|Air Slash|p2a: Gligar
+|-damage|p2a: Gligar|55/100
+|-damage|p1a: Yanmega|81/100|[from] item: Life Orb
+|cant|p2a: Gligar|flinch
+|
+|-ability|p1a: Yanmega|Speed Boost|boost
+|-boost|p1a: Yanmega|spe|1
+|upkeep
+|turn|13
+|choice|move airslash|move roost
+|
+|move|p1a: Yanmega|Air Slash|p2a: Gligar
+|-damage|p2a: Gligar|22/100
+|-damage|p1a: Yanmega|71/100|[from] item: Life Orb
+|move|p2a: Gligar|Roost|p2a: Gligar
+|-heal|p2a: Gligar|72/100
+|
+|-ability|p1a: Yanmega|Speed Boost|boost
+|-boost|p1a: Yanmega|spe|1
+|upkeep
+|turn|14
+|choice|move airslash|move earthquake
+|
+|move|p1a: Yanmega|Air Slash|p2a: Gligar
+|-damage|p2a: Gligar|36/100
+|-damage|p1a: Yanmega|61/100|[from] item: Life Orb
+|move|p2a: Gligar|Earthquake|p1a: Yanmega
+|-immune|p1a: Yanmega|[msg]
+|
+|-ability|p1a: Yanmega|Speed Boost|boost
+|-boost|p1a: Yanmega|spe|1
+|upkeep
+|turn|15
+|choice|move airslash|move roost
+|
+|move|p1a: Yanmega|Air Slash|p2a: Gligar
+|-damage|p2a: Gligar|4/100
+|-damage|p1a: Yanmega|51/100|[from] item: Life Orb
+|move|p2a: Gligar|Roost|p2a: Gligar
+|-heal|p2a: Gligar|54/100
+|
+|-ability|p1a: Yanmega|Speed Boost|boost
+|-boost|p1a: Yanmega|spe|1
+|upkeep
+|turn|16
+|choice|move airslash|move roost
+|
+|move|p1a: Yanmega|Air Slash|p2a: Gligar
+|-damage|p2a: Gligar|19/100
+|-damage|p1a: Yanmega|41/100|[from] item: Life Orb
+|move|p2a: Gligar|Roost|p2a: Gligar
+|-heal|p2a: Gligar|69/100
+|
+|-ability|p1a: Yanmega|Speed Boost|boost
+|-boost|p1a: Yanmega|spe|1
+|upkeep
+|turn|17
+|choice|move airslash|move roost
+|
+|move|p1a: Yanmega|Air Slash|p2a: Gligar
+|-damage|p2a: Gligar|36/100
+|-damage|p1a: Yanmega|31/100|[from] item: Life Orb
+|move|p2a: Gligar|Roost|p2a: Gligar
+|-heal|p2a: Gligar|86/100
+|
+|upkeep
+|turn|18
+|choice|move airslash|move roost
+|
+|move|p1a: Yanmega|Air Slash|p2a: Gligar
+|-damage|p2a: Gligar|55/100
+|-damage|p1a: Yanmega|21/100|[from] item: Life Orb
+|cant|p2a: Gligar|flinch
+|
+|upkeep
+|turn|19
+|choice|move airslash|move roost
+|
+|move|p1a: Yanmega|Air Slash|p2a: Gligar
+|-damage|p2a: Gligar|23/100
+|-damage|p1a: Yanmega|11/100|[from] item: Life Orb
+|move|p2a: Gligar|Roost|p2a: Gligar
+|-heal|p2a: Gligar|73/100
+|
+|upkeep
+|turn|20
+|choice|move airslash|move roost
+|
+|move|p1a: Yanmega|Air Slash|p2a: Gligar|[miss]
+|-miss|p1a: Yanmega|p2a: Gligar
+|move|p2a: Gligar|Roost|p2a: Gligar
+|-heal|p2a: Gligar|100/100
+|
+|upkeep
+|turn|21
+|choice|move airslash|move earthquake
+|
+|move|p1a: Yanmega|Air Slash|p2a: Gligar
+|-damage|p2a: Gligar|69/100
+|-damage|p1a: Yanmega|1/100|[from] item: Life Orb
+|move|p2a: Gligar|Earthquake|p1a: Yanmega
+|-immune|p1a: Yanmega|[msg]
+|
+|upkeep
+|turn|22
+|choice|move airslash|move roost
+|
+|move|p1a: Yanmega|Air Slash|p2a: Gligar|[miss]
+|-miss|p1a: Yanmega|p2a: Gligar
+|move|p2a: Gligar|Roost|p2a: Gligar
+|-heal|p2a: Gligar|100/100
+|
+|upkeep
+|turn|23
+|choice|move airslash|move earthquake
+|
+|move|p1a: Yanmega|Air Slash|p2a: Gligar
+|-damage|p2a: Gligar|66/100
+|-damage|p1a: Yanmega|0 fnt|[from] item: Life Orb
+|faint|p1a: Yanmega
+|cant|p2a: Gligar|flinch
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Whimsicott|Whimsicott, M|100/100
+|turn|24
+|choice|move hiddenpower|move roost
+|
+|move|p1a: Whimsicott|Hidden Power|p2a: Gligar
+|-damage|p2a: Gligar|54/100
+|-damage|p1a: Whimsicott|91/100|[from] item: Life Orb
+|move|p2a: Gligar|Roost|p2a: Gligar
+|-heal|p2a: Gligar|100/100
+|
+|upkeep
+|turn|25
+|choice|move moonblast|move earthquake
+|
+|move|p1a: Whimsicott|Moonblast|p2a: Gligar
+|-damage|p2a: Gligar|69/100
+|-damage|p1a: Whimsicott|81/100|[from] item: Life Orb
+|move|p2a: Gligar|Earthquake|p1a: Whimsicott
+|-resisted|p1a: Whimsicott
+|-damage|p1a: Whimsicott|62/100
+|
+|upkeep
+|turn|26
+|choice|move moonblast|move roost
+|
+|move|p1a: Whimsicott|Moonblast|p2a: Gligar
+|-damage|p2a: Gligar|41/100
+|-damage|p1a: Whimsicott|52/100|[from] item: Life Orb
+|move|p2a: Gligar|Roost|p2a: Gligar
+|-heal|p2a: Gligar|91/100
+|
+|upkeep
+|turn|27
+|choice|move moonblast|move roost
+|
+|move|p1a: Whimsicott|Moonblast|p2a: Gligar
+|-damage|p2a: Gligar|63/100
+|-damage|p1a: Whimsicott|42/100|[from] item: Life Orb
+|move|p2a: Gligar|Roost|p2a: Gligar
+|-heal|p2a: Gligar|100/100
+|
+|upkeep
+|turn|28
+|choice|move moonblast|move earthquake
+|
+|move|p1a: Whimsicott|Moonblast|p2a: Gligar
+|-damage|p2a: Gligar|71/100
+|-unboost|p2a: Gligar|spa|1
+|-damage|p1a: Whimsicott|32/100|[from] item: Life Orb
+|move|p2a: Gligar|Earthquake|p1a: Whimsicott
+|-resisted|p1a: Whimsicott
+|-damage|p1a: Whimsicott|14/100
+|
+|upkeep
+|turn|29
+|choice|move moonblast|move roost
+|
+|move|p1a: Whimsicott|Moonblast|p2a: Gligar
+|-damage|p2a: Gligar|42/100
+|-damage|p1a: Whimsicott|4/100|[from] item: Life Orb
+|move|p2a: Gligar|Roost|p2a: Gligar
+|-heal|p2a: Gligar|92/100
+|
+|upkeep
+|turn|30
+|choice|move moonblast|move earthquake
+|
+|move|p1a: Whimsicott|Moonblast|p2a: Gligar
+|-damage|p2a: Gligar|61/100
+|-damage|p1a: Whimsicott|0 fnt|[from] item: Life Orb
+|faint|p1a: Whimsicott
+|move|p2a: Gligar|Earthquake|p1: Whimsicott|[notarget]
+|-notarget
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Milotic|Milotic, M|100/100
+|turn|31
+|choice|move scald|move roost
+|
+|move|p2a: Gligar|Roost|p2a: Gligar
+|-heal|p2a: Gligar|100/100
+|move|p1a: Milotic|Scald|p2a: Gligar
+|-supereffective|p2a: Gligar
+|-damage|p2a: Gligar|63/100
+|-status|p2a: Gligar|brn
+|
+|-damage|p2a: Gligar|50/100 brn|[from] brn
+|upkeep
+|turn|32
+|choice|move scald|move earthquake
+|
+|move|p2a: Gligar|Earthquake|p1a: Milotic
+|-damage|p1a: Milotic|90/100
+|move|p1a: Milotic|Scald|p2a: Gligar
+|-supereffective|p2a: Gligar
+|-damage|p2a: Gligar|17/100 brn
+|
+|-heal|p1a: Milotic|96/100|[from] item: Leftovers
+|-damage|p2a: Gligar|5/100 brn|[from] brn
+|upkeep
+|turn|33
+|choice|move scald|move roost
+|
+|move|p2a: Gligar|Roost|p2a: Gligar
+|-heal|p2a: Gligar|55/100 brn
+|move|p1a: Milotic|Scald|p2a: Gligar
+|-supereffective|p2a: Gligar
+|-damage|p2a: Gligar|19/100 brn
+|
+|-heal|p1a: Milotic|100/100|[from] item: Leftovers
+|-damage|p2a: Gligar|7/100 brn|[from] brn
+|upkeep
+|turn|34
+|choice|move scald|move roost
+|
+|move|p2a: Gligar|Roost|p2a: Gligar
+|-heal|p2a: Gligar|57/100 brn
+|move|p1a: Milotic|Scald|p2a: Gligar
+|-supereffective|p2a: Gligar
+|-damage|p2a: Gligar|21/100 brn
+|
+|-damage|p2a: Gligar|9/100 brn|[from] brn
+|upkeep
+|turn|35
+|choice|move haze|move defog
+|
+|move|p2a: Gligar|Defog|p1a: Milotic
+|-unboost|p1a: Milotic|evasion|1
+|-sideend|p2: RAFAELKEN|Spikes|[from] move: Defog|[of] p2a: Gligar
+|move|p1a: Milotic|Haze|p1a: Milotic
+|-clearallboost
+|
+|-damage|p2a: Gligar|0 fnt|[from] brn
+|upkeep
+|faint|p2a: Gligar
+|choice||switch 5
+|
+|switch|p2a: Dragalge|Dragalge, M|100/100
+|turn|36
+|choice|move scald|move sludgewave
+|
+|move|p1a: Milotic|Scald|p2a: Dragalge
+|-resisted|p2a: Dragalge
+|-damage|p2a: Dragalge|89/100
+|move|p2a: Dragalge|Sludge Wave|p1a: Milotic
+|-damage|p1a: Milotic|35/100
+|
+|-heal|p1a: Milotic|41/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|choice|move scald|move sludgewave
+|
+|move|p1a: Milotic|Scald|p2a: Dragalge
+|-resisted|p2a: Dragalge
+|-damage|p2a: Dragalge|77/100
+|move|p2a: Dragalge|Sludge Wave|p1a: Milotic
+|-damage|p1a: Milotic|0 fnt
+|faint|p1a: Milotic
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Aggron|Aggron, M|100/100
+|turn|38
+|choice|move heavyslam|move sludgewave
+|
+|move|p2a: Dragalge|Sludge Wave|p1a: Aggron
+|-immune|p1a: Aggron|[msg]
+|move|p1a: Aggron|Heavy Slam|p2a: Dragalge
+|-damage|p2a: Dragalge|34/100
+|
+|upkeep
+|turn|39
+|choice|move heavyslam|switch 4
+|
+|switch|p2a: Pangoro|Pangoro, M|100/100
+|move|p1a: Aggron|Heavy Slam|p2a: Pangoro
+|-damage|p2a: Pangoro|71/100
+|
+|upkeep
+|turn|40
+|choice|move stealthrock|move icepunch
+|
+|move|p2a: Pangoro|Ice Punch|p1a: Aggron
+|-resisted|p1a: Aggron
+|-damage|p1a: Aggron|90/100
+|move|p1a: Aggron|Stealth Rock|p2a: Pangoro
+|-sidestart|p2: RAFAELKEN|move: Stealth Rock
+|
+|upkeep
+|turn|41
+|choice|move heavyslam|switch 6
+|
+|switch|p2a: Snorlax|Snorlax, M|100/100
+|-damage|p2a: Snorlax|88/100|[from] Stealth Rock
+|move|p1a: Aggron|Heavy Slam|p2a: Snorlax
+|-damage|p2a: Snorlax|77/100
+|
+|-heal|p2a: Snorlax|83/100|[from] item: Leftovers
+|upkeep
+|turn|42
+|choice|move heavyslam|move sleeptalk
+|
+|move|p1a: Aggron|Heavy Slam|p2a: Snorlax
+|-damage|p2a: Snorlax|72/100
+|move|p2a: Snorlax|Sleep Talk|p2a: Snorlax
+|-fail|p2a: Snorlax
+|
+|-heal|p2a: Snorlax|78/100|[from] item: Leftovers
+|upkeep
+|turn|43
+|choice|move heavyslam|move sleeptalk
+|
+|move|p1a: Aggron|Heavy Slam|p2a: Snorlax
+|-damage|p2a: Snorlax|67/100
+|move|p2a: Snorlax|Sleep Talk|p2a: Snorlax
+|-fail|p2a: Snorlax
+|
+|-heal|p2a: Snorlax|73/100|[from] item: Leftovers
+|upkeep
+|turn|44
+|choice|move heavyslam|move rest
+|
+|move|p1a: Aggron|Heavy Slam|p2a: Snorlax
+|-damage|p2a: Snorlax|60/100
+|move|p2a: Snorlax|Rest|p2a: Snorlax
+|-status|p2a: Snorlax|slp
+|-heal|p2a: Snorlax|100/100 slp|[silent]
+|-status|p2a: Snorlax|slp|[from] move: Rest
+|
+|upkeep
+|turn|45
+|choice|move earthquake|switch 3
+|
+|switch|p2a: Swampert|Swampert, M|100/100
+|-damage|p2a: Swampert|94/100|[from] Stealth Rock
+|move|p1a: Aggron|Earthquake|p2a: Swampert
+|-damage|p2a: Swampert|79/100
+|
+|-heal|p2a: Swampert|85/100|[from] item: Leftovers
+|upkeep
+|turn|46
+|choice|move stealthrock|move scald
+|
+|move|p2a: Swampert|Scald|p1a: Aggron
+|-supereffective|p1a: Aggron
+|-damage|p1a: Aggron|30/100
+|move|p1a: Aggron|Stealth Rock|p2a: Swampert
+|-fail|p2a: Swampert
+|
+|-heal|p2a: Swampert|92/100|[from] item: Leftovers
+|upkeep
+|turn|47
+|choice|move earthquake|move scald
+|
+|move|p2a: Swampert|Scald|p1a: Aggron
+|-supereffective|p1a: Aggron
+|-damage|p1a: Aggron|0 fnt
+|faint|p1a: Aggron
+|
+|-heal|p2a: Swampert|98/100|[from] item: Leftovers
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Haxorus|Haxorus, M|100/100
+|-ability|p1a: Haxorus|Mold Breaker
+|turn|48
+|choice|move earthquake|move scald
+|
+|move|p1a: Haxorus|Earthquake|p2a: Swampert
+|-damage|p2a: Swampert|72/100
+|move|p2a: Swampert|Scald|p1a: Haxorus
+|-resisted|p1a: Haxorus
+|-damage|p1a: Haxorus|81/100
+|
+|-heal|p2a: Swampert|79/100|[from] item: Leftovers
+|upkeep
+|turn|49
+|choice|move earthquake|move scald
+|
+|move|p1a: Haxorus|Earthquake|p2a: Swampert
+|-damage|p2a: Swampert|56/100
+|move|p2a: Swampert|Scald|p1a: Haxorus
+|-resisted|p1a: Haxorus
+|-damage|p1a: Haxorus|62/100
+|
+|-heal|p2a: Swampert|62/100|[from] item: Leftovers
+|upkeep
+|turn|50
+|choice|move earthquake|move scald
+|
+|move|p1a: Haxorus|Earthquake|p2a: Swampert
+|-damage|p2a: Swampert|36/100
+|move|p2a: Swampert|Scald|p1a: Haxorus
+|-resisted|p1a: Haxorus
+|-damage|p1a: Haxorus|43/100
+|
+|-heal|p2a: Swampert|42/100|[from] item: Leftovers
+|upkeep
+|turn|51
+|choice|move poisonjab|move scald
+|
+|move|p1a: Haxorus|Poison Jab|p2a: Swampert
+|-resisted|p2a: Swampert
+|-damage|p2a: Swampert|31/100
+|move|p2a: Swampert|Scald|p1a: Haxorus
+|-resisted|p1a: Haxorus
+|-damage|p1a: Haxorus|16/100
+|
+|-heal|p2a: Swampert|38/100|[from] item: Leftovers
+|upkeep
+|turn|52
+|choice|move earthquake|move scald
+|
+|move|p1a: Haxorus|Earthquake|p2a: Swampert
+|-damage|p2a: Swampert|11/100
+|move|p2a: Swampert|Scald|p1a: Haxorus
+|-resisted|p1a: Haxorus
+|-damage|p1a: Haxorus|0 fnt
+|faint|p1a: Haxorus
+|
+|win|RAFAELKEN

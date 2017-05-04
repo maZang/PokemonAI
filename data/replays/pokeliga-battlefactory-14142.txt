@@ -1,0 +1,375 @@
+|j|Mootagen
+|j|Deliann
+|player|p1|Mootagen|21
+|player|p2|Deliann|154
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|27954,61317,61122,26521,64083,58798,57772,52865,23969,11884,64307,5891
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Forretress, M|item
+|poke|p1|Porygon-Z|item
+|poke|p1|Scrafty, M|item
+|poke|p1|Gligar, M|item
+|poke|p1|Sableye, M|item
+|poke|p1|Cloyster, M|item
+|poke|p2|Entei, shiny|item
+|poke|p2|Cresselia, F|item
+|poke|p2|Galvantula, M|item
+|poke|p2|Dragalge, M|item
+|poke|p2|Houndoom, M|item
+|poke|p2|Pangoro, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 6, team 2, team 3, team 4, team 5, team 1|team 1, team 2, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Cloyster|Cloyster, M|100/100
+|switch|p2a: Entei|Entei, shiny|100/100
+|-ability|p2a: Entei|Pressure
+|turn|1
+|choice|move shellsmash|move stoneedge
+|
+|move|p2a: Entei|Stone Edge|p1a: Cloyster
+|-supereffective|p1a: Cloyster
+|-damage|p1a: Cloyster|23/100
+|-damage|p2a: Entei|91/100|[from] item: Life Orb
+|move|p1a: Cloyster|Shell Smash|p1a: Cloyster
+|-unboost|p1a: Cloyster|def|1
+|-unboost|p1a: Cloyster|spd|1
+|-boost|p1a: Cloyster|atk|2
+|-boost|p1a: Cloyster|spa|2
+|-boost|p1a: Cloyster|spe|2
+|
+|upkeep
+|turn|2
+|choice|move rockblast|move extremespeed
+|
+|move|p2a: Entei|Extreme Speed|p1a: Cloyster
+|-damage|p1a: Cloyster|0 fnt
+|-damage|p2a: Entei|81/100|[from] item: Life Orb
+|faint|p1a: Cloyster
+|
+|upkeep
+|c|☆Mootagen|Опа
+|c|☆Mootagen|Он шайник?
+|choice|switch 4|
+|
+|switch|p1a: Gligar|Gligar, M|100/100
+|turn|3
+|c|☆Deliann|не знаю)
+|c|☆Mootagen|вроде да
+|c|☆Mootagen|ты очень везучий)
+|choice|move stealthrock|switch 2
+|
+|switch|p2a: Cresselia|Cresselia, F|100/100
+|move|p1a: Gligar|Stealth Rock|p2a: Cresselia
+|-sidestart|p2: Deliann|move: Stealth Rock
+|
+|upkeep
+|turn|4
+|choice|switch 5|move reflect
+|
+|switch|p1a: Sableye|Sableye, M|100/100
+|move|p2a: Cresselia|Reflect|p2a: Cresselia
+|-sidestart|p2: Deliann|Reflect
+|
+|upkeep
+|turn|5
+|choice|move taunt|move moonblast
+|
+|move|p1a: Sableye|Taunt|p2a: Cresselia
+|-start|p2a: Cresselia|move: Taunt
+|move|p2a: Cresselia|Moonblast|p1a: Sableye
+|-supereffective|p1a: Sableye
+|-damage|p1a: Sableye|67/100
+|-unboost|p1a: Sableye|spa|1
+|
+|-heal|p1a: Sableye|73/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|choice|move knockoff|move moonblast
+|
+|move|p2a: Cresselia|Moonblast|p1a: Sableye
+|-supereffective|p1a: Sableye
+|-damage|p1a: Sableye|38/100
+|move|p1a: Sableye|Knock Off|p2a: Cresselia
+|-supereffective|p2a: Cresselia
+|-damage|p2a: Cresselia|83/100
+|-enditem|p2a: Cresselia|Light Clay|[from] move: Knock Off|[of] p1a: Sableye
+|
+|-heal|p1a: Sableye|44/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|choice|move recover|move moonblast
+|
+|move|p1a: Sableye|Recover|p1a: Sableye
+|-heal|p1a: Sableye|94/100
+|move|p2a: Cresselia|Moonblast|p1a: Sableye
+|-supereffective|p1a: Sableye
+|-damage|p1a: Sableye|59/100
+|
+|-heal|p1a: Sableye|65/100|[from] item: Leftovers
+|-end|p2a: Cresselia|move: Taunt
+|upkeep
+|turn|8
+|choice|move willowisp|move moonblast
+|
+|move|p1a: Sableye|Will-O-Wisp|p2a: Cresselia
+|-status|p2a: Cresselia|brn
+|move|p2a: Cresselia|Moonblast|p1a: Sableye
+|-supereffective|p1a: Sableye
+|-damage|p1a: Sableye|26/100
+|-unboost|p1a: Sableye|spa|1
+|
+|-heal|p1a: Sableye|33/100|[from] item: Leftovers
+|-damage|p2a: Cresselia|70/100 brn|[from] brn
+|upkeep
+|turn|9
+|choice|move recover|switch 5
+|
+|switch|p2a: Houndoom|Houndoom, M|100/100
+|-damage|p2a: Houndoom|76/100|[from] Stealth Rock
+|move|p1a: Sableye|Recover|p1a: Sableye
+|-heal|p1a: Sableye|83/100
+|
+|-heal|p1a: Sableye|89/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|choice|move knockoff|move darkpulse mega
+|
+|detailschange|p2a: Houndoom|Houndoom-Mega, M
+|-mega|p2a: Houndoom|Houndoom|Houndoominite
+|move|p2a: Houndoom|Dark Pulse|p1a: Sableye
+|-damage|p1a: Sableye|39/100
+|move|p1a: Sableye|Knock Off|p2a: Houndoom
+|-resisted|p2a: Houndoom
+|-damage|p2a: Houndoom|70/100
+|
+|-heal|p1a: Sableye|46/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|choice|move recover|move darkpulse
+|
+|move|p1a: Sableye|Recover|p1a: Sableye
+|-heal|p1a: Sableye|96/100
+|move|p2a: Houndoom|Dark Pulse|p1a: Sableye
+|-damage|p1a: Sableye|48/100
+|
+|-heal|p1a: Sableye|54/100|[from] item: Leftovers
+|-sideend|p2: Deliann|Reflect
+|upkeep
+|turn|12
+|choice|move recover|move sunnyday
+|
+|move|p1a: Sableye|Recover|p1a: Sableye
+|-heal|p1a: Sableye|100/100
+|move|p2a: Houndoom|Sunny Day|p2a: Houndoom
+|-weather|SunnyDay
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Houndoom|58/100|[from] ability: Solar Power|[of] p2a: Houndoom
+|upkeep
+|turn|13
+|choice|move knockoff|move fireblast
+|
+|move|p2a: Houndoom|Fire Blast|p1a: Sableye
+|-damage|p1a: Sableye|0 fnt
+|faint|p1a: Sableye
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Houndoom|45/100|[from] ability: Solar Power|[of] p2a: Houndoom
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Gligar|Gligar, M|100/100
+|turn|14
+|choice|move earthquake|move solarbeam
+|
+|move|p2a: Houndoom|Solar Beam|p1a: Gligar|[still]
+|-prepare|p2a: Houndoom|Solar Beam|p1a: Gligar
+|-anim|p2a: Houndoom|Solar Beam|p1a: Gligar
+|-damage|p1a: Gligar|33/100
+|move|p1a: Gligar|Earthquake|p2a: Houndoom
+|-supereffective|p2a: Houndoom
+|-damage|p2a: Houndoom|0 fnt
+|faint|p2a: Houndoom
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Entei|Entei, shiny|81/100
+|-damage|p2a: Entei|56/100|[from] Stealth Rock
+|-ability|p2a: Entei|Pressure
+|turn|15
+|c|☆Mootagen|100% шайник
+|choice|move roost|move sacredfire
+|
+|move|p2a: Entei|Sacred Fire|p1a: Gligar|[miss]
+|-miss|p2a: Entei|p1a: Gligar
+|move|p1a: Gligar|Roost|p1a: Gligar
+|-heal|p1a: Gligar|83/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|16
+|choice|move earthquake|move sacredfire
+|
+|move|p2a: Entei|Sacred Fire|p1a: Gligar
+|-damage|p1a: Gligar|38/100
+|-damage|p2a: Entei|46/100|[from] item: Life Orb
+|move|p1a: Gligar|Earthquake|p2a: Entei
+|-supereffective|p2a: Entei
+|-damage|p2a: Entei|0 fnt
+|faint|p2a: Entei
+|
+|-weather|none
+|upkeep
+|c|☆Deliann|ты более везучий
+|c|☆Deliann|95% меткости
+|c|☆Deliann|снес бы
+|c|☆Deliann|но обидный промах
+|choice||switch 4
+|
+|switch|p2a: Dragalge|Dragalge, M|100/100
+|-damage|p2a: Dragalge|88/100|[from] Stealth Rock
+|turn|17
+|c|☆Mootagen|ага, жаль
+|c|☆Mootagen|я думал уже что конец
+|choice|move roost|move scald
+|
+|move|p1a: Gligar|Roost|p1a: Gligar
+|-heal|p1a: Gligar|88/100
+|move|p2a: Dragalge|Scald|p1a: Gligar
+|-supereffective|p1a: Gligar
+|-damage|p1a: Gligar|19/100
+|
+|upkeep
+|turn|18
+|choice|move earthquake|move scald
+|
+|move|p1a: Gligar|Earthquake|p2a: Dragalge
+|-supereffective|p2a: Dragalge
+|-damage|p2a: Dragalge|23/100
+|move|p2a: Dragalge|Scald|p1a: Gligar
+|-supereffective|p1a: Gligar
+|-damage|p1a: Gligar|0 fnt
+|faint|p1a: Gligar
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Scrafty|Scrafty, M|100/100
+|turn|19
+|choice|move dragondance|move scald
+|
+|move|p1a: Scrafty|Dragon Dance|p1a: Scrafty
+|-boost|p1a: Scrafty|atk|1
+|-boost|p1a: Scrafty|spe|1
+|move|p2a: Dragalge|Scald|p1a: Scrafty
+|-damage|p1a: Scrafty|60/100
+|-status|p1a: Scrafty|brn
+|
+|-damage|p1a: Scrafty|47/100 brn|[from] brn
+|upkeep
+|turn|20
+|choice|move zenheadbutt|move scald
+|
+|move|p1a: Scrafty|Zen Headbutt|p2a: Dragalge
+|-supereffective|p2a: Dragalge
+|-crit|p2a: Dragalge
+|-damage|p2a: Dragalge|0 fnt
+|-damage|p1a: Scrafty|37/100 brn|[from] item: Life Orb
+|faint|p2a: Dragalge
+|-ability|p1a: Scrafty|Moxie|boost
+|-boost|p1a: Scrafty|atk|1
+|
+|-damage|p1a: Scrafty|25/100 brn|[from] brn
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Pangoro|Pangoro, M|100/100
+|-damage|p2a: Pangoro|94/100|[from] Stealth Rock
+|turn|21
+|choice|move drainpunch|move icepunch
+|
+|move|p1a: Scrafty|Drain Punch|p2a: Pangoro
+|-supereffective|p2a: Pangoro
+|-damage|p2a: Pangoro|0 fnt
+|-heal|p1a: Scrafty|83/100 brn|[from] drain|[of] p2a: Pangoro
+|-damage|p1a: Scrafty|73/100 brn|[from] item: Life Orb
+|faint|p2a: Pangoro
+|-ability|p1a: Scrafty|Moxie|boost
+|-boost|p1a: Scrafty|atk|1
+|
+|-damage|p1a: Scrafty|61/100 brn|[from] brn
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Cresselia|Cresselia, F|70/100 brn
+|-damage|p2a: Cresselia|58/100 brn|[from] Stealth Rock
+|turn|22
+|choice|move knockoff|move moonblast
+|
+|move|p1a: Scrafty|Knock Off|p2a: Cresselia
+|-supereffective|p2a: Cresselia
+|-damage|p2a: Cresselia|2/100 brn
+|-damage|p1a: Scrafty|51/100 brn|[from] item: Life Orb
+|move|p2a: Cresselia|Moonblast|p1a: Scrafty
+|-supereffective|p1a: Scrafty
+|-damage|p1a: Scrafty|0 fnt
+|faint|p1a: Scrafty
+|
+|-damage|p2a: Cresselia|0 fnt|[from] brn
+|upkeep
+|faint|p2a: Cresselia
+|c|☆Mootagen|эх
+|c|☆Deliann|лол
+|c|☆Mootagen|я уже думал - гг)
+|choice|switch 6|switch 3
+|
+|switch|p2a: Galvantula|Galvantula, M|100/100
+|switch|p1a: Forretress|Forretress, M|100/100
+|-damage|p2a: Galvantula|76/100|[from] Stealth Rock
+|turn|23
+|c|☆Deliann|не думал что выдержит
+|c|☆Deliann|но без пангоро тут уже делать нечего
+|choice|move gyroball|move thunder
+|
+|move|p2a: Galvantula|Thunder|p1a: Forretress
+|-damage|p1a: Forretress|35/100
+|-status|p1a: Forretress|par
+|move|p1a: Forretress|Gyro Ball|p2a: Galvantula
+|-resisted|p2a: Galvantula
+|-damage|p2a: Galvantula|31/100
+|
+|-heal|p1a: Forretress|41/100 par|[from] item: Leftovers
+|upkeep
+|turn|24
+|c|☆Mootagen|ха, спасиб за паралич
+|choice|move gyroball|move thunder
+|
+|move|p2a: Galvantula|Thunder|p1a: Forretress
+|-damage|p1a: Forretress|0 fnt
+|faint|p1a: Forretress
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Porygon-Z|Porygon-Z|100/100
+|turn|25
+|choice|move triattack|move thunder
+|
+|move|p2a: Galvantula|Thunder|p1a: Porygon-Z
+|-damage|p1a: Porygon-Z|35/100
+|move|p1a: Porygon-Z|Tri Attack|p2a: Galvantula
+|-damage|p2a: Galvantula|0 fnt
+|faint|p2a: Galvantula
+|
+|win|Mootagen
+|l|Mootagen
+|l|Deliann
+|j|Mootagen

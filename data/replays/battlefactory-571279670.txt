@@ -1,0 +1,865 @@
+|j|Jinko42
+|j|nosioP tirC
+|player|p1|Jinko42|209
+|player|p2|nosioP tirC|10
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|23799,6323,23639,22802,18225,33846,50075,60844,30792,60761,836,33560
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Mew|item
+|poke|p1|Mamoswine, M|item
+|poke|p1|Serperior, M|item
+|poke|p1|Gardevoir, M|item
+|poke|p1|Togekiss, M|item
+|poke|p1|Ferrothorn, M|item
+|poke|p2|Scizor, M|item
+|poke|p2|Scolipede, M|item
+|poke|p2|Sylveon, M|item
+|poke|p2|Feraligatr, M|item
+|poke|p2|Kyurem-Black|item
+|poke|p2|Tyranitar, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|j|BOOM_BOOM_splynw
+|choice|team 2, team 1, team 3, team 4, team 5, team 6|team 6, team 2, team 3, team 4, team 5, team 1
+|
+|start
+|switch|p1a: Mamoswine|Mamoswine, M|100/100
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|1
+|choice|move stealthrock|move stealthrock
+|
+|move|p1a: Mamoswine|Stealth Rock|p2a: Tyranitar
+|-sidestart|p2: nosioP tirC|move: Stealth Rock
+|move|p2a: Tyranitar|Stealth Rock|p1a: Mamoswine
+|-sidestart|p1: Jinko42|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|2
+|choice|move earthquake|move stoneedge
+|
+|move|p1a: Mamoswine|Earthquake|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|32/100
+|move|p2a: Tyranitar|Stone Edge|p1a: Mamoswine
+|-damage|p1a: Mamoswine|50/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Tyranitar|38/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|choice|move earthquake|switch 6
+|
+|switch|p2a: Scizor|Scizor, M|100/100
+|-damage|p2a: Scizor|88/100|[from] Stealth Rock
+|move|p1a: Mamoswine|Earthquake|p2a: Scizor
+|-damage|p2a: Scizor|50/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|4
+|c| BOOM_BOOM_splynw|**OH GOD IM FAAARTING**
+|c| BOOM_BOOM_splynw|**OH GOD IM FAAARTING**
+|choice|move earthquake|move roost mega
+|
+|detailschange|p2a: Scizor|Scizor-Mega, M
+|-mega|p2a: Scizor|Scizor|Scizorite
+|move|p1a: Mamoswine|Earthquake|p2a: Scizor
+|-damage|p2a: Scizor|18/100
+|move|p2a: Scizor|Roost|p2a: Scizor
+|-heal|p2a: Scizor|68/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|5
+|choice|move endeavor|move bulletpunch
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Mamoswine
+|-supereffective|p1a: Mamoswine
+|-damage|p1a: Mamoswine|0 fnt
+|faint|p1a: Mamoswine
+|
+|-weather|none
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p1a: Ferrothorn|94/100|[from] Stealth Rock
+|turn|6
+|choice|move leechseed|move defog
+|
+|move|p2a: Scizor|Defog|p1a: Ferrothorn
+|-unboost|p1a: Ferrothorn|evasion|1
+|-sideend|p1: Jinko42|Stealth Rock|[from] move: Defog|[of] p1a: Ferrothorn
+|-sideend|p2: nosioP tirC|Stealth Rock|[from] move: Defog|[of] p2a: Scizor
+|move|p1a: Ferrothorn|Leech Seed|p2a: Scizor
+|-start|p2a: Scizor|move: Leech Seed
+|
+|-heal|p1a: Ferrothorn|100/100|[from] item: Leftovers
+|-damage|p2a: Scizor|55/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|upkeep
+|turn|7
+|choice|move gyroball|switch 6
+|
+|switch|p2a: Tyranitar|Tyranitar, M|38/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-crit|p2a: Tyranitar
+|-damage|p2a: Tyranitar|4/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Tyranitar|10/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|choice|move gyroball|move stealthrock
+|
+|move|p2a: Tyranitar|Stealth Rock|p1a: Ferrothorn
+|-sidestart|p1: Jinko42|move: Stealth Rock
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|c| BOOM_BOOM_splynw|**MY MOM DROPPED ME WHEN I WAS LITTLE**
+|c| BOOM_BOOM_splynw|**MY MOM DROPPED ME WHEN I WAS LITTLE**
+|c| BOOM_BOOM_splynw|**MY MOM DROPPED ME WHEN I WAS LITTLE**
+|c| BOOM_BOOM_splynw|**MY MOM DROPPED ME WHEN I WAS LITTLE**
+|c| BOOM_BOOM_splynw|**MY MOM DROPPED ME WHEN I WAS LITTLE**
+|choice||switch 6
+|
+|switch|p2a: Scizor|Scizor-Mega, M|55/100
+|turn|9
+|choice|move leechseed|move roost
+|
+|move|p2a: Scizor|Roost|p2a: Scizor
+|-heal|p2a: Scizor|100/100
+|move|p1a: Ferrothorn|Leech Seed|p2a: Scizor
+|-start|p2a: Scizor|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Scizor|88/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|upkeep
+|turn|10
+|choice|move gyroball|move knockoff
+|
+|move|p2a: Scizor|Knock Off|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|81/100
+|-damage|p2a: Scizor|75/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-enditem|p1a: Ferrothorn|Leftovers|[from] move: Knock Off|[of] p2a: Scizor
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Scizor
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|69/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Scizor|56/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|93/100|[silent]
+|upkeep
+|turn|11
+|choice|switch 2|switch 4
+|
+|switch|p2a: Feraligatr|Feraligatr, M|100/100
+|switch|p1a: Mew|Mew|100/100
+|-damage|p1a: Mew|88/100|[from] Stealth Rock
+|
+|-weather|none
+|-heal|p1a: Mew|94/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|choice|move willowisp|switch 3
+|
+|switch|p2a: Sylveon|Sylveon, M|100/100
+|move|p1a: Mew|Will-O-Wisp|p2a: Sylveon|[miss]
+|-miss|p1a: Mew|p2a: Sylveon
+|
+|-heal|p1a: Mew|100/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|choice|move knockoff|move shadowball
+|
+|move|p1a: Mew|Knock Off|p2a: Sylveon
+|-resisted|p2a: Sylveon
+|-damage|p2a: Sylveon|87/100
+|-enditem|p2a: Sylveon|Choice Specs|[from] move: Knock Off|[of] p1a: Mew
+|move|p2a: Sylveon|Shadow Ball|p1a: Mew
+|-supereffective|p1a: Mew
+|-damage|p1a: Mew|50/100
+|
+|-heal|p1a: Mew|57/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|choice|move defog|move shadowball
+|
+|move|p1a: Mew|Defog|p2a: Sylveon
+|-unboost|p2a: Sylveon|evasion|1
+|-sideend|p1: Jinko42|Stealth Rock|[from] move: Defog|[of] p1a: Mew
+|move|p2a: Sylveon|Shadow Ball|p1a: Mew
+|-supereffective|p1a: Mew
+|-damage|p1a: Mew|10/100
+|
+|-heal|p1a: Mew|16/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|choice|move softboiled|move batonpass
+|
+|move|p1a: Mew|Soft-Boiled|p1a: Mew
+|-heal|p1a: Mew|66/100
+|move|p2a: Sylveon|Baton Pass|p2a: Sylveon
+|choice||switch 2
+|
+|switch|p2a: Scolipede|Scolipede, M|100/100
+|
+|-heal|p1a: Mew|72/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|choice|switch 2|move megahorn
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|93/100
+|move|p2a: Scolipede|Megahorn|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|47/100
+|-damage|p2a: Scolipede|88/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-damage|p2a: Scolipede|78/100|[from] item: Life Orb
+|
+|-ability|p2a: Scolipede|Speed Boost|boost
+|-boost|p2a: Scolipede|spe|1
+|upkeep
+|turn|17
+|choice|move leechseed|move megahorn
+|
+|move|p2a: Scolipede|Megahorn|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|-damage|p2a: Scolipede|66/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-damage|p2a: Scolipede|56/100|[from] item: Life Orb
+|faint|p1a: Ferrothorn
+|
+|-ability|p2a: Scolipede|Speed Boost|boost
+|-boost|p2a: Scolipede|spe|1
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Togekiss|Togekiss, M|100/100
+|turn|18
+|choice|move airslash|move poisonjab
+|
+|move|p2a: Scolipede|Poison Jab|p1a: Togekiss
+|-supereffective|p1a: Togekiss
+|-damage|p1a: Togekiss|2/100
+|-damage|p2a: Scolipede|46/100|[from] item: Life Orb
+|move|p1a: Togekiss|Air Slash|p2a: Scolipede
+|-supereffective|p2a: Scolipede
+|-damage|p2a: Scolipede|0 fnt
+|faint|p2a: Scolipede
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Feraligatr|Feraligatr, M|100/100
+|turn|19
+|choice|move airslash|move dragondance
+|
+|move|p1a: Togekiss|Air Slash|p2a: Feraligatr
+|-damage|p2a: Feraligatr|56/100
+|cant|p2a: Feraligatr|flinch
+|
+|upkeep
+|turn|20
+|choice|move airslash|move dragondance
+|
+|move|p1a: Togekiss|Air Slash|p2a: Feraligatr
+|-damage|p2a: Feraligatr|12/100
+|cant|p2a: Feraligatr|flinch
+|
+|upkeep
+|turn|21
+|choice|move aurasphere|move icepunch
+|
+|move|p1a: Togekiss|Aura Sphere|p2a: Feraligatr
+|-damage|p2a: Feraligatr|0 fnt
+|faint|p2a: Feraligatr
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Scizor|Scizor-Mega, M|56/100
+|turn|22
+|choice|move airslash|move bulletpunch
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Togekiss
+|-supereffective|p1a: Togekiss
+|-crit|p1a: Togekiss
+|-damage|p1a: Togekiss|0 fnt
+|faint|p1a: Togekiss
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Mew|Mew|72/100
+|turn|23
+|choice|move willowisp|switch 2
+|
+|switch|p2a: Sylveon|Sylveon, M|87/100
+|move|p1a: Mew|Will-O-Wisp|p2a: Sylveon
+|-status|p2a: Sylveon|brn
+|
+|-heal|p1a: Mew|78/100|[from] item: Leftovers
+|-damage|p2a: Sylveon|74/100 brn|[from] brn
+|upkeep
+|turn|24
+|choice|move softboiled|move shadowball
+|
+|move|p1a: Mew|Soft-Boiled|p1a: Mew
+|-heal|p1a: Mew|100/100
+|move|p2a: Sylveon|Shadow Ball|p1a: Mew
+|-supereffective|p1a: Mew
+|-damage|p1a: Mew|57/100
+|
+|-heal|p1a: Mew|64/100|[from] item: Leftovers
+|-damage|p2a: Sylveon|62/100 brn|[from] brn
+|upkeep
+|turn|25
+|choice|move softboiled|move shadowball
+|
+|move|p1a: Mew|Soft-Boiled|p1a: Mew
+|-heal|p1a: Mew|100/100
+|move|p2a: Sylveon|Shadow Ball|p1a: Mew
+|-supereffective|p1a: Mew
+|-damage|p1a: Mew|56/100
+|
+|-heal|p1a: Mew|63/100|[from] item: Leftovers
+|-damage|p2a: Sylveon|49/100 brn|[from] brn
+|upkeep
+|turn|26
+|choice|move softboiled|move hypervoice
+|
+|move|p1a: Mew|Soft-Boiled|p1a: Mew
+|-heal|p1a: Mew|100/100
+|move|p2a: Sylveon|Hyper Voice|p1a: Mew
+|-damage|p1a: Mew|54/100
+|
+|-heal|p1a: Mew|61/100|[from] item: Leftovers
+|-damage|p2a: Sylveon|37/100 brn|[from] brn
+|upkeep
+|turn|27
+|choice|switch 3|move hypervoice
+|
+|switch|p1a: Serperior|Serperior, M|100/100
+|move|p2a: Sylveon|Hyper Voice|p1a: Serperior
+|-damage|p1a: Serperior|30/100
+|
+|-heal|p1a: Serperior|36/100|[from] item: Leftovers
+|-damage|p2a: Sylveon|24/100 brn|[from] brn
+|upkeep
+|turn|28
+|choice|move leafstorm|move hypervoice
+|
+|move|p1a: Serperior|Leaf Storm|p2a: Sylveon
+|-damage|p2a: Sylveon|0 fnt
+|-boost|p1a: Serperior|spa|2
+|faint|p2a: Sylveon
+|
+|-heal|p1a: Serperior|42/100|[from] item: Leftovers
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Kyurem|Kyurem-Black|100/100
+|-ability|p2a: Kyurem|Teravolt
+|turn|29
+|choice|move dragonpulse|move icebeam
+|
+|move|p1a: Serperior|Dragon Pulse|p2a: Kyurem
+|-supereffective|p2a: Kyurem
+|-damage|p2a: Kyurem|27/100
+|move|p2a: Kyurem|Ice Beam|p1a: Serperior
+|-supereffective|p1a: Serperior
+|-damage|p1a: Serperior|0 fnt
+|-damage|p2a: Kyurem|17/100|[from] item: Life Orb
+|faint|p1a: Serperior
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Gardevoir|Gardevoir, M|100/100
+|-ability|p1a: Gardevoir|Teravolt|[from] ability: Trace|[of] p2a: Kyurem
+|-ability|p1a: Gardevoir|Teravolt
+|turn|30
+|choice|move hypervoice mega|move fusionbolt
+|
+|detailschange|p1a: Gardevoir|Gardevoir-Mega, M
+|-mega|p1a: Gardevoir|Gardevoir|Gardevoirite
+|move|p2a: Kyurem|Fusion Bolt|p1a: Gardevoir
+|-damage|p1a: Gardevoir|24/100
+|-damage|p2a: Kyurem|7/100|[from] item: Life Orb
+|move|p1a: Gardevoir|Hyper Voice|p2a: Kyurem
+|-supereffective|p2a: Kyurem
+|-damage|p2a: Kyurem|0 fnt
+|faint|p2a: Kyurem
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Scizor|Scizor-Mega, M|56/100
+|turn|31
+|choice|move hypervoice|move bulletpunch
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Gardevoir
+|-supereffective|p1a: Gardevoir
+|-damage|p1a: Gardevoir|0 fnt
+|faint|p1a: Gardevoir
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Mew|Mew|61/100
+|turn|32
+|c| BOOM_BOOM_splynw|**onii-chan .~. kawaii desu chan..~~~~~~ so kawaii..*nuzzles* fuzzy wuzzy o~o yumy..~~desu..**
+|c| BOOM_BOOM_splynw|**onii-chan .~. kawaii desu chan..~~~~~~ so kawaii..*nuzzles* fuzzy wuzzy o~o yumy..~~desu..**
+|c| BOOM_BOOM_splynw|**onii-chan .~. kawaii desu chan..~~~~~~ so kawaii..*nuzzles* fuzzy wuzzy o~o yumy..~~desu..**
+|c| BOOM_BOOM_splynw|**onii-chan .~. kawaii desu chan..~~~~~~ so kawaii..*nuzzles* fuzzy wuzzy o~o yumy..~~desu..**
+|choice|move willowisp|move knockoff
+|
+|move|p1a: Mew|Will-O-Wisp|p2a: Scizor
+|-status|p2a: Scizor|brn
+|move|p2a: Scizor|Knock Off|p1a: Mew
+|-supereffective|p1a: Mew
+|-crit|p1a: Mew
+|-damage|p1a: Mew|28/100
+|-enditem|p1a: Mew|Leftovers|[from] move: Knock Off|[of] p2a: Scizor
+|
+|-damage|p2a: Scizor|44/100 brn|[from] brn
+|upkeep
+|turn|33
+|choice|move softboiled|move bulletpunch
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Mew
+|-damage|p1a: Mew|19/100
+|move|p1a: Mew|Soft-Boiled|p1a: Mew
+|-heal|p1a: Mew|69/100
+|
+|-damage|p2a: Scizor|31/100 brn|[from] brn
+|upkeep
+|turn|34
+|choice|move softboiled|move roost
+|
+|move|p1a: Mew|Soft-Boiled|p1a: Mew
+|-heal|p1a: Mew|100/100
+|move|p2a: Scizor|Roost|p2a: Scizor
+|-heal|p2a: Scizor|81/100 brn
+|
+|-damage|p2a: Scizor|69/100 brn|[from] brn
+|upkeep
+|turn|35
+|choice|move knockoff|move knockoff
+|
+|move|p1a: Mew|Knock Off|p2a: Scizor
+|-damage|p2a: Scizor|60/100 brn
+|move|p2a: Scizor|Knock Off|p1a: Mew
+|-supereffective|p1a: Mew
+|-damage|p1a: Mew|85/100
+|
+|-damage|p2a: Scizor|48/100 brn|[from] brn
+|upkeep
+|turn|36
+|choice|move knockoff|move knockoff
+|
+|move|p1a: Mew|Knock Off|p2a: Scizor
+|-damage|p2a: Scizor|39/100 brn
+|move|p2a: Scizor|Knock Off|p1a: Mew
+|-supereffective|p1a: Mew
+|-damage|p1a: Mew|69/100
+|
+|-damage|p2a: Scizor|26/100 brn|[from] brn
+|upkeep
+|turn|37
+|c| BOOM_BOOM_splynw|onii-chan .~. kawaii desu chan..~~~~~~ so kawaii..*nuzzles* fuzzy wuzzy o~o yumy..~~desu..
+|choice|move knockoff|move roost
+|
+|move|p1a: Mew|Knock Off|p2a: Scizor
+|-damage|p2a: Scizor|19/100 brn
+|move|p2a: Scizor|Roost|p2a: Scizor
+|-heal|p2a: Scizor|69/100 brn
+|
+|-damage|p2a: Scizor|56/100 brn|[from] brn
+|upkeep
+|turn|38
+|choice|move knockoff|move knockoff
+|
+|move|p1a: Mew|Knock Off|p2a: Scizor
+|-damage|p2a: Scizor|47/100 brn
+|move|p2a: Scizor|Knock Off|p1a: Mew
+|-supereffective|p1a: Mew
+|-damage|p1a: Mew|55/100
+|
+|-damage|p2a: Scizor|35/100 brn|[from] brn
+|upkeep
+|turn|39
+|choice|move knockoff|move knockoff
+|
+|move|p1a: Mew|Knock Off|p2a: Scizor
+|-damage|p2a: Scizor|26/100 brn
+|move|p2a: Scizor|Knock Off|p1a: Mew
+|-supereffective|p1a: Mew
+|-crit|p1a: Mew
+|-damage|p1a: Mew|31/100
+|
+|-damage|p2a: Scizor|14/100 brn|[from] brn
+|upkeep
+|turn|40
+|choice|move knockoff|move roost
+|
+|move|p1a: Mew|Knock Off|p2a: Scizor
+|-damage|p2a: Scizor|5/100 brn
+|move|p2a: Scizor|Roost|p2a: Scizor
+|-heal|p2a: Scizor|55/100 brn
+|
+|-damage|p2a: Scizor|42/100 brn|[from] brn
+|upkeep
+|turn|41
+|choice|move softboiled|move roost
+|
+|move|p1a: Mew|Soft-Boiled|p1a: Mew
+|-heal|p1a: Mew|81/100
+|move|p2a: Scizor|Roost|p2a: Scizor
+|-heal|p2a: Scizor|92/100 brn
+|
+|-damage|p2a: Scizor|80/100 brn|[from] brn
+|upkeep
+|turn|42
+|choice|move knockoff|move knockoff
+|
+|move|p1a: Mew|Knock Off|p2a: Scizor
+|-damage|p2a: Scizor|71/100 brn
+|move|p2a: Scizor|Knock Off|p1a: Mew
+|-supereffective|p1a: Mew
+|-damage|p1a: Mew|65/100
+|
+|-damage|p2a: Scizor|59/100 brn|[from] brn
+|upkeep
+|turn|43
+|choice|move knockoff|move knockoff
+|
+|move|p1a: Mew|Knock Off|p2a: Scizor
+|-damage|p2a: Scizor|51/100 brn
+|move|p2a: Scizor|Knock Off|p1a: Mew
+|-supereffective|p1a: Mew
+|-damage|p1a: Mew|51/100
+|
+|-damage|p2a: Scizor|38/100 brn|[from] brn
+|upkeep
+|turn|44
+|choice|move knockoff|move knockoff
+|
+|move|p1a: Mew|Knock Off|p2a: Scizor
+|-damage|p2a: Scizor|29/100 brn
+|move|p2a: Scizor|Knock Off|p1a: Mew
+|-supereffective|p1a: Mew
+|-damage|p1a: Mew|37/100
+|
+|-damage|p2a: Scizor|17/100 brn|[from] brn
+|upkeep
+|turn|45
+|choice|move knockoff|move roost
+|
+|move|p1a: Mew|Knock Off|p2a: Scizor
+|-damage|p2a: Scizor|8/100 brn
+|move|p2a: Scizor|Roost|p2a: Scizor
+|-heal|p2a: Scizor|58/100 brn
+|
+|-damage|p2a: Scizor|45/100 brn|[from] brn
+|upkeep
+|turn|46
+|choice|move softboiled|move bulletpunch
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Mew
+|-damage|p1a: Mew|27/100
+|move|p1a: Mew|Soft-Boiled|p1a: Mew
+|-heal|p1a: Mew|77/100
+|
+|-damage|p2a: Scizor|33/100 brn|[from] brn
+|upkeep
+|turn|47
+|choice|move knockoff|move roost
+|
+|move|p1a: Mew|Knock Off|p2a: Scizor
+|-damage|p2a: Scizor|24/100 brn
+|move|p2a: Scizor|Roost|p2a: Scizor
+|-heal|p2a: Scizor|74/100 brn
+|
+|-damage|p2a: Scizor|62/100 brn|[from] brn
+|upkeep
+|turn|48
+|choice|move knockoff|move knockoff
+|
+|move|p1a: Mew|Knock Off|p2a: Scizor
+|-damage|p2a: Scizor|53/100 brn
+|move|p2a: Scizor|Knock Off|p1a: Mew
+|-supereffective|p1a: Mew
+|-damage|p1a: Mew|62/100
+|
+|-damage|p2a: Scizor|41/100 brn|[from] brn
+|upkeep
+|turn|49
+|choice|move knockoff|move knockoff
+|
+|move|p1a: Mew|Knock Off|p2a: Scizor
+|-damage|p2a: Scizor|32/100 brn
+|move|p2a: Scizor|Knock Off|p1a: Mew
+|-supereffective|p1a: Mew
+|-crit|p1a: Mew
+|-damage|p1a: Mew|40/100
+|
+|-damage|p2a: Scizor|19/100 brn|[from] brn
+|upkeep
+|turn|50
+|choice|move knockoff|move roost
+|
+|move|p1a: Mew|Knock Off|p2a: Scizor
+|-damage|p2a: Scizor|11/100 brn
+|move|p2a: Scizor|Roost|p2a: Scizor
+|-heal|p2a: Scizor|61/100 brn
+|
+|-damage|p2a: Scizor|48/100 brn|[from] brn
+|upkeep
+|turn|51
+|choice|move softboiled|move knockoff
+|
+|move|p1a: Mew|Soft-Boiled|p1a: Mew
+|-heal|p1a: Mew|90/100
+|move|p2a: Scizor|Knock Off|p1a: Mew
+|-supereffective|p1a: Mew
+|-damage|p1a: Mew|74/100
+|
+|-damage|p2a: Scizor|36/100 brn|[from] brn
+|upkeep
+|turn|52
+|choice|move knockoff|move knockoff
+|
+|move|p1a: Mew|Knock Off|p2a: Scizor
+|-damage|p2a: Scizor|28/100 brn
+|move|p2a: Scizor|Knock Off|p1a: Mew
+|-supereffective|p1a: Mew
+|-damage|p1a: Mew|58/100
+|
+|-damage|p2a: Scizor|15/100 brn|[from] brn
+|upkeep
+|turn|53
+|choice|move knockoff|move roost
+|
+|move|p1a: Mew|Knock Off|p2a: Scizor
+|-damage|p2a: Scizor|6/100 brn
+|move|p2a: Scizor|Roost|p2a: Scizor
+|-heal|p2a: Scizor|56/100 brn
+|
+|-damage|p2a: Scizor|44/100 brn|[from] brn
+|upkeep
+|turn|54
+|choice|move knockoff|move knockoff
+|
+|move|p1a: Mew|Knock Off|p2a: Scizor
+|-damage|p2a: Scizor|35/100 brn
+|move|p2a: Scizor|Knock Off|p1a: Mew
+|-supereffective|p1a: Mew
+|-damage|p1a: Mew|44/100
+|
+|-damage|p2a: Scizor|23/100 brn|[from] brn
+|upkeep
+|turn|55
+|choice|move knockoff|move roost
+|
+|move|p1a: Mew|Knock Off|p2a: Scizor
+|-damage|p2a: Scizor|14/100 brn
+|move|p2a: Scizor|Roost|p2a: Scizor
+|-heal|p2a: Scizor|64/100 brn
+|
+|-damage|p2a: Scizor|52/100 brn|[from] brn
+|upkeep
+|turn|56
+|choice|move softboiled|move knockoff
+|
+|move|p1a: Mew|Soft-Boiled|p1a: Mew
+|-heal|p1a: Mew|94/100
+|move|p2a: Scizor|Knock Off|p1a: Mew
+|-supereffective|p1a: Mew
+|-damage|p1a: Mew|79/100
+|
+|-damage|p2a: Scizor|39/100 brn|[from] brn
+|upkeep
+|turn|57
+|choice|move defog|move knockoff
+|
+|move|p1a: Mew|Defog|p2a: Scizor
+|-unboost|p2a: Scizor|evasion|1
+|move|p2a: Scizor|Knock Off|p1a: Mew
+|-supereffective|p1a: Mew
+|-damage|p1a: Mew|64/100
+|
+|-damage|p2a: Scizor|27/100 brn|[from] brn
+|upkeep
+|turn|58
+|choice|move defog|move roost
+|
+|move|p1a: Mew|Defog|p2a: Scizor
+|-unboost|p2a: Scizor|evasion|1
+|move|p2a: Scizor|Roost|p2a: Scizor
+|-heal|p2a: Scizor|77/100 brn
+|
+|-damage|p2a: Scizor|64/100 brn|[from] brn
+|upkeep
+|turn|59
+|choice|move knockoff|move knockoff
+|
+|move|p1a: Mew|Knock Off|p2a: Scizor
+|-crit|p2a: Scizor
+|-damage|p2a: Scizor|52/100 brn
+|move|p2a: Scizor|Knock Off|p1a: Mew
+|-supereffective|p1a: Mew
+|-damage|p1a: Mew|50/100
+|
+|-damage|p2a: Scizor|40/100 brn|[from] brn
+|upkeep
+|turn|60
+|choice|move softboiled|move knockoff
+|
+|move|p1a: Mew|Soft-Boiled|p1a: Mew
+|-heal|p1a: Mew|99/100
+|move|p2a: Scizor|Knock Off|p1a: Mew
+|-supereffective|p1a: Mew
+|-damage|p1a: Mew|85/100
+|
+|-damage|p2a: Scizor|27/100 brn|[from] brn
+|upkeep
+|turn|61
+|choice|move knockoff|move roost
+|
+|move|p1a: Mew|Knock Off|p2a: Scizor
+|-crit|p2a: Scizor
+|-damage|p2a: Scizor|14/100 brn
+|move|p2a: Scizor|Roost|p2a: Scizor
+|-heal|p2a: Scizor|64/100 brn
+|
+|-damage|p2a: Scizor|51/100 brn|[from] brn
+|upkeep
+|turn|62
+|choice|move knockoff|move bulletpunch
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Mew
+|-damage|p1a: Mew|74/100
+|move|p1a: Mew|Knock Off|p2a: Scizor
+|-crit|p2a: Scizor
+|-damage|p2a: Scizor|38/100 brn
+|
+|-damage|p2a: Scizor|26/100 brn|[from] brn
+|upkeep
+|turn|63
+|choice|move knockoff|move roost
+|
+|move|p1a: Mew|Knock Off|p2a: Scizor
+|-crit|p2a: Scizor
+|-damage|p2a: Scizor|13/100 brn
+|move|p2a: Scizor|Roost|p2a: Scizor
+|-heal|p2a: Scizor|63/100 brn
+|
+|-damage|p2a: Scizor|51/100 brn|[from] brn
+|upkeep
+|turn|64
+|choice|move knockoff|move bulletpunch
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Mew
+|-damage|p1a: Mew|63/100
+|move|p1a: Mew|Knock Off|p2a: Scizor
+|-damage|p2a: Scizor|43/100 brn
+|
+|-damage|p2a: Scizor|30/100 brn|[from] brn
+|upkeep
+|turn|65
+|c| BOOM_BOOM_splynw|**BRRAAAAAAAAAAAAAP**
+|c| BOOM_BOOM_splynw|**BRRAAAAAAAAAAAAAP**
+|c| BOOM_BOOM_splynw|**BRRAAAAAAAAAAAAAP**
+|choice|move knockoff|move roost
+|
+|move|p1a: Mew|Knock Off|p2a: Scizor
+|-damage|p2a: Scizor|22/100 brn
+|move|p2a: Scizor|Roost|p2a: Scizor
+|-heal|p2a: Scizor|72/100 brn
+|
+|-damage|p2a: Scizor|60/100 brn|[from] brn
+|upkeep
+|turn|66
+|c| BOOM_BOOM_splynw|**BRRAAAAAAAAAAAAAP**
+|c| BOOM_BOOM_splynw|**BRRAAAAAAAAAAAAAP**
+|c| BOOM_BOOM_splynw|**BRRAAAAAAAAAAAAAP**
+|c| BOOM_BOOM_splynw|**BRRAAAAAAAAAAAAAP**
+|choice|move knockoff|move knockoff
+|
+|move|p1a: Mew|Knock Off|p2a: Scizor
+|-damage|p2a: Scizor|51/100 brn
+|move|p2a: Scizor|Knock Off|p1a: Mew
+|-supereffective|p1a: Mew
+|-damage|p1a: Mew|49/100
+|
+|-damage|p2a: Scizor|38/100 brn|[from] brn
+|upkeep
+|turn|67
+|choice|move knockoff|move knockoff
+|
+|move|p1a: Mew|Knock Off|p2a: Scizor
+|-damage|p2a: Scizor|30/100 brn
+|move|p2a: Scizor|Knock Off|p1a: Mew
+|-supereffective|p1a: Mew
+|-damage|p1a: Mew|35/100
+|
+|-damage|p2a: Scizor|18/100 brn|[from] brn
+|upkeep
+|turn|68
+|choice|move softboiled|move roost
+|
+|move|p1a: Mew|Soft-Boiled|p1a: Mew
+|-heal|p1a: Mew|85/100
+|move|p2a: Scizor|Roost|p2a: Scizor
+|-heal|p2a: Scizor|68/100 brn
+|
+|-damage|p2a: Scizor|55/100 brn|[from] brn
+|upkeep
+|turn|69
+|choice|move knockoff|move knockoff
+|
+|move|p1a: Mew|Knock Off|p2a: Scizor
+|-damage|p2a: Scizor|46/100 brn
+|move|p2a: Scizor|Knock Off|p1a: Mew
+|-supereffective|p1a: Mew
+|-damage|p1a: Mew|69/100
+|
+|-damage|p2a: Scizor|34/100 brn|[from] brn
+|upkeep
+|turn|70
+|choice|move knockoff|move knockoff
+|
+|move|p1a: Mew|Knock Off|p2a: Scizor
+|-damage|p2a: Scizor|25/100 brn
+|move|p2a: Scizor|Knock Off|p1a: Mew
+|-supereffective|p1a: Mew
+|-damage|p1a: Mew|55/100
+|
+|-damage|p2a: Scizor|13/100 brn|[from] brn
+|upkeep
+|turn|71
+|choice|move knockoff|move knockoff
+|
+|move|p1a: Mew|Knock Off|p2a: Scizor
+|-damage|p2a: Scizor|4/100 brn
+|move|p2a: Scizor|Knock Off|p1a: Mew
+|-supereffective|p1a: Mew
+|-damage|p1a: Mew|40/100
+|
+|-damage|p2a: Scizor|0 fnt|[from] brn
+|upkeep
+|faint|p2a: Scizor
+|
+|win|Jinko42
+|l|nosioP tirC

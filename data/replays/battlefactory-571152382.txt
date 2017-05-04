@@ -1,0 +1,347 @@
+|j|k4rkl35 sp4rkl35
+|j|magia342
+|player|p1|k4rkl35 sp4rkl35|256
+|player|p2|magia342|102
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|34456,25148,44440,34695,33545,27965,31990,34621,42769,17059,51514,64792
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Donphan, M|item
+|poke|p1|Yanmega, M|item
+|poke|p1|Hoopa|item
+|poke|p1|Suicune|item
+|poke|p1|Honchkrow, M|item
+|poke|p1|Shaymin|item
+|poke|p2|Espeon, M|item
+|poke|p2|Zoroark, M|item
+|poke|p2|Suicune|item
+|poke|p2|Beedrill, M|item
+|poke|p2|Empoleon, M|item
+|poke|p2|Florges, F|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 4, team 2, team 3, team 1, team 5, team 6|team 2, team 4, team 3, team 1, team 5, team 6
+|
+|start
+|switch|p1a: Suicune|Suicune|100/100
+|switch|p2a: Florges|Florges, F|100/100
+|-ability|p1a: Suicune|Pressure
+|turn|1
+|choice|move calmmind|switch 5
+|
+|switch|p2a: Empoleon|Empoleon, M|100/100
+|move|p1a: Suicune|Calm Mind|p1a: Suicune
+|-boost|p1a: Suicune|spa|1
+|-boost|p1a: Suicune|spd|1
+|
+|upkeep
+|turn|2
+|choice|move calmmind|move stealthrock
+|
+|move|p1a: Suicune|Calm Mind|p1a: Suicune
+|-boost|p1a: Suicune|spa|1
+|-boost|p1a: Suicune|spd|1
+|move|p2a: Empoleon|Stealth Rock|p1a: Suicune
+|-sidestart|p1: k4rkl35 sp4rkl35|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|choice|move scald|move scald
+|
+|move|p1a: Suicune|Scald|p2a: Empoleon
+|-resisted|p2a: Empoleon
+|-damage|p2a: Empoleon|83/100
+|move|p2a: Empoleon|Scald|p1a: Suicune
+|-resisted|p1a: Suicune
+|-damage|p1a: Suicune|95/100
+|
+|-heal|p1a: Suicune|100/100|[from] item: Leftovers
+|-heal|p2a: Empoleon|89/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|choice|move scald|move roar
+|
+|move|p1a: Suicune|Scald|p2a: Empoleon
+|-resisted|p2a: Empoleon
+|-damage|p2a: Empoleon|72/100
+|move|p2a: Empoleon|Roar|p1a: Suicune
+|drag|p1a: Shaymin|Shaymin|100/100
+|-damage|p1a: Shaymin|88/100|[from] Stealth Rock
+|
+|-heal|p2a: Empoleon|78/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|choice|move earthpower|move scald
+|
+|move|p1a: Shaymin|Earth Power|p2a: Empoleon
+|-supereffective|p2a: Empoleon
+|-damage|p2a: Empoleon|29/100
+|-damage|p1a: Shaymin|78/100|[from] item: Life Orb
+|move|p2a: Empoleon|Scald|p1a: Shaymin
+|-resisted|p1a: Shaymin
+|-damage|p1a: Shaymin|55/100
+|-status|p1a: Shaymin|brn
+|
+|-heal|p2a: Empoleon|35/100|[from] item: Leftovers
+|-damage|p1a: Shaymin|43/100 brn|[from] brn
+|upkeep
+|turn|6
+|choice|move seedflare|move stealthrock
+|
+|move|p1a: Shaymin|Seed Flare|p2a: Empoleon|[miss]
+|-miss|p1a: Shaymin|p2a: Empoleon
+|move|p2a: Empoleon|Stealth Rock|p1a: Shaymin
+|-fail|p1a: Shaymin
+|
+|-heal|p2a: Empoleon|41/100|[from] item: Leftovers
+|-damage|p1a: Shaymin|31/100 brn|[from] brn
+|upkeep
+|turn|7
+|choice|move seedflare|move scald
+|
+|move|p1a: Shaymin|Seed Flare|p2a: Empoleon
+|-damage|p2a: Empoleon|0 fnt
+|-damage|p1a: Shaymin|21/100 brn|[from] item: Life Orb
+|faint|p2a: Empoleon
+|
+|-damage|p1a: Shaymin|8/100 brn|[from] brn
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Espeon|Espeon, M|100/100
+|turn|8
+|choice|move seedflare|move reflect
+|
+|move|p2a: Espeon|Reflect|p2a: Espeon
+|-sidestart|p2: magia342|Reflect
+|move|p1a: Shaymin|Seed Flare|p2a: Espeon|[miss]
+|-miss|p1a: Shaymin|p2a: Espeon
+|
+|-damage|p1a: Shaymin|0 fnt|[from] brn
+|upkeep
+|faint|p1a: Shaymin
+|choice|switch 2|
+|
+|switch|p1a: Yanmega|Yanmega, M|100/100
+|-damage|p1a: Yanmega|51/100|[from] Stealth Rock
+|turn|9
+|choice|move bugbuzz|move lightscreen
+|
+|move|p2a: Espeon|Light Screen|p2a: Espeon
+|-sidestart|p2: magia342|move: Light Screen
+|move|p1a: Yanmega|Bug Buzz|p2a: Espeon
+|-supereffective|p2a: Espeon
+|-damage|p2a: Espeon|33/100
+|
+|upkeep
+|turn|10
+|choice|move bugbuzz|move psyshock
+|
+|move|p2a: Espeon|Psyshock|p1a: Yanmega
+|-damage|p1a: Yanmega|5/100
+|move|p1a: Yanmega|Bug Buzz|p2a: Espeon
+|-supereffective|p2a: Espeon
+|-damage|p2a: Espeon|0 fnt
+|faint|p2a: Espeon
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Florges|Florges, F|100/100
+|turn|11
+|choice|move bugbuzz|switch 6
+|
+|switch|p2a: Florges|Florges, F|100/100
+|move|p1a: Yanmega|Bug Buzz|p2a: Florges
+|-resisted|p2a: Florges
+|-crit|p2a: Florges
+|-damage|p2a: Florges|40/100
+|
+|-heal|p2a: Florges|46/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|choice|move bugbuzz|move moonblast
+|
+|move|p1a: Yanmega|Bug Buzz|p2a: Florges
+|-resisted|p2a: Florges
+|-damage|p2a: Florges|23/100
+|move|p2a: Florges|Moonblast|p1a: Yanmega
+|-damage|p1a: Yanmega|0 fnt
+|faint|p1a: Yanmega
+|
+|-heal|p2a: Florges|29/100|[from] item: Leftovers
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Donphan|Donphan, M|100/100
+|-damage|p1a: Donphan|94/100|[from] Stealth Rock
+|turn|13
+|choice|move rapidspin|move synthesis
+|
+|move|p2a: Florges|Synthesis|p2a: Florges
+|-heal|p2a: Florges|79/100
+|move|p1a: Donphan|Rapid Spin|p2a: Florges
+|-damage|p2a: Florges|77/100
+|-sideend|p1: k4rkl35 sp4rkl35|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Donphan
+|
+|-heal|p2a: Florges|83/100|[from] item: Leftovers
+|-heal|p1a: Donphan|100/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|choice|move earthquake|move moonblast
+|
+|move|p2a: Florges|Moonblast|p1a: Donphan
+|-damage|p1a: Donphan|50/100
+|move|p1a: Donphan|Earthquake|p2a: Florges
+|-damage|p2a: Florges|66/100
+|
+|-heal|p2a: Florges|72/100|[from] item: Leftovers
+|-heal|p1a: Donphan|56/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|choice|move earthquake|move moonblast
+|
+|move|p2a: Florges|Moonblast|p1a: Donphan
+|-damage|p1a: Donphan|10/100
+|move|p1a: Donphan|Earthquake|p2a: Florges
+|-damage|p2a: Florges|55/100
+|
+|-heal|p2a: Florges|61/100|[from] item: Leftovers
+|-heal|p1a: Donphan|16/100|[from] item: Leftovers
+|-sideend|p2: magia342|Reflect
+|upkeep
+|turn|16
+|choice|move earthquake|move moonblast
+|
+|move|p2a: Florges|Moonblast|p1a: Donphan
+|-damage|p1a: Donphan|0 fnt
+|faint|p1a: Donphan
+|
+|-heal|p2a: Florges|67/100|[from] item: Leftovers
+|-sideend|p2: magia342|move: Light Screen
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Hoopa|Hoopa|100/100
+|turn|17
+|choice|move nastyplot|move moonblast
+|
+|move|p1a: Hoopa|Nasty Plot|p1a: Hoopa
+|-boost|p1a: Hoopa|spa|2
+|move|p2a: Florges|Moonblast|p1a: Hoopa
+|-damage|p1a: Hoopa|70/100
+|-unboost|p1a: Hoopa|spa|1
+|
+|-heal|p2a: Florges|73/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|choice|move nastyplot|move moonblast
+|
+|move|p1a: Hoopa|Nasty Plot|p1a: Hoopa
+|-boost|p1a: Hoopa|spa|2
+|move|p2a: Florges|Moonblast|p1a: Hoopa
+|-crit|p1a: Hoopa
+|-damage|p1a: Hoopa|23/100
+|-unboost|p1a: Hoopa|spa|1
+|
+|-heal|p2a: Florges|79/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|choice|move shadowball|move moonblast
+|
+|move|p1a: Hoopa|Shadow Ball|p2a: Florges
+|-damage|p2a: Florges|0 fnt
+|-damage|p1a: Hoopa|13/100|[from] item: Life Orb
+|faint|p2a: Florges
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Suicune|Suicune|100/100
+|-ability|p2a: Suicune|Pressure
+|turn|20
+|choice|move shadowball|move scald
+|
+|move|p1a: Hoopa|Shadow Ball|p2a: Suicune
+|-damage|p2a: Suicune|14/100
+|-damage|p1a: Hoopa|3/100|[from] item: Life Orb
+|move|p2a: Suicune|Scald|p1a: Hoopa
+|-damage|p1a: Hoopa|0 fnt
+|faint|p1a: Hoopa
+|
+|-heal|p2a: Suicune|20/100|[from] item: Leftovers
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Honchkrow|Honchkrow, M|100/100
+|turn|21
+|choice|move suckerpunch|move scald
+|
+|move|p1a: Honchkrow|Sucker Punch|p2a: Suicune
+|-damage|p2a: Suicune|0 fnt
+|-damage|p1a: Honchkrow|91/100|[from] item: Life Orb
+|faint|p2a: Suicune
+|-ability|p1a: Honchkrow|Moxie|boost
+|-boost|p1a: Honchkrow|atk|1
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Zoroark|Zoroark, M|100/100
+|turn|22
+|choice|move superpower|move nastyplot
+|
+|move|p2a: Zoroark|Nasty Plot|p2a: Zoroark
+|-boost|p2a: Zoroark|spa|2
+|move|p1a: Honchkrow|Superpower|p2a: Zoroark
+|-supereffective|p2a: Zoroark
+|-damage|p2a: Zoroark|0 fnt
+|-unboost|p1a: Honchkrow|atk|1
+|-unboost|p1a: Honchkrow|def|1
+|-damage|p1a: Honchkrow|81/100|[from] item: Life Orb
+|faint|p2a: Zoroark
+|-ability|p1a: Honchkrow|Moxie|boost
+|-boost|p1a: Honchkrow|atk|1
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Beedrill|Beedrill, M|100/100
+|turn|23
+|choice|move bravebird|move uturn mega
+|
+|detailschange|p2a: Beedrill|Beedrill-Mega, M
+|-mega|p2a: Beedrill|Beedrill|Beedrillite
+|move|p2a: Beedrill|U-turn|p1a: Honchkrow
+|-damage|p1a: Honchkrow|0 fnt
+|faint|p1a: Honchkrow
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Suicune|Suicune|100/100
+|-ability|p1a: Suicune|Pressure
+|turn|24
+|choice|move scald|move poisonjab
+|
+|move|p2a: Beedrill|Poison Jab|p1a: Suicune
+|-damage|p1a: Suicune|66/100
+|move|p1a: Suicune|Scald|p2a: Beedrill
+|-crit|p2a: Beedrill
+|-damage|p2a: Beedrill|41/100
+|-status|p2a: Beedrill|brn
+|
+|-heal|p1a: Suicune|72/100|[from] item: Leftovers
+|-damage|p2a: Beedrill|29/100 brn|[from] brn
+|upkeep
+|turn|25
+|-message|magia342 forfeited.
+|
+|win|k4rkl35 sp4rkl35
+|l|magia342
+|raw|k4rkl35 sp4rkl35's rating: 1125 &rarr; <strong>1147</strong><br />(+22 for winning)
+|raw|magia342's rating: 1086 &rarr; <strong>1066</strong><br />(-20 for losing)

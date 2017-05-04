@@ -1,0 +1,296 @@
+|j|CouldBeSpinda18
+|j|adsjnkwnd
+|player|p1|CouldBeSpinda18|101
+|player|p2|adsjnkwnd|102
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|43594,31017,34758,9274,2164,25733,36353,203,43729,52148,65211,27110
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Scolipede, M|item
+|poke|p1|Volcarona, M|item
+|poke|p1|Kyurem-Black|item
+|poke|p1|Excadrill, M|item
+|poke|p1|Hawlucha, M|item
+|poke|p1|Terrakion|item
+|poke|p2|Excadrill, M|item
+|poke|p2|Jirachi|item
+|poke|p2|Breloom, M|item
+|poke|p2|Mamoswine, M|item
+|poke|p2|Gallade, M|item
+|poke|p2|Tornadus-Therian, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 6, team 2, team 3, team 4, team 5, team 1|team 4, team 2, team 3, team 1, team 5, team 6
+|
+|start
+|switch|p1a: Terrakion|Terrakion|100/100
+|switch|p2a: Mamoswine|Mamoswine, M|100/100
+|turn|1
+|choice|move closecombat|move earthquake
+|
+|move|p1a: Terrakion|Close Combat|p2a: Mamoswine
+|-supereffective|p2a: Mamoswine
+|-enditem|p2a: Mamoswine|Focus Sash
+|-damage|p2a: Mamoswine|1/100
+|-unboost|p1a: Terrakion|def|1
+|-unboost|p1a: Terrakion|spd|1
+|move|p2a: Mamoswine|Earthquake|p1a: Terrakion
+|-supereffective|p1a: Terrakion
+|-enditem|p1a: Terrakion|Focus Sash
+|-damage|p1a: Terrakion|1/100
+|
+|upkeep
+|turn|2
+|choice|switch 4|move iceshard
+|
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|move|p2a: Mamoswine|Ice Shard|p1a: Excadrill
+|-crit|p1a: Excadrill
+|-damage|p1a: Excadrill|59/100
+|
+|-heal|p1a: Excadrill|65/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|choice|switch 6|move stealthrock
+|
+|switch|p1a: Scolipede|Scolipede, M|100/100
+|move|p2a: Mamoswine|Stealth Rock|p1a: Scolipede
+|-sidestart|p1: CouldBeSpinda18|move: Stealth Rock
+|
+|upkeep
+|turn|4
+|choice|move earthquake|switch 2
+|
+|switch|p2a: Jirachi|Jirachi|100/100
+|move|p1a: Scolipede|Earthquake|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-damage|p2a: Jirachi|35/100
+|-damage|p1a: Scolipede|91/100|[from] item: Life Orb
+|
+|-heal|p2a: Jirachi|42/100|[from] item: Leftovers
+|-ability|p1a: Scolipede|Speed Boost|boost
+|-boost|p1a: Scolipede|spe|1
+|upkeep
+|turn|5
+|choice|move earthquake|switch 6
+|
+|switch|p2a: Tornadus|Tornadus-Therian, M|100/100
+|move|p1a: Scolipede|Earthquake|p2a: Tornadus
+|-immune|p2a: Tornadus|[msg]
+|
+|-ability|p1a: Scolipede|Speed Boost|boost
+|-boost|p1a: Scolipede|spe|1
+|upkeep
+|turn|6
+|choice|switch 4|move hurricane
+|
+|switch|p1a: Terrakion|Terrakion|1/100
+|-damage|p1a: Terrakion|0 fnt|[from] Stealth Rock
+|faint|p1a: Terrakion
+|move|p2a: Tornadus|Hurricane|p1: Terrakion|[notarget]
+|-notarget
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Kyurem|Kyurem-Black|100/100
+|-damage|p1a: Kyurem|76/100|[from] Stealth Rock
+|-ability|p1a: Kyurem|Teravolt
+|turn|7
+|choice|move icebeam|move focusblast
+|
+|move|p1a: Kyurem|Ice Beam|p2a: Tornadus
+|-supereffective|p2a: Tornadus
+|-damage|p2a: Tornadus|47/100
+|move|p2a: Tornadus|Focus Blast|p1a: Kyurem
+|-supereffective|p1a: Kyurem
+|-damage|p1a: Kyurem|0 fnt
+|faint|p1a: Kyurem
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Volcarona|Volcarona, M|100/100
+|-damage|p1a: Volcarona|51/100|[from] Stealth Rock
+|turn|8
+|c|☆CouldBeSpinda18|going for the miss
+|c|☆CouldBeSpinda18|only chance i believe
+|choice|move quiverdance|move hurricane
+|
+|move|p2a: Tornadus|Hurricane|p1a: Volcarona|[miss]
+|-miss|p2a: Tornadus|p1a: Volcarona
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|
+|upkeep
+|turn|9
+|c|☆adsjnkwnd|fk that might be gg for me
+|choice|move fireblast|move hurricane
+|
+|move|p1a: Volcarona|Fire Blast|p2a: Tornadus
+|-damage|p2a: Tornadus|0 fnt
+|faint|p2a: Tornadus
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Gallade|Gallade, M|100/100
+|turn|10
+|c|☆adsjnkwnd|wait no this thing can take a hit or 10
+|c|☆CouldBeSpinda18|30% chance to kill
+|c|☆adsjnkwnd|o shoot what
+|c|☆CouldBeSpinda18|so really 27 factroing miss chance
+|c|☆adsjnkwnd|!data gallade
+|c|~|/data-pokemon Gallade
+
+|c|☆adsjnkwnd|!data gallade-mega
+|c|~|/data-pokemon Gallade-Mega
+
+|c|☆CouldBeSpinda18|wait im modest 80%
+|choice|move fireblast|move closecombat mega
+|
+|detailschange|p2a: Gallade|Gallade-Mega, M
+|-mega|p2a: Gallade|Gallade|Galladite
+|move|p1a: Volcarona|Fire Blast|p2a: Gallade
+|-damage|p2a: Gallade|0 fnt
+|faint|p2a: Gallade
+|
+|upkeep
+|c|☆adsjnkwnd|damn im bad
+|choice||switch 4
+|
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|11
+|choice|move fireblast|move rockslide
+|
+|move|p2a: Excadrill|Rock Slide|p1a: Volcarona
+|-supereffective|p1a: Volcarona
+|-damage|p1a: Volcarona|0 fnt
+|faint|p1a: Volcarona
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Excadrill|Excadrill, M|65/100
+|-damage|p1a: Excadrill|62/100|[from] Stealth Rock
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|12
+|choice|move ironhead|switch 6
+|
+|switch|p2a: Jirachi|Jirachi|42/100
+|move|p1a: Excadrill|Iron Head|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|27/100
+|
+|-heal|p2a: Jirachi|33/100|[from] item: Leftovers
+|-heal|p1a: Excadrill|68/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|choice|move earthquake|move wish
+|
+|move|p2a: Jirachi|Wish|p2a: Jirachi
+|move|p1a: Excadrill|Earthquake|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-crit|p2a: Jirachi
+|-damage|p2a: Jirachi|0 fnt
+|faint|p2a: Jirachi
+|
+|-heal|p1a: Excadrill|74/100|[from] item: Leftovers
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Mamoswine|Mamoswine, M|1/100
+|turn|14
+|choice|move rapidspin|move earthquake
+|
+|move|p2a: Mamoswine|Earthquake|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|-heal|p2a: Mamoswine|57/100|[from] move: Wish|[wisher] Jirachi
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Hawlucha|Hawlucha, M|100/100
+|-damage|p1a: Hawlucha|88/100|[from] Stealth Rock
+|turn|15
+|c|☆CouldBeSpinda18|i misplayed there
+|choice|move highjumpkick|move iceshard
+|
+|move|p2a: Mamoswine|Ice Shard|p1a: Hawlucha
+|-supereffective|p1a: Hawlucha
+|-damage|p1a: Hawlucha|28/100
+|move|p1a: Hawlucha|High Jump Kick|p2a: Mamoswine
+|-supereffective|p2a: Mamoswine
+|-damage|p2a: Mamoswine|0 fnt
+|faint|p2a: Mamoswine
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|16
+|c|☆CouldBeSpinda18|although you probably have sash loom anyway
+|choice|move highjumpkick|move ironhead
+|
+|move|p2a: Excadrill|Iron Head|p1a: Hawlucha
+|-damage|p1a: Hawlucha|0 fnt
+|faint|p1a: Hawlucha
+|
+|upkeep
+|c|☆adsjnkwnd|orb
+|choice|switch 4|
+|
+|switch|p1a: Scolipede|Scolipede, M|91/100
+|-damage|p1a: Scolipede|66/100|[from] Stealth Rock
+|turn|17
+|choice|move protect|move ironhead
+|
+|move|p1a: Scolipede|Protect|p1a: Scolipede
+|-singleturn|p1a: Scolipede|Protect
+|move|p2a: Excadrill|Iron Head|p1a: Scolipede
+|-activate|p1a: Scolipede|move: Protect
+|
+|-ability|p1a: Scolipede|Speed Boost|boost
+|-boost|p1a: Scolipede|spe|1
+|upkeep
+|turn|18
+|choice|move earthquake|move ironhead
+|
+|move|p1a: Scolipede|Earthquake|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|-damage|p1a: Scolipede|56/100|[from] item: Life Orb
+|faint|p2a: Excadrill
+|
+|-ability|p1a: Scolipede|Speed Boost|boost
+|-boost|p1a: Scolipede|spe|1
+|upkeep
+|c|☆adsjnkwnd|gg
+|choice||switch 3
+|
+|switch|p2a: Breloom|Breloom, M|100/100
+|turn|19
+|c|☆CouldBeSpinda18|gg
+|choice|move poisonjab|move spore
+|
+|move|p1a: Scolipede|Poison Jab|p2a: Breloom
+|-supereffective|p2a: Breloom
+|-damage|p2a: Breloom|0 fnt
+|-damage|p1a: Scolipede|46/100|[from] item: Life Orb
+|faint|p2a: Breloom
+|
+|win|CouldBeSpinda18
+|raw|CouldBeSpinda18's rating: 1409 &rarr; <strong>1415</strong><br />(+6 for winning)
+|raw|adsjnkwnd's rating: 1111 &rarr; <strong>1103</strong><br />(-8 for losing)
+|l|adsjnkwnd

@@ -1,0 +1,163 @@
+|j|TayTahT0T
+|j|monnsuto
+|player|p1|TayTahT0T|33
+|player|p2|monnsuto|160
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|57472,20892,64256,24468,17401,14365,26145,10169,58114,31252,15556,49040
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Zapdos|item
+|poke|p1|Alakazam, M|item
+|poke|p1|Magnezone|item
+|poke|p1|Volcarona, M|item
+|poke|p1|Garchomp, M|item
+|poke|p1|Gengar, M|item
+|poke|p2|Terrakion|item
+|poke|p2|Heracross, M|item
+|poke|p2|Chansey, F|item
+|poke|p2|Mamoswine, M|item
+|poke|p2|Latios, M|item
+|poke|p2|Scizor, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by monnsuto)
+|choice|team 4, team 2, team 3, team 1, team 5, team 6|team 1, team 2, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Volcarona|Volcarona, M|100/100
+|switch|p2a: Terrakion|Terrakion|100/100
+|turn|1
+|choice|switch 5|move stealthrock
+|
+|switch|p1a: Garchomp|Garchomp, M|100/100
+|move|p2a: Terrakion|Stealth Rock|p1a: Garchomp
+|-sidestart|p1: TayTahT0T|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|choice|move stealthrock|switch 4
+|
+|switch|p2a: Mamoswine|Mamoswine, M|100/100
+|move|p1a: Garchomp|Stealth Rock|p2a: Mamoswine
+|-sidestart|p2: monnsuto|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|choice|move fireblast|move iciclecrash
+|
+|move|p1a: Garchomp|Fire Blast|p2a: Mamoswine
+|-supereffective|p2a: Mamoswine
+|-crit|p2a: Mamoswine
+|-damage|p2a: Mamoswine|48/100
+|move|p2a: Mamoswine|Icicle Crash|p1a: Garchomp
+|-supereffective|p1a: Garchomp
+|-crit|p1a: Garchomp
+|-enditem|p1a: Garchomp|Focus Sash
+|-damage|p1a: Garchomp|1/100
+|-damage|p2a: Mamoswine|38/100|[from] item: Life Orb
+|
+|upkeep
+|turn|4
+|choice|move earthquake|move iceshard
+|
+|move|p2a: Mamoswine|Ice Shard|p1a: Garchomp
+|-supereffective|p1a: Garchomp
+|-crit|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|-damage|p2a: Mamoswine|28/100|[from] item: Life Orb
+|faint|p1a: Garchomp
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Volcarona|Volcarona, M|100/100
+|-damage|p1a: Volcarona|51/100|[from] Stealth Rock
+|turn|5
+|choice|move fierydance|switch 4
+|
+|switch|p2a: Terrakion|Terrakion|100/100
+|-damage|p2a: Terrakion|94/100|[from] Stealth Rock
+|move|p1a: Volcarona|Fiery Dance|p2a: Terrakion
+|-resisted|p2a: Terrakion
+|-damage|p2a: Terrakion|72/100
+|
+|-heal|p1a: Volcarona|57/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|choice|switch 3|move stoneedge
+|
+|switch|p1a: Magnezone|Magnezone|100/100
+|-damage|p1a: Magnezone|94/100|[from] Stealth Rock
+|move|p2a: Terrakion|Stone Edge|p1a: Magnezone
+|-resisted|p1a: Magnezone
+|-damage|p1a: Magnezone|71/100
+|
+|upkeep
+|turn|7
+|choice|move voltswitch|move closecombat
+|
+|move|p2a: Terrakion|Close Combat|p1a: Magnezone
+|-supereffective|p1a: Magnezone
+|-damage|p1a: Magnezone|0 fnt
+|-unboost|p2a: Terrakion|def|1
+|-unboost|p2a: Terrakion|spd|1
+|faint|p1a: Magnezone
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Gengar|Gengar, M|100/100
+|-damage|p1a: Gengar|88/100|[from] Stealth Rock
+|turn|8
+|choice|move willowisp|move taunt
+|
+|move|p1a: Gengar|Will-O-Wisp|p2a: Terrakion
+|-status|p2a: Terrakion|brn
+|move|p2a: Terrakion|Taunt|p1a: Gengar
+|-start|p1a: Gengar|move: Taunt
+|
+|-heal|p1a: Gengar|94/100|[from] item: Black Sludge
+|-damage|p2a: Terrakion|60/100 brn|[from] brn
+|upkeep
+|turn|9
+|choice|move hex|switch 3
+|
+|switch|p2a: Chansey|Chansey, F|100/100
+|-damage|p2a: Chansey|88/100|[from] Stealth Rock
+|move|p1a: Gengar|Hex|p2a: Chansey
+|-immune|p2a: Chansey|[msg]
+|
+|-heal|p1a: Gengar|100/100|[from] item: Black Sludge
+|upkeep
+|turn|10
+|choice|switch 4|move wish
+|
+|switch|p1a: Zapdos|Zapdos|100/100
+|-damage|p1a: Zapdos|75/100|[from] Stealth Rock
+|-ability|p1a: Zapdos|Pressure
+|move|p2a: Chansey|Wish|p2a: Chansey
+|
+|-heal|p1a: Zapdos|82/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|choice|move thunderbolt|switch 4
+|
+|switch|p2a: Mamoswine|Mamoswine, M|28/100
+|-damage|p2a: Mamoswine|15/100|[from] Stealth Rock
+|move|p1a: Zapdos|Thunderbolt|p2a: Mamoswine
+|-immune|p2a: Mamoswine|[msg]
+|
+|-heal|p2a: Mamoswine|100/100|[from] move: Wish|[wisher] Chansey
+|-heal|p1a: Zapdos|88/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|-message|TayTahT0T forfeited.
+|
+|win|monnsuto
+|raw|TayTahT0T's rating: 1231 &rarr; <strong>1202</strong><br />(-29 for losing)
+|raw|monnsuto's rating: 1171 &rarr; <strong>1200</strong><br />(+29 for winning)
+|l|TayTahT0T

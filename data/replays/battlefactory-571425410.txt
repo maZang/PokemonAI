@@ -1,0 +1,155 @@
+|j|wild drud
+|j|Spects❄️
+|player|p1|wild drud|25
+|player|p2|Spects❄️|61
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|55583,36394,62537,9725,8940,491,45721,21319,32124,40067,721,27598
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Ninetales, M|item
+|poke|p1|Carracosta, M|item
+|poke|p1|Pyroar, M|item
+|poke|p1|Beheeyem, M|item
+|poke|p1|Mantine, M|item
+|poke|p1|Hitmonchan, M|item
+|poke|p2|Klinklang|item
+|poke|p2|Miltank, F|item
+|poke|p2|Pelipper, M|item
+|poke|p2|Grumpig, M|item
+|poke|p2|Lilligant, F|item
+|poke|p2|Garbodor, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|c|☆Spects❄️|gl
+|c|☆wild drud|u2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Spects❄️)
+|choice|team 4, team 2, team 3, team 1, team 5, team 6|team 4, team 2, team 3, team 1, team 5, team 6
+|
+|start
+|switch|p1a: Beheeyem|Beheeyem, M|100/100
+|switch|p2a: Grumpig|Grumpig, M|100/100
+|turn|1
+|choice|switch 4|move calmmind
+|
+|switch|p1a: Ninetales|Ninetales, M|100/100
+|move|p2a: Grumpig|Calm Mind|p2a: Grumpig
+|-boost|p2a: Grumpig|spa|1
+|-boost|p2a: Grumpig|spd|1
+|
+|upkeep
+|turn|2
+|choice|move nastyplot|move calmmind
+|
+|move|p1a: Ninetales|Nasty Plot|p1a: Ninetales
+|-boost|p1a: Ninetales|spa|2
+|move|p2a: Grumpig|Calm Mind|p2a: Grumpig
+|-boost|p2a: Grumpig|spa|1
+|-boost|p2a: Grumpig|spd|1
+|
+|upkeep
+|turn|3
+|choice|move fireblast|move focusblast
+|
+|move|p1a: Ninetales|Fire Blast|p2a: Grumpig
+|-damage|p2a: Grumpig|72/100
+|-damage|p1a: Ninetales|91/100|[from] item: Life Orb
+|move|p2a: Grumpig|Focus Blast|p1a: Ninetales
+|-damage|p1a: Ninetales|12/100
+|
+|-heal|p2a: Grumpig|78/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|choice|move fireblast|move calmmind
+|
+|move|p1a: Ninetales|Fire Blast|p2a: Grumpig
+|-damage|p2a: Grumpig|48/100
+|-damage|p1a: Ninetales|2/100|[from] item: Life Orb
+|move|p2a: Grumpig|Calm Mind|p2a: Grumpig
+|-boost|p2a: Grumpig|spa|1
+|-boost|p2a: Grumpig|spd|1
+|
+|-heal|p2a: Grumpig|54/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|choice|move fireblast|move calmmind
+|
+|move|p1a: Ninetales|Fire Blast|p2a: Grumpig
+|-damage|p2a: Grumpig|31/100
+|-damage|p1a: Ninetales|0 fnt|[from] item: Life Orb
+|faint|p1a: Ninetales
+|move|p2a: Grumpig|Calm Mind|p2a: Grumpig
+|-boost|p2a: Grumpig|spa|1
+|-boost|p2a: Grumpig|spd|1
+|
+|-heal|p2a: Grumpig|37/100|[from] item: Leftovers
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Pyroar|Pyroar, M|100/100
+|-ability|p1a: Pyroar|Unnerve|p2: Spects❄️
+|turn|6
+|choice|move hypervoice|move focusblast
+|
+|move|p1a: Pyroar|Hyper Voice|p2a: Grumpig
+|-damage|p2a: Grumpig|17/100
+|move|p2a: Grumpig|Focus Blast|p1a: Pyroar
+|-supereffective|p1a: Pyroar
+|-damage|p1a: Pyroar|0 fnt
+|faint|p1a: Pyroar
+|
+|-heal|p2a: Grumpig|23/100|[from] item: Leftovers
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Hitmonchan|Hitmonchan, M|100/100
+|turn|7
+|choice|move stoneedge|move psyshock
+|
+|move|p2a: Grumpig|Psyshock|p1a: Hitmonchan
+|-supereffective|p1a: Hitmonchan
+|-damage|p1a: Hitmonchan|0 fnt
+|faint|p1a: Hitmonchan
+|
+|-heal|p2a: Grumpig|29/100|[from] item: Leftovers
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Beheeyem|Beheeyem, M|100/100
+|turn|8
+|choice|move trickroom|move signalbeam
+|
+|move|p2a: Grumpig|Signal Beam|p1a: Beheeyem
+|-supereffective|p1a: Beheeyem
+|-damage|p1a: Beheeyem|0 fnt
+|faint|p1a: Beheeyem
+|
+|-heal|p2a: Grumpig|35/100|[from] item: Leftovers
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Carracosta|Carracosta, M|100/100
+|turn|9
+|choice|move rockslide|move focusblast
+|
+|move|p2a: Grumpig|Focus Blast|p1a: Carracosta
+|-supereffective|p1a: Carracosta
+|-damage|p1a: Carracosta|0 fnt
+|faint|p1a: Carracosta
+|
+|-heal|p2a: Grumpig|41/100|[from] item: Leftovers
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Mantine|Mantine, M|100/100
+|turn|10
+|c|☆Spects❄️|hmm gg
+|choice|move airslash|move psyshock
+|
+|move|p2a: Grumpig|Psyshock|p1a: Mantine
+|-damage|p1a: Mantine|0 fnt
+|faint|p1a: Mantine
+|
+|win|Spects❄️

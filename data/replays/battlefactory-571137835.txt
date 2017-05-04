@@ -1,0 +1,203 @@
+|j|Dlonetti
+|j|ygfyugyii
+|player|p1|Dlonetti|102
+|player|p2|ygfyugyii|265
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|6762,11452,61897,6452,64146,27275,32755,6047,2381,23186,59985,58401
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Kyurem-Black|item
+|poke|p1|Latias, F|item
+|poke|p1|Heracross, M|item
+|poke|p1|Terrakion|item
+|poke|p1|Talonflame, M|item
+|poke|p1|Azumarill, M|item
+|poke|p2|Conkeldurr, M|item
+|poke|p2|Mew|item
+|poke|p2|Volcarona, M|item
+|poke|p2|Raikou|item
+|poke|p2|Jirachi|item
+|poke|p2|Hippowdon, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 4, team 2, team 3, team 1, team 5, team 6|team 6, team 2, team 3, team 4, team 5, team 1
+|
+|start
+|switch|p1a: Terrakion|Terrakion|100/100
+|switch|p2a: Hippowdon|Hippowdon, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Dlonetti)
+|choice|switch 5|move stealthrock
+|
+|switch|p1a: Talonflame|Talonflame, M|100/100
+|move|p2a: Hippowdon|Stealth Rock|p1a: Talonflame
+|-sidestart|p1: Dlonetti|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Talonflame|95/100|[from] sandstorm
+|upkeep
+|turn|2
+|choice|move swordsdance|move stoneedge
+|
+|move|p1a: Talonflame|Swords Dance|p1a: Talonflame
+|-boost|p1a: Talonflame|atk|2
+|move|p2a: Hippowdon|Stone Edge|p1a: Talonflame
+|-supereffective|p1a: Talonflame
+|-crit|p1a: Talonflame
+|-damage|p1a: Talonflame|0 fnt
+|faint|p1a: Talonflame
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Azumarill|Azumarill, M|100/100
+|-damage|p1a: Azumarill|88/100|[from] Stealth Rock
+|turn|3
+|choice|move playrough|switch 4
+|
+|switch|p2a: Raikou|Raikou|100/100
+|-ability|p2a: Raikou|Pressure
+|move|p1a: Azumarill|Play Rough|p2a: Raikou
+|-damage|p2a: Raikou|20/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Raikou|14/100|[from] sandstorm
+|-damage|p1a: Azumarill|82/100|[from] sandstorm
+|upkeep
+|turn|4
+|choice|move aquajet|move voltswitch
+|
+|move|p1a: Azumarill|Aqua Jet|p2a: Raikou
+|-damage|p2a: Raikou|0 fnt
+|faint|p2a: Raikou
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Azumarill|76/100|[from] sandstorm
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Jirachi|Jirachi|100/100
+|turn|5
+|choice|move knockoff|move ironhead
+|
+|move|p2a: Jirachi|Iron Head|p1a: Azumarill
+|-damage|p1a: Azumarill|40/100
+|cant|p1a: Azumarill|flinch
+|
+|-weather|none
+|upkeep
+|turn|6
+|choice|move knockoff|move ironhead
+|
+|move|p2a: Jirachi|Iron Head|p1a: Azumarill
+|-damage|p1a: Azumarill|2/100
+|cant|p1a: Azumarill|flinch
+|
+|upkeep
+|turn|7
+|c|☆Dlonetti|No fuckin way
+|choice|move waterfall|move ironhead
+|
+|move|p2a: Jirachi|Iron Head|p1a: Azumarill
+|-damage|p1a: Azumarill|0 fnt
+|faint|p1a: Azumarill
+|
+|upkeep
+|c|☆Dlonetti|I had knock off too
+|c|☆ygfyugyii|lol
+|c|☆ygfyugyii|go bro
+|choice|switch 2|
+|
+|switch|p1a: Latias|Latias, F|100/100
+|-damage|p1a: Latias|88/100|[from] Stealth Rock
+|turn|8
+|choice|move defog|move ironhead
+|
+|move|p2a: Jirachi|Iron Head|p1a: Latias
+|-damage|p1a: Latias|42/100
+|cant|p1a: Latias|flinch
+|
+|upkeep
+|turn|9
+|c|☆ygfyugyii|rematch
+|choice|switch 4|move ironhead
+|
+|switch|p1a: Kyurem|Kyurem-Black|100/100
+|-damage|p1a: Kyurem|76/100|[from] Stealth Rock
+|-ability|p1a: Kyurem|Teravolt
+|move|p2a: Jirachi|Iron Head|p1a: Kyurem
+|-supereffective|p1a: Kyurem
+|-damage|p1a: Kyurem|14/100
+|
+|upkeep
+|turn|10
+|choice|switch 3|move ironhead
+|
+|switch|p1a: Heracross|Heracross, M|100/100
+|-damage|p1a: Heracross|88/100|[from] Stealth Rock
+|move|p2a: Jirachi|Iron Head|p1a: Heracross
+|-damage|p1a: Heracross|35/100
+|
+|-status|p1a: Heracross|tox|[from] item: Toxic Orb
+|upkeep
+|turn|11
+|choice|move facade|move ironhead
+|
+|move|p2a: Jirachi|Iron Head|p1a: Heracross
+|-crit|p1a: Heracross
+|-damage|p1a: Heracross|0 fnt
+|faint|p1a: Heracross
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Terrakion|Terrakion|100/100
+|-damage|p1a: Terrakion|94/100|[from] Stealth Rock
+|turn|12
+|c|☆ygfyugyii|i cant believe this tooo
+|choice|move stoneedge|move ironhead
+|
+|move|p2a: Jirachi|Iron Head|p1a: Terrakion
+|-supereffective|p1a: Terrakion
+|-damage|p1a: Terrakion|16/100
+|cant|p1a: Terrakion|flinch
+|
+|upkeep
+|turn|13
+|choice|move stoneedge|move ironhead
+|
+|move|p2a: Jirachi|Iron Head|p1a: Terrakion
+|-supereffective|p1a: Terrakion
+|-damage|p1a: Terrakion|0 fnt
+|faint|p1a: Terrakion
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Latias|Latias, F|42/100
+|-damage|p1a: Latias|30/100|[from] Stealth Rock
+|turn|14
+|choice|move healingwish|move ironhead
+|
+|move|p2a: Jirachi|Iron Head|p1a: Latias
+|-crit|p1a: Latias
+|-damage|p1a: Latias|0 fnt
+|faint|p1a: Latias
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Kyurem|Kyurem-Black|14/100
+|-damage|p1a: Kyurem|0 fnt|[from] Stealth Rock
+|faint|p1a: Kyurem
+|
+|win|ygfyugyii
+|l|Dlonetti
+|raw|Dlonetti's rating: 1162 &rarr; <strong>1131</strong><br />(-31 for losing)
+|raw|ygfyugyii's rating: 1070 &rarr; <strong>1107</strong><br />(+37 for winning)

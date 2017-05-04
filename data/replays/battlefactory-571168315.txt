@@ -1,0 +1,120 @@
+|j|k4rkl35 sp4rkl35
+|j|CzarDusty
+|player|p1|k4rkl35 sp4rkl35|256
+|player|p2|CzarDusty|161
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|916,23735,51663,12736,27501,30711,59442,64553,49970,26746,18814,55622
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Kangaskhan, F|item
+|poke|p1|Pawniard, M|item
+|poke|p1|Vivillon, M|item
+|poke|p1|Kabutops, M|item
+|poke|p1|Vileplume, M|item
+|poke|p1|Floatzel, M|item
+|poke|p2|Magmortar, M|item
+|poke|p2|Misdreavus, M|item
+|poke|p2|Archeops, M|
+|poke|p2|Rhydon, M|item
+|poke|p2|Miltank, F|item
+|poke|p2|Ferroseed, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 3, team 2, team 1, team 4, team 5, team 6|team 4, team 2, team 3, team 1, team 5, team 6
+|
+|start
+|switch|p1a: Vivillon|Vivillon, M|100/100
+|switch|p2a: Rhydon|Rhydon, M|100/100
+|turn|1
+|choice|move sleeppowder|move stealthrock
+|
+|move|p1a: Vivillon|Sleep Powder|p2a: Rhydon
+|-status|p2a: Rhydon|slp
+|cant|p2a: Rhydon|slp
+|
+|upkeep
+|turn|2
+|choice|move substitute|move stealthrock
+|
+|move|p1a: Vivillon|Substitute|p1a: Vivillon
+|-start|p1a: Vivillon|Substitute
+|-damage|p1a: Vivillon|76/100
+|cant|p2a: Rhydon|slp
+|
+|-heal|p1a: Vivillon|82/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|choice|move quiverdance|move stealthrock
+|
+|move|p1a: Vivillon|Quiver Dance|p1a: Vivillon
+|-boost|p1a: Vivillon|spa|1
+|-boost|p1a: Vivillon|spd|1
+|-boost|p1a: Vivillon|spe|1
+|-curestatus|p2a: Rhydon|slp|[msg]
+|move|p2a: Rhydon|Stealth Rock|p1a: Vivillon
+|-sidestart|p1: k4rkl35 sp4rkl35|move: Stealth Rock
+|
+|-heal|p1a: Vivillon|88/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|choice|move sleeppowder|move rockblast
+|
+|move|p1a: Vivillon|Sleep Powder|p2a: Rhydon
+|-status|p2a: Rhydon|slp
+|cant|p2a: Rhydon|slp
+|
+|-heal|p1a: Vivillon|94/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|choice|move quiverdance|switch 3
+|
+|switch|p2a: Archeops|Archeops, M|100/100
+|move|p1a: Vivillon|Quiver Dance|p1a: Vivillon
+|-boost|p1a: Vivillon|spa|1
+|-boost|p1a: Vivillon|spd|1
+|-boost|p1a: Vivillon|spe|1
+|
+|-heal|p1a: Vivillon|99/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|choice|move hurricane|move acrobatics
+|
+|move|p1a: Vivillon|Hurricane|p2a: Archeops
+|-resisted|p2a: Archeops
+|-damage|p2a: Archeops|36/100
+|-start|p2a: Archeops|confusion
+|-activate|p2a: Archeops|confusion
+|move|p2a: Archeops|Acrobatics|p1a: Vivillon
+|-supereffective|p1a: Vivillon
+|-end|p1a: Vivillon|Substitute
+|
+|-heal|p1a: Vivillon|100/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|choice|move hurricane|move acrobatics
+|
+|move|p1a: Vivillon|Hurricane|p2a: Archeops
+|-resisted|p2a: Archeops
+|-damage|p2a: Archeops|0 fnt
+|faint|p2a: Archeops
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Magmortar|Magmortar, M|100/100
+|turn|8
+|choice|move hurricane|move fireblast
+|
+|move|p1a: Vivillon|Hurricane|p2a: Magmortar
+|-damage|p2a: Magmortar|0 fnt
+|faint|p2a: Magmortar
+|
+|upkeep
+|-message|CzarDusty forfeited.
+|
+|win|k4rkl35 sp4rkl35
+|l|CzarDusty

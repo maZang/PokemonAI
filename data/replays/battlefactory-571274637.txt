@@ -1,0 +1,235 @@
+|j|arceus1117
+|j|MEGADRAGONCRAFT9
+|player|p1|arceus1117|99
+|player|p2|MEGADRAGONCRAFT9|120
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|19793,12242,38007,43311,25921,40559,9596,18950,46640,60269,33081,38603
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Skarmory, F|item
+|poke|p1|Latias, F|item
+|poke|p1|Azumarill, M|item
+|poke|p1|Scolipede, M|item
+|poke|p1|Magnezone|item
+|poke|p1|Alakazam, M|item
+|poke|p2|Heatran, M|item
+|poke|p2|Kyurem-Black|item
+|poke|p2|Excadrill, M|item
+|poke|p2|Heracross, M|item
+|poke|p2|Pinsir, M|item
+|poke|p2|Chansey, F|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 3, team 2, team 1, team 4, team 5, team 6|team 3, team 2, team 1, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Azumarill|Azumarill, M|100/100
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|1
+|choice|move aquajet|move ironhead
+|
+|move|p1a: Azumarill|Aqua Jet|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|36/100
+|move|p2a: Excadrill|Iron Head|p1a: Azumarill
+|-damage|p1a: Azumarill|66/100
+|
+|-heal|p2a: Excadrill|42/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|choice|move aquajet|move earthquake
+|
+|move|p1a: Azumarill|Aqua Jet|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Heracross|Heracross, M|100/100
+|turn|3
+|choice|switch 3|move megahorn
+|
+|switch|p1a: Skarmory|Skarmory, F|100/100
+|move|p2a: Heracross|Megahorn|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|87/100
+|
+|-status|p2a: Heracross|tox|[from] item: Toxic Orb
+|upkeep
+|turn|4
+|choice|move stealthrock|move closecombat
+|
+|move|p2a: Heracross|Close Combat|p1a: Skarmory
+|-damage|p1a: Skarmory|0 fnt
+|-unboost|p2a: Heracross|def|1
+|-unboost|p2a: Heracross|spd|1
+|faint|p1a: Skarmory
+|
+|-damage|p2a: Heracross|95/100 tox|[from] psn
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Latias|Latias, F|100/100
+|turn|5
+|choice|move psyshock|move closecombat
+|
+|move|p1a: Latias|Psyshock|p2a: Heracross
+|-supereffective|p2a: Heracross
+|-damage|p2a: Heracross|0 fnt
+|-damage|p1a: Latias|91/100|[from] item: Life Orb
+|faint|p2a: Heracross
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Kyurem|Kyurem-Black|100/100
+|-ability|p2a: Kyurem|Teravolt
+|turn|6
+|choice|move dracometeor|move fusionbolt
+|
+|move|p1a: Latias|Draco Meteor|p2a: Kyurem
+|-supereffective|p2a: Kyurem
+|-damage|p2a: Kyurem|0 fnt
+|-unboost|p1a: Latias|spa|2
+|-damage|p1a: Latias|81/100|[from] item: Life Orb
+|faint|p2a: Kyurem
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Chansey|Chansey, F|100/100
+|turn|7
+|choice|switch 4|move seismictoss
+|
+|switch|p1a: Scolipede|Scolipede, M|100/100
+|move|p2a: Chansey|Seismic Toss|p1a: Scolipede
+|-damage|p1a: Scolipede|63/100
+|
+|upkeep
+|turn|8
+|choice|move poisonjab|move seismictoss
+|
+|move|p1a: Scolipede|Poison Jab|p2a: Chansey
+|-damage|p2a: Chansey|63/100
+|-damage|p1a: Scolipede|53/100|[from] item: Life Orb
+|move|p2a: Chansey|Seismic Toss|p1a: Scolipede
+|-damage|p1a: Scolipede|15/100
+|
+|-ability|p1a: Scolipede|Speed Boost|boost
+|-boost|p1a: Scolipede|spe|1
+|upkeep
+|turn|9
+|choice|move megahorn|move softboiled
+|
+|move|p1a: Scolipede|Megahorn|p2a: Chansey
+|-damage|p2a: Chansey|10/100
+|-damage|p1a: Scolipede|5/100|[from] item: Life Orb
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|60/100
+|
+|-ability|p1a: Scolipede|Speed Boost|boost
+|-boost|p1a: Scolipede|spe|1
+|upkeep
+|turn|10
+|choice|move poisonjab|move softboiled
+|
+|move|p1a: Scolipede|Poison Jab|p2a: Chansey
+|-damage|p2a: Chansey|27/100
+|-status|p2a: Chansey|psn
+|-damage|p1a: Scolipede|0 fnt|[from] item: Life Orb
+|faint|p1a: Scolipede
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|77/100 psn
+|
+|-damage|p2a: Chansey|65/100 psn|[from] psn
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Azumarill|Azumarill, M|66/100
+|turn|11
+|choice|move knockoff|move seismictoss
+|
+|move|p2a: Chansey|Seismic Toss|p1a: Azumarill
+|-damage|p1a: Azumarill|41/100
+|move|p1a: Azumarill|Knock Off|p2a: Chansey
+|-damage|p2a: Chansey|37/100 psn
+|-enditem|p2a: Chansey|Eviolite|[from] move: Knock Off|[of] p1a: Azumarill
+|
+|-damage|p2a: Chansey|25/100 psn|[from] psn
+|upkeep
+|turn|12
+|choice|move aquajet|move softboiled
+|
+|move|p1a: Azumarill|Aqua Jet|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Pinsir|Pinsir, M|100/100
+|turn|13
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by MEGADRAGONCRAFT9)
+|choice|move aquajet|move return mega
+|
+|detailschange|p2a: Pinsir|Pinsir-Mega, M
+|-mega|p2a: Pinsir|Pinsir|Pinsirite
+|move|p1a: Azumarill|Aqua Jet|p2a: Pinsir
+|-damage|p2a: Pinsir|74/100
+|move|p2a: Pinsir|Return|p1a: Azumarill
+|-damage|p1a: Azumarill|0 fnt
+|faint|p1a: Azumarill
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Magnezone|Magnezone|100/100
+|turn|14
+|choice|move voltswitch|move return
+|
+|move|p2a: Pinsir|Return|p1a: Magnezone
+|-resisted|p1a: Magnezone
+|-damage|p1a: Magnezone|83/100
+|move|p1a: Magnezone|Volt Switch|p2a: Pinsir
+|-supereffective|p2a: Pinsir
+|-damage|p2a: Pinsir|0 fnt
+|faint|p2a: Pinsir
+|choice|switch 6|
+|
+|switch|p1a: Alakazam|Alakazam, M|100/100
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Heatran|Heatran, M|100/100
+|-item|p2a: Heatran|Air Balloon
+|turn|15
+|choice|move shadowball|move fireblast
+|
+|move|p1a: Alakazam|Shadow Ball|p2a: Heatran
+|-damage|p2a: Heatran|63/100
+|-enditem|p2a: Heatran|Air Balloon
+|move|p2a: Heatran|Fire Blast|p1a: Alakazam|[miss]
+|-miss|p2a: Heatran|p1a: Alakazam
+|
+|upkeep
+|turn|16
+|choice|move focusblast|move fireblast
+|
+|move|p1a: Alakazam|Focus Blast|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|faint|p2a: Heatran
+|
+|win|arceus1117
+|raw|arceus1117's rating: 1260 &rarr; <strong>1273</strong><br />(+13 for winning)
+|raw|MEGADRAGONCRAFT9's rating: 1072 &rarr; <strong>1062</strong><br />(-10 for losing)
+|c|☆arceus1117|gg
+|c|☆MEGADRAGONCRAFT9|gg

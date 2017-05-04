@@ -1,0 +1,310 @@
+|j|arceus1117
+|j|jhgvgjf
+|player|p1|arceus1117|99
+|player|p2|jhgvgjf|59
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|28536,43977,63398,62807,33013,18618,3306,52029,50124,37080,43670,35946
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Tyranitar, M|item
+|poke|p1|Latios, M|item
+|poke|p1|Gallade, M|item
+|poke|p1|Heatran, M|item
+|poke|p1|Magnezone|item
+|poke|p1|Zygarde|item
+|poke|p2|Bisharp, M|item
+|poke|p2|Tyranitar, M|item
+|poke|p2|Zapdos|item
+|poke|p2|Scolipede, M|item
+|poke|p2|Weavile, M|item
+|poke|p2|Dragonite, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 3, team 2, team 1, team 4, team 5, team 6|team 2, team 1, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Gallade|Gallade, M|100/100
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|1
+|choice|move closecombat mega|move stealthrock
+|
+|detailschange|p1a: Gallade|Gallade-Mega, M
+|-mega|p1a: Gallade|Gallade|Galladite
+|move|p1a: Gallade|Close Combat|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|-unboost|p1a: Gallade|def|1
+|-unboost|p1a: Gallade|spd|1
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gallade|94/100|[from] sandstorm
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Dragonite|Dragonite, M|100/100
+|turn|2
+|choice|switch 3|move earthquake
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|move|p2a: Dragonite|Earthquake|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-crit|p1a: Tyranitar
+|-damage|p1a: Tyranitar|18/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragonite|94/100|[from] sandstorm
+|-heal|p1a: Tyranitar|24/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|choice|switch 2|move earthquake
+|
+|switch|p1a: Latios|Latios, M|100/100
+|move|p2a: Dragonite|Earthquake|p1a: Latios
+|-immune|p1a: Latios|[msg]|[from] ability: Levitate
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|95/100|[from] sandstorm
+|-damage|p2a: Dragonite|88/100|[from] sandstorm
+|upkeep
+|turn|4
+|choice|move dracometeor|move outrage
+|
+|move|p1a: Latios|Draco Meteor|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|-unboost|p1a: Latios|spa|2
+|-damage|p1a: Latios|85/100|[from] item: Life Orb
+|faint|p2a: Dragonite
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|79/100|[from] sandstorm
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Weavile|Weavile, M|100/100
+|-ability|p2a: Weavile|Pressure
+|turn|5
+|choice|move dracometeor|move icepunch
+|
+|move|p2a: Weavile|Ice Punch|p1a: Latios
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|0 fnt
+|-damage|p2a: Weavile|91/100|[from] item: Life Orb
+|faint|p1a: Latios
+|
+|-weather|none
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Heatran|Heatran, M|100/100
+|turn|6
+|choice|move overheat|move lowkick
+|
+|move|p1a: Heatran|Overheat|p2a: Weavile
+|-supereffective|p2a: Weavile
+|-damage|p2a: Weavile|0 fnt
+|-unboost|p1a: Heatran|spa|2
+|faint|p2a: Weavile
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Zapdos|Zapdos|100/100
+|-ability|p2a: Zapdos|Pressure
+|turn|7
+|choice|switch 2|move thunderbolt
+|
+|switch|p1a: Tyranitar|Tyranitar, M|24/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Zapdos|Thunderbolt|p1a: Tyranitar
+|-damage|p1a: Tyranitar|6/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|94/100|[from] sandstorm
+|-heal|p2a: Zapdos|100/100|[from] item: Leftovers
+|-heal|p1a: Tyranitar|12/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|choice|move stealthrock|move heatwave
+|
+|move|p2a: Zapdos|Heat Wave|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|5/100
+|-status|p1a: Tyranitar|brn
+|move|p1a: Tyranitar|Stealth Rock|p2a: Zapdos
+|-sidestart|p2: jhgvgjf|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|94/100|[from] sandstorm
+|-heal|p2a: Zapdos|100/100|[from] item: Leftovers
+|-heal|p1a: Tyranitar|11/100 brn|[from] item: Leftovers
+|-damage|p1a: Tyranitar|0 fnt|[from] brn
+|upkeep
+|faint|p1a: Tyranitar
+|choice|switch 2|
+|
+|switch|p1a: Heatran|Heatran, M|100/100
+|turn|9
+|choice|move overheat|move thunderbolt
+|
+|move|p1a: Heatran|Overheat|p2a: Zapdos
+|-damage|p2a: Zapdos|40/100
+|-unboost|p1a: Heatran|spa|2
+|move|p2a: Zapdos|Thunderbolt|p1a: Heatran
+|-damage|p1a: Heatran|60/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|34/100|[from] sandstorm
+|-heal|p2a: Zapdos|40/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|choice|switch 5|move roost
+|
+|switch|p1a: Magnezone|Magnezone|100/100
+|move|p2a: Zapdos|Roost|p2a: Zapdos
+|-heal|p2a: Zapdos|90/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|84/100|[from] sandstorm
+|-heal|p2a: Zapdos|90/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|choice|move voltswitch|move heatwave
+|
+|move|p2a: Zapdos|Heat Wave|p1a: Magnezone
+|-supereffective|p1a: Magnezone
+|-damage|p1a: Magnezone|32/100
+|move|p1a: Magnezone|Volt Switch|p2a: Zapdos
+|-damage|p2a: Zapdos|28/100
+|choice|switch 5|
+|
+|switch|p1a: Heatran|Heatran, M|60/100
+|
+|-weather|none
+|-heal|p2a: Zapdos|35/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|choice|move overheat|move roost
+|
+|move|p1a: Heatran|Overheat|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|-unboost|p1a: Heatran|spa|2
+|faint|p2a: Zapdos
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Scolipede|Scolipede, M|100/100
+|-damage|p2a: Scolipede|76/100|[from] Stealth Rock
+|turn|13
+|choice|switch 3|move earthquake
+|
+|switch|p1a: Gallade|Gallade-Mega, M|94/100
+|move|p2a: Scolipede|Earthquake|p1a: Gallade
+|-damage|p1a: Gallade|39/100
+|-damage|p2a: Scolipede|66/100|[from] item: Life Orb
+|
+|-ability|p2a: Scolipede|Speed Boost|boost
+|-boost|p2a: Scolipede|spe|1
+|upkeep
+|turn|14
+|choice|switch 5|move poisonjab
+|
+|switch|p1a: Magnezone|Magnezone|32/100
+|move|p2a: Scolipede|Poison Jab|p1a: Magnezone
+|-immune|p1a: Magnezone|[msg]
+|
+|-ability|p2a: Scolipede|Speed Boost|boost
+|-boost|p2a: Scolipede|spe|1
+|upkeep
+|turn|15
+|choice|move hiddenpower|move earthquake
+|
+|move|p2a: Scolipede|Earthquake|p1a: Magnezone
+|-supereffective|p1a: Magnezone
+|-damage|p1a: Magnezone|0 fnt
+|-damage|p2a: Scolipede|56/100|[from] item: Life Orb
+|faint|p1a: Magnezone
+|
+|-ability|p2a: Scolipede|Speed Boost|boost
+|-boost|p2a: Scolipede|spe|1
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Zygarde|Zygarde|100/100
+|-ability|p1a: Zygarde|Aura Break
+|turn|16
+|choice|move coil|move megahorn
+|
+|move|p2a: Scolipede|Megahorn|p1a: Zygarde
+|-damage|p1a: Zygarde|51/100
+|-damage|p2a: Scolipede|46/100|[from] item: Life Orb
+|move|p1a: Zygarde|Coil|p1a: Zygarde
+|-boost|p1a: Zygarde|atk|1
+|-boost|p1a: Zygarde|def|1
+|-boost|p1a: Zygarde|accuracy|1
+|
+|-heal|p1a: Zygarde|58/100|[from] item: Leftovers
+|-ability|p2a: Scolipede|Speed Boost|boost
+|-boost|p2a: Scolipede|spe|1
+|upkeep
+|turn|17
+|choice|move coil|move earthquake
+|
+|move|p2a: Scolipede|Earthquake|p1a: Zygarde
+|-damage|p1a: Zygarde|39/100
+|-damage|p2a: Scolipede|36/100|[from] item: Life Orb
+|move|p1a: Zygarde|Coil|p1a: Zygarde
+|-boost|p1a: Zygarde|atk|1
+|-boost|p1a: Zygarde|def|1
+|-boost|p1a: Zygarde|accuracy|1
+|
+|-heal|p1a: Zygarde|45/100|[from] item: Leftovers
+|-ability|p2a: Scolipede|Speed Boost|boost
+|-boost|p2a: Scolipede|spe|1
+|upkeep
+|turn|18
+|choice|move dragontail|move megahorn
+|
+|move|p2a: Scolipede|Megahorn|p1a: Zygarde
+|-damage|p1a: Zygarde|21/100
+|-damage|p2a: Scolipede|27/100|[from] item: Life Orb
+|move|p1a: Zygarde|Dragon Tail|p2a: Scolipede
+|-damage|p2a: Scolipede|0 fnt
+|faint|p2a: Scolipede
+|
+|-heal|p1a: Zygarde|27/100|[from] item: Leftovers
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Bisharp|Bisharp, M|100/100
+|-damage|p2a: Bisharp|95/100|[from] Stealth Rock
+|turn|19
+|c|☆arceus1117|gg
+|choice|move earthquake|move ironhead
+|
+|move|p2a: Bisharp|Iron Head|p1a: Zygarde
+|-damage|p1a: Zygarde|12/100
+|cant|p1a: Zygarde|flinch
+|
+|-heal|p1a: Zygarde|18/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|choice|move earthquake|move ironhead
+|
+|move|p2a: Bisharp|Iron Head|p1a: Zygarde
+|-damage|p1a: Zygarde|3/100
+|move|p1a: Zygarde|Earthquake|p2a: Bisharp
+|-supereffective|p2a: Bisharp
+|-damage|p2a: Bisharp|0 fnt
+|faint|p2a: Bisharp
+|
+|win|arceus1117
+|raw|arceus1117's rating: 1283 &rarr; <strong>1291</strong><br />(+8 for winning)
+|raw|jhgvgjf's rating: 1000 &rarr; <strong>1000</strong><br />(+0 for losing)

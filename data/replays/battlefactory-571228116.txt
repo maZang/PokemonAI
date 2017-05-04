@@ -1,0 +1,76 @@
+|j|poopydoopytroopy
+|j|abejanegra
+|player|p1|poopydoopytroopy|165
+|player|p2|abejanegra|1
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|44389,41345,22817,47957,45751,29576,59961,533,17874,49885,56439,46272
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Thundurus, M|item
+|poke|p1|Skarmory, M|item
+|poke|p1|Tyranitar, M|item
+|poke|p1|Gallade, M|item
+|poke|p1|Gengar, M|item
+|poke|p1|Magnezone|item
+|poke|p2|Gengar, M|item
+|poke|p2|Excadrill, M|item
+|poke|p2|Gallade, M|item
+|poke|p2|Gyarados, M|item
+|poke|p2|Ferrothorn, M|item
+|poke|p2|Hawlucha, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by abejanegra)
+|choice|team 4, team 2, team 3, team 1, team 5, team 6|team 5, team 2, team 3, team 4, team 1, team 6
+|
+|start
+|switch|p1a: Gallade|Gallade, M|100/100
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|turn|1
+|choice|move knockoff mega|move leechseed
+|
+|detailschange|p1a: Gallade|Gallade-Mega, M
+|-mega|p1a: Gallade|Gallade|Galladite
+|move|p1a: Gallade|Knock Off|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|72/100
+|-damage|p1a: Gallade|88/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-enditem|p2a: Ferrothorn|Leftovers|[from] move: Knock Off|[of] p1a: Gallade
+|move|p2a: Ferrothorn|Leech Seed|p1a: Gallade
+|-start|p1a: Gallade|move: Leech Seed
+|
+|-damage|p1a: Gallade|76/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|81/100|[silent]
+|upkeep
+|turn|2
+|choice|move swordsdance|move protect
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Gallade|Swords Dance|p1a: Gallade
+|-boost|p1a: Gallade|atk|2
+|
+|-damage|p1a: Gallade|64/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|91/100|[silent]
+|upkeep
+|turn|3
+|choice|move closecombat|move gyroball
+|
+|move|p1a: Gallade|Close Combat|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|-damage|p1a: Gallade|51/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-unboost|p1a: Gallade|def|1
+|-unboost|p1a: Gallade|spd|1
+|faint|p2a: Ferrothorn
+|
+|upkeep
+|-message|abejanegra forfeited.
+|
+|win|poopydoopytroopy
+|l|abejanegra
+|raw|poopydoopytroopy's rating: 1090 &rarr; <strong>1120</strong><br />(+30 for winning)
+|raw|abejanegra's rating: 1128 &rarr; <strong>1101</strong><br />(-27 for losing)

@@ -1,0 +1,538 @@
+|j|Hydreigon Specs
+|j|AfkDs8
+|player|p1|Hydreigon Specs|101
+|player|p2|AfkDs8|158
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|15527,35637,43212,45539,45351,59799,12589,24584,50239,43258,1797,47784
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Beedrill, M|item
+|poke|p1|Cresselia, F|item
+|poke|p1|Machamp, M|item
+|poke|p1|Porygon2|item
+|poke|p1|Galvantula, M|item
+|poke|p1|Donphan, M|item
+|poke|p2|Sharpedo, M|item
+|poke|p2|Empoleon, M|item
+|poke|p2|Machamp, M|item
+|poke|p2|Honchkrow, M|item
+|poke|p2|Chesnaught, M|item
+|poke|p2|Tornadus, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|c|☆AfkDs8|UU
+|c|☆Hydreigon Specs|U.U
+|c|☆Hydreigon Specs|tier de machofemale alpha
+|choice|team 5, team 2, team 3, team 4, team 1, team 6|team 5, team 2, team 3, team 4, team 1, team 6
+|
+|start
+|switch|p1a: Galvantula|Galvantula, M|100/100
+|switch|p2a: Chesnaught|Chesnaught, M|100/100
+|turn|1
+|choice|move stickyweb|move leechseed
+|
+|move|p1a: Galvantula|Sticky Web|p2a: Chesnaught
+|-sidestart|p2: AfkDs8|move: Sticky Web
+|move|p2a: Chesnaught|Leech Seed|p1a: Galvantula
+|-start|p1a: Galvantula|move: Leech Seed
+|
+|-damage|p1a: Galvantula|88/100|[from] Leech Seed|[of] p2a: Chesnaught
+|upkeep
+|turn|2
+|choice|switch 5|move spikes
+|
+|switch|p1a: Beedrill|Beedrill, M|100/100
+|move|p2a: Chesnaught|Spikes|p1a: Beedrill
+|-sidestart|p1: Hydreigon Specs|Spikes
+|
+|upkeep
+|turn|3
+|choice|move uturn mega|move spikyshield
+|
+|detailschange|p1a: Beedrill|Beedrill-Mega, M
+|-mega|p1a: Beedrill|Beedrill|Beedrillite
+|move|p2a: Chesnaught|Spiky Shield|p2a: Chesnaught
+|-singleturn|p2a: Chesnaught|move: Protect
+|move|p1a: Beedrill|U-turn|p2a: Chesnaught
+|-activate|p2a: Chesnaught|move: Protect
+|-damage|p1a: Beedrill|88/100|[from] Spiky Shield|[of] p2a: Chesnaught
+|
+|upkeep
+|turn|4
+|c|☆AfkDs8|otaro
+|choice|move uturn|move spikes
+|
+|move|p1a: Beedrill|U-turn|p2a: Chesnaught
+|-damage|p2a: Chesnaught|59/100
+|choice|switch 3|
+|
+|switch|p1a: Machamp|Machamp, M|100/100
+|-damage|p1a: Machamp|88/100|[from] Spikes
+|move|p2a: Chesnaught|Spikes|p1a: Machamp
+|-sidestart|p1: Hydreigon Specs|Spikes
+|
+|-heal|p2a: Chesnaught|65/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|choice|switch 6|move leechseed
+|
+|switch|p1a: Donphan|Donphan, M|100/100
+|-damage|p1a: Donphan|84/100|[from] Spikes
+|move|p2a: Chesnaught|Leech Seed|p1a: Donphan
+|-start|p1a: Donphan|move: Leech Seed
+|
+|-heal|p2a: Chesnaught|71/100|[from] item: Leftovers
+|-heal|p1a: Donphan|90/100|[from] item: Leftovers
+|-damage|p1a: Donphan|78/100|[from] Leech Seed|[of] p2a: Chesnaught
+|-heal|p2a: Chesnaught|83/100|[silent]
+|upkeep
+|turn|6
+|choice|switch 3|move spikes
+|
+|switch|p1a: Beedrill|Beedrill-Mega, M|88/100
+|-damage|p1a: Beedrill|72/100|[from] Spikes
+|move|p2a: Chesnaught|Spikes|p1a: Beedrill
+|-sidestart|p1: Hydreigon Specs|Spikes
+|
+|-heal|p2a: Chesnaught|89/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|c|☆AfkDs8|so obvious
+|choice|move protect|move spikyshield
+|
+|move|p1a: Beedrill|Protect|p1a: Beedrill
+|-singleturn|p1a: Beedrill|Protect
+|move|p2a: Chesnaught|Spiky Shield|p2a: Chesnaught
+|-fail|p2a: Chesnaught
+|
+|-heal|p2a: Chesnaught|95/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|choice|move poisonjab|move leechseed
+|
+|move|p1a: Beedrill|Poison Jab|p2a: Chesnaught
+|-supereffective|p2a: Chesnaught
+|-damage|p2a: Chesnaught|0 fnt
+|faint|p2a: Chesnaught
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Tornadus|Tornadus, M|100/100
+|turn|9
+|choice|move uturn|move tailwind
+|
+|move|p2a: Tornadus|Tailwind|p2a: Tornadus
+|-sidestart|p2: AfkDs8|move: Tailwind
+|move|p1a: Beedrill|U-turn|p2a: Tornadus
+|-resisted|p2a: Tornadus
+|-damage|p2a: Tornadus|59/100
+|choice|switch 6|
+|
+|switch|p1a: Machamp|Machamp, M|88/100
+|-damage|p1a: Machamp|63/100|[from] Spikes
+|
+|upkeep
+|turn|10
+|choice|move bulletpunch|move hurricane
+|
+|move|p1a: Machamp|Bullet Punch|p2a: Tornadus
+|-damage|p2a: Tornadus|21/100
+|move|p2a: Tornadus|Hurricane|p1a: Machamp
+|-supereffective|p1a: Machamp
+|-damage|p1a: Machamp|0 fnt
+|-damage|p2a: Tornadus|11/100|[from] item: Life Orb
+|faint|p1a: Machamp
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Donphan|Donphan, M|78/100
+|-damage|p1a: Donphan|53/100|[from] Spikes
+|turn|11
+|choice|move iceshard|switch 2
+|
+|switch|p2a: Empoleon|Empoleon, M|100/100
+|-activate|p2a: Empoleon|move: Sticky Web
+|-unboost|p2a: Empoleon|spe|1
+|move|p1a: Donphan|Ice Shard|p2a: Empoleon
+|-resisted|p2a: Empoleon
+|-damage|p2a: Empoleon|98/100
+|
+|-heal|p2a: Empoleon|100/100|[from] item: Leftovers
+|-heal|p1a: Donphan|59/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|choice|move rapidspin|move stealthrock
+|
+|move|p2a: Empoleon|Stealth Rock|p1a: Donphan
+|-sidestart|p1: Hydreigon Specs|move: Stealth Rock
+|move|p1a: Donphan|Rapid Spin|p2a: Empoleon
+|-resisted|p2a: Empoleon
+|-damage|p2a: Empoleon|98/100
+|-sideend|p1: Hydreigon Specs|Spikes|[from] move: Rapid Spin|[of] p1a: Donphan
+|-sideend|p1: Hydreigon Specs|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Donphan
+|
+|-heal|p2a: Empoleon|100/100|[from] item: Leftovers
+|-heal|p1a: Donphan|65/100|[from] item: Leftovers
+|-sideend|p2: AfkDs8|move: Tailwind
+|upkeep
+|turn|13
+|choice|switch 5|move defog
+|
+|switch|p1a: Galvantula|Galvantula, M|88/100
+|move|p2a: Empoleon|Defog|p1a: Galvantula
+|-unboost|p1a: Galvantula|evasion|1
+|-sideend|p2: AfkDs8|Sticky Web|[from] move: Defog|[of] p2a: Empoleon
+|
+|upkeep
+|turn|14
+|choice|move stickyweb|move roar
+|
+|move|p1a: Galvantula|Sticky Web|p2a: Empoleon
+|-sidestart|p2: AfkDs8|move: Sticky Web
+|move|p2a: Empoleon|Roar|p1a: Galvantula
+|drag|p1a: Cresselia|Cresselia, F|100/100
+|
+|upkeep
+|turn|15
+|choice|switch 2|move stealthrock
+|
+|switch|p1a: Galvantula|Galvantula, M|88/100
+|move|p2a: Empoleon|Stealth Rock|p1a: Galvantula
+|-sidestart|p1: Hydreigon Specs|move: Stealth Rock
+|
+|upkeep
+|turn|16
+|c|☆Hydreigon Specs|daí erra
+|c|☆Hydreigon Specs|tlgd
+|choice|move thunder|move defog
+|
+|move|p1a: Galvantula|Thunder|p2a: Empoleon
+|-supereffective|p2a: Empoleon
+|-damage|p2a: Empoleon|37/100
+|-status|p2a: Empoleon|par
+|move|p2a: Empoleon|Defog|p1a: Galvantula
+|-unboost|p1a: Galvantula|evasion|1
+|-sideend|p1: Hydreigon Specs|Stealth Rock|[from] move: Defog|[of] p1a: Galvantula
+|-sideend|p2: AfkDs8|Sticky Web|[from] move: Defog|[of] p2a: Empoleon
+|
+|-heal|p2a: Empoleon|43/100 par|[from] item: Leftovers
+|upkeep
+|turn|17
+|choice|move stickyweb|move stealthrock
+|
+|move|p1a: Galvantula|Sticky Web|p2a: Empoleon
+|-sidestart|p2: AfkDs8|move: Sticky Web
+|cant|p2a: Empoleon|par
+|
+|-heal|p2a: Empoleon|49/100 par|[from] item: Leftovers
+|upkeep
+|turn|18
+|choice|move thunder|move stealthrock
+|
+|move|p1a: Galvantula|Thunder|p2a: Empoleon
+|-supereffective|p2a: Empoleon
+|-damage|p2a: Empoleon|0 fnt
+|faint|p2a: Empoleon
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Tornadus|Tornadus, M|11/100
+|turn|19
+|choice|move thunder|move tailwind
+|
+|move|p2a: Tornadus|Tailwind|p2a: Tornadus
+|-sidestart|p2: AfkDs8|move: Tailwind
+|move|p1a: Galvantula|Thunder|p2a: Tornadus
+|-supereffective|p2a: Tornadus
+|-damage|p2a: Tornadus|0 fnt
+|faint|p2a: Tornadus
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Honchkrow|Honchkrow, M|100/100
+|turn|20
+|choice|move thunder|move bravebird
+|
+|move|p2a: Honchkrow|Brave Bird|p1a: Galvantula
+|-damage|p1a: Galvantula|0 fnt
+|-damage|p2a: Honchkrow|77/100|[from] recoil|[of] p1a: Galvantula
+|-damage|p2a: Honchkrow|67/100|[from] item: Life Orb
+|faint|p1a: Galvantula
+|-ability|p2a: Honchkrow|Moxie|boost
+|-boost|p2a: Honchkrow|atk|1
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Porygon2|Porygon2|100/100
+|-ability|p1a: Porygon2|Moxie|[from] ability: Trace|[of] p2a: Honchkrow
+|turn|21
+|choice|move thunderbolt|move superpower
+|
+|move|p2a: Honchkrow|Superpower|p1a: Porygon2
+|-supereffective|p1a: Porygon2
+|-damage|p1a: Porygon2|0 fnt
+|-unboost|p2a: Honchkrow|atk|1
+|-unboost|p2a: Honchkrow|def|1
+|-damage|p2a: Honchkrow|57/100|[from] item: Life Orb
+|faint|p1a: Porygon2
+|-ability|p2a: Honchkrow|Moxie|boost
+|-boost|p2a: Honchkrow|atk|1
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Donphan|Donphan, M|65/100
+|turn|22
+|choice|move iceshard|switch 5
+|
+|switch|p2a: Sharpedo|Sharpedo, M|100/100
+|-activate|p2a: Sharpedo|move: Sticky Web
+|-unboost|p2a: Sharpedo|spe|1
+|move|p1a: Donphan|Ice Shard|p2a: Sharpedo
+|-resisted|p2a: Sharpedo
+|-crit|p2a: Sharpedo
+|-damage|p2a: Sharpedo|79/100
+|
+|-heal|p1a: Donphan|71/100|[from] item: Leftovers
+|-sideend|p2: AfkDs8|move: Tailwind
+|upkeep
+|turn|23
+|choice|move earthquake|move protect
+|
+|move|p2a: Sharpedo|Protect|p2a: Sharpedo
+|-singleturn|p2a: Sharpedo|Protect
+|move|p1a: Donphan|Earthquake|p2a: Sharpedo
+|-activate|p2a: Sharpedo|move: Protect
+|
+|-heal|p1a: Donphan|77/100|[from] item: Leftovers
+|-ability|p2a: Sharpedo|Speed Boost|boost
+|-boost|p2a: Sharpedo|spe|1
+|upkeep
+|turn|24
+|l|Hydreigon Specs
+|player|p1|
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by AfkDs8)
+|j|Hydreigon Specs
+|player|p1|Hydreigon Specs|101
+|choice|switch 2|switch 5
+|
+|switch|p2a: Honchkrow|Honchkrow, M|57/100
+|switch|p1a: Cresselia|Cresselia, F|100/100
+|
+|upkeep
+|turn|25
+|choice|move thunderwave|move roost
+|
+|move|p2a: Honchkrow|Roost|p2a: Honchkrow
+|-heal|p2a: Honchkrow|100/100
+|move|p1a: Cresselia|Thunder Wave|p2a: Honchkrow
+|-status|p2a: Honchkrow|par
+|
+|upkeep
+|turn|26
+|choice|move moonblast|move suckerpunch
+|
+|cant|p2a: Honchkrow|par
+|move|p1a: Cresselia|Moonblast|p2a: Honchkrow
+|-supereffective|p2a: Honchkrow
+|-damage|p2a: Honchkrow|46/100 par
+|
+|upkeep
+|turn|27
+|choice|move moonlight|move suckerpunch
+|
+|move|p2a: Honchkrow|Sucker Punch|p1a: Cresselia|[still]
+|-fail|p2a: Honchkrow
+|move|p1a: Cresselia|Moonlight|p1a: Cresselia
+|
+|upkeep
+|turn|28
+|choice|switch 2|move roost
+|
+|switch|p1a: Donphan|Donphan, M|77/100
+|move|p2a: Honchkrow|Roost|p2a: Honchkrow
+|-heal|p2a: Honchkrow|96/100 par
+|
+|-heal|p1a: Donphan|83/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|choice|move iceshard|move bravebird
+|
+|move|p1a: Donphan|Ice Shard|p2a: Honchkrow
+|-supereffective|p2a: Honchkrow
+|-damage|p2a: Honchkrow|59/100 par
+|cant|p2a: Honchkrow|par
+|
+|-heal|p1a: Donphan|89/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|choice|move stealthrock|move bravebird
+|
+|move|p1a: Donphan|Stealth Rock|p2a: Honchkrow
+|-sidestart|p2: AfkDs8|move: Stealth Rock
+|move|p2a: Honchkrow|Brave Bird|p1a: Donphan
+|-damage|p1a: Donphan|36/100
+|-damage|p2a: Honchkrow|40/100 par|[from] recoil|[of] p1a: Donphan
+|-damage|p2a: Honchkrow|30/100 par|[from] item: Life Orb
+|
+|-heal|p1a: Donphan|42/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|choice|move iceshard|move suckerpunch
+|
+|move|p1a: Donphan|Ice Shard|p2a: Honchkrow
+|-supereffective|p2a: Honchkrow
+|-damage|p2a: Honchkrow|0 fnt
+|faint|p2a: Honchkrow
+|
+|-heal|p1a: Donphan|48/100|[from] item: Leftovers
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Machamp|Machamp, M|100/100
+|-damage|p2a: Machamp|94/100|[from] Stealth Rock
+|-activate|p2a: Machamp|move: Sticky Web
+|-unboost|p2a: Machamp|spe|1
+|turn|32
+|choice|move earthquake|move dynamicpunch
+|
+|move|p1a: Donphan|Earthquake|p2a: Machamp
+|-damage|p2a: Machamp|51/100
+|move|p2a: Machamp|Dynamic Punch|p1a: Donphan
+|-damage|p1a: Donphan|18/100
+|-start|p1a: Donphan|confusion
+|
+|-heal|p1a: Donphan|24/100|[from] item: Leftovers
+|-heal|p2a: Machamp|57/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|choice|move earthquake|move rest
+|
+|-activate|p1a: Donphan|confusion
+|move|p1a: Donphan|Earthquake|p2a: Machamp
+|-damage|p2a: Machamp|14/100
+|move|p2a: Machamp|Rest|p2a: Machamp
+|-status|p2a: Machamp|slp
+|-heal|p2a: Machamp|100/100 slp|[silent]
+|-status|p2a: Machamp|slp|[from] move: Rest
+|
+|-heal|p1a: Donphan|30/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|choice|move earthquake|move sleeptalk
+|
+|-end|p1a: Donphan|confusion
+|move|p1a: Donphan|Earthquake|p2a: Machamp
+|-damage|p2a: Machamp|56/100 slp
+|cant|p2a: Machamp|slp
+|move|p2a: Machamp|Sleep Talk|p2a: Machamp
+|move|p2a: Machamp|Knock Off|p1a: Donphan|[from]Sleep Talk
+|-damage|p1a: Donphan|9/100
+|-enditem|p1a: Donphan|Leftovers|[from] move: Knock Off|[of] p2a: Machamp
+|
+|-heal|p2a: Machamp|62/100 slp|[from] item: Leftovers
+|upkeep
+|turn|35
+|choice|move earthquake|move sleeptalk
+|
+|move|p1a: Donphan|Earthquake|p2a: Machamp
+|-damage|p2a: Machamp|17/100 slp
+|cant|p2a: Machamp|slp
+|move|p2a: Machamp|Sleep Talk|p2a: Machamp
+|move|p2a: Machamp|Rest|p2a: Machamp|[from]Sleep Talk
+|-fail|p2a: Machamp
+|
+|-heal|p2a: Machamp|23/100 slp|[from] item: Leftovers
+|upkeep
+|turn|36
+|choice|move stealthrock|move sleeptalk
+|
+|move|p1a: Donphan|Stealth Rock|p2a: Machamp
+|-fail|p2a: Machamp
+|-curestatus|p2a: Machamp|slp|[msg]
+|move|p2a: Machamp|Sleep Talk|p2a: Machamp
+|-fail|p2a: Machamp
+|
+|-heal|p2a: Machamp|29/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|c|☆Hydreigon Specs|missclick
+|c|☆Hydreigon Specs|demonio
+|choice|switch 2|move rest
+|
+|switch|p1a: Cresselia|Cresselia, F|100/100
+|move|p2a: Machamp|Rest|p2a: Machamp
+|-status|p2a: Machamp|slp
+|-heal|p2a: Machamp|100/100 slp|[silent]
+|-status|p2a: Machamp|slp|[from] move: Rest
+|
+|upkeep
+|turn|38
+|choice|move thunderwave|move sleeptalk
+|
+|move|p1a: Cresselia|Thunder Wave|p2a: Machamp
+|-fail|p2a: Machamp
+|cant|p2a: Machamp|slp
+|move|p2a: Machamp|Sleep Talk|p2a: Machamp
+|move|p2a: Machamp|Dynamic Punch|p1a: Cresselia|[from]Sleep Talk
+|-resisted|p1a: Cresselia
+|-damage|p1a: Cresselia|86/100
+|-start|p1a: Cresselia|confusion
+|
+|-heal|p1a: Cresselia|92/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|choice|move thunderwave|move sleeptalk
+|
+|-activate|p1a: Cresselia|confusion
+|move|p1a: Cresselia|Thunder Wave|p2a: Machamp
+|-fail|p2a: Machamp
+|cant|p2a: Machamp|slp
+|move|p2a: Machamp|Sleep Talk|p2a: Machamp
+|move|p2a: Machamp|Dynamic Punch|p1a: Cresselia|[from]Sleep Talk
+|-resisted|p1a: Cresselia
+|-damage|p1a: Cresselia|78/100
+|
+|-heal|p1a: Cresselia|84/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|c|☆Hydreigon Specs|entra de sharpedo vai
+|choice|move thunderwave|move sleeptalk
+|
+|-end|p1a: Cresselia|confusion
+|move|p1a: Cresselia|Thunder Wave|p2a: Machamp
+|-fail|p2a: Machamp
+|-curestatus|p2a: Machamp|slp|[msg]
+|move|p2a: Machamp|Sleep Talk|p2a: Machamp
+|-fail|p2a: Machamp
+|
+|-heal|p1a: Cresselia|90/100|[from] item: Leftovers
+|upkeep
+|turn|41
+|c|☆Hydreigon Specs|vai levar o melhor thunder wave da vida
+|c|☆AfkDs8|brb
+|choice|move thunderwave|move knockoff
+|
+|move|p1a: Cresselia|Thunder Wave|p2a: Machamp
+|-status|p2a: Machamp|par
+|move|p2a: Machamp|Knock Off|p1a: Cresselia
+|-supereffective|p1a: Cresselia
+|-damage|p1a: Cresselia|54/100
+|-enditem|p1a: Cresselia|Leftovers|[from] move: Knock Off|[of] p2a: Machamp
+|
+|upkeep
+|turn|42
+|l|AfkDs8
+|player|p2|
+|-message|AfkDs8 lost due to inactivity.
+|
+|win|Hydreigon Specs
+|j|Kaikeds8ツ

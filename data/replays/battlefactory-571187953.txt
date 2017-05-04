@@ -1,0 +1,289 @@
+|j|travis yeary
+|j|LevoWarfor120
+|player|p1|travis yeary|170
+|player|p2|LevoWarfor120|222
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|24921,28521,18168,55548,57057,18116,43069,34094,58475,37614,18793,45226
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Fletchinder, M|
+|poke|p1|Smeargle, M|item
+|poke|p1|Clawitzer, M|item
+|poke|p1|Aggron, M|item
+|poke|p1|Aerodactyl, M|item
+|poke|p1|Magneton|item
+|poke|p2|Omastar, M|item
+|poke|p2|Absol, M|item
+|poke|p2|Blastoise, M|item
+|poke|p2|Togetic, M|item
+|poke|p2|Sneasel, M|item
+|poke|p2|Uxie|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 2, team 1, team 3, team 4, team 5, team 6|team 3, team 2, team 1, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Smeargle|Smeargle, M|100/100
+|switch|p2a: Blastoise|Blastoise, M|100/100
+|turn|1
+|choice|move darkvoid|switch 2
+|
+|switch|p2a: Absol|Absol, M|100/100
+|move|p1a: Smeargle|Dark Void|p2a: Absol|[miss]
+|-miss|p1a: Smeargle|p2a: Absol
+|
+|upkeep
+|turn|2
+|choice|move darkvoid|move knockoff
+|
+|move|p1a: Smeargle|Dark Void|p2a: Absol
+|-status|p2a: Absol|slp
+|cant|p2a: Absol|slp
+|
+|upkeep
+|turn|3
+|choice|move stealthrock|switch 2
+|
+|switch|p2a: Blastoise|Blastoise, M|100/100
+|move|p1a: Smeargle|Stealth Rock|p2a: Blastoise
+|-sidestart|p2: LevoWarfor120|move: Stealth Rock
+|
+|upkeep
+|turn|4
+|choice|move stickyweb|move rapidspin
+|
+|move|p1a: Smeargle|Sticky Web|p2a: Blastoise
+|-sidestart|p2: LevoWarfor120|move: Sticky Web
+|move|p2a: Blastoise|Rapid Spin|p1a: Smeargle
+|-damage|p1a: Smeargle|93/100
+|-sideend|p2: LevoWarfor120|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Blastoise
+|-sideend|p2: LevoWarfor120|Sticky Web|[from] move: Rapid Spin|[of] p2a: Blastoise
+|
+|upkeep
+|turn|5
+|choice|move darkvoid|move scald
+|
+|move|p1a: Smeargle|Dark Void|p2a: Blastoise|[miss]
+|-miss|p1a: Smeargle|p2a: Blastoise
+|move|p2a: Blastoise|Scald|p1a: Smeargle
+|-crit|p1a: Smeargle
+|-damage|p1a: Smeargle|22/100
+|
+|upkeep
+|turn|6
+|choice|move darkvoid|move scald
+|
+|move|p1a: Smeargle|Dark Void|p2a: Blastoise
+|-message|Sleep Clause Mod activated.
+|move|p2a: Blastoise|Scald|p1a: Smeargle
+|-damage|p1a: Smeargle|0 fnt
+|faint|p1a: Smeargle
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Magneton|Magneton|100/100
+|turn|7
+|choice|move thunderbolt|switch 6
+|
+|switch|p2a: Uxie|Uxie|100/100
+|move|p1a: Magneton|Thunderbolt|p2a: Uxie
+|-damage|p2a: Uxie|65/100
+|
+|-heal|p2a: Uxie|71/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|choice|switch 3|move stealthrock
+|
+|switch|p1a: Clawitzer|Clawitzer, M|100/100
+|move|p2a: Uxie|Stealth Rock|p1a: Clawitzer
+|-sidestart|p1: travis yeary|move: Stealth Rock
+|
+|-heal|p2a: Uxie|77/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|choice|move darkpulse|move uturn
+|
+|move|p2a: Uxie|U-turn|p1a: Clawitzer
+|-damage|p1a: Clawitzer|84/100
+|choice||switch 2
+|
+|switch|p2a: Absol|Absol, M|100/100 slp
+|move|p1a: Clawitzer|Dark Pulse|p2a: Absol
+|-resisted|p2a: Absol
+|-crit|p2a: Absol
+|-damage|p2a: Absol|26/100 slp
+|-ability|p2a: Absol|Justified|boost
+|-boost|p2a: Absol|atk|1
+|-damage|p1a: Clawitzer|74/100|[from] item: Life Orb
+|
+|upkeep
+|turn|10
+|choice|move darkpulse|move knockoff
+|
+|cant|p2a: Absol|slp
+|move|p1a: Clawitzer|Dark Pulse|p2a: Absol
+|-resisted|p2a: Absol
+|-damage|p2a: Absol|0 fnt
+|-damage|p1a: Clawitzer|64/100|[from] item: Life Orb
+|faint|p2a: Absol
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Togetic|Togetic, M|100/100
+|turn|11
+|choice|move icebeam|move dazzlinggleam
+|
+|move|p1a: Clawitzer|Ice Beam|p2a: Togetic
+|-supereffective|p2a: Togetic
+|-damage|p2a: Togetic|39/100
+|-damage|p1a: Clawitzer|54/100|[from] item: Life Orb
+|move|p2a: Togetic|Dazzling Gleam|p1a: Clawitzer
+|-damage|p1a: Clawitzer|23/100
+|
+|upkeep
+|turn|12
+|choice|move icebeam|switch 5
+|
+|switch|p2a: Sneasel|Sneasel, M|100/100
+|move|p1a: Clawitzer|Ice Beam|p2a: Sneasel
+|-resisted|p2a: Sneasel
+|-damage|p2a: Sneasel|66/100
+|-damage|p1a: Clawitzer|13/100|[from] item: Life Orb
+|
+|upkeep
+|turn|13
+|choice|move aurasphere|move lowkick
+|
+|move|p2a: Sneasel|Low Kick|p1a: Clawitzer
+|-damage|p1a: Clawitzer|0 fnt
+|-damage|p2a: Sneasel|56/100|[from] item: Life Orb
+|faint|p1a: Clawitzer
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Fletchinder|Fletchinder, M|100/100
+|-damage|p1a: Fletchinder|51/100|[from] Stealth Rock
+|turn|14
+|choice|move willowisp|move knockoff
+|
+|move|p2a: Sneasel|Knock Off|p1a: Fletchinder
+|-damage|p1a: Fletchinder|0 fnt
+|-damage|p2a: Sneasel|46/100|[from] item: Life Orb
+|faint|p1a: Fletchinder
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Magneton|Magneton|100/100
+|-damage|p1a: Magneton|94/100|[from] Stealth Rock
+|turn|15
+|choice|move flashcannon|move lowkick
+|
+|move|p2a: Sneasel|Low Kick|p1a: Magneton
+|-supereffective|p1a: Magneton
+|-damage|p1a: Magneton|39/100
+|-damage|p2a: Sneasel|36/100|[from] item: Life Orb
+|move|p1a: Magneton|Flash Cannon|p2a: Sneasel
+|-supereffective|p2a: Sneasel
+|-damage|p2a: Sneasel|0 fnt
+|faint|p2a: Sneasel
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Omastar|Omastar, M|100/100
+|turn|16
+|choice|move thunderbolt|move scald
+|
+|move|p1a: Magneton|Thunderbolt|p2a: Omastar
+|-supereffective|p2a: Omastar
+|-enditem|p2a: Omastar|Focus Sash
+|-damage|p2a: Omastar|1/100
+|move|p2a: Omastar|Scald|p1a: Magneton
+|-damage|p1a: Magneton|0 fnt
+|faint|p1a: Magneton
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Aggron|Aggron, M|100/100
+|-damage|p1a: Aggron|94/100|[from] Stealth Rock
+|turn|17
+|choice|move heavyslam|move scald
+|
+|move|p2a: Omastar|Scald|p1a: Aggron
+|-supereffective|p1a: Aggron
+|-damage|p1a: Aggron|0 fnt
+|faint|p1a: Aggron
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Aerodactyl|Aerodactyl, M|100/100
+|-ability|p1a: Aerodactyl|Unnerve|p2: LevoWarfor120
+|-damage|p1a: Aerodactyl|76/100|[from] Stealth Rock
+|turn|18
+|choice|move aerialace|move scald
+|
+|move|p1a: Aerodactyl|Aerial Ace|p2a: Omastar
+|-resisted|p2a: Omastar
+|-damage|p2a: Omastar|0 fnt
+|-damage|p1a: Aerodactyl|66/100|[from] item: Life Orb
+|faint|p2a: Omastar
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Uxie|Uxie|77/100
+|turn|19
+|choice|move stoneedge|move thunderwave
+|
+|move|p1a: Aerodactyl|Stone Edge|p2a: Uxie
+|-damage|p2a: Uxie|41/100
+|-damage|p1a: Aerodactyl|56/100|[from] item: Life Orb
+|move|p2a: Uxie|Thunder Wave|p1a: Aerodactyl
+|-status|p1a: Aerodactyl|par
+|
+|-heal|p2a: Uxie|48/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|choice|move roost|move psyshock
+|
+|move|p2a: Uxie|Psyshock|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|19/100 par
+|move|p1a: Aerodactyl|Roost|p1a: Aerodactyl
+|-heal|p1a: Aerodactyl|69/100 par
+|
+|-heal|p2a: Uxie|54/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|choice|move stoneedge|move uturn
+|
+|move|p2a: Uxie|U-turn|p1a: Aerodactyl
+|-resisted|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|59/100 par
+|choice||switch 6
+|
+|switch|p2a: Blastoise|Blastoise, M|100/100
+|move|p1a: Aerodactyl|Stone Edge|p2a: Blastoise
+|-damage|p2a: Blastoise|63/100
+|-damage|p1a: Aerodactyl|49/100 par|[from] item: Life Orb
+|
+|-heal|p2a: Blastoise|69/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|choice|move stoneedge|move scald
+|
+|move|p2a: Blastoise|Scald|p1a: Aerodactyl
+|-supereffective|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|0 fnt
+|faint|p1a: Aerodactyl
+|
+|win|LevoWarfor120
+|l|travis yeary

@@ -1,0 +1,418 @@
+|j|PAYUKAMUKU
+|j|Wierd
+|player|p1|PAYUKAMUKU|293
+|player|p2|Wierd|161
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|7235,47088,50412,51704,62294,42083,50611,10249,22838,19525,19402,33420
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Mew|item
+|poke|p1|Hippowdon, M|item
+|poke|p1|Raikou|item
+|poke|p1|Weavile, M|item
+|poke|p1|Gallade, M|item
+|poke|p1|Gliscor, M|item
+|poke|p2|Weavile, M|item
+|poke|p2|Klefki, M|item
+|poke|p2|Mew|item
+|poke|p2|Chansey, F|item
+|poke|p2|Hawlucha, M|item
+|poke|p2|Medicham, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|c|☆Wierd|Ya like jazz?
+|choice|team 2, team 1, team 3, team 4, team 5, team 6|team 6, team 2, team 3, team 4, team 5, team 1
+|
+|start
+|switch|p1a: Hippowdon|Hippowdon, M|100/100
+|switch|p2a: Medicham|Medicham, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|turn|1
+|c|☆PAYUKAMUKU|sure???//
+|c|☆Wierd|Ya like jazz?
+|choice|move stealthrock|move fakeout mega
+|
+|detailschange|p2a: Medicham|Medicham-Mega, M
+|-mega|p2a: Medicham|Medicham|Medichamite
+|move|p2a: Medicham|Fake Out|p1a: Hippowdon
+|-damage|p1a: Hippowdon|87/100
+|cant|p1a: Hippowdon|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Medicham|94/100|[from] sandstorm
+|-heal|p1a: Hippowdon|93/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|choice|move stealthrock|move icepunch
+|
+|move|p2a: Medicham|Ice Punch|p1a: Hippowdon
+|-supereffective|p1a: Hippowdon
+|-damage|p1a: Hippowdon|45/100
+|move|p1a: Hippowdon|Stealth Rock|p2a: Medicham
+|-sidestart|p2: Wierd|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Medicham|88/100|[from] sandstorm
+|-heal|p1a: Hippowdon|51/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|choice|move slackoff|move highjumpkick
+|
+|move|p2a: Medicham|High Jump Kick|p1a: Hippowdon
+|-damage|p1a: Hippowdon|0 fnt
+|faint|p1a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Medicham|82/100|[from] sandstorm
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Mew|Mew|100/100
+|turn|4
+|choice|move willowisp|switch 3
+|
+|switch|p2a: Mew|Mew|100/100
+|-damage|p2a: Mew|88/100|[from] Stealth Rock
+|move|p1a: Mew|Will-O-Wisp|p2a: Mew
+|-status|p2a: Mew|brn
+|-activate|p2a: Mew|ability: Synchronize
+|-status|p1a: Mew|brn
+|-activate|p1a: Mew|ability: Synchronize
+|-fail|p2a: Mew|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Mew|94/100 brn|[from] sandstorm
+|-damage|p2a: Mew|82/100 brn|[from] sandstorm
+|-heal|p1a: Mew|100/100 brn|[from] item: Leftovers
+|-heal|p2a: Mew|88/100 brn|[from] item: Leftovers
+|-damage|p1a: Mew|88/100 brn|[from] brn
+|-damage|p2a: Mew|76/100 brn|[from] brn
+|upkeep
+|turn|5
+|c|☆PAYUKAMUKU|LOL
+|choice|move knockoff|move knockoff
+|
+|move|p2a: Mew|Knock Off|p1a: Mew
+|-supereffective|p1a: Mew
+|-damage|p1a: Mew|73/100 brn
+|-enditem|p1a: Mew|Leftovers|[from] move: Knock Off|[of] p2a: Mew
+|move|p1a: Mew|Knock Off|p2a: Mew
+|-supereffective|p2a: Mew
+|-damage|p2a: Mew|62/100 brn
+|-enditem|p2a: Mew|Leftovers|[from] move: Knock Off|[of] p1a: Mew
+|
+|-weather|none
+|-damage|p1a: Mew|60/100 brn|[from] brn
+|-damage|p2a: Mew|49/100 brn|[from] brn
+|upkeep
+|turn|6
+|c|☆PAYUKAMUKU|this is hilarious XD
+|c|☆Wierd|For real
+|c|☆Wierd|Saved
+|c|☆PAYUKAMUKU|lol
+|choice|move softboiled|move softboiled
+|
+|move|p2a: Mew|Soft-Boiled|p2a: Mew
+|-heal|p2a: Mew|99/100 brn
+|move|p1a: Mew|Soft-Boiled|p1a: Mew
+|-heal|p1a: Mew|100/100 brn
+|
+|-damage|p1a: Mew|88/100 brn|[from] brn
+|-damage|p2a: Mew|87/100 brn|[from] brn
+|upkeep
+|turn|7
+|c|☆PAYUKAMUKU|...
+|c|☆Wierd|Defog for the fuck of it?
+|c|☆PAYUKAMUKU|sure
+|choice|move defog|move defog
+|
+|move|p2a: Mew|Defog|p1a: Mew
+|-unboost|p1a: Mew|evasion|1
+|-sideend|p2: Wierd|Stealth Rock|[from] move: Defog|[of] p2a: Mew
+|move|p1a: Mew|Defog|p2a: Mew
+|-unboost|p2a: Mew|evasion|1
+|
+|-damage|p1a: Mew|76/100 brn|[from] brn
+|-damage|p2a: Mew|75/100 brn|[from] brn
+|upkeep
+|turn|8
+|c|☆PAYUKAMUKU|no more soft boiled k?
+|c|☆Wierd|Ok
+|c|☆PAYUKAMUKU|knock off grudge match?
+|c|☆Wierd|Fuck stall
+|c|☆Wierd|Sure
+|c|☆PAYUKAMUKU|llo
+|choice|move knockoff|move knockoff
+|
+|move|p2a: Mew|Knock Off|p1a: Mew
+|-supereffective|p1a: Mew
+|-damage|p1a: Mew|65/100 brn
+|move|p1a: Mew|Knock Off|p2a: Mew
+|-supereffective|p2a: Mew
+|-damage|p2a: Mew|64/100 brn
+|
+|-damage|p1a: Mew|52/100 brn|[from] brn
+|-damage|p2a: Mew|51/100 brn|[from] brn
+|upkeep
+|turn|9
+|choice|move knockoff|move knockoff
+|
+|move|p2a: Mew|Knock Off|p1a: Mew
+|-supereffective|p1a: Mew
+|-damage|p1a: Mew|43/100 brn
+|move|p1a: Mew|Knock Off|p2a: Mew
+|-supereffective|p2a: Mew
+|-damage|p2a: Mew|41/100 brn
+|
+|-damage|p1a: Mew|30/100 brn|[from] brn
+|-damage|p2a: Mew|29/100 brn|[from] brn
+|upkeep
+|turn|10
+|choice|move knockoff|move knockoff
+|
+|move|p2a: Mew|Knock Off|p1a: Mew
+|-supereffective|p1a: Mew
+|-damage|p1a: Mew|20/100 brn
+|move|p1a: Mew|Knock Off|p2a: Mew
+|-supereffective|p2a: Mew
+|-damage|p2a: Mew|18/100 brn
+|
+|-damage|p1a: Mew|7/100 brn|[from] brn
+|-damage|p2a: Mew|5/100 brn|[from] brn
+|upkeep
+|turn|11
+|choice|move knockoff|move knockoff
+|
+|move|p2a: Mew|Knock Off|p1a: Mew
+|-supereffective|p1a: Mew
+|-damage|p1a: Mew|0 fnt
+|faint|p1a: Mew
+|
+|-damage|p2a: Mew|0 fnt|[from] brn
+|upkeep
+|faint|p2a: Mew
+|c|☆PAYUKAMUKU|that was gr8
+|c|☆Wierd|I love fun matches
+|choice|switch 5|switch 2
+|
+|switch|p1a: Gallade|Gallade, M|100/100
+|switch|p2a: Klefki|Klefki, M|100/100
+|turn|12
+|c|☆PAYUKAMUKU|lol
+|choice|move swordsdance mega|move thunderwave
+|
+|detailschange|p1a: Gallade|Gallade-Mega, M
+|-mega|p1a: Gallade|Gallade|Galladite
+|move|p2a: Klefki|Thunder Wave|p1a: Gallade
+|-status|p1a: Gallade|par
+|move|p1a: Gallade|Swords Dance|p1a: Gallade
+|-boost|p1a: Gallade|atk|2
+|
+|upkeep
+|turn|13
+|choice|move closecombat|move playrough
+|
+|move|p2a: Klefki|Play Rough|p1a: Gallade
+|-supereffective|p1a: Gallade
+|-damage|p1a: Gallade|37/100 par
+|move|p1a: Gallade|Close Combat|p2a: Klefki
+|-damage|p2a: Klefki|0 fnt
+|-unboost|p1a: Gallade|def|1
+|-unboost|p1a: Gallade|spd|1
+|faint|p2a: Klefki
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Hawlucha|Hawlucha, M|100/100
+|turn|14
+|c|☆PAYUKAMUKU|ima save thjis
+|choice|move zenheadbutt|move substitute
+|
+|move|p2a: Hawlucha|Substitute|p2a: Hawlucha
+|-start|p2a: Hawlucha|Substitute
+|-damage|p2a: Hawlucha|75/100
+|move|p1a: Gallade|Zen Headbutt|p2a: Hawlucha
+|-supereffective|p2a: Hawlucha
+|-end|p2a: Hawlucha|Substitute
+|
+|upkeep
+|turn|15
+|choice|move zenheadbutt|move acrobatics
+|
+|move|p2a: Hawlucha|Acrobatics|p1a: Gallade
+|-supereffective|p1a: Gallade
+|-damage|p1a: Gallade|0 fnt
+|faint|p1a: Gallade
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Raikou|Raikou|100/100
+|-ability|p1a: Raikou|Pressure
+|turn|16
+|c|☆Wierd|I am too
+|choice|move thunderbolt|move substitute
+|
+|move|p2a: Hawlucha|Substitute|p2a: Hawlucha
+|-start|p2a: Hawlucha|Substitute
+|-damage|p2a: Hawlucha|50/100
+|-enditem|p2a: Hawlucha|Sitrus Berry|[eat]
+|-heal|p2a: Hawlucha|75/100|[from] item: Sitrus Berry
+|move|p1a: Raikou|Thunderbolt|p2a: Hawlucha
+|-supereffective|p2a: Hawlucha
+|-end|p2a: Hawlucha|Substitute
+|
+|upkeep
+|turn|17
+|choice|move thunderbolt|move substitute
+|
+|move|p2a: Hawlucha|Substitute|p2a: Hawlucha
+|-start|p2a: Hawlucha|Substitute
+|-damage|p2a: Hawlucha|50/100
+|move|p1a: Raikou|Thunderbolt|p2a: Hawlucha
+|-supereffective|p2a: Hawlucha
+|-end|p2a: Hawlucha|Substitute
+|
+|upkeep
+|turn|18
+|c|☆PAYUKAMUKU|if this is a reversal set...
+|choice|move thunderbolt|move highjumpkick
+|
+|move|p2a: Hawlucha|High Jump Kick|p1a: Raikou
+|-damage|p1a: Raikou|30/100
+|move|p1a: Raikou|Thunderbolt|p2a: Hawlucha
+|-supereffective|p2a: Hawlucha
+|-damage|p2a: Hawlucha|0 fnt
+|faint|p2a: Hawlucha
+|
+|upkeep
+|c|☆PAYUKAMUKU|k good
+|choice||switch 4
+|
+|switch|p2a: Chansey|Chansey, F|100/100
+|turn|19
+|choice|move voltswitch|move seismictoss
+|
+|move|p1a: Raikou|Volt Switch|p2a: Chansey
+|-damage|p2a: Chansey|91/100
+|choice|switch 6|
+|
+|switch|p1a: Gliscor|Gliscor, M|100/100
+|move|p2a: Chansey|Seismic Toss|p1a: Gliscor
+|-damage|p1a: Gliscor|72/100
+|
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|20
+|choice|move taunt|move stealthrock
+|
+|move|p1a: Gliscor|Taunt|p2a: Chansey
+|-start|p2a: Chansey|move: Taunt
+|cant|p2a: Chansey|move: Taunt|Stealth Rock
+|
+|-heal|p1a: Gliscor|85/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|21
+|choice|move knockoff|move seismictoss
+|
+|move|p1a: Gliscor|Knock Off|p2a: Chansey
+|-damage|p2a: Chansey|75/100
+|-enditem|p2a: Chansey|Eviolite|[from] move: Knock Off|[of] p1a: Gliscor
+|move|p2a: Chansey|Seismic Toss|p1a: Gliscor
+|-damage|p1a: Gliscor|56/100 tox
+|
+|-heal|p1a: Gliscor|69/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|22
+|choice|move earthquake|move seismictoss
+|
+|move|p1a: Gliscor|Earthquake|p2a: Chansey
+|-damage|p2a: Chansey|38/100
+|move|p2a: Chansey|Seismic Toss|p1a: Gliscor
+|-damage|p1a: Gliscor|40/100 tox
+|
+|-heal|p1a: Gliscor|53/100 tox|[from] ability: Poison Heal
+|-end|p2a: Chansey|move: Taunt
+|upkeep
+|turn|23
+|choice|move earthquake|move stealthrock
+|
+|move|p1a: Gliscor|Earthquake|p2a: Chansey
+|-damage|p2a: Chansey|1/100
+|move|p2a: Chansey|Stealth Rock|p1a: Gliscor
+|-sidestart|p1: PAYUKAMUKU|move: Stealth Rock
+|
+|-heal|p1a: Gliscor|65/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|24
+|choice|move knockoff|move seismictoss
+|
+|move|p1a: Gliscor|Knock Off|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|
+|-heal|p1a: Gliscor|78/100 tox|[from] ability: Poison Heal
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Weavile|Weavile, M|100/100
+|-ability|p2a: Weavile|Pressure
+|turn|25
+|choice|move roost|move icepunch
+|
+|move|p2a: Weavile|Ice Punch|p1a: Gliscor
+|-supereffective|p1a: Gliscor
+|-damage|p1a: Gliscor|0 fnt
+|-damage|p2a: Weavile|91/100|[from] item: Life Orb
+|faint|p1a: Gliscor
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Weavile|Weavile, M|100/100
+|-damage|p1a: Weavile|76/100|[from] Stealth Rock
+|-ability|p1a: Weavile|Pressure
+|turn|26
+|choice|move lowkick|move lowkick
+|
+|move|p2a: Weavile|Low Kick|p1a: Weavile
+|-supereffective|p1a: Weavile
+|-damage|p1a: Weavile|0 fnt
+|-damage|p2a: Weavile|81/100|[from] item: Life Orb
+|faint|p1a: Weavile
+|
+|upkeep
+|c|☆PAYUKAMUKU|same sets
+|c|☆PAYUKAMUKU|ice shared and knock off as well?
+|choice|switch 6|
+|
+|switch|p1a: Raikou|Raikou|30/100
+|-damage|p1a: Raikou|17/100|[from] Stealth Rock
+|-ability|p1a: Raikou|Pressure
+|turn|27
+|c|☆Wierd|Why am i winning speed tie so much
+|c|☆Wierd|And yeah
+|choice|move thunderbolt|move iceshard
+|
+|move|p2a: Weavile|Ice Shard|p1a: Raikou
+|-crit|p1a: Raikou
+|-damage|p1a: Raikou|0 fnt
+|-damage|p2a: Weavile|71/100|[from] item: Life Orb
+|faint|p1a: Raikou
+|
+|win|Wierd
+|raw|PAYUKAMUKU's rating: 1049 &rarr; <strong>1034</strong><br />(-15 for losing)
+|raw|Wierd's rating: 1094 &rarr; <strong>1116</strong><br />(+22 for winning)
+|c|☆PAYUKAMUKU|i had gg
+|c|☆PAYUKAMUKU|gg
+|c|☆Wierd|Gg
+|c|☆Wierd|Fun
+|c|☆Wierd|Thanks man
+|c|☆PAYUKAMUKU|yup
+|c|☆Wierd|See ya around
+|c|☆PAYUKAMUKU|ty

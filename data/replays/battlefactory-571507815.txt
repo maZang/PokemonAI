@@ -1,0 +1,346 @@
+|j|ash ketchum 27
+|j|BlazikentheBoss
+|player|p1|ash ketchum 27|262
+|player|p2|BlazikentheBoss|102
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|21577,46525,11011,53522,56234,41735,40406,32379,9794,35867,30718,35881
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Sneasel, M|item
+|poke|p1|Aromatisse, M|item
+|poke|p1|Qwilfish, M|item
+|poke|p1|Rhyperior, M|item
+|poke|p1|Flygon, M|item
+|poke|p1|Hitmonlee, M|item
+|poke|p2|Medicham, M|item
+|poke|p2|Meloetta|item
+|poke|p2|Hitmontop, M|item
+|poke|p2|Malamar, M|item
+|poke|p2|Flygon, M|item
+|poke|p2|Aggron, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 3, team 2, team 1, team 4, team 5, team 6|team 1, team 2, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Qwilfish|Qwilfish, M|100/100
+|switch|p2a: Medicham|Medicham, M|100/100
+|-ability|p1a: Qwilfish|Intimidate|boost
+|-unboost|p2a: Medicham|atk|1
+|turn|1
+|c|☆BlazikentheBoss|!weak Qwilfish
+|html|<div class="infobox">Qwilfish (ignoring abilities):<br /><span class="message-effect-weak">Weaknesses</span>: Electric, Ground, Psychic<br /><span class="message-effect-resist">Resistances</span>: Bug, Fairy, Fighting, Fire, Ice, Poison, Steel, Water<br /><span class="message-effect-immune">Immunities</span>: <font color=#999999>None</font></div>
+|c|☆ash ketchum 27|your team is so weak and lai
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by BlazikentheBoss)
+|c|☆BlazikentheBoss|just move bro
+|choice|switch 3|move zenheadbutt
+|
+|switch|p1a: Sneasel|Sneasel, M|100/100
+|move|p2a: Medicham|Zen Headbutt|p1a: Sneasel
+|-immune|p1a: Sneasel|[msg]
+|
+|upkeep
+|turn|2
+|choice|move knockoff|switch 3
+|
+|switch|p2a: Hitmontop|Hitmontop, M|100/100
+|-ability|p2a: Hitmontop|Intimidate|boost
+|-unboost|p1a: Sneasel|atk|1
+|move|p1a: Sneasel|Knock Off|p2a: Hitmontop
+|-resisted|p2a: Hitmontop
+|-damage|p2a: Hitmontop|86/100
+|-enditem|p2a: Hitmontop|Leftovers|[from] move: Knock Off|[of] p1a: Sneasel
+|-damage|p1a: Sneasel|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|3
+|choice|move iciclecrash|move toxic
+|
+|move|p1a: Sneasel|Icicle Crash|p2a: Hitmontop
+|-damage|p2a: Hitmontop|61/100
+|-damage|p1a: Sneasel|81/100|[from] item: Life Orb
+|move|p2a: Hitmontop|Toxic|p1a: Sneasel
+|-status|p1a: Sneasel|tox
+|
+|-damage|p1a: Sneasel|75/100 tox|[from] psn
+|upkeep
+|turn|4
+|choice|move iciclecrash|move closecombat
+|
+|move|p1a: Sneasel|Icicle Crash|p2a: Hitmontop
+|-crit|p2a: Hitmontop
+|-damage|p2a: Hitmontop|5/100
+|-damage|p1a: Sneasel|65/100 tox|[from] item: Life Orb
+|cant|p2a: Hitmontop|flinch
+|
+|-damage|p1a: Sneasel|53/100 tox|[from] psn
+|upkeep
+|turn|5
+|choice|move iciclecrash|move closecombat
+|
+|move|p1a: Sneasel|Icicle Crash|p2a: Hitmontop
+|-crit|p2a: Hitmontop
+|-damage|p2a: Hitmontop|0 fnt
+|-damage|p1a: Sneasel|43/100 tox|[from] item: Life Orb
+|faint|p2a: Hitmontop
+|
+|-damage|p1a: Sneasel|25/100 tox|[from] psn
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Medicham|Medicham, M|100/100
+|turn|6
+|choice|move iciclecrash|move drainpunch
+|
+|move|p2a: Medicham|Drain Punch|p1a: Sneasel
+|-supereffective|p1a: Sneasel
+|-crit|p1a: Sneasel
+|-damage|p1a: Sneasel|0 fnt
+|faint|p1a: Sneasel
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Aromatisse|Aromatisse, M|100/100
+|turn|7
+|choice|move moonblast|switch 6
+|
+|switch|p2a: Aggron|Aggron, M|100/100
+|move|p1a: Aromatisse|Moonblast|p2a: Aggron
+|-resisted|p2a: Aggron
+|-damage|p2a: Aggron|70/100
+|
+|upkeep
+|turn|8
+|choice|switch 4|move heavyslam
+|
+|switch|p1a: Rhyperior|Rhyperior, M|100/100
+|move|p2a: Aggron|Heavy Slam|p1a: Rhyperior
+|-supereffective|p1a: Rhyperior
+|-damage|p1a: Rhyperior|71/100
+|
+|-heal|p1a: Rhyperior|78/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|choice|move icepunch|switch 5
+|
+|switch|p2a: Flygon|Flygon, M|100/100
+|move|p1a: Rhyperior|Ice Punch|p2a: Flygon
+|-supereffective|p2a: Flygon
+|-damage|p2a: Flygon|0 fnt
+|faint|p2a: Flygon
+|
+|-heal|p1a: Rhyperior|84/100|[from] item: Leftovers
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Medicham|Medicham, M|100/100
+|turn|10
+|choice|move rockblast|move highjumpkick
+|
+|move|p2a: Medicham|High Jump Kick|p1a: Rhyperior|[miss]
+|-miss|p2a: Medicham|p1a: Rhyperior
+|-damage|p2a: Medicham|50/100|[from] highjumpkick
+|move|p1a: Rhyperior|Rock Blast|p2a: Medicham
+|-resisted|p2a: Medicham
+|-damage|p2a: Medicham|39/100
+|-resisted|p2a: Medicham
+|-damage|p2a: Medicham|29/100
+|-resisted|p2a: Medicham
+|-damage|p2a: Medicham|17/100
+|-hitcount|p2a: Medicham|3
+|
+|-heal|p1a: Rhyperior|90/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|choice|move icepunch|move highjumpkick
+|
+|move|p2a: Medicham|High Jump Kick|p1a: Rhyperior
+|-supereffective|p1a: Rhyperior
+|-damage|p1a: Rhyperior|16/100
+|move|p1a: Rhyperior|Ice Punch|p2a: Medicham
+|-damage|p2a: Medicham|0 fnt
+|faint|p2a: Medicham
+|
+|-heal|p1a: Rhyperior|22/100|[from] item: Leftovers
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Malamar|Malamar, M|100/100
+|turn|12
+|choice|move icepunch|move superpower
+|
+|move|p2a: Malamar|Superpower|p1a: Rhyperior
+|-supereffective|p1a: Rhyperior
+|-damage|p1a: Rhyperior|0 fnt
+|-boost|p2a: Malamar|atk|1
+|-boost|p2a: Malamar|def|1
+|faint|p1a: Rhyperior
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Hitmonlee|Hitmonlee, M|100/100
+|turn|13
+|choice|move machpunch|move superpower
+|
+|move|p1a: Hitmonlee|Mach Punch|p2a: Malamar
+|-damage|p2a: Malamar|86/100
+|move|p2a: Malamar|Superpower|p1a: Hitmonlee
+|-damage|p1a: Hitmonlee|7/100
+|-boost|p2a: Malamar|atk|1
+|-boost|p2a: Malamar|def|1
+|-enditem|p1a: Hitmonlee|Liechi Berry|[eat]
+|-boost|p1a: Hitmonlee|atk|1
+|
+|-heal|p2a: Malamar|92/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|j|Hyperion210
+|choice|move reversal|move knockoff
+|
+|move|p1a: Hitmonlee|Reversal|p2a: Malamar
+|-damage|p2a: Malamar|34/100
+|move|p2a: Malamar|Knock Off|p1a: Hitmonlee
+|-resisted|p1a: Hitmonlee
+|-damage|p1a: Hitmonlee|0 fnt
+|faint|p1a: Hitmonlee
+|
+|-heal|p2a: Malamar|40/100|[from] item: Leftovers
+|upkeep
+|l|Hyperion210
+|choice|switch 4|
+|
+|switch|p1a: Aromatisse|Aromatisse, M|100/100
+|turn|15
+|c|☆BlazikentheBoss|!weak fairy
+|html|<div class="infobox">Fairy:<br /><span class="message-effect-weak">Weaknesses</span>: Poison, Steel<br /><span class="message-effect-resist">Resistances</span>: Bug, Dark, Fighting<br /><span class="message-effect-immune">Immunities</span>: Dragon</div>
+|choice|move moonblast|move superpower
+|
+|move|p2a: Malamar|Superpower|p1a: Aromatisse
+|-resisted|p1a: Aromatisse
+|-damage|p1a: Aromatisse|83/100
+|-boost|p2a: Malamar|atk|1
+|-boost|p2a: Malamar|def|1
+|move|p1a: Aromatisse|Moonblast|p2a: Malamar
+|-supereffective|p2a: Malamar
+|-damage|p2a: Malamar|0 fnt
+|faint|p2a: Malamar
+|
+|-heal|p1a: Aromatisse|89/100|[from] item: Leftovers
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Meloetta|Meloetta|100/100
+|turn|16
+|choice|move moonblast|move knockoff
+|
+|move|p2a: Meloetta|Knock Off|p1a: Aromatisse
+|-resisted|p1a: Aromatisse
+|-crit|p1a: Aromatisse
+|-damage|p1a: Aromatisse|79/100
+|-enditem|p1a: Aromatisse|Leftovers|[from] move: Knock Off|[of] p2a: Meloetta
+|move|p1a: Aromatisse|Moonblast|p2a: Meloetta
+|-damage|p2a: Meloetta|83/100
+|-unboost|p2a: Meloetta|spa|1
+|
+|-heal|p2a: Meloetta|89/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|choice|switch 5|move thunderwave
+|
+|switch|p1a: Flygon|Flygon, M|100/100
+|move|p2a: Meloetta|Thunder Wave|p1a: Flygon
+|-immune|p1a: Flygon|[msg]
+|
+|-heal|p2a: Meloetta|95/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|choice|move dracometeor|move knockoff
+|
+|move|p1a: Flygon|Draco Meteor|p2a: Meloetta
+|-damage|p2a: Meloetta|63/100
+|-unboost|p1a: Flygon|spa|2
+|-damage|p1a: Flygon|91/100|[from] item: Life Orb
+|move|p2a: Meloetta|Knock Off|p1a: Flygon
+|-damage|p1a: Flygon|68/100
+|-enditem|p1a: Flygon|Life Orb|[from] move: Knock Off|[of] p2a: Meloetta
+|
+|-heal|p2a: Meloetta|69/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|choice|move earthpower|move knockoff
+|
+|move|p1a: Flygon|Earth Power|p2a: Meloetta
+|-damage|p2a: Meloetta|60/100
+|move|p2a: Meloetta|Knock Off|p1a: Flygon
+|-damage|p1a: Flygon|53/100
+|
+|-heal|p2a: Meloetta|67/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|choice|move dracometeor|move knockoff
+|
+|move|p1a: Flygon|Draco Meteor|p2a: Meloetta
+|-damage|p2a: Meloetta|53/100
+|-unboost|p1a: Flygon|spa|2
+|move|p2a: Meloetta|Knock Off|p1a: Flygon
+|-damage|p1a: Flygon|36/100
+|
+|-heal|p2a: Meloetta|59/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|choice|move roost|move knockoff
+|
+|move|p1a: Flygon|Roost|p1a: Flygon
+|-heal|p1a: Flygon|86/100
+|move|p2a: Meloetta|Knock Off|p1a: Flygon
+|-damage|p1a: Flygon|70/100
+|
+|-heal|p2a: Meloetta|65/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|choice|move dracometeor|move perishsong
+|
+|move|p1a: Flygon|Draco Meteor|p2a: Meloetta
+|-damage|p2a: Meloetta|56/100
+|-unboost|p1a: Flygon|spa|2
+|move|p2a: Meloetta|Perish Song|p2a: Meloetta
+|-start|p1a: Flygon|perish3|[silent]
+|-start|p2a: Meloetta|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|
+|-heal|p2a: Meloetta|63/100|[from] item: Leftovers
+|-start|p1a: Flygon|perish3
+|-start|p2a: Meloetta|perish3
+|upkeep
+|turn|23
+|choice|move earthpower|switch 5
+|
+|switch|p2a: Aggron|Aggron, M|70/100
+|move|p1a: Flygon|Earth Power|p2a: Aggron
+|-supereffective|p2a: Aggron
+|-damage|p2a: Aggron|9/100
+|
+|-start|p1a: Flygon|perish2
+|upkeep
+|turn|24
+|choice|move earthpower|move heavyslam
+|
+|move|p1a: Flygon|Earth Power|p2a: Aggron
+|-supereffective|p2a: Aggron
+|-damage|p2a: Aggron|0 fnt
+|faint|p2a: Aggron
+|
+|-start|p1a: Flygon|perish1
+|upkeep
+|-message|BlazikentheBoss forfeited.
+|
+|win|ash ketchum 27
+|l|BlazikentheBoss
+|raw|ash ketchum 27's rating: 1054 &rarr; <strong>1088</strong><br />(+34 for winning)
+|raw|BlazikentheBoss's rating: 1078 &rarr; <strong>1055</strong><br />(-23 for losing)

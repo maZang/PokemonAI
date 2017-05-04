@@ -1,0 +1,529 @@
+|j|Danpoke28
+|j|Gamerguy5296
+|player|p1|Danpoke28|169
+|player|p2|Gamerguy5296|162
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|13657,25080,40769,12648,52656,48605,59466,52381,61567,38048,60231,22148
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Crawdaunt, M|item
+|poke|p1|Heatran, M|item
+|poke|p1|Metagross|item
+|poke|p1|Togekiss, M|item
+|poke|p1|Chansey, F|item
+|poke|p1|Slowbro, M|item
+|poke|p2|Latias, F|item
+|poke|p2|Diggersby, M|item
+|poke|p2|Serperior, M|item
+|poke|p2|Metagross|item
+|poke|p2|Skarmory, F|item
+|poke|p2|Rotom-Wash|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 4, team 2, team 3, team 1, team 5, team 6|team 4, team 2, team 3, team 1, team 5, team 6
+|
+|start
+|switch|p1a: Togekiss|Togekiss, M|100/100
+|switch|p2a: Metagross|Metagross|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Gamerguy5296)
+|choice|move thunderwave|move meteormash mega
+|
+|detailschange|p2a: Metagross|Metagross-Mega
+|-mega|p2a: Metagross|Metagross|Metagrossite
+|move|p2a: Metagross|Meteor Mash|p1a: Togekiss
+|-supereffective|p1a: Togekiss
+|-damage|p1a: Togekiss|0 fnt
+|faint|p1a: Togekiss
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Heatran|Heatran, M|100/100
+|turn|2
+|choice|move lavaplume|move hammerarm
+|
+|move|p2a: Metagross|Hammer Arm|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|18/100
+|-unboost|p2a: Metagross|spe|1
+|move|p1a: Heatran|Lava Plume|p2a: Metagross
+|-supereffective|p2a: Metagross
+|-damage|p2a: Metagross|30/100
+|
+|-heal|p1a: Heatran|24/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|choice|move lavaplume|move hammerarm
+|
+|move|p2a: Metagross|Hammer Arm|p1a: Heatran|[miss]
+|-miss|p2a: Metagross|p1a: Heatran
+|move|p1a: Heatran|Lava Plume|p2a: Metagross
+|-supereffective|p2a: Metagross
+|-damage|p2a: Metagross|0 fnt
+|faint|p2a: Metagross
+|
+|-heal|p1a: Heatran|30/100|[from] item: Leftovers
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|turn|4
+|choice|switch 4|move hydropump
+|
+|switch|p1a: Crawdaunt|Crawdaunt, M|100/100
+|move|p2a: Rotom|Hydro Pump|p1a: Crawdaunt
+|-resisted|p1a: Crawdaunt
+|-damage|p1a: Crawdaunt|59/100
+|
+|upkeep
+|turn|5
+|choice|move knockoff|move voltswitch
+|
+|move|p1a: Crawdaunt|Knock Off|p2a: Rotom
+|-damage|p2a: Rotom|38/100
+|-enditem|p2a: Rotom|Leftovers|[from] move: Knock Off|[of] p1a: Crawdaunt
+|-damage|p1a: Crawdaunt|49/100|[from] item: Life Orb
+|move|p2a: Rotom|Volt Switch|p1a: Crawdaunt
+|-supereffective|p1a: Crawdaunt
+|-damage|p1a: Crawdaunt|0 fnt
+|faint|p1a: Crawdaunt
+|choice||switch 2
+|
+|switch|p2a: Diggersby|Diggersby, M|100/100
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Slowbro|Slowbro, M|100/100
+|turn|6
+|choice|move scald|move swordsdance
+|
+|move|p2a: Diggersby|Swords Dance|p2a: Diggersby
+|-boost|p2a: Diggersby|atk|2
+|move|p1a: Slowbro|Scald|p2a: Diggersby
+|-supereffective|p2a: Diggersby
+|-damage|p2a: Diggersby|22/100
+|
+|upkeep
+|turn|7
+|choice|move scald|move return
+|
+|move|p2a: Diggersby|Return|p1a: Slowbro
+|-damage|p1a: Slowbro|0 fnt
+|-damage|p2a: Diggersby|12/100|[from] item: Life Orb
+|faint|p1a: Slowbro
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Metagross|Metagross|100/100
+|turn|8
+|choice|move zenheadbutt mega|move earthquake
+|
+|detailschange|p1a: Metagross|Metagross-Mega
+|-mega|p1a: Metagross|Metagross|Metagrossite
+|move|p2a: Diggersby|Earthquake|p1a: Metagross
+|-supereffective|p1a: Metagross
+|-damage|p1a: Metagross|0 fnt
+|-damage|p2a: Diggersby|2/100|[from] item: Life Orb
+|faint|p1a: Metagross
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Heatran|Heatran, M|30/100
+|turn|9
+|choice|move lavaplume|move earthquake
+|
+|move|p2a: Diggersby|Earthquake|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|-damage|p2a: Diggersby|0 fnt|[from] item: Life Orb
+|faint|p1a: Heatran
+|faint|p2a: Diggersby
+|
+|upkeep
+|c|☆Gamerguy5296|928 attack diggersby
+|choice|switch 5|switch 5
+|
+|switch|p2a: Skarmory|Skarmory, F|100/100
+|switch|p1a: Chansey|Chansey, F|100/100
+|turn|10
+|choice|move seismictoss|move bravebird
+|
+|move|p2a: Skarmory|Brave Bird|p1a: Chansey
+|-damage|p1a: Chansey|68/100
+|-damage|p2a: Skarmory|75/100|[from] recoil|[of] p1a: Chansey
+|move|p1a: Chansey|Seismic Toss|p2a: Skarmory
+|-damage|p2a: Skarmory|38/100
+|
+|upkeep
+|turn|11
+|choice|move wish|move bravebird
+|
+|move|p2a: Skarmory|Brave Bird|p1a: Chansey
+|-damage|p1a: Chansey|39/100
+|-damage|p2a: Skarmory|15/100|[from] recoil|[of] p1a: Chansey
+|move|p1a: Chansey|Wish|p1a: Chansey
+|
+|upkeep
+|turn|12
+|choice|move softboiled|move bravebird
+|-enditem|p2a: Skarmory|Custap Berry|[eat]
+|-activate|p2a: Skarmory|item: Custap Berry
+|
+|move|p2a: Skarmory|Brave Bird|p1a: Chansey
+|-damage|p1a: Chansey|9/100
+|-damage|p2a: Skarmory|0 fnt|[from] recoil|[of] p1a: Chansey
+|faint|p2a: Skarmory
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|59/100
+|
+|-heal|p1a: Chansey|100/100|[from] move: Wish|[wisher] Chansey
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Latias|Latias, F|100/100
+|turn|13
+|choice|move wish|move psyshock
+|
+|move|p2a: Latias|Psyshock|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|48/100
+|-damage|p2a: Latias|91/100|[from] item: Life Orb
+|move|p1a: Chansey|Wish|p1a: Chansey
+|
+|upkeep
+|turn|14
+|choice|move softboiled|move dracometeor
+|
+|move|p2a: Latias|Draco Meteor|p1a: Chansey
+|-damage|p1a: Chansey|25/100
+|-unboost|p2a: Latias|spa|2
+|-damage|p2a: Latias|81/100|[from] item: Life Orb
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|75/100
+|
+|-heal|p1a: Chansey|100/100|[from] move: Wish|[wisher] Chansey
+|upkeep
+|turn|15
+|choice|move wish|move psyshock
+|
+|move|p2a: Latias|Psyshock|p1a: Chansey
+|-damage|p1a: Chansey|82/100
+|-damage|p2a: Latias|71/100|[from] item: Life Orb
+|move|p1a: Chansey|Wish|p1a: Chansey
+|
+|upkeep
+|turn|16
+|choice|move toxic|move psyshock
+|
+|move|p2a: Latias|Psyshock|p1a: Chansey
+|-damage|p1a: Chansey|65/100
+|-damage|p2a: Latias|61/100|[from] item: Life Orb
+|move|p1a: Chansey|Toxic|p2a: Latias
+|-status|p2a: Latias|tox
+|
+|-heal|p1a: Chansey|100/100|[from] move: Wish|[wisher] Chansey
+|-damage|p2a: Latias|55/100 tox|[from] psn
+|upkeep
+|turn|17
+|choice|move wish|move psyshock
+|
+|move|p2a: Latias|Psyshock|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|47/100
+|-damage|p2a: Latias|45/100 tox|[from] item: Life Orb
+|move|p1a: Chansey|Wish|p1a: Chansey
+|
+|-damage|p2a: Latias|33/100 tox|[from] psn
+|upkeep
+|turn|18
+|choice|move softboiled|move healingwish
+|
+|move|p2a: Latias|Healing Wish|p2a: Latias
+|faint|p2a: Latias
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|97/100
+|
+|-heal|p1a: Chansey|100/100|[from] move: Wish|[wisher] Chansey
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Rotom|Rotom-Wash|38/100
+|-heal|p2a: Rotom|100/100|[from] move: Healing Wish
+|turn|19
+|choice|move toxic|move willowisp
+|
+|move|p2a: Rotom|Will-O-Wisp|p1a: Chansey|[miss]
+|-miss|p2a: Rotom|p1a: Chansey
+|move|p1a: Chansey|Toxic|p2a: Rotom
+|-status|p2a: Rotom|tox
+|
+|-damage|p2a: Rotom|95/100 tox|[from] psn
+|upkeep
+|turn|20
+|choice|move wish|move willowisp
+|
+|move|p2a: Rotom|Will-O-Wisp|p1a: Chansey
+|-status|p1a: Chansey|brn
+|move|p1a: Chansey|Wish|p1a: Chansey
+|
+|-damage|p2a: Rotom|83/100 tox|[from] psn
+|-damage|p1a: Chansey|88/100 brn|[from] brn
+|upkeep
+|turn|21
+|choice|move softboiled|move hydropump
+|
+|move|p2a: Rotom|Hydro Pump|p1a: Chansey
+|-damage|p1a: Chansey|78/100 brn
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|100/100 brn
+|
+|-damage|p2a: Rotom|65/100 tox|[from] psn
+|-damage|p1a: Chansey|88/100 brn|[from] brn
+|upkeep
+|turn|22
+|choice|move toxic|move hydropump
+|
+|move|p2a: Rotom|Hydro Pump|p1a: Chansey|[miss]
+|-miss|p2a: Rotom|p1a: Chansey
+|move|p1a: Chansey|Toxic|p2a: Rotom
+|-fail|p2a: Rotom|tox
+|
+|-damage|p2a: Rotom|41/100 tox|[from] psn
+|-damage|p1a: Chansey|76/100 brn|[from] brn
+|upkeep
+|turn|23
+|choice|move wish|move painsplit
+|
+|move|p2a: Rotom|Pain Split|p1a: Chansey
+|-sethp|p1a: Chansey|48/100 brn|p2a: Rotom|99/100 tox|[from] move: Pain Split
+|move|p1a: Chansey|Wish|p1a: Chansey
+|
+|-damage|p2a: Rotom|70/100 tox|[from] psn
+|-damage|p1a: Chansey|35/100 brn|[from] brn
+|upkeep
+|turn|24
+|choice|move softboiled|move hydropump
+|
+|move|p2a: Rotom|Hydro Pump|p1a: Chansey
+|-damage|p1a: Chansey|24/100 brn
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|74/100 brn
+|
+|-heal|p1a: Chansey|100/100 brn|[from] move: Wish|[wisher] Chansey
+|-damage|p2a: Rotom|35/100 tox|[from] psn
+|-damage|p1a: Chansey|88/100 brn|[from] brn
+|upkeep
+|turn|25
+|choice|move wish|move painsplit
+|
+|move|p2a: Rotom|Pain Split|p1a: Chansey
+|-sethp|p1a: Chansey|52/100 brn|p2a: Rotom|100/100 tox|[from] move: Pain Split
+|move|p1a: Chansey|Wish|p1a: Chansey
+|
+|-damage|p2a: Rotom|59/100 tox|[from] psn
+|-damage|p1a: Chansey|40/100 brn|[from] brn
+|upkeep
+|turn|26
+|choice|move softboiled|move hydropump
+|
+|move|p2a: Rotom|Hydro Pump|p1a: Chansey
+|-damage|p1a: Chansey|29/100 brn
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|79/100 brn
+|
+|-heal|p1a: Chansey|100/100 brn|[from] move: Wish|[wisher] Chansey
+|-damage|p2a: Rotom|11/100 tox|[from] psn
+|-damage|p1a: Chansey|88/100 brn|[from] brn
+|upkeep
+|turn|27
+|choice|move wish|move painsplit
+|
+|move|p2a: Rotom|Pain Split|p1a: Chansey
+|-sethp|p1a: Chansey|47/100 brn|p2a: Rotom|99/100 tox|[from] move: Pain Split
+|move|p1a: Chansey|Wish|p1a: Chansey
+|
+|-damage|p2a: Rotom|45/100 tox|[from] psn
+|-damage|p1a: Chansey|34/100 brn|[from] brn
+|upkeep
+|turn|28
+|choice|move softboiled|move voltswitch
+|
+|move|p2a: Rotom|Volt Switch|p1a: Chansey
+|-damage|p1a: Chansey|28/100 brn
+|choice||switch 3
+|
+|switch|p2a: Serperior|Serperior, M|100/100
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|78/100 brn
+|
+|-heal|p1a: Chansey|100/100 brn|[from] move: Wish|[wisher] Chansey
+|-damage|p1a: Chansey|88/100 brn|[from] brn
+|upkeep
+|turn|29
+|choice|move toxic|move leafstorm
+|
+|move|p2a: Serperior|Leaf Storm|p1a: Chansey
+|-damage|p1a: Chansey|70/100 brn
+|-boost|p2a: Serperior|spa|2
+|-damage|p2a: Serperior|91/100|[from] item: Life Orb
+|move|p1a: Chansey|Toxic|p2a: Serperior
+|-status|p2a: Serperior|tox
+|
+|-damage|p2a: Serperior|84/100 tox|[from] psn
+|-damage|p1a: Chansey|58/100 brn|[from] brn
+|upkeep
+|turn|30
+|choice|move softboiled|move leafstorm
+|
+|move|p2a: Serperior|Leaf Storm|p1a: Chansey|[miss]
+|-miss|p2a: Serperior|p1a: Chansey
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|100/100 brn
+|
+|-damage|p2a: Serperior|72/100 tox|[from] psn
+|-damage|p1a: Chansey|88/100 brn|[from] brn
+|upkeep
+|turn|31
+|choice|move wish|move leafstorm
+|
+|move|p2a: Serperior|Leaf Storm|p1a: Chansey
+|-damage|p1a: Chansey|58/100 brn
+|-boost|p2a: Serperior|spa|2
+|-damage|p2a: Serperior|62/100 tox|[from] item: Life Orb
+|move|p1a: Chansey|Wish|p1a: Chansey
+|
+|-damage|p2a: Serperior|43/100 tox|[from] psn
+|-damage|p1a: Chansey|45/100 brn|[from] brn
+|upkeep
+|turn|32
+|choice|move softboiled|move gigadrain
+|
+|move|p2a: Serperior|Giga Drain|p1a: Chansey
+|-damage|p1a: Chansey|17/100 brn
+|-heal|p2a: Serperior|75/100 tox|[from] drain|[of] p1a: Chansey
+|-damage|p2a: Serperior|65/100 tox|[from] item: Life Orb
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|67/100 brn
+|
+|-heal|p1a: Chansey|100/100 brn|[from] move: Wish|[wisher] Chansey
+|-damage|p2a: Serperior|40/100 tox|[from] psn
+|-damage|p1a: Chansey|88/100 brn|[from] brn
+|upkeep
+|turn|33
+|choice|move seismictoss|move gigadrain
+|
+|move|p2a: Serperior|Giga Drain|p1a: Chansey
+|-damage|p1a: Chansey|60/100 brn
+|-heal|p2a: Serperior|71/100 tox|[from] drain|[of] p1a: Chansey
+|-damage|p2a: Serperior|61/100 tox|[from] item: Life Orb
+|move|p1a: Chansey|Seismic Toss|p2a: Serperior
+|-damage|p2a: Serperior|26/100 tox
+|
+|-damage|p2a: Serperior|0 fnt|[from] psn
+|-damage|p1a: Chansey|48/100 brn|[from] brn
+|upkeep
+|faint|p2a: Serperior
+|choice||switch 3
+|
+|switch|p2a: Rotom|Rotom-Wash|45/100 tox
+|turn|34
+|choice|move softboiled|move hydropump
+|
+|move|p2a: Rotom|Hydro Pump|p1a: Chansey
+|-damage|p1a: Chansey|37/100 brn
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|87/100 brn
+|
+|-damage|p2a: Rotom|39/100 tox|[from] psn
+|-damage|p1a: Chansey|74/100 brn|[from] brn
+|upkeep
+|turn|35
+|choice|move wish|move hydropump
+|
+|move|p2a: Rotom|Hydro Pump|p1a: Chansey
+|-damage|p1a: Chansey|63/100 brn
+|move|p1a: Chansey|Wish|p1a: Chansey
+|
+|-damage|p2a: Rotom|27/100 tox|[from] psn
+|-damage|p1a: Chansey|50/100 brn|[from] brn
+|upkeep
+|turn|36
+|choice|move softboiled|move hydropump
+|
+|move|p2a: Rotom|Hydro Pump|p1a: Chansey
+|-damage|p1a: Chansey|41/100 brn
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|91/100 brn
+|
+|-heal|p1a: Chansey|100/100 brn|[from] move: Wish|[wisher] Chansey
+|-damage|p2a: Rotom|9/100 tox|[from] psn
+|-damage|p1a: Chansey|88/100 brn|[from] brn
+|upkeep
+|turn|37
+|choice|move wish|move painsplit
+|
+|move|p2a: Rotom|Pain Split|p1a: Chansey
+|-sethp|p1a: Chansey|46/100 brn|p2a: Rotom|98/100 tox|[from] move: Pain Split
+|move|p1a: Chansey|Wish|p1a: Chansey
+|
+|-damage|p2a: Rotom|74/100 tox|[from] psn
+|-damage|p1a: Chansey|34/100 brn|[from] brn
+|upkeep
+|turn|38
+|choice|move softboiled|move voltswitch
+|
+|move|p2a: Rotom|Volt Switch|p1a: Chansey
+|-damage|p1a: Chansey|27/100 brn
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|77/100 brn
+|
+|-heal|p1a: Chansey|100/100 brn|[from] move: Wish|[wisher] Chansey
+|-damage|p2a: Rotom|44/100 tox|[from] psn
+|-damage|p1a: Chansey|88/100 brn|[from] brn
+|upkeep
+|turn|39
+|choice|move toxic|move voltswitch
+|
+|move|p2a: Rotom|Volt Switch|p1a: Chansey
+|-damage|p1a: Chansey|81/100 brn
+|move|p1a: Chansey|Toxic|p2a: Rotom
+|-fail|p2a: Rotom|tox
+|
+|-damage|p2a: Rotom|8/100 tox|[from] psn
+|-damage|p1a: Chansey|68/100 brn|[from] brn
+|upkeep
+|turn|40
+|choice|move wish|move painsplit
+|
+|move|p2a: Rotom|Pain Split|p1a: Chansey
+|-sethp|p1a: Chansey|36/100 brn|p2a: Rotom|76/100 tox|[from] move: Pain Split
+|move|p1a: Chansey|Wish|p1a: Chansey
+|
+|-damage|p2a: Rotom|34/100 tox|[from] psn
+|-damage|p1a: Chansey|24/100 brn|[from] brn
+|upkeep
+|turn|41
+|choice|move softboiled|move voltswitch
+|
+|move|p2a: Rotom|Volt Switch|p1a: Chansey
+|-damage|p1a: Chansey|17/100 brn
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|67/100 brn
+|
+|-heal|p1a: Chansey|100/100 brn|[from] move: Wish|[wisher] Chansey
+|-damage|p2a: Rotom|0 fnt|[from] psn
+|-damage|p1a: Chansey|88/100 brn|[from] brn
+|upkeep
+|faint|p2a: Rotom
+|
+|win|Danpoke28
+|raw|Danpoke28's rating: 1000 &rarr; <strong>1043</strong><br />(+43 for winning)
+|raw|Gamerguy5296's rating: 1029 &rarr; <strong>1013</strong><br />(-16 for losing)

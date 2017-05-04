@@ -1,0 +1,394 @@
+|j|fatal64
+|j|BandedPiplup
+|player|p1|fatal64|266
+|player|p2|BandedPiplup|283
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|15974,31872,3865,45030,23230,42598,28080,34556,23386,65471,63446,685
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Clawitzer, M|item
+|poke|p1|Meloetta|item
+|poke|p1|Hitmonlee, M|item
+|poke|p1|Escavalier, M|item
+|poke|p1|Togetic, M|item
+|poke|p1|Aerodactyl, M|item
+|poke|p2|Granbull, M|item
+|poke|p2|Malamar, M|item
+|poke|p2|Blastoise, M|item
+|poke|p2|Accelgor, M|item
+|poke|p2|Diancie|item
+|poke|p2|Fletchinder, M|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|c|☆fatal64|less go
+|c|☆BandedPiplup|Ru
+|c|☆BandedPiplup|hey
+|choice|team 5, team 2, team 3, team 4, team 1, team 6|team 4, team 2, team 3, team 1, team 5, team 6
+|
+|start
+|switch|p1a: Togetic|Togetic, M|100/100
+|switch|p2a: Accelgor|Accelgor, M|100/100
+|turn|1
+|c|☆fatal64|hmm made some misatkes
+|c|☆fatal64|but won somehow
+|choice|move flamethrower|move spikes
+|
+|move|p2a: Accelgor|Spikes|p1a: Togetic
+|-sidestart|p1: fatal64|Spikes
+|move|p1a: Togetic|Flamethrower|p2a: Accelgor
+|-supereffective|p2a: Accelgor
+|-damage|p2a: Accelgor|39/100
+|
+|upkeep
+|turn|2
+|choice|move flamethrower|move spikes
+|
+|move|p2a: Accelgor|Spikes|p1a: Togetic
+|-sidestart|p1: fatal64|Spikes
+|move|p1a: Togetic|Flamethrower|p2a: Accelgor
+|-supereffective|p2a: Accelgor
+|-damage|p2a: Accelgor|0 fnt
+|faint|p2a: Accelgor
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Diancie|Diancie|100/100
+|turn|3
+|choice|move dazzlinggleam|move stealthrock
+|
+|move|p2a: Diancie|Stealth Rock|p1a: Togetic
+|-sidestart|p1: fatal64|move: Stealth Rock
+|move|p1a: Togetic|Dazzling Gleam|p2a: Diancie
+|-damage|p2a: Diancie|87/100
+|
+|-heal|p2a: Diancie|93/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|choice|move thunderwave|move diamondstorm
+|
+|move|p2a: Diancie|Diamond Storm|p1a: Togetic
+|-supereffective|p1a: Togetic
+|-damage|p1a: Togetic|63/100
+|-boost|p2a: Diancie|def|1
+|move|p1a: Togetic|Thunder Wave|p2a: Diancie
+|-status|p2a: Diancie|par
+|
+|-heal|p2a: Diancie|99/100 par|[from] item: Leftovers
+|upkeep
+|turn|5
+|choice|move roost|move healbell
+|
+|move|p1a: Togetic|Roost|p1a: Togetic
+|-heal|p1a: Togetic|100/100
+|move|p2a: Diancie|Heal Bell|p2a: Diancie
+|-activate|p2a: Diancie|move: Heal Bell
+|-curestatus|p2a: Diancie|par|[msg]
+|
+|-heal|p2a: Diancie|100/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|choice|move flamethrower|move diamondstorm
+|
+|move|p2a: Diancie|Diamond Storm|p1a: Togetic
+|-supereffective|p1a: Togetic
+|-damage|p1a: Togetic|63/100
+|-boost|p2a: Diancie|def|1
+|move|p1a: Togetic|Flamethrower|p2a: Diancie
+|-resisted|p2a: Diancie
+|-damage|p2a: Diancie|95/100
+|
+|-heal|p2a: Diancie|100/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|choice|move dazzlinggleam|switch 3
+|
+|switch|p2a: Blastoise|Blastoise, M|100/100
+|move|p1a: Togetic|Dazzling Gleam|p2a: Blastoise
+|-damage|p2a: Blastoise|79/100
+|
+|-heal|p2a: Blastoise|85/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|choice|move thunderwave|move toxic
+|
+|move|p2a: Blastoise|Toxic|p1a: Togetic
+|-status|p1a: Togetic|tox
+|move|p1a: Togetic|Thunder Wave|p2a: Blastoise
+|-status|p2a: Blastoise|par
+|
+|-heal|p2a: Blastoise|91/100 par|[from] item: Leftovers
+|-damage|p1a: Togetic|57/100 tox|[from] psn
+|upkeep
+|turn|9
+|choice|switch 3|switch 3
+|
+|switch|p1a: Hitmonlee|Hitmonlee, M|100/100
+|-damage|p1a: Hitmonlee|94/100|[from] Stealth Rock
+|-damage|p1a: Hitmonlee|78/100|[from] Spikes
+|switch|p2a: Diancie|Diancie|100/100
+|
+|upkeep
+|turn|10
+|choice|move rapidspin|move moonblast
+|
+|move|p1a: Hitmonlee|Rapid Spin|p2a: Diancie
+|-resisted|p2a: Diancie
+|-damage|p2a: Diancie|97/100
+|-sideend|p1: fatal64|Spikes|[from] move: Rapid Spin|[of] p1a: Hitmonlee
+|-sideend|p1: fatal64|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Hitmonlee
+|-damage|p1a: Hitmonlee|68/100|[from] item: Life Orb
+|move|p2a: Diancie|Moonblast|p1a: Hitmonlee
+|-supereffective|p1a: Hitmonlee
+|-damage|p1a: Hitmonlee|0 fnt
+|faint|p1a: Hitmonlee
+|
+|-heal|p2a: Diancie|100/100|[from] item: Leftovers
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Escavalier|Escavalier, M|100/100
+|turn|11
+|choice|move ironhead|move healbell
+|
+|move|p2a: Diancie|Heal Bell|p2a: Diancie
+|-activate|p2a: Diancie|move: Heal Bell
+|-curestatus|p2: Blastoise|par|[msg]
+|move|p1a: Escavalier|Iron Head|p2a: Diancie
+|-supereffective|p2a: Diancie
+|-damage|p2a: Diancie|0 fnt
+|faint|p2a: Diancie
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Fletchinder|Fletchinder, M|100/100
+|turn|12
+|choice|switch 5|move willowisp
+|
+|switch|p1a: Clawitzer|Clawitzer, M|100/100
+|move|p2a: Fletchinder|Will-O-Wisp|p1a: Clawitzer
+|-status|p1a: Clawitzer|brn
+|
+|-damage|p1a: Clawitzer|88/100 brn|[from] brn
+|upkeep
+|turn|13
+|choice|move scald|switch 3
+|
+|switch|p2a: Blastoise|Blastoise, M|91/100
+|move|p1a: Clawitzer|Scald|p2a: Blastoise
+|-resisted|p2a: Blastoise
+|-damage|p2a: Blastoise|67/100
+|-status|p2a: Blastoise|brn
+|-damage|p1a: Clawitzer|78/100 brn|[from] item: Life Orb
+|
+|-heal|p2a: Blastoise|73/100 brn|[from] item: Leftovers
+|-damage|p1a: Clawitzer|66/100 brn|[from] brn
+|-damage|p2a: Blastoise|61/100 brn|[from] brn
+|upkeep
+|turn|14
+|choice|move darkpulse|move scald
+|
+|move|p1a: Clawitzer|Dark Pulse|p2a: Blastoise
+|-damage|p2a: Blastoise|5/100 brn
+|-damage|p1a: Clawitzer|56/100 brn|[from] item: Life Orb
+|move|p2a: Blastoise|Scald|p1a: Clawitzer
+|-resisted|p1a: Clawitzer
+|-damage|p1a: Clawitzer|32/100 brn
+|
+|-heal|p2a: Blastoise|11/100 brn|[from] item: Leftovers
+|-damage|p1a: Clawitzer|19/100 brn|[from] brn
+|-damage|p2a: Blastoise|0 fnt|[from] brn
+|upkeep
+|faint|p2a: Blastoise
+|choice||switch 4
+|
+|switch|p2a: Granbull|Granbull, M|100/100
+|-ability|p2a: Granbull|Intimidate|boost
+|-unboost|p1a: Clawitzer|atk|1
+|turn|15
+|c|☆BandedPiplup|I can win with fletch
+|choice|move scald|move earthquake
+|
+|move|p1a: Clawitzer|Scald|p2a: Granbull
+|-damage|p2a: Granbull|23/100
+|-damage|p1a: Clawitzer|9/100 brn|[from] item: Life Orb
+|move|p2a: Granbull|Earthquake|p1a: Clawitzer
+|-damage|p1a: Clawitzer|0 fnt
+|faint|p1a: Clawitzer
+|
+|-heal|p2a: Granbull|30/100|[from] item: Leftovers
+|upkeep
+|c|☆fatal64|really
+|choice|switch 5|
+|
+|switch|p1a: Escavalier|Escavalier, M|100/100
+|turn|16
+|c|☆fatal64|kewl bro
+|c|☆BandedPiplup|I need to set this up right
+|choice|move ironhead|move earthquake
+|
+|move|p2a: Granbull|Earthquake|p1a: Escavalier
+|-damage|p1a: Escavalier|74/100
+|move|p1a: Escavalier|Iron Head|p2a: Granbull
+|-supereffective|p2a: Granbull
+|-damage|p2a: Granbull|0 fnt
+|faint|p2a: Granbull
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Fletchinder|Fletchinder, M|100/100
+|turn|17
+|choice|switch 6|move willowisp
+|
+|switch|p1a: Aerodactyl|Aerodactyl, M|100/100
+|-ability|p1a: Aerodactyl|Unnerve|p2: BandedPiplup
+|move|p2a: Fletchinder|Will-O-Wisp|p1a: Aerodactyl
+|-status|p1a: Aerodactyl|brn
+|
+|-damage|p1a: Aerodactyl|88/100 brn|[from] brn
+|upkeep
+|turn|18
+|j|Hyperion210
+|choice|move stoneedge|switch 2
+|
+|switch|p2a: Malamar|Malamar, M|100/100
+|move|p1a: Aerodactyl|Stone Edge|p2a: Malamar|[miss]
+|-miss|p1a: Aerodactyl|p2a: Malamar
+|
+|-damage|p1a: Aerodactyl|76/100 brn|[from] brn
+|upkeep
+|turn|19
+|l|Hyperion210
+|c|☆BandedPiplup|I need damage on this
+|c|☆BandedPiplup|I can sweeo
+|c|☆fatal64|:c
+|c|☆fatal64|plz dont
+|choice|move earthquake|move superpower
+|
+|move|p1a: Aerodactyl|Earthquake|p2a: Malamar
+|-damage|p2a: Malamar|81/100
+|-damage|p1a: Aerodactyl|66/100 brn|[from] item: Life Orb
+|move|p2a: Malamar|Superpower|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|25/100 brn
+|-boost|p2a: Malamar|atk|1
+|-boost|p2a: Malamar|def|1
+|
+|-heal|p2a: Malamar|87/100|[from] item: Leftovers
+|-damage|p1a: Aerodactyl|13/100 brn|[from] brn
+|upkeep
+|turn|20
+|c|☆fatal64|lol
+|choice|move roost|move superpower
+|
+|move|p1a: Aerodactyl|Roost|p1a: Aerodactyl
+|-heal|p1a: Aerodactyl|63/100 brn
+|move|p2a: Malamar|Superpower|p1a: Aerodactyl
+|-supereffective|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|0 fnt
+|-boost|p2a: Malamar|atk|1
+|-boost|p2a: Malamar|def|1
+|faint|p1a: Aerodactyl
+|
+|-heal|p2a: Malamar|93/100|[from] item: Leftovers
+|upkeep
+|c|☆BandedPiplup|Nice nice
+|choice|switch 2|
+|
+|switch|p1a: Meloetta|Meloetta|100/100
+|turn|21
+|choice|move focusblast|move knockoff
+|
+|move|p1a: Meloetta|Focus Blast|p2a: Malamar|[miss]
+|-miss|p1a: Meloetta|p2a: Malamar
+|move|p2a: Malamar|Knock Off|p1a: Meloetta
+|-supereffective|p1a: Meloetta
+|-enditem|p1a: Meloetta|Colbur Berry|[eat]
+|-enditem|p1a: Meloetta|Colbur Berry|[weaken]
+|-damage|p1a: Meloetta|17/100
+|
+|-heal|p2a: Malamar|99/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|c|☆BandedPiplup|Nice
+|choice|move focusblast|switch 2
+|
+|switch|p2a: Fletchinder|Fletchinder, M|100/100
+|move|p1a: Meloetta|Focus Blast|p2a: Fletchinder|[miss]
+|-miss|p1a: Meloetta|p2a: Fletchinder
+|
+|upkeep
+|turn|23
+|c|☆fatal64|rofl
+|c|☆fatal64|-.--'
+|c|☆fatal64|2 miss
+|choice|move psychic|move acrobatics
+|
+|move|p2a: Fletchinder|Acrobatics|p1a: Meloetta
+|-crit|p1a: Meloetta
+|-damage|p1a: Meloetta|0 fnt
+|faint|p1a: Meloetta
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Togetic|Togetic, M|57/100 tox
+|turn|24
+|choice|move thunderwave|move swordsdance
+|
+|move|p2a: Fletchinder|Swords Dance|p2a: Fletchinder
+|-boost|p2a: Fletchinder|atk|2
+|move|p1a: Togetic|Thunder Wave|p2a: Fletchinder
+|-status|p2a: Fletchinder|par
+|
+|-damage|p1a: Togetic|51/100 tox|[from] psn
+|upkeep
+|turn|25
+|choice|move roost|move swordsdance
+|
+|move|p1a: Togetic|Roost|p1a: Togetic
+|-heal|p1a: Togetic|100/100 tox
+|move|p2a: Fletchinder|Swords Dance|p2a: Fletchinder
+|-boost|p2a: Fletchinder|atk|2
+|
+|-damage|p1a: Togetic|88/100 tox|[from] psn
+|upkeep
+|turn|26
+|choice|move dazzlinggleam|move acrobatics
+|
+|cant|p2a: Fletchinder|par
+|move|p1a: Togetic|Dazzling Gleam|p2a: Fletchinder
+|-resisted|p2a: Fletchinder
+|-damage|p2a: Fletchinder|79/100 par
+|
+|-damage|p1a: Togetic|70/100 tox|[from] psn
+|upkeep
+|turn|27
+|c|☆BandedPiplup|Plz no para
+|choice|move flamethrower|move acrobatics
+|
+|move|p2a: Fletchinder|Acrobatics|p1a: Togetic
+|-damage|p1a: Togetic|0 fnt
+|faint|p1a: Togetic
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Escavalier|Escavalier, M|74/100
+|turn|28
+|choice|move knockoff|move acrobatics
+|
+|move|p2a: Fletchinder|Acrobatics|p1a: Escavalier
+|-crit|p1a: Escavalier
+|-damage|p1a: Escavalier|0 fnt
+|faint|p1a: Escavalier
+|
+|win|BandedPiplup
+|c|☆fatal64|gg
+|c|☆BandedPiplup|Yes :]
+|c|☆BandedPiplup|Gg
+|c|☆fatal64|gg

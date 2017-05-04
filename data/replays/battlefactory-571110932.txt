@@ -1,0 +1,201 @@
+|j|softest dick
+|j|APCSGO
+|player|p1|softest dick|190
+|player|p2|APCSGO|1
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|58732,23631,15731,60122,29761,48277,56175,1538,34915,11261,5006,21511
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Arceus-*|item
+|poke|p1|Deoxys|item
+|poke|p1|Diancie|item
+|poke|p1|Kyogre|item
+|poke|p1|Giratina-Origin|item
+|poke|p1|Reshiram|item
+|poke|p2|Kyurem-White|item
+|poke|p2|Deoxys-Speed|item
+|poke|p2|Latias, F|item
+|poke|p2|Shaymin-Sky|item
+|poke|p2|Arceus-*|item
+|poke|p2|Darkrai|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by APCSGO)
+|choice|team 3, team 2, team 1, team 4, team 5, team 6|team 2, team 1, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Diancie|Diancie|100/100
+|switch|p2a: Deoxys|Deoxys-Speed|100/100
+|-ability|p2a: Deoxys|Pressure
+|turn|1
+|choice|move diamondstorm mega|move stealthrock
+|
+|detailschange|p1a: Diancie|Diancie-Mega
+|-mega|p1a: Diancie|Diancie|Diancite
+|move|p2a: Deoxys|Stealth Rock|p1a: Diancie
+|move|p1a: Diancie|Stealth Rock|p2a: Deoxys|[from]Magic Bounce
+|-sidestart|p2: APCSGO|move: Stealth Rock
+|move|p1a: Diancie|Diamond Storm|p2a: Deoxys
+|-damage|p2a: Deoxys|12/100
+|
+|upkeep
+|turn|2
+|choice|move moonblast|move knockoff
+|
+|move|p2a: Deoxys|Knock Off|p1a: Diancie
+|-resisted|p1a: Diancie
+|-damage|p1a: Diancie|87/100
+|move|p1a: Diancie|Moonblast|p2a: Deoxys
+|-damage|p2a: Deoxys|0 fnt
+|faint|p2a: Deoxys
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Kyurem|Kyurem-White|100/100
+|-damage|p2a: Kyurem|76/100|[from] Stealth Rock
+|-ability|p2a: Kyurem|Turboblaze
+|turn|3
+|choice|move moonblast|move earthpower
+|
+|move|p1a: Diancie|Moonblast|p2a: Kyurem
+|-supereffective|p2a: Kyurem
+|-damage|p2a: Kyurem|0 fnt
+|faint|p2a: Kyurem
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Latias|Latias, F|100/100
+|-damage|p2a: Latias|88/100|[from] Stealth Rock
+|turn|4
+|choice|move moonblast|move defog
+|
+|move|p1a: Diancie|Moonblast|p2a: Latias
+|-supereffective|p2a: Latias
+|-damage|p2a: Latias|32/100
+|move|p2a: Latias|Defog|p1a: Diancie
+|move|p1a: Diancie|Defog|p2a: Latias|[from]Magic Bounce
+|-unboost|p2a: Latias|evasion|1
+|-sideend|p2: APCSGO|Stealth Rock|[from] move: Defog|[of] p2a: Latias
+|
+|upkeep
+|turn|5
+|choice|move moonblast|switch 5
+|
+|switch|p2a: Arceus|Arceus-Grass|100/100
+|move|p1a: Diancie|Moonblast|p2a: Arceus
+|-damage|p2a: Arceus|67/100
+|
+|upkeep
+|turn|6
+|choice|move protect|move grassknot
+|
+|move|p1a: Diancie|Protect|p1a: Diancie
+|-singleturn|p1a: Diancie|Protect
+|move|p2a: Arceus|Grass Knot|p1a: Diancie
+|-activate|p1a: Diancie|move: Protect
+|
+|upkeep
+|turn|7
+|choice|switch 6|move grassknot
+|
+|switch|p1a: Reshiram|Reshiram|100/100
+|-ability|p1a: Reshiram|Turboblaze
+|move|p2a: Arceus|Grass Knot|p1a: Reshiram
+|-resisted|p1a: Reshiram
+|-damage|p1a: Reshiram|88/100
+|
+|-heal|p1a: Reshiram|94/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|choice|move blueflare|move icebeam
+|
+|move|p2a: Arceus|Ice Beam|p1a: Reshiram
+|-damage|p1a: Reshiram|72/100
+|move|p1a: Reshiram|Blue Flare|p2a: Arceus
+|-supereffective|p2a: Arceus
+|-damage|p2a: Arceus|0 fnt
+|faint|p2a: Arceus
+|
+|-heal|p1a: Reshiram|78/100|[from] item: Leftovers
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Darkrai|Darkrai|100/100
+|turn|9
+|choice|move blueflare|move darkpulse
+|
+|move|p2a: Darkrai|Dark Pulse|p1a: Reshiram
+|-damage|p1a: Reshiram|27/100
+|-damage|p2a: Darkrai|91/100|[from] item: Life Orb
+|move|p1a: Reshiram|Blue Flare|p2a: Darkrai
+|-damage|p2a: Darkrai|0 fnt
+|faint|p2a: Darkrai
+|
+|-heal|p1a: Reshiram|34/100|[from] item: Leftovers
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Shaymin|Shaymin-Sky|100/100
+|turn|10
+|choice|switch 3|move airslash
+|
+|switch|p1a: Arceus|Arceus-Electric|100/100
+|move|p2a: Shaymin|Air Slash|p1a: Arceus
+|-resisted|p1a: Arceus
+|-damage|p1a: Arceus|87/100
+|
+|upkeep
+|turn|11
+|choice|move icebeam|move substitute
+|
+|move|p2a: Shaymin|Substitute|p2a: Shaymin
+|-start|p2a: Shaymin|Substitute
+|-damage|p2a: Shaymin|76/100
+|move|p1a: Arceus|Ice Beam|p2a: Shaymin
+|-supereffective|p2a: Shaymin
+|-end|p2a: Shaymin|Substitute
+|
+|-heal|p2a: Shaymin|82/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|choice|move icebeam|move airslash
+|
+|move|p2a: Shaymin|Air Slash|p1a: Arceus
+|-resisted|p1a: Arceus
+|-damage|p1a: Arceus|73/100
+|move|p1a: Arceus|Ice Beam|p2a: Shaymin
+|-supereffective|p2a: Shaymin
+|-damage|p2a: Shaymin|0 fnt
+|faint|p2a: Shaymin
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Latias|Latias, F|32/100
+|turn|13
+|choice|move icebeam|move dracometeor
+|
+|move|p1a: Arceus|Ice Beam|p2a: Latias
+|-supereffective|p2a: Latias
+|-damage|p2a: Latias|3/100
+|move|p2a: Latias|Draco Meteor|p1a: Arceus|[miss]
+|-miss|p2a: Latias|p1a: Arceus
+|
+|upkeep
+|turn|14
+|choice|move judgment|move dracometeor
+|
+|move|p1a: Arceus|Judgment|p2a: Latias
+|-resisted|p2a: Latias
+|-damage|p2a: Latias|0 fnt
+|faint|p2a: Latias
+|
+|win|softest dick
+|raw|softest dick's rating: 1000 &rarr; <strong>1040</strong><br />(+40 for winning)
+|raw|APCSGO's rating: 1000 &rarr; <strong>1000</strong><br />(+0 for losing)

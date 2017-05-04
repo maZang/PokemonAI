@@ -25,7 +25,7 @@ class ReplayDataIter(object):
 		self.testing = sets[2]
 
 	def number_batches(self, batch_size, num_steps):
-		return np.sum([train[-1].shape[0] - num_steps + 1 for train in self.training])
+		return math.ceil(np.sum([train[-1].shape[0] - num_steps + 1 for train in self.training]) / batch_size)
 
 	def get_data(self, type):
 		if type=='train':
@@ -46,9 +46,10 @@ class ReplayDataIter(object):
 		Generator that passes in data until complete # TODO
 		'''
 		idxs = self.get_idxs(num_steps, type)
+		number_batches = self.number_batches(batch_size, num_steps)
 		data = self.get_data(type)
 		currBatch = 0
-		while currBatch < idxs.shape[0]:
+		while currBatch < number_batches:
 			all_sets = [[] for _ in range(len(data[0]))]
 			for eps,seq in idxs[currBatch*batch_size:(currBatch+1)*batch_size]:
 				[all_sets_set.append(set[seq:seq+num_steps]) for set,all_sets_set in zip(data[eps],all_sets)]

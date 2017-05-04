@@ -45,6 +45,8 @@ class PokemonNetwork(object):
 		self.last_move_placeholder = tf.placeholder(tf.int32, shape=(None, self.config.last_move_data))
 		self.y_placeholder = tf.placeholder(tf.int32, shape=(None,))
 		self.dropout_placeholder = tf.placeholder(tf.float32)
+		self.batch_size = tf.placeholder(tf.int32)
+		self.num_steps = tf.placeholder(tf.int32)
 
 	def _add_embedding(self):
 		'''
@@ -69,7 +71,6 @@ class PokemonNetwork(object):
 		Applies all the conv layers to retrive a final Memory layer of shape
 		[batch_size, number_steps, hidden_size]
 		'''
-		
 		with tf.variable_scope('PokeConvNet'):
 			# Conv net layer that uses kernels of different widths to get average representations
 			self.embedding_inputs = [tf.expand_dims(embedding_input,-1) for embedding_input in self.embedding_inputs]
@@ -126,8 +127,8 @@ class PokemonNetwork(object):
 					output_keep_prob=self.dropout_placeholder)
 				return cell
 			stacked_cell = tf.contrib.rnn.MultiRNNCell([get_cell() for _ in range(self.config.memory_layer_depth)])
-			lstm_input = tf.reshape(highway_output, (self.config.batch_size, self.config.num_steps, highway_size))
-			self.initial_state = stacked_cell.zero_state(self.config.batch_size, tf.float32)
+			lstm_input = tf.reshape(highway_output, (self.batch_size, self.num_steps, highway_size))
+			self.initial_state = stacked_cell.zero_state(self.batch_size, tf.float32)
 			rnn_output, self.final_rnn_state = tf.nn.dynamic_rnn(stacked_cell,lstm_input,initial_state=self.initial_state)
 			rnn_output = tf.reshape(rnn_output,shape=(-1,self.config.memory_layer_size))
 		with tf.variable_scope('OutputScores'):
@@ -169,11 +170,14 @@ class PokemonNetwork(object):
 		for i,sample in enumerate(self.data_iter.sample(self.config.batch_size, self.config.num_steps, sample_set)):
 			# sample is a list of [poke1matrix, poke2matrix, ..., poke12matrix, other_x_state, y]
 			feed_dict1 = {self.poke_placeholders[i] : sample[i] for i in range(12)} 
+			batch_size = sample[i].shape[0] / self.config.num_steps
 			feed_dict_rest = {self.x_data_placeholder: sample[12], 
 							self.last_move_placeholder: sample[13], 
 							self.y_placeholder: sample[14],
-							self.dropout_placeholder: dp}
-			feed_dict = {**feed_dict1, **feed_dict_rest}
+							self.dropout_placeholder: dp,
+							self.batch_size : batch_size, 
+							self.num_steps : self.config.num_steps}
+			feed_dict = {**feed_dict1, **feed_dict_rest}	
 			loss, _ = session.run([self.loss, train_op], feed_dict=feed_dict)
 			total_loss.append(loss)
 
@@ -183,10 +187,12 @@ class PokemonNetwork(object):
 
 	def run_network(self, sess, sample, initial_state=None):
 		if not initial_state:
-			initial_state = np.zeros((self.config.memory_layer_depth, 2, self.config.batch_size, self.config.memory_layer_size))
+			initial_state = np.zeros((self.config.memory_layer_depth, 2, sample[0].shape[0], self.config.memory_layer_size))
 		l = tf.unpack(initial_state, axis=0)
 		feed_dict1 = {self.poke_placeholders[i] :  sample[i] for i in range(12)} 
-		feed_dict_rest = {self.x_data_placeholder: sample[13], self.dropout_placeholder: dp}
+		feed_dict_rest = {self.x_data_placeholder: sample[13], self.dropout_placeholder: dp,
+						self.batch_size : sample[0].shape[0], self.num_steps : 1, 
+						self.initial_state: l}
 		feed_dict = {**feed_dict1, **feed_dict_rest}
 		pred, next_state = sess.run([self.predictions, self.final_rnn_state], feed_dict=feed_dict)
 		return pred, next_state

@@ -1,0 +1,293 @@
+|j|Specterito
+|j|Darkdevil
+|player|p1|Specterito|284
+|player|p2|Darkdevil|#clemont
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|seed|11004,54561,42276,54140,30008,38417,28793,63420,40472,29933,9312,45093
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Landorus, M|item
+|poke|p1|Deoxys|item
+|poke|p1|Latios, M|item
+|poke|p1|Arceus-*|item
+|poke|p1|Blaziken, M|item
+|poke|p1|Greninja, M|item
+|poke|p2|Arceus-*|item
+|poke|p2|Kyurem-White|item
+|poke|p2|Kyogre|item
+|poke|p2|Mewtwo|item
+|poke|p2|Salamence, M|item
+|poke|p2|Xerneas|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|c|☆Darkdevil|it was only riscaldament
+|c|☆Specterito|tnt perdi pure questa
+|c|☆Specterito|l2p
+|choice|team 2, team 1, team 3, team 4, team 5, team 6|team 6, team 2, team 3, team 4, team 5, team 1
+|
+|start
+|switch|p1a: Deoxys|Deoxys|100/100
+|switch|p2a: Xerneas|Xerneas|100/100
+|-ability|p1a: Deoxys|Pressure
+|-ability|p2a: Xerneas|Fairy Aura
+|turn|1
+|choice|move taunt|switch 3
+|
+|switch|p2a: Kyogre|Kyogre|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|move|p1a: Deoxys|Taunt|p2a: Kyogre
+|-start|p2a: Kyogre|move: Taunt
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|choice|move stealthrock|move scald
+|
+|move|p1a: Deoxys|Stealth Rock|p2a: Kyogre
+|-sidestart|p2: Darkdevil|move: Stealth Rock
+|move|p2a: Kyogre|Scald|p1a: Deoxys
+|-enditem|p1a: Deoxys|Focus Sash
+|-damage|p1a: Deoxys|1/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|choice|move psychoboost|move scald
+|
+|move|p1a: Deoxys|Psycho Boost|p2a: Kyogre
+|-damage|p2a: Kyogre|37/100
+|-unboost|p1a: Deoxys|spa|2
+|move|p2a: Kyogre|Scald|p1a: Deoxys
+|-damage|p1a: Deoxys|0 fnt
+|faint|p1a: Deoxys
+|
+|-weather|RainDance|[upkeep]
+|-end|p2a: Kyogre|move: Taunt
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Greninja|Greninja, M|100/100
+|turn|4
+|choice|move toxicspikes|move scald
+|
+|move|p1a: Greninja|Toxic Spikes|p2a: Kyogre
+|-start|p1a: Greninja|typechange|Poison|[from] Protean
+|-sidestart|p2: Darkdevil|move: Toxic Spikes
+|move|p2a: Kyogre|Scald|p1a: Greninja
+|-enditem|p1a: Greninja|Focus Sash
+|-damage|p1a: Greninja|1/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|choice|move scald|move scald
+|
+|move|p1a: Greninja|Scald|p2a: Kyogre
+|-start|p1a: Greninja|typechange|Water|[from] Protean
+|-resisted|p2a: Kyogre
+|-damage|p2a: Kyogre|23/100
+|-status|p2a: Kyogre|brn
+|move|p2a: Kyogre|Scald|p1a: Greninja
+|-resisted|p1a: Greninja
+|-damage|p1a: Greninja|0 fnt
+|faint|p1a: Greninja
+|
+|-weather|none
+|-damage|p2a: Kyogre|11/100 brn|[from] brn
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Latios|Latios, M|100/100
+|turn|6
+|choice|move psyshock|move scald
+|
+|move|p1a: Latios|Psyshock|p2a: Kyogre
+|-damage|p2a: Kyogre|0 fnt
+|faint|p2a: Kyogre
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Kyurem|Kyurem-White|100/100
+|-damage|p2a: Kyurem|76/100|[from] Stealth Rock
+|-status|p2a: Kyurem|psn
+|-ability|p2a: Kyurem|Turboblaze
+|turn|7
+|choice|move dracometeor|move icebeam
+|
+|move|p1a: Latios|Draco Meteor|p2a: Kyurem
+|-supereffective|p2a: Kyurem
+|-damage|p2a: Kyurem|0 fnt
+|-unboost|p1a: Latios|spa|2
+|faint|p2a: Kyurem
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Salamence|Salamence, M|100/100
+|-damage|p2a: Salamence|76/100|[from] Stealth Rock
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Latios|atk|1
+|turn|8
+|choice|move dracometeor|move dragondance mega
+|
+|detailschange|p2a: Salamence|Salamence-Mega, M
+|-mega|p2a: Salamence|Salamence|Salamencite
+|move|p1a: Latios|Draco Meteor|p2a: Salamence
+|-supereffective|p2a: Salamence
+|-damage|p2a: Salamence|0 fnt
+|-unboost|p1a: Latios|spa|2
+|faint|p2a: Salamence
+|
+|upkeep
+|c|☆Darkdevil|o
+|choice||switch 3
+|
+|switch|p2a: Xerneas|Xerneas|100/100
+|-status|p2a: Xerneas|psn
+|-damage|p2a: Xerneas|88/100 psn|[from] Stealth Rock
+|-ability|p2a: Xerneas|Fairy Aura
+|turn|9
+|choice|switch 4|move geomancy
+|
+|switch|p1a: Arceus|Arceus-Bug|100/100
+|move|p2a: Xerneas|Geomancy|p2a: Xerneas|[still]
+|-prepare|p2a: Xerneas|Geomancy|p2a: Xerneas
+|-enditem|p2a: Xerneas|Power Herb
+|-anim|p2a: Xerneas|Geomancy|p2a: Xerneas
+|-boost|p2a: Xerneas|spa|2
+|-boost|p2a: Xerneas|spd|2
+|-boost|p2a: Xerneas|spe|2
+|
+|-damage|p2a: Xerneas|76/100 psn|[from] psn
+|upkeep
+|turn|10
+|choice|move earthquake|move moonblast
+|
+|move|p2a: Xerneas|Moonblast|p1a: Arceus
+|-damage|p1a: Arceus|0 fnt
+|faint|p1a: Arceus
+|
+|-damage|p2a: Xerneas|64/100 psn|[from] psn
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Blaziken|Blaziken, M|100/100
+|turn|11
+|choice|move protect|move moonblast
+|
+|move|p1a: Blaziken|Protect|p1a: Blaziken
+|-singleturn|p1a: Blaziken|Protect
+|move|p2a: Xerneas|Moonblast|p1a: Blaziken
+|-activate|p1a: Blaziken|move: Protect
+|
+|-damage|p2a: Xerneas|51/100 psn|[from] psn
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|turn|12
+|choice|move protect|move moonblast
+|
+|move|p1a: Blaziken|Protect|p1a: Blaziken
+|-singleturn|p1a: Blaziken|Protect
+|move|p2a: Xerneas|Moonblast|p1a: Blaziken
+|-activate|p1a: Blaziken|move: Protect
+|
+|-damage|p2a: Xerneas|39/100 psn|[from] psn
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|turn|13
+|choice|move protect|move moonblast
+|
+|move|p1a: Blaziken|Protect|p1a: Blaziken
+|-singleturn|p1a: Blaziken|Protect
+|move|p2a: Xerneas|Moonblast|p1a: Blaziken
+|-activate|p1a: Blaziken|move: Protect
+|
+|-damage|p2a: Xerneas|27/100 psn|[from] psn
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|turn|14
+|c|☆Darkdevil|...
+|c|☆Specterito|luls
+|choice|move flareblitz|move moonblast
+|
+|move|p1a: Blaziken|Flare Blitz|p2a: Xerneas
+|-damage|p2a: Xerneas|0 fnt
+|-damage|p1a: Blaziken|88/100|[from] recoil|[of] p2a: Xerneas
+|-damage|p1a: Blaziken|78/100|[from] item: Life Orb
+|faint|p2a: Xerneas
+|
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|c|☆Specterito|easy
+|choice||switch 6
+|
+|switch|p2a: Arceus|Arceus-Fire|100/100
+|-status|p2a: Arceus|psn
+|-damage|p2a: Arceus|76/100 psn|[from] Stealth Rock
+|turn|15
+|choice|switch 2|move earthpower
+|
+|switch|p1a: Landorus|Landorus, M|100/100
+|move|p2a: Arceus|Earth Power|p1a: Landorus
+|-immune|p1a: Landorus|[msg]
+|
+|-damage|p2a: Arceus|63/100 psn|[from] psn
+|upkeep
+|turn|16
+|choice|move earthpower|move overheat
+|
+|move|p1a: Landorus|Earth Power|p2a: Arceus
+|-supereffective|p2a: Arceus
+|-damage|p2a: Arceus|0 fnt
+|faint|p2a: Arceus
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Mewtwo|Mewtwo|100/100
+|-damage|p2a: Mewtwo|88/100|[from] Stealth Rock
+|-status|p2a: Mewtwo|psn
+|-ability|p2a: Mewtwo|Pressure
+|turn|17
+|choice|move earthpower|move icebeam
+|
+|move|p2a: Mewtwo|Ice Beam|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|-damage|p2a: Mewtwo|78/100 psn|[from] item: Life Orb
+|faint|p1a: Landorus
+|
+|-damage|p2a: Mewtwo|66/100 psn|[from] psn
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Blaziken|Blaziken, M|78/100
+|turn|18
+|c|☆Specterito|GG
+|c|☆Specterito|SUCA
+|choice|move protect|move psystrike
+|
+|move|p1a: Blaziken|Protect|p1a: Blaziken
+|-singleturn|p1a: Blaziken|Protect
+|move|p2a: Mewtwo|Psystrike|p1a: Blaziken
+|-activate|p1a: Blaziken|move: Protect
+|
+|-damage|p2a: Mewtwo|53/100 psn|[from] psn
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|turn|19
+|c|☆Darkdevil|noob haxor
+|c|☆Darkdevil|pareggio
+|-message|Darkdevil forfeited.
+|
+|win|Specterito
+|l|Specterito

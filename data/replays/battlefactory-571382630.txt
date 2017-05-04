@@ -1,0 +1,316 @@
+|j|arceus1117
+|j|adsjnkwnd
+|player|p1|arceus1117|99
+|player|p2|adsjnkwnd|102
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|51797,13835,21121,44734,12326,28696,25959,496,63747,33535,54371,26744
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Exeggutor, M|item
+|poke|p1|Pyroar, M|item
+|poke|p1|Miltank, F|item
+|poke|p1|Carracosta, M|item
+|poke|p1|Abomasnow, M|item
+|poke|p1|Claydol|item
+|poke|p2|Prinplup, M|item
+|poke|p2|Carracosta, M|item
+|poke|p2|Roselia, M|item
+|poke|p2|Zangoose, M|item
+|poke|p2|Clefairy, M|item
+|poke|p2|Chatot, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 3, team 2, team 1, team 4, team 5, team 6|team 3, team 2, team 1, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Miltank|Miltank, F|100/100
+|switch|p2a: Roselia|Roselia, M|100/100
+|turn|1
+|choice|move bodyslam|move spikes
+|
+|move|p1a: Miltank|Body Slam|p2a: Roselia
+|-damage|p2a: Roselia|67/100
+|move|p2a: Roselia|Spikes|p1a: Miltank
+|-sidestart|p1: arceus1117|Spikes
+|
+|upkeep
+|turn|2
+|choice|move bodyslam|move synthesis
+|
+|move|p1a: Miltank|Body Slam|p2a: Roselia
+|-damage|p2a: Roselia|32/100
+|move|p2a: Roselia|Synthesis|p2a: Roselia
+|-heal|p2a: Roselia|82/100
+|
+|upkeep
+|turn|3
+|choice|move bodyslam|switch 3
+|
+|switch|p2a: Prinplup|Prinplup, M|100/100
+|move|p1a: Miltank|Body Slam|p2a: Prinplup
+|-damage|p2a: Prinplup|85/100
+|-status|p2a: Prinplup|par
+|
+|upkeep
+|turn|4
+|choice|move stealthrock|move toxic
+|
+|move|p1a: Miltank|Stealth Rock|p2a: Prinplup
+|-sidestart|p2: adsjnkwnd|move: Stealth Rock
+|move|p2a: Prinplup|Toxic|p1a: Miltank
+|-status|p1a: Miltank|tox
+|
+|-damage|p1a: Miltank|94/100 tox|[from] psn
+|upkeep
+|turn|5
+|choice|move bodyslam|move defog
+|
+|move|p1a: Miltank|Body Slam|p2a: Prinplup
+|-damage|p2a: Prinplup|68/100 par
+|move|p2a: Prinplup|Defog|p1a: Miltank
+|-unboost|p1a: Miltank|evasion|1
+|-sideend|p1: arceus1117|Spikes|[from] move: Defog|[of] p1a: Miltank
+|-sideend|p2: adsjnkwnd|Stealth Rock|[from] move: Defog|[of] p2a: Prinplup
+|
+|-heal|p1a: Miltank|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Miltank|88/100 tox|[from] psn
+|upkeep
+|turn|6
+|choice|switch 3|move scald
+|
+|switch|p1a: Exeggutor|Exeggutor, M|100/100
+|move|p2a: Prinplup|Scald|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|87/100
+|
+|upkeep
+|turn|7
+|choice|move gigadrain|switch 5
+|
+|switch|p2a: Clefairy|Clefairy, M|100/100
+|move|p1a: Exeggutor|Giga Drain|p2a: Clefairy
+|-damage|p2a: Clefairy|74/100
+|-heal|p1a: Exeggutor|98/100|[from] drain|[of] p2a: Clefairy
+|
+|upkeep
+|turn|8
+|choice|move sleeppowder|move thunderwave
+|
+|move|p1a: Exeggutor|Sleep Powder|p2a: Clefairy
+|-status|p2a: Clefairy|slp
+|cant|p2a: Clefairy|slp
+|
+|upkeep
+|turn|9
+|choice|switch 6|move thunderwave
+|
+|switch|p1a: Claydol|Claydol|100/100
+|cant|p2a: Clefairy|slp
+|
+|upkeep
+|turn|10
+|choice|move psyshock|switch 4
+|
+|switch|p2a: Zangoose|Zangoose, M|100/100
+|move|p1a: Claydol|Psyshock|p2a: Zangoose
+|-damage|p2a: Zangoose|49/100
+|
+|-status|p2a: Zangoose|tox|[from] item: Toxic Orb
+|upkeep
+|turn|11
+|choice|move psyshock|move knockoff
+|
+|move|p2a: Zangoose|Knock Off|p1a: Claydol
+|-supereffective|p1a: Claydol
+|-damage|p1a: Claydol|0 fnt
+|-enditem|p1a: Claydol|Leftovers|[from] move: Knock Off|[of] p2a: Zangoose
+|faint|p1a: Claydol
+|
+|-damage|p2a: Zangoose|43/100 tox|[from] psn
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Miltank|Miltank, F|88/100 tox
+|turn|12
+|choice|move bodyslam|move closecombat
+|
+|move|p2a: Zangoose|Close Combat|p1a: Miltank
+|-supereffective|p1a: Miltank
+|-damage|p1a: Miltank|21/100 tox
+|-unboost|p2a: Zangoose|def|1
+|-unboost|p2a: Zangoose|spd|1
+|move|p1a: Miltank|Body Slam|p2a: Zangoose
+|-damage|p2a: Zangoose|0 fnt
+|faint|p2a: Zangoose
+|
+|-heal|p1a: Miltank|27/100 tox|[from] item: Leftovers
+|-damage|p1a: Miltank|21/100 tox|[from] psn
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Chatot|Chatot, M|100/100
+|turn|13
+|choice|switch 4|move boomburst
+|
+|switch|p1a: Carracosta|Carracosta, M|100/100
+|move|p2a: Chatot|Boomburst|p1a: Carracosta
+|-resisted|p1a: Carracosta
+|-damage|p1a: Carracosta|22/100
+|
+|upkeep
+|turn|14
+|c|☆arceus1117|HELLO!!!
+|c|☆arceus1117|THE FUCK IS THAT DAMAGE OUTPUT!!
+|c|☆adsjnkwnd|YEET
+|choice|move icebeam|move boomburst
+|
+|move|p2a: Chatot|Boomburst|p1a: Carracosta
+|-resisted|p1a: Carracosta
+|-damage|p1a: Carracosta|0 fnt
+|faint|p1a: Carracosta
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Abomasnow|Abomasnow, M|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Abomasnow
+|turn|15
+|choice|move iceshard|move boomburst
+|
+|move|p1a: Abomasnow|Ice Shard|p2a: Chatot
+|-supereffective|p2a: Chatot
+|-damage|p2a: Chatot|5/100
+|-damage|p1a: Abomasnow|91/100|[from] item: Life Orb
+|move|p2a: Chatot|Boomburst|p1a: Abomasnow
+|-damage|p1a: Abomasnow|0 fnt
+|faint|p1a: Abomasnow
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Chatot|0 fnt|[from] hail
+|upkeep
+|faint|p2a: Chatot
+|choice|switch 4|switch 3
+|
+|switch|p1a: Miltank|Miltank, F|21/100 tox
+|switch|p2a: Roselia|Roselia, M|82/100
+|turn|16
+|choice|move milkdrink|move sludgebomb
+|
+|move|p1a: Miltank|Milk Drink|p1a: Miltank
+|-heal|p1a: Miltank|71/100 tox
+|move|p2a: Roselia|Sludge Bomb|p1a: Miltank
+|-damage|p1a: Miltank|38/100 tox
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Miltank|32/100 tox|[from] hail
+|-damage|p2a: Roselia|76/100|[from] hail
+|-heal|p1a: Miltank|38/100 tox|[from] item: Leftovers
+|-damage|p1a: Miltank|32/100 tox|[from] psn
+|upkeep
+|turn|17
+|choice|move milkdrink|move sludgebomb
+|
+|move|p1a: Miltank|Milk Drink|p1a: Miltank
+|-heal|p1a: Miltank|82/100 tox
+|move|p2a: Roselia|Sludge Bomb|p1a: Miltank
+|-damage|p1a: Miltank|43/100 tox
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Miltank|37/100 tox|[from] hail
+|-damage|p2a: Roselia|70/100|[from] hail
+|-heal|p1a: Miltank|43/100 tox|[from] item: Leftovers
+|-damage|p1a: Miltank|30/100 tox|[from] psn
+|upkeep
+|turn|18
+|choice|move bodyslam|move spikes
+|
+|move|p1a: Miltank|Body Slam|p2a: Roselia
+|-damage|p2a: Roselia|36/100
+|-status|p2a: Roselia|par
+|move|p2a: Roselia|Spikes|p1a: Miltank
+|-sidestart|p1: arceus1117|Spikes
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Miltank|24/100 tox|[from] hail
+|-damage|p2a: Roselia|29/100 par|[from] hail
+|-heal|p1a: Miltank|30/100 tox|[from] item: Leftovers
+|-damage|p1a: Miltank|12/100 tox|[from] psn
+|upkeep
+|turn|19
+|choice|move bodyslam|switch 4
+|
+|-curestatus|p2a: Roselia|par|[from] ability: Natural Cure
+|switch|p2a: Clefairy|Clefairy, M|74/100 slp
+|move|p1a: Miltank|Body Slam|p2a: Clefairy
+|-damage|p2a: Clefairy|45/100 slp
+|
+|-weather|none
+|-heal|p1a: Miltank|18/100 tox|[from] item: Leftovers
+|-damage|p1a: Miltank|0 fnt|[from] psn
+|upkeep
+|faint|p1a: Miltank
+|choice|switch 6|
+|
+|switch|p1a: Exeggutor|Exeggutor, M|98/100
+|-damage|p1a: Exeggutor|86/100|[from] Spikes
+|turn|20
+|choice|move psychic|move thunderwave
+|
+|move|p1a: Exeggutor|Psychic|p2a: Clefairy
+|-crit|p2a: Clefairy
+|-damage|p2a: Clefairy|0 fnt
+|faint|p2a: Clefairy
+|
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Roselia|Roselia, M|29/100
+|turn|21
+|choice|move psychic|move synthesis
+|
+|move|p1a: Exeggutor|Psychic|p2a: Roselia
+|-supereffective|p2a: Roselia
+|-damage|p2a: Roselia|0 fnt
+|faint|p2a: Roselia
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Carracosta|Carracosta, M|100/100
+|turn|22
+|choice|move sleeppowder|move stoneedge
+|
+|move|p1a: Exeggutor|Sleep Powder|p2a: Carracosta
+|-status|p2a: Carracosta|slp
+|cant|p2a: Carracosta|slp
+|
+|upkeep
+|turn|23
+|choice|move gigadrain|move stoneedge
+|
+|move|p1a: Exeggutor|Giga Drain|p2a: Carracosta
+|-supereffective|p2a: Carracosta
+|-damage|p2a: Carracosta|0 fnt
+|-heal|p1a: Exeggutor|100/100|[from] drain|[of] p2a: Carracosta
+|faint|p2a: Carracosta
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Prinplup|Prinplup, M|68/100 par
+|turn|24
+|choice|move gigadrain|move toxic
+|
+|move|p1a: Exeggutor|Giga Drain|p2a: Prinplup
+|-supereffective|p2a: Prinplup
+|-damage|p2a: Prinplup|0 fnt
+|faint|p2a: Prinplup
+|
+|win|arceus1117
+|raw|arceus1117's rating: 1215 &rarr; <strong>1228</strong><br />(+13 for winning)
+|raw|adsjnkwnd's rating: 1040 &rarr; <strong>1031</strong><br />(-9 for losing)
+|c|☆arceus1117|GG

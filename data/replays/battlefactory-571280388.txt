@@ -1,0 +1,460 @@
+|j|PlatinumAbsol
+|j|arceus1117
+|player|p1|PlatinumAbsol|144
+|player|p2|arceus1117|99
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|62242,48693,17021,62502,23191,61716,54093,5533,53177,13188,25507,2682
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Kyogre|item
+|poke|p1|Deoxys|item
+|poke|p1|Arceus-*|item
+|poke|p1|Palkia|item
+|poke|p1|Latias, F|item
+|poke|p1|Sableye, M|item
+|poke|p2|Tyranitar, M|item
+|poke|p2|Latias, F|item
+|poke|p2|Ho-Oh|item
+|poke|p2|Landorus, M|item
+|poke|p2|Darkrai|item
+|poke|p2|Klefki, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 6, team 2, team 3, team 4, team 5, team 1|team 5, team 2, team 3, team 4, team 1, team 6
+|
+|start
+|switch|p1a: Sableye|Sableye, M|100/100
+|switch|p2a: Darkrai|Darkrai|100/100
+|turn|1
+|choice|move foulplay mega|switch 6
+|
+|switch|p2a: Klefki|Klefki, M|100/100
+|detailschange|p1a: Sableye|Sableye-Mega, M
+|-mega|p1a: Sableye|Sableye|Sablenite
+|move|p1a: Sableye|Foul Play|p2a: Klefki
+|-resisted|p2a: Klefki
+|-damage|p2a: Klefki|85/100
+|
+|-heal|p2a: Klefki|91/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by PlatinumAbsol)
+|choice|move willowisp|move toxic
+|
+|move|p2a: Klefki|Toxic|p1a: Sableye
+|move|p1a: Sableye|Toxic|p2a: Klefki|[from]Magic Bounce
+|-immune|p2a: Klefki|[msg]
+|move|p1a: Sableye|Will-O-Wisp|p2a: Klefki
+|-status|p2a: Klefki|brn
+|
+|-heal|p2a: Klefki|97/100 brn|[from] item: Leftovers
+|-damage|p2a: Klefki|85/100 brn|[from] brn
+|upkeep
+|turn|3
+|choice|move foulplay|move playrough
+|
+|move|p2a: Klefki|Play Rough|p1a: Sableye|[miss]
+|-miss|p2a: Klefki|p1a: Sableye
+|move|p1a: Sableye|Foul Play|p2a: Klefki
+|-resisted|p2a: Klefki
+|-damage|p2a: Klefki|70/100 brn
+|
+|-heal|p2a: Klefki|76/100 brn|[from] item: Leftovers
+|-damage|p2a: Klefki|64/100 brn|[from] brn
+|upkeep
+|turn|4
+|choice|move protect|move playrough
+|
+|move|p1a: Sableye|Protect|p1a: Sableye
+|-singleturn|p1a: Sableye|Protect
+|move|p2a: Klefki|Play Rough|p1a: Sableye
+|-activate|p1a: Sableye|move: Protect
+|
+|-heal|p2a: Klefki|70/100 brn|[from] item: Leftovers
+|-damage|p2a: Klefki|58/100 brn|[from] brn
+|upkeep
+|turn|5
+|choice|move foulplay|move playrough
+|
+|move|p2a: Klefki|Play Rough|p1a: Sableye
+|-supereffective|p1a: Sableye
+|-damage|p1a: Sableye|82/100
+|-unboost|p1a: Sableye|atk|1
+|move|p1a: Sableye|Foul Play|p2a: Klefki
+|-resisted|p2a: Klefki
+|-damage|p2a: Klefki|43/100 brn
+|
+|-heal|p2a: Klefki|49/100 brn|[from] item: Leftovers
+|-damage|p2a: Klefki|37/100 brn|[from] brn
+|upkeep
+|turn|6
+|choice|move willowisp|move playrough
+|
+|move|p2a: Klefki|Play Rough|p1a: Sableye
+|-supereffective|p1a: Sableye
+|-damage|p1a: Sableye|65/100
+|move|p1a: Sableye|Will-O-Wisp|p2a: Klefki
+|-fail|p2a: Klefki|brn
+|
+|-heal|p2a: Klefki|43/100 brn|[from] item: Leftovers
+|-damage|p2a: Klefki|30/100 brn|[from] brn
+|upkeep
+|turn|7
+|choice|move recover|move playrough
+|
+|move|p2a: Klefki|Play Rough|p1a: Sableye
+|-supereffective|p1a: Sableye
+|-damage|p1a: Sableye|45/100
+|-unboost|p1a: Sableye|atk|1
+|move|p1a: Sableye|Recover|p1a: Sableye
+|-heal|p1a: Sableye|96/100
+|
+|-heal|p2a: Klefki|36/100 brn|[from] item: Leftovers
+|-damage|p2a: Klefki|24/100 brn|[from] brn
+|upkeep
+|turn|8
+|choice|move protect|move playrough
+|
+|move|p1a: Sableye|Protect|p1a: Sableye
+|-singleturn|p1a: Sableye|Protect
+|move|p2a: Klefki|Play Rough|p1a: Sableye
+|-activate|p1a: Sableye|move: Protect
+|
+|-heal|p2a: Klefki|30/100 brn|[from] item: Leftovers
+|-damage|p2a: Klefki|18/100 brn|[from] brn
+|upkeep
+|turn|9
+|choice|move foulplay|move playrough
+|
+|move|p2a: Klefki|Play Rough|p1a: Sableye
+|-supereffective|p1a: Sableye
+|-damage|p1a: Sableye|77/100
+|move|p1a: Sableye|Foul Play|p2a: Klefki
+|-resisted|p2a: Klefki
+|-damage|p2a: Klefki|1/100 brn
+|
+|-heal|p2a: Klefki|7/100 brn|[from] item: Leftovers
+|-damage|p2a: Klefki|0 fnt|[from] brn
+|upkeep
+|faint|p2a: Klefki
+|choice||switch 2
+|
+|switch|p2a: Latias|Latias, F|100/100
+|turn|10
+|choice|move recover|move dracometeor
+|
+|move|p2a: Latias|Draco Meteor|p1a: Sableye
+|-damage|p1a: Sableye|0 fnt
+|-unboost|p2a: Latias|spa|2
+|faint|p1a: Sableye
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Arceus|Arceus-Fire|100/100
+|turn|11
+|choice|move calmmind|switch 5
+|
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Arceus|Calm Mind|p1a: Arceus
+|-boost|p1a: Arceus|spa|1
+|-boost|p1a: Arceus|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Arceus|94/100|[from] sandstorm
+|upkeep
+|turn|12
+|choice|move earthpower|move roar
+|
+|move|p1a: Arceus|Earth Power|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-enditem|p2a: Tyranitar|Shuca Berry|[eat]
+|-enditem|p2a: Tyranitar|Shuca Berry|[weaken]
+|-damage|p2a: Tyranitar|79/100
+|move|p2a: Tyranitar|Roar|p1a: Arceus
+|drag|p1a: Latias|Latias, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latias|94/100|[from] sandstorm
+|upkeep
+|turn|13
+|choice|switch 6|move roar
+|
+|switch|p1a: Kyogre|Kyogre|100/100
+|detailschange|p1a: Kyogre|Kyogre-Primal
+|-primal|p1a: Kyogre
+|-weather|PrimordialSea|[from] ability: Primordial Sea|[of] p1a: Kyogre
+|move|p2a: Tyranitar|Roar|p1a: Kyogre
+|-weather|none
+|drag|p1a: Latias|Latias, F|94/100
+|
+|upkeep
+|turn|14
+|choice|move dracometeor|move roar
+|
+|move|p1a: Latias|Draco Meteor|p2a: Tyranitar
+|-damage|p2a: Tyranitar|23/100
+|-unboost|p1a: Latias|spa|2
+|move|p2a: Tyranitar|Roar|p1a: Latias
+|drag|p1a: Deoxys|Deoxys|100/100
+|-ability|p1a: Deoxys|Pressure
+|
+|upkeep
+|turn|15
+|choice|move stealthrock|move stealthrock
+|
+|move|p1a: Deoxys|Stealth Rock|p2a: Tyranitar
+|-sidestart|p2: arceus1117|move: Stealth Rock
+|move|p2a: Tyranitar|Stealth Rock|p1a: Deoxys
+|-sidestart|p1: PlatinumAbsol|move: Stealth Rock
+|
+|upkeep
+|turn|16
+|choice|move spikes|move rockslide
+|
+|move|p1a: Deoxys|Spikes|p2a: Tyranitar
+|-sidestart|p2: arceus1117|Spikes
+|move|p2a: Tyranitar|Rock Slide|p1a: Deoxys|[miss]
+|-miss|p2a: Tyranitar|p1a: Deoxys
+|
+|upkeep
+|turn|17
+|choice|move spikes|move rockslide
+|
+|move|p1a: Deoxys|Spikes|p2a: Tyranitar
+|-sidestart|p2: arceus1117|Spikes
+|move|p2a: Tyranitar|Rock Slide|p1a: Deoxys
+|-damage|p1a: Deoxys|8/100
+|
+|upkeep
+|turn|18
+|choice|move spikes|move rockslide
+|
+|move|p1a: Deoxys|Spikes|p2a: Tyranitar
+|-sidestart|p2: arceus1117|Spikes
+|move|p2a: Tyranitar|Rock Slide|p1a: Deoxys
+|-damage|p1a: Deoxys|0 fnt
+|faint|p1a: Deoxys
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Arceus|Arceus-Fire|94/100
+|-damage|p1a: Arceus|70/100|[from] Stealth Rock
+|turn|19
+|choice|move earthpower|move lowkick
+|
+|move|p1a: Arceus|Earth Power|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Latias|Latias, F|100/100
+|-damage|p2a: Latias|88/100|[from] Stealth Rock
+|turn|20
+|choice|move calmmind|move defog
+|
+|move|p2a: Latias|Defog|p1a: Arceus
+|-unboost|p1a: Arceus|evasion|1
+|-sideend|p1: PlatinumAbsol|Stealth Rock|[from] move: Defog|[of] p1a: Arceus
+|-sideend|p2: arceus1117|Spikes|[from] move: Defog|[of] p2a: Latias
+|-sideend|p2: arceus1117|Stealth Rock|[from] move: Defog|[of] p2a: Latias
+|move|p1a: Arceus|Calm Mind|p1a: Arceus
+|-boost|p1a: Arceus|spa|1
+|-boost|p1a: Arceus|spd|1
+|
+|upkeep
+|turn|21
+|choice|move calmmind|move psyshock
+|
+|move|p2a: Latias|Psyshock|p1a: Arceus
+|-damage|p1a: Arceus|35/100
+|move|p1a: Arceus|Calm Mind|p1a: Arceus
+|-boost|p1a: Arceus|spa|1
+|-boost|p1a: Arceus|spd|1
+|
+|upkeep
+|turn|22
+|choice|move overheat|move psyshock
+|
+|move|p2a: Latias|Psyshock|p1a: Arceus
+|-damage|p1a: Arceus|4/100
+|move|p1a: Arceus|Overheat|p2a: Latias
+|-resisted|p2a: Latias
+|-damage|p2a: Latias|47/100
+|-unboost|p1a: Arceus|spa|2
+|
+|upkeep
+|turn|23
+|choice|move overheat|move psyshock
+|
+|move|p2a: Latias|Psyshock|p1a: Arceus
+|-damage|p1a: Arceus|0 fnt
+|faint|p1a: Arceus
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Kyogre|Kyogre-Primal|100/100
+|-weather|PrimordialSea|[from] ability: Primordial Sea|[of] p1a: Kyogre
+|turn|24
+|choice|move calmmind|switch 6
+|
+|switch|p2a: Darkrai|Darkrai|100/100
+|move|p1a: Kyogre|Calm Mind|p1a: Kyogre
+|-boost|p1a: Kyogre|spa|1
+|-boost|p1a: Kyogre|spd|1
+|
+|-weather|PrimordialSea|[upkeep]
+|upkeep
+|turn|25
+|choice|move originpulse|move darkvoid
+|
+|move|p2a: Darkrai|Dark Void|p1a: Kyogre
+|-status|p1a: Kyogre|slp
+|cant|p1a: Kyogre|slp
+|
+|-weather|PrimordialSea|[upkeep]
+|-damage|p1a: Kyogre|88/100 slp|[from] ability: Bad Dreams|[of] p2a: Darkrai
+|upkeep
+|turn|26
+|choice|move originpulse|switch 3
+|
+|switch|p2a: Ho-Oh|Ho-Oh|100/100
+|-curestatus|p1a: Kyogre|slp|[msg]
+|move|p1a: Kyogre|Origin Pulse|p2a: Ho-Oh
+|-supereffective|p2a: Ho-Oh
+|-damage|p2a: Ho-Oh|0 fnt
+|faint|p2a: Ho-Oh
+|
+|-weather|PrimordialSea|[upkeep]
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Landorus|Landorus, M|100/100
+|turn|27
+|choice|move icebeam|move rockslide
+|
+|move|p2a: Landorus|Rock Slide|p1a: Kyogre
+|-damage|p1a: Kyogre|54/100
+|move|p1a: Kyogre|Ice Beam|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|-weather|PrimordialSea|[upkeep]
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Darkrai|Darkrai|100/100
+|turn|28
+|choice|move originpulse|move darkvoid
+|
+|move|p2a: Darkrai|Dark Void|p1a: Kyogre
+|-status|p1a: Kyogre|slp
+|cant|p1a: Kyogre|slp
+|
+|-weather|PrimordialSea|[upkeep]
+|-damage|p1a: Kyogre|41/100 slp|[from] ability: Bad Dreams|[of] p2a: Darkrai
+|upkeep
+|turn|29
+|choice|move originpulse|move darkpulse
+|
+|move|p2a: Darkrai|Dark Pulse|p1a: Kyogre
+|-damage|p1a: Kyogre|14/100 slp
+|-damage|p2a: Darkrai|91/100|[from] item: Life Orb
+|cant|p1a: Kyogre|slp
+|
+|-weather|PrimordialSea|[upkeep]
+|-damage|p1a: Kyogre|2/100 slp|[from] ability: Bad Dreams|[of] p2a: Darkrai
+|upkeep
+|turn|30
+|choice|move originpulse|move darkpulse
+|
+|move|p2a: Darkrai|Dark Pulse|p1a: Kyogre
+|-damage|p1a: Kyogre|0 fnt
+|-damage|p2a: Darkrai|81/100|[from] item: Life Orb
+|faint|p1a: Kyogre
+|-weather|none
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Palkia|Palkia|100/100
+|-ability|p1a: Palkia|Pressure
+|turn|31
+|choice|move sleeptalk|move darkvoid
+|
+|move|p2a: Darkrai|Dark Void|p1a: Palkia
+|-status|p1a: Palkia|slp
+|cant|p1a: Palkia|slp
+|move|p1a: Palkia|Sleep Talk|p1a: Palkia
+|move|p1a: Palkia|Surf|p2a: Darkrai|[from]Sleep Talk
+|-crit|p2a: Darkrai
+|-damage|p2a: Darkrai|0 fnt
+|faint|p2a: Darkrai
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Latias|Latias, F|47/100
+|turn|32
+|choice|move sleeptalk|move psyshock
+|
+|move|p2a: Latias|Psyshock|p1a: Palkia
+|-damage|p1a: Palkia|59/100 slp
+|cant|p1a: Palkia|slp
+|move|p1a: Palkia|Sleep Talk|p1a: Palkia
+|move|p1a: Palkia|Rest|p1a: Palkia|[from]Sleep Talk
+|-fail|p1a: Palkia
+|
+|-heal|p1a: Palkia|65/100 slp|[from] item: Leftovers
+|upkeep
+|turn|33
+|choice|move surf|move psyshock
+|
+|move|p2a: Latias|Psyshock|p1a: Palkia
+|-crit|p1a: Palkia
+|-damage|p1a: Palkia|2/100 slp
+|-curestatus|p1a: Palkia|slp|[msg]
+|move|p1a: Palkia|Surf|p2a: Latias
+|-resisted|p2a: Latias
+|-damage|p2a: Latias|36/100
+|
+|-heal|p1a: Palkia|8/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|choice|move toxic|move psyshock
+|
+|move|p2a: Latias|Psyshock|p1a: Palkia
+|-damage|p1a: Palkia|0 fnt
+|faint|p1a: Palkia
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Latias|Latias, F|94/100
+|turn|35
+|c|☆arceus1117|The speed tie is here
+|choice|move dracometeor|move dracometeor
+|
+|move|p1a: Latias|Draco Meteor|p2a: Latias
+|-supereffective|p2a: Latias
+|-damage|p2a: Latias|0 fnt
+|-unboost|p1a: Latias|spa|2
+|faint|p2a: Latias
+|
+|win|PlatinumAbsol
+|c|☆PlatinumAbsol|gg
+|raw|PlatinumAbsol's rating: 1337 &rarr; <strong>1354</strong><br />(+17 for winning)
+|raw|arceus1117's rating: 1290 &rarr; <strong>1268</strong><br />(-22 for losing)
+|c|☆arceus1117|gg
+|l|PlatinumAbsol

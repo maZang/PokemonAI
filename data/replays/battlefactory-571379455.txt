@@ -1,0 +1,227 @@
+|j|Nghl.aeo
+|j|arceus1117
+|player|p1|Nghl.aeo|2
+|player|p2|arceus1117|99
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|63456,15767,52354,9468,27934,17859,3904,54407,34878,28283,43607,15381
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Samurott, M|item
+|poke|p1|Golurk|item
+|poke|p1|Torterra, M|item
+|poke|p1|Hitmonchan, M|item
+|poke|p1|Rotom|item
+|poke|p1|Charizard, M|item
+|poke|p2|Prinplup, M|item
+|poke|p2|Skuntank, M|item
+|poke|p2|Torterra, M|item
+|poke|p2|Sliggoo, M|item
+|poke|p2|Chatot, M|item
+|poke|p2|Beheeyem, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 5, team 2, team 3, team 4, team 1, team 6|team 2, team 1, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Rotom|Rotom|100/100
+|switch|p2a: Skuntank|Skuntank, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by arceus1117)
+|choice|move willowisp|move taunt
+|
+|move|p1a: Rotom|Will-O-Wisp|p2a: Skuntank
+|-status|p2a: Skuntank|brn
+|-enditem|p2a: Skuntank|Lum Berry|[eat]
+|-curestatus|p2a: Skuntank|brn|[msg]
+|move|p2a: Skuntank|Taunt|p1a: Rotom
+|-start|p1a: Rotom|move: Taunt
+|
+|upkeep
+|turn|2
+|choice|move voltswitch|move pursuit
+|
+|move|p1a: Rotom|Volt Switch|p2a: Skuntank
+|-damage|p2a: Skuntank|66/100
+|choice|switch 3|
+|
+|-activate|p1a: Rotom|move: Pursuit
+|move|p2a: Skuntank|Pursuit|p1a: Rotom|[from]Pursuit
+|-supereffective|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Torterra|Torterra, M|100/100
+|turn|3
+|choice|move rockpolish|switch 5
+|
+|switch|p2a: Chatot|Chatot, M|100/100
+|move|p1a: Torterra|Rock Polish|p1a: Torterra
+|-boost|p1a: Torterra|spe|2
+|
+|upkeep
+|turn|4
+|choice|move stoneedge|move chatter
+|
+|move|p1a: Torterra|Stone Edge|p2a: Chatot
+|-supereffective|p2a: Chatot
+|-damage|p2a: Chatot|0 fnt
+|faint|p2a: Chatot
+|
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Prinplup|Prinplup, M|100/100
+|turn|5
+|choice|move woodhammer|move scald
+|
+|move|p1a: Torterra|Wood Hammer|p2a: Prinplup
+|-supereffective|p2a: Prinplup
+|-damage|p2a: Prinplup|28/100
+|-damage|p1a: Torterra|76/100|[from] recoil|[of] p2a: Prinplup
+|move|p2a: Prinplup|Scald|p1a: Torterra
+|-damage|p1a: Torterra|35/100
+|
+|upkeep
+|turn|6
+|choice|move woodhammer|switch 5
+|
+|switch|p2a: Skuntank|Skuntank, M|66/100
+|move|p1a: Torterra|Wood Hammer|p2a: Skuntank
+|-resisted|p2a: Skuntank
+|-crit|p2a: Skuntank
+|-damage|p2a: Skuntank|8/100
+|-damage|p1a: Torterra|15/100|[from] recoil|[of] p2a: Skuntank
+|
+|upkeep
+|turn|7
+|choice|move earthquake|move suckerpunch
+|
+|move|p2a: Skuntank|Sucker Punch|p1a: Torterra
+|-damage|p1a: Torterra|0 fnt
+|faint|p1a: Torterra
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Hitmonchan|Hitmonchan, M|100/100
+|turn|8
+|choice|move machpunch|move poisonjab
+|
+|move|p1a: Hitmonchan|Mach Punch|p2a: Skuntank
+|-damage|p2a: Skuntank|0 fnt
+|-damage|p1a: Hitmonchan|76/100|[from] ability: Aftermath|[of] p2a: Skuntank
+|-damage|p1a: Hitmonchan|66/100|[from] item: Life Orb
+|faint|p2a: Skuntank
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Prinplup|Prinplup, M|28/100
+|turn|9
+|choice|move machpunch|move scald
+|
+|move|p1a: Hitmonchan|Mach Punch|p2a: Prinplup
+|-damage|p2a: Prinplup|9/100
+|-damage|p1a: Hitmonchan|56/100|[from] item: Life Orb
+|move|p2a: Prinplup|Scald|p1a: Hitmonchan
+|-damage|p1a: Hitmonchan|11/100
+|-status|p1a: Hitmonchan|brn
+|
+|-damage|p1a: Hitmonchan|0 fnt|[from] brn
+|upkeep
+|faint|p1a: Hitmonchan
+|choice|switch 5|
+|
+|switch|p1a: Samurott|Samurott, M|100/100
+|turn|10
+|choice|move swordsdance|move stealthrock
+|
+|move|p1a: Samurott|Swords Dance|p1a: Samurott
+|-boost|p1a: Samurott|atk|2
+|move|p2a: Prinplup|Stealth Rock|p1a: Samurott
+|-sidestart|p1: Nghl.aeo|move: Stealth Rock
+|
+|upkeep
+|turn|11
+|choice|move aquajet|move scald
+|
+|move|p1a: Samurott|Aqua Jet|p2a: Prinplup
+|-resisted|p2a: Prinplup
+|-damage|p2a: Prinplup|0 fnt
+|faint|p2a: Prinplup
+|
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Torterra|Torterra, M|100/100
+|turn|12
+|choice|move waterfall|move woodhammer
+|
+|move|p2a: Torterra|Wood Hammer|p1a: Samurott
+|-supereffective|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|-damage|p2a: Torterra|65/100|[from] recoil|[of] p1a: Samurott
+|faint|p1a: Samurott
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Golurk|Golurk|100/100
+|-damage|p1a: Golurk|95/100|[from] Stealth Rock
+|turn|13
+|choice|move dynamicpunch|move woodhammer
+|
+|move|p2a: Torterra|Wood Hammer|p1a: Golurk
+|-supereffective|p1a: Golurk
+|-damage|p1a: Golurk|0 fnt
+|-damage|p2a: Torterra|35/100|[from] recoil|[of] p1a: Golurk
+|faint|p1a: Golurk
+|
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Charizard|Charizard, M|100/100
+|-damage|p1a: Charizard|51/100|[from] Stealth Rock
+|turn|14
+|choice|move airslash|move rockpolish
+|
+|move|p1a: Charizard|Air Slash|p2a: Torterra
+|-supereffective|p2a: Torterra
+|-damage|p2a: Torterra|0 fnt
+|-damage|p1a: Charizard|41/100|[from] item: Life Orb
+|faint|p2a: Torterra
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Beheeyem|Beheeyem, M|100/100
+|turn|15
+|choice|move roost|move trickroom
+|
+|move|p1a: Charizard|Roost|p1a: Charizard
+|-heal|p1a: Charizard|91/100
+|move|p2a: Beheeyem|Trick Room|p2a: Beheeyem
+|-fieldstart|move: Trick Room|[of] p2a: Beheeyem
+|
+|upkeep
+|turn|16
+|choice|move fireblast|move thunderbolt
+|
+|move|p2a: Beheeyem|Thunderbolt|p1a: Charizard
+|-supereffective|p1a: Charizard
+|-damage|p1a: Charizard|0 fnt
+|-damage|p2a: Beheeyem|91/100|[from] item: Life Orb
+|faint|p1a: Charizard
+|
+|win|arceus1117
+|l|Nghl.aeo
+|raw|Nghl.aeo's rating: 1000 &rarr; <strong>1000</strong><br />(+0 for losing)
+|raw|arceus1117's rating: 1222 &rarr; <strong>1232</strong><br />(+10 for winning)
+|c|☆arceus1117|gg

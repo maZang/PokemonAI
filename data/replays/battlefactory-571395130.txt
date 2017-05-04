@@ -1,0 +1,215 @@
+|j|CouldBeSpinda18
+|j|Happiny13
+|player|p1|CouldBeSpinda18|101
+|player|p2|Happiny13|102
+|gametype|singles
+|gen|6
+|tier|Battle Factory
+|rated
+|seed|8117,26246,36808,53550,18353,43643,14049,16843,24503,12862,7773,46389
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Crawdaunt, M|item
+|poke|p1|Garchomp, M|item
+|poke|p1|Latios, M|item
+|poke|p1|Talonflame, M|item
+|poke|p1|Gyarados, M|item
+|poke|p1|Serperior, M|item
+|poke|p2|Skarmory, F|item
+|poke|p2|Zygarde|item
+|poke|p2|Latios, M|item
+|poke|p2|Scolipede, M|item
+|poke|p2|Sableye, M|item
+|poke|p2|Scizor, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|choice|team 1, team 2, team 3, team 4, team 5, team 6|team 5, team 2, team 3, team 4, team 1, team 6
+|
+|start
+|switch|p1a: Crawdaunt|Crawdaunt, M|100/100
+|switch|p2a: Sableye|Sableye, M|100/100
+|turn|1
+|choice|switch 4|move willowisp mega
+|
+|switch|p1a: Talonflame|Talonflame, M|100/100
+|detailschange|p2a: Sableye|Sableye-Mega, M
+|-mega|p2a: Sableye|Sableye|Sablenite
+|move|p2a: Sableye|Will-O-Wisp|p1a: Talonflame
+|-immune|p1a: Talonflame|[msg]
+|
+|upkeep
+|turn|2
+|choice|move bravebird|move shadowball
+|
+|move|p1a: Talonflame|Brave Bird|p2a: Sableye
+|-damage|p2a: Sableye|61/100
+|-damage|p1a: Talonflame|88/100|[from] recoil|[of] p2a: Sableye
+|move|p2a: Sableye|Shadow Ball|p1a: Talonflame
+|-damage|p1a: Talonflame|53/100
+|
+|upkeep
+|turn|3
+|choice|move roost|move recover
+|
+|move|p1a: Talonflame|Roost|p1a: Talonflame
+|-heal|p1a: Talonflame|100/100
+|move|p2a: Sableye|Recover|p2a: Sableye
+|-heal|p2a: Sableye|100/100
+|
+|upkeep
+|turn|4
+|choice|move swordsdance|move calmmind
+|
+|move|p1a: Talonflame|Swords Dance|p1a: Talonflame
+|-boost|p1a: Talonflame|atk|2
+|move|p2a: Sableye|Calm Mind|p2a: Sableye
+|-boost|p2a: Sableye|spa|1
+|-boost|p2a: Sableye|spd|1
+|
+|upkeep
+|turn|5
+|choice|move swordsdance|move shadowball
+|
+|move|p1a: Talonflame|Swords Dance|p1a: Talonflame
+|-boost|p1a: Talonflame|atk|2
+|move|p2a: Sableye|Shadow Ball|p1a: Talonflame
+|-damage|p1a: Talonflame|44/100
+|
+|upkeep
+|turn|6
+|choice|move bravebird|switch 2
+|
+|switch|p2a: Zygarde|Zygarde|100/100
+|-ability|p2a: Zygarde|Aura Break
+|move|p1a: Talonflame|Brave Bird|p2a: Zygarde
+|-crit|p2a: Zygarde
+|-damage|p2a: Zygarde|0 fnt
+|-damage|p1a: Talonflame|7/100|[from] recoil|[of] p2a: Zygarde
+|faint|p2a: Zygarde
+|
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Scizor|Scizor, M|100/100
+|turn|7
+|choice|move roost|move bulletpunch
+|
+|move|p1a: Talonflame|Roost|p1a: Talonflame
+|-heal|p1a: Talonflame|57/100
+|move|p2a: Scizor|Bullet Punch|p1a: Talonflame
+|-resisted|p1a: Talonflame
+|-damage|p1a: Talonflame|23/100
+|
+|upkeep
+|turn|8
+|choice|move roost|move bulletpunch
+|
+|move|p1a: Talonflame|Roost|p1a: Talonflame
+|-heal|p1a: Talonflame|73/100
+|move|p2a: Scizor|Bullet Punch|p1a: Talonflame
+|-resisted|p1a: Talonflame
+|-damage|p1a: Talonflame|38/100
+|
+|upkeep
+|turn|9
+|choice|move roost|move bulletpunch
+|
+|move|p1a: Talonflame|Roost|p1a: Talonflame
+|-heal|p1a: Talonflame|89/100
+|move|p2a: Scizor|Bullet Punch|p1a: Talonflame
+|-resisted|p1a: Talonflame
+|-crit|p1a: Talonflame
+|-damage|p1a: Talonflame|33/100
+|
+|upkeep
+|turn|10
+|choice|move roost|move bulletpunch
+|
+|move|p1a: Talonflame|Roost|p1a: Talonflame
+|-heal|p1a: Talonflame|83/100
+|move|p2a: Scizor|Bullet Punch|p1a: Talonflame
+|-resisted|p1a: Talonflame
+|-damage|p1a: Talonflame|46/100
+|
+|upkeep
+|turn|11
+|choice|move roost|move bulletpunch
+|
+|move|p1a: Talonflame|Roost|p1a: Talonflame
+|-heal|p1a: Talonflame|96/100
+|move|p2a: Scizor|Bullet Punch|p1a: Talonflame
+|-resisted|p1a: Talonflame
+|-damage|p1a: Talonflame|59/100
+|
+|upkeep
+|turn|12
+|choice|switch 5|move bulletpunch
+|
+|switch|p1a: Gyarados|Gyarados, M|100/100
+|-ability|p1a: Gyarados|Intimidate|boost
+|-unboost|p2a: Scizor|atk|1
+|move|p2a: Scizor|Bullet Punch|p1a: Gyarados
+|-resisted|p1a: Gyarados
+|-damage|p1a: Gyarados|81/100
+|
+|-heal|p1a: Gyarados|87/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|choice|move dragondance|switch 4
+|
+|switch|p2a: Scolipede|Scolipede, M|100/100
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|
+|-heal|p1a: Gyarados|93/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|choice|move dragondance|move protect
+|
+|move|p2a: Scolipede|Protect|p2a: Scolipede
+|-singleturn|p2a: Scolipede|Protect
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|
+|-heal|p1a: Gyarados|99/100|[from] item: Leftovers
+|-ability|p2a: Scolipede|Speed Boost|boost
+|-boost|p2a: Scolipede|spe|1
+|upkeep
+|turn|15
+|choice|move waterfall|move poisonjab
+|
+|move|p1a: Gyarados|Waterfall|p2a: Scolipede
+|-damage|p2a: Scolipede|0 fnt
+|faint|p2a: Scolipede
+|
+|-heal|p1a: Gyarados|100/100|[from] item: Leftovers
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: Latios|Latios, M|100/100
+|turn|16
+|choice|move bounce|move dracometeor
+|
+|move|p1a: Gyarados|Bounce|p2a: Latios|[still]
+|-prepare|p1a: Gyarados|Bounce|p2a: Latios
+|move|p2a: Latios|Draco Meteor|p1a: Gyarados|[miss]
+|-miss|p2a: Latios|p1a: Gyarados
+|
+|upkeep
+|turn|17
+|choice|move bounce|move dracometeor
+|
+|move|p1a: Gyarados|Bounce|p2a: Latios|[from]lockedmove
+|-damage|p2a: Latios|0 fnt
+|faint|p2a: Latios
+|
+|upkeep
+|-message|Happiny13 forfeited.
+|
+|win|CouldBeSpinda18
+|l|Happiny13
+|raw|CouldBeSpinda18's rating: 1438 &rarr; <strong>1452</strong><br />(+14 for winning)
+|raw|Happiny13's rating: 1331 &rarr; <strong>1317</strong><br />(-14 for losing)
