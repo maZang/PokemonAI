@@ -12,27 +12,27 @@ TEST = DATA_FOLDER + 'TESTING'
 
 class PokemonNetworkConfig(object):
 
-	embedding_size = 100
+	embedding_size = 300
 	poke_descriptor_size = const.POKE_DESCRIPTOR_SIZE # poke id, 4 move ids, item id, status id
 	number_non_embedding = const.NON_EMBEDDING_DATA
 	number_classes = const.NUMBER_CLASSES
 	last_move_data = const.LAST_MOVE_DATA
 	learning_rate = 1e-3
 	max_epochs = 10
-	early_stop = 100
-	dropout = 0.9
+	early_stop = 2
+	dropout = 0.5
 	batch_size = 64
-	memory_layer_size = 300
-	memory_layer_depth = 2
+	memory_layer_size = 400
+	memory_layer_depth = 3
 	number_pokemon = const.NUMBER_POKEMON
 	number_moves = const.NUMBER_MOVES
 	number_items = const.NUMBER_ITEMS
 	number_status = len(const.STATUS_EFFECTS)
 	kernels_poke=[1,2,3,4,5,6,7]
-	feature_maps_poke=[50,60,70,80,90,100,110]
+	feature_maps_poke=[10,20,30,30,30,30,30]
 	kernels_team=[1,2,3,4,5,6]
-	feature_maps_team=[50,60,70,80,90,100]
-	num_steps = 8
+	feature_maps_team=[10,20,30,30,30,30]
+	num_steps = 6
 	save_folder = 'data/models/'
 	model_name = 'supervised_network/'
 
