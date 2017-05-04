@@ -15,7 +15,7 @@ class PokemonNetworkConfig(object):
 	embedding_size = 100
 	poke_descriptor_size = const.POKE_DESCRIPTOR_SIZE # poke id, 4 move ids, item id, status id
 	number_non_embedding = const.NON_EMBEDDING_DATA
-	number_classes = const.NUMBER_CLASSES 
+	number_classes = const.NUMBER_CLASSES
 	last_move_data = const.LAST_MOVE_DATA
 	learning_rate = 1e-3
 	max_epochs = 10
@@ -27,7 +27,7 @@ class PokemonNetworkConfig(object):
 	number_pokemon = const.NUMBER_POKEMON
 	number_moves = const.NUMBER_MOVES
 	number_items = const.NUMBER_ITEMS
-	number_status = len(const.STATUS_EFFECTS) 
+	number_status = len(const.STATUS_EFFECTS)
 	kernels_poke=[1,2,3,4,5,6,7]
 	feature_maps_poke=[50,60,70,80,90,100,110]
 	kernels_team=[1,2,3,4,5,6]
@@ -56,14 +56,14 @@ class PokemonNetwork(object):
 		Note, ids are shared between pokemon, moves, items, and statuses -- ENSURE THIS IN ENCODING
 
 		Final output is a list with each element of shape
-			 [None, poke_descriptor_size, embedding_size] 
+			 [None, poke_descriptor_size, embedding_size]
 		'''
 		with tf.device('/cpu:0'):
 			all_embeddings = tf.get_variable('poke_embeddings', shape=(self.config.number_pokemon+self.config.number_moves+\
 				self.config.number_items+self.config.number_status, self.config.embedding_size))
-			self.embedding_inputs = [tf.reshape(tf.nn.embedding_lookup(all_embeddings, placeholder), 
+			self.embedding_inputs = [tf.reshape(tf.nn.embedding_lookup(all_embeddings, placeholder),
 				(-1, self.config.poke_descriptor_size, self.config.embedding_size))
-				for placeholder in self.poke_placeholders] 
+				for placeholder in self.poke_placeholders]
 			self.last_move_embeddings = tf.nn.embedding_lookup(all_embeddings, self.last_move_placeholder)
 
 	def _network_model(self):
@@ -76,7 +76,7 @@ class PokemonNetwork(object):
 			self.embedding_inputs = [tf.expand_dims(embedding_input,-1) for embedding_input in self.embedding_inputs]
 			layers = [[] for _ in self.embedding_inputs]
 			for idx,kernel_height in enumerate(self.config.kernels_poke):
-				conv_filter = tf.get_variable('PokeKernelHeight' + str(kernel_height), 
+				conv_filter = tf.get_variable('PokeKernelHeight' + str(kernel_height),
 									shape=(kernel_height,self.config.embedding_size,1,self.config.feature_maps_poke[idx]))
 				conv_layers = [tf.nn.conv2d(embedding_input,conv_filter,strides=[1,1,1,1],padding='VALID')
 								for embedding_input in self.embedding_inputs]
@@ -119,7 +119,7 @@ class PokemonNetwork(object):
 			b = tf.get_variable('bias', shape=(highway_size,))
 			a = tf.nn.relu(tf.matmul(output, w) + b)
 			carry = 1.0 - transform
-			highway_output = transform * a + carry * output 
+			highway_output = transform * a + carry * output
 		with tf.variable_scope('MemoryLayer'): # uses an LSTM to remember previous moves
 			def get_cell():
 				cell = tf.contrib.rnn.BasicLSTMCell(self.config.memory_layer_size)
@@ -142,7 +142,7 @@ class PokemonNetwork(object):
 		with tf.variable_scope('loss'):
 			self.loss = tf.reduce_sum(tf.nn.sparse_softmax_cross_entropy_with_logits(logits=self.scores,labels=targets))
 
-	def _add_optimizer(self): 
+	def _add_optimizer(self):
 		with tf.variable_scope('opt'):
 			optimizer = tf.train.AdamOptimizer(self.config.learning_rate)
 			self.train_op = optimizer.minimize(self.loss)
@@ -169,29 +169,29 @@ class PokemonNetwork(object):
 
 		for i,sample in enumerate(self.data_iter.sample(self.config.batch_size, self.config.num_steps, sample_set)):
 			# sample is a list of [poke1matrix, poke2matrix, ..., poke12matrix, other_x_state, y]
-			feed_dict1 = {self.poke_placeholders[i] : sample[i] for i in range(12)} 
-			batch_size = sample[i].shape[0] / self.config.num_steps
-			feed_dict_rest = {self.x_data_placeholder: sample[12], 
-							self.last_move_placeholder: sample[13], 
+			feed_dict1 = {self.poke_placeholders[i] : sample[i] for i in range(12)}
+			batch_size = sample[0].shape[0] / self.config.num_steps
+			feed_dict_rest = {self.x_data_placeholder: sample[12],
+							self.last_move_placeholder: sample[13],
 							self.y_placeholder: sample[14],
 							self.dropout_placeholder: dp,
-							self.batch_size : batch_size, 
+							self.batch_size : batch_size,
 							self.num_steps : self.config.num_steps}
-			feed_dict = {**feed_dict1, **feed_dict_rest}	
+			feed_dict = {**feed_dict1, **feed_dict_rest}
 			loss, _ = session.run([self.loss, train_op], feed_dict=feed_dict)
 			total_loss.append(loss)
 
 			if (i % 100) == 0 and to_print:
 				print("epoch: [%d] iter: [%d/%d] loss: [%2.5f]" % (epoch_num, i, total_batches, loss))
-		return total_loss 
+		return total_loss
 
 	def run_network(self, sess, sample, initial_state=None):
 		if not initial_state:
 			initial_state = np.zeros((self.config.memory_layer_depth, 2, sample[0].shape[0], self.config.memory_layer_size))
 		l = tf.unpack(initial_state, axis=0)
-		feed_dict1 = {self.poke_placeholders[i] :  sample[i] for i in range(12)} 
+		feed_dict1 = {self.poke_placeholders[i] :  sample[i] for i in range(12)}
 		feed_dict_rest = {self.x_data_placeholder: sample[13], self.dropout_placeholder: dp,
-						self.batch_size : sample[0].shape[0], self.num_steps : 1, 
+						self.batch_size : sample[0].shape[0], self.num_steps : 1,
 						self.initial_state: l}
 		feed_dict = {**feed_dict1, **feed_dict_rest}
 		pred, next_state = sess.run([self.predictions, self.final_rnn_state], feed_dict=feed_dict)
@@ -216,16 +216,16 @@ def trainNetwork():
 			total_losses.extend(epoch_losses)
 
 			if not os.path.exists(config.save_folder + config.model_name):
-				os.makedirs(config.save_folder + model_name)
+				os.makedirs(config.save_folder + config.model_name)
 			if not os.path.exists(config.save_folder + config.model_name + 'weights'):
 				os.makedirs(config.save_folder + config.model_name + 'weights')
-			saver.save(sess, config.save_folder + model_name + 'weights/model', global_step=epoch_num)
+			saver.save(sess, config.save_folder + config.model_name + 'weights/model', global_step=epoch_num)
 
 			if not os.path.exists(config.save_folder + config.model_name + 'loss'):
 				os.makedirs(config.save_folder + config.model_name + 'loss')
 			with open(config.save_folder + config.model_name + 'loss' + '/total_losses.p', 'wb') as f:
 				pickle.dump(total_losses, f)
-			
+
 			validation_loss = np.mean(model.run_epoch(epoch_num, sess, 'val'))
 			if validation_loss < best_validation_loss:
 				best_validation_epoch = epoch_num
