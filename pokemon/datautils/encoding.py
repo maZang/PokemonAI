@@ -94,9 +94,9 @@ class PokemonShowdownEncoding(object):
 
 	@classmethod
 	def load(self, filename):
+		print(filename)
 		with open(filename, 'rb') as f:
 			obj = pickle.load(f)
-		print(obj)
 		encoding = self(obj['name'], obj['data_type'], obj['num_turns'])
 		encoding.pokemon = obj['pokemon']
 		encoding.other_data = obj['other_data']
