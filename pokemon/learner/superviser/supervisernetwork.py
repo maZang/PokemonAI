@@ -19,7 +19,7 @@ class PokemonNetworkConfig(object):
 	last_move_data = const.LAST_MOVE_DATA
 	learning_rate = 1e-3
 	max_epochs = 10
-	early_stop = 2
+	early_stop = 100
 	dropout = 0.9
 	batch_size = 64
 	memory_layer_size = 300
@@ -233,9 +233,9 @@ def trainNetwork():
 				print('Best epcoh number: %d' % best_validation_epoch)
 			if epoch_num - best_validation_epoch > config.early_stop:
 				break
-			print('Total time: %d' % time.time() - start)
+			print('Total time: {}'.format(time.time() - start))
 		# get final test accuraccy
 		test_loss = np.mean(model.run_epoch(epoch_num, sess, 'test'))
-		print('Final test set loss: %d' % test_loss)
+		print('Final test set loss: {}'.format(test_loss))
 
 
