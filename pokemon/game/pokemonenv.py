@@ -56,6 +56,25 @@ class PokemonShowdown(Environment):
 		'''
 		pass
 
+	def parseStateFromJSON(self, data):
+		'''
+		Parses the JSON printed from console.log.
+		'''
+		for pokemon in data["side"]["pokemon"]:
+			species = pokemon["details"].split(',')[0]
+
+			# Health is in the format "CurrHP/TotalHP", ex. "250/301".
+			health = pokemon["condition"]
+
+			# Active is true or false.
+			active = pokemon["active"]
+
+			# Moves is a list of strings.
+			moves = pokemon["moves"]
+
+			if "item" in pokemon:
+				item = pokemon["item"]
+
 
 DRIVERFOLDER = 'driver/chromedriver.exe'
 BASEURL = 'http://play.pokemonshowdown.com/'
@@ -84,6 +103,10 @@ def challenge(driver1, driver2, showdown_config1, showdown_config2):
 	driver1.find_element(By.NAME, "data").clear()
 	time.sleep(1)
 	driver1.find_element(By.NAME, "data").send_keys(showdown_config2.user)
+
+def analyzeLog(driver):
+	data = driver.get_log('browser')
+	print(data)
 
 def runPokemonShowdown():
 	showdown_config = PokemonShowdownConfig()
