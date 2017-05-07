@@ -22,7 +22,7 @@ class PokemonNetworkConfig(object):
 	early_stop = 2
 	dropout = 0.5
 	batch_size = 64
-	memory_layer_size = 400
+	memory_layer_size = 500
 	memory_layer_depth = 3
 	number_pokemon = const.NUMBER_POKEMON
 	number_moves = const.NUMBER_MOVES
@@ -32,7 +32,7 @@ class PokemonNetworkConfig(object):
 	feature_maps_poke=[10,20,30,30,30,30,30]
 	kernels_team=[1,2,3,4,5,6]
 	feature_maps_team=[10,20,30,30,30,30]
-	num_steps = 6
+	num_steps = 8
 	save_folder = 'data/models/'
 	model_name = 'supervised_network/'
 
