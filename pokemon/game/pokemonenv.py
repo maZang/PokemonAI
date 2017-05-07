@@ -97,7 +97,7 @@ class PokemonShowdown(Environment):
 			pokemon.species = species
 			self.opponent.pokemon.append(pokemon)
 
-	def prefixHandler(self, pokePrefix, species, player):
+	def prefixHandler(self, pokePrefix, species):
 		'''
 		Handles prefix edge cases. When pokemon are listed at the top of a battle log,
 		their name is "Arceus-*". When they are switched in, they are listed as "Arceus-Ghost".
@@ -106,9 +106,8 @@ class PokemonShowdown(Environment):
 		Inputs:
 		pokePrefix - Pokemon prefix.
 		species - Pokemon species.
-		player - Player string ("p1" or "p2")
 		'''
-		pokemon = self.players[player].getPokemonBySpecies(pokePrefix)
+		pokemon = self.opponent.getPokemonBySpecies(pokePrefix)
 
 		if pokemon != None:
 			pokemon.species = species
@@ -122,11 +121,11 @@ class PokemonShowdown(Environment):
 		if player == self.opponent.name:
 			# Special prefix edge case.
 			if "Arceus" in species:
-				self.prefixHandler("Arceus", species, player)
+				self.prefixHandler("Arceus", species)
 			elif "Gourgeist" in species:
-				self.prefixHandler("Gourgeist", species, player)
+				self.prefixHandler("Gourgeist", species)
 			elif "Genesect" in species:
-				self.prefixHandler("Genesect", species, player)
+				self.prefixHandler("Genesect", species)
 
 			pokemon = self.opponent.getPokemonBySpecies(species)
 
@@ -134,8 +133,8 @@ class PokemonShowdown(Environment):
 				pokemon = Pokemon()
 				pokemon.nickname = nickname
 				pokemon.species = species
-				self.players[player].pokemon.append(pokemon)
-				assert(len(self.players[player].pokemon) <= 6)
+				self.opponent.pokemon.append(pokemon)
+				assert(len(self.opponent.pokemon) <= 6)
 			elif pokemon.nickname == "":
 				pokemon.nickname = nickname
 			self.opponent.currentPokemon = pokemon
@@ -161,8 +160,8 @@ class PokemonShowdown(Environment):
 				pokemon = Pokemon()
 				pokemon.nickname = nickname
 				pokemon.species = species
-				self.players[player].pokemon.append(pokemon)
-				assert(len(self.players[player].pokemon) <= 6)
+				self.opponent.pokemon.append(pokemon)
+				assert(len(self.opponent.pokemon) <= 6)
 			elif pokemon.nickname == "":
 				pokemon.nickname = nickname
 			self.opponent.currentPokemon = pokemon
@@ -188,8 +187,8 @@ class PokemonShowdown(Environment):
 				pokemon = Pokemon()
 				pokemon.nickname = nickname
 				pokemon.species = species
-				self.players[player].pokemon.append(pokemon)
-				assert(len(self.players[player].pokemon) <= 6)
+				self.opponent.pokemon.append(pokemon)
+				assert(len(self.opponent.pokemon) <= 6)
 			elif pokemon.nickname == "":
 				pokemon.nickname = nickname
 			self.opponent.currentPokemon = pokemon
@@ -353,6 +352,8 @@ class PokemonShowdown(Environment):
 				self.player.currentPokemon = pokemon
 
 			self.player.pokemon.append(pokemon)
+
+		assert(len(self.player.pokemon) <= 6)
 
 
 DRIVERFOLDER = 'driver/chromedriver.exe'
