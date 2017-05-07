@@ -13,10 +13,12 @@ class PokemonShowdownConfig(object):
 	password='HORSERADISHBACON'
 	learner=ApproxQLearner
 
+
 class PokemonShowdownConfigSelfPlay(object):
 	user='CS6700AITest'
 	password='HORSERADISHBACON'
 	learner=ApproxQLearner
+
 
 class PokemonShowdown(Environment):
 	def __init__(self, config, driver):
@@ -27,7 +29,7 @@ class PokemonShowdown(Environment):
 		'''
 		Gets the current state of the environment.
 		'''
-		raise NotImplementedError('Environment should implement this')
+		pass
 
 	def getActions(self, state=None):
 		'''
@@ -39,20 +41,20 @@ class PokemonShowdown(Environment):
 		'''
 		Resets the environment to the start state
 		'''
-		raise NotImplementedError('Environment should implement this')
+		pass
 
 	def update(self, action):
 		'''
 		Updates the state based upon the current state and action. Returns the new state
 		and a reward
 		'''
-		raise NotImplementedError('Environment should implement this')
+		pass
 
 	def isEndState(self):
 		'''
 		Checks if it is an end state, e.g. the episode is over
 		'''
-		raise NotImplementedError('Environment should implement this')
+		pass
 
 
 DRIVERFOLDER = 'driver/chromedriver.exe'
