@@ -1,43 +1,43 @@
-from learner.qlearner import QLearner	
+from learner.qlearner import QLearner
 from learner.learn import UtilFunction
 # lib imports
 import random as random
 import tensorflow as tf
 
 class ApproxQLearner(QLearner):
-		'''
-		Learns an approximate q function by learning parameters w such that
-		f(w,s') where s' is some feature extraction of the state/action is approximately 
-		q(s,a)
-		'''
+	'''
+	Learns an approximate q function by learning parameters w such that
+	f(w,s') where s' is some feature extraction of the state/action is approximately
+	q(s,a)
+	'''
 
-		def __init__(self, environment, featExtractor=None, **args):
-			if featExtractor == None:
-				raise ValueError('Must have a feature extractor as part of config')
-			self.extractor = featExtractor(environment)
-			QLearner.__init__(self, environment	, **args)
+	def __init__(self, environment, featExtractor=None, **args):
+		if featExtractor == None:
+			raise ValueError('Must have a feature extractor as part of config')
+		self.extractor = featExtractor(environment)
+		QLearner.__init__(self, environment	, **args)
 
-		def getQValue(self, state, action):
-			return self.extractor.getValue(state, action)
+	def getQValue(self, state, action):
+		return self.extractor.getValue(state, action)
 
-		def update(self, state, action, nextState, reward):
-			diff = reward + self.discount * self.getValue(state) - self.getQValue(state, action)
-			self.extractor.update(state, action, self.alpha * diff)
+	def update(self, state, action, nextState, reward):
+		diff = reward + self.discount * self.getValue(state) - self.getQValue(state, action)
+		self.extractor.update(state, action, self.alpha * diff)
 
 class ExperienceReplay(object):
 	'''
 	Class to hold samples of experience which are then used to train
 	'''
 	def __init__(self, buffer_size=100000):
-		self.buffer = buffer 
-		self.buffer_size = buffer_size 
+		self.buffer = buffer
+		self.buffer_size = buffer_size
 
 	def add(self,exeprience_sample):
 		'''
 		Adds an experience sample to the buffer
 		'''
 		if len(self.buffer) + 1 >= self.buffer_size:
-			self.buffer[0:1] = [] # remove the first element 
+			self.buffer[0:1] = [] # remove the first element
 		self.buffer.append(exeprience_sample)
 
 	def addAll(self, experience_samples):
@@ -70,7 +70,7 @@ class PokemonShowdownAI(QLearner):
 
 	def __init__(self, environment, state_processer, network, replayArgs, qlearner_config, name, load_model=False):
 		tf.reset_default_graph() # just in case
-		self.environment = environment 
+		self.environment = environment
 		self.state_processer = state_processer
 		self.replay = ExperienceReplay(**replayArgs)
 		self.current_episode_buffer = []
@@ -102,7 +102,7 @@ class PokemonShowdownAI(QLearner):
 		self.update_target()
 
 	def getQValue(self,state,action):
-		
+		pass
 
 	def update_target(self):
 		[self.sess.run(op) for op in self.ops]
@@ -111,14 +111,14 @@ class PokemonShowdownAI(QLearner):
 		'''
 		Returns the value of the given state
 		'''
-		
+
 
 	def getOptimalAction(self, state):
 		'''
 		Computes the optimal action as the max_a q(s,a) for a given state a. Returns a random choice
 		if multiple actions have the same value
 		'''
-		
+
 
 	def getAction(self, state):
 		'''
@@ -139,7 +139,7 @@ class PokemonShowdownAI(QLearner):
 		targetQ = training_batch[:, 2] + (self.config.discount * Q2_target[self.config.batch_size * self.config.num_steps, Q1_actions] * finished)
 		feed_dict_train = {}
 		_ = sess.run(self.mainQN.opt, feed_dict=feed_dict_train)
-		
+
 
 	def update(self, state, action, nextState, reward, terminal):
 		'''
@@ -155,7 +155,7 @@ class PokemonShowdownAI(QLearner):
 			self.train_batch()
 		if terminal: # only one reward of 1 or -1 at end
 			self.reward_list.append(reward)
-		
+
 	def updateEpisodeNumber(self):
 		'''
 		Called by environment to set the beginning of a new episode

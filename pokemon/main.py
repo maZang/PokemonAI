@@ -9,9 +9,9 @@ def runSupervised():
 def main():
 	#replay.spiderman()
 	#runPokemonShowdown()
-	#runAgainstItself()
+	runAgainstItself()
 	#replay.crawl()
-	runSupervised()
+	#runSupervised()
 	#runParser()
 
 def runParser():

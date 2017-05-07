@@ -98,4 +98,3 @@ def runAgainstItself():
 	login(driver1, showdown_config1)
 	login(driver2, showdown_config2)
 	challenge(driver1, driver2, showdown_config1, showdown_config2)
-
