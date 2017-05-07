@@ -39,7 +39,6 @@ class PokemonNetworkConfig(object):
 class PokemonNetwork(object):
 
 	def _add_placeholder(self):
-		print(self.config.number_pokemon, self.config.number_moves, self.config.number_items, self.config.number_status)
 		self.poke_placeholders = [tf.placeholder(tf.int32, shape=(None, self.config.poke_descriptor_size)) for _ in range(12)]
 		self.x_data_placeholder = tf.placeholder(tf.float32, shape=(None, self.config.number_non_embedding))
 		self.last_move_placeholder = tf.placeholder(tf.int32, shape=(None, self.config.last_move_data))
@@ -154,10 +153,11 @@ class PokemonNetwork(object):
 		self._add_loss()
 		self._add_optimizer()
 
-	def __init__(self, config):
+	def __init__(self, config, scope='POKEMON'):
 		self.data_iter = ReplayDataIter(TRAIN, VALIDATION, TEST, lambda x: encode(config, x))
 		self.config = config
-		self._build_graph()
+		with tf.variable_scope(scope):
+			self._build_graph()
 
 	def run_epoch(self, epoch_num, session, sample_set, train_op = None, to_print=False):
 		dp = self.config.dropout

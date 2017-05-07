@@ -2,6 +2,7 @@ from learner.qlearner import QLearner
 from learner.learn import UtilFunction
 # lib imports
 import random as random
+import tensorflow as tf
 
 class ApproxQLearner(QLearner):
 		'''
@@ -50,23 +51,115 @@ class ExperienceReplay(object):
 	def sample(self, size):
 		return random.sample(self.buffer,size)
 
+class AIConfig(object):
+	epsilon = 0.1
+	annealing_steps = 10000
+	num_episodes = 10000
+	save_path = 'data/models/pokemon_ai/'
+	update_steps = 10
+	tau = 0.001 # update rate for target network
+	discount = 1.0
+	batch_size = 64
+	num_steps = 8
 
-class BatchApproxQLearner(ApproxQLearner):
+class PokemonShowdownAI(QLearner):
 	'''
 	QLearner class designed to train with nonlinear approximation functions by using
 	both experience replay and a target approximation function
 	'''
 
-	def __init__(self, environment, extractorArgs, replayArgs, **args):
-		ApproxQLearner.__init__(environment, **args)
+	def __init__(self, environment, state_processer, network, replayArgs, qlearner_config, name, load_model=False):
+		tf.reset_default_graph() # just in case
+		self.environment = environment 
+		self.state_processer = state_processer
+		self.replay = ExperienceReplay(**replayArgs)
+		self.current_episode_buffer = []
+		self.current_step = 0
+		self.mainQN = network(qlearner_config, 'MAIN')
+		self.targetQN = network(qlearner_config, 'TARGET')
+		self.config = qlearner_config
+		# perform some TF initialization
+		self.saver = tf.train.Saver()
+		self.sess = tf.Session()
+		tfVars = tr.trainable_variables()
+		total_vars = len(tfVars)
+		self.ops = []
+		for idx,var in enumerate(tfVars[0:total_vars//2]):
+			self.ops.append(tfVars[idx+total_vars//2].assign(var.value() * qlearner_config.tau + ((1 - qlearner_config.tau) *\
+				tfVars[idx+total_vars//2].value())))
+		# see if folder exists and if to load a model
+		self.save_path = qlearner_config.save_path + name
+		if not os.path.exists(self.save_path):
+			os.makedirs(self.save_path)
+		if load_model:
+			checkpoint = tf.train.get_checkpoint_state(self.save_path)
+			self.saver.restore(self.sess,checkpoint.model_checkpoint_path)
+		init = tf.global_variables_initializer()
+		sess.run(init)
+		# other variable initialization
+		self.epsilon = qlearner_config.epsilon
+		self.reward_list = []
+		self.update_target()
 
-	def update(self, state, action, nextState, reward):
-		pass 
+	def getQValue(self,state,action):
+		
 
-class PokemonShowdownAI(BatchApproxQLearner):
+	def update_target(self):
+		[self.sess.run(op) for op in self.ops]
 
-	def __init__(self, environment, extractorArgs, replayArgs, **args):
-		BatchApproxQLearner.__init__(environment, **args)
+	def getValue(self,state):
+		'''
+		Returns the value of the given state
+		'''
+		
 
-	def update(self, state, action, nextState, reward):
-		pass 
+	def getOptimalAction(self, state):
+		'''
+		Computes the optimal action as the max_a q(s,a) for a given state a. Returns a random choice
+		if multiple actions have the same value
+		'''
+		
+
+	def getAction(self, state):
+		'''
+		Gets an action depending on whether we are following greedy policy or exploratory policy
+		'''
+
+	def train_batch(self):
+		self.update_target()
+		training_batch = self.replay.sample(self.config.batch_size, self.config.num_steps)
+		init_state = self.mainQN.init_hidden_state()
+		# run both networks
+		feed_dict_main = {}
+		Q1_actions = self.sess.run(self.mainQN.predict, feed_dict=feed_dict_main)
+		feed_dict_target = {}
+		Q2_target = self.sess.run(self.targetQN.Qout, feed_dict=feed_dict_target)
+
+		finished = (1. - training_batch[:,4])
+		targetQ = training_batch[:, 2] + (self.config.discount * Q2_target[self.config.batch_size * self.config.num_steps, Q1_actions] * finished)
+		feed_dict_train = {}
+		_ = sess.run(self.mainQN.opt, feed_dict=feed_dict_train)
+		
+
+	def update(self, state, action, nextState, reward, terminal):
+		'''
+		Updates the policy after observing a state, action => nextState, reward pair.
+
+		assume, action is an int and reward is a float. Terminal is either 1 (if it is a terminal
+		state) or 0 if not
+		'''
+		self.current_step += 1
+		experience_sample = [self.state_processer(state), action, self.state_processer(nextState), reward, terminal]
+		self.current_episode_buffer.append(experience_sample)
+		if self.current_step % self.config.update_steps == 0:
+			self.train_batch()
+		if terminal: # only one reward of 1 or -1 at end
+			self.reward_list.append(reward)
+		
+	def updateEpisodeNumber(self):
+		'''
+		Called by environment to set the beginning of a new episode
+		'''
+		self.replay.add(self.current_episode_buffer)
+		self.current_episode_buffer = []
+		self.episodeNumber += 1

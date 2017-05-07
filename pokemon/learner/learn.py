@@ -56,7 +56,10 @@ class FeatureExtractor(object):
 	types of learners and holds the weights for function approximation
 	'''
 
-	def getValue(self, state, action):
+	def getValue(self, state, actions):
+		raise NotImplementedError('FeatureExtractor should implement this')
+
+	def getQValue(self, state, action):
 		raise NotImplementedError('FeatureExtractor should implement this')
 
 	def update(self, state, action, amount):
