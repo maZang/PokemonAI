@@ -37,6 +37,9 @@ class PokemonShowdown(Environment):
 		self.player = Player(username=username)
 		self.opponent = Player()
 
+		self.winner = False
+		self.finished = False
+
 	def getCurrentState(self):
 		'''
 		Gets the current state of the environment.
@@ -67,6 +70,45 @@ class PokemonShowdown(Environment):
 		Checks if it is an end state, e.g. the episode is over
 		'''
 		pass
+
+	def parseLine(self, line):
+		if line.startswith("|player|"):
+			self.processPlayer(line)
+		elif line.startswith("|poke|"):
+			self.processPoke(line)
+		elif line.startswith("|switch|"):
+			self.processSwitch(line)
+		elif line.startswith("|drag|"):
+		 	self.processDrag(line)
+		 elif line.startswith("|replace|"):
+			self.processReplace(line)
+		 elif line.startswith("|move|"):
+			self.processMove(line)
+		elif line.startswith("|-mega|"):
+			self.processMega(line)
+		elif line.startswith("|detailschange|"):
+			self.processDetailsChange(line)
+		elif line.startswith("|-status|"):
+			self.processStatus(line)
+		elif line.startswith("|-curestatus|"):
+			self.processCureStatus(line)
+		elif line.startswith("|-damage|"):
+			self.processDamage(line)
+		elif line.startswith("|-enditem|"):
+			self.processEndItem(line)
+		elif line.startswith("|request|"):
+			self.processRequest(line)
+		elif "|[from] move:" in line:
+			if line.startswith("|-item|"):
+				self.processItemFromMove(line)
+		elif "|[from] item:" in line:
+			if line.startswith("|-heal|"):
+				self.processHealFromItem(line)
+				self.processHeal(line)
+		elif line.startswith("|win|"):
+			self.processWinner(line)
+		else:
+			pass
 
 	def processPlayer(self, line):
 		fields = line.split("|")
@@ -314,7 +356,6 @@ class PokemonShowdown(Environment):
 
 		self.parseStateFromJSON(data)
 
-
 	def parseStateFromJSON(self, data):
 		'''
 		Parses the JSON printed from console.log.
@@ -355,6 +396,20 @@ class PokemonShowdown(Environment):
 
 		assert(len(self.player.pokemon) <= 6)
 
+	def processWinner(self, line):
+		fields = line.split("|")
+
+		assert(len(fields) >= 2)
+
+		# Assigns username of winner
+		winnerUsername = fields[2]
+
+		if self.player.username == winnerUsername:
+			self.winner = True
+		else:
+			self.winner = False
+
+		self.finished = True
 
 DRIVERFOLDER = 'driver/chromedriver.exe'
 BASEURL = 'http://play.pokemonshowdown.com/'
