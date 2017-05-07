@@ -1,6 +1,7 @@
 from reinforcement.environment import Environment
 from learner.approxqlearner import ApproxQLearner
 from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 
 from datautils.const import *
@@ -359,28 +360,36 @@ BASEURL = 'http://play.pokemonshowdown.com/'
 
 def login(driver, showdown_config):
 	driver.get(BASEURL)
-	time.sleep(1)
+	time.sleep(0.5)
 	driver.find_element(By.NAME, "login").click()
-	time.sleep(1)
+	time.sleep(0.5)
 	driver.find_element(By.NAME, "username").clear()
-	time.sleep(1)
 	driver.find_element(By.NAME, "username").send_keys(showdown_config.user)
-	time.sleep(1)
 	driver.find_element(By.CSS_SELECTOR, 'button[type="submit"]').click()
-	time.sleep(1)
+	time.sleep(0.5)
 	driver.find_element(By.NAME, "password").clear()
-	time.sleep(1)
 	driver.find_element(By.NAME, "password").send_keys(showdown_config.password)
-	time.sleep(1)
 	driver.find_element(By.CSS_SELECTOR, 'button[type="submit"]').click()
-	time.sleep(1)
+	time.sleep(0.5)
 
 def challenge(driver1, driver2, showdown_config1, showdown_config2):
+	time.sleep(0.5)
 	driver1.find_element(By.NAME, "finduser").click()
-	time.sleep(1)
+	time.sleep(0.5)
 	driver1.find_element(By.NAME, "data").clear()
-	time.sleep(1)
 	driver1.find_element(By.NAME, "data").send_keys(showdown_config2.user)
+	driver1.find_element(By.CSS_SELECTOR, 'button[type="submit"]').click()
+	time.sleep(0.5)
+	driver1.find_element(By.NAME, "challenge").click()
+	driver1.find_element(By.CSS_SELECTOR, 'button[class="select formatselect"]').click()
+	driver1.find_element(By.CSS_SELECTOR, 'button[value="battlefactory"]').click()
+	driver1.find_element(By.NAME, "makeChallenge").click()
+	time.sleep(0.5)
+	driver2.find_element(By.NAME, "acceptChallenge").click()
+	time.sleep(0.5)
+	driver1.find_element(By.CSS_SELECTOR, 'button[value="0"]').click()
+	driver2.find_element(By.CSS_SELECTOR, 'button[value="0"]').click()
+	time.sleep(0.5)
 
 def analyzeLog(driver):
 	data = driver.get_log('browser')
@@ -394,8 +403,13 @@ def runPokemonShowdown():
 def runAgainstItself():
 	showdown_config1 = PokemonShowdownConfig()
 	showdown_config2 = PokemonShowdownConfigSelfPlay()
-	driver1 = webdriver.Chrome(executable_path=DRIVERFOLDER)
-	driver2 = webdriver.Chrome(executable_path=DRIVERFOLDER)
+	options = Options()
+	options.add_argument("--disable-notifications")
+	options.add_argument("--mute-audio")
+	driver1 = webdriver.Chrome(executable_path=DRIVERFOLDER, chrome_options=options)
+	driver2 = webdriver.Chrome(executable_path=DRIVERFOLDER, chrome_options=options)
+	driver1.implicitly_wait(30)
+	driver2.implicitly_wait(30)
 	login(driver1, showdown_config1)
 	login(driver2, showdown_config2)
 	challenge(driver1, driver2, showdown_config1, showdown_config2)
