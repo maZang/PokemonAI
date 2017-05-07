@@ -233,9 +233,9 @@ def trainNetwork():
 				print('Best epcoh number: %d' % best_validation_epoch)
 			if epoch_num - best_validation_epoch > config.early_stop:
 				break
-			print('Total time: %d' % time.time() - start)
+			print('Total time: {}'.format(time.time() - start))
 		# get final test accuraccy
 		test_loss = np.mean(model.run_epoch(epoch_num, sess, 'test'))
-		print('Final test set loss: %d' % test_loss)
+		print('Final test set loss: {}'.format(test_loss))
 
 

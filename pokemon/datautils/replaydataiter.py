@@ -54,20 +54,8 @@ class ReplayDataIter(object):
 			all_sets = [[] for _ in range(len(data[0]))]
 			for eps,seq in idxs[currBatch*batch_size:(currBatch+1)*batch_size]:
 				[all_sets_set.append(set[seq:seq+num_steps]) for set,all_sets_set in zip(data[eps],all_sets)]
-			try:
-				final_batch = [np.concatenate(sets, axis=0) for sets in all_sets]
-			except:
-				# print(len(idxs))
-				# print(currBatch)
-				# print(number_batches)
-				# for eps,seq in idxs[currBatch*batch_size:(currBatch+1)*batch_size]:
-				# 	print(eps)
-				# 	print(seq)
-				# 	for set,all_sets_set in zip(data[eps],all_sets):
-				# 		print(set)
-				# 		print(all_sets_set)
-				# print("HMM")
-				raise
+			final_batch = [np.concatenate(sets, axis=0) for sets in all_sets]
+
 			final_batch[-1] = np.where(final_batch[-1] == 1)[1] # quick hack
 			yield final_batch
 			currBatch += 1
