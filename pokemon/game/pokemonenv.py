@@ -79,6 +79,27 @@ class PokemonShowdown(Environment):
 		'''
 		pass
 
+	def run(self):
+		while True:
+			currentState = self.getCurrentState()
+			actions = self.getActions()
+			if not actions:
+				time.sleep(1)
+				continue
+
+			action = self.learner.getAction(actions)
+			self.update(action)
+
+			reward = 0
+			if self.isEndState():
+				reward = 1
+
+			nextState = self.getCurrentState()
+			self.learner.update(currentState, action, nextState, reward)
+
+			if reward:
+				return
+
 	def update(self, action):
 		'''
 		Updates the state based upon the current state and action. Returns the new state
