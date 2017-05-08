@@ -30,6 +30,7 @@ class PokemonShowdownConfigSelfPlay(object):
 	password='HORSERADISHBACON'
 	learner=ApproxQLearner
 
+
 class Entry(object):
 	"""An entry in the game log"""
 	def __init__(self, ID, text):
@@ -44,6 +45,7 @@ class Entry(object):
 			return("Handled entry with ID: " + str(self.ID) + " and text " + self.text)
 
 	__repr__ = __str__
+
 
 class EntryManager(object):
 	"""Handles entries to make sure that we process each"""
@@ -64,6 +66,7 @@ class EntryManager(object):
 		"""Return any entries not yet handled."""
 		return([x for x in self.entry_list if not x.handled])
 
+
 class PokemonShowdown(Environment):
 	def __init__(self, config, driver, username):
 		self.learner = config.learner
@@ -76,12 +79,54 @@ class PokemonShowdown(Environment):
 		self.finished = False
 
 		self.entry_manager = EntryManager()
+		self.turnNumber = -1
 
-	def getCurrentState(self):
+	def getCurrentState(self, action, opponentAction):
 		'''
 		Gets the current state of the environment.
+		We assume that refreshLogs will have been called at this point
 		'''
-		pass
+		self.encodeAllPokemon()
+
+		# ???
+		self.labels[action] = 1
+		self.last_move_data[0][0] = action
+		# After performing the move, retrieve the opponent's move
+		# self.last_move_data[0][1] = opponentAction
+
+
+	def encodeAllPokemon(self):
+		self.pokemonEncoding = {}
+		self.pokemonEncoding[0] = [encodePokemonObject(Pokemon())]*12
+
+		self.encodePokemon("p1")
+		self.encodePokemon("p2")
+
+		for turnNumber, lst in self.pokemonEncoding.items():
+			for i in range(0, 12):
+				self.pokemon[i][turnNumber] = lst[i][:, :POKE_DESCRIPTOR_SIZE]
+				self.other_data[turnNumber, i] = lst[i][:, POKE_DESCRIPTOR_SIZE] / 100.
+
+	def encodePokemon(self, player):
+		playerPokemon = self.players[player]
+		currentPokemon = self.players[player].currentPokemon
+		if not currentPokemon:
+			return
+
+		idx = 0
+		if player != self.winner:
+			idx = 6
+
+		# 0-5 = Winner's pokemon, 6-11 = Opponent's pokemon
+		# Turn number : list of 12 pokemon that represents
+		self.pokemonEncoding[0][idx] = encodePokemonObject(currentPokemon)
+
+		i = 1
+		for pokemon in playerPokemon.pokemon:
+			if pokemon == currentPokemon:
+				continue
+			self.pokemonEncoding[0][i+idx] = encodePokemonObject(pokemon)
+			i += 1
 
 	def getActions(self, state=None):
 		'''
@@ -114,7 +159,12 @@ class PokemonShowdown(Environment):
 		'''
 		Resets the environment to the start state
 		'''
-		pass
+		# One row encoding
+		self.pokemon = [np.zeros((1, POKE_DESCRIPTOR_SIZE)) for _ in range(12)]
+		self.labels = np.zeros((1, NUMBER_CLASSES))
+
+		# Store your move and opponent's move
+		self.last_move_data = np.zeros((1, 2))
 
 	def run(self):
 		while True:
@@ -153,7 +203,8 @@ class PokemonShowdown(Environment):
 			# Scan list of switchable pokemon
 			for pkmn in self.driver.find_elements(By.NAME, 'chooseSwitch'):
 				if pkmn and pkmn.text == pokemon:
-					self.driver.find_element(By.CSS_SELECTOR, 'button[name="chooseSwitch"][value="{}"]'.format(idx)).click()
+					css = 'button[name="chooseSwitch"][value="{}"]'.format(idx)
+					self.driver.find_element(By.CSS_SELECTOR, css).click()
 					found = True
 					break
 				idx += 1
@@ -176,7 +227,7 @@ class PokemonShowdown(Environment):
 		'''
 		Check if the current player has won
 		'''
-
+		pass
 
 	def refreshLogs(self):
 		logs = self.driver.get_log('browser')
