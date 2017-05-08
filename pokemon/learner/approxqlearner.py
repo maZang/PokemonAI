@@ -78,6 +78,7 @@ class PokemonShowdownAI(QLearner):
 		self.mainQN = network(qlearner_config, 'MAIN')
 		self.targetQN = network(qlearner_config, 'TARGET')
 		self.config = qlearner_config
+		self.current_state = self.mainQN.init_hidden_state()
 		# perform some TF initialization
 		self.saver = tf.train.Saver()
 		self.sess = tf.Session()
@@ -101,29 +102,28 @@ class PokemonShowdownAI(QLearner):
 		self.reward_list = []
 		self.update_target()
 
-	def getQValue(self,state,action):
-		pass
 
 	def update_target(self):
 		[self.sess.run(op) for op in self.ops]
-
-	def getValue(self,state):
-		'''
-		Returns the value of the given state
-		'''
-
-
-	def getOptimalAction(self, state):
-		'''
-		Computes the optimal action as the max_a q(s,a) for a given state a. Returns a random choice
-		if multiple actions have the same value
-		'''
-
+		
 
 	def getAction(self, state):
 		'''
-		Gets an action depending on whether we are following greedy policy or exploratory policy
+		Gets an action depending on whether we are following greedy policy or exploratory policy.
+
+		Mutates current state 
 		'''
+		feed_dict = {}
+		if np.random.rand(1.) < self.config.epsilon:
+			next_state = self.sess.run(self.mainQN.final_state, feed_dict=feed_dict)
+			action = np.random.choice(self.environment.getActions(state))
+		else:
+			action, next_state = self.sess.run([self.mainQN.predict, self.mainQN.final_state],
+				feed_dict=feed_dict)
+			action = action[0]
+		self.current_state = next_state 
+		return action 
+
 
 	def train_batch(self):
 		self.update_target()
@@ -163,3 +163,4 @@ class PokemonShowdownAI(QLearner):
 		self.replay.add(self.current_episode_buffer)
 		self.current_episode_buffer = []
 		self.episodeNumber += 1
+		self.current_state = self.mainQN.init_hidden_state()

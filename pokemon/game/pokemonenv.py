@@ -3,6 +3,7 @@ from learner.approxqlearner import ApproxQLearner
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
+from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 
 from datautils.const import *
 from datautils.encoding import *
@@ -11,6 +12,7 @@ from datautils.pokemon import *
 from datautils.turn import *
 
 import json
+import re
 import time
 
 
@@ -28,10 +30,43 @@ class PokemonShowdownConfigSelfPlay(object):
 	password='HORSERADISHBACON'
 	learner=ApproxQLearner
 
+class Entry(object):
+	"""An entry in the game log"""
+	def __init__(self, ID, text):
+		self.ID = ID
+		self.text = str(text)
+		self.handled = False
+
+	def __str__(self):
+		if not self.handled:
+			return("Unhandled entry with ID: " + str(self.ID) + " and text " + self.text)
+		else:
+			return("Handled entry with ID: " + str(self.ID) + " and text " + self.text)
+
+	__repr__ = __str__
+
+class EntryManager(object):
+	"""Handles entries to make sure that we process each"""
+	def __init__(self):
+		"""Start with an empty list of entries"""
+		self.entry_list = []
+		self.entry_IDs = []
+
+	def register_entries(self, entries):
+		"""Register new entries into our list if we don't have them already"""
+		new_entries = [[i,x] for i,x in enumerate(entries) if i not in self.entry_IDs]
+		for entry in new_entries:
+			self.entry_list.append(Entry(entry[0],entry[1]))
+
+		self.entry_IDs = [x.ID for x in self.entry_list]
+
+	def get_unhandled_entries(self):
+		"""Return any entries not yet handled."""
+		return([x for x in self.entry_list if not x.handled])
 
 class PokemonShowdown(Environment):
-	def __init__(self, driver, username, config=None):
-		#self.learner = config.learner
+	def __init__(self, config, driver, username):
+		self.learner = config.learner
 		self.driver = driver
 
 		self.player = Player(username=username)
@@ -39,6 +74,8 @@ class PokemonShowdown(Environment):
 
 		self.winner = False
 		self.finished = False
+
+		self.entry_manager = EntryManager()
 
 	def getCurrentState(self):
 		'''
@@ -141,6 +178,29 @@ class PokemonShowdown(Environment):
 		'''
 
 
+	def refreshLogs(self):
+		logs = self.driver.get_log('browser')
+
+		lines = []
+		for entry in logs:
+			message = '|' + entry['message'].partition('|')[2]
+			split = message.split('\\n')
+			for line in split:
+				lines.append(line)
+				# pokemon_env.parseLine(line)
+
+		self.entry_manager.register_entries(lines)
+
+		new_entries = self.entry_manager.get_unhandled_entries()
+
+		for entry_obj in new_entries:
+			entry = entry_obj.text
+
+			self.parseLine(entry)
+
+	def refresh(self):
+		self.refreshLogs()
+
 	def parseLine(self, line):
 		if line.startswith("|player|"):
 			self.processPlayer(line)
@@ -197,6 +257,8 @@ class PokemonShowdown(Environment):
 		player = fields[2]
 		species = fields[3].replace("/,.*$/", "").split(',')[0]
 
+		print(line)
+
 		if player == self.opponent.name:
 			if "Arceus" in species:
 				species = "Arceus"
@@ -229,6 +291,8 @@ class PokemonShowdown(Environment):
 		player = matches[0]
 		nickname = matches[1]
 		species = matches[2].split(',')[0]
+
+		print(line)
 
 		if player == self.opponent.name:
 			# Special prefix edge case.
@@ -310,6 +374,8 @@ class PokemonShowdown(Environment):
 		player = matches[0]
 		nickname = matches[1]
 		move = matches[2].lower().replace("-", "").replace(" ", "").replace("'", "")
+
+		print(line)
 
 		if player == self.opponent.name:
 			pokemon = self.opponent.getPokemonByNickname(nickname)
@@ -418,7 +484,7 @@ class PokemonShowdown(Environment):
 		Processes a request line. Every request line gives a complete update of our team in JSON form.
 		'''
 		matches = re.search("\|request\|(.*)", line).groups()
-		data_string = matches[0]
+		data_string = matches[0].replace("\\", "")[:-1]
 
 		# Convert data to JSON.
 		data = json.loads(data_string)
@@ -465,6 +531,9 @@ class PokemonShowdown(Environment):
 			self.player.pokemon.append(pokemon)
 
 		assert(len(self.player.pokemon) <= 6)
+
+		for pokemon in self.player.pokemon:
+			print(pokemon)
 
 	def processWinner(self, line):
 		fields = line.split("|")
@@ -517,10 +586,6 @@ def challenge(driver1, driver2, showdown_config1, showdown_config2):
 	driver2.find_element(By.CSS_SELECTOR, 'button[value="0"]').click()
 	time.sleep(0.5)
 
-def analyzeLog(driver):
-	data = driver.get_log('browser')
-	print(data)
-
 def runPokemonShowdown():
 	showdown_config = PokemonShowdownConfig()
 	driver = webdriver.Chrome(executable_path=DRIVERFOLDER)
@@ -532,16 +597,17 @@ def runAgainstItself():
 	options = Options()
 	options.add_argument("--disable-notifications")
 	options.add_argument("--mute-audio")
-	driver1 = webdriver.Chrome(executable_path=DRIVERFOLDER, chrome_options=options)
-	driver2 = webdriver.Chrome(executable_path=DRIVERFOLDER, chrome_options=options)
+	d = DesiredCapabilities.CHROME
+	d['loggingPrefs'] = { 'browser':'INFO' }
+	driver1 = webdriver.Chrome(executable_path=DRIVERFOLDER, chrome_options=options, desired_capabilities=d)
+	driver2 = webdriver.Chrome(executable_path=DRIVERFOLDER, chrome_options=options, desired_capabilities=d)
 	driver1.implicitly_wait(30)
 	driver2.implicitly_wait(30)
 	login(driver1, showdown_config1)
 	login(driver2, showdown_config2)
 	challenge(driver1, driver2, showdown_config1, showdown_config2)
 
-	env1 = PokemonShowdown(driver1, showdown_config1.user, config=None)
-	env2 = PokemonShowdown(driver2, showdown_config2.user, config=None)
+	env1 = PokemonShowdown(showdown_config1, driver1, showdown_config1.user)
+	env2 = PokemonShowdown(showdown_config2, driver2, showdown_config2.user)
 
 	time.sleep(10)
-
