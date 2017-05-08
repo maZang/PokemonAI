@@ -30,8 +30,8 @@ class PokemonShowdownConfigSelfPlay(object):
 
 
 class PokemonShowdown(Environment):
-	def __init__(self, config, driver, username):
-		self.learner = config.learner
+	def __init__(self, driver, username, config=None):
+		#self.learner = config.learner
 		self.driver = driver
 
 		self.player = Player(username=username)
@@ -103,28 +103,34 @@ class PokemonShowdown(Environment):
 		Clicks the move/switch/mega
 		'''
 		# Switch/mega
+		print("ID {} received:".format(action))
 		if action in REV_POKEMON_LIST:
 			pokemon = REV_POKEMON_LIST[action]
 			if '-mega' in pokemon.lower():
 				# Unparse the -Mega
 				pokemon = pokemon.split('-')[0]
+			print("{}: Switch action received. Switching to {}".format(self.player.username, pokemon))
 
 			idx = 1
 			found = False
 			# Scan list of switchable pokemon
 			for pkmn in self.driver.find_elements(By.NAME, 'chooseSwitch'):
 				if pkmn and pkmn.text == pokemon:
-					self.driver.find_element(By.CSS_SELECTOR, 'button[value="{}"]'.format(idx)).click()
+					self.driver.find_element(By.CSS_SELECTOR, 'button[name="chooseSwitch"][value="{}"]'.format(idx)).click()
 					found = True
 					break
 				idx += 1
+				print(pkmn.text)
 
 			# List of switchable pokemon was not the pokemon, thus it must be a mega-evolve
 			if not found:
+				print("{}: Megaevolving {}.".format(self.player.username, pokemon))
 				self.driver.find_element(By.NAME, 'megaevo').click()
 		elif action in REV_MOVE_LIST:
 			# Action is a move
 			move = REV_MOVE_LIST[action]
+			print("{}: Move action received. Using move {}".format(self.player.username, move))
+
 			self.driver.find_element(By.CSS_SELECTOR, 'button[data-move="{}"]'.format(move)).click()
 		else:
 			raise Exception("ID {} was not a pokemon/move ID".format(move))
@@ -533,3 +539,9 @@ def runAgainstItself():
 	login(driver1, showdown_config1)
 	login(driver2, showdown_config2)
 	challenge(driver1, driver2, showdown_config1, showdown_config2)
+
+	env1 = PokemonShowdown(driver1, showdown_config1.user, config=None)
+	env2 = PokemonShowdown(driver2, showdown_config2.user, config=None)
+
+	time.sleep(10)
+
