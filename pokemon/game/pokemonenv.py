@@ -87,13 +87,55 @@ class PokemonShowdown(Environment):
 		'''
 		Returns the actions possible for the current state. If state=None, return all actions.
 		'''
-		pass
+		# List of pokemonIDs to switch to, moveIDs to move, or mega Pokemon ID if mega
+		actionList = []
+
+		for move in self.driver.find_elements(By.NAME, 'chooseMove'):
+			if move:
+				actionList.append[MOVE_LIST[move.text.split("\n")[0]]]
+		for pokemon in self.driver.find_elements(By.NAME, 'chooseSwitch'):
+			if pokemon:
+				actionList.append[POKEMON_LIST[pokemon.text]]
+
+		time.sleep(1)
+
+		# Pull mega if exists
+		if self.driver.find_elements(By.NAME, 'megaevo'):
+			currPokemon = self.player.currentPokemon.species
+			if currPokemon in ['Charizard', 'Mewtwo'] and currPokemon.item:
+				currPokemon += '-Mega-' + currPokemon.item[-1]
+			else:
+				currPokemon += '-Mega'
+			actionList.append[currPokemon]
+
+		return actionList
 
 	def reset(self):
 		'''
 		Resets the environment to the start state
 		'''
 		pass
+
+	def run(self):
+		while True:
+			currentState = self.getCurrentState()
+			actions = self.getActions()
+			if not actions:
+				time.sleep(1)
+				continue
+
+			action = self.learner.getAction(actions)
+			self.update(action)
+
+			reward = 0
+			if self.isEndState():
+				reward = 1
+
+			nextState = self.getCurrentState()
+			self.learner.update(currentState, action, nextState, reward)
+
+			if reward:
+				return
 
 	def update(self, action):
 		'''
@@ -139,7 +181,7 @@ class PokemonShowdown(Environment):
 		elif line.startswith("|switch|"):
 			self.processSwitch(line)
 		elif line.startswith("|drag|"):
-		 	self.processDrag(line)
+			self.processDrag(line)
 		elif line.startswith("|replace|"):
 			self.processReplace(line)
 		elif line.startswith("|move|"):
