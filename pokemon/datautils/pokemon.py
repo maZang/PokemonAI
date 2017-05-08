@@ -9,7 +9,7 @@ class Pokemon(object):
 		self.health = 100
 
 	def __repr__(self):
-		return "(Pokemon: (species={}, nickname={}, item={}, ability={}))".format(self.species, self.nickname, self.item, self.ability)
+		return "(Pokemon: (species={}, nickname={}, item={}, ability={}, status={}, moves={}, health={}))".format(self.species, self.nickname, self.item, self.ability, self.status, self.moves, self.health)
 
 	def getTeamFormatString(self):
 		s = ""
