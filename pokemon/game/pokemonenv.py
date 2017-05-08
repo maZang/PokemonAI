@@ -87,12 +87,10 @@ class PokemonShowdown(Environment):
 				time.sleep(1)
 				continue
 
-			action = self.learner.getAction(actions)
+			action = self.learner.getAction(currentState, actions)
 			self.update(action)
 
-			reward = 0
-			if self.isEndState():
-				reward = 1
+			reward = self.isWonGame()
 
 			nextState = self.getCurrentState()
 			self.learner.update(currentState, action, nextState, reward)
@@ -102,16 +100,40 @@ class PokemonShowdown(Environment):
 
 	def update(self, action):
 		'''
-		Updates the state based upon the current state and action. Returns the new state
-		and a reward
+		Clicks the move/switch/mega
 		'''
-		pass
+		# Switch/mega
+		if action in REV_POKEMON_LIST:
+			pokemon = REV_POKEMON_LIST[action]
+			if '-mega' in pokemon.lower():
+				# Unparse the -Mega
+				pokemon = pokemon.split('-')[0]
 
-	def isEndState(self):
+			idx = 1
+			found = False
+			# Scan list of switchable pokemon
+			for pkmn in self.driver.find_elements(By.NAME, 'chooseSwitch'):
+				if pkmn and pkmn.text == pokemon:
+					self.driver.find_element(By.CSS_SELECTOR, 'button[value="{}"]'.format(idx)).click()
+					found = True
+					break
+				idx += 1
+
+			# List of switchable pokemon was not the pokemon, thus it must be a mega-evolve
+			if not found:
+				self.driver.find_element(By.NAME, 'megaevo').click()
+		elif action in REV_MOVE_LIST:
+			# Action is a move
+			move = REV_MOVE_LIST[action]
+			self.driver.find_element(By.CSS_SELECTOR, 'button[data-move="{}"]'.format(move)).click()
+		else:
+			raise Exception("ID {} was not a pokemon/move ID".format(move))
+
+	def isWonGame(self):
 		'''
-		Checks if it is an end state, e.g. the episode is over
+		Check if the current player has won
 		'''
-		pass
+
 
 	def parseLine(self, line):
 		if line.startswith("|player|"):
