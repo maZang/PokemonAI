@@ -247,6 +247,8 @@ class PokemonShowdown(Environment):
 		for entry_obj in new_entries:
 			entry = entry_obj.text
 
+			print(entry)
+
 			self.parseLine(entry)
 
 	def refresh(self):
@@ -308,7 +310,7 @@ class PokemonShowdown(Environment):
 		player = fields[2]
 		species = fields[3].replace("/,.*$/", "").split(',')[0]
 
-		print(line)
+		# print(line)
 
 		if player == self.opponent.name:
 			if "Arceus" in species:
@@ -343,7 +345,7 @@ class PokemonShowdown(Environment):
 		nickname = matches[1]
 		species = matches[2].split(',')[0]
 
-		print(line)
+		# print(line)
 
 		if player == self.opponent.name:
 			# Special prefix edge case.
@@ -426,7 +428,7 @@ class PokemonShowdown(Environment):
 		nickname = matches[1]
 		move = matches[2].lower().replace("-", "").replace(" ", "").replace("'", "")
 
-		print(line)
+		# print(line)
 
 		if player == self.opponent.name:
 			pokemon = self.opponent.getPokemonByNickname(nickname)
