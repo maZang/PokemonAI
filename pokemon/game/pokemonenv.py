@@ -74,7 +74,7 @@ class PokemonShowdown(Environment):
 		if self.opponentLastMove:
 			self.last_move_data[0][1] = self.opponentLastMove
 
-		return [np.copy(pokemon) for pokemon in self.pokemon] + [np.copy(self.other_data)] + [np.copy(self.last_move_data)]
+		return [np.copy(pokemon) for pokemon in self.pokemon] + [np.copy(self.other_data)] + [np.copy(self.last_move_data)] + [np.array(self.actionList)]
 
 	def encodeAllPokemon(self):
 		self.pokemonEncoding = {}
@@ -112,7 +112,7 @@ class PokemonShowdown(Environment):
 			self.pokemonEncoding[0][i+idx] = encodePokemonObject(pokemon)
 			i += 1
 
-	def getActions(self):
+	def getActions(self, state=None):
 		'''
 		Returns list of pokemonIDs to switch to, moveIDs, or mega Pokemon ID if mega
 		'''
@@ -139,7 +139,8 @@ class PokemonShowdown(Environment):
 		self.driver.implicitly_wait(5)
 
 		print("Actions found: {}".format(self.actionList))
-		return self.actionList
+
+		return state + [np.array(self.actionList)] if state else self.actionList
 
 	def reset(self):
 		'''
@@ -622,20 +623,20 @@ def challenge(driver, user=None):
 		driver.find_element(By.NAME, "makeChallenge").click()
 		time.sleep(0.5)
 		while True:
-			try: 
+			try:
 				driver.find_element(By.CSS_SELECTOR, 'button[value="0"]').click()
 			except NoSuchElementException as e:
 				time.sleep(0.5)
-				continue 
-			break 
+				continue
+			break
 	else:
 		while True:
-			try:	
+			try:
 				driver.find_element(By.NAME, "acceptChallenge").click()
 			except NoSuchElementException as e:
 				time.sleep(0.5)
-				continue 
-			break 
+				continue
+			break
 		time.sleep(0.5)
 		driver.find_element(By.CSS_SELECTOR, 'button[value="0"]').click()
 		time.sleep(0.5)
