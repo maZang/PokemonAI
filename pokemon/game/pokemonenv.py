@@ -662,5 +662,12 @@ def runAgainstItself():
 
 	env1 = PokemonShowdown(showdown_config1, driver1, showdown_config1.user)
 	env2 = PokemonShowdown(showdown_config2, driver2, showdown_config2.user)
+	for move in driver1.find_elements(By.NAME, 'chooseMove'):
+		if move:
+			env1.update(MOVE_LIST[move.text.split("\n")[0]])
+	time.sleep(1)
+	for move in driver2.find_elements(By.NAME, 'chooseMove'):
+		if move:
+			env2.update(MOVE_LIST[move.text.split("\n")[0]])
 
 	time.sleep(10)
