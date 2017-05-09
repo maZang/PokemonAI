@@ -56,6 +56,12 @@ class PokemonShowdown(Environment):
 		We assume that refreshLogs will have been called at this point
 		'''
 		self.reset()
+
+		# Stall until we can click something
+		while True:
+			if not getActions():
+				continue
+
 		self.refresh()
 		self.encodeAllPokemon()
 
@@ -100,11 +106,10 @@ class PokemonShowdown(Environment):
 			self.pokemonEncoding[0][i+idx] = encodePokemonObject(pokemon)
 			i += 1
 
-	def getActions(self, state=None):
+	def getActions(self):
 		'''
-		Returns the actions possible for the current state. If state=None, return all actions.
+		Returns ist of pokemonIDs to switch to, moveIDs to move, or mega Pokemon ID if mega
 		'''
-		# List of pokemonIDs to switch to, moveIDs to move, or mega Pokemon ID if mega
 		actionList = []
 
 		for move in self.driver.find_elements(By.NAME, 'chooseMove'):
@@ -113,8 +118,6 @@ class PokemonShowdown(Environment):
 		for pokemon in self.driver.find_elements(By.NAME, 'chooseSwitch'):
 			if pokemon:
 				actionList.append[POKEMON_LIST[pokemon.text]]
-
-		time.sleep(1)
 
 		# Pull mega if exists
 		if self.driver.find_elements(By.NAME, 'megaevo'):
