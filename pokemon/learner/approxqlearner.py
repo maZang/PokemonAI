@@ -4,6 +4,8 @@ from datautils import const
 # lib imports
 import random as random
 import tensorflow as tf
+import numpy as np
+import os
 
 class ApproxQLearner(QLearner):
 	'''
@@ -117,11 +119,11 @@ class PokemonShowdownAI(QLearner):
 		self.mainQN = network(qlearner_config, 'MAIN')
 		self.targetQN = network(qlearner_config, 'TARGET')
 		self.config = qlearner_config
-		self.current_state = self.mainQN.init_hidden_state()
+		self.current_state = self.mainQN.init_hidden_state(1)
 		# perform some TF initialization
 		self.saver = tf.train.Saver()
 		self.sess = tf.Session()
-		tfVars = tr.trainable_variables()
+		tfVars = tf.trainable_variables()
 		total_vars = len(tfVars)
 		self.ops = []
 		for idx,var in enumerate(tfVars[0:total_vars//2]):
@@ -135,7 +137,7 @@ class PokemonShowdownAI(QLearner):
 			checkpoint = tf.train.get_checkpoint_state(self.save_path)
 			self.saver.restore(self.sess,checkpoint.model_checkpoint_path)
 		init = tf.global_variables_initializer()
-		sess.run(init)
+		self.sess.run(init)
 		# other variable initialization
 		self.epsilon = qlearner_config.startE 
 		self.stepE = (qlearner_config.startE - qlearner_config.endE) - qlearner_config.annealing_steps
@@ -174,7 +176,7 @@ class PokemonShowdownAI(QLearner):
 
 		Mutates current state
 		'''
-		feed_dict = self.create_feed_dict(self.state_processer(state), self.mainQN, init_state=self.currnet_state)
+		feed_dict = self.create_feed_dict(self.state_processer(state), self.mainQN, init_state=self.current_state)
 		if np.random.rand(1.) < self.config.epsilon:
 			next_state = self.sess.run(self.mainQN.final_state, feed_dict=feed_dict)
 			action = np.random.choice(self.environment.getActions(state))
@@ -189,7 +191,8 @@ class PokemonShowdownAI(QLearner):
 	def train_batch(self):
 		self.update_target()
 		training_batch = self.replay.sample(self.config.batch_size, self.config.num_steps)
-		init_state = self.mainQN.init_hidden_state()
+		batch_size = training_batch[2][0].shape[0]
+		init_state = self.mainQN.init_hidden_state(batch_size)
 		# run both networks
 		feed_dict_main = self.create_feed_dict(training_batch[2], self.mainQN, init_state=init_state,
 				num_steps=self.config.num_steps)
@@ -206,7 +209,7 @@ class PokemonShowdownAI(QLearner):
 		}
 		feed_dict_train = self.create_feed_dict(training_batch[0], self.mainQN, init_state=init_state,
 				num_steps=self.config.num_steps, feed_dict3=feed_dict3)
-		_ = sess.run(self.mainQN.train_op, feed_dict=feed_dict_train)
+		_ = self.sess.run(self.mainQN.train_op, feed_dict=feed_dict_train)
 
 
 	def update(self, state, action, nextState, reward, terminal):
@@ -233,4 +236,4 @@ class PokemonShowdownAI(QLearner):
 		self.replay.add(self.current_episode_buffer)
 		self.current_episode_buffer = []
 		self.episodeNumber += 1
-		self.current_state = self.mainQN.init_hidden_state()
+		self.current_state = self.mainQN.init_hidden_state(1)

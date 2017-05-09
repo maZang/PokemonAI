@@ -142,8 +142,8 @@ class PokemonShowdown(Environment):
 
 		print("Actions found: {}".format(self.actionList))
 
-		if len(self.actionList) < const.MAX_ACTIONS:
-			self.actionList.extend([0] * (const.MAX_ACTIONS - len(self.actionList)))
+		if len(self.actionList) < MAX_ACTIONS:
+			self.actionList.extend([0] * (MAX_ACTIONS - len(self.actionList)))
 
 		return self.actionList
 
@@ -160,7 +160,7 @@ class PokemonShowdown(Environment):
 			currentState = self.encodeCurrentState()
 			print("Current state: {}".format(currentState))
 
-			action = self.learner.getAction(currentState, self.actionList)
+			action = self.learner.getAction(currentState)
 			self.update(action)
 			# Check if we won
 			if not self.finished:
