@@ -81,6 +81,8 @@ class PokemonShowdown(Environment):
 		self.entry_manager = EntryManager()
 		self.turnNumber = -1
 
+		self.pokemon = [np.zeros((1, POKE_DESCRIPTOR_SIZE)) for _ in range(12)]
+		self.labels = np.zeros((1, NUMBER_CLASSES))
 		self.last_move_data = np.zeros((1, 2))
 
 	def getCurrentState(self, action=None):
@@ -91,9 +93,11 @@ class PokemonShowdown(Environment):
 		self.reset()
 		self.encodeAllPokemon()
 
-		self.labels[action] = 1
-		if action and self.opponentAction:
+		if action:
+			self.labels[action] = 1
 			self.last_move_data[0][0] = action
+
+		if self.opponentAction:
 			# After performing the move, retrieve the opponent's move
 			self.last_move_data[0][1] = self.opponentAction
 
