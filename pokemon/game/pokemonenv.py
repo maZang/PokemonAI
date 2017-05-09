@@ -81,18 +81,21 @@ class PokemonShowdown(Environment):
 		self.entry_manager = EntryManager()
 		self.turnNumber = -1
 
-	def getCurrentState(self, action, opponentAction):
+		self.last_move_data = np.zeros((1, 2))
+
+	def getCurrentState(self, action=None):
 		'''
 		Gets the current state of the environment.
 		We assume that refreshLogs will have been called at this point
 		'''
+		self.reset()
 		self.encodeAllPokemon()
 
-		# ???
 		self.labels[action] = 1
-		self.last_move_data[0][0] = action
-		# After performing the move, retrieve the opponent's move
-		# self.last_move_data[0][1] = opponentAction
+		if action and self.opponentAction:
+			self.last_move_data[0][0] = action
+			# After performing the move, retrieve the opponent's move
+			self.last_move_data[0][1] = self.opponentAction
 
 
 	def encodeAllPokemon(self):
@@ -163,9 +166,6 @@ class PokemonShowdown(Environment):
 		self.pokemon = [np.zeros((1, POKE_DESCRIPTOR_SIZE)) for _ in range(12)]
 		self.labels = np.zeros((1, NUMBER_CLASSES))
 
-		# Store your move and opponent's move
-		self.last_move_data = np.zeros((1, 2))
-
 	def run(self):
 		while True:
 			currentState = self.getCurrentState()
@@ -176,10 +176,12 @@ class PokemonShowdown(Environment):
 
 			action = self.learner.getAction(currentState, actions)
 			self.update(action)
-
 			reward = self.isWonGame()
 
-			nextState = self.getCurrentState()
+			# Reset last move matrix
+			self.last_move_data = np.zeros((1, 2))
+			# After a move is clicked, the state is updated, now retrieve next state
+			nextState = self.getCurrentState(action)
 			self.learner.update(currentState, action, nextState, reward)
 
 			if reward:
@@ -663,9 +665,11 @@ def runAgainstItself():
 	for move in driver1.find_elements(By.NAME, 'chooseMove'):
 		if move:
 			env1.update(MOVE_LIST[move.text.split("\n")[0]])
+			break
 	time.sleep(1)
 	for move in driver2.find_elements(By.NAME, 'chooseMove'):
 		if move:
+			print(move)
 			env2.update(MOVE_LIST[move.text.split("\n")[0]])
 
 	time.sleep(10)
