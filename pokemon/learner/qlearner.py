@@ -8,66 +8,67 @@ class QLearner(Learner):
 	Q learning class. Learns q(s,a) for each state, action pair
 	'''
 
-	def __init__(self, environment, alpha=1.0, epsilon=0.1, discount=0.8, trainingEpisodes=10):
+	def __init__(self, environment=None, alpha=1.0, epsilon=0.1, discount=0.8, trainingEpisodes=10):
 		'''
 		alpha - learning rate
 		epsilon - exploration factor
-		discount - future reward discount 
+		discount - future reward discount
 		trainingEpisodes - no more learning after set number of episodes
 		'''
 		self.alpha = alpha
 		self.epsilon = epsilon
-		self.discount = discount 
+		self.discount = discount
 		self.trainingEpisodes = trainingEpisodes
 		self.qValues = UtilFunction()
 		self.environment = environment
 		self.episodeNumber = 0
 
+		self.actions = []
+
 	def getQValue(self,state,action):
 		return self.qValues[(state,action)]
 
-	def getValue(self,state):
+	def getValue(self, state):
 		'''
 		Returns the value of the given state
 		'''
-		actions = self.environment.getActions(state)
 		if len(actions) == 0:
 			return 0.0
-		return max([self.getQValue(state,action) for action in actions])
+		return max([self.getQValue(state,action) for action in self.actions])
 
 	def getOptimalAction(self, state):
 		'''
 		Computes the optimal action as the max_a q(s,a) for a given state a. Returns a random choice
 		if multiple actions have the same value
 		'''
-		actionVals = [(action, self.getQValue(state,action)) for action in self.environment.getActions(state)]
+		actionVals = [(action, self.getQValue(state, action)) for action in self.actions]
 		if len(actionVals) == 0:
-			return None 
+			return None
 		maxVal = max([x[1] for x in actionVals])
 		maxActions = [x[0] for x in actionVals if x[1] == maxVal]
 		return random.choice(maxActions)
 
-	def getAction(self, state):
+	def getAction(self, state, actions):
 		'''
 		Gets an action depending on whether we are following greedy policy or exploratory policy
 		'''
-		actions = self.environment.getActions(state)
-		if len(actions) == 0:
-			return None 
+		self.actions = actions
+		if len(self.actions) == 0:
+			return None
 		if (random.random() < 1. - self.epsilon) or self.episodeNumber > self.trainingEpisodes:
-			# choose the best action 
+			# choose the best action
 			action = self.getOptimalAction(state)
 		else:
 			# choose a random action
-			action = random.choice(actions)
-		return action 
+			action = random.choice(self.actions)
+		return action
 
 	def update(self, state, action, nextState, reward):
 		'''
 		Updates the policy after observing a state, action => nextState, reward pair.
 		'''
 		if self.episodeNumber > self.trainingEpisodes:
-			return 
+			return
 		self.qValues[(state,action)] = self.qValues[(state,action)] +\
 				self.alpha * (reward + self.discount * self.getValue(nextState) - self.qValues[(state,action)])
 

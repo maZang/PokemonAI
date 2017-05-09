@@ -33,7 +33,7 @@ class PokemonShowdownConfigSelfPlay(object):
 
 class PokemonShowdown(Environment):
 	def __init__(self, config, driver, username):
-		self.learner = config.learner
+		self.learner = config.learner()
 		self.driver = driver
 
 		self.player = Player(username=username)
@@ -58,9 +58,7 @@ class PokemonShowdown(Environment):
 		self.reset()
 
 		# Stall until we can click something
-		while True:
-			if not getActions():
-				continue
+		self.wait()
 
 		self.refresh()
 		self.encodeAllPokemon()
@@ -68,8 +66,8 @@ class PokemonShowdown(Environment):
 		if action:
 			self.last_move_data[0][0] = action
 
-		if self.opponentAction:
-			self.last_move_data[0][1] = self.opponentAction
+		if self.opponentLastMove:
+			self.last_move_data[0][1] = self.opponentLastMove
 
 		return [np.copy(pokemon) for pokemon in self.pokemon] + [np.copy(self.other_data)] + [np.copy(self.last_move_data)]
 
@@ -77,30 +75,33 @@ class PokemonShowdown(Environment):
 		self.pokemonEncoding = {}
 		self.pokemonEncoding[0] = [encodePokemonObject(Pokemon())]*12
 
-		self.encodePokemon("p1")
-		self.encodePokemon("p2")
+		self.encodePokemon(opponent=False)
+		self.encodePokemon(opponent=True)
 
 		for turnNumber, lst in self.pokemonEncoding.items():
 			for i in range(0, 12):
 				self.pokemon[i][turnNumber] = lst[i][:, :POKE_DESCRIPTOR_SIZE]
 				self.other_data[turnNumber, i] = lst[i][:, POKE_DESCRIPTOR_SIZE] / 100.
 
-	def encodePokemon(self, player):
-		playerPokemon = self.players[player]
-		currentPokemon = self.players[player].currentPokemon
+	def encodePokemon(self, opponent=False):
+		if opponent:
+			player = self.opponent
+		else:
+			player = self.player
+
+		currentPokemon = player.currentPokemon
 		if not currentPokemon:
+			print("Player had no current Pokemon.")
 			return
 
-		idx = 0
-		if player != self.winner:
-			idx = 6
+		idx = 6 if opponent else 0
 
 		# 0-5 = Winner's pokemon, 6-11 = Opponent's pokemon
 		# Turn number : list of 12 pokemon that represents
 		self.pokemonEncoding[0][idx] = encodePokemonObject(currentPokemon)
 
 		i = 1
-		for pokemon in playerPokemon.pokemon:
+		for pokemon in player.pokemon:
 			if pokemon == currentPokemon:
 				continue
 			self.pokemonEncoding[0][i+idx] = encodePokemonObject(pokemon)
@@ -108,27 +109,32 @@ class PokemonShowdown(Environment):
 
 	def getActions(self):
 		'''
-		Returns ist of pokemonIDs to switch to, moveIDs to move, or mega Pokemon ID if mega
+		Returns list of pokemonIDs to switch to, moveIDs, or mega Pokemon ID if mega
 		'''
-		actionList = []
+		self.actionList = []
 
+		print(1)
 		for move in self.driver.find_elements(By.NAME, 'chooseMove'):
 			if move:
-				actionList.append[MOVE_LIST[move.text.split("\n")[0]]]
+				self.actionList.append(MOVE_LIST[move.text.split("\n")[0]])
 		for pokemon in self.driver.find_elements(By.NAME, 'chooseSwitch'):
 			if pokemon:
-				actionList.append[POKEMON_LIST[pokemon.text]]
+				self.actionList.append(POKEMON_LIST[pokemon.text])
 
+		print(2)
 		# Pull mega if exists
 		if self.driver.find_elements(By.NAME, 'megaevo'):
+			print(3)
 			currPokemon = self.player.currentPokemon.species
 			if currPokemon in ['Charizard', 'Mewtwo'] and currPokemon.item:
 				currPokemon += '-Mega-' + currPokemon.item[-1]
 			else:
 				currPokemon += '-Mega'
-			actionList.append[currPokemon]
+			self.actionList.append(currPokemon)
+			print(4)
 
-		return actionList
+		print("Actions found: {}".format(self.actionList))
+		return self.actionList
 
 	def reset(self):
 		'''
@@ -141,12 +147,9 @@ class PokemonShowdown(Environment):
 	def run(self):
 		while True:
 			currentState = self.encodeCurrentState()
-			actions = self.getActions()
-			if not actions:
-				time.sleep(1)
-				continue
+			print("Current state: {}".format(currentState))
 
-			action = self.learner.getAction(currentState, actions)
+			action = self.learner.getAction(currentState, self.actionList)
 			self.update(action)
 			# Check if we won
 			if not self.finished:
@@ -161,6 +164,18 @@ class PokemonShowdown(Environment):
 			self.learner.update(currentState, action, nextState, reward)
 
 			return
+
+	def wait(self):
+		'''
+		Stalls until an action is available
+		'''
+		while True:
+			print("Retrieving actions...")
+			self.getActions()
+			if self.actionList:
+				return
+			else:
+				time.sleep(1)
 
 	def update(self, action):
 		'''
@@ -587,51 +602,57 @@ def login(driver, showdown_config):
 	driver.find_element(By.CSS_SELECTOR, 'button[type="submit"]').click()
 	time.sleep(0.5)
 
-def challenge(driver1, driver2, showdown_config1, showdown_config2):
-	time.sleep(0.5)
-	driver1.find_element(By.NAME, "finduser").click()
-	time.sleep(0.5)
-	driver1.find_element(By.NAME, "data").clear()
-	driver1.find_element(By.NAME, "data").send_keys(showdown_config2.user)
-	driver1.find_element(By.CSS_SELECTOR, 'button[type="submit"]').click()
-	time.sleep(0.5)
-	driver1.find_element(By.NAME, "challenge").click()
-	driver1.find_element(By.CSS_SELECTOR, 'button[class="select formatselect"]').click()
-	driver1.find_element(By.CSS_SELECTOR, 'button[value="battlefactory"]').click()
-	driver1.find_element(By.NAME, "makeChallenge").click()
-	time.sleep(0.5)
-	driver2.find_element(By.NAME, "acceptChallenge").click()
-	time.sleep(0.5)
-	driver1.find_element(By.CSS_SELECTOR, 'button[value="0"]').click()
-	driver2.find_element(By.CSS_SELECTOR, 'button[value="0"]').click()
-	time.sleep(0.5)
+def challenge(driver, user=None):
+	if user:
+		time.sleep(1.5)
+		driver.find_element(By.NAME, "finduser").click()
+		time.sleep(0.5)
+		driver.find_element(By.NAME, "data").clear()
+		driver.find_element(By.NAME, "data").send_keys(user)
+		driver.find_element(By.CSS_SELECTOR, 'button[type="submit"]').click()
+		time.sleep(0.5)
+		driver.find_element(By.NAME, "challenge").click()
+		driver.find_element(By.CSS_SELECTOR, 'button[class="select formatselect"]').click()
+		driver.find_element(By.CSS_SELECTOR, 'button[value="battlefactory"]').click()
+		driver.find_element(By.NAME, "makeChallenge").click()
+		time.sleep(0.5)
+		driver.find_element(By.CSS_SELECTOR, 'button[value="0"]').click()
+	else:
+		driver.find_element(By.NAME, "acceptChallenge").click()
+		time.sleep(0.5)
+		driver.find_element(By.CSS_SELECTOR, 'button[value="0"]').click()
+		time.sleep(0.5)
 
 def runPokemonShowdown():
 	showdown_config = PokemonShowdownConfig()
 	driver = webdriver.Chrome(executable_path=DRIVERFOLDER)
 	login(driver, showdown_config)
 
-def runAgainstItself():
-	showdown_config1 = PokemonShowdownConfig()
-	showdown_config2 = PokemonShowdownConfigSelfPlay()
+def runAgainstItself(isOpponent=False):
+	if not isOpponent:
+		showdown_config = PokemonShowdownConfig()
+	else:
+		showdown_config = PokemonShowdownConfigSelfPlay()
+
 	options = Options()
 	options.add_argument("--disable-notifications")
 	options.add_argument("--mute-audio")
 	d = DesiredCapabilities.CHROME
 	d['loggingPrefs'] = { 'browser':'INFO' }
-	driver1 = webdriver.Chrome(executable_path=DRIVERFOLDER, chrome_options=options, desired_capabilities=d)
-	driver2 = webdriver.Chrome(executable_path=DRIVERFOLDER, chrome_options=options, desired_capabilities=d)
-	driver1.implicitly_wait(30)
-	driver2.implicitly_wait(30)
-	login(driver1, showdown_config1)
-	login(driver2, showdown_config2)
-	challenge(driver1, driver2, showdown_config1, showdown_config2)
+	driver = webdriver.Chrome(executable_path=DRIVERFOLDER, chrome_options=options, desired_capabilities=d)
+	driver.implicitly_wait(5)
+	login(driver, showdown_config)
 
-	env1 = PokemonShowdown(showdown_config1, driver1, showdown_config1.user)
-	env2 = PokemonShowdown(showdown_config2, driver2, showdown_config2.user)
+	if not isOpponent:
+		# Challenge that user
+		challenge(driver, user=PokemonShowdownConfigSelfPlay().user)
+	else:
+		challenge(driver)
+
+	env = PokemonShowdown(showdown_config, driver, showdown_config.user)
+	env.refresh()
 
 	while True:
-		env1.run()
-		env2.run()
+		env.run()
 
 	print("Game finished.")

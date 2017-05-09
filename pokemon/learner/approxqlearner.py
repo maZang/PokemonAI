@@ -11,7 +11,7 @@ class ApproxQLearner(QLearner):
 	q(s,a)
 	'''
 
-	def __init__(self, environment, featExtractor=None, **args):
+	def __init__(self, environment=None, featExtractor=None, **args):
 		if featExtractor == None:
 			raise ValueError('Must have a feature extractor as part of config')
 		self.extractor = featExtractor(environment)
@@ -122,7 +122,7 @@ class PokemonShowdownAI(QLearner):
 
 	def update_target(self):
 		[self.sess.run(op) for op in self.ops]
-		
+
 
 	def create_feed_dict(self, sample, network, init_state=None, num_steps=1, feed_dict3=None):
 		if feed_dict3 == None:
@@ -145,7 +145,7 @@ class PokemonShowdownAI(QLearner):
 		'''
 		Gets an action depending on whether we are following greedy policy or exploratory policy.
 
-		Mutates current state 
+		Mutates current state
 		'''
 		feed_dict = self.create_feed_dict(self.state_processer(state), self.mainQN, init_state=self.currnet_state)
 		if np.random.rand(1.) < self.config.epsilon:
@@ -155,8 +155,8 @@ class PokemonShowdownAI(QLearner):
 			action, next_state = self.sess.run([self.mainQN.predict, self.mainQN.final_state],
 				feed_dict=feed_dict)
 			action = action[0]
-		self.current_state = next_state 
-		return action 
+		self.current_state = next_state
+		return action
 
 
 	def train_batch(self):
@@ -164,7 +164,7 @@ class PokemonShowdownAI(QLearner):
 		training_batch = self.replay.sample(self.config.batch_size, self.config.num_steps)
 		init_state = self.mainQN.init_hidden_state()
 		# run both networks
-		feed_dict_main = self.create_feed_dict(training_batch[2], self.mainQN, init_state=init_state, 
+		feed_dict_main = self.create_feed_dict(training_batch[2], self.mainQN, init_state=init_state,
 				num_steps=self.config.num_steps)
 		Q1_actions = self.sess.run(self.mainQN.predict, feed_dict=feed_dict_main)
 		feed_dict_target = self.create_feed_dict(training_batch[2], self.targetQN, init_state=init_state,
