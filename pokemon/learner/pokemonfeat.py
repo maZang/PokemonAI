@@ -25,6 +25,7 @@ class PokemonAINetwork(object):
 		self.action_placeholder = tf.placeholder(tf.int32, shape=(None,))
 		self.targetQ_placeholder = tf.placeholder(tf.float32, shape=(None,))
 		self.possible_actions_placeholder = tf.placeholder(tf.int32, shape=(None,self.config.max_actions,2))
+		self.initial_state = tf.placeholder(tf.float32, shape=(self.config.memory_layer_depth, 2, None, self.config.memory_layer_size))
 		self.dropout_placeholder = tf.placeholder(tf.float32)
 		self.batch_size = tf.placeholder(tf.int32)
 		self.num_steps = tf.placeholder(tf.int32)
@@ -108,10 +109,10 @@ class PokemonAINetwork(object):
 					output_keep_prob=self.dropout_placeholder)
 				return cell
 			stacked_cell = tf.contrib.rnn.MultiRNNCell([get_cell() for _ in range(self.config.memory_layer_depth)])
-			print(stacked_cell.state_size)
 			lstm_input = tf.reshape(highway_output, (self.batch_size, self.num_steps, highway_size))
-			self.initial_state = stacked_cell.zero_state(self.batch_size, tf.float32)
-			rnn_output, self.final_state = tf.nn.dynamic_rnn(stacked_cell,lstm_input,initial_state=self.initial_state)
+			l = tf.unstack(self.initial_state, axis=0)
+			tuple_state = tuple([tf.contrib.rnn.LSTMStateTuple(l[idx][0], l[idx][1]) for idx in range(self.config.memory_layer_depth)])
+			rnn_output, self.final_state = tf.nn.dynamic_rnn(stacked_cell,lstm_input,initial_state=tuple_state)
 			rnn_output = tf.reshape(rnn_output,shape=(-1,self.config.memory_layer_size))
 		with tf.variable_scope('OutputQ'):
 			score_w = tf.get_variable('score_w', shape=(self.config.memory_layer_size, self.config.number_classes))
@@ -153,4 +154,5 @@ class PokemonAINetwork(object):
 			self._build_graph()
 
 	def init_hidden_state(self, batch_size):
-		return tf.unpkack(np.zeros((self.config.memory_layer_depth, 2, batch_size, self.config.memory_layer_size)), axis=0)
+		return np.zeros((self.config.memory_layer_depth, 2, batch_size, self.config.memory_layer_size))
+		

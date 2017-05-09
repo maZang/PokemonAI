@@ -188,7 +188,7 @@ class PokemonNetwork(object):
 	def run_network(self, sess, sample, initial_state=None):
 		if not initial_state:
 			initial_state = np.zeros((self.config.memory_layer_depth, 2, sample[0].shape[0], self.config.memory_layer_size))
-		l = tf.unpack(initial_state, axis=0)
+		l = tf.unstack(initial_state, axis=0)
 		feed_dict1 = {self.poke_placeholders[i] :  sample[i] for i in range(12)}
 		feed_dict_rest = {self.x_data_placeholder: sample[13], self.dropout_placeholder: dp,
 						self.batch_size : sample[0].shape[0], self.num_steps : 1,
