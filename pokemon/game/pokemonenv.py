@@ -180,7 +180,10 @@ class PokemonShowdown(Environment):
 			action = self.learner.getAction(currentState, actions)
 			self.update(action)
 			# Check if we won
-			reward = int(self.winner)
+			if not self.finished:
+				reward = 0
+			else:
+				reward = 1 if self.winner else -1
 
 			# Reset last move matrix
 			self.last_move_data = np.zeros((1, 2))
@@ -188,8 +191,7 @@ class PokemonShowdown(Environment):
 			nextState = self.encodeCurrentState(action)
 			self.learner.update(currentState, action, nextState, reward)
 
-			if reward:
-				return
+			return
 
 	def update(self, action):
 		'''
@@ -202,7 +204,7 @@ class PokemonShowdown(Environment):
 			if '-mega' in pokemon.lower():
 				# Unparse the -Mega
 				pokemon = pokemon.split('-')[0]
-			print("{}: Switch action received. Switching to {}".format(self.player.username, pokemon))
+			print("{}: Switch action received. Switching to {}.".format(self.player.username, pokemon))
 
 			idx = 1
 			found = False
@@ -223,7 +225,7 @@ class PokemonShowdown(Environment):
 		elif action in REV_MOVE_LIST:
 			# Action is a move
 			move = REV_MOVE_LIST[action]
-			print("{}: Move action received. Using move {}".format(self.player.username, move))
+			print("{}: Move action received. Using move {}.".format(self.player.username, move))
 
 			self.driver.find_element(By.CSS_SELECTOR, 'button[data-move="{}"]'.format(move)).click()
 		else:
@@ -662,14 +664,9 @@ def runAgainstItself():
 
 	env1 = PokemonShowdown(showdown_config1, driver1, showdown_config1.user)
 	env2 = PokemonShowdown(showdown_config2, driver2, showdown_config2.user)
-	for move in driver1.find_elements(By.NAME, 'chooseMove'):
-		if move:
-			env1.update(MOVE_LIST[move.text.split("\n")[0]])
-			break
-	time.sleep(1)
-	for move in driver2.find_elements(By.NAME, 'chooseMove'):
-		if move:
-			print(move)
-			env2.update(MOVE_LIST[move.text.split("\n")[0]])
 
-	time.sleep(10)
+	while True:
+		env1.run()
+		env2.run()
+
+	print("Game finished.")
