@@ -76,6 +76,61 @@ def encodePokemonObject(pokemon):
 
 	return pokemon_encoding
 
+def encodeEnvPokemonObject(pokemon):
+	'''
+	Encodes a pokemon object. Fills in any unknown moves/items with an unknown token.
+
+	Input: Pokemon object
+	Output: Pokemon encoding object with shape (1, POKE_DESCRIPTOR_SIZE)
+	'''
+	pokemon_encoding = np.zeros((1, POKE_DESCRIPTOR_SIZE+1))
+
+	if pokemon.species == "Gourgeist":
+		pokemon.species = "Gourgeist-Super"
+
+	pokemon_id = POKEMON_LIST[pokemon.species or '<UNK>']
+
+	move_ids = []
+
+	for move in pokemon.moves:
+		move_ids.append(MOVE_ENV_LIST[move if move in MOVE_ENV_LIST else '<UNK>'])
+
+	if len(move_ids) < 4:
+		num_unk_moves = 4 - len(move_ids)
+		for i in range(num_unk_moves):
+			move_ids.append(MOVE_ENV_LIST['<UNK>'])
+
+	assert(len(move_ids) == 4)
+
+	# Encodes pokemon item
+	item_id = ITEM_ENV_LIST[pokemon.item if pokemon.item in ITEM_ENV_LIST else '<UNK>']
+
+	if pokemon.status == "psn":
+		status_key = "POISONED"
+	elif pokemon.status == "tox":
+		status_key = "BADLY_POISONED"
+	elif pokemon.status == "brn":
+		status_key = "BURNED"
+	elif pokemon.status == "par":
+		status_key = "PARALYZED"
+	elif pokemon.status == "slp":
+		status_key = "SLEEP"
+	elif pokemon.status == "frz":
+		status_key = "FROZEN"
+	else:
+		status_key = "NONE"
+
+	status_id = STATUS_IDS[status_key]
+
+	pokemon_encoding[:, 0] = pokemon_id
+	for i in range(len(move_ids)):
+		pokemon_encoding[:, i+1] = move_ids[i]
+	pokemon_encoding[:, 5] = item_id
+	pokemon_encoding[:, 6] = status_id
+	pokemon_encoding[:, 7] = pokemon.health
+
+	return pokemon_encoding
+
 class PokemonShowdownEncoding(object):
 	def __init__(self, name=None, data_type=None, num_turns=None):
 		'''
