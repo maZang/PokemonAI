@@ -146,6 +146,9 @@ class PokemonShowdownAI(QLearner):
 	def update_target(self):
 		[self.sess.run(op) for op in self.ops]
 
+	def preprocess_possible_actions(self, actions):
+		joiner = np.array([[i for _ in range(actions.shape[1])] for i in range(actions.shape[0])])
+		return np.stack([joiner, self.possible_actions_placeholder],axis=-1)
 
 	def create_feed_dict(self, sample, network, init_state=None, num_steps=1, feed_dict3=None):
 		if feed_dict3 == None:
@@ -157,7 +160,7 @@ class PokemonShowdownAI(QLearner):
 		feed_dict2 = {
 			network.x_data_placeholder : sample[12],
 			network.last_move_placeholder : sample[13],
-			network.possible_actions_placeholder : sample[14],
+			network.possible_actions_placeholder : self.preprocess_possible_actions(sample[14]),
 			network.dropout_placeholder: 1.0,
 			network.batch_size : batch_size,
 			network.num_steps : num_steps,
