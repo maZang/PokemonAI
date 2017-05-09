@@ -2,6 +2,7 @@ from reinforcement.environment import Environment
 from learner.approxqlearner import PokemonShowdownAI
 from learner.approxqlearner import AIConfig
 from learner.pokemonfeat import PokemonAINetwork
+from selenium.common.exceptions import NoSuchElementException
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
@@ -620,9 +621,21 @@ def challenge(driver, user=None):
 		driver.find_element(By.CSS_SELECTOR, 'button[value="battlefactory"]').click()
 		driver.find_element(By.NAME, "makeChallenge").click()
 		time.sleep(0.5)
-		driver.find_element(By.CSS_SELECTOR, 'button[value="0"]').click()
+		while True:
+			try: 
+				driver.find_element(By.CSS_SELECTOR, 'button[value="0"]').click()
+			except NoSuchElementException as e:
+				time.sleep(0.5)
+				continue 
+			break 
 	else:
-		driver.find_element(By.NAME, "acceptChallenge").click()
+		while True:
+			try:	
+				driver.find_element(By.NAME, "acceptChallenge").click()
+			except NoSuchElementException as e:
+				time.sleep(0.5)
+				continue 
+			break 
 		time.sleep(0.5)
 		driver.find_element(By.CSS_SELECTOR, 'button[value="0"]').click()
 		time.sleep(0.5)

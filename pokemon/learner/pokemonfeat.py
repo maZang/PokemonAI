@@ -1,5 +1,6 @@
 from learner.superviser.supervisernetwork import PokemonNetwork
 import tensorflow as tf
+import numpy as np
 
 class AIEncoder(object):
 
@@ -23,6 +24,7 @@ class PokemonAINetwork(object):
 		self.last_move_placeholder = tf.placeholder(tf.int32, shape=(None, self.config.last_move_data))
 		self.action_placeholder = tf.placeholder(tf.int32, shape=(None,))
 		self.targetQ_placeholder = tf.placeholder(tf.int32, shape=(None,))
+		self.possible_actions_placeholder = tf.placeholder(tf.int32, shape=(None,))
 		self.dropout_placeholder = tf.placeholder(tf.float32)
 		self.batch_size = tf.placeholder(tf.int32)
 		self.num_steps = tf.placeholder(tf.int32)
@@ -140,49 +142,9 @@ class PokemonAINetwork(object):
 		self._add_optimizer()
 
 	def __init__(self, config, scope='POKEMON'):
-		self.data_iter = ReplayDataIter(TRAIN, VALIDATION, TEST, lambda x: encode(config, x))
 		self.config = config
 		with tf.variable_scope(scope):
 			self._build_graph()
 
 	def init_hidden_state(self):
 		return np.zeros((self.config.memory_layer_depth, 2, sample[0].shape[0], self.config.memory_layer_size))
-
-	def run_epoch(self, epoch_num, session, sample_set, train_op = None, to_print=False):
-		dp = self.config.dropout
-		total_batches = self.data_iter.number_batches(self.config.batch_size, self.config.num_steps)
-		total_loss = []
-		if not train_op:
-			train_op = tf.no_op()
-			dp = 1.
-
-		for i,sample in enumerate(self.data_iter.sample(self.config.batch_size, self.config.num_steps, sample_set)):
-			# sample is a list of [poke1matrix, poke2matrix, ..., poke12matrix, other_x_state, y]
-			feed_dict1 = {self.poke_placeholders[i] : sample[i] for i in range(12)}
-			batch_size = sample[0].shape[0] / self.config.num_steps
-			feed_dict_rest = {self.x_data_placeholder: sample[12],
-							self.last_move_placeholder: sample[13],
-							self.y_placeholder: sample[14],
-							self.dropout_placeholder: dp,
-							self.batch_size : batch_size,
-							self.num_steps : self.config.num_steps}
-			feed_dict = {**feed_dict1, **feed_dict_rest}
-			loss, _ = session.run([self.loss, train_op], feed_dict=feed_dict)
-			total_loss.append(loss)
-
-			if (i % 100) == 0 and to_print:
-				print("epoch: [%d] iter: [%d/%d] loss: [%2.5f]" % (epoch_num, i, total_batches, loss))
-		return total_loss
-
-	def run_network(self, sess, sample, initial_state=None):
-		if not initial_state:
-			initial_state = np.zeros((self.config.memory_layer_depth, 2, sample[0].shape[0], self.config.memory_layer_size))
-		l = tf.unpack(initial_state, axis=0)
-		feed_dict1 = {self.poke_placeholders[i] :  sample[i] for i in range(12)}
-		feed_dict_rest = {self.x_data_placeholder: sample[13], self.dropout_placeholder: dp,
-						self.batch_size : sample[0].shape[0], self.num_steps : 1,
-						self.initial_state: l}
-		feed_dict = {**feed_dict1, **feed_dict_rest}
-		pred, next_state = sess.run([self.predictions, self.final_rnn_state], feed_dict=feed_dict)
-		return pred, next_state
-

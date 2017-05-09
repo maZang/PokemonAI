@@ -69,12 +69,15 @@ class ExperienceReplay(object):
 		return [np.concatenate(l, axis=0) for l in sampled_traces]
 
 class AIConfig(object):
-	epsilon = 0.1
+	startE = 1.0
+	endE = 0.1
 	num_episodes = 10000
 	save_path = 'data/models/pokemon_ai/'
 	update_steps = 10
 	tau = 0.001 # update rate for target network
 	discount = 1.0
+	pre_train_steps = 10000
+	annealing_steps = 10000
 	# network parameters
 	embedding_size = 300
 	poke_descriptor_size = const.POKE_DESCRIPTOR_SIZE # poke id, 4 move ids, item id, status id
@@ -134,7 +137,8 @@ class PokemonShowdownAI(QLearner):
 		init = tf.global_variables_initializer()
 		sess.run(init)
 		# other variable initialization
-		self.epsilon = qlearner_config.epsilon
+		self.epsilon = qlearner_config.startE 
+		self.stepE = (qlearner_config.startE - qlearner_config.endE) - qlearner_config.annealing_steps
 		self.reward_list = []
 		self.update_target()
 
@@ -208,10 +212,12 @@ class PokemonShowdownAI(QLearner):
 		assume, action is an int and reward is a float. Terminal is either 1 (if it is a terminal
 		state) or 0 if not
 		'''
+		if self.epsilon > self.config.endE:
+			self.epsilon -= self.stepE
 		self.current_step += 1
 		experience_sample = [self.state_processer(state), action, self.state_processer(nextState), reward, terminal]
 		self.current_episode_buffer.append(experience_sample)
-		if self.current_step % self.config.update_steps == 0:
+		if self.current_step % self.config.update_steps == 0 and self.current_step > self.pre_train_steps:
 			self.train_batch()
 		if terminal: # only one reward of 1 or -1 at end
 			self.reward_list.append(reward)
