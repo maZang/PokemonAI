@@ -70,7 +70,7 @@ class ExperienceReplay(object):
 		return [np.concatenate(l, axis=0) for l in sampled_traces]
 
 class AIConfig(object):
-	startE = 1.0
+	startE = 0.1
 	endE = 0.1
 	num_episodes = 10000
 	save_path = 'data/models/pokemon_ai/'
@@ -150,7 +150,7 @@ class PokemonShowdownAI(QLearner):
 
 	def preprocess_possible_actions(self, actions):
 		joiner = np.array([[i for _ in range(actions.shape[1])] for i in range(actions.shape[0])])
-		return np.stack([joiner, self.possible_actions_placeholder],axis=-1)
+		return np.stack([joiner, actions],axis=-1)
 
 	def create_feed_dict(self, sample, network, init_state=None, num_steps=1, feed_dict3=None):
 		if feed_dict3 == None:
@@ -177,7 +177,7 @@ class PokemonShowdownAI(QLearner):
 		Mutates current state
 		'''
 		feed_dict = self.create_feed_dict(self.state_processer(state), self.mainQN, init_state=self.current_state)
-		if np.random.rand(1.) < self.config.epsilon:
+		if random.random() < self.epsilon:
 			next_state = self.sess.run(self.mainQN.final_state, feed_dict=feed_dict)
 			action = np.random.choice(self.environment.getActions(state))
 		else:

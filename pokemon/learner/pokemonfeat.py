@@ -108,9 +108,10 @@ class PokemonAINetwork(object):
 					output_keep_prob=self.dropout_placeholder)
 				return cell
 			stacked_cell = tf.contrib.rnn.MultiRNNCell([get_cell() for _ in range(self.config.memory_layer_depth)])
+			print(stacked_cell.state_size)
 			lstm_input = tf.reshape(highway_output, (self.batch_size, self.num_steps, highway_size))
 			self.initial_state = stacked_cell.zero_state(self.batch_size, tf.float32)
-			rnn_output, self.final_rnn_state = tf.nn.dynamic_rnn(stacked_cell,lstm_input,initial_state=self.initial_state)
+			rnn_output, self.final_state = tf.nn.dynamic_rnn(stacked_cell,lstm_input,initial_state=self.initial_state)
 			rnn_output = tf.reshape(rnn_output,shape=(-1,self.config.memory_layer_size))
 		with tf.variable_scope('OutputQ'):
 			score_w = tf.get_variable('score_w', shape=(self.config.memory_layer_size, self.config.number_classes))
@@ -152,4 +153,4 @@ class PokemonAINetwork(object):
 			self._build_graph()
 
 	def init_hidden_state(self, batch_size):
-		return np.zeros((self.config.memory_layer_depth, 2, batch_size, self.config.memory_layer_size))
+		return tf.unpkack(np.zeros((self.config.memory_layer_depth, 2, batch_size, self.config.memory_layer_size)), axis=0)
