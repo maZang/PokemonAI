@@ -9,6 +9,7 @@ MOVE_ENV_FILE = 'data/info/move_env.p'
 POKE_DESCRIPTOR_SIZE = 7
 POKE_META_SIZE = 1 # current health percentage
 FIELD_META_SIZE = 0 # number of field status (e.g. weather) -- 0 for now
+MAX_ACTIONS = 10
 NON_EMBEDDING_DATA = 12 * POKE_META_SIZE + FIELD_META_SIZE
 POKEMON_LIST = pickle.load(open(POKEMON_FILE, 'rb'))
 ITEM_LIST = pickle.load(open(ITEM_FILE, 'rb'))

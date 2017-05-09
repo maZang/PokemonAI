@@ -24,7 +24,7 @@ class PokemonAINetwork(object):
 		self.last_move_placeholder = tf.placeholder(tf.int32, shape=(None, self.config.last_move_data))
 		self.action_placeholder = tf.placeholder(tf.int32, shape=(None,))
 		self.targetQ_placeholder = tf.placeholder(tf.int32, shape=(None,))
-		self.possible_actions_placeholder = tf.placeholder(tf.int32, shape=(None,))
+		self.possible_actions_placeholder = tf.placeholder(tf.int32, shape=(None,self.config.max_actions))
 		self.dropout_placeholder = tf.placeholder(tf.float32)
 		self.batch_size = tf.placeholder(tf.int32)
 		self.num_steps = tf.placeholder(tf.int32)
@@ -118,7 +118,10 @@ class PokemonAINetwork(object):
 			self.q_out = tf.tanh(tf.matmul(rnn_output, score_w) + score_b)
 
 	def _add_loss(self):
-		self.predictions = tf.argmax(self.scores,1)
+		joiner = tf.constant([[i for _ in range(self.config.max_actions)] for i in range(self.batch_size)])
+		indexes_nd = tf.stack([joiner, self.possible_actions_placeholder],axis=-1)
+		self.filtered_q = tf.gather_nd(self.q_out, indexes_nd) * (self.possible_actions_placeholder > 0) - 2.0 * (self.possible_actions_placeholder == 0)
+		self.predictions = self.possible_actions_placeholder[tf.range(self.batch_size), tf.argmax(self.filtered_q,1)]
 		actions_onehot = tf.one_hot(self.action_placeholder, self.config.number_classes,dtype=tf.float32)
 		q_scores = tf.reduce_sum(tf.multiply(self.q_out, actions_onehot), axis=1)
 		targets = tf.reshape(self.targetQ_placeholder, [-1])

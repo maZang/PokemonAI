@@ -54,7 +54,6 @@ class ExperienceReplay(object):
 	def process_terminal(self, terminals):
 		return np.array(terminals)
 
-
 	def sample(self, batch_size, num_steps):
 		sampled_episodes = random.sample(self.buffer, batch_size)
 		sampled_traces = [[] for _ in range(5)]
@@ -84,6 +83,7 @@ class AIConfig(object):
 	number_non_embedding = const.NON_EMBEDDING_DATA
 	number_classes = const.NUMBER_CLASSES
 	last_move_data = const.LAST_MOVE_DATA
+	max_actions = const.MAX_ACTIONS
 	learning_rate = 1e-3
 	max_epochs = 10
 	early_stop = 2
@@ -157,6 +157,7 @@ class PokemonShowdownAI(QLearner):
 		feed_dict2 = {
 			network.x_data_placeholder : sample[12],
 			network.last_move_placeholder : sample[13],
+			network.possible_actions_placeholder : sample[14],
 			network.dropout_placeholder: 1.0,
 			network.batch_size : batch_size,
 			network.num_steps : num_steps,
@@ -175,7 +176,7 @@ class PokemonShowdownAI(QLearner):
 			next_state = self.sess.run(self.mainQN.final_state, feed_dict=feed_dict)
 			action = np.random.choice(self.environment.getActions(state))
 		else:
-			action, next_state = self.sess.run([self.mainQN.predict, self.mainQN.final_state],
+			action, next_state = self.sess.run([self.mainQN.predictions, self.mainQN.final_state],
 				feed_dict=feed_dict)
 			action = action[0]
 		self.current_state = next_state
@@ -189,10 +190,10 @@ class PokemonShowdownAI(QLearner):
 		# run both networks
 		feed_dict_main = self.create_feed_dict(training_batch[2], self.mainQN, init_state=init_state,
 				num_steps=self.config.num_steps)
-		Q1_actions = self.sess.run(self.mainQN.predict, feed_dict=feed_dict_main)
+		Q1_actions = self.sess.run(self.mainQN.predictions, feed_dict=feed_dict_main)
 		feed_dict_target = self.create_feed_dict(training_batch[2], self.targetQN, init_state=init_state,
 				num_steps=self.config.num_steps)
-		Q2_target = self.sess.run(self.targetQN.Qout, feed_dict=feed_dict_target)
+		Q2_target = self.sess.run(self.targetQN.q_out, feed_dict=feed_dict_target)
 
 		finished = (1. - training_batch[:,4])
 		targetQ = training_batch[:, 2] + (self.config.discount * Q2_target[self.config.batch_size * self.config.num_steps, Q1_actions] * finished)
@@ -202,7 +203,7 @@ class PokemonShowdownAI(QLearner):
 		}
 		feed_dict_train = self.create_feed_dict(training_batch[0], self.mainQN, init_state=init_state,
 				num_steps=self.config.num_steps, feed_dict3=feed_dict3)
-		_ = sess.run(self.mainQN.opt, feed_dict=feed_dict_train)
+		_ = sess.run(self.mainQN.train_op, feed_dict=feed_dict_train)
 
 
 	def update(self, state, action, nextState, reward, terminal):

@@ -74,7 +74,7 @@ class PokemonShowdown(Environment):
 		if self.opponentLastMove:
 			self.last_move_data[0][1] = self.opponentLastMove
 
-		return [np.copy(pokemon) for pokemon in self.pokemon] + [np.copy(self.other_data)] + [np.copy(self.last_move_data)] + [np.array(self.actionList)]
+		return [np.copy(pokemon) for pokemon in self.pokemon] + [np.copy(self.other_data)] + [np.copy(self.last_move_data)] + [np.array(self.actionList).reshape(1,-1)]
 
 	def encodeAllPokemon(self):
 		self.pokemonEncoding = {}
@@ -116,6 +116,8 @@ class PokemonShowdown(Environment):
 		'''
 		Returns list of pokemonIDs to switch to, moveIDs, or mega Pokemon ID if mega
 		'''
+		if state != None:
+			return state[-1]
 		self.actionList = []
 
 		for move in self.driver.find_elements(By.NAME, 'chooseMove'):
@@ -135,12 +137,15 @@ class PokemonShowdown(Environment):
 				currPokemon += '-Mega-' + currPokemon.item[-1]
 			else:
 				currPokemon += '-Mega'
-			self.actionList.append(currPokemon)
+			self.actionList.append(POKEMON_LIST[currPokemon])
 		self.driver.implicitly_wait(5)
 
 		print("Actions found: {}".format(self.actionList))
 
-		return state + [np.array(self.actionList)] if state else self.actionList
+		if len(self.actionList) < const.MAX_ACTIONS:
+			self.actionList.extend([0] * (const.MAX_ACTIONS - len(self.actionList)))
+
+		return self.actionList
 
 	def reset(self):
 		'''
