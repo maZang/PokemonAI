@@ -131,7 +131,7 @@ class PokemonAINetwork(object):
 		with tf.variable_scope('loss'):
 			mask_lower = tf.zeros([self.batch_size, self.num_steps // 2])
 			mask_upper = tf.ones([self.batch_size, self.num_steps // 2])
-			mask = tf.reshape(tf.concat(mask_lower, mask_upper), [-1])
+			mask = tf.reshape(tf.concat([mask_lower, mask_upper], 1), [-1])
 			self.loss = tf.reduce_mean(tf.multiply(mask, td_error))
 
 	def _add_optimizer(self):
@@ -151,5 +151,5 @@ class PokemonAINetwork(object):
 		with tf.variable_scope(scope):
 			self._build_graph()
 
-	def init_hidden_state(self):
-		return np.zeros((self.config.memory_layer_depth, 2, sample[0].shape[0], self.config.memory_layer_size))
+	def init_hidden_state(self, batch_size):
+		return np.zeros((self.config.memory_layer_depth, 2, batch_size, self.config.memory_layer_size))
