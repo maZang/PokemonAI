@@ -6,7 +6,7 @@ class Pokemon(object):
 		self.ability = ability
 		self.status = status
 		self.moves = set()
-		self.health = 100
+		self.health = health
 
 	def __repr__(self):
 		return "(Pokemon: (species={}, nickname={}, item={}, ability={}, status={}, moves={}, health={}))".format(self.species, self.nickname, self.item, self.ability, self.status, self.moves, self.health)

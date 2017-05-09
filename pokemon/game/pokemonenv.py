@@ -31,42 +31,6 @@ class PokemonShowdownConfigSelfPlay(object):
 	learner=ApproxQLearner
 
 
-class Entry(object):
-	"""An entry in the game log"""
-	def __init__(self, ID, text):
-		self.ID = ID
-		self.text = str(text)
-		self.handled = False
-
-	def __str__(self):
-		if not self.handled:
-			return("Unhandled entry with ID: " + str(self.ID) + " and text " + self.text)
-		else:
-			return("Handled entry with ID: " + str(self.ID) + " and text " + self.text)
-
-	__repr__ = __str__
-
-
-class EntryManager(object):
-	"""Handles entries to make sure that we process each"""
-	def __init__(self):
-		"""Start with an empty list of entries"""
-		self.entry_list = []
-		self.entry_IDs = []
-
-	def register_entries(self, entries):
-		"""Register new entries into our list if we don't have them already"""
-		new_entries = [[i,x] for i,x in enumerate(entries) if i not in self.entry_IDs]
-		for entry in new_entries:
-			self.entry_list.append(Entry(entry[0],entry[1]))
-
-		self.entry_IDs = [x.ID for x in self.entry_list]
-
-	def get_unhandled_entries(self):
-		"""Return any entries not yet handled."""
-		return([x for x in self.entry_list if not x.handled])
-
-
 class PokemonShowdown(Environment):
 	def __init__(self, config, driver, username):
 		self.learner = config.learner
@@ -75,10 +39,11 @@ class PokemonShowdown(Environment):
 		self.player = Player(username=username)
 		self.opponent = Player()
 
+		self.opponentLastMove = 0
+
 		self.winner = False
 		self.finished = False
 
-		self.entry_manager = EntryManager()
 		self.turnNumber = -1
 
 		self.pokemon = [np.zeros((1, POKE_DESCRIPTOR_SIZE)) for _ in range(12)]
@@ -91,6 +56,7 @@ class PokemonShowdown(Environment):
 		We assume that refreshLogs will have been called at this point
 		'''
 		self.reset()
+		self.refresh()
 		self.encodeAllPokemon()
 
 		if action:
@@ -240,18 +206,12 @@ class PokemonShowdown(Environment):
 			split = message.split('\\n')
 			for line in split:
 				lines.append(line)
-				# pokemon_env.parseLine(line)
 
-		self.entry_manager.register_entries(lines)
+		for line in lines:
+			self.parseLine(line)
 
-		new_entries = self.entry_manager.get_unhandled_entries()
-
-		for entry_obj in new_entries:
-			entry = entry_obj.text
-
-			print(entry)
-
-			self.parseLine(entry)
+		for pokemon in self.opponent.pokemon:
+			print(pokemon)
 
 	def refresh(self):
 		self.refreshLogs()
@@ -312,8 +272,6 @@ class PokemonShowdown(Environment):
 		player = fields[2]
 		species = fields[3].replace("/,.*$/", "").split(',')[0]
 
-		# print(line)
-
 		if player == self.opponent.name:
 			if "Arceus" in species:
 				species = "Arceus"
@@ -347,8 +305,6 @@ class PokemonShowdown(Environment):
 		nickname = matches[1]
 		species = matches[2].split(',')[0]
 
-		# print(line)
-
 		if player == self.opponent.name:
 			# Special prefix edge case.
 			if "Arceus" in species:
@@ -369,6 +325,7 @@ class PokemonShowdown(Environment):
 			elif pokemon.nickname == "":
 				pokemon.nickname = nickname
 			self.opponent.currentPokemon = pokemon
+			self.opponentLastMove = POKEMON_LIST[pokemon.species]
 
 	def processDrag(self, line):
 		matches = re.search("\|drag\|(p[12])a:\s+([^|]+)\|([^|]+)", line).groups()
@@ -430,9 +387,9 @@ class PokemonShowdown(Environment):
 		nickname = matches[1]
 		move = matches[2].lower().replace("-", "").replace(" ", "").replace("'", "")
 
-		# print(line)
-
 		if player == self.opponent.name:
+			self.opponentLastMove = MOVE_ENV_LIST[move]
+
 			pokemon = self.opponent.getPokemonByNickname(nickname)
 
 			# This is so that moves from Magic Bounce and "Struggle" aren't added to moveset.
@@ -511,8 +468,7 @@ class PokemonShowdown(Environment):
 
 		if player == self.opponent.name:
 			pokemon = self.opponent.getPokemonByNickname(nickname)
-			if pokemon.item == "":
-				pokemon.item = item
+			pokemon.item = ""
 
 	def processHealFromItem(self, line):
 		matches = re.search("\|-heal\|(p[12])a:\s+([^|]+)\|[^|]+\|\[from\] item: (.+)", line).groups()
@@ -559,10 +515,14 @@ class PokemonShowdown(Environment):
 
 			# condition is in the format "CurrHP/TotalHP STATUS", ex. "250/301 tox", or just "250/301"
 			condition = poke_data["condition"]
-			matches = re.search("(\d*)\/(\d*) *(\D*)", condition).groups()
-			maxHP = int(matches[1])
-			# Normalize HP so that it's out of 100.
-			currHP = int(matches[0]) * 100 / maxHP
+
+			if condition == "0 fnt":
+				currHP = 0
+			else:
+				matches = re.search("(\d*)\/(\d*) *(\D*)", condition).groups()
+				maxHP = int(matches[1])
+				# Normalize HP so that it's out of 100.
+				currHP = int(int(matches[0]) * 100 / maxHP)
 
 			status = matches[2]
 
@@ -571,6 +531,8 @@ class PokemonShowdown(Environment):
 
 			# Moves is a list of strings.
 			moves = poke_data["moves"]
+			for i in range(len(moves)):
+				moves[i] = re.sub("\d+", "", moves[i])
 
 			if "item" in poke_data:
 				item = poke_data["item"]
