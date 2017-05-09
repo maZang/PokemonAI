@@ -1,5 +1,7 @@
 from reinforcement.environment import Environment
-from learner.approxqlearner import ApproxQLearner
+from learner.approxqlearner import PokemonShowdownAI
+from learner.approxqlearner import AIConfig
+from learner.pokemonfeat import PokemonAINetwork
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
@@ -22,18 +24,20 @@ class PokemonShowdownConfig(object):
 	'''
 	user='CS6700AI'
 	password='HORSERADISHBACON'
-	learner=ApproxQLearner
+	learner=PokemonShowdownAI
+	network=PokemonAINetwork
 
 
 class PokemonShowdownConfigSelfPlay(object):
 	user='CS6700AITest'
 	password='HORSERADISHBACON'
-	learner=ApproxQLearner
+	learner=PokemonShowdownAI
+	network=PokemonAINetwork
 
 
 class PokemonShowdown(Environment):
 	def __init__(self, config, driver, username):
-		self.learner = config.learner()
+		self.learner = config.learner(self, lambda x: x, config.network, {'buffer_size' : 1000}, AIConfig(), config.user)
 		self.driver = driver
 
 		self.player = Player(username=username)

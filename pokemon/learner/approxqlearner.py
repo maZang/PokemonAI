@@ -1,5 +1,6 @@
 from learner.qlearner import QLearner
 from learner.learn import UtilFunction
+from datautils import const
 # lib imports
 import random as random
 import tensorflow as tf
@@ -69,15 +70,33 @@ class ExperienceReplay(object):
 
 class AIConfig(object):
 	epsilon = 0.1
-	annealing_steps = 10000
 	num_episodes = 10000
 	save_path = 'data/models/pokemon_ai/'
 	update_steps = 10
 	tau = 0.001 # update rate for target network
 	discount = 1.0
-	batch_size = 64
-	num_steps = 8
+	# network parameters
+	embedding_size = 300
+	poke_descriptor_size = const.POKE_DESCRIPTOR_SIZE # poke id, 4 move ids, item id, status id
+	number_non_embedding = const.NON_EMBEDDING_DATA
+	number_classes = const.NUMBER_CLASSES
+	last_move_data = const.LAST_MOVE_DATA
+	learning_rate = 1e-3
+	max_epochs = 10
+	early_stop = 2
 	dropout = 1.0
+	batch_size = 64
+	memory_layer_size = 500
+	memory_layer_depth = 3
+	number_pokemon = const.NUMBER_POKEMON
+	number_moves = const.NUMBER_MOVES
+	number_items = const.NUMBER_ITEMS
+	number_status = len(const.STATUS_EFFECTS)
+	kernels_poke=[1,2,3,4,5,6,7]
+	feature_maps_poke=[10,20,30,30,30,30,30]
+	kernels_team=[1,2,3,4,5,6]
+	feature_maps_team=[10,20,30,30,30,30]
+	num_steps = 8
 
 class PokemonShowdownAI(QLearner):
 	'''
