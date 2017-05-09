@@ -29,7 +29,7 @@ class ExperienceReplay(object):
 	Class to hold samples of experience which are then used to train
 	'''
 	def __init__(self, buffer_size=100000):
-		self.buffer = buffer
+		self.buffer = []
 		self.buffer_size = buffer_size
 
 	def add(self,exeprience_sample):
@@ -40,16 +40,32 @@ class ExperienceReplay(object):
 			self.buffer[0:1] = [] # remove the first element
 		self.buffer.append(exeprience_sample)
 
-	def addAll(self, experience_samples):
-		'''
-		Adds many experience samples to the buffer
-		'''
-		if len(self.buffer) + len(experience_samples) >= self.buffer_size:
-			self.buffer[0:len(experience_samples) + len(self.buffer) - self.buffer_size] = []
-		self.buffer.extend(experience_samples)
+	def process_states(self, states):
+		lst = zip(*states)
+		return [np.concatenate(l,axis=0) for l in lst]
 
-	def sample(self, size):
-		return random.sample(self.buffer,size)
+	def process_actions(self, actions):
+		return np.array(actions)
+
+	def process_rewards(self, rewards):
+		return np.array(rewards)
+
+	def process_terminal(self, terminals):
+		return np.array(terminals)
+
+
+	def sample(self, batch_size, num_steps):
+		sampled_episodes = random.sample(self.buffer, batch_size)
+		sampled_traces = [[] for _ in range(5)]
+		for ep in sampled_episodes:
+			point = np.random.randint(0,len(ep)+1-num_steps)
+			episode_sequence = zip(*ep[point:point+num_steps])
+			sampled_traces[0].append(self.process_states(episode_sequence[0]))
+			sampled_traces[1].append(self.process_actions(episode_sequence[1]))
+			sampled_traces[2].append(self.process_states(episode_sequence[2]))
+			sampled_traces[3].append(self.process_rewards(episode_sequence[3]))
+			sampled_traces[4].append(self.process_terminal(episode_sequence[4]))
+		return [np.concatenate(l, axis=0) for l in sampled_traces]
 
 class AIConfig(object):
 	epsilon = 0.1
@@ -61,6 +77,7 @@ class AIConfig(object):
 	discount = 1.0
 	batch_size = 64
 	num_steps = 8
+	dropout = 1.0
 
 class PokemonShowdownAI(QLearner):
 	'''
@@ -107,13 +124,30 @@ class PokemonShowdownAI(QLearner):
 		[self.sess.run(op) for op in self.ops]
 		
 
+	def create_feed_dict(self, sample, network, init_state=None, num_steps=1, feed_dict3=None):
+		if feed_dict3 == None:
+			feed_dict3 = {}
+		if init_state != None:
+			feed_dict3[network.initial_state] = init_state
+		batch_size = sample[0].shape[0] / num_steps
+		feed_dict1 = {network.poke_placeholders[i] : sample[i] for i in range(12)}
+		feed_dict2 = {
+			network.x_data_placeholder : sample[12],
+			network.last_move_placeholder : sample[13],
+			network.dropout_placeholder: 1.0,
+			network.batch_size : batch_size,
+			network.num_steps : num_steps,
+		}
+		feed_dict = {**feed_dict1, **feed_dict2, **feed_dict3}
+		return feed_dict
+
 	def getAction(self, state):
 		'''
 		Gets an action depending on whether we are following greedy policy or exploratory policy.
 
 		Mutates current state 
 		'''
-		feed_dict = {}
+		feed_dict = self.create_feed_dict(self.state_processer(state), self.mainQN, init_state=self.currnet_state)
 		if np.random.rand(1.) < self.config.epsilon:
 			next_state = self.sess.run(self.mainQN.final_state, feed_dict=feed_dict)
 			action = np.random.choice(self.environment.getActions(state))
@@ -130,14 +164,21 @@ class PokemonShowdownAI(QLearner):
 		training_batch = self.replay.sample(self.config.batch_size, self.config.num_steps)
 		init_state = self.mainQN.init_hidden_state()
 		# run both networks
-		feed_dict_main = {}
+		feed_dict_main = self.create_feed_dict(training_batch[2], self.mainQN, init_state=init_state, 
+				num_steps=self.config.num_steps)
 		Q1_actions = self.sess.run(self.mainQN.predict, feed_dict=feed_dict_main)
-		feed_dict_target = {}
+		feed_dict_target = self.create_feed_dict(training_batch[2], self.targetQN, init_state=init_state,
+				num_steps=self.config.num_steps)
 		Q2_target = self.sess.run(self.targetQN.Qout, feed_dict=feed_dict_target)
 
 		finished = (1. - training_batch[:,4])
 		targetQ = training_batch[:, 2] + (self.config.discount * Q2_target[self.config.batch_size * self.config.num_steps, Q1_actions] * finished)
-		feed_dict_train = {}
+		feed_dict3 = {
+			self.mainQN.targgetQ : targetQ,
+			self.mainQN.action_placeholder : training_batch[:,1]
+		}
+		feed_dict_train = self.create_feed_dict(training_batch[0], self.mainQN, init_state=init_state,
+				num_steps=self.config.num_steps, feed_dict3=feed_dict3)
 		_ = sess.run(self.mainQN.opt, feed_dict=feed_dict_train)
 
 
