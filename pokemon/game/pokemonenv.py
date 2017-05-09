@@ -81,18 +81,21 @@ class PokemonShowdown(Environment):
 		self.entry_manager = EntryManager()
 		self.turnNumber = -1
 
-	def getCurrentState(self, action, opponentAction):
+		self.last_move_data = np.zeros((1, 2))
+
+	def getCurrentState(self, action=None):
 		'''
 		Gets the current state of the environment.
 		We assume that refreshLogs will have been called at this point
 		'''
+		self.reset()
 		self.encodeAllPokemon()
 
-		# ???
 		self.labels[action] = 1
-		self.last_move_data[0][0] = action
-		# After performing the move, retrieve the opponent's move
-		# self.last_move_data[0][1] = opponentAction
+		if action and self.opponentAction:
+			self.last_move_data[0][0] = action
+			# After performing the move, retrieve the opponent's move
+			self.last_move_data[0][1] = self.opponentAction
 
 
 	def encodeAllPokemon(self):
@@ -163,9 +166,6 @@ class PokemonShowdown(Environment):
 		self.pokemon = [np.zeros((1, POKE_DESCRIPTOR_SIZE)) for _ in range(12)]
 		self.labels = np.zeros((1, NUMBER_CLASSES))
 
-		# Store your move and opponent's move
-		self.last_move_data = np.zeros((1, 2))
-
 	def run(self):
 		while True:
 			currentState = self.getCurrentState()
@@ -176,10 +176,12 @@ class PokemonShowdown(Environment):
 
 			action = self.learner.getAction(currentState, actions)
 			self.update(action)
-
 			reward = self.isWonGame()
 
-			nextState = self.getCurrentState()
+			# Reset last move matrix
+			self.last_move_data = np.zeros((1, 2))
+			# After a move is clicked, the state is updated, now retrieve next state
+			nextState = self.getCurrentState(action)
 			self.learner.update(currentState, action, nextState, reward)
 
 			if reward:
@@ -247,6 +249,8 @@ class PokemonShowdown(Environment):
 		for entry_obj in new_entries:
 			entry = entry_obj.text
 
+			print(entry)
+
 			self.parseLine(entry)
 
 	def refresh(self):
@@ -308,7 +312,7 @@ class PokemonShowdown(Environment):
 		player = fields[2]
 		species = fields[3].replace("/,.*$/", "").split(',')[0]
 
-		print(line)
+		# print(line)
 
 		if player == self.opponent.name:
 			if "Arceus" in species:
@@ -343,7 +347,7 @@ class PokemonShowdown(Environment):
 		nickname = matches[1]
 		species = matches[2].split(',')[0]
 
-		print(line)
+		# print(line)
 
 		if player == self.opponent.name:
 			# Special prefix edge case.
@@ -426,7 +430,7 @@ class PokemonShowdown(Environment):
 		nickname = matches[1]
 		move = matches[2].lower().replace("-", "").replace(" ", "").replace("'", "")
 
-		print(line)
+		# print(line)
 
 		if player == self.opponent.name:
 			pokemon = self.opponent.getPokemonByNickname(nickname)
@@ -660,5 +664,14 @@ def runAgainstItself():
 
 	env1 = PokemonShowdown(showdown_config1, driver1, showdown_config1.user)
 	env2 = PokemonShowdown(showdown_config2, driver2, showdown_config2.user)
+	for move in driver1.find_elements(By.NAME, 'chooseMove'):
+		if move:
+			env1.update(MOVE_LIST[move.text.split("\n")[0]])
+			break
+	time.sleep(1)
+	for move in driver2.find_elements(By.NAME, 'chooseMove'):
+		if move:
+			print(move)
+			env2.update(MOVE_LIST[move.text.split("\n")[0]])
 
 	time.sleep(10)
