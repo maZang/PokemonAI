@@ -113,7 +113,6 @@ class PokemonShowdown(Environment):
 		'''
 		self.actionList = []
 
-		print(1)
 		for move in self.driver.find_elements(By.NAME, 'chooseMove'):
 			if move:
 				self.actionList.append(MOVE_LIST[move.text.split("\n")[0]])
@@ -121,17 +120,18 @@ class PokemonShowdown(Environment):
 			if pokemon:
 				self.actionList.append(POKEMON_LIST[pokemon.text])
 
-		print(2)
 		# Pull mega if exists
+		# Note that this is a bottleneck since we implicitly wait and
+		# there is no mega usually
+		self.driver.implicitly_wait(0.5)
 		if self.driver.find_elements(By.NAME, 'megaevo'):
-			print(3)
 			currPokemon = self.player.currentPokemon.species
 			if currPokemon in ['Charizard', 'Mewtwo'] and currPokemon.item:
 				currPokemon += '-Mega-' + currPokemon.item[-1]
 			else:
 				currPokemon += '-Mega'
 			self.actionList.append(currPokemon)
-			print(4)
+		self.driver.implicitly_wait(5)
 
 		print("Actions found: {}".format(self.actionList))
 		return self.actionList
