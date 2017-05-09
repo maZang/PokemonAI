@@ -82,25 +82,24 @@ class PokemonShowdown(Environment):
 		self.turnNumber = -1
 
 		self.pokemon = [np.zeros((1, POKE_DESCRIPTOR_SIZE)) for _ in range(12)]
-		self.labels = np.zeros((1, NUMBER_CLASSES))
+		self.other_data = np.zeros((1, NON_EMBEDDING_DATA))
 		self.last_move_data = np.zeros((1, 2))
 
-	def getCurrentState(self, action=None):
+	def encodeCurrentState(self, action=None):
 		'''
-		Gets the current state of the environment.
+		Encode the current state of the environment.
 		We assume that refreshLogs will have been called at this point
 		'''
 		self.reset()
 		self.encodeAllPokemon()
 
 		if action:
-			self.labels[action] = 1
 			self.last_move_data[0][0] = action
 
 		if self.opponentAction:
-			# After performing the move, retrieve the opponent's move
 			self.last_move_data[0][1] = self.opponentAction
 
+		return [np.copy(pokemon) for pokemon in self.pokemon] + [np.copy(self.other_data)] + [np.copy(self.last_move_data)]
 
 	def encodeAllPokemon(self):
 		self.pokemonEncoding = {}
@@ -168,11 +167,11 @@ class PokemonShowdown(Environment):
 		'''
 		# One row encoding
 		self.pokemon = [np.zeros((1, POKE_DESCRIPTOR_SIZE)) for _ in range(12)]
-		self.labels = np.zeros((1, NUMBER_CLASSES))
+		self.other_data = np.zeros((1, NON_EMBEDDING_DATA))
 
 	def run(self):
 		while True:
-			currentState = self.getCurrentState()
+			currentState = self.encodeCurrentState()
 			actions = self.getActions()
 			if not actions:
 				time.sleep(1)
@@ -180,12 +179,13 @@ class PokemonShowdown(Environment):
 
 			action = self.learner.getAction(currentState, actions)
 			self.update(action)
-			reward = self.isWonGame()
+			# Check if we won
+			reward = int(self.winner)
 
 			# Reset last move matrix
 			self.last_move_data = np.zeros((1, 2))
 			# After a move is clicked, the state is updated, now retrieve next state
-			nextState = self.getCurrentState(action)
+			nextState = self.encodeCurrentState(action)
 			self.learner.update(currentState, action, nextState, reward)
 
 			if reward:
@@ -228,12 +228,6 @@ class PokemonShowdown(Environment):
 			self.driver.find_element(By.CSS_SELECTOR, 'button[data-move="{}"]'.format(move)).click()
 		else:
 			raise Exception("ID {} was not a pokemon/move ID".format(move))
-
-	def isWonGame(self):
-		'''
-		Check if the current player has won
-		'''
-		pass
 
 	def refreshLogs(self):
 		logs = self.driver.get_log('browser')
