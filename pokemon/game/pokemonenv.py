@@ -78,7 +78,7 @@ class PokemonShowdown(Environment):
 
 	def encodeAllPokemon(self):
 		self.pokemonEncoding = {}
-		self.pokemonEncoding[0] = [encodePokemonObject(Pokemon())]*12
+		self.pokemonEncoding[0] = [encodeEnvPokemonObject(Pokemon())]*12
 
 		self.encodePokemon(opponent=False)
 		self.encodePokemon(opponent=True)
@@ -103,13 +103,13 @@ class PokemonShowdown(Environment):
 
 		# 0-5 = Winner's pokemon, 6-11 = Opponent's pokemon
 		# Turn number : list of 12 pokemon that represents
-		self.pokemonEncoding[0][idx] = encodePokemonObject(currentPokemon)
+		self.pokemonEncoding[0][idx] = encodeEnvPokemonObject(currentPokemon)
 
 		i = 1
 		for pokemon in player.pokemon:
 			if pokemon == currentPokemon:
 				continue
-			self.pokemonEncoding[0][i+idx] = encodePokemonObject(pokemon)
+			self.pokemonEncoding[0][i+idx] = encodeEnvPokemonObject(pokemon)
 			i += 1
 
 	def getActions(self, state=None):
