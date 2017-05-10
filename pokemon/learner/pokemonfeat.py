@@ -64,7 +64,7 @@ class PokemonAINetwork(object):
 								for embedding_input in self.embedding_inputs]
 				new_height = self.config.poke_descriptor_size - kernel_height + 1
 				pools = [tf.nn.max_pool(tf.tanh(conv), [1,new_height,1,1], [1,1,1,1], 'VALID') for conv in conv_layers]
-				[layer.append(tf.squeeze(pool)) for layer,pool in zip(layers,pools)]
+				[layer.append(tf.squeeze(pool, [1,2])) for layer,pool in zip(layers,pools)]
 			conv_outputs = [tf.concat(layer,1) for layer in layers] # each output is of size [None,sum(feature_maps)]
 		with tf.variable_scope('OwnTeamConvNet'):
 			own_player_conv = tf.expand_dims(tf.stack(conv_outputs[:6], axis=1), -1)
@@ -75,7 +75,7 @@ class PokemonAINetwork(object):
 				conv_layer = tf.nn.conv2d(own_player_conv,conv_filter,strides=[1,1,1,1],padding='VALID')
 				new_height = 6 - kernel_height + 1
 				pool = tf.nn.max_pool(tf.tanh(conv_layer),[1,new_height,1,1],[1,1,1,1],'VALID')
-				layers.append(tf.squeeze(pool))
+				layers.append(tf.squeeze(pool, [1,2]))
 			own_team_output = tf.concat(layers, 1)
 		with tf.variable_scope('OppTeamConvNet'):
 			opp_player_conv = tf.expand_dims(tf.stack(conv_outputs[6:], axis=1), -1)
@@ -86,7 +86,7 @@ class PokemonAINetwork(object):
 				conv_layer = tf.nn.conv2d(own_player_conv,conv_filter,strides=[1,1,1,1],padding='VALID')
 				new_height = 6 - kernel_height + 1
 				pool = tf.nn.max_pool(tf.tanh(conv_layer),[1,new_height,1,1],[1,1,1,1],'VALID')
-				layers.append(tf.squeeze(pool))
+				layers.append(tf.squeeze(pool, [1,2]))
 			opp_team_output = tf.concat(layers, 1)
 		with tf.variable_scope('HighwayNet'):
 			concat_data = tf.reshape(self.x_data_placeholder,(-1,self.config.number_non_embedding))
