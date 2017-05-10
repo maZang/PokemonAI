@@ -384,11 +384,11 @@ class PokemonShowdown(Environment):
 		if player == self.opponent.name:
 			# Special prefix edge case.
 			if "Arceus" in species:
-				self.prefixHandler("Arceus", species, player)
+				self.prefixHandler("Arceus", species)
 			elif "Gourgeist" in species:
-				self.prefixHandler("Gourgeist", species, player)
+				self.prefixHandler("Gourgeist", species)
 			elif "Genesect" in species:
-				self.prefixHandler("Genesect", species, player)
+				self.prefixHandler("Genesect", species)
 
 			pokemon = self.opponent.getPokemonBySpecies(species)
 
@@ -411,11 +411,11 @@ class PokemonShowdown(Environment):
 		if player == self.opponent.name:
 			# Special prefix edge case.
 			if "Arceus" in species:
-				self.prefixHandler("Arceus", species, player)
+				self.prefixHandler("Arceus", species)
 			elif "Gourgeist" in species:
-				self.prefixHandler("Gourgeist", species, player)
+				self.prefixHandler("Gourgeist", species)
 			elif "Genesect" in species:
-				self.prefixHandler("Genesect", species, player)
+				self.prefixHandler("Genesect", species)
 
 			pokemon = self.opponent.getPokemonBySpecies(species)
 
