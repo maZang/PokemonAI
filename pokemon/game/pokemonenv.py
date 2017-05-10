@@ -66,6 +66,8 @@ class PokemonShowdown(Environment):
 		self.wait()
 
 		self.refresh()
+
+		self.pullMega()
 		self.encodeAllPokemon()
 
 		if action:
@@ -75,6 +77,20 @@ class PokemonShowdown(Environment):
 			self.last_move_data[0][1] = self.opponentLastMove
 
 		return [np.copy(pokemon) for pokemon in self.pokemon] + [np.copy(self.other_data)] + [np.copy(self.last_move_data)] + [np.array(self.actionList).reshape(1,-1)]
+
+	def pullMega(self):
+		# Pull mega if exists
+		# Note that this is a bottleneck since we implicitly wait and
+		# there is no mega usually
+		self.driver.implicitly_wait(0.5)
+		if self.driver.find_elements(By.NAME, 'megaevo'):
+			currPokemon = self.player.currentPokemon.species
+			if currPokemon in ['Charizard', 'Mewtwo'] and currPokemon.item:
+				currPokemon += '-Mega-' + currPokemon.item[-1]
+			else:
+				currPokemon += '-Mega'
+			self.actionList[-1] = POKEMON_LIST[currPokemon]
+		self.driver.implicitly_wait(5)
 
 	def encodeAllPokemon(self):
 		self.pokemonEncoding = {}
@@ -120,25 +136,20 @@ class PokemonShowdown(Environment):
 			return state[-1]
 		self.actionList = []
 
+		moveCount = 0
 		for move in self.driver.find_elements(By.NAME, 'chooseMove'):
 			if move:
 				self.actionList.append(MOVE_LIST[move.text.split("\n")[0]])
+				moveCount += 1
+
 		for pokemon in self.driver.find_elements(By.NAME, 'chooseSwitch'):
 			if pokemon:
 				self.actionList.append(POKEMON_LIST[pokemon.text])
 
-		# Pull mega if exists
-		# Note that this is a bottleneck since we implicitly wait and
-		# there is no mega usually
-		self.driver.implicitly_wait(0.5)
-		if self.driver.find_elements(By.NAME, 'megaevo'):
-			currPokemon = self.player.currentPokemon.species
-			if currPokemon in ['Charizard', 'Mewtwo'] and currPokemon.item:
-				currPokemon += '-Mega-' + currPokemon.item[-1]
-			else:
-				currPokemon += '-Mega'
-			self.actionList.append(POKEMON_LIST[currPokemon])
-		self.driver.implicitly_wait(5)
+		# U-Turn parse
+		if moveCount == 0 and len(self.driver.find_elements(By.NAME, 'chooseMove')) > 0:
+			self.actionList = []
+			return
 
 		print("Actions found: {}".format(self.actionList))
 
@@ -156,8 +167,8 @@ class PokemonShowdown(Environment):
 		self.other_data = np.zeros((1, NON_EMBEDDING_DATA))
 
 	def run(self):
+		currentState = self.encodeCurrentState()
 		while True:
-			currentState = self.encodeCurrentState()
 			print("Current state: {}".format(currentState))
 
 			action = self.learner.getAction(currentState)
@@ -173,6 +184,8 @@ class PokemonShowdown(Environment):
 			# After a move is clicked, the state is updated, now retrieve next state
 			nextState = self.encodeCurrentState(action)
 			self.learner.update(currentState, action, nextState, reward, np.abs(reward))
+
+			currentState = nextState
 
 			if self.finished:
 				return
@@ -239,6 +252,7 @@ class PokemonShowdown(Environment):
 				lines.append(line)
 
 		for line in lines:
+			print(line)
 			self.parseLine(line)
 
 		for pokemon in self.opponent.pokemon:

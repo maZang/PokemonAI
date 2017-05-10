@@ -70,7 +70,7 @@ class ExperienceReplay(object):
 		return [np.concatenate(l, axis=0) for l in sampled_traces]
 
 class AIConfig(object):
-	startE = 0.1
+	startE = 1.0
 	endE = 0.1
 	num_episodes = 10000
 	save_path = 'data/models/pokemon_ai/'
@@ -184,7 +184,8 @@ class PokemonShowdownAI(QLearner):
 		print(indexes_nd)
 		if random.random() < self.epsilon:
 			next_state = self.sess.run(self.mainQN.final_state, feed_dict=feed_dict)
-			action = np.random.choice(self.environment.getActions(state).flatten())
+			actions = self.environment.getActions(state).flatten()
+			action = np.random.choice(actions[actions > 0])
 		else:
 			action, next_state = self.sess.run([self.mainQN.predictions, self.mainQN.final_state],
 				feed_dict=feed_dict)
@@ -229,7 +230,7 @@ class PokemonShowdownAI(QLearner):
 		self.current_step += 1
 		experience_sample = [self.state_processer(state), action, self.state_processer(nextState), reward, terminal]
 		self.current_episode_buffer.append(experience_sample)
-		if self.current_step % self.config.update_steps == 0 and self.current_step > self.pre_train_steps:
+		if self.current_step % self.config.update_steps == 0 and self.current_step > self.config.pre_train_steps:
 			self.train_batch()
 		if terminal: # only one reward of 1 or -1 at end
 			self.reward_list.append(reward)
