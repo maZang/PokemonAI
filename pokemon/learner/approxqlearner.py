@@ -43,6 +43,9 @@ class ExperienceReplay(object):
 			self.buffer[0:1] = [] # remove the first element
 		self.buffer.append(exeprience_sample)
 
+	def size(self):
+		return len(self.buffer)
+
 	def process_states(self, states):
 		lst = zip(*states)
 		return [np.concatenate(l,axis=0) for l in lst]
@@ -57,7 +60,7 @@ class ExperienceReplay(object):
 		return np.array(terminals)
 
 	def sample(self, batch_size, num_steps):
-		sampled_episodes = random.sample(self.buffer, batch_size)
+		sampled_episodes = np.random.choice(self.buffer, batch_size)
 		sampled_traces = [[] for _ in range(5)]
 		for ep in sampled_episodes:
 			point = np.random.randint(0,len(ep)+1-num_steps)
@@ -72,13 +75,13 @@ class ExperienceReplay(object):
 class AIConfig(object):
 	startE = 1.0
 	endE = 0.1
-	num_episodes = 10000
 	save_path = 'data/models/pokemon_ai/'
 	update_steps = 10
 	tau = 0.001 # update rate for target network
 	discount = 1.0
-	pre_train_steps = 10000
+	pre_train_steps = 0
 	annealing_steps = 10000
+	save_steps = 10
 	# network parameters
 	embedding_size = 300
 	poke_descriptor_size = const.POKE_DESCRIPTOR_SIZE # poke id, 4 move ids, item id, status id
@@ -121,7 +124,7 @@ class PokemonShowdownAI(QLearner):
 		self.config = qlearner_config
 		self.current_state = self.mainQN.init_hidden_state(1)
 		# perform some TF initialization
-		self.saver = tf.train.Saver()
+		self.saver = tf.train.Saver(max_to_keep=5)
 		gpu_options = tf.GPUOptions(per_process_gpu_memory_fraction=0.6)
 		self.sess = tf.Session(config=tf.ConfigProto(gpu_options=gpu_options))
 		tfVars = tf.trainable_variables()
@@ -180,8 +183,6 @@ class PokemonShowdownAI(QLearner):
 		feed_dict = self.create_feed_dict(self.state_processer(state), self.mainQN, init_state=self.current_state)
 		possible_actions = self.sess.run(self.mainQN.possible_actions, feed_dict=feed_dict)
 		indexes_nd = self.sess.run(self.mainQN.indexes_nd, feed_dict=feed_dict)
-		print(possible_actions)
-		print(indexes_nd)
 		if random.random() < self.epsilon:
 			next_state = self.sess.run(self.mainQN.final_state, feed_dict=feed_dict)
 			actions = self.environment.getActions(state).flatten()
@@ -231,7 +232,8 @@ class PokemonShowdownAI(QLearner):
 		experience_sample = [self.state_processer(state), action, self.state_processer(nextState), reward, terminal]
 		self.current_episode_buffer.append(experience_sample)
 		if self.current_step % self.config.update_steps == 0 and self.current_step > self.config.pre_train_steps:
-			self.train_batch()
+			if self.replay.size() != 0:
+				self.train_batch()
 		if terminal: # only one reward of 1 or -1 at end
 			self.reward_list.append(reward)
 
@@ -242,4 +244,9 @@ class PokemonShowdownAI(QLearner):
 		self.replay.add(self.current_episode_buffer)
 		self.current_episode_buffer = []
 		self.episodeNumber += 1
+		if self.episodeNumber % self.config.save_steps:
+			self.save()
 		self.current_state = self.mainQN.init_hidden_state(1)
+
+	def save(self):
+		self.saver.save(self.sess, self.save_path + '/model' + str(self.episodeNumber) + '.cptk')

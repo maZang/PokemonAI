@@ -121,12 +121,10 @@ class PokemonAINetwork(object):
 
 	def _add_loss(self):
 		possible_actions = tf.squeeze(tf.slice(self.possible_actions_placeholder, [0,0,1], [-1,-1,-1]), axis=2)
-		self.possible_actions = possible_actions
 		self.filtered_q = tf.gather_nd(self.q_out, self.possible_actions_placeholder) * tf.cast((possible_actions > 0), tf.float32) - 2.0 * tf.cast((possible_actions == 0), tf.float32)
 		row_selector = tf.range(tf.shape(self.possible_actions_placeholder, out_type=tf.int32)[0], dtype=tf.int32)
 		col_selector =  tf.cast(tf.argmax(self.filtered_q,1), tf.int32)
 		indexes_nd = tf.stack((row_selector, col_selector), -1)
-		self.indexes_nd = indexes_nd
 		self.predictions = tf.gather_nd(possible_actions, indexes_nd)
 		actions_onehot = tf.one_hot(self.action_placeholder, self.config.number_classes,dtype=tf.float32)
 		q_scores = tf.reduce_sum(tf.multiply(self.q_out, actions_onehot), axis=1)

@@ -612,7 +612,7 @@ class PokemonShowdown(Environment):
 
 		self.finished = True
 
-DRIVERFOLDER = 'driver/chromedriver.exe'
+DRIVERFOLDER = 'driver/chromedriver'
 BASEURL = 'http://play.pokemonshowdown.com/'
 
 def login(driver, showdown_config):
@@ -641,12 +641,15 @@ def challenge(driver, user=None):
 		driver.find_element(By.NAME, "challenge").click()
 		driver.find_element(By.CSS_SELECTOR, 'button[class="select formatselect"]').click()
 		driver.find_element(By.CSS_SELECTOR, 'button[value="battlefactory"]').click()
-		driver.find_element(By.NAME, "makeChallenge").click()
-		time.sleep(0.5)
 		while True:
 			try:
+				driver.find_element(By.NAME, "makeChallenge").click()
+				time.sleep(0.5)
 				driver.find_element(By.CSS_SELECTOR, 'button[value="0"]').click()
 			except NoSuchElementException as e:
+				time.sleep(0.5)
+				continue
+			except AttributeError as e:
 				time.sleep(0.5)
 				continue
 			break
@@ -655,6 +658,9 @@ def challenge(driver, user=None):
 			try:
 				driver.find_element(By.NAME, "acceptChallenge").click()
 			except NoSuchElementException as e:
+				time.sleep(0.5)
+				continue
+			except AttributeError as e:
 				time.sleep(0.5)
 				continue
 			break
