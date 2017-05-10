@@ -122,7 +122,8 @@ class PokemonShowdownAI(QLearner):
 		self.current_state = self.mainQN.init_hidden_state(1)
 		# perform some TF initialization
 		self.saver = tf.train.Saver()
-		self.sess = tf.Session()
+		gpu_options = tf.GPUOptions(per_process_gpu_memory_fraction=0.6)
+		self.sess = tf.Session(config=tf.ConfigProto(gpu_options=gpu_options))
 		tfVars = tf.trainable_variables()
 		total_vars = len(tfVars)
 		self.ops = []
@@ -177,6 +178,10 @@ class PokemonShowdownAI(QLearner):
 		Mutates current state
 		'''
 		feed_dict = self.create_feed_dict(self.state_processer(state), self.mainQN, init_state=self.current_state)
+		possible_actions = self.sess.run(self.mainQN.possible_actions, feed_dict=feed_dict)
+		indexes_nd = self.sess.run(self.mainQN.indexes_nd, feed_dict=feed_dict)
+		print(possible_actions)
+		print(indexes_nd)
 		if random.random() < self.epsilon:
 			next_state = self.sess.run(self.mainQN.final_state, feed_dict=feed_dict)
 			action = np.random.choice(self.environment.getActions(state))
