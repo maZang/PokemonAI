@@ -140,7 +140,7 @@ class PokemonShowdownAI(QLearner):
 		init = tf.global_variables_initializer()
 		self.sess.run(init)
 		# other variable initialization
-		self.epsilon = qlearner_config.startE 
+		self.epsilon = qlearner_config.startE
 		self.stepE = (qlearner_config.startE - qlearner_config.endE) - qlearner_config.annealing_steps
 		self.reward_list = []
 		self.update_target()
@@ -184,7 +184,7 @@ class PokemonShowdownAI(QLearner):
 		print(indexes_nd)
 		if random.random() < self.epsilon:
 			next_state = self.sess.run(self.mainQN.final_state, feed_dict=feed_dict)
-			action = np.random.choice(self.environment.getActions(state))
+			action = np.random.choice(self.environment.getActions(state).flatten())
 		else:
 			action, next_state = self.sess.run([self.mainQN.predictions, self.mainQN.final_state],
 				feed_dict=feed_dict)

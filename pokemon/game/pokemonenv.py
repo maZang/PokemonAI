@@ -142,7 +142,7 @@ class PokemonShowdown(Environment):
 
 		print("Actions found: {}".format(self.actionList))
 
-		if len(self.actionList) < MAX_ACTIONS:
+		if len(self.actionList) > 0 and len(self.actionList) < MAX_ACTIONS:
 			self.actionList.extend([0] * (MAX_ACTIONS - len(self.actionList)))
 
 		return self.actionList
@@ -172,9 +172,10 @@ class PokemonShowdown(Environment):
 			self.last_move_data = np.zeros((1, 2))
 			# After a move is clicked, the state is updated, now retrieve next state
 			nextState = self.encodeCurrentState(action)
-			self.learner.update(currentState, action, nextState, reward)
+			self.learner.update(currentState, action, nextState, reward, np.abs(reward))
 
-			return
+			if self.finished:
+				return
 
 	def wait(self):
 		'''
@@ -183,7 +184,7 @@ class PokemonShowdown(Environment):
 		while True:
 			print("Retrieving actions...")
 			self.getActions()
-			if self.actionList:
+			if len(self.actionList) > 0:
 				return
 			else:
 				time.sleep(1)
@@ -199,7 +200,6 @@ class PokemonShowdown(Environment):
 			if '-mega' in pokemon.lower():
 				# Unparse the -Mega
 				pokemon = pokemon.split('-')[0]
-			print("{}: Switch action received. Switching to {}.".format(self.player.username, pokemon))
 
 			idx = 1
 			found = False
@@ -211,12 +211,14 @@ class PokemonShowdown(Environment):
 					found = True
 					break
 				idx += 1
-				print(pkmn.text)
 
 			# List of switchable pokemon was not the pokemon, thus it must be a mega-evolve
 			if not found:
 				print("{}: Megaevolving {}.".format(self.player.username, pokemon))
 				self.driver.find_element(By.NAME, 'megaevo').click()
+			else:
+				print("{}: Switch action received. Switching to {}.".format(self.player.username, pokemon))
+
 		elif action in REV_MOVE_LIST:
 			# Action is a move
 			move = REV_MOVE_LIST[action]

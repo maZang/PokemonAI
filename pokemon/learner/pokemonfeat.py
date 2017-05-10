@@ -125,7 +125,7 @@ class PokemonAINetwork(object):
 		self.filtered_q = tf.gather_nd(self.q_out, self.possible_actions_placeholder) * tf.cast((possible_actions > 0), tf.float32) - 2.0 * tf.cast((possible_actions == 0), tf.float32)
 		row_selector = tf.range(tf.shape(self.possible_actions_placeholder, out_type=tf.int32)[0], dtype=tf.int32)
 		col_selector =  tf.cast(tf.argmax(self.filtered_q,1), tf.int32)
-		indexes_nd = tf.transpose(tf.stack((row_selector, col_selector), -1))
+		indexes_nd = tf.stack((row_selector, col_selector), -1)
 		self.indexes_nd = indexes_nd
 		self.predictions = tf.gather_nd(possible_actions, indexes_nd)
 		actions_onehot = tf.one_hot(self.action_placeholder, self.config.number_classes,dtype=tf.float32)
@@ -157,4 +157,3 @@ class PokemonAINetwork(object):
 
 	def init_hidden_state(self, batch_size):
 		return np.zeros((self.config.memory_layer_depth, 2, batch_size, self.config.memory_layer_size))
-		
