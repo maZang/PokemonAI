@@ -549,13 +549,13 @@ class PokemonShowdown(Environment):
 
 			if condition == "0 fnt":
 				currHP = 0
+				status = ""
 			else:
 				matches = re.search("(\d*)\/(\d*) *(\D*)", condition).groups()
 				maxHP = int(matches[1])
 				# Normalize HP so that it's out of 100.
 				currHP = int(int(matches[0]) * 100 / maxHP)
-
-			status = matches[2]
+				status = matches[2]
 
 			# Active is true or false.
 			active = poke_data["active"]
