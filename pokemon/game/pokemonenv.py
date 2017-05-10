@@ -217,16 +217,14 @@ class PokemonShowdown(Environment):
 				# Unparse the -Mega
 				pokemon = pokemon.split('-')[0]
 
-			idx = 1
 			found = False
 			# Scan list of switchable pokemon
-			for pkmn in self.driver.find_elements(By.NAME, 'chooseSwitch'):
+			for i, pkmn in enumerate(driver.find_elements(By.CSS_SELECTOR, 'div[class="switchmenu"]')):
 				if pkmn and pkmn.text == pokemon:
-					css = 'button[name="chooseSwitch"][value="{}"]'.format(idx)
+					css = 'button[name="chooseSwitch"][value="{}"]'.format(i)
 					self.driver.find_element(By.CSS_SELECTOR, css).click()
 					found = True
 					break
-				idx += 1
 
 			# List of switchable pokemon was not the pokemon, thus it must be a mega-evolve
 			if not found:
@@ -640,8 +638,8 @@ def driver_find_element(driver, by_type, id, secs=0.5):
 			)
 		except TimeoutException as e:
 			continue
-		break 
-	return element 
+		break
+	return element
 
 def driver_find_elements(driver, by_type, id, secs=0.5):
 	while True:
@@ -651,7 +649,7 @@ def driver_find_elements(driver, by_type, id, secs=0.5):
 			)
 		except TimeoutException as e:
 			continue
-		break 
+		break
 	return elements
 
 
