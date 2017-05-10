@@ -7,6 +7,9 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.common.exceptions import TimeoutException
 
 from datautils.const import *
 from datautils.encoding import *
@@ -629,28 +632,49 @@ def login(driver, showdown_config):
 	driver.find_element(By.CSS_SELECTOR, 'button[type="submit"]').click()
 	time.sleep(0.5)
 
+def driver_find_element(driver, by_type, id, secs=0.5):
+	while True:
+		try:
+			element = WebDriverWait(driver, secs).until(
+				EC.presence_of_element_located((by_type, id))
+			)
+		except TimeoutException as e:
+			continue
+		break 
+	return element 
+
+def driver_find_elements(driver, by_type, id, secs=0.5):
+	while True:
+		try:
+			elements = WebDriverWait(driver, secs).until(
+				EC.presence_of_all_elements_located((by_type, id))
+			)
+		except TimeoutException as e:
+			continue
+		break 
+	return elements
+
+
 def challenge(driver, user=None):
 	if user:
-		time.sleep(1.5)
-		driver.find_element(By.NAME, "finduser").click()
-		time.sleep(0.5)
-		driver.find_element(By.NAME, "data").clear()
-		driver.find_element(By.NAME, "data").send_keys(user)
-		driver.find_element(By.CSS_SELECTOR, 'button[type="submit"]').click()
-		time.sleep(0.5)
-		driver.find_element(By.NAME, "challenge").click()
-		driver.find_element(By.CSS_SELECTOR, 'button[class="select formatselect"]').click()
-		driver.find_element(By.CSS_SELECTOR, 'button[value="battlefactory"]').click()
 		while True:
 			try:
+				time.sleep(1.5)
+				driver.find_element(By.NAME, "finduser").click()
+				time.sleep(0.5)
+				driver.find_element(By.NAME, "data").clear()
+				driver.find_element(By.NAME, "data").send_keys(user)
+				driver.find_element(By.CSS_SELECTOR, 'button[type="submit"]').click()
+				time.sleep(0.5)
+				driver.find_element(By.NAME, "challenge").click()
+				driver.find_element(By.CSS_SELECTOR, 'button[class="select formatselect"]').click()
+				driver.find_element(By.CSS_SELECTOR, 'button[value="battlefactory"]').click()
 				driver.find_element(By.NAME, "makeChallenge").click()
 				time.sleep(0.5)
 				driver.find_element(By.CSS_SELECTOR, 'button[value="0"]').click()
-			except NoSuchElementException as e:
+			except (NoSuchElementException,AttributeError) as e:
 				time.sleep(0.5)
-				continue
-			except AttributeError as e:
-				time.sleep(0.5)
+				driver_find_element(driver, By.NAME, "close", 10).click()
 				continue
 			break
 	else:
