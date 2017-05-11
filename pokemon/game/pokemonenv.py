@@ -727,5 +727,13 @@ def runAgainstItself(isOpponent=False):
 
 	while True:
 		env.run()
-
-	print("Game finished.")
+		print("Game finished.")
+		if not isOpponent:
+			# Challenge that user
+			driver.get(BASEURL)
+			time.sleep(0.5)
+			challenge(driver, user=PokemonShowdownConfigSelfPlay().user)
+		else:
+			driver.get(BASEURL)
+			time.sleep(0.5)
+			challenge(driver)
