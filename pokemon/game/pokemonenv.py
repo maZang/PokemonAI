@@ -59,6 +59,17 @@ class PokemonShowdown(Environment):
 		self.other_data = np.zeros((1, NON_EMBEDDING_DATA))
 		self.last_move_data = np.zeros((1, 2))
 
+	def setNewEpisode(self):
+		self.player = Player(username=self.player.username)
+		self.opponent = Player()
+		self.opponentLastMove = 0
+		self.winner = False
+		self.finished = False 
+		self.turnNumber = -1
+		self.pokemon = [np.zeros((1, POKE_DESCRIPTOR_SIZE)) for _ in range(12)]
+		self.other_data = np.zeros((1, NON_EMBEDDING_DATA))
+		self.last_move_data = np.zeros((1, 2))
+
 	def encodeCurrentState(self, action=None):
 		'''
 		Encode the current state of the environment.
@@ -735,12 +746,14 @@ def runAgainstItself(isOpponent=False):
 	while True:
 		env.run()
 		print("Game finished.")
+		print("Resetting")
+		env.setNewEpisode()
 		if not isOpponent:
 			# Challenge that user
 			driver.get(BASEURL)
 			time.sleep(0.5)
 			challenge(driver, user=PokemonShowdownConfigSelfPlay().user)
 		else:
-			driver.get(BASEURL)
+			driver.find_element(By.NAME, "closeRoom").click()
 			time.sleep(0.5)
 			challenge(driver)
