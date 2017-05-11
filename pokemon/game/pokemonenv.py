@@ -88,7 +88,7 @@ class PokemonShowdown(Environment):
 		self.driver.implicitly_wait(0.5)
 		if self.driver.find_elements(By.NAME, 'megaevo'):
 			currPokemon = self.player.currentPokemon.species
-			if currPokemon in ['Charizard', 'Mewtwo'] and currPokemon.item:
+			if currPokemon in ['Charizard', 'Mewtwo'] and self.player.currentPokemon.item:
 				currPokemon += '-Mega-' + currPokemon.item[-1]
 			else:
 				currPokemon += '-Mega'
@@ -228,7 +228,7 @@ class PokemonShowdown(Environment):
 			# List of switchable pokemon was not the pokemon, thus it must be a mega-evolve
 			if not found:
 				print("{}: Megaevolving {}.".format(self.player.username, pokemon))
-				self.driver.find_element(By.NAME, 'megaevo').click()
+				driver_find_element(self.driver, By.NAME, 'megaevo').click()
 			else:
 				print("{}: Switch action received. Switching to {}.".format(self.player.username, pokemon))
 
@@ -237,14 +237,16 @@ class PokemonShowdown(Environment):
 			move = REV_MOVE_LIST[action]
 			idx = None
 			if move in ['Hidden Power', 'Return']:
-				for m in self.driver.find_elements(By.NAME, 'chooseMove'):
-					if move in m.text():
+				for m in driver_find_elements(self.driver, By.NAME, 'chooseMove'):
+					print(m)
+					if move in m.text:
+						print("Move was in m.text")
+						# TODO: figure out why this isn't being clicked
 						m.click()
 						break
+					else:
+						driver_find_element(self.driver, By.CSS_SELECTOR, 'button[data-move="{}"]'.format(move)).click()
 			print("{}: Move action received. Using move {}.".format(self.player.username, move))
-
-			# If the move was return/hidden power, manually find and click that idx
-			self.driver.find_element(By.CSS_SELECTOR, 'button[data-move="{}"]'.format(move)).click()
 		else:
 			raise Exception("ID {} was not a pokemon/move ID".format(move))
 
