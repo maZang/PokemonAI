@@ -119,6 +119,7 @@ class PokemonShowdownAI(QLearner):
 		self.replay = ExperienceReplay(**replayArgs)
 		self.current_episode_buffer = []
 		self.current_step = 0
+		self.episodeNumber = 0
 		self.mainQN = network(qlearner_config, 'MAIN')
 		self.targetQN = network(qlearner_config, 'TARGET')
 		self.config = qlearner_config

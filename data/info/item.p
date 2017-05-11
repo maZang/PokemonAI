@@ -1,341 +1,341 @@
 (dp0
 VChople Berry
 p1
-I668
+I670
 sVPassho Berry
 p2
-I669
+I671
 sVBanettite
 p3
-I670
+I672
 sVBeedrillite
 p4
-I671
+I673
 sVIron Plate
 p5
-I728
+I730
 sVMeadow Plate
 p6
-I673
+I675
 sVChoice Specs
 p7
-I674
+I676
 sVOcca Berry
 p8
-I675
+I677
 sVRocky Helmet
 p9
-I676
+I678
 sVChesto Berry
 p10
-I677
+I679
 sVLum Berry
 p11
-I678
+I680
 sVSitrus Berry
 p12
-I679
+I681
 sVSalamencite
 p13
-I730
+I732
 sVSpooky Plate
 p14
-I681
+I683
 sVScope Lens
 p15
-I739
+I741
 sVGengarite
 p16
-I683
+I685
 sVYache Berry
 p17
-I684
+I686
 sVStone Plate
 p18
-I685
+I687
 sVLatiasite
 p19
-I686
+I688
 sVMental Herb
 p20
-I687
+I689
 sVChoice Band
 p21
-I688
+I690
 sVLife Orb
 p22
-I689
+I691
 sVGarchompite
 p23
-I690
+I692
 sVTyranitarite
 p24
-I691
+I693
 sVGriseous Orb
 p25
-I692
+I694
 sVLopunnite
 p26
-I693
+I695
 sVShuca Berry
 p27
-I694
+I696
 sVWeakness Policy
 p28
-I695
+I697
 sVBlazikenite
 p29
-I696
+I698
 sVBlack Glasses
 p30
-I697
+I699
 sVGlalitite
 p31
-I698
+I700
 sVCustap Berry
 p32
-I699
+I701
 sVIcicle Plate
 p33
-I700
+I702
 sVPixie Plate
 p34
-I701
+I703
 sVCameruptite
 p35
-I702
+I704
 sVZap Plate
 p36
-I703
+I705
 sVPower Herb
 p37
-I704
+I706
 sVVenusaurite
 p38
-I705
+I707
 sVCharcoal
 p39
-I706
+I708
 sVLatiosite
 p40
-I707
+I709
 sVAssault Vest
 p41
-I708
+I710
 sVLeftovers
 p42
-I709
+I711
 sVAir Balloon
 p43
-I710
+I712
 sVBlackGlasses
 p44
-I711
+I713
 sVScizorite
 p45
-I712
+I714
 sVSplash Plate
 p46
-I713
+I715
 sVMewtwonite Y
 p47
-I767
+I769
 sVKangaskhanite
 p48
-I715
+I717
 sVMewtwonite X
 p49
-I768
+I770
 sVAbomasite
 p50
-I717
+I719
 sVMawilite
 p51
-I718
+I720
 sVToxic Orb
 p52
-I719
+I721
 sVPetaya Berry
 p53
-I720
+I722
 sVBlue Orb
 p54
-I721
+I723
 sVAudinite
 p55
-I722
+I724
 sVDread Plate
 p56
-I723
+I725
 sVAltarianite
 p57
-I724
+I726
 sVColbur Berry
 p58
-I725
+I727
 sVManectite
 p59
-I726
+I728
 sVPinsirite
 p60
-I727
+I729
 sVLucarionite
 p61
-I672
+I674
 sVBlastoisinite
 p62
-I729
+I731
 sVBlack Sludge
 p63
-I680
+I682
 sVAlakazite
 p64
-I731
+I733
 sVAerodactylite
 p65
-I732
+I734
 sVMind Plate
 p66
-I733
+I735
 sVFlame Orb
 p67
-I734
+I736
 sS'<UNK>'
 p68
-I667
+I669
 sVCharizardite X
 p69
-I735
+I737
 sVCharizardite Y
 p70
-I736
+I738
 sVMetagrossite
 p71
-I737
+I739
 sVHeracronite
 p72
-I738
+I740
 sVEviolite
 p73
-I763
+I765
 sVLife orb
 p74
-I740
+I742
 sVSoft Sand
 p75
-I741
+I743
 sVGardevoirite
 p76
-I742
+I744
 sVSoul Dew
 p77
-I743
+I745
 sVSwampertite
 p78
-I744
+I746
 sVAbsolite
 p79
-I745
+I747
 sVFist Plate
 p80
-I746
+I748
 sVDiancite
 p81
-I747
+I749
 sVMedichamite
 p82
-I748
+I750
 sVSpell Tag
 p83
-I749
+I751
 sVToxic Plate
 p84
-I750
+I752
 sVGyaradosite
 p85
-I751
+I753
 sVHoundoominite
 p86
-I752
+I754
 sVDraco Plate
 p87
-I753
+I755
 sVShed Shell
 p88
-I754
+I756
 sVEarth Plate
 p89
-I755
+I757
 sVLight Clay
 p90
-I756
+I758
 sVSalac Berry
 p91
-I757
+I759
 sVSky Plate
 p92
-I758
+I760
 sVFlame Plate
 p93
-I759
+I761
 sVInsect Plate
 p94
-I760
+I762
 sVAggronite
 p95
-I761
+I763
 sVGalladite
 p96
-I762
+I764
 sVSceptilite
 p97
-I682
+I684
 sVRed Orb
 p98
-I764
+I766
 sVWhite Herb
 p99
-I765
+I767
 sVLiechi Berry
 p100
-I766
+I768
 sVDragon Fang
 p101
-I714
+I716
 sVFocus Sash
 p102
-I716
+I718
 sVChoice Scarf
 p103
-I769
+I771
 sVSilk Scarf
 p104
-I770
+I772
 sVExpert Belt
 p105
-I771
+I773
 sVSlowbronite
 p106
-I772
+I774
 sVSharpedonite
 p107
-I773
+I775
 sVSharp Beak
 p108
-I774
+I776
 sVThick Club
 p109
-I775
+I777
 sVAmpharosite
 p110
-I776
+I778
 sVCoba Berry
 p111
-I777
+I779
 sVSablenite
 p112
-I778
+I780
 sVLustrous Orb
 p113
-I779
+I781
 s.

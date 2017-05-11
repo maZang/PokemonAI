@@ -1,815 +1,818 @@
 (dp0
 VCopycat
 p1
-I397
+I398
 sVPrecipice Blades
 p2
-I398
+I399
 sVRock Tomb
 p3
-I629
+I631
 sVTailwind
 p4
-I399
+I400
 sVShadow Claw
 p5
-I400
+I401
 sVZen Headbutt
 p6
-I401
+I402
 sVSignal Beam
 p7
-I539
+I541
 sVSteel Wing
 p8
-I590
+I592
 sVU-turn
 p9
-I658
+I660
 sVDefog
 p10
-I638
+I640
 sVDragon Claw
 p11
-I404
+I405
 sVDiamond Storm
 p12
-I405
+I406
 sVRock Blast
 p13
-I406
+I407
 sVSeed Flare
 p14
-I407
+I408
 sVPsyshock
 p15
-I408
+I409
 sVFlame Charge
 p16
-I409
+I410
 sVPower Whip
 p17
-I410
+I411
 sVSynthesis
 p18
-I411
+I412
 sVFire Blast
 p19
-I412
+I413
 sVThunder Wave
 p20
-I413
+I414
 sVAgility
 p21
-I414
+I415
 sVReflect
 p22
-I624
+I626
 sVLeaf Blade
 p23
-I416
+I417
 sVBrave Bird
 p24
-I418
+I419
 sVToxic Spikes
 p25
-I419
+I420
 sVLeaf Storm
 p26
-I598
+I600
 sVSpiky Shield
 p27
-I420
+I421
 sVFinal Gambit
 p28
-I421
+I422
 sVIron Head
 p29
-I583
+I585
 sVIce Shard
 p30
-I423
+I424
 sVIce Punch
 p31
-I424
+I425
 sVQuick Attack
 p32
-I425
+I426
 sVGiga Drain
 p33
-I426
+I427
 sVRock Polish
 p34
-I427
+I428
 sVHeal Bell
 p35
-I428
+I429
 sVCoil
 p36
-I429
+I430
 sVPsywave
 p37
-I430
+I431
 sVEarthquake
 p38
-I431
+I432
 sVCalm Mind
 p39
-I432
+I433
 sVAqua Jet
 p40
-I489
+I490
 sVPower-Up Punch
 p41
-I434
+I435
 sVHone Claws
 p42
-I435
+I436
 sVThunder Punch
 p43
-I543
+I545
 sVBullet Punch
 p44
-I437
+I438
 sVElectroweb
 p45
-I439
+I440
 sVRefresh
 p46
-I441
+I442
 sVClose Combat
 p47
-I442
+I443
 sVKing's Shield
 p48
-I443
+I444
 sVPain Split
 p49
-I444
+I445
 sVPlay Rough
 p50
-I445
+I446
 sVTrick Room
 p51
-I446
+I447
 sVIce Fang
 p52
-I447
+I448
 sVSleep Powder
 p53
-I508
+I509
 sVDark Void
 p54
-I501
+I502
 sVGlare
 p55
-I451
+I452
 sVIron Tail
 p56
-I452
+I453
 sVSpore
 p57
-I455
+I456
 sVHaze
 p58
-I456
+I457
 sVRest
 p59
-I457
+I458
 sVSucker Punch
 p60
-I458
+I459
 sVLeech Seed
 p61
-I459
+I460
 sVHidden Power Electric
 p62
-I460
+I461
 sVNasty Plot
 p63
-I461
+I462
 sVFreeze-Dry
 p64
-I462
+I463
 sVDragon Dance
 p65
-I463
+I464
 sVMemento
 p66
-I631
+I633
 sVMoonblast
 p67
-I465
+I466
 sVEndeavor
 p68
-I467
+I468
 sVRecover
 p69
-I468
+I469
 sVHidden Power Ghost
 p70
-I469
+I470
 sVSunny Day
 p71
-I470
+I471
 sVScald
 p72
-I472
+I473
 sVLava Plume
 p73
-I473
+I474
 sVSolar Beam
 p74
-I474
+I475
 sVStealth Rock
 p75
-I475
+I476
 sVThunder
 p76
-I476
+I477
 sVDazzling Gleam
 p77
-I477
+I478
 sVHidden Power Bug
 p78
-I417
+I418
 sVSpacial Rend
 p79
-I479
+I480
 sVDual Chop
 p80
-I480
+I481
 sVWake-Up Slap
 p81
-I449
+I450
 sVHidden Power Fighting
 p82
-I403
+I404
 sVSacred Fire
 p83
-I483
+I484
 sVAcrobatics
 p84
-I484
+I485
 sVBullet Seed
 p85
-I485
+I486
 sVFlamethrower
 p86
-I486
+I487
 sVEnergy Ball
 p87
-I487
+I488
 sVHyper Voice
 p88
-I488
+I489
 sVIcicle Spear
 p89
-I490
+I491
 sVSoft-Boiled
 p90
-I635
+I637
 sVEarth Power
 p91
-I492
+I493
 sVPin Missile
 p92
-I493
+I494
 sVCrabhammer
 p93
-I438
+I439
 sVSnatch
 p94
-I495
+I496
 sVWaterfall
 p95
-I496
+I497
 sVDrain Punch
 p96
-I497
+I498
 sVReversal
 p97
-I498
+I499
 sVWish
 p98
-I637
+I639
 sVDischarge
 p99
-I500
+I501
 sVHidden Power Grass
 p100
-I450
+I451
 sVX-Scissor
 p101
-I502
+I503
 sVDark Pulse
 p102
-I532
+I533
 sVCircle Throw
 p103
-I505
+I506
 sVProtect
 p104
-I506
+I507
 sVSpikes
 p105
-I507
+I508
 sVSkill Swap
 p106
-I510
+I511
 sVHeavy Slam
 p107
-I511
+I512
 sVPerish Song
 p108
-I640
+I642
 sVFacade
 p109
-I664
+I666
 sVGunk Shot
 p110
-I514
+I515
 sVAir Slash
 p111
-I641
+I643
 sVIcy Wind
 p112
-I516
+I517
 sVIcicle Crash
 p113
-I517
+I518
 sVBelly Drum
 p114
-I518
+I519
 sVV-create
 p115
-I519
+I520
 sVAerial Ace
 p116
-I520
+I521
 sVBulldoze
 p117
-I521
+I522
 sVPsycho Shift
 p118
-I522
+I523
 sVStored Power
 p119
-I523
+I524
 sVAqua Tail
 p120
-I524
+I525
 sVShadow Sneak
 p121
-I525
+I526
 sVMorning Sun
 p122
-I526
+I527
 sVNatural Gift
 p123
-I527
+I528
 sVAncient Power
 p124
-I528
+I529
 sVRock Slide
 p125
-I529
+I530
 sVStun Spore
 p126
-I530
+I531
 sVMeteor Mash
 p127
-I531
+I532
 sVMegahorn
 p128
-I621
+I623
 sVSwords Dance
 p129
-I533
+I534
 sVWill-O-Wisp
 p130
-I534
+I536
 sVEndure
 p131
-I645
+I647
 sVPoison Jab
 p132
-I536
+I538
 sVCross Poison
 p133
-I436
+I437
 sVShift Gear
 p134
-I538
+I540
 sVDragon Pulse
 p135
-I402
+I403
 sVFocus Energy
 p136
-I471
+I472
 sVGear Grind
 p137
-I542
+I544
 sVHidden Power
 p138
-I454
+I455
 sVHex
 p139
-I544
+I546
 sVLow Kick
 p140
-I648
+I650
 sVHidden Power Ground
 p141
-I546
+I548
 sVFoul Play
 p142
-I547
+I549
 sVRapid Spin
 p143
-I478
+I479
 sVSleep Talk
 p144
-I549
+I551
 sVMilk Drink
 p145
-I550
+I552
 sS'<UNK>'
 p146
-I396
+I397
 sVSurf
 p147
-I551
+I553
 sVCrunch
 p148
-I552
+I554
 sVDragon Ascent
 p149
-I553
+I555
 sVGyro Ball
 p150
-I554
+I556
 sVShell Smash
 p151
-I560
+I562
 sVTaunt
 p152
-I556
+I558
 sVRoost
 p153
-I557
+I559
 sVDragon Tail
 p154
-I558
+I560
 sVWood Hammer
 p155
-I540
+I542
 sVYawn
 p156
-I555
+I557
 sVFusion Flare
 p157
-I561
+I563
 sVSwitcheroo
 p158
-I562
+I564
 sVLovely Kiss
 p159
-I563
+I565
 sVPayback
 p160
-I564
+I566
 sVDraining Kiss
 p161
-I565
+I567
 sVExplosion
 p162
-I649
+I651
 sVChatter
 p163
-I415
+I416
 sVBolt Strike
 p164
-I607
+I609
 sVFlare Blitz
 p165
-I568
-sVJump Kick
+I570
+sVStruggle
 p166
-I569
+I535
 sVHidden Power Rock
 p167
-I515
+I516
 sVBoomburst
 p168
-I571
+I573
 sVOrigin Pulse
 p169
-I653
+I655
 sVRoar
 p170
-I572
+I574
 sVRelic Song
 p171
-I573
+I575
 sVQuiver Dance
 p172
-I574
+I576
 sVSludge Bomb
 p173
-I575
+I577
 sVFrost Breath
 p174
-I513
+I514
 sVHydro Pump
 p175
-I494
+I495
 sVForesight
 p176
-I448
+I449
 sVBonemerang
 p177
-I578
+I580
 sVDraco Meteor
 p178
-I579
+I581
 sVBug Bite
 p179
-I580
+I582
 sVRain Dance
 p180
-I581
+I583
 sVShadow Punch
 p181
-I582
+I584
 sVPursuit
 p182
-I627
+I629
 sVMoonlight
 p183
-I642
+I644
 sVDrill Run
 p184
-I422
+I423
 sVWhirlwind
 p185
-I584
+I586
 sVBlue Flare
 p186
-I585
+I587
 sVStone Edge
 p187
-I587
+I589
 sVBlizzard
 p188
-I588
+I590
 sVAromatherapy
 p189
-I589
+I591
 sVJudgment
 p190
-I566
+I568
 sVHeat Wave
 p191
-I591
+I593
 sVBaton Pass
 p192
-I644
+I646
 sVAcid Armor
 p193
-I559
+I561
 sVDynamic Punch
 p194
-I593
+I595
 sVSeed Bomb
 p195
-I466
+I467
 sVHammer Arm
 p196
-I595
+I597
 sVNight Slash
 p197
-I596
+I598
 sVFake Out
 p198
-I597
+I599
 sVBulk Up
 p199
-I481
+I482
 sVGrass Knot
 p200
-I599
-sVAura Sphere
+I601
+sVJump Kick
 p201
-I600
+I571
 sVWater Spout
 p202
-I601
+I603
 sVFocus Blast
 p203
-I592
+I594
 sVSuperpower
 p204
-I602
+I604
 sVShadow Force
 p205
-I665
+I667
 sVOverheat
 p206
-I603
+I605
 sVHidden Power Ice
 p207
-I482
-sVMagic Coat
+I483
+sVAura Sphere
 p208
-I605
-sVMuddy Water
+I602
+sVMagic Coat
 p209
-I606
-sVPsychic
+I607
+sVMuddy Water
 p210
-I567
-sVHurricane
-p211
 I608
-sVHigh Jump Kick
+sVPsychic
+p211
+I569
+sVHurricane
 p212
-I615
-sVWild Charge
-p213
 I610
-sVLight Screen
-p214
-I611
-sVSlack Off
-p215
-I659
-sVHealing Wish
-p216
-I613
-sVToxic
-p217
-I614
-sVFiery Dance
-p218
-I504
-sVExtreme Speed
-p219
-I616
-sVFusion Bolt
-p220
+sVHigh Jump Kick
+p213
 I617
-sVGlaciate
-p221
+sVWild Charge
+p214
+I612
+sVLight Screen
+p215
+I613
+sVSlack Off
+p216
+I661
+sVHealing Wish
+p217
+I615
+sVToxic
+p218
+I616
+sVFiery Dance
+p219
+I505
+sVExtreme Speed
+p220
 I618
-sVThunderbolt
+sVFusion Bolt
+p221
+I619
+sVGlaciate
 p222
-I535
-sVIce Beam
-p223
 I620
-sVMagnet Rise
+sVThunderbolt
+p223
+I537
+sVIce Beam
 p224
 I622
-sVSky Attack
+sVMagnet Rise
 p225
-I623
-sVHead Smash
+I624
+sVSky Attack
 p226
-I586
-sVPsycho Boost
-p227
 I625
-sVDisable
+sVHead Smash
+p227
+I588
+sVPsycho Boost
 p228
-I626
-sVBrick Break
+I627
+sVDisable
 p229
-I433
-sVBody Slam
-p230
 I628
-sVCurse
+sVBrick Break
+p230
+I434
+sVBody Slam
 p231
-I594
-sVKnock Off
-p232
 I630
-sVRock Climb
+sVCurse
+p232
+I596
+sVKnock Off
 p233
-I464
-sVSuper Fang
-p234
 I632
-sVMach Punch
+sVRock Climb
+p234
+I465
+sVSuper Fang
 p235
-I633
-sVNight Daze
-p236
 I634
-sVPsystrike
+sVMach Punch
+p236
+I635
+sVNight Daze
 p237
-I491
-sVHidden Power Fire
-p238
 I636
-sVMean Look
+sVPsystrike
+p238
+I492
+sVHidden Power Fire
 p239
-I499
-sVSeismic Toss
+I638
+sVMean Look
 p240
-I503
-sVFire Fang
+I500
+sVSeismic Toss
 p241
-I639
-sVSticky Web
+I504
+sVFire Fang
 p242
-I512
-sVHidden Power Water
+I641
+sVSticky Web
 p243
-I541
-sVShadow Ball
+I513
+sVHidden Power Water
 p244
-I577
-sVDestiny Bond
+I543
+sVShadow Ball
 p245
-I643
-sVOblivion Wing
+I579
+sVDestiny Bond
 p246
-I604
-sVFire Punch
+I645
+sVOblivion Wing
 p247
-I576
-sVLunar Dance
+I606
+sVFire Punch
 p248
-I646
-sVHead Charge
+I578
+sVLunar Dance
 p249
-I647
-sVVolt Switch
+I648
+sVHead Charge
 p250
-I545
-sVReturn
+I649
+sVVolt Switch
 p251
-I619
-sVFocus Punch
+I547
+sVReturn
 p252
-I650
-sVDouble-Edge
+I621
+sVFocus Punch
 p253
-I651
-sVEncore
-p254
 I652
-sVTrick
+sVDouble-Edge
+p254
+I653
+sVEncore
 p255
-I509
-sVBarrier
-p256
 I654
-sVPsycho Cut
+sVTrick
+p256
+I510
+sVBarrier
 p257
-I655
-sVOutrage
-p258
-I548
-sVBug Buzz
-p259
 I656
-sVVacuum Wave
-p260
+sVPsycho Cut
+p258
 I657
-sVGeomancy
+sVOutrage
+p259
+I550
+sVBug Buzz
+p260
+I658
+sVVacuum Wave
 p261
-I609
-sVBounce
+I659
+sVGeomancy
 p262
-I612
-sVFlash Cannon
+I611
+sVBounce
 p263
-I660
-sVAvalanche
+I614
+sVFlash Cannon
 p264
-I661
-sVSecret Sword
-p265
 I662
-sVTri Attack
-p266
-I570
-sVHorn Leech
-p267
-I537
-sVSludge Wave
-p268
+sVAvalanche
+p265
 I663
-sVTail Glow
+sVSecret Sword
+p266
+I664
+sVTri Attack
+p267
+I572
+sVHorn Leech
+p268
+I539
+sVSludge Wave
 p269
-I440
-sVRazor Shell
+I665
+sVTail Glow
 p270
-I453
-sVSubstitute
+I441
+sVRazor Shell
 p271
-I666
+I454
+sVSubstitute
+p272
+I668
 s.

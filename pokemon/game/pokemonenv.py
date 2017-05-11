@@ -10,6 +10,7 @@ from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException
+from selenium.common.exceptions import StaleElementReferenceException
 
 from datautils.const import *
 from datautils.encoding import *
@@ -139,20 +140,23 @@ class PokemonShowdown(Environment):
 			return state[-1]
 		self.actionList = []
 
-		moveCount = 0
-		for move in self.driver.find_elements(By.NAME, 'chooseMove'):
-			if move:
-				self.actionList.append(MOVE_LIST[move.text.split("\n")[0]])
-				moveCount += 1
+		try:
+			moveCount = 0
+			for move in self.driver.find_elements(By.NAME, 'chooseMove'):
+				if move:
+					self.actionList.append(MOVE_LIST[move.text.split("\n")[0]])
+					moveCount += 1
 
-		for pokemon in self.driver.find_elements(By.NAME, 'chooseSwitch'):
-			if pokemon:
-				self.actionList.append(POKEMON_LIST[pokemon.text])
+			for pokemon in self.driver.find_elements(By.NAME, 'chooseSwitch'):
+				if pokemon:
+					self.actionList.append(POKEMON_LIST[pokemon.text])
 
-		# U-Turn parse
-		if moveCount == 0 and len(self.driver.find_elements(By.NAME, 'chooseMove')) > 0:
+			# U-Turn parse
+			if moveCount == 0 and len(self.driver.find_elements(By.NAME, 'chooseMove')) > 0:
+				self.actionList = []
+				return
+		except StaleElementReferenceException as e:
 			self.actionList = []
-			return
 
 		print("Actions found: {}".format(self.actionList))
 
@@ -176,21 +180,22 @@ class PokemonShowdown(Environment):
 
 			action = self.learner.getAction(currentState)
 			self.update(action)
+			# Reset last move matrix
+			self.last_move_data = np.zeros((1, 2))
+			# After a move is clicked, the state is updated, now retrieve next state
+			nextState = self.encodeCurrentState(action)
 			# Check if we won
 			if not self.finished:
 				reward = 0
 			else:
 				reward = 1 if self.winner else -1
-
-			# Reset last move matrix
-			self.last_move_data = np.zeros((1, 2))
-			# After a move is clicked, the state is updated, now retrieve next state
-			nextState = self.encodeCurrentState(action)
+			print(reward)
 			self.learner.update(currentState, action, nextState, reward, np.abs(reward))
 
 			currentState = nextState
 
 			if self.finished:
+				self.learner.updateEpisodeNumber()
 				return
 
 	def wait(self):
@@ -199,11 +204,13 @@ class PokemonShowdown(Environment):
 		'''
 		while True:
 			print("Retrieving actions...")
+			print(self.finished)
 			self.getActions()
-			if len(self.actionList) > 0:
+			if len(self.actionList) > 0 or self.finished:
 				return
 			else:
 				time.sleep(1)
+				self.refresh()
 
 	def update(self, action):
 		'''
@@ -213,18 +220,18 @@ class PokemonShowdown(Environment):
 		print("ID {} received:".format(action))
 		if action in REV_POKEMON_LIST:
 			pokemon = REV_POKEMON_LIST[action]
+			print(pokemon)
 			if '-mega' in pokemon.lower():
 				# Unparse the -Mega
 				pokemon = pokemon.split('-')[0]
 
 			found = False
 			# Scan list of switchable pokemon
-			for pkmn in driver_find_elements(self.driver, By.NAME, 'chooseSwitch'):
+			for pkmn in self.driver.find_elements(By.NAME, 'chooseSwitch'):
 				if pkmn and pkmn.text == pokemon:
 					pkmn.click()
 					found = True
 					break
-			print(driver_find_elements(self.driver, By.CSS_SELECTOR, 'div[class="switchmenu"]'))
 			# List of switchable pokemon was not the pokemon, thus it must be a mega-evolve
 			if not found:
 				print("{}: Megaevolving {}.".format(self.player.username, pokemon))
@@ -237,15 +244,14 @@ class PokemonShowdown(Environment):
 			move = REV_MOVE_LIST[action]
 			idx = None
 			if move in ['Hidden Power', 'Return']:
-				for m in driver_find_elements(self.driver, By.NAME, 'chooseMove'):
-					print(m)
+				for m in self.driver.find_elements(By.NAME, 'chooseMove'):
 					if move in m.text:
 						print("Move was in m.text")
 						# TODO: figure out why this isn't being clicked
 						m.click()
 						break
-					else:
-						driver_find_element(self.driver, By.CSS_SELECTOR, 'button[data-move="{}"]'.format(move)).click()
+			else:
+				driver_find_element(self.driver, By.CSS_SELECTOR, 'button[data-move="{}"]'.format(move)).click()
 			print("{}: Move action received. Using move {}.".format(self.player.username, move))
 		else:
 			raise Exception("ID {} was not a pokemon/move ID".format(move))
@@ -612,8 +618,7 @@ class PokemonShowdown(Environment):
 		assert(len(fields) >= 2)
 
 		# Assigns username of winner
-		winnerUsername = fields[2]
-
+		winnerUsername = fields[2][:-1]
 		if self.player.username == winnerUsername:
 			self.winner = True
 		else:
@@ -666,18 +671,18 @@ def challenge(driver, user=None):
 		while True:
 			try:
 				time.sleep(1.5)
-				driver.find_element(By.NAME, "finduser").click()
+				driver_find_element(driver, By.NAME, "finduser").click()
 				time.sleep(0.5)
-				driver.find_element(By.NAME, "data").clear()
-				driver.find_element(By.NAME, "data").send_keys(user)
-				driver.find_element(By.CSS_SELECTOR, 'button[type="submit"]').click()
+				driver_find_element(driver, By.NAME, "data").clear()
+				driver_find_element(driver, By.NAME, "data").send_keys(user)
+				driver_find_element(driver, By.CSS_SELECTOR, 'button[type="submit"]').click()
 				time.sleep(0.5)
-				driver.find_element(By.NAME, "challenge").click()
-				driver.find_element(By.CSS_SELECTOR, 'button[class="select formatselect"]').click()
-				driver.find_element(By.CSS_SELECTOR, 'button[value="battlefactory"]').click()
-				driver.find_element(By.NAME, "makeChallenge").click()
+				driver_find_element(driver, By.NAME, "challenge").click()
+				driver_find_element(driver, By.CSS_SELECTOR, 'button[class="select formatselect"]').click()
+				driver_find_element(driver, By.CSS_SELECTOR, 'button[value="battlefactory"]').click()
+				driver_find_element(driver, By.NAME, "makeChallenge").click()
 				time.sleep(0.5)
-				driver.find_element(By.CSS_SELECTOR, 'button[value="0"]').click()
+				driver_find_element(driver, By.CSS_SELECTOR, 'button[value="0"]').click()
 			except (NoSuchElementException,AttributeError) as e:
 				time.sleep(0.5)
 				driver_find_element(driver, By.NAME, "close", 10).click()
