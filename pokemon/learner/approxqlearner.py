@@ -60,17 +60,25 @@ class ExperienceReplay(object):
 		return np.array(terminals)
 
 	def sample(self, batch_size, num_steps):
-		sampled_episodes = np.random.choice(self.buffer, batch_size)
+		sampled_episodes = np.random.choice(len(self.buffer), batch_size)
 		sampled_traces = [[] for _ in range(5)]
-		for ep in sampled_episodes:
+		for ep_num in sampled_episodes:
+			ep = self.buffer[ep_num]
 			point = np.random.randint(0,len(ep)+1-num_steps)
-			episode_sequence = zip(*ep[point:point+num_steps])
+			episode_sequence = list(zip(*ep[point:point+num_steps]))
 			sampled_traces[0].append(self.process_states(episode_sequence[0]))
 			sampled_traces[1].append(self.process_actions(episode_sequence[1]))
 			sampled_traces[2].append(self.process_states(episode_sequence[2]))
 			sampled_traces[3].append(self.process_rewards(episode_sequence[3]))
 			sampled_traces[4].append(self.process_terminal(episode_sequence[4]))
-		return [np.concatenate(l, axis=0) for l in sampled_traces]
+		final_sample = [
+			self.process_states(sampled_traces[0]),
+			self.process_actions(sampled_traces[1]),
+			self.process_states(sampled_traces[2]),
+			self.process_rewards(sampled_traces[3]),
+			self.process_terminal(sampled_traces[4])
+		]
+		return final_sample
 
 class AIConfig(object):
 	startE = 1.0
@@ -173,6 +181,11 @@ class PokemonShowdownAI(QLearner):
 			network.num_steps : num_steps,
 		}
 		feed_dict = {**feed_dict1, **feed_dict2, **feed_dict3}
+		for item in feed_dict.items():
+			try:
+				print(item[0], item[1].shape)
+			except:
+				print(item[0])
 		return feed_dict
 
 	def getAction(self, state):
@@ -183,21 +196,28 @@ class PokemonShowdownAI(QLearner):
 		'''
 		feed_dict = self.create_feed_dict(self.state_processer(state), self.mainQN, init_state=self.current_state)
 		if random.random() < self.epsilon:
+			print('RANDOM ACTION')
 			next_state = self.sess.run(self.mainQN.final_state, feed_dict=feed_dict)
 			actions = self.environment.getActions(state).flatten()
 			action = np.random.choice(actions[actions > 0])
 		else:
-			action, next_state = self.sess.run([self.mainQN.predictions, self.mainQN.final_state],
+			print('OPTIMAL ACTION')
+			action, next_state, filtered_q= self.sess.run([self.mainQN.predictions, self.mainQN.final_state,
+				self.mainQN.filtered_q],
 				feed_dict=feed_dict)
+			print(filtered_q)
 			action = action[0]
 		self.current_state = next_state
 		return action
 
 
 	def train_batch(self):
+		print('TRAINING BATCH')
 		self.update_target()
 		training_batch = self.replay.sample(self.config.batch_size, self.config.num_steps)
-		batch_size = training_batch[2][0].shape[0]
+		print('TRAINING BATCH 2')
+		print(training_batch[2])
+		batch_size = int(training_batch[2][0].shape[0] / self.config.num_steps)
 		init_state = self.mainQN.init_hidden_state(batch_size)
 		# run both networks
 		feed_dict_main = self.create_feed_dict(training_batch[2], self.mainQN, init_state=init_state,
