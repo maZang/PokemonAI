@@ -70,6 +70,9 @@ class PokemonShowdown(Environment):
 		self.other_data = np.zeros((1, NON_EMBEDDING_DATA))
 		self.last_move_data = np.zeros((1, 2))
 
+	def pad(self, actionList):
+		return actionList + [0] * (MAX_ACTIONS - len(actionList))
+
 	def encodeCurrentState(self, action=None):
 		'''
 		Encode the current state of the environment.
@@ -91,7 +94,7 @@ class PokemonShowdown(Environment):
 		if self.opponentLastMove:
 			self.last_move_data[0][1] = self.opponentLastMove
 
-		return [np.copy(pokemon) for pokemon in self.pokemon] + [np.copy(self.other_data)] + [np.copy(self.last_move_data)] + [np.array(self.actionList).reshape(1,-1)]
+		return [np.copy(pokemon) for pokemon in self.pokemon] + [np.copy(self.other_data)] + [np.copy(self.last_move_data)] + [np.array(self.pad(self.actionList)).reshape(1,-1)]
 
 	def pullMega(self):
 		# Pull mega if exists
@@ -101,7 +104,7 @@ class PokemonShowdown(Environment):
 		if self.driver.find_elements(By.NAME, 'megaevo'):
 			currPokemon = self.player.currentPokemon.species
 			if currPokemon in ['Charizard', 'Mewtwo'] and self.player.currentPokemon.item:
-				currPokemon += '-Mega-' + currPokemon.item[-1]
+				currPokemon += '-Mega-' + self.player.currentPokemon.currPokemon.item[-1]
 			else:
 				currPokemon += '-Mega'
 			self.actionList[-1] = POKEMON_LIST[currPokemon]
@@ -199,6 +202,7 @@ class PokemonShowdown(Environment):
 			if not self.finished:
 				reward = 0
 			else:
+				print(nextState)
 				reward = 1 if self.winner else -1
 			print(reward)
 			self.learner.update(currentState, action, nextState, reward, np.abs(reward))
@@ -754,6 +758,11 @@ def runAgainstItself(isOpponent=False):
 			time.sleep(0.5)
 			challenge(driver, user=PokemonShowdownConfigSelfPlay().user)
 		else:
-			driver.find_element(By.NAME, "closeRoom").click()
+			while True:
+				try:
+					driver.find_element(By.NAME, "closeRoom").click()
+				except:
+					continue 
+				break
 			time.sleep(0.5)
 			challenge(driver)
