@@ -11,6 +11,8 @@ OUTPUT_POKE_DICT2 = 'data/info/pokemon2.p'
 OUTPUT_MOVE_DICT2 = 'data/info/move2.p'
 OUTPUT_ITEM_DICT2 = 'data/info/item2.p'
 
+OUTPUT_MOVE_ENV_DICT = 'data/info/move_env.p'
+OUTPUT_ITEM_ENV_DICT = 'data/info/item_env.p'
 
 pokemon = set([])
 moves = set([])
@@ -46,6 +48,23 @@ move_dict = {move:(i+1+len(pokemon_dict)) for i,move in enumerate(moves)}
 move_dict['<UNK>'] = len(pokemon_dict)
 item_dict = {item:(i+1+len(pokemon_dict)+len(move_dict)) for i,item in enumerate(items)}
 item_dict['<UNK>'] = len(pokemon_dict) + len(move_dict)
+
+# ENV Stuff
+move_env_dict = {}
+item_env_dict = {}
+
+for k, v in move_dict.items():
+	if k == "<UNK>":
+		move_env_dict[k] = v
+	else:
+		move_env_dict[k.lower().replace("-", "").replace(" ", "").replace("'", "")] = v
+
+for k, v in item_dict.items():
+	if k == "<UNK>":
+		item_env_dict[k] = v
+	else:
+		item_env_dict[k.lower().replace("-", "").replace(" ", "").replace("'", "")] = v
+
 with open(OUTPUT_POKE_DICT, 'wb') as f:
 	pickle.dump(pokemon_dict, f)
 with open(OUTPUT_MOVE_DICT, 'wb') as f:
@@ -59,3 +78,8 @@ with open(OUTPUT_MOVE_DICT2, 'wb') as f:
 	pickle.dump(move_dict, f, protocol=2)
 with open(OUTPUT_ITEM_DICT2, 'wb') as f:
 	pickle.dump(item_dict, f, protocol=2)
+
+with open(OUTPUT_MOVE_ENV_DICT, 'wb') as f:
+	pickle.dump(move_env_dict, f)
+with open(OUTPUT_ITEM_ENV_DICT, 'wb') as f:
+	pickle.dump(item_env_dict, f)
