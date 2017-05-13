@@ -64,7 +64,7 @@ class PokemonShowdown(Environment):
 		self.opponent = Player()
 		self.opponentLastMove = 0
 		self.winner = False
-		self.finished = False 
+		self.finished = False
 		self.turnNumber = -1
 		self.pokemon = [np.zeros((1, POKE_DESCRIPTOR_SIZE)) for _ in range(12)]
 		self.other_data = np.zeros((1, NON_EMBEDDING_DATA))
@@ -697,6 +697,13 @@ def challenge(driver, user=None):
 				driver_find_element(driver, By.CSS_SELECTOR, 'button[value="battlefactory"]').click()
 				driver_find_element(driver, By.NAME, "makeChallenge").click()
 				time.sleep(0.5)
+
+				for pokemon in driver_find_elements(driver, By.NAME, "chooseTeamPreview"):
+					if pokemon.text == 'Zoroark':
+						for elem in driver_find_elements(driver, By.NAME, "chooseTeamPreview"):
+							elem.click()
+						break
+
 				driver_find_element(driver, By.CSS_SELECTOR, 'button[value="0"]').click()
 			except (NoSuchElementException,AttributeError) as e:
 				time.sleep(0.5)
@@ -715,6 +722,13 @@ def challenge(driver, user=None):
 				continue
 			break
 		time.sleep(0.5)
+
+		for pokemon in driver_find_elements(driver, By.NAME, "chooseTeamPreview"):
+			if pokemon.text == 'Zoroark':
+				for elem in driver_find_elements(driver, By.NAME, "chooseTeamPreview"):
+					elem.click()
+				break
+
 		driver.find_element(By.CSS_SELECTOR, 'button[value="0"]').click()
 		time.sleep(0.5)
 
@@ -762,7 +776,7 @@ def runAgainstItself(isOpponent=False):
 				try:
 					driver.find_element(By.NAME, "closeRoom").click()
 				except:
-					continue 
+					continue
 				break
 			time.sleep(0.5)
 			challenge(driver)
