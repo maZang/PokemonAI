@@ -227,11 +227,11 @@ class PokemonShowdownAI(QLearner):
 				num_steps=self.config.num_steps)
 		Q2_target = self.sess.run(self.targetQN.q_out, feed_dict=feed_dict_target)
 
-		finished = (1. - training_batch[:,4])
-		targetQ = training_batch[:, 2] + (self.config.discount * Q2_target[self.config.batch_size * self.config.num_steps, Q1_actions] * finished)
+		finished = (1. - training_batch[4])
+		targetQ = training_batch[2] + (self.config.discount * Q2_target[self.config.batch_size * self.config.num_steps, Q1_actions] * finished)
 		feed_dict3 = {
 			self.mainQN.targgetQ : targetQ,
-			self.mainQN.action_placeholder : training_batch[:,1]
+			self.mainQN.action_placeholder : training_batch[1]
 		}
 		feed_dict_train = self.create_feed_dict(training_batch[0], self.mainQN, init_state=init_state,
 				num_steps=self.config.num_steps, feed_dict3=feed_dict3)
