@@ -53,6 +53,8 @@ class PokemonAINetwork(object):
 		Applies all the conv layers to retrive a final Memory layer of shape
 		[batch_size, number_steps, hidden_size]
 		'''
+		with tf.variable_scope('Split'):
+			splits = tf.split(self.x_data_placeholder, self.config.num_concat, 1)
 		with tf.variable_scope('PokeConvNet'):
 			# Conv net layer that uses kernels of different widths to get average representations
 			self.embedding_inputs = [tf.expand_dims(embedding_input,-1) for embedding_input in self.embedding_inputs]
@@ -63,18 +65,19 @@ class PokemonAINetwork(object):
 				conv_layers = [tf.nn.conv2d(embedding_input,conv_filter,strides=[1,1,1,1],padding='VALID')
 								for embedding_input in self.embedding_inputs]
 				new_height = self.config.poke_descriptor_size - kernel_height + 1
-				pools = [tf.nn.max_pool(tf.tanh(conv), [1,new_height,1,1], [1,1,1,1], 'VALID') for conv in conv_layers]
+				pools = [tf.nn.max_pool(tf.nn.relu(conv), [1,new_height,1,1], [1,1,1,1], 'VALID') for conv in conv_layers]
 				[layer.append(tf.squeeze(pool, [1,2])) for layer,pool in zip(layers,pools)]
 			conv_outputs = [tf.concat(layer,1) for layer in layers] # each output is of size [None,sum(feature_maps)]
+			conv_outputs = [tf.stack((layer,split),axis=1) for layer,split in zip(layers,splits)]
 		with tf.variable_scope('OwnTeamConvNet'):
 			own_player_conv = tf.expand_dims(tf.stack(conv_outputs[:6], axis=1), -1)
 			layers = []
 			for idx,kernel_height in enumerate(self.config.kernels_team):
 				conv_filter = tf.get_variable('OwnTeamKernelHeight' + str(kernel_height),
-								shape=(kernel_height,np.sum(self.config.feature_maps_poke),1,self.config.feature_maps_team[idx]))
+								shape=(kernel_height,np.sum(self.config.feature_maps_poke)+1,1,self.config.feature_maps_team[idx]))
 				conv_layer = tf.nn.conv2d(own_player_conv,conv_filter,strides=[1,1,1,1],padding='VALID')
 				new_height = 6 - kernel_height + 1
-				pool = tf.nn.max_pool(tf.tanh(conv_layer),[1,new_height,1,1],[1,1,1,1],'VALID')
+				pool = tf.nn.max_pool(tf.nn.relu(conv_layer),[1,new_height,1,1],[1,1,1,1],'VALID')
 				layers.append(tf.squeeze(pool, [1,2]))
 			own_team_output = tf.concat(layers, 1)
 		with tf.variable_scope('OppTeamConvNet'):
@@ -82,18 +85,16 @@ class PokemonAINetwork(object):
 			layers = []
 			for idx,kernel_height in enumerate(self.config.kernels_team):
 				conv_filter = tf.get_variable('OppTeamKernelHeight' + str(kernel_height),
-								shape=(kernel_height,np.sum(self.config.feature_maps_poke),1,self.config.feature_maps_team[idx]))
+								shape=(kernel_height,np.sum(self.config.feature_maps_poke)+1,1,self.config.feature_maps_team[idx]))
 				conv_layer = tf.nn.conv2d(own_player_conv,conv_filter,strides=[1,1,1,1],padding='VALID')
 				new_height = 6 - kernel_height + 1
-				pool = tf.nn.max_pool(tf.tanh(conv_layer),[1,new_height,1,1],[1,1,1,1],'VALID')
+				pool = tf.nn.max_pool(tf.nn.relu(conv_layer),[1,new_height,1,1],[1,1,1,1],'VALID')
 				layers.append(tf.squeeze(pool, [1,2]))
 			opp_team_output = tf.concat(layers, 1)
 		with tf.variable_scope('HighwayNet'):
-			concat_data = tf.reshape(self.x_data_placeholder,(-1,self.config.number_non_embedding))
 			last_move_concat = tf.reshape(self.last_move_embeddings, (-1, self.config.last_move_data*self.config.embedding_size))
-			output = tf.concat([own_team_output,opp_team_output,concat_data,last_move_concat], 1)
-			highway_size = 2 * sum(self.config.feature_maps_team) + self.config.number_non_embedding +\
-							 self.config.last_move_data*self.config.embedding_size
+			output = tf.concat([own_team_output,opp_team_output,last_move_concat], 1)
+			highway_size = 2 * sum(self.config.feature_maps_team) + self.config.last_move_data*self.config.embedding_size
 			w_t = tf.get_variable('weight_transform', shape=(highway_size,highway_size))
 			b_t = tf.get_variable('bias_transform', shape=(highway_size,))
 			transform = tf.sigmoid(tf.matmul(output, w_t) + b_t)
@@ -115,9 +116,14 @@ class PokemonAINetwork(object):
 			rnn_output, self.final_state = tf.nn.dynamic_rnn(stacked_cell,lstm_input,initial_state=tuple_state)
 			rnn_output = tf.reshape(rnn_output,shape=(-1,self.config.memory_layer_size))
 		with tf.variable_scope('OutputQ'):
-			score_w = tf.get_variable('score_w', shape=(self.config.memory_layer_size, self.config.number_classes))
-			score_b = tf.get_variable('score_b', shape=(self.config.number_classes,))
-			self.q_out = tf.tanh(tf.matmul(rnn_output, score_w) + score_b)
+			streamA,streamV = tf.split(self.rnn_output,2,1)
+			AW = tf.get_variable('AW', shape=(self.config.memory_layer_size//2, self.config.number_classes))
+			VW = tf.get_variable('VW', shape=(self.config.memory_layer_size//2, 1))
+			Ab = tf.get_variable('Ab', shape=(self.config.number_classes,))
+			Vb = tf.get_variable('Vb', shape=(1,))
+			advantage = tf.matmul(streamA,AW) + Ab
+			value = tf.matmul(steamV,VW) + Vb 
+			self.q_out = value + tf.subtract(advantage, tf.reduce_mean(advantage,axis=1,keep_dims=True))
 
 	def _add_loss(self):
 		possible_actions = tf.squeeze(tf.slice(self.possible_actions_placeholder, [0,0,1], [-1,-1,-1]), axis=2)

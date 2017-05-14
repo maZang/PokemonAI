@@ -95,6 +95,8 @@ class AIConfig(object):
 	poke_descriptor_size = const.POKE_DESCRIPTOR_SIZE # poke id, 4 move ids, item id, status id
 	number_non_embedding = const.NON_EMBEDDING_DATA
 	number_classes = const.NUMBER_CLASSES
+	num_concat = const.NUM_POKE
+	concat_meta_size = const.NON_EMBEDDING_DATA
 	last_move_data = const.LAST_MOVE_DATA
 	max_actions = const.MAX_ACTIONS
 	learning_rate = 1e-3
@@ -120,7 +122,7 @@ class PokemonShowdownAI(QLearner):
 	both experience replay and a target approximation function
 	'''
 
-	def __init__(self, environment, state_processer, network, replayArgs, qlearner_config, name, load_model=True):
+	def __init__(self, environment, state_processer, network, replayArgs, qlearner_config, name, load_model=False):
 		tf.reset_default_graph() # just in case
 		self.environment = environment
 		self.state_processer = state_processer
@@ -213,11 +215,8 @@ class PokemonShowdownAI(QLearner):
 
 
 	def train_batch(self):
-		print('TRAINING BATCH')
 		self.update_target()
 		training_batch = self.replay.sample(self.config.batch_size, self.config.num_steps)
-		print('TRAINING BATCH 2')
-		print(training_batch[2])
 		batch_size = int(training_batch[2][0].shape[0] / self.config.num_steps)
 		init_state = self.mainQN.init_hidden_state(batch_size)
 		# run both networks
