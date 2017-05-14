@@ -505,11 +505,13 @@ class PokemonShowdown(Environment):
 			assert(len(pokemon.moves) <= 4)
 
 	def processFail(self, line):
+		print(self.lastMovePlayer)
 		if self.lastMovePlayer == self.player.name:
 			print("Last move failed.")
 			self.lastMoveFailed = True
 
 	def processImmune(self, line):
+		print(self.lastMovePlayer)
 		if self.lastMovePlayer == self.player.name:
 			print("Last move immune.")
 			self.lastMoveFailed = True
@@ -558,7 +560,7 @@ class PokemonShowdown(Environment):
 		matches = re.search("\|-damage\|(p[12])a:\s+([^|]+)\|([\d]+)", line).groups()
 		player = matches[0]
 		nickname = matches[1]
-		health = matches[2].split('/')[0]
+		health = int(matches[2].split('/')[0])
 
 		if player == self.opponent.name:
 			pokemon = self.opponent.getPokemonByNickname(nickname)
