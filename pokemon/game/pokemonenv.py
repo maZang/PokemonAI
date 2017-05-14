@@ -419,6 +419,9 @@ class PokemonShowdown(Environment):
 				self.prefixHandler("Gourgeist", species)
 			elif "Genesect" in species:
 				self.prefixHandler("Genesect", species)
+			elif "Gourgeist-Small" == species:
+				print("Species is Gourgeist-Small.")
+				self.prefixHandler("Gourgeist", species)
 
 			pokemon = self.opponent.getPokemonBySpecies(species)
 
@@ -446,6 +449,9 @@ class PokemonShowdown(Environment):
 				self.prefixHandler("Gourgeist", species)
 			elif "Genesect" in species:
 				self.prefixHandler("Genesect", species)
+			elif "Gourgeist-Small" == species:
+				print("Species is Gourgeist-Small.")
+				self.prefixHandler("Gourgeist", species)
 
 			pokemon = self.opponent.getPokemonBySpecies(species)
 
