@@ -491,7 +491,8 @@ class PokemonShowdown(Environment):
 		nickname = matches[1]
 		move = matches[2].lower().replace("-", "").replace(" ", "").replace("'", "")
 
-		self.lastMovePlayer = player
+		if "[from]Magic Bounce" not in line:
+			self.lastMovePlayer = player
 
 		if player == self.opponent.name:
 			self.opponentLastMove = MOVE_ENV_LIST[move]
