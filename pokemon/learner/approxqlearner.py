@@ -81,14 +81,14 @@ class ExperienceReplay(object):
 		return final_sample
 
 class AIConfig(object):
-	startE = 1.0
-	endE = 0.1
+	startE = 0.7
+	endE = 0.25
 	save_path = 'data/models/pokemon_ai/'
 	update_steps = 10
-	tau = 0.001 # update rate for target network
+	tau = 0.005 # update rate for target network
 	discount = 1.0
 	pre_train_steps = 0
-	annealing_steps = 10000
+	annealing_steps = 500
 	save_steps = 10
 	# network parameters
 	embedding_size = 300
@@ -120,7 +120,7 @@ class PokemonShowdownAI(QLearner):
 	both experience replay and a target approximation function
 	'''
 
-	def __init__(self, environment, state_processer, network, replayArgs, qlearner_config, name, load_model=False):
+	def __init__(self, environment, state_processer, network, replayArgs, qlearner_config, name, load_model=True):
 		tf.reset_default_graph() # just in case
 		self.environment = environment
 		self.state_processer = state_processer
@@ -147,13 +147,14 @@ class PokemonShowdownAI(QLearner):
 		if not os.path.exists(self.save_path):
 			os.makedirs(self.save_path)
 		if load_model:
+			print('Getting Checkpoint')
 			checkpoint = tf.train.get_checkpoint_state(self.save_path)
 			self.saver.restore(self.sess,checkpoint.model_checkpoint_path)
 		init = tf.global_variables_initializer()
 		self.sess.run(init)
 		# other variable initialization
 		self.epsilon = qlearner_config.startE
-		self.stepE = (qlearner_config.startE - qlearner_config.endE) - qlearner_config.annealing_steps
+		self.stepE = (qlearner_config.startE - qlearner_config.endE) / qlearner_config.annealing_steps
 		self.reward_list = []
 		self.update_target()
 
@@ -227,11 +228,11 @@ class PokemonShowdownAI(QLearner):
 				num_steps=self.config.num_steps)
 		Q2_target = self.sess.run(self.targetQN.q_out, feed_dict=feed_dict_target)
 
-		finished = (1. - training_batch[4])
-		targetQ = training_batch[2] + (self.config.discount * Q2_target[self.config.batch_size * self.config.num_steps, Q1_actions] * finished)
+		finished = (1. - training_batch[4]).reshape((-1,))
+		targetQ = training_batch[3].reshape((-1,)) + (self.config.discount * Q2_target[range(batch_size * self.config.num_steps), Q1_actions] * finished)
 		feed_dict3 = {
-			self.mainQN.targgetQ : targetQ,
-			self.mainQN.action_placeholder : training_batch[1]
+			self.mainQN.targetQ_placeholder : targetQ,
+			self.mainQN.action_placeholder : training_batch[1].reshape((-1,))
 		}
 		feed_dict_train = self.create_feed_dict(training_batch[0], self.mainQN, init_state=init_state,
 				num_steps=self.config.num_steps, feed_dict3=feed_dict3)
