@@ -210,18 +210,16 @@ class PokemonShowdown(Environment):
 			# After a move is clicked, the state is updated, now retrieve next state
 			nextState = self.encodeCurrentState(action)
 			# Check if we won
-			if not self.finished:
-				if self.lastMoveFailed:
-					reward = -0.01
-				elif self.playerKnockout:
-					reward = 0.1
-				else:
-					reward = 0
-				self.lastMoveFailed = False
-				self.playerKnockout = False
-			else:
+			reward = 0
+			if self.lastMoveFailed:
+				reward += -0.01
+			if self.playerKnockout:
+				reward += 0.1
+			self.lastMoveFailed = False
+			self.playerKnockout = False
+			if self.finished:
 				print(nextState)
-				reward = 1 if self.winner else -1
+				reward += (1 if self.winner else -1)
 			print(reward)
 			self.learner.update(currentState, action, nextState, reward, np.abs(reward))
 
