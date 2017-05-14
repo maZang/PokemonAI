@@ -48,7 +48,15 @@ class PokemonShowdown(Environment):
 		self.player = Player(username=username)
 		self.opponent = Player()
 
+		# Player that made the most recent move
+		self.lastMovePlayer = ""
+		# If the most recent move failed
+		self.lastMoveFailed = False
+
 		self.opponentLastMove = 0
+
+		# If the player knocks an opponent pokemon out
+		self.playerKnockout = False
 
 		self.winner = False
 		self.finished = False
@@ -62,7 +70,10 @@ class PokemonShowdown(Environment):
 	def setNewEpisode(self):
 		self.player = Player(username=self.player.username)
 		self.opponent = Player()
+		self.lastMovePlayer = ""
+		self.lastMoveFailed = False
 		self.opponentLastMove = 0
+		self.playerKnockout = False
 		self.winner = False
 		self.finished = False
 		self.turnNumber = -1
@@ -200,7 +211,14 @@ class PokemonShowdown(Environment):
 			nextState = self.encodeCurrentState(action)
 			# Check if we won
 			if not self.finished:
-				reward = 0
+				if self.lastMoveFailed:
+					reward = -0.01
+				elif self.playerKnockout:
+					reward = 0.1
+				else:
+					reward = 0
+				self.lastMoveFailed = False
+				self.playerKnockout = False
 			else:
 				print(nextState)
 				reward = 1 if self.winner else -1
@@ -304,6 +322,10 @@ class PokemonShowdown(Environment):
 			self.processReplace(line)
 		elif line.startswith("|move|"):
 			self.processMove(line)
+		elif line.startswith("|-fail|"):
+			self.processFail(line)
+		elif line.startswith("|-immune|"):
+			self.processImmune(line)
 		elif line.startswith("|-mega|"):
 			self.processMega(line)
 		elif line.startswith("|detailschange|"):
@@ -388,6 +410,9 @@ class PokemonShowdown(Environment):
 				self.prefixHandler("Gourgeist", species)
 			elif "Genesect" in species:
 				self.prefixHandler("Genesect", species)
+			elif "Gourgeist-Small" == species:
+				print("Species is Gourgeist-Small.")
+				self.prefixHandler("Gourgeist", species)
 
 			pokemon = self.opponent.getPokemonBySpecies(species)
 
@@ -416,6 +441,9 @@ class PokemonShowdown(Environment):
 				self.prefixHandler("Gourgeist", species)
 			elif "Genesect" in species:
 				self.prefixHandler("Genesect", species)
+			elif "Gourgeist-Small" == species:
+				print("Species is Gourgeist-Small.")
+				self.prefixHandler("Gourgeist", species)
 
 			pokemon = self.opponent.getPokemonBySpecies(species)
 
@@ -443,6 +471,9 @@ class PokemonShowdown(Environment):
 				self.prefixHandler("Gourgeist", species)
 			elif "Genesect" in species:
 				self.prefixHandler("Genesect", species)
+			elif "Gourgeist-Small" == species:
+				print("Species is Gourgeist-Small.")
+				self.prefixHandler("Gourgeist", species)
 
 			pokemon = self.opponent.getPokemonBySpecies(species)
 
@@ -462,6 +493,8 @@ class PokemonShowdown(Environment):
 		nickname = matches[1]
 		move = matches[2].lower().replace("-", "").replace(" ", "").replace("'", "")
 
+		self.lastMovePlayer = player
+
 		if player == self.opponent.name:
 			self.opponentLastMove = MOVE_ENV_LIST[move]
 
@@ -472,6 +505,16 @@ class PokemonShowdown(Environment):
 				pokemon.moves.add(move)
 
 			assert(len(pokemon.moves) <= 4)
+
+	def processFail(self, line):
+		if self.lastMovePlayer == self.player.name:
+			print("Last move failed.")
+			self.lastMoveFailed = True
+
+	def processImmune(self, line):
+		if self.lastMovePlayer == self.player.name:
+			print("Last move immune.")
+			self.lastMoveFailed = True
 
 	def processMega(self, line):
 		matches = re.search("\|-mega\|(p[12])a:\s+([^|]+)\|([^|]+)\|(.+)", line).groups()
@@ -522,6 +565,9 @@ class PokemonShowdown(Environment):
 		if player == self.opponent.name:
 			pokemon = self.opponent.getPokemonByNickname(nickname)
 			pokemon.health = health
+			if health == 0:
+				print("Player knocked opponent pokemon out.")
+				self.playerKnockout = True
 
 	def processItemFromMove(self, line):
 		matches = re.search("\|-item\|(p[12])a:\s+([^|]+)\|([^|]+)", line).groups()
