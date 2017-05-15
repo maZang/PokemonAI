@@ -52,8 +52,8 @@ class PokemonShowdown(Environment):
 		self.lastMovePlayer = ""
 		# If the most recent move failed
 		self.lastMoveFailed = False
-		# If the player flinched
-		self.playerFlinched = False
+		# If the player move failed due to par, slp, taunt, flinch, etc.
+		self.playerCantMove = False
 
 		self.opponentLastMove = 0
 
@@ -75,7 +75,7 @@ class PokemonShowdown(Environment):
 
 		self.lastMovePlayer = ""
 		self.lastMoveFailed = False
-		self.playerFlinched = False
+		self.playerCantMove = False
 
 		self.opponentLastMove = 0
 
@@ -230,7 +230,7 @@ class PokemonShowdown(Environment):
 			self.lastMoveFailed = False
 			self.playerKnockout = False
 
-			self.playerFlinched = False
+			self.playerCantMove = False
 
 			if self.finished:
 				print(nextState)
@@ -530,9 +530,9 @@ class PokemonShowdown(Environment):
 		nickname = matches[1]
 		reason = matches[2]
 
-		if player == self.player.name and reason == "flinch":
-			print("Player was flinched.")
-			self.playerFlinched = True
+		if player == self.player.name:
+			print("Player failed to use move (flinch, slp, par, taunt, etc)")
+			self.playerCantMove = True
 
 	def processFail(self, line):
 		if self.lastMovePlayer == self.player.name:
