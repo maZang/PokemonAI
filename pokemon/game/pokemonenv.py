@@ -151,6 +151,7 @@ class PokemonShowdown(Environment):
 		self.pokemonEncoding[0][idx] = encodeEnvPokemonObject(currentPokemon)
 
 		i = 1
+		print(player.pokemon)
 		for pokemon in player.pokemon:
 			if pokemon == currentPokemon:
 				continue
@@ -212,7 +213,7 @@ class PokemonShowdown(Environment):
 			# Check if we won
 			reward = 0
 			if self.lastMoveFailed:
-				reward += -0.01
+				reward += -0.1
 			if self.playerKnockout:
 				reward += 0.1
 			self.lastMoveFailed = False

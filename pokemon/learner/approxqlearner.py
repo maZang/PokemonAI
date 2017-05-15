@@ -91,7 +91,7 @@ class AIConfig(object):
 	annealing_steps = 500
 	save_steps = 10
 	# network parameters
-	embedding_size = 300
+	embedding_size = 400
 	poke_descriptor_size = const.POKE_DESCRIPTOR_SIZE # poke id, 4 move ids, item id, status id
 	number_non_embedding = const.NON_EMBEDDING_DATA
 	number_classes = const.NUMBER_CLASSES
@@ -103,18 +103,18 @@ class AIConfig(object):
 	lower_bound = -100
 	max_epochs = 10
 	early_stop = 2
-	dropout = 1.0
+	dropout = 0.5
 	batch_size = 64
-	memory_layer_size = 500
+	memory_layer_size = 1000
 	memory_layer_depth = 3
 	number_pokemon = const.NUMBER_POKEMON
 	number_moves = const.NUMBER_MOVES
 	number_items = const.NUMBER_ITEMS
 	number_status = len(const.STATUS_EFFECTS)
 	kernels_poke=[1,2,3,4,5,6,7]
-	feature_maps_poke=[10,20,30,30,30,30,30]
+	feature_maps_poke=[20,30,40,40,40,40,40]
 	kernels_team=[1,2,3,4,5,6]
-	feature_maps_team=[10,20,30,30,30,30]
+	feature_maps_team=[20,30,40,50,60,60]
 	num_steps = 8
 
 class PokemonShowdownAI(QLearner):
@@ -123,7 +123,7 @@ class PokemonShowdownAI(QLearner):
 	both experience replay and a target approximation function
 	'''
 
-	def __init__(self, environment, state_processer, network, replayArgs, qlearner_config, name, load_model=False):
+	def __init__(self, environment, state_processer, network, replayArgs, qlearner_config, name, load_model=True):
 		tf.reset_default_graph() # just in case
 		self.environment = environment
 		self.state_processer = state_processer
