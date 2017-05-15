@@ -115,7 +115,7 @@ class PokemonShowdown(Environment):
 		if self.driver.find_elements(By.NAME, 'megaevo'):
 			currPokemon = self.player.currentPokemon.species
 			if currPokemon in ['Charizard', 'Mewtwo'] and self.player.currentPokemon.item:
-				currPokemon += '-Mega-' + self.player.currentPokemon.item[-1]
+				currPokemon += '-Mega-' + self.player.currentPokemon.item[-1].upper()
 			else:
 				currPokemon += '-Mega'
 			self.actionList[-1] = POKEMON_LIST[currPokemon]
