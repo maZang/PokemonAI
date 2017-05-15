@@ -123,7 +123,7 @@ class PokemonShowdownAI(QLearner):
 	both experience replay and a target approximation function
 	'''
 
-	def __init__(self, environment, state_processer, network, replayArgs, qlearner_config, name, load_model=True):
+	def __init__(self, environment, state_processer, network, replayArgs, qlearner_config, name, load_model=False):
 		tf.reset_default_graph() # just in case
 		self.environment = environment
 		self.state_processer = state_processer
