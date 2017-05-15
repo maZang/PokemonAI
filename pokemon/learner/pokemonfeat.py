@@ -68,7 +68,7 @@ class PokemonAINetwork(object):
 				pools = [tf.nn.max_pool(tf.nn.relu(conv), [1,new_height,1,1], [1,1,1,1], 'VALID') for conv in conv_layers]
 				[layer.append(tf.squeeze(pool, [1,2])) for layer,pool in zip(layers,pools)]
 			conv_outputs = [tf.concat(layer,1) for layer in layers] # each output is of size [None,sum(feature_maps)]
-			conv_outputs = [tf.stack((layer,split),axis=1) for layer,split in zip(layers,splits)]
+			conv_outputs = [tf.concat((layer,split),1) for layer,split in zip(conv_outputs,splits)]
 		with tf.variable_scope('OwnTeamConvNet'):
 			own_player_conv = tf.expand_dims(tf.stack(conv_outputs[:6], axis=1), -1)
 			layers = []
@@ -116,13 +116,13 @@ class PokemonAINetwork(object):
 			rnn_output, self.final_state = tf.nn.dynamic_rnn(stacked_cell,lstm_input,initial_state=tuple_state)
 			rnn_output = tf.reshape(rnn_output,shape=(-1,self.config.memory_layer_size))
 		with tf.variable_scope('OutputQ'):
-			streamA,streamV = tf.split(self.rnn_output,2,1)
+			streamA,streamV = tf.split(rnn_output,2,1)
 			AW = tf.get_variable('AW', shape=(self.config.memory_layer_size//2, self.config.number_classes))
 			VW = tf.get_variable('VW', shape=(self.config.memory_layer_size//2, 1))
 			Ab = tf.get_variable('Ab', shape=(self.config.number_classes,))
 			Vb = tf.get_variable('Vb', shape=(1,))
 			advantage = tf.matmul(streamA,AW) + Ab
-			value = tf.matmul(steamV,VW) + Vb 
+			value = tf.matmul(streamV,VW) + Vb 
 			self.q_out = value + tf.subtract(advantage, tf.reduce_mean(advantage,axis=1,keep_dims=True))
 
 	def _add_loss(self):
