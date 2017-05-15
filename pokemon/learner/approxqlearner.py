@@ -100,6 +100,7 @@ class AIConfig(object):
 	last_move_data = const.LAST_MOVE_DATA
 	max_actions = const.MAX_ACTIONS
 	learning_rate = 1e-3
+	lower_bound = -100
 	max_epochs = 10
 	early_stop = 2
 	dropout = 1.0
