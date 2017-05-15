@@ -81,17 +81,17 @@ class ExperienceReplay(object):
 		return final_sample
 
 class AIConfig(object):
-	startE = 0.7
-	endE = 0.25
+	startE = 1.0
+	endE = 0.33
 	save_path = 'data/models/pokemon_ai/'
 	update_steps = 10
 	tau = 0.005 # update rate for target network
 	discount = 1.0
 	pre_train_steps = 0
-	annealing_steps = 500
+	annealing_steps = 10000
 	save_steps = 10
 	# network parameters
-	embedding_size = 400
+	embedding_size = 450
 	poke_descriptor_size = const.POKE_DESCRIPTOR_SIZE # poke id, 4 move ids, item id, status id
 	number_non_embedding = const.NON_EMBEDDING_DATA
 	number_classes = const.NUMBER_CLASSES
@@ -103,7 +103,7 @@ class AIConfig(object):
 	lower_bound = -100
 	max_epochs = 10
 	early_stop = 2
-	dropout = 0.5
+	dropout = 0.8
 	batch_size = 64
 	memory_layer_size = 1200
 	memory_layer_depth = 3
