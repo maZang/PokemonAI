@@ -525,9 +525,9 @@ class PokemonShowdown(Environment):
 		stat = matches[2]
 		boost = matches[3]
 
-		if self.lastMovePlayer == self.player.name:
-			if boost == "0":
-				self.lastMoveFailed = True
+		if self.lastMovePlayer == self.player.name and boost == "0":
+			print("Boost failed.")
+			self.lastMoveFailed = True
 
 	def processMega(self, line):
 		matches = re.search("\|-mega\|(p[12])a:\s+([^|]+)\|([^|]+)\|(.+)", line).groups()
