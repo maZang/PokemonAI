@@ -213,7 +213,7 @@ class PokemonShowdown(Environment):
 			# Check if we won
 			reward = 0
 			if self.lastMoveFailed:
-				reward += -0.1
+				reward += -0.05
 			if self.playerKnockout:
 				reward += 0.1
 			self.lastMoveFailed = False

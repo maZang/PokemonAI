@@ -105,7 +105,7 @@ class AIConfig(object):
 	early_stop = 2
 	dropout = 0.5
 	batch_size = 64
-	memory_layer_size = 1000
+	memory_layer_size = 1200
 	memory_layer_depth = 3
 	number_pokemon = const.NUMBER_POKEMON
 	number_moves = const.NUMBER_MOVES
@@ -114,7 +114,7 @@ class AIConfig(object):
 	kernels_poke=[1,2,3,4,5,6,7]
 	feature_maps_poke=[20,30,40,40,40,40,40]
 	kernels_team=[1,2,3,4,5,6]
-	feature_maps_team=[20,30,40,50,60,60]
+	feature_maps_team=[20,30,40,50,50,60]
 	num_steps = 8
 
 class PokemonShowdownAI(QLearner):
