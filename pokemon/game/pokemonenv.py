@@ -52,6 +52,8 @@ class PokemonShowdown(Environment):
 		self.lastMovePlayer = ""
 		# If the most recent move failed
 		self.lastMoveFailed = False
+		# If the player flinched
+		self.playerFlinched = False
 
 		self.opponentLastMove = 0
 
@@ -70,13 +72,20 @@ class PokemonShowdown(Environment):
 	def setNewEpisode(self):
 		self.player = Player(username=self.player.username)
 		self.opponent = Player()
+
 		self.lastMovePlayer = ""
 		self.lastMoveFailed = False
+		self.playerFlinched = False
+
 		self.opponentLastMove = 0
+
 		self.playerKnockout = False
+
 		self.winner = False
 		self.finished = False
+
 		self.turnNumber = -1
+
 		self.pokemon = [np.zeros((1, POKE_DESCRIPTOR_SIZE)) for _ in range(12)]
 		self.other_data = np.zeros((1, NON_EMBEDDING_DATA))
 		self.last_move_data = np.zeros((1, 2))
@@ -216,8 +225,13 @@ class PokemonShowdown(Environment):
 				reward += -0.05
 			if self.playerKnockout:
 				reward += 0.1
+
+			# Reset reward modifiers
 			self.lastMoveFailed = False
 			self.playerKnockout = False
+
+			self.playerFlinched = False
+
 			if self.finished:
 				print(nextState)
 				reward += (1 if self.winner else -1)
@@ -321,6 +335,8 @@ class PokemonShowdown(Environment):
 			self.processReplace(line)
 		elif line.startswith("|move|"):
 			self.processMove(line)
+		elif line.startswith("|cant|"):
+			self.processCant(line)
 		elif line.startswith("|-fail|"):
 			self.processFail(line)
 		elif line.startswith("|-immune|"):
@@ -507,6 +523,16 @@ class PokemonShowdown(Environment):
 				pokemon.moves.add(move)
 
 			assert(len(pokemon.moves) <= 4)
+
+	def processCant(self, line):
+		matches = re.search("\|cant\|(p[12])a:\s+([^|]+)\|([^|]+)", line).groups()
+		player = matches[0]
+		nickname = matches[1]
+		reason = matches[2]
+
+		if player == self.player.name and reason == "flinch":
+			print("Player was flinched.")
+			self.playerFlinched = True
 
 	def processFail(self, line):
 		if self.lastMovePlayer == self.player.name:
