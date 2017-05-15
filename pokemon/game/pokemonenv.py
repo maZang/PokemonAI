@@ -325,6 +325,8 @@ class PokemonShowdown(Environment):
 			self.processFail(line)
 		elif line.startswith("|-immune|"):
 			self.processImmune(line)
+		elif line.startswith("|-boost|"):
+			self.processBoost(line)
 		elif line.startswith("|-mega|"):
 			self.processMega(line)
 		elif line.startswith("|detailschange|"):
@@ -507,16 +509,25 @@ class PokemonShowdown(Environment):
 			assert(len(pokemon.moves) <= 4)
 
 	def processFail(self, line):
-		print(self.lastMovePlayer)
 		if self.lastMovePlayer == self.player.name:
 			print("Last move failed.")
 			self.lastMoveFailed = True
 
 	def processImmune(self, line):
-		print(self.lastMovePlayer)
 		if self.lastMovePlayer == self.player.name:
 			print("Last move immune.")
 			self.lastMoveFailed = True
+
+	def processBoost(self, line):
+		matches = re.search("\|-boost\|(p[12])a:\s+([^|]+)\|([^\n|]+)\|([^\n|]+)", line).groups()
+		player = matches[0]
+		nickname = matches[1]
+		stat = matches[2]
+		boost = matches[3]
+
+		if self.lastMovePlayer == self.player.name:
+			if boost == "0":
+				self.lastMoveFailed = True
 
 	def processMega(self, line):
 		matches = re.search("\|-mega\|(p[12])a:\s+([^|]+)\|([^|]+)\|(.+)", line).groups()
