@@ -428,21 +428,25 @@ class PokemonShowdown(Environment):
 			if "Arceus" in species:
 				self.prefixHandler("Arceus", species)
 			elif "Gourgeist" in species:
+				print("Gourgeist if statement is entered.")
 				self.prefixHandler("Gourgeist", species)
 			elif "Genesect" in species:
 				self.prefixHandler("Genesect", species)
-			elif "Gourgeist-Small" == species:
-				print("Species is Gourgeist-Small.")
-				self.prefixHandler("Gourgeist", species)
 
 			pokemon = self.opponent.getPokemonBySpecies(species)
+
+			if pokemon == None and "Gourgeist-Small" in species:
+				print("No pokemon was found with species: " + species)
+				pokemon = self.opponent.getPokemonBySpecies("Gourgeist")
+				pokemon.species = species
 
 			if pokemon == None:
 				pokemon = Pokemon()
 				pokemon.nickname = nickname
 				pokemon.species = species
-				self.opponent.pokemon.append(pokemon)
-				assert(len(self.opponent.pokemon) <= 6)
+				if len(self.opponent.pokemon) < 6:
+					self.opponent.pokemon.append(pokemon)
+				# assert(len(self.opponent.pokemon) <= 6)
 			elif pokemon.nickname == "":
 				pokemon.nickname = nickname
 			self.opponent.currentPokemon = pokemon
