@@ -52,6 +52,8 @@ class PokemonShowdown(Environment):
 		self.lastMovePlayer = ""
 		# If the most recent move failed
 		self.lastMoveFailed = False
+		# If the player move failed due to par, slp, taunt, flinch, etc.
+		self.playerCantMove = False
 
 		self.opponentLastMove = 0
 
@@ -70,13 +72,20 @@ class PokemonShowdown(Environment):
 	def setNewEpisode(self):
 		self.player = Player(username=self.player.username)
 		self.opponent = Player()
+
 		self.lastMovePlayer = ""
 		self.lastMoveFailed = False
+		self.playerCantMove = False
+
 		self.opponentLastMove = 0
+
 		self.playerKnockout = False
+
 		self.winner = False
 		self.finished = False
+
 		self.turnNumber = -1
+
 		self.pokemon = [np.zeros((1, POKE_DESCRIPTOR_SIZE)) for _ in range(12)]
 		self.other_data = np.zeros((1, NON_EMBEDDING_DATA))
 		self.last_move_data = np.zeros((1, 2))
@@ -101,9 +110,13 @@ class PokemonShowdown(Environment):
 
 		if action:
 			self.last_move_data[0][0] = action
+			
+		if self.playerCantMove:
+			self.last_move_data[0][0] = 0
 
 		if self.opponentLastMove:
 			self.last_move_data[0][1] = self.opponentLastMove
+		
 
 		return [np.copy(pokemon) for pokemon in self.pokemon] + [np.copy(self.other_data)] + [np.copy(self.last_move_data)] + [np.array(self.pad(self.actionList)).reshape(1,-1)]
 
@@ -216,8 +229,13 @@ class PokemonShowdown(Environment):
 				reward += -0.05
 			if self.playerKnockout:
 				reward += 0.1
+
+			# Reset reward modifiers
 			self.lastMoveFailed = False
 			self.playerKnockout = False
+
+			self.playerCantMove = False
+
 			if self.finished:
 				print(nextState)
 				reward += (1 if self.winner else -1)
@@ -321,6 +339,8 @@ class PokemonShowdown(Environment):
 			self.processReplace(line)
 		elif line.startswith("|move|"):
 			self.processMove(line)
+		elif line.startswith("|cant|"):
+			self.processCant(line)
 		elif line.startswith("|-fail|"):
 			self.processFail(line)
 		elif line.startswith("|-immune|"):
@@ -380,6 +400,9 @@ class PokemonShowdown(Environment):
 
 			pokemon = Pokemon()
 			pokemon.species = species
+			if "Gourgeist" in species:
+				print("Setting pokemon nickname to Gourgeist")
+				pokemon.nickname = "Gourgeist"
 			self.opponent.pokemon.append(pokemon)
 
 	def prefixHandler(self, pokePrefix, species):
@@ -408,21 +431,26 @@ class PokemonShowdown(Environment):
 			if "Arceus" in species:
 				self.prefixHandler("Arceus", species)
 			elif "Gourgeist" in species:
+				print("Gourgeist if statement is entered.")
+				print("Species: " + species)
 				self.prefixHandler("Gourgeist", species)
 			elif "Genesect" in species:
 				self.prefixHandler("Genesect", species)
-			elif "Gourgeist-Small" == species:
-				print("Species is Gourgeist-Small.")
-				self.prefixHandler("Gourgeist", species)
 
 			pokemon = self.opponent.getPokemonBySpecies(species)
+
+			if pokemon == None and "Gourgeist-Small" in species:
+				print("No pokemon was found with species: " + species)
+				pokemon = self.opponent.getPokemonByNickname("Gourgeist")
+				if pokemon is not None:
+					pokemon.species = species
 
 			if pokemon == None:
 				pokemon = Pokemon()
 				pokemon.nickname = nickname
 				pokemon.species = species
 				self.opponent.pokemon.append(pokemon)
-				assert(len(self.opponent.pokemon) <= 6)
+				# assert(len(self.opponent.pokemon) <= 6)
 			elif pokemon.nickname == "":
 				pokemon.nickname = nickname
 			self.opponent.currentPokemon = pokemon
@@ -507,6 +535,16 @@ class PokemonShowdown(Environment):
 				pokemon.moves.add(move)
 
 			assert(len(pokemon.moves) <= 4)
+
+	def processCant(self, line):
+		matches = re.search("\|cant\|(p[12])a:\s+([^|]+)\|([^|]+)", line).groups()
+		player = matches[0]
+		nickname = matches[1]
+		reason = matches[2]
+
+		if player == self.player.name:
+			print("Player failed to use move (flinch, slp, par, taunt, etc)")
+			self.playerCantMove = True
 
 	def processFail(self, line):
 		if self.lastMovePlayer == self.player.name:
