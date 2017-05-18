@@ -43,6 +43,7 @@ class PokemonAINetwork(object):
 		with tf.device('/cpu:0'):
 			all_embeddings = tf.get_variable('poke_embeddings', shape=(self.config.number_pokemon+self.config.number_moves+\
 				self.config.number_items+self.config.number_status, self.config.embedding_size))
+			self.all_embeddings = all_embeddings
 			self.embedding_inputs = [tf.reshape(tf.nn.embedding_lookup(all_embeddings, placeholder),
 				(-1, self.config.poke_descriptor_size, self.config.embedding_size))
 				for placeholder in self.poke_placeholders]
