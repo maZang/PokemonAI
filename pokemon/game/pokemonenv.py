@@ -797,8 +797,13 @@ def challenge(driver, user=None):
 
 				for pokemon in driver_find_elements(driver, By.NAME, "chooseTeamPreview"):
 					if pokemon.text == 'Zoroark':
-						for elem in driver_find_elements(driver, By.NAME, "chooseTeamPreview"):
-							elem.click()
+						while True:
+							try:
+								for elem in driver_find_elements(driver, By.NAME, "chooseTeamPreview"):
+									elem.click()
+							except StaleElementReferenceException as e:
+								continue 
+							break
 						break
 
 				driver_find_element(driver, By.CSS_SELECTOR, 'button[value="0"]').click()
