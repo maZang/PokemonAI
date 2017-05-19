@@ -81,7 +81,7 @@ class ExperienceReplay(object):
 		return final_sample
 
 class AIConfig(object):
-	startE = 0
+	startE = 1.0
 	endE = 0.33
 	save_path = 'data/models/pokemon_ai/'
 	update_steps = 10
