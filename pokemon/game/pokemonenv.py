@@ -110,13 +110,13 @@ class PokemonShowdown(Environment):
 
 		if action:
 			self.last_move_data[0][0] = action
-			
+
 		if self.playerCantMove:
 			self.last_move_data[0][0] = 0
 
 		if self.opponentLastMove:
 			self.last_move_data[0][1] = self.opponentLastMove
-		
+
 
 		return [np.copy(pokemon) for pokemon in self.pokemon] + [np.copy(self.other_data)] + [np.copy(self.last_move_data)] + [np.array(self.pad(self.actionList)).reshape(1,-1)]
 
@@ -240,7 +240,7 @@ class PokemonShowdown(Environment):
 				print(nextState)
 				reward += (1 if self.winner else -1)
 			print(reward)
-			self.learner.update(currentState, action, nextState, reward, np.abs(reward))
+			# self.learner.update(currentState, action, nextState, reward, np.abs(reward))
 
 			currentState = nextState
 
@@ -802,7 +802,7 @@ def challenge(driver, user=None):
 								for elem in driver_find_elements(driver, By.NAME, "chooseTeamPreview"):
 									elem.click()
 							except StaleElementReferenceException as e:
-								continue 
+								continue
 							break
 						break
 

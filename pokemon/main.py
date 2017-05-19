@@ -16,18 +16,16 @@ def main(args):
 	#replay.spiderman()
 	#runPokemonShowdown()
 
-	'''
 	if args[0] in ['y', '1', 'True', 'T', 'Y']:
 		arg = True
 	else:
 		arg = False
 	runAgainstItself(isOpponent=arg)
-	'''
 
 	#replay.crawl()
 	#runSupervised()
 	#runParser()
-	restoreTFVariables()
+	# restoreTFVariables()
 
 def runParser():
 	parser.main()
