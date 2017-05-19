@@ -240,7 +240,7 @@ class PokemonShowdown(Environment):
 				print(nextState)
 				reward += (1 if self.winner else -1)
 			print(reward)
-			# self.learner.update(currentState, action, nextState, reward, np.abs(reward))
+			self.learner.update(currentState, action, nextState, reward, np.abs(reward))
 
 			currentState = nextState
 
