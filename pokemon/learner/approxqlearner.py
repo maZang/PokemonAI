@@ -88,7 +88,7 @@ class AIConfig(object):
 	tau = 0.005 # update rate for target network
 	discount = 1.0
 	pre_train_steps = 0
-	annealing_steps = 10000
+	annealing_steps = 1000
 	save_steps = 10
 	# network parameters
 	embedding_size = 450
@@ -116,6 +116,15 @@ class AIConfig(object):
 	kernels_team=[1,2,3,4,5,6]
 	feature_maps_team=[20,30,40,50,50,60]
 	num_steps = 8
+
+class AIConfig2(AIConfig):
+	embedding_size_poke = 500
+	embedding_size_move = 500
+	embedding_size_status = 50
+	embedding_size_item = 100
+	embedding_sizes = [500, 500, 500, 500, 500, 100, 50] # in order of poke, 4 moves, item, status
+	hidden_dim_poke_vecs = sum(embedding_sizes)
+	hidden_layers_poke_vecs = 2
 
 class PokemonShowdownAI(QLearner):
 	'''
