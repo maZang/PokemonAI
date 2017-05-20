@@ -1,7 +1,7 @@
 import tensorflow as tf
 import numpy as np
 
-class PokemonAINetwork2(object):
+class PokemonAINetwork3(object):
 
 	def _add_placeholder(self):
 		self.poke_placeholders = [tf.placeholder(tf.int32, shape=(None, self.config.poke_descriptor_size)) for _ in range(12)]
@@ -47,6 +47,7 @@ class PokemonAINetwork2(object):
 		[batch_size, number_steps, hidden_size]
 		'''
 		with tf.variable_scope('Split'):
+			splits = tf.split(self.x_data_placeholder, self.config.num_concat, 1)
 			pokemon_mix = [embedding_input[0] for embedding_input in self.embedding_inputs]
 			item_mix = [embedding_input[5] for embedding_input in self.embedding_inputs]
 			status_mix = [embedding_input[6] for embedding_input in self.embedding_inputs]
@@ -62,6 +63,7 @@ class PokemonAINetwork2(object):
 			pokemon_vectors = []
 			for vecs in zip(pokemon_mix, move_mix, item_mix, status_mix):
 				pokemon_vectors.append(tf.concat(vecs, 1))
+			pokemon_vectors = [tf.multiply(poke_vec, health) for poke_vec, health in zip(pokemon_vectors, splits)]
 			own_team_poke = pokemon_vectors[:6]
 			opp_team_poke = pokemon_vectors[6:]
 		poke_vec_size = self.config.embedding_size_poke + 3 * self.config.embedding_size_move +\
@@ -118,8 +120,8 @@ class PokemonAINetwork2(object):
 				opp_team_mix = tf.nn.relu(tf.matmul(opp_team_mix, W) + b)
 		with tf.variable_scope('FCC'):
 			last_move_concat = tf.reshape(self.last_move_embeddings, (-1, self.config.last_move_data*self.config.embedding_size_move))
-			output = tf.concat([own_team_mix, opp_team_mix, self.x_data_placeholder, last_move_concat], 1) # size of (None, self.config.hidden_dim_team_sum * 2)
-			output_size = 2 * self.config.hidden_dim_team_sum + self.config.number_non_embedding + 2 * self.config.embedding_size_move
+			output = tf.concat([own_team_mix, opp_team_mix, last_move_concat], 1) # size of (None, self.config.hidden_dim_team_sum * 2)
+			output_size = 2 * self.config.hidden_dim_team_sum + 2 * self.config.embedding_size_move
 			for layer in range(self.config.hidden_layers_battle):
 				if layer == 0:
 					inp_size = output_size 

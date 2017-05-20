@@ -1,7 +1,9 @@
 from reinforcement.environment import Environment
 from learner.approxqlearner import PokemonShowdownAI
-from learner.approxqlearner import AIConfig
+from learner.approxqlearner import AIConfig, AIConfig2, AIConfig3
 from learner.pokemonfeat import PokemonAINetwork
+from learner.pokemonfeat2 import PokemonAINetwork2
+from learner.pokemonfeat3 import PokemonAINetwork3
 from selenium.common.exceptions import NoSuchElementException
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
@@ -30,19 +32,21 @@ class PokemonShowdownConfig(object):
 	user='CS6700AI'
 	password='HORSERADISHBACON'
 	learner=PokemonShowdownAI
-	network=PokemonAINetwork
+	network=PokemonAINetwork3
+	config=AIConfig3
 
 
 class PokemonShowdownConfigSelfPlay(object):
 	user='CS6700AITest'
 	password='HORSERADISHBACON'
 	learner=PokemonShowdownAI
-	network=PokemonAINetwork
+	network=PokemonAINetwork3
+	config=AIConfig3
 
 
 class PokemonShowdown(Environment):
 	def __init__(self, config, driver, username):
-		self.learner = config.learner(self, lambda x: x, config.network, {'buffer_size' : 1000}, AIConfig(), config.user)
+		self.learner = config.learner(self, lambda x: x, config.network, {'buffer_size' : 1000}, config.config(), config.user)
 		self.driver = driver
 
 		self.player = Player(username=username)

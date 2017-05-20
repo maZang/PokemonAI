@@ -118,13 +118,21 @@ class AIConfig(object):
 	num_steps = 8
 
 class AIConfig2(AIConfig):
+	save_path = 'data/models/pokemon_ai2/'
 	embedding_size_poke = 500
 	embedding_size_move = 500
 	embedding_size_status = 50
 	embedding_size_item = 100
-	embedding_sizes = [500, 500, 500, 500, 500, 100, 50] # in order of poke, 4 moves, item, status
+	embedding_sizes = [embedding_size_poke] + 4 * [embedding_size_move] + [embedding_size_item] + [embedding_size_status] # in order of poke, 4 moves, item, status
 	hidden_dim_poke_vecs = sum(embedding_sizes)
+	hidden_dim_team_sum = 500
 	hidden_layers_poke_vecs = 2
+	hidden_layers_team_sum = 2
+	hidden_layers_battle = 1
+	hidden_dim_battle = 1000
+
+class AIConfig3(AIConfig2):
+	save_path = 'data/models/pokemon_ai3/'
 
 class PokemonShowdownAI(QLearner):
 	'''
@@ -132,7 +140,7 @@ class PokemonShowdownAI(QLearner):
 	both experience replay and a target approximation function
 	'''
 
-	def __init__(self, environment, state_processer, network, replayArgs, qlearner_config, name, load_model=True):
+	def __init__(self, environment, state_processer, network, replayArgs, qlearner_config, name, load_model=False):
 		tf.reset_default_graph() # just in case
 		self.environment = environment
 		self.state_processer = state_processer
